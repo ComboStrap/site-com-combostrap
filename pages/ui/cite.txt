@@ -1,0 +1,29 @@
+====== Webcomponent - Cite ======
+
+
+===== About ===== 
+The ''cite'' element
+
+It can go anywhere but you should find it most often in a [[ui:blockquote|blockquote]].
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Example =====
+
+==== Basic ====
+
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<cite>The credits goes to</cite>
+</code>
+</webcode>
+
+==== With style ====
+
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<cite style="color:var(--blue)">The credits goes to</cite>
+</code>
+</webcode>
+

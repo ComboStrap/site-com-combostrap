@@ -1,0 +1,45 @@
+---json
+{
+    "canonical":"id:redirect"
+}
+---
+====== URL Manager - ID Redirect ======
+
+
+===== About =====
+An ''ID redirect'' is when the [[doku>pagename|ID]] of the URL is set to another one.
+
+It can happen in the following case:
+  * If the URL has a [[#canonical|canonial path]], the dokuwiki ID will be rewritten to the page id.
+  * If the [[page_rules|page rules redirection]] lead to an existent page.
+
+
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Canonical =====
+==== Canonical Demo ====
+
+This page has also a [[semantic:canonical|canonical value]] of  ''id:redirect'' and is therefore accessible also from this link 
+<btn class="btn-light">
+[[id:redirect#canonical demo|A link to demonstrate an ID Redirect]]
+</btn>
+\\
+
+<wrap tip>The link is red because the dokuwiki page does not exist but you will get redirected to this page.</wrap>
+
+
+==== Canonical Processing ====
+
+  * When a user is asking for the non-existent page with the [[doku>pagename|dokuwiki id]] value ''namespace:name'' via one of this URL:
+      * https://example.com/doku.php?id=namespace:name
+      * or https://example.com/namespace/name (if [[doku>rewrite|dokuwiki URL rewriting]] was set)
+  * If the page has a [[semantic:canonical|canonical value]] of ''othernamespace:name'', the ''ID'' will be rewritten (set) from:
+      * ''namespace:name''
+      * to ''othernamespace:name''
+
+
+===== Message =====
+A ''id redirect'' is transparent and shows no message.
+

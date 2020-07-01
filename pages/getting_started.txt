@@ -1,0 +1,42 @@
+====== Combostrap - Getting Started ======
+
+
+===== About =====
+How to have a professional website up and running in no time  with [[start|combostrap]]
+
+
+===== Steps =====
+==== Dokuwiki Installation ====
+[[start|combostrap]] is based on the [[doku>|Dokuwiki Engine]] that must be already instgalled.
+
+If this is not the case, the ''Dokuwiki'' installation steps are as follow:
+  * [[https://download.dokuwiki.org/|Download Dokuwiki]]
+  * Upload the zip file to your web server
+  * Unzip it
+  * Access the installer script at ''https://yourdomain.com/install.php''
+  * Answer the install form
+  * Done
+
+To know more:
+  * about the installation, see [[doku>install]]
+  * about the installer script, see [[doku>installer]]
+
+==== Bootie Template Installation ====
+To install the [[bootie|bootie template]]:
+  * Click on the ''Admin'' link to go to the [[doku>admin_window|Admin Window]]. ie ''https://yourdomain.com/?do=admin''
+  * Click on the ''Extension Manager'' link to go to the [[doku>plugin:extension|Extension Manager plugin]]. ie ''https://yourdomain.com/?do=admin&page=extension''
+  * Click on the ''Search and Install'' link to go to the ''Search tab'' ie ''https://yourdomain.com/?do=admin&page=extension&tab=search'' 
+  * Search for the term ''Bootie''  (ie ''https://yourdomain.com/?do=admin&page=extension&tab=search&q=bootie'')
+  * And click on the ''install'' button.
+
+{{::bootie_install_via_extension_manager.png|}}
+
+
+==== Dokuwiki Configuration ====
+This website uses the following configuration:
+  * [[doku>config:useheading]]: 'Always'
+  * ''Target window for external links'': ''_blank''
+  * [[doku>config:sitemap]]: 10 days
+  * [[doku>config:userewrite]] - ''.htaccess'' (for nice URL)
+  * [[doku>config:useslash]] - Yes (for nice URL)
+

@@ -1,0 +1,37 @@
+~~NOTOC~~
+
+====== Combostrap ======
+
+===== About =====
+The ''Combostrap Dokuwiki Plugin'' is a [[doku>plugin|dokuwiki plugin]] package that enhance the Dokuwiki functionalities.
+
+
+===== Components =====
+
+==== UI ====
+[[ui:ui|UI components]] that change the rendering of a page
+
+
+==== Navigation ====
+  * [[ui:navbar]]
+  * [[ui:button]]
+==== Data Structure (Semantic) ====
+This elements will add metadata into the page.
+  * [[semantic:frontmatter]]: A metadata engine to structure your page
+  * [[semantic:canonical]]: Give your page an identifier.
+  * Unit testing: A [[doku>wiki:syntax#code_blocks|code block]] extension to define unit test in the documentation. (An engine must parse them)
+      * [[semantic:unit|unit]]: defines an unit test
+      * [[ui:console|console]]: defines the console output
+
+==== URL Management ====
+[[url:url]]
+
+==== SEO ====
+[[Seo]]
+
+==== Integration ====
+This components integrates third party library:
+  * [[ui:math]] - write maths with mathjax
+  * [[ui:disqus]] -  add a disqus forum
+===== Installation =====
+[[getting_started]]

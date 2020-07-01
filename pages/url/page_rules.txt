@@ -1,0 +1,19 @@
+---json
+{
+   "canonical":"page:rules"
+}
+---
+
+
+
+====== URL manager - Pages Rules ======
+
+===== About =====
+''page rules'' are rules that permits to apply a [[id_redirect|ID redirection]] for a page or a group of page.
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Steps =====
+  * Go to the [[doku>admin_window|admin window]] (ie ''https://yourdomain.com/dokuwiki/?do=admin'')
+  * Click the ''Page Rules'' link

@@ -1,0 +1,41 @@
+====== Math ======
+
+===== About =====
+The ''math'' component allows to add [[http://docs.mathjax.org/en/latest/start.html#tex-and-latex-input|MathJax Text and Latex formulas]] 
+
+
+<WRAP round important>
+This component needs a special [[https://www.dokuwiki.org/devel:event_handlers|event]] called ''TPL_DOCUMENT_CLOSING'' in order to add the mathjax library only if this component is used.
+It means than in editing mode, you may also not see the formulas.
+
+Example of php code that must be added before the ''%%</html>%%'' tag:
+<code php>
+$data = "";// Mandatory
+trigger_event('TPL_DOCUMENT_CLOSING', $data);
+tpl_flush();
+</code>
+</WRAP>
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Example =====
+
+==== Block ====
+
+
+<code dw>
+<MATH>x^2</MATH>
+</code>
+This formula should not be inline but at the line <MATH>x^2</MATH>
+==== In-line ====
+
+<code dw>
+<math>x^2</math>
+</code>
+This formulas should be inline <math>x^2</math>
+
+
+
+
+

@@ -1,0 +1,40 @@
+====== Dokuwiki - Combostrap Plugin - UI Components ======
+
+===== About =====
+The ''UI'' components changes the rendering of a page
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Features =====
+==== Superset of HTML ====
+They are all a superset of HTML which means that for every component, you can use:
+  * the ''class''
+  * and the ''style'' attribute
+to refine how you want them to be.
+===== List =====
+
+
+==== Block ====
+
+  * [[card|Card]]: Do you want to put a text in a box with optionally an image and a button, that's a card
+      * [[teaser]]: A card with a call to action
+  * [[blockquote|Blockquote]]: A blockquote is a card with a citation.
+  * [[button|Button (btn)]]: A button
+  * [[related|Related]]: A component showing the backlinks
+  * [[math]]: Writing math formulas
+
+==== Navbar ====
+
+  * [[navbar|navbar]]: All elements that you put in the top bar of a page
+      * [[search|search]] - A search form
+      * [[group|group]] - To group dropdown
+      * [[dropdown|dropdown]] - A dropdown menu
+      * [[brand|brand]] - To show the brand as an icon or text
+
+==== Layout ====
+
+  * [[card_column|Card column]] - A card column is a column layout for cards and blockquote.
+
+==== Forum ====
+  * [[disqus]]

@@ -1,0 +1,17 @@
+====== URL Manager - Redirection Processing ======
+
+===== About =====
+There is two kind of redirection:
+    * an [[id_redirect|ID redirect]] 
+    * an [[http_redirect|HTTP redirect]] 
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Processing =====
+
+If a page does not exist
+  * if the page has a [[:semantic:canonical|canonical]], rewrite the [[doku>Pagename|Dokuwiki ID]] to the [[:semantic:canonical|canonical]] one
+  * if the page has a redirect, redirect with a permanent redirection (301)
+  * if the user has a write permission, redirect the action to edit
+  * if the user has only read permission, follow the redirect actions in order of the configurations

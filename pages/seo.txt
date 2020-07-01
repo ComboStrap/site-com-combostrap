@@ -1,0 +1,19 @@
+====== Dokuwiki - Combostrap Plugin - SEO (Search Engine Optimization) ======
+
+===== About =====
+[[kb>seo|Search engine optimization]] is the process of making your website optimized for [[kb>search/engine|search engine]] such as as Google or Bing.
+
+On a website level, it means:
+  * good content
+  * good semantic (data structure)
+  * good page speed
+
+The [[start|web component plugin]] helps you on the [[#data structure|web data structure]]
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Data Structure =====
+The following data may be set for page:
+  * [[semantic:canonical]]
+  * [[semantic:description]]

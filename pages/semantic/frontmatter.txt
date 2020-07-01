@@ -1,0 +1,102 @@
+
+---json
+{
+    "description":"Would you like to hack all the way down the hole, this article will tell you",
+    "canonical":"webcomponent:frontmatter"
+}
+---
+
+====== Front Matter ======
+
+===== About =====
+''Front Matter'' is a dokuwiki plugin that:
+  * permits to add dokuwiki metadata in a json format.
+  * add metadata into the HTML page:
+      * SEO
+          * description
+          * canonical
+      * Twitter (todo)
+      * Facebook (todo)
+
+It borrows its name from the [[https://datacadamia.com/markup/front-matter|front matter book]]
+
+
+
+
+
+===== Example =====
+Just add a block of code that:
+  * starts with ''%%---json%%''
+  * contains a json document
+  * end with ''%%---%%''
+
+Example:
+<code javascript>
+---json
+{
+    "canonical":"my:id",
+    "description":"That's the article that you want to read!"
+}
+---
+</code>
+
+===== Built-in Properties =====
+''Front Matter'' takes into account the below properties
+
+==== description ====
+''description'' is the [[https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#Active_learning_The_descriptions_use_in_search_engines|meta description]].
+
+
+
+
+<code html>
+<meta name="description" content="The best page on the universe">
+</code>
+
+
+
+
+===== Dokuwiki =====
+
+
+Dokuwiki follows the [[http://dublincore.org/documents/dces/|Dublin Core element names]] as keys in their meta. See [[doku>metadata]]
+
+The below table comes from [[doku>plugin:meta#data_structure|the documentation of the meta plugin]]. It is just here for information as it reflects the dokuwiki array.
+
+^ Element ^ Child Elements ^ Type ^ Comments ^
+| title | --- | string | The title of the page. If ''$conf['useheading']'' is on; defaults to the first heading |
+| creator | --- | string | indicates the primary author of a page; defaults to the full name of the user who created the page |
+| subject | --- | string | list of space separated tags; not set by default |
+| description | tableofcontents, abstract | array | tableofcontents is an array of the TOC items with keys ''hid'' (header ID), ''title'', ''type'' and ''level''; abstract is 250 to 500 char raw text from the beginning of the page used for the RSS feed |
+| publisher | --- | string | not used |
+| contributor | --- | array | a list of all users who have made non-minor contributions to the page; every item has the user ID as key and the full name as value |
+| date | created, valid, available, issued, modified | array | a timestamp (or an array of the timestamps ''start'' and ''end'' for a period); date created is filled with the creation date by default, date modified with the date of the last non-minor edit; the rest is not set by default |
+| type | --- | string | not set, but defaults to "text" when exported; recommended values are: collection, dataset, event, image, interactiveresource, movingimage, physicalobject, service, software, sound, stillimage or text |
+| format | --- | string | a MIME type is expected; not set, but defaults to "text/html" when exported |
+| identifier | --- | string | a unique ID of the page; not set, but defaults to the page ID when exported |
+| source | --- | string | not used |
+| language | --- | string | a two-letter language code is expected; not set, but defaults to the chosen language for DokuWiki when exported |
+| relation | isversionof, hasversion, isreplacedby, replaces, \\ isrequiredby, requires, ispartof, \\ haspart, isreferencedby, references, \\ isformatof, hasformat, conformsto | array | each of the child elements can contain a list of pages that stand in the indicated relation to the current page; the page ID serves as key, the existence of the page as value; in references, DokuWiki keeps track of which pages are linked by the current page;  |
+| coverage | spatial, temporal | array | not used |
+| rights | accessrights, license | array | not set, but accessrights default to "public editable", "public viewable" or "private" with respect to current ACL settings; license defaults to the Creative Commons license if set |
+
+===== Note =====
+
+Amp Google:
+  * https://ogp.me/
+  * Schema.org
+
+Social:
+  * https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started (To render in twitter as a card)
+  * https://developers.facebook.com/docs/sharing/webmasters
+
+Build, test:
+  * [[https://developers.google.com/search/docs/guides/prototype|Build, Test, and Release Your Structured Data]]
+  * [[https://support.google.com/webmasters/answer/7552505|Rich result status report]]
+
+Online test: 
+  * https://search.google.com/test/rich-results
+  * https://search.google.com/structured-data/testing-tool/u/0/
+
+
+

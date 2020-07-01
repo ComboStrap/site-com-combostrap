@@ -1,0 +1,60 @@
+====== Combostrap - blockquote ======
+
+
+
+===== About =====
+A ''blockquote'' component is a type of [[ui:card|card]]
+
+A blockquote has always:
+  * the text at the left side
+  * the [[cite|citation]] at the right side
+  * a margin of [[https://getbootstrap.com/docs/4.0/utilities/spacing/|m-3]]
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Example =====
+
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<card-columns>
+
+<blockquote>
+A Blockquote is a [[card|card]]
+{{::teaser_image_1.png?400}}
+<cite>Say the [[card|card]]</cite>
+</blockquote>
+
+<blockquote>
+My Blockquote Without Cite
+{{::teaser_image_2.jpg}}
+</blockquote>
+
+<blockquote>
+My Blockquote With Citation
+<cite>Citation</cite>
+</blockquote>
+
+
+</card-columns>
+
+<blockquote>Thanks for stopping by. This website is the personal website of a computer scientist, trainee for life.
+Welcome !
+<cite>Nico</cite>
+</blockquote>
+
+  * Blockquote with Math
+<blockquote>
+<MATH>
+\begin{array}{lrl}
+\text{errors} & =&  (\text{more code})^2 \\
+e & = & mc^2
+\end{array}
+</MATH>
+<cite>[[twitter>ypriverol/status/603134562399559680/photo/1|Brilliant]]</cite>
+</blockquote>
+</code>
+  * Result
+</webcode>
+
+

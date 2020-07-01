@@ -1,0 +1,86 @@
+---json
+{
+   "canonical":"navbar"
+}
+---
+
+====== Combostrap - Navbar ======
+
+===== About =====
+The ''navbar'' component is the implementation of the top element of [[https://getbootstrap.com/docs/4.0/components/navbar/|bootstrap navbar]].
+
+Inside a ''navnar'' component, you can add:
+  * a [[ui:container|container]]  to limit the horizontal width and center the navbar
+  * a [[ui:search|search form]]
+  * a [[ui:group|group]] to group [[ui:dropdown|dropdown menu]]
+  * a [[ui:dropdown|dropdown menu]]
+  * a [[ui:collapse|collapse container]] to group the element that will collapse
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Syntax =====
+<code>
+<navbar class="navbar-expand-md ...">
+</code>
+
+This syntax will output as HTML
+<code html>
+<nav class="navbar navbar-expand-md ..."
+</code>
+
+===== Example =====
+
+==== A navbar with two dropdown menu and the search box at the right ====
+
+  * No cache when developing the bar to be sure.
+<code>
+~~NOCACHE~~
+</code>
+  * The start of the navbar and we put the content in a [[container|container]]
+<code xml>
+<navbar class="navbar-expand-md">
+<container>
+</code>
+  * The [[brand|brand]]. You can also put a [[icon|icon]]
+<code xml>
+<brand class="pt-0" title="Brand">
+Hôme
+</brand>
+</code>
+  * Collapse to indicate all elements that will collapse when browsing the web site on a mobile phone
+<code xml>
+<collapse>
+</code>
+  * A group with ''mr-auto'' to push the element that are not in the group at the right side of the page
+<code xml>
+<group class="mr-auto">
+</code>
+  * Two drop down menu
+<code xml>
+<dropdown name="First Menu" >
+[[myfirst:page|First Page]]
+[[mysecond:page|First Page]]
+</dropdown>
+
+<dropdown name="Second">
+[[myfirst:page|First Page]]
+[[mysecond:page|First Page]]
+</dropdown>
+</code>
+  * The end of the group
+<code xml>
+</group>
+</code>
+  * The [[search|search bar]]
+<code xml>
+<search class="mr-0 pr-0">
+</code>
+  * The end of the element to collapse (ie we collapse all [[dropdown|drop down]] and the [[search|search bar]]
+<code xml>
+</collapse>
+</code>
+  * The end of the [[container|container]] and of the ''navbar''
+<code xml>
+</container>
+</navbar>
+</code>

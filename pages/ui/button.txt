@@ -1,0 +1,39 @@
+---json
+{
+   "button":"button"
+}
+---
+
+====== Combostrap - Button ======
+
+===== About =====
+''Button'' example
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Example =====
+
+  * Internal link
+<webcode name="Button" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<btn>[[:start|Go to Combostrap]]</btn>
+</code>
+</webcode>
+  * External Link
+<webcode name="Button" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<btn>[[https://gerardnico.com/dokuwiki/webcomponent/button|Go to external link]]</btn>
+</code>
+</webcode>
+  * With class
+<webcode name="Button" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<btn class="p-3">[[:start|Go to Combostrap]]</btn>
+</code>
+</webcode>
+
+
+
+
+

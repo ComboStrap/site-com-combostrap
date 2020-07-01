@@ -1,0 +1,18 @@
+====== Combostrap - Console ======
+
+===== About =====
+The ''console'' component is just a semantic layer above the [[doku>wiki:syntax#code_blocks|dokuwiki file block]].
+
+It's to indicate that this is the  output of a command line (and not a file).
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Syntax =====
+<webcode>
+<code dw>
+<console>
+The output is in a console
+</console>
+</code>
+</webcode>

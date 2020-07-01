@@ -1,0 +1,23 @@
+====== Combostrap - Disqus Forum / Discussion ======
+
+
+===== About =====
+The ''disqus'' component will add a disqus forum.
+
+===== Link =====
+
+  * The admin panel - https://disqus.com/admin/
+
+===== Syntax =====
+
+<code dw>
+<disqus />
+</code>
+
+===== Configuration =====
+  * ''forumShortName'' is the disqus forum short name as explained [[https://help.disqus.com/en/articles/1717084-javascript-configuration-variables|in the documentation]]
+===== Example =====
+
+<code dw>
+<disqus />
+</code>

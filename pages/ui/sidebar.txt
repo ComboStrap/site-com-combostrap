@@ -1,0 +1,3 @@
+~~NOCACHE~~
+
+<minimap suppress="(Combostrap Plugin - UI|Combostrap|Combostrap|UI Combostrap) - ">

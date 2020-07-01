@@ -1,0 +1,66 @@
+---json
+{
+   "canonical":"url:manager"
+}
+---
+====== Dokuwiki - Combostrap Plugin - URL Manager  (formerly 404manager) ======
+
+
+
+===== About =====
+The ''URL manager'' (known formerly as the ''404manager'') manages the behavior of [[doku>|Dokuwiki]] when an [[kb>url|URL]] does not match a [[doku>pagename|Dokuwiki page]].
+
+===== The problem =====
+
+A [[doku>pagename|DokuWiki page]] may become unavailable if it has been:
+  * moved
+  * deleted
+  * or renamed
+In this case, the webserver should return a ''404 web page'' along with a [[wp>HTTP_404|hard HTTP 404 response]] (meaning that the ''Page Was Not Found'')
+
+<illustration name="404" />
+
+It hurts:
+  * [[#user_experience|user experience]]
+  * [[#user_experience|page views]]
+  * [[#user_experience|ads revenue]]
+  * and [[#domain_authority|domain authority]]
+
+==== User experience ====
+Showing a ''404 page'', next to the fact that this is not really friendly, generally means that your users end their navigation with the following consequences:
+  * the [[kb>bounce/rate|bounce rate]] increases
+  * the number of [[kb>page:views|page views]] decreases.
+  * and if you are showing ''ads'', your revenue will decrease because you can't show ads on a ''404 page'' as it's a violation of ad policies. (Example with [[https://support.google.com/adspolicy/answer/6368661?hl=en|Google Ads]])
+
+==== Domain Authority ====
+[[kb>domain/authority|domain authority]] is a [[:seo|SEO]] metrics based on [[kb>backlink#external|external backlinks]]. (A external backlink is a [[kb>hyperlink|hyperlink]] from a website to your website).
+
+When your page does not exist and returns a ''404 response'', this backlinks are not validated and your are losing [[kb>domain/authority|authority]].
+
+
+===== Features =====
+
+
+
+The plugin can:
+  * redirect to the edit mode
+  * redirect to a internal page
+  * redirect to an external page
+  * redirect to the search engine
+  * show you the pages with the same name
+
+===== More =====
+
+  * More.... Specifications, Usage and Installation can be found on the [[github>gerardnico/dokuwiki-plugin-404manager|Readme file of the github repository]]
+
+===== URL Processing =====
+
+See [[redirection]]
+
+
+===== Message =====
+  * There is no message for a [[id_redirect|rewrite]] by default.
+===== Illustration =====
+
+
+{{ https://raw.githubusercontent.com/gerardnico/dokuwiki-plugin-404manager/master/images/dokuwiki_404manager_conf.jpg }}

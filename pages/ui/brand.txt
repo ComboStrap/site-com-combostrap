@@ -1,0 +1,35 @@
+====== Brand ======
+
+===== About =====
+''brand'' is a component that must go in a [[ui:navbar|navbar]]
+
+It highlights the  brand.
+
+Same idea than the [[https://getbootstrap.com/docs/4.0/components/navbar/#brand|Bootstrap Brand]]
+
+===== Articles Related =====
+{{backlinks>.}}
+===== Example =====
+==== Text ====
+
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<brand>
+Nico
+</brand>
+</code>
+</webcode>
+
+==== Icon ====
+Embbedded [[icon|icon]]
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<brand style="color:#dc3545">
+<html>
+<svg style="width:72px;height:72px" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M9,7V17H13A2,2 0 0,0 15,15V9A2,2 0 0,0 13,7H9M11,9H13V15H11V9M5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3Z" />
+</svg>
+</html>
+</brand>
+</code>
+</webcode>

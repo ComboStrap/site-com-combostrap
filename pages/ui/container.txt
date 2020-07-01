@@ -1,0 +1,8 @@
+====== Combostrap - Container ======
+
+===== About =====
+[[https://getbootstrap.com/docs/4.3/layout/overview/#containers|container]] implementation of Bootstrap.
+
+Container in [[navbar|Navbar]] are used to limit the horizontal width. ([[https://getbootstrap.com/docs/4.0/components/navbar/#containers|doc]])
+===== Articles Related =====
+{{backlinks>.}}
