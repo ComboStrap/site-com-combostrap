@@ -42,12 +42,16 @@ When your page does not exist and returns a ''404 response'', this backlinks are
 
 
 
-The plugin can:
-  * redirect to the edit mode
-  * redirect to a internal page
-  * redirect to an external page
-  * redirect to the search engine
+  * The plugin can redirect a writer to the edit mode
   * show you the pages with the same name
+  * redirect to the search engine
+
+===== Algorithm =====
+
+  * [[bestendpagename]]
+
+
+
 
 ===== More =====
 

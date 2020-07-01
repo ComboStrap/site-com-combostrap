@@ -1,0 +1,15 @@
+{
+    "name": "combo",
+    "backup": "/opt/www/backup",
+    "rwd": "/opt/www/bytle/farmer-animals/combostrap.com/data",
+    "tasks": [
+        {
+            "source": "media",
+            "target": "media"
+        },
+        {
+            "source": "pages",
+            "target": "pages"
+        }
+    ]
+}

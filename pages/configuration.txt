@@ -1,0 +1,43 @@
+====== Step by step: How to set a configuration value======
+
+===== About =====
+This page shows you how to set a configuration value.
+
+===== Steps =====
+
+==== Go to the Admin Interface ====
+
+To set a configuration value, go to the [[doku>admin_window|Admin Window]]
+
+  * With the [[Bootie|Bootie template]]
+
+{{::dokuwiki_admin_manager.png|}}
+
+  * With the default template
+
+{{::dokuwiki_admin_window_default_template.png|}}
+
+==== Go to the Configuration Manager ====
+
+  * With the [[Bootie|Bootie template]]
+
+{{::dokuwiki_configuration_settings_bootie.png|}}
+
+  * Or with the default template
+
+{{::dokuwiki_configuration_settings_default_template.png|}}
+
+
+==== Values ====
+
+  * Change the configuration 
+  * And hit the ''save'' button
+
+<note tip>
+  * A blue background shows default values (ie values that have not been modified)
+  * A white background indicates local changes. (ie values that have been modified)
+</note>
+
+
+===== Documentation / Reference =====
+  * [[doku>plugin:config]]

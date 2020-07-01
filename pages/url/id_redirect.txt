@@ -10,8 +10,10 @@
 An ''ID redirect'' is when the [[doku>pagename|ID]] of the URL is set to another one.
 
 It can happen in the following case:
-  * If the URL has a [[#canonical|canonial path]], the dokuwiki ID will be rewritten to the page id.
+  * If the URL matches a [[#canonical|canonial path]], the dokuwiki ID will be rewritten to the page id.
+  * If the URL matches a [[semantic:canonical_automatic|automatic canonial path]], the dokuwiki ID will be rewritten to the page id.
   * If the [[page_rules|page rules redirection]] lead to an existent page.
+  * If the the [[bestendpagename|best end page name scoring]] is greater or equal than the [[bestendpagename#configuration|Minimal Score For Id Redirect configuration]]
 
 
 

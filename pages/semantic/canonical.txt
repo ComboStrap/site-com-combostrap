@@ -35,7 +35,7 @@ To set the canonical value, uses the [[frontmatter|frontmatter component]] and a
 
 ==== Automatically ====
 
-This plugin can create a canonical value based on the last part of a page ''ID''. See [[canonical_automatic]]
+This plugin can create a canonical value based on the last parts of a page ''ID''. See [[canonical_automatic]]
 ===== HTML HEAD properties =====
 By setting a ''canonical'' value, you will get two ''head'' properties in your HTML page.
 

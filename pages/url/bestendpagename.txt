@@ -1,0 +1,43 @@
+---json
+{
+   "canonical":"best:end:page:name"
+}
+---
+
+====== URL Manager - Best End Page Name Scoring ======
+
+===== About =====
+The ''Best End Page Name'' is a scoring algorithm that finds the best page for a [[redirection|redirection]] when a missing page is requested.
+
+This algorithm performs the scoring by looping through the different part of a page name from the end to the beginning.
+
+This concept comes from the fact that a content has a natural  hierarchical structure.
+
+For instance, if you have created a page called ''bird:sparrow'':
+  * there is a lot of chance that a page with the same last name (ie ''sparrow'') would be the good one
+  * there is also even more chance if this page is in the same category ''bird''
+  * and so on.
+
+===== Articles Related =====
+{{backlinks>.}}
+===== Algorithm =====
+When a user request a missing page (ie ''species:bird:sparrow''), the algorithm would:
+  * search all pages with the last name.
+  * if there is no pages, returns and let the next redirection action take place.
+  * if it found pages. For instance, this two pages:
+      * ''animal:bird:sparrow''
+      * ''europe:sparrow''
+  * it will score them by giving 1 point recursively for each matching name processing from the end to the beginning. For instance:
+      * ''2'' point for ''animal:bird:sparrow'' (1 point for ''sparrow'' and 1 point for ''bird'')
+      * ''1'' point for ''europe:sparrow''
+  * it will then select the page with the highest score. 
+  * if the page has a score that is higher or equal to the [[#configuration|BestEndPageMinimalScoreForIdRedirect configuration]]:
+      * the redirection would be an [[id_redirect|ID redirect]]
+      * otherwise it would be an [[http_redirect|HTTP redirect]]
+
+===== Configuration =====
+
+  * ''BestEndPageMinimalScoreForIdRedirect'': This configuration permits to send an [[id_redirect|id redirect]] in place of [[http_redirect|http redirect]] when the score of the page is higher or equal.
+
+
+
