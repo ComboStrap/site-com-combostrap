@@ -1,0 +1,21 @@
+====== Security ======
+
+===== About =====
+In [[start|combostrap]], we are taking security very seriously.
+
+===== Prevention =====
+Below are the steps that we have taken to prevent the following attack.
+==== Cross-site request attack ====
+
+Every form uses a token to prevent a [[kb>csrf|cross-site request attack (CSRF)]])
+
+==== Injection Attack ====
+To prevent an [[kb>injection/attack|injection attack]]
+  * every HTML output is escaped to prevent HTML/Javascript injection.
+  * every SQL input is passed through parameters to prevent [[kb>sql/injection|SQL injection]]
+
+===== Dokuwiki =====
+''Dokuwiki'' follows also this rules (see [[doku>devel:security]]). We are making use of the CSRF token functionality.
+
+===== Reporting Security Issues =====
+For any security concern or issue, you can contact us at [[security@combostrap.com]]

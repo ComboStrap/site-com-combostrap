@@ -37,5 +37,8 @@ This components integrates third party library:
 
 ==== Features ====
   * [[url:permalink]]
+
+==== Security ====
+[[security]]
 ===== Installation =====
 [[getting_started]]

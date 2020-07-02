@@ -4,6 +4,27 @@
 ===== About =====
 How to add a Inline SVG icon
 
+
+===== Demo =====
+==== Basic ====
+
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<icon name="logo.svg" />
+</code>
+  * Output:
+</webcode>
+
+==== Colored ====
+[[color]]
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<icon name="logo.svg" color="pink" width="48px" />
+</code>
+</webcode>
+
+
+
 ===== Steps =====
 ==== Get an icon ====
   * https://materialdesignicons.com/
