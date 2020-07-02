@@ -33,5 +33,9 @@ This elements will add metadata into the page.
 This components integrates third party library:
   * [[ui:math]] - write maths with mathjax
   * [[ui:disqus]] -  add a disqus forum
+
+
+==== Features ====
+  * [[url:permalink]]
 ===== Installation =====
 [[getting_started]]

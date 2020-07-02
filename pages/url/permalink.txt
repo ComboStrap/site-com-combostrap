@@ -1,0 +1,33 @@
+---json
+{
+    "canonical":"permalink"
+}
+---
+
+
+====== Combostrap - Permalink ======
+
+
+===== About =====
+''permalink'' are links that are permanent and that will ''permanently'' be accessible even if the web page will move to another URL or location.
+
+
+===== How to create a permalink ? =====
+
+  * ''permalink'' are links that are created when the [[semantic:canonical|canonical id]] is set for a page
+  * Add a [[semantic:canonical|canonical property]] in the [[semantic:frontmatter|frontmatter]]
+<code javascript>
+---json
+{
+    "canonical":"my:canonical"
+}
+---
+</code>
+  * A permalink has been created to ''https://yourdomain.com/my/canonical''
+
+===== Demo =====
+This page has a permalink value of ''permalink'' and is accessible at [[combo>permalink]]
+
+<btn class="btn-light">
+[[combo>permalink]]
+</btn>
