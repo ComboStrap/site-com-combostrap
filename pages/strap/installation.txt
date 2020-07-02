@@ -1,0 +1,33 @@
+---json
+{
+   "canonical":"strap:installation"
+}
+---
+
+====== Strap Template - Installation ======
+
+
+===== About =====
+How to install the [[strap|Strap template]]
+
+This page is part of the [[:getting_started|getting started serie]]
+
+
+===== Steps =====
+
+
+To install the [[strap:strap|Strap template]]:
+  * Click on the ''Admin'' link to go to the [[doku>admin_window|Admin Window]]. ie ''https://yourdomain.com/?do=admin''
+
+{{::dokuwiki_admin_window_default_template.png|}}
+
+  * Click on the ''Extension Manager'' link to go to the [[doku>plugin:extension|Extension Manager plugin]].
+  * Click on the ''Search and Install'' link to go to the ''Search tab''
+  * Search for the term ''Strap''
+  * Click on the ''install'' button.
+
+{{:strap:strap_install_via_extension_manager.png|}}
+
+  * Change your [[doku>config:template|template setting]] in the ''Basic'' section of the [[:configuration|configuration]].
+
+{{strap:dokuwiki_strap_template_configuration.png|}}

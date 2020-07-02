@@ -1,0 +1,56 @@
+====== Strap Template - How to configure the Favicons ======
+
+===== About =====
+This page is an ''HowTo'' that shows you how to choose and install a favicon with [[:start|ComboStrap]].
+
+This page is part of the [[:getting_started|getting started serie]].
+===== Steps =====
+==== Choose a icon ====
+You can design a icon image but you can also choose one from a free icon repository
+
+Example with: https://materialdesignicons.com/
+  * Choose an icon
+{{::material_design_choose_icon.png|}}
+  * Download the Svg file and rename it to ''logo.svg''
+{{::material_design_download_icon_svg.png?500|}}
+  * Go back in the Advanced Export and create a PNG with the biggest size
+{{::material_design_download_icon_png_big.png?500|}}
+
+==== Generate the favicons ====
+
+  * Go to the [[https://realfavicongenerator.net/|realfavicongenerator generator]]
+  * Upload your PNG image
+  * Answer the forms, follows the steps and download the package icon
+
+==== Upload the favicons ====
+
+  * Then upload the below icon files with the [[doku>media_manager|media manager]] to the root location (ie DOKUWIKI_HOME/data/media/)
+      * ''favicon.ico''
+      * ''favicon-32x32.png''
+      * ''favicon-16x16.png''
+      * ''apple-touch-icon.png''
+      * ''android-chrome-192x192.png'' (used in the [[strap:manifest|manifest]])
+
+Example:
+
+{{::mediamanager_favicon.png|}}
+
+==== Upload the logo.svg file ====
+<wrap important>[Optional] - This step is not mandatory if you are using ComboStrap.</wrap>
+
+A lot of Dokuwiki components use the ''logo.svg'' file by default such as:
+  * The [[doku>template:default|default template]] for the favicon
+  * The [[doku>devel:manifest|default manifest]] for the [[strap:manifest|manifest]]
+
+''svg'' files are by default not permitted by Dokuwiki because they can include script, you therefore need to upload it directly to the computer to ''data/media'' from the dokuwiki installation directory.
+
+{{::dokuwik_logo_svg_media.png|}}
+
+==== Verify ====
+
+  * Refresh and delete the Browser cache by hitting the key combination
+    * ''Ctrl + Shift + R'' - Chrome
+    * or ''Ctrl + F5'' - Firefox
+  * Check that you see your favicon
+
+{{strap:favicon_verification.png|}}

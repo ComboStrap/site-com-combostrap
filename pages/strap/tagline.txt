@@ -1,0 +1,14 @@
+====== Strap Template - Tagline ======
+
+
+===== About =====
+The [[strap:strap|Strap template]] supports the [[doku>config:tagline|tagline]] [[:configuration|configuration]].
+
+It's a short and appealing description of your website or product.
+
+It's used:
+  * in the ''description'' field of the [[strap:manifest|manifest]]
+  * in the home page title.
+
+===== Articles Related =====
+{{backlinks>.}}
