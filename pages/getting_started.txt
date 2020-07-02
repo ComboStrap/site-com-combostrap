@@ -2,12 +2,14 @@
 
 
 ===== About =====
-How to have a professional website up and running in no time  with [[start|combostrap]]
+How to have a professional website up and running with [[start|combostrap]],
+
+This page regroups a serie of article to get you started with publishing.
 
 
-===== Steps =====
+===== Serie =====
 ==== Dokuwiki Installation ====
-[[start|combostrap]] is based on the [[doku>|Dokuwiki Engine]] that must be already instgalled.
+[[start|combostrap]] is based on the [[doku>|Dokuwiki Engine]] that must be already available.
 
 If this is not the case, the ''Dokuwiki'' installation steps are as follow:
   * [[https://download.dokuwiki.org/|Download Dokuwiki]]
@@ -22,18 +24,18 @@ To know more:
   * about the installer script, see [[doku>installer]]
 
 ==== Bootie Template Installation ====
-To install the [[bootie|bootie template]]:
-  * Click on the ''Admin'' link to go to the [[doku>admin_window|Admin Window]]. ie ''https://yourdomain.com/?do=admin''
-  * Click on the ''Extension Manager'' link to go to the [[doku>plugin:extension|Extension Manager plugin]]. ie ''https://yourdomain.com/?do=admin&page=extension''
-  * Click on the ''Search and Install'' link to go to the ''Search tab'' ie ''https://yourdomain.com/?do=admin&page=extension&tab=search'' 
-  * Search for the term ''Bootie''  (ie ''https://yourdomain.com/?do=admin&page=extension&tab=search&q=bootie'')
-  * And click on the ''install'' button.
+[[bootie:installation]]
 
-{{::bootie_install_via_extension_manager.png|}}
 
+==== Favicon ====
+[[bootie:favicon]]
 
 ==== Dokuwiki Configuration ====
 This website uses the following configuration:
+  * [[doku>config:title]]: The name of
+  * [[bootie:tagline]] - A short and appealing description of the website.
+
+Others:
   * [[doku>config:useheading]]: 'Always'
   * ''Target window for external links'': ''_blank''
   * [[doku>config:sitemap]]: 10 days
