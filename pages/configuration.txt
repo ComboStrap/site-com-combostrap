@@ -9,7 +9,7 @@ This page shows you how to set a configuration value.
 
 To set a configuration value, go to the [[doku>admin_window|Admin Window]]
 
-  * With the [[bootie:bootie|Bootie template]]
+  * With the [[strap:strap|Strap template]]
 
 {{::dokuwiki_admin_manager.png|}}
 
@@ -19,9 +19,9 @@ To set a configuration value, go to the [[doku>admin_window|Admin Window]]
 
 ==== Go to the Configuration Manager ====
 
-  * With the [[bootie:bootie|Bootie template]]
+  * With the [[strap:strap|Strap template]]
 
-{{::dokuwiki_configuration_settings_bootie.png|}}
+{{::dokuwiki_configuration_settings_Strap.png|}}
 
   * Or with the default template
 
@@ -30,7 +30,7 @@ To set a configuration value, go to the [[doku>admin_window|Admin Window]]
 
 ==== Values ====
 
-  * Change the configuration 
+  * Change the configuration
   * And hit the ''save'' button
 
 <note tip>

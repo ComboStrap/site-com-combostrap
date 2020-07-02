@@ -23,17 +23,17 @@ To know more:
   * about the installation, see [[doku>install]]
   * about the installer script, see [[doku>installer]]
 
-==== Bootie Template Installation ====
-[[bootie:installation]]
+==== Strap Template Installation ====
+[[strap:installation]]
 
 
 ==== Favicon ====
-[[bootie:favicon]]
+[[strap:favicon]]
 
 ==== Dokuwiki Configuration ====
 This website uses the following configuration:
   * [[doku>config:title]]: The name of
-  * [[bootie:tagline]] - A short and appealing description of the website.
+  * [[strap:tagline]] - A short and appealing description of the website.
 
 Others:
   * [[doku>config:useheading]]: 'Always'
