@@ -1,4 +1,4 @@
-====== Combostrap - Group ======
+====== ComboStrap UI - Group ======
 
 
 ===== About =====

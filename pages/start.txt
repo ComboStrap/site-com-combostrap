@@ -1,9 +1,9 @@
 ~~NOTOC~~
 
-====== Combostrap ======
+====== ComboStrap ======
 
 ===== About =====
-The ''Combostrap Dokuwiki Plugin'' is a [[doku>plugin|dokuwiki plugin]] package that enhance the Dokuwiki functionalities.
+The ''ComboStrap Dokuwiki Plugin'' is a [[doku>plugin|dokuwiki plugin]] package that enhance the Dokuwiki functionalities.
 
 
 ===== Components =====

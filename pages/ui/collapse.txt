@@ -1,4 +1,4 @@
-====== Combostrap - Collapse ======
+====== ComboStrap UI - Collapse ======
 
 ===== About =====
 ''collapse'' is a component that can be used only in a [[navbar|navbar]]

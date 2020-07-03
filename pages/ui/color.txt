@@ -1,4 +1,4 @@
-====== Combostrap UI - Color ======
+====== ComboStrap UI - Color ======
 
 
 
@@ -9,3 +9,35 @@
 
 ===== Articles Related =====
 {{backlinks>.}}
+
+===== Name =====
+[[:start|ComboStrap]] follows the [[https://getbootstrap.com/docs/4.0/utilities/colors/|Bootstrap color naming]] and you may then use the following color names.
+
+The default Bootstrap colors are:
+
+{{:ui:bootstrap_default_color.png|}}
+
+  * blue
+  * indigo
+  * purple
+  * pink
+  * red
+  * orange
+  * yellow
+  * green
+  * teal
+  * cyan
+  * white
+  * gray
+  * gray-dark
+  * primary
+  * secondary
+  * success
+  * info
+  * warning
+  * danger
+  * light
+  * dark
+
+
+

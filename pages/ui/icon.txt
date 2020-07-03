@@ -1,67 +1,80 @@
-====== UI - Icon ======
+====== ComboStrap UI - Icon Component ======
 
 
 ===== About =====
-How to add a Inline SVG icon
+The icon component permits your to create an icon :
+  * from the [[#material design icon|material design icons library]]
+  * from a [[#SVG media file]] located in your media library
 
 
-===== Demo =====
-==== Basic ====
-
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
-<code dw>
-<icon name="logo.svg" />
-</code>
-  * Output:
-</webcode>
-
-==== Colored ====
-[[color]]
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
-<code dw>
-<icon name="logo.svg" color="pink" width="96px" />
-</code>
-</webcode>
-
-
+===== Articles Related =====
+{{backlinks>.}}
+===== Icon Type =====
 ==== Material Design Icon ====
+The ''icon'' component supports all [[https://materialdesignicons.com/|material design icon]].
+
+To show a [[https://materialdesignicons.com/|material design icon]]:
+  * Go to [[https://materialdesignicons.com/]]
+  * Select your icon
+  * Save its name
+  * And use it in the ''name'' attribute of the ''icon'' component
+
+
 Example with the [[https://materialdesignicons.com/icon/arrow-down-circle|arrow-down-circle]]
 
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
-<icon name="arrow-down-circle" color="pink" width="96px" height="96px" />
+<icon name="arrow-down-circle" color="danger" width="96px" height="96px" />
 </code>
 </webcode>
 
-===== Steps =====
-==== Get an icon ====
-  * https://materialdesignicons.com/
-  * Search for an icon by entering a term in the search box
-  * Choose an icon and click on the SVG
+==== SVG Media File ====
+The ''icon'' component supports the rendering of SVG file located in the [[doku>images|media library]]
 
-{{:ui:material_design_icon.png|}}
+By default, ''svg files'' can't be uploaded because they can embedded script and makes it more difficult.
 
-  * Copy the ''Inline SVG for HTML''
-<code xml>
-<svg style="width:24px;height:24px" viewBox="0 0 24 24">
-    <path fill="currentColor" d="M3,1C1.89,1 1,1.89 1,3V14C1,15.11 1.89,16 3,16C4.33,16 7,16 7,16C7,16 7,18.67 7,20C7,21.11 7.89,22 9,22H20C21.11,22 22,21.11 22,20V9C22,7.89 21.11,7 20,7C18.67,7 16,7 16,7C16,7 16,4.33 16,3C16,1.89 15.11,1 14,1H3M3,3H14C14,4.33 14,7 14,7H9C7.89,7 7,7.89 7,9V14C7,14 4.33,14 3,14V3M9,9H14V14H9V9M16,9C16,9 18.67,9 20,9V20H9C9,18.67 9,16 9,16H14C15.11,16 16,15.11 16,14V9Z" />
-</svg>
+To upload SVG files, you may:
+  * transfer the files directly on your server in a location under the media directory (ie ''DOKUWIKI_HOME/data/media'')
+  * or allows the upload of SVG file by adding the SVG extension into the [[doku>mime|mime.local.conf file]]
+<code properties mime.local.conf>
+svg image/svg+xml
 </code>
-  * Be sure to have enabled the use of the ''HTML'' tag with the [[doku>config:htmlok|htmlok]] (<wrap important>It should be used only in a private wiki as it allows to add script on your website</wrap>)
-  * Put it between two ''HTML'' tag
-<code xml>
-<html>
-<svg style="width:24px;height:24px" viewBox="0 0 24 24">
-    <path fill="currentColor" d="M3,1C1.89,1 1,1.89 1,3V14C1,15.11 1.89,16 3,16C4.33,16 7,16 7,16C7,16 7,18.67 7,20C7,21.11 7.89,22 9,22H20C21.11,22 22,21.11 22,20V9C22,7.89 21.11,7 20,7C18.67,7 16,7 16,7C16,7 16,4.33 16,3C16,1.89 15.11,1 14,1H3M3,3H14C14,4.33 14,7 14,7H9C7.89,7 7,7.89 7,9V14C7,14 4.33,14 3,14V3M9,9H14V14H9V9M16,9C16,9 18.67,9 20,9V20H9C9,18.67 9,16 9,16H14C15.11,16 16,15.11 16,14V9Z" />
-</svg>
-<html>
+
+
+Then, you can render it by giving the media id into the name attributes:
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<icon name="logo.svg" color="orange"/>
 </code>
-  * Result:
-<html>
-<svg style="width:48px;height:48px" viewBox="0 0 24 24">
-    <path fill="currentColor" d="M3,1C1.89,1 1,1.89 1,3V14C1,15.11 1.89,16 3,16C4.33,16 7,16 7,16C7,16 7,18.67 7,20C7,21.11 7.89,22 9,22H20C21.11,22 22,21.11 22,20V9C22,7.89 21.11,7 20,7C18.67,7 16,7 16,7C16,7 16,4.33 16,3C16,1.89 15.11,1 14,1H3M3,3H14C14,4.33 14,7 14,7H9C7.89,7 7,7.89 7,9V14C7,14 4.33,14 3,14V3M9,9H14V14H9V9M16,9C16,9 18.67,9 20,9V20H9C9,18.67 9,16 9,16H14C15.11,16 16,15.11 16,14V9Z" />
-</svg>
-</html>
+  * Output:
+</webcode>
+
+=== Inline SVG ===
+This component does not support inline SVG because it's a property of HTML.
+
+If you authorize the direct use of HTML, you can also show inline SVG. See [[icon_inline]]
+
+===== Properties =====
+
+==== Color ====
+In the color attribute, you can set a [[color#value|color value]].
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<icon name="logo.svg" color="pink" />
+</code>
+</webcode>
+
+==== Sizing: Width and Height ====
+The ''width'' and ''height'' attributes take the default value of ''24px'' but you can overwrite them.
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<icon name="logo.svg" color="pink" width="96px" height="96px" />
+</code>
+</webcode>
+==== Native Attribute ====
+As all [[ui:html|ComboStrap UI components]] do, the ''icon'' component supports also all attributes of its underlying ''svg HTML element''. See [[https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg|svg attributes]]
+
+
 
 ===== Configuration =====
 ==== Icons namespace ====

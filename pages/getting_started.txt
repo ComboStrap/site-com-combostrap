@@ -1,4 +1,4 @@
-====== Combostrap - Getting Started ======
+====== ComboStrap UI - Getting Started ======
 
 
 ===== About =====

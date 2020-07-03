@@ -1,4 +1,4 @@
-====== Dokuwiki - Combostrap Plugin - SEO (Search Engine Optimization) ======
+====== Dokuwiki - ComboStrap Plugin - SEO (Search Engine Optimization) ======
 
 ===== About =====
 [[kb>seo|Search engine optimization]] is the process of making your website optimized for [[kb>search/engine|search engine]] such as as Google or Bing.

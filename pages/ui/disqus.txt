@@ -1,4 +1,4 @@
-====== Combostrap - Disqus Forum / Discussion ======
+====== ComboStrap UI - Disqus Forum / Discussion ======
 
 
 ===== About =====

@@ -1,10 +1,10 @@
-~~NOCACHE~~
+
 
 <navbar class="navbar-expand-md">
 <container>
-<brand class="pt-0" title="Combostrap Home" style="color:#075EBB">
+<brand class="pt-0" title="ComboStrap Home" style="color:#075EBB">
 <icon name="logo.svg" />
-ComboStrap - In Construction !
+ComboStrap
 </brand>
 
 <collapse>

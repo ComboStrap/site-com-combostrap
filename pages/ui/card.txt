@@ -1,4 +1,4 @@
-====== Combostrap Plugin - UI - Card ======
+====== ComboStrap UI - Card ======
 
 ===== About =====
 A ''card'' is some content in a square.

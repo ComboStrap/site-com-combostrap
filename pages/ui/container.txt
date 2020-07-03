@@ -1,4 +1,4 @@
-====== Combostrap - Container ======
+====== ComboStrap UI - Container ======
 
 ===== About =====
 [[https://getbootstrap.com/docs/4.3/layout/overview/#containers|container]] implementation of Bootstrap.

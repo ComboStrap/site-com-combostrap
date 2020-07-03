@@ -5,7 +5,7 @@
 ---
 
 
-====== Combostrap - Permalink ======
+====== ComboStrap UI - Permalink ======
 
 
 ===== About =====

@@ -20,8 +20,8 @@ The JSON file contains several information
 {
     "display": "standalone",
     "scope": "/",
-    "name": "Combostrap",
-    "short_name": "Combostrap",
+    "name": "ComboStrap",
+    "short_name": "ComboStrap",
     "description": "The most performant way to Web publication",
     "start_url": "/",
     "background_color": "#fff",

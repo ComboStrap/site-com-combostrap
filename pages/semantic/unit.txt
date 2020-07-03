@@ -1,4 +1,4 @@
-====== Combostrap - Unit ======
+====== ComboStrap UI - Unit ======
 
 
 ===== About =====

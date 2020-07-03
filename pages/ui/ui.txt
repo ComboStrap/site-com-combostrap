@@ -1,4 +1,4 @@
-====== Dokuwiki - Combostrap Plugin - UI Components ======
+====== ComboStrap UI Components ======
 
 ===== About =====
 The ''UI'' components changes the rendering of a page
@@ -12,6 +12,8 @@ They are all a superset of HTML which means that for every component, you can us
   * the ''class''
   * and the ''style'' attribute
 to refine how you want them to be.
+
+See [[html]]
 ===== List =====
 
 
@@ -23,6 +25,7 @@ to refine how you want them to be.
   * [[button|Button (btn)]]: A button
   * [[related|Related]]: A component showing the backlinks
   * [[math]]: Writing math formulas
+  * [[icon|Icon]]: All material design icons or your own
 
 ==== Navbar ====
 

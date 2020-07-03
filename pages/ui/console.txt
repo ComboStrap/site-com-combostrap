@@ -1,4 +1,4 @@
-====== Combostrap - Console ======
+====== ComboStrap UI - Console ======
 
 ===== About =====
 The ''console'' component is just a semantic layer above the [[doku>wiki:syntax#code_blocks|dokuwiki file block]].
