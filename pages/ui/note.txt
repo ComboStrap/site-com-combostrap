@@ -1,0 +1,40 @@
+---json
+{
+   "canonical":"message"
+}
+---
+
+====== ComboStrap UI - Note (Alert) ======
+
+
+===== About =====
+''note'' is a [[ui|ComboStrap UI component]] that shows a message in a box that is [[https://www.w3.org/TR/wai-aria-1.1/#note|parenthetic or ancillary to the main content]].
+
+===== Articles Related =====
+{{backlinks>.}}
+===== Type =====
+A message may have the following type:
+  * info (Default)
+  * important
+  * tip
+  * warning
+  * danger
+
+==== Info ====
+
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<NOTE style="width:60%">
+
+===== Informative note =====
+
+ 
+
+You can also style your [[ui|ComboStrap UI components]] with the [[style|style attribute]].
+</NOTE>
+</code>
+</webcode>
+
+===== Documentation / Reference =====
+  * [[https://www.w3.org/TR/wai-aria-1.1/#note|Note ARIA Role]] - A section whose content is parenthetic or ancillary to the main content of the resource.
+  * [[https://www.w3.org/TR/wai-aria-1.1/#alert|Alert ARIA Role]] - Alert are typically shown as a result of an external event when user focus may be elsewhere. 
