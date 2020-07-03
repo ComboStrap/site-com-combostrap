@@ -10,7 +10,7 @@ This UI component follows the same implementation that the [[https://getbootstra
 ===== Articles Related =====
 {{backlinks>.}}
 ===== Features =====
-  * Permits all kind of styling with the ''style'' attribute
+  * Permits all kind of styling with the [[style|style attribute]] 
   * Can be formatted in columns with the [[card_column|card-columns]] component
   * Allows third party dokuwiki syntax
 

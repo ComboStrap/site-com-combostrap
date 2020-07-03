@@ -1,0 +1,28 @@
+====== ComboStrap UI - Style attribute ======
+
+
+===== About =====
+Because every [[ui|ComboStrap UI component]] are a [[html|superset of HTML]], the ''CSS'' ''style'' attribute is also supported. You can therefore style all the components as you wish if you master a little bit CSS.
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Example =====
+
+  * With a [[card|card]] 
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<card 
+    style="
+        color:white;
+        background-color:purple;
+        margin: 0 auto;
+        width:50%;
+        text-align: center;
+        font-size:1.2rem
+        "
+>
+A centered card with a centered white text against a purple background 
+</card>
+</code>
+</webcode>

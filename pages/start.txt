@@ -10,6 +10,9 @@ The ''ComboStrap Dokuwiki Plugin'' is a [[doku>plugin|dokuwiki plugin]] package 
 
 ==== UI ====
 [[ui:ui|UI components]] that change the rendering of a page
+  * [[ui:icon]]
+  * [[ui:card]]
+  * ...
 
 
 ==== Navigation ====

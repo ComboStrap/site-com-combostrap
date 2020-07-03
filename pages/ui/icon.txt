@@ -78,11 +78,14 @@ As all [[ui:html|ComboStrap UI components]] do, the ''icon'' component supports 
 
 ===== Configuration =====
 ==== Icons namespace ====
-When the ''icon'' component uses a name of [[https://materialdesignicons.com/|materialdesignicons.com]], the icon is downloaded in the namespace set in the ''icons_namespace'' configuration.
+When the ''icon'' component uses a icon of [[https://materialdesignicons.com/|materialdesignicons.com]], the icon is downloaded in the namespace set in the ''icons_namespace'' configuration.
 
 The default value is '':combostrap:icons''
 
-<wrap tip>On the server, the namespace is a location from the media directory: ''DOKUWIKI_HOME/data/media/''</wrap>
+<NOTE type="tip">
+On the server, the namespace is a location from the media directory: ''DOKUWIKI_HOME/data/media/''
+{{:ui:icon_default_location_combostrap.png|}}
+</NOTE>
 
 
 ===== Support =====

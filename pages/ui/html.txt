@@ -5,7 +5,7 @@ The [[:ui:ui|UI ComboStrap components]] are just plugins for the ''HTML'' langua
 
 It means that all HTML attributes are supported and in particularly, you may use
   * the ''class''
-  * and ''style''
+  * and [[style|style]]
 attributes to change the styling.
 
 ===== Articles Related =====
