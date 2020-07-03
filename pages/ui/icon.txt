@@ -19,7 +19,7 @@ How to add a Inline SVG icon
 [[color]]
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
-<icon name="logo.svg" color="pink" width="48px" />
+<icon name="logo.svg" color="pink" width="96px" />
 </code>
 </webcode>
 
