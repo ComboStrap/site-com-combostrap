@@ -1,47 +1,66 @@
-~~NOTOC~~
-
-====== ComboStrap ======
-
-===== About =====
-The ''ComboStrap Dokuwiki Plugin'' is a [[doku>plugin|dokuwiki plugin]] package that enhance the Dokuwiki functionalities.
 
 
-===== Components =====
+<card class="mb-3">
+==== Making Publishing Discoverable and Remarkable ====
 
-==== UI ====
-[[ui:ui|UI components]] that change the rendering of a page
-  * [[ui:icon]]
-  * [[ui:card]]
-  * ...
+''ComboStrap'' is a ''combo'' of components that aims to 
+ease the ''strap'' //(creation)// of website.
+
+<note important>The product is actually in a  ''beta'' status meaning that the updates are frequent, minor changes may occurs and that the documentation may not be fully accurate.
+\\
+But as we don't want to reinvent the wheel, the breaking changes should be really minor.
+</note>
+<btn>
+[[getting_started:getting_started|Get started]]
+</btn>
+</card>
+
+<card-columns>
 
 
-==== Navigation ====
-  * [[ui:navbar]]
-  * [[ui:button]]
-==== Data Structure (Semantic) ====
-This elements will add metadata into the page.
-  * [[semantic:frontmatter]]: A metadata engine to structure your page
-  * [[semantic:canonical]]: Give your page an identifier.
-  * Unit testing: A [[doku>wiki:syntax#code_blocks|code block]] extension to define unit test in the documentation. (An engine must parse them)
-      * [[semantic:unit|unit]]: defines an unit test
-      * [[ui:console|console]]: defines the console output
+<card>
 
+==== Boostrap based UI Component ====
+''ComboStrap'' have a large [[ui:ui|UI components library]]. 
+  * A large library of [[ui:icon|icons]], 
+  * This kind of [[ui:card|cards]]
+  * [[ui:navigation|navigational components]]
+  * and more ...
+<btn >
+[[ui:ui|Check the UI components]]
+</btn>
+</card>
+
+<card>
+==== SEO ready  ====
+The ''Search Engine Optimization'' module
+will help you define the description, get back authority
+by recovering broken back links and more.
+<btn >
+[[seo|Check the SEO module]]
+</btn>
+</card>
+
+<card>
 ==== URL Management ====
-[[url:url]]
+A website is living and pages are moving around.
+To not break the navigation and influence badly your SEO authority, you can define a page id ([[semantic:canonical|canonical]])
+or [[url:page_rules|redirection rules]].
+<btn >
+[[url:url|Check the URL Manager]]
+</btn>
+</card>
+<card>
+==== Page Metadata included ====
+With the [[semantic:frontmatter|frontmatter]] component,
+you can add easily the metadata that you want.
 
-==== SEO ====
-[[Seo]]
+It helps your SEO ranking but it also enable [[url:permalink|permalink]]
+and transparent [[url:redirection|redirections]] with the [[semantic:canonical|canonical]] (''Page Id'')
 
-==== Integration ====
-This components integrates third party library:
-  * [[ui:math]] - write maths with mathjax
-  * [[ui:disqus]] -  add a disqus forum
+<btn >
+[[semantic:semantic|Check the Metadata module]]
+</btn>
+</card>
 
-
-==== Features ====
-  * [[url:permalink]]
-
-==== Security ====
-[[security]]
-===== Installation =====
-[[getting_started]]
+</card-columns>

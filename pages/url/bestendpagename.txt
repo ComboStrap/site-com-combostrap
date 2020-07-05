@@ -4,10 +4,10 @@
 }
 ---
 
-====== URL Manager - Best End Page Name Scoring ======
+====== ComboStrap URL Management - Best End Page Name Scoring ======
 
 ===== About =====
-The ''Best End Page Name'' is a [[redirection|redirection scoring algorithm]] that finds the best page to redirect to when a non-existent page is requested.
+The ''Best End Page Name'' is a [[action|redirection scoring algorithm]] that finds the best page to redirect to when a non-existent page is requested.
 
 This algorithm performs the scoring by looping through the different part of a page name from the end to the beginning. For instance, if the page name was ''name1:name2:name3'', the algorithm would check first ''name3'', then ''name2'', then ''name1''
 

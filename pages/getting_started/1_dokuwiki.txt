@@ -1,0 +1,23 @@
+====== ComboStrap Getting Started - Dokuwiki Installation ======
+
+===== About =====
+[[:start|ComboStrap]] is based on the [[doku>|Dokuwiki Engine]].
+
+
+===== Steps =====
+If you don't have a Dokuwiki Instance, you can install it as follow:
+  * [[https://download.dokuwiki.org/|Download Dokuwiki]]
+  * Upload the zip file to your web server
+  * Unzip it to your web directory
+  * Access the installer script at ''https://yourdomain.com/install.php''
+  * Answer the install form
+  * Done
+
+To know more:
+  * about the installation, see [[doku>install]]
+  * about the installer script, see [[doku>installer]]
+
+===== Next Step =====
+<btn>
+[[2_combo|Combo Installation]]
+</btn>

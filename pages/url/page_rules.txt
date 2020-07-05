@@ -6,7 +6,7 @@
 
 
 
-====== URL manager - Pages Rules ======
+====== ComboStrap URL Management - Pages Rules ======
 
 ===== About =====
 ''page rules'' are rules that permits to apply a [[id_redirect|ID redirection]] for a page or a group of page.

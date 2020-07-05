@@ -1,0 +1,24 @@
+====== ComboStrap URL Management - Redirection Actions ======
+
+===== About =====
+The ''redirection actions'' takes place in the [[redirection|redirection processing]] when:
+  * the missing page id is not a [[semantic:canonical|canonical]]
+  * the missing page id does not have any [[page_rules|page rules]] that rewrite to an existing page id.
+  * the user is not redirected to the [[edit|edit mode]] if it's a writer.
+===== Articles Related =====
+{{backlinks>.}}
+
+===== List =====
+The following actions may be configured in order:
+  * [[bestendpagename|Best end page name]]
+  * [[bestpagename|Best page name]]
+  * [[bestnamespace|Best namespace]]
+  * [[search_engine|Search Engine]]
+
+If an action does not find a page, the next action will try to find a page until the end. If no page is found, a [[search_engine|search engine]] redirect is performed.
+
+===== Configuration =====
+
+[[:configuration]]
+
+{{:url:redirection_actions.png|}}

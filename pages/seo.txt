@@ -8,7 +8,7 @@ On a website level, it means:
   * good semantic (data structure)
   * good page speed
 
-The [[start|web component plugin]] helps you on the [[#data structure|web data structure]]
+
 
 ===== Articles Related =====
 {{backlinks>.}}
@@ -17,3 +17,8 @@ The [[start|web component plugin]] helps you on the [[#data structure|web data s
 The following data may be set for page:
   * [[semantic:canonical]]
   * [[semantic:description]]
+
+===== Sitemap =====
+''Dokuwiki'' comes with a [[kb>sitemap|sitemap]] component that ping automatically search engines.
+
+You need to set the [[doku>config:sitemap]] configuration to a generation period in day that is not zero.

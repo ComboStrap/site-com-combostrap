@@ -1,4 +1,4 @@
-====== URL Manager - Log redirections ======
+====== ComboStrap URL Management - Log redirections ======
 
 
 
@@ -10,29 +10,29 @@ You can find the meta data for the last version: in the Sqlite Database DOKUWIKI
 With the SQLite plugin, the data can be queried directly through its admin page.
 
 ====== Example ======
- 
+
 
   * All redirections from the last 5 minutes:
 
 <code sql>
-select 
-  source, target, type, method 
-from 
-  redirections_log 
-where 
+select
+  source, target, type, method
+from
+  redirections_log
+where
   datetime(timestamp) > datetime('now','-5 minutes')
-order by 
+order by
   datetime(timestamp) desc;
 </code>
 
   * Count of redirections by minutes
 
 <code sql>
-select 
-  strftime('%H:%M', timestamp), 
-  count(1) 
-from 
-  redirections_log 
-group by 
+select
+  strftime('%H:%M', timestamp),
+  count(1)
+from
+  redirections_log
+group by
   strftime('%H:%M', timestamp)
 </code>

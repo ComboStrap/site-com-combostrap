@@ -1,0 +1,17 @@
+====== ComboStrap UI - Getting Started ======
+
+
+===== About =====
+How to have a professional website up and running with [[:start|combostrap]],
+
+This page regroups a serie of article to get you started.
+
+  * [[1_dokuwiki|DokuWiki Installation]]
+  * [[2_combo|Combo Installation]]
+  * [[3_strap|Strap Installation]]
+  * [[4_favicon|Installation of a favicon]]
+
+
+
+
+

@@ -5,11 +5,11 @@
 ---
 
 
-====== ComboStrap UI - Permalink ======
+====== ComboStrap URL Management - Permalink ======
 
 
 ===== About =====
-''permalink'' are links that are permanent and that will ''permanently'' be accessible even if the web page will move to another URL or location.
+''permalink'' are links that are permanent and that will ''permanently'' be accessible even if the web page has moved to another URL or location.
 
 
 ===== How to create a permalink ? =====
@@ -26,8 +26,8 @@
   * A permalink has been created to ''https://yourdomain.com/my/canonical''
 
 ===== Demo =====
-This page has a permalink value of ''permalink'' and is accessible at [[combo>permalink]]
+This page has a canonical value of ''permalink'' and is accessible at 
 
 <btn class="btn-light">
-[[combo>permalink]]
+[[combo>https://combostrap.com/permalink]]
 </btn>

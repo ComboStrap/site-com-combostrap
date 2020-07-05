@@ -1,0 +1,15 @@
+====== ComboStrap URL Management - Redirection to the intern search engine ======
+
+===== About =====
+''Redirection to search engine'' is a [[action|redirection action]] that redirects to the search engine.
+
+The search term is the asked [[doku>pagename|page id]]
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Example =====
+
+
+  * If the page asked is ''namespace1:namespace2:pre_pagename''
+  * the search term would be ''namespace1+namespace2+pre+pagename''

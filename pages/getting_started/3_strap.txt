@@ -4,13 +4,17 @@
 }
 ---
 
-====== Strap Template - Installation ======
+====== ComboStrap Getting Started - Strap Template Installation ======
 
 
 ===== About =====
-How to install the [[strap|Strap template]]
+''ComboStrap'' is based on two plugins:
+  * [[:combo|Combo]]
+  * and [[strap:strap|Strap]]
 
-This page is part of the [[:getting_started|getting started serie]]
+''Strap'' is the template part and this page shows you how to install the 
+
+
 
 
 ===== Steps =====
@@ -31,3 +35,8 @@ To install the [[strap:strap|Strap template]]:
   * Change your [[doku>config:template|template setting]] in the ''Basic'' section of the [[:configuration|configuration]].
 
 {{strap:dokuwiki_strap_template_configuration.png|}}
+
+===== Next Step =====
+<btn>
+[[getting_started:4_favicon|Install a favicon]]
+</btn>

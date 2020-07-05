@@ -1,0 +1,9 @@
+====== ComboStrap Page Metadata - Title ======
+
+===== About =====
+
+''ComboStrap'' uses for the title of the home page the [[doku>config:title|title configuration]] and the [[strap:tagline|tagline]] 
+
+and supports the [[doku>config:useheading|useheading configuration]] (This website uses ''Always'').
+
+This is not yet possible to set a ''title'' with [[frontmatter|frontmatter]]

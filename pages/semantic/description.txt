@@ -6,7 +6,7 @@
 ---
 
 
-====== ComboStrap Page Metadata- Description ======
+====== ComboStrap Page Metadata - Description ======
 
 
 ===== About =====

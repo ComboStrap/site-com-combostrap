@@ -1,9 +1,9 @@
-====== Strap Template - How to configure the Favicons ======
+====== ComboStrap Getting Started - How to configure the Favicons ======
 
 ===== About =====
 This page is an ''HowTo'' that shows you how to choose and install a favicon with [[:start|ComboStrap]].
 
-This page is part of the [[:getting_started|getting started serie]].
+
 ===== Steps =====
 ==== Choose a icon ====
 You can design a icon image but you can also choose one from a free icon repository
@@ -36,15 +36,30 @@ Example:
 {{::mediamanager_favicon.png|}}
 
 ==== Upload the logo.svg file ====
-<wrap important>[Optional] - This step is not mandatory if you are using ComboStrap.</wrap>
-
-A lot of Dokuwiki components use the ''logo.svg'' file by default such as:
-  * The [[doku>template:default|default template]] for the favicon
-  * The [[doku>devel:manifest|default manifest]] for the [[strap:manifest|manifest]]
 
 ''svg'' files are by default not permitted by Dokuwiki because they can include script, you therefore need to upload it directly to the computer to ''data/media'' from the dokuwiki installation directory.
 
 {{::dokuwik_logo_svg_media.png|}}
+
+You can then use your logo in the [[ui:brand|brand component]] of the [[ui:navbar|top navigation bar]] with the [[ui:icon|icon component]]
+
+Example:
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<brand class="pt-0" title="ComboStrap Home" style="color:#075EBB">
+<icon name="logo.svg" />
+ComboStrap Beta
+</brand>
+</code>
+  * Result:
+</webcode>
+
+
+<note class="mt-5">
+A lot of Dokuwiki components use the ''logo.svg'' file by default such as:
+  * The [[doku>template:default|default template]] for the favicon
+  * The [[doku>devel:manifest|default manifest]] for the [[strap:manifest|manifest]]
+</note>
 
 ==== Verify ====
 

@@ -4,13 +4,13 @@
 <container>
 <brand class="pt-0" title="ComboStrap Home" style="color:#075EBB">
 <icon name="logo.svg" />
-ComboStrap
+ComboStrap (Beta)
 </brand>
 
 <collapse>
 <group class="mr-auto">
-
 </group>
+<btn type="secondary" class="mr-3">[[getting_started:getting_started|Get Started]]</btn>
 <search class="mr-0 pr-0">
 </collapse>
 </container>

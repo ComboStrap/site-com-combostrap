@@ -9,12 +9,14 @@
 ===== About =====
 The ''navbar'' component is the implementation of the top element of [[https://getbootstrap.com/docs/4.0/components/navbar/|bootstrap navbar]].
 
-Inside a ''navnar'' component, you can add:
+Inside a ''navbar'' component, you can add:
   * a [[ui:container|container]]  to limit the horizontal width and center the navbar
   * a [[ui:search|search form]]
   * a [[ui:group|group]] to group [[ui:dropdown|dropdown menu]]
   * a [[ui:dropdown|dropdown menu]]
   * a [[ui:collapse|collapse container]] to group the element that will collapse
+  * a [[icon|icon]]
+  * a [[button|button]]
 ===== Articles Related =====
 {{backlinks>.}}
 
@@ -41,10 +43,10 @@ This syntax will output as HTML
 <navbar class="navbar-expand-md">
 <container>
 </code>
-  * The [[brand|brand]]. You can also put a [[icon|icon]]
+  * The [[brand|brand]]. You can also put your logo [[icon|icon]]
 <code xml>
 <brand class="pt-0" title="Brand">
-Hôme
+<icon name="logo.svg" /> Brandly
 </brand>
 </code>
   * Collapse to indicate all elements that will collapse when browsing the web site on a mobile phone

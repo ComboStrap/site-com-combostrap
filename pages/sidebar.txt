@@ -1,3 +1,0 @@
-~~NOCACHE~~
-
-<minimap suppress="Dokuwiki - ComboStrap Plugin -" includeDirectory="yes">

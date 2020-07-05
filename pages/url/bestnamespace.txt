@@ -1,0 +1,18 @@
+====== ComboStrap URL Management - Redirection by best namespace ======
+
+
+===== About =====
+''Redirection by best namespace'' is a [[action|redirection action]]  that performs the same algorithm than the [[bestpagename|redirection by best page name]] but only for the start pages of a namespace. 
+
+If two start page for a namespace have the same score, the smallest start page is chosen.
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Example =====
+
+  * asked page : ''namespace1:namespace3:namepage''
+  * first start page : ''namespace1:namespace2:start'' (Score 5 = 2 for namespace1 + 3 for the startpage)
+  * second start page : ''namespace1:start'' (Score 5 = 2 for namespace1 + 3 for the startpage)
+
+We have the same score and the redirection occurs on the smallest start page : first start page.

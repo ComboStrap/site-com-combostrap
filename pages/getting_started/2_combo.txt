@@ -1,0 +1,10 @@
+====== ComboStrap Getting Started - Combo Installation ======
+
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Next Step =====
+<btn>
+[[3_strap|Strap Installation]]
+</btn>

@@ -1,0 +1,47 @@
+---json
+{
+    "canonical":"nice:url"
+}
+---
+
+====== ComboStrap URL Management - Nice URL ======
+
+
+===== About =====
+<note>
+This is an informative page about nice URL
+</note>
+
+===== What is a nice URL ? =====
+
+Dokuwiki uses as main entry the script ''doku.php'' and by default every URL looks like that
+
+[[combo>https://combostrap.com/doku.php?id=url:nice]]
+
+This URL has technical information (ie the name of the script ''doku.php'') that can be stripped off to let only the semantic information. A ''nice url'' would be
+
+[[combo>https://combostrap.com/url/nice]]
+===== How to get nice URL =====
+Dokuwiki has an article about this topic: More see [[doku>rewrite]]
+
+<note>
+''ComboStrap'' can't  rewrite the URL to use the script ''doku.php''
+
+
+but it can [[id_redirect|redirect an id]].
+
+**Example:** because this page has the ''nice:url'' canonical value, the page is available at:
+
+[[combo>https://combostrap.com/nice/url]]
+
+
+</note>
+
+
+===== Important Configuration =====
+
+
+The Dokuwiki Configuration that are important to get nice URL are the following one:
+  * [[doku>config:userewrite]] - ''.htaccess'' (for nice URL)
+  * [[doku>config:useslash]] - Yes (for nice URL)
+

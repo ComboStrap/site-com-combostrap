@@ -4,4 +4,15 @@
 }
 ---
 
-====== Metadata Manager - Web Data Structure and Semantic ======
+====== ComboStrap - Page Metadata (Semantic) ======
+
+
+===== About =====
+The ''metadata manager'' is composed of the [[frontmatter|frontmatter module]] that permits to set the following metadata
+      * [[canonical|canonical]]
+      * [[description|description]]
+
+and enables what we called a ''semantic component'' such as:
+  * [[url:redirection|URL redirection processing]]
+  * [[automatic_canonical|Automatic Canonical]]
+  * [[url:permalink|Permalink]]
