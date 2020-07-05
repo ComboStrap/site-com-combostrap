@@ -1,6 +1,6 @@
 ---json
 {
-   "canonical":"message"
+   "canonical":"note"
 }
 ---
 
@@ -8,7 +8,7 @@
 
 
 ===== About =====
-''note'' is a [[ui|ComboStrap UI component]] that shows a message in a box that is [[https://www.w3.org/TR/wai-aria-1.1/#note|parenthetic or ancillary to the main content]].
+''note'' is a [[ui|ComboStrap UI component]] that shows a text that is parenthetic or ancillary to the main text.
 
 ===== Articles Related =====
 {{backlinks>.}}
@@ -35,6 +35,7 @@ You can also style your [[ui|ComboStrap UI components]] with the [[style|style a
 </code>
 </webcode>
 
-===== Documentation / Reference =====
-  * [[https://www.w3.org/TR/wai-aria-1.1/#note|Note ARIA Role]] - A section whose content is parenthetic or ancillary to the main content of the resource.
-  * [[https://www.w3.org/TR/wai-aria-1.1/#alert|Alert ARIA Role]] - Alert are typically shown as a result of an external event when user focus may be elsewhere. 
+===== For the Geek =====
+''note'' follows the [[https://getbootstrap.com/docs/4.0/components/alerts/|alert styling of Bootstrap]] but does not follow the [[https://www.w3.org/TR/wai-aria-1.1/#alert|Alert ARIA Role]] because ''alerts''' are shown as the result of a event (a user action or a notification).
+
+It follows the [[https://www.w3.org/TR/wai-aria-1.1/#note|Note ARIA Role]] 

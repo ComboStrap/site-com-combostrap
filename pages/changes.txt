@@ -1,11 +1,12 @@
-##### Change Log #####
+====== Change Logs  / Release ======
 
 
-# Changes
+===== Release =====
 
+==== 2020-07-04 ====
   * The [[ui:note|note component]] was created
-  * The [[ui:notes|icon component]] was created
-  * [[url:redirection|Redirections]] - The `REDIRECTIONS` table was renamed to `PAGE_RULES`
-    * The `SOURCE` column was renamed to `MATCHER`
-    * The `PRIORITY` column was added
-    * An `ID` column was added and replace the old `SOURCE` primary key
+  * The [[ui:icon|icon component]] was created
+  * [[url:redirection|Redirections]] - The ''REDIRECTIONS'' table was renamed to ''PAGE_RULES''
+    * The ''SOURCE'' column was renamed to ''MATCHER''
+    * The ''PRIORITY'' column was added
+    * An ''ID'' column was added and replace the old ''SOURCE'' primary key

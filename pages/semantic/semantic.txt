@@ -1,1 +1,7 @@
-====== Web Data Structure (Semantic) ======
+---json
+{
+   "canonical":"metadata:manager"
+}
+---
+
+====== Metadata Manager - Web Data Structure and Semantic ======

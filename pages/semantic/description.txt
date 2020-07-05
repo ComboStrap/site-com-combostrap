@@ -1,5 +1,43 @@
-====== Semantic - Description ======
+---json
+{
+   "canonical":"meta:description",
+   "description":"Would you want to  modify your meta description to rank better on the SERP page ? This is how you do it."
+}
+---
+
+
+====== ComboStrap Page Metadata- Description ======
 
 
 ===== About =====
-The ''description'' is used by [[kb>search/engine|Search engine]]
+''description'' is a [[semantic|page metadata]] that is used by [[kb>search/engine|Search engine]] and is displayed in the [[kb>serp|Search Engine Results Page]].
+
+
+You can modify the description by adding a ''description'' property in the [[frontmatter|frontmatter]].
+
+===== Articles Related =====
+{{backlinks>.}}
+===== Example =====
+
+<code javascript>
+---json
+{
+    "description":"Would you want to  modify your meta description to rank better on the SERP page ? This is how you do it."
+}
+---
+</code>
+
+===== For the geek  =====
+Technically, this component will create the ''description'' [[kb>html:meta|HTML meta header]] 
+
+
+Example:
+<code html>
+<meta name="description" content="The best page on the universe">
+</code>
+
+To known more about description and search engine, see 
+''description'' is the [[https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#Active_learning_The_descriptions_use_in_search_engines|Active learning: The description's use in search engines]].
+
+
+

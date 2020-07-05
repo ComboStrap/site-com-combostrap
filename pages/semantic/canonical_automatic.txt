@@ -4,7 +4,7 @@
 }
 ---
 
-====== Meta - Automatic Canonical ======
+====== ComboStrap Metadata - Automatic Canonical ======
 
 
 ===== About =====

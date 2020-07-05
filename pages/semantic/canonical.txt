@@ -3,7 +3,7 @@
     "canonical":"canonical:url"
 }
 ---
-====== ComboStrap Plugin - Data Structure - Canonical URL ======
+====== ComboStrap Page Metadata - Canonical URL ======
 
 
 ===== About =====

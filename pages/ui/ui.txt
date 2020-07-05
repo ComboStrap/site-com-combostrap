@@ -1,3 +1,9 @@
+---json
+{
+    "canonical":"ui:components"
+}
+---
+
 ====== ComboStrap UI Components ======
 
 ===== About =====
@@ -24,8 +30,9 @@ See [[html]]
   * [[blockquote|Blockquote]]: A blockquote is a card with a citation.
   * [[button|Button (btn)]]: A button
   * [[related|Related]]: A component showing the backlinks
-  * [[math]]: Writing math formulas
+  * [[math|Math]]: Writing math formulas
   * [[icon|Icon]]: All material design icons or your own
+  * [[note|Note]]: An ancillary text that needs attention.
 
 ==== Navbar ====
 

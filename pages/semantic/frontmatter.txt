@@ -6,15 +6,15 @@
 }
 ---
 
-====== Front Matter ======
+====== ComboStrap Page Metadata - Front Matter ======
 
 ===== About =====
 ''Front Matter'' is a dokuwiki plugin that:
   * permits to add dokuwiki metadata in a json format.
   * add metadata into the HTML page:
-      * SEO
-          * description
-          * canonical
+      * [[:seo|SEO]]
+          * [[description|description]]
+          * [[canonical|canonical]]
       * Twitter (todo)
       * Facebook (todo)
 
@@ -42,18 +42,6 @@ Example:
 
 ===== Built-in Properties =====
 ''Front Matter'' takes into account the below properties
-
-==== description ====
-''description'' is the [[https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#Active_learning_The_descriptions_use_in_search_engines|meta description]].
-
-
-
-
-<code html>
-<meta name="description" content="The best page on the universe">
-</code>
-
-
 
 
 ===== Dokuwiki =====
