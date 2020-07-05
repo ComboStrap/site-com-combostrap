@@ -4,6 +4,7 @@
 ===== Release =====
 
 ==== 2020-07-04 ====
+  * The [[ui:namespace_toc|namespace toc style]] was upgraded to 4.1 with [[https://getbootstrap.com/docs/4.1/components/list-group/|list-groups]]
   * The [[ui:note|note component]] was created
   * The [[ui:icon|icon component]] was created
   * [[url:redirection|Redirections]] - The ''REDIRECTIONS'' table was renamed to ''PAGE_RULES''

@@ -12,13 +12,29 @@
 
 ===== Articles Related =====
 {{backlinks>.}}
+
+===== Features =====
+==== Title ====
+A ''note'' takes into account a [[header|header]]. 
+
+==== Inline and Block rendering ====
+A note can be rendered:
+      * inline 
+      * block
+
+==== Syntax ====
+A note has:
+   * a quick syntax
+   * the [[html|superset HTML syntax]]
+
+
+
 ===== Type =====
 A message may have the following type:
-  * info (Default)
-  * important
-  * tip
-  * warning
-  * danger
+  * <note info>[[#info]]</note> (Default)
+  * <note important>[[#important]]</note>
+  * <note tip>[[#tip]]</note>
+  * <note warning>[[#warning]]</note>
 
 ==== Info ====
 
@@ -36,6 +52,6 @@ You can also style your [[ui|ComboStrap UI components]] with the [[style|style a
 </webcode>
 
 ===== For the Geek =====
-''note'' follows the [[https://getbootstrap.com/docs/4.0/components/alerts/|alert styling of Bootstrap]] but does not follow the [[https://www.w3.org/TR/wai-aria-1.1/#alert|Alert ARIA Role]] because ''alerts''' are shown as the result of a event (a user action or a notification).
+The ''note'' component follows the [[https://getbootstrap.com/docs/4.0/components/alerts/|alert styling of Bootstrap]] but does not follow the [[https://www.w3.org/TR/wai-aria-1.1/#alert|Alert ARIA Role]] because ''alerts''' are shown as the result of a event (a user action or a notification).
 
 It follows the [[https://www.w3.org/TR/wai-aria-1.1/#note|Note ARIA Role]] 

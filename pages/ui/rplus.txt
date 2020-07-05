@@ -1,0 +1,9 @@
+====== ComboStrap UI Component - Renderer (Rplus) ======
+
+===== About =====
+[[doku>plugin:rplus|rplus]] is a renderer that:
+  * add numbering to the [[header|headers]]
+  * place the [[toc|TOC]] below the first header
+
+===== Articles Related =====
+{{backlinks>.}}

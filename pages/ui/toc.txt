@@ -1,0 +1,15 @@
+---json
+{
+    "canonical":"toc"
+}
+---
+
+====== ComboStrap UI - Table of Content (TOC) ======
+
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Configuration =====
+The TOC component supports the following native configuration:
+  * [[doku>config:tocminheads]]

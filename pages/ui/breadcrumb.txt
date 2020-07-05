@@ -1,0 +1,16 @@
+---json
+{
+    "canonical":"breadcrumb"
+}
+
+====== ComboStrap UI - Breadcrumb ======
+
+===== About =====
+A ''breadcrumb'' is a [[navigation|navigational component]] that shows a list of pages.
+
+A ''breadcrumb'' may have the following type:
+  * ''hiearchical'':  A ''hierarchical breacrumb'' shows where the page is located in the web site category structure
+  * ''trail'': A ''trail breadcrumb'' shows the navigation history (the last pages that were visited)
+
+===== Articles Related =====
+{{backlinks>.}}
