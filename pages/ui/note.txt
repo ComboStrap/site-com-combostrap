@@ -89,13 +89,13 @@ With the [[style|style attribute]]:
 <code dw>
 <NOTE type="warning" style="width:60%">
 ===== Warning note =====
-Too much sport is not good for your health
+Too little sport is not good for your health
 </NOTE>
 </code>
 </webcode>
 
 ==== Class ====
-With the class attribute where you can set [[spacing|spacing]] or [[styling#horizontal centering|horizontal centering]]
+With the class attribute where you can set [[spacing|spacing]] or [[grid#horizontal centering|horizontal centering]]
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <NOTE type="info" class="mx-auto" width="200px">

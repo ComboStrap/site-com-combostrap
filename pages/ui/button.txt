@@ -22,10 +22,10 @@ The only action attached is to navigate to another page.
 <btn>[[:start|Go to ComboStrap]]</btn>
 </code>
 </webcode>
-  * External Link and a secondary type
+  * External Link and a [[#type|secondary type]]
 <webcode name="Button" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
-<btn secondary color="yellow">[[https://gerardnico.com/dokuwiki/webcomponent/button|Go to external link]]</btn>
+<btn secondary color="yellow">[[https://combostrap.com/button|Go to this page via an external link]]</btn>
 </code>
 </webcode>
   * With [[spacing|spacing]]
@@ -54,20 +54,38 @@ A ''button'' can be used:
 ===== Attributes =====
 ==== Type ====
 The type of the button defines its styling:
-  * primary (default)
-  * secondary
-  * success
-  * danger
-  * warning
-  * info
-  * light
-  * dark
+<webcode name="ButtonType" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<btn>Primary (Default)</btn>
+<btn secondary>Secondary</btn>
+<btn success>Success</btn>
+<btn danger>Danger</btn>
+<btn warning>Warning</btn>
+<btn info>Info</btn>
+<btn light>Light</btn>
+<btn dark>Dark</btn>
+</code>
+</webcode>
+
 ==== Size ====
 
   * large
   * normal (default)
   * small
 
+<webcode name="ButtonSize" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<btn size="large" >Large</btn>
+<btn >Normal</btn>
+<btn size="small">Small</btn>
+</code>
+</webcode>
+
+==== HTML ====
+The ''button'' component is a fully [[html|super set HTML component]] and supports also next to the ''button'' HTML attributes
+  * the [[style|style]]
+  * the ''class'' ([[spacing|spacing]])
+  * and the [[color|color attributes]]
 
 
 

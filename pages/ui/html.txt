@@ -4,11 +4,58 @@
 The [[:ui:ui|UI ComboStrap components]] are just plugins for the ''HTML'' language.
 
 It means that all HTML attributes are supported and in particularly, you may use
-  * the ''class''
+  * the ''class'' (use intensively to set the [[spacing|spacing]])
   * and [[style|style]]
 attributes to change the styling.
+
+
 
 ===== Articles Related =====
 {{backlinks>.}}
 
+
+===== Special Attributes =====
+
+==== Type ====
+
+If a component has a ''type'' attribute, the first attribute is not required to set a name for it.
+
+Example with a [[note|note]], the fully HTML compliant syntax is
+<code dw>
+<note type="tip">A tip note</note>
+</code>
+but you can write
+<code dw>
+<note tip>A tip note</note>
+</code>
+
+
+
+==== Color ====
+The tree [[color|colors attributes]] can be passed natively.
+
+
+You can write:
+<code dw>
+<component color="blue">
+</code>
+in place of 
+<code dw>
+<component style="color:blue">
+</code>
+More ... see [[color]]
+
+
+
+==== Sizing ====
+The Sizing attributes (''width'' and ''height'') are also taken into account in each component.
+
+You can write:
+<code dw>
+<component width="100px">
+</code>
+in place of 
+<code dw>
+<component style="width:100px">
+</code>
 
