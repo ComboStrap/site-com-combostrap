@@ -40,7 +40,7 @@ A message may have the following type:
 
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
-<NOTE >
+<NOTE>
 ===== Informative note =====
 You can also style your [[ui|ComboStrap UI components]] with the [[style|style attribute]].
 </NOTE>
@@ -53,7 +53,7 @@ You can also style your [[ui|ComboStrap UI components]] with the [[style|style a
 <code dw>
 <NOTE type="tip" >
 ===== Tip note =====
-You can also style your [[ui|ComboStrap UI components]] with the [[style|style attribute]].
+You can also style your [[ui|ComboStrap UI components]] with [[spacing|spacing]].
 </NOTE>
 </code>
 </webcode>
@@ -62,7 +62,7 @@ You can also style your [[ui|ComboStrap UI components]] with the [[style|style a
 
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
-<NOTE type="important" >
+<NOTE important >
 ===== Important note =====
 Too little sport is not good for your health
 </NOTE>
@@ -94,7 +94,7 @@ Too little sport is not good for your health
 </code>
 </webcode>
 
-==== Class ====
+==== Horizontal Centering====
 With the class attribute where you can set [[spacing|spacing]] or [[grid#horizontal centering|horizontal centering]]
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
