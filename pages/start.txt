@@ -6,7 +6,7 @@
 ''ComboStrap'' is a ''combo'' of components that aims to 
 ease the ''strap'' //(creation)// of a website.
 
-<btn>
+<btn secondary>
 [[getting_started:getting_started|Get started]]
 </btn>
 </card>
