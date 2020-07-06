@@ -5,39 +5,61 @@
 
 
 ===== About =====
-[[:start|ComboStrap]] follows the name color convention of bootstrap.
+Every [[ui|ComboStrap UI component]] can be colorized with one of the following attributes
+  * ''color'': The color of the text
+  * ''background-color'': The color of the background
+  * ''border-color'': The color of the border
+
 
 ===== Articles Related =====
 {{backlinks>.}}
 
-===== Name =====
+
+===== Example =====
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<note background-color="teal" color="black" border-color="blue">
+A teal note with a black text and a blue border
+</note>
+</code>
+</webcode>
+
+===== Value =====
+
+''ComboStrap'' supports the following color value:
+  * [[#name]]
+  * [[#rgb|RGB]] 
+
+<note tip>Because the component syntax are a [[html|html superset]], all other colors value should work</note>
+==== Name ====
 [[:start|ComboStrap]] follows the [[https://getbootstrap.com/docs/4.0/utilities/colors/|Bootstrap color naming]] and you may then use the following color names.
 
 The default Bootstrap colors are:
 
 {{:ui:bootstrap_default_color.png|}}
 
-  * blue
-  * indigo
-  * purple
-  * pink
-  * red
-  * orange
-  * yellow
-  * green
-  * teal
-  * cyan
-  * white
-  * gray
-  * gray-dark
-  * primary
-  * secondary
-  * success
-  * info
-  * warning
-  * danger
-  * light
-  * dark
 
+===== Bootstrap Color Set =====
+
+<NOTE important>
+For your information, Bootstrap does not assign the same color set by name for a component.
+</NOTE>
+
+For instance, you got this colors for a [[button#primary|Primary button]]
+<code css>
+.btn-primary {
+    color: #fff;
+    background-color: #075ebb;
+    border-color: #075ebb;
+}
+</code>
+and this one for a [[note#primary|primary note]]
+<code css>
+.alert-primary {
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+}
+</code>
 
 

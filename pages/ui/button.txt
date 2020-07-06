@@ -26,7 +26,7 @@
 <btn>[[https://gerardnico.com/dokuwiki/webcomponent/button|Go to external link]]</btn>
 </code>
 </webcode>
-  * With class
+  * With [[spacing|spacing]]
 <webcode name="Button" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <btn class="p-3">[[:start|Go to ComboStrap]]</btn>

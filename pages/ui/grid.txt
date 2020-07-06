@@ -1,0 +1,27 @@
+====== ComboStrap UI - Grid ======
+
+
+===== About =====
+The ''grid'' component is not yet fully implemented as component.
+
+
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Horizontal Centering =====
+
+To center a box horizontally, use the class ''mx-auto''. 
+
+Example with a [[card|card]] and some [[color|colors]]
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<card class="mx-auto" width="300px" background-color="purple" color="white">
+A centered card with a purple background 
+</card>
+</code>
+</webcode>
+
+===== With pure HTML =====
+
+If you can insert HTML, you can use the [[https://getbootstrap.com/docs/4.0/layout/grid/|Bootstrap Grid]]

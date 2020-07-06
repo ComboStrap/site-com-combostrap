@@ -10,7 +10,7 @@ ComboStrap (Beta)
 <collapse>
 <group class="mr-auto">
 </group>
-<btn type="secondary" class="mr-3">[[getting_started:getting_started|Get Started]]</btn>
+<btn class="alert-primary" class="mr-3">[[getting_started:getting_started|Get Started]]</btn>
 <search class="mr-0 pr-0">
 </collapse>
 </container>

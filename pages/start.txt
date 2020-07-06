@@ -4,12 +4,8 @@
 ==== Making Publishing Discoverable and Remarkable ====
 
 ''ComboStrap'' is a ''combo'' of components that aims to 
-ease the ''strap'' //(creation)// of website.
+ease the ''strap'' //(creation)// of a website.
 
-<note important>The product is actually in a  ''beta'' status meaning that the updates are frequent, minor changes may occurs and that the documentation may not be fully accurate.
-\\
-But as we don't want to reinvent the wheel, the breaking changes should be really minor.
-</note>
 <btn>
 [[getting_started:getting_started|Get started]]
 </btn>

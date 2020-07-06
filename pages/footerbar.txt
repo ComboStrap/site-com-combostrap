@@ -1,0 +1,3 @@
+
+**Contact**: [[support@combostrap.com?subject=Contact via WebSite|support@combostrap.com]] \\
+**Support Ticket**: [[github>ComboStrap/ComboStrap/issues|GitHub]]
