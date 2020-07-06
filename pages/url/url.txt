@@ -11,9 +11,11 @@
 The ''URL manager'' (known formerly as the ''404manager'') manages the behavior of [[doku>|Dokuwiki]] when an [[kb>url|URL]] does not match a [[doku>pagename|Dokuwiki page]].
 
 
+<NOTE>
 By default, Dokuwiki will show an empty page.
 
 {{:url:dokuwiki_200.jpg|}}
+</NOTE>
 ===== The problem =====
 
 A [[doku>pagename|DokuWiki page]] may become unavailable if it has been:
@@ -48,9 +50,8 @@ When your page does not exist and returns a ''404 response'', this backlinks are
 In case of missing page, the ''URL Manager'' can [[redirection|redirect]]:
     * a writer to the edit mode
     * a user to the best page following an algorithm.
-and shows [[message|a message with optionally the pages with the same name]]
-
-More ... see [[redirection]]
+    * shows [[message|a message with optionally the pages with the same name]]
+    * and more ... see [[redirection]]
 
 
 

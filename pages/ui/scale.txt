@@ -1,0 +1,28 @@
+---json
+{
+    "canonical":"rem"
+}
+---
+
+====== ComboStrap UI - Length Scale ======
+
+===== About =====
+Every length expressed in [[spacing|spacing class]] are scale based.
+
+The scale is going:
+  * from ''1'' for a length value of ''.25rem'' 
+  * to ''5'' for a length value of ''3rem'' 
+
+where 1 ''rem'' [[kb>rem|Root Equal M]] unit which is equal to by default ''16px''.
+
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Configuration =====
+You can change the value of 1 rem with the ''rem'' configuration of the [[:strap:strap|strap template]]
+
+
+
+{{:ui:rem_strap_conf.png|}}
+

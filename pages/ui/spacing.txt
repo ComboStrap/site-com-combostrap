@@ -8,7 +8,7 @@
 ===== Example =====
 
 ==== A note with a big padding ====
-A note with a padding value of 5
+A note with a padding [[scale|scale value of 5]]
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <NOTE class="p-5">
@@ -17,8 +17,3 @@ A note with a big padding
 </code>
 </webcode>
 
-<NOTE tip>
-The scale is going:
-  * from ''1'' for a [[length|length value]] of ''.25rem'' 
-  * to ''5'' for a [[length|length value]] of ''3rem'' 
-</NOTE>
