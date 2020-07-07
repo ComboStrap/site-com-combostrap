@@ -1,5 +1,23 @@
 ====== Combo plugin ======
 
 
-===== Articles Related =====
-{{backlinks>.}}
+
+
+<card class="mx-auto" style="max-width:400px">
+The ''combo'' plugin is a combo of [[doku>plugins|Dokuwiki plugins]] that complements the [[strap:strap|Strap template]].
+
+It contains most of the components such as:
+  * the [[ui:ui|UI Components]]
+  * the [[url:url|Url Manager]]
+  * the [[semantic:semantic|Meta Manager]]
+  * the [[css|CSS optimizer]]
+
+This [[ui:card|UI card]] is one of the many examples.
+<btn>
+[[getting_started:getting_started|Interested ? Get Started !]]
+</btn>
+</card>
+
+\\
+\\
+

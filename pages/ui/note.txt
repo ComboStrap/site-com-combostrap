@@ -4,7 +4,7 @@
 }
 ---
 
-====== ComboStrap UI Component - Note  ======
+====== ComboStrap UI - Note  ======
 
 
 ===== About =====

@@ -1,0 +1,50 @@
+====== ComboStrap Getting Started - Creation of a headerbar ======
+
+
+===== About =====
+The [[strap:strap|strap template]] supports the creation of a dokuwiki page called [[strap:headerbor|headerbar]] in order to create a [[ui:navbar|navigation bar]] at the top location of the page.
+
+
+===== Steps=====
+
+  * Create a page called '':headerbar'' (at the root directory of your pages)
+  * Enter the below [[ui:navbar|navbar]] example
+
+
+
+If you have uploaded a icon in the [[getting_started/4_favicon|Favicon step]], a minimal ''headerbar'' with a [[ui:navbar|navbar]] would look like:
+
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<navbar class="navbar-expand-md">
+<container>
+<brand class="pt-0" title="My Brand">
+<icon name="logo.svg" />
+My Brand name
+</brand>
+
+<collapse>
+<group class="mr-auto">
+
+<dropdown name="My DropDown">
+[[ui:ui|A page]]
+[[url:url|Another page]]
+</dropdown>
+
+</group>
+
+<search class="mr-0 pr-0">
+
+</collapse>
+</container>
+</navbar>
+</code>
+</webcode>
+
+More ... see the [[ui:navbar|navbar article]]
+
+===== Next Steps =====
+
+  * Check the [[ui:ui|UI Components]]
+  * Learn about [[url:url|URL Management and redirections]]
+  * Have a look to the [[:seo|SEO page]]

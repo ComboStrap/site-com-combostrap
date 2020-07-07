@@ -1,9 +1,18 @@
+---json
+{
+   "canonical":"disqus"
+}
+---
+
 ====== ComboStrap UI - Disqus Forum / Discussion ======
 
 
 ===== About =====
 The ''disqus'' component will add a disqus forum.
 
+<note>
+In development
+</note>
 ===== Link =====
 
   * The admin panel - https://disqus.com/admin/

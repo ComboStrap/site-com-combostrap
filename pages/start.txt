@@ -30,7 +30,7 @@ ease the ''strap'' //(creation)// of a website.
 <card>
 ==== SEO ready  ====
 The ''Search Engine Optimization'' module
-will help you define the description, get back authority
+will help you define the description or get back authority
 by recovering broken back links and more.
 <btn secondary>
 [[seo|Check the SEO module]]

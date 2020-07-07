@@ -1,13 +1,18 @@
 ====== Change Logs  / Release ======
 
+===== About =====
+This is a page that lists all releases with their respective changes for [[:start|ComboStrap]].
 
-===== Release =====
+===== Releases =====
 
 ==== 2020-07-04 ====
+First release.
+  * The [[css|CSS optimizer]] was added
   * The [[ui:button|button link]] takes now into account the [[ui:color|color attributes]] of its button parent.
-  * The [[ui:namespace_toc|namespace toc style]] was upgraded to 4.1 with [[https://getbootstrap.com/docs/4.1/components/list-group/|list-groups]]
+  * All [[ui:ui|UI components]] support now the [[ui:styling|styling attributes]]
   * The [[ui:note|note component]] was created
   * The [[ui:icon|icon component]] was created
+  * The [[url:page_rules|page rules admin interface]] was created
   * [[url:redirection|Redirections]] - The ''REDIRECTIONS'' table was renamed to ''PAGE_RULES''
     * The ''SOURCE'' column was renamed to ''MATCHER''
     * The ''PRIORITY'' column was added

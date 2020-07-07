@@ -12,10 +12,12 @@
   * [[:combo|Combo]]
   * and [[strap:strap|Strap]]
 
-''Strap'' is the template part and this page shows you how to install the 
+''Strap'' is the template part and this page shows you how to install it.
 
-
-
+<note>
+This is not mandatory to install the ''strap'' template if you want to use the [[:combo|combo components]] but they are developed all together. 
+The [[ui:ui|UI components]] just needs a ''Bootstrap'' template and are tested against Bootstrap version 4.
+</note>
 
 ===== Steps =====
 

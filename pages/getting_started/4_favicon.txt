@@ -69,3 +69,10 @@ A lot of Dokuwiki components use the ''logo.svg'' file by default such as:
   * Check that you see your favicon
 
 {{strap:favicon_verification.png|}}
+
+
+==== Next Step ====
+
+<btn>
+[[5_headerbar|Create a headerbar]]
+</btn>

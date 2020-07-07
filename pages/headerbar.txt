@@ -9,6 +9,12 @@ ComboStrap (Beta)
 
 <collapse>
 <group class="mr-auto">
+<dropdown name="Components">
+[[ui:ui|UI Components]]
+[[url:url|Url Manager]]
+[[semantic:semantic|Meta Manager]]
+[[seo|SEO]]
+</dropdown>
 </group>
 <btn secondary class="mr-3">[[getting_started:getting_started|Get Started]]</btn>
 <search class="mr-0 pr-0">

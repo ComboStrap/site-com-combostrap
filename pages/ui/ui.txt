@@ -46,5 +46,3 @@ See [[html]]
 
   * [[card_column|Card column]] - A card column is a column layout for cards and blockquote.
 
-==== Forum ====
-  * [[disqus]]

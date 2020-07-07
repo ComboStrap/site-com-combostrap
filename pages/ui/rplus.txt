@@ -1,7 +1,7 @@
-====== ComboStrap UI Component - Renderer (Rplus) ======
+====== ComboStrap UI - Combo Renderer (formerly known as Rplus) ======
 
 ===== About =====
-[[doku>plugin:rplus|rplus]] is a renderer that:
+The ''combo renderer'' is a renderer that:
   * add numbering to the [[header|headers]]
   * place the [[toc|TOC]] below the first header
 
