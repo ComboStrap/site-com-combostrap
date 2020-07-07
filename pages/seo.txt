@@ -5,20 +5,27 @@
 
 On a website level, it means:
   * good content
-  * good semantic (data structure)
-  * good page speed
+  * [[#page metadata|good semantic (page metadata / web structure)]]
+  * [[#performance|good page speed]]
+  * [[#sitemap|discoverability]]
 
 
 
 ===== Articles Related =====
 {{backlinks>.}}
 
-===== Data Structure =====
+===== SEO Subject =====
+
+==== Page Metadata ====
 The following data may be set for page:
   * [[semantic:canonical]]
   * [[semantic:description]]
 
-===== Sitemap =====
+==== Performance ====
+
+The size of a web page served to the public (user not logged in) can be optimized with the [[css|CSS optimization module]]
+
+==== Sitemap ====
 ''Dokuwiki'' comes with a [[kb>sitemap|sitemap]] component that ping automatically search engines.
 
 You need to set the [[doku>config:sitemap]] configuration to a generation period in day that is not zero.

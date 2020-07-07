@@ -1,0 +1,39 @@
+---json
+{
+   "canonical":"css:optimization"
+}
+---
+
+====== ComboStrap CSS - Front End Optimization ======
+
+
+===== About =====
+''css optimization'' is a [[:start|ComboStrap]] module that will reduce the size of the CSS file by removing the styling of backend plugin.
+
+===== Articles Related =====
+{{backlinks>.}}
+===== Configuration =====
+
+==== Enable Minimization ====
+By default, this optimization is disabled.
+
+You can enable it by changing the ''enableMinimalFrontEndCss'' [[:configuration|configuration]]
+
+
+
+==== Disable the Dokuwiki Stylesheet ====
+If your front-end is completely based on a external css file such as ''BootStrap'', you may want to not include the Dokuwiki Stylesheet file entirely.
+
+
+By default, this optimization is disabled.
+
+You can enable it by changing the ''disableDokuwikiStylesheet'' [[:configuration|configuration]]
+
+<NOTE tip>
+=== For the geek ===
+
+This optimization will delete from the front end page, the following HTML header
+<code html>
+<link rel="stylesheet" href="/lib/exe/css.php?t=dokuwiki&tseed=xxxxxx">
+</code>
+</NOTE>
