@@ -1,5 +1,13 @@
 ====== ComboStrap Getting Started - Combo Installation ======
 
+===== About =====
+[[:combo|combo]] is a bundle of components that complements the [[strap:strap|strap template]].
+
+It contains:
+  * the [[ui:ui|collection of UI component]]
+  * the [[url:url|Url Manager]]
+  * the [[semantic:semantic|Page Metadata]]
+  * and more.
 
 ===== Articles Related =====
 {{backlinks>.}}
