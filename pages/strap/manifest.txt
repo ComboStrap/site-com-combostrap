@@ -42,6 +42,9 @@ The JSON file contains several information
   * ''description'' is the [[strap:tagline|tagline configuration]]
   * ''icons'' are automatically recognized. See [[getting_started:4_favicon]]
 
+===== Configuration =====
+  * ''manifest'' is a dokuwiki action and should not be [[doku>config:disableactions|disabled]].
+  * ''icons'' should be put at the root media library. ''logo.svg'' and ''android-chrome-192x192.png'' are taken into account. See [[getting_started:4_favicon]]
 ===== Documentation / Reference =====
   * [[doku>devel:manifest|webmanifest]]
   * https://developer.mozilla.org/en-US/docs/Web/Manifest
