@@ -1,7 +1,7 @@
 ---json
 {
     "canonical":"title",
-    "title":"The page title metadata",
+    "title":"Page title (Set by Combostrap)",
     "description":"How to manage the title of a web page with ComboStrap ?"
 }
 ---
@@ -12,11 +12,41 @@
 
 ===== About =====
 
-''ComboStrap'' uses for the title of the home page the [[doku>config:title|title configuration]] and the [[strap:tagline|tagline]] 
+''ComboStrap'' can manage the ''title'' of a web page.
 
-and supports the [[doku>config:useheading|useheading configuration]] (This website uses ''Always'').
-
-This is not yet possible to set a ''title'' with [[frontmatter|frontmatter]]
 
 ===== Articles Related =====
 {{backlinks>.}}
+
+===== Processing =====
+
+==== With Dokuwiki ====
+
+For [[doku>|Dokuwiki]], 
+  * by default, the title of a page is the [[doku>pagename|DokuWiki Id]] with the the [[doku>config:title|title configuration]]
+  * If the [[doku>config:useheading|useheading]] [[:configuration|configuration]] is on, the first [[ui:header|heading]] is used to replace the [[doku>pagename|DokuWiki Id]]
+
+==== With ComboStrap ====
+<note warning>
+The [[strap:strap|Strap template]] is mandatory or a template should take into account the ''title'' metadata.
+</note>
+
+With [[:start|ComboStrap]], if  you set a ''title'' property with [[frontmatter|frontmatter]], it will become the page title 
+
+Example:
+<code javascript>
+---json
+{
+    "title":"Page title (Set by Combostrap)"
+}
+---
+</code>
+Result:
+{{:semantic:page_title_set_by_combostrap.png|}}
+    
+
+
+
+<note>
+With the [[strap:strap|strap template]],  the website ''home page'' title is the Dokuwiki title with the website [[strap:tagline|tagline]] 
+</note>

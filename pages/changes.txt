@@ -7,6 +7,7 @@ This is a page that lists all releases with their respective changes for [[:star
 
 ==== Current Snapshot ====
   * The [[semantic:viewer|metadata viewer]] shows now all metadatas and can apply a filter
+  * The [[semantic:title|web page title]] is now managed.
 
 ==== 2020-07-04 ====
 First release.
