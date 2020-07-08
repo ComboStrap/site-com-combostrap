@@ -10,7 +10,7 @@
 
 
 ===== About =====
-''description'' is a [[semantic|page metadata]] that is used by [[kb>search/engine|Search engine]] and is displayed in the [[kb>serp|Search Engine Results Page]].
+''description'' is a [[:seo|seo]] [[semantic|page metadata]] that is used by [[kb>search/engine|Search engine]] and is displayed in the [[kb>serp|Search Engine Results Page]].
 
 
 You can modify the description by adding a ''description'' property in the [[frontmatter|frontmatter]].
