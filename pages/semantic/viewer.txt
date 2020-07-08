@@ -7,18 +7,42 @@
 }
 ---
 
-====== ComboStrap Metadata - The ComboStrap Metadata Viewer ======
+====== ComboStrap Page Metadata - The Metadata Viewer ======
 
 ===== About =====
-The ''ComboStrap Metadata Viewer'' is an utility that render a box with the page metadatas.
+The ''ComboStrap Metadata Viewer'' is an utility that render a box with the [[semantic|page metadatas]].
 
+The box renders:
+   * via the [[#metadata tag|metadata tag]]
+   * when in ''edit mode'' if the [[#enableMetadataViewerWhenEditing]] configuration is enabled (''true'' by default)
 ===== Articles Related =====
 {{backlinks>.}}
 
-===== Example =====
+===== Metadata tag =====
 
+You can render the metadata of a page with the ''metadata tag''
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
-<metadata/>
+<metadata title="Metadata" filter="tableofcontents|user"/>
 </code>
+where:
+  * ''title'' is the title of the box
+  * ''filter'' is an attribute with a regular expression pattern that permits to filter the metadata
+
+Output without the [[ui:toc|table of contents]] and the ''user'' properties
 </webcode>
+
+===== Configuration =====
+
+==== metadataViewerDefaultAttributes ====
+This [[:configuration|configuration]] set the default attributes of all metadata box.
+
+By default, the value filters the [[ui:toc|table of contents]].
+<code>
+title="Metadata" filter="tableofcontents"
+</code>
+
+==== enableMetadataViewerWhenEditing ====
+This [[:configuration|configuration]] tells if a metadata box should be shown while editing a page.
+
+The default value is "True"

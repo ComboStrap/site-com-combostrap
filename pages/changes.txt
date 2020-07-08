@@ -5,6 +5,9 @@ This is a page that lists all releases with their respective changes for [[:star
 
 ===== Releases =====
 
+==== Current Snapshot ====
+  * The [[semantic:viewer|metadata viewer]] shows now all metadatas and can apply a filter
+
 ==== 2020-07-04 ====
 First release.
   * The [[css|CSS optimizer]] was added

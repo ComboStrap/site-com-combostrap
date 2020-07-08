@@ -11,8 +11,12 @@
 The ''metadata manager'' is composed of the [[frontmatter|frontmatter module]] that permits to set the following metadata
       * [[canonical|canonical]]
       * [[description|description]]
+      * [[title|title]]
 
 and enables what we called a ''semantic component'' such as:
   * [[url:redirection|URL redirection processing]]
   * [[automatic_canonical|Automatic Canonical]]
   * [[url:permalink|Permalink]]
+
+
+The metadatas can be seen by default thanks to the [[viewer|Metadata viewer]].
