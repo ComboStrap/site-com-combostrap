@@ -14,3 +14,11 @@ The ''ComboStrap Metadata Viewer'' is an utility that render a box with the page
 
 ===== Articles Related =====
 {{backlinks>.}}
+
+===== Example =====
+
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<metadata/>
+</code>
+</webcode>
