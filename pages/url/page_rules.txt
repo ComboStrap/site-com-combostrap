@@ -9,7 +9,7 @@
 ====== ComboStrap URL Management - Pages Rules ======
 
 ===== About =====
-''page rules'' are rules that permits to apply a [[id_redirect|ID redirection]] for a page or a group of page.
+''page rules'' are rules that permits to apply a [[redirection|redirections]] for a page or a group of page.
 
 ===== Articles Related =====
 {{backlinks>.}}
@@ -36,7 +36,7 @@ If a page called ''dokuwiki:404managerplugin'' does not exist, the URL manager w
 
 ==== Create a rule ====
 
-  * The matcher is a pattern that should match the missing Dokuwiki Id. You can use a ''*'' that matches any number of characters (including none).
-  * The target is the new page. The ''$1, $2, ...'' characters correspond to the value of the star character ''*'' and you can use them to define the target page
+  * The matcher is a pattern that should match the missing Dokuwiki Id. You can use one or more ''*'' that matches any number of characters (including none).
+  * The target is the new page. The ''$1, $2, ...'' characters correspond to the value of the star character ''*'' in order and you can use them to define the target page
   * The priority defines in which order, the page rules are applied.
 

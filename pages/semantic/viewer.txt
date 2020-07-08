@@ -1,0 +1,16 @@
+---json
+{
+    "canonical":"metadata:viewer",
+    "title":"The ComboStrap Metadata Viewer",
+    "description":"The ComboStrap Metadata Viewer is showing you the page metadata while editing it",
+    "keywords":"web,metadata,data structure"
+}
+---
+
+====== ComboStrap Metadata - The ComboStrap Metadata Viewer ======
+
+===== About =====
+The ''ComboStrap Metadata Viewer'' is an utility that render a box with the page metadatas.
+
+===== Articles Related =====
+{{backlinks>.}}

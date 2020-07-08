@@ -1,3 +1,11 @@
+---json
+{
+    "canonical":"title",
+    "title":"The page title metadata",
+    "description":"How to manage the title of a web page with ComboStrap ?"
+}
+---
+
 ====== ComboStrap Page Metadata - Title ======
 
 ===== About =====
