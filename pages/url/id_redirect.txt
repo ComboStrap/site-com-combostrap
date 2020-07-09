@@ -24,7 +24,7 @@ It can happen in the following case:
 ==== Canonical Demo ====
 
 This page has also a [[semantic:canonical|canonical value]] of  ''id:redirect'' and is therefore accessible also from this link
-<btn class="btn-light">
+<btn >
 [[id:redirect#canonical demo|A link to demonstrate an ID Redirect]]
 </btn>
 \\

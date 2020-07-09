@@ -5,7 +5,7 @@
 The [[strap|strap template]] supports the creation of a page called  ''headerbar'' that will be rendered at the top of the template.
 
 
-The ''headerbar'' is supposed to contain a ''navbar''. See [[getting_started:5_headerbar|Creation of a headerbar]].
+The ''headerbar'' is supposed to contain a ''navbar''. See [[getting_started:5_headerbor|Creation of a headerbar]].
 
 ===== Articles Related =====
 {{backlinks>.}}

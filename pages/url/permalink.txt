@@ -11,7 +11,8 @@
 ===== About =====
 ''permalink'' are links that are permanent and that will ''permanently'' be accessible even if the web page has moved to another URL or location.
 
-
+===== Articles Related =====
+{{backlinks>.}}
 ===== How to create a permalink ? =====
 
   * ''permalink'' are links that are created when the [[semantic:canonical|canonical id]] is set for a page

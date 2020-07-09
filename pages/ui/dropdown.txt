@@ -1,4 +1,4 @@
-====== Dropdown ======
+====== ComboStrap UI - Dropdown ======
 
 ===== About =====
 ''dropdown'' are a dropdown list for the [[navbar|navbar]] that must be placed inside a [[group|group]] element.
