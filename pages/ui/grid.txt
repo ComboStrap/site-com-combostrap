@@ -1,3 +1,9 @@
+---json
+{
+    "canonical":"grid"
+}
+----
+
 ====== ComboStrap UI - Grid ======
 
 

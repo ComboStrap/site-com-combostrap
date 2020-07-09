@@ -3,7 +3,7 @@
 
 
 ===== About =====
-A ''blockquote'' component is a type of [[ui:card|card]]
+A ''blockquote'' component is a kind of [[ui:card|card]].
 
 A blockquote has always:
   * the text at the left side
@@ -14,6 +14,8 @@ A blockquote has always:
 {{backlinks>.}}
 
 ===== Example =====
+
+==== Basic ====
 
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
@@ -37,13 +39,16 @@ My Blockquote With Citation
 
 
 </card-columns>
+</code>
+</webcode>
 
-<blockquote>Thanks for stopping by. This website is the personal website of a computer scientist, trainee for life.
-Welcome !
-<cite>Nico</cite>
-</blockquote>
 
-  * Blockquote with Math
+
+====  Blockquote with Math ====
+
+Blockquote with [[math|Math]]
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
 <blockquote>
 <MATH>
 \begin{array}{lrl}
@@ -56,5 +61,7 @@ e & = & mc^2
 </code>
   * Result
 </webcode>
+
+
 
 

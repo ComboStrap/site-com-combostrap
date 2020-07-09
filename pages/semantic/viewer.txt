@@ -23,11 +23,11 @@ The box renders:
 You can render the metadata of a page with the ''metadata tag''
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
-<metadata title="Metadata" filter="tableofcontents|user"/>
+<metadata title="Metadata" exclude="tableofcontents|user"/>
 </code>
 where:
   * ''title'' is the title of the box
-  * ''filter'' is an attribute with a regular expression pattern that permits to filter the metadata
+  * ''exclude'' is an attribute with a regular expression pattern that permits to exclude metadata from rendering
 
 Output without the [[ui:toc|table of contents]] and the ''user'' properties
 </webcode>
@@ -39,10 +39,10 @@ This [[:configuration|configuration]] set the default attributes of all metadata
 
 By default, the value filters the [[ui:toc|table of contents]].
 <code>
-title="Metadata" filter="tableofcontents"
+title="Metadata" exclude="tableofcontents"
 </code>
 
 ==== enableMetadataViewerWhenEditing ====
 This [[:configuration|configuration]] tells if a metadata box should be shown while editing a page.
 
-The default value is "True"
+The default value is ''True''
