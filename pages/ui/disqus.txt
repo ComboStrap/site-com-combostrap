@@ -51,7 +51,7 @@ It should at minimum have the ''forumShortName''
 
 Example:
 <code html>
-shortName="yourRegisteredDisqusforumShortName"
+shortName="yourRegisteredDisqusShortName"
 </code>
 
 ==== disqus_identifier ====

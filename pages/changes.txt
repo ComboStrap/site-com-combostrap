@@ -8,8 +8,9 @@ This is a page that lists all releases with their respective changes for [[:star
 ==== Version 1.1 - Current Snapshot ====
   * The [[semantic:viewer|metadata viewer]] shows now all metadatas and can apply a filter
   * The [[semantic:title|web page title]] is now managed.
-  * The [[ui:math|math component]] is now more template dependent.
+  * The [[ui:math|math component]] is no more template dependent.
   * The [[ui:disqus|disqus component]] was finalized
+  * The [[ui:badge|badge component]] was added
 
 ==== Version 1.0 - 2020-07-04 ====
 First release.

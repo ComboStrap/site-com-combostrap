@@ -1,0 +1,62 @@
+---json
+{
+   "canonical":"badge"
+}
+---
+
+====== ComboStrap UI - Bagde  ======
+
+
+===== About =====
+''badge'' is a [[ui|ComboStrap UI component]] that shows a small status descriptors such as:
+  * a count 
+  * or a label
+
+
+<badge>Since [[:changes|version 1.1]]</badge>
+===== Articles Related =====
+{{backlinks>.}}
+
+
+==== Syntax ====
+''badge'' follows the [[html|superset HTML syntax]] and can then be [[styling|customized]]
+
+  * Full Qualified Syntax
+<code dw>
+<bage type="type" rounded="true|false"
+</code>
+
+  * Short Syntax
+<code dw>
+<bage type rounded="true|false"
+</code>
+
+where:
+  * ''type'' defines the color
+  * ''rounded'' will give a look more rounded (Default: true)
+===== Type =====
+
+A badge may have the following type:
+  * <badge primary>primary</badge>
+  * <badge primary>secondary</badge>
+  * <badge success>success</badge> (Default)
+  * <badge danger>danger</badge>
+  * <badge warning>warning</badge>
+  * <badge info>info</badge> (Default)
+  * <badge tip>tip</badge>
+  * <badge light>light</badge>
+  * <badge dark>dark</badge>
+
+
+
+
+
+===== Configuration =====
+
+==== defaultBadgeAttributes ====
+''defaultBadgeAttributes'' is a [[:configuration|configuration]] that defines the default badge attributes
+
+Default value:
+<code html>
+type="info" rounded="true"
+</code>
