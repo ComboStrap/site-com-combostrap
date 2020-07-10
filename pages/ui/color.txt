@@ -16,11 +16,12 @@ Every [[ui|ComboStrap UI component]] can be colorized with one of the following 
 
 
 ===== Example =====
+With a [[card|card]]
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
-<note background-color="teal" color="black" border-color="blue">
-A teal note with a black text and a blue border
-</note>
+<card background-color="teal" color="black" border-color="blue" width="200px">
+A teal [[ui:card|card]] with a black text and a blue border
+</card>
 </code>
 </webcode>
 
@@ -39,10 +40,30 @@ The default Bootstrap colors are:
 {{:ui:bootstrap_default_color.png|}}
 
 
-===== Bootstrap Color Set =====
+==== Gradient ====
+[[:start|ComboStrap]] implements also a ''gradient'' color naming scheme in order to show a ''linear color gradient'' in the background.
+
+<badge>Since [[:changes|version 1.2]]</badge>
+
+If you want to have a gradient on your color, just add the ''gradient-'' prefix to a color value.
+
+Example with a [[note|note]]:
+
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<note info background-color="gradient-light" >
+==== Linear Background Gradient Color ====
+ 
+A [[ui:note|info note]] with a ''light gradient color'' as background
+</note>
+</code>
+</webcode>
+
+
+===== FYI: Bootstrap Color Set =====
 
 <NOTE important>
-For your information, Bootstrap does not assign the same color set by name for a component.
+Just for your information, Bootstrap does not assign the same color set by name for a component.
 </NOTE>
 
 For instance, you got this colors for a [[button#primary|Primary button]]
@@ -62,4 +83,7 @@ and this one for a [[note#primary|primary note]]
 }
 </code>
 
+
+===== Documentation / Reference =====
+  * https://getbootstrap.com/docs/4.0/getting-started/theming/#color
 

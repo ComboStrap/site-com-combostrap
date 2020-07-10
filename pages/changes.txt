@@ -9,6 +9,9 @@ This is a page that lists all releases with their respective changes for [[:star
   * The [[strap:footerbor|footerbar]] is no longer constrained in width.
   * Implementation of the [[ui:grid|grid system]]
   * The [[ui:container|container]] is now a [[ui:html|superset HTML component]]
+  * You can now set a [[ui:color#gradient|background color gradient]].
+  * The [[ui:footer|footer]] element was created.
+  * The [[strap:strap|strap template]] applies now a ''dokuwiki'' class on the whole page in order to be able to have [[doku>Dokuwiki]] styling such as [[doku>interwiki|interwiki icon]] in the footer.
 
 ==== Version 1.1 - 2020-07-10 ====
   * The [[semantic:viewer|metadata viewer]] shows now all metadatas and can apply a filter

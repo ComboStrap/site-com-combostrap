@@ -8,9 +8,11 @@
 
 
 ===== About =====
-The ''grid'' component is not yet fully implemented as component.
+The ''grid'' component is a composition of two tags:
+  * the ''row'' tag
+  * and the ''column'' (or ''col'' tag)
 
-
+<badge>Since [[:changes|version 1.2]]</badge>
 
 ===== Articles Related =====
 {{backlinks>.}}
@@ -28,6 +30,3 @@ A centered card with a purple background
 </code>
 </webcode>
 
-===== With pure HTML =====
-
-If you can insert HTML, you can use the [[https://getbootstrap.com/docs/4.0/layout/grid/|Bootstrap Grid]]

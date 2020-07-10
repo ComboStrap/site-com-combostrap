@@ -16,4 +16,34 @@ A footer typically contains information about the author of the section, copyrig
 {{backlinks>.}}
 
 ===== Example =====
-You generally use a [[ui:grid|grid]] to list organization specific information and links.
+With:
+  * two columns in one row of the [[ui:grid|grid]]
+  * inside a [[ui:container|container]] to limit the horizontal space
+  * inside a [[ui:footer|footer]] to style the background with a [[ui:color#gradient|gradient color]] and a little bit of [[ui:spacing|spacing]]
+
+
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<footer class="p-3" background-color="gradient-light">
+<container >
+
+<row>
+
+<col>
+**First Column** \\
+Powered by [[:start|ComboStrap]] \\
+[[support@combostrap.com?subject=Contact via WebSite|support@combostrap.com]] \\
+</col>
+
+<col>
+**Second Column** \\
+[[:security|Security]]\\
+[[:changes|Release (Changes)]]\\
+</col>
+
+</row>
+
+</container>
+</footer>
+</code>
+</webcode>
