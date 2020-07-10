@@ -5,12 +5,13 @@ This is a page that lists all releases with their respective changes for [[:star
 
 ===== Releases =====
 
-==== Current Snapshot ====
+==== Version 1.1 - Current Snapshot ====
   * The [[semantic:viewer|metadata viewer]] shows now all metadatas and can apply a filter
   * The [[semantic:title|web page title]] is now managed.
   * The [[ui:math|math component]] is now more template dependent.
+  * The [[ui:disqus|disqus component]] was finalized
 
-==== 2020-07-04 ====
+==== Version 1.0 - 2020-07-04 ====
 First release.
   * The [[css|CSS optimizer]] was added
   * The [[ui:button|button link]] takes now into account the [[ui:color|color attributes]] of its button parent.

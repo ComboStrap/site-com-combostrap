@@ -10,9 +10,7 @@
 ===== About =====
 The ''disqus'' component will add a disqus forum.
 
-<note>
-In development
-</note>
+Since [[:changes|version 1.1]]
 
 
 ===== Syntax =====
@@ -26,12 +24,14 @@ In development
 />
 </code>
 
+
+
 ^ Attributes  ^ Default to ^ Description ^
-| ''shortname'' | the [[#disqusForumShortName]] configuration | It's the forum's shortname. It's the unique identifier for your website as registered on Disqus. |
-| ''id'' | the [[semantic:canonical|canonical value]] and if not set to the [[doku>pagename|Dokuwiki Id]] | The discussion ''identifier'' |
+| ''shortname'' | the [[#disqusDefaultAttributes]] configuration | It's the forum's shortname. It's the unique identifier for your website as registered on Disqus. |
+| ''id'' | The [[semantic:canonical|canonical value]] and if not set to the [[doku>pagename|Dokuwiki Id]] | The chosen discussion ''identifier'' (ie the page) is persisted in in  the [[#disqus_identifier]] meta. |
 | ''url'' | the [[semantic:canonical|canonical URL]] if set | The ''Url'' disqus configuration is used to come back from Disqus to your page |
 | ''category'' | Not set | It's the category id number to be used for the current page |
-| ''title'' | the [[semantic:title|title]] | The title of the thread |
+| ''title'' | the [[semantic:title|title]] of the page | The title of the thread |
 
 
 
@@ -43,14 +43,27 @@ In development
 
 
 ===== Configuration =====
-==== disqusForumShortName ====
+==== disqusDefaultAttributes====
 
-The ''disqusForumShortName'' [[:configuration|configuration]] is the unique identifier for your website as registered on Disqus. [[https://help.disqus.com/en/articles/1717084-javascript-configuration-variables|Reference]]
+''disqusDefaultAttributes'' is a [[:configuration|configuration]] that defines the default [[#syntax|attributes]] of the ''Disqus'' component. 
 
+It should at minimum have the ''forumShortName''
+
+Example:
+<code html>
+shortName="yourRegisteredDisqusforumShortName"
+</code>
+
+==== disqus_identifier ====
+''disqus_identifier'' is a [[semantic:semantic|meta]] that persist the chosen ''id''  over time.
+
+<note important>
+Don't change it if you have any comments, otherwise you will create a new discussion and lose them.
+</note>
 
 ===== Documentation / Reference =====
   * [[https://help.disqus.com/en/articles/1717084-javascript-configuration-variables|Disqus variable]]
-  * The admin panel - https://disqus.com/admin/
+  * A link to the [[https://disqus.com/admin/|admin panel]] to manage your comments
 
 ===== Example =====
 
