@@ -1,0 +1,18 @@
+====== Strap Template - Bar ======
+
+
+===== About =====
+''bar'' are locations in the template that can be fill by creating a page with the name of the ''bar''
+
+The Strap template supports now the following bar:
+  * ''sidebar'' (on the side)
+  * [[headerbor|headerbar]] (at the top)
+  * [[footerbor|footerbar]] (at the bottom)
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Features =====
+
+  * All ''bar'' follows the same convention than  a [[doku>faq:sidebar|sidebar]]
+  * A ''bar'' can defined by namespace (directory), if there is a page created for ''bar'' in a namespace, this page is rendered in place of the page located at the root directory.

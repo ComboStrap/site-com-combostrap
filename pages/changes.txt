@@ -5,12 +5,18 @@ This is a page that lists all releases with their respective changes for [[:star
 
 ===== Releases =====
 
+==== Version 1.2 - Snapshot ====
+  * The [[strap:footerbor|footerbar]] is no longer constrained in width.
+  * Implementation of the [[ui:grid|grid system]]
+  * The [[ui:container|container]] is now a [[ui:html|superset HTML component]]
+
 ==== Version 1.1 - 2020-07-10 ====
   * The [[semantic:viewer|metadata viewer]] shows now all metadatas and can apply a filter
   * The [[semantic:title|web page title]] is now managed.
   * The [[ui:math|math component]] is no more template dependent.
   * The [[ui:disqus|disqus component]] was finalized
   * The [[ui:badge|badge component]] was added
+
 
 ==== Version 1.0 - 2020-07-04 ====
 First release.

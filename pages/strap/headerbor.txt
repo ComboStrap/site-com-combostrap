@@ -2,7 +2,7 @@
 
 
 ===== About =====
-The [[strap|strap template]] supports the creation of a page called  ''headerbar'' that will be rendered at the top of the template.
+The [[strap|strap template]] supports the creation of a [[bar|bar (page)]] called  ''headerbar'' that will be rendered at the top of the template.
 
 
 The ''headerbar'' is supposed to contain a ''navbar''. See [[getting_started:5_headerbor|Creation of a headerbar]].
@@ -10,8 +10,5 @@ The ''headerbar'' is supposed to contain a ''navbar''. See [[getting_started:5_h
 ===== Articles Related =====
 {{backlinks>.}}
 
-===== Features =====
-  * The ''headerbar'' follows the same convention than  a [[doku>faq:sidebar|sidebar]]
-  * If there is a ''headerbar'' for a namespace, this ''headerbar'' in place of the root ''headerbar'' will be rendered.
 
 

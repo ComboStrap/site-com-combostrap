@@ -1,0 +1,19 @@
+---json
+{
+    "canonical":"footerbar"
+}
+---
+
+====== Strap - Footerbar ======
+
+===== About =====
+The footerbar is a [[bar|bar]] that is located at the bottom of a page.
+
+A footer typically contains information about the author of the section, copyright data or links to related documents.
+
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Example =====
+You generally use a [[ui:grid|grid]] to list organization specific information and links.
