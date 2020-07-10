@@ -5,7 +5,7 @@ This is a page that lists all releases with their respective changes for [[:star
 
 ===== Releases =====
 
-==== Version 1.1 - Current Snapshot ====
+==== Version 1.1 - 2020-07-10 ====
   * The [[semantic:viewer|metadata viewer]] shows now all metadatas and can apply a filter
   * The [[semantic:title|web page title]] is now managed.
   * The [[ui:math|math component]] is no more template dependent.
