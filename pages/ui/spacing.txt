@@ -1,3 +1,9 @@
+---json
+{
+    "canonical":"spacing"
+}
+---
+
 ====== ComboStrap UI - Spacing (Margin, Padding) ======
 
 
@@ -54,7 +60,7 @@ where:
           * ''t'': top
           * ''b'': bottom
   * ''breakpoint'' is the Breakpoint / Toggle size: xs, sm, md, lg
-  * ''size'' is 0,1,2,3,4 or 5 (based on size scale)
+  * ''size'' is 0,1,2,3,4 or 5 (based on [[scale|size scale]])
 
 ===== Documentation / Reference =====
   * [[https://getbootstrap.com/docs/4.0/utilities/spacing/|Bootstrap Spacing]].
