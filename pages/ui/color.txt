@@ -7,8 +7,13 @@
 ===== About =====
 Every [[ui|ComboStrap UI component]] can be colorized with one of the following attributes
   * ''color'': The color of the text
-  * ''background-color'': The color of the background
+  * ''background-color'': The color of the background 
   * ''border-color'': The color of the border
+
+
+<note tip>
+The ''background'' is defined as being the content plus the [[spacing|padding]]
+</note>
 
 
 ===== Articles Related =====

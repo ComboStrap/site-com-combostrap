@@ -1,5 +1,5 @@
 
-<footer class="p-3" background-color="light-gradient">
+<footer class="p-3" background-color="gradient-light">
 <container >
 
 <row>
