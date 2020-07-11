@@ -10,7 +10,7 @@
 
 <webcode name="dropdown" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
-<navbar>
+<navbar position="normal">
 <group>
 <dropdown name="Navbar component">
 [[:dropdown|dropdown]]

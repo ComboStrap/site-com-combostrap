@@ -1,13 +1,12 @@
 
-
-<navbar class="navbar-expand-md">
-<container>
-<brand class="pt-0" title="ComboStrap Home" style="color:#075EBB">
+<navbar class="navbar-expand-md" >
+<brand title="ComboStrap Home" style="color:#075EBB">
 <icon name="logo.svg" />
 ComboStrap (Beta)
 </brand>
 
 <collapse>
+[[:changes|Release (Changes)]]
 <group class="mr-auto">
 <dropdown name="Components">
 [[ui:ui|UI Components]]
@@ -19,7 +18,6 @@ ComboStrap (Beta)
 <btn secondary class="mr-3">[[getting_started:getting_started|Get Started]]</btn>
 <search class="mr-0 pr-0">
 </collapse>
-</container>
 </navbar>
 
 

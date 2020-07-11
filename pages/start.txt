@@ -11,7 +11,7 @@ ease the ''strap'' //(creation)// of a website.
 </btn>
 </card>
 
-<card-columns>
+<card-columns class="mb-3">
 
 
 <card>
