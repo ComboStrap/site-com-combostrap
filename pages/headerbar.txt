@@ -6,7 +6,6 @@ ComboStrap (Beta)
 </brand>
 
 <collapse>
-[[:changes|Release (Changes)]]
 <group class="mr-auto">
 <dropdown name="Components">
 [[ui:ui|UI Components]]
@@ -15,6 +14,7 @@ ComboStrap (Beta)
 [[seo|SEO]]
 </dropdown>
 </group>
+[[:changes|Release (Changes)]]
 <btn secondary class="mr-3">[[getting_started:getting_started|Get Started]]</btn>
 <search class="mr-0 pr-0">
 </collapse>

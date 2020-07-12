@@ -3,11 +3,11 @@
 <container >
 
 <row>
-<col>
+<col class="col-12 col-lg-6">
 **Contact**: [[support@combostrap.com?subject=Contact via WebSite|support@combostrap.com]] \\
 **Support Ticket**: [[https://github.com/ComboStrap/ComboStrap/issues|GitHub]]
 </col>
-<col>
+<col class="col-12 col-lg-6">
 [[:security|Security]]\\
 [[:changes|Release (Changes)]]\\
 </col>

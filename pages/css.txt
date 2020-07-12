@@ -37,3 +37,9 @@ This optimization will delete from the front end page, the following HTML header
 <link rel="stylesheet" href="/lib/exe/css.php?t=dokuwiki&tseed=xxxxxx">
 </code>
 </NOTE>
+
+==== Enable Preload ====
+
+''preloadCss'' is a [[strap:strap|strap template]] configuration that enables [[https://developers.google.com/web/fundamentals/performance/resource-prioritization#preload|Css preloading]].
+
+In short, the rendering of your page will be faster but the page rendering may flikkert if the network is slow.
