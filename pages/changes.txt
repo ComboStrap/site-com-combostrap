@@ -5,9 +5,10 @@ This is a page that lists all releases with their respective changes for [[:star
 
 ===== Releases =====
 
-==== Version 1.2 - Snapshot ====
+==== Version 1.2 - Snapshot / Current ====
+The version 1.2 is a big template improvement release:
   * The [[strap:footerbor|footerbar]] is no longer constrained in width.
-  * Implementation of the [[ui:grid|grid system]]
+  * Implementation of the [[ui:grid|grid component]]
   * The [[ui:container|container]] is now a [[ui:html|superset HTML component]]
   * You can now set a [[ui:color#gradient|background color gradient]].
   * The [[ui:footer|footer]] element was created.

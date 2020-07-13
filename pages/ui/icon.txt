@@ -82,10 +82,10 @@ When the ''icon'' component uses a icon of [[https://materialdesignicons.com/|ma
 
 The default value is '':combostrap:icons''
 
-<NOTE type="tip">
+<note type="tip">
 On the server, the namespace is a location from the media directory: ''DOKUWIKI_HOME/data/media/''
 {{:ui:icon_default_location_combostrap.png|}}
-</NOTE>
+</note>
 
 
 ===== Support =====

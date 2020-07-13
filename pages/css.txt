@@ -29,17 +29,19 @@ By default, this optimization is disabled.
 
 You can enable it by changing the ''disableDokuwikiStylesheet'' [[:configuration|configuration]]
 
-<NOTE tip>
+<note tip>
 === For the geek ===
 
 This optimization will delete from the front end page, the following HTML header
 <code html>
 <link rel="stylesheet" href="/lib/exe/css.php?t=dokuwiki&tseed=xxxxxx">
 </code>
-</NOTE>
+</note>
 
 ==== Enable Preload ====
 
 ''preloadCss'' is a [[strap:strap|strap template]] configuration that enables [[https://developers.google.com/web/fundamentals/performance/resource-prioritization#preload|Css preloading]].
 
 In short, the rendering of your page will be faster but the page rendering may flikkert if the network is slow.
+
+<badge>Since [[:changes|version 1.2]]</badge>

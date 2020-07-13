@@ -7,7 +7,7 @@
 ===== About =====
 Every [[ui|ComboStrap UI component]] can be colorized with one of the following attributes
   * ''color'': The color of the text
-  * ''background-color'': The color of the background 
+  * ''background-color'': The color of the background
   * ''border-color'': The color of the border
 
 
@@ -34,7 +34,7 @@ A teal [[ui:card|card]] with a black text and a blue border
 
 ''ComboStrap'' supports the following color value:
   * [[#name]]
-  * [[#rgb|RGB]] 
+  * [[#rgb|RGB]]
 
 <note tip>Because the component syntax are a [[html|html superset]], all other colors value should work</note>
 ==== Name ====
@@ -58,7 +58,7 @@ Example with a [[note|note]]:
 <code dw>
 <note info background-color="gradient-light" >
 ==== Linear Background Gradient Color ====
- 
+
 A [[ui:note|info note]] with a ''light gradient color'' as background
 </note>
 </code>
@@ -67,9 +67,9 @@ A [[ui:note|info note]] with a ''light gradient color'' as background
 
 ===== FYI: Bootstrap Color Set =====
 
-<NOTE important>
+<note important>
 Just for your information, Bootstrap does not assign the same color set by name for a component.
-</NOTE>
+</note>
 
 For instance, you got this colors for a [[button#primary|Primary button]]
 <code css>

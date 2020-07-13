@@ -4,7 +4,7 @@
 ===== About =====
 The ''inote'' is a [[note|note]] that can be added in a paragraph (inline)
 
-
+<badge>Since [[:changes|version 1.2]]</badge>
 ===== Articles Related =====
 {{backlinks>.}}
 

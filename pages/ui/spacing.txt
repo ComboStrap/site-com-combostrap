@@ -27,9 +27,9 @@ A [[note|note]] with:
   * a ''margin'' with a [[scale|scale value of 5]] (no color)
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
-<NOTE class="p-3 m-5">
+<note class="p-3 m-5">
 A note with a padding and margin
-</NOTE>
+</note>
 </code>
 </webcode>
 
@@ -39,7 +39,7 @@ The spacing class name  implements the [[https://getbootstrap.com/docs/4.0/utili
 
   * For ''extra-small (xs)'' breakpoint
 <code>
-{spaceType}{sides}-{size} 
+{spaceType}{sides}-{size}
 </code>
   * For the other
 <code>
@@ -51,7 +51,7 @@ where:
       * ''p'' for padding
       * ''m'' for margin
   * ''sides'' is:
-      * axis: 
+      * axis:
           * ''x'' (Left and right)
           * ''y'' (top & bottom)
       * position:
