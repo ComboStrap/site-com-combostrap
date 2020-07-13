@@ -27,20 +27,20 @@ A note has:
 
 
 ===== Type =====
-A message may have the following type:
-  * <note info>[[#info]]</note> (Default)
-  * <note important>[[#important]]</note>
-  * <note tip>[[#tip]]</note>
-  * <note warning>[[#warning]]</note>
+A note may have the following type:
+  * [[#info]] (Default)
+  * [[#important]]
+  * [[#tip]]
+  * [[#warning]]
 
 ==== Info ====
 
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
-<NOTE>
+<note>
 ===== Informative note =====
 You can also style your [[ui|ComboStrap UI components]] with the [[style|style attribute]].
-</NOTE>
+</note>
 </code>
 </webcode>
 
@@ -48,10 +48,10 @@ You can also style your [[ui|ComboStrap UI components]] with the [[style|style a
 
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
-<NOTE type="tip" >
+<note type="tip" >
 ===== Tip note =====
 You can also style your [[ui|ComboStrap UI components]] with [[spacing|spacing]].
-</NOTE>
+</note>
 </code>
 </webcode>
 
@@ -59,10 +59,10 @@ You can also style your [[ui|ComboStrap UI components]] with [[spacing|spacing]]
 
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
-<NOTE important >
+<note important >
 ===== Important note =====
 Too little sport is not good for your health
-</NOTE>
+</note>
 </code>
 </webcode>
 
@@ -70,10 +70,10 @@ Too little sport is not good for your health
 
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
-<NOTE type="warning">
+<note type="warning">
 ===== Warning note =====
 Too much sport is not good for your health
-</NOTE>
+</note>
 </code>
 </webcode>
 
@@ -84,10 +84,10 @@ Too much sport is not good for your health
 With the [[style|style attribute]]:
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
-<NOTE type="warning" style="width:60%">
+<note type="warning" style="width:60%">
 ===== Warning note =====
 Too little sport is not good for your health
-</NOTE>
+</note>
 </code>
 </webcode>
 
@@ -95,19 +95,19 @@ Too little sport is not good for your health
 With the class attribute where you can set [[spacing|spacing]] or [[grid#horizontal centering|horizontal centering]]
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
-<NOTE type="info" class="mx-auto" width="200px">
+<note type="info" class="mx-auto" width="200px">
 ===== Warning note =====
 Too much sport is not good for your health
-</NOTE>
+</note>
 </code>
 </webcode>
 
 ===== Inline =====
-If you want to have a inline note, use a [[badge|badge]] instead.
+If you want to have a inline note, use a [[inote|inote]] instead.
 
 <webcode name="InlineNote" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
-When you go to this castel takes the round about <badge tip>Don't forget to enjoy the view !</badge>
+When you go to this castel takes the round about <inote tip>Don't forget to enjoy the view !</inote>
 </code>
 </webcode>
 

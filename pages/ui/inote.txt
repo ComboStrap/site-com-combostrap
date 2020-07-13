@@ -1,0 +1,27 @@
+====== ComboStrap UI - inote (inline note) ======
+
+
+===== About =====
+The ''inote'' is a [[note|note]] that can be added in a paragraph (inline)
+
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Syntax =====
+<code dw>
+<inote type>
+</code>
+
+A ''inote'' is a [[html|superset HTML component]].
+===== Example =====
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+The following type of note are now supported:
+  * <inote info>info</inote> (Default)
+  * <inote important>important</inote>
+  * <inote tip>tip</inote>
+  * <inote warning>warning</inote>
+</code>
+</webcode>
+

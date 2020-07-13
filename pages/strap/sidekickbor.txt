@@ -1,4 +1,10 @@
-====== Strap - Sidekick bar ======
+---json
+{
+   "canonical":"sidekickbar"
+}
+---
+
+====== Strap Template - Sidekick bar ======
 
 ===== About =====
 The ''sidekick bar'' is a [[bar|bar]] that is shown at the right side of a page.
@@ -11,7 +17,7 @@ The ''sidekick bar'' is a [[bar|bar]] that is shown at the right side of a page.
 This is just an extension of the standard [[bar|bar feature]] of [[doku>|Dokuwiki]]
 
   * Create a page called ''sidekickbar'' 
-  * And you will see its content appear on the right side of the page.
+  * And you will see its content appears at the right side of the page.
 
 
 ===== Configuration =====

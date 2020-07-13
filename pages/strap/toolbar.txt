@@ -1,0 +1,25 @@
+====== Strap - Toolbar ======
+
+{{ :strap:strap_toolbar.png|}}
+
+===== About =====
+The ''toolbar'' is located at the right side of the template and follows the scrolling of the page.
+
+It regroups in one place:
+  * the page menu (Create / Edit / Show / Backlinks / Old Revisions / BacktoTop)
+  * the user menu (Login / Logout / Update Profile)
+  * and the site menu (Admin)
+
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Configuration =====
+==== privateToolbar ====
+
+You can cache the ''toolbar'' from anonymous users with the  ''privateToolbar'' [[:configuration|configuration]].
+
+When this configuration is on, you can log in again at: https://yourdomain.com/?do=login
+
+===== Documentation / Reference =====
+  * [[doku>devel:menus]]
