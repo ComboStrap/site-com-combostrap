@@ -2,6 +2,7 @@
 {
     "canonical":"breadcrumb"
 }
+---
 
 ====== ComboStrap UI - Breadcrumb ======
 
@@ -12,5 +13,6 @@ A ''breadcrumb'' may have the following type:
   * ''hiearchical'':  A ''hierarchical breacrumb'' shows where the page is located in the web site category structure
   * ''trail'': A ''trail breadcrumb'' shows the navigation history (the last pages that were visited)
 
+<badge warning>In development</badge>
 ===== Articles Related =====
 {{backlinks>.}}

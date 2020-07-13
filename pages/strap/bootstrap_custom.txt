@@ -1,0 +1,167 @@
+---json
+{
+    "canonical":"custom:bootstrap"
+}
+---
+
+====== Bootstrap - Create your own stylesheet  ======
+
+
+===== About =====
+This article shows you how to create your own Bootstrap Stylesheet (theme) to fit your need.
+
+<note info>
+This was the steps taken to create the [[dynamic_grid|16 grid Stylesheet]].
+</note>
+
+===== Articles Related =====
+{{backlinks>.}}
+
+
+===== Prerequisites =====
+  * Install [[https://nodejs.org/en/download/|Node]]
+  * Insatll [[https://git-scm.com/downloads|Git]]
+
+
+===== Steps =====
+==== Get a version ====
+  * Get Bootstrap
+<code bash>
+git clone https://github.com/twbs/bootstrap.git
+</code>
+  * Get a Bootstrap version. Example for Bootstrap version 4.5.0
+<code bash>
+cd bootstrap
+git checkout -b version4.5.0 v4.5.0
+</code>
+==== Install ====
+  * Install the package dependencies
+<code bash>
+npm install
+</code>
+==== Modify the SCSS Variable file ====
+
+You modify a theme by giving your own sass variable in the file ''scss/_variables.scss''
+
+
+The naming convention is  ''$name-state-property-modifier'' where:
+
+  * ''name'' is the component name corresponding to the given class name (e.g .alert)
+  * ''state'' is the pseudo-class used to define a special state of an element (e.g: hover, active, checked etc)
+  * ''property'' is the given CSS property in order to achieve the results you need (e.g: color, background, display)
+  * ''modifier'' is used to define additional information for the current property, like sizes, axis (e.g alert-sm, alert-padding-y)
+
+<note info>
+Every Sass variable in Bootstrap 4 includes the ''!default'' flag allowing you to override the variable’s default value in your own Sass.
+</note>
+
+Example with a [[dynamic_grid|grid of 16 columns with a max width of 1280px]]
+<code scss scss/_variables.scss>
+$grid-columns:                16 !default;
+
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1280px
+) !default;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1280px
+) !default;
+
+</code>
+
+Optionally for a better [[kb>color:contrast|contrast]], you can change the blue color.
+<code scss>
+$blue:    #075ebb !default;
+</code>
+==== Compile ====
+<code bash>
+npm run dist
+# or just for css
+npm run css
+</code>
+
+==== Grab the stylesheet ====
+In the sub-directory ''dist\css'', you can find the files:
+  * ''bootstrap.min.css''
+  * ''bootstrap.min.css.map''
+
+==== Calculate the integrity ====
+<inote>Optional but recommended</inote>
+
+The [[kb>html:integrity|integrity field]] permits to control that the stylesheet file was not tempered during the network transit.
+
+
+<code bash>
+# go to the bootstrap source code directory
+cd bootstrap/dist/css
+# generate a sha384
+openssl dgst -sha384 -binary bootstrap.min.css | openssl base64 -A
+</code>
+Output:
+<console>
+6YMUsimvBMWMU6VPmQwCKP28RrKPSaSaD48Hfabk1yxb5zQZ21XDRL/vljin9SZ3
+</console>
+Your integrity value is:
+<console>
+sha384-6YMUsimvBMWMU6VPmQwCKP28RrKPSaSaD48Hfabk1yxb5zQZ21XDRL/vljin9SZ3
+</console>
+
+
+==== Install your new stylesheet ====
+
+To install your new stylesheet, you need to:
+  * copy the [[#Grab the stylesheet|custom style sheet and its map file]] to the bootstrap folder of ''strap''
+  * [[#define the custom stylesheet|define it]]
+  * and [[#change the bootstrapStylesheet configuration]]
+
+=== Copy the custom style sheet ===
+
+The bootstrap folder of strap are organised by ''bootstrap versions''
+
+<file>
+dokuwiki/lib/tpl/strap/bootstrap/${version}
+</file>
+
+Example:
+  * ''dokuwiki/lib/tpl/strap/bootstrap/4.5.0'' for the version ''4.5.0''
+  * ''dokuwiki/lib/tpl/strap/bootstrap/4.4.1'' for the version ''4.4.1''
+
+[[#Grab the stylesheet|Take the custom stylesheet ''bootstrap.min.cs'' created]] an copy it to the ''strap'' bootstrap folder. In this example in ''dokuwiki/lib/tpl/strap/bootstrap/4.5.0''
+
+=== Define the custom stylesheet ===
+
+''strap'' uses a json file system to manage the stylesheet available.
+
+  * create the file ''bootstrapLocalCss.json'' in the bootstrap folder of Strap. <inote tip>You can also copy the ''bootstrapCustomCss.json''</inote>
+
+<note important>
+The ''bootstrapLocalCss.json'' is a file that is not part of the strap distribution and will not be overwritten between upgrade. This is why you need to create a new file. It would have possible to modify the file  ''bootstrapCustomCss.json'' but as this file is overwritten for each upgrade, you would have lose your custom configuration
+</note>
+
+Example:
+
+<code javascript dokuwiki/lib/tpl/strap/bootstrap/bootstrapbootstrapLocalCss.json>
+{
+    "4.5.0": {
+        "my-custom-bootstrap": {
+            "file": "bootstrap.custom.min.css",
+            "integrity": "sha384-6YMUsimvBMWMU6VPmQwCKP28RrKPSaSaD48Hfabk1yxb5zQZ21XDRL/vljin9SZ3"
+        }
+    }
+}
+</code>
+
+=== change the bootstrapStylesheet configuration ===
+The last step is to change the [[bootstrap#bootstrapStylesheet]] configuration.
+
+
+===== Documentation =====
+  * https://getbootstrap.com/docs/4.4/getting-started/theming/

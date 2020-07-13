@@ -1,0 +1,22 @@
+====== Strap - Sidekick bar ======
+
+===== About =====
+The ''sidekick bar'' is a [[bar|bar]] that is shown at the right side of a page.
+
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== How it works =====
+This is just an extension of the standard [[bar|bar feature]] of [[doku>|Dokuwiki]]
+
+  * Create a page called ''sidekickbar'' 
+  * And you will see its content appear on the right side of the page.
+
+
+===== Configuration =====
+==== sidekickbar ====
+The ''sidekickbar'' [[:configuration|configuration]] permits to change the name of this bar
+
+==== Grid extension ====
+If you want to use a second sidebar, you may also want to increase the number of columns from ''12'' to ''16''. See [[dynamic_grid]]

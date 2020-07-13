@@ -1,0 +1,17 @@
+====== Strap - Dynamic Grid System ======
+
+
+===== About =====
+The ''dynamic grid'' system is the ability to be able to change to a bigger [[ui:grid|grid]] with ''16 columns''.
+
+The default grid system of [[bootstrap|bootstrap]] is based on ''12 columns'' and does not really allow to have a [[sidekickbor|second sidebar]]
+
+===== How to =====
+  * Set the number of grid column to 16.
+  * Set the Bootstrap CSS to  
+
+
+===== For the geek =====
+This change will set:
+  *  the xl breakpoint from ''1200px'' to ''1280px''.
+  * the [[ui:container]] max width for the xl breakpoint from ''1140px'' to ''1280px''.

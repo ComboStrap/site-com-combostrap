@@ -1,0 +1,39 @@
+====== Strap - Bootstrap ======
+
+
+===== About =====
+''bootstrap'' is the default UI stylesheet system used by the [[strap|strap template]].
+
+
+[[strap|Strap]] permits to easily change:
+  * the [[#bootstrapVersion|bootstrap supported version]]
+  * the [[#bootstrapStylesheet|bootstrap supported stylesheet]]
+and even to [[bootstrap_custom|create and add your own]]
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Configuration =====
+==== bootstrapVersion ====
+You may change the used version with the ''bootstrapVersion'' [[:configuration|configuration]]
+
+Actually, there is two versions:
+  * the ''4.5.0''
+  * the ''4.4.1''
+
+==== bootstrapStylesheet ====
+The ''bootstrapStylesheet'' permits to dynamically choose the stylesheet.
+
+[[strap|strap]] is delivered with two stylesheets:
+  * ''bootstrap.min.css'' - the standard Bootstrap stylesheet
+  * ''bootstrap.16col'' - a Bootstrap stylesheet customized to support [[dynamic_grid|a grid of 16 columns]] - [[dynamic_grid]]
+
+<note tip>
+You can also add your own. See [[bootstrap_custom]]
+</note>
+
+==== Custom Stylesheet ====
+You can create and add your own Bootstrap stylesheet.
+
+This is an advanced configuration and requires some programming skills but this is not out of reach.
+
+See [[strap:bootstrap_custom]]
