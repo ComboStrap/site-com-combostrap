@@ -1,5 +1,4 @@
----json
----
+~~NOCACHE~~
 
 <navbar class="navbar-expand-md" >
 <brand title="ComboStrap Home" style="color:#075EBB">
@@ -8,7 +7,7 @@ ComboStrap (Beta)
 </brand>
 
 <collapse>
-<group class="mr-auto">
+<group expand="true">
 <dropdown name="Components">
 [[ui:ui|UI Components]]
 [[url:url|Url Manager]]
@@ -16,9 +15,13 @@ ComboStrap (Beta)
 [[seo|SEO]]
 </dropdown>
 </group>
-[[:changes|Release (Changes)]]
+
+[[:changes|Releases (Changes)]]
 <btn secondary class="mr-3">[[getting_started:getting_started|Get Started]]</btn>
+
+
 <search class="mr-0 pr-0">
+
 </collapse>
 </navbar>
 
