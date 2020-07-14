@@ -8,18 +8,23 @@
 
 
 ===== About =====
-A ''fixed-top navbar'' is a [[ui:navbar|navigation bar]] that have a fixed location at the top of the page.
+A ''fixed-top navbar'' is a [[ui:navbar|navigation bar]] that stays located at the top of the page.
 
-This [[ui:navbar|navigation bar]] are great but needs some extra styling in order to set an offset:
-  * on the top location of the page
-  * and on the heading
 
-<note info>
-Without this configurations, a navigation to an [[ui:heading|heading]] via a link would be cached by the top navbar
-</note>
 
 ===== Articles Related =====
 {{backlinks>.}}
+
+<note important>
+==== Fixed-top bar styling ====
+
+A ''fixed-top'' [[ui:navbar|navigation bar]] gives a great experience but is difficult to implement because they needs some extra styling in order to relocate:
+  * the top location of the page
+  * the location of the [[ui:heading|heading]]
+Without this changements, a navigation via a link to an [[ui:heading|heading]] would land below the fixed-top navbar and will then cache the heading.
+
+''ComboStrap'' is ''fixed-top bar'' ready and permits to implement it with a couple of parameters. See the below [[#how_to_configure_a_fixed-top_navbar|steps]]
+</note>
 
 ===== How to configure a fixed-top navbar ? =====
 
@@ -51,3 +56,5 @@ If this is a normal [[bootstrap|bootstrap navbar]] that spreads only on one line
 
 
 {{:strap:strap_heightfixedtopnavbar.png?600|}}
+
+Done !

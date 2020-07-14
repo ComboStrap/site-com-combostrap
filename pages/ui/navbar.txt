@@ -20,13 +20,17 @@ Inside a ''navbar'' component, you can add:
 
 ===== Syntax =====
 <code>
-<navbar breakpoint="lg" position="normal" align="left">
+<navbar breakpoint="lg" position="normal" align="left" theme="light">
 </code>
 where:
   * ''breakpoint'' is one of the [[breakpoint|breakpoint code]] (''xs'','''sm'', ''md'', ''lg'' (Default), ''xl'')
   * ''position'' is one of ''normal'' (default),  [[#fixed-top|top]] (''bottom'' is not yet supported)
   * ''align'' defines the horizontal placement. Possible values: ''left''(Default) or ''center'' 
+  * ''theme'' defines the luminance of the text. You can specify ''light'' (default) or ''dark''
 
+<note info>
+The default [[color|background-color]] is a ''light'' background.
+</note>
 ==== Fixed-top ====
 
 <note important>
@@ -88,6 +92,27 @@ If you choose a fixed-top navbar, you need also to change a ''strap template'' s
 </navbar>
 </code>
   * Output
+</webcode>
+
+==== A dark navbar ====
+
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<navbar theme="dark" background-color="dark" breakpoint="xs">
+<brand title="ComboStrap Home">
+<icon name="logo.svg" />
+ComboStrap
+</brand>
+<collapse>
+<group>
+[[:start|Home]]
+[[:start|Features]]
+[[:changes|Release]]
+Navbar text with an inline element
+</group>
+</collapse>
+</navbar>
+</code>
 </webcode>
 
 
