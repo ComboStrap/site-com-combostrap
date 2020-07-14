@@ -18,6 +18,7 @@
 The ''strap'' template supports the following features:
 
   * [[bootstrap|Last bootstrap version (4)]] or [[bootstrap_custom|create and add your own]]
+  * [[cdn|Serve the Bootstrap files by default from a CDN]]
   * Supports [[bar|4 bars]] layout
       * [[bar|Sidebar]] (left)
       * [[sidekickbor|Sidekickbar]] (right)
@@ -29,6 +30,7 @@ The ''strap'' template supports the following features:
   * Support the [[doku>conf:youarehere|youarehere]] configuration for a [[ui:breadcrumb#trailing|trailing breadcrumb]]
   * [[:ui:scale|Size Scale configuration (font and spacing)]]
   * [[getting_started:4_favicon|Favicon]]: Recognized the [[getting_started:4_favicon|favicons]]  (included ''android-chrome-192x192.png'')
+
 
 
 

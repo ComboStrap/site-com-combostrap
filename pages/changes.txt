@@ -5,7 +5,7 @@ This is a page that lists all releases with their respective changes for [[:star
 
 ===== Releases =====
 
-==== Version 1.2 - Snapshot / Current ====
+==== Version 1.2 - Snapshot / In development ====
 The version 1.2 is a big template improvement release:
   * The [[strap:footerbor|footerbar]] is no longer constrained in width.
   * Implementation of the [[ui:grid|grid component]]
@@ -19,6 +19,8 @@ The version 1.2 is a big template improvement release:
   * The [[strap:sidekickbor|sidekickbar]] was added
   * The [[strap:toolbar|toolbar]] can now be private
   * The [[ui:inote|inote component]] (inline note) was created.
+  * The [[strap:cdn|CDN feature]] has now its own page and is also tested
+  * A [[strap:jquery|Jquery page]] was added
 
 ==== Version 1.1 - 2020-07-10 ====
   * The [[semantic:viewer|metadata viewer]] shows now all metadatas and can apply a filter

@@ -1,0 +1,14 @@
+====== Strap Template - JQuery ======
+
+
+===== About =====
+''jquery'' is available in the [[strap|strap template]] and is required for interactive actions such as the [[ui:search|search bar]] or the [[ui:navbar|collapse of the navbar]]
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Version =====
+
+By default, the jquery version is:
+  * for an anonymous user, the Jquery version of [[Bootstrap|Bootstrap]].
+  * for a logged-in user, the [[doku>devel:jqueryfaq|Jquery version of Dokuwiki]].

@@ -1,6 +1,6 @@
 ---json
 {
-    "canonical":"footerbar"
+    "canonical":"footerbor"
 }
 ---
 

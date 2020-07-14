@@ -10,6 +10,9 @@
 ===== About =====
 This feature creates automatically a [[canonical|canonical value]] (ie a page identifier) based on the last part of a [[doku>pagename|DokuWiki Id]].
 
+<note info>
+There is no automatic canonical created for the [[strap:bar|strap bars]] as they are not intended to be accessed directly.
+</note>
 ===== Articles Related =====
 {{backlinks>.}}
 
@@ -35,3 +38,5 @@ If the [[:configuration|configuration]] ''BestEndPageMinimalScoreForIdRedirect''
   * For bigger website, this configuration is set to 2
 To have a value above 2 is not really common and should be avoided.
 </note>
+
+

@@ -1,6 +1,6 @@
 ---json
 {
-   "canonical":"sidekickbar"
+   "canonical":"sidekickbor"
 }
 ---
 

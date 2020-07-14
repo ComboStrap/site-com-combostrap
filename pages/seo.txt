@@ -23,7 +23,8 @@ The following data may be set for page:
 
 ==== Performance ====
 
-The size of a web page served to the public (user not logged in) can be optimized with the [[css|CSS optimization module]]
+  * The size of a web page served to the public (user not logged in) can be optimized with the [[css|CSS optimization module]]
+  * By default, the [[strap:bootstrap|bootstrap files]] are served from a [[strap:cdn|CDN]]
 
 ==== Sitemap ====
 ''Dokuwiki'' comes with a [[kb>sitemap|sitemap]] component that ping automatically search engines.

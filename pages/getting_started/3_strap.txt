@@ -16,7 +16,9 @@
 
 <note>
 This is not mandatory to install the ''strap'' template if you want to use the [[:combo|combo components]] but some feature may not work such 
-as the setting of the [[semantic:title|title]].
+as:
+  * the setting of the [[semantic:title|title]].
+  * no canonical for [[strap:bar|bars]]
 
 The [[ui:ui|UI components]] just needs a ''Bootstrap'' template and are tested against Bootstrap version 4.
 </note>
