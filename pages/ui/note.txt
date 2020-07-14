@@ -15,7 +15,7 @@
 
 ===== Features =====
 ==== Title ====
-A ''note'' takes into account a [[header|header]]. 
+A ''note'' takes into account a [[heading|header]]. 
 
 
 

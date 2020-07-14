@@ -16,19 +16,18 @@ If you have uploaded a icon in the [[getting_started/4_favicon|Favicon step]], a
 
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
-<navbar class="navbar-expand-md">
-<container>
-<brand class="pt-0" title="My Brand">
+<navbar breakpoint="md" align="center">
+<brand title="My Brand">
 <icon name="logo.svg" />
 My Brand name
 </brand>
 
 <collapse>
-<group class="mr-auto">
+<group expand="true">
 
-<dropdown name="My DropDown">
-[[ui:ui|A page]]
-[[url:url|Another page]]
+<dropdown name="ComboStrap Components">
+[[ui:ui|UI Components]]
+[[url:url|Url Management]]
 </dropdown>
 
 </group>
@@ -36,7 +35,6 @@ My Brand name
 <search class="mr-0 pr-0">
 
 </collapse>
-</container>
 </navbar>
 </code>
 </webcode>

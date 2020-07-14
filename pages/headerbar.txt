@@ -1,6 +1,6 @@
 ~~NOCACHE~~
 
-<navbar breakpoint="md" >
+<navbar breakpoint="md" position="top">
 <brand title="ComboStrap Home" style="color:#075EBB">
 <icon name="logo.svg" />
 ComboStrap (Beta)
@@ -14,9 +14,10 @@ ComboStrap (Beta)
 [[semantic:semantic|Meta Manager]]
 [[seo|SEO]]
 </dropdown>
+[[:changes|Releases (Changes)]]
 </group>
 
-[[:changes|Releases (Changes)]]
+
 <btn secondary class="mr-3">[[getting_started:getting_started|Get Started]]</btn>
 
 

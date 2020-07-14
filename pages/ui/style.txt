@@ -6,7 +6,7 @@ Because every [[ui|ComboStrap UI component]] are a [[html|superset of HTML]], th
 
 
 <note tip>
-The style attribute is only way to [[styling|style your component]], see [[styling]]
+The style attribute is not the only way to [[styling|style your component]], see [[styling]]
 </note>
 ===== Articles Related =====
 {{backlinks>.}}

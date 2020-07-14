@@ -4,7 +4,7 @@
 }
 ---
 
-====== Bootstrap - Create your own stylesheet  ======
+====== Strap Template - How to create and add your own Bootstrap stylesheet  ======
 
 
 ===== About =====

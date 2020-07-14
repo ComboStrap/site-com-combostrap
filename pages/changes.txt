@@ -5,6 +5,9 @@ This is a page that lists all releases with their respective changes for [[:star
 
 ===== Releases =====
 
+==== Version 1.3 (Planned) ====
+  * [[ui:grid|Grid attributes]] for row and column
+  * [[ui:toc]]
 ==== Version 1.2 - Snapshot / In development ====
 The version 1.2 is a big template improvement release:
   * The [[strap:footerbor|footerbar]] is no longer constrained in width.
@@ -20,7 +23,9 @@ The version 1.2 is a big template improvement release:
   * The [[strap:toolbar|toolbar]] can now be private
   * The [[ui:inote|inote component]] (inline note) was created.
   * The [[strap:cdn|CDN feature]] has now its own page and is also tested
-  * A [[strap:jquery|Jquery page]] was added
+  * A [[strap:jquery|Jquery]] and [[strap:bootstrap|Bootstrap]] page were added
+  * The [[ui:navbar|navbar]] now supports completely the ''Bootstrap'' options.
+  * The [[strap:fixed-top-navbar|fixed-top navbar]] has now a page and is fully dynamically configurable.
 
 ==== Version 1.1 - 2020-07-10 ====
   * The [[semantic:viewer|metadata viewer]] shows now all metadatas and can apply a filter

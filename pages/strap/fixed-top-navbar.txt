@@ -1,0 +1,53 @@
+---json
+{
+    "canonical":"top:navbar''
+}
+---
+
+====== Strap template - Fixed-top navbar ======
+
+
+===== About =====
+A ''fixed-top navbar'' is a [[ui:navbar|navigation bar]] that have a fixed location at the top of the page.
+
+This [[ui:navbar|navigation bar]] are great but needs some extra styling in order to set an offset:
+  * on the top location of the page
+  * and on the heading
+
+<note info>
+Without this configurations, a navigation to an [[ui:heading|heading]] via a link would be cached by the top navbar
+</note>
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== How to configure a fixed-top navbar ? =====
+
+
+==== Create a fixed-top navbar ====
+Create a [[ui:navbar|navbar]] with the option ''position="top"''
+
+Minimal Example:
+<code dw>
+<navbar position="top">
+<brand title="ComboStrap Home">
+<icon name="logo.svg" />
+ComboStrap (Beta)
+</brand>
+</navbar>
+</code>
+
+For a complete and detailed instruction, see [[getting_started:5_headerbor]]
+
+==== Set the height of the navbar ====
+
+The ''heightFixedTopNavbar'' [[:configuration|strap configuration]] permits to change automatically all style in order to move the top location of the page.
+
+You need to set the height of your ''navbar''. 
+
+<note tip>
+If this is a normal [[bootstrap|bootstrap navbar]] that spreads only on one line, it should be ''40px''.
+</note>
+
+
+{{:strap:strap_heightfixedtopnavbar.png?600|}}

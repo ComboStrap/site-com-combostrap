@@ -1,1 +1,1 @@
-<minimap suppress="Strap - ">
+<minimap suppress="(Strap|Strap template) - ">

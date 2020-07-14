@@ -32,12 +32,17 @@ To change the grid size, set the following [[:configuration|configuration]]:
 ''Strap'' is not controlling this values. If you choose a 16 grid with a bootstrap stylesheet of 12 columns, you may got unwanted behavior.
 </note>
 
-
-
-
 <note info>
 === For the geek ===
 The 16 columns stylesheet set:
   *  the xl breakpoint from ''1200px'' to ''1280px''.
   * the [[ui:container|container]] max width for the xl breakpoint from ''1140px'' to ''1280px''.
+See [[ui:breakpoint]]
 </note>
+
+==== Size of the sidebars ====
+The sidebars (''sidebar'' and [[sidekickbor|sidekickbar]]) have now a fixed weight of 3 columns.
+
+<badge>To be able to change this weight dynamically is planned for the [[:changes|version 1.3]]</badge>
+
+

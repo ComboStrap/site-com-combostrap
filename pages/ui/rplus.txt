@@ -2,8 +2,8 @@
 
 ===== About =====
 The ''combo renderer'' is a renderer that:
-  * add numbering to the [[header|headers]]
-  * place the [[toc|TOC]] below the first header
+  * adds numbering to the [[heading|headings]]
+  * places the [[toc|TOC]] below the first heading
 
 ===== Articles Related =====
 {{backlinks>.}}

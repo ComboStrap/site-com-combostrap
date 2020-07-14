@@ -6,6 +6,8 @@
 
 ====== ComboStrap UI - Table of Content (TOC) ======
 
+===== About =====
+The ''toc'' component is planned for the [[:changes|version 1.3]]
 
 ===== Articles Related =====
 {{backlinks>.}}

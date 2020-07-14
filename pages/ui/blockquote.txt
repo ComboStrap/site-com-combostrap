@@ -1,4 +1,4 @@
-====== ComboStrap UI - blockquote ======
+====== ComboStrap UI - Blockquote ======
 
 
 
@@ -8,7 +8,6 @@ A ''blockquote'' component is a kind of [[ui:card|card]].
 A blockquote has always:
   * the text at the left side
   * the [[cite|citation]] at the right side
-  * a margin of [[https://getbootstrap.com/docs/4.0/utilities/spacing/|m-3]]
 
 ===== Articles Related =====
 {{backlinks>.}}

@@ -23,7 +23,7 @@ See [[html]]
 ===== List =====
 
 
-==== Block ====
+==== Box ====
 
   * [[card|Card]]: Do you want to put a text in a box with optionally an image and a button, that's a card
       * [[teaser]]: A card with a call to action
@@ -31,9 +31,12 @@ See [[html]]
   * [[button|Button (btn)]]: A button
   * [[related|Related]]: A component showing the backlinks
   * [[math|Math]]: Writing math formulas
-  * [[icon|Icon]]: All material design icons or your own
   * [[note|Note]]: An ancillary text that needs attention.
 
+==== Inline ====
+  * [[inote|Inote]]: An inline note
+  * [[badge|Badge]]: A badge
+  * [[icon|Icon]]: All material design icons or your own
 ==== Navbar ====
 
   * [[navbar|navbar]]: All elements that you put in the top bar of a page

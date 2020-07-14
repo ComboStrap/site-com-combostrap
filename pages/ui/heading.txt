@@ -1,0 +1,19 @@
+====== ComboStrap UI - Heading ======
+
+
+===== About =====
+''headings'' define [[doku>wiki:syntax#sectioning|section]] and generates the structure of the document. The [[toc|table of content (TOC)]] is created from this structure.
+
+===== Articles Related =====
+{{backlinks>.}}
+===== Component =====
+
+[[ui|ComboStrap UI]] supports headings   in the following component:
+   * [[card]]
+   * [[blockquote]]
+   * [[note]]
+
+<note info>This headings are local and does not modify the structure of the document</note>
+===== Numbering =====
+
+With the [[rplus|combo renderer]], you can number them.

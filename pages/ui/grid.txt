@@ -2,7 +2,7 @@
 {
     "canonical":"grid"
 }
-----
+---
 
 ====== ComboStrap UI - Grid ======
 
@@ -17,16 +17,33 @@ The ''grid'' component is a composition of two tags:
 ===== Articles Related =====
 {{backlinks>.}}
 
-===== Horizontal Centering =====
+===== Syntax =====
+<code dw>
+<row>
+   <col></col>
+   <col></col>
+</col>
+</code>
+They are actually [[html|superset HTML component]], you can therefore use all [[https://getbootstrap.com/docs/4.5/layout/grid/|Grid bootstrap class]]
 
-To center a box horizontally, use the class ''mx-auto''. 
+<badge>Attributes are planned for the [[:changes|version 1.3]]</badge>
 
-Example with a [[card|card]] and some [[color|colors]]
+===== Example =====
+
+On a grid of 12 columns, a row with two columns:
+  * evenly distributed on a [[breakpoint|large desktop (lg)]]
+  * stacked on a [[breakpoint|mobile phone]] - col-12 is for the [[breakpoint|extra small breakpoint]].
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
-<card class="mx-auto" width="300px" background-color="purple" color="white">
-A centered card with a purple background 
-</card>
+<row class="px-5">
+<col class="col-12 col-lg-6" background-color="green" color="white">First column</col>
+<col class="col-12 col-lg-6" background-color="blue" color="white">Second column</col>
+</row>
 </code>
+  * Output:
 </webcode>
+
+===== Configuration =====
+==== gridColumns ====
+You can change the default number of columns from 12 to 16. See [[strap:dynamic_grid]]
 

@@ -1,4 +1,4 @@
-====== Strap - Bootstrap ======
+====== Strap Template - Bootstrap ======
 
 
 ===== About =====
