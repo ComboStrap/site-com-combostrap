@@ -1,6 +1,6 @@
 ~~NOCACHE~~
 
-<navbar class="navbar-expand-md" >
+<navbar breakpoint="md" >
 <brand title="ComboStrap Home" style="color:#075EBB">
 <icon name="logo.svg" />
 ComboStrap (Beta)
@@ -24,5 +24,6 @@ ComboStrap (Beta)
 
 </collapse>
 </navbar>
+
 
 

@@ -1,0 +1,18 @@
+====== ComboStrap UI - Breakpoints ======
+
+
+===== About =====
+''breakpoints'' are [[grid|grid]] elements that define the minimum dimensions at which your layout will change, adapting to different screen sizes
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Code =====
+
+
+^ Code ^ Name ^ Default \\ Value for a 12 grid columns  ^ Value for a [[strap:dynamic_grid|16 grid columns]] ^
+| xs | Extra Small | 0 | 0 |
+| sm | Small | 576px | 576px |
+| md | Medium | 768px | 768px |
+| lg | Large | 992px | 992px |
+| xl | Extra Large | 1200px | 1280px |
+
