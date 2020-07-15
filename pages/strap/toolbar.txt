@@ -1,3 +1,9 @@
+---json
+{
+   "canonical":"toolbar"
+}
+---
+
 ====== Strap - Toolbar ======
 
 {{ :strap:strap_toolbar.png|}}

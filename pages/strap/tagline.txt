@@ -1,3 +1,9 @@
+---json
+{
+   "canonical":"tagline"
+}
+---
+
 ====== Strap Template - Tagline ======
 
 
@@ -8,7 +14,7 @@ It's a short and appealing description of your website or product.
 
 It's used:
   * in the ''description'' field of the [[strap:manifest|manifest]]
-  * in the home page title.
+  * in the home page [[semantic:title|title]].
 
 ===== Articles Related =====
 {{backlinks>.}}

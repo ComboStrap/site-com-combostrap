@@ -1,6 +1,6 @@
 ---json
 {
-   "canonical":"Strap"
+   "canonical":"strap"
 }
 ---
 

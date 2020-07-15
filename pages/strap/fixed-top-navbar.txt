@@ -1,10 +1,13 @@
 ---json
 {
-    "canonical":"top:navbar''
+    "canonical":"top:navbar",
+    "description":"A top navbar is just two steps",
+    "title":"Top navigation bar made simple"
 }
 ---
 
-====== Strap template - Fixed-top navbar ======
+====== Strap Template - Fixed-top navbar ======
+
 
 
 ===== About =====
