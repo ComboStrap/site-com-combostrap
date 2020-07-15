@@ -1,0 +1,17 @@
+====== ComboStrap UI - Hierarchical Breadcrumb ======
+
+
+===== About =====
+A ''Hierarchical Breadcrumb'' is a [[breadcrumb|breadcrumb]] that shows where the page is located in the web site.
+
+{{:ui:combostrap_hierarchical_breadcrumb.png?400|}}
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Configuration =====
+==== Enable ====
+The ''hierarchical breadcrumb'' is shown when:
+  * the [[renderer|renderer is the combo renderer]]. 
+  * the [[doku>conf:youarehere|youarehere]] [[:configuration|configuration]] is set to ''on''
+
+{{:ui:youarehere.png?600|}}

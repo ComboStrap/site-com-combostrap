@@ -1,4 +1,4 @@
-<container width="700px">
+<container width="700px" align="center">
 ====== ComboStrap - Where To Get Help ======
 
 

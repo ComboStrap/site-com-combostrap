@@ -16,4 +16,4 @@
 <note info>This headings are local and does not modify the structure of the document</note>
 ===== Numbering =====
 
-With the [[rplus|combo renderer]], you can number them.
+With the [[renderer|combo renderer]], you can number them.

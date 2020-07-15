@@ -1,0 +1,17 @@
+====== ComboStrap UI - Combo Renderer (formerly known as Rplus) ======
+
+===== About =====
+The ''combo renderer'' is a component that renders each page and adds:
+  * numbering to the [[heading|headings]]
+  * below the first heading:
+      * the [[toc|TOC]] 
+      * a [[hierarchical_breadcrumb|hierarchical breadcrumb]]
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== How to enable the Combo Renderer ? =====
+
+You need to set the [[doku>config:renderer_xhtml|renderer_xhtml]] [[:configuration|configuration]]
+
+{{:ui:combo_renderer_setting.png?600|}}
