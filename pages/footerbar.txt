@@ -4,13 +4,17 @@
 
 <row>
 <col class="col-12 col-lg-6">
-**Contact**: [[support@combostrap.com?subject=Contact via WebSite|support@combostrap.com]] \\
-**Support Ticket**: [[https://github.com/ComboStrap/ComboStrap/issues|GitHub]]
+**Contact** \\
+ [[support@combostrap.com?subject=Contact via WebSite|support@combostrap.com]] \\
+
 </col>
 <col class="col-12 col-lg-6">
-[[:security|Security]]\\
+**Combostrap** \\
+[[:support|Support]] \\
 [[:changes|Release (Changes)]]\\
+[[:security|Security]] \\
 </col>
+
 </row>
 
 </container>

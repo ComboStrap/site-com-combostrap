@@ -17,6 +17,14 @@ A ''container'' is a [[html|superset HTML element]] and is therefore ready for [
 A container has an automatic margin that centers it. You should then not set the margin, otherwise it will be located to the left
 </note>
 
+
+==== width ====
+You can wrap the whole content of your page in a container with a width to make reduce your page width.
+
+Example:
+<code dw>
+<container width="600px">
+</code>
 ===== Example =====
 
 ==== Custom Container  ====

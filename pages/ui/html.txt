@@ -54,8 +54,7 @@ You can write:
 <code dw>
 <component width="100px">
 </code>
-in place of 
-<code dw>
-<component style="width:100px">
-</code>
+
+
+More [[sizing]]
 

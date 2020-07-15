@@ -3,7 +3,10 @@
 
 ===== About =====
 
+Every component comes with a set of default styling attributes but you can make it your own with the below styling attributes.
 
+===== Articles Related =====
+{{backlinks>.}}
 ===== Type =====
 
 ==== Spacing ====
@@ -15,4 +18,6 @@
 ==== Grid ====
 [[grid]]
 
+==== Sizing ====
+[[sizing]]
 

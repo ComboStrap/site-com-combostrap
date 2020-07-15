@@ -1,9 +1,10 @@
+<container width="400px" style="text-align:center" >
 ====== Combo plugin ======
 
 
 
 
-<card class="mx-auto" style="max-width:400px">
+<card>
 The ''combo'' plugin is a combo of [[doku>plugins|Dokuwiki plugins]] that complements the [[strap:strap|Strap template]].
 
 It contains most of the components such as:
@@ -21,3 +22,4 @@ This [[ui:card|UI card]] is one of the many examples.
 \\
 \\
 
+</container>

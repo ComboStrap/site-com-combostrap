@@ -1,0 +1,46 @@
+<container width="700px">
+====== ComboStrap - Where To Get Help ======
+
+
+
+''feedback'' and ''questions'' are always welcome. 
+
+''ComboStrap'' comes from a custom product that was tailored to specific wishes and is migrating to a product that accommodates every use cases. 
+
+Even if we think heel hard about it, real experience is the best feedback.
+
+
+
+<card-columns>
+<card>
+
+=== Twitter ===
+<icon name="twitter"/> For the latest news about ComboStrap
+
+<btn>
+[[twitter>combostrapweb|follow us on Twitter ]]
+</btn>
+</card>
+
+
+<card>
+=== Spectrum Community ===
+''Spectrum'' is a popular community platform among web site builders.
+
+<btn>
+[[https://spectrum.chat/combostrap|Join the spectrum community]] \\
+</btn>
+</card>
+
+<card>
+=== Stack Overflow ===
+
+<icon name="stack-overflow"/> Stack Overflow is a popular forum to ask questions or if you’re stuck with a specific error. 
+
+<btn>
+[[https://stackoverflow.com/questions/ask?tags=combostrap|Ask your own question on Stackoverflow]]
+</btn>
+</card>
+
+</card-columns>
+</container>
