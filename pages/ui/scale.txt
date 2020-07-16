@@ -1,6 +1,6 @@
 ---json
 {
-    "canonical":"rem"
+    "canonical":"length:scale"
 }
 ---
 

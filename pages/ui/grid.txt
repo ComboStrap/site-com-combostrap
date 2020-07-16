@@ -26,7 +26,7 @@ The ''grid'' component is a composition of two tags:
 </code>
 They are actually [[html|superset HTML component]], you can therefore use all [[https://getbootstrap.com/docs/4.5/layout/grid/|Grid bootstrap class]]
 
-<badge>Attributes are planned for the [[:changes|version 1.3]]</badge>
+<badge>Attributes are [[:changes|in the planning]]</badge>
 
 ===== Example =====
 
