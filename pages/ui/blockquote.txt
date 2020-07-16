@@ -16,7 +16,8 @@ A ''blockquote'' has two type:
 
 <code dw>
 <blockquote type="card">
-=== Header ===
+<header>Header</header>
+=== Title ===
 content
 <cite>The reference</cite>
 </blockquote
@@ -57,7 +58,20 @@ An header is supported in the ''card'' blockquote.
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <blockquote width="300px" align="center">
-=== True work ===
+<header>True work</header>
+The true work does not reveal itself until you get into.
+<cite>Nico</cite>
+</blockquote>
+</code>
+</webcode>
+
+==== With a title and a header ====
+A title is supported in the ''card'' blockquote.
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<blockquote width="300px" align="center">
+<header>Work</header>
+=== True Work ===
 The true work does not reveal itself until you get into.
 <cite>Nico</cite>
 </blockquote>
@@ -69,7 +83,7 @@ You can wrap a typographic blockquote in a card in order to add an image header 
 <code dw>
 <card width="18rem">
 {{teaser_image_2.jpg?25|}}
-=== True Work ===
+<header>True Work</header>
 <blockquote typo class="mb-0">
 The true work does not reveal itself until you get into.
 <cite>Nico</cite>
@@ -120,7 +134,6 @@ Example with [[math|Math]]
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <blockquote>
- \\
 <MATH>
 \begin{array}{lrl}
 \text{errors} & =&  (\text{more code})^2 \\
