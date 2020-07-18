@@ -104,13 +104,13 @@ A ''blockquote'' with the type ''card'' can also be wrapped in the [[card_column
 <card-columns>
 
 <blockquote>
-A Blockquote is wrapped in a [[card|card]] by default
+A Blockquote is wrapped by default in a [[card|card]] 
 <cite>Say the [[card|card]]</cite>
 {{::teaser_image_1.png?400}}
 </blockquote>
 
 <blockquote>
-My Blockquote Without Cite
+A Blockquote without [[cite|citation]].
 {{::teaser_image_2.jpg}}
 </blockquote>
 
