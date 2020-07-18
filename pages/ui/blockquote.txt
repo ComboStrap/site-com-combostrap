@@ -34,9 +34,21 @@ A ''card'' blockquote is just a shortcut that wraps the typographic blockquote i
 ===== Example =====
 
 ==== Basic ====
+=== Card blockquote ===
+
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <blockquote>
+The true work does not reveal itself until you get into.
+<cite>Nico</cite>
+</blockquote>
+</code>
+</webcode>
+=== Typographic Blockquote ===
+
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<blockquote typo>
 The true work does not reveal itself until you get into.
 <cite>Nico</cite>
 </blockquote>
@@ -127,13 +139,15 @@ My Blockquote With Citation
 
 
 ====  Blockquote with other components (Math) ====
-A Blockquote accepts other components.
+
+A card blockquote accepts any other [[ui|components]] <inote important>after a title or a first text</inote>.
 
 
 Example with [[math|Math]]
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <blockquote>
+=== More code ? ===
 <MATH>
 \begin{array}{lrl}
 \text{errors} & =&  (\text{more code})^2 \\

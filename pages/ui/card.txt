@@ -14,7 +14,7 @@ This UI component follows the same implementation that the [[https://getbootstra
   * Can be formatted in columns with the [[card_column|card-columns]] component
   * Allows third party dokuwiki syntax
 
-<wrap info>A [[ui:blockquote|blockquote]] is also a card</wrap>
+<inote>A [[ui:blockquote|blockquote]] has also a card type</inote>
 
 
 ===== Visual =====
@@ -49,7 +49,7 @@ A example taken from [[https://getbootstrap.com/docs/4.3/components/card/#exampl
 
 ==== A card may include other dokuwiki syntax ====
 
-''Card'' may include other syntax.
+''Card'' may include other [[ui|component]]. Example with [[related|related]]
 
 
 <webcode name="Card2" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >

@@ -13,7 +13,6 @@ ease the ''strap'' //(creation)// of a website.
 
 <card-columns class="mb-3">
 
-
 <card>
 
 ==== Boostrap based UI Component ====
