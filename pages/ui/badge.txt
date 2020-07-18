@@ -4,12 +4,12 @@
 }
 ---
 
-====== ComboStrap UI - Bagde  ======
+    ====== ComboStrap UI - Badge  ======
 
 
 ===== About =====
 ''badge'' is a [[ui|ComboStrap UI component]] that shows a small status descriptors such as:
-  * a count 
+  * a count
   * or a label
 
 
