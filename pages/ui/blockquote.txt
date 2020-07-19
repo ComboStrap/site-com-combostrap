@@ -16,15 +16,18 @@ A ''blockquote'' has two type:
 
 <code dw>
 <blockquote type="card">
-<header>Header</header>
-=== Title ===
 content
 <cite>The reference</cite>
 </blockquote
 </code>
 
 <note tip>
-A ''card'' blockquote is just a shortcut that wraps the typographic blockquote in a [[card|card]] 
+A ''card'' blockquote is just a shortcut that wraps the typographic blockquote in a [[card|card]].
+
+If you want to add:
+  * a header
+  * a title
+you can wrap a typographic blockquote in a card
 </note>
 
 
