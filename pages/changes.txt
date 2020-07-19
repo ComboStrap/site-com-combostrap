@@ -9,11 +9,13 @@ This is a page that lists all releases with their respective changes for [[:star
 
   * [[ui:grid|Grid attributes]] for row and column
   * [[ui:toc]]
-==== Version 1.4 - Snapshot ====
+==== Version 1.4 - Snapshot (not yet released) ====
   * Corrected the bug: No message visible when the [[semantic:frontmatter|frontmatter json object]] is not valid
+  * The [[ui:align|align attribute]] was better documented and supports now also the text alignement.
+  * [[ui:blockquote|blockquote]] and [[ui:card|card]] are fully implemented and supports also now a [[ui:header|header]]
 
 ==== Version 1.3 - 2020-07-15 ====
-  * [[ui:sizing|Component sizing on height]] gets now an ''overflow:auto'' which bootstrap didn't take into account.
+  * [[ui:dimension|Component sizing on height]] gets now an ''overflow:auto'' which bootstrap didn't take into account.
   * [[support|New support page]] with [[https://twitter.com/combostrapweb|twitter account]], stackoverflow and spectrum.
   * A [[ui:container|container]] can now contain a whole page and keeps the [[ui:toc|TOC intact]]
   * Added a [[support|support]] page

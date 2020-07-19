@@ -1,0 +1,15 @@
+====== Combostrap UI - Box ======
+
+
+===== About =====
+A ''box'' is a [[ui|component]] that wraps/encapsulate some content.
+
+If you can draw some border around it, that's a box.
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Example =====
+
+  * [[note]]
+  * [[card]]
+  * [[blockquote]]

@@ -19,5 +19,5 @@ Every component comes with a set of default styling attributes but you can make 
 [[grid]]
 
 ==== Sizing ====
-[[sizing]]
+[[dimension]]
 

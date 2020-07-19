@@ -1,0 +1,62 @@
+====== Combostrap UI - Align Attribute ======
+
+
+===== About =====
+''align'' is an [[styling|styling attribute]] of the [[html|HTML superset component]]
+
+It permits to align:
+  * a [[#box|box]]
+  * or the [[#text|text in the box]]
+
+<note tip>
+If you want more control on the position, you may also use a [[grid|grid]]
+</note>
+
+<badge>Fully operational, since [[:changes|version 1.4]]</badge>
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Type =====
+==== Box ====
+
+How to align a [[box|box]]
+
+The ''align'' attribute on a box, supports only the value ''center'', by default, the box is align at the left. 
+
+<webcode name="Centered" >
+<code dw>
+<note tip align="center"  width="300px">
+=== Centered Tip ===
+
+As every box by default takes the whole available [[dimension|width]], you need to add a [[dimension|width attribute]] when you want to center it.
+
+</note>
+</code>
+</webcode>
+
+==== Text ====
+
+How to align the text in a [[box|box]]
+
+The ''text-align'' attribute on a box, supports the value:
+  * ''center''
+  * ''right''
+  * ''justify''
+  * ''left'' (default)
+
+<webcode name="Text ALign" >
+<code dw>
+<card text-align="center" width="300px">
+=== Centered Text  ===
+
+A text in the center
+
+</card>
+</code>
+</webcode>
+
+
+<note tip>
+=== For the geek ===
+This is just a CSS shortcut to the [[https://developer.mozilla.org/en-US/docs/Web/CSS/text-align|text-align CSS attribute]]
+</note>

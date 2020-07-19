@@ -16,6 +16,8 @@ A ''blockquote'' has two type:
 
 <code dw>
 <blockquote type="card">
+<header>My Header</header>
+=== Title ===
 content
 <cite>The reference</cite>
 </blockquote
@@ -23,12 +25,9 @@ content
 
 <note tip>
 A ''card'' blockquote is just a shortcut that wraps the typographic blockquote in a [[card|card]].
-
-If you want to add:
-  * a header
-  * a title
-you can wrap a typographic blockquote in a card
 </note>
+
+<badge>''header'' is only available since [[:changes|version 1.4]]</badge>
 
 
 
@@ -143,14 +142,13 @@ My Blockquote With Citation
 
 ====  Blockquote with other components (Math) ====
 
-A card blockquote accepts any other [[ui|components]] <inote important>after a title or a first text</inote>.
+A card blockquote accepts any other [[ui|components]] 
 
 
 Example with [[math|Math]]
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <blockquote>
-=== More code ? ===
 <MATH>
 \begin{array}{lrl}
 \text{errors} & =&  (\text{more code})^2 \\

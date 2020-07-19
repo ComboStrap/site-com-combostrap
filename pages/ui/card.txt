@@ -1,30 +1,43 @@
 ====== ComboStrap UI - Card ======
 
 ===== About =====
-A ''card'' is some content in a square.
+A ''card'' is some content in a square that can be used for a ''call to action''.
 
 
-This UI component follows the same implementation that the [[https://getbootstrap.com/docs/4.3/components/card/|Bootstrap card]]
+This UI component implements the [[https://getbootstrap.com/docs/4.3/components/card/|Bootstrap card]]
 
 
 ===== Articles Related =====
 {{backlinks>.}}
-===== Features =====
-  * Permits all kind of styling with the [[style|style attribute]] 
-  * Can be formatted in columns with the [[card_column|card-columns]] component
-  * Allows third party dokuwiki syntax
+===== Syntax =====
+
+<code dw>
+<card>
+{{topimage}}
+<header>Header</header>
+=== Title ===
+Content
+</card>
+</code>
+
+
+A ''card'':
+  * is a [[html|superset HTML component]] and permits then all kind of [[styling|styling]]
+  * can be formatted in columns with the [[card_column|card-columns]] component
+  * allows all third party dokuwiki syntax
 
 <inote>A [[ui:blockquote|blockquote]] has also a card type</inote>
 
 
 ===== Visual =====
 
-==== A Card with an image and a button with style ====
+==== A Full Card (image, title, content, button styled) ====
 
 <webcode name="Card1" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <card style="width: 18rem;">
 {{teaser_image_1.png?30|}}
+<header>That's the header !</header>
 === Teaser Title  ===
 A example taken from [[https://getbootstrap.com/docs/4.3/components/card/#example|the bootstrap quick example]] on how to build a card title in order to make up the bulk of the teaser content.
 <btn>[[:start|Go to the best plugin on the universe !]]</btn>
@@ -62,6 +75,27 @@ This pages are talking about this subject:
 </code>
 </webcode>
 
+
+==== A card may be styled ====
+
+Because a ''card'' is a [[html|HTML superset component]], you can style it as you wish.
+
+
+<webcode name="Styled Card"  >
+<code dw>
+<card width="300px" background-color="dark" color="white" align="center" >
+<header>Header is the top of a component</header>
+=== A styled card ===
+You can style all [[html|HTML superset component]] easily.
+
+A [[align|centered box]] with a dark background [[color|color]] and a white text.
+<btn light>
+[[syling|Check it out !]]
+</btn>
+
+</card>
+</code>
+</webcode>
 
 
 

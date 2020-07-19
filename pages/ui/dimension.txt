@@ -1,8 +1,8 @@
-====== ComboStrap - Sizing ======
+====== ComboStrap - Sizing (Width and Height) ======
 
 
 ===== About =====
-Every [[ui|UI components]] and even a whole page may be resized in [[#width]] and [[#height]].
+Every [[box|Box components]] and even the whole main page dimension may be resized in [[#width]] and [[#height]].
 
 ===== Articles Related =====
 {{backlinks>.}}
@@ -11,9 +11,9 @@ Every [[ui|UI components]] and even a whole page may be resized in [[#width]] an
 ===== Dimension =====
 
 ==== Width ====
-=== Component ===
+=== Box ===
 
-The ''width'' attribute will apply a ''maximum-width'' constraint. When your website will be seen on a screen below this ''width'', the box will adapt accordingly keeping your website responsive.
+On a [[box|box]], the ''width'' attribute will apply a ''maximum-width'' constraint. When your website will be seen on a screen below this ''width'', the box will adapt accordingly keeping your website responsive.
 
 Example: a [[note|note]] will take all the space by default, if you want to constraint the box to a lower size, apply the ''width'' attributes.
 
@@ -26,7 +26,7 @@ I'm a note being constraint in a box with a maximum width of 200 pixels.
 </code>
 </webcode>
 <note tip>
-If you want to center the box, use the [[grid|align attributes]]
+If you want to center the box, use the [[align|align attributes]]
 </note>
 === Page ===
 If you want to constraint a whole page, you can use a [[container|container]]

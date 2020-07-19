@@ -1,0 +1,25 @@
+====== ComboStrap UI - Header ======
+
+
+===== About =====
+''header'' is the top location of a page or of a component.
+
+Combostrap supports:
+  * the modification of the page header with the [[strap:headerbor|headerbar]]
+  * the definition of an header in the following component:
+      * [[card]]
+      * [[blockquote]]
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Example =====
+
+A [[card|card]] with an header.
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<card width="300px">
+<header>Top header!</header>
+A card with an header
+</card>
+
+</webcode>

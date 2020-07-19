@@ -56,5 +56,5 @@ You can write:
 </code>
 
 
-More [[sizing]]
+More [[dimension]]
 
