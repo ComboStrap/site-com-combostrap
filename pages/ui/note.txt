@@ -81,7 +81,7 @@ Too much sport is not good for your health
 ===== Custom Styling =====
 
 ==== Style ====
-With the [[style|style attribute]]:
+With the [[styling:style|style attribute]]:
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <note type="warning" style="width:60%">
@@ -92,7 +92,7 @@ Too little sport is not good for your health
 </webcode>
 
 ==== Horizontal Centering====
-With the class attribute where you can set [[spacing|spacing]] or [[grid#horizontal centering|horizontal centering]]
+With the class attribute where you can set [[styling:spacing|spacing]] or [[grid#horizontal centering|horizontal centering]]
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <note type="info" class="mx-auto" width="200px">

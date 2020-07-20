@@ -8,6 +8,7 @@ ComboStrap
 <group expand="true">
 <dropdown name="Components">
 [[ui:ui|UI Components]]
+[[styling:styling|Styling]]
 [[url:url|Url Manager]]
 [[semantic:semantic|Meta Manager]]
 [[seo|SEO]]

@@ -14,8 +14,7 @@ ease the ''strap'' //(creation)// of a website.
 <card-columns class="mb-3">
 
 <card>
-
-==== Boostrap based UI Component ====
+==== Large base of UI Component ====
 ''ComboStrap'' have a large [[ui:ui|UI components library]]. 
   * A large library of [[ui:icon|icons]], 
   * This kind of [[ui:card|cards]]
@@ -24,6 +23,43 @@ ease the ''strap'' //(creation)// of a website.
 
 <btn secondary class="mt-3">
 [[ui:ui|Check the UI components]]
+</btn>
+</card>
+
+<card>
+==== Use the full power of Bootstrap and more ====
+''ComboStrap'' implements the last
+version of [[strap:bootstrap|Bootstrap]] and 
+exposes all its functionalities.
+
+But it does not stop here and apply also the [[https://material.io/|Material Design]]
+recommandations. That's why you get also the possibility to [[styling:elevation|elevate]]
+your components to get more emphasis.
+<btn secondary class="mt-3">
+[[strap:bootstrap|Take the Bootstrap Control]]
+</btn>
+</card>
+
+<card>
+==== Styling made easy ====
+Basic styling should not be an hassle that's why
+all ''ComboStrap'' component supports "built-in" 
+a common set of basic styling attribute
+such as [[styling:dimension|width]], [[styling:align|align]], [[styling:color|color]].
+
+<btn secondary class="mt-3">
+[[styling:styling|Styling as 1,2,3]]
+</btn>
+</card>
+
+<card>
+==== Dynamic Grid ====
+A website layout is now something that should be
+fixed as a stone.
+With ''ComboStrap'', you can go beyond the [[strap:bootstrap|Bootstrap]] grid system 
+of 12 columns to 16 columns and gain some space for a [[strap:sidekickbor|right sidebar]].
+<btn secondary class="mt-3">
+[[strap:dynamic_grid|Want a third sidebar ?]]
 </btn>
 </card>
 

@@ -1,15 +1,15 @@
-====== Combostrap UI - Align Attribute ======
+====== Combostrap Styling - Align Attribute ======
 
 
 ===== About =====
-''align'' is an [[styling|styling attribute]] of the [[html|HTML superset component]]
+''align'' is an [[styling:styling|styling attribute]] of the [[ui:html|HTML superset component]]
 
 It permits to align:
   * a [[#box|box]]
-  * or the [[#text|text in the box]]
+  * or its [[#text|text]]
 
-<note tip>
-If you want more control on the position, you may also use a [[grid|grid]]
+<note tip align="center" width="fit-content">
+If you want more control on the position, you may also use a [[ui:grid|grid]]
 </note>
 
 <badge>Fully operational, since [[:changes|version 1.4]]</badge>
@@ -19,10 +19,11 @@ If you want more control on the position, you may also use a [[grid|grid]]
 ===== Type =====
 ==== Box ====
 
-How to align a [[box|box]]
+How to align a [[ui:box|box]]
 
-The ''align'' attribute on a box, supports only the value ''center'', by default, the box is align at the left. 
+The ''align'' attribute on a box, supports only the value ''center'', by default, the box is aligned to the left. 
 
+Example:
 <webcode name="Centered" >
 <code dw>
 <note tip align="center"  width="300px">
@@ -36,7 +37,7 @@ As every box by default takes the whole available [[dimension|width]], you need 
 
 ==== Text ====
 
-How to align the text in a [[box|box]]
+How to align the text in a [[ui:box|box]]
 
 The ''text-align'' attribute on a box, supports the value:
   * ''center''
@@ -44,6 +45,7 @@ The ''text-align'' attribute on a box, supports the value:
   * ''justify''
   * ''left'' (default)
 
+Example:
 <webcode name="Text ALign" >
 <code dw>
 <card text-align="center" width="300px">

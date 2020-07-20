@@ -58,7 +58,7 @@ The true work does not reveal itself until you get into.
 </webcode>
 
 ==== With a class ====
-As a [[html|superset HTML element]], you can add your own class or [[style|style]]
+As a [[html|superset HTML element]], you can add your own class or [[styling:style|style]]
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <blockquote class="p-4 m-4 mx-auto" style="border-color:blue;max-width:400px">

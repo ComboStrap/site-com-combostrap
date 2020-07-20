@@ -11,14 +11,14 @@ This is a page that lists all releases with their respective changes for [[:star
   * [[ui:toc]]
 ==== Version 1.4 - Snapshot (not yet released) ====
   * Corrected the bug: No message visible when the [[semantic:frontmatter|frontmatter json object]] is not valid
-  * The [[ui:align|align attribute]] was better documented and supports now also the text alignement.
+  * The [[styling:align|align attribute]] was better documented and supports now also the text alignement.
   * [[ui:blockquote|Blockquote]] and [[ui:card|card]] are fully implemented and supports also now a [[ui:header|header]]
-  * Added the [[ui:elevation|elevation styling attribute]] to give more emphasis.
+  * Added the [[styling:elevation|elevation styling attribute]] to give more emphasis.
   * The [[ui:button|button]] was improved: outline and size are now supported.
   * The [[ui:tooltip|tooltip component]] was added
 
 ==== Version 1.3 - 2020-07-15 ====
-  * [[ui:dimension|Component sizing on height]] gets now an ''overflow:auto'' which bootstrap didn't take into account.
+  * [[styling:dimension|Component sizing on height]] gets now an ''overflow:auto'' which bootstrap didn't take into account.
   * [[support|New support page]] with [[https://twitter.com/combostrapweb|twitter account]], stackoverflow and spectrum.
   * A [[ui:container|container]] can now contain a whole page and keeps the [[ui:toc|TOC intact]]
   * Added a [[support|support]] page
@@ -27,8 +27,8 @@ This is a page that lists all releases with their respective changes for [[:star
 The version 1.2 is a big template improvement release:
   * The [[strap:footerbor|footerbar]] is no longer constrained in width.
   * Implementation of the [[ui:grid|grid component]]
-  * The [[ui:container|container]] is now a [[ui:html|superset HTML component]]
-  * You can now set a [[ui:color#gradient|background color gradient]].
+  * The [[ui:container|container]] is now a [[styling:html|superset HTML component]]
+  * You can now set a [[styling:color#gradient|background color gradient]].
   * The [[ui:footer|footer]] element was created.
   * The [[strap:strap|strap template]] applies now a ''dokuwiki'' class on the whole page in order to be able to have [[doku>Dokuwiki]] styling such as [[doku>interwiki|interwiki icon]] in the footer.
   * The [[css|template CSS]] can now be [[css#preload|preloaded]]
@@ -53,8 +53,8 @@ The version 1.2 is a big template improvement release:
 ==== Version 1.0 - 2020-07-04 ====
 First release.
   * The [[css|CSS optimizer]] was added
-  * The [[ui:button|button link]] takes now into account the [[ui:color|color attributes]] of its button parent.
-  * All [[ui:ui|UI components]] support now the [[ui:styling|styling attributes]]
+  * The [[ui:button|button link]] takes now into account the [[styling:color|color attributes]] of its button parent.
+  * All [[ui:ui|UI components]] support now the [[styling:styling|styling attributes]]
   * The [[ui:note|note component]] was created
   * The [[ui:icon|icon component]] was created
   * The [[url:page_rules|page rules admin interface]] was created

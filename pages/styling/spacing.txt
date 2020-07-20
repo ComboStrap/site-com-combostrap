@@ -4,7 +4,7 @@
 }
 ---
 
-====== ComboStrap UI - Spacing (Margin, Padding) ======
+====== ComboStrap Styling - Spacing (Margin, Padding) ======
 
 
 ===== About =====
@@ -15,19 +15,19 @@
 {{:ui:spacing_margin_padding.png|}}
 
 where:
-  * ''margin'' is a transparent space outside the box  (not filled with [[color|color]])
-  * ''padding'' is the space inside the box  (filled with [[color|color]])
+  * ''margin'' is a transparent space outside the box  (not filled with [[ui:color|color]])
+  * ''padding'' is the space inside the box  (filled with [[ui:color|color]])
 ===== Articles Related =====
 {{backlinks>.}}
 ===== Example =====
 
 
-A [[note|note]] with:
-  * a ''padding''  with a [[scale|scale value of 3]] (blue color)
-  * a ''margin'' with a [[scale|scale value of 5]] (no color)
+A [[ui:note|note]] with:
+  * a ''padding''  with a [[styling:scale|scale value of 3]] (blue color)
+  * a ''margin'' with a [[styling:scale|scale value of 5]] (no color)
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
-<note class="p-3 m-5">
+<note spacing="p-3 m-5">
 A note with a padding and margin
 </note>
 </code>
@@ -60,7 +60,7 @@ where:
           * ''t'': top
           * ''b'': bottom
   * ''breakpoint'' is the Breakpoint / Toggle size: xs, sm, md, lg
-  * ''size'' is 0,1,2,3,4 or 5 (based on [[scale|size scale]])
+  * ''size'' is 0,1,2,3,4 or 5 (based on [[styling:scale|size scale]])
 
 ===== Documentation / Reference =====
   * [[https://getbootstrap.com/docs/4.0/utilities/spacing/|Bootstrap Spacing]].

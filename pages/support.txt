@@ -2,8 +2,20 @@
 ====== ComboStrap - Where To Get Help ======
 
 
+<card width="fit-content" align="center">
+=== Easy as an Email ===
+<icon name="email"/> Don't bother, send us an email.
 
+<button spacing="mt-3">[[support@combostrap.com]]</button>
+</card>
 
+<note spacing="my-3">
+''Feedback'' and ''Questions'' are always welcome. 
+
+''ComboStrap'' comes from a custom product that was tailored to specific wishes and is migrating to a product that accommodates every use cases. 
+
+Even if we think heel hard about it, real experience is the best feedback and we can't wait to hear what you have to say.
+</note>
 
 <card-columns>
 <card>
@@ -11,7 +23,7 @@
 === Twitter ===
 <icon name="twitter"/> For the latest news about ComboStrap
 
-<btn>
+<btn spacing="mt-3">
 [[https://twitter.com/combostrapweb|Follow us on Twitter ]]
 </btn>
 </card>
@@ -21,28 +33,20 @@
 === Spectrum Community ===
 <icon name="looks" />Spectrum is a popular community platform among web site builders.
 
-<btn>
+<btn spacing="mt-3">
 [[https://spectrum.chat/combostrap|Join the spectrum community]] \\
 </btn>
 </card>
 
 <card>
 === Stack Overflow ===
-
 <icon name="stack-overflow"/> Stack Overflow is a popular forum to ask questions or if you’re stuck with a specific error. 
 
-<btn>
-[[https://stackoverflow.com/questions/ask?tags=combostrap|Ask your own question on Stackoverflow]]
+<btn spacing="mt-3">
+[[https://stackoverflow.com/questions/ask?tags=combostrap|Ask your own question]]
 </btn>
 </card>
 
 </card-columns>
 </container>
 
-<note>
-''Feedback'' and ''Questions'' are always welcome. 
-
-''ComboStrap'' comes from a custom product that was tailored to specific wishes and is migrating to a product that accommodates every use cases. 
-
-Even if we think heel hard about it, real experience is the best feedback and we can't wait to hear what you have to say.
-</note>

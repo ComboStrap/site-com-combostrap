@@ -22,7 +22,7 @@ Content
 
 
 A ''card'':
-  * is a [[html|superset HTML component]] and permits then all kind of [[styling|styling]]
+  * is a [[styling:html|superset HTML component]] and permits then all kind of [[styling:styling|styling]]
   * can be formatted in columns with the [[card_column|card-columns]] component
   * allows all third party dokuwiki syntax
   * implements the [[https://getbootstrap.com/docs/4.0/components/card/|Bootstrap card]]
@@ -79,7 +79,7 @@ This pages are talking about this subject:
 
 ==== A card may be styled ====
 
-Because a ''card'' is a [[html|HTML superset component]], you can style it as you wish.
+Because a ''card'' is a [[styling:html|HTML superset component]], you can style it as you wish.
 
 
 <webcode name="Styled Card"  >

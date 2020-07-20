@@ -4,10 +4,10 @@
 }
 ---
 
-====== ComboStrap UI - Length Scale (Size Scale) - Responsive Typo ======
+====== ComboStrap Styling - Length Scale (Size Scale) - Responsive Typo ======
 
 ===== About =====
-Every length expressed in a [[spacing#spacing class name|spacing class name]] are scale based.
+Every length expressed in a [[styling:spacing#spacing class name|spacing class name]] are scale based.
 
 The scale is going:
   * from ''1'' for a length value of ''.25rem'' 

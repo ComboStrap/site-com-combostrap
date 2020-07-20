@@ -19,7 +19,7 @@ They are all a superset of HTML which means that for every component, you can us
   * and the ''style'' attribute
 to refine how you want them to be.
 
-See [[html]]
+See [[styling:html]]
 ===== List =====
 
 

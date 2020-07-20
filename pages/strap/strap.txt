@@ -29,7 +29,7 @@ The ''strap'' template supports the following features:
   * Support [[tagline|tagline]]
   * [[fixed-top-navbar|Fixed-top navbar with automatic styling correction]]
   * Support the [[doku>conf:youarehere|youarehere]] configuration for a [[ui:breadcrumb#trailing|trailing breadcrumb]]
-  * [[:ui:scale|Size Scale configuration (font and spacing)]]
+  * [[styling:scale|Size Scale configuration (font and spacing)]]
   * [[getting_started:4_favicon|Favicon]]: Recognized the [[getting_started:4_favicon|favicons]]  (included ''android-chrome-192x192.png'')
 
 

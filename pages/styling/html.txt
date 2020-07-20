@@ -1,0 +1,64 @@
+====== ComboStrap Styling - HTML super set ======
+
+===== About =====
+
+The [[:ui:ui|UI ComboStrap components]] are all super set tag of the ''HTML'' language. 
+
+They follow the same rules and you may then use them as every HTML element.
+
+Below, we describe the [[#syntax]], they all have in common.
+
+
+
+===== Articles Related =====
+{{backlinks>.}}
+
+
+===== Syntax =====
+Every [[ui:ui|UI component]] follows the following syntax
+<code dw>
+<component type name1="value1" ... nameN="valueN" >
+<!-- content -->
+</component>
+</code>
+where:
+  * ''type'' is the [[#type|type of component]]. Not every component has a type but if it's the case, you don't need to set a name for it.
+  * ''nameX="valueX"'' are attributes that may be:
+      * specific to this component
+      * the [[#styling|styling attributes]]
+      * or the [[#html|html attributes]]
+
+==== Type ====
+
+Example with a [[ui:note|note]], the fully HTML compliant syntax is
+<code dw>
+<note type="tip">A tip note</note>
+</code>
+but with the ''superset ComboStrap components'', you may write
+<code dw>
+<note tip>A tip note</note>
+</code>
+
+
+
+==== Styling ====
+Every component implements also a set of [[styling|styling attributes]]
+
+Example: 
+  * The tree [[styling:color|colors attributes]] can be passed natively. You can write:
+<code dw>
+<component color="blue">
+</code>
+  * The dimension attributes (''width'' and ''height'') are also taken into account in each component. You can write:
+<code dw>
+<component width="100px">
+</code>
+  * [[styling:styling|More  ? See the styling attributes]]
+
+==== HTML ====
+
+All HTML attributes are supported on every component and in particularly, you may use the:
+  * [[class|class]]
+  * [[styling:style|style]]
+for [[styling#advanced|advanced styling]]
+

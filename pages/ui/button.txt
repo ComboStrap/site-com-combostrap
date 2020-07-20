@@ -65,7 +65,7 @@ where:
 
 
 <note tip>
-The ''button'' component is a fully [[html|super set HTML component]] and can therefore by [[styling|styled]] as you wish
+The ''button'' component is a fully [[html|super set HTML component]] and can therefore by [[styling:styling|styled]] as you wish
 </note>
 
 
@@ -108,7 +108,7 @@ The type of the button defines its styling:
 
 ==== Elevation ====
 
-Give more emphasis to your button by adding a shadow around the [[box|box]] with the [[elevation|elevation attribute]]
+Give more emphasis to your button by adding a shadow around the [[box|box]] with the [[styling:elevation|elevation attribute]]
 
 
 

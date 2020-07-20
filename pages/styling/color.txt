@@ -1,18 +1,18 @@
-====== ComboStrap UI - Color ======
+====== ComboStrap Styling - Color ======
 
 
 
 
 
 ===== About =====
-Every [[ui|ComboStrap UI component]] can be colorized with one of the following attributes
+Every [[ui:ui|ComboStrap UI component]] can be colorized with one of the following attributes
   * ''color'': The color of the text
   * ''background-color'': The color of the background
   * ''border-color'': The color of the border
 
 
 <note tip>
-The ''background'' is defined as being the content plus the [[spacing|padding]]
+The ''background'' is defined as being the content plus the [[styling:spacing|padding]]
 </note>
 
 
@@ -21,7 +21,7 @@ The ''background'' is defined as being the content plus the [[spacing|padding]]
 
 
 ===== Example =====
-With a [[card|card]]
+With a [[ui:card|card]]
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <card background-color="teal" color="black" border-color="blue" width="200px">
@@ -36,7 +36,7 @@ A teal [[ui:card|card]] with a black text and a blue border
   * [[#name]]
   * [[#rgb|RGB]]
 
-<note tip>Because the component syntax are a [[html|html superset]], all other colors value should work</note>
+<note tip>Because the component syntax are a [[ui:html|html superset]], all other colors value should work</note>
 ==== Name ====
 [[:start|ComboStrap]] follows the [[https://getbootstrap.com/docs/4.0/utilities/colors/|Bootstrap color naming]] and you may then use the following color names.
 
@@ -52,7 +52,7 @@ The default Bootstrap colors are:
 
 If you want to have a gradient on your color, just add the ''gradient-'' prefix to a color value.
 
-Example with a [[note|note]]:
+Example with a [[ui:note|note]]:
 
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
@@ -71,7 +71,7 @@ A [[ui:note|info note]] with a ''light gradient color'' as background
 Just for your information, Bootstrap does not assign the same color set by name for a component.
 </note>
 
-For instance, you got this colors for a [[button#primary|Primary button]]
+For instance, you got this colors for a [[ui:button#primary|Primary button]]
 <code css>
 .btn-primary {
     color: #fff;
@@ -79,7 +79,7 @@ For instance, you got this colors for a [[button#primary|Primary button]]
     border-color: #075ebb;
 }
 </code>
-and this one for a [[note#primary|primary note]]
+and this one for a [[ui:note#primary|primary note]]
 <code css>
 .alert-primary {
     color: #004085;
