@@ -1,10 +1,10 @@
 ====== ComboStrap UI - Card ======
 
 ===== About =====
-A ''card'' is some content in a square that can be used for a ''call to action''.
+A ''card'' contain content and actions about a single subject.
 
 
-This UI component implements the [[https://getbootstrap.com/docs/4.3/components/card/|Bootstrap card]]
+
 
 
 ===== Articles Related =====
@@ -25,6 +25,7 @@ A ''card'':
   * is a [[html|superset HTML component]] and permits then all kind of [[styling|styling]]
   * can be formatted in columns with the [[card_column|card-columns]] component
   * allows all third party dokuwiki syntax
+  * implements the [[https://getbootstrap.com/docs/4.0/components/card/|Bootstrap card]]
 
 <inote>A [[ui:blockquote|blockquote]] has also a card type</inote>
 
@@ -98,7 +99,9 @@ A [[align|centered box]] with a dark background [[color|color]] and a white text
 </webcode>
 
 
-
+===== Documentation / Reference =====
+  * https://material.io/components/cards
+  * https://getbootstrap.com/docs/4.0/components/card/
 
 
 

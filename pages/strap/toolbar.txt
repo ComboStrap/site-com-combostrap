@@ -16,6 +16,10 @@ It regroups in one place:
   * the user menu (Login / Logout / Update Profile)
   * and the site menu (Admin)
 
+<note tip>
+=== Navigational rail ===
+It could be compared to a [[https://material.io/components/navigation-rail|Navigation rail]] but at the right side
+</note>
 
 ===== Articles Related =====
 {{backlinks>.}}
@@ -29,3 +33,4 @@ When this configuration is on, you can log in again at: https://yourdomain.com/?
 
 ===== Documentation / Reference =====
   * [[doku>devel:menus]]
+  * [[https://material.io/components/navigation-rail|Navigation rail]]

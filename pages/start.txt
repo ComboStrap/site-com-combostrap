@@ -1,12 +1,12 @@
 
-
 <card class="mb-3">
 ==== Making Publishing Discoverable and Remarkable ====
 
 ''ComboStrap'' is a ''combo'' of components that aims to 
 ease the ''strap'' //(creation)// of a website.
 
-<btn secondary>
+
+<btn secondary class="mt-3">
 [[getting_started:getting_started|Get started]]
 </btn>
 </card>
@@ -21,7 +21,8 @@ ease the ''strap'' //(creation)// of a website.
   * This kind of [[ui:card|cards]]
   * [[ui:navigation|navigational components]]
   * and more ...
-<btn secondary>
+
+<btn secondary class="mt-3">
 [[ui:ui|Check the UI components]]
 </btn>
 </card>
@@ -31,7 +32,8 @@ ease the ''strap'' //(creation)// of a website.
 The ''Search Engine Optimization'' module
 will help you define the description or get back authority
 by recovering broken back links and more.
-<btn secondary>
+
+<btn secondary class="mt-3">
 [[seo|Check the SEO module]]
 </btn>
 </card>
@@ -41,7 +43,8 @@ by recovering broken back links and more.
 A website is living and pages are moving around.
 To not break the navigation and influence badly your SEO authority, you can define a page id ([[semantic:canonical|canonical]])
 or [[url:page_rules|redirection rules]].
-<btn secondary>
+
+<btn secondary class="mt-3">
 [[url:url|Check the URL Manager]]
 </btn>
 </card>
@@ -53,7 +56,7 @@ you can add easily the metadata that you want.
 It helps your SEO ranking but it also enable [[url:permalink|permalink]]
 and transparent [[url:redirection|redirections]] with the [[semantic:canonical|canonical]] (''Page Id'')
 
-<btn secondary>
+<btn secondary class="mt-3">
 [[semantic:semantic|Check the Metadata module]]
 </btn>
 </card>

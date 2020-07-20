@@ -4,7 +4,7 @@
 }
 ---
 
-====== ComboStrap UI - Length Scale (Size Scale) ======
+====== ComboStrap UI - Length Scale (Size Scale) - Responsive Typo ======
 
 ===== About =====
 Every length expressed in a [[spacing#spacing class name|spacing class name]] are scale based.
@@ -26,3 +26,6 @@ You can change the value of 1 rem with the ''rem'' configuration of the [[:strap
 
 {{:ui:rem_strap_conf.png|}}
 
+
+===== Documentation / Reference =====
+  * [[https://getbootstrap.com/docs/4.0/content/typography/#responsive-typography|Responsive Typo]]

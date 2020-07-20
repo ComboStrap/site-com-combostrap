@@ -1,8 +1,10 @@
-====== ComboStrap - Sizing (Width and Height) ======
+====== ComboStrap - Dimension (Width and Height) ======
 
 
 ===== About =====
-Every [[box|Box components]] and even the whole main page dimension may be resized in [[#width]] and [[#height]].
+Every [[box|Box components]] and even the whole main page dimension may be resized with the [[styling|styling attributes]]:
+  * [[#width]] 
+  * and [[#height]].
 
 ===== Articles Related =====
 {{backlinks>.}}

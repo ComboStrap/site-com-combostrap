@@ -1,0 +1,35 @@
+====== ComboStrap UI - Elevation Styling attribute ======
+
+
+===== About =====
+''elevation'' is a [[styling|styling attribute]] that elevates a [[box|box]].
+
+It adds a shadow and gives the box more emphasis.
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Example =====
+With a [[button|button]]
+
+<row>
+<col class="col-sm-50">
+<webcode name="Elevation" >
+<code dw>
+<btn elevation="true">
+An elevated button
+</btn>
+</code>
+</webcode>
+</col>
+<col class="col-sm-50">
+
+<webcode name="nonElevation" >
+<code dw>
+<btn>
+A flat button
+</btn>
+</code>
+</webcode>
+</col>
+</row>

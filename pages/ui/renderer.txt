@@ -1,11 +1,14 @@
 ====== ComboStrap UI - Combo Renderer (formerly known as Rplus) ======
 
 ===== About =====
-The ''combo renderer'' is a component that renders each page and adds:
+The ''combo renderer'' is the component that renders each page.
+
+It adds:
   * numbering to the [[heading|headings]]
   * below the first heading:
       * the [[toc|TOC]] 
       * a [[hierarchical_breadcrumb|hierarchical breadcrumb]]
+and it makes the [[table|tables responsive]].
 
 ===== Articles Related =====
 {{backlinks>.}}

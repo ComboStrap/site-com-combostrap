@@ -1,0 +1,8 @@
+====== ComboStrap UI - Table ======
+
+
+===== About =====
+ComboStrap makes the table responsive with the help of the [[renderer|renderer]].
+
+===== Articles Related =====
+{{backlinks>.}}

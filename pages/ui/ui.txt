@@ -24,7 +24,7 @@ See [[html]]
 
 
 ==== Box ====
-
+[[box]]
   * [[card|Card]]: Do you want to put a text in a box with optionally an image and a button, that's a card
       * [[teaser]]: A card with a call to action
   * [[blockquote|Blockquote]]: A blockquote is a card with a citation.
@@ -48,4 +48,7 @@ See [[html]]
 ==== Layout ====
 
   * [[card_column|Card column]] - A card column is a column layout for cards and blockquote.
+  * [[grid|Grid]] - A grid to layout every component as you wish
 
+==== Informative ====
+  * [[tooltip|Tooltip]]: Tooltips display informative text when users hover over, focus on, or tap an element.

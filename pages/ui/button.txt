@@ -47,11 +47,34 @@ The only action attached is to navigate to another page.
 </code>
 </webcode>
 
-===== Usage =====
+===== Syntax =====
+
+<code dw>
+<button type size="medium" elevation="false">
+</button>
+</code>
+or 
+<code dw>
+<btn type size="medium" elevation="false">
+</btn>
+</code>
+where:
+  * ''type'' defines the [[#type|skin (styling)]]
+  * ''size'' defines its [[#size]]
+  * ''elevation'' adds an [[#elevation|elevation]]
+
+
+<note tip>
+The ''button'' component is a fully [[html|super set HTML component]] and can therefore by [[styling|styled]] as you wish
+</note>
+
+
 A ''button'' can be used:
-  * on a page
+  * in the page content
+  * in [[card|card]]
   * in a [[navbar|navbar]]
-===== Attributes =====
+
+
 ==== Type ====
 The type of the button defines its styling:
 <webcode name="ButtonType" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
@@ -69,23 +92,32 @@ The type of the button defines its styling:
 
 ==== Size ====
 
-  * large
-  * normal (default)
   * small
+  * medium (default)
+  * large
+
+
 
 <webcode name="ButtonSize" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <btn size="large" >Large</btn>
-<btn >Normal</btn>
+<btn >Medium</btn>
 <btn size="small">Small</btn>
 </code>
 </webcode>
 
-==== HTML ====
-The ''button'' component is a fully [[html|super set HTML component]] and supports also next to the ''button'' HTML attributes
-  * the [[style|style]]
-  * the ''class'' ([[spacing|spacing]])
-  * and the [[color|color attributes]]
+==== Elevation ====
+
+Give more emphasis to your button by adding a shadow around the [[box|box]] with the [[elevation|elevation attribute]]
+
+
+
+<webcode name="ButtonSize" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<btn elevation="true" >Elevated button</btn>
+</code>
+</webcode>
+
 
 
 
@@ -93,3 +125,7 @@ The ''button'' component is a fully [[html|super set HTML component]] and suppor
 
 ===== For the Geek =====
 This is not the [[https://www.w3.org/TR/wai-aria-practices/#button|Button as describe by the Web Specification]] but a styling over a [[https://www.w3.org/TR/wai-aria-practices/#link|link ]]
+
+===== Documentation / Reference =====
+  * https://material.io/components/buttons
+  * https://getbootstrap.com/docs/4.5/components/buttons/

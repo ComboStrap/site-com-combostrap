@@ -1,4 +1,4 @@
-====== ComboStrap Getting Started - Creation of a headerbar ======
+====== ComboStrap Getting Started - Creation of a top bar======
 
 
 ===== About =====
@@ -21,19 +21,14 @@ If you have uploaded a icon in the [[getting_started/4_favicon|Favicon step]], a
 <icon name="logo.svg" />
 My Brand name
 </brand>
-
 <collapse>
 <group expand="true">
-
 <dropdown name="ComboStrap Components">
 [[ui:ui|UI Components]]
 [[url:url|Url Management]]
 </dropdown>
-
 </group>
-
 <search class="mr-0 pr-0">
-
 </collapse>
 </navbar>
 </code>

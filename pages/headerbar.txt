@@ -1,11 +1,9 @@
 ~~NOCACHE~~
-
 <navbar breakpoint="md" position="top">
 <brand title="ComboStrap Home" style="color:#075EBB">
 <icon name="logo.svg" />
 ComboStrap
 </brand>
-
 <collapse>
 <group expand="true">
 <dropdown name="Components">
@@ -16,10 +14,8 @@ ComboStrap
 </dropdown>
 [[support|Support / Help]]
 </group>
-
-<btn secondary class="mr-3">[[getting_started:getting_started|Get Started]]</btn>
+<btn secondary class="mr-2">[[getting_started:getting_started|Get Started]]</btn>
 <search class="mr-0 pr-0">
-
 </collapse>
 </navbar>
 

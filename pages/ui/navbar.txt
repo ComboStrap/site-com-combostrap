@@ -7,7 +7,8 @@
 ====== ComboStrap UI - Navbar ======
 
 ===== About =====
-The ''navbar'' component is the implementation of the top element of [[https://getbootstrap.com/docs/4.0/components/navbar/|bootstrap navbar]].
+The ''navbar'' component is the implementation of a top application bar via the [[https://getbootstrap.com/docs/4.0/components/navbar/|bootstrap navbar]].
+
 
 Inside a ''navbar'' component, you can add:
   * a [[brand|brand]] with an optional [[icon|icon]]
@@ -71,7 +72,6 @@ If you choose a fixed-top navbar, you need also to change a ''strap template'' s
 [[card|Card]]
 [[button|Button]]
 </dropdown>
-
 <dropdown name="UI Box">
 [[note|Note]]
 [[card|Card]]
@@ -115,4 +115,6 @@ Navbar text with an inline element
 </code>
 </webcode>
 
+===== Documentation / Reference =====
+  * [[https://material.io/components/app-bars-top|Material UI top bar documentation]]
 

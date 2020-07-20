@@ -18,6 +18,12 @@ Every component comes with a set of default styling attributes but you can make 
 ==== Grid ====
 [[grid]]
 
-==== Sizing ====
+==== Align ====
+[[align]]
+
+==== Dimension ====
 [[dimension]]
 
+
+==== Elevation ====
+[[elevation]]

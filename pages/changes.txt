@@ -12,7 +12,10 @@ This is a page that lists all releases with their respective changes for [[:star
 ==== Version 1.4 - Snapshot (not yet released) ====
   * Corrected the bug: No message visible when the [[semantic:frontmatter|frontmatter json object]] is not valid
   * The [[ui:align|align attribute]] was better documented and supports now also the text alignement.
-  * [[ui:blockquote|blockquote]] and [[ui:card|card]] are fully implemented and supports also now a [[ui:header|header]]
+  * [[ui:blockquote|Blockquote]] and [[ui:card|card]] are fully implemented and supports also now a [[ui:header|header]]
+  * Added the [[ui:elevation|elevation styling attribute]] to give more emphasis.
+  * The [[ui:button|button]] was improved: outline and size are now supported.
+  * The [[ui:tooltip|tooltip component]] was added
 
 ==== Version 1.3 - 2020-07-15 ====
   * [[ui:dimension|Component sizing on height]] gets now an ''overflow:auto'' which bootstrap didn't take into account.
