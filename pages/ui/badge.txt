@@ -4,7 +4,7 @@
 }
 ---
 
-    ====== ComboStrap UI - Badge  ======
+====== ComboStrap UI - Badge  ======
 
 
 ===== About =====
