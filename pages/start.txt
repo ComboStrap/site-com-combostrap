@@ -1,12 +1,9 @@
 
-<card class="mb-3">
+<card class="mb-3" width="fit-content" align="center" text-align="center">
 ==== Making Publishing Discoverable and Remarkable ====
-
 ''ComboStrap'' is a ''combo'' of components that aims to 
-ease the ''strap'' //(creation)// of a website.
-
-
-<btn secondary class="mt-3">
+ease the ''strap'' //(creation)// of a website.\\
+<btn spacing="mt-3" size="large" align="center" elevation="true">
 [[getting_started:getting_started|Get started]]
 </btn>
 </card>

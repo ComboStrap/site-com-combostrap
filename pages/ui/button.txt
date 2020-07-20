@@ -28,7 +28,7 @@ The only action attached is to navigate to another page.
 <btn secondary color="yellow">[[https://combostrap.com/button|Go to this page via an external link]]</btn>
 </code>
 </webcode>
-  * With [[spacing|spacing]]
+  * With [[styling:spacing|spacing]]
 <webcode name="Button" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <btn class="p-3">[[:start|Go to ComboStrap]]</btn>
@@ -40,7 +40,7 @@ The only action attached is to navigate to another page.
 <btn size="large">[[:start|Go to ComboStrap]]</btn>
 </code>
 </webcode>
-  * With [[color|colors]]
+  * With [[styling:color|colors]]
 <webcode name="Button" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <btn color="black" background-color="teal">[[:start|Go to ComboStrap]]</btn>
@@ -65,7 +65,7 @@ where:
 
 
 <note tip>
-The ''button'' component is a fully [[html|super set HTML component]] and can therefore by [[styling:styling|styled]] as you wish
+The ''button'' component is a fully [[styling:html|super set HTML component]] and can therefore by [[styling:styling|styled]] as you wish
 </note>
 
 
