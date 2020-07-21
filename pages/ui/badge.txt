@@ -19,7 +19,7 @@
 
 
 ==== Syntax ====
-''badge'' follows the [[html|superset HTML syntax]] and can then be [[styling|customized]]
+''badge'' follows the [[styling:html|superset HTML syntax]] and can then be [[styling:styling|customized]]
 
   * Full Qualified Syntax
 <code dw>

@@ -22,7 +22,7 @@ A ''note'' takes into account a [[heading|header]].
 ==== Syntax ====
 A note has:
    * a quick syntax
-   * the [[html|superset HTML syntax]]
+   * the [[styling:html|superset HTML syntax]]
 
 
 
@@ -39,7 +39,7 @@ A note may have the following type:
 <code dw>
 <note>
 ===== Informative note =====
-You can also style your [[ui|ComboStrap UI components]] with the [[style|style attribute]].
+You can also style your [[ui|ComboStrap UI components]] with the [[styling:style|style attribute]].
 </note>
 </code>
 </webcode>
@@ -50,7 +50,7 @@ You can also style your [[ui|ComboStrap UI components]] with the [[style|style a
 <code dw>
 <note type="tip" >
 ===== Tip note =====
-You can also style your [[ui|ComboStrap UI components]] with [[spacing|spacing]].
+You can also style your [[ui|ComboStrap UI components]] with [[styling:spacing|spacing]].
 </note>
 </code>
 </webcode>

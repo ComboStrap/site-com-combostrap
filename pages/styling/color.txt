@@ -36,7 +36,7 @@ A teal [[ui:card|card]] with a black text and a blue border
   * [[#name]]
   * [[#rgb|RGB]]
 
-<note tip>Because the component syntax are a [[ui:html|html superset]], all other colors value should work</note>
+<note tip>Because the component syntax are a [[styling:html|html superset]], all other colors value should work</note>
 ==== Name ====
 [[:start|ComboStrap]] follows the [[https://getbootstrap.com/docs/4.0/utilities/colors/|Bootstrap color naming]] and you may then use the following color names.
 

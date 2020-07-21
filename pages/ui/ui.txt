@@ -25,19 +25,20 @@ See [[styling:html]]
 
 ==== Box ====
 [[box]]
-  * [[card|Card]]: Do you want to put a text in a box with optionally an image and a button, that's a card
-      * [[teaser]]: A card with a call to action
+  * [[card|Card (teaser)]]: Do you want to put a text in a box with optionally an image and a button, that's a card
   * [[blockquote|Blockquote]]: A blockquote is a card with a citation.
-  * [[button|Button (btn)]]: A button
   * [[related|Related]]: A component showing the backlinks
   * [[math|Math]]: Writing math formulas
   * [[note|Note]]: An ancillary text that needs attention.
   * [[jumbotron|Jumbotron]]: Prominently at the top of your page emphase a content.
 
+
 ==== Inline ====
+Inline component can be used inside a paragraph (ie in the line)
   * [[inote|Inote]]: An inline note
   * [[badge|Badge]]: A badge
   * [[icon|Icon]]: All material design icons or your own
+  * [[button|Button (btn)]]: A button
 ==== Navbar ====
 
   * [[navbar|navbar]]: All elements that you put in the top bar of a page
@@ -50,6 +51,10 @@ See [[styling:html]]
 
   * [[card_column|Card column]] - A card column is a column layout for cards and blockquote.
   * [[grid|Grid]] - A grid to layout every component as you wish
+  * [[Container|Container]] - A container restraints the horizontal width.
 
+==== Section ====
+  * [[hr|Hr]] to draw an horizontale rule.
+  * [[heading|Heading]] that defines the structure of the page or defines component title.
 ==== Informative ====
   * [[tooltip|Tooltip]]: Tooltips display informative text when users hover over, focus on, or tap an element.

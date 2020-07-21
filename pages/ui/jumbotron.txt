@@ -2,7 +2,7 @@
 
 
 ===== About =====
-A ''jumbotron'' is a [[box|box component]] to emphase prominently the content.
+A ''jumbotron'' is a [[box|box component]] to emphase prominently its content.
 
 ===== Articles Related =====
 {{backlinks>.}}
@@ -11,22 +11,32 @@ A ''jumbotron'' is a [[box|box component]] to emphase prominently the content.
 <code dw>
 <jumbotron>
 === Title ===
-<!-- Content -->
+Content
 </jumbotron>
 </code>
 
 
 
 ===== Example =====
-From [[https://getbootstrap.com/docs/4.0/components/jumbotron/|Bootstrap]]
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+
+<webcode name="Default" >
 <code dw>
 <jumbotron>
-=== Jumbotron ===
-
-<hr class="my-4">
+====== Jumbotron ======
+<typo lead>A jumbotron-style component to call extra attention to featured content or information.</typo>
+<hr spacing="my-4"/>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 <btn size="large">[[#|Learn More]]</btn>
 </jumbotron>
 </code>
+with a [[button|button]], a ''lead'' [[typo|typo]] and a [[hr|horizontal rule]].
+
+Output:
 </webcode>
+
+===== Documentation / Reference =====
+  * From [[https://getbootstrap.com/docs/4.0/components/jumbotron/|Bootstrap]]

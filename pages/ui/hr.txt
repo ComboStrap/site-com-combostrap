@@ -1,0 +1,30 @@
+====== ComboStrap UI - HR (Horizontal Rule) ======
+
+
+===== About =====
+The ''hr'' component permits to delimit two sections of content by drawing a horizontal rule (hr).
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Example =====
+====  Simple ====
+ 
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+<hr/>
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+</code>
+</webcode>
+==== Advanced ====
+ 
+As ''hr'' is a [[styling:html|superset HTML component]], you can use all [[styling:styling|styling attributes]] such as [[styling:spacing|spacing]]
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+<hr spacing="my-5"/>
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+</code>
+</webcode>
+

@@ -13,3 +13,4 @@ If you can draw some border around it, that's a box.
   * [[note]]
   * [[card]]
   * [[blockquote]]
+  * [[typo]]

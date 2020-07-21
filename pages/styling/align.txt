@@ -2,7 +2,7 @@
 
 
 ===== About =====
-''align'' is an [[styling:styling|styling attribute]] of the [[ui:html|HTML superset component]]
+''align'' is an [[styling:styling|styling attribute]] of the [[styling:html|HTML superset component]]
 
 It permits to align:
   * a [[#box|box]]

@@ -1,0 +1,48 @@
+====== ComboStrap UI - Typo ======
+
+
+===== About =====
+''typo'' is a typographic component that permits to style a paragraph at once.
+
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Syntax =====
+
+<code dw>
+<typo type>
+Content
+</typo>
+</code>
+where:
+  * ''type'' can (for now) only take the value ''lead''. It makes a paragraph stand out by setting a bigger font-size and weigth.
+
+<note>
+''typo'' is a [[styling:html|superset HTML component]], you can therefore wrap other component with it and use all [[styling:styling|styling attributes]].
+</note>
+===== Example =====
+
+=== Lead ====
+
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<typo lead>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+</typo>
+**versus:**\\
+\\
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+</code>
+</webcode>
+
+=== Two buttons centered ===
+Two [[button|buttons]] centered
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<typo align="center" width="fit-content">
+<btn>Button 1</btn> <btn skin="outline">Button 2</btn>
+</typo>
+</code>
+</webcode>
+

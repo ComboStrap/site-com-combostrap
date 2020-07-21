@@ -17,6 +17,8 @@ This is a page that lists all releases with their respective changes for [[:star
   * The [[ui:button|button]] was improved: outline and size are now supported.
   * The [[ui:tooltip|tooltip component]] was added
   * The [[ui:jumbotron|jumbotron component]] was added
+  * The [[ui:typo|typo component]] was added to apply styling on a paragraph level
+  * The [[ui:hr|Hr component]] was added to draw an horizontal rule
 
 ==== Version 1.3 - 2020-07-15 ====
   * [[styling:dimension|Component sizing on height]] gets now an ''overflow:auto'' which bootstrap didn't take into account.

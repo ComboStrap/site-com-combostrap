@@ -24,7 +24,7 @@ The ''grid'' component is a composition of two tags:
    <col></col>
 </col>
 </code>
-They are actually [[html|superset HTML component]], you can therefore use all [[https://getbootstrap.com/docs/4.5/layout/grid/|Grid bootstrap class]]
+They are actually [[styling:html|superset HTML component]], you can therefore use all [[https://getbootstrap.com/docs/4.5/layout/grid/|Grid bootstrap class]]
 
 <badge>Attributes are [[:changes|in the planning]]</badge>
 
