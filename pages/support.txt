@@ -6,7 +6,7 @@
 === Easy as an Email ===
 <icon name="email"/> Don't bother, send us an email.
 
-<button spacing="mt-3">[[support@combostrap.com]]</button>
+<button spacing="mt-3" elevation="true">[[support@combostrap.com]]</button>
 </card>
 
 <note spacing="my-3">

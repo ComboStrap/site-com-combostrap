@@ -1,8 +1,8 @@
 
-<card class="mb-3" width="fit-content" align="center" text-align="center">
-==== Making Publishing Discoverable and Remarkable ====
-''ComboStrap'' is a ''combo'' of components that aims to 
-ease the ''strap'' //(creation)// of a website.\\
+<card class="mb-3" width="400px" align="center" text-align="center" border-color="white" >
+==== Create your footprint that last ForEver ====
+Advertise yourself, your documentation or your company with 
+a product that makes website design, creation and management, \\ unique, easy and fun \\
 <btn spacing="mt-3" size="large" align="center" elevation="true">
 [[getting_started:getting_started|Get started]]
 </btn>
@@ -11,7 +11,7 @@ ease the ''strap'' //(creation)// of a website.\\
 <card-columns class="mb-3">
 
 <card>
-==== Large base of UI Component ====
+==== Large base of UI Components ====
 ''ComboStrap'' have a large [[ui:ui|UI components library]]. 
   * A large library of [[ui:icon|icons]], 
   * This kind of [[ui:card|cards]]

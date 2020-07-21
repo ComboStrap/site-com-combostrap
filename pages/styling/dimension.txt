@@ -1,3 +1,9 @@
+---json
+{
+   "canonical":"dimension"
+}
+---
+
 ====== ComboStrap Styling - Dimension (Width and Height) ======
 
 
@@ -16,7 +22,7 @@ Every [[ui:box|Box components]] and even the whole main page dimension may be re
 === Box ===
 
 The ''width'' attributes supports the following values:
-  * ''300px'' - the maximum width number in pixel
+  * ''length'' - a length (in pixel, percentage, or other length unit)
   * ''fit-content'' - the width of the text.
 
 <note info width="fit-content">If you want to center the box, use the [[styling:align|align attributes]]</note>

@@ -1,0 +1,32 @@
+====== ComboStrap UI - Jumbotron ======
+
+
+===== About =====
+A ''jumbotron'' is a [[box|box component]] to emphase prominently the content.
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Syntax =====
+<code dw>
+<jumbotron>
+=== Title ===
+<!-- Content -->
+</jumbotron>
+</code>
+
+
+
+===== Example =====
+From [[https://getbootstrap.com/docs/4.0/components/jumbotron/|Bootstrap]]
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<jumbotron>
+=== Jumbotron ===
+
+<hr class="my-4">
+
+<btn size="large">[[#|Learn More]]</btn>
+</jumbotron>
+</code>
+</webcode>

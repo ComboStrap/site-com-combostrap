@@ -32,6 +32,7 @@ See [[styling:html]]
   * [[related|Related]]: A component showing the backlinks
   * [[math|Math]]: Writing math formulas
   * [[note|Note]]: An ancillary text that needs attention.
+  * [[jumbotron|Jumbotron]]: Prominently at the top of your page emphase a content.
 
 ==== Inline ====
   * [[inote|Inote]]: An inline note

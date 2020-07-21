@@ -6,7 +6,7 @@ ComboStrap
 </brand>
 <collapse>
 <group expand="true">
-<dropdown name="Components">
+<dropdown name="Modules">
 [[ui:ui|UI Components]]
 [[styling:styling|Styling]]
 [[url:url|Url Manager]]

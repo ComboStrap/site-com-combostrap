@@ -19,8 +19,8 @@ The ''standard'' attributes are:
   * [[styling:align|Align]] - Align your component and their text as you wish
   * [[styling:spacing|Spacing]] - Master your layout at the pixel-perfect details
   * [[color|Color]] - Text, Border and Background color made easy with name and declarative gradient
-  * [[skin|Skin]] - Apply a color skin to master the emphasis of your components
-  * [[styling:elevation|Elevation]] - Add a shadow to give more emphasis to a component
+  * [[skin|Skin]] - Apply a skin to control the emphasis level of your components
+  * [[styling:elevation|Elevation]] - Add a shadow and elevate your component
 
 <note>
 === For the Geek ===
