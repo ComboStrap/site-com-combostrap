@@ -15,11 +15,13 @@ A ''card'' contain content and actions about a single subject.
 <card>
 {{topimage}}
 <header>Header</header>
-=== Title ===
+=== Title === or <title>Title</title>
 Content
 </card>
 </code>
-
+where:
+  * ''header'' is an [[header|header]]
+  * ''title'' is a [[title|title]]
 
 A ''card'':
   * is a [[styling:html|superset HTML component]] and permits then all kind of [[styling:styling|styling]]

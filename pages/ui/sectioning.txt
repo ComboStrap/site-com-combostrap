@@ -1,0 +1,40 @@
+====== ComboStrap UI - Sectioning Heading ======
+
+
+===== About =====
+''Sectioning heading'' are [[heading|headings]] that cuts the page into different hierarchical sections.
+
+<note tip>
+If you are interested in heading inside component to define a title, check the [[title|title article]] instead
+</note>
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Syntax =====
+ComboStrap does not define an extra syntax over the DokuWiki syntax.
+
+
+<code dw>
+====== Headline Level 1 ======
+===== Headline Level 2 =====
+==== Headline Level 3 ====
+=== Headline Level 4 ===
+== Headline Level 5 ==
+</code>
+
+===== Configuration =====
+
+==== Numbering ====
+
+With the [[renderer|combo renderer]], you can number them.
+
+
+==== Fixed top bar ====
+With a [[strap:fixed-top-navbar|Fixed top application bar]], the location of the headings are automatically adjusted to redefine the top position of the page to be below the top bar.
+
+More ... see [[strap:fixed-top-navbar|Fixed top application bar]].
+
+
+===== Documentation / Reference =====
+  * [[https://www.w3.org/WAI/WCAG21/Techniques/html/H69|Providing heading elements at the beginning of each section of content]]

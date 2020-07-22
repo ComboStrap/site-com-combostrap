@@ -17,11 +17,15 @@ A ''blockquote'' has two type:
 <code dw>
 <blockquote type="card">
 <header>My Header</header>
-=== Title ===
+=== Title === or <title>Title</title>
 content
 <cite>The reference</cite>
 </blockquote
 </code>
+where:
+  * ''header'' is an [[header|component header]]
+  * ''title'' is a [[title|component title]]
+  * ''cite'' is a [[cite|cite (citation)]]
 
 <note tip>
 A ''card'' blockquote is just a shortcut that wraps the typographic blockquote in a [[card|card]].
@@ -58,7 +62,7 @@ The true work does not reveal itself until you get into.
 </webcode>
 
 ==== With a class ====
-As a [[html|superset HTML element]], you can add your own class or [[styling:style|style]]
+As a [[styling:html|superset HTML element]], you can add your own class or [[styling:style|style]]
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <blockquote class="p-4 m-4 mx-auto" style="border-color:blue;max-width:400px">

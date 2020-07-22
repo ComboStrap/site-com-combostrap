@@ -2,35 +2,17 @@
 
 
 ===== About =====
-''headings'' define [[doku>wiki:syntax#sectioning|section]] and generates the structure of the document. The [[toc|table of content (TOC)]] is created from this structure.
+''headings'' has two different function:
+  * the first one is ''structural'' and generates the structure (section) of the document. The table of content (TOC) is created from this structure.
+  * the second one is ''semantic'' and defines the title of a component.
+
+This is important to not mixed the two, this is why we have two different articles. See:
+  * the [[sectioning|sectioning page]] for structural heading
+  * the [[title|title page]] for semantic heading.
 
 
 ===== Articles Related =====
 {{backlinks>.}}
 
-===== Syntax =====
-ComboStrap does not define an extra syntax over the DokuWiki syntax but supports them for styling/semantic purpose in [[#Component with an heading|components]]
 
 
-<code dw>
-====== Headline Level 1 ======
-===== Headline Level 2 =====
-==== Headline Level 3 ====
-=== Headline Level 4 ===
-== Headline Level 5 ==
-</code>
-
-===== Component with an heading ====
-
-''ComboStrap'' supports a heading/title for styling/semantic purpose in the following component:
-   * [[card]]
-   * [[blockquote]]
-   * [[note]]
-   * [[jumbotron]]
-
-<note info>This headings are local and does not modify the structure of the document</note>
-===== Configuration =====
-
-==== Numbering ====
-
-With the [[renderer|combo renderer]], you can number them.

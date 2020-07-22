@@ -1,0 +1,75 @@
+====== ComboStrap UI - Title ======
+
+
+===== About =====
+A ''title'' is a ''semantic'' [[heading|heading]] that defines the title of a component.
+
+
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Syntax =====
+The [[sectioning|Dokuwiki Heading syntax]] is supported but if you want more control over the rendering, you can use the ''title'' syntax.
+
+<code dw>
+<title type="1" level="1">
+Title
+</title>
+</code>
+where:
+  * ''type'' is a number from 0 to 4 (Default 0) that defines different display.
+  * ''level'' is the heading level (ie in ''h1'', the number 1)
+
+
+<note>
+''title'' is a [[styling:html|Super set HTML component]] and you can then control fully its [[styling:styling|styling]].
+</note>
+
+===== Component with a title heading ====
+
+''ComboStrap'' supports a title in the following component:
+   * [[card]]
+   * [[blockquote]]
+   * [[note]]
+   * [[jumbotron]]
+
+<note info>This headings are local and does not modify the [[sectioning|structure of the document]]</note>
+
+===== Example =====
+<note important>
+Even if we not use them inside a component for the simplicity of the below examples, the ''title'' component should be used inside another [[#component_with_a_title_heading|component that accepts a title]].
+
+Otherwise it may be seen by an assistive technologies such as a screen reader as a [[sectioning|sectioning heading]] and will make the page difficult to read for people with visual disability.
+</note>
+==== Type ====
+<webcode name="Type" >
+<code dw>
+<title>Title 0</title>
+<title 1>Title 1</title>
+<title 2>Title 2</title>
+<title 3>Title 3</title>
+<title 4>Title 4</title>
+</code>
+</webcode>
+
+<note tip>
+=== For the Geek ===
+The type applied the [[https://getbootstrap.com/docs/4.4/content/typography/#display-headings|Bootstrap display class]].
+</note>
+
+
+==== Level ====
+<webcode name="Level">
+<code dw>
+<title>Title Level 1 (H1)</title>
+<title level="2">Title Level 2 (H2)</title>
+<title level="3">Title Level 3 (H3)</title>
+<title level="4">Title Level 4 (H4)</title>
+<title level="5">Title Level 5 (H5)</title>
+<title level="6">Title Level 6 (H6)</title>
+</code>
+</webcode>
+
+
+
