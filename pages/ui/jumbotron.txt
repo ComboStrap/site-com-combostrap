@@ -4,6 +4,7 @@
 ===== About =====
 A ''jumbotron'' is a [[box|box component]] to emphase prominently its content.
 
+<badge>Since [[:changes|version 1.4]]</badge>
 ===== Articles Related =====
 {{backlinks>.}}
 

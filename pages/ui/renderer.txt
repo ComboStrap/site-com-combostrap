@@ -3,15 +3,20 @@
 ===== About =====
 The ''combo renderer'' is the component that renders each page.
 
-It adds:
-  * numbering to the [[heading|headings]]
-  * below the first heading:
-      * the [[toc|TOC]] 
-      * a [[hierarchical_breadcrumb|hierarchical breadcrumb]]
-and it makes the [[table|tables responsive]].
 
 ===== Articles Related =====
 {{backlinks>.}}
+
+===== Features =====
+
+
+  * Add Numbering to the [[sectioning|headings]]
+  * Add below the first heading:
+      * a [[toc|TOC]] 
+      * a [[hierarchical_breadcrumb|hierarchical breadcrumb]]
+  * Make the [[table|tables responsive]].
+  * Overwrite the monospace syntax to an highlight.
+
 
 ===== How to enable the Combo Renderer ? =====
 

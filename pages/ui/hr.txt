@@ -5,6 +5,8 @@
 The ''hr'' component permits to delimit two sections of content by drawing a horizontal rule (hr).
 
 It represents a paragraph-level thematic break, e.g. a scene change in a story, or a transition to another topic within a section of a reference book.
+
+<badge>Since [[:changes|version 1.4]]</badge>
 ===== Articles Related =====
 {{backlinks>.}}
 

@@ -59,7 +59,7 @@ or
 </btn>
 </code>
 where:
-  * ''type'' defines the [[#type|skin (styling)]]
+  * ''type'' defines the [[#type|default styling]]
   * ''size'' defines its [[#size]]
   * ''elevation'' adds an [[#elevation|elevation]]
 

@@ -1,0 +1,11 @@
+====== ComboStrap Styling - Design System ======
+
+
+===== About =====
+The ''ComboStrap design'' system takes all the good part of [[strap:Bootstrap|Boostrap]] but does not stop there as it also follow the [[https://material.io/|Google Material Design recommandations]]
+
+
+===== The plus =====
+With ''ComboStrap'', you get the possibility:
+  * to apply a [[skin|skin]] to your component in order to set the level of emphasis.
+  * to [[elevation|elevate]] a single component.

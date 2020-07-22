@@ -5,7 +5,7 @@
 A ''title'' is a ''semantic'' [[heading|heading]] that defines the title of a component.
 
 
-
+<badge>Since [[:changes|version 1.4]]</badge>
 ===== Articles Related =====
 {{backlinks>.}}
 

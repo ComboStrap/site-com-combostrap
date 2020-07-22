@@ -4,7 +4,7 @@
 ===== About =====
 ''typo'' is a typographic component that permits to style a paragraph at once.
 
-
+<badge>Since [[:changes|version 1.4]]</badge>
 ===== Articles Related =====
 {{backlinks>.}}
 

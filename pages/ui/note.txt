@@ -13,32 +13,42 @@
 ===== Articles Related =====
 {{backlinks>.}}
 
-===== Features =====
-==== Title ====
-A ''note'' takes into account a [[heading|header]]. 
+===== Syntax =====
+
+<code dw>
+<note type>
+<title>Title</title> or === Title ===
+Content
+</note>
+</code>
+where:
+  * ''title'' is a [[title|title]]
+  * ''type'' may have one of the following value:
+    * [[#info]] (Default)
+    * [[#important]]
+    * [[#tip]]
+    * [[#warning]]
 
 
 
-==== Syntax ====
-A note has:
-   * a quick syntax
-   * the [[styling:html|superset HTML syntax]]
+<note info>
+A note is a [[styling:html|superset HTML syntax]]
+</note>
+
+<note tip>
+For a note inside a paragraph, see the [[inote|inote component]]
+</note>
 
 
+===== Example =====
 
-===== Type =====
-A note may have the following type:
-  * [[#info]] (Default)
-  * [[#important]]
-  * [[#tip]]
-  * [[#warning]]
 
 ==== Info ====
 
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <note>
-===== Informative note =====
+<title 4> Informative note </title>
 You can also style your [[ui|ComboStrap UI components]] with the [[styling:style|style attribute]].
 </note>
 </code>
@@ -60,7 +70,7 @@ You can also style your [[ui|ComboStrap UI components]] with [[styling:spacing|s
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <note important >
-===== Important note =====
+=== Important note ===
 Too little sport is not good for your health
 </note>
 </code>
@@ -71,7 +81,7 @@ Too little sport is not good for your health
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <note type="warning">
-===== Warning note =====
+=== Warning note ===
 Too much sport is not good for your health
 </note>
 </code>
@@ -85,18 +95,18 @@ With the [[styling:style|style attribute]]:
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <note type="warning" style="width:60%">
-===== Warning note =====
+<title 4 > Warning note </title>
 Too little sport is not good for your health
 </note>
 </code>
 </webcode>
 
 ==== Horizontal Centering====
-With the class attribute where you can set [[styling:spacing|spacing]] or [[grid#horizontal centering|horizontal centering]]
+With the [[styling:align|align attribute]]
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
-<note type="info" class="mx-auto" width="200px">
-===== Warning note =====
+<note type="info" align="center" width="200px">
+===== Info note =====
 Too much sport is not good for your health
 </note>
 </code>
@@ -112,6 +122,6 @@ When you go to this castel takes the round about <inote tip>Don't forget to enjo
 </webcode>
 
 ===== For the Geek =====
-The ''note'' component follows the [[https://getbootstrap.com/docs/4.0/components/alerts/|alert styling of Bootstrap]] but does not follow the [[https://www.w3.org/TR/wai-aria-1.1/#alert|Alert ARIA Role]] because ''alerts''' are shown as the result of a event (a user action or a notification).
+The ''note'' component follows the [[https://getbootstrap.com/docs/4.0/components/alerts/|alert styling of Bootstrap]] but does not follow the [[https://www.w3.org/TR/wai-aria-1.1/#alert|Alert ARIA Role]] because ''alerts'' are shown as the result of a event (a user action or a notification).
 
 It follows the [[https://www.w3.org/TR/wai-aria-1.1/#note|Note ARIA Role]] 

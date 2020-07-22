@@ -1,0 +1,69 @@
+====== ComboStrap Styling - Skin attribute (Emphasis Control) ======
+
+
+===== About =====
+''skin'' is a [[styling|ComboStrap styling attribute]] that defines the emphasis level of your component by applying a set of standard styling attribute on:
+  * [[color|color]]
+  * and [[elevation|elevation]].
+
+<badge>Since [[:changes|version 1.4]]</badge>
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Syntax =====
+
+<code dw>
+<component skin="filled">
+</code>
+where the ''skin'' value is one of:
+  * ''contained''
+  * ''filled'' (default)
+  * ''outline''
+  * ''text''
+
+===== Skin and Emphasis Level =====
+
+^ Name ^ Emphasis Level ^ Text \\ Color ^ Background \\ Color ^ Border \\ Color ^ [[elevation|Elevation]] ^
+| Contained | High | 🗸 | 🗸 | 🗸 | 🗸 |
+| Filled (Default) | Medium | 🗸 | 🗸 | 🗸 | |
+| Outline | Low | 🗸 | | 🗸 | |
+| Text | Normal | 🗸 | | | 
+
+===== Example =====
+
+
+==== Button ====
+
+With a [[ui:button|button]]
+<webcode name="Skin" >
+<code dw>
+<btn secondary skin="contained">Contained</btn>
+<btn secondary skin="filled">Filled</btn>
+<btn secondary skin="outline">Outline</btn>
+<btn secondary skin="text">Text</btn>
+</code>
+</webcode>
+
+==== Note ====
+
+With a [[ui:note|note]]
+<webcode name="Skin Note" >
+<code dw>
+<note skin="contained">A Contained Note</note>
+<note skin="filled">A Filled Note</note>
+<note skin="outline">An Outlined Note</note>
+<note skin="text">A Textual Note</note>
+</code>
+</webcode>
+
+==== Card ====
+
+With a [[ui:card|card]]
+<webcode name="Skin Card" >
+<code dw>
+<card primary skin="contained" spacing="my-2">A Contained Card</card>
+<card primary skin="filled" spacing="my-2">A Filled Card</card>
+<card primary skin="outline" spacing="my-2">An Outlined Card</card>
+<card primary skin="text" spacing="my-2">A Textual Card</card>
+</code>
+</webcode>
