@@ -4,16 +4,31 @@
 ===== About =====
 The ''hr'' component permits to delimit two sections of content by drawing a horizontal rule (hr).
 
+It represents a paragraph-level thematic break, e.g. a scene change in a story, or a transition to another topic within a section of a reference book.
 ===== Articles Related =====
 {{backlinks>.}}
 
+===== Syntax =====
+''hr'' supports both syntax:
+  * ''html''
+<code html>
+<hr>
+</code>
+  * and HTML- and XHTML-compatible 
+<code html>
+<hr/>
+</code>
+
+<note info>
+''hr'' is a [[styling:html|superset HTML component]] and you can [[styling:styling|style]] it as you wish
+</note>
 ===== Example =====
 ====  Simple ====
  
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-<hr/>
+<hr>
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 </code>
 </webcode>
@@ -28,3 +43,5 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 </code>
 </webcode>
 
+===== Documentation / Reference =====
+  * [[https://www.w3.org/TR/2011/WD-html5-author-20110809/the-hr-element.html|W3c reference]]
