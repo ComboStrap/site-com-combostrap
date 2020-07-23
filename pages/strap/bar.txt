@@ -2,14 +2,18 @@
 
 
 ===== About =====
-''bar'' are locations in the template that can be fill by creating a page with the name of the ''bar''
+''bar'' are placeholders in the template that can be filled dynamically.
 
 The Strap template supports now the following bar:
-  * ''sidebar'' (at the left side)
+  * [[sidebor|sidebar]] (at the left side)
   * [[headerbor|headerbar]] (at the top)
   * [[footerbor|footerbar]] (at the bottom)
   * [[sidekickbor|sidekickbar]] (at the right)
 
+
+For instance:
+  * if you want to create a [[sidebor|sidebar]] for the whole website, you would create the page called ''sidebar''
+  * if you want to create a [[sidebor|sidebar]] specific for a ''namespace'', you would create the page called ''namespace:sidebar''
 ===== Articles Related =====
 {{backlinks>.}}
 

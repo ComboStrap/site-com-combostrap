@@ -1,8 +1,8 @@
 ====== Change Logs  / Release ======
 
+
 ===== About =====
 This is a page that lists all releases with their respective changes for [[:start|ComboStrap]].
-
 ===== Releases =====
 
 ==== Planned ====
@@ -12,6 +12,13 @@ This is a page that lists all releases with their respective changes for [[:star
   * Add [[https://www.bryanbraun.com/anchorjs/|Deep Linking anchor]]
   * Add a [[https://getbootstrap.com/docs/4.4/components/carousel/|Carrousel]]
   * Add a [[https://getbootstrap.com/docs/4.4/content/figures/|caption to image]]
+
+==== Version 1.5 - Snapshot ====
+  * Add the ''og:description'' meta in the [[semantic:description|meta description]] to support Facebook.
+  * Bug: The section highlighting feature was:
+      * not working
+      * modifying the document making the edit button jump. 
+
 ==== Version 1.4 - 22-07-2020 ====
   * Corrected the bug: No message visible when the [[semantic:frontmatter|frontmatter json object]] is not valid
   * The [[styling:align|align attribute]] was better documented and supports now also the text alignement.

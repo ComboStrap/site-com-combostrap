@@ -65,7 +65,7 @@ Lorem ipsum
 ==== Height ====
 The ''height'' attribute is also a [[styling:style|style shortcut]] that will apply a maximum weight.
 
-Example:
+
 Example: a [[ui:note|note]] will take all the space by default, if you want to constraint the box to a lower size, apply the ''width'' attributes.
 
 <webcode name="Width" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >

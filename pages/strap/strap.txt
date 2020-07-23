@@ -20,15 +20,15 @@ The ''strap'' template supports the following features:
   * [[bootstrap|Last bootstrap version (4)]] or [[bootstrap_custom|create and add your own]]
   * [[cdn|Serve the Bootstrap files by default from a CDN]]
   * Supports [[bar|4 bars]] layout
-      * [[bar|Sidebar]] (left)
+      * [[sidebor|Sidebar]] (left)
       * [[sidekickbor|Sidekickbar]] (right)
       * [[headerbor|Headerbar]] (top)
       * [[footerbor|Footerbar]] (bottom)
   * [[dynamic_grid|Dynamic grid system from 12 to 16 columns]]
   * [[toolbar|Aggregate toolbar (Page, User Site) with a private option]]
   * Support [[tagline|tagline]]
-  * [[fixed-top-navbar|Fixed-top navbar with automatic styling correction]]
-  * Support the [[doku>conf:youarehere|youarehere]] configuration for a [[ui:breadcrumb#trailing|trailing breadcrumb]]
+  * [[fixed-top-navbar|Fixed-top navbar with automatic top page location correction]]
+  * Support a [[ui:trail_breadcrumb|trailing breadcrumb]]
   * [[styling:scale|Size Scale configuration (font and spacing)]]
   * [[getting_started:4_favicon|Favicon]]: Recognized the [[getting_started:4_favicon|favicons]]  (included ''android-chrome-192x192.png'')
 

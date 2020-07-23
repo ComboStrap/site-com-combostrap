@@ -16,6 +16,7 @@ The ''combo renderer'' is the component that renders each page.
       * a [[hierarchical_breadcrumb|hierarchical breadcrumb]]
   * Make the [[table|tables responsive]].
   * Overwrite the monospace syntax to an highlight.
+  * Enable [[:ads|ads inside the content]]
 
 
 ===== How to enable the Combo Renderer ? =====

@@ -27,17 +27,19 @@ You can modify the description by adding a ''description'' property in the [[fro
 ---
 </code>
 
-===== For the geek  =====
-Technically, this component will create the ''description'' [[kb>html:meta|HTML meta header]] 
+<note tip>
+=== For the geek  ===
+Technically, this component will create two meta ''description'' [[kb>html:meta|HTML meta header]] 
 
 
 Example:
 <code html>
 <meta name="description" content="The best page on the universe">
+<meta property="og:description" content="The best page on the universe">
 </code>
 
 To known more about description and search engine, see 
 ''description'' is the [[https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#Active_learning_The_descriptions_use_in_search_engines|Active learning: The description's use in search engines]].
 
-
+</note>
 
