@@ -1,0 +1,49 @@
+====== ComboStrap Ad - InContent Ads ======
+
+
+===== About =====
+''InContent Ads'' are ads that will show up in the page content.
+
+''ComboStrap'' applies a set of rules that conform to most of the Ads network to show roughly one ad by screen.
+
+===== Articles Related =====
+{{backlinks>.}}
+===== Steps =====
+
+==== Enable the Renderer ====
+
+
+The [[ui:renderer|Combo Renderer]] is responsible to inject the ad in the page. 
+
+You need to configure it as your renderer.
+
+{{:ui:combo_renderer_setting.png?500|}}
+
+==== Enable the IncontentAds module ====
+The [[#AdsIncontentEnable]] configuration toggle on and off the use of this module.
+
+By default, the value is ''off'', you need to set it ''on''
+
+==== Create your ads ====
+At this point, no ads is shown because no ads have been created.
+
+''Ads'' are just ''page'' that contains the Ads snippet to define the [[kb>ad/unit|ad unit]] (ie the ad location and format)
+
+
+The Ads pages are expected to be on this location:
+<code>
+combostrap:ads:incontentX
+</code>
+where X is the Ads number in the page and starts at 1.
+
+For instance:
+  * the page ''combostrap:ads:incontent1'' will contain the first inContent ad.
+  * the page ''combostrap:ads:incontent2'' will contain the second inContent ad.
+
+===== Configuration =====
+
+==== AdsInContentEnable ====
+''AdsIncontentEnable'' is a [[:configuration|configuration]] that enable the inContent ''ads''  module.
+
+==== AdsInContentShowPlaceholder ====
+''AdsInContentShowPlaceholder '' is a [[:configuration|configuration]] that will show a placeholder when no ads page is found.

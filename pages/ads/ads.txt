@@ -1,0 +1,30 @@
+====== ComboStrap - Ads ======
+
+
+===== About =====
+''ads'' is a module that permits to add ads in your website.
+
+There is two sub modules:
+  * [[incontent|Incontent]] - to add automatically Ads into the content of your page
+  * [[ad|Ad]] - the ad ui component to add an ad where you want.
+
+
+===== Steps =====
+
+=== InBar ===
+You can also place ''Ads'' in [[strap:bar|bar]] through the Ad component.
+
+<code syntax>
+<ad name="adsFileName">
+</code>
+where ''adsFileName'' is the name of the page in the namespace ''combostrap:ads''.
+
+For instance, if you want to add a ''Ad'' in the top of the [[strap:sidebor|sidebar]], you would:
+  * create a page called ''sidebarTop'' into the directory ''combostrap:ads''
+  * and add in your sidebar the following component
+<code syntax>
+<ad name="sidebarTop">
+</code>
+
+
+

@@ -7,13 +7,14 @@
 
 
 ===== About =====
-A ''canonical URL'' is an [[kb>identifier|identifier]] for a web page that is defined though a the [[kb>canonical/url|canonical meta property]].
+A ''canonical URL'' is an [[kb>identifier|identifier]] for a web page that is defined through the [[kb>canonical/url|canonical meta property]].
 
 It identifies uniquely a page in a domain.
 
 The ''canonical'' value:
   * should never change (theoretically)
   * does not need to be the [[doku>pagename]]
+  * is always lowercase
 
 The ''canonical'' component is a part of the [[:seo|SEO]] module.
 ===== Articles Related =====
@@ -59,10 +60,13 @@ This page has the canonical value set to ''canonical:url'' and therefore is also
 <wrap tip>In [[doku>|dokuwiki]], a red hyperlink means that the file does not exist but with the ''canonical'' feature, the page exists.</wrap>
 
 Try it your self !
+
 <btn>
 [[canonical:url#demo|Navigate to this page via its canonical URL]] !
 </btn>
+
 or
+
 <btn>
 [[semantic:canonical#demo|Navigate to this page via its dokuwiki URL]] !
 </btn>

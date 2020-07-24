@@ -35,6 +35,10 @@ With a [[strap:fixed-top-navbar|Fixed top application bar]], the location of the
 
 More ... see [[strap:fixed-top-navbar|Fixed top application bar]].
 
+===== Support =====
+==== Atx Markdown heading ====
+[[https://spec.commonmark.org/0.29/#atx-heading|Atx Markdown heading]] are not supported because they would not be taken into account in the structure and therefore, will generate a bad [[toc|TOC]]
+
 
 ===== Documentation / Reference =====
   * [[https://www.w3.org/WAI/WCAG21/Techniques/html/H69|Providing heading elements at the beginning of each section of content]]

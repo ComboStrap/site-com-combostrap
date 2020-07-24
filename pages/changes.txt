@@ -9,6 +9,7 @@ This is a page that lists all releases with their respective changes for [[:star
 
   * [[ui:grid|Grid attributes]] for row and column
   * [[ui:toc]]
+  * Don't redirect missing [[:strap:bar|bars]]
   * Add [[https://www.bryanbraun.com/anchorjs/|Deep Linking anchor]]
   * Add a [[https://getbootstrap.com/docs/4.4/components/carousel/|Carrousel]]
   * Add a [[https://getbootstrap.com/docs/4.4/content/figures/|caption to image]]
@@ -18,6 +19,8 @@ This is a page that lists all releases with their respective changes for [[:star
   * Bug: The section highlighting feature was:
       * not working
       * modifying the document making the edit button jump. 
+  * Bug: A [[semantic:canonical|canonical value]] cannot be uppercase
+  * Bug: A [[ui:cite|cite element]] outside a component was giving an error because it had no parents
 
 ==== Version 1.4 - 22-07-2020 ====
   * Corrected the bug: No message visible when the [[semantic:frontmatter|frontmatter json object]] is not valid

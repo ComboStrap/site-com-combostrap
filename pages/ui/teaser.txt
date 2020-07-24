@@ -1,7 +1,10 @@
-====== Teaser ======
+====== ComboStrap UI - Teaser ======
 
-===== About =====
-A teaser is just an alias for a [[card|card]]. A teaser in essence is just a card with a call to action such as [[button|button]]
+<note info width="300px">
+A teaser is just an alias for a [[card|card]]. 
 
-See [[card]]
+A teaser in essence is just a card with a call to action such as a [[button|button]].
+
+<btn>[[card]]</btn>
+</note>
 

@@ -1,7 +1,13 @@
-====== Math ======
+---json
+{
+    "canonical":"math"
+}
+---
+
+====== ComboStrap UI - Math ======
 
 ===== About =====
-The ''math'' component allows to add [[http://docs.mathjax.org/en/latest/start.html#tex-and-latex-input|MathJax Text and Latex formulas]] 
+The ''math'' component allows to add [[http://docs.mathjax.org/|MathJax Text and Latex formulas]] 
 
 
 
@@ -28,7 +34,8 @@ This formula should not be inline but at the line <MATH>x^2</MATH>
 This formulas should be inline <math>x^2</math>
 
 
-
+===== Mathjax Syntax =====
+See [[https://docs.mathjax.org/en/latest/input/tex/macros/index.html|the Supported TeX/LaTeX commands]]
 
 
 
