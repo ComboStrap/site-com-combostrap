@@ -94,4 +94,18 @@ and transparent [[url:redirection|redirections]] with the [[semantic:canonical|c
 </btn>
 </card>
 
+<card>
+==== Ad System Ready ====
+With the [[ads:ads|ads module]], you can
+put ''ads'' wherever your want (in sidebar or in the main page).
+
+If you are a publisher trying to find a monetization channel,
+this module tries to find the best balance between user experience
+and revenue.
+<btn secondary class="mt-3">
+[[ads:ads|Check the ''Ads'' Module]]
+</btn>
+</card>
+
+
 </card-columns>

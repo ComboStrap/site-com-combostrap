@@ -2,4 +2,4 @@
 
 <minimap suppress="ComboStrap Ads - ">
 
-<ad name="sidebarTop" border-color="dark" spacing="p-3" />
+<ad name="sidebar_ads_btm"  />

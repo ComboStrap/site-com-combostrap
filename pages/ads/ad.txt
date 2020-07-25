@@ -23,6 +23,11 @@ For instance, if you want to add a ''Ad'' in the top of the [[strap:sidebor|side
 
 
 
+<note warning>
+Because the ''ads'' are stored as page, they are by default added to the index.
+
+You need to set a configuration to prevent it. See [[conf]]
+</note>
 ===== Syntax =====
 
 <code syntax>
@@ -34,8 +39,5 @@ where ''adsFileName'' is the name of the [[page|ad page]].
 The ''ad'' component is a [[styling:html|superset HTML component]] and you can style it as you want.
 </note>
 
-<note warning>
-Because the ''ads'' are stored as page, they are by default added to the index.
-
-You need to set a configuration to prevent it. See [[conf]]
-</note>
+===== Configuration =====
+See [[conf]]

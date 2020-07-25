@@ -11,6 +11,11 @@ You can insert an ''ad page'' (ie an ad) via:
 ===== Articles Related =====
 {{backlinks>.}}
 
+<note warning>
+Because the ''ads'' are stored as page, they are by default added to the index.
+
+You need to set a configuration to prevent it. See [[conf]]
+</note>
 ===== How to create an Ad Page =====
 <note>
 This example was done with ''Google Ad Sense'' but all ad network will work the same way and provides you at the end a ''ad snippet''.
