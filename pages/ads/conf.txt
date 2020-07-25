@@ -1,0 +1,17 @@
+====== ComboStrap Ads - Global Configuration ======
+
+
+===== Excludes the ads from the Index  =====
+For all [[ads|ads module]], the ads are located  in the namespace (directory) called ''combostrap''
+
+''Ads page'' have no content and should then not indexed.
+
+
+To exclude the ''combostrap'' location from the search index with the [[doku>config:hidepages]] [[:configuration|configuration]] 
+  * Add ''combostrap'' in the page to hide.
+  * With the [[strap:bar|bar]] of the template, you should have this value:
+<file>
+(headerbar|footerbar|sidekickbar|combostrap)
+</file>
+
+{{strap:hidepages_extrabar_configuration.png|}}

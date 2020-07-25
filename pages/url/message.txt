@@ -1,3 +1,9 @@
+---json
+{
+    "canonical":"redirection:message"
+}
+---
+
 ====== ComboStrap URL Management - Redirection Message ======
 
 

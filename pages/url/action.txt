@@ -1,3 +1,9 @@
+---json
+{
+   "canonical":"redirection:action"
+}
+---
+
 ====== ComboStrap URL Management - Redirection Actions ======
 
 ===== About =====

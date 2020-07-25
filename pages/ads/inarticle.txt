@@ -1,3 +1,9 @@
+---json
+{
+   "canonical":"automatic/in-article/ad"
+}
+---
+
 ====== ComboStrap Ads - Automatic In-Article Ads ======
 
 
@@ -24,10 +30,14 @@ You need to [[:configuration|configure]] it as your renderer.
 
 {{:ui:combo_renderer_setting.png?500|}}
 
-==== Enable the In-Article Ads module ====
-The [[#AdsInArticleEnable]] configuration toggle on and off the use of this module.
 
-By default, the value is ''off'', you need to set it ''on''
+==== Exclude the ads page from the index ====
+
+Because the ''ads'' are stored as page, they are by default added to the index.
+
+You need to set a configuration to prevent it. 
+
+See [[conf]]
 
 ==== Create your ads ====
 At this point, no ads is shown because no ''ads'' have been created.
@@ -44,8 +54,9 @@ For instance:
 
 ===== Configuration =====
 
-==== AdsInArticleEnable ====
-''AdsInArticleEnable'' is a [[:configuration|configuration]] that enable the ''in-article ads''  module.
+
 
 ==== AdsInArticleShowPlaceholder ====
-''AdsInArticleShowPlaceholder '' is a [[:configuration|configuration]] that will show a placeholder when no ads page is found.
+''AdsInArticleShowPlaceholder '' is a [[:configuration|configuration]] that will show a placeholder when a ''in-article'' [[page|ads page]] is not found.
+
+This is a debugging configuration and is therefore by default ''off''.

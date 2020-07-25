@@ -2,20 +2,11 @@
 
 
 ===== About =====
-You can also place ''ads'' wherever you want in the content of the page through the ''ad'' component.
+The ''ad tag'' is a syntax component of the [[ads|ads module]] that will insert a [[page|ad (ie ad page)]].
+
 
 ===== Articles Related =====
 {{backlinks>.}}
-===== Syntax =====
-
-<code syntax>
-<ad name="adsFileName"/>
-</code>
-where ''adsFileName'' is the name of the [[page|ad page]].
-
-<note info>
-The ''ad'' component is a [[styling:html|superset HTML component]] and you can style it as you want.
-</note>
 ===== Example =====
 
 For instance, if you want to add a ''Ad'' in the top of the [[strap:sidebor|sidebar]], you would:
@@ -31,3 +22,20 @@ For instance, if you want to add a ''Ad'' in the top of the [[strap:sidebor|side
 
 
 
+
+===== Syntax =====
+
+<code syntax>
+<ad name="adsFileName"/>
+</code>
+where ''adsFileName'' is the name of the [[page|ad page]].
+
+<note info>
+The ''ad'' component is a [[styling:html|superset HTML component]] and you can style it as you want.
+</note>
+
+<note warning>
+Because the ''ads'' are stored as page, they are by default added to the index.
+
+You need to set a configuration to prevent it. See [[conf]]
+</note>

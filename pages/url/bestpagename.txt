@@ -1,3 +1,9 @@
+---json
+{
+    "canonical":"best:page:name"
+}
+---
+
 ====== ComboStrap URL Management - Best Page Name ======
 
 

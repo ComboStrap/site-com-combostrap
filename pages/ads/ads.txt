@@ -4,7 +4,7 @@
 ===== About =====
 ''Ads'' is a module that permits to add ''Ads snippet'' (known as ''Ad Unit'') in your website.
 
-<note tip>
+<note >
 In Advertising, ''Ad Unit'' defines:
   * the location of your ad on the web page 
   * and its styling (most importantly the dimensions)
@@ -14,25 +14,14 @@ In Advertising, ''Ad Unit'' defines:
 
 There is two sub modules:
   * [[ad|Ad]] - the ''ad'' ui component to add an ad via a tag in the content of a page
-  * [[inarticle|Incontent]] - the ''inContent'' component will place automatically Ads into the content of your main page
+  * [[inarticle|Automatic in-article]] - the ''automatic in-article'' component will place automatically Ads into the content of your main page
 
 
+<note warning>
+Because the ''ads'' are stored as page, they are by default added to the index.
 
-===== Excludes the ads from the Index  =====
-For all ads module, the ads are located  in the namespace (directory) called ''combostrap''
-
-''Ads page'' have no content and should then not indexed.
-
-
-To exclude the ''combostrap'' location from the search index with the [[doku>config:hidepages]] [[:configuration|configuration]] 
-  * Add ''combostrap'' in the page to hide.
-  * With the [[strap:bar|bar]] of the template, you should have this value:
-<file>
-(headerbar|footerbar|sidekickbar|combostrap)
-</file>
-
-{{strap:hidepages_extrabar_configuration.png|}}
-
+You need to set a configuration to prevent it. See [[conf]]
+</note>
 
 
 
