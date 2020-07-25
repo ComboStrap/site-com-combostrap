@@ -1,0 +1,26 @@
+====== ComboStrap Ads - Ad UI component ======
+
+
+===== About =====
+You can also place ''ads'' wherever you want in the content of the page through the ''ad'' component.
+
+===== Articles Related =====
+{{backlinks>.}}
+===== Syntax =====
+
+<code syntax>
+<ad name="adsFileName">
+</code>
+where ''adsFileName'' is the name of the page in the namespace ''combostrap:ads''.
+
+===== Example =====
+
+For instance, if you want to add a ''Ad'' in the top of the [[strap:sidebor|sidebar]], you would:
+  * create a page called ''sidebarTop'' into the directory ''combostrap:ads''
+  * and add in your sidebar the following component
+<code syntax>
+<ad name="sidebarTop">
+</code>
+
+
+

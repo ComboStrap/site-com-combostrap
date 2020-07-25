@@ -64,6 +64,21 @@ A [[ui:note|info note]] with a ''light gradient color'' as background
 </code>
 </webcode>
 
+===== Info =====
+
+==== Default Border Attributes ====
+If you set a ''border-color'' attributes, by default ''ComboStrap'' will set the following properties if they are not present.
+  * a width of 1px 
+  * a style of solid (ie a continue line)
+  * a radius of 0.25rem (round corner)
+
+
+This is :
+  * to avoid the confusion to see nothing appearing on the screen 
+  *and to have a consistent styling with [[strap:bootstrap|bootstrap]].
+
+
+
 
 ===== FYI: Bootstrap Color Set =====
 

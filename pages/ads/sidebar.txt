@@ -1,3 +1,5 @@
 ~~NOCACHE~~
 
 <minimap suppress="ComboStrap Ads - ">
+
+<ad name="sidebarTop" border-color="dark" spacing="p-3" />

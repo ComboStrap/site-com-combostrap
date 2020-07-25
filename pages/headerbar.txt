@@ -12,6 +12,7 @@ ComboStrap
 [[url:url|Url Manager]]
 [[semantic:semantic|Meta Manager]]
 [[seo|SEO]]
+[[:ads:ads|Ads]]
 </dropdown>
 [[support|Support / Help]]
 </group>

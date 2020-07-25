@@ -2,29 +2,38 @@
 
 
 ===== About =====
-''ads'' is a module that permits to add ads in your website.
+''Ads'' is a module that permits to add ''Ads snippet'' (known as ''Ad Unit'') in your website.
+
+<note tip>
+In Advertising, ''Ad Unit'' defines:
+  * the location of your ad on the web page 
+  * and its styling (most importantly the dimensions)
+</note>
+
+===== Sub Modules =====
 
 There is two sub modules:
-  * [[incontent|Incontent]] - to add automatically Ads into the content of your page
-  * [[ad|Ad]] - the ad ui component to add an ad where you want.
+  * [[ad|Ad]] - the ''ad'' ui component to add an ad via a tag in the content of a page
+  * [[incontent|Incontent]] - the ''inContent'' component will place automatically Ads into the content of your main page
 
 
-===== Steps =====
 
-=== InBar ===
-You can also place ''Ads'' in [[strap:bar|bar]] through the Ad component.
+===== Excludes the ads from the Index  =====
+For all ads module, the ads are located  in the namespace (directory) called ''combostrap''
 
-<code syntax>
-<ad name="adsFileName">
-</code>
-where ''adsFileName'' is the name of the page in the namespace ''combostrap:ads''.
+''Ads page'' have no content and should then not indexed.
 
-For instance, if you want to add a ''Ad'' in the top of the [[strap:sidebor|sidebar]], you would:
-  * create a page called ''sidebarTop'' into the directory ''combostrap:ads''
-  * and add in your sidebar the following component
-<code syntax>
-<ad name="sidebarTop">
-</code>
+
+To exclude the ''combostrap'' location from the search index with the [[doku>config:hidepages]] [[:configuration|configuration]] 
+  * Add ''combostrap'' in the page to hide.
+  * With the [[strap:bar|bar]] of the template, you should have this value:
+<file>
+(headerbar|footerbar|sidekickbar|combostrap)
+</file>
+
+{{strap:hidepages_extrabar_configuration.png|}}
+
+
 
 
 

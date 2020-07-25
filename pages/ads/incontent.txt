@@ -1,4 +1,4 @@
-====== ComboStrap Ad - InContent Ads ======
+====== ComboStrap Ads - InContent Ads ======
 
 
 ===== About =====
@@ -27,7 +27,7 @@ By default, the value is ''off'', you need to set it ''on''
 ==== Create your ads ====
 At this point, no ads is shown because no ads have been created.
 
-''Ads'' are just ''page'' that contains the Ads snippet to define the [[kb>ad/unit|ad unit]] (ie the ad location and format)
+''Ads'' are just ''page'' that contains the Ads snippet that define the [[kb>ad/unit|ad unit]] (ie the ad location and format)
 
 
 The Ads pages are expected to be on this location:
