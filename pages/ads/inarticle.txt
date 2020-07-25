@@ -1,0 +1,51 @@
+====== ComboStrap Ads - Automatic In-Article Ads ======
+
+
+===== About =====
+''In-article Ads'' are ads that will show up in the page content.
+
+
+<note>
+This is an automatic placement which means that they follows a set of rule that:
+  * spread the ''ads'' roughly to have one ''ad'' on the screen.
+  * does not break the reading experience by placing them before a heading and not between paragraph.
+This placement conforms to most of the Ads network rules.
+</note>
+===== Articles Related =====
+{{backlinks>.}}
+===== How to enable automatic in-article ads ? =====
+
+==== Enable the Renderer ====
+
+
+The [[ui:renderer|Combo Renderer]] is responsible to inject the ad in the page. 
+
+You need to [[:configuration|configure]] it as your renderer.
+
+{{:ui:combo_renderer_setting.png?500|}}
+
+==== Enable the In-Article Ads module ====
+The [[#AdsInArticleEnable]] configuration toggle on and off the use of this module.
+
+By default, the value is ''off'', you need to set it ''on''
+
+==== Create your ads ====
+At this point, no ads is shown because no ''ads'' have been created.
+
+To show ''in-article ads'', you need to create [[page|Ads pages]] that follow this naming convention.
+<code>
+inarticleX
+</code>
+where X is the Ads number in the page and starts at 1.
+
+For instance:
+  * the [[page|ad page]] ''inarticle1'' will contain the first ''in-article ad''.
+  * the [[page|ad page]] ''inarticle2'' will contain the second ''in-article ad''.
+
+===== Configuration =====
+
+==== AdsInArticleEnable ====
+''AdsInArticleEnable'' is a [[:configuration|configuration]] that enable the ''in-article ads''  module.
+
+==== AdsInArticleShowPlaceholder ====
+''AdsInArticleShowPlaceholder '' is a [[:configuration|configuration]] that will show a placeholder when no ads page is found.

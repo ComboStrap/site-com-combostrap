@@ -1,0 +1,41 @@
+====== ComboStrap Ads - Ad Page ======
+
+
+===== About =====
+An ''ad page'' is a page that contains the ''ad snippet'' (ie a bit of code that define the ad).
+
+You can insert an ''ad page'' (ie an ad) via:
+  * a [[ad|ad tag]]
+  * or via the [[inarticle|auto in-article module]]
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== How to create an Ad Page =====
+<note>
+This example was done with ''Google Ad Sense'' but all ad network will work the same way and provides you at the end a ''ad snippet''.
+</note>
+
+  * After you have created an ''ad unit'', the ''ad network'' would show you the ''Ad Snippet''. For instance, with ''Google Ad Sense'':
+
+{{:ads:ad_sense_snippet.png|}}
+
+  * Copy this snippet of code
+  * Create a page in the '':combostrap:ads'' namespace.
+      * For a manual insertion via the [[ad|ad tag]] for instance in a sidebar, you could create the page '':combostrap:ads:insidebar''
+      * For [[inarticle|in-article automatic insertion]], you would create the page '':combostrap:ads:inarticle1'' for the first ''in-article ad''
+  * Finally, add the snippet between two ''html'' tag. Example:
+<code dw :combostrap:ads:inarticle1>
+<html>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1481679052079799"
+     data-ad-slot="8776594059"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</html>
+</code>

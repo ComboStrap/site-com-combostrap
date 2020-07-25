@@ -14,7 +14,7 @@ In Advertising, ''Ad Unit'' defines:
 
 There is two sub modules:
   * [[ad|Ad]] - the ''ad'' ui component to add an ad via a tag in the content of a page
-  * [[incontent|Incontent]] - the ''inContent'' component will place automatically Ads into the content of your main page
+  * [[inarticle|Incontent]] - the ''inContent'' component will place automatically Ads into the content of your main page
 
 
 

@@ -1,0 +1,6 @@
+<card width="300px" text-align="center" align="center" background-color="light">
+=== Ads made easy ===
+An [[ads:page|Ad page]] is just a page that contains the ''Ad Snippet''
+but you can also design it with the ''ComboStrap'' syntax. \\
+// (called also a creative)//
+</card>
