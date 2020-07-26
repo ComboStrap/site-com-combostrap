@@ -89,11 +89,12 @@ Because a ''card'' is a [[styling:html|HTML superset component]], you can style 
 <card width="300px" background-color="dark" color="white" align="center" >
 <header>Header is the top of a component</header>
 === A styled card ===
-You can style all [[html|HTML superset component]] easily.
+You can style all [[styling:html|HTML superset component]] easily.
 
-A [[align|centered box]] with a dark background [[color|color]] and a white text.
+A [[styling:align|centered box]] with a dark background [[styling:color|color]] and a white text.
+
 <btn light>
-[[syling|Check it out !]]
+[[styling:styling|Check it out !]]
 </btn>
 
 </card>

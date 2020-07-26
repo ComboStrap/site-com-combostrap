@@ -1,0 +1,29 @@
+---json
+{
+    "canonical":"list"
+}
+---
+
+====== ComboStrap UI - List ======
+
+===== About =====
+Lists are continuous, vertical indexes of text or images.
+
+===== Example =====
+
+<webcode name="List" >
+<code dw>
+<list>
+<li>
+Hello
+</li>
+</list>
+</code>
+</webcode>
+
+
+===== Documentation / Reference =====
+  * https://getbootstrap.com/docs/4.0/components/list-group/
+  * https://getbootstrap.com/docs/4.0/layout/media-object/#media-list
+  * https://material.io/components/lists
+  * https://github.com/material-components/material-components-web/tree/master/packages/mdc-list

@@ -4,7 +4,11 @@
 ===== About =====
 The ''hr'' component permits to delimit two sections of content by drawing a horizontal rule (hr).
 
-It represents a paragraph-level thematic break, e.g. a scene change in a story, or a transition to another topic within a section of a reference book.
+It's also known sometime as the ''Divider'' and has a ''separator'' role.
+
+It represents:
+  * a paragraph-level thematic break, e.g. a scene change in a story, or a transition to another topic within a section of a reference book.
+  * or a separator between a groups of items.
 
 <badge>Since [[:changes|version 1.4]]</badge>
 ===== Articles Related =====
@@ -47,3 +51,5 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 ===== Documentation / Reference =====
   * [[https://www.w3.org/TR/2011/WD-html5-author-20110809/the-hr-element.html|W3c reference]]
+  * [[https://www.digitala11y.com/separator-role/|Separator role]]
+  * [[https://material.io/components/dividers|Divider]]
