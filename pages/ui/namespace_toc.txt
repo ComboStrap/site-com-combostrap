@@ -2,14 +2,30 @@
 
 
 ===== About =====
-A ''namespace TOC'' is a [[toc|TOC]] that lists all pages and sub-directories of a [[doku>namespaces|namespace (ie directory)]]
+A ''namespace TOC'' is a [[toc|TOC]] for a ''namespace''. It lists all pages and sub-directories of a [[doku>namespaces|namespace (ie directory)]]
 
-<note>
-In development
-</note>
+
 ===== Articles Related =====
 {{backlinks>.}}
 
+===== Syntax =====
+
+<code dw>
+<ntoc>
+</ntoc>
+</code>
+
+===== Example =====
+
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<ntoc>
+<file-item>
+<icon name="file"/>$name
+</file-item>
+</ntoc>
+</code>
+</webcode>
 
 ===== Documentation / Reference =====
   * https://getbootstrap.com/docs/4.0/components/navs/#vertical

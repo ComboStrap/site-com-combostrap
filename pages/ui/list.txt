@@ -19,7 +19,7 @@ A ''List'' is a [[ui|component]] that lay out continuous, vertical lines where e
 {{backlinks>.}}
 
 ===== Syntax =====
-
+''list'' is a [[styling:html|HTML superset component]] and follows the following syntax
 <code dw>
 <list>
 <li>
@@ -31,28 +31,27 @@ where:
   * ''list'' defines a list
   * ''li'' defines a list item.
 
-<note>
-They are [[styling:html|HTML superset component]].
-</note>
 
 <note tip>
 === For the Geek ===
   * ''list'' translated to an ''ul'' html tag
   * ''li'' is translated to a ''flex li'' html tag.
+The ''list'' implementations follows the [[https://material.io/components/lists|Material design list with one-item type]] and not the [[https://getbootstrap.com/docs/4.0/components/list-group/|Bootstrap list-group]] because they don't offer any visual supports.
 </note>
 ===== Example =====
 ==== Icon and badge ====
 The ''List'' component is aware of:
   * [[icon|icon]] as visual 
-  * and [[badge|badge]] as meta
+  * [[badge|badge]] as meta
 and applied style accordingly:
   * an [[icon|icon]] gets by default a margin of two with the text.
   * the [[badge|badge]] is pushed to the right side.
+  * a ''link'' get the style attribute of its parent
 <webcode name="List" >
 <code dw>
-<list width="300px">
-<li><icon name="folder" color="info"/>Hello<badge>20</badge></li>
-<li><icon name="folder" color="info"/>Hello<badge>20</badge></li>
+<list width="300px" color="info">
+<li><icon name="folder"/>[[icon|Icon]]<badge>20</badge></li>
+<li><icon name="folder"/>[[badge|Badge]]<badge>info</badge></li>
 </list>
 </code>
 </webcode>
@@ -60,7 +59,6 @@ and applied style accordingly:
 
 
 ===== Documentation / Reference =====
-The ''list'' implementations follows the [[https://material.io/components/lists|Material design list with one-item type]] and not the [[https://getbootstrap.com/docs/4.0/components/list-group/|Bootstrap list-group]] because they don't offer any visual supports.
 
 Further reading and or related documentation
   * [[https://getbootstrap.com/docs/4.0/layout/media-object/#media-list|Bootstrap media list]]
