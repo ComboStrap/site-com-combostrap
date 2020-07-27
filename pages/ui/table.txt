@@ -2,7 +2,33 @@
 
 
 ===== About =====
-ComboStrap makes the table responsive with the help of the [[renderer|renderer]].
+''Table'' is a component that shows data in a list of record.
+
+
+
+
+''ComboStrap'' renders the [[doku>wiki:syntax#tables|Dokuwiki table]] 
+  * as a [[https://getbootstrap.com/docs/4.0/content/tables/|Bootstrap table]]
+  * and make it responsives
 
 ===== Articles Related =====
 {{backlinks>.}}
+
+
+
+
+
+===== Example =====
+
+<webcode name="Tables" >
+<code dw>
+^ Heading 1      ^ Heading 2       ^ Heading 3          ^
+| Row 1 Col 1    | Row 1 Col 2     | Row 1 Col 3        |
+| Row 2 Col 1    | some colspan (note the double pipe) ||
+| Row 3 Col 1    | Row 3 Col 2     | Row 3 Col 3        |
+</code>
+</webcode>
+
+===== Configuration =====
+==== Enable renderer ====
+The table rendering is a feature of the [[renderer|renderer]] and should be then selected. See [[renderer#configuration|renderer configuration]]. 

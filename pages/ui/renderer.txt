@@ -4,7 +4,7 @@
 }
 ---
 
-====== ComboStrap UI - Combo Renderer (formerly known as Rplus) ======
+====== ComboStrap UI - Combo Renderer (Rplus) ======
 
 ===== About =====
 The ''combo renderer'' is the component that renders each page.
@@ -22,7 +22,7 @@ The ''combo renderer'' is the component that renders each page.
       * a [[hierarchical_breadcrumb|hierarchical breadcrumb]]
   * Make the [[table|tables responsive]].
   * Overwrite the monospace syntax to an highlight.
-  * Enable [[ui:ads|ads inside the content]]
+  * Enable [[ads:ads|ads inside the content]]
 
 
 ===== How to enable the Combo Renderer ? =====
