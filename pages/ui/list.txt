@@ -13,10 +13,9 @@ Lists are continuous, vertical indexes of text or images.
 
 <webcode name="List" >
 <code dw>
-<list>
-<li>
-Hello
-</li>
+<list width="300px">
+<li><icon name="folder" color="info"/>Hello<badge>20</badge></li>
+<li><icon name="folder" color="info"/>Hello<badge>20</badge></li>
 </list>
 </code>
 </webcode>
