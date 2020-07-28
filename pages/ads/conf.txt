@@ -11,7 +11,7 @@ To exclude the ''combostrap'' location from the search index with the [[doku>con
   * Add ''combostrap'' in the page to hide.
   * With the [[strap:bar|bar]] of the template, you should have this value:
 <file>
-(headerbar|footerbar|sidekickbar|combostrap)
+(headerbar|footerbar|sidebar|sidekickbar|combostrap)
 </file>
 
 {{strap:hidepages_extrabar_configuration.png|}}

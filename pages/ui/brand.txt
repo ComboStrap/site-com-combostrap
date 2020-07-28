@@ -1,4 +1,4 @@
-====== Brand ======
+====== ComboStrap UI - Brand ======
 
 ===== About =====
 ''brand'' is a component that must go in a [[ui:navbar|navbar]]
@@ -21,7 +21,7 @@ Nico
 </webcode>
 
 ==== Icon ====
-With an embbedded [[icon|icon]] and some [[style|style]]
+With an embbedded [[icon|icon]] and some [[styling:style|style]]
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <brand style="color:#dc3545">

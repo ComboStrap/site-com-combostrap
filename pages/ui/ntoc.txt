@@ -1,3 +1,9 @@
+---json
+{
+   "shortname":"Namespace TOC"
+}
+---
+
 ====== ComboStrap UI - Namespace TOC  ======
 
 
@@ -19,9 +25,9 @@ A ''namespace TOC'' is a [[toc|TOC]] for a ''namespace''. It lists all pages and
 
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
-<ntoc>
+<ntoc color="info">
 <file-item>
-<icon name="file"/>$name
+<icon name="file"/><tpl>$name | replace("ComboStrap UI","")</tpl>
 </file-item>
 </ntoc>
 </code>

@@ -19,7 +19,7 @@ A footer typically contains information about the author of the section, copyrig
 With:
   * two columns in one row of the [[ui:grid|grid]]
   * inside a [[ui:container|container]] to limit the horizontal space
-  * inside a [[ui:footer|footer]] to style the background with a [[ui:color#gradient|gradient color]] and a little bit of [[ui:spacing|spacing]]
+  * inside a [[ui:footer|footer]] to style the background with a [[styling:color#gradient|gradient color]] and a little bit of [[styling:spacing|spacing]]
 
 
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >

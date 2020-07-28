@@ -45,12 +45,12 @@ To install the [[strap:strap|Strap template]]:
 
 {{strap:dokuwiki_strap_template_configuration.png|}}
 
-==== Hide the Extra bar ====
+==== Hide the bars ====
 
   * Exclude the extra bar from the search index with the [[doku>config:hidepages]] [[:configuration|configuration]] 
   * Set the value to
 <file>
-(headerbar|footerbar|sidekickbar|combostrap)
+(headerbar|footerbar|sidekickbar|sidebar|combostrap)
 </file>
 
 {{strap:hidepages_extrabar_configuration.png|}}
