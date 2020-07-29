@@ -1,4 +1,4 @@
-====== Combostrap UI - Box ======
+====== ComboStrap UI - Box ======
 
 
 ===== About =====

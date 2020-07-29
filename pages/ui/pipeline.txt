@@ -6,7 +6,7 @@ A ''pipeline'' is a element that contains a list of function (called a ''pipelin
 
 
 <note>
-''Pipeline'' are used principally in template component when you want to transform a page title
+''Pipeline'' are used in template component (such as [[ntoc|the namespace toc]]) when you want to transform a variable such as a page title. 
 </note>
 
 ===== Articles Related =====
@@ -20,24 +20,57 @@ A ''pipeline'' is a element that contains a list of function (called a ''pipelin
 where:
   * ''value'' is the string to transform
   * ''function'' is one of:
-      * [[#replace]]
-      * [[#concat]]
-      * [[#head]]
+      * [[#replace]] -  replace a string
+      * [[#rconcat]] - add a string at the right side
+      * [[#head]] - cut the string to a maximum number of characters
 
-===== Example =====
+===== Functions =====
 
 ==== Replace ====
 ''replace'' is a function that will search a string and replace it.
 
 **Syntax**:
 <code>
-replace($search, $replace, $string)
+replace($search, $replace)
 </code>
 
 For instance:
 <webcode name="Replace" frameborder=0 >
 <code dw>
-<pipeline> "Prefix - Title" | replace("Prefix - ","",$s) </pipeline>
+<pipeline> "Prefix - Title" | replace("Prefix - ","") </pipeline>
 </code>
+Output:
+</webcode>
+
+==== Rconcat ====
+''rconcat'' is a function that will concatenate a string to the right
+
+**Syntax**:
+<code>
+rconcat($string)
+</code>
+
+For instance:
+<webcode name="rconcat" frameborder=0 >
+<code dw>
+<pipeline> "Title" | rconcat("...") </pipeline>
+</code>
+Output:
+</webcode>
+
+==== Head ====
+''head'' is a function that will take the fist N characters of a string
+
+**Syntax**:
+<code>
+head($length)
+</code>
+
+For instance:
+<webcode name="rconcat" frameborder=0 >
+<code dw>
+<pipeline> "Long Title that we want to cut" | head(10) | rconcat("...") </pipeline>
+</code>
+Output:
 </webcode>
 
