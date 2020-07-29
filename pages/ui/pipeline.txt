@@ -1,0 +1,43 @@
+====== ComboStrap UI - Pipeline ======
+
+
+===== About =====
+A ''pipeline'' is a element that contains a list of function (called a ''pipeline'') that transforms successively a string.
+
+
+<note>
+''Pipeline'' are used principally in template component when you want to transform a page title
+</note>
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Syntax =====
+
+<code dw>
+<pipeline> value | function | function | ... </pipeline>
+</code>
+where:
+  * ''value'' is the string to transform
+  * ''function'' is one of:
+      * [[#replace]]
+      * [[#concat]]
+      * [[#head]]
+
+===== Example =====
+
+==== Replace ====
+''replace'' is a function that will search a string and replace it.
+
+**Syntax**:
+<code>
+replace($search, $replace, $string)
+</code>
+
+For instance:
+<webcode name="Replace" frameborder=0 >
+<code dw>
+<pipeline> "Prefix - Title" | replace("Prefix - ","",$s) </pipeline>
+</code>
+</webcode>
+

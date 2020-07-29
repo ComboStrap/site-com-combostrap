@@ -27,12 +27,14 @@ A ''namespace TOC'' is a [[toc|TOC]] for a ''namespace''. It lists all pages and
 <code dw>
 <ntoc color="info">
 <file-item>
-<icon name="file"/><tpl>$name | replace("ComboStrap UI","")</tpl>
+<icon name="file"/><pipeline>$name | replace("ComboStrap UI","")</pipeline>
 </file-item>
 </ntoc>
 </code>
 </webcode>
 
+where:
+  * [[pipeline]]
 ===== Documentation / Reference =====
   * https://getbootstrap.com/docs/4.0/components/navs/#vertical
   * https://getbootstrap.com/docs/4.1/components/list-group/
