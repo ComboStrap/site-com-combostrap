@@ -42,13 +42,13 @@ Inline component can be used inside a paragraph (ie in the line)
   * [[icon|Icon]]: All material design icons or your own
   * [[button|Button (btn)]]: A button
   * [[cite|Cite]]: Give credits 
-==== Navbar ====
+==== Navigation ====
 
-  * [[navbar|navbar]]: All elements that you put in the top bar of a page
-      * [[search|search]] - A search form
-      * [[group|group]] - To group dropdown
-      * [[dropdown|dropdown]] - A dropdown menu
-      * [[brand|brand]] - To show the brand as an icon or text
+  * [[navbar|Navbar]]: All elements that you put in the top bar of a page
+  * [[search|Search]] - A search form
+  * [[tabs|Tabs]] - Tabs let show their related panel. 
+  * [[ntoc|Namespace toc]] - A list showing all pages of a namespace
+  * [[breadcrumb|Breadcrumb]] - Hierarchic or tail breadcrumb are supported
 
 ==== Layout ====
 

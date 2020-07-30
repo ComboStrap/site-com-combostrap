@@ -14,11 +14,12 @@ This is a page that lists all releases with their respective changes for [[:star
   * Add a [[https://getbootstrap.com/docs/4.4/components/carousel/|Carrousel]]
   * Add a [[https://getbootstrap.com/docs/4.4/content/figures/|caption to image]]
 
-==== Version 1.6 - Snapshot ====
+==== Version 1.6 - 2020-07-30 ====
 
   * The [[ui:list|list]] component was added
   * The [[ui:ntoc|namespace toc]] component was added
   * The [[strap:jquery#jquerydoku|jQuery doku]] configuration permits to use the Dokuwiki jQuery bundle in order to add Jquery UI to the front end.
+  * The [[ui:tabs|tabs]] component was added
 
 ==== Version 1.5 - 25-07-2020 ====
   * Add the ''og:description'' meta in the [[semantic:description|meta description]] to support Facebook.
