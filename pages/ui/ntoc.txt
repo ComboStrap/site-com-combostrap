@@ -8,35 +8,45 @@
 
 
 ===== About =====
-A ''namespace TOC'' is a [[toc|TOC]] for a ''namespace''. It lists all pages and sub-directories of a [[doku>namespaces|namespace (ie directory)]]
+A ''namespace TOC'' is a [[toc|TOC]] for a ''namespace''. It lists all pages of a [[doku>namespaces|namespace (ie directory)]]
 
-
+<badge>Since [[:changes|version 1.6]]</badge>
 ===== Articles Related =====
 {{backlinks>.}}
 
 ===== Syntax =====
 
 <code dw>
-<ntoc>
-<file-item>$title</file-item>
-<ns-item>$title</ns-item>
+<ntoc ns="current">
+<page-item>$id - $title</page-item>
 </ntoc>
 </code>
+where:
+  * ''ns'' is an attribute that defines the ''namespace'' (Default to the ''namespace'' of the current page)
+  * ''page-item'' contains a template that is used to create the line for each page where:
+      * ''$id'' defines the id of the page
+      * and ''$title'' defines the [[title|title]] of the page
 
+<note>
+''ntoc'' is a template component above the [[list|list]] component.
+</note>
 ===== Example =====
 
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <ntoc color="info">
-<file-item>
+<page-item>
 <icon name="file"/>[[$id|<pipeline>"$title" | replace("ComboStrap UI - ","")</pipeline>]]
-</file-item>
+</page-item>
 </ntoc>
 </code>
+where the ''page-item'' template is composed of:
+  * an [[icon|icon]]
+  * a link
+  * and a [[pipeline|pipeline]] to modify the [[title|title]] of the page.
 </webcode>
 
-where:
-  * [[pipeline]]
+
 ===== Documentation / Reference =====
   * https://getbootstrap.com/docs/4.0/components/navs/#vertical
   * https://getbootstrap.com/docs/4.1/components/list-group/

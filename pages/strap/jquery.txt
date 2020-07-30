@@ -10,5 +10,11 @@
 ===== Version =====
 
 By default, the jquery version is:
-  * for an anonymous user, the Jquery version of [[Bootstrap|Bootstrap]].
+  * for an anonymous user, the Jquery version of [[Bootstrap|Bootstrap]] <inote warning>Bootstrap does not use Jquery-ui</inote>
   * for a logged-in user, the [[doku>devel:jqueryfaq|Jquery version of Dokuwiki]].
+
+You can change that with the [[#JqueryDoku|JqueryDoku configuration]]
+===== Configuration =====
+==== jQueryDoku ====
+The ''JqueryDoku'' configuration tells the stap template to use the Dokuwiki Jquery and not the Bootstrap Jquery Version
+

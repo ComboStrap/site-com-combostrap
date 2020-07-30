@@ -17,6 +17,8 @@ This is a page that lists all releases with their respective changes for [[:star
 ==== Version 1.6 - Snapshot ====
 
   * The [[ui:list|list]] component was added
+  * The [[ui:ntoc|namespace toc]] component was added
+  * The [[strap:jquery#jquerydoku|jQuery doku]] configuration permits to use the Dokuwiki jQuery bundle in order to add Jquery UI to the front end.
 
 ==== Version 1.5 - 25-07-2020 ====
   * Add the ''og:description'' meta in the [[semantic:description|meta description]] to support Facebook.
