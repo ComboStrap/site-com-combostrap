@@ -8,18 +8,18 @@ A ''tab'' is an interactive element that, when activated, displays its associate
 
 <webcode name="Tabs" frameborder=0 >
 <code dw>
+<tabs spacing="mb-3">
+<tab panel="home">Home</tab>
+<tab panel="profile">Profile</tab>
+</tabs>
 <tabpanels>
-<tabpanel state="show">
-First
-</tabpanel>
-<tabpanel>
-Second
-</tabpanel>
+<tabpanel id="home">Home</tabpanel>
+<tabpanel id="profile">Profile</tabpanel>
 </tabpanels>
 </code>
 </webcode>
 
 ===== Documentation / Reference =====
-  * https://getbootstrap.com/docs/4.0/components/navs/
-  * https://material.io/components/tabs
-  * https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Tab_Role
+  * [[https://getbootstrap.com/docs/4.0/components/navs/|Bootstrap navs]]
+  * [[https://material.io/components/tabs|Material IO tabs documentation]]
+  * [[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Tab_Role|Aria Tab Role]]
