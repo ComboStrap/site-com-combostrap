@@ -2,19 +2,45 @@
 
 
 ===== About =====
-''jquery'' is available in the [[strap|strap template]] and is required for interactive actions such as the [[ui:search|search bar]] or the [[ui:navbar|collapse of the navbar]]
+''jquery'' is available in the [[strap|strap template]] and is used for interactive actions such as:
+  * the [[ui:search|search bar]] 
+  * or the [[ui:navbar|collapse of the navbar]]
 
 ===== Articles Related =====
 {{backlinks>.}}
 
+
+
+
 ===== Version =====
 
+==== Bootstrap vs Dokuwiki ====
+
 By default, the jquery version is:
-  * for an anonymous user, the Jquery version of [[Bootstrap|Bootstrap]] <inote warning>Bootstrap does not use Jquery-ui</inote>
+  * for an anonymous user, the Jquery version of [[Bootstrap#bootstrapversion|Bootstrap]] <inote warning>Bootstrap does not use Jquery-ui</inote>
   * for a logged-in user, the [[doku>devel:jqueryfaq|Jquery version of Dokuwiki]].
 
-You can change that with the [[#JqueryDoku|JqueryDoku configuration]]
+You can change this behavior with the [[#JqueryDoku|JqueryDoku configuration]] in order to use only the Jquery bundle of DokuWiki. 
+
+==== See ====
+
+
+To get the JQuery Version, you need to open the [[kb>browser:console|Browser console]] and type
+<code javascript>
+jQuery().jquery
+// and
+jQuery.ui.version
+</code>
+
+Example:
+{{:strap:jquery_version_browser_console.png|}}
+
 ===== Configuration =====
 ==== jQueryDoku ====
-The ''JqueryDoku'' configuration tells the stap template to use the Dokuwiki Jquery and not the Bootstrap Jquery Version
+The ''JqueryDoku'' configuration tells the stap template to use the Dokuwiki Jquery and not the Bootstrap Jquery Version for anonymous users.
+
+<note important>
+It may add inconsistency with Bootstrap. If you need a front-end component that use ''Jquery UI'', [[:support|contact us]] to see if there is not already a ''bootstrap'' component.
+</note>
+<badge>Since [[:changes|version 1.6]]</badge>
 

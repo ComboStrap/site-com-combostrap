@@ -1,0 +1,25 @@
+====== ComboStrap UI - tabs ======
+
+===== About =====
+Tabs organize content across different screens, data sets, and other interactions.
+
+A ''tab'' is an interactive element that, when activated, displays its associated ''tabpanel''.
+===== Example =====
+
+<webcode name="Tabs" frameborder=0 >
+<code dw>
+<tabpanels>
+<tabpanel state="show">
+First
+</tabpanel>
+<tabpanel>
+Second
+</tabpanel>
+</tabpanels>
+</code>
+</webcode>
+
+===== Documentation / Reference =====
+  * https://getbootstrap.com/docs/4.0/components/navs/
+  * https://material.io/components/tabs
+  * https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Tab_Role
