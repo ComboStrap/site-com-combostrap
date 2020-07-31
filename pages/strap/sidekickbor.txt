@@ -19,6 +19,10 @@ This is just an extension of the standard [[bar|bar feature]] of [[doku>|Dokuwik
   * Create a page called ''sidekickbar'' 
   * And you will see its content appears at the right side of the page.
 
+===== Caching =====
+
+The cache of the sidebar is automatically deleted when a page in the same namespace is created, added or deleted.
+See [[:cache]]
 
 ===== Configuration =====
 ==== sidekickbar ====

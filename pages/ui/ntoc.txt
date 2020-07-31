@@ -1,5 +1,6 @@
 ---json
 {
+   "canonical":"ntoc",
    "shortname":"Namespace TOC"
 }
 ---
@@ -7,8 +8,11 @@
 ====== ComboStrap UI - Namespace TOC  ======
 
 
+
 ===== About =====
-A ''namespace TOC'' is a [[toc|TOC]] for a ''namespace''. It lists all pages of a [[doku>namespaces|namespace (ie directory)]]
+A ''namespace TOC'' is a [[navigation|navigational component]] that creates a [[toc|table of content (TOC)]] for a ''namespace''. It lays out all pages of a [[doku>namespaces|namespace (ie directory)]] in a [[list|list fashion]]
+
+This component is mostly used in a [[strap:sidebor|sidebar]] or [[strap:sidekickbor|sidekickbar]]
 
 <badge>Since [[:changes|version 1.6]]</badge>
 ===== Articles Related =====
@@ -29,7 +33,10 @@ where:
   * ''ns-item'' defines a [[template|template]] for each sub-namespace of the namespace <badge>Since [[:changes|version 1.7]]</badge>
   * ''page-item'' defines a [[template|template]] for each page in the namespace
 
-<note>
+<note >
+''ntoc'', ''index'', ''page-item'' and ''ns-item'' are all [[styling:html|superset HTML component]].
+</note>
+<note tip>
 ''ntoc'' is a template component created above the [[list|list]] component.
 </note>
 ===== Example =====

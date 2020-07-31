@@ -3,6 +3,10 @@
 ===== About =====
 ''sidebar'' is a [[bar|bar]] that is located by default at the left side of the web site.
 
+<note>
+The cache of the sidebar is automatically deleted when a page in the same namespace is created, added or deleted.
+See [[:cache]]
+</note>
 ===== Articles Related =====
 {{backlinks>.}}
 

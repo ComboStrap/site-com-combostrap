@@ -1,0 +1,16 @@
+<container width="600px">
+====== ComboStrap - Automatic Cache Bursting ======
+
+
+===== About =====
+The ''sidebars'' cache ([[strap:sidebor|sidebar]] or [[strap:sidekickbor|sidekickbar]]) is automatically deleted when a page is modified, added or deleted from a namespace.
+
+===== Why ? =====
+
+As the ''sidebars'' reflects a namespace by having navigational element such as a [[ui:ntoc|ntoc]], there content becomes generally stale when a page is modified, added or deleted. 
+
+''ComboStrap'' takes care of it and deletes automatically the ''sidebars'' cache when it happens.
+
+
+
+</container>

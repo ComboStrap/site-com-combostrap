@@ -16,7 +16,7 @@ Example of template used in a [[ntoc|namespace toc]] to create a link where the 
 ===== Variables =====
 The following variables can be used in a ''template'':
   * ''$id'' - the id of the page
-  * ''$title'' - the [[title|title]] of the page
+  * ''$title'' - the [[semantic:title|title]] of the page
 
 ===== Transformation =====
 A ''template'' supports text transformation through the use of a [[pipeline|pipeline]].

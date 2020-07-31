@@ -1,3 +1,13 @@
 ~~NOCACHE~~
 
-<minimap suppress="ComboStrap URL Management - ">
+
+
+<ntoc color="info">
+<index>
+[[$id|Url Manager]]
+</index>
+<page-item>
+[[$id|<pipeline>"$title" | replace("ComboStrap URL Management - ","")</pipeline>]]
+</page-item>
+</ntoc>
+

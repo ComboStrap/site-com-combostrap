@@ -1,3 +1,11 @@
 ~~NOCACHE~~
 
-<minimap suppress="ComboStrap Page Metadata - ">
+<ntoc color="info">
+<index>
+[[$id|<pipeline>"$title" | replace("ComboStrap -","")</pipeline>]]
+</index>
+<page-item>
+[[$id|<pipeline>"$title" | replace("ComboStrap Page Metadata - ","")</pipeline>]]
+</page-item>
+</ntoc>
+

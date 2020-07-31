@@ -14,7 +14,7 @@ ComboStrap
 [[seo|SEO]]
 [[:ads:ads|Ads]]
 </dropdown>
-[[support|Support / Help]]
+[[support|Help / Questions ?]]
 </group>
 <btn class="mr-2" elevation="true">[[getting_started:getting_started|Get Started]]</btn>
 <search class="mr-0 pr-0">

@@ -1,4 +1,4 @@
-====== ComboStrap UI - inote (inline note) ======
+====== ComboStrap UI - Inote (inline note) ======
 
 
 ===== About =====
@@ -13,7 +13,7 @@ The ''inote'' is a [[note|note]] that can be added in a paragraph (inline)
 <inote type>
 </code>
 
-A ''inote'' is a [[html|superset HTML component]].
+A ''inote'' is a [[styling:html|superset HTML component]].
 ===== Example =====
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>

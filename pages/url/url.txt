@@ -3,7 +3,7 @@
    "canonical":"url:manager"
 }
 ---
-====== Dokuwiki - ComboStrap Plugin - ComboStrap URL Management  (formerly 404manager) ======
+====== ComboStrap - URL Management  (formerly 404manager) ======
 
 
 
