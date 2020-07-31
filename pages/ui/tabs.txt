@@ -18,25 +18,36 @@ This is how a ''tab'' know which ''panel'', it should show or hide.
 </note>
 
 The syntax has two parts:
-  * First the definition of ''tabs''
+  * First the definition of the [[#tabs]]
+  * Then the definition of the [[#tabpanels]]
+==== Tabs ====
+
 <code dw>
 <tabs skin="tabs">
 <tab panel="panelId" selected="true">Text</tab>
 <tab .....</tab>
 </tabs>
 </code>
-  * Then the definition of the ''tabpanel'':
+where:
+  * ''skin'' can take the value [[#tabs]] (default) or [[#pills]]
+  * ''pannel'' is the ''id'' of the [[#tabpannels|tabpannel]]
+  * ''selected'' defines the default selected panel.
+==== Tabpanels ====
+
+
 <code dw>
 <tabpanels>
 <tabpanel id="panelId">Text</tabpanel>
 <tabpanel .........</tabpanel>
 </tabpanels>
 </code>
-
-Attributes:
-  * the ''skin'' attributes takes the value [[#tabs]] (default) or [[#pills]]
-  * the ''panel'' value of a ''tab'' got the id value of its ''tabpanel''.
-  * the ''tabpanel'' value is a string that identify uniquely the ''tabpanel'' on the page.
+where:
+  * the ''id value'' of the ''panel'' should follow the following rules (ie HTML4 compliant)
+      * it must be unique on the page
+      * it must contain at least one character.
+      * it must **not** contain any space characters.
+      * it must begin with a letter ''[A-Za-z]''
+      * it may be followed by any number of letters, digits ''[0-9]'', hyphens ''-'', underscores ''_'', colons '':'', and periods ''.''
 
 ===== Example =====
 
