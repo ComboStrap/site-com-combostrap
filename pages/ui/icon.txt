@@ -57,7 +57,7 @@ If you authorize the direct use of HTML, you can also show inline SVG. See [[ico
 ===== Properties =====
 
 ==== Color ====
-In the color attribute, you can set a [[color#value|color value]].
+In the color attribute, you can set a [[styling:color#value|color value]].
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <icon name="logo.svg" color="pink" />
@@ -72,7 +72,7 @@ The ''width'' and ''height'' attributes take the default value of ''24px'' but y
 </code>
 </webcode>
 ==== Native Attribute ====
-As all [[ui:html|ComboStrap UI components]] do, the ''icon'' component supports also all attributes of its underlying ''svg HTML element''. See [[https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg|svg attributes]]
+As all [[styling:html|ComboStrap UI components]] do, the ''icon'' component supports also all attributes of its underlying ''svg HTML element''. See [[https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg|svg attributes]]
 
 
 

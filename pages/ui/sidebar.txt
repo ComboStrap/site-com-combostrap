@@ -1,3 +1,11 @@
 ~~NOCACHE~~
 
-<minimap suppress="(ComboStrap UI) - ">
+<ntoc color="info">
+<index>
+[[$id|$title]]
+</index>
+<page-item>
+[[$id|<pipeline>"$title" | replace("ComboStrap UI - ","")</pipeline>]]
+</page-item>
+</ntoc>
+

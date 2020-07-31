@@ -1,0 +1,24 @@
+====== ComboStrap UI - Template ======
+
+
+===== About =====
+''template'' are text that may contains [[#variables|variables]] that will be replaced at runtime.
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Example =====
+Example of template used in a [[ntoc|namespace toc]] to create a link where the words ''ComboStrap UI - '' from the ''title''
+<code dw>
+[[$id|<pipeline>"$title" | replace("ComboStrap UI - ","")</pipeline>]]
+</code>
+
+===== Variables =====
+The following variables can be used in a ''template'':
+  * ''$id'' - the id of the page
+  * ''$title'' - the [[title|title]] of the page
+
+===== Transformation =====
+A ''template'' supports text transformation through the use of a [[pipeline|pipeline]].
+
+

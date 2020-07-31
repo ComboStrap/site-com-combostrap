@@ -4,7 +4,7 @@
 }
 ---
 
-====== ComboStrap UI - Disqus Forum / Discussion ======
+====== ComboStrap UI - Disqus ======
 
 
 ===== About =====

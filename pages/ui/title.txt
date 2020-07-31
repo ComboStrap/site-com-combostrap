@@ -10,7 +10,8 @@ A ''title'' is a ''semantic'' [[heading|heading]] that defines the title of a co
 {{backlinks>.}}
 
 ===== Syntax =====
-The [[sectioning|Dokuwiki Heading syntax]] is supported but if you want more control over the rendering, you can use the ''title'' syntax.
+
+==== Title ====
 
 <code dw>
 <title type="1" level="1">
@@ -26,22 +27,22 @@ where:
 ''title'' is a [[styling:html|Super set HTML component]] and you can then control fully its [[styling:styling|styling]].
 </note>
 
-===== Component with a title heading ====
+==== Dokuwiki Heading ====
 
-''ComboStrap'' supports a title in the following component:
-   * [[card]]
-   * [[blockquote]]
-   * [[note]]
-   * [[jumbotron]]
+The [[sectioning|Dokuwiki Heading syntax]] is used to create the [[sectioning|structure of the document]] which means that if added in a component, they will changes the [[toc|Table of Content]]
 
-<note info>This headings are local and does not modify the [[sectioning|structure of the document]]</note>
+''ComboStrap'' support them as title (and not as sectioning component) in the following component:
+   * [[card|card]]
+   * [[blockquote|blockquote]]
+   * [[note|note]]
+   * [[jumbotron|jumbotron]]
+   * [[tabs#tabpanels|tabpanel]] <badge>Since [[:changes|version 1.7]]</badge>
+
+
+
 
 ===== Example =====
-<note important>
-Even if we not use them inside a component for the simplicity of the below examples, the ''title'' component should be used inside another [[#component_with_a_title_heading|component that accepts a title]].
 
-Otherwise it may be seen by an assistive technologies such as a screen reader as a [[sectioning|sectioning heading]] and will make the page difficult to read for people with visual disability.
-</note>
 ==== Type ====
 <webcode name="Type" >
 <code dw>
@@ -55,7 +56,7 @@ Otherwise it may be seen by an assistive technologies such as a screen reader as
 
 <note tip>
 === For the Geek ===
-The type applied the [[https://getbootstrap.com/docs/4.4/content/typography/#display-headings|Bootstrap display class]].
+The type applies the [[https://getbootstrap.com/docs/4.4/content/typography/#display-headings|Bootstrap display class]].
 </note>
 
 
