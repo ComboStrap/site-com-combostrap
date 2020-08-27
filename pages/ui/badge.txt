@@ -23,12 +23,12 @@
 
   * Full Qualified Syntax
 <code dw>
-<bage type="type" rounded="true|false"
+<badge type="type" rounded="true|false">Text</badge>
 </code>
 
   * Short Syntax
 <code dw>
-<bage type rounded="true|false"
+<badge type rounded="true|false">Text</badge>
 </code>
 
 where:
@@ -39,10 +39,10 @@ where:
 A badge may have the following type:
   * <badge primary>primary</badge>
   * <badge primary>secondary</badge>
-  * <badge success>success</badge> (Default)
+  * <badge success>success</badge> 
   * <badge danger>danger</badge>
   * <badge warning>warning</badge>
-  * <badge info>info</badge> (Default)
+  * <badge>info</badge> (Default)
   * <badge tip>tip</badge>
   * <badge light>light</badge>
   * <badge dark>dark</badge>

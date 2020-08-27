@@ -15,6 +15,9 @@ A ''namespace TOC'' is a [[navigation|navigational component]] that creates a [[
 This component is mostly used in a [[strap:sidebor|sidebar]] or [[strap:sidekickbor|sidekickbar]]
 
 <badge>Since [[:changes|version 1.6]]</badge>
+
+The ''ntoc'' was earlier known as the ''minimap'' component.
+
 ===== Articles Related =====
 {{backlinks>.}}
 

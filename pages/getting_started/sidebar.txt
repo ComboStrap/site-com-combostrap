@@ -1,4 +1,9 @@
-~~NOCACHE~~
-
-<minimap suppress="ComboStrap Getting Started - ">
+<ntoc color="info">
+<index>
+[[$id|Getting Started]]
+</index>
+<page-item>
+[[$id|<pipeline>"$title" | replace("ComboStrap Getting Started - ","")</pipeline>]]
+</page-item>
+</ntoc>
 
