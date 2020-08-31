@@ -13,9 +13,11 @@ This is a page that lists all releases with their respective changes for [[:star
   * Add [[https://www.bryanbraun.com/anchorjs/|Deep Linking anchor]]
   * Add a [[https://getbootstrap.com/docs/4.4/components/carousel/|Carrousel]]
   * Add a [[https://getbootstrap.com/docs/4.4/content/figures/|caption to image]]
+  * Chat
 
 ==== Version 1.8 - Snapshot ====
   * Bug: [[strap:sidekickbor|sidekickbar]] configuration was missspeld to ''sideckickbar'' in place of ''sidekickbar''
+  * Bug: Check if the php sqlite extension is installed. When it was not installed, the SQLite Plugin returns a null value.
 ==== Version 1.7 - 31-07-2020 ====
   * A [[ui:title|dokuwiki heading title]] can now be used in a [[ui:tabs#tabpanels|tabpanel]]
   * The [[ui:ntoc|namespace toc]] accepts now the definition of an ''index'' and ''ns-item'' to define a line for the index page and the sub-namespace
