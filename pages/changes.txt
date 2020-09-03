@@ -15,11 +15,12 @@ This is a page that lists all releases with their respective changes for [[:star
   * Add a [[https://getbootstrap.com/docs/4.4/content/figures/|caption to image]]
   * Chat
 
-==== Version 1.8 - Snapshot ====
+==== Version 1.8 - 2020-09-03 ====
+The version 1.8 was a bug fix release.
   * Bug: [[strap:sidekickbor|sidekickbar]] configuration was missspeld to ''sideckickbar'' in place of ''sidekickbar''
   * Bug: Check if the php sqlite extension is installed. When it was not installed, the SQLite Plugin returns a null value.
   * Bug: [[ui:ntoc|Navigational Toc]] was not rendering correctly sub-namespace due to a bad predicate, index page was not filtered due to a semi-colon, the directory were rendering as a page if there was no template and as it was cached, the result was not accurate if the namespace was showing a parent sidebar
-==== Version 1.7 - 31-07-2020 ====
+==== Version 1.7 - 2020-07-31 ====
   * A [[ui:title|dokuwiki heading title]] can now be used in a [[ui:tabs#tabpanels|tabpanel]]
   * The [[ui:ntoc|namespace toc]] accepts now the definition of an ''index'' and ''ns-item'' to define a line for the index page and the sub-namespace
   * Every link in a component does not get the dokuwiki class (''wikilink1'') to get a consistent styling with [[strap:bootstrap|bootstrap]].
@@ -32,7 +33,7 @@ This is a page that lists all releases with their respective changes for [[:star
   * The [[strap:jquery#jquerydoku|jQuery doku]] configuration permits to use the Dokuwiki jQuery bundle in order to add Jquery UI to the front end.
   * The [[ui:tabs|tabs]] component was added
 
-==== Version 1.5 - 25-07-2020 ====
+==== Version 1.5 - 2020-07-25 ====
   * Add the ''og:description'' meta in the [[semantic:description|meta description]] to support Facebook.
   * Bug: The section highlighting feature was:
       * not working
@@ -42,7 +43,7 @@ This is a page that lists all releases with their respective changes for [[:star
   * A ''border-color'' will add (if not present) default styling attributes to see a border. See [[styling:color#border_color|Border-color]]
   * The [[ads:ads|Ads Module]] was added
 
-==== Version 1.4 - 22-07-2020 ====
+==== Version 1.4 - 2020-07-20 ====
   * Corrected the bug: No message visible when the [[semantic:frontmatter|frontmatter json object]] is not valid
   * The [[styling:align|align attribute]] was better documented and supports now also the text alignement.
   * [[ui:blockquote|Blockquote]] and [[ui:card|card]] are fully implemented and supports also now a [[ui:header|header]]
