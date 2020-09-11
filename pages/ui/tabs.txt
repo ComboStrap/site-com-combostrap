@@ -30,7 +30,7 @@ The syntax has two parts:
 </code>
 where:
   * ''skin'' can take the value [[#tabs]] (default) or [[#pills]]
-  * ''pannel'' is the ''id'' of the [[#tabpannels|tabpannel]]
+  * ''pannel'' is the ''id'' of the [[#tabpannels|tabpannel]]. It should be unique on the whole page ([[heading|heading included]])
   * ''selected'' defines the default selected panel.
 ==== Tabpanels ====
 
@@ -58,12 +58,25 @@ where:
 <code dw>
 <tabs spacing="mb-3">
 <tab panel="home" selected="true">Home</tab>
-<tab panel="profile">Profile</tab>
+<tab panel="syntaxes">Other syntaxes</tab>
 </tabs>
 <tabpanels>
-<tabpanel id="home">Raw denim you probably haven't heard of them jean shorts Austin.</tabpanel>
-<tabpanel id="profile">Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. </tabpanel>
+<tabpanel id="home">
+Raw denim you probably haven't heard of them jean shorts Austin.
+
+Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.
+</tabpanel>
+<tabpanel id="syntaxes">
+
+Other syntax are also accepted. Example with a table: \\ \\
+^ UI Components ^ Description ^
+| [[badge|badge]] | A small status descriptors |
+| [[note|note]] | A paragraph that is parenthetic or ancillary to the main text. |
+| [[ui|See the full list ...]] ||
+
+</tabpanel>
 </tabpanels>
+
 </code>
 </webcode>
 

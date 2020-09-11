@@ -15,6 +15,13 @@ This is a page that lists all releases with their respective changes for [[:star
   * Add a [[https://getbootstrap.com/docs/4.4/content/figures/|caption to image]]
   * Chat
 
+
+==== Version 1.9 - Snapshot ====
+You can install the snapshot manually by using this URL: [[https://combostrap.com/combo-snapshot.zip]]
+
+  * Bug: A Dokuwiki table inside a [[ui:tabs#tabpanel|tabpanel]] was giving wrongfully a warning. 
+  * Bug: The ''data-name'' attribute is used by illustrator to set layer information and was causing a problem in the [[ui:icon|icon]] component.
+
 ==== Version 1.8 - 2020-09-03 ====
 The version 1.8 was a bug fix release.
   * Bug: [[strap:sidekickbor|sidekickbar]] configuration was missspeld to ''sideckickbar'' in place of ''sidekickbar''
