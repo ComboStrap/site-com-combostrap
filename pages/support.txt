@@ -4,7 +4,7 @@
 
 <card width="fit-content" align="center">
 === Easy as an Email ===
-<icon name="email"/> Don't bother, send us an email.
+<icon name="email"/> Feel free to contact us!
 
 <button spacing="mt-3" elevation="true">[[support@combostrap.com]]</button>
 </card>
