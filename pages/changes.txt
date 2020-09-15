@@ -19,7 +19,7 @@ This is a page that lists all releases with their respective changes for [[:star
 ==== Version 1.9 - Snapshot ====
 You can install the snapshot manually by using this URL: [[https://combostrap.com/combo-snapshot.zip]]
 
-  * Bug: A Dokuwiki table inside a [[ui:tabs#tabpanel|tabpanel]] was giving wrongfully a warning. 
+  * Bug: A Dokuwiki table inside a [[ui:tabs#tabpanel|tabpanel]] was giving wrongfully a warning.
   * Bug: The ''data-name'' attribute is used by illustrator to set layer information and was causing a problem in the [[ui:icon|icon]] component.
 
 ==== Version 1.8 - 2020-09-03 ====
@@ -44,7 +44,7 @@ The version 1.8 was a bug fix release.
   * Add the ''og:description'' meta in the [[semantic:description|meta description]] to support Facebook.
   * Bug: The section highlighting feature was:
       * not working
-      * modifying the document making the edit button jump. 
+      * modifying the document making the edit button jump.
   * Bug: A [[semantic:canonical|canonical value]] cannot be uppercase
   * Bug: A [[ui:cite|cite element]] outside a component was giving an error because it had no parents
   * A ''border-color'' will add (if not present) default styling attributes to see a border. See [[styling:color#border_color|Border-color]]
