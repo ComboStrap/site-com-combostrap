@@ -14,7 +14,7 @@
 [[strap|Strap]] permits to easily change:
   * the [[#bootstrapVersion|bootstrap supported version]]
   * the [[#bootstrapStylesheet|bootstrap supported stylesheet]]
-and even to [[bootstrap_custom|create and add your own]]
+and even to [[styling:bootstrap_custom|create and add your own]]
 ===== Articles Related =====
 {{backlinks>.}}
 
@@ -34,17 +34,17 @@ See the [[#boostrapStyleSheet]] configuration.
 <note>
 === For the geek ===
 
-If you want, you can also create and add your own Bootstrap stylesheet. This is an advanced configuration and requires some programming skills but this is not out of reach. See [[strap:bootstrap_custom]]
+If you want, you can also create and add your own Bootstrap stylesheet. This is an advanced configuration and requires some programming skills but this is not out of reach. See [[styling:bootstrap_custom]]
 </note>
 ===== Configuration =====
-==== bootstrapVersion ====
+==== version ====
 You may change the used version with the ''bootstrapVersion'' [[:configuration|configuration]]
 
 Actually, there is two versions:
   * the ''4.5.0''
   * the ''4.4.1''
 
-==== bootstrapStylesheet ====
+==== stylesheet ====
 The ''bootstrapStylesheet'' permits to dynamically choose the stylesheet.
 
 [[strap|strap]] is delivered with two stylesheets:
@@ -52,7 +52,7 @@ The ''bootstrapStylesheet'' permits to dynamically choose the stylesheet.
   * ''bootstrap.16col'' - a Bootstrap stylesheet customized to support [[dynamic_grid|a grid of 16 columns]] - [[dynamic_grid]]
 
 <note tip>
-You can also add your own. See [[bootstrap_custom]]
+You can also add your own. See [[styling:bootstrap_custom]]
 </note>
 
 

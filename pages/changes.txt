@@ -81,7 +81,7 @@ The version 1.2 is a big template improvement release:
   * The [[strap:strap|strap template]] applies now a ''dokuwiki'' class on the whole page in order to be able to have [[doku>Dokuwiki]] styling such as [[doku>interwiki|interwiki icon]] in the footer.
   * The [[css|template CSS]] can now be [[css#preload|preloaded]]
   * The [[strap:dynamic_grid|dynamic grid]] was added with a 16 grid system
-  * A [[strap:bootstrap_custom|custom bootstrap theme]] can now be added
+  * A [[styling:bootstrap|custom bootstrap theme]] can now be added
   * The [[strap:sidekickbor|sidekickbar]] was added
   * The [[strap:toolbar|toolbar]] can now be private
   * The [[ui:inote|inote component]] (inline note) was created.

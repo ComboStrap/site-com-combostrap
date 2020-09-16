@@ -5,15 +5,28 @@
 ''Styling'' in ''ComboStrap'' is the possibility to render every [[ui:ui|component]] as you wish.
 
 ''ComboStrap'' has two levels of styling:
-  * [[#Standard|Standard]] - a set of the most important attributes to quickly style any components.
-  * and [[#advanced|Advanced]] which let's you use the full power of HTML and CSS.
+  * the [[#stylesheet|stylesheet level]] 
+  * the [[#attribute level]]
+      * [[#standard|standard]] - a set of the most important attributes to quickly style any components.
+      * and [[#advanced|advanced]] which let's you use the full power of HTML and CSS.
 
 ===== Articles Related =====
 {{backlinks>.}}
 
-===== Attributes =====
 
-==== Standard  ====
+===== Levels =====
+
+==== Stylesheet ====
+
+''ComboStrap'' is based on ''Bootstrap'' and allows you to use your customized stylesheet.
+
+
+[[styling:bootstrap]]
+
+
+==== Attributes ====
+
+=== Standard  ===
 The ''standard'' attributes are:
   * [[styling:dimension|Dimension (Width and height)]] - Take control of the space
   * [[styling:align|Align]] - Align your component and their text as you wish
@@ -28,7 +41,7 @@ The ''standard'' attributes are:
 </note>
 
 
-==== Advanced ====
+=== Advanced ===
 Every component is a [[styling:html|html superset]] and you can therefore use the HTML attributes:
   * [[class|class]]
   * and [[style|style]]

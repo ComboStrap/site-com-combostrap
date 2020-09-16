@@ -4,14 +4,18 @@
 }
 ---
 
-====== Strap Template - How to create and add your own Bootstrap stylesheet  ======
+====== ComboStrap Styling - How to create and add your own Bootstrap stylesheet  ======
 
 
 ===== About =====
-This article shows you how to create your own Bootstrap Stylesheet (theme) to fit your need.
+This article shows you how to create and install your own custom Bootstrap Stylesheet (theme) to fit your [[styling|styling]] needs.
 
 <note info>
-This was the steps taken to create the [[dynamic_grid|16 grid Stylesheet]].
+This was the steps taken to create the [[strap:dynamic_grid|16 grid Stylesheet]].
+</note>
+
+<note tip>
+If you want to modify the styling once, you can also do it via [[styling#attributes|attributes]]
 </note>
 
 ===== Articles Related =====
@@ -19,6 +23,7 @@ This was the steps taken to create the [[dynamic_grid|16 grid Stylesheet]].
 
 
 ===== Prerequisites =====
+  * [[strap:strap|Strap template]]
   * Install [[https://nodejs.org/en/download/|Node]]
   * Insatll [[https://git-scm.com/downloads|Git]]
 
@@ -29,7 +34,7 @@ This was the steps taken to create the [[dynamic_grid|16 grid Stylesheet]].
 <code bash>
 git clone https://github.com/twbs/bootstrap.git
 </code>
-  * Get a Bootstrap version. Example for Bootstrap version 4.5.0
+  * Get the last [[strap:bootstrap#version|Combostrap Bootstrap version]]. Example for Bootstrap version 4.5.0
 <code bash>
 cd bootstrap
 git checkout -b version4.5.0 v4.5.0
@@ -55,7 +60,7 @@ The naming convention is  ''$name-state-property-modifier'' where:
 Every Sass variable in Bootstrap 4 includes the ''!default'' flag allowing you to override the variable’s default value in your own Sass.
 </note>
 
-Example with a [[dynamic_grid|grid of 16 columns with a max width of 1280px]]
+Example with a [[strap:dynamic_grid|grid of 16 columns with a max width of 1280px]]
 <code scss scss/_variables.scss>
 $grid-columns:                16 !default;
 
@@ -160,7 +165,7 @@ Example:
 </code>
 
 === change the bootstrapStylesheet configuration ===
-The last step is to change the [[bootstrap#bootstrapStylesheet]] configuration.
+The last step is to change the [[strap:bootstrap#bootstrapStylesheet]] configuration.
 
 
 ===== Documentation =====

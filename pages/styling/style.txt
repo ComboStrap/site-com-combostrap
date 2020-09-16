@@ -2,7 +2,7 @@
 
 
 ===== About =====
-Because every [[ui:ui|ComboStrap UI component]] are a [[ui:html|superset of HTML]], the ''CSS'' ''style'' attribute is also supported. You can therefore style all the components as you wish if you master a little bit CSS.
+Because every [[ui:ui|ComboStrap UI component]] are a [[styling:html|superset of HTML]], the ''CSS'' ''style'' attribute is also supported. You can therefore style all the components as you wish if you master a little bit CSS.
 
 
 <note tip>

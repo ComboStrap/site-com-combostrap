@@ -1,4 +1,4 @@
-====== Combostrap Styling - Align Attribute ======
+====== ComboStrap Styling - Align Attribute ======
 
 
 ===== About =====
