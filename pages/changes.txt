@@ -13,6 +13,7 @@ This is a page that lists all releases with their respective changes for [[:star
   * Add [[https://www.bryanbraun.com/anchorjs/|Deep Linking anchor]]
   * Add a [[https://getbootstrap.com/docs/4.4/components/carousel/|Carrousel]]
   * Add a [[https://getbootstrap.com/docs/4.4/content/figures/|caption to image]]
+  * Add [[https://www.bootstrapcdn.com/bootswatch/|bootswatch theme]]
   * Chat
 
 
