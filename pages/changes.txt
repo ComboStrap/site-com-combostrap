@@ -22,6 +22,7 @@ You can install the snapshot manually by using this URL: [[https://combostrap.co
 
   * Bug: A Dokuwiki table inside a [[ui:tabs#tabpanel|tabpanel]] was giving wrongfully a warning.
   * Bug: The ''data-name'' attribute is used by illustrator to set layer information and was causing a problem in the [[ui:icon|icon]] component.
+  * Bug: The failed state HTML element of the file uploader (ie the form in the media manager) was visible by default. A css rule was added to default it to none.
 
 ==== Version 1.8 - 2020-09-03 ====
 The version 1.8 was a bug fix release.
