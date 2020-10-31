@@ -18,12 +18,15 @@ This is a page that lists all releases with their respective changes for [[:star
   * Chat
 
 
-==== Version 1.9 - Snapshot ====
+
+==== Version 1.10 - Snaphot ====
+
 You can install the snapshot :
   * for [[combo|Combo]]: manually using this [[https://combostrap.com/combo-snapshot.zip|URL]]
   * for [[strap:strap|Strap]]: via the extension manager
 
-List:
+==== Version 1.9 - 2020-10-31 ====
+The version 1.9 was a bug fix release.
   * Bug: A Dokuwiki table inside a [[ui:tabs#tabpanel|tabpanel]] was giving wrongfully a warning.
   * Bug: The ''data-name'' attribute is used by illustrator to set layer information and was causing a problem in the [[ui:icon|icon]] component.
   * Bug: The failed state HTML element of the file uploader (ie the form in the media manager) was visible by default. A css rule was added to default it to none. [[https://github.com/ComboStrap/dokuwiki-template-strap/commit/128140f1aeaba52dfa5afe80059c2dd623a9b0c1|commit]]
