@@ -27,6 +27,7 @@ List:
   * Bug: A Dokuwiki table inside a [[ui:tabs#tabpanel|tabpanel]] was giving wrongfully a warning.
   * Bug: The ''data-name'' attribute is used by illustrator to set layer information and was causing a problem in the [[ui:icon|icon]] component.
   * Bug: The failed state HTML element of the file uploader (ie the form in the media manager) was visible by default. A css rule was added to default it to none. [[https://github.com/ComboStrap/dokuwiki-template-strap/commit/128140f1aeaba52dfa5afe80059c2dd623a9b0c1|commit]]
+  * Bug: [[ui:ntoc|Ntoc]] - PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in inc/Cache/CacheInstructions.php on line 44 - The dokuwiki template function ''tpl_pagetitle'' leaks memory. We read now directly from the meta.
 
 ==== Version 1.8 - 2020-09-03 ====
 The version 1.8 was a bug fix release.
