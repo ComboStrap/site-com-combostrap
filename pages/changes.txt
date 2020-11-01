@@ -33,7 +33,7 @@ The version 1.9 was a bug fix release.
   * Bug: [[ui:ntoc|Ntoc]], [[ui:related|Related]], [[ui:cite|cite]] - PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in inc/Cache/CacheInstructions.php on line 44 - 
       * The Dokuwiki function ''p_get_metadata'' can render and create a recursive call, we get the title now without rendering.
       * The ''handler call tree'' was returned as return argument of the ''handle'' function, we don't pass it anymore
-
+  * Improvement: Expected ''Php warning'' does not appear anymore in the log (for instance when trying the decode a string as XML to see if it's an XML) 
 ==== Version 1.8 - 2020-09-03 ====
 The version 1.8 was a bug fix release.
   * Bug: [[strap:sidekickbor|sidekickbar]] configuration was missspeld to ''sideckickbar'' in place of ''sidekickbar''
