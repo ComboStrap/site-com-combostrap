@@ -8,7 +8,7 @@
 
 
 ===== About =====
-This article shows you how to create and install your own custom Bootstrap Stylesheet (theme) to fit your [[styling|styling]] needs.
+This article shows you how to create and install your own custom [[stylesheet|Bootstrap Stylesheet (theme)]] to fit your [[styling|styling]] needs.
 
 <note info>
 This was the steps taken to create the [[strap:dynamic_grid|16 grid Stylesheet]].

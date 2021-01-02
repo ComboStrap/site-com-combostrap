@@ -25,6 +25,10 @@ You can install the snapshot :
   * for [[combo|Combo]]: manually using this [[https://combostrap.com/combo-snapshot.zip|URL]]
   * for [[strap:strap|Strap]]: via the extension manager
 
+
+List:
+  * Added [[https://bootswatch.com/|Bootswatch theme]] in the [[styling:stylesheet|stylesheet]]
+
 ==== Version 1.9 - 2020-10-31 ====
 The version 1.9 was a bug fix release.
   * Bug: A Dokuwiki table inside a [[ui:tabs#tabpanel|tabpanel]] was giving wrongfully a warning.

@@ -39,6 +39,17 @@ to your components in order to set the emphasis. \\
 </card>
 
 <card>
+==== Theme Extra-Loaded ====
+ComboStrap comes with loaded a lot of pre-packaged theme provided by
+differents ''bootstrap'' stylesheet.
+
+We explain also how you can create and install you own stylesheet.
+<btn secondary class="mt-3">
+[[styling:stylesheet|Discover the Stylesheets]]
+</btn>
+</card>
+
+<card>
 ==== Styling made easy ====
 Basic styling should not be an hassle that's why
 all ''ComboStrap'' component supports "built-in" 

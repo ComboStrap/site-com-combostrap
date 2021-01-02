@@ -25,7 +25,7 @@ The default grid system of [[bootstrap|bootstrap]] is based on ''12 columns'' an
 
 To change the grid size, set the following [[:configuration|configuration]]:
   * The ''gridColumns'' number to ''16''.
-  * The [[Bootstrap#BootstrapStylesheet|Bootstrap Stylesheet]] to ''bootstrap.16col.min.css''
+  * The [[Stylesheet|Stylesheet]] to ''bootstrap.16col.min.css''
 
 <note important>
 === Be careful ===

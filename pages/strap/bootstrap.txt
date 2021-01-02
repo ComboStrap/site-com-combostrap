@@ -14,7 +14,7 @@
 [[strap|Strap]] permits to easily change:
   * the [[#bootstrapVersion|bootstrap supported version]]
   * the [[#bootstrapStylesheet|bootstrap supported stylesheet]]
-and even to [[styling:bootstrap_custom|create and add your own]]
+and even to [[styling:bootstrap|create and add your own]]
 ===== Articles Related =====
 {{backlinks>.}}
 
@@ -26,16 +26,9 @@ Check the [[styling:class|class article]] to know more about it.
 
 ==== Stylesheet ====
 
-''ComboStrap'' comes with two stylesheet:
-  * the standard one
-  * and a custom one with a special grid of 16 columns
-See the [[#boostrapStyleSheet]] configuration.
+''ComboStrap'' comes with the standard Bootstrap stylesheet and several custom one. You can even create and install a custom one for your need.
 
-<note>
-=== For the geek ===
-
-If you want, you can also create and add your own Bootstrap stylesheet. This is an advanced configuration and requires some programming skills but this is not out of reach. See [[styling:bootstrap_custom]]
-</note>
+See [[styling:stylesheet]]
 ===== Configuration =====
 ==== version ====
 You may change the used version with the ''bootstrapVersion'' [[:configuration|configuration]]
@@ -47,13 +40,5 @@ Actually, there is two versions:
 ==== stylesheet ====
 The ''bootstrapStylesheet'' permits to dynamically choose the stylesheet.
 
-[[strap|strap]] is delivered with two stylesheets:
-  * ''bootstrap.min.css'' - the standard Bootstrap stylesheet
-  * ''bootstrap.16col'' - a Bootstrap stylesheet customized to support [[dynamic_grid|a grid of 16 columns]] - [[dynamic_grid]]
-
-<note tip>
-You can also add your own. See [[styling:bootstrap_custom]]
-</note>
-
-
+See [[styling:stylesheet]]
 
