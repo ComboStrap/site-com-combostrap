@@ -39,13 +39,13 @@ to your components in order to set the emphasis. \\
 </card>
 
 <card>
-==== Theme Extra-Loaded ====
-ComboStrap comes with loaded a lot of pre-packaged theme provided by
-differents ''bootstrap'' stylesheet.
+==== Themes Extra-Loaded ====
+ComboStrap comes loaded with a lot of pre-packaged themes 
+provided by differents ''bootstrap'' stylesheet.
 
-We explain also how you can create and install you own stylesheet.
+We explain even also how you can create and install your own stylesheet.
 <btn secondary class="mt-3">
-[[styling:stylesheet|Discover the Stylesheets]]
+[[styling:stylesheet|Discover the Style(sheets)]]
 </btn>
 </card>
 
@@ -62,9 +62,9 @@ such as [[styling:dimension|width]], [[styling:align|align]], [[styling:color|co
 </card>
 
 <card>
-==== Dynamic Grid ====
-A website layout is now something that should be
-fixed as a stone.
+==== Third Sidebar with Dynamic Grid ====
+A website layout is not something that should be
+fixed in stone.\\
 With ''ComboStrap'', you can go beyond the [[strap:bootstrap|Bootstrap]] grid system 
 of 12 columns to 16 columns and gain some space for a [[strap:sidekickbor|right sidebar]]. \\
 <btn secondary class="mt-3">
@@ -114,6 +114,7 @@ put ''ads'' wherever your want (in sidebar or in the main page).
 If you are a publisher trying to find a monetization channel,
 this module tries to find the best balance between user experience
 and revenue.
+
 <btn secondary class="mt-3">
 [[ads:ads|Check the ''Ads'' Module]]
 </btn>
