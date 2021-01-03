@@ -28,6 +28,7 @@ You can install the snapshot :
 
 List:
   * Added [[https://bootswatch.com/|Bootswatch theme]] in the [[styling:stylesheet|stylesheet]]
+  * A ''link'' has now a transparent background by default to avoid getting a rectangle in the [[ui:button|button]] with the ''bootswatch'' theme.
 
 ==== Version 1.9 - 2020-10-31 ====
 The version 1.9 was a bug fix release.
