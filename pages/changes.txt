@@ -30,6 +30,7 @@ List:
   * Added [[https://bootswatch.com/|Bootswatch theme]] in the [[styling:stylesheet|stylesheet]]
   * A ''link'' has now a transparent background by default to avoid getting a rectangle in the [[ui:button|button]] with the ''bootswatch'' theme.
   * ''Section Highlighting'' of Dokuwiki has been replaced because it was moving the edit button around. We put now just a light background on hover.
+  * Bug: No ''rewrite of the links'' when the page is moved. Combo takes over the links in the bootstrap component such as [[ui:button|button]], [[ui:cite|cite]] in order to set the Bootstrap style. Because the move plugin takes into account the standard dokuwiki link detection, they were not rewritten.
 
 ==== Version 1.9 - 2020-10-31 ====
 The version 1.9 was a bug fix release.
