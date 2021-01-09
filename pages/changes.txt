@@ -19,11 +19,15 @@ This is a page that lists all releases with their respective changes for [[:star
 
 
 
-==== Version 1.10 - Snaphot ====
+==== Version 1.11 - Snaphot ====
+
+Nothing to show.
 
 You can install the snapshot :
   * for [[combo|Combo]]: manually using this [[https://combostrap.com/combo-snapshot.zip|URL]]
   * for [[strap:strap|Strap]]: via the extension manager
+
+==== Version 1.10 - 2021-01-09 ====
 
 
 List:
