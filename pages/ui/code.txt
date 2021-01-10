@@ -1,3 +1,9 @@
+---json
+{
+    "canonical":"code"
+}
+---
+
 ====== ComboStrap UI - Code ======
 
 
@@ -15,14 +21,11 @@ It takes over the manipulation of the default [[doku>wiki:syntax#code_blocks|dok
 
 ==== Basic ====
 
-
-<nowiki>
 <code html>
-<html>
-</html>
+<p class="hey">Type some code here</p>
+<p class="hey">Type some code here</p>
 </code>
-</code>
-</nowiki>
+
 
 
 ===== Configuration =====
