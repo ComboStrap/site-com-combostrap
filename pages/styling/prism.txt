@@ -1,3 +1,9 @@
+---json
+{
+    "canonical":"prism"
+}
+---
+
 ====== Prism ======
 
 
@@ -12,7 +18,7 @@
 
 
 <file html>
-<component language line-numbers="true">
+<component language line-numbers="true" prompt="$">
     .... your code
 </component>
 </file>
@@ -20,10 +26,13 @@ where:
   * ''component'' is [[ui:file|file]], [[ui:code|code]] or [[ui:console|console]]
   * ''language'' is the language of the code (''html'', ''xml'', ...). Find all [[https://prismjs.com/#supported-languages|supported languages in the Prism website]]
   * ''line-numbers'' will show line numbers if present
+  * ''prompt'' will add a command line prompt 
   * ''your code'' is a placeholder for your code
 
 
 ===== Example =====
+==== Line numbers ====
+
 ''HTML'' code in a [[ui:code|code component]] with the following syntax,
 <file html>
 <code html line-numbers="true">
@@ -33,6 +42,19 @@ where:
 You will get this output:
 <code html line-numbers="true">
 <p class="hey">Type some code here</p>
+</code>
+
+==== Prompt ====
+
+''HTML'' code in a [[ui:code|code component]] with the following syntax,
+<file html>
+<code bash prompt="#">
+ls -a
+</code>
+</file>
+You will get this output:
+<code bash prompt="#">
+ls -a
 </code>
 
 ===== Configuration =====
