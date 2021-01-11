@@ -93,3 +93,14 @@ The following themes are available:
   * ''tomorrow''
   * ''twilight''
 You can check them on the [[https://prismjs.com/|Prism website]] by clicking on the theme name in the right toolbar.
+
+==== Prompt ====
+
+You can define default prompt for the languages:
+  * ''bash''
+  * ''batch'' (''dos'')
+  * ''powershell''
+
+<note>
+Windows Prompt: The prism component will add automatically a ''>'' at the end of the windows shell prompt (''batch'' and ''powershell'') if not present. This is not possible to pass the character ''>'' via the syntax argument because the dokuwiki parser is based on regular expression.
+</note>
