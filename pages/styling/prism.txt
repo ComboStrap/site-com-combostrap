@@ -18,13 +18,14 @@
 
 
 <file html>
-<component language line-numbers="true" prompt="$">
+<component language [file-path] line-numbers="true" prompt="$">
     .... your code
 </component>
 </file>
 where:
   * ''component'' is [[ui:file|file]], [[ui:code|code]] or [[ui:console|console]]
   * ''language'' is the language of the code (''html'', ''xml'', ...). Find all [[https://prismjs.com/#supported-languages|supported languages in the Prism website]]
+  * ''file-path'' is an optional argument that gives the name of the file that will show up in the download button when hovering over the component.
   * ''line-numbers'' will show line numbers if present
   * ''prompt'' will add a command line prompt 
   * ''your code'' is a placeholder for your code
@@ -57,6 +58,24 @@ You will get this output:
 ls -a
 </code>
 
+==== File Name ====
+
+
+<code xml>
+<file txt loremipsum.txt>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+</file>
+</code>
+You will get this output:
+<file txt loremipsum.txt>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+</file>
 ===== Configuration =====
 
 ==== Theme ====

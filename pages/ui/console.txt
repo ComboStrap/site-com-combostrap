@@ -1,19 +1,61 @@
+---json
+{
+    "canonical":"console"
+}
+---
+
 ====== ComboStrap UI - Console ======
 
+
+
 ===== About =====
-The ''console'' component is just a semantic layer above the [[code|code component]].
+The ''console'' component is just a semantic layer above the [[styling:prism|prism component]].
 
 It's to indicate that this is the  output of a command line (and not a file).
+
+You can create block like this one:
+
+<console>
+total 32
+drwxrwx---  4 www-user www-user  156 Jun 10  2020 acl
+-rwxrwx---  1 www-user www-user   71 Jun 10  2020 action.php
+-rwxrwx---  1 www-user www-user   71 Jun 10  2020 admin.php
+drwxrwx---  5 www-user www-user  101 Jun 10  2020 authad
+drwxrwx---  4 www-user www-user   69 Jun 10  2020 authldap
+drwxrwx---  4 www-user www-user   30 Jun 10  2020 authmysql
+</console>
+
 
 ===== Articles Related =====
 {{backlinks>.}}
 
 ===== Syntax =====
-<webcode>
-<code dw>
-<console>
-The output is in a console
-</console>
+This is a [[styling:prism|Prism component]] and follows its [[styling:prism#syntax]]
+
+See [[styling:prism#syntax|prism syntax]]
+
+
+
+
+
+
+
+===== Configuration =====
+
+
+==== Theme ====
+
+This component:
+  * gets the [[styling:prism|theme]]  chosen
+  * and all [[styling:userstyle|userstyle]] applied to the elements ''pre'' and ''code'' with the class ''combo_console''
+
+
+Example:
+<code css conf/userstyle.css>
+code.combo_console{
+    color: #333 !important;
+}
+pre.combo_console{
+    background-color: #e9ecef !important;
+}
 </code>
-The result is:
-</webcode>

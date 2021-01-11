@@ -1,0 +1,33 @@
+====== Styling - User stylesheet (userstyle.css) ======
+
+===== Userstyle =====
+
+This functionality gives the possibility to the web designers to create their own CSS rules in a custom stylesheet in order to tune the theme exactly to their needs.
+
+This level is a standard function of ''Dokuwiki'' and is most known under the term ''userstyle''
+
+''Dokuwiki'' will automatically read this stylesheet and add them into your page.
+
+This gives the possibility to tune any component.
+
+More see [[doku>devel:css#user_styles]]
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Example =====
+
+
+To add custom style on the [[ui:file|file component]], you could create the ''$DOKUWIKI_HOME/conf/userstyle.css'' file with the following content:
+
+<file css conf/userstyle.css>
+code.combo_file{
+    color: #333 !important;
+}
+pre.combo_file{
+    background-color: #e9ecef !important;
+}
+</file>
+
+
+

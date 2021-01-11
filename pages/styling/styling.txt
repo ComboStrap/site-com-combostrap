@@ -4,9 +4,10 @@
 ===== About =====
 ''Styling'' in ''ComboStrap'' is the possibility to render every [[ui:ui|component]] as you wish.
 
-''ComboStrap'' has two levels of styling:
-  * the [[#stylesheet|stylesheet level]] 
-  * the [[#attribute level]]
+''ComboStrap'' has three levels of styling:
+  * the [[#bootstrap stylesheet|bootstrap stylesheet level]] - bootstrap standard theme
+  * the [[#user_stylesheet|user stylesheet level]] - a stylesheet with custom rule to tune the styling precisely
+  * the [[#attribute level]] - inline css customization
       * [[#standard|standard]] - a set of the most important attributes to quickly style any components.
       * and [[#advanced|advanced]] which let's you use the full power of HTML and CSS.
 
@@ -16,14 +17,20 @@
 
 ===== Levels =====
 
-==== Stylesheet ====
+==== Bootstrap Stylesheet ====
 
-''ComboStrap'' is based on ''Bootstrap'' and allows you to use your customized stylesheet.
-
-
-[[styling:bootstrap]]
+''ComboStrap'' is based on ''Bootstrap'' and comes with pre-packaged stylesheets. You can even create and install your own bootstrap stylesheet.
 
 
+<btn>
+[[stylesheet]]
+</btn>
+
+==== User Stylesheet ====
+
+This functionality gives the possibility to the web designer to create their own CSS rules in a custom stylesheet in order to tune the theme exactly to their needs.
+
+More see [[userstyle]]
 ==== Attributes ====
 
 === Standard  ===
