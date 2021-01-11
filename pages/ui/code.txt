@@ -21,8 +21,14 @@ It takes over the manipulation of the default [[doku>wiki:syntax#code_blocks|dok
 
 ==== Basic ====
 
+  * Code:
+<file html>
 <code html>
-<p class="hey">Type some code here</p>
+    <p class="hey">Type some code here</p>
+</code>
+</file>
+  * Output:
+<code html>
 <p class="hey">Type some code here</p>
 </code>
 
