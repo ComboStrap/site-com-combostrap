@@ -19,7 +19,7 @@ This is a page that lists all releases with their respective changes for [[:star
 
 
 
-==== Version 1.11 - Snaphot ====
+==== Version 1.11 - Snapshot ====
 
 Nothing to show.
 
