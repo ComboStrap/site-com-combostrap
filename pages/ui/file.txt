@@ -1,0 +1,57 @@
+---json
+{
+    "canonical":"file"
+}
+---
+
+====== ComboStrap UI - File ======
+
+
+===== About =====
+The ''file'' component:
+  * takes over the manipulation of the default [[doku>wiki:syntax#code_blocks|dokuwiki file block]]
+  * is a wrapper around the [[styling:prism|Prism]] component to add:
+      * syntax highlighting
+      * clipboard copy
+
+You can create block of code like this one:
+
+<file md line-numbers="true">
+==== Markdown header ====
+
+The `file` component:
+
+  * takes over the manipulation of the default [dokuwiki file block](http://www.dokuwiki.org/wiki%3Asyntax#code_blocks)
+  * is a wrapper around the [Prism component](/prism) to add:
+      * syntax highlighting
+      * clipboard copy
+</file>
+
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Syntax =====
+This is a [[styling:prism|Prism component]] and follows its [[styling:prism#syntax]]
+
+See [[styling:prism#syntax|prism syntax]]
+
+
+
+
+
+
+
+===== Configuration =====
+
+==== Enable / Disable ====
+The ''file_enable'' [[:configuration|configuration]] permits to enable / disable this component.
+
+
+==== Theme ====
+
+This component:
+  * gets the [[styling:prism|theme]]  chosen
+  * add inline properties applied to the added class ''combo_file''
+    * the ''background-color'' ''#dee7ec'' on the ''pre'' element
+    * the ''color'' ''#333'' on the ''code'' element.

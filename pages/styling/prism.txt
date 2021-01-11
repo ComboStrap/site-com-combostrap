@@ -1,0 +1,54 @@
+====== Prism ======
+
+
+===== About =====
+[[https://prismjs.com/|Prism]] is a linter that permits to:
+    * highlights code 
+    * and add extra features such as ''line number'', ''copy to clipboard''
+
+
+===== Syntax =====
+
+
+
+<file html>
+<component language line-numbers="true">
+    .... your code
+</component>
+</file>
+where:
+  * ''component'' is [[ui:file|file]], [[ui:code|code]] or [[ui:console|console]]
+  * ''language'' is the language of the code (''html'', ''xml'', ...). Find all [[https://prismjs.com/#supported-languages|supported languages in the Prism website]]
+  * ''line-numbers'' will show line numbers if present
+  * ''your code'' is a placeholder for your code
+
+
+===== Example =====
+''HTML'' code in a [[ui:code|code component]] with the following syntax,
+<file html>
+<code html line-numbers="true">
+    <p class="hey">Type some code here</p>
+</code>
+</file>
+You will get this output:
+<code html line-numbers="true">
+<p class="hey">Type some code here</p>
+</code>
+
+===== Configuration =====
+
+==== Theme ====
+
+
+The ''code_theme'' [[:configuration|configuration]] permits to choose the [[https://prismjs.com/|prism theme]].
+
+The following themes are available:
+  * ''prism'' - the default prism theme
+  * ''coy''
+  * ''dark''
+  * ''funky''
+  * ''okaidia''
+  * ''solarizedlight''
+  * ''tomorrow''
+  * ''twilight''
+You can check them on the [[https://prismjs.com/|Prism website]] by clicking on the theme name in the right toolbar.

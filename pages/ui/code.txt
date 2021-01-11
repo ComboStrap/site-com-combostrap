@@ -8,29 +8,31 @@
 
 
 ===== About =====
-''code'' is a wrapper around the [[https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code|code]] element.
+The ''code'' component:
+  * is a wrapper around the [[https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code|HTML code]] element.
+  * takes over the manipulation of the default [[doku>wiki:syntax#code_blocks|dokuwiki code block]] 
+  * is a wrapper around the [[styling:prism|Prism]] component to add:
+      * syntax highlighting
+      * clipboard copy
 
-It takes over the manipulation of the default [[doku>wiki:syntax#code_blocks|dokuwiki code block]] and uses the [[https://prismjs.com/|Prism]] framework for:
-  * syntax highlighting
-  * clipboard copy
+You can create block of code like this one:
+<file html>
+<code html line-numbers="true">
+    <p class="hey">Type some code here</p>
+</code>
+</file>
 
 ===== Articles Related =====
 {{backlinks>.}}
 
-===== Example =====
+===== Syntax =====
+This is a [[styling:prism|Prism component]] and follows its [[styling:prism#syntax]]
 
-==== Basic ====
+See [[styling:prism#syntax|prism syntax]]
 
-  * Code:
-<file html>
-<code html>
-    <p class="hey">Type some code here</p>
-</code>
-</file>
-  * Output:
-<code html>
-<p class="hey">Type some code here</p>
-</code>
+
+
+
 
 
 
@@ -41,15 +43,4 @@ The ''code_enable'' [[:configuration|configuration]] permits to enable / disable
 
 
 ==== Theme ====
-The ''code_theme'' [[:configuration|configuration]] permits to choose the theme.
-
-The following [[https://prismjs.com/|prism theme]] are available:
-  * ''prism'' - the default prism theme
-  * ''coy''
-  * ''dark''
-  * ''funky''
-  * ''okaidia''
-  * ''solarizedlight''
-  * ''tomorrow''
-  * ''twilight''
-You can check them on the [[https://prismjs.com/|Prism website]] by clicking on the theme name in the right toolbar.
+To set the theme, see [[styling:prism]]
