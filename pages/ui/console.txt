@@ -1,7 +1,7 @@
 ====== ComboStrap UI - Console ======
 
 ===== About =====
-The ''console'' component is just a semantic layer above the [[doku>wiki:syntax#code_blocks|dokuwiki file block]].
+The ''console'' component is just a semantic layer above the [[code|code component]].
 
 It's to indicate that this is the  output of a command line (and not a file).
 
@@ -15,4 +15,5 @@ It's to indicate that this is the  output of a command line (and not a file).
 The output is in a console
 </console>
 </code>
+The result is:
 </webcode>

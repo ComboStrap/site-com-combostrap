@@ -34,3 +34,16 @@ It takes over the manipulation of the default [[doku>wiki:syntax#code_blocks|dok
 The ''code_enable'' [[:configuration|configuration]] permits to enable / disable this component.
 
 
+==== Theme ====
+The ''code_theme'' [[:configuration|configuration]] permits to choose the theme.
+
+The following [[https://prismjs.com/|prism theme]] are available:
+  * ''prism'' - the default prism theme
+  * ''coy''
+  * ''dark''
+  * ''funky''
+  * ''okaidia''
+  * ''solarizedlight''
+  * ''tomorrow''
+  * ''twilight''
+You can check them on the [[https://prismjs.com/|Prism website]] by clicking on the theme name in the right toolbar.
