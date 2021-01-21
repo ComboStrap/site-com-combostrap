@@ -18,7 +18,7 @@
 The ''strap'' template supports the following features:
 
   * [[bootstrap|Last bootstrap version (4)]]
-  * [[styling:bootstrap_custom|Custom Bootstrap Styleshet (create and add your own)]]
+  * [[styling:bootstrap|Custom Bootstrap Styleshet (create and add your own)]]
   * [[cdn|Serve the Bootstrap files by default from a CDN]]
   * Supports [[bar|4 bars]] layout
       * [[sidebor|Sidebar]] (left)

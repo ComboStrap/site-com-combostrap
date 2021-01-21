@@ -11,7 +11,7 @@ It's most used in a [[strap:headerbor|header]] or [[strap:footerbor|footer]]
 {{backlinks>.}}
 
 ===== Attributes =====
-A ''container'' is a [[html|superset HTML element]] and is therefore ready for [[styling|styling]]
+A ''container'' is a [[styling:html|superset HTML element]] and is therefore ready for [[styling:styling|styling]]
 
 <note important>
 A container has an automatic margin that centers it. You should then not set the margin, otherwise it will be located to the left
@@ -28,7 +28,7 @@ Example:
 ===== Example =====
 
 ==== Custom Container  ====
-A container with a [[color|light background color]] and a little bit of [[spacing|padding]]
+A container with a [[styling:color|light background color]] and a little bit of [[styling:spacing|padding]]
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <container background-color="light" class="p-3">

@@ -1,6 +1,6 @@
 ---json
 {
-    "canonical":"canonical:url"
+    "canonical":"canonical"
 }
 ---
 ====== ComboStrap Page Metadata - Canonical URL ======
@@ -62,7 +62,7 @@ This page has the canonical value set to ''canonical:url'' and therefore is also
 Try it your self !
 
 <btn>
-[[canonical:url#demo|Navigate to this page via its canonical URL]] !
+[[:canonical#demo|Navigate to this page via its canonical URL]] !
 </btn>
 
 or
