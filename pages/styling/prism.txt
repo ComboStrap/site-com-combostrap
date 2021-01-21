@@ -76,6 +76,8 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
 </file>
+
+
 ===== Configuration =====
 
 ==== Theme ====
@@ -104,3 +106,21 @@ You can define default prompt for the languages:
 <note>
 Windows Prompt: The prism component will add automatically a ''>'' at the end of the windows shell prompt (''batch'' and ''powershell'') if not present. This is not possible to pass the character ''>'' via the syntax argument because the dokuwiki parser is based on regular expression.
 </note>
+
+===== Note =====
+
+==== Supported Plugin ====
+This component integrates the following Prism plugin:
+  * [[https://prismjs.com/plugins/download-button|Download button]]
+  * [[https://prismjs.com/plugins/line-numbers/|Line Numbers]]
+  * [[https://prismjs.com/plugins/command-line/|Command line]]
+  * [[https://prismjs.com/plugins/show-language/|Show Language]]
+  * [[https://prismjs.com/plugins/normalize-whitespace/|Normalize Whitespace]]
+==== Code Annotation ====
+Prism does not support out of the box code annotation such as the [[https://docs.asciidoctor.org/asciidoc/latest/verbatim/callouts/|Asciidoctor callout]].
+
+Prism has still the following plugin that permits code annotation but are not yet implemented
+  * The [[https://prismjs.com/plugins/keep-markup/|Keep Markup (ie keep HTML)]]. With the keep markup, you can add HTML markup such as ''mark'' to highlight your code. It does not work yet because Dokuwiki escapes the whole block of code. Another component should be created for this purpose.
+  * [[https://prismjs.com/plugins/line-highlight/|Line highlight]] permits to highlight a line number.
+
+See also this prism [[https://prismjs.com/faq.html#if-pre-existing-html-is-stripped-off-how-can-i-highlight|faq entry]]
