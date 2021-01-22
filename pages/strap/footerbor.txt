@@ -46,4 +46,9 @@ Powered by [[:start|ComboStrap]] \\
 </container>
 </footer>
 </code>
+
+This code will output the following:
 </webcode>
+
+===== Configuration =====
+You can configure the name of the ''footerbar'' with the ''tpl»strap»footerbar'' [[:configuration|configuration]]

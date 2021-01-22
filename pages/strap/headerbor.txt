@@ -16,5 +16,6 @@ The ''headerbar'' is supposed to contain a ''navbar''. See [[getting_started:5_h
 ===== Articles Related =====
 {{backlinks>.}}
 
-
+===== Configuration =====
+You can configure the name of the ''headerbar'' with the ''tpl»strap»headerbar'' [[:configuration|configuration]]
 

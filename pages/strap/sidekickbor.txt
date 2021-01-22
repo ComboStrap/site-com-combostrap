@@ -25,8 +25,8 @@ The cache of the sidebar is automatically deleted when a page in the same namesp
 See [[:cache]]
 
 ===== Configuration =====
-==== sidekickbar ====
-The ''sidekickbar'' [[:configuration|configuration]] permits to change the name of this bar
+==== Name ====
 
+You can configure the name of the ''sidekickbar'' with the ''tpl»strap»sidekickbar'' [[:configuration|configuration]]
 ==== Grid extension ====
 If you want to use a second sidebar, you may also want to increase the number of columns from ''12'' to ''16''. See [[dynamic_grid]]
