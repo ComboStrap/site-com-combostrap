@@ -16,6 +16,8 @@ This is useful to:
 <note>
 On a HTML level, this is just a ''div'' element
 </note>
+
+<badge rounded>[[:changes|since 1.11]]</badge>
 ===== Articles Related =====
 {{backlinks>.}}
 

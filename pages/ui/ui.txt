@@ -26,7 +26,7 @@ See [[styling:html]]
 
 
 ==== Box ====
-[[box]]
+[[block]]
   * [[card|Card (teaser)]]: Do you want to put a text in a box with optionally an image and a button, that's a card
   * [[blockquote|Blockquote]]: A blockquote is a card with a citation.
   * [[related|Related]]: A component showing the backlinks

@@ -21,7 +21,7 @@
 
 ==== Attribute ====
 
-This example comes from the [[https://getbootstrap.com/docs/4.0/components/collapse/|Collapse bootstrap documentation]] and shows a [[button|button]] that will expand and collapse a [[card|card]] with the help of ''collapse'' attribute.
+This example comes from the [[https://getbootstrap.com/docs/4.0/components/collapse/|Collapse bootstrap documentation]] and shows a [[button|button]] that will expand and collapse a [[card|card]] with the help of ''collapse'' attribute. <badge>[[:changes|since 1.11]]</badge>
 <webcode name="Collapse" frameborder=0 >
 <code dw>
 <button collapse="#collapseExample">

@@ -2,7 +2,7 @@
 
 
 ===== About =====
-''elevation'' is a [[styling:styling|styling attribute]] that elevates a [[ui:box|box]].
+''elevation'' is a [[styling:styling|styling attribute]] that elevates a [[ui:block|box]].
 
 It adds a shadow and gives the box more emphasis.
 

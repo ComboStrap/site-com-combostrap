@@ -8,7 +8,7 @@ Due to the hierarchical structure of a document, it makes the reading of a ''Com
 
 ''Combostrap'' disables by default this mode.
 
-
+<badge rounded>[[:changes|since 1.11]]</badge>
 ===== Demo =====
 
 

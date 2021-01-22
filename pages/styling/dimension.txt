@@ -8,7 +8,7 @@
 
 
 ===== About =====
-Every [[ui:box|Box components]] and even the whole main page dimension may be resized with the [[styling:styling|styling attributes]]:
+Every [[ui:block|Box components]] and even the whole main page dimension may be resized with the [[styling:styling|styling attributes]]:
   * [[#width]] 
   * and [[#height]].
 
@@ -41,7 +41,7 @@ I'm a note being constraint in a box with a maximum width of 200 pixels.
 
 <note info>
 === For the Geek ===
-On a [[ui:box|box]], the ''width'' attribute will apply a ''maximum-width'' constraint. When your website will be seen on a screen below this ''width'', the box will adapt accordingly keeping your website responsive.
+On a [[ui:block|box]], the ''width'' attribute will apply a ''maximum-width'' constraint. When your website will be seen on a screen below this ''width'', the box will adapt accordingly keeping your website responsive.
 </note>
 
 
