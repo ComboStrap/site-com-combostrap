@@ -29,6 +29,9 @@ List:
   * Added documentation over the [[styling:userstyle|userstyle]] or how to bring its own css rules.
   * Regression fixed: the section ''highlighting'' change of the previous release has removed the default header style.
   * [[strap:hidden|New automatic hidden page]]: the internal page such as the bars and namespace are now automatically hidden. No configuration is needed.
+  * New: a new [[ui:box|Box]] component was introduced to group other component and allows for instance to define a [[ui:collapse|collapse]] target.
+  * New: the [[ui:preformatted|preformatted mode]] of dokuwiki is disabled by default in order to be able to write hierarchical block.
+  * New: the [[ui:collapse#attribute|collapse attribute]]: a control element such as a [[ui:button|button]] with this attribute can collapse a target component.
 
 You can install the snapshot :
   * for [[combo|Combo]]: manually using this [[https://combostrap.com/combo-snapshot.zip|URL]]

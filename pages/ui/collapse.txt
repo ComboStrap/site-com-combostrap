@@ -1,9 +1,49 @@
+---json
+{
+    "canonical":"collapse"
+}
+---
+
 ====== ComboStrap UI - Collapse ======
 
 ===== About =====
-''collapse'' is a component that can be used only in a [[navbar|navbar]]
+''collapse'' can refers to
+  * a [[#navbar|navbar]] component that will collapse its children. 
+  * or an [[#attribute|attribute]] that defines a UI component to collapse.
 
-All the element that are inside a collapse will be collapsed when the width of the page becomes a mobile size.
+
+
 
 ===== Articles Related =====
 {{backlinks>.}}
+
+===== Type =====
+
+==== Attribute ====
+
+This example comes from the [[https://getbootstrap.com/docs/4.0/components/collapse/|Collapse bootstrap documentation]] and shows a [[button|button]] that will expand and collapse a [[card|card]] with the help of ''collapse'' attribute.
+<webcode name="Collapse" frameborder=0 >
+<code dw>
+<button collapse="#collapseExample">
+Click Me to Expand and re-click me to Collapse
+</button>
+<box class="collapse" id="collapseExample">
+  <card>
+    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+  </card>
+</box>
+</code>
+where the following attributes are mandatory:
+  * on the control element (the element to click)
+      * ''collapse="#collapseExample"'' defines the ''id'' of the element to collapse. In this case, ''#collapseExample''
+  * on the target element (the element to collapse)
+      * ''class="collapse"'' will cache the block by default if present
+      * ''id="collapseExample"'' should define the same value than the ''collapse'' value of the control.
+</webcode>
+
+
+==== Navbar ====
+
+in a [[navbar|navbar]], a ''collapse'' element will collapse its children . All the element that are inside a collapse will be collapsed when the width of the page becomes a mobile size.
+
+More... see the [[navbar|navbar documentation]]

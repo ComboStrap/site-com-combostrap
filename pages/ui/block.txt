@@ -1,0 +1,21 @@
+====== ComboStrap UI - Block ======
+
+
+===== About =====
+A ''block'' is a [[ui|component]] that wraps/encapsulate some content.
+
+If the component should start at a new line or expand on multiple line and you can draw some border around it, that's a block.
+===== Articles Related =====
+{{backlinks>.}}
+
+===== List of block component =====
+  * [[box]]
+  * [[console]]
+  * [[file]]
+  * [[code]]
+  * [[note]]
+  * [[card]]
+  * [[blockquote]]
+  * [[typo]]
+  * [[list]]
+  * [[jumbotron]]

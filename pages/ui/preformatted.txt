@@ -1,0 +1,26 @@
+====== ComboStrap UI - Preformatted ======
+
+
+===== About =====
+''Preformatted '' is a standard dokuwiki syntax that considers any line that starts with two spaces as a [[doku>wiki:syntax#code_blocks|block of code]].
+
+Due to the hierarchical structure of a document, it makes the reading of a ''Combostrap'' or ''HTML'' document difficult because every element needs to start at the beginning of the line to escape this formatting.
+
+''Combostrap'' disables by default this mode.
+
+
+===== Demo =====
+
+
+  * Code
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," >
+<code dw class="no-whitespace-normalization">                A line that starts with a lot of spaces is not seen as a code of block</code>
+  * Output:
+</webcode>
+
+  
+===== Configuration =====
+
+The [[:configuration|configuration]] ''combo>preformattedEnable'' permits to enable or disable this feature.
+
+

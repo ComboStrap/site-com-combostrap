@@ -5,7 +5,7 @@
 ''align'' is an [[styling:styling|styling attribute]] of the [[styling:html|HTML superset component]]
 
 It permits to align:
-  * a [[#box|box]]
+  * a [[#block|block]]
   * or its [[#text|text]]
 
 <note tip align="center" width="fit-content">
@@ -17,11 +17,11 @@ If you want more control on the position, you may also use a [[ui:grid|grid]]
 {{backlinks>.}}
 
 ===== Type =====
-==== Box ====
+==== Block ====
 
-How to align a [[ui:box|box]]
+How to align a [[ui:block|block]]
 
-The ''align'' attribute on a box, supports only the value ''center'', by default, the box is aligned to the left. 
+The ''align'' attribute on a box, supports only the value ''center'', by default, the block is aligned to the left. 
 
 Example:
 <webcode name="Centered" >
@@ -29,7 +29,7 @@ Example:
 <note tip align="center"  width="300px">
 === Centered Tip ===
 
-As every box by default takes the whole available [[dimension|width]], you need to add a [[dimension|width attribute]] when you want to center it.
+As every block by default takes the whole available [[dimension|width]], you need to add a [[dimension|width attribute]] when you want to center it.
 
 </note>
 </code>
@@ -37,9 +37,9 @@ As every box by default takes the whole available [[dimension|width]], you need 
 
 ==== Text ====
 
-How to align the text in a [[ui:box|box]]
+How to align the text in a [[ui:block|block component]]
 
-The ''text-align'' attribute on a box, supports the value:
+The ''text-align'' attribute on a block, supports the value:
   * ''center''
   * ''right''
   * ''justify''

@@ -58,7 +58,7 @@ If you choose a fixed-top navbar, you need also to change a ''strap template'' s
 <icon name="desktop-mac-dashboard" /> Brandly
 </brand>
 </code>
-  * Collapse to indicate all elements that will collapse when the size of the screen is lower than the navbar breakpoint
+  * [[collapse|Collapse]] to indicate all elements that will collapse when the size of the screen is lower than the navbar breakpoint
 <code dw>
 <collapse>
 </code>
