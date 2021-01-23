@@ -81,5 +81,5 @@ A lot of Dokuwiki components use the ''logo.svg'' file by default such as:
 ==== Next Step ====
 
 <btn>
-[[5_headerbar|Create a headerbar]]
+[[5_headerbor|Create a headerbar]]
 </btn>

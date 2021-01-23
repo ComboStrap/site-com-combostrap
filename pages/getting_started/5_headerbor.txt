@@ -40,4 +40,4 @@ More ... see the [[ui:navbar|navbar article]]
 
   * Check the [[ui:ui|UI Components]]
   * Learn about [[url:url|URL Management and redirections]]
-  * Have a look to the [[:seo|SEO page]]
+  * Have a look at the [[:seo|SEO page]]

@@ -22,7 +22,7 @@ as:
   * no [[styling:scale|responsive typo]]
   * the possibility to put your own [[styling:bootstrap|Bootstrap template]]
 
-The [[ui:ui|UI components]] just needs a ''Bootstrap'' template and are tested against Bootstrap version 4.
+The [[ui:ui|UI components]] just needs a ''Bootstrap'' template and are tested against [[strap:bootstrap#version|Bootstrap version 4]].
 </note>
 
 ===== Steps =====
