@@ -9,13 +9,7 @@ A ''tab'' is an interactive and [[ui:navigation|navigational]] element that, whe
 
 ===== Syntax =====
 
-<note important>
-The most important in the ''tabs'' syntax is that the ''panel'' value of a ''tab'' should be equal to the ''id'' of its ''panel''.
-<MATH>
-tab.panel = tabpanel.id
-</MATH>
-This is how a ''tab'' know which ''panel'', it should show or hide.
-</note>
+
 
 The syntax has two parts:
   * First the definition of the [[#tabs]]
@@ -25,7 +19,7 @@ The syntax has two parts:
 <code dw>
 <tabs skin="tabs">
 <tab panel="panelId" selected="true">Text</tab>
-<tab .....</tab>
+<tab .....></tab>
 </tabs>
 </code>
 where:
@@ -38,7 +32,7 @@ where:
 <code dw>
 <tabpanels>
 <tabpanel id="panelId">Text</tabpanel>
-<tabpanel .........</tabpanel>
+<tabpanel .........></tabpanel>
 </tabpanels>
 </code>
 where:
@@ -51,7 +45,13 @@ where:
   * the content of a ''tabpanel'' accepts all syntax (included the [[title|dokuwiki heading format]] <badge>Since [[:changes|version 1.7]]</badge>)
 ===== Example =====
 
-
+<note important>
+The most important in the ''tabs'' syntax is that the ''panel'' value of a ''tab'' should be equal to the ''id'' of its ''panel''.
+<MATH>
+tab.panel = tabpanel.id
+</MATH>
+This is how a ''tab'' know which ''panel'', it should show or hide.
+</note>
 ==== Tabs ====
 
 <webcode name="Tabs" frameborder=0 >
