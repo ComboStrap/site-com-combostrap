@@ -21,6 +21,7 @@ as:
   * no canonical for [[strap:bar|bars]]
   * no [[styling:scale|responsive typo]]
   * the possibility to put your own [[styling:bootstrap|Bootstrap template]]
+  * the fix on automatic line break on [[styling:prism#regex_language|prism regex language]]
 
 The [[ui:ui|UI components]] just needs a ''Bootstrap'' template and are tested against [[strap:bootstrap#version|Bootstrap version 4]].
 </note>

@@ -32,6 +32,7 @@ List:
   * New: a new [[ui:box|Box]] component was introduced to group other component and allows for instance to define a [[ui:collapse|collapse]] target.
   * New: the [[ui:preformatted|preformatted mode]] of dokuwiki is disabled by default in order to be able to write hierarchical block.
   * New: the [[ui:collapse#attribute|collapse attribute]]: a control element such as a [[ui:button|button]] with this attribute can collapse a target component.
+  * Fix:  Deleted the clearfix ''group'' class css style of dokuwiki that was giving a line break on the [[styling:prism#regex_language|prism regex language]].
 
 You can install the snapshot :
   * for [[combo|Combo]]: manually using this [[https://combostrap.com/combo-snapshot.zip|URL]]

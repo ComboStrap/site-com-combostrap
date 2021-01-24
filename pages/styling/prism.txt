@@ -124,3 +124,22 @@ Prism has still the following plugin that permits code annotation but are not ye
   * [[https://prismjs.com/plugins/line-highlight/|Line highlight]] permits to highlight a line number.
 
 See also this prism [[https://prismjs.com/faq.html#if-pre-existing-html-is-stripped-off-how-can-i-highlight|faq entry]]
+
+===== Support =====
+
+==== Regex language ====
+
+''Dokuwiki'' set a ''group'' class to apply a ''clearfix'' in its ''all.css'' file. This name pollute the css global scope and competes with the output of the ''regex'' prims language that set it on the regexp ''group''. The result is that there is a new line on all ''('' and '')'' characters.
+
+As you can see below, this is not the case.
+<code regex >
+^(\\w+\\s+\\d+\\s+\\d+:\\d+:\\d+)\\s+
+([^@]+?)@(\\s+)\\s+(\\S+):\\s+(\\S+)\\s+(\\S+)
+\\s+((?:\\S+?,\\s+)*(?:\\S+?))\\s+(\\S+)\\s+(\\S+)
+\\s+\\[([^\\]]+)\\]\\s+\"(\\w+)\\s+([^\"\\\\]*
+(?:\\\\.[^\"\\\\]*)*)\\s+(\\S+)\"\\s+(\\S+)\\s+
+(\\S+)\\s+\"([^\"\\\\]*(?:\\\\.[^\"\\\\]*)*)
+\"\\s+\"([^\"\\\\]*(?:\\\\.[^\"\\\\]*)*)\"\\s*
+(\\d*-[\\d-]*)?\\s*(\\d+)?\\s*(\\d*\\.[\\d\\.]*)?
+(\\s+[-\\w]+)?.*$
+</code>
