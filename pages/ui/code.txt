@@ -22,6 +22,9 @@ You can create block of code like this one:
 </code>
 </file>
 
+<note tip>
+If you are a developer and want to embed your unit test in your documentation, you can use the [[unit|unit testing]] component to declare them.
+</note>
 ===== Articles Related =====
 {{backlinks>.}}
 

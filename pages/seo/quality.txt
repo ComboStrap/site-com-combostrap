@@ -1,0 +1,19 @@
+---json
+{
+    "canonial":"quality"
+}
+---
+
+====== ComboStrap SEO - Quality Content ======
+
+===== About =====
+The [[seo:seo|SEO quality module]] aims to measure and keep the quality of the website high.
+
+This module regroups the following functionalities:
+  * [[strap:hidden]]
+  * [[:low_quality]]
+
+===== Configuration =====
+==== low quality page not public ====
+To keep low quality page private and not made them available to search engine, you can enable this feature with the [[:configuration]] ''lowQualityPageNotPublicEnable''.
+

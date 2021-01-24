@@ -22,9 +22,9 @@ A ''List'' is a [[ui|component]] that lay out continuous, vertical lines where e
 ''list'' is a [[styling:html|HTML superset component]] and follows the following syntax
 <code dw>
 <list>
-<li>
-Text
-</li>
+    <li>
+        Text
+    </li>
 </list>
 </code>
 where:
@@ -50,8 +50,16 @@ and applied style accordingly:
 <webcode name="List" >
 <code dw>
 <list width="300px" color="info">
-<li><icon name="folder"/>[[icon|Icon]]<badge>20</badge></li>
-<li><icon name="folder"/>[[badge|Badge]]<badge>info</badge></li>
+    <li>
+        <icon name="folder"/>
+        [[icon|Icon]]
+        <badge>20</badge>
+    </li>
+    <li>
+        <icon name="folder"/>
+        [[badge|Badge]]
+        <badge>info</badge>
+    </li>
 </list>
 </code>
 </webcode>

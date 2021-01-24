@@ -1,15 +1,14 @@
-<container width="600px">
+
 ====== SEO (Search Engine Optimization) ======
 
 ===== About =====
 [[kb>seo|Search engine optimization]] is the process of making your website optimized for [[kb>search/engine|search engine]] such as as Google or Bing.
 
 On a website level, it means:
-  * [[good_content|good content]]
+  * [[seo:quality|quality content]]
   * [[#page metadata|good semantic (page metadata / web structure)]]
   * [[#performance|good page speed]]
   * [[#sitemap|discoverability]]
-
 
 
 
@@ -24,13 +23,12 @@ The following data may be set for page:
 
 ==== Performance ====
 
-  * The size of a web page served to the public (user not logged in) can be optimized with the [[css|CSS optimization module]]
+  * The size of a web page served to the public (user not logged in) can be optimized with the [[:css|CSS optimization module]]
   * By default, the [[strap:bootstrap|bootstrap files]] are served from a [[strap:cdn|CDN]]
-  * The [[cache|sidebar cache]] is automatically bursted and is therefore rendered only when needed and not for every page.
+  * The [[:cache|sidebar cache]] is automatically bursted and is therefore rendered only when needed and not for every page.
 
 ==== Sitemap ====
 ''Dokuwiki'' comes with a [[kb>sitemap|sitemap]] component that ping automatically search engines.
 
 You need to set the [[doku>config:sitemap]] configuration with a number that defines a period in day that is not zero.
 
-</container>

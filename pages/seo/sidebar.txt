@@ -1,0 +1,11 @@
+~~NOCACHE~~
+
+<ntoc color="info">
+<index>
+[[$id|$title]]
+</index>
+<page-item>
+[[$id|<pipeline>"$title" | replace("ComboStrap SEO - ","")</pipeline>]]
+</page-item>
+</ntoc>
+
