@@ -3,13 +3,20 @@
 ===== About =====
 ''Redirection to search engine'' is a [[action|redirection action]] that redirects to the search engine.
 
-The search term is the asked [[doku>pagename|page id]]
+
 
 ===== Articles Related =====
 {{backlinks>.}}
 
-===== Example =====
+===== Process =====
 
+The search term is the asked [[doku>pagename|page id]] names.
 
+For instance:
   * If the page asked is ''namespace1:namespace2:pre_pagename''
   * the search term would be ''namespace1+namespace2+pre+pagename''
+  * and the search engine would return all pages that contains the words:
+      * ''namespace1'',
+      * ''namespace2'',
+      * ''pre'', 
+      * and ''pagename''

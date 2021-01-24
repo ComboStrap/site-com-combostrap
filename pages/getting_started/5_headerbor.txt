@@ -37,7 +37,9 @@ My Brand name
 More ... see the [[ui:navbar|navbar article]]
 
 ===== Next Steps =====
+In the same way, you can also create a [[strap:footerbor|footerbar]].
 
+Then you can:
   * Check the [[ui:ui|UI Components]]
   * Learn about [[url:url|URL Management and redirections]]
   * Have a look at the [[:seo|SEO page]]

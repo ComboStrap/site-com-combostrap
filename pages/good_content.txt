@@ -1,0 +1,8 @@
+====== SEO - Quality Content ======
+
+===== About =====
+The [[:seo|SEO quality module]] aims to measure and keep the quality of the website and of a page high.
+
+This module regroups the following functionalities:
+  * [[strap:hidden]]
+  * [[low_quality]]

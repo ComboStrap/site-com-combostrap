@@ -7,6 +7,10 @@ The [[:combo|combo plugin]] automatically [[doku>config:hidepages|hides]]:
   * the [[bar|bars]]
   * the ''combostrap'' private namespace.
 
+
+This page are still accessible but should not be advertised to the outside world because they are just component and not fully readable page.
+
+This is a component of the [[:seo|seo module]].
 ===== Articles Related =====
 {{backlinks>.}}
 

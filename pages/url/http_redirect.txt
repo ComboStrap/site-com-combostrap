@@ -1,15 +1,25 @@
 ====== HTTP Redirect ======
 
+===== About =====
+An ''http redirect'' is one of the [[redirection|redirection method]] used by the [[url|URL manager]].
+
+Technically, the response of the server has a value in its status code of ''302''.  Why, we are not using the value 301, see below. [[#301 vs 302]]
+
+===== Articles Related =====
+{{backlinks>.}}
+
+
+===== 301 vs 302 =====
 
 
 
 
-===== 302 vs 301 =====
 
-[[https://support.google.com/webmasters/answer/7238431|URL move for Google]] Use 302 redirects, not 301 redirects 
-```text
+<blockquote>
+=== Use 302 redirects, not 301 redirects ===
 If you’re running an A/B test that redirects users from the original URL to a variation URL, 
 use a 302 (temporary) redirect, not a 301 (permanent) redirect. 
 This tells search engines that this redirect is temporary—it will only be in place as long as you’re running the experiment—and that they should keep the original URL in their index rather than replacing it with the target of the redirect (the test page). 
 JavaScript-based redirects are also fine.
-```
+<cite>From the [[https://support.google.com/webmasters/answer/7238431|URL move for Google document]].</cite>
+</blockquote>

@@ -50,7 +50,7 @@ A example taken from [[https://getbootstrap.com/docs/4.3/components/card/#exampl
 </webcode>
 
 ==== Teaser is an alias for card. ====
-At first, ''teaser'' was the first name of card and you may still use it.
+At first, ''teaser'' was the first name of card and you may still [[teaser|use it]].
 <webcode name="Card2" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <teaser style="width: 18rem;">
