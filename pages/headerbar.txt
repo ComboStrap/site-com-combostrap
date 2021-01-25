@@ -11,7 +11,7 @@ ComboStrap
 [[styling:styling|Styling]]
 [[url:url|Url Manager]]
 [[semantic:semantic|Meta Manager]]
-[[:seo:seo|Search Engine Optimization]]
+[[:seo|Search Engine Optimization]]
 [[:ads:ads|Ads]]
 [[:strap:strap|Templating]]
 [[:analytics:analytics|Analytics]]

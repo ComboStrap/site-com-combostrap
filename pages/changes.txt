@@ -33,6 +33,8 @@ List:
   * New: the [[ui:preformatted|preformatted mode]] of dokuwiki is disabled by default in order to be able to write hierarchical block.
   * New: the [[ui:collapse#attribute|collapse attribute]]: a control element such as a [[ui:button|button]] with this attribute can collapse a target component.
   * Fix:  Deleted the clearfix ''group'' class css style of dokuwiki that was giving a line break on the [[styling:prism#regex_language|prism regex language]].
+  * New: [[analytics:analytics|analytics module]] that adds [[analytics:data|analytical data]] on [[analytics:statistics|page statistics]] and quality.
+  * New: [[quality:quality|quality  module]] with [[quality:lqpp|low quality page protection]], [[quality:score|quality score]] and [[quality:rule|quality rules]]
 
 You can install the snapshot :
   * for [[combo|Combo]]: manually using this [[https://combostrap.com/combo-snapshot.zip|URL]]
