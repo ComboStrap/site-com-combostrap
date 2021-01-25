@@ -1,0 +1,53 @@
+====== ComboStrap Quality - Quality Rules ======
+
+
+===== About =====
+''quality rules'' are rules that have only two states:
+  * ''passed''
+  * or ''failed''
+
+They check the quality of a page and gives quality target at the same time.
+
+They can be seen in the ''quality'' section of the [[analytics:data|analytical data]].
+
+
+===== Example =====
+<file json>
+"rules": {
+	"result": "1 quality rules errors",
+	"info": {
+		"canonical_present": "A canonical is not present in the frontmatter"
+	},
+	"details": {
+		"canonical_present": "Failed",
+		"description_present": "Passed",
+		"fixme_min": "Passed",
+		"internal_backlinks_min": "Passed",
+		"internal_links_broken_max": "Passed",
+		"internal_links_min": "Passed",
+		"outline_structure": "Passed",
+		"title_present": "Passed",
+		"words_by_section_avg_max": "Passed",
+		"words_by_section_avg_min": "Passed",
+		"words_max": "Passed",
+		"words_min": "Passed"
+	}
+}
+</file>
+
+
+===== List =====
+
+^ Name ^ Description ^
+| ''canonical_present'' | A [[semantic:canonical|canonical]] should be present in the [[semantic:frontmatter|frontmatter]] |
+| ''description_present'' | A [[semantic:description|description]] should be present in the [[semantic:frontmatter|frontmatter]] |
+| ''fixme_min'' | A page should have no fixme |
+| ''internal_backlinks_min'' | A page should have at minimum one link from another page (internal backlink) |
+| ''internal_links_broken_max'' | A page should not have a link to a non-existing page (broken link) |
+| ''internal_links_min'' | A page should have at minimal a link to another page (internal link) |
+| ''outline_structure'' | The headers should have a tree structure (outline, toc) |
+| ''title_present'' | A [[semantic:title|title]] should be present in the [[semantic:frontmatter|frontmatter]] |
+| ''words_by_section_avg_max'' | A page should have at maximal a average of 300 words by section |
+| ''words_by_section_avg_min'' | A page should have at minimal a average of 20 words by section |
+| ''words_max'' | A page should have at maximal 1500 words |
+| ''words_min'' | A page should have at minimal 50 words. |
