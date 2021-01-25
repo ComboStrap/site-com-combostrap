@@ -1,18 +1,32 @@
-====== Analytics - Database ======
+====== ComboStrap Analytics - Database ======
 
 
 ===== About =====
-All data are store in Sqlite Database stored at ''DOKUWIKI_HOME/data/meta/.sqlite3''
+All ''ComboStrap'' data are stored in a Sqlite Database.
+
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Tables =====
+The database schema has the following tables:
+  * ''pages'' - [[data|data on pages]]:
+      * ''id'': the page id
+      * ''canonical'': the [[semantic:canonical|canonical]]
+      * ''analytics'': the [[data|json analytics data]]
+  * ''pages_alias'' - the [[url:alias|page aliases]]
+  * ''page_rules'' - the [[url:page_rules|page_rules]]
+  * ''redirections_log'' - the [[url:log|log redirection history]]
+  * ''opts'' - an internal table that manage the database version <inote important>don't delete</inote>
+
+Thanks to the [[doku>plugin:sqlite|Sqlite plugin]], you can [[query|query the database online]]
+
+===== File Location =====
+The database is stored at ''DOKUWIKI_HOME/data/meta/''.
 
 Depending on your history with our plugins, its name may be:
   * ''combo.sqlite3''
   * ''webcomponent.sqlite3'' (older)
   * ''404manager.sqlite3'' (older)
 
-===== Articles Related =====
-{{backlinks>.}}
-
-===== How to query online =====
-
-With the SQLite plugin, the data can be queried directly through the admin page.
 

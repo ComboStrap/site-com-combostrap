@@ -1,16 +1,16 @@
-====== Automatic Hidden Artifactory ======
+====== ComboStrap Quality - Automatic Hidden Artifactory ======
 
 
 ===== About =====
 
-The [[:combo|combo plugin]] automatically [[hidden|hides]]:
+The [[:combo|combo plugin]] automatically [[quality:hidden|hides]]:
   * the [[strap:bar|bars]]
   * the ''combostrap'' private namespace (where [[ui:icon|icons]] and other internal component are saved)
 
 
-This page resource are still accessible but should not be advertised to the outside world because they are just component and have [[low_quality_page|low value]].
+This page resource are still accessible but should not be advertised to the outside world because they are just component and have [[quality:low_quality_page|low value]].
 
-This is a component of the [[seo:quality|quality seo module]].
+This is a component of the [[quality:quality|quality seo module]].
 ===== Articles Related =====
 {{backlinks>.}}
 

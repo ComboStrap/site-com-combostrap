@@ -1,0 +1,10 @@
+~~NOCACHE~~
+
+<ntoc color="info">
+<index>
+[[$id|$title]]
+</index>
+<page-item>
+[[$id|<pipeline>"$title" | replace("ComboStrap Quality - ","")</pipeline>]]
+</page-item>
+</ntoc>

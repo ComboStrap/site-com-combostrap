@@ -1,4 +1,4 @@
-====== ComboStrap SEO - Hidden Page / Resource ======
+====== ComboStrap Quality - Hidden Page ======
 
 
 ===== About =====
@@ -19,8 +19,8 @@ In short, the page is still accessible directly (with its URL) but is no more vi
 {{backlinks>.}}
 
 ===== Features =====
-  * ''ComboStrap'' [[seo:automatic_hidden|hide automatically artifactory]] (components used to create page but are not page themselves)
-  * ''ComboStrap'' can automatically hide [[seo:low_quality_page|low quality page]] until they get a correct quality score. See [[seo:lqpp]]
+  * ''ComboStrap'' [[quality:automatic_hidden|hide automatically artifactory]] (components used to create page but are not page themselves)
+  * ''ComboStrap'' can automatically hide [[quality:low_quality_page|low quality page]] until they get a correct quality score. See [[quality:lqpp]]
 
 ===== Documentation / Reference =====
   * More on the official [[doku>config:hidepages|DokuWiki documentation]]

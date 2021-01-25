@@ -21,4 +21,4 @@ For instance:
 
   * All ''bar'' follows the same convention than  a [[doku>faq:sidebar|sidebar]]
   * A ''bar'' can defined by namespace (directory), if there is a ''bar'' page created in a namespace, this bar has a higher priority than the root bar and is rendered for this namespace.
-  * A ''bar'' is automatically [[seo:automatic_hidden|hidden]].
+  * A ''bar'' is automatically [[quality:automatic_hidden|hidden]].

@@ -1,0 +1,51 @@
+====== ComboStrap Quality - Low Quality Page ======
+
+===== About =====
+''Low quality page'' are pages that have a really poor added value for readers.
+
+This kind of page have this characteristics:
+  * thin content - the number of words is really low
+  * no internal link - they don't link to other page
+  * no internal backlink - no other page links back to them
+  * few edits - the page has got a few edits.
+
+
+
+
+===== Articles Related =====
+{{backlinks>.}}
+
+
+===== SEO impact and Protection =====
+
+They have a real negative impact on your [[seo:seo|SEO]] score and should be avoid at all cost. 
+''ComboStrap'' has even developed a [[quality:lqpp|low quality page protection feature]] because you can get badly impacted by them. 
+
+{{:seo:low_quality_content_effect.png?600|}}
+
+For more information, see [[quality:lqpp]]
+
+
+===== Definition =====
+
+The definition of what a ''low quality page'' is, is an ongoing process and a really large and subjective SEO subject. 
+
+For ''ComboStrap'', a ''low quality page'' is a page that does not pass the [[rule#mandatory|mandatory quality rules]].
+
+
+===== List =====
+
+You can [[analytics:query|query]] them with the following SQL.
+
+<code sql>
+select
+	id,
+	json_extract(analytics,'$.quality.failed_mandatory_rules') as failed_rules,
+	json_extract(analytics,'$.statistics.words_count') as words,
+	json_extract(analytics,'$.statistics.internal_links_count') as internal_links,
+	json_extract(analytics,'$.statistics.internal_backlinks_count') as internal_backlinks
+from
+	pages
+where
+json_extract(analytics, '$.quality.low') = true
+</code>
