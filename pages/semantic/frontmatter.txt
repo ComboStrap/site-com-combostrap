@@ -12,13 +12,13 @@
 ''Front Matter'' is a dokuwiki plugin that:
   * permits to add dokuwiki metadata in a json format.
   * add metadata into the HTML page:
-      * [[:seo|SEO]]
+      * [[seo:seo|SEO]]
           * [[description|description]]
           * [[canonical|canonical]]
       * Twitter (todo)
       * Facebook (todo)
 
-It borrows its name from the [[https://datacadamia.com/markup/front-matter|front matter book]]
+It borrows its name from the [[kb>markup:front-matter|front matter book]]
 
 
 

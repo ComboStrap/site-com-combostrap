@@ -1,0 +1,26 @@
+====== ComboStrap - Hidden Page / Resource ======
+
+
+===== About =====
+A ''hidden'' resource (page, image, file, ...) is a resource that is:
+  * not published to Search Engine (ie not included in the [[sitemap|sitemap]] and not pinged)
+  * not included 
+      * in the [[ui:ntoc|sidebar menu]]
+      * in the change log feeds
+  * not visible:
+      * when searching
+      * in internal backlinks.
+
+<note>
+In short, the page is still accessible directly (with the URL) but is no more visible.
+</note>
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Features =====
+  * ''ComboStrap'' [[automatic_hidden|hide automatically artifactory]] (components used to create page but are not page themselves)
+  * ''ComboStrap'' can automatically hide [[low quality page|low quality page]] until they get a correct quality score. See [[lqpp]]
+
+===== Documentation / Reference =====
+  * More on the official [[doku>config:hidepages|DokuWiki documentation]]

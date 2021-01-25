@@ -1,0 +1,50 @@
+---json
+{
+    "canonical":"lqpp"
+}
+---
+
+====== ComboStrap SEO - Low Quality Page Protection ======
+
+
+===== About =====
+If your website has a lot of [[low_quality_page|low quality page]]:
+  * your SEO score will be lower
+  * you can even get at worse the [[#Thin content with little or no added value]] penalty and be deleted from the search engine inde.
+
+
+This feature if [[#enable|enabled]] makes [[low_quality_page|low quality page]] no more discoverable by Search Engine and prevents you to be banned by [[kb>search:engine|Search Engine]].
+
+===== Thin content with little or no added value =====
+The ''Thin content with little or no added value'' is explained in the [[https://support.google.com/webmasters/answer/9044175#thin-content|webmaster documentation]]
+
+If you are going to the [[kb>google:search:console|Google Search Console]], you would see the following alert.
+
+<note warning>
+This site appears to contain a significant percentage of low-quality or shallow pages that do not provide users with much added value (such as thin affiliate pages, cookie-cutter sites, doorway pages, automatically generated content or copied content).
+</note>
+
+The effect is that:
+  * Your website is deleted from the [[kb>search:engine|Search Engine Index]]
+  * Your website will then be no more discoverable
+  * and your visits will plunge.
+
+
+{{:seo:low_quality_content_effect.png?600|}}
+
+
+===== Configuration =====
+==== Enable ====
+This protection is disabled by default. If you want to enable it, you need to check the ''lowQualityPageProtectionEnable'' checkbox.
+
+==== Mode ====
+The protection mode determines how the page is protected from Search Engine.
+
+There is two possibilities:
+  * [[automatic_hidden|Hidden]] (default) - The page is still accessible directly but is not searchable. A visitor coming from an external link (such as backlinks or email) will be able to see the page but the page will not be advertised to Search Engine.
+  * ''ACL'' (''Access Control Lists'') - The page is not accessible to anonymous user. The user needs to log in to see the page.
+
+
+===== Documentation / Reference =====
+  * https://support.google.com/webmasters/answer/9044175#thin-content
+  * https://developers.google.com/search/docs/advanced/guidelines/auto-gen-content
