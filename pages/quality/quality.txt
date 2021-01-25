@@ -12,7 +12,16 @@ The ''quality module'' aims to measure and keep the quality of the website high.
 This module regroups the following functionalities:
   * [[quality:automatic_hidden]]
   * [[quality:lqpp]]
-  * [[url:404]]
+  * [[rule|Quality rule]]
+  * [[score|Quality score]]
+
+<note>
+The [[url:404|missing page management]] also improves the quality of the website.
+</note>
+
+===== Analytics =====
+
+All the quality data can be found and queried under the ''quality'' node of the [[analytics:data|analytical data]].
 
 
 

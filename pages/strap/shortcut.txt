@@ -1,0 +1,15 @@
+====== Strap template - Keyboard Shortcut ======
+
+===== About =====
+''strap'' adds keyboard shortcut in order to be able to navigate the functionalities.
+
+===== List =====
+
+
+In Chrome:
+
+  * ''Shift + Alt + E'' to edit a page
+      *  ''Shift + Alt + L'' for the link wizard.
+      * ''Shift + Alt + P'' for preview
+      * ''Shift + Alt + S'' for save
+  * ''Alt + Shift + F'' or ''Alt + D then Tab'' to go to the [[ui:search|search box]]

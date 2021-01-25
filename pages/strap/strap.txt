@@ -32,6 +32,7 @@ The ''strap'' template supports the following features:
   * Support a [[ui:trail_breadcrumb|trailing breadcrumb]]
   * [[styling:scale|Size Scale configuration (font and spacing)]]
   * [[getting_started:4_favicon|Favicon]]: Recognized the [[getting_started:4_favicon|favicons]]  (included ''android-chrome-192x192.png'')
+  * [[shortcut]]
 
 
 

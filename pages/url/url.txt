@@ -24,7 +24,9 @@ In case of [[url:404|missing page]], the ''URL Manager'' can [[redirection|redir
     * a reader (ie public or search engine) to the best page following an [[redirection|algorithm]].
     * shows [[message|a message (with optionally a list of the pages with the same name)]]
 
-
+<note>
+By setting a [[semantic:canonical|canonical]], you will have [[nice|nice url]].
+</note>
 
 
 

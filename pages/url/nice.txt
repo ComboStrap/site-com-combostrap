@@ -7,7 +7,7 @@
 ====== ComboStrap URL Management - Nice URL ======
 
 
-===== About =====
+
 <note>
 This is an informative page about nice URL
 </note>
