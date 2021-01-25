@@ -16,42 +16,13 @@ By default, Dokuwiki will show an empty page.
 
 {{:url:dokuwiki_200.jpg|}}
 </note>
-===== The problem =====
-
-A [[doku>pagename|DokuWiki page]] may become unavailable if it has been:
-  * moved
-  * deleted
-  * or renamed
-In this case, the webserver should return a ''404 web page'' along with a [[wp>HTTP_404|hard HTTP 404 response]] (meaning that the ''Page Was Not Found'')
-
-<illustration name="404" />
-
-It hurts:
-  * [[#user_experience|user experience]]
-  * [[#user_experience|page views]]
-  * [[#user_experience|ads revenue]]
-  * and [[#domain_authority|domain authority]]
-
-==== User experience ====
-Showing a ''404 page'', next to the fact that this is not really friendly, generally means that your users end their navigation with the following consequences:
-  * the [[kb>bounce/rate|bounce rate]] increases
-  * the number of [[kb>page:views|page views]] decreases.
-  * and if you are showing ''ads'', your revenue will decrease because you can't show ads on a ''404 page'' as it's a violation of ad policies. (Example with [[https://support.google.com/adspolicy/answer/6368661?hl=en|Google Ads]])
-
-==== Domain Authority ====
-[[kb>domain/authority|domain authority]] is a [[:seo|SEO]] metrics based on [[kb>backlink#external|external backlinks]]. (A external backlink is a [[kb>hyperlink|hyperlink]] from a website to your website).
-
-When your page does not exist and returns a ''404 response'', this backlinks are not validated and your are losing [[kb>domain/authority|authority]].
-
-
 ===== Features =====
 
 
-In case of missing page, the ''URL Manager'' can [[redirection|redirect]]:
+In case of [[seo:404|missing page]], the ''URL Manager'' can [[redirection|redirect]]:
     * a writer to the edit mode
-    * a user to the best page following an algorithm.
-    * shows [[message|a message with optionally the pages with the same name]]
-    * and more ... see [[redirection]]
+    * a reader (ie public or search engine) to the best page following an [[redirection|algorithm]].
+    * shows [[message|a message (with optionally a list of the pages with the same name)]]
 
 
 

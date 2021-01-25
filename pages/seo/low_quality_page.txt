@@ -6,13 +6,13 @@
 This kind of page have this characteristics:
   * thin content - the number of words is really low
   * no internal link - they don't link to other page
-  * no internal backlink - no other page links back to this page
-  * few edits - the page has been edited no more than a couple of time
+  * no internal backlink - no other page links back to them
+  * few edits - the page has got a few edits.
 
 
 <note tip>
 They have a real negative impact on your SEO score and should be avoid at all cost. 
-''ComboStrap'' has even developed a [[lqpp|low quality page protection feature]] because a client has been badly impacted by them. 
+''ComboStrap'' has even developed a [[lqpp|low quality page protection feature]] because you can get badly impacted by them. 
 
 For more information, see [[lqpp]]
 </note>

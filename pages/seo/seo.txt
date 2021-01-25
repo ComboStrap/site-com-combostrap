@@ -9,6 +9,7 @@ On a website level, it means:
   * [[#page metadata|good semantic (page metadata / web structure)]]
   * [[#performance|good page speed]]
   * [[sitemap|discoverability]]
+  * No [[404|missing pages]]
 
 
 

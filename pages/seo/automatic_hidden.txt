@@ -5,10 +5,10 @@
 
 The [[:combo|combo plugin]] automatically [[hidden|hides]]:
   * the [[strap:bar|bars]]
-  * the ''combostrap'' private namespace.
+  * the ''combostrap'' private namespace (where [[ui:icon|icons]] and other internal component are saved)
 
 
-This page resource are still accessible but should not be advertised to the outside world because they are just component and not fully readable page.
+This page resource are still accessible but should not be advertised to the outside world because they are just component and have [[low_quality_page|low value]].
 
 This is a component of the [[seo:quality|quality seo module]].
 ===== Articles Related =====

@@ -13,6 +13,8 @@ ComboStrap
 [[semantic:semantic|Meta Manager]]
 [[:seo:seo|Search Engine Optimization]]
 [[:ads:ads|Ads]]
+[[:strap:strap|Templating]]
+[[:analytics:analytics|Analytics]]
 </dropdown>
 [[support|Help / Questions / Wishes ?]]
 </group>

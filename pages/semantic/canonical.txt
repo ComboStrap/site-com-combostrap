@@ -16,7 +16,7 @@ The ''canonical'' value:
   * does not need to be the [[doku>pagename]]
   * is always lowercase
 
-The ''canonical'' component is a part of the [[:seo|SEO]] module.
+The ''canonical'' component is a part of the [[seo:seo|SEO]] module.
 ===== Articles Related =====
 {{backlinks>.}}
 

@@ -1,13 +1,14 @@
-====== ComboStrap URL Management - Log redirections ======
+====== ComboStrap URL Management - Log redirections History ======
 
 
 
-===== Data Store =====
+===== About =====
+
+This page shows you how you can query the  [[redirection|redirection]] history table  stored in the [[analytics:database|database]]
 
 
-You can find the meta data for the last version: in the Sqlite Database DOKUWIKI_HOME/data/meta/.sqlite3
-
-With the SQLite plugin, the data can be queried directly through its admin page.
+===== Articles Related =====
+{{backlinks>.}}
 
 ===== Example =====
 

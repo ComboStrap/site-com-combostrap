@@ -1,0 +1,18 @@
+====== Analytics - Database ======
+
+
+===== About =====
+All data are store in Sqlite Database stored at ''DOKUWIKI_HOME/data/meta/.sqlite3''
+
+Depending on your history with our plugins, its name may be:
+  * ''combo.sqlite3''
+  * ''webcomponent.sqlite3'' (older)
+  * ''404manager.sqlite3'' (older)
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== How to query online =====
+
+With the SQLite plugin, the data can be queried directly through the admin page.
+

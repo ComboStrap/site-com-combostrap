@@ -10,8 +10,8 @@
 The [[seo:seo|SEO quality module]] aims to measure and keep the quality of the website high.
 
 This module regroups the following functionalities:
-  * [[strap:hidden]]
-  * [[low]]
+  * [[seo:automatic_hidden]]
+  * [[lqpp]]
 
 
 
