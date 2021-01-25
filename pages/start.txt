@@ -83,7 +83,7 @@ will help you define the description or get back authority
 by recovering broken back links and more.
 
 <btn secondary class="mt-3">
-[[seo:seo|Check the SEO module]]
+[[seo|Check the SEO module]]
 </btn>
 </card>
 

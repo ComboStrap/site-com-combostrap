@@ -4,7 +4,7 @@
 ===== About =====
 A ''page alias'' is ''id alias'' for a page.
 
-It's used with the [[redirection|redirection module]]. If a ''page'' has an alias that corresponds to a [[seo:404|missing page]], a [[id_redirect|id redirection]] will be performed.
+It's used with the [[redirection|redirection module]]. If a ''page'' has an alias that corresponds to a [[url:404|missing page]], a [[id_redirect|id redirection]] will be performed.
 
 ===== Articles Related =====
 {{backlinks>.}}

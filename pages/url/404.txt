@@ -28,7 +28,7 @@ Showing a ''404 page'', next to the fact that this is not really friendly, gener
   * and if you are showing ''ads'', your revenue will decrease because you can't show ads on a ''404 page'' as it's a violation of ad policies. (Example with [[https://support.google.com/adspolicy/answer/6368661?hl=en|Google Ads]])
 
 ==== Domain Authority ====
-[[kb>domain/authority|domain authority]] is a [[seo:seo|SEO]] metrics based on [[kb>backlink#external|external backlinks]]. (A external backlink is a [[kb>hyperlink|hyperlink]] from a website to your website).
+[[kb>domain/authority|domain authority]] is a [[:seo|SEO]] metrics based on [[kb>backlink#external|external backlinks]]. (A external backlink is a [[kb>hyperlink|hyperlink]] from a website to your website).
 
 When your page does not exist and returns a ''404 response'', this backlinks are not validated and your are losing [[kb>domain/authority|authority]].
 

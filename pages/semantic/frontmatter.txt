@@ -12,7 +12,7 @@
 ''Front Matter'' is a dokuwiki plugin that:
   * permits to add dokuwiki metadata in a json format.
   * add metadata into the HTML page:
-      * [[seo:seo|SEO]]
+      * [[:seo|SEO]]
           * [[description|description]]
           * [[canonical|canonical]]
       * Twitter (todo)

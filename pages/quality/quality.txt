@@ -12,7 +12,7 @@ The ''quality module'' aims to measure and keep the quality of the website high.
 This module regroups the following functionalities:
   * [[quality:automatic_hidden]]
   * [[quality:lqpp]]
-  * [[seo:404]]
+  * [[url:404]]
 
 
 

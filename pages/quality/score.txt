@@ -9,20 +9,26 @@
 {{backlinks>.}}
 ===== Example =====
 
-The quality score can be seen in the ''quality'' section of the [[analytics:data|analytical data]].
+The quality score can be seen in the ''quality'' section of the [[analytics:data|analytical data]]. 
+<note info>
+When the score is ''0'', it means that the [[#score|score rule]] failed.
+</note>
+
 <file json>
 "scoring": {
 	"score": 45, // The score total
 	"scores": { // The details
+		"canonical_present": 0,
 		"correct_content_length": 10,
 		"correct_outline": 3,
+		"correct_word_avg_by_section": 10,
 		"description_present": 8,
-		"edits_count": 5,
+		"edits_count": 0,
 		"internal_backlinks_count": 3,
 		"internal_links_count": 3,
 		"no_fixme": 1,
 		"no_internal_broken_links_count": 2,
-		"title_present": 10
+		"title_present": 0
 	}
 }
 </file>
@@ -36,16 +42,19 @@ The calculation formula is based on:
    * and the [[semantic:semantic|page metadata]]
 
 ^ Score ^ Points ^ Description ^
+| ''canonical_present'' | 5 | the [[semantic:canonical|canonical]] should be present. |
 | ''correct_content_length'' | 10 | When the page has a content length between a minimum and maximum of words |
 | ''correct_outline'' | 3 | when the outline (headers) of the page are in correct order |
+| ''correct_word_avg_by_section'' | 3 | when the average words by section is between a minimum and maximum of words |
+| ''description_present'' | 8 | the [[semantic:description|description]] is the second important metadata shown on [[kb>SERP|SERP page]] |
 | ''edits_count'' | 0.5 | The more edits, the more quality (points are by edits. 4 edits = 2 points) |
 | ''internal_backlinks_count'' | 0.5 | The more backlinks, the better (points are by edits. 4 links = 2 points) |
 | ''internal_links_count'' | 0.5 | The more internal link, the better (points are by edits. 4 links = 2 points) |
 | ''no_fixme'' | 1 | point if the page does not have any ''fixme'' |
 | ''no_internal_broken_links_count'' | 2 | points if the page does not have any ''broken link'' |
 | ''title_present'' | 10 | the [[semantic:title|title]] is the most important metadata shown on [[kb>SERP|SERP page]]  |
-| ''description_present'' | 8 | the [[semantic:description|description]] is the second important metadata shown on [[kb>SERP|SERP page]] |
-| ''canonical_present'' | 5 | the [[semantic:canonical|canonical]] should be present. |
+
+
 
 ===== Own score implementation =====
 <note tip>

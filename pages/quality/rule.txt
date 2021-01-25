@@ -1,12 +1,20 @@
+---json
+{
+    "canonical":"quality:rule",
+    "title":"The content quality rule of a page that ComboStrap applies",
+    "description":"Learn about how to use the quality rule feature to improve the quality of your website"
+}
+---
+
 ====== ComboStrap Quality - Quality Rules ======
 
 
 ===== About =====
-''quality rules'' are rules that have only two states:
+''quality rules'' check the quality of a page and gives quality target at the same time.
+
+They have only two states:
   * ''passed''
   * or ''failed''
-
-They check the quality of a page and gives quality target at the same time.
 
 They can be seen in the ''quality'' section of the [[analytics:data|analytical data]].
 
@@ -51,3 +59,19 @@ They can be seen in the ''quality'' section of the [[analytics:data|analytical d
 | ''words_by_section_avg_min'' | A page should have at minimal a average of 20 words by section |
 | ''words_max'' | A page should have at maximal 1500 words |
 | ''words_min'' | A page should have at minimal 50 words. |
+
+===== Mandatory =====
+
+You can set mandatory rules in the ''mandatoryQualityRules'' [[:configuration|configuration]].
+
+The default values are:
+  * ''words_min'',
+  * ''internal_backlinks_min'',
+  * ''internal_links_min''
+
+If one of this rules does not pass, the page will be considered as a [[low_quality_page|low quality page]].
+
+
+<note>
+If the [[lqpp|low quality page protection]] is [[lqpp#enable|enabled]], the page will then not be publicly visible.
+</note>

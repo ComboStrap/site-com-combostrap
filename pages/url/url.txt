@@ -19,7 +19,7 @@ By default, Dokuwiki will show an empty page.
 ===== Features =====
 
 
-In case of [[seo:404|missing page]], the ''URL Manager'' can [[redirection|redirect]]:
+In case of [[url:404|missing page]], the ''URL Manager'' can [[redirection|redirect]]:
     * a writer to the edit mode
     * a reader (ie public or search engine) to the best page following an [[redirection|algorithm]].
     * shows [[message|a message (with optionally a list of the pages with the same name)]]
