@@ -9,7 +9,7 @@
 
 ===== About =====
 If your website has a lot of [[quality:low_quality_page|low quality page]]:
-  * your [[seo:seo|SEO]] score will be lower
+  * your [[:seo|SEO]] score will be lower
   * you can even get at worse the [[#Thin content with little or no added value]] penalty and be deleted from the search engine inde.
 
 

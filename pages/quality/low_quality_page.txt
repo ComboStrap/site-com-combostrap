@@ -18,7 +18,7 @@ This kind of page have this characteristics:
 
 ===== SEO impact and Protection =====
 
-They have a real negative impact on your [[seo:seo|SEO]] score and should be avoid at all cost. 
+They have a real negative impact on your [[:seo|SEO]] score and should be avoid at all cost. 
 ''ComboStrap'' has even developed a [[quality:lqpp|low quality page protection feature]] because you can get badly impacted by them. 
 
 {{:seo:low_quality_content_effect.png?600|}}

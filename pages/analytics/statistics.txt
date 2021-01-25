@@ -1,8 +1,15 @@
+---json
+{
+   "canonical":"statistics",
+   "description":"The statistics feature allows you to query your page statistics such as word count, internal, backlinks and get insight on your whole website at once."
+}
+---
+
 ====== ComboStrap Analytics - Page Statistics ======
 
 
 ===== About =====
-The ''ComboStrap Page Statistics'' are a list of ''page statistics'' that are available in the [[data|analytical data]]
+The ''ComboStrap Page Statistics'' are a list of ''page statistics'' that are available in the [[data|analytical data]].
 
 
 ===== Example Words Summary =====
