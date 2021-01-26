@@ -38,7 +38,7 @@ And this is the result that we get on this website.
 ^ page_count ^ words_avg ^ words_count ^ words_max ^ words_min ^
 |136|131|17865|1100|4|
 
-===== List =====
+===== See =====
 
 You can see them by having a look to the [[data|data]] of a page with the export URL. For instance, for this page, you could check them at the following URL 
 
@@ -46,7 +46,31 @@ You can see them by having a look to the [[data|data]] of a page with the export
 [[?do=export_combo_analytics]]
 </btn>
 
-List:
+You would see the ''statistics'' below the ''statistics'' property:
+<code json>
+"statistics": {
+	"chars_count": 1919,
+	"fixme": 0,
+	"headers_count": {
+		"h1": 1,
+		"h2": 3
+	},
+	"internal_backlinks_count": 5,
+	"internal_links_count": 3,
+	"internal_links_distance": {
+		"avg": 0,
+		"max": 0,
+		"min": 0
+	},
+	"word_section_count": {
+		"avg": 75
+	},
+	"words_count": 225
+}
+</code>
+
+===== Definition =====
+
   * ''authors'' the authors and their number of edits
   * ''edits_count'': the number of edits
   * ''chars_count'': the number of chars

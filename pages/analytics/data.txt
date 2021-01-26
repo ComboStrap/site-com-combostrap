@@ -52,3 +52,23 @@ json_extract(analytics, '$.quality.low') = true
 <note>
 To know how to query the database online, check this page [[query]]
 </note>
+
+===== JSON Support =====
+[[https://www.sqlite.org/json1.html|JSON]] supports was added for SQLite 3.9.0 (2015-10-14).
+  * You can verify your version with this [[query|query]]
+<code sql>
+select sqlite_version();
+</code>
+  * You can also verify that you have the JSON extension compiled with the following pragma
+<code sql>
+PRAGMA compile_options;
+</code>
+  * An extension can be installed .
+
+<note tip>
+If you don't have the [[https://www.sqlite.org/json1.html|JSON extension]] or can't install it, you can always download the [[database|database file]] and query it locally for instance with [[https://dbeaver.io/|dbeaver]]
+</note>
+
+
+
+

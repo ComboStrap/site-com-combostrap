@@ -14,6 +14,12 @@ The following pages are not included in the ''sitemap'':
 
 
 
+===== Link =====
+
+The ''sitemap'' file is available:
+  * via URL at [[http://combostrap.com/doku.php?do=sitemap]]
+  * or locally ''dokuwiki/data/cache/sitemap.xml.gz''
+
 ===== Configuration =====
 
 ==== Enable ====

@@ -1,3 +1,10 @@
+---json
+{
+   "canonical":"low_quality_page"
+}
+---
+
+
 ====== ComboStrap Quality - Low Quality Page ======
 
 ===== About =====
@@ -48,4 +55,17 @@ from
 	pages
 where
 json_extract(analytics, '$.quality.low') = true
+</code>
+
+===== Analytics =====
+Below are some analytical SQL that you can [[analytics:query|use to get insight]]
+  * Low quality page rate
+<code sql>
+select
+    json_extract(analytics, '$.quality.low') as low,
+    count(*)
+from
+   pages
+group by 
+   low
 </code>
