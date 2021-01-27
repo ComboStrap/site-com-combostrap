@@ -7,7 +7,7 @@
 ====== ComboStrap UI - Math ======
 
 ===== About =====
-The ''math'' component allows to add [[http://docs.mathjax.org/|MathJax Text and Latex formulas]] 
+The ''math'' [[ui|component]] allows to add [[http://docs.mathjax.org/|MathJax Text and Latex formulas]] 
 
 
 

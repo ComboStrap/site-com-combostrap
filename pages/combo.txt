@@ -1,25 +1,27 @@
 <container width="400px" style="text-align:center" >
-====== Combo plugin ======
+====== Combo ======
 
 
 
 
 <card>
-The ''combo'' plugin is a combo of [[doku>plugins|Dokuwiki plugins]] that complements the [[strap:strap|Strap template]].
+''combo'' is the powerhouse of the ''ComboStrap''.
 
-It contains most of the components such as:
+It's a [[doku>plugins|Dokuwiki plugin]] that complements the [[strap:strap|Strap template]].
+
+It contains most of the UI and functional components such as:
   * the [[ui:ui|UI Components]]
   * the [[url:url|Url Manager]]
   * the [[semantic:semantic|Meta Manager]]
   * the [[css|CSS optimizer]]
+  * the [[quality:quality|quality module]]
+  * the [[analytics:analytics|analytics module]]
 
-This [[ui:card|UI card]] is one of the many examples.
+This [[ui:card|UI card]] is one of the many UI examples.
+
 <btn>
 [[getting_started:getting_started|Interested ? Get Started !]]
 </btn>
 </card>
-
-\\
-\\
 
 </container>
