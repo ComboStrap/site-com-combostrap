@@ -51,7 +51,7 @@ where:
 [[$id|$title]]
 </index>
 <page-item>
-<icon name="file"/>[[$id|<pipeline>"$title" | replace("ComboStrap UI - ","")</pipeline>]]
+<icon name="file"/>[[$id|<pipeline>"$h1" | replace("ComboStrap UI - ","")</pipeline>]]
 </page-item>
 </ntoc>
 </code>

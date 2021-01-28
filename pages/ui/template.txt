@@ -8,15 +8,16 @@
 {{backlinks>.}}
 
 ===== Example =====
-Example of template used in a [[ntoc|namespace toc]] to create a link where the words ''ComboStrap UI - '' from the ''title''
+Example of template used in a [[ntoc|namespace toc]] to create a link where the words ''ComboStrap UI - '' are deleted from the [[semantic:h1|h1]]
 <code dw>
-[[$id|<pipeline>"$title" | replace("ComboStrap UI - ","")</pipeline>]]
+[[$id|<pipeline>"$h1" | replace("ComboStrap UI - ","")</pipeline>]]
 </code>
 
 ===== Variables =====
 The following variables can be used in a ''template'':
   * ''$id'' - the id of the page
-  * ''$title'' - the [[semantic:title|title]] of the page
+  * ''$title'' - the [[semantic:title|title]] of the page - if empty, the ''h1''
+  * ''$h1'' - the [[semantic:h1|h1 title]] (the first header text of the page) - if empty, the ''title''.
 
 ===== Transformation =====
 A ''template'' supports text transformation through the use of a [[pipeline|pipeline]].

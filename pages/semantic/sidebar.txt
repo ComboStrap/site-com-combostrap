@@ -2,10 +2,10 @@
 
 <ntoc color="info">
 <index>
-[[$id|<pipeline>"$title" | replace("ComboStrap -","")</pipeline>]]
+[[$id|<pipeline>"$h1" | replace("ComboStrap -","")</pipeline>]]
 </index>
 <page-item>
-[[$id|<pipeline>"$title" | replace("ComboStrap Page Metadata - ","")</pipeline>]]
+[[$id|<pipeline>"$h1" | replace("ComboStrap Page Metadata - ","")</pipeline>]]
 </page-item>
 </ntoc>
 

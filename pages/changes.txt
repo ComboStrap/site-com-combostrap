@@ -36,6 +36,7 @@ List:
   * New: [[analytics:analytics|analytics module]] that adds [[analytics:data|analytical data]] on [[analytics:statistics|page statistics]] and quality.
   * New: [[quality:quality|quality  module]] with [[quality:lqpp|low quality page protection]], [[quality:score|quality score]] and [[quality:rule|quality rules]]
   * New ''auto frontmatter'' feature  - a [[semantic:frontmatter|frontmatter]] is created for a new page
+  * New ''h1'': The [[semantic:h1|h1 metadata]] has been added in order to have the notion of a short [[semantic:title|title page]].
 
 You can install the snapshot :
   * for [[combo|Combo]]: manually using this [[https://combostrap.com/combo-snapshot.zip|URL]]

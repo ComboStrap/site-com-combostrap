@@ -12,9 +12,16 @@
 
 ===== About =====
 
-''ComboStrap'' can manage the ''title'' of a web page.
+''ComboStrap'' can manage the meta ''title'' of a web page.
 
+This ''title'' will:
+  *  show up in the [[kb>serp|Search Engine Result Pages (SERP)]]
+  *  show up in the title bar at the top of the web browser, 
+  * be used when someone bookmarks the page.
 
+<note>
+''ComboStrap'' captures also the [[h1|h1]] that you can then use in a template such as the [[ui:ntoc|navigational toc]].
+</note>
 ===== Articles Related =====
 {{backlinks>.}}
 

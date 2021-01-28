@@ -18,7 +18,7 @@ A ''pipeline'' is a element that contains a list of function (called a ''pipelin
 <pipeline> value | function | function | ... </pipeline>
 </code>
 where:
-  * ''value'' is the string to transform
+  * ''value'' is the string to transform or a [[template#variable|template variable]]
   * ''function'' is one of:
       * [[#replace]] -  replace a string
       * [[#rconcat]] - add a string at the right side

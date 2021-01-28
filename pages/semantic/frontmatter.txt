@@ -1,7 +1,7 @@
 ---json
 {
     "canonical":"frontmatter",
-    "title":"Frontmatter - a component that lets you set your metadata for your page ",
+    "title":"Frontmatter - (Set your page metadata)",
     "description":"The metadata such as title and description will show up in the Search Engine Result Pages but also helps create Search Snippet."
 }
 ---
