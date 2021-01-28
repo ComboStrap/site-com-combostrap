@@ -2,9 +2,7 @@
 
 
 ===== About =====
-The ''cite'' element
-
-It can go anywhere but you should find it most often in a [[ui:blockquote|blockquote]].
+The ''cite'' element will give credit to a portion of text. It can go anywhere but you put mostly in a [[ui:blockquote|blockquote]].
 
 ===== Articles Related =====
 {{backlinks>.}}
@@ -13,17 +11,33 @@ It can go anywhere but you should find it most often in a [[ui:blockquote|blockq
 
 ==== Basic ====
 
+  * Markup
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <cite>The credits goes to</cite>
 </code>
+  * Output:
 </webcode>
 
 ==== With style ====
 With the [[styling:style|style]] attribute and the ''blue'' [[styling:color|color]]
+  * Markup
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <cite style="color:var(--blue)">The credits goes to</cite>
 </code>
+  * Output:
 </webcode>
 
+==== With Blockquote ====
+With a [[blockquote|blockquote]]
+  * Markup
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<blockquote>
+    It's not the Destination, It's the journey.
+    <cite style="color:#2780E3">Ralph Waldo Emerson</cite>
+</blockquote>
+</code>
+  * Output:
+</webcode>

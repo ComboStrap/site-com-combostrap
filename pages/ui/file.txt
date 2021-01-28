@@ -32,9 +32,7 @@ The `file` component:
 {{backlinks>.}}
 
 ===== Syntax =====
-This is a [[styling:prism|Prism component]] and follows its [[styling:prism#syntax]]
-
-See [[styling:prism#syntax|prism syntax]]
+This is a [[styling:prism|Prism component]] and follows its [[styling:prism#syntax]]. You should then check the [[styling:prism#syntax|prism syntax]] for all details.
 
 
 

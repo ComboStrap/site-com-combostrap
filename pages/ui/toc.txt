@@ -7,7 +7,11 @@
 ====== ComboStrap UI - Table of Content (TOC) ======
 
 ===== About =====
-The ''toc'' is actually a feature of the [[renderer|combo renderer]]. It will be printed below the first heading. 
+The ''toc (table of content)'' is actually a feature of the [[renderer|combo renderer]]. 
+
+It will be actually printed below the first heading with the the outline created by the [[heading|headings]] ang gives to the reader an overview of your document.
+
+
 
 ===== Articles Related =====
 {{backlinks>.}}

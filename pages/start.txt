@@ -138,7 +138,7 @@ and revenue.
 
 
 <card>
-==== Analytics Powered ====
+==== Page Analytics Powered ====
 Do you have any questions on your website ?
 Answer them all with the ''analytics''  module.
 

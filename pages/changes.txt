@@ -7,15 +7,11 @@ This is a page that lists all releases with their respective changes for [[:star
 
 ==== Planned ====
 
-  * [[ui:grid|Grid attributes]] for row and column
-  * [[ui:toc]]
   * Don't redirect missing [[:strap:bar|bars]]
   * Add [[https://www.bryanbraun.com/anchorjs/|Deep Linking anchor]]
   * Add a [[https://getbootstrap.com/docs/4.4/components/carousel/|Carrousel]]
   * Add a [[https://getbootstrap.com/docs/4.4/content/figures/|caption to image]]
-  * Add [[https://www.bootstrapcdn.com/bootswatch/|bootswatch theme]]
   * Add notification panel with a bell icon to show short updates ([[https://material-ui.com/|Example]])
-  * Chat
 
 
 
@@ -33,7 +29,7 @@ List:
   * New: the [[ui:preformatted|preformatted mode]] of dokuwiki is disabled by default in order to be able to write hierarchical block.
   * New: the [[ui:collapse#attribute|collapse attribute]]: a control element such as a [[ui:button|button]] with this attribute can collapse a target component.
   * Fix:  Deleted the clearfix ''group'' class css style of dokuwiki that was giving a line break on the [[styling:prism#regex_language|prism regex language]].
-  * New: [[analytics:analytics|analytics module]] that adds [[analytics:data|analytical data]] on [[analytics:statistics|page statistics]] and quality.
+  * New: [[analytics:analytics|analytics module]] that adds [[analytics:data|analytical data]] on [[analytics:statistics|page statistics]] and [[quality:quality|quality]] (with automatic refresh when backlinks are created or deleted).
   * New: [[quality:quality|quality  module]] with [[quality:lqpp|low quality page protection]], [[quality:score|quality score]] and [[quality:rule|quality rules]]
   * New ''auto frontmatter'' feature  - a [[semantic:frontmatter|frontmatter]] is created for a new page
   * New ''h1'': The [[semantic:h1|h1 metadata]] has been added in order to have the notion of a short [[semantic:title|title page]].
