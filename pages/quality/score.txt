@@ -4,12 +4,13 @@
 ===== About =====
 ''ComboStrap'' calculates automatically a ''quality score'' for each page.
 
+<badge>Since [[:changes|version 1.11]]</badge>
 
 ===== Articles Related =====
 {{backlinks>.}}
 ===== Example =====
 
-The quality score can be seen in the ''quality'' section of the [[analytics:data|analytical data]]. 
+The quality score can be seen in the ''quality'' section of the [[analytics:data|analytical data]].
 <note info>
 When the score is ''0'', it means that the [[#score|score rule]] failed.
 </note>

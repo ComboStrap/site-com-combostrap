@@ -18,6 +18,7 @@ They have only two states:
 
 They can be seen in the ''quality'' section of the [[analytics:data|analytical data]].
 
+<badge>Since [[:changes|version 1.11]]</badge>
 
 ===== Example =====
 <file json>

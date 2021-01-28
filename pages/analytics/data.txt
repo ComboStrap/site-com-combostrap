@@ -5,10 +5,11 @@
 ''ComboStrap'' performs regularly analytical calculation on pages.
 
 
+<badge>Since [[:changes|version 1.11]]</badge>
 
 ===== Format =====
 The analytical data are composed of three parts:
-  * [[semantic:semantic|metadata]]: the metadata 
+  * [[semantic:semantic|metadata]]: the metadata
   * [[statistics|statistics]] : page statistics such as words_count, links, header
   * [[quality:quality|quality]] data:
       * ''low'' is the [[quality:low_quality_page|low quality page]] indicator
@@ -35,7 +36,7 @@ For instance, to get the data of the actual page, click on the below [[ui:button
 ==== Database ====
 The Analytical data are stored in the [[database|database]] in the ''analytics'' column of the ''page'' table in a ''json'' format. You can then query it with the [[https://www.sqlite.org/json1.html|json function of SQLite]].
 
-For instance, you can then execute a query such as the following that extracts [[quality:low_quality_page|low quality pages]] and their ''words'' and ''links'' statistics 
+For instance, you can then execute a query such as the following that extracts [[quality:low_quality_page|low quality pages]] and their ''words'' and ''links'' statistics
 <code sql >
 select
 	id,

@@ -18,15 +18,15 @@ This kind of page have this characteristics:
 
 
 
-
+<badge>Since [[:changes|version 1.11]]</badge>
 ===== Articles Related =====
 {{backlinks>.}}
 
 
 ===== SEO impact and Protection =====
 
-They have a real negative impact on your [[:seo|SEO]] score and should be avoid at all cost. 
-''ComboStrap'' has even developed a [[quality:lqpp|low quality page protection feature]] because you can get badly impacted by them. 
+They have a real negative impact on your [[:seo|SEO]] score and should be avoid at all cost.
+''ComboStrap'' has even developed a [[quality:lqpp|low quality page protection feature]] because you can get badly impacted by them.
 
 {{:seo:low_quality_content_effect.png?600|}}
 
@@ -35,7 +35,7 @@ For more information, see [[quality:lqpp]]
 
 ===== Definition =====
 
-The definition of what a ''low quality page'' is, is an ongoing process and a really large and subjective SEO subject. 
+The definition of what a ''low quality page'' is, is an ongoing process and a really large and subjective SEO subject.
 
 For ''ComboStrap'', a ''low quality page'' is a page that does not pass the [[rule#mandatory|mandatory quality rules]].
 
@@ -66,6 +66,6 @@ select
     count(*)
 from
    pages
-group by 
+group by
    low
 </code>

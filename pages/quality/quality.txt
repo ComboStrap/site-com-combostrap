@@ -19,6 +19,7 @@ This module regroups the following functionalities:
 The [[url:404|missing page management]] also improves the quality of the website.
 </note>
 
+
 ===== Analytics =====
 
 All the quality data can be found and queried under the ''quality'' node of the [[analytics:data|analytical data]].

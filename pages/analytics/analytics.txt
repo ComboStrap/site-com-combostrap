@@ -3,13 +3,15 @@
 
 ===== About =====
 ''analytics'' is a module that gives the possibility to [[query|query]] [[data|analytical data]] against a [[database|database]] in order to get insight on your website:
-  * [[quality:quality|quality]] 
+  * [[quality:quality|quality]]
   * [[statistics|statistics]]
   * [[semantic:semantic|metadata]]
   * and [[url:redirection|redirections]]
 
 
 There is a lot of possible analytics that can answer all your question.
+
+<badge>Since [[:changes|version 1.11]]</badge>
 
 ===== Getting started =====
 

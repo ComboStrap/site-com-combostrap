@@ -10,6 +10,7 @@
 ===== About =====
 When a [[http_redirect|HTTP redirection]] has occurred, the user is by default informed with a ''message''
 
+By default, this components show also a listing of existing pages that have the same name. 
 
 ===== Articles Related =====
 {{backlinks>.}}

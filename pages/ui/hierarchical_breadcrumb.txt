@@ -2,7 +2,9 @@
 
 
 ===== About =====
-A ''Hierarchical Breadcrumb'' is a [[breadcrumb|breadcrumb]] that shows where the page is located in the web site.
+A ''Hierarchical Breadcrumb'' is a [[breadcrumb|breadcrumb]] that shows where the page is located in the web site tree. 
+
+It's a [[navigation|navigational component]] that reflects the hierarchy of the URL and gives the reader the possibility to navigate to the parent (ie the start page).
 
 {{:ui:combostrap_hierarchical_breadcrumb.png?400|}}
 ===== Articles Related =====

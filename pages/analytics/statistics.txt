@@ -11,6 +11,7 @@
 ===== About =====
 The ''ComboStrap Page Statistics'' are a list of ''page statistics'' that are available in the [[data|analytical data]].
 
+<badge>Since [[:changes|version 1.11]]</badge>
 
 ===== Example Words Summary =====
 For instance, if you want to get statistics over ''words'', you could [[query|execute]] the below query.
@@ -29,7 +30,7 @@ from
 	from
 		pages
 	where
-		analytics is not null 
+		analytics is not null
 )
 </code>
 
@@ -40,7 +41,7 @@ And this is the result that we get on this website.
 
 ===== See =====
 
-You can see them by having a look to the [[data|data]] of a page with the export URL. For instance, for this page, you could check them at the following URL 
+You can see them by having a look to the [[data|data]] of a page with the export URL. For instance, for this page, you could check them at the following URL
 
 <btn>
 [[?do=export_combo_analytics]]
@@ -79,7 +80,7 @@ You would see the ''statistics'' below the ''statistics'' property:
   * ''internal_backlinks_count'': the number of internal backlinks
   * ''internal_links_count'': the number of internal links
   * ''internal_links_distance'': the distance of the internal links with the actual page. A value 2 would mean that you need to go in the directory structure:
-        * down or up 2 times 
+        * down or up 2 times
         * or down one time and up one time
   * ''word_section_count'': summary on words by section
   * ''words_count'': the number of words.

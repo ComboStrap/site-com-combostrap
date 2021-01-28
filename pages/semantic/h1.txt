@@ -9,11 +9,12 @@
 
 
 ===== About =====
-''h1'' is the text of the first header. It's a shorter page name than the [[title|title]]. 
+''h1'' is the text of the first header. It's a shorter page name than the [[title|title]].
 
 For instance, the ''h1'' for this page is ''ComboStrap Semantic - H1 title''.
 
 
+<badge>Since [[:changes|version 1.11]]</badge>
 
 ===== Usage =====
 

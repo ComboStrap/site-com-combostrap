@@ -2,13 +2,17 @@
 
 
 ===== About =====
-A ''trail breadcrumb'' is a [[breadcrumb|breadcrumb]] that shows the navigation history (the last pages that were visited).
+A ''trail breadcrumb'' is a type of [[breadcrumb|breadcrumb]] that shows the navigational history (the last pages that were visited in order).
+
+It's part of the [[navigation|navigational components]].
 
 
-{{:ui:trail_breadcrumb.png?500|}}
 ===== Articles Related =====
 {{backlinks>.}}
 
+===== Illustration =====
+
+{{:ui:trail_breadcrumb.png?500|}}
 ===== Configuration =====
 To show the trail breadcrumb, you need to set the [[doku>config:breadcrumbs|breadcrumbs]] [[:configuration|configuration]] to a number above 0.
 
