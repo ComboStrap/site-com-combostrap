@@ -16,5 +16,7 @@ It's used:
   * in the ''description'' field of the [[strap:manifest|manifest]]
   * in the home page [[semantic:title|title]].
 
+
+To enable it, you just need to set the [[doku>config:tagline|tagline]] [[:configuration|configuration]] with a value.
 ===== Articles Related =====
 {{backlinks>.}}

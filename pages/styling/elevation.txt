@@ -2,9 +2,13 @@
 
 
 ===== About =====
-''elevation'' is a [[styling:styling|styling attribute]] that elevates a [[ui:block|box]].
+''elevation'' is a [[styling:styling|styling attribute]] that elevates a [[ui:block|block]].
 
-It adds a shadow and gives the box more emphasis.
+It adds a ''shadow'' and gives the block more emphasis. 
+
+As [[color|color]], it helps prioritizing the components on your page in order to guide the viewer's eyes.
+
+It's mostly used on a ''call-to-action'' component such as a [[ui:button|button]].
 
 ===== Articles Related =====
 {{backlinks>.}}

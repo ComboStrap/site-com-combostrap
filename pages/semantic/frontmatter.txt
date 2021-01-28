@@ -1,22 +1,24 @@
-
 ---json
 {
-    "description":"Would you like to hack all the way down the hole, this article will tell you",
-    "canonical":"webcomponent:frontmatter"
+    "canonical":"frontmatter",
+    "title":"Frontmatter - a component that lets you set your metadata for your page ",
+    "description":"The metadata such as title and description will show up in the Search Engine Result Pages but also helps create Search Snippet."
 }
 ---
 
 ====== ComboStrap Page Metadata - Front Matter ======
 
 ===== About =====
-''Front Matter'' is a dokuwiki plugin that:
-  * permits to add dokuwiki metadata in a json format.
-  * add metadata into the HTML page:
-      * [[:seo|SEO]]
+''Front Matter'' is a component that:
+  * permits to add and set [[semantic|metadata]]
+  * that will be published in your HTML page for:
+      * a better [[:seo|SEO]] such as:
+          * [[title|title]]
           * [[description|description]]
           * [[canonical|canonical]]
-      * Twitter (todo)
-      * Facebook (todo)
+      * a better social experience
+          * Twitter (todo)
+          * Facebook (only canonical for now)
 
 It borrows its name from the [[kb>markup:front-matter|front matter book]]
 
@@ -35,21 +37,39 @@ Example:
 ---json
 {
     "canonical":"my:id",
+    "title":"My Big title in the Search Engine Result Pages",
     "description":"That's the article that you want to read!"
 }
 ---
 </code>
 
-===== Built-in Properties =====
-''Front Matter'' takes into account the below properties
+===== Properties =====
+
+This section lists the properties that are active and that have a semantic.
+
+There is two groups of metadata:
+  * [[#combostrap]]: the properties that we are managing
+  * [[#dokuwiki|dokuwiki]]: the properties that ''DokuWiki'' follows.
+
+Unknown properties are written in the [[semantic|metadata]] without any further processing.
+
+==== ComboStrap ====
+
+''ComboStrap'' takes into account the below properties
+  * [[canonical|canonical]]
+  * [[title|title]]
+  * [[description|description]]
 
 
-===== Dokuwiki =====
+
+==== Dokuwiki ====
 
 
 Dokuwiki follows the [[http://dublincore.org/documents/dces/|Dublin Core element names]] as keys in their meta. See [[doku>metadata]]
 
-The below table comes from [[doku>plugin:meta#data_structure|the documentation of the meta plugin]]. It is just here for information as it reflects the dokuwiki array.
+If you use one of the key below, you can overwrite/set up this metadata.
+
+The below table comes from [[doku>plugin:meta#data_structure|the documentation of the meta plugin]]. 
 
 ^ Element ^ Child Elements ^ Type ^ Comments ^
 | title | --- | string | The title of the page. If ''$conf['useheading']'' is on; defaults to the first heading |
@@ -68,23 +88,11 @@ The below table comes from [[doku>plugin:meta#data_structure|the documentation o
 | coverage | spatial, temporal | array | not used |
 | rights | accessrights, license | array | not set, but accessrights default to "public editable", "public viewable" or "private" with respect to current ACL settings; license defaults to the Creative Commons license if set |
 
-===== Note =====
+===== Configuration =====
+==== Auto Frontmatter ====
+This feature adds a frontmatter template when you create a new page.
 
-Amp Google:
-  * https://ogp.me/
-  * Schema.org
-
-Social:
-  * https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started (To render in twitter as a card)
-  * https://developers.facebook.com/docs/sharing/webmasters
-
-Build, test:
-  * [[https://developers.google.com/search/docs/guides/prototype|Build, Test, and Release Your Structured Data]]
-  * [[https://support.google.com/webmasters/answer/7552505|Rich result status report]]
-
-Online test: 
-  * https://search.google.com/test/rich-results
-  * https://search.google.com/structured-data/testing-tool/u/0/
+This feature is by default enabled but you can disable it by unchecking the ''autoFrontMatter'' [[:configuration|configuration]].
 
 
 
