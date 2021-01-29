@@ -21,17 +21,14 @@ The analytical data are composed of three parts:
 
 This data are accessible:
   * via the [[#database|database]]
-  * or via an [[#url_export|URL export]]
+  * or via an [[#url|URL]]
 
-==== URL export ====
+==== URL ====
 
-You can get the analytical data as ''json'' by by adding ''?do=export_combo_analytics'' to a page URL.
+You can get the analytical data as ''json'' with an export.
 
-For instance, to get the data of the actual page, click on the below [[ui:button|button]].
-
-<btn>
-[[analytics:data?do=export_combo_analytics|Show me the data !]]
-</btn>
+  * via a direct URL by by adding ''?do=export_combo_analytics'' to a page URL. For instance, to get the data of the actual page, click on this [[analytics:data?do=export_combo_analytics|link]]
+  * via the ''Analytics'' menu item by clicking on the following icon <icon name="file-chart"/> (only for logged user) 
 
 ==== Database ====
 The Analytical data are stored in the [[database|database]] in the ''analytics'' column of the ''page'' table in a ''json'' format. You can then query it with the [[https://www.sqlite.org/json1.html|json function of SQLite]].

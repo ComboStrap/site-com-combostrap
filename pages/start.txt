@@ -1,6 +1,6 @@
 ---json
 {
-   "title":"ComboStrap - Create a professional internet website from a simple files"
+   "title":"ComboStrap - Create a professional internet website from simple markup files"
 }
 ---
 
