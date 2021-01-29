@@ -1,6 +1,8 @@
 ---json
 {
-    "canonial":"quality"
+    "canonical":"quality",
+    "title":"Web quality module of Combostrap",
+    "description":"Get insight on the quality of your pages and takes back control of your SEO"
 }
 ---
 
