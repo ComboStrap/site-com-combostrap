@@ -5,6 +5,6 @@
 [[$id|$title]]
 </index>
 <page-item>
-[[$id|<pipeline>"$title" | replace("ComboStrap Quality - ","")</pipeline>]]
+[[$id|<pipeline>"$h1" | replace("ComboStrap Quality - ","")</pipeline>]]
 </page-item>
 </ntoc>

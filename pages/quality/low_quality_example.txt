@@ -1,0 +1,16 @@
+---json
+{
+    "canonical":"low_quality_page_example",
+    "title":"A low quality page to give a demo on the quality module",
+    "description":"An example of a low quality page for demonstration purpose"
+}
+---
+====== Low Quality Page Demo ======
+
+
+This page has a very poor quality:
+  * few words
+  * no internal links
+  * no outline
+  * one backlink but for demo purpose.
+

@@ -1,6 +1,8 @@
 ---json
 {
-   "canonical":"low_quality_page"
+   "canonical":"low_quality_page",
+   "title":"What is a low quality web page ?",
+   "description":"This page shows you how ComboStrap defines a low quality page and you can use this definition to improve your SEO score"
 }
 ---
 
@@ -11,10 +13,10 @@
 ''Low quality page'' are pages that have a really poor added value for readers.
 
 This kind of page have this characteristics:
-  * thin content - the number of words is really low
-  * no internal link - they don't link to other page
-  * no internal backlink - no other page links back to them
-  * few edits - the page has got a few edits.
+  * ''thin content'' - the number of words is really low
+  * ''no internal link'' - they don't link to other page
+  * ''no internal backlink'' - no other page links back to them
+  * ''few edits'' - the content of the page has not been improved
 
 
 
@@ -37,7 +39,7 @@ For more information, see [[quality:lqpp]]
 
 The definition of what a ''low quality page'' is, is an ongoing process and a really large and subjective SEO subject.
 
-For ''ComboStrap'', a ''low quality page'' is a page that does not pass the [[rule#mandatory|mandatory quality rules]].
+For ''ComboStrap'', a ''low quality page'' is a page that does not pass the [[#mandatory rules|mandatory quality rules]].
 
 
 ===== List =====
@@ -58,8 +60,8 @@ json_extract(analytics, '$.quality.low') = true
 </code>
 
 ===== Analytics =====
-Below are some analytical SQL that you can [[analytics:query|use to get insight]]
-  * Low quality page rate
+Below are some analytical SQL that you can [[analytics:query|use to get more insight]]
+  * To get your ''Low quality page rate'', you can [[analytics:query|query the database]] with the below statement:
 <code sql>
 select
     json_extract(analytics, '$.quality.low') as low,
@@ -69,3 +71,21 @@ from
 group by
    low
 </code>
+
+
+===== Configuration =====
+==== Mandatory Rules ====
+
+If one of the ''mandatory'' [[rule|rules]] does not pass, the page will be considered a ''low quality page''.
+
+You can set mandatory rules in the ''mandatoryQualityRules'' [[:configuration|configuration]].
+
+The default values are:
+  * ''words_min'',
+  * ''internal_backlinks_min'',
+  * ''internal_links_min''
+
+
+<note>
+If the [[lqpp|low quality page protection]] is [[lqpp#enable|enabled]], the page will then not be publicly visible.
+</note>

@@ -82,6 +82,7 @@ You would see the ''statistics'' below the ''statistics'' property:
   * ''internal_links_distance'': the distance of the internal links with the actual page. A value 2 would mean that you need to go in the directory structure:
         * down or up 2 times
         * or down one time and up one time
+  * ''local_links_count'': the number of local links (ie fragment link such as ''#id'')
   * ''word_section_count'': summary on words by section
   * ''words_count'': the number of words.
 

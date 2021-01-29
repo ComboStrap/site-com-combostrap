@@ -1,0 +1,30 @@
+---json
+{
+    "canonical":"quality:dynamic_monitoring",
+    "title":"Dynamic Page Quality Monitoring Feature - Improve your page quality while writing",
+    "description":"Dynamic Page Quality Monitoring is a ComboStrap feature that encourages the writer to improve the quality score of the page. A message is shown that indicates the quality rules that can be improved and how."
+}
+---
+====== ComboStrap Quality - Dynamic Page Monitoring ======
+
+
+===== About =====
+''Dynamic Quality Page Monitoring'' is a feature that encourages the writer to improve the [[score|quality score]] of its page. 
+
+A message is shown to ''writer'' (users with edit permission)  that indicates the [[rule|quality rules]] that can be improved and how.
+
+You can exclude [[rule|quality rules]] from ''Dynamic Monitoring'' via [[#configuration]].
+
+
+===== Example =====
+
+For the low quality page : [[low_quality_example]]
+
+<quality page-id="low_quality_example"/>
+===== Configuration =====
+==== Excluded Quality Rules ====
+The [[:configuration|configuration]] ''qualityExcludedMonitoredQualityRules'' lists the [[rule|quality rules]] that should not be monitored.
+
+
+
+

@@ -16,11 +16,16 @@ They have only two states:
   * ''passed''
   * or ''failed''
 
-They can be seen in the ''quality'' section of the [[analytics:data|analytical data]].
+They:
+  * can be [[#example|seen in the ''quality'' section of the analytical data]] 
+  * are [[dynamic_monitoring|dynamically monitored]]
+  * define what a [[low_quality_page|low quality page]] when they are [[low_quality_page#mandatory rules|mandatory]]
+  * can determine if a [[lqpp|page is public or not]]
 
 <badge>Since [[:changes|version 1.11]]</badge>
 
 ===== Example =====
+Example of the ''quality'' section of the [[analytics:data|json analytical data]] 
 <file json>
 "rules": {
 	"result": "1 quality rules errors",
@@ -47,6 +52,12 @@ They can be seen in the ''quality'' section of the [[analytics:data|analytical d
 
 ===== List =====
 
+Below is the list of ''quality rules'' that ComboStrap applies. 
+
+<note>
+The threshold are actually fixed, you can't change them.
+</note>
+
 ^ Name ^ Description ^
 | ''canonical_present'' | A [[semantic:canonical|canonical]] should be present in the [[semantic:frontmatter|frontmatter]] |
 | ''description_present'' | A [[semantic:description|description]] should be present in the [[semantic:frontmatter|frontmatter]] |
@@ -61,18 +72,6 @@ They can be seen in the ''quality'' section of the [[analytics:data|analytical d
 | ''words_max'' | A page should have at maximal 1500 words |
 | ''words_min'' | A page should have at minimal 50 words. |
 
-===== Mandatory =====
-
-You can set mandatory rules in the ''mandatoryQualityRules'' [[:configuration|configuration]].
-
-The default values are:
-  * ''words_min'',
-  * ''internal_backlinks_min'',
-  * ''internal_links_min''
-
-If one of this rules does not pass, the page will be considered as a [[low_quality_page|low quality page]].
 
 
-<note>
-If the [[lqpp|low quality page protection]] is [[lqpp#enable|enabled]], the page will then not be publicly visible.
-</note>
+
