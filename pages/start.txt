@@ -1,6 +1,7 @@
 ---json
 {
-   "title":"ComboStrap - Create a professional internet website from simple markup files"
+   "title":"ComboStrap - Create your web footprint that last ForEver ",
+   "description":"Advertise yourself, your documentation or your company with a product that makes a qualitive website design, creation and management, unique, easy and fun"
 }
 ---
 
