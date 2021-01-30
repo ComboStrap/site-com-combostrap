@@ -9,9 +9,9 @@
 
 
 ===== About =====
-''Dynamic Quality Page Monitoring'' is a feature that encourages the writer to improve the [[score|quality score]] of its page. 
+''Dynamic Quality Page Monitoring'' is a feature that encourages the ''writer'' (users with edit permission) to improve the [[score|quality score]] of its page. 
 
-A message is shown to ''writer'' (users with edit permission)  that indicates the [[rule|quality rules]] that can be improved and how.
+A message is shown that indicates the [[rule|quality rules]] that can be improved and how.
 
 You can exclude [[rule|quality rules]] from ''Dynamic Monitoring'' via [[#configuration]].
 

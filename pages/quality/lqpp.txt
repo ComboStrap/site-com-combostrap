@@ -37,7 +37,9 @@ The effect is that:
 
 ===== Configuration =====
 ==== Enable ====
-This protection is disabled by default. If you want to enable it, you need to check the ''lowQualityPageProtectionEnable'' checkbox.
+This protection is disabled by default. If you want to enable it, you need to check the ''lowQualityPageProtectionEnable'' checkbox [[:configuration|configuration]].
+
+
 
 ==== Mode ====
 The protection mode determines how the page is protected from Search Engine.
