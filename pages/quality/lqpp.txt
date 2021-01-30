@@ -34,6 +34,12 @@ The effect is that:
 
 {{:seo:low_quality_content_effect.png?600|}}
 
+===== Demo =====
+
+We have created a low page demo to show you the protection in action.
+  * Link: This is a  [[low_quality_example|internal link to the low quality page]]. If you are hovering over it, it will shows a [[ui:tooltip|tooltip]] asking you to log in in order to see the link.
+
+  * Mode: The [[#mode|mode]] is hidden which means that everybody with an external link can still navigate to this page. For instance, if you click on this external link [[https://combostrap.com/quality/low_quality_example|low quality demo page]], you should be able to see the ''hidden'' low quality page.
 
 ===== Configuration =====
 ==== Enable ====

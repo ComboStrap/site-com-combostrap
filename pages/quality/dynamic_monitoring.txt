@@ -18,7 +18,7 @@ You can exclude [[rule|quality rules]] from ''Dynamic Monitoring'' via [[#config
 
 ===== Example =====
 
-For the low quality page : [[low_quality_example]]
+For the low quality page demo ([[low_quality_example|low quality demo page]]), you would get the below note if you had the ''edit'' authorization.
 
 <quality page-id="low_quality_example"/>
 ===== Configuration =====
