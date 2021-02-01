@@ -16,7 +16,7 @@ This component is mostly used in a [[strap:sidebor|sidebar]] or [[strap:sidekick
 
 <badge>Since [[:changes|version 1.6]]</badge>
 
-The ''ntoc'' was earlier known as the ''minimap'' component.
+The ''ntoc'' has replaced the [[minimap|minimap]] component.
 
 ===== Articles Related =====
 {{backlinks>.}}

@@ -5,7 +5,7 @@
 [[$id|$title]]
 </index>
 <page-item>
-[[$id|<pipeline>"$title" | replace("ComboStrap UI - ","")</pipeline>]]
+[[$id|<pipeline>"$h1" | replace("ComboStrap UI - ","")</pipeline>]]
 </page-item>
 </ntoc>
 

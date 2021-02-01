@@ -1,0 +1,30 @@
+---json
+{
+    "canonical":"minimap",
+    "title":"Minimap - A navigational component for a sidebar",
+    "description":"Minimap has been superseeded by the ntoc component."
+}
+---
+
+====== ComboStrap UI - Minimap ======
+
+===== About =====
+<note important>
+The ''minimap'' has been deprecated. You should use the [[ntoc|ntoc component]] instead if you want to list the pages of a namespace.
+</note>
+
+It's still usable for compatibility reason.
+
+
+This component supports also the [[quality:lqpp|low quality page protection]] and does not show the ''low quality page'' when protected.
+
+
+===== Example =====
+
+  * A basic minimap ([[https://github.com/gerardnico/dokuwiki-plugin-minimap|syntax]])
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<minimap suppress="ComboStrap UI -">
+</code>
+  * The output:
+</webcode>
