@@ -5,6 +5,6 @@
 [[$id|$title]]
 </index>
 <page-item>
-[[$id|<pipeline>"$title" | replace("ComboStrap Analytics - ","")</pipeline>]]
+[[$id|<pipeline>"$h1" | replace("ComboStrap Analytics - ","")</pipeline>]]
 </page-item>
 </ntoc>
