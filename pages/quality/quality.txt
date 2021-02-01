@@ -12,8 +12,8 @@
 The ''quality module'' aims to measure and keep the quality of the website high.
 
 This module regroups the following functionalities:
-  * [[quality:automatic_hidden]]
-  * [[quality:lqpp]]
+  * [[quality:automatic_hidden|Automatic Hidden Artifactory]]
+  * [[quality:lqpp|Low Quality Page Protection]]
   * [[rule|Quality rule]]
   * [[score|Quality score]]
 

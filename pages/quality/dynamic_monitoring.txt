@@ -11,7 +11,9 @@
 ===== About =====
 ''Dynamic Quality Page Monitoring'' is a feature that encourages the ''writer'' (users with edit permission) to improve the [[score|quality score]] of its page. 
 
-A message is shown for [[rule|quality rules]] that don't pass indicating how they can be improved.
+A message is shown for [[rule|quality rules]] that don't pass, indicating how they can be improved.
+
+For a page that is not an article such as home page or landing page, you can also [[##disable_for_a_page|disable it]].
 
 
 
@@ -32,6 +34,19 @@ The message is shown when:
 The [[:configuration|configuration]] ''excludedQualityRulesFromDynamicMonitoring'' lists the [[rule|quality rules]] that should not be monitored.
 
 If you had a [[rule|quality rule]] in this list, it will not show up in the message.
+
+==== Disable for a page====
+
+You can disable the ''dynamic quality monitoring'' feature by setting the property ''dynamic_quality_monitoring'' in the [[semantic:frontmatter|frontmatter]] to ''false''.
+
+Example:
+<code javascript>
+{
+    "dynamic_quality_monitoring":"false"
+}
+</code>
+
+ 
 
 
 
