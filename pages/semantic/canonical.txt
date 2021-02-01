@@ -62,7 +62,7 @@ This page has the canonical value set to ''canonical:url'' and therefore is also
 Try it your self !
 
 <btn>
-[[:canonical#demo|Navigate to this page via its canonical URL]] !
+[[https://combostrap.com/canonical#demo|Navigate to this page via its canonical URL]] !
 </btn>
 
 or

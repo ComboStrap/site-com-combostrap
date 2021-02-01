@@ -24,12 +24,11 @@ It can happen in the following case:
 ==== Canonical Demo ====
 
 This page has also a [[semantic:canonical|canonical value]] of  ''id:redirect'' and is therefore accessible also from this link
-<btn >
-[[id:redirect#canonical demo|A link to demonstrate an ID Redirect]]
-</btn>
-\\
 
-<wrap tip>The link is red because the dokuwiki page does not exist but you will get redirected to this page.</wrap>
+<btn>
+[[https://combostrap.com/id/redirect#canonical demo|A link to demonstrate an ID Redirect]]
+</btn>
+
 
 
 ==== Canonical Processing ====

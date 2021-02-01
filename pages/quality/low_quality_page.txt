@@ -39,8 +39,14 @@ For more information, see [[quality:lqpp]]
 
 The definition of what a ''low quality page'' is, is an ongoing process and a really large and subjective SEO subject.
 
+
 For ''ComboStrap'', a ''low quality page'' is a page that does not pass the [[#mandatory rules|mandatory quality rules]].
 
+
+<note>
+Because not page are redacted page, pages such as ''home page'', ''landing page'' or ''contact page'' may not pass the mandatory rules.
+You can then take over and [[#low_quality_page_indicator|set manually the low quality indicator to false]]
+</note>
 
 ===== List =====
 
@@ -89,3 +95,14 @@ The default values are:
 <note>
 If the [[lqpp|low quality page protection]] is [[lqpp#enable|enabled]], the page will then not be publicly visible.
 </note>
+
+==== Low Quality Page Indicator ====
+
+You can set manually the ''low quality indicator'' to false in the [[semantic:frontmatter|frontmatter]]
+
+Example:
+<code json>
+{
+    "low_quality_page":"false"
+}
+</code>

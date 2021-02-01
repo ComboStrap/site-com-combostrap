@@ -1,0 +1,33 @@
+---json
+{
+    "canonical":"broken:link",
+    "title":"A broken link is a link that points to a non-existing page",
+    "description":"This page will show you how to monitor the list of broken links for your ComboStrap website"
+}
+---
+
+
+====== ComboStrap Quality - Broken links ======
+
+
+===== About =====
+A ''broken link'' is a internal link that points to a [[url:404|non-existing page]].
+
+They hurt your [[:seo|SEO]] and should be avoided at all cost.
+
+You can [[dynamic_monitoring|monitor them]] and you can even [[#list|list them]]
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== List =====
+You can [[analytics:query|query the database]] against the [[analytics:statistics|page statistics data]] with the below Analytics SQL to list the page with broken links and their count.
+<code sql>
+select
+	id,
+	json_extract(analytics, '$.statistics.internal_broken_links_count')
+from
+	pages
+where
+	json_extract(analytics, '$.statistics.internal_broken_links_count') is not null;
+</code>

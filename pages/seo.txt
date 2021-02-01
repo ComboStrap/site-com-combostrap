@@ -29,7 +29,7 @@ The following data may be set for a page:
   * The [[:cache|sidebar cache]] is automatically bursted and is therefore rendered only when needed and not for every page.
 
 ==== Quality ====
-[[quality:low_quality_page|Low quality pages]] have a big impact on the SEO score. The [[quality:quality|quality module]] aims to [[quality:score|score]], [[quality:analytics|monitor]] and [[quality:lqpp|protect]] the quality of your website.
+[[quality:low_quality_page|Low quality pages]] have a big impact on the SEO score. The [[quality:quality|quality module]] aims to [[quality:score|score]], [[quality:dynamic_monitoring|monitor]] and [[quality:lqpp|protect]] the quality of your website.
 
 <btn>
 [[quality:quality|Quality module]]

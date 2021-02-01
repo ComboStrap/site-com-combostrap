@@ -1,3 +1,11 @@
+---json
+{
+    "canonical":"support",
+    "title":"How to get help with ComboStrap",
+    "description":"We are here to help, don't hesitate to mail us. This page shows you also all other support channel on how to build a great website.",
+    "low_quality_page":"false"
+}
+---
 <container width="700px" align="center">
 ====== ComboStrap - Where To Get Help ======
 
