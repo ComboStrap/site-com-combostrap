@@ -7,15 +7,15 @@ ComboStrap
 <collapse>
 <group expand="true">
 <dropdown name="Modules">
-[[ui:ui|UI Components]]
-[[styling:styling|Styling]]
-[[url:url|Url Manager]]
-[[semantic:semantic|Meta Manager]]
-[[:seo|Search Engine Optimization]]
 [[:ads:ads|Ads]]
-[[:strap:strap|Templating]]
-[[:quality:quality|Quality]]
 [[:analytics:analytics|Analytics]]
+[[semantic:semantic|Meta Manager]]
+[[:quality:quality|Quality]]
+[[ui:ui|UI Components]]
+[[url:url|Url Manager]]
+[[:seo|Search Engine Optimization]]
+[[styling:styling|Styling]]
+[[:strap:strap|Templating]]
 </dropdown>
 [[support|Help / Questions / Wishes ?]]
 </group>
