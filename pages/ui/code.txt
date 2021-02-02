@@ -23,7 +23,9 @@ You can create block of code like this one:
 </file>
 
 <note tip>
-If you are a developer and want to embed your unit test in your documentation, you can use the [[unit|unit testing]] component to declare them.
+If you are a developer and want to:
+  * shows the output of web language such as HTML, Css or Javascript, you can also use the [[webcode|webcode]] component.
+  * embed your unit test in your documentation, you can use the [[unit|unit testing]] component to declare them.
 </note>
 ===== Articles Related =====
 {{backlinks>.}}
@@ -31,7 +33,7 @@ If you are a developer and want to embed your unit test in your documentation, y
 ===== Syntax =====
 This is a [[styling:prism|Prism component]] and follows its [[styling:prism#syntax]]
 
-See [[styling:prism#syntax|prism syntax]]
+You should then see the [[styling:prism#syntax|prism syntax]] to know how to use the ''code'' component.
 
 
 
