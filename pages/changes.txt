@@ -15,7 +15,11 @@ This is a page that lists all releases with their respective changes for [[:star
 
 
 
-==== Version 1.11 - Snapshot ====
+==== Version 1.12 - Snapshot ====
+ 
+There is actually no current development.
+
+==== Version 1.11 - 2021-02-02 ====
 
 List:
   * The following monospaces component were added with the [[styling:prism|prism library]] to add feature such as prompt, copy text and syntax highlighting.
@@ -34,9 +38,6 @@ List:
   * New ''auto frontmatter'' feature  - a [[semantic:frontmatter|frontmatter]] is created for a new page
   * New ''h1'': The [[semantic:h1|h1 metadata]] has been added in order to have the notion of a short [[semantic:title|title page]].
 
-You can install the snapshot :
-  * for [[combo|Combo]]: manually using this [[https://combostrap.com/combo-snapshot.zip|URL]]
-  * for [[strap:strap|Strap]]: via the extension manager
 
 ==== Version 1.10 - 2021-01-09 ====
 
