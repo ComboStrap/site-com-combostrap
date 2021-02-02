@@ -1,0 +1,136 @@
+---json
+{
+    "canonical":"webcode",
+    "title":"A ComboStrap Component to render web code in a web page (javascript, html, ...)",
+    "description":"With the `web code` component, you can embedded snippet of Javascript, Html and Css script and render their output."
+}
+---
+
+====== ComboStrap UI - WebCode Support ======
+
+===== About =====
+''webcode'' is a component that permits to render the output of webcode such as HTML, Javascript or CSS.
+
+By enclosing [[code|code block]] by a ''webcode'' block, the plugin will add the result after the last ''webcode'' tag.
+
+<note important>
+This component is not bundled by default and you should install it separately if you want to use it. This component is available [[doku>plugin:webcode|here]] and can be installed via the [[doku>plugin:extension|extension manager]]
+</note>
+
+
+
+
+
+===== Example=====
+
+  * This example will output: One emoji [[unicode>1F600|Smiley (1F600)]] in a webcode
+<file html>
+<webcode>
+  * This is the HTML
+<code html>
+<span style="font-size:30pt">&#x1F600;</span>
+</code>
+  * Output:
+</webcode>
+</file>
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+  * This is the HTML
+<code html>
+<span style="font-size:30pt">&#x1F600;</span>
+</code>
+  * Output:
+</webcode>
+
+Others example can be found at github:
+  * [[https://github.com/gerardnico/dokuwiki-plugin-webcode/blob/master/_test/data/pages/across_section.txt|Across section example]]
+  * [[https://github.com/gerardnico/dokuwiki-plugin-webcode/blob/master/_test/data/pages/display.txt|Cached block (display=none)]]
+
+
+===== Syntax =====
+
+<file html>
+<webcode name="A Name" width=100% frameborder=0 height=250px externalResources="//d3js.org/d3.v3.min.js,https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- wiki syntax with css or html block code. -->
+    Full dokuwiki syntax are permitted between blocks
+
+    <!-- css code block -->
+    <code css>
+    </code>
+
+    <!-- html code block -->
+    <code html>
+    </code>
+
+    <!-- An xml block may be use in place of an html one -->
+    <code xml>
+    </code>
+
+    <!-- javascript or babel code block -->
+    <code javascript> <!-- or <code babel> -->
+    </code>
+    
+    <!-- Dokuwiki Code -->
+    <code dw> 
+    
+    <!-- Code Block not displayed-->
+    <code language [display="none"]>
+    </code>
+
+</webcode>
+</file>
+
+====  Webcode attributes ====
+ 
+
+The allowed webcode attributes are:
+
+   * the following attributes of the [[https://docs.webplatform.org/wiki/html/elements/iframe|iframe element]]
+      * name. It will be added as a suffix
+      * frameborder (default to 0)
+      * width (default to 100%)
+      * height
+      * scrolling
+   * ''externalResources'': a comma separated list of external resources. (Ie an URL of a Css or Js file, generally a CDN)
+   * ''renderingMode'': 
+      * ''story'' (default): The rendering will output the content inside the ''webcode'' elements and add the result after the closing ''webcode'' code.
+      * ''onlyResult'': The rendering will **suppress** the content inside the ''webcode'' elements and will show only the result after the closing ''webcode'' code.
+
+
+=== code attributes ===
+
+
+The supported [[code|code]] block syntax is
+
+<file html>
+<code lang filePath [display="none"]>
+</code>
+</file>
+where:
+
+  * ''lang'' can be:
+      * html 
+      * xml (will be seen as XHTML)
+      * css
+      * javascript or babel (but not both in a webcode)
+      * dw (for dokuwiki)
+  * ''display="none"'' will not display the code block (in this case file name and other attributes should not be used)
+
+
+
+
+==== Language Support ====
+
+=== Javascript Console ===
+
+
+  * The [[https://developer.mozilla.org/en-US/docs/Web/API/Console/log|console.log function]] will be rendered and therefore visible in a console area (Gray box).
+  * The [[https://developer.mozilla.org/en-US/docs/Web/API/Console/table|console.table function]] is supported only for a collection of objects or primitives. There is no second argument.
+
+=== Babel ===
+
+
+When a code block use [Babel](https://babeljs.io/) as language, the plugin will add the 
+[[https://unpkg.com/babel-standalone@6/babel.min.js|babel.min.js]] version 6 to the external resources.
+
+You cannot have a Babel and a Javascript Block.
