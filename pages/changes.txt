@@ -7,8 +7,9 @@ This is a page that lists all releases with their respective changes for [[:star
 
 ==== Planned ====
 
+
   * Don't redirect missing [[:strap:bar|bars]]
-  * Add [[https://www.bryanbraun.com/anchorjs/|Deep Linking anchor]]
+  * Add [[https://www.bryanbraun.com/anchorjs/|Deep Linking anchor]]. Technically, this is just an anchor with an image
   * Add a [[https://getbootstrap.com/docs/4.4/components/carousel/|Carrousel]]
   * Add a [[https://getbootstrap.com/docs/4.4/content/figures/|caption to image]]
   * Add notification panel with a bell icon to show short updates ([[https://material-ui.com/|Example]])
