@@ -9,13 +9,11 @@
 ====== ComboStrap UI - WebCode Support ======
 
 ===== About =====
-''webcode'' is a component that permits to render the output of web language such as HTML, Javascript or CSS.
+''webcode'' is a component that permits to render the output of code such as HTML, Javascript or CSS.
 
 By enclosing [[code|code blocks]] by a ''webcode'' block, the plugin will add the result after the last ''webcode'' tag.
 
-<note important>
-This component is not bundled by default and you should install it separately if you want to use it. This component is available [[doku>plugin:webcode|here]] and can be installed via the [[doku>plugin:extension|extension manager]]
-</note>
+
 
 
 

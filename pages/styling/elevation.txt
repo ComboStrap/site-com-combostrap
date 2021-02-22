@@ -14,26 +14,48 @@ It's mostly used on a ''call-to-action'' component such as a [[ui:button|button]
 {{backlinks>.}}
 
 ===== Example =====
+
+==== Button ====
+
 With a [[ui:button|button]]
 
 <row>
-<col class="col-sm-50">
-<webcode name="Elevation" >
-<code dw>
-<btn elevation="true">
-An elevated button
-</btn>
-</code>
-</webcode>
-</col>
-<col class="col-sm-50">
-
-<webcode name="nonElevation" >
-<code dw>
-<btn>
-A flat button
-</btn>
-</code>
-</webcode>
-</col>
+	<col class="col-sm-50">
+		<webcode name="Flat" >
+			<code dw>
+				<btn>
+					A flat button
+				</btn>
+			</code>
+		</webcode>
+	</col>
+	<col class="col-sm-50">
+		<webcode name="DefaultElevation">
+			<code dw>
+				<btn elevation="true">
+					Elevated button
+				</btn>
+			</code>
+		</webcode>
+	</col>
+	<col class="col-sm-50">
+		<webcode name="HighElevation">
+			<code dw>
+				<btn elevation="high">
+					High Elevation
+				</btn>
+			</code>
+		</webcode>
+	</col>
 </row>
+
+==== Card ====
+With a [[ui:card|card]]
+<webcode name="cardElevation" >
+<code dw>
+<card elevation="high" width="200px">
+===== Elevated card =====
+Guide on how to elevate
+</card>
+</code>
+</webcode>
