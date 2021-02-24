@@ -1,21 +1,17 @@
 
 <footer class="p-3" background-color="gradient-light">
-<container >
-
-<row>
-<col class="col-12 col-lg-6">
+<container>
+	<row>
+		<col class="col-12 col-lg-6">
 **Contact** \\
- [[support@combostrap.com?subject=Contact via WebSite|support@combostrap.com]] \\
-
-</col>
-<col class="col-12 col-lg-6">
+[[support@combostrap.com?subject=Contact via WebSite|support@combostrap.com]] \\
+		</col>
+		<col class="col-12 col-lg-6">
 **Combostrap** \\
-[[:support|Support]] \\
-[[:changes|Release (Changes)]]\\
-[[:security|Security]] \\
-</col>
-
-</row>
-
+		[[:support|Support]] \\
+		[[:changes|Release (Changes)]]\\
+		[[:security|Security]] \\
+		</col>
+	</row>
 </container>
 </footer>

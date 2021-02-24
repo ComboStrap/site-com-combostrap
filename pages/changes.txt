@@ -17,6 +17,8 @@ This is a page that lists all releases with their respective changes for [[:star
 
   * [[ui:webcode|webcode]] is now integrated in Combo. The code is taken from the calls because the regular expression for the update lexer mode was not catching the code when there was whitespace.
   * [[styling:elevation|elevation]] - a new elevation level was added called ''high'' that elevates on all side of the box.
+  * the disabling of [[ui:preformatted|preformated]] has been improved by not allowing this mode via the ''accept'' function of the syntax class.
+  * the ''combostrap'' logo got a fix color to be able to embedded it via object.
 
 ==== Version 1.11 - 2021-02-02 ====
 
@@ -146,7 +148,7 @@ First release.
     * An ''ID'' column was added and replace the old ''SOURCE'' primary key
 
 
-==== Idea ====
+===== Note=====
 
   * Add [[https://www.bryanbraun.com/anchorjs/|Deep Linking anchor]]. Technically, this is just an anchor with an image
   * Add a [[https://getbootstrap.com/docs/4.4/components/carousel/|Carrousel]]
@@ -156,3 +158,4 @@ First release.
     * Readiblity
     * Word visualization - https://github.com/wooorm/write-music
 	* https://wooorm.com/short-words/
+  * ''mime.local.conf'' management - How to allow svg as image ?

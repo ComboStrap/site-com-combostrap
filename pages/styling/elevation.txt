@@ -19,6 +19,7 @@ It's mostly used on a ''call-to-action'' component such as a [[ui:button|button]
 
 With a [[ui:button|button]]
 
+
 <row>
 	<col class="col-sm-50">
 		<webcode name="Flat" >
@@ -57,5 +58,16 @@ With a [[ui:card|card]]
 ===== Elevated card =====
 Guide on how to elevate
 </card>
+</code>
+</webcode>
+
+==== Image ====
+With a image and a [[ui:box|box]]
+
+<webcode name="imgElevation" >
+<code dw>
+<box elevation="high" width="fit-content" align="center">
+    {{:android-chrome-192x192.png?100|}}
+</box>
 </code>
 </webcode>
