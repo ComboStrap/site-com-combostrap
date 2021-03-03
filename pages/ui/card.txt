@@ -1,7 +1,15 @@
 ====== ComboStrap UI - Card ======
 
 ===== About =====
-A ''card'' contains content and actions about a single subject.
+A ''card'' is just a box that have at minimal:
+  * a [[title|title]]
+  * and a body
+
+
+
+<note>
+If the body contains callt-to-actions, this is called a [[teaser|teaser]]
+</note>
 
 
 
@@ -13,23 +21,25 @@ A ''card'' contains content and actions about a single subject.
 
 <code dw>
 <card>
-{{topimage}}
-<header>Header</header>
-=== Title === or <title>Title</title>
-Content
+    {{imageTop}}
+    <label>Label</label>
+    Content
 </card>
 </code>
 where:
-  * ''header'' is an [[header|header]]
-  * ''title'' is a [[title|title]]
+  * ''imageTop'' if the first element is an image, it will be used as a top illustration image.
+  * ''label'' defines a label that is used for navigational layout such as:
+      * [[tabs|tabs]]
+      * and [[accordion|accordion]]
 
 A ''card'':
   * is a [[styling:html|superset HTML component]] and permits then all kind of [[styling:styling|styling]]
-  * can be formatted in columns with the [[card_column|card-columns]] component
-  * allows all third party dokuwiki syntax
-  * implements the [[https://getbootstrap.com/docs/4.0/components/card/|Bootstrap card]]
+  * can be laid out:
+      * in columns with the [[card_column|card-columns]] component
+      * in [[tabs|tabs]]
+      * in [[accordion|accordion]]
 
-<inote>A [[ui:blockquote|blockquote]] has also a card type</inote>
+<inote>A [[ui:blockquote|blockquote]] is also just a card that happens to have an external quote</inote>
 
 
 ===== Visual =====
@@ -39,11 +49,12 @@ A ''card'':
 <webcode name="Card1" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <card style="width: 18rem;">
-{{teaser_image_1.png?30|}}
-<header>That's the header !</header>
+{{:teaser_image_1.png?30|}}
+
 === Teaser Title  ===
 A example taken from [[https://getbootstrap.com/docs/4.3/components/card/#example|the bootstrap quick example]] on how to build a card title in order to make up the bulk of the teaser content.
-<btn>[[:start|Go to the best plugin on the universe !]]</btn>
+
+<btn spacing="my-3">[[:start|Go to the best plugin on the universe !]]</btn>
 </card>
 </code>
 
@@ -57,7 +68,7 @@ At first, ''teaser'' was the first name of card and you may still [[teaser|use i
 {{teaser_image_2.jpg?25|}}
 === Teaser Title  ===
 A example taken from [[https://getbootstrap.com/docs/4.3/components/card/#example|the bootstrap quick example]] on how to build a card title in order to make up the bulk of the teaser content.
-<btn>[[card|Go to this page !]]</btn>
+<btn spacing="my-3">[[card|Go to this page !]]</btn>
 </teaser>
 </code>
 </webcode>
