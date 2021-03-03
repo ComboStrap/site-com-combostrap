@@ -45,6 +45,12 @@ The JSON file contains several information
 ===== Configuration =====
   * ''manifest'' is a dokuwiki action and should not be [[doku>config:disableactions|disabled]].
   * ''icons'' should be put at the root media library. ''logo.svg'' and ''android-chrome-192x192.png'' are taken into account. See [[getting_started:4_favicon]]
+
+
+===== For the Geek =====
+You can also see that you manifest is working in the ''Application'' tab of the [[kb>devtool|devtool]]
+
+{{:strap:app_manifest_firefox.png?250|}}
 ===== Documentation / Reference =====
   * [[doku>devel:manifest|webmanifest]]
   * https://developer.mozilla.org/en-US/docs/Web/Manifest

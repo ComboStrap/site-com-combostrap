@@ -1,7 +1,7 @@
 ====== ComboStrap UI - Card ======
 
 ===== About =====
-A ''card'' contain content and actions about a single subject.
+A ''card'' contains content and actions about a single subject.
 
 
 

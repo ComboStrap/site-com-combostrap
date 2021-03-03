@@ -17,9 +17,10 @@ Combostrap supports:
 
 A [[card|card]] with an header.
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
 <card width="300px">
-<header>Top header!</header>
-A card with an header
+    <header>Top header!</header>
+    A card with an header
 </card>
-
+</code>
 </webcode>

@@ -19,6 +19,7 @@ This is a page that lists all releases with their respective changes for [[:star
   * [[styling:elevation|elevation]] - a new elevation level was added called ''high'' that elevates on all side of the box.
   * the disabling of [[ui:preformatted|preformated]] has been improved by not allowing this mode via the ''accept'' function of the syntax class.
   * the ''combostrap'' logo got a fix color to be able to embedded it via object.
+  * the [[ui:code|code]] element supports now the code export functionality of dokuwiki.
 
 ==== Version 1.11 - 2021-02-02 ====
 
@@ -159,3 +160,4 @@ First release.
     * Word visualization - https://github.com/wooorm/write-music
 	* https://wooorm.com/short-words/
   * ''mime.local.conf'' management - How to allow svg as image ?
+  * [[https://github.com/twbs/bootstrap/blob/v4-dev/site/layouts/partials/social.html|Social Meta Tag]]

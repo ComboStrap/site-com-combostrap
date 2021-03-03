@@ -10,7 +10,7 @@
 ===== About =====
 The [[strap:strap|Strap template]] supports the [[doku>config:tagline|tagline]] [[:configuration|configuration]].
 
-It's a short and appealing description of your website or product.
+A tagline is a short and appealing marketing description for your website or product.
 
 It's used:
   * in the ''description'' field of the [[strap:manifest|manifest]]
