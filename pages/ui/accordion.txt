@@ -39,3 +39,6 @@ You can also choose another layout such as:
 </accordion>
 </code>
 </webcode>
+
+===== Reference =====
+This component generates the [[https://getbootstrap.com/docs/4.6/components/collapse/#accordion-example|Bootstrap accordion]]
