@@ -55,6 +55,7 @@ Inline component can be used inside a paragraph (ie in the line)
   * [[card_column|Card column]] - A card column is a column layout for cards and blockquote.
   * [[grid|Grid]] - A grid to layout every component as you wish
   * [[Container|Container]] - A container restraints the horizontal width.
+  * [[accordion|Accordion]] - An accordion layout where cards are shown in collapsible section
 
 ==== Section ====
   * [[hr|Hr]] to draw an horizontale rule.

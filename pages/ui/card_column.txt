@@ -18,39 +18,24 @@ With the ''card-columns'' components, you can put any type [[card|card]] ([[ui:b
 ===== Example =====
 
 
-<code>
-<card-columns>
-<card>
-{{combostrap:teaser_image_1.png?30|}}
-=== Teaser Title  ===
-A example taken from [[https://getbootstrap.com/docs/4.3/components/card/#example|the bootstrap quick example]] on how to build a card title in order to make up the bulk of the teaser content.
-<btn>[[:start|Go to this page !]]</btn>
-</card>
-
-
-<blockquote class="" >
-Lorem ipsum [[:start|dolor]] sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-<cite>Someone famous in [[:start|Source Title]]</cite>
-</blockquote>
-
-
-</card-columns>
-</code>
-
-Result:
+<webcode name="Default" frameborder=0>
+<code dw>
 <teaser-columns>
-<card>
-{{:teaser_image_1.png?30|}}
-=== Teaser Title  ===
-A example taken from [[https://getbootstrap.com/docs/4.3/components/card/#example|the bootstrap quick example]] on how to build a card title in order to make up the bulk of the teaser content.
-<btn>[[:start|Go to this page !]]</btn>
-</card>
+
+    <card>
+        {{:teaser_image_1.png?30|}}
+        === Teaser Title  ===
+        A example taken from [[https://getbootstrap.com/docs/4.3/components/card/#example|the bootstrap quick example]] on how to build a card title in order to 
+        make up the bulk of the teaser content. \\
+        <btn spacing="my-2">[[:start|Go to this page !]]</btn>
+    </card>
 
 
-<blockquote class="" >
-Lorem ipsum [[:start|dolor]] sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-<cite>Someone famous in [[:start|Source Title]]</cite>
-</blockquote>
-
+    <blockquote class="" >
+    Lorem ipsum [[:start|dolor]] sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+    <cite>Someone famous in [[:start|Source Title]]</cite>
+    </blockquote>
 
 </teaser-columns>
+</code>
+</webcode>
