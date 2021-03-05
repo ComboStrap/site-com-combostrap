@@ -6,7 +6,7 @@
 }
 ---
 
-====== ComboStrap UI - WebCode Support ======
+====== ComboStrap UI - WebCode ======
 
 
 ===== About =====

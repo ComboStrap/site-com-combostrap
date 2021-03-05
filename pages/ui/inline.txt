@@ -1,0 +1,21 @@
+---json
+{
+    "canonical":"ui:inline",
+    "title":"ComboStrap UI Inline components ",
+    "description":"Inline components are used inside a paragraph (ie in a line)."
+}
+---
+====== ComboStrap UI - Inline Components ======
+
+
+===== About =====
+''Inline'' components are used inside a paragraph (ie in a line).
+
+[[ui|ComboStrap UI]] gets the following inline components in its library:
+
+  * [[inote|Inote]]: An inline note
+  * [[badge|Badge]]: A badge
+  * [[icon|Icon]]: All material design icons or your own
+  * [[button|Button (btn)]]: A button (they are generally set apart on their own line)
+  * [[cite|Cite]]: Give credits 
+

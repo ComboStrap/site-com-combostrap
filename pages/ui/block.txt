@@ -9,13 +9,22 @@ If the component should start at a new line or expand on multiple line and you c
 {{backlinks>.}}
 
 ===== List of block component =====
-  * [[box]]
-  * [[console]]
-  * [[file]]
-  * [[code]]
-  * [[note]]
-  * [[card]]
-  * [[blockquote]]
-  * [[typo]]
-  * [[list]]
-  * [[jumbotron]]
+
+  * [[blockquote|Blockquote]]: A blockquote is a card with a citation.
+  * [[box]] - a generic box for advanced styling
+  * [[card|Card (teaser)]]: Do you want to put a text in a box with optionally an image and a button, that's a card
+  * [[code]] - a block of code
+  * [[console]] - a block representing the output of a command
+  * [[file]] - a file
+  * [[jumbotron|Jumbotron]]: Prominently at the top of your page emphase a content.
+  * [[list]] - a list
+  * [[math|Math]]: Writing math formulas
+  * [[note|Note]]: An ancillary text that needs attention.
+  * [[related|Related]]: A component showing the backlinks
+  * [[typo]] - a typo 
+  * [[webcode|webcode]] - Output the result of web code (HTML, Javascript, CSS)
+  
+ 
+ 
+
+

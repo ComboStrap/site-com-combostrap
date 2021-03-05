@@ -1,0 +1,22 @@
+---json
+{
+    "canonical":"ui:layout",
+    "title":"Layout components of Combostrap",
+    "description":"A layout component is a component that laid out other components. This page lists the layout component of ComboStrap"
+}
+---
+====== ComboStrap UI - Layout Components ======
+
+
+===== About =====
+A layout component is a component that laid out other components.
+
+[[ui|ComboStrap UI]] has the following layout components in its library:
+
+  * [[card_column|Card column]] - A card column is a column layout for cards and blockquote.
+  * [[grid|Grid]] - A grid to layout every component as you wish
+  * [[Container|Container]] - A container restraints the horizontal width.
+  * [[accordion|Accordion]] - An accordion layout where panels are shown in collapsible section
+  * [[tabs|Tabs]] - An tabs layout where panels are shown in tab.
+===== Articles Related =====
+{{backlinks>.}}

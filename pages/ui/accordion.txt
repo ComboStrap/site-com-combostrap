@@ -10,7 +10,7 @@
 
 
 ===== About =====
-''accordion'' is a [[ui:ui|UI component]] that layouts [[panel|panels]] in an accordion fashion.
+''accordion'' is a [[ui:ui|UI component]] that [[layout|lays out]] [[panel|panels]] in an accordion fashion.
 
 
 <note tip>
