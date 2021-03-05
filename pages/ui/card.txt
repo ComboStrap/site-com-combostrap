@@ -1,14 +1,16 @@
 ====== ComboStrap UI - Card ======
 
 ===== About =====
-A ''card'' is just a box that have at minimal:
+A ''card'' is a box with the dimension of a card that contains summary data such as:
   * a [[title|title]]
-  * and a body
-
+  * a short description
+  * an optional image illustration
+  * [[icon|icons]]
+  
 
 
 <note>
-If the body contains callt-to-actions, this is called a [[teaser|teaser]]
+If the body contains call-to-actions, this is called a [[teaser|teaser]]
 </note>
 
 
@@ -22,24 +24,19 @@ If the body contains callt-to-actions, this is called a [[teaser|teaser]]
 <code dw>
 <card>
     {{imageTop}}
-    <label>Label</label>
+    <header>Label</header>
     Content
 </card>
 </code>
 where:
   * ''imageTop'' if the first element is an image, it will be used as a top illustration image.
-  * ''label'' defines a label that is used for navigational layout such as:
-      * [[tabs|tabs]]
-      * and [[accordion|accordion]]
+  * ''header'' defines a label placed at the top of the card
 
 A ''card'':
   * is a [[styling:html|superset HTML component]] and permits then all kind of [[styling:styling|styling]]
-  * can be laid out:
-      * in columns with the [[card_column|card-columns]] component
-      * in [[tabs|tabs]]
-      * in [[accordion|accordion]]
+  * can be laid out in tile with the [[card_column|card-columns]] component
 
-<inote>A [[ui:blockquote|blockquote]] is also just a card that happens to have an external quote</inote>
+<inote>A [[ui:blockquote|blockquote]] is also logically a card that happens to have an external quote in its body.</inote>
 
 
 ===== Visual =====

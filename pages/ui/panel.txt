@@ -1,0 +1,17 @@
+---json
+{
+    "canonical":"panel",
+    "title":"Panel: A component layout in tabs or accordion",
+    "description":"A panel is a UI component that you can used in a tabs or accordion"
+}
+---
+====== UI - Panel ======
+
+
+===== About =====
+''panel'' is a box that you can layout:
+  * in [[tabs|tabs]]
+  * or [[accordion|accordion]]
+
+===== Articles Related =====
+{{backlinks>.}}

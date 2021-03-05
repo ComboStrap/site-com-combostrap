@@ -1,108 +1,29 @@
-====== ComboStrap UI - Tabs ======
+---json
+{
+    "canonical":"tabs",
+    "title":"Tabs: layout panels in tab"
+}
+---
+====== Combostrap UI - Tabs ======
+
 
 ===== About =====
-A ''tab'' is an interactive and [[ui:navigation|navigational]] element that, when activated, displays its associated ''tabpanel''.
+A ''tab'' is an interactive and [[ui:navigation|navigational]] element that, when activated, displays its associated [[panel|panel]].
 
-<badge>Since [[:changes|version 1.6]]</badge>
 ===== Articles Related =====
 {{backlinks>.}}
 
 ===== Syntax =====
 
-
-
-The syntax has two parts:
-  * First the definition of the [[#tabs]]
-  * Then the definition of the [[#tabpanels]]
-==== Tabs ====
-
 <code dw>
-<tabs skin="tabs">
-<tab panel="panelId" selected="true">Text</tab>
-<tab .....></tab>
+<tabs>
+    <panel select="true">
+        <label>Text</label>
+        Body
+    </panel>
+    <panel>
+        <label>Text</label>
+        Body
+    </panel>
 </tabs>
 </code>
-where:
-  * ''skin'' can take the value [[#tabs]] (default) or [[#pills]]
-  * ''pannel'' is the ''id'' of the [[#tabpannels|tabpannel]]. It should be unique on the whole page ([[heading|heading included]])
-  * ''selected'' defines the default selected panel.
-==== Tabpanels ====
-
-
-<code dw>
-<tabpanels>
-<tabpanel id="panelId">Text</tabpanel>
-<tabpanel .........></tabpanel>
-</tabpanels>
-</code>
-where:
-  * the ''id value'' of the ''panel'' should follow the following rules (ie HTML4 compliant)
-      * it must be unique on the page
-      * it must contain at least one character.
-      * it must **not** contain any space characters.
-      * it must begin with a letter ''[A-Za-z]''
-      * it may be followed by any number of letters, digits ''[0-9]'', hyphens ''-'', underscores ''_'', colons '':'', and periods ''.''
-  * the content of a ''tabpanel'' accepts all syntax (included the [[title|dokuwiki heading format]] <badge>Since [[:changes|version 1.7]]</badge>)
-===== Example =====
-
-<note important>
-The most important in the ''tabs'' syntax is that the ''panel'' value of a ''tab'' should be equal to the ''id'' of its ''panel''.
-<MATH>
-tab.panel = tabpanel.id
-</MATH>
-This is how a ''tab'' know which ''panel'', it should show or hide.
-</note>
-==== Tabs ====
-
-<webcode name="Tabs" frameborder=0 >
-<code dw>
-<tabs spacing="mb-3">
-<tab panel="home" selected="true">Home</tab>
-<tab panel="syntaxes">Other syntaxes</tab>
-</tabs>
-<tabpanels>
-<tabpanel id="home">
-Raw denim you probably haven't heard of them jean shorts Austin.
-
-Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.
-</tabpanel>
-<tabpanel id="syntaxes">
-
-Other syntax are also accepted. Example with a table: \\ \\
-^ UI Components ^ Description ^
-| [[badge|badge]] | A small status descriptors |
-| [[note|note]] | A paragraph that is parenthetic or ancillary to the main text. |
-| [[ui|See the full list ...]] ||
-
-</tabpanel>
-</tabpanels>
-
-</code>
-</webcode>
-
-==== Pills ====
-
-<webcode name="Pills" frameborder=0 >
-<code dw>
-<tabs spacing="mb-3" skin="pills">
-<tab panel="home-pills" selected="true">Home</tab>
-<tab panel="profile-pills">Profile</tab>
-</tabs>
-<tabpanels>
-<tabpanel id="home-pills">
-==== My Home ====
-Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.
-</tabpanel>
-<tabpanel id="profile-pills">
-<title 1>Profile</title>
-Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.
-</tabpanel>
-</tabpanels>
-</code>
-</webcode>
-
-
-===== Documentation / Reference =====
-  * [[https://getbootstrap.com/docs/4.0/components/navs/|Bootstrap navs]]
-  * [[https://material.io/components/tabs|Material IO tabs documentation]]
-  * [[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Tab_Role|Aria Tab Role]]

@@ -46,7 +46,7 @@ The [[sectioning|Dokuwiki Heading syntax]] is used to create the [[sectioning|st
    * [[blockquote|blockquote]]
    * [[note|note]]
    * [[jumbotron|jumbotron]]
-   * [[tabs#tabpanels|tabpanel]] <badge>Since [[:changes|version 1.7]]</badge>
+   * [[panel|panel]]
 
 
 

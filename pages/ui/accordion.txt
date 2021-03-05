@@ -14,9 +14,7 @@
 
 
 <note tip>
-You can also choose another layout such as:
-  * [[ui:card_column|columns]]
-  * [[tabs|tabs]]
+You can also choose [[tabs|tabs]] as other navigational collapsible layout.
 </note>
 ===== Articles Related =====
 {{backlinks>.}}
