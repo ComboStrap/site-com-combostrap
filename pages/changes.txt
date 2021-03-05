@@ -20,7 +20,7 @@ This is a page that lists all releases with their respective changes for [[:star
   * the disabling of [[ui:preformatted|preformated]] has been improved by not allowing this mode via the ''accept'' function of the syntax class.
   * the ''combostrap'' logo got a fix color to be able to embedded it via object.
   * the [[ui:code|code]] element supports now the code export functionality of dokuwiki.
-  * New component: [[ui:accordion|accordion]] lets you lay out [[ui:card|card]] in a ''accordion'' fashion.
+  * New component: [[ui:accordion|accordion]] lets you lay out [[ui:panel|panel]] in a ''accordion'' fashion.
 
 ==== Version 1.11 - 2021-02-02 ====
 
