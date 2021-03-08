@@ -21,6 +21,8 @@ This is a page that lists all releases with their respective changes for [[:star
   * the ''combostrap'' logo got a fix color to be able to embedded it via object.
   * the [[ui:code|code]] element supports now the code export functionality of dokuwiki.
   * New component: [[ui:accordion|accordion]] lets you lay out [[ui:panel|panel]] in a ''accordion'' fashion.
+  * New syntax for [[ui:tabs|tabs]]. The syntax of the [[ui:tabs|tabs component]] was too complicated. We have deprecated the [[deprecated:tabs|old syntax]] in favor of a new one based on [[ui:panel|panel]]. It brings the fact that [[ui:accordion|accordion]] and [[ui:tabs|tabs]] are the same navigational element on two differents layouts.
+  * New skin for [[ui:tabs|tabs]] called ''enclosed-tabs'' and ''enclosed-pills'' that will enclose the tabs within a border.
 
 ==== Version 1.11 - 2021-02-02 ====
 

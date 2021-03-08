@@ -21,9 +21,13 @@ A ''tabs'' component is composed of:
   * a serie of [[panel|panel]] 
   * that must have a ''label'' element.
   * and optionally the ''selected'' attribute to specify the ''selected'' [[panel|panel]]
-  * with a ''skin'' attribute that takes the value [[#tabs]] (default) or [[#pills]]
+  * with a ''type'' attribute that may take the value:
+      * [[#tabs]] (default) 
+      * [[#pills]]
+      * [[#enclosed-tabs]] 
+      * [[#enclosed-pills]]
 <code dw>
-<tabs skin="pills">
+<tabs type>
     <panel selected="true">
         <label>Text</label>
         Body
@@ -34,15 +38,16 @@ A ''tabs'' component is composed of:
 
 
 
+
 ===== Example =====
 
 ==== Tabs ====
 
 <webcode name="Tabs" frameborder=0 >
 <code dw>
-<tabs spacing="mb-3">
+<tabs>
      <panel>
-     <label>Home</label>
+     <label>Home <icon name="home"/></label>
      Raw denim you probably haven't heard of them jean shorts Austin.
 
      Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.
@@ -66,7 +71,7 @@ A ''tabs'' component is composed of:
 
 <webcode name="Pills" frameborder=0 >
 <code dw>
-<tabs spacing="mb-3" skin="pills">
+<tabs skin="pills">
     <panel selected="true">
         <label>Home</label>
          ==== My Home ====
@@ -82,5 +87,52 @@ A ''tabs'' component is composed of:
 </tabs>
 </code>
 </webcode>
+
+==== Enclosed-Tabs ====
+
+<webcode name="Card-Tabs" frameborder=0 >
+<code dw>
+<tabs enclosed-tabs>
+    <panel selected="true">
+        <label>Home</label>
+         ==== My Home ====
+         Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, 
+         williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. 
+         Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.
+         </panel>
+         <panel>
+         <label>Profile</label>
+              <title 1>Profile</title>
+              Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.
+         </panel>
+</tabs>
+</code>
+</webcode>
+
+==== Enclosed-Pills ====
+
+<webcode name="Card-Pills" frameborder=0 >
+<code dw>
+<tabs enclosed-pills>
+    <panel selected="true">
+        <label>Home</label>
+         ==== My Home ====
+         Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, 
+         williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. 
+         Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.
+         </panel>
+         <panel>
+         <label>Profile</label>
+              <title 1>Profile</title>
+              Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.
+         </panel>
+</tabs>
+</code>
+</webcode>
+
+
+
+
+
 
 

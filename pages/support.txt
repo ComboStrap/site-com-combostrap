@@ -20,7 +20,7 @@
 <note spacing="my-3">
 ''Feedback'' and ''Questions'' are always welcome. 
 
-''ComboStrap'' comes from a custom product that was tailored to specific wishes and is migrating to a product that accommodates every use cases. 
+''ComboStrap'' comes from a custom product that was tailored to specific wishes and is migrating to a product that accommodates broader use cases. 
 
 Even if we think heel hard about it, real experience is the best feedback and we can't wait to hear what you have to say.
 </note>
@@ -38,11 +38,15 @@ Even if we think heel hard about it, real experience is the best feedback and we
 
 
 <card>
-=== Spectrum Community ===
-<icon name="looks" />Spectrum is a popular community platform among web site builders.
+=== Github ===
+<icon name="github" />The development happens on Github
+where you can open issues or asks questions.
 
 <btn spacing="mt-3">
-[[https://spectrum.chat/combostrap|Join the spectrum community]] \\
+[[https://github.com/ComboStrap/combo/issues|Combo]] \\
+</btn>
+<btn spacing="mt-3">
+[[https://github.com/ComboStrap/dokuwiki-template-strap/issues|Strap]]
 </btn>
 </card>
 

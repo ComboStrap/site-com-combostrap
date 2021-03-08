@@ -30,9 +30,9 @@ You can also choose [[tabs|tabs]] as other navigational collapsible layout for p
         Some placeholder content for the first accordion card. This card is shown by default because of the ''collapsed'' attribute.
     </panel>
     <panel>
-        <label>Collapsible Group Item #2</label>
-        === Title ===
-        Some placeholder content for the second accordion card. Card are hidden by default.
+        <label><icon name="hamburger"/> Menu</label>
+        === With Hamburger Icon ===
+        You can use all syntaxes inside a label [[ui:icon|icon included]]
     </panel>
 </accordion>
 </code>
