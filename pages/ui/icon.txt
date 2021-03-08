@@ -2,7 +2,7 @@
 
 
 ===== About =====
-The icon component permits your to create an icon :
+The icon [[ui|component]] permits your to create an icon :
   * from the [[#material design icon|material design icons library]]
   * from a [[#SVG media file]] located in your media library
 

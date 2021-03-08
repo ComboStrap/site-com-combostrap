@@ -1,0 +1,55 @@
+---json
+{
+    "canonical":"link",
+    "title":"ComboStrap UI - Link",
+    "description":"The hyperlinks in ComboStrap UI"
+}
+---
+====== ComboStrap UI - Link ======
+
+
+
+===== List =====
+
+==== Interwiki ====
+
+<webcode name="Default" frameborder=0>
+<code dw>
+Interwiki: [[doku>Interwiki]]
+</code>
+</webcode>
+
+==== Email ====
+
+See also: [[doku>config:mailguard]]
+<webcode name="Default" frameborder=0>
+<code dw>
+<support@combostrap.com>
+</code>
+</webcode>
+
+
+
+==== Windows Share ====
+
+<webcode frameborder=0>
+<code dw>
+Windows Shares: [[\\server\share|this]]
+</code>
+</webcode>
+==== Image ====
+
+
+<webcode name="Default" frameborder=0>
+<code dw>
+[[https://combostrap.com|{{:apple-touch-icon.png?50|}}]]
+</code>
+</webcode>
+
+==== Icon ====
+
+<webcode name="Default" frameborder=0>
+<code dw>
+[[https://combostrap.com|<icon name="logo.svg" width="96px" height="96px"/>]]
+</code>
+</webcode>
