@@ -14,6 +14,7 @@ The only action attached is to navigate to another page.
 ===== Articles Related =====
 {{backlinks>.}}
 
+
 ===== Example =====
 
   * Internal link
@@ -71,7 +72,7 @@ The ''button'' component is a fully [[styling:html|super set HTML component]] an
 
 A ''button'' can be used:
   * in the page content
-  * in [[card|card]]
+  * in a [[card|card]]
   * in a [[navbar|navbar]]
 
 
