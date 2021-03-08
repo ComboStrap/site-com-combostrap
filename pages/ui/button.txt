@@ -17,30 +17,39 @@ The only action attached is to navigate to another page.
 
 ===== Example =====
 
-  * Internal link
+====  Internal link ====
+
 <webcode name="Button" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <btn>[[:start|Go to ComboStrap]]</btn>
 </code>
 </webcode>
+==== External Link and secondary type ====
+
   * External Link and a [[#type|secondary type]]
 <webcode name="Button" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <btn secondary color="yellow">[[https://combostrap.com/button|Go to this page via an external link]]</btn>
 </code>
 </webcode>
+==== Spacing ====
+
   * With [[styling:spacing|spacing]]
 <webcode name="Button" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <btn class="p-3">[[:start|Go to ComboStrap]]</btn>
 </code>
 </webcode>
+==== Size ====
+
   * With the [[#size|size attribute]]
 <webcode name="Button" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <btn size="large">[[:start|Go to ComboStrap]]</btn>
 </code>
 </webcode>
+==== Colors ====
+
   * With [[styling:color|colors]]
 <webcode name="Button" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
