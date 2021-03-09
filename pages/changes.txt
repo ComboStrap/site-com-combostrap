@@ -23,6 +23,9 @@ This is a page that lists all releases with their respective changes for [[:star
   * New component: [[ui:accordion|accordion]] lets you lay out [[ui:panel|panel]] in a ''accordion'' fashion.
   * New syntax for [[ui:tabs|tabs]]. The syntax of the [[ui:tabs|tabs component]] was too complicated. We have deprecated the [[deprecated:tabs|old syntax]] in favor of a new one based on [[ui:panel|panel]]. It brings the fact that [[ui:accordion|accordion]] and [[ui:tabs|tabs]] are the same navigational element on two differents layouts.
   * New skin for [[ui:tabs|tabs]] called ''enclosed-tabs'' and ''enclosed-pills'' that will enclose the tabs within a border.
+  * Link Styling minimal breaking change: 
+      * the [[ui:dropdown|dropdown link]] in the [[ui:navbar|navbar]] got a ''active'' class. This was not right and was deleted. Unfortunately, it has an effect on the styling.
+      * the dokuwiki class ''wikilink1'' (existing page) and ''wikilink2'' (not existing page) were adding extra styling rules that were incompatible with Bootstrap. ''wikilink2'' was changed with ''text-warning'' to show visually that the page does not exist
 
 ==== Version 1.11 - 2021-02-02 ====
 

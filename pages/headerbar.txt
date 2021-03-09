@@ -24,5 +24,3 @@ ComboStrap
 <search class="mr-0 pr-0">
 </collapse>
 </navbar>
-
-
