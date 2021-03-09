@@ -26,6 +26,8 @@ This is a page that lists all releases with their respective changes for [[:star
   * Link Styling minimal breaking change: 
       * the [[ui:dropdown|dropdown link]] in the [[ui:navbar|navbar]] got a ''active'' class. This was not right and was deleted. Unfortunately, it has an effect on the styling.
       * the dokuwiki class ''wikilink1'' (existing page) and ''wikilink2'' (not existing page) were adding extra styling rules that were incompatible with Bootstrap. ''wikilink2'' was changed with ''text-warning'' to show visually that the page does not exist
+  * New syntax [[ui:link|link]] element. The dokuwiki link element allows only text or image as description. This link component enhances the syntax and allows any component as description ([[ui:link#icon|icon]] for instance)
+  * New [[ui:button|button]] HTML generation. If a button has a link in its description, the HTML generated is a link with a button role. This corrects the XHTML compliancy problem and makes the button clickable on its whole surface.
 
 ==== Version 1.11 - 2021-02-02 ====
 

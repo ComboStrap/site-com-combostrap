@@ -7,26 +7,76 @@
 ---
 ====== ComboStrap UI - Link ======
 
+===== About =====
+''link'' is  a [[ui|ComboStrap UI component]] that enhances the [[doku>wiki:syntax#links|link]] syntax by allowing any content inside. (Dokuwiki allows only text and media).
 
 
-===== List =====
+<note>
+You can therefore have an [[#icon|icon link]]
+</note>
+===== Articles Related =====
+{{backlinks>.}}
+
+
+
+===== Type =====
+
+==== Internal ====
+
+An ''internal'' link is a link to another page. If the target page does not exist, the link is shown in ''red''.
+
+<webcode name="Default" frameborder=0>
+<code dw>
+Links to [[link|existing pages]] are shown in a different style from [[nonexisting|nonexisting]] ones.
+</code>
+</webcode>
 
 ==== Interwiki ====
 
+An ''interwiki'' page is a shortcut syntax that permits to create rapidly a link to another website. The host is replaced by a ''wikiName'' (ie website name)
+
+Syntax:
+<code html>
+wikiName>path?query#fragment
+</code>
+
+For instance:
+  * to [[doku>|Dokuwiki]]
 <webcode name="Default" frameborder=0>
 <code dw>
 Interwiki: [[doku>Interwiki]]
 </code>
 </webcode>
+  * to [[wp>|wikipedia]]
+<webcode name="Default" frameborder=0>
+<code dw>
+The ''publication'' article link can be created with this syntax: [[wp>publication]]
+</code>
+</webcode>
+
 
 ==== Email ====
 
-See also: [[doku>config:mailguard]]
+
+===  Email addresses ===
+
 <webcode name="Default" frameborder=0>
 <code dw>
 <support@combostrap.com>
 </code>
 </webcode>
+=== Email link ===
+If there is no description, the email is shown with the [[doku>config:mailguard|visible'' protection]].
+<webcode name="Default" frameborder=0>
+<code dw>
+[[support@combostrap.com?subject=Contact via WebSite]]
+</code>
+</webcode>
+
+=== Email Protection ===
+
+
+Email protection against bots is almost a lost cause but you can give them an hard time with this    [[doku>config:mailguard|mailguard configuration]].
 
 
 
@@ -48,6 +98,7 @@ Windows Shares: [[\\server\share|this]]
 
 ==== Icon ====
 
+An [[icon|icon]] can be used to get a compelling visual.
 <webcode name="Default" frameborder=0>
 <code dw>
 [[https://combostrap.com|<icon name="logo.svg" width="96px" height="96px"/>]]
