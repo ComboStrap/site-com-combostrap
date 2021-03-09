@@ -92,7 +92,7 @@ Windows Shares: [[\\server\share|this]]
 
 <webcode name="Default" frameborder=0>
 <code dw>
-[[https://combostrap.com|{{:apple-touch-icon.png?50|}}]]
+[[:start|{{:apple-touch-icon.png?50|}}]]
 </code>
 </webcode>
 
