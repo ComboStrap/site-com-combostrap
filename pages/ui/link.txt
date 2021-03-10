@@ -14,6 +14,8 @@
 <note>
 You can therefore have an [[#icon|icon link]]
 </note>
+
+<badge>Since [[:changes#version_112|version 1.12]]</badge>
 ===== Articles Related =====
 {{backlinks>.}}
 
@@ -66,7 +68,7 @@ The ''publication'' article link can be created with this syntax: [[wp>publicati
 </code>
 </webcode>
 === Email link ===
-If there is no description, the email is shown with the [[doku>config:mailguard|visible'' protection]].
+If there is no description, the email is shown with the [[doku>config:mailguard|visible protection]].
 <webcode name="Default" frameborder=0>
 <code dw>
 [[support@combostrap.com?subject=Contact via WebSite]]
@@ -104,3 +106,15 @@ An [[icon|icon]] can be used to get a compelling visual.
 [[https://combostrap.com|<icon name="logo.svg" width="96px" height="96px"/>]]
 </code>
 </webcode>
+
+===== Configuration =====
+
+==== useDokuwikiLinkClassName ====
+[[doku>|Dokuwiki]] sets class names (''wikilink1'',''wikilink2'',''urlextern'',...) on the link to differentiate them. Unfortunately, this class names have styling rules that are in conflict with [[styling:bootstrap|Bootstrap]].
+
+To resolve this issue, we have set other class name by link type that a web designer can use to style the links.
+
+If you wish to get the Dokuwiki class name on your links, you can get them by enabling the [[:configuration|useDokuwikiLinkClassName configuration]].
+
+
+

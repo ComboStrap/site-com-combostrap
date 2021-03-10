@@ -15,10 +15,10 @@
 By enclosing [[code|code blocks]] by a ''webcode'' block, the plugin will add the result after the last ''webcode'' tag.
 
 
+<badge>Integrated since [[:changes#version_112|version 1.12]]</badge>
 
-
-
-
+===== Articles Related =====
+{{backlinks>.}}
 
 ===== Example=====
 

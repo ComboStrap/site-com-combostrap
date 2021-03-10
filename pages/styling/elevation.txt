@@ -13,6 +13,14 @@ It's mostly used on a ''call-to-action'' component such as a [[ui:button|button]
 ===== Articles Related =====
 {{backlinks>.}}
 
+===== Syntax =====
+
+<code html>
+elevation="true|high"
+</code>
+where the value of the attribute sets the scale height of the elevation
+  * ''true''  (default)
+  * ''high'' <badge>Since [[:changes#version_112|version 1.12]]</badge>
 ===== Example =====
 
 ==== Button ====
@@ -62,12 +70,12 @@ Guide on how to elevate
 </webcode>
 
 ==== Image ====
-With a image and a [[ui:box|box]]
+With a [[ui:image|image]] and a [[ui:box|box]]
 
 <webcode name="imgElevation" >
 <code dw>
 <box elevation="high" width="fit-content" align="center">
-    {{:android-chrome-192x192.png?100|}}
+   {{:ui:stock_image_surfer_in_the_see.png?400|}}
 </box>
 </code>
 </webcode>

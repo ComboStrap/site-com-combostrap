@@ -35,6 +35,7 @@ The [[:configuration|configuration]] ''excludedQualityRulesFromDynamicMonitoring
 
 If you had a [[rule|quality rule]] in this list, it will not show up in the message.
 
+
 ==== Disable for a page====
 
 You can disable the ''dynamic quality monitoring'' feature by setting the property ''dynamic_quality_monitoring'' in the [[semantic:frontmatter|frontmatter]] to ''false''.
@@ -47,6 +48,11 @@ Example:
 </code>
 
  
+==== Disable totally ====
+
+You can disable totally the ''dynamic quality monitoring'' feature by selecting the [[:configuration|configuration disableDynamicQualityMonitoring]].
+
+<badge>Since [[:changes#version_112|version 1.12]]</badge>
 
 
 
