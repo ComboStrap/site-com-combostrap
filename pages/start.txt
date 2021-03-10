@@ -162,7 +162,7 @@ is the cornerstone of a good website that leads to a good discoverability.
 
 This module helps you get quality insight via the quality rules and score.
 <btn secondary class="mt-3">
-[[quality:quality|Check the ''Quality'' Module]]
+[[quality:quality|Check the Quality Module]]
 </btn>
 </card>
 

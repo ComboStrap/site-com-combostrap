@@ -1,0 +1,84 @@
+---json
+{
+    "canonical":"simplexml",
+    "low_quality_page":"false"
+}
+---
+====== Fatal Error - Class 'SimpleXMLElement' not found ======
+
+
+===== About =====
+''Combostrap'' makes use of the [[https://www.php.net/manual/en/simplexml.installation.php|SimpleXml]] library to manipulate SVG and HTML code.
+
+This library is installed by default and is therefore part of most of the installation.
+
+If you don't have it, you may got the following error and this article is a step by step on how to resolve it.
+
+
+===== Steps =====
+==== PHP Fatal error:  Uncaught Error: Class 'SimpleXMLElement' not found ====
+The error that you will see in your log.
+<console warning>
+PHP Fatal error:  Uncaught Error: Class 'SimpleXMLElement' not found in /usr/share/dokuwiki/lib/plugins/combo/class/XmlUtility.php:110
+Stack trace:
+#0 /usr/share/dokuwiki/lib/plugins/combo/class/LinkUtility.php(228): ComboStrap\\XmlUtility::isXml('<a href="https:...')
+#1 /usr/share/dokuwiki/lib/plugins/combo/syntax/link.php(161): ComboStrap\\LinkUtility->render(Object(Doku_Renderer_xhtml))
+#2 /usr/share/dokuwiki/inc/parser/renderer.php(117): syntax_plugin_combo_link->render('xhtml', Object(Doku_Renderer_xhtml), Array)
+#3 /usr/share/dokuwiki/inc/parserutils.php(673): Doku_Renderer->plugin('combo_link', Array, 5, '[[https://www.r...')
+#4 /usr/share/dokuwiki/inc/parserutils.php(142): p_render('xhtml', Array, NULL)
+#5 /usr/share/dokuwiki/inc/parserutils.php(89): p_cached_output('/var/lib/dokuwi...', 'xhtml', 'index')
+#6 /usr/share/dokuwiki/inc/html.php(305): p_wiki_xhtml('index', 0, true, '')
+#7 /usr/share/dokuwiki/inc/Action/Show.php(33): html_show()
+#8 /usr/share/dokuwiki/inc/template.php(99): dokuwiki\\Action\\Show->tplContent()
+#9 in /usr/share/dokuwiki/lib/plugins/combo/class/XmlUtility.php on line 110
+</console>
+
+==== Is SimpleXml Enabled ====
+
+To check your installation, in a php environment, you make use of the ''phpinfo'' output.
+
+You can the output:
+  * via the command line
+<code bash>
+php -i
+</code>
+  * via a php page, created at the root of your server. If you create the ''phpinfo.php'' with the below code, it will be accessible at http://host/phpinfo.php
+<code php phpinfo.php>
+<?php
+phpinfo();
+</code>
+
+The ''php info'' will show if ''SimpleXml'' is enabled as extension:
+
+<box elevation="high" align="center" width="fit-content">
+{{:support:simplexml_enabled_phpinfo.png|}}
+</box>
+\\
+
+If the extensions is not enabled, you need to enable it.
+
+==== Enabling the SimpleXml Extension ====
+
+Due to the complexity of server installation, we are giving below some tips but we can't help more without having access to the server.
+
+=== Windows ===
+For windows, you should [[https://windows.php.net/download|install a php]] that was compiled with ''SimpleXml'' (which should be the default)
+
+=== Linux ===
+
+On Linux, it may be:
+  * not installed by default:
+<code bash>
+# ubuntu, ...
+sudo apt-get install php-xml
+# centos, redhat
+sudo yum install php-xml
+</code>
+  * not configured in the ''php.ini''. Make sure that you see it in the extension.
+
+<box elevation="high" align="center" width="fit-content">
+{{:support:simplexml_phpinfo_ini_parsed.png?800|}}
+</box>
+
+
+
