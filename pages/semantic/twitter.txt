@@ -1,0 +1,36 @@
+---json
+{
+    "canonical":"twitter",
+    "title":"Twitter card enabled",
+    "description":"Sharing a link from a ComboStrap page will show on every twitter a card thanks to the social metadata"
+}
+---
+====== ComboStrap Page Metadata - Twitter Card ======
+
+
+===== About =====
+''ComboStrap'' page will render automatically as [[https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/summary-card-with-large-image|summary card in a tweet]].
+
+
+You can optionally add your twitter handle in the cards. See the [[#configuration|configurations]].
+
+<badge>Since [[:changes#version_112|version 1.12]]</badge>
+
+===== Preview =====
+
+You can preview a card page before tweeting it at: https://cards-dev.twitter.com/validator
+
+===== Configuration =====
+
+You can set the following [[:configuration|configuration]]:
+
+^ Name ^ Description ^ Default value ^
+| ''twitterSiteHandle'' | the handle name of your twitter account | None |
+| ''twitterSiteId'' | the twitter id of your twitter account | None |
+| ''twitterSiteImage'' | the logo of your website ([[https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup|svg is not supported, less than 5MB]]) | apple-touch-icon.png |
+
+<note>
+The default site image ''apple-touch-icon.png'' is already installed if you have followed the [[getting_started:4_favicon|favicon installation guide]]
+</note>
+
+

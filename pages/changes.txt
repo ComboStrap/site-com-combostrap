@@ -32,6 +32,7 @@ This is a page that lists all releases with their respective changes for [[:star
       * ''wikilink2'' was changed with ''text-warning'' to show visually that the page does not exist
   * New [[ui:image|Image page]] to show how to elevate an image
   * Bug: The [[strap:bar|bar pages]] are not anymore set as [[quality:low_quality_page|low quality page]].
+  * Twitter aware: ComboStrap pages are now [[semantic:twitter|twitter aware and renders in tweet as cards]].
 ==== Version 1.11 - 2021-02-02 ====
 
 List:
@@ -171,4 +172,3 @@ First release.
     * Word visualization - https://github.com/wooorm/write-music
 	* https://wooorm.com/short-words/
   * ''mime.local.conf'' management - How to allow svg as image ?
-  * [[https://github.com/twbs/bootstrap/blob/v4-dev/site/layouts/partials/social.html|Social Meta Tag]]

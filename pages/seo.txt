@@ -45,4 +45,8 @@ The [[sitemap|sitemap]] is a important element and you still need to enable it.
 [[sitemap#configuration|Sitemap configuration]]
 </btn>
 
+
+==== Social ====
+The Combostrap page renders automatically in [[semantic:twitter|twitter as card]].
+
 </container>
