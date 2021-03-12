@@ -1,6 +1,9 @@
 ---json
 {
-   "canonical":"ui:title"
+   "canonical":"ui:title",
+   "title":"The Title element in the ComboStrap UI",
+   "description":"A title is a semantic heading that defines the title of a component and does not add a level in the Table of content (ie outline)"
+   
 }
 ---
 
@@ -8,13 +11,13 @@
 
 
 ===== About =====
-A ''title'' is a ''semantic'' [[heading|heading]] that defines the title of a component.
+A ''title'' is a ''semantic'' [[heading|heading]] that defines the title of a component and does not add a level in the [[ui:toc|TOC (outline)]]
 
 
 <badge>Since [[:changes|version 1.4]]</badge>
 
 <note warning>
-If you search the ''title'' of a ''page'', see the page [[semantic:title|]]
+If you search the ''title'' of a ''page'', see the page [[semantic:title]]
 </note>
 ===== Articles Related =====
 {{backlinks>.}}

@@ -39,12 +39,9 @@ The following data may be set for a page:
 
 ''discoverability'' is the science to be easily discoverable and understood by [[kb>search:engine|search engine]].
 
-The [[sitemap|sitemap]] is a important element and you still need to enable it. 
-
-<btn>
-[[sitemap#configuration|Sitemap configuration]]
-</btn>
-
+By default, you need to enable it or change the following configurations.
+  * The [[sitemap|sitemap]] is a important element and should be enabled.
+  * the [[doku>config:indexdelay|indexdelay]] delayed the indexation of modified page by search engine. To disable this anti spam feature for an open wiki, you need to set it to ''0''
 
 ==== Social ====
 The Combostrap page renders automatically in [[semantic:twitter|twitter as card]].

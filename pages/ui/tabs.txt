@@ -133,6 +133,9 @@ A ''tabs'' component is composed of:
 </webcode>
 
 
+===== For the geek =====
+The [[panel|panel]] rendered is a [[https://www.w3.org/TR/wai-aria-practices-1.1/#tabpanel|tabpanel (WAI-ARIA Authoring Practices 1.1)]]
+
 
 
 
