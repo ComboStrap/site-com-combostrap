@@ -33,6 +33,8 @@ This is a page that lists all releases with their respective changes for [[:star
   * New [[ui:image|Image page]] to show how to elevate an image
   * Bug: The [[strap:bar|bar pages]] are not anymore set as [[quality:low_quality_page|low quality page]].
   * Twitter aware: ComboStrap pages are now [[semantic:twitter|twitter aware and renders in tweet as cards]].
+  * Facebook aware: ComboStrap pages are now [[semantic:facebook|facebook]].
+  * New Page Metadata - the [[semantic:image|page of an image]] used in card social illustration.
 ==== Version 1.11 - 2021-02-02 ====
 
 List:

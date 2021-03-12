@@ -1,0 +1,46 @@
+---json
+{
+    "canonical":"facebook",
+    "title":"Facebook Graph Enabled",
+    "description":"Sharing a link from a ComboStrap page will show on every facebook post a card thanks to the facebook social graph metadata"
+}
+---
+====== ComboStrap Page Metadata - Facebook Card ======
+
+
+===== About =====
+Sharing a link will show on every facebook post a card thanks to the facebook social graph metadata added to each ComboStrap page.
+
+
+
+  
+The following metadata are set:
+  * [[title|title]]
+  * [[description|description]]
+  * [[image|image]]. The image must be at minimum 200px by 200px (The card rendering uses 524x274) More see the [[https://developers.facebook.com/docs/sharing/webmasters/images|Facebook Image documentation]]
+  * [[type|type]]
+
+<badge>Since [[:changes#version_112|version 1.12]]</badge>
+
+===== Articles Related =====
+{{backlinks>.}}
+===== Preview =====
+
+
+You can check the generated card before posting with the [[https://developers.facebook.com/docs/sharing/webmasters#testing|sharing debugger]].
+
+<box elevation="high" align="center" width="fit-content">
+   {{:semantic:facebook_card.png?350|}}
+</box>
+
+\\
+===== Configuration =====
+
+You can set the following [[:configuration|configuration]]:
+
+^ Name ^ Description ^ Default value ^
+| ''facebookDefautImage'' | the default image if no [[image|page image]] was found | :logo-facebook.png |
+
+
+
+

@@ -9,17 +9,24 @@
 
 
 ===== About =====
-''ComboStrap'' page will render automatically as [[https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/summary-card-with-large-image|summary card in a tweet]].
+''ComboStrap'' page will render automatically as a [[https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/summary-card-with-large-image|summary card in a tweet]].
 
 
 You can optionally add your twitter handle in the cards. See the [[#configuration|configurations]].
 
 <badge>Since [[:changes#version_112|version 1.12]]</badge>
 
+===== Articles Related =====
+{{backlinks>.}}
 ===== Preview =====
 
 You can preview a card page before tweeting it at: https://cards-dev.twitter.com/validator
 
+<box elevation="high" align="center" width="fit-content">
+{{:semantic:twitter_card_preview.png|}}
+</box>
+
+\\
 ===== Configuration =====
 
 You can set the following [[:configuration|configuration]]:
@@ -27,7 +34,7 @@ You can set the following [[:configuration|configuration]]:
 ^ Name ^ Description ^ Default value ^
 | ''twitterSiteHandle'' | the handle name of your twitter account | None |
 | ''twitterSiteId'' | the twitter id of your twitter account | None |
-| ''twitterSiteImage'' | the logo of your website ([[https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup|svg is not supported, less than 5MB]]) | apple-touch-icon.png |
+| ''defaultTwitterImage'' | the image used if an [[image|page image]] was not found ([[https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup|svg is not supported, less than 5MB]]) | apple-touch-icon.png |
 
 <note>
 The default site image ''apple-touch-icon.png'' is already installed if you have followed the [[getting_started:4_favicon|favicon installation guide]]

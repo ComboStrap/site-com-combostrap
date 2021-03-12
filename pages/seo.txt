@@ -44,6 +44,8 @@ By default, you need to enable it or change the following configurations.
   * the [[doku>config:indexdelay|indexdelay]] delayed the indexation of modified page by search engine. To disable this anti spam feature for an open wiki, you need to set it to ''0''
 
 ==== Social ====
-The Combostrap page renders automatically in [[semantic:twitter|twitter as card]].
+The Combostrap page renders automatically as card in:
+  * [[semantic:twitter|twitter]]
+  * and [[semantic:facebook|facebook]]
 
 </container>

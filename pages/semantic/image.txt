@@ -1,0 +1,25 @@
+---json
+{
+    "canonical":"page:image"
+}
+---
+====== ComboStrap Page Metadata - Image ======
+
+
+===== About =====
+''image'' is a [[semantic|page metadata]] that defines an image illustration for a page.
+
+The image is then used as illustration on social cards such as [[twitter|twitter]] or [[facebook|facebook]].
+
+<badge>Since [[:changes#version_112|version 1.12]]</badge>
+===== Definition =====
+
+The image of a page is searched in this order:
+  - the ''image'' property in the [[frontmatter|frontmatter]]
+  - the ''first image'' of a page if not [[#disableFirstImageAsPageImage|disabled]]
+
+
+===== Configuration =====
+==== disableFirstImageAsPageImage====
+The ''disableFirstImageAsPageImage'' is a [[:configuration|configuration]] that permits to disable the use of the first image of page as the image of a page.
+

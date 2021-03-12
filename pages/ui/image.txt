@@ -1,7 +1,8 @@
 ---json
 {
     "canonical":"image",
-    "title":"How to use the image tag in ComboStrap"
+    "title":"How to use the image tag in ComboStrap",
+    "image":":ui:stock_image_surfer_in_the_see.png"
 }
 ---
 ====== ComboStrap UI - Image ======
@@ -62,7 +63,6 @@ For instance, to elevate this photography with a surfer, you could use this synt
 </box>
 </code>
 </webcode>
-
 
 
 
