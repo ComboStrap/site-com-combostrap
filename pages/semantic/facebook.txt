@@ -19,6 +19,7 @@ The following metadata are set:
   * [[description|description]]
   * [[image|image]]. The image must be at minimum 200px by 200px (The card rendering uses 524x274) More see the [[https://developers.facebook.com/docs/sharing/webmasters/images|Facebook Image documentation]]
   * [[type|type]]
+  * [[locale|locale]] - if the locale cannot be derived, we set the default Facebook value (''en_US'').
 
 <badge>Since [[:changes#version_112|version 1.12]]</badge>
 
@@ -41,6 +42,7 @@ You can set the following [[:configuration|configuration]]:
 ^ Name ^ Description ^ Default value ^
 | ''facebookDefautImage'' | the default image if no [[image|page image]] was found | :logo-facebook.png |
 
-
+===== Documentation / Reference =====
+  * https://developers.facebook.com/docs/sharing/webmasters
 
 

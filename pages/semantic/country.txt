@@ -21,6 +21,8 @@ Example:
 The complete list of values can be found on Wikipedia on this page: [[wp>List_of_ISO_3166_country_codes]]
 
 The [[google|google search engine]] uses this information to localize your content.
+
+<badge>Since [[:changes#version_112|version 1.12]]</badge>
 ===== Set =====
 The default value is set in the [[#siteCountry]] configuration.
 

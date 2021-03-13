@@ -43,7 +43,7 @@ If you choose a fixed-top navbar, you need also to change a ''strap template'' s
 
 ==== A navbar with two dropdown menu and the search box at the right ====
 
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="NavbarDropDownSearchBox" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
   * No cache when developing the bar to be sure.
 <code dw>
 ~~NOCACHE~~

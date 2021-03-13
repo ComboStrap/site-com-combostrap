@@ -1,0 +1,44 @@
+---json
+{
+    "canonical":"semantic:lang",
+    "title":"How to set the language of a page"
+}
+---
+====== ComboStrap Page Metadata - Lang (Language) ======
+
+
+===== About =====
+The ''lang'' [[semantic|metadata]] is an language identifier that sets the language of a page
+
+
+The format supported is the [[https://www.loc.gov/standards/iso639-2/php/English_list.php|ISO 639-2]] 2 letters code.
+
+Example: 
+  * ''en'' (English), 
+  * ''fr'' (French)
+  * ''nl'' (Dutch)
+
+The langue identifier is used in the [[locale|locale]] to localize the page.
+
+<badge>Since [[:changes#version_112|version 1.12]]</badge>
+
+===== Articles Related =====
+{{backlinks>.}}
+===== Set =====
+The default value is set in the [[#config:lang]] configuration.
+
+You can set a ''lang'' code in the [[frontmatter|frontmatter]] for a specific page.
+
+<code json>
+---json
+{
+    "lang":"nl"
+}
+---
+</code>
+
+===== Configuration =====
+
+==== config:lang ====
+
+The default value is set in the [[doku>config:lang]] configuration.

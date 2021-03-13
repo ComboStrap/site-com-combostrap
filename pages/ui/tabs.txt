@@ -4,7 +4,7 @@
     "title":"Tabs: layout panels in tab"
 }
 ---
-====== Combostrap UI - Tabs ======
+====== ComboStrap UI - Tabs ======
 
 
 ===== About =====

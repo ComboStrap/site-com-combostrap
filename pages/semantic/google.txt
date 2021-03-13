@@ -7,6 +7,12 @@
 
 
 
+<badge>Since [[:changes#version_112|version 1.12]]</badge>
+
 ===== List of Metadata =====
 
-  * ''locale'' with [[doku>conf:lang|lang]] and [[country|country]]
+  * ''locale'' derived of [[lang|lang]] and [[country|country]]
+
+
+===== Preview =====
+  * Test: https://search.google.com/structured-data/testing-tool/u/0/
