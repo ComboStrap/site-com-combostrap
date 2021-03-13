@@ -1,0 +1,41 @@
+---json
+{
+    "canonical":"country"
+}
+---
+====== ComboStrap Page Metadata - Country ======
+
+
+===== About =====
+The ''country'' code localized the page geographically at a country level. 
+
+
+
+
+The format supported is the ISO 3166 alpha-2 country code.
+
+Example: 
+  * ''US'' (United States), 
+  * ''FR'' (France)
+
+The complete list of values can be found on Wikipedia on this page: [[wp>List_of_ISO_3166_country_codes]]
+
+The [[google|google search engine]] uses this information to localize your content.
+===== Set =====
+The default value is set in the [[#siteCountry]] configuration.
+
+You can set a ''country'' code in the [[frontmatter|frontmatter]] to localize a specific page.
+
+<code json>
+---json
+{
+    "country":"nl"
+}
+---
+</code>
+
+===== Configuration =====
+
+==== siteCountry ====
+
+A page is by default localized to the country set in the ''siteCountry'' [[:configuration|configuration]]

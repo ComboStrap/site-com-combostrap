@@ -1,0 +1,12 @@
+---json
+{
+    "canonical":"google"
+}
+---
+====== Google Search Engine ======
+
+
+
+===== List of Metadata =====
+
+  * ''locale'' with [[doku>conf:lang|lang]] and [[country|country]]
