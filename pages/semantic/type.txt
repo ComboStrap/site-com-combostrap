@@ -21,12 +21,24 @@ You can set the value in the [[frontmatter|frontmatter]]
 </code>
  
 The value can be one of the following:
-  * ''website'' (default) 
-  * ''article'' - a published page. The content will not change after publication - blog, newspaper,..
-  * ''book''
+
+^ Value ^ Facebook (og) ^ Google (ld-json) ^ Description ^
+| [[website|website]] (default) | ''website'' (default) | ''website'' | General website information |
+| [[article|article]] | ''article'' | ''article'' | A published page. The content will not change after publication - blog, newspaper,.. |
+| ''book'' | ''book'' | [[https://developers.google.com/search/docs/data-types/book|book]] | A book |
+
+
+Others Og:
   * ''music''
   * ''video''
   * ''profile'' 
+
+Ld-data:
+  * NewsArticle
+  * Article
+  * TechArticle
+  * BlogPosting
+  * Recipe
 
 
 

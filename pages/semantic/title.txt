@@ -55,5 +55,5 @@ Result:
 
 
 <note>
-With the [[strap:strap|strap template]],  the website ''home page'' title is the Dokuwiki title with the website [[strap:tagline|tagline]] 
+With the [[strap:strap|strap template]],  the website ''home page'' title is the Dokuwiki title with the website [[semantic:tagline]]|tagline]] 
 </note>

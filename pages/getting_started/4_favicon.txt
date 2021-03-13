@@ -8,7 +8,7 @@
 ====== ComboStrap Getting Started - How to configure the Favicons ======
 
 ===== About =====
-This page is an ''HowTo'' that shows you how to choose and install a favicon with [[:start|ComboStrap]].
+This page is an ''HowTo'' that shows you how to choose and install a favicon and your logo image with [[:start|ComboStrap]].
 
 
 ===== Steps =====

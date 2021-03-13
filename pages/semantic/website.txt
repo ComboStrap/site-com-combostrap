@@ -1,0 +1,38 @@
+---json
+{
+    "canonical":"semantic:site",
+    "title":"How to advertise your website information to be harvested by Search Engine",
+    "description":"This article describe the site metadata that are added to the home page"
+}
+---
+====== ComboStrap Metadata - Website ======
+
+
+===== About =====
+The ''home'' page contains ''website'' [[semantic:semantic|metadata]] that are parsed by search engine such as [[semantic:google|google]].
+
+They contains information about your website and your organization.
+
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Usage =====
+This information is used by Google and others search engine.
+  * The logo is shown in [[https://developers.google.com/search/docs/data-types/logo|the Google knowledge panel]]
+  * The website information adds a [[https://developers.google.com/search/docs/data-types/sitelinks-searchbox|searchbox]].
+===== List =====
+The following elements are added to the home page:
+  * ''url''
+  * ''name'', the [[doku>config:title|title]]
+  * ''description'', the [[semantic:tagline|tagline]]
+  * ''image'', the [[getting_started:4_favicon|logo]] (as png)
+
+<note>
+If you wish to set more metadata, check the example and what kind of properties may be added at:
+  * [[https://schema.org/WebSite|Schema.org WebSite]]
+  * [[https://schema.org/Organization|Schema.org Organization]]
+and [[:support|create a ticket or contact us]]
+</note>
+
+

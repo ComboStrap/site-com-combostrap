@@ -31,7 +31,7 @@ You can render the metadata of a page with the ''metadata tag''
 </code>
 where:
   * ''title'' is the title of the box
-  * ''exclude'' is an attribute with a regular expression pattern that permits to exclude metadata from rendering
+  * ''exclude'' is an attribute with a regular expression pattern that permits to exclude metadata from rendering.
 
 Output without the [[ui:toc|table of contents]] and the ''user'' properties
 </webcode>
@@ -42,7 +42,7 @@ Output without the [[ui:toc|table of contents]] and the ''user'' properties
 This [[:configuration|configuration]] set the default attributes of all metadata box.
 
 By default, the value filters the [[ui:toc|table of contents]].
-<code>
+<code html>
 title="Metadata" exclude="tableofcontents"
 </code>
 

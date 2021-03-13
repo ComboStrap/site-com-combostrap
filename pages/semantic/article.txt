@@ -1,0 +1,30 @@
+---json
+{
+    "canonical":"page:article"
+}
+---
+====== ComboStrap Page Metadata - Article ======
+
+
+===== About =====
+''article'' is a [[type|type]] of page.
+
+
+An article, such as a news article or piece of investigative report. Newspapers and magazines have articles of many different types and this is intended to cover them all.
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Property =====
+
+^ Key ^ Description ^
+| ''published_time'' | When the article was first published. |
+| ''modified_time'' | When the article was last changed. |
+| ''expiration_time'' | When the article is out of date after |
+| ''author'' | Writers of the article |
+| ''category'' | A high-level section name. E.g. Technology |
+| ''tag'' | Tag words associated with this article. |
+===== Documentation / Reference =====
+  * [[https://developers.google.com/search/docs/data-types/article|Google article example]]
+  * https://ogp.me/#type_article
+  * https://schema.org/Article

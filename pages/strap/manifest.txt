@@ -38,8 +38,8 @@ The JSON file contains several information
     ]
 }
 </code>
-  * ''name'' is the [[doku>config:title|title]] [[:configuration|configuration]]
-  * ''description'' is the [[strap:tagline|tagline configuration]]
+  * ''name'' is the [[doku>config:title|title]] [[configuration|configuration]]
+  * ''description'' is the [[semantic:tagline|tagline configuration]]
   * ''icons'' are automatically recognized. See [[getting_started:4_favicon]]
 
 ===== Configuration =====

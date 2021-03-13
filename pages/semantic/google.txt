@@ -15,4 +15,5 @@
 
 
 ===== Preview =====
-  * Test: https://search.google.com/structured-data/testing-tool/u/0/
+  * https://search.google.com/structured-data/testing-tool
+  * https://search.google.com/test/rich-results

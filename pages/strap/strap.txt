@@ -27,7 +27,7 @@ The ''strap'' template supports the following features:
       * [[footerbor|Footerbar]] (bottom)
   * [[dynamic_grid|Dynamic grid system from 12 to 16 columns]]
   * [[toolbar|Aggregate toolbar (Page, User Site) with a private option]]
-  * Support [[tagline|tagline]]
+  * Support [[semantic:tagline]]|tagline]]
   * [[fixed-top-navbar|Fixed-top navbar with automatic top page location correction]]
   * Support a [[ui:trail_breadcrumb|trailing breadcrumb]]
   * [[styling:scale|Size Scale configuration (font and spacing)]]

@@ -4,19 +4,23 @@
 }
 ---
 
-====== Strap Template - Tagline ======
+====== Semantic - Tagline ======
 
 
 ===== About =====
-The [[strap:strap|Strap template]] supports the [[doku>config:tagline|tagline]] [[:configuration|configuration]].
-
 A tagline is a short and appealing marketing description for your website or product.
 
 It's used:
   * in the ''description'' field of the [[strap:manifest|manifest]]
   * in the home page [[semantic:title|title]].
+  * in the home page [[website|website metadata]] as site description.
 
 
-To enable it, you just need to set the [[doku>config:tagline|tagline]] [[:configuration|configuration]] with a value.
+
 ===== Articles Related =====
 {{backlinks>.}}
+
+===== Enable =====
+
+To enable it, you just need to set the [[doku>config:tagline|tagline]] [[:configuration|configuration]] with a value.
+
