@@ -1,0 +1,32 @@
+---json
+{
+	"canonical": "about",
+	"title": "The ComboStrap Organization - About us",
+	"description": "A page about the combostrap organization that also demonstrates how you can create an organization page",
+	"type": "organization",
+	"organization": {
+		"name": "ComboStrap",
+		"email": "support@combostrap.com",
+		"slogan": "Growing the world GDP of publishers and creators",
+		"address": {
+			"@type": "PostalAddress",
+			"addressLocality": "Oegstgeest, Netherlands",
+			"postalCode": "2343KE"
+		},
+		"parentOrganization": {
+			"@type": "organization",
+			"name": "Bytle",
+			"url": "https://bytle.net"
+		}
+	}
+}
+---
+====== About Us ======
+
+
+===== About =====
+''ComboStrap'' is an organization that is dedicated to grow the world GDP of publishers and creators.
+
+
+
+

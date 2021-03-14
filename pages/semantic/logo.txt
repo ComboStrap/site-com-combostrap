@@ -1,0 +1,53 @@
+---json
+{
+    "canonical":"semantic:logo"
+}
+---
+====== ComboStrap Meta - Logo ======
+
+===== About =====
+A ''logo'' is an image that illustrates your [[organization|organization]].
+===== Usage =====
+
+==== Metadata ====
+Your logo is used as default illustration:
+  * for social card such as [[facebook|facebook]] and [[twitter|twitter]]
+  * for search engine such as [[google|google]]
+
+
+==== Navbar Brand ====
+
+You can use your logo in the [[ui:brand|brand component]] of the [[ui:navbar|top navigation bar]] with the [[ui:icon|icon component]]
+
+Example:
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<brand class="pt-0" title="ComboStrap Home" style="color:#075EBB">
+<icon name="logo.svg" />
+ComboStrap Beta
+</brand>
+</code>
+  * Result:
+</webcode>
+
+==== Browser ====
+
+The browser uses it as [[getting_started:4_favicon|favicon]].
+
+{{strap:favicon_verification.png|}}
+===== How to create an set your logo =====
+To create and set your logo, you should follow the [[getting_started:4_favicon|favicon getting started article.]]
+
+===== Order of precedence =====
+
+''ComboStrap'' searches a compliant logo in the following places by order of importance. <inote>This list uses the **png** format but the same order is used for others format such as **svg**</inote>
+
+  - '':logo.png''
+  - '':wiki:logo.png''
+  - '':favicon-32×32.png''
+  - '':favicon-16×16.png''
+  - '':apple-touch-icon.png''
+  - ''android-chrome-192x192.png''
+
+
+

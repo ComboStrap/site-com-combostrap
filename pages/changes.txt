@@ -35,6 +35,8 @@ This is a page that lists all releases with their respective changes for [[:star
   * Twitter aware: ComboStrap pages are now [[semantic:twitter|twitter aware and renders in tweet as cards]].
   * Facebook aware: ComboStrap pages are now [[semantic:facebook|facebook]].
   * New Page Metadata - the [[semantic:image|page of an image]] used in card social illustration.
+  * Improved: the [[semantic:frontmatter|frontmatter]] creates a link to debug quickly the json if there is any errors.
+  * New: You can advertise your organization by creating an [[semantic:organization|organization page]].
 ==== Version 1.11 - 2021-02-02 ====
 
 List:
