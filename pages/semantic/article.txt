@@ -3,7 +3,7 @@
     "canonical":"page:article"
 }
 ---
-====== ComboStrap Page Metadata - Article ======
+====== ComboStrap Metadata - Article Page ======
 
 
 ===== About =====
@@ -17,6 +17,10 @@ An article, such as a news article or piece of investigative report. Newspapers 
 
 ===== Property =====
 
+https://developers.google.com/search/docs/data-types/article#article-types
+
+Only a marked-up image that directly belongs to the article should be specified. Images should be at least 696 pixels wide.
+
 ^ Key ^ Description ^
 | ''published_time'' | When the article was first published. |
 | ''modified_time'' | When the article was last changed. |
@@ -26,5 +30,6 @@ An article, such as a news article or piece of investigative report. Newspapers 
 | ''tag'' | Tag words associated with this article. |
 ===== Documentation / Reference =====
   * [[https://developers.google.com/search/docs/data-types/article|Google article example]]
+  * [[https://developers.google.com/search/docs/data-types/paywalled-content|Paywalled content News article]]
   * https://ogp.me/#type_article
   * https://schema.org/Article

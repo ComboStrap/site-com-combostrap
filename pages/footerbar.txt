@@ -8,9 +8,10 @@
 		</col>
 		<col class="col-12 col-lg-6">
 **Combostrap** \\
-		[[:support|Support]] \\
-		[[:changes|Release (Changes)]]\\
-		[[:security|Security]] \\
+[[:support|Support]] \\
+[[:about_us|About Us]] \\
+[[:changes|Release (Changes)]]\\
+[[:security|Security]] \\
 		</col>
 	</row>
 </container>

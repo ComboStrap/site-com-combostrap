@@ -3,17 +3,27 @@
     "canonical":"google"
 }
 ---
-====== Google Search Engine ======
+====== Google Rich Result ======
 
+===== About =====
+The ''ComboStrap'' pages are [[https://developers.google.com/search/docs/guides/search-gallery|Google Rich Result]] aware. 
+
+''Google Rich Result'' are results shown in the search page of Google that have been [[kb>rich:text|styled]]
+
+When you set a [[type|type]] of page, ''ComboStrap'' will automatically create the minimum information needed to create a ''Google Rich Result''.
 
 
 <badge>Since [[:changes#version_112|version 1.12]]</badge>
 
-===== List of Metadata =====
+===== List =====
 
-  * ''locale'' derived of [[lang|lang]] and [[country|country]]
+  * [[article]]
+  * [[organization]]
+
 
 
 ===== Preview =====
-  * https://search.google.com/structured-data/testing-tool
-  * https://search.google.com/test/rich-results
+You can control the ''Rich Result'' of your page with the following tools:
+  * [[https://search.google.com/test/rich-results|Rich Results test]] will validate and show you the data set one page at a time.
+  * [[https://support.google.com/webmasters/answer/7552505|Rich result status reports]] will show you a report of your website.
+

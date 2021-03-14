@@ -5,21 +5,27 @@
     "description":"This article describe the site metadata that are added to the home page"
 }
 ---
-====== ComboStrap Metadata - Website ======
+====== ComboStrap Metadata - Website (Home Page) ======
 
 
 ===== About =====
-The ''home'' page contains ''website'' [[semantic:semantic|metadata]] that are parsed by search engine such as [[semantic:google|google]].
+A ''WebSite'' page is a page with [[semantic|metadata]] about your website. 
 
-They contains information about your website.
+''ComboStrap'' sets automatically the home page with the ''website'' [[type|type]] and implements the [[https://developers.google.com/search/docs/data-types/sitelinks-searchbox|searchbox]] [[google|google rich result]] 
+
+
+<note>
+A website is defined as a set of related web pages that are served from a single web domain.
+</note>
+
+
+
 
 
 ===== Articles Related =====
 {{backlinks>.}}
 
-===== Usage =====
-This information is used by Google and others search engine.
-  * The website information adds a [[https://developers.google.com/search/docs/data-types/sitelinks-searchbox|searchbox]].
+
 ===== List =====
 The following elements are added to the home page:
   * ''url''
@@ -27,10 +33,10 @@ The following elements are added to the home page:
   * ''description'', the [[semantic:tagline|tagline]]
   * ''image'', the [[getting_started:4_favicon|logo]] (as png)
 
+
 <note>
-If you wish to set more metadata, check the example and what kind of properties may be added at:
-  * [[https://schema.org/WebSite|Schema.org WebSite]]
-and [[:support|create a ticket or contact us]]
+You can set more metadata yourself, check the example and what kind of properties may be added at [[https://schema.org/WebSite|Schema.org WebSite]]
+and go to the [[google|Google Rich Result page]] to know how.
 </note>
 
 

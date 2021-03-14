@@ -9,7 +9,7 @@
 
 
 ===== About =====
-A ''panel'' is a widget that is used in collapsible layout component.
+A ''panel'' is a widget that is used in a ''collapsible'' layout component.
 
 
 For further information, on the usage of a ''panel'', you need to refer to the layout documentation:

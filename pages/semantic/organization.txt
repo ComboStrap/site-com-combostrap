@@ -11,8 +11,9 @@
 An ''organization'' page is a [[type|type of page]] that defines information about your organization.
 
 
-
-[[google|google]] uses it to create the [[https://developers.google.com/search/docs/data-types/logo|knowledge panel]]
+<note>
+[[google|Google]] uses it to create the [[https://developers.google.com/search/docs/data-types/logo|knowledge panel]]
+</note>
 ===== How to create an organization page =====
 To create a page on your website that contains your organization  information such as our [[:about_us|About us]] page, you need to define the [[type|type]] to ''Organization''
 

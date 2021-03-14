@@ -21,12 +21,36 @@
 	}
 }
 ---
-====== About Us ======
+
+<container width="720px">
+====== ComboStrap - About Us ======
 
 
+<typo lead>
+Growing the world GDP of publishers and creators
+</typo>
 ===== About =====
 ''ComboStrap'' is an organization that is dedicated to grow the world GDP of publishers and creators.
 
+We are an organization localized in the Netherlands that have started in the publishing world 10 years ago.
+
+''ComboStrap'' is the application that powers all the website of our company such as:
+  * https://datacadamia.com
+  * https://tabulify.com
+
+During the years, we found ourself in a position where we needed to add features to our [[doku>Dokuwiki]] platform and ''ComboStrap'' is the result.
+
+We find it awesome to see that our product is living outside our own world and is helping people all over the world publishing on the internet.
+
+If you need to contact us, you can [[support|email us, create an issue or more]]. 
 
 
+===== Furthermore =====
+
+This page was created  with ''ComboStrap'' itself and showcase a [[semantic:organization|organization page]] used by Google to create their knowledge panel.
+
+
+
+
+</container>
 
