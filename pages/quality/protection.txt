@@ -12,9 +12,9 @@ The ''protection mode'' is a [[:configuration|configuration]] value that determi
 
 
 ===== Usage =====
-The protection mode is used in two configurations to determine the proteciton of:
+The protection mode is used in two configurations to determine the protection of:
   * [[lqpp#protection mode|low quality pages]]
-  * pages with a [[semantic:published#protection mode|published date]] in the past
+  * pages with a [[lpp|published date in the past]]
 
 ===== Value =====
 

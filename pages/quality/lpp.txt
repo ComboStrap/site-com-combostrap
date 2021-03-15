@@ -1,0 +1,25 @@
+---json
+{
+    "canonical":"lpp",
+    "title":"What is the Late Publication Protection feature ?",
+    "description":"With late publication protection, the article that are not yet published will not be advertised to the world until the date is due"
+}
+---
+====== Late Publication Protection (LPP) ======
+
+
+===== About =====
+''late publication protection'' is a feature that protects page with a [[semantic:published|published date]] in the future (late) to be disclosed publicly until the [[semantic:published|publication date]] is due.
+
+A visitor should not be anonymous to be able to see or to follow a link to the ''late publication page''.
+
+<badge>Since [[:changes#version_112|version 1.12]]</badge>
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Configuration =====
+
+
+By default, this feature is enable but you can disable it by setting the ''latePublicationProtectionEnable'' [[:configuration|configuration]] to false.
+
+The mode of protection is defined by the [[quality:protection#configuration|protection mode configuration]]

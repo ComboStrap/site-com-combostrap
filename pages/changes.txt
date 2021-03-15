@@ -37,6 +37,8 @@ This is a page that lists all releases with their respective changes for [[:star
   * New Page Metadata - the [[semantic:image|page of an image]] used in card social illustration.
   * Improved: the [[semantic:frontmatter|frontmatter]] creates a link to debug quickly the json if there is any errors.
   * New: You can advertise your organization by creating an [[semantic:organization|organization page]].
+  * New: [[semantic:google|Google Rich Result]] aware - Logo, Search Box, Organization and Article Card are enabled by default.
+  * New: [[quality:lpp|Late Publication Protection]] - Start writing a page now and publish it later.
 ==== Version 1.11 - 2021-02-02 ====
 
 List:

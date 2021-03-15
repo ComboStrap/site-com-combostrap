@@ -12,9 +12,11 @@
 The ''published'' property is a page [[semantic|metadata]] that permits to modify the ''published date'' of an [[article|article]].
 
 
+<note>
+If the ''published date'' is set in the future, the article will be [[quality:lpp|protected]].
+</note>
 
-If the ''published date'' is set in the future, the article will be [[#protection mode|protected]].
-
+<badge>Since [[:changes#version_112|version 1.12]]</badge>
 ===== Articles Related =====
 {{backlinks>.}}
 ===== How to set a published date ? =====
@@ -39,10 +41,3 @@ Example:
 The dates are all located in the [[doku>tips:timezone|timezone]] of your server.
 </note>
 
-===== Configuration =====
-
-==== Protection Mode ====
-
-The [[:configuration|configuration]] ''futurePublicationProtectionMode'' determines how articles set with an date in the future are protected from the public.
-
-The possible values are one of the [[quality:protection|protection mode configuration]].
