@@ -39,7 +39,7 @@ The effect is that:
 We have created a low page demo to show you the protection in action.
   * Link: This is a  [[low_quality_example|internal link to the low quality page]]. If you are hovering over it, it will shows a [[ui:tooltip|tooltip]] asking you to log in in order to see the link with the ''LQPP'' acronym that stands for ''Low Quality Page Protection''
 
-  * Mode: The [[#mode|protection mode]] of this website is ''hidden'' which means that everybody with an external link can still navigate to this page. For instance, if you click on this external link [[https://combostrap.com/quality/low_quality_example|low quality demo page]], you should be able to see the ''hidden'' low quality page.
+  * Mode: The [[#protection mode|protection mode]] of this website is ''hidden'' which means that everybody with an external link can still navigate to this page. For instance, if you click on this external link [[https://combostrap.com/quality/low_quality_example|low quality demo page]], you should be able to see the ''hidden'' low quality page.
 
 ===== Configuration =====
 ==== Enable ====
@@ -49,12 +49,9 @@ This protection is disabled by default. If you want to enable it, you need to ch
 <note>
 A protection becomes active for a page when [[analytics:process|it was analyzed]].
 </note>
-==== Mode ====
-The protection mode determines how the page is protected from Search Engine.
+==== Protection Mode ====
+The [[protection|protection mode]] determines how a [[low quality page|low quality page]] is protected from Search Engine.
 
-There is two possibilities:
-  * [[quality:automatic_hidden|Hidden]] (default) - The page is still accessible directly but is not searchable. A visitor coming from an external link (such as backlinks or email) will be able to see the page but the page will not be advertised to Search Engine.
-  * ''ACL'' (''Access Control Lists'') - The page is not accessible to anonymous user. The user needs to log in to see the page.
 
 ===== Support =====
 ==== The link does not appear as a low quality page protected link ====

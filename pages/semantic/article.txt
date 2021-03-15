@@ -7,29 +7,49 @@
 
 
 ===== About =====
-''article'' is a [[type|type]] of page.
+''article'' is a [[type|type]] of page that defines a page where the most of the content is textual and is meant to be read. 
 
+Example: 
+  * wiki article, 
+  * news article,
+  * blog,
+  * piece of investigative report
 
-An article, such as a news article or piece of investigative report. Newspapers and magazines have articles of many different types and this is intended to cover them all.
 
 ===== Articles Related =====
 {{backlinks>.}}
 
-===== Property =====
+===== Usage =====
 
-https://developers.google.com/search/docs/data-types/article#article-types
+==== Google Rich Result ====
 
-Only a marked-up image that directly belongs to the article should be specified. Images should be at least 696 pixels wide.
+Setting a page to ''article'' enables a [[google|Google Rich Result]] ''card''. See [[https://developers.google.com/search/docs/data-types/article|Avanced SEO article]].
 
-^ Key ^ Description ^
-| ''published_time'' | When the article was first published. |
-| ''modified_time'' | When the article was last changed. |
-| ''expiration_time'' | When the article is out of date after |
-| ''author'' | Writers of the article |
-| ''category'' | A high-level section name. E.g. Technology |
-| ''tag'' | Tag words associated with this article. |
-===== Documentation / Reference =====
-  * [[https://developers.google.com/search/docs/data-types/article|Google article example]]
-  * [[https://developers.google.com/search/docs/data-types/paywalled-content|Paywalled content News article]]
-  * https://ogp.me/#type_article
-  * https://schema.org/Article
+[[google|Google]] understands the following ''article'' [[type|type]]:
+  * [[https://schema.org/Article|Article]]
+  * [[https://schema.org/NewsArticle|NewsArticle]]
+  * [[https://schema.org/BlogPosting|BlogPosting]]
+
+==== Facebook ====
+[[facebook|Facebook]] uses the ''article'' type to create cards and follows the [[https://ogp.me/#type_article|article ogp type]].
+
+===== Properties added automatically =====
+
+When a page gets the ''article'' [[type|type]], the below properties are automatically added.
+
+
+^ [[google|Google (ld-json)]] ^ [[facebook|Facebook (ogp)]] ^ Description ^ 
+| ''datePublished'' | ''published_time'' | When the article was first published - The [[published|published date]] or the creation date if not available | 
+| ''dateModified'' | ''modified_time'' | When the article was last changed. | 
+| ''author'' | ''author'' | Writers of the article | 
+| ''headline'' | ''title'' | The headline of the article (ie the first 110 characters of the [[title|title]]) |
+| Na | ''description'' | The [[description|description]] of the article  |
+| ''image'' | ''image'' | Image that belongs to the article (at least 696 pixels wide) |
+| ''publisher.name'' | Na | The name of the publisher |
+| ''publisher.logo.url'' | Na | The URL of the logo. | 
+
+
+
+
+
+

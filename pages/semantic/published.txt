@@ -1,0 +1,48 @@
+---json
+{
+    "canonical":"published",
+    "title":"The published date",
+    "description":"The published date is a field that permits late publication by modifying the published date of a page."
+}
+---
+====== ComboStrap Metadata - Published Date ======
+
+
+===== About =====
+The ''published'' property is a page [[semantic|metadata]] that permits to modify the ''published date'' of an [[article|article]].
+
+
+
+If the ''published date'' is set in the future, the article will be [[#protection mode|protected]].
+
+===== Articles Related =====
+{{backlinks>.}}
+===== How to set a published date ? =====
+
+You can set a published date in the [[frontmatter|frontmatter]] with an [[wp>ISO_8601|ISO format]].
+
+Example:
+  * at the day level:
+<code json>
+{
+   "published":"2021-03-15"
+}
+</code>
+  * at the hour level (10 hour)
+<code json>
+{
+   "published":"2021-03-15T10:00:00"
+}
+</code>
+
+<note>
+The dates are all located in the [[doku>tips:timezone|timezone]] of your server.
+</note>
+
+===== Configuration =====
+
+==== Protection Mode ====
+
+The [[:configuration|configuration]] ''futurePublicationProtectionMode'' determines how articles set with an date in the future are protected from the public.
+
+The possible values are one of the [[quality:protection|protection mode configuration]].

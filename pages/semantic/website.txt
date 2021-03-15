@@ -9,14 +9,11 @@
 
 
 ===== About =====
-A ''WebSite'' page is a page with [[semantic|metadata]] about your website. 
+''WebSite'' is a [[type|page type]] that describes a website. Generally, you would have only one page of this type and it would be your [[#home page]].
 
-''ComboStrap'' sets automatically the home page with the ''website'' [[type|type]] and implements the [[https://developers.google.com/search/docs/data-types/sitelinks-searchbox|searchbox]] [[google|google rich result]] 
+A website is defined by [[https://schema.org/WebSite|semantic.org]] as a set of related web pages that are served from a single web domain.
 
 
-<note>
-A website is defined as a set of related web pages that are served from a single web domain.
-</note>
 
 
 
@@ -25,18 +22,25 @@ A website is defined as a set of related web pages that are served from a single
 ===== Articles Related =====
 {{backlinks>.}}
 
+===== Home Page =====
+''ComboStrap'' sets automatically a ''website'' [[type|type]] page on your home page if not set.
+
+
+We add also the search action to implements the [[https://developers.google.com/search/docs/data-types/sitelinks-searchbox|searchbox]] [[google|google rich result]]. 
+
 
 ===== List =====
-The following elements are added to the home page:
-  * ''url''
+The following [[semantic|metadata]] are automatically added to a ''website'' page:
+  * ''url'', the base url
   * ''name'', the [[doku>config:title|title]]
   * ''description'', the [[semantic:tagline|tagline]]
   * ''image'', the [[getting_started:4_favicon|logo]] (as png)
 
 
 <note>
-You can set more metadata yourself, check the example and what kind of properties may be added at [[https://schema.org/WebSite|Schema.org WebSite]]
-and go to the [[google|Google Rich Result page]] to know how.
+You can set more metadata yourself:
+  * check the ''json-ld'' example and what kind of properties may be added at [[https://schema.org/WebSite|Schema.org WebSite]]
+  * and go to the [[google|Google Rich Result page]] to know how.
 </note>
 
 

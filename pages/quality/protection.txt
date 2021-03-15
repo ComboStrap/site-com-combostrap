@@ -1,0 +1,24 @@
+---json
+{
+    "canonical":"page:protection",
+    "title":"The protection mode determines the access possibility of a page",
+    "description":"The protection mode offers two possibilities for non-public page when the page should not be published"
+}
+---
+====== Page - Protection Mode ======
+
+===== About =====
+The ''protection mode'' is a [[:configuration|configuration]] value that determine how articles that should not be published are protected.
+
+
+===== Usage =====
+The protection mode is used in two configurations to determine the proteciton of:
+  * [[lqpp#protection mode|low quality pages]]
+  * pages with a [[semantic:published#protection mode|published date]] in the past
+
+===== Value =====
+
+This configuration has two possibilities:
+  * [[quality:automatic_hidden|Hidden]] (default) - The page is still accessible directly but is not searchable. A visitor coming from an external link (such as backlinks or email) will be able to see the page but the page will not be advertised to Search Engine.
+  * ''ACL'' (''Access Control Lists'') - The page is not accessible to anonymous user. The user needs to log in to see the page.
+

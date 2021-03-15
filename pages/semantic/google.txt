@@ -6,15 +6,21 @@
 ====== Google Rich Result ======
 
 ===== About =====
-The ''ComboStrap'' pages are [[https://developers.google.com/search/docs/guides/search-gallery|Google Rich Result]] aware. 
+The ''ComboStrap'' pages supports the setting of [[semantic|metadata]] to enable [[https://developers.google.com/search/docs/guides/search-gallery|Google Rich Result]].
 
 ''Google Rich Result'' are results shown in the search page of Google that have been [[kb>rich:text|styled]]
 
-When you set a [[type|type]] of page, ''ComboStrap'' will automatically create the minimum information needed to create a ''Google Rich Result''.
+
 
 
 <badge>Since [[:changes#version_112|version 1.12]]</badge>
 
+===== Supported =====
+
+''ComboStrap'' will automatically create the minimum information needed to create a ''Google Rich Result'' for the following [[type|type]] of page:
+  * [[website|website]] - The home page gets automatically this type of page with [[https://developers.google.com/search/docs/data-types/sitelinks-searchbox|the searchbox]] ''Rich Result''
+  * [[organization|organization]] - You set this type of page in a ''About Us'' page where you gives information about your company. It enables the [[https://developers.google.com/search/docs/data-types/logo|the Google knowledge panel]] ''rich result''
+  * [[article|article]] - An article such as a wikipedia article, news article or piece of investigative report that enables [[https://developers.google.com/search/docs/data-types/article|card]]
 ===== List =====
 
   * [[article]]
