@@ -13,7 +13,7 @@ ComboStrap
 [[ui:ui|UI Components]]
 [[url:url|Url Manager]]
 [[:seo|Search Engine Optimization]]
-[[semantic:semantic|Structured Data]]
+[[semantic:semantic|Web Structured Data]]
 [[styling:styling|Styling]]
 [[:strap:strap|Templating]]
 </dropdown>

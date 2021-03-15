@@ -7,7 +7,7 @@
 
 
 ===== About =====
-''article'' is a [[type|type]] of page that defines a page where the most of the content is textual and is meant to be read. 
+''article'' is a [[type|type]] of page that defines a page where most of the content is textual and is meant to be read. 
 
 Example: 
   * wiki article, 
@@ -23,7 +23,14 @@ Example:
 
 ==== Google Rich Result ====
 
-Setting a page to ''article'' enables a [[google|Google Rich Result]] ''card''. See [[https://developers.google.com/search/docs/data-types/article|Avanced SEO article]].
+Setting a page to ''article'' enables the [[https://developers.google.com/search/docs/data-types/article|article card (advanced SEO)]].
+
+
+<box elevation="high" align="center" width="fit-content">
+    {{:semantic:google_article_card.png?400|}}
+</box>
+
+\\
 
 [[google|Google]] understands the following ''article'' [[type|type]]:
   * [[https://schema.org/Article|Article]]
@@ -33,7 +40,14 @@ Setting a page to ''article'' enables a [[google|Google Rich Result]] ''card''. 
 ==== Facebook ====
 [[facebook|Facebook]] uses the ''article'' type to create cards and follows the [[https://ogp.me/#type_article|article ogp type]].
 
-===== Properties added automatically =====
+<box elevation="high" align="center" width="fit-content">
+    {{:semantic:facebook_card.png?400|}}
+</box>
+
+
+===== Properties  =====
+==== Automatically ====
+
 
 When a page gets the ''article'' [[type|type]], the below properties are automatically added.
 
@@ -48,6 +62,18 @@ When a page gets the ''article'' [[type|type]], the below properties are automat
 | ''publisher.name'' | Na | The name of the publisher |
 | ''publisher.logo.url'' | Na | The URL of the logo. | 
 
+==== Manually ====
+With the [[google#manual|manual json-ld property]], you can also add extra ''json-ld'' properties.
+
+For instance, if you want to add a [[https://schema.org/Article|keywords property]]
+<code json>
+{
+    "type":"article",
+    "json-ld": {
+        "keywords":"article, json-ld, semantic"
+    }
+}
+</code>
 
 
 

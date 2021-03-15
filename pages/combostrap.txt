@@ -1,0 +1,96 @@
+---json
+{
+    "canonical":"combostrap",
+    "title":"ComboStrap - The publishing platform",
+    "description":"ComboStrap is a publishing platform, with markdown like based syntax and the power of Bootstrap",
+    "type":"Product",
+    "json-ld": {
+    "name": "ComboStrap",
+        "image": "https://combostrap.com/_media/apple-touch-icon.png",
+        "description": "ComboStrap is a publication platform that creates Bootstrap frontend website such a document, corporate or personal website with markdown like syntax",
+        "brand": {
+          "@type": "Brand",
+          "name": "ComboStrap"
+        },
+       "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "0",
+    "priceCurrency": "USD"
+  }
+      }
+}
+---
+
+<container width="720px">
+
+====== ComboStrap ======
+
+===== About =====
+''ComboStrap'' is a publishing platform based on the [[doku>|DokuWiki framework]] that focus on creating frontend website such as:
+  * corporate / marketing / personal website
+  * knowledge and documentation website
+
+All the pages and configurations are stored in files written in a ''markdown-like'' based syntax. 
+
+The website can then be versioned:
+  * offline in a version control system. (For instance, this website is also stored in a [[https://github.com/ComboStrap/ComboStrap|Git Repository]]).
+  * online via the [[doku>attic|native Dokuwiki revision]]
+
+
+
+
+''ComboStrap'' is composed of:
+  * [[#Combo]] - Dokuwiki plugins
+  * and [[#strap|Strap]] - Dokuwiki template
+
+
+===== Components =====
+
+
+==== Combo ====
+
+
+
+''combo'' is the powerhouse of the ''ComboStrap'' product.
+
+
+It contains most of the UI and functional components such as:
+  * the [[ui:ui|UI Components]]
+  * the [[url:url|Url Manager]]
+  * the [[semantic:semantic|Web Structured Data and Social Sharing]]
+  * the [[css|CSS optimizer]]
+  * the [[quality:quality|quality module]]
+  * the [[analytics:analytics|analytics module]]
+
+
+
+==== Strap ====
+
+''strap'' is the template component that supports the following features:
+
+  * [[strap:bootstrap|Last bootstrap version (4)]]
+  * [[styling:bootstrap|Custom Bootstrap Styleshet (create and add your own)]]
+  * [[strap:cdn|Serve the Bootstrap files by default from a CDN]]
+  * Supports [[strap:bar|4 bars]] layout
+      * [[strap:sidebor|Sidebar]] (left)
+      * [[strap:sidekickbor|Sidekickbar]] (right)
+      * [[strap:headerbor|Headerbar]] (top)
+      * [[strap:footerbor|Footerbar]] (bottom)
+  * [[strap:dynamic_grid|Dynamic grid system from 12 to 16 columns]]
+  * [[strap:toolbar|Aggregate toolbar (Page, User Site) with a private option]]
+  * Support [[semantic:tagline|tagline]]
+  * [[strap:fixed-top-navbar|Fixed-top navbar with automatic top page location correction]]
+  * Support a [[ui:trail_breadcrumb|trailing breadcrumb]]
+  * [[styling:scale|Size Scale configuration (font and spacing)]]
+  * [[getting_started:4_favicon|Favicon]]: Recognized the [[getting_started:4_favicon|favicons]]  (included ''android-chrome-192x192.png'')
+  * [[strap:shortcut]]
+
+
+
+
+<btn class="mb-5">
+[[getting_started:getting_started|Love it ? Try it !]]
+</btn>
+
+</container>

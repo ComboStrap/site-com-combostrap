@@ -7,7 +7,7 @@
 ====== Strap - Template ======
 
 ===== About =====
-''strap'' is the template and second component of [[:start|ComboStrap]]
+''strap'' is the template and second component of [[:combostrap|ComboStrap]]
 
 
 

@@ -1,6 +1,7 @@
 ---json
 {
-    "canonical":"google"
+    "canonical":"google",
+    "type":"article"
 }
 ---
 ====== Google Rich Result ======
@@ -8,35 +9,46 @@
 ===== About =====
 The ''ComboStrap'' pages supports the setting of [[semantic|metadata]] to enable [[https://developers.google.com/search/docs/guides/search-gallery|Google Rich Result]].
 
-''Google Rich Result'' are results shown in the search page of Google that have been [[kb>rich:text|styled]]
+''Google Rich Result'' are results shown in the search page of Google that have been [[kb>rich:text|styled]].
 
 
 
 
 <badge>Since [[:changes#version_112|version 1.12]]</badge>
 
-===== Supported =====
+===== Creation =====
+
+==== Automatic ====
 
 ''ComboStrap'' will automatically create the minimum information needed to create a ''Google Rich Result'' for the following [[type|type]] of page:
   * [[website|website]] - The home page gets automatically this type of page with [[https://developers.google.com/search/docs/data-types/sitelinks-searchbox|the searchbox]] ''Rich Result''
   * [[organization|organization]] - You set this type of page in a ''About Us'' page where you gives information about your company. It enables the [[https://developers.google.com/search/docs/data-types/logo|the Google knowledge panel]] ''rich result''
   * [[article|article]] - An article such as a wikipedia article, news article or piece of investigative report that enables [[https://developers.google.com/search/docs/data-types/article|card]]
-===== Manually =====
 
 
-You can also transform yourself a page to a [[https://developers.google.com/search/docs/guides/search-gallery|Google Rich Result]].
+<note>
+With the [[#manual|manual json-ld]] attribute, you can also set extra properties if needed
+</note>
+==== Manual ====
+
+
+You can also:
+  * transform yourself a page to a [[https://developers.google.com/search/docs/guides/search-gallery|Google Rich Result]].
+  * or set extra attributes.
 
 You just need to:
   * set the [[type|type]] of your page
-  * and to add the extra
+  * set a ''json-ld'' property with the extra [[https://schema.org/docs/full.html|Schema.org metadata properties]] in [[https://json-ld.org|json-ld format]]).
 
 
-Example if you create a page for a [[https://developers.google.com/search/docs/data-types/course|course]], you would create the following [[frontmatter|frontmatter]].
+For instance, if you create a page for a [[https://schema.org/Course|Course]] as explained on this [[https://developers.google.com/search/docs/data-types/course|Google example]], you would create the following [[frontmatter|frontmatter]] where:
+  * the [[type|type]] was set to ''Course''
+  * a ''json-ld'' property was created that holds the ''course'' property.
 
 <code json>
 {
-    "type":"course",
-    "course": {
+    "type":"Course",
+    "json-ld": {
         "name": "Introduction to Computer Science and Programming",
         "description": "Introductory CS course laying out the basics.",
         "provider": {
@@ -46,6 +58,10 @@ Example if you create a page for a [[https://developers.google.com/search/docs/d
         }
 }
 </code>
+
+<note tip>
+You can validate the ''json-ld'' value with the [[https://json-ld.org/playground/|json-ld playground]]
+</note>
 ===== Preview =====
 You can control the ''Rich Result'' of your page with the following tools:
   * [[https://search.google.com/test/rich-results|Rich Results test]] will validate and show you the data set one page at a time.
