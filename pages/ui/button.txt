@@ -26,7 +26,7 @@ The only action attached is to navigate to another page.
 </webcode>
 ==== External Link and secondary type ====
 
-  * External Link and a [[#type|secondary type]]
+  * External [[link|Link]] and a [[#type|secondary type]]
 <webcode name="Button" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <btn secondary color="yellow">[[https://combostrap.com/button|Go to this page via an external link]]</btn>

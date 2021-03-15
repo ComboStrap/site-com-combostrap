@@ -13,14 +13,6 @@ Sharing a link will show on every facebook post a card thanks to the facebook so
 
 
 
-  
-The following metadata are set:
-  * [[title|title]]
-  * [[description|description]]
-  * [[image|image]]. The image must be at minimum 200px by 200px (The card rendering uses 524x274) More see the [[https://developers.facebook.com/docs/sharing/webmasters/images|Facebook Image documentation]]
-  * [[type|type]]
-  * [[locale|locale]] - if the locale cannot be derived, we set the default Facebook value (''en_US'').
-
 <badge>Since [[:changes#version_112|version 1.12]]</badge>
 
 ===== Articles Related =====
@@ -35,6 +27,17 @@ You can check the generated card before posting with the [[https://developers.fa
 </box>
 
 \\
+
+===== List of metadata =====
+
+The following metadata's are used in the card:
+  * for the ''og:title'': [[title|title]] if present otherwise [[h1|h1]], otherwise the page id.
+  * for the ''og:description'': [[description|description]]
+  * for the ''og:omage'': the [[image|image]]. The image must be at minimum 200px by 200px (The card rendering uses 524x274) More see the [[https://developers.facebook.com/docs/sharing/webmasters/images|Facebook Image documentation]]
+  * for the ''og:type'': the [[type|page type]]
+  * for the ''og:locale'': the [[locale|locale]] - if the locale cannot be derived, we set the default Facebook value (''en_US'').
+
+
 ===== Configuration =====
 
 You can set the following [[:configuration|configuration]]:

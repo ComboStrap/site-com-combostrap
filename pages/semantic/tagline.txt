@@ -4,7 +4,7 @@
 }
 ---
 
-====== Semantic - Tagline ======
+====== ComboStrap Site Metadata - Tagline ======
 
 
 ===== About =====

@@ -3,7 +3,7 @@
     "canonical":"semantic:logo"
 }
 ---
-====== ComboStrap Meta - Logo ======
+====== ComboStrap Site Metadata - Logo ======
 
 ===== About =====
 A ''logo'' is an image that illustrates your [[organization|organization]].

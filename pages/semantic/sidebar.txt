@@ -4,7 +4,7 @@
 [[$id|<pipeline>"$h1" | replace("ComboStrap -","")</pipeline>]]
 </index>
 <page-item>
-[[$id|<pipeline>"$h1" | replace("ComboStrap Page Metadata - ","") | replace("ComboStrap Metadata - ","")</pipeline>]]
+[[$id|<pipeline>"$h1" | replace("ComboStrap Page Metadata - ","") | replace("ComboStrap Site Metadata - ","") | replace("ComboStrap Metadata - ","")</pipeline>]]
 </page-item>
 </ntoc>
 

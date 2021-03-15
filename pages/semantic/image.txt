@@ -11,13 +11,27 @@
 
 The image is then used as illustration on social cards such as [[twitter|twitter]] or [[facebook|facebook]].
 
+By default, is the ''image'' is not set, the [[#configuration|first conforming image]] in the page is used.
+
 <badge>Since [[:changes#version_112|version 1.12]]</badge>
+
+===== Articles Related =====
+{{backlinks>.}}
 ===== Definition =====
 
 The image of a page is searched in this order:
   - the ''image'' property in the [[frontmatter|frontmatter]]
-  - the ''first image'' of a page if not [[#disableFirstImageAsPageImage|disabled]]
+  - the ''first conforming image'' of a page if not [[#disableFirstImageAsPageImage|disabled]]
 
+Example of a a [[frontmatter|frontmatter]] image:
+<code json>
+{
+   "image":":path:beautiful_image.png"
+}
+</code>
+<note important>
+Moving image path in a frontmatter with the [[doku>plugin:move|move plugin]] are not yet supported. Therefore if you move an image, you also need to change the value in the frontmatter.
+</note>
 
 ===== Configuration =====
 ==== disableFirstImageAsPageImage====

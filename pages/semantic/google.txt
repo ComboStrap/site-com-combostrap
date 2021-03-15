@@ -21,13 +21,31 @@ The ''ComboStrap'' pages supports the setting of [[semantic|metadata]] to enable
   * [[website|website]] - The home page gets automatically this type of page with [[https://developers.google.com/search/docs/data-types/sitelinks-searchbox|the searchbox]] ''Rich Result''
   * [[organization|organization]] - You set this type of page in a ''About Us'' page where you gives information about your company. It enables the [[https://developers.google.com/search/docs/data-types/logo|the Google knowledge panel]] ''rich result''
   * [[article|article]] - An article such as a wikipedia article, news article or piece of investigative report that enables [[https://developers.google.com/search/docs/data-types/article|card]]
-===== List =====
-
-  * [[article]]
-  * [[organization]]
+===== Manually =====
 
 
+You can also transform yourself a page to a [[https://developers.google.com/search/docs/guides/search-gallery|Google Rich Result]].
 
+You just need to:
+  * set the [[type|type]] of your page
+  * and to add the extra
+
+
+Example if you create a page for a [[https://developers.google.com/search/docs/data-types/course|course]], you would create the following [[frontmatter|frontmatter]].
+
+<code json>
+{
+    "type":"course",
+    "course": {
+        "name": "Introduction to Computer Science and Programming",
+        "description": "Introductory CS course laying out the basics.",
+        "provider": {
+            "@type": "Organization",
+            "name": "University of Technology - Eureka",
+            "sameAs": "http://www.ut-eureka.edu"
+        }
+}
+</code>
 ===== Preview =====
 You can control the ''Rich Result'' of your page with the following tools:
   * [[https://search.google.com/test/rich-results|Rich Results test]] will validate and show you the data set one page at a time.

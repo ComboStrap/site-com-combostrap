@@ -9,13 +9,18 @@ ComboStrap
 <dropdown name="Modules">
 [[:ads:ads|Ads]]
 [[:analytics:analytics|Analytics]]
-[[semantic:semantic|Meta Manager]]
 [[:quality:quality|Quality]]
 [[ui:ui|UI Components]]
 [[url:url|Url Manager]]
 [[:seo|Search Engine Optimization]]
+[[semantic:semantic|Structured Data]]
 [[styling:styling|Styling]]
 [[:strap:strap|Templating]]
+</dropdown>
+<dropdown name="Social Module">
+[[semantic:twitter|<icon name="twitter"/> Twitter Card]] 
+[[semantic:facebook|<icon name="facebook"/> Facebook Card]] 
+[[semantic:google|<icon name="google"/> Google Rich Result]]
 </dropdown>
 [[support|Help / Questions / Wishes ?]]
 </group>

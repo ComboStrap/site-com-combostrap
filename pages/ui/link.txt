@@ -27,12 +27,26 @@ You can therefore have an [[#icon|icon link]]
 
 An ''internal'' link is a link to another page. If the target page does not exist, the link is shown in ''red''.
 
+  * Example:
 <webcode name="Default" frameborder=0>
 <code dw>
 Links to [[link|existing pages]] are shown in a different style from [[nonexisting|nonexisting]] ones.
 </code>
+  * Result:
 </webcode>
 
+
+==== External ====
+
+An ''external'' link is a link that begins with ''http'' or ''https''. 
+
+  * Example:
+<webcode name="Default" frameborder=0>
+<code dw>
+External link to our protected page [[https://combostrap.com/quality/low_quality_example|low quality page]] 
+</code>
+  * Result:
+</webcode>
 ==== Interwiki ====
 
 An ''interwiki'' page is a shortcut syntax that permits to create rapidly a link to another website. The host is replaced by a ''wikiName'' (ie website name)
@@ -43,17 +57,19 @@ wikiName>path?query#fragment
 </code>
 
 For instance:
-  * to [[doku>|Dokuwiki]]
-<webcode name="Default" frameborder=0>
+  * to [[doku>|Dokuwiki]] syntax
+<webcode name="Default" frameborder="1">
 <code dw>
 Interwiki: [[doku>Interwiki]]
 </code>
+  * to [[doku>|Dokuwiki]] Result
 </webcode>
-  * to [[wp>|wikipedia]]
-<webcode name="Default" frameborder=0>
+  * to [[wp>|wikipedia]] syntax
+<webcode name="Default" frameborder="1" >
 <code dw>
 The ''publication'' article link can be created with this syntax: [[wp>publication]]
 </code>
+  * to [[wp>|wikipedia]] result
 </webcode>
 
 

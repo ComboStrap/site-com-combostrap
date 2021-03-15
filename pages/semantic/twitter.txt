@@ -12,7 +12,7 @@
 ''ComboStrap'' page will render automatically as a [[https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/summary-card-with-large-image|summary card in a tweet]].
 
 
-You can optionally add your twitter handle in the cards. See the [[#configuration|configurations]].
+You can optionally add your twitter handle in the cards if [[#configuration|configured]].
 
 <badge>Since [[:changes#version_112|version 1.12]]</badge>
 
@@ -27,6 +27,13 @@ You can preview a card page before tweeting it at: https://cards-dev.twitter.com
 </box>
 
 \\
+
+===== List of metadata =====
+
+The list of metadata that are used in the card are:
+  * for the heading: [[title|title]] if present otherwise [[h1|h1]], otherwise the page id.
+  * for the description: [[description|description]]
+  * for the image: the [[image|image]] otherwise the [[#configuration|default one]]
 ===== Configuration =====
 
 You can set the following [[:configuration|configuration]]:
