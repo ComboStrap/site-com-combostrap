@@ -14,16 +14,20 @@ The metadatas can be seen by default thanks to the [[viewer|Metadata viewer]].
 
 ===== Usage =====
 
-==== Internal ====
-
 They below internal metadata are used by ''ComboStrap'':
       * [[canonical|canonical]]
       * [[description|description]]
       * [[title|title]]
       * [[published|published date]]
-      * [[type|Page Type]]
+      * [[type|page Type]]
+      * [[image|image]]
 
-and enables what we called a ''semantic component'' such as:
+and enables what we called a ''semantic component''.
+
+==== Internal ====
+
+They allows internally:
+
   * [[url:redirection|URL redirection processing]]
   * [[automatic_canonical|Automatic Canonical]]
   * [[url:permalink|Permalink]]
@@ -35,4 +39,4 @@ and enables what we called a ''semantic component'' such as:
 They allows:
    * <icon name="twitter"/> [[twitter|Twitter card]]
    * <icon name="facebook"/> [[facebook|Facebook card]]
-   * <icon name="google"/> [[google|Google Rich Result (Organization, Search bar and article card]])
+   * <icon name="google"/> [[google|Google Rich Result (Organization, Search bar and article card)]]

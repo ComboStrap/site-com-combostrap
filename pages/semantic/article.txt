@@ -4,11 +4,15 @@
     "type":"article"
 }
 ---
-====== ComboStrap Metadata - Article Page ======
+====== ComboStrap Metadata - Article Page (News, Blog) ======
 
 
 ===== About =====
 ''article'' is a [[type|type]] of page that defines a page where most of the content is textual and is meant to be read. 
+
+This type of page understands also the subtype:
+  * ''news''
+  * ''blog''
 
 Example: 
   * wiki article, 
@@ -33,10 +37,12 @@ Setting a page to ''article'' enables the [[https://developers.google.com/search
 
 \\
 
-[[google|Google]] understands the following ''article'' [[type|type]]:
-  * [[https://schema.org/Article|Article]]
-  * [[https://schema.org/NewsArticle|NewsArticle]]
-  * [[https://schema.org/BlogPosting|BlogPosting]]
+[[google|Google]] understands the following ''article'' [[type|type]] that we matches to the following [[type|type values]]
+
+^ Value ^ Google (Schema.org) ^
+| ''article'' | [[https://schema.org/Article|Article]] |
+| ''news'' | [[https://schema.org/NewsArticle|NewsArticle]] |
+| ''blog'' | [[https://schema.org/BlogPosting|BlogPosting]] |
 
 ==== Facebook ====
 [[facebook|Facebook]] uses the ''article'' type to create cards and follows the [[https://ogp.me/#type_article|article ogp type]].
