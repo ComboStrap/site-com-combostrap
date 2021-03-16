@@ -42,6 +42,8 @@ This is a page that lists all releases with their respective changes for [[:star
       * [[semantic:organization|Logo (Organization)]]
       * [[semantic:article|Article Card]]
   * New: [[quality:lpp|Late Publication Protection]] - Start writing a page now and publish it later.
+  * New: For internal and debug purpose: The version of Combostrap is now available in a ''html meta'' generator tag and in the title of the footer link.
+
 
 ==== Version 1.11 - 2021-02-02 ====
 
@@ -182,3 +184,8 @@ First release.
     * Word visualization - https://github.com/wooorm/write-music
 	* https://wooorm.com/short-words/
   * ''mime.local.conf'' management - How to allow svg as image ?
+  * Metadata:
+      * https://developers.google.com/search/docs/data-types/breadcrumb#breadcrumb-list
+      * https://developers.google.com/search/docs/data-types/qapage
+      * https://developers.google.com/search/docs/data-types/how-to
+
