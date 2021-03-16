@@ -14,14 +14,15 @@
 
 ''ComboStrap'' can manage the meta ''title'' of a web page.
 
+A page's title may be a few words or a phrase (whereas a [[description|page's description]] might be a sentence or two or even a short paragraph. 
+
 This ''title'' will:
-  *  show up in the [[kb>serp|Search Engine Result Pages (SERP)]]
-  *  show up in the title bar at the top of the web browser, 
+  * show up in the [[#Search Engine Result Pages (SERP)]]
+  * show up in the title bar at the top of the web browser, 
+  * show up in social cards such as [[twitter|twitter]] or [[facebook|facebook]]
   * be used when someone bookmarks the page.
 
-<note>
-''ComboStrap'' captures also the [[h1|h1]] that you can then use in a template such as the [[ui:ntoc|navigational toc]].
-</note>
+
 ===== Articles Related =====
 {{backlinks>.}}
 
@@ -38,7 +39,7 @@ For [[doku>|Dokuwiki]],
 The [[strap:strap|Strap template]] is mandatory or a template should take into account the ''title'' metadata.
 </note>
 
-With [[:start|ComboStrap]], if  you set a ''title'' property with [[frontmatter|frontmatter]], it will become the page title 
+With [[:start|ComboStrap]], if you set a ''title'' property with [[frontmatter|frontmatter]], it will become the page title.
 
 Example:
 <code javascript>
@@ -55,5 +56,15 @@ Result:
 
 
 <note>
-With the [[strap:strap|strap template]],  the website ''home page'' title is the Dokuwiki title with the website [[semantic:tagline]]|tagline]] 
+With the [[strap:strap|strap template]],  the website ''home page'' title is the Dokuwiki title with the website [[semantic:tagline|tagline]] 
 </note>
+
+===== Search Engine Result Pages (SERP) =====
+
+The title is used in the [[kb>serp|Search Engine Result Pages (SERP)]] (ie the results that you see when querying Google) where it appear in the first line of the results.
+
+In the [[https://developers.google.com/search/docs/beginner/seo-starter-guide#create-good-titles-and-snippets-in-search-results|Google SEO start guide title section]], Google recommends to create title that are:
+  * ''Accurate'' (that describe the page's content)
+  * Unique for each page''
+  * ''Brief but descriptive''
+

@@ -10,36 +10,59 @@
 
 
 ===== About =====
-''description'' is a [[:seo|seo]] [[semantic|page metadata]] that is used by [[kb>search/engine|Search engine]] and is displayed in the [[kb>serp|Search Engine Results Page]].
+The ''description'' is a summary of what the page is about. 
+
+A page's description might be a sentence or two or even a short paragraph (whereas a [[title|page's title]] may be a few words or a phrase).
+
+It's a [[:seo|seo]] [[semantic|page metadata]] that is displayed:
+  * in social cards ([[twitter|twitter]], [[facebook|facebook]], [[google|Google Rich Result]])
+  * in the [[#Search Engine Results Page]].
 
 
-You can modify the description by adding a ''description'' property in the [[frontmatter|frontmatter]].
+
 
 ===== Articles Related =====
 {{backlinks>.}}
-===== Example =====
-
-<code javascript>
----json
+===== Set=====
+You can modify the description by adding a ''description'' property in the [[frontmatter|frontmatter]].
+<code json>
 {
     "description":"Would you want to  modify your meta description to rank better on the SERP page ? This is how you do it."
 }
----
 </code>
 
-<note tip>
-=== For the geek  ===
-Technically, this component will create two meta ''description'' [[kb>html:meta|HTML meta header]] 
+
+===== Search Engine Result Pages (SERP) =====
+
+[[kb>serp|Search Engine Result Pages (SERP)]] are the pages that are shown when you query Search Engine such as Google.
+
+The description may show up below the [[title|title]].
+
+To known more about description and [[:seo|search engine optimization]], see:
+  * [[https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#Active_learning_The_descriptions_use_in_search_engines|Active learning: The description's use in search engines]].
+  * [[https://developers.google.com/search/docs/beginner/seo-starter-guide#use-the-description-meta-tag|Description section of the Google SEO Starter guide]]
 
 
-Example:
+
+===== Usage =====
+For the geek, technically, this component will create the following ''description'' [[kb>html:meta|HTML meta header]] 
+
+
+   * The HTML standard used by [[#Search Engine Result Pages (SERP)|Search engine]] and crawler.
 <code html>
 <meta name="description" content="The best page on the universe">
+</code>
+  * The ''og:description'' used by [[facebook|Facebook card]]
+<code html>
 <meta property="og:description" content="The best page on the universe">
 </code>
+  * The ''twitter:description'' used by [[twitter|Twitter card]]
+<code html>
+<meta name="twitter:description" content="The best page on the universe">
+</code>
 
-To known more about description and search engine, see 
-''description'' is the [[https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#Active_learning_The_descriptions_use_in_search_engines|Active learning: The description's use in search engines]].
+\\
 
+<note>
+The description is not set specifically for the [[article#Google Rich Result|Article Google Rich Result Card]], they used the ''meta description'' tag.
 </note>
-

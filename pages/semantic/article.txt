@@ -1,6 +1,7 @@
 ---json
 {
-    "canonical":"page:article"
+    "canonical":"page:article",
+    "type":"article"
 }
 ---
 ====== ComboStrap Metadata - Article Page ======
@@ -58,9 +59,10 @@ When a page gets the ''article'' [[type|type]], the below properties are automat
 | ''author'' | ''author'' | Writers of the article | 
 | ''headline'' | ''title'' | The headline of the article (ie the first 110 characters of the [[title|title]]) |
 | Na | ''description'' | The [[description|description]] of the article  |
-| ''image'' | ''image'' | Image that belongs to the article (at least 696 pixels wide) |
-| ''publisher.name'' | Na | The name of the publisher |
-| ''publisher.logo.url'' | Na | The URL of the logo. | 
+| ''publisher.name'' | Na | The name of the publisher (the [[doku>config:title|dokuwiki wiki title configuration]]) |
+| ''publisher.logo.url'' | Na | The URL of the [[logo|logo]] |
+| ''image'' | ''image'' | Image that belongs to the article (The [[#image|page image]]) |
+
 
 ==== Manually ====
 With the [[google#manual|manual json-ld property]], you can also add extra ''json-ld'' properties.
@@ -76,6 +78,25 @@ For instance, if you want to add a [[https://schema.org/Article|keywords propert
 </code>
 
 
+===== Image =====
+By default, ''ComboStap'' will set the [[image|page image]].
+
+Google recommends to provide multiple images with 
+  * a high-resolution (minimum of 300,000 pixels when multiplying width and height) 
+  * the following aspect ratios: 16x9, 4x3, and 1x1.
+
+You can create them and set them with the [[image|image]] property even if the [[https://schema.org/image|standard does not allow it]].
+
+<code json>
+{
+    "type":"article",
+    "image": [
+            ":photos:1x1:photo.jpg",
+            ":photos:4x3:photo.jpg",
+            ":photos:16x9:photo.jpg"
+    ]
+}
+</code>
 
 
 

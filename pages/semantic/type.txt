@@ -16,29 +16,18 @@ You can set the value in the [[frontmatter|frontmatter]]
 
 <code json>
 {
-    "type":"website"
+    "type":"article"
 }
 </code>
  
-The value can be one of the following:
+The table below maps the ''type'' value with the value of the schema used by [[facebook|facebook]] and [[google|google]]
 
-^ Value ^ Facebook (og) ^ Google (ld-json) ^ Description ^
-| [[website|website]] (default) | ''website'' (default) | ''website'' | General website information |
-| [[article|article]] | ''article'' | ''article'' | A published page. The content will not change after publication - blog, newspaper,.. |
-| ''book'' | ''book'' | [[https://developers.google.com/search/docs/data-types/book|book]] | A book |
+^ Value ^ Facebook (og) ^ Google \\ (ld-json) ^ Description ^
+| [[article|article]] \\ [[article|news]] \\ [[article|blog]] | [[https://ogp.me/#type_article|article]] \\ [[https://ogp.me/#type_article|article]] \\ [[https://ogp.me/#type_article|article]] | [[https://schema.org/Article|Article]] \\ [[https://schema.org/NewsArticle|NewsArticle]] \\ [[https://schema.org/BlogPosting|BlogPosting]] | A published page. The content is mostly text and it will change slowly after publication - blog, newspaper, .. |
+| [[organization|organization]] | [[https://ogp.me/#type_website|website]] | [[https://schema.org/Organization|Organization]] | A page with your organization metadata |
+| [[website|website]] | [[https://ogp.me/#type_website|website]] | [[https://schema.org/Website|Website]]'' | A page with metadata about website (and search box) |
 
 
-Others Og:
-  * ''music''
-  * ''video''
-  * ''profile'' 
-
-Ld-data:
-  * NewsArticle
-  * Article
-  * TechArticle
-  * BlogPosting
-  * Recipe
 
 
 
