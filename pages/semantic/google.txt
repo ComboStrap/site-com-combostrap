@@ -9,8 +9,12 @@
 ===== About =====
 The ''ComboStrap'' pages supports the setting of [[semantic|metadata]] to enable [[https://developers.google.com/search/docs/guides/search-gallery|Google Rich Result]].
 
-''Google Rich Result'' are results shown in the search page of Google that have been [[kb>rich:text|styled]].
+''Google Rich Result'' are results as below shown in the search page of Google that have been [[kb>rich:text|styled]].
 
+
+<box elevation="high" align="center" width="fit-content">
+    {{:semantic:google_article_card.png?400|}}
+</box>
 
 
 
@@ -66,6 +70,15 @@ You can validate the ''json-ld'' value with the [[https://json-ld.org/playground
 You can control the ''Rich Result'' of your page with the following tools:
   * [[https://search.google.com/test/rich-results|Rich Results test]] will validate and show you the data set one page at a time.
   * [[https://support.google.com/webmasters/answer/7552505|Rich result status reports]] will show you a report of your website.
+
+
+Example of result:
+
+<box elevation="high" align="center" width="fit-content">
+{{:semantic:richt_result_test.png?500|}}
+</box>
+
+\\
 
 ===== Documentation / Reference =====
   * If you want to know more about ''search result features'', see the [[https://developers.google.com/search/docs/advanced/appearance/search-result-features#what-features-are-best-for-my-page-or-site|Google documentation]].

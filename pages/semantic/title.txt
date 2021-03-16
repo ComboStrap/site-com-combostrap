@@ -21,6 +21,7 @@ This ''title'' will:
   * show up in the title bar at the top of the web browser, 
   * show up in social cards such as [[twitter|twitter]] or [[facebook|facebook]]
   * be used when someone bookmarks the page.
+  * be used in ''text-to-speech (TTS)'' (thanks to [[https://developers.google.com/search/docs/data-types/speakable|Speakable]])
 
 
 ===== Articles Related =====

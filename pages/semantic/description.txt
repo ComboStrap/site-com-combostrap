@@ -14,9 +14,11 @@ The ''description'' is a summary of what the page is about.
 
 A page's description might be a sentence or two or even a short paragraph (whereas a [[title|page's title]] may be a few words or a phrase).
 
-It's a [[:seo|seo]] [[semantic|page metadata]] that is displayed:
-  * in social cards ([[twitter|twitter]], [[facebook|facebook]], [[google|Google Rich Result]])
-  * in the [[#Search Engine Results Page]].
+It's a [[semantic|page metadata]] that:
+  * is displayed:
+      * in social cards ([[twitter|twitter]], [[facebook|facebook]], [[google|Google Rich Result]])
+      * in the [[#Search Engine Results Page]].
+  * used in ''text-to-speech (TTS)'' (thanks to [[https://developers.google.com/search/docs/data-types/speakable|Speakable]])
 
 
 

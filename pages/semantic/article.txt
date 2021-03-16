@@ -28,7 +28,9 @@ Example:
 
 ==== Google Rich Result ====
 
-Setting a page to ''article'' enables the [[https://developers.google.com/search/docs/data-types/article|article card (advanced SEO)]].
+Setting a page to ''article'' enables:
+  * the [[https://developers.google.com/search/docs/data-types/article|article card (advanced SEO)]].
+  * and the [[https://developers.google.com/search/docs/data-types/speakable|Speakable feature]] for the [[title|title]] and the [[description|description]] if set
 
 
 <box elevation="high" align="center" width="fit-content">
