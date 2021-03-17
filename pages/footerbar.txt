@@ -3,14 +3,15 @@
 <container>
 	<row>
 		<col class="col-12 col-lg-6">
-**Contact** \\
-[[support@combostrap.com?subject=Contact via WebSite|support@combostrap.com]] \\
+**Product** \\
+[[combostrap|ComboStrap]] \\
+[[:changes|Release (Changes)]] \\
 		</col>
 		<col class="col-12 col-lg-6">
-**Combostrap** \\
+**Contact** \\
+[[support@combostrap.com?subject=Contact via WebSite|support@combostrap.com]] \\
 [[:support|Support]] \\
 [[:about_us|About Us]] \\
-[[:changes|Release (Changes)]]\\
 [[:security|Security]] \\
 		</col>
 	</row>
