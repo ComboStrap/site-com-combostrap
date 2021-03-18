@@ -1,0 +1,64 @@
+---json
+{
+    "canonical":"tweet",
+    "title":"How to embed a tweet in your ComboStrap pages",
+    "description":"This article shows you the tweet web component and how you can use it to embed a tweet in your pages"
+}
+---
+====== ComboStrap UI - Tweet ======
+
+
+===== About =====
+A ''tweet'' is not a direct [[ui|UI component]] because it's semantically equivalent to a [[blockquote|blockquote]].
+
+When a [[blockquote|blockquote]] has a tweet URL in its [[cite|cite tag]], the [[blockquote|blockquote]] is considered to be a ''tweet'' and is rendered as such.
+
+===== How to embed a tweet ? =====
+
+
+==== HTML ====
+
+
+{{:ui:tweet_embeded_tweet.png|}}
+
+<note>
+This step is optional but as ''ComboStrap'' is a [[styling:html|HTML super set language]], the embedded code of twitter is really similar.
+</note>
+
+You should get a HTML code that looks like that
+<code html>
+<blockquote class="twitter-tweet">
+    <p lang="en" dir="ltr">
+    The tweet content
+    <a href="https://twitter.com/combostrapweb/status/1357699797541601286?ref_src=twsrc%5Etfw">February 5, 2021</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</code>
+As you can see twitter also see an embedded tweet as a quote.
+
+==== Simplified  ====
+
+A [[blockquote|blockquote]] tweet is a simplified version of the [[#get the html tweet|HTML tweet]] where:
+  * the ''lang'' and ''dir'' attributes have been placed in the [[blockquote|blockquote component]]
+  * the others element have been translated:
+     * the ''p'' element has been deleted
+     * the ''br'' elements has been replaced by ''%%\\%%''
+     * the html link are in a  [[link|link]] format  (ie ''%%[[link]]%%'' without any url has link description)
+  * the citation (ie the name and the last [[link|external link]]) has been placed in a [[cite|cite element]].
+
+Example:
+<webcode name="Default" frameborder=0>
+  * With the [[#get the html tweet|HTML tweet]]
+<code dw>
+<blockquote lang="en" dir="ltr">
+    New big release. 1.12 \\
+    Page analytics and Page Quality module were implemented \\
+    to improve SEO via the overal quality of the website. \\
+    There is so much new that it's difficult to summarize it in one tweet. \\
+    \\
+    See the change logs [[https://t.co/AJWxMRH3GQ]] \\
+    <cite>combostrapweb (@combostrapweb) [[https://twitter.com/combostrapweb/status/1357699797541601286?ref_src=twsrc%5Etfw|February 5, 2021]]</cite>
+</blockquote>
+</code>
+
+</webcode>
