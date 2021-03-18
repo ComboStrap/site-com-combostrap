@@ -17,12 +17,12 @@ ComboStrap
 [[styling:styling|Styling]]
 [[:strap:strap|Templating]]
 </dropdown>
-<dropdown name="Social Module">
+<dropdown name="Social Module" class="d-none d-lg-flex">
 [[semantic:twitter|<icon name="twitter"/> Twitter Card]] 
 [[semantic:facebook|<icon name="facebook"/> Facebook Card]] 
 [[semantic:google|<icon name="google"/> Google Rich Result]]
 </dropdown>
-[[support|Help / Questions / Wishes ?]]
+[[support|Contact]]
 </group>
 <btn class="mr-2 mb-2 mt-2 mb-lg-0 mt-lg-0" elevation="true">[[getting_started:getting_started|Get Started]]</btn>
 <search class="mb-2 mt-2 mb-lg-0 mt-lg-0 mr-lg-0 pr-lg-0">

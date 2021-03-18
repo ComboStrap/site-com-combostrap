@@ -14,19 +14,27 @@ This component accepts as entry a series of link. If the linked page does not ex
 <webcode name="dropdown" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <navbar>
-<group>
-<dropdown name="Navbar component">
+    <group>
+       <dropdown name="Navbar component">
 [[dropdown|dropdown]]
 [[group|group]]
 [[search|search]]
-</dropdown>
-</group>
+       </dropdown>
+   </group>
 </navbar>
 </code>
   * Output:
 </webcode>
 
 
+===== How to hide a dropdown conditionally =====
+
+If you want to hide a dropdown if the size of the screen is too low, you can use the [[https://getbootstrap.com/docs/4.1/utilities/display/|Bootstrap conditional display class]]
+
+Example: show the dropdown above the ''lg'' screen width (''992px'')
+<code dw>
+<dropdown name="Social Module" class="d-none d-lg-flex">
+</code>
 
 
 

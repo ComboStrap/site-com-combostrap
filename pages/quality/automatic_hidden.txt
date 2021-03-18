@@ -3,7 +3,7 @@
 
 ===== About =====
 
-The [[:combo|combo plugin]] automatically [[quality:hidden|hides]]:
+The [[:combostrap|combo plugin]] automatically [[quality:hidden|hides]]:
   * the [[strap:bar|bars]]
   * the ''combostrap'' private namespace (where [[ui:icon|icons]] and other internal component are saved)
 

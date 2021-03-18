@@ -4,17 +4,41 @@
 }
 ---
 
+<container width="720px">
+
 ====== ComboStrap CSS - Front End Optimization ======
 
 
 ===== About =====
-''css optimization'' is a [[:start|ComboStrap]] module that will reduce the size of the CSS file by removing the styling of backend plugin.
+''css optimization'' is a [[:start|ComboStrap]] module that reduce the CSS overhead when a public user is navigating the website and speeds therefore the ''page rendering''.
+
+
+
 
 ===== Articles Related =====
 {{backlinks>.}}
-===== Configuration =====
+
+===== The goal =====
+
+''ComboStrap'' is build only around:
+  * the [[strap:bootstrap|BootStrap CSS file]].
+  * and web components (ie the CSS is embedded in the page only when the component is used).
+
+As the [[strap:bootstrap|BootStrap file]] is distributed worldwide thanks to the Content delivery network, it reaches the computer user really quickly. 
+
+Because we embrace the web component technology, we add to the page only the CSS needed to render for each component to render. 
+
+The page speed is then completely dependent on where your server is located.
+
+<note tip>
+If you [[doku>plugin:siteexport|generate the pages statically]] and store them also from a Content delivery network, the speed is optimal.
+</note>
+
+===== Optimization and Configuration =====
 
 ==== Enable Minimization ====
+Minimization reduce the size of the Dokuwiki CSS file by removing the styling of backend plugin.
+
 By default, this optimization is disabled.
 
 You can enable it by changing the ''enableMinimalFrontEndCss'' [[:configuration|configuration]]
@@ -22,7 +46,7 @@ You can enable it by changing the ''enableMinimalFrontEndCss'' [[:configuration|
 
 
 ==== Disable the Dokuwiki Stylesheet ====
-If your front-end is completely based on a external css file such as ''BootStrap'', you may want to not include the Dokuwiki Stylesheet file entirely.
+If your front-end is completely based on ''BootStrap'', you may want to not include the Dokuwiki Stylesheet file entirely for anonymous user.
 
 
 By default, this optimization is disabled.
@@ -42,6 +66,8 @@ This optimization will delete from the front end page, the following HTML header
 
 ''preloadCss'' is a [[strap:strap|strap template]] configuration that enables [[https://developers.google.com/web/fundamentals/performance/resource-prioritization#preload|Css preloading]].
 
-In short, the rendering of your page will be faster but the page rendering may flikkert if the network is slow.
+In short, the rendering of your page will be faster but the page rendering may [[wp>Flash_of_unstyled_content|flikkert]] if the network is slow.
 
 <badge>Since [[:changes|version 1.2]]</badge>
+
+</container>

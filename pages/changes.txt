@@ -43,6 +43,7 @@ This is a page that lists all releases with their respective changes for [[:star
       * [[semantic:article|Article Card]]
   * New: [[quality:lpp|Late Publication Protection]] - Start writing a page now and publish it later.
   * New: For internal and debug purpose: The version of Combostrap is now available in a ''html meta'' generator tag and in the title of the footer link.
+  * Bug: [[ui:dropdown|dropdown]] was not attributes aware. You can now add styling class to hide dropdown depending on the screen width. 
 
 
 ==== Version 1.11 - 2021-02-02 ====
