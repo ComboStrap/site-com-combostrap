@@ -186,7 +186,7 @@ First release.
 
 
   * Don't redirect missing [[:strap:bar|bars]]
-  * Add [[https://www.bryanbraun.com/anchorjs/|Deep Linking anchor]]. Technically, this is just an anchor with an image
+  * Put the good spacing automatically for button in the navbar
   * Landing Page:
       * Add a [[https://getbootstrap.com/docs/4.4/components/carousel/|Carrousel]]
   * Add notification panel with a bell icon to show short updates ([[https://material-ui.com/|Example]])
