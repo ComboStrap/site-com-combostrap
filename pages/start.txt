@@ -92,12 +92,11 @@ by recovering broken back links and more.
 
 <card>
 ==== Social from the start ====
-''ComboStrap'' is social ready, meaning that
-it advertise automatically its pages to social
+''ComboStrap'' is social ready. It advertise automatically its pages to social
 network such as [[semantic:twitter|<icon name="twitter"/> Twitter]], 
 [[semantic:twitter|<icon name="facebook"/> Facebook]], 
 [[semantic:twitter|<icon name="google"/> Google]]. 
-Your pages have automatically a professional look on this networks.
+Your pages have also automatically a professional look on this networks.
 
 <btn secondary class="mt-3">
 [[:social|Social all the things]]
