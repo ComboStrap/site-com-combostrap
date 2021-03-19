@@ -42,6 +42,8 @@ This is a page that lists all releases with their respective changes for [[:star
   * New: For internal and debug purpose: The version of Combostrap is now available in a ''html meta'' generator tag and in the title of the footer link.
   * Bug: [[ui:dropdown|dropdown]] was not attributes aware. You can now add styling class to hide dropdown depending on the screen width. 
   * New anchor. Every [[ui:heading|heading]] has now an anchor to help get a direct link.
+  * New component: [[ui:tweet|tweet]] to embed tweet in your pages.
+  * New: Style and Javascript Dokuwiki independency: Combostrap does not depend anymore on Dokuwiki Style and Javascript engine. All component snippets are embedded individually on each page only when used.
 
 
 ==== Version 1.11 - 2021-02-02 ====

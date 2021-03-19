@@ -5,52 +5,54 @@
     "description":"This article shows you the tweet web component and how you can use it to embed a tweet in your pages"
 }
 ---
-====== ComboStrap UI - Tweet ======
+====== ComboStrap UI - Embedded Tweet ======
 
 
 ===== About =====
-A ''tweet'' is not a direct [[ui|UI component]] because it's semantically equivalent to a [[blockquote|blockquote]].
-
-When a [[blockquote|blockquote]] has a tweet URL in its [[cite|cite tag]], the [[blockquote|blockquote]] is considered to be a ''tweet'' and is rendered as such.
-
-===== How to embed a tweet ? =====
+A ''tweet'' is [[ui|component]] that renders a tweet (called also embedded tweet) in your pages.
 
 
-==== HTML ====
+<badge>Since [[:changes#version_112|version 1.12]]</badge>
+===== Syntax =====
 
+A ''tweet'' is a [[blockquote|blockquote]]:
+  * with a mandatory tweet URL in its [[cite|cite tag]]
+  * with optional [[#parameters]]
 
-{{:ui:tweet_embeded_tweet.png|}}
-
-<note>
-This step is optional but as ''ComboStrap'' is a [[styling:html|HTML super set language]], the embedded code of twitter is really similar.
-</note>
-
-You should get a HTML code that looks like that
-<code html>
-<blockquote class="twitter-tweet">
-    <p lang="en" dir="ltr">
-    The tweet content
-    <a href="https://twitter.com/combostrapweb/status/1357699797541601286?ref_src=twsrc%5Etfw">February 5, 2021</a>
-</blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</code>
-As you can see twitter also see an embedded tweet as a quote.
-
-==== Simplified  ====
-
-A [[blockquote|blockquote]] tweet is a simplified version of the [[#get the html tweet|HTML tweet]] where:
-  * the ''lang'' and ''dir'' attributes have been placed in the [[blockquote|blockquote component]]
-  * the others element have been translated:
-     * the ''p'' element has been deleted
-     * the ''br'' elements has been replaced by ''%%\\%%''
-     * the html link are in a  [[link|link]] format  (ie ''%%[[link]]%%'' without any url has link description)
-  * the citation (ie the name and the last [[link|external link]]) has been placed in a [[cite|cite element]].
-
-Example:
-<webcode name="Default" frameborder=0>
-  * With the [[#get the html tweet|HTML tweet]]
 <code dw>
-<blockquote data-lang="en">
+<blockquote parameterKey="parameterValue" >
+    Content
+    <cite>[[https://twitter.com/twitterHandle/status/twitterId|@handle date ]]</cite>
+</blockquote>
+</code>
+
+
+The content is optional and is used:
+  * by search engine
+  * in case of fallback when the tweet was deleted or twitter is not reachable.
+
+
+The parameters that you can set as attribute of the [[blockquote|blockquote tag]]  are listed in the below table.
+
+^ Parameter ^ Possible Values ^ Default ^ Description ^ 
+| lang | Two letters | [[semantic:lang|See lang]] | Language interface (if in the [[https://developer.twitter.com/en/docs/twitter-for-websites/supported-languages|supported language]] otherwise ''en'') |
+| cards | hidden | | links in a Tweet are not expanded to photo, video, or link previews |
+| conversation | none | | if set, only the cited Tweet will be displayed even if it is in reply to another Tweet |
+| theme | light/dark | [[#theme|light]] | Displays Tweet in their [[#theme]] |
+| width | 250-550px | 550px | same as [[styling:dimension|width]] (maximum width of the rendered Tweet in whole pixels) |
+| align | left, right, or center | center | Float the Tweet | 
+| dnt | true/false | true | dont not track (dnt) ([[https://developer.twitter.com/en/docs/twitter-for-websites/privacy|privacy]])|
+
+
+
+===== Example =====
+
+==== Basic ====
+
+Example from this [[https://twitter.com/combostrapweb/status/1357699797541601286|release tweet]]
+<webcode name="Default" frameborder=0>
+<code dw>
+<blockquote>
     New big release. 1.12 \\
     Page analytics and Page Quality module were implemented \\
     to improve SEO via the overal quality of the website. \\
@@ -63,23 +65,19 @@ Example:
 
 </webcode>
 
-==== Options ====
+==== Advanced ====
+The same tweet than in the [[#basic|basic example]] but with the following properties:
+  * Centered, 
+  * Max Width, 
+  * French language,
+  * Dark Theme 
+  * Hidden Cards
+and without any content.
 
-https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/guides/embedded-tweet-parameter-reference
-
-^ Parameter ^ Possible Values ^ Default ^ Description ^ 
-| lang | Two letters | [[semantic:lang|See lang]] | Language interface (if in the [[https://developer.twitter.com/en/docs/twitter-for-websites/supported-languages|supported language]] otherwise ''en'') |
-| cards | hidden | | links in a Tweet are not expanded to photo, video, or link previews |
-| conversation | none | | if set, only the cited Tweet will be displayed even if it is in reply to another Tweet |
-| theme | light/dark | light | Displays Tweet in their [[#theme]] |
-| width | 250-550px | 550px | same as [[styling:dimension|width]] (maximum width of the rendered Tweet in whole pixels) |
-| align | left, right, or center | center | Float the Tweet | 
-| dnt | true/false | true | dont not transmit information ([[https://developer.twitter.com/en/docs/twitter-for-websites/privacy|privacy]])|
 
 <webcode name="Default" frameborder="0" >
 <code dw>
-<blockquote tweet lang="fr" width="300px" cards="hidden">
-Content
+<blockquote tweet lang="fr" width="300px" cards="hidden" align="center" theme="dark">
 <cite>[[https://twitter.com/combostrapweb/status/1357699797541601286]]</cite>
 </blockquote>
 </code>
@@ -88,10 +86,68 @@ Content
 
 
 
+
+===== Configuration =====
+
+
 ==== Theme ====
 
+The ''twitter:widgets:theme'' is a [[:configuration|configuration]] that sets the default theme value for the website.
 
-| dark | displays Tweet with light text over a dark background. |
+Possible values:
+    * light: Default
+    * dark: Displays Tweet with light text over a dark background.
+
+==== Border-color ====
+The ''twitter:widgets:border-color'' is a [[:configuration|configuration]] that sets the default value of the border. Value: ''#55acee''
+
+==== Do Not Track ====
+The ''twitter:dnt'' (''Do Not Track - dnt'') is a [[:configuration|configuration]] that sets the [[https://developer.twitter.com/en/docs/twitter-for-websites/webpage-properties|privacy policy]]. 
+
+Values:
+  * ''on'' (default)
+  * ''off''
+
+<note>This value can also be [[#syntax|set by tweet with the value true/false]]</note>
+
+
+===== HTML =====
+
+If you accepts [[doku>config:htmlok|HTML]] in your page, you can embedded them directly.
+
+<note>
+This is not the recommended way because:
+  * you allows ''html'' and opens the door to cross site attack (XSS)
+  * the twitter javascript is not managed and is embedded each time.
+but it works and may fit your needs.
+</note>
+
+Go to:
+  *the [[https://publish.twitter.com/|meta generator]]
+  *or in the twitter timeline
+
+{{:ui:tweet_embeded_tweet.png|}}
+
+
+  * Grab the HTML code 
+<note>As you can see twitter also see an embedded tweet as a quote.</note>
+  * Put it between ''html'' tag.
+<code html>
+<html>
+<blockquote class="twitter-tweet">
+    <p lang="en" dir="ltr">
+    The tweet content
+    <a href="https://twitter.com/combostrapweb/status/1357699797541601286?ref_src=twsrc%5Etfw">February 5, 2021</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</html>
+</code>
+
+<note>
+This method adds the ''widget.js'' everytime while the tweet syntax will take care of it and embed it only once.
+</note>
+
+
 
 ===== Documentation / Reference =====
   * https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/overview

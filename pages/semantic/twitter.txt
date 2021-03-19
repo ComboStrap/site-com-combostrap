@@ -16,6 +16,11 @@ You can optionally add your twitter handle in the cards if [[#configuration|conf
 
 <badge>Since [[:changes#version_112|version 1.12]]</badge>
 
+
+<note>
+This is page is about the integration of your page as card in twitter. If you want the inverse and embed a tweet in your page, see the [[ui:tweet|tweet page]]
+</note>
+
 ===== Articles Related =====
 {{backlinks>.}}
 ===== Preview =====
@@ -39,8 +44,8 @@ The list of metadata that are used in the card are:
 You can set the following [[:configuration|configuration]]:
 
 ^ Name ^ Description ^ Default value ^
-| ''twitterSiteHandle'' | the handle name of your twitter account | None |
-| ''twitterSiteId'' | the twitter id of your twitter account | None |
+| ''twitterSiteHandle'' | the handle name of your twitter account (Example: @combostraweb) | None |
+| ''twitterSiteId'' | the twitter id of your twitter account ([[google>twitter id|Search on Google]]) | None |
 | ''defaultTwitterImage'' | the image used if an [[image|page image]] was not found ([[https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup|svg is not supported, less than 5MB]]) | apple-touch-icon.png |
 
 <note>

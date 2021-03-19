@@ -1,3 +1,11 @@
+---json
+{
+    "canonical":"blockquote",
+    "title":"What is a blockquote widget and how to use it",
+     "description":"A blockquote is a extract from another source and is set appart with a citation."
+}
+---
+
 ====== ComboStrap UI - Blockquote ======
 
 
@@ -5,14 +13,21 @@
 ===== About =====
 A ''blockquote'' component is a content with a [[cite|citation]].
 
+A blockquote is an extract from another source and is set appart with a citation.
+
+<note tip>
+A pullquote is an typographic effect that quotes words of the current [[semantic:article|article]]
+</note>
+
 ===== Articles Related =====
 {{backlinks>.}}
 
 
 ===== Syntax =====
-A ''blockquote'' has two type:
+A ''blockquote'' has three type:
   * ''typo'' for the [[https://getbootstrap.com/docs/4.0/content/typography/#blockquotes|the typographic Blockquote]]
   * ''card'' (default) for the [[https://getbootstrap.com/docs/4.0/components/card/#header-and-footer|the card Blockquote]]
+  * ''tweet''. If you want to quote a tweet, you should refer to the [[tweet|tweet component]].
 
 <code dw>
 <blockquote type="card">
@@ -20,7 +35,7 @@ A ''blockquote'' has two type:
 === Title === or <title>Title</title>
 content
 <cite>The reference</cite>
-</blockquote
+</blockquote>
 </code>
 where:
   * ''header'' is an [[header|component header]]
@@ -164,6 +179,21 @@ e & = & mc^2
 </code>
   * Result
 </webcode>
+
+==== Tweet ====
+
+For more information on tweet, see the [[tweet|corresponding page]]
+
+<webcode name="Default" frameborder="0" >
+<code dw>
+<blockquote width="300px">
+<cite>[[https://twitter.com/themaxburns/status/1372630627611201536]]</cite>
+</blockquote>
+</code>
+</webcode>
+
+
+
 
 
 
