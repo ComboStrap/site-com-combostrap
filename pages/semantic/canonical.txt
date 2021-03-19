@@ -70,3 +70,12 @@ or
 <btn>
 [[semantic:canonical#demo|Navigate to this page via its dokuwiki URL]] !
 </btn>
+
+===== Usage =====
+All external provider will use this value to refer to your page.
+
+For instance:
+  * [[https://developer.twitter.com/en/docs/twitter-for-websites/webpage-properties|the tweet button]]
+
+===== For the Geek =====
+The canonical is explained in depth in the  [[https://tools.ietf.org/html/rfc6596|RFC6956 - the Canonical Link Relation]]

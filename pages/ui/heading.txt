@@ -15,4 +15,5 @@ This is important to not mixed the two, this is why we have two different articl
 {{backlinks>.}}
 
 
-
+===== Anchor =====
+All outline headings supports an anchor that you can see when you hover over them.

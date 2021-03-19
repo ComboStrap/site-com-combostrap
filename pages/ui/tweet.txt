@@ -50,15 +50,48 @@ Example:
 <webcode name="Default" frameborder=0>
   * With the [[#get the html tweet|HTML tweet]]
 <code dw>
-<blockquote lang="en" dir="ltr">
+<blockquote data-lang="en">
     New big release. 1.12 \\
     Page analytics and Page Quality module were implemented \\
     to improve SEO via the overal quality of the website. \\
     There is so much new that it's difficult to summarize it in one tweet. \\
     \\
     See the change logs [[https://t.co/AJWxMRH3GQ]] \\
-    <cite>combostrapweb (@combostrapweb) [[https://twitter.com/combostrapweb/status/1357699797541601286?ref_src=twsrc%5Etfw|February 5, 2021]]</cite>
+    <cite>[[https://twitter.com/combostrapweb/status/1357699797541601286?ref_src=twsrc%5Etfw|combostrapweb (@combostrapweb) February 5, 2021]]</cite>
 </blockquote>
 </code>
 
 </webcode>
+
+==== Options ====
+
+https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/guides/embedded-tweet-parameter-reference
+
+^ Parameter ^ Possible Values ^ Default ^ Description ^ 
+| lang | Two letters | [[semantic:lang|See lang]] | Language interface (if in the [[https://developer.twitter.com/en/docs/twitter-for-websites/supported-languages|supported language]] otherwise ''en'') |
+| cards | hidden | | links in a Tweet are not expanded to photo, video, or link previews |
+| conversation | none | | if set, only the cited Tweet will be displayed even if it is in reply to another Tweet |
+| theme | light/dark | light | Displays Tweet in their [[#theme]] |
+| width | 250-550px | 550px | same as [[styling:dimension|width]] (maximum width of the rendered Tweet in whole pixels) |
+| align | left, right, or center | center | Float the Tweet | 
+| dnt | true/false | true | dont not transmit information ([[https://developer.twitter.com/en/docs/twitter-for-websites/privacy|privacy]])|
+
+<webcode name="Default" frameborder="0" >
+<code dw>
+<blockquote tweet lang="fr" width="300px" cards="hidden">
+Content
+<cite>[[https://twitter.com/combostrapweb/status/1357699797541601286]]</cite>
+</blockquote>
+</code>
+</webcode>
+
+
+
+
+==== Theme ====
+
+
+| dark | displays Tweet with light text over a dark background. |
+
+===== Documentation / Reference =====
+  * https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/overview

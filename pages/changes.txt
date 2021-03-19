@@ -5,10 +5,7 @@
 This is a page that lists all releases with their respective changes for [[:start|ComboStrap]].
 ===== Releases =====
 
-==== Planned ====
 
-
-  * Don't redirect missing [[:strap:bar|bars]]
 
 
 
@@ -44,6 +41,7 @@ This is a page that lists all releases with their respective changes for [[:star
   * New: [[quality:lpp|Late Publication Protection]] - Start writing a page now and publish it later.
   * New: For internal and debug purpose: The version of Combostrap is now available in a ''html meta'' generator tag and in the title of the footer link.
   * Bug: [[ui:dropdown|dropdown]] was not attributes aware. You can now add styling class to hide dropdown depending on the screen width. 
+  * New anchor. Every [[ui:heading|heading]] has now an anchor to help get a direct link.
 
 
 ==== Version 1.11 - 2021-02-02 ====
@@ -176,9 +174,11 @@ First release.
 
 ===== Note=====
 
+
+  * Don't redirect missing [[:strap:bar|bars]]
   * Add [[https://www.bryanbraun.com/anchorjs/|Deep Linking anchor]]. Technically, this is just an anchor with an image
-  * Add a [[https://getbootstrap.com/docs/4.4/components/carousel/|Carrousel]]
-  * Add a [[https://getbootstrap.com/docs/4.4/content/figures/|caption to image]]
+  * Landing Page:
+      * Add a [[https://getbootstrap.com/docs/4.4/components/carousel/|Carrousel]]
   * Add notification panel with a bell icon to show short updates ([[https://material-ui.com/|Example]])
   * https://github.com/retextjs/retext:
     * Readiblity
@@ -189,4 +189,7 @@ First release.
       * https://developers.google.com/search/docs/data-types/breadcrumb#breadcrumb-list
       * https://developers.google.com/search/docs/data-types/qapage
       * https://developers.google.com/search/docs/data-types/how-to
+  * Image: 
+      * https://www.npmjs.com/package/vanilla-lazyload
+      * Add a [[https://getbootstrap.com/docs/4.4/content/figures/|caption to image]]
 
