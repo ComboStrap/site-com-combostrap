@@ -5,7 +5,7 @@
     "description":"The protection mode offers two possibilities for non-public page when the page should not be published"
 }
 ---
-====== Page - Protection Mode ======
+====== ComboStrap Quality - Protection Mode ======
 
 ===== About =====
 The ''protection mode'' is a [[:configuration|configuration]] value that determine how articles that should not be published are protected.
