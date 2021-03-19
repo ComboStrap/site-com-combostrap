@@ -10,8 +10,15 @@ This is a page that lists all releases with their respective changes for [[:star
 
 
 
-==== Version 1.12 - Snapshot ====
+==== Version 1.12 - 2021-03-19 ====
 
+This is release that has started with a couple of request and ended big. 
+
+The most important features are:
+  * the addition of the [[social|social module]]
+  * the [[ui:link|link]] component accepts now children component.
+
+Check the below changes to know more about all of them:
   * [[ui:webcode|webcode]] is now integrated in Combo. The code is taken from the calls because the regular expression for the update lexer mode was not catching the code when there was whitespace.
   * [[styling:elevation|elevation]] - a new elevation level was added called ''high'' that elevates on all side of the box.
   * the disabling of [[ui:preformatted|preformated]] has been improved by not allowing this mode via the ''accept'' function of the syntax class.
@@ -31,6 +38,7 @@ This is a page that lists all releases with their respective changes for [[:star
   * Bug: The [[strap:bar|bar pages]] are not anymore set as [[quality:low_quality_page|low quality page]].
   * Twitter aware: ComboStrap pages are now [[semantic:twitter|twitter aware and renders in tweet as cards]].
   * Facebook aware: ComboStrap pages are now [[semantic:facebook|facebook]].
+  * New: [[:social|social page]] to concentrate on one page all the social features.
   * New Page Metadata - the [[semantic:image|page of an image]] used in card social illustration.
   * Improved: the [[semantic:frontmatter|frontmatter]] creates a link to debug quickly the json if there is any errors.
   * New: You can advertise your organization by creating an [[semantic:organization|organization page]].

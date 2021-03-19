@@ -14,13 +14,9 @@ ComboStrap
 [[url:url|Url Manager]]
 [[:seo|Search Engine Optimization]]
 [[semantic:semantic|Web Structured Data]]
+[[:social|Social (Twitter, Facebook, Google)]]
 [[styling:styling|Styling]]
 [[:strap:strap|Templating]]
-</dropdown>
-<dropdown name="Social Module" class="d-none d-lg-flex">
-[[semantic:twitter|<icon name="twitter"/> Twitter Card]] 
-[[semantic:facebook|<icon name="facebook"/> Facebook Card]] 
-[[semantic:google|<icon name="google"/> Google Rich Result]]
 </dropdown>
 [[support|Contact]]
 </group>
