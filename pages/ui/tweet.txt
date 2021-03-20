@@ -9,7 +9,7 @@
 
 
 ===== About =====
-A ''tweet'' is [[ui|component]] that renders a tweet (called also embedded tweet) in your pages.
+A ''tweet'' is a [[ui|component]] that renders a tweet (called also embedded tweet) in your pages.
 
 
 <badge>Since [[:changes#version_112|version 1.12]]</badge>
