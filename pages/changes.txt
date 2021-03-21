@@ -10,7 +10,7 @@ This is a page that lists all releases with their respective changes for [[:star
 
 
 
-==== Version 1.12 - 2021-03-19 ====
+==== Version 1.12 - 2021-03-21 ====
 
 This is release that has started with a couple of request and ended big. 
 
@@ -52,6 +52,7 @@ Check the below changes to know more about all of them:
   * New anchor. Every [[ui:heading|heading]] has now an anchor to help get a direct link.
   * New component: [[ui:tweet|tweet]] to embed tweet in your pages.
   * New: Style and Javascript Dokuwiki independency: Combostrap does not depend anymore on Dokuwiki Style and Javascript engine. All component snippets are embedded individually on each page only when used.
+  * New: Strap template, run first the page, then the bars to fill the HTML heads with all web component snippet (CSS, JS)
 
 
 ==== Version 1.11 - 2021-02-02 ====
@@ -186,6 +187,10 @@ First release.
 
 
   * Don't redirect missing [[:strap:bar|bars]]
+  * [[semantic:article|Article]] role:
+      * [[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Article_Role|Add article role]] 
+      * [[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_article_role|Article role]]
+  * Passing [[semantic:lang|lang]] to the body strap template node ?
   * Put the good spacing automatically for button in the navbar
   * Landing Page:
       * Add a [[https://getbootstrap.com/docs/4.4/components/carousel/|Carrousel]]

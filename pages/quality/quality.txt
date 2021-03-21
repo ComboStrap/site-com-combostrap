@@ -27,4 +27,7 @@ The [[url:404|missing page management]] also improves the quality of the website
 All the quality data can be found and queried under the ''quality'' node of the [[analytics:data|analytical data]].
 
 
+===== HTML Valid =====
+We take great care to be XHTML compliant valid. It helps the search engine to crawl your content and get a better indexing.
 
+Check it: [[https://validator.w3.org/nu/?doc=https%3A%2F%2Fcombostrap.com%2F|XHTML valid]] \\
