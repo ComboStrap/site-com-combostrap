@@ -191,6 +191,9 @@ First release.
       * [[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Article_Role|Add article role]] 
       * [[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_article_role|Article role]]
   * Passing [[semantic:lang|lang]] to the body strap template node ?
+  * Bug: 
+      * The image (http:download.oracle.com:docs:cd:e14571_01:bi.1111:e10543:img:admintool2.gif) does not exist and was not added 
+      *  image - The image id value (http://download.oracle.com/docs/cd/E14571_01/bi.1111/e10543/img/admintool2.gif) is not conform and should be (http:download.oracle.com:docs:cd:e14571_01:bi.1111:e10543:img:admintool2.gif) - 172.69.34.230
   * Put the good spacing automatically for button in the navbar
   * Landing Page:
       * Add a [[https://getbootstrap.com/docs/4.4/components/carousel/|Carrousel]]
