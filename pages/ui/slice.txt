@@ -5,15 +5,16 @@
     "description":"Slice are used mainly in landing page where they separate and add contrast between section"
 }
 ---
-====== UI - Slice ======
+====== ComboStrap UI - Slice ======
 
 ===== About =====
 A ''slice'' is an [[ui|ui component]] that divides a page in horizontal region.
 
 They are mainly used in landing page where they separate and add contrast between region.
 
+<badge>[[#changes|Since version 1.13]]</badge>
 
 
-===== Documentation / Reference =====
+===== Background =====
   * https://www.heropatterns.com/
-  * 
+  * https://bgjar.com/
