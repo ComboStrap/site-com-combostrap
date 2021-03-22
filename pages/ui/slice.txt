@@ -1,0 +1,19 @@
+---json
+{
+    "canonical":"slice",
+    "title":"A slice is a UI component that divide a page in horizontal region",
+    "description":"Slice are used mainly in landing page where they separate and add contrast between section"
+}
+---
+====== UI - Slice ======
+
+===== About =====
+A ''slice'' is an [[ui|ui component]] that divides a page in horizontal region.
+
+They are mainly used in landing page where they separate and add contrast between region.
+
+
+
+===== Documentation / Reference =====
+  * https://www.heropatterns.com/
+  * 
