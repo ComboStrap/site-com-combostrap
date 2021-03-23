@@ -57,6 +57,22 @@ The only action attached is to navigate to another page.
 </code>
 </webcode>
 
+
+==== Hover Animation ====
+
+  * Float
+<webcode name="Button" frameborder="0" >
+<code dw>
+<btn hover="float">[[:start|Go to ComboStrap]]</btn>
+</code>
+</webcode>
+  * Zoom
+<webcode name="Button" frameborder="0" >
+<code dw>
+<btn hover="zoom">[[:start|Go to ComboStrap]]</btn>
+</code>
+</webcode>
+
 ===== Syntax =====
 
 <code dw>
