@@ -194,6 +194,19 @@ First release.
   * Bug: 
       * The image (http:download.oracle.com:docs:cd:e14571_01:bi.1111:e10543:img:admintool2.gif) does not exist and was not added 
       *  image - The image id value (http://download.oracle.com/docs/cd/E14571_01/bi.1111/e10543/img/admintool2.gif) is not conform and should be (http:download.oracle.com:docs:cd:e14571_01:bi.1111:e10543:img:admintool2.gif) - 172.69.34.230
+
+  * [[https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/dn320426(v=vs.85)?redirectedfrom=MSDN|Browserconfig ?]]
+<code xml>
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+    <msapplication>
+        <tile>
+            <square150x150logo src="/mstile-150x150.png"/>
+            <TileColor>#da532c</TileColor>
+        </tile>
+    </msapplication>
+</browserconfig>
+</code>
   * Put the good spacing automatically for button in the navbar
   * Landing Page:
       * Add a [[https://getbootstrap.com/docs/4.4/components/carousel/|Carrousel]]
