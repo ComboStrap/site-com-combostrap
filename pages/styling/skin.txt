@@ -23,7 +23,7 @@ where the ''skin'' value is one of:
 
 ===== Skin and Emphasis Level =====
 
-^ Name ^ Emphasis Level ^ Text \\ Color ^ Background \\ Color ^ Border \\ Color ^ [[elevation|Elevation]] ^
+^ Name ^ Emphasis Level ^ Text \\ Color ^ Background \\ Color ^ Border \\ Color ^ [[elevation|Medium Elevation]] ^
 | Contained | High | 🗸 | 🗸 | 🗸 | 🗸 |
 | Filled (Default) | Medium | 🗸 | 🗸 | 🗸 | |
 | Outline | Low | 🗸 | | 🗸 | |

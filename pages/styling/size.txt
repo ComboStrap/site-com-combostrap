@@ -1,0 +1,46 @@
+---json
+{
+    "canonical":"styling:size",
+    "title":"The size attribute defines how a component will become big",
+    "description":"The size attributes determines the background surface, the higher the more surface, it will take"
+}
+---
+====== ComboStrap Styling - Size ======
+
+===== About =====
+The size attributes determines the background surface of a [[ui:ui|component]], the higher the more surface, it will take.
+
+Technically, it sets the ''padding'' (the external zone of a box).
+
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Example: A large button =====
+A large [[ui:button|button]]
+<webcode name="Button" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<btn size="large">[[:start|Go to ComboStrap]]</btn>
+</code>
+</webcode>
+
+
+===== Components =====
+Only this component responds to this attribute:
+  * [[ui:button]]
+  * [[ui:slice]]
+
+
+===== Syntax =====
+
+<code dw>
+size="value"
+</code>
+where ''value'' can be the name or the code
+
+^ code ^ Name ^
+| ''sm'' | small |
+| ''md'' | medium (default) |
+| ''lg'' | large |
+| ''xl'' | extra-large |
+

@@ -40,7 +40,7 @@ The only action attached is to navigate to another page.
 <btn class="p-3">[[:start|Go to ComboStrap]]</btn>
 </code>
 </webcode>
-==== Size ====
+==== Large button ====
 
   * With the [[#size|size attribute]]
 <webcode name="Button" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
@@ -102,6 +102,7 @@ The type of the button defines its styling:
 
 ==== Size ====
 
+''Button'' is a component that responds to the [[styling:size|size attribute]]
   * small
   * medium (default)
   * large
