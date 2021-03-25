@@ -6,11 +6,13 @@ This is a page that lists all releases with their respective changes for [[:star
 ===== Releases =====
 
 
-===== Version 1.13 - Snapshot =====
+==== Version 1.13 - Snapshot ====
   * New: added the [[styling:hover|hover animation]] to improve emphasis
   * New: added the [[ui:slice|slice component]] to create horizontal region with generally differents background
   * New: added the [[styling:background|background component]] to manage the background of a component (at first for a [[ui:slice|slice]])
   * New: the [[styling:style#style|style node]] to add styling rules in block for a component
+  * New: [[ui:webcode|webcode]] outputs iframe for page syntax in order to demonstrate the [[styling:sticky|sticky attribute]]
+  * New: the [[styling:sticky|Sticky attribute]] - Stick sidebar components on your page
 
 ==== Version 1.12 - 2021-03-21 ====
 

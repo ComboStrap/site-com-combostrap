@@ -62,3 +62,5 @@ A text in the center
 === For the geek ===
 This is just a CSS shortcut to the [[https://developer.mozilla.org/en-US/docs/Web/CSS/text-align|text-align CSS attribute]]
 </note>
+
+
