@@ -1,0 +1,63 @@
+---json
+{
+    "canonical":"background",
+    "title":"Background styling - Add any background to your ComboStrap component",
+    "description":"The background element permits to add any background to your ComboStrap component in a easy and declarative way."
+}
+---
+====== ComboStrap Styling - Background ======
+
+
+===== About =====
+The ''background'' element manage and add a background to its parent element.
+
+It's mostly used with [[ui:slice|slice component]] to create compelling landing page.
+
+
+The ''background'' is defined as being the content plus the [[styling:spacing|padding]] (ie not the margin)
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Syntax =====
+
+
+<code dw>
+<background sizing="single|tile|cover">{{image}}</background>
+</code>
+where:
+  * ''image'' is an [[ui:image|image]]
+  * ''sizing'' defines the main image behavior:
+      * ''cover'' (default) Scale the image within its container, crop, if necessary
+      * ''single'': Show the image once (Spaces not covered are filled with the background-color)
+      * ''tile'': Repeat the image if the container is larger than the image
+  * ''color'': a [[color|color value]]
+
+
+
+===== Example =====
+
+
+==== Svg with BgJar ====
+
+  * https://bgjar.com/
+
+
+==== Direct Styling with heropatterns ====
+[[https://www.heropatterns.com/|heropatterns]] is a list of background pattern that can be ''tiled''.
+
+In their generator, they offers the styling declaration that you can use directly within the [[styling:style#style|style element]].
+
+<webcode name="Default" frameborder="0">
+<code dw>
+<slice text-align="center" color="white">
+<style>
+background-color: #e3b5ee;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23f60e18' fill-opacity='0.58'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+</style>
+<title 1>An Hero pattern</title>
+</slice>
+</code>
+</webcode>
+
+===== Documentation / Reference =====
+  * https://unsplash.com/

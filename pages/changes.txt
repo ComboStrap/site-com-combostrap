@@ -6,9 +6,11 @@ This is a page that lists all releases with their respective changes for [[:star
 ===== Releases =====
 
 
-
-
-
+===== Version 1.13 - Snapshot =====
+  * New: added the [[styling:hover|hover animation]] to improve emphasis
+  * New: added the [[ui:slice|slice component]] to create horizontal region with generally differents background
+  * New: added the [[styling:background|background component]] to manage the background of a component (at first for a [[ui:slice|slice]])
+  * New: the [[styling:style#style|style node]] to add styling rules in block for a component
 
 ==== Version 1.12 - 2021-03-21 ====
 
@@ -194,7 +196,9 @@ First release.
   * Bug: 
       * The image (http:download.oracle.com:docs:cd:e14571_01:bi.1111:e10543:img:admintool2.gif) does not exist and was not added 
       *  image - The image id value (http://download.oracle.com/docs/cd/E14571_01/bi.1111/e10543/img/admintool2.gif) is not conform and should be (http:download.oracle.com:docs:cd:e14571_01:bi.1111:e10543:img:admintool2.gif) - 172.69.34.230
-
+  * Sticky sidebar: 
+      * until the bottom (https://sticksy.js.org/)
+      * https://rgalus.github.io/sticky-js/
   * [[https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/dn320426(v=vs.85)?redirectedfrom=MSDN|Browserconfig ?]]
 <code xml>
 <?xml version="1.0" encoding="utf-8"?>

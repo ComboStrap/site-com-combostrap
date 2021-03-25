@@ -1,0 +1,114 @@
+---json
+{
+    "canonical":"hover",
+    "title":"Hover animation",
+    "description":"Improve the emphasis of your component by adding onHover animation"
+}
+---
+====== ComboStrap Styling - Hover Animations ======
+
+
+===== About =====
+''hover animation'' permits to add animations to your [[ui:block|block component]] when the mouse points an element (ie is ''hover'').
+
+
+
+
+===== Syntax =====
+To add an ''hover animation'', add a ''onHover'' attribute with the name of your animation.
+
+<code dw>
+<blockComponent onHover="animationName"></blockComponent>
+</code>
+
+===== Animation =====
+==== Built-in ====
+=== Float ===
+
+When you want to add [[styling:elevation|dynamic elevation]], you can use the ''float'' animation
+
+<webcode name="Default" frameborder="0">
+<code dw>
+<button onHover="float">A floated animated button</button>
+</code>
+</webcode>
+
+=== Grow ===
+
+When you want to add a zoom-in effect, you can use the ''grow'' animation
+
+  * [[ui:button|button]]
+<webcode name="Default" frameborder="0">
+<code dw>
+<button onHover="grow">A zoom-in / grow animated button</button>
+</code>
+</webcode>
+  * [[ui:icon|icon]]
+<webcode name="Default" frameborder="0">
+<code dw>
+A zoom-in / grow animated icon - <icon width="50px" height="50px" onHover="grow" name="logo.svg" />
+</code>
+</webcode>
+
+==== Hover.css ====
+You can also use [[https://ianlunn.github.io/Hover/|Hover.css]] animation.
+
+We support the ''hover.css''naming standard.
+
+Example:
+<webcode name="Default" frameborder="0">
+<code dw>
+<button onHover="underline-from-left">A hover underline from left animated button</button>
+</code>
+</webcode>
+
+
+<note>
+The library is not primary supported because:
+  * there is some incompatibility with [[strap:bootstrap|BootStrap]]
+  * they require a commercial license if not for personal use.
+If you underline problems, you can also [[#custom|add your own]].
+</note>
+
+==== Custom ====
+
+If you want to create your custom animation, there is several path that you can take.
+
+
+=== Custom: for one component ===
+
+To test or create a single animation, you can use the [[styling:style#style|style component]]
+
+
+Example with the ''fade'' like background transition of [[https://ianlunn.github.io/Hover/|hover.css]].
+<webcode name="Fade" frameborder="0">
+<code dw>
+<button>
+    <style state="hover">
+    background-color: #FFF;
+    color: #2098D1;
+    transition-duration: 0.4s;
+    transition-property: color, background-color;
+    </style>
+A button animated with a fade background transition
+</button>
+</code>
+</webcode>
+
+    
+=== Custom: Bring it to Combostrap ===
+
+If you want to bring your animation to ''ComboStrap'':
+  * takes a ''name'' from [[https://ianlunn.github.io/Hover/|Hover.css]]
+  * clone the [[https://github.com/ComboStrap/combo|combo repository]]
+  * create a file called hover-''name''.css in the [[https://github.com/ComboStrap/combo/tree/master/resources/snippet/style|style directory]]
+  * put your CSS rules in it
+  * and apply a pull request.
+
+=== Custom: UserStyle ===
+
+If you want to create an animation for yourself:
+  * add the CSS rules in the [[styling:userstyle|userstyles stylesheet]]
+  * use the [[styling:class|class attribute]] or ''id'' attribute to refer to it.
+
+

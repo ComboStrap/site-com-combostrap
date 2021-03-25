@@ -8,34 +8,55 @@
 ====== ComboStrap UI - Slice ======
 
 ===== About =====
-A ''slice'' is an [[ui|ui component]] that divides a page in horizontal region.
+A ''slice'' is an [[ui|ui component]] that divides a page in horizontal region through the use of [[styling:background|background]] (and therefore without any [[styling:spacing|margin]]).
 
 They are mainly used in landing page where they separate and add contrast between region.
 
 <badge>[[#changes|Since version 1.13]]</badge>
 
 
-===== Background =====
-  * https://www.heropatterns.com/
-  * https://bgjar.com/
+===== Articles Related =====
+{{backlinks>.}}
 
-==== Background Size ====
 
-  * single: Show the image once (Spaces not covered are filled with the background-color)
-  * tile: Repeat the image if the container is larger than the image
-  * cover: Scale the image within its container, crop, if necessary
+===== Syntax =====
 
+<code dw>
+<slice size="md|sm|lg|xl">
+   <background></background>
+    My Slice
+</slice>
+</code>
+where:
+  * ''size'' defines the space around the text (''padding'') and is one of:
+      * ''sm'' : ''small''
+      * ''md'' : ''medium'' (default)
+      * ''lg'' : ''large''
+      * ''xl'' : ''extra-large''
+  * ''background'' is the optional [[styling:background|background definition]] 
+
+<note>
+This is also an [[styling:html|super HTML component]] and accepts therefore all [[styling:styling|styling attributes]]
+</note>
 ===== Example =====
 
 
 <webcode name="Default" frameborder="0">
 <code dw>
-<slice size="lg" color="white" text-align="center">
-<title 2>A slice</title>
-<typo lead>
+<slice color="white" text-align="center">
+    <title 2>A slice</title>
+    <typo lead>
 **A unique collection of UI elements that are all flexible, modular and composable.  \\
 A complete solution to building a professional website.**
-</typo>
+     </typo>
 </slice>
+<slice color="white" text-align="center" background-color="blue">
+    <title 2>A second slice</title>
+    <typo lead>
+**A unique collection of UI elements that are all flexible, modular and composable.  \\
+A complete solution to building a professional website.**
+     </typo>
+</slice>
+
 </code>
 </webcode>

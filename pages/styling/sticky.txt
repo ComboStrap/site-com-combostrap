@@ -1,0 +1,53 @@
+---json
+{
+    "canonical":"sticky",
+    "title":"Sticky: Stick component at the top of your side bar",
+    "description":"Sticky is an attribute that lets your component stick at the same position when scrolling down"
+}
+---
+====== ComboStrap Styling - Sticky ======
+
+
+===== About =====
+''sticky'' is a property of a [[ui:block|block component]] that will stick their position to the [[#page top|top of your page]].
+
+
+This component are generally in aside [[strap:bar|bar]] such as the [[strap:sidebor|sidebar]] or [[strap:sidekickbor|sidekickbar]].
+
+===== Syntax =====
+
+Adding the ''sticky'' attribute will made them sticky.
+<code dw>
+<tag sticky="true"></tag>
+</code>
+
+==== Page top ====
+
+If you have a [[strap:fixed-top-navbar|fixed top navbar]], this is the [[strap:fixed-top-navbar#set_the_height_of_the_navbar|height of your navbar]], otherwise this is the top of the window.
+
+===== Example =====
+
+
+<webcode name="Default" frameborder="0" >
+<code dw>
+<row align="center" width="600px" text-align="center">
+  <col>
+      <note>😎</note>
+      <note>😎</note>
+      <note>😎</note>
+  </col>
+  <col>
+      <note>😎</note>
+      <note>😎</note>
+      <note>😎</note>
+  </col>
+  <col>
+      <note>😎</note>
+      <note>😎</note>
+      <note>😎</note>
+  </col>
+</row>
+</code>
+</webcode>
+
+

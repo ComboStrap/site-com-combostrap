@@ -3,10 +3,10 @@
 
 <ntoc color="info">
 <index>
-[[$id|<pipeline>"$title" | replace("ComboStrap UI ","")</pipeline>]]
+[[$id|<pipeline>"$h1" | replace("ComboStrap UI ","")</pipeline>]]
 </index>
 <page-item>
-[[$id|<pipeline>"$title" | replace("ComboStrap Styling - ","")</pipeline>]]
+[[$id|<pipeline>"$h1" | replace("ComboStrap Styling - ","")</pipeline>]]
 </page-item>
 </ntoc>
 
