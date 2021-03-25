@@ -11,8 +11,6 @@
 ===== About =====
 ''OnView'' is an attribute that permits to set an animation to a [[ui:block|block component]] when they are visible or enter the screen.
 
-
-
 ===== Example =====
 
 
