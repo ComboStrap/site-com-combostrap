@@ -11,7 +11,7 @@
 ===== About =====
 The ''background'' element manage and add a background to its parent element.
 
-It's mostly used with [[ui:slice|slice component]] to create compelling landing page.
+It's mostly used with [[ui:slide|slice component]] to create compelling landing page.
 
 
 The ''background'' is defined as being the content plus the [[styling:spacing|padding]] (ie not the margin)
@@ -59,5 +59,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 </code>
 </webcode>
 
-===== Documentation / Reference =====
+==== Image ====
   * https://unsplash.com/
+  * https://www.pexels.com/

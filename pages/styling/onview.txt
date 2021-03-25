@@ -1,0 +1,24 @@
+---json
+{
+    "canonical":"onview",
+    "title":"OnView - Animate UI ComboStrap Component when they become visible",
+    "description":"Improve component emphasis by animating component when they come on the screen"
+}
+---
+====== ComboStrap Styling - OnView ======
+
+
+===== About =====
+''OnView'' is an attribute that permits to set an animation to a [[ui:block|block component]] when they are visible or enter the screen.
+
+
+
+===== Example =====
+
+
+<webcode name="OnView" frameborder="0">
+<code dw>
+<title  onView="fadeInLeft">A title with a fadeInLeft animation</title>
+</code>
+</webcode>
+

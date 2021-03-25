@@ -1,14 +1,14 @@
 ---json
 {
-    "canonical":"slice",
-    "title":"A slice is a UI component that divide a page in horizontal region",
-    "description":"Slice are used mainly in landing page where they separate and add contrast between section"
+    "canonical":"slide",
+    "title":"A slide is a UI component that divide a page in horizontal region",
+    "description":"Slide are used mainly in landing page where they separate and add contrast between section"
 }
 ---
-====== ComboStrap UI - Slice ======
+====== ComboStrap UI - Slide ======
 
 ===== About =====
-A ''slice'' is an [[ui|ui component]] that divides a page in horizontal region through the use of [[styling:background|background]] (and therefore without any [[styling:spacing|margin]]).
+A ''slide'' is an [[ui|ui component]] that divides a page in horizontal region through the use of [[styling:background|background]] (and therefore without any [[styling:spacing|margin]]).
 
 They are mainly used in landing page where they separate and add contrast between region.
 
@@ -22,9 +22,9 @@ They are mainly used in landing page where they separate and add contrast betwee
 ===== Syntax =====
 
 <code dw>
-<slice size="md|sm|lg|xl">
+<slide size="md|sm|lg|xl">
    <background></background>
-    My Slice
+    My Slide
 </slice>
 </code>
 where:
@@ -43,20 +43,20 @@ This is also an [[styling:html|super HTML component]] and accepts therefore all 
 
 <webcode name="Default" frameborder="0">
 <code dw>
-<slice color="white" text-align="center">
-    <title 2>A slice</title>
+<slide border-color="blue" text-align="center">
+    <title 2>A slide</title>
     <typo lead>
 **A unique collection of UI elements that are all flexible, modular and composable.  \\
 A complete solution to building a professional website.**
      </typo>
-</slice>
-<slice color="white" text-align="center" background-color="blue">
-    <title 2>A second slice</title>
+</slide>
+<slide color="white" text-align="center" background-color="blue">
+    <title 2>A second slide</title>
     <typo lead>
 **A unique collection of UI elements that are all flexible, modular and composable.  \\
 A complete solution to building a professional website.**
      </typo>
-</slice>
+</slide>
 
 </code>
 </webcode>
