@@ -3,28 +3,53 @@
     "canonical":"boostrap5"
 }
 ---
-====== BootStrap 5 Migration ======
+====== ComboStrap - BootStrap 4 to 5 Migration Changes ======
 
 
 ===== About =====
-[[https://getbootstrap.com/docs/5.0/getting-started/introduction/|BootStrap 5]] on Combostrap is a work in progress.
+This page regroups all migration matters from BootStrap 4 to BootStrap 5.
+
+ComboStrap supports the two version.
 
 
-===== Changes =====
 
-==== Deleted but preserved ====
-  * [[ui:card_column|Card Columns]] was deleted from Bootstrap 4 but we maintain it as explained in this [[https://getbootstrap.com/docs/5.0/examples/masonry/|example]]
-  * [[https://getbootstrap.com/docs/5.0/getting-started/javascript/#still-want-to-use-jquery-its-possible|Jquery is no more a dependency for Bootstrap]]. 
+<note>
+If you got any problem on this migration, don;'t hesitate to [[:support|open a ticket or contact us]].
+</note>
 
-==== Modified but preserved ====
 
-  * ''color'' names have now the [[https://getbootstrap.com/docs/5.0/customize/css-variables/|prefix ''bs'']]. We maintain the old color scheme without the prefix name by applying the prefix transparently.
-  * ''auto margin'' used in the [[ui:group|Navgroup]] with the ''expand'' attribute has been renamed from [[https://getbootstrap.com/docs/4.0/utilities/flex/#auto-margins|mr-auto]] to [[https://getbootstrap.com/docs/5.0/utilities/flex/#auto-margins|me-auto]].
+===== Breaking changes =====
 
-==== Modified not preserved ====
-  * If you made use of utility directly from bootstrap with the [[styling:class|class attribute]] not using the [[styling:spacing|spacing utility]] for instance), they have been [[https://getbootstrap.com/docs/5.0/migration/#utilities-2|renamed]] and we can't do much.
+==== Spacing Utility Class ====
+
+The only breaking change is when you use utility class directly from bootstrap with the [[styling:class|class attribute]] (ie without using for instance the [[styling:spacing|spacing utility]] for instance).
+
+They have been [[https://getbootstrap.com/docs/5.0/migration/#utilities-2|renamed]] and we can't do much in this case
 
 The left and right spacing utility have been renamed to support text direction.
   * in place of ''l'', you get a ''s'' - for classes that set margin-left or padding-left in LTR, margin-right or padding-right in RTL
   * in place of ''r'', you get a ''e'' - for classes that set margin-right or padding-right in LTR, margin-left or padding-left in RTL
 
+==== Theme ====
+
+The [[styling:stylesheet|Bootswatch stylesheet theme]] are not yet available for version 5.
+
+
+===== Changes preserved  =====
+
+==== Deleted ====
+  * [[ui:card_column|Card Columns]] was deleted from Bootstrap 4 but we maintain it as explained in this [[https://getbootstrap.com/docs/5.0/examples/masonry/|example]]
+  * [[https://getbootstrap.com/docs/5.0/getting-started/javascript/#still-want-to-use-jquery-its-possible|Jquery is no more a dependency for Bootstrap]]. 
+  * [[ui:jumbotron|jumbotron]] was [[https://getbootstrap.com/docs/5.0/migration/#jumbotron|deleted]].
+
+==== Modified ====
+
+  * The ''bs'' namespace has been added to all variables:
+      * [[https://getbootstrap.com/docs/5.0/customize/css-variables/|color names]]. We maintain the old color scheme without the prefix name by applying the new prefix transparently.
+      * [[https://getbootstrap.com/docs/5.0/migration/#javascript-2|data attributes]]
+  * ''auto margin'' used in the [[ui:group|Navgroup]] with the ''expand'' attribute has been renamed from [[https://getbootstrap.com/docs/4.0/utilities/flex/#auto-margins|mr-auto]] to [[https://getbootstrap.com/docs/5.0/utilities/flex/#auto-margins|me-auto]].
+  * the [[https://getbootstrap.com/docs/5.0/getting-started/accessibility/#visually-hidden-content|assistive technologies class]] given in the [[ui:search|search bar]] has changed from ''sr-only'' to ''visually-hidden''
+
+
+==== More info ====
+See the whole documentation at [[https://getbootstrap.com/docs/5.0/migration/|Bootstrap]]

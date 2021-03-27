@@ -28,7 +28,7 @@ Every component with a ''call to action'' could be called a ''teaser''.
 
 Making a teaser as this one is just a question of a click.
 
-<btn>Go and check the [[card documentation]]</btn>
+<btn>[[card|Go and check the card documentation]]</btn>
 </card>
 </code>
   * Output:

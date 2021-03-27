@@ -13,6 +13,7 @@ This is a page that lists all releases with their respective changes for [[:star
   * New: the [[styling:style#style|style node]] to add styling rules in block for a component
   * New: [[ui:webcode|webcode]] outputs iframe for page syntax in order to demonstrate the [[styling:sticky|sticky attribute]]
   * New: the [[styling:sticky|Sticky attribute]] - Stick sidebar components on your page
+  * New: [[:bootstrap5|Bootstrap beta 5 migration]] was done. This is still a beta.
 
 ==== Version 1.12 - 2021-03-21 ====
 

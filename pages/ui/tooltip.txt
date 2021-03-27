@@ -51,4 +51,5 @@ where:
 
 ===== Documentation / Reference =====
   * https://material.io/components/tooltips
-  * https://getbootstrap.com/docs/4.0/components/tooltips/
+  * [[https://getbootstrap.com/docs/4.0/components/tooltips/|Tooltip Boostrap version 4]]
+  * [[https://getbootstrap.com/docs/5.0/components/tooltips/|Tooltip Boostrap version 5]]

@@ -2,9 +2,15 @@
 
 
 ===== About =====
-A ''jumbotron'' is a [[block|box component]] to emphase prominently its content.
+A ''jumbotron'' is a simple [[block|box component]] that emphase prominently its content.
+
+<note>
+For a hero unit style content, you can also use a [[slide|slide]].
+</note>
 
 <badge>Since [[:changes|version 1.4]]</badge>
+
+This component was removed from [[https://getbootstrap.com/docs/5.0/migration/#jumbotron|Bootstrap version 5]] but we still support it.
 ===== Articles Related =====
 {{backlinks>.}}
 

@@ -33,9 +33,11 @@ See [[styling:stylesheet]]
 ==== version ====
 You may change the used version with the ''bootstrapVersion'' [[:configuration|configuration]]
 
-Actually, there is two versions:
+Actually, there is two versions supported:
   * the ''4.5.0''
   * the ''4.4.1''
+
+We are also already ready for the ''5'' being still in beta. See more info on the [[:bootstrap5|bootstrap 5 migration page]].
 
 ==== stylesheet ====
 The ''bootstrapStylesheet'' permits to dynamically choose the stylesheet.

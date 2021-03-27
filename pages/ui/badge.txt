@@ -50,7 +50,6 @@ A badge may have the following type:
 
 
 
-
 ===== Configuration =====
 
 ==== defaultBadgeAttributes ====

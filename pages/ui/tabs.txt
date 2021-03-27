@@ -1,7 +1,8 @@
 ---json
 {
     "canonical":"tabs",
-    "title":"Tabs: layout panels in tab"
+    "title":"Tabs: layout panels in tab",
+    "description":"A tabs is an layout, interactive and navigational element that is composed of a a serie of tab that, when activated, displays their associated panel."
 }
 ---
 ====== ComboStrap UI - Tabs ======
