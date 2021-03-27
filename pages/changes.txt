@@ -8,8 +8,8 @@ This is a page that lists all releases with their respective changes for [[:star
 
 ==== Version 1.13 - Snapshot ====
   * New: added the [[styling:hover|hover animation]] to improve emphasis
-  * New: added the [[ui:slice|slice component]] to create horizontal region with generally differents background
-  * New: added the [[styling:background|background component]] to manage the background of a component (at first for a [[ui:slice|slice]])
+  * New: added the [[ui:slide]]|slice component]] to create horizontal region with generally differents background
+  * New: added the [[styling:background|background component]] to manage the background of a component (at first for a [[ui:slide]]|slice]])
   * New: the [[styling:style#style|style node]] to add styling rules in block for a component
   * New: [[ui:webcode|webcode]] outputs iframe for page syntax in order to demonstrate the [[styling:sticky|sticky attribute]]
   * New: the [[styling:sticky|Sticky attribute]] - Stick sidebar components on your page
@@ -189,12 +189,13 @@ First release.
 
 ===== Note=====
 
-
+  * [[https://aerolab.github.io/midnight.js/|Midnights]] ([[https://github.com/Aerolab/midnight.js|code]]) [[strap:fixed-top-navbar|fix topbar]] with differents colors depending on the background
   * Don't redirect missing [[:strap:bar|bars]]
   * [[semantic:article|Article]] role:
       * [[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Article_Role|Add article role]] 
       * [[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_article_role|Article role]]
   * Passing [[semantic:lang|lang]] to the body strap template node ?
+  * Mail and Messenger wrapper: https://mailgo.dev/
   * Bug: 
       * The image (http:download.oracle.com:docs:cd:e14571_01:bi.1111:e10543:img:admintool2.gif) does not exist and was not added 
       *  image - The image id value (http://download.oracle.com/docs/cd/E14571_01/bi.1111/e10543/img/admintool2.gif) is not conform and should be (http:download.oracle.com:docs:cd:e14571_01:bi.1111:e10543:img:admintool2.gif) - 172.69.34.230

@@ -1,0 +1,30 @@
+---json
+{
+    "canonical":"boostrap5"
+}
+---
+====== BootStrap 5 Migration ======
+
+
+===== About =====
+[[https://getbootstrap.com/docs/5.0/getting-started/introduction/|BootStrap 5]] on Combostrap is a work in progress.
+
+
+===== Changes =====
+
+==== Deleted but preserved ====
+  * [[ui:card_column|Card Columns]] was deleted from Bootstrap 4 but we maintain it as explained in this [[https://getbootstrap.com/docs/5.0/examples/masonry/|example]]
+  * [[https://getbootstrap.com/docs/5.0/getting-started/javascript/#still-want-to-use-jquery-its-possible|Jquery is no more a dependency for Bootstrap]]. 
+
+==== Modified but preserved ====
+
+  * ''color'' names have now the [[https://getbootstrap.com/docs/5.0/customize/css-variables/|prefix ''bs'']]. We maintain the old color scheme without the prefix name by applying the prefix transparently.
+  * ''auto margin'' used in the [[ui:group|Navgroup]] with the ''expand'' attribute has been renamed from [[https://getbootstrap.com/docs/4.0/utilities/flex/#auto-margins|mr-auto]] to [[https://getbootstrap.com/docs/5.0/utilities/flex/#auto-margins|me-auto]].
+
+==== Modified not preserved ====
+  * If you made use of utility directly from bootstrap with the [[styling:class|class attribute]] not using the [[styling:spacing|spacing utility]] for instance), they have been [[https://getbootstrap.com/docs/5.0/migration/#utilities-2|renamed]] and we can't do much.
+
+The left and right spacing utility have been renamed to support text direction.
+  * in place of ''l'', you get a ''s'' - for classes that set margin-left or padding-left in LTR, margin-right or padding-right in RTL
+  * in place of ''r'', you get a ''e'' - for classes that set margin-right or padding-right in LTR, margin-left or padding-left in RTL
+

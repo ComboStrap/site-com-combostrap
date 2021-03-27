@@ -12,10 +12,11 @@ This page is an ''HowTo'' that shows you how to choose and install a favicon and
 
 
 ===== Steps =====
-==== Choose a icon ====
-You can design a icon image but you can also choose one from a free icon repository
+==== Choosing a icon logo ====
+You can design your own logo but you can also be inspired by [[semantic:logo#collection|collection of logo]]
 
-Example with: https://materialdesignicons.com/
+
+In our case we have chosen an icon directly from https://materialdesignicons.com/
   * Choose an icon
 {{::material_design_choose_icon.png|}}
   * Download the Svg file and rename it to ''logo.svg''

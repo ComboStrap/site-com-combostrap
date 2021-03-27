@@ -31,6 +31,12 @@ All three majors social platform have been implemented:
   * [[semantic:twitter|<icon name="facebook"/> Facebook Meta]]
   * [[semantic:google|<icon name="google"/> Google Meta]]
 
+
+<note>
+As a general rule of thumb, all social images should be at least 640×320px (1280×640px for best display).
+
+To be sure that nothing gets cropped, you could create a 40pt white margin around your image.
+</note>
 ===== Interaction =====
 Interaction happens through widgets embedded in your pages.
 

@@ -31,12 +31,43 @@ where:
       * ''single'': Show the image once (Spaces not covered are filled with the background-color)
       * ''tile'': Repeat the image if the container is larger than the image
   * ''color'': a [[color|color value]]
+  * ''opacity'' to bring depth level on color. By layer, below are typical values.
+    * First: 0.15
+    * Second: 0.3
+    * Third: 0.45
+    * Fourth: 0.6
+    * Fifth: 0.75
+    * Sixth: 0.9
+  * ''height'': ''100vh'' the height of the screen (vh = viewport height)
 
 
 
 ===== Example =====
 
+==== Background color ====
+https://getbootstrap.com/docs/4.0/utilities/colors/#background-color
 
+
+==== Background Transformation ====
+
+
+<code dw>
+<background width="600px" height=600px" color="#00f1c9" radius="12px"></background>
+</code>
+<code css>
+element.style {
+    transform: rotate(45deg) translateY(-100px) translateX(220px);
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background: #00f1c9;
+    border-radius: 12px;
+    z-index: -1;
+}
+/** or for coordinate margin-top: -220px; margin-left: 100px; **/
+</code>
+
+https://getbootstrap.com/docs/5.0/utilities/position/
 ==== Svg with BgJar ====
 
   * https://bgjar.com/
@@ -49,16 +80,60 @@ In their generator, they offers the styling declaration that you can use directl
 
 <webcode name="Default" frameborder="0">
 <code dw>
-<slice text-align="center" color="white">
+<slide text-align="center" color="white">
 <style>
 background-color: #e3b5ee;
 background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23f60e18' fill-opacity='0.58'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 </style>
 <title 1>An Hero pattern</title>
-</slice>
+</slide>
 </code>
 </webcode>
 
+
+==== A icon tile with pattern icon ====
+Create a background based on a tile
+
+
+
+<webcode name="Default" frameborder="0">
+<code dw>
+<slide text-align="center">
+<background>{{:styling:patternico.png|}}</background>
+<title>An Pattern Icon Tile</title>
+</slide>
+</code>
+</webcode>
+
+List of tile repository:
+  * [[https://patternico.com/|Patterns icon]]
+  * [[https://www.toptal.com/designers/subtlepatterns/|SubtlePatterns]]
+  * [[https://www.transparenttextures.com/|Transparent textures]]
+
+==== Full Image with the pattern library ====
+
+http://thepatternlibrary.com/#subway-lines
+
+{{:styling:subway-lines.png?400|}}
+
+==== Gradient ====
+  * https://gradienta.io/
+  * https://www.gradientmagic.com/
+
+==== CSS Pattern ====
+
+https://bansal.io/pattern-css:
+  * based on four css properties linear-gradient, radial-gradient, repeating-linear-gradient and repeating-radial-gradient
+  * built with two colors only:
+      * transparent: the transparent color allows to see the background color
+      * currentColor: the current active color inside a element. 
+
+Example:
+<code css>
+.pattern-diagonal-stripes-sm {
+    background: repeating-linear-gradient(45deg, transparent, transparent 10px, currentColor 10px, currentColor calc(2 * 10px));
+}
+</code>
 ==== Image ====
   * https://unsplash.com/
   * https://www.pexels.com/

@@ -1,6 +1,6 @@
 ---json
 {
-    "canonical":"semantic:logo"
+    "canonical":"logo"
 }
 ---
 ====== ComboStrap Site Metadata - Logo ======
@@ -51,3 +51,22 @@ To create and set your logo, you should follow the [[getting_started:4_favicon|f
 
 
 
+===== Bonus ===== 
+
+==== Collection ====
+[[https://logodust.com/|Logdust]] is an open source collection of logos with designs of various cool shapes and types.
+
+==== Check the quality of your logo =====
+[[https://logolab.app/|Logolab]] is a nice piece of software that extracts the most important function of a logo and shows yours in different context.
+
+^ Characteristic ^ Definition ^
+| balance | One side shouldn’t draw all of the attention. |
+| color | It should works not only in color (black and white included) |
+| color blind | color blindness proof |
+| scalability | Be seen in different sizes from really big to really small |
+| containers | A logo should fit into a few common shapes. |
+| pixelated | The logo form is still visible at low resolutions. |
+| blur | blurred logo demonstrate the first glance (quick recognition) |
+| slices | Recognizable even when only seeing a small part of it |
+| app icon | Render as icon app on a mobile device. |
+| attention | Attention comparison with other logo |
