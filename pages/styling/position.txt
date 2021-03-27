@@ -1,0 +1,50 @@
+---json
+{
+    "canonical":"position",
+    "title":"ComboStrap Styling - Position",
+    "description":"How to position an element"
+}
+---
+====== ComboStrap Styling - Position ======
+
+
+===== About =====
+
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Syntax =====
+
+==== Inside a block====
+Inside a [[ui:block|block component]], you can position your component using the ''position'' attribute.
+<code dw>
+<block>
+   <component position="value"></component>
+</block>
+</code>
+
+**Demo**
+
+
+<webcode name="Default" frameborder="0">
+<code dw>
+<box width="400px" height="200px" border-color="black" spacing="m-5" class="position-relative">
+    <icon position="top-left" name="logo.svg" />
+    <icon position="top-quartile-1" name="logo.svg" />
+    <icon position="top-center" name="logo.svg" />
+    <icon position="top-quartile-3" name="logo.svg" />
+    <icon position="top-right" name="logo.svg" />
+    <icon position="left-quartile-1" name="logo.svg" />
+    <icon position="left-center" name="logo.svg" />
+    <icon position="center" name="logo.svg" />
+    <icon position="right-center" name="logo.svg" />
+    <icon position="bottom-left" name="logo.svg" />
+    <icon position="bottom-center" name="logo.svg" />
+    <icon position="bottom-right" name="logo.svg" />
+</box>
+</code>
+</webcode>
+
+
+

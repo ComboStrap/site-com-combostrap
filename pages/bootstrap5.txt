@@ -27,8 +27,8 @@ The only breaking change is when you use utility class directly from bootstrap w
 They have been [[https://getbootstrap.com/docs/5.0/migration/#utilities-2|renamed]] and we can't do much in this case
 
 The left and right spacing utility have been renamed to support text direction.
-  * in place of ''l'', you get a ''s'' - for classes that set margin-left or padding-left in LTR, margin-right or padding-right in RTL
-  * in place of ''r'', you get a ''e'' - for classes that set margin-right or padding-right in LTR, margin-left or padding-left in RTL
+  * in place of ''l'' (''left''), you get a ''s'' (''start'') - for classes that set margin-left or padding-left in LTR, margin-right or padding-right in RTL
+  * in place of ''r'' (''right''), you get a ''e'' (''end'')- for classes that set margin-right or padding-right in LTR, margin-left or padding-left in RTL
 
 ==== Theme ====
 
@@ -39,7 +39,7 @@ The [[styling:stylesheet|Bootswatch stylesheet theme]] are not yet available for
 
 ==== Deleted ====
   * [[ui:card_column|Card Columns]] was deleted from Bootstrap 4 but we maintain it as explained in this [[https://getbootstrap.com/docs/5.0/examples/masonry/|example]]
-  * [[https://getbootstrap.com/docs/5.0/getting-started/javascript/#still-want-to-use-jquery-its-possible|Jquery is no more a dependency for Bootstrap]]. 
+  * [[strap:jquery|Jquery]] is [[https://getbootstrap.com/docs/5.0/getting-started/javascript/#still-want-to-use-jquery-its-possible|no more a dependency for Bootstrap]]. 
   * [[ui:jumbotron|jumbotron]] was [[https://getbootstrap.com/docs/5.0/migration/#jumbotron|deleted]].
 
 ==== Modified ====
@@ -51,5 +51,5 @@ The [[styling:stylesheet|Bootswatch stylesheet theme]] are not yet available for
   * the [[https://getbootstrap.com/docs/5.0/getting-started/accessibility/#visually-hidden-content|assistive technologies class]] given in the [[ui:search|search bar]] has changed from ''sr-only'' to ''visually-hidden''
 
 
-==== More info ====
-See the whole documentation at [[https://getbootstrap.com/docs/5.0/migration/|Bootstrap]]
+===== More info =====
+For more information, see the [[https://getbootstrap.com/docs/5.0/migration/|whole migration documentation at Bootstrap]]
