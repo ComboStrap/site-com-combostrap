@@ -13,7 +13,10 @@ This is a page that lists all releases with their respective changes for [[:star
   * New: the [[styling:style#style|style node]] to add styling rules in block for a component
   * New: [[ui:webcode|webcode]] outputs iframe for page syntax in order to demonstrate the [[styling:sticky|sticky attribute]]
   * New: the [[styling:sticky|Sticky attribute]] - Stick sidebar components on your page
+  * New: the [[styling:position|position attribute]] permits to locate precisely a component
   * New: [[:bootstrap5|Bootstrap beta 5 migration]] was done. This is still a beta.
+  * Improvement: Placing a [[ui:button|button]] in a [[ui:navbar|navbar]] does not require any [[styling:spacing|spacing]] attribute. The [[ui:button|button]] spacing is automatically created.
+  * New : [[styling:clickable|clickable attribute]]: make a whole surface containing a link, clickable.
 
 ==== Version 1.12 - 2021-03-21 ====
 
@@ -215,7 +218,6 @@ First release.
     </msapplication>
 </browserconfig>
 </code>
-  * Put the good spacing automatically for button in the navbar
   * Landing Page:
       * Add a [[https://getbootstrap.com/docs/4.4/components/carousel/|Carrousel]]
   * Add notification panel with a bell icon to show short updates ([[https://material-ui.com/|Example]])

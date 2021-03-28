@@ -1,0 +1,58 @@
+---json
+{
+    "canonical":"clickable",
+    "title":"ComboStrap Styling - Make a whole component clickable",
+    "description":"When a component contains a link, you can make the whole surface clickable with the clickable attribute"
+}
+---
+====== ComboStrap UI - Clickable (Stretched link) ======
+
+
+===== About =====
+''clickable'' is a [[styling|styling attribute]] that permits to make the whole surface of a component containing a link clickable. 
+
+
+<note>
+This is also known as a ''stretched link''. The link surface applies also to its container.
+</note>
+
+
+===== Example =====
+
+
+==== Card ====
+Example with a [[ui:card|card]]
+<webcode name="Default" frameborder="0">
+<code dw>
+<card width="18rem" clickable="true">
+{{:styling:subway_card_tile.png|}}
+=== Clickable Card ===
+Lorem ipsum
+<btn>[[https://combostrap.com/clickable|A clickable card]]</btn>
+</card>
+</code>
+</webcode>
+
+==== Grid ====
+[[ui:grid]]
+<webcode name="Default" frameborder="0">
+<code dw>
+<row clickable="true" background-color="light" class="g-0" spacing="m-3">
+  <col class="col-md-6" spacing="p-4">
+    {{:styling:subway_card_tile.png?0x200|}}
+  </col>
+  <col class="col-md-6" spacing="p-4">
+    === Columns with stretched link ===
+    Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.
+
+
+    [[#|Go somewhere]]
+  </col>
+</row>
+</code>
+
+</webcode>
+
+
+===== Documentation / Reference =====
+  * [[https://getbootstrap.com/docs/5.0/helpers/stretched-link/|Stretched link]]

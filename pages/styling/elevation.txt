@@ -1,4 +1,4 @@
-====== ComboStrap Styling - Elevation attribute ======
+====== ComboStrap Styling - Elevation attribute (Shadow) ======
 
 
 ===== About =====
@@ -79,3 +79,6 @@ With a [[ui:image|image]] and a [[ui:box|box]]
 </box>
 </code>
 </webcode>
+
+===== Documentation / Reference =====
+  * [[https://getbootstrap.com/docs/4.6/utilities/shadows/|Bootstrap Shadow]]

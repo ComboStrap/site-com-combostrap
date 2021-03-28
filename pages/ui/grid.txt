@@ -31,6 +31,8 @@ They are actually [[styling:html|superset HTML component]], you can therefore us
 
 ===== Example =====
 
+==== Basic two columns ====
+
 On a grid of 12 columns, a row with two columns:
   * evenly distributed on a [[breakpoint|large desktop (lg)]]
   * stacked on a [[breakpoint|mobile phone]] - col-12 is for the [[breakpoint|extra small breakpoint]].
@@ -53,6 +55,30 @@ On a grid of 12 columns, a row with two columns:
 </code>
   * Output:
 </webcode>
+
+==== Custom Card ====
+You can also create a [[ui:card|card]]-like component based on row and columns.
+
+Example where the whole row:
+  * is presented as a card 
+  * and is [[styling:clickable|clickable]] 
+
+<webcode name="Default" frameborder="0">
+<code dw>
+<row clickable="true" background-color="light" class="g-0" spacing="m-3">
+  <col class="col-md-6" spacing="p-4">
+    {{:styling:subway_card_tile.png?0x200|}}
+  </col>
+  <col class="col-md-6" spacing="p-4">
+    === Card Clickable Grid ===
+    Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.
+    [[#|Go somewhere]]
+  </col>
+</row>
+</code>
+
+</webcode>
+
 
 ===== Configuration =====
 ==== gridColumns ====
