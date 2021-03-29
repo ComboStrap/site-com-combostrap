@@ -52,7 +52,7 @@ A zoom-in / grow animated icon - <icon width="50px" height="50px" onHover="grow"
 
 ==== Shadow====
 
-You can use the [[styling:elevation|shadow class name]] to add a shadow on hover.
+You can use the [[styling:elevation#syntax|shadow animation name]] to add a shadow on hover.
 
 <webcode name="Default" frameborder="0">
 <code dw>
@@ -121,6 +121,22 @@ Example with the ''fade'' like background transition of [[https://ianlunn.github
     transition-property: color, background-color;
     </style>
 A button animated with a fade background transition
+</button>
+</code>
+</webcode>
+
+==== Custom: Bootstrap Class ====
+
+If the animation name is not found, the name is applied as a class. You can then used all Bootstrap utility class to create an hover effect.
+
+
+Example from an [[skin|outlined button to a contained one]] with the [[https://getbootstrap.com/docs/5.0/components/buttons/|Bootstrap button class]] where:
+  * ''btn-lg'' means a ''larger button''
+  * ''btn-primary'' means with a ''color background''
+<webcode name="Custom" frameborder="0">
+<code dw>
+<button skin="outline" onHover="btn-lg btn-primary" align="center">
+A button animated with default Bootstrap class
 </button>
 </code>
 </webcode>

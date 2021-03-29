@@ -59,6 +59,7 @@ The only action attached is to navigate to another page.
 
 
 ==== Hover Animation ====
+You can also add [[styling:onhover|hover animation]].
 
   * Float
 <webcode name="Button" frameborder="0" >
@@ -76,17 +77,18 @@ The only action attached is to navigate to another page.
 ===== Syntax =====
 
 <code dw>
-<button type size="medium" elevation="false">
+<button type size="medium" elevation="false" skin="outline|...">
 </button>
 </code>
 or 
 <code dw>
-<btn type size="medium" elevation="false">
+<btn type size="medium" elevation="false" skin="outline|...">
 </btn>
 </code>
 where:
   * ''type'' defines the [[#type|default styling]]
   * ''size'' defines its [[#size]]
+  * ''skin'' defines its [[#skin]]
   * ''elevation'' adds an [[#elevation|elevation]]
 
 
@@ -133,13 +135,26 @@ The type of the button defines its styling:
 </code>
 </webcode>
 
-==== Elevation ====
 
-Give more emphasis to your button by adding a shadow around the [[block|box]] with the [[styling:elevation|elevation attribute]]
+==== Skin ====
+
+Control the more emphasis of your button by using the [[styling:skin|skin attribute]]
 
 <webcode name="ButtonSize" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
-<btn elevation="true" >Elevated button</btn>
+<btn skin="outline" >Little emphasis</btn>
+<btn skin="contained" >Full emphasis</btn>
+</code>
+</webcode>
+
+
+==== Elevation ====
+
+All [[styling:styling|styling attribute]] are available but you may want to give more emphasis by adding a big shadow around the [[block|box]] with the [[styling:shadow]]|elevation attribute]]
+
+<webcode name="ButtonSize" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<btn shadow="lg" >Large Elevated button</btn>
 </code>
 </webcode>
 
