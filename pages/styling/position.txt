@@ -31,11 +31,11 @@ Inside a [[ui:block|block component]], you can position your component using the
 <code dw>
 <box width="400px" height="200px" border-color="black" spacing="m-5" class="position-relative">
     <icon position="top-left" name="logo.svg" background-color="white" />
-    <icon position="top-quartile-1" name="logo.svg" background-color="white"/>
+    <badge position="top-quartile-1">top-25</badge>
     <icon position="top-center" name="logo.svg" background-color="white"/>
     <icon position="top-quartile-3" name="logo.svg" background-color="white"/>
     <icon position="top-right" name="logo.svg" background-color="white"/>
-    <icon position="left-quartile-1" name="logo.svg" background-color="white"/>
+    <typo position="left-quartile-1" background-color="white">left-75</typo>
     <icon position="left-center" name="logo.svg" background-color="white"/>
     <icon position="center" name="logo.svg" background-color="white"/>
     <icon position="right-center" name="logo.svg" background-color="white" />

@@ -133,4 +133,8 @@ To resolve this issue, we have set other class name by link type that a web desi
 If you wish to get the Dokuwiki class name on your links, you can get them by enabling the [[:configuration|useDokuwikiLinkClassName configuration]].
 
 
+==== disableLink ====
+If you don't want that ''Combostrap'' changes the default link behavior, you can disable it with the ''disableLink'' [[:configuration|configuration]].
+
+''ComboStrap'' makes use of the context to output the correct bootstrap formatting. If you disable it, the page rendered will not be [[strap:bootstrap|fully BootStrap compliant]].
 

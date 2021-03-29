@@ -33,6 +33,16 @@ When you want to add [[styling:elevation|dynamic elevation]], you can use the ''
 </code>
 </webcode>
 
+=== Float Shadow===
+
+With a [[styling:elevation|shadow]], you can use the ''float-shadow'' animation
+
+<webcode name="Default" frameborder="0">
+<code dw>
+<card onHover="float-shadow" width="300px" height="150px">A floated animated card</card>
+</code>
+</webcode>
+
 === Grow ===
 
 When you want to add a zoom-in effect, you can use the ''grow'' animation
