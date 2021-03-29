@@ -33,15 +33,6 @@ When you want to add [[styling:elevation|dynamic elevation]], you can use the ''
 </code>
 </webcode>
 
-=== Float Shadow===
-
-With a [[styling:elevation|shadow]], you can use the ''float-shadow'' animation
-
-<webcode name="Default" frameborder="0">
-<code dw>
-<card onHover="float-shadow" width="300px" height="150px">A floated animated card</card>
-</code>
-</webcode>
 
 === Grow ===
 
@@ -60,6 +51,37 @@ A zoom-in / grow animated icon - <icon width="50px" height="50px" onHover="grow"
 </code>
 </webcode>
 
+=== Shadow===
+
+With a [[styling:elevation|shadow]], you can use the ''shadow'' animation
+
+<webcode name="Default" frameborder="0">
+<code dw>
+<card onHover="shadow" width="300px" height="150px">A animated card with a shadow</card>
+</code>
+</webcode>
+
+==== Combination ====
+
+=== Float Shadow ===
+
+You can combine the effects, example with ''float'' and a [[styling:elevation|shadow]]
+
+<webcode name="Default" frameborder="0">
+<code dw>
+<card onHover="float shadow" width="300px" height="150px">A combo float shadow animated card</card>
+</code>
+</webcode>
+
+
+<note>
+Beware that if you replace the space by a minus, you get the ''float-shadow'' [[#hover.css|hover.css effect]].
+<webcode name="Default" frameborder="0">
+<code dw>
+<card onHover="float-shadow" width="300px" height="150px">A hover.css float-shadow animated card</card>
+</code>
+</webcode>
+</note>
 ==== Hover.css ====
 You can also use [[https://ianlunn.github.io/Hover/|Hover.css]] animation.
 
@@ -111,8 +133,7 @@ A button animated with a fade background transition
 If you want to bring your animation to ''ComboStrap'':
   * takes a ''name'' from [[https://ianlunn.github.io/Hover/|Hover.css]]
   * clone the [[https://github.com/ComboStrap/combo|combo repository]]
-  * create a file called hover-''name''.css in the [[https://github.com/ComboStrap/combo/tree/master/resources/snippet/style|style directory]]
-  * put your CSS rules in it
+  * add your CSS rule ''combo-name'' to apply on hover in the [[https://github.com/ComboStrap/combo/tree/master/resources/snippet/style/onhover.css|onhover.css stylesheet]]
   * and apply a pull request.
 
 === Custom: UserStyle ===
