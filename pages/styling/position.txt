@@ -30,18 +30,18 @@ Inside a [[ui:block|block component]], you can position your component using the
 <webcode name="Default" frameborder="0">
 <code dw>
 <box width="400px" height="200px" border-color="black" spacing="m-5" class="position-relative">
-    <icon position="top-left" name="logo.svg" />
-    <icon position="top-quartile-1" name="logo.svg" />
-    <icon position="top-center" name="logo.svg" />
-    <icon position="top-quartile-3" name="logo.svg" />
-    <icon position="top-right" name="logo.svg" />
-    <icon position="left-quartile-1" name="logo.svg" />
-    <icon position="left-center" name="logo.svg" />
-    <icon position="center" name="logo.svg" />
-    <icon position="right-center" name="logo.svg" />
-    <icon position="bottom-left" name="logo.svg" />
-    <icon position="bottom-center" name="logo.svg" />
-    <icon position="bottom-right" name="logo.svg" />
+    <icon position="top-left" name="logo.svg" background-color="white" />
+    <icon position="top-quartile-1" name="logo.svg" background-color="white"/>
+    <icon position="top-center" name="logo.svg" background-color="white"/>
+    <icon position="top-quartile-3" name="logo.svg" background-color="white"/>
+    <icon position="top-right" name="logo.svg" background-color="white"/>
+    <icon position="left-quartile-1" name="logo.svg" background-color="white"/>
+    <icon position="left-center" name="logo.svg" background-color="white"/>
+    <icon position="center" name="logo.svg" background-color="white"/>
+    <icon position="right-center" name="logo.svg" background-color="white" />
+    <icon position="bottom-left" name="logo.svg" background-color="white" />
+    <icon position="bottom-center" name="logo.svg" background-color="white"/>
+    <icon position="bottom-right" name="logo.svg" background-color="white" />
 </box>
 </code>
 </webcode>

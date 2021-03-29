@@ -39,6 +39,7 @@ where:
     * Fifth: 0.75
     * Sixth: 0.9
   * ''height'': ''100vh'' the height of the screen (vh = viewport height)
+  * ''z-index''
 
 
 
@@ -48,6 +49,8 @@ where:
 https://getbootstrap.com/docs/4.0/utilities/colors/#background-color
 
 
+==== Separator ====
+  * https://getwaves.io/
 ==== Background Transformation ====
 
 
@@ -137,6 +140,7 @@ Example:
 ==== Image ====
   * https://unsplash.com/
   * https://www.pexels.com/
+  * https://stocksnap.io/
 
 ===== Documentation / Reference =====
   * [[https://getbootstrap.com/docs/4.6/utilities/image-replacement/|Bootstrap Text for background image]]

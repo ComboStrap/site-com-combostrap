@@ -7,14 +7,28 @@
 ---
 
 
-<card class="mb-3" width="400px" align="center" text-align="center" border-color="white" >
-==== Create your footprint that lasts ForEver ====
+<slide size="lg" height="100vh" >
+
+<row>
+<col class="col-md-6" spacing="ml-3">
+<title 4 class="text-capitalize"> Create your footprint that lasts ForEver</title>
+<typo lead spacing="ml-3" width="400px">
 Advertise yourself, your documentation or your company with 
 a product that makes website design, creation and management, \\ unique, easy and fun \\
-<btn spacing="mt-3" size="large" align="center" elevation="true">
+</typo>
+
+<btn spacing="ml-3" width="fit" elevation="true">
 [[getting_started:getting_started|Get started <icon name="arrow-right-drop-circle-outline"/>]]
 </btn>
-</card>
+</col>
+<col>
+{{ :combostrap:background:object-multicolor.svg |}}
+</col>
+</row>
+</slide>
+
+
+<slide size="xl">
 
 <card-columns class="mb-3">
 
@@ -186,3 +200,5 @@ This module helps you get quality insight via the quality rules and score.
 
 
 </card-columns>
+
+</slide>

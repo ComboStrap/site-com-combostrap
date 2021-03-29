@@ -34,7 +34,8 @@ The left and right spacing utility have been renamed to support text direction.
 
 The [[styling:stylesheet|Bootswatch stylesheet theme]] are not yet available for version 5.
 
-
+===== New =====
+  * [[https://getbootstrap.com/docs/5.0/getting-started/rfs/|Responsive Font size]] is on by default.
 ===== Changes preserved  =====
 
 ==== Deleted ====

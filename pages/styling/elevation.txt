@@ -17,6 +17,7 @@ It's mostly used on a ''call-to-action'' component such as a [[ui:button|button]
 
 <code html>
 elevation="true|high"
+shadow="sm|md|lg|xl"
 </code>
 where the value of the attribute sets the scale height of the elevation
   * ''true''  (default)
@@ -31,29 +32,29 @@ With a [[ui:button|button]]
 <row>
 	<col class="col-sm-50">
 		<webcode name="Flat" >
-			<code dw>
-				<btn>
-					A flat button
-				</btn>
-			</code>
+<code dw>
+<btn>
+    A flat button
+</btn>
+</code>
 		</webcode>
 	</col>
 	<col class="col-sm-50">
 		<webcode name="DefaultElevation">
-			<code dw>
-				<btn elevation="true">
-					Elevated button
-				</btn>
-			</code>
+<code dw>
+<btn elevation="true">
+    Elevated button
+</btn>
+</code>
 		</webcode>
 	</col>
 	<col class="col-sm-50">
 		<webcode name="HighElevation">
-			<code dw>
-				<btn elevation="high">
-					High Elevation
-				</btn>
-			</code>
+<code dw>
+<btn elevation="high">
+    High Elevation
+</btn>
+</code>
 		</webcode>
 	</col>
 </row>

@@ -2,29 +2,70 @@
 
 
 ===== About =====
-The icon [[ui|component]] permits your to create an icon :
-  * from the [[#material design icon|material design icons library]]
-  * from a [[#SVG media file]] located in your media library
+The icon [[ui|component]] permits you to create an icon :
+  * from an [[#library|icon library]]
+  * or from your media library as a [[#SVG media file]]
+
 
 
 ===== Articles Related =====
 {{backlinks>.}}
-===== Icon Type =====
-==== Material Design Icon ====
-The ''icon'' component supports all [[https://materialdesignicons.com/|material design icon]].
 
-To show a [[https://materialdesignicons.com/|material design icon]]:
-  * Go to [[https://materialdesignicons.com/]]
-  * Select your icon
-  * Save its name
-  * And use it in the ''name'' attribute of the ''icon'' component
+===== Syntax =====
+
+<code dw>
+<icon name="[library:]name" />
+</code>
+where:
+  * ''name'' is the name of the icon
+  * ''library'' is the optional name of the icon library (if not set, the [[#default library|default]] is used)
+
+
+To show a icon:
+  * Go to a [[#library]]
+  * Select your icon and remember its name
+  * If you are not using the [[#default library|default library]], add the library name as prefix
+==== Library ====
+
+We supports the below libraries.
+
+The ''name'' or ''acronym'' can be used as library name.
+
+
+^ Name ^ Acronym ^ Location ^ 
+| ''bootstrap'' | ''bs'' | [[https://icons.getbootstrap.com/|Bootstrap icon]] |
+| ''material-design'' | ''md'' | [[https://materialdesignicons.com/|Material design icon]] |
+| ''feather'' | ''fe'' | [[https://feathericons.com/|Feather]] |
+
+The default library is ''material-design'' but you can [[#configuration|change this configuration]].
+
+===== Example =====
+==== Material Design Icon ====
 
 
 Example with the [[https://materialdesignicons.com/icon/arrow-down-circle|arrow-down-circle]]
 
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="Material-Design">
 <code dw>
 <icon name="arrow-down-circle" color="danger" width="96px" height="96px" />
+</code>
+</webcode>
+
+
+==== Bootstrap ====
+
+Example with the [[https://icons.getbootstrap.com/icons/arrow-down-circle-fill/|arrow-down-circle-fill]]
+<webcode name="Boostrap">
+<code dw>
+<icon name="bootstrap:arrow-down-circle-fill" color="blue" width="48px" height="48px" />
+</code>
+</webcode>
+
+==== Feather ====
+Example with a [[https://feathericons.com/?query=box|''box'' icon]]
+<webcode name="Feather">
+<code dw>
+<icon name="fe:box" color="blue" width="48px" height="48px" />
 </code>
 </webcode>
 
@@ -49,7 +90,7 @@ Then, you can render it by giving the media id into the name attributes:
   * Output:
 </webcode>
 
-=== Inline SVG ===
+===== Inline SVG =====
 This component does not support inline SVG because it's a property of HTML.
 
 If you authorize the direct use of HTML, you can also show inline SVG. See [[icon_inline]]
@@ -78,7 +119,7 @@ As all [[styling:html|ComboStrap UI components]] do, the ''icon'' component supp
 
 ===== Configuration =====
 ==== Icons namespace ====
-When the ''icon'' component uses a icon of [[https://materialdesignicons.com/|materialdesignicons.com]], the icon is downloaded in the namespace set in the ''icons_namespace'' configuration.
+When the ''icon'' does not exist, the component downloads the icons in the namespace set in the ''icons_namespace'' configuration.
 
 The default value is '':combostrap:icons''
 
@@ -87,8 +128,13 @@ On the server, the namespace is a location from the media directory: ''DOKUWIKI_
 {{:ui:icon_default_location_combostrap.png|}}
 </note>
 
+==== Default Library ====
+
+You can change the default library with the ''defaultIconLibrary'' [[:configuration|configuration]].
+
+At installation time, the default library is [[#material design|material design]].
 
 ===== Support =====
 ==== Prerequisite ====
 
-This component uses the [[https://www.php.net/manual/en/simplexml.installation.php|simplexml]] module that is enabled by default. It should be then no problem for most of the platform.
+This component uses the [[support:simplexml|simplexml]] module that is enabled by default. It should be then no problem for most of the platform.
