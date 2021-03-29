@@ -19,6 +19,7 @@ This is a page that lists all releases with their respective changes for [[:star
   * New : [[styling:clickable|clickable attribute]]: make a whole surface containing a link, clickable.
   * New: Icons from [[https://icons.getbootstrap.com/|Bootstrap]] and [[https://feathericons.com/|Feather]] are now natively available from the [[ui:icon|icon component]]
   * New: [[styling:shadow|Elevation]] is also now known the [[styling:shadow|shadow]] attribute and has gain 2 levels.
+  * New: ''auto'' layout is supported on a [[ui:grid|grid]] where the columns takes the natural width of their content and never overflow.
 
 ==== Version 1.12 - 2021-03-21 ====
 
@@ -30,7 +31,7 @@ The most important features are:
 
 Check the below changes to know more about all of them:
   * [[ui:webcode|webcode]] is now integrated in Combo. The code is taken from the calls because the regular expression for the update lexer mode was not catching the code when there was whitespace.
-  * [[styling:elevation|elevation]] - a new elevation level was added called ''high'' that elevates on all side of the box.
+  * [[styling:shadow]]|elevation]] - a new elevation level was added called ''high'' that elevates on all side of the box.
   * the disabling of [[ui:preformatted|preformated]] has been improved by not allowing this mode via the ''accept'' function of the syntax class.
   * the ''combostrap'' logo got a fix color to be able to embedded it via object.
   * the [[ui:code|code]] element supports now the code export functionality of dokuwiki.
@@ -135,7 +136,7 @@ The version 1.8 was a bug fix release.
   * Corrected the bug: No message visible when the [[semantic:frontmatter|frontmatter json object]] is not valid
   * The [[styling:align|align attribute]] was better documented and supports now also the text alignement.
   * [[ui:blockquote|Blockquote]] and [[ui:card|card]] are fully implemented and supports also now a [[ui:header|header]]
-  * Added the [[styling:elevation|elevation styling attribute]] to give more emphasis.
+  * Added the [[styling:shadow]]|elevation styling attribute]] to give more emphasis.
   * The [[ui:button|button]] was improved: outline and size are now supported.
   * The [[ui:tooltip|tooltip component]] was added
   * The [[ui:jumbotron|jumbotron component]] was added

@@ -24,7 +24,7 @@ To add an ''hover animation'', add a ''onHover'' attribute with the name of your
 ===== Animation =====
 ==== Float ====
 
-When you want to add [[styling:elevation|dynamic elevation]], you can use the ''float'' animation
+When you want to add [[styling:shadow]]|dynamic elevation]], you can use the ''float'' animation
 
 <webcode name="Default" frameborder="0">
 <code dw>
@@ -52,7 +52,7 @@ A zoom-in / grow animated icon - <icon width="50px" height="50px" onHover="grow"
 
 ==== Shadow====
 
-You can use the [[styling:elevation#syntax|shadow animation name]] to add a shadow on hover.
+You can use the [[styling:shadow#syntax]]|shadow animation name]] to add a shadow on hover.
 
 <webcode name="Default" frameborder="0">
 <code dw>
@@ -64,7 +64,7 @@ You can use the [[styling:elevation#syntax|shadow animation name]] to add a shad
 
 ==== Float Shadow ====
 
-You can combine the effects, example with ''float'' and a [[styling:elevation|shadow]]
+You can combine the effects, example with ''float'' and a [[styling:shadow]]|shadow]]
 
 <webcode name="Default" frameborder="0">
 <code dw>
