@@ -1,10 +1,10 @@
-====== ComboStrap Styling - Elevation attribute (Shadow) ======
+====== ComboStrap Styling - Shadow attribute  (Elevation) ======
 
 
 ===== About =====
 ''elevation'' is a [[styling:styling|styling attribute]] that elevates a [[ui:block|block]].
 
-It adds a ''shadow'' and gives the block more emphasis. 
+It adds a ''shadow'' and gives the block more emphasis.
 
 As [[color|color]], it helps prioritizing the components on your page in order to guide the viewer's eyes.
 
@@ -15,13 +15,25 @@ It's mostly used on a ''call-to-action'' component such as a [[ui:button|button]
 
 ===== Syntax =====
 
+To add a shadow, you can use the ''shadow'' attribute or its alias ''elevation''.
 <code html>
-elevation="true|high"
-shadow="sm|md|lg|xl"
+elevation="sm|md|lg|1"
+shadow="sm|md|lg|1"
 </code>
 where the value of the attribute sets the scale height of the elevation
-  * ''true''  (default)
-  * ''high'' <badge>Since [[:changes#version_112|version 1.12]]</badge>
+
+^ Value ^ OnHover Animation Name ^ Name ^
+| ''sm'' | ''shadow-sm'' | Small |
+| ''md'' | ''shadow-md'' | Medium |
+| ''lg'' | ''shadow-lg'' | Large |
+| ''true'', ''1'' | ''shadow'' | [[#default|Default]] |
+
+<note>
+The '' OnHover animation name'' is the name that can be used to apply a shadow when the mouse [[hover|is over]] an element
+. See the [[#on hover|example]]
+</note>
+
+<badge>Elevation since [[:changes#version_112|version 1.12]], Shadow since [[:changes#version_114|version 1.14]]</badge>
 ===== Example =====
 
 ==== Button ====
@@ -75,11 +87,33 @@ With a [[ui:image|image]] and a [[ui:box|box]]
 
 <webcode name="imgElevation" >
 <code dw>
-<box elevation="high" width="fit-content" align="center">
+<box elevation="lg" width="fit-content" align="center">
    {{:ui:stock_image_surfer_in_the_see.png?400|}}
 </box>
 </code>
 </webcode>
+
+==== On Hover ====
+You can also apply a shadow [[hover|on hover]] with the [[#syntax|shadow animation name]]
+
+Example with a small shadow.
+<webcode name="imgElevation" >
+<code dw>
+<box onHover="shadow-lg" width="fit-content" align="center">
+    {{:styling:subway_card_tile.png|}}
+</box>
+</code>
+</webcode>
+
+
+
+===== Configuration =====
+==== default ====
+
+You can change the default level of shadow with the ''defaultShadowLevel'' [[:configuration|configuration]].
+
+
+
 
 ===== Documentation / Reference =====
   * [[https://getbootstrap.com/docs/4.6/utilities/shadows/|Bootstrap Shadow]]

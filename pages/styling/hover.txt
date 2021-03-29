@@ -18,12 +18,11 @@
 To add an ''hover animation'', add a ''onHover'' attribute with the name of your animation.
 
 <code dw>
-<blockComponent onHover="animationName"></blockComponent>
+<blockComponent onHover="animationName animationName ..."></blockComponent>
 </code>
 
 ===== Animation =====
-==== Built-in ====
-=== Float ===
+==== Float ====
 
 When you want to add [[styling:elevation|dynamic elevation]], you can use the ''float'' animation
 
@@ -34,7 +33,7 @@ When you want to add [[styling:elevation|dynamic elevation]], you can use the ''
 </webcode>
 
 
-=== Grow ===
+==== Grow ====
 
 When you want to add a zoom-in effect, you can use the ''grow'' animation
 
@@ -51,19 +50,19 @@ A zoom-in / grow animated icon - <icon width="50px" height="50px" onHover="grow"
 </code>
 </webcode>
 
-=== Shadow===
+==== Shadow====
 
-With a [[styling:elevation|shadow]], you can use the ''shadow'' animation
+You can use the [[styling:elevation|shadow class name]] to add a shadow on hover.
 
 <webcode name="Default" frameborder="0">
 <code dw>
-<card onHover="shadow" width="300px" height="150px">A animated card with a shadow</card>
+<card onHover="shadow-lg" width="300px" height="150px">A animated card with a shadow</card>
 </code>
 </webcode>
 
-==== Combination ====
+===== Combination =====
 
-=== Float Shadow ===
+==== Float Shadow ====
 
 You can combine the effects, example with ''float'' and a [[styling:elevation|shadow]]
 
@@ -82,7 +81,8 @@ Beware that if you replace the space by a minus, you get the ''float-shadow'' [[
 </code>
 </webcode>
 </note>
-==== Hover.css ====
+
+===== Hover.css =====
 You can also use [[https://ianlunn.github.io/Hover/|Hover.css]] animation.
 
 We support the ''hover.css''naming standard.
@@ -102,12 +102,10 @@ The library is not primary supported because:
 If you underline problems, you can also [[#custom|add your own]].
 </note>
 
-==== Custom ====
-
-If you want to create your custom animation, there is several path that you can take.
+===== Custom =====
 
 
-=== Custom: for one component ===
+==== Inline ====
 
 To test or create a single animation, you can use the [[styling:style#style|style component]]
 
@@ -128,18 +126,28 @@ A button animated with a fade background transition
 </webcode>
 
     
-=== Custom: Bring it to Combostrap ===
+==== Custom: Bring it to Combostrap ====
+
+The ''hover animation'' applies the name of the animation as a class to the component when the mouse is hover it.
 
 If you want to bring your animation to ''ComboStrap'':
-  * takes a ''name'' from [[https://ianlunn.github.io/Hover/|Hover.css]]
+  * create a CSS class rule  to apply on hover. Example: A ''darken'' animation:
+<code css>
+.darken {
+      opacity: 0.5;
+}
+</code>
   * clone the [[https://github.com/ComboStrap/combo|combo repository]]
-  * add your CSS rule ''combo-name'' to apply on hover in the [[https://github.com/ComboStrap/combo/tree/master/resources/snippet/style/onhover.css|onhover.css stylesheet]]
+<code bash>
+git clone https://github.com/ComboStrap/combo
+</code>
+  * add the CSS rule to the [[https://github.com/ComboStrap/combo/tree/master/resources/snippet/style/onhover.css|onhover.css stylesheet]]
   * and apply a pull request.
 
-=== Custom: UserStyle ===
+==== Custom: UserStyle ====
 
-If you want to create an animation for yourself:
-  * add the CSS rules in the [[styling:userstyle|userstyles stylesheet]]
-  * use the [[styling:class|class attribute]] or ''id'' attribute to refer to it.
+If you want to create an animation for yourself, add the CSS class rules in the [[styling:userstyle|userstyles stylesheet]].
+
+
 
 
