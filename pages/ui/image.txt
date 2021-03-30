@@ -67,5 +67,16 @@ For instance, to elevate this photography with a surfer, you could use this synt
 </webcode>
 
 
+===== Configuration =====
+
+==== Lazy Loading ====
+
+By default, the images are all loaded:
+  * on time: ie just before they will enter the screen (while the user is scrolling)
+  * with the lower resolution: the loaded image resolution is based on the screen size with break point at 300, 600 and 900.
+
+If you don't want this feature, you can disable it with the ''lazyLoadImageEnable'' [[:configuration|configuration]].
+
+
 
 

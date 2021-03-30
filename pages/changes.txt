@@ -20,6 +20,7 @@ This is a page that lists all releases with their respective changes for [[:star
   * New: Icons from [[https://icons.getbootstrap.com/|Bootstrap]] and [[https://feathericons.com/|Feather]] are now natively available from the [[ui:icon|icon component]]
   * New: [[styling:shadow|Elevation]] is also now known as the [[styling:shadow|shadow attribute]] and has gain 2 levels.
   * New: ''auto'' layout is supported on a [[ui:grid|grid]] where the columns takes the natural width of their content and never overflow.
+  * New: [[ui:image|Image]] are now lazy loaded by default on the optimal resolution.
 
 ==== Version 1.12 - 2021-03-21 ====
 
