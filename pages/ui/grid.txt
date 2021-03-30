@@ -20,12 +20,17 @@ The ''grid'' component is a composition of two tags:
 
 ===== Syntax =====
 <code dw>
-<row>
+<row type>
    <col></col>
    <col></col>
 </col>
 </code>
-They are actually [[styling:html|superset HTML component]], you can therefore use all [[https://getbootstrap.com/docs/4.5/layout/grid/|Grid bootstrap class]]
+where
+  * ''type'' may be the value ''auto'' - each column will takes their natural width and never overflow
+
+<note>
+They are actually [[styling:html|superset HTML component]], you can therefore use all [[https://getbootstrap.com/docs/5.0/layout/grid/|Grid bootstrap class]]
+</note>
 
 <badge>Attributes are [[:changes|in the planning]]</badge>
 

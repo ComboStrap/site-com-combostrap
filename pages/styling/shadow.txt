@@ -51,7 +51,7 @@ The '' OnHover animation name'' is the name that can be used to apply a shadow w
 With a [[ui:button|button]]
 
 
-<row class="row-cols-auto">
+<row auto>
 	<col>
 		<webcode name="Flat" >
 <code dw>

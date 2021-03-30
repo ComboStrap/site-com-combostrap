@@ -53,7 +53,7 @@ where:
 ==== Elevation ====
 
 You can style even further your image with [[styling:styling|styling element]]:
-  * with a [[styling:elevation|shadow elevation through styling]].
+  * with a [[styling:shadow|shadow elevation through styling]].
   * with a [[styling:hover|hover float effect]]
 
 For instance, to elevate this photography with a surfer, you could use this syntax.

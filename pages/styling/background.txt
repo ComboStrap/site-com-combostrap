@@ -55,7 +55,7 @@ https://getbootstrap.com/docs/4.0/utilities/colors/#background-color
 
 
 <code dw>
-<background width="600px" height=600px" color="#00f1c9" radius="12px"></background>
+<background width="600px" height="600px" color="#00f1c9" radius="12px"></background>
 </code>
 <code css>
 element.style {

@@ -150,7 +150,7 @@ Control the more emphasis of your button by using the [[styling:skin|skin attrib
 
 ==== Elevation ====
 
-All [[styling:styling|styling attribute]] are available but you may want to give more emphasis by adding a big shadow around the [[block|box]] with the [[styling:shadow]]|elevation attribute]]
+All [[styling:styling|styling attribute]] are available but you may want to give more emphasis by adding a big shadow around the [[block|box]] with the [[styling:shadow|elevation attribute]]
 
 <webcode name="ButtonSize" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>

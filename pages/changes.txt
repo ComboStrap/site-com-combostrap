@@ -8,8 +8,8 @@ This is a page that lists all releases with their respective changes for [[:star
 
 ==== Version 1.13 - Snapshot ====
   * New: added the [[styling:hover|hover animation]] to improve emphasis
-  * New: added the [[ui:slide]]|slice component]] to create horizontal region with generally differents background
-  * New: added the [[styling:background|background component]] to manage the background of a component (at first for a [[ui:slide]]|slice]])
+  * New: added the [[ui:slide|slide component]] to create horizontal hero region with alternated background
+  * New: added the [[styling:background|background component]] to manage the background of a component (at first for a [[ui:slide|slide]])
   * New: the [[styling:style#style|style node]] to add styling rules in block for a component
   * New: [[ui:webcode|webcode]] outputs iframe for page syntax in order to demonstrate the [[styling:sticky|sticky attribute]]
   * New: the [[styling:sticky|Sticky attribute]] - Stick sidebar components on your page
@@ -18,7 +18,7 @@ This is a page that lists all releases with their respective changes for [[:star
   * Improvement: Placing a [[ui:button|button]] in a [[ui:navbar|navbar]] does not require any [[styling:spacing|spacing]] attribute. The [[ui:button|button]] spacing is automatically created.
   * New : [[styling:clickable|clickable attribute]]: make a whole surface containing a link, clickable.
   * New: Icons from [[https://icons.getbootstrap.com/|Bootstrap]] and [[https://feathericons.com/|Feather]] are now natively available from the [[ui:icon|icon component]]
-  * New: [[styling:shadow|Elevation]] is also now known the [[styling:shadow|shadow]] attribute and has gain 2 levels.
+  * New: [[styling:shadow|Elevation]] is also now known as the [[styling:shadow|shadow attribute]] and has gain 2 levels.
   * New: ''auto'' layout is supported on a [[ui:grid|grid]] where the columns takes the natural width of their content and never overflow.
 
 ==== Version 1.12 - 2021-03-21 ====

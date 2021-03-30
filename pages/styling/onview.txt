@@ -13,6 +13,7 @@
 
 ===== Example =====
 
+==== Animation 1 ====
 
 <webcode name="OnView" frameborder="0">
 <code dw>
