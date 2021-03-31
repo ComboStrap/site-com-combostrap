@@ -22,7 +22,7 @@ a product that makes website design, creation and management, \\ unique, easy an
 </btn>
 </col>
 <col>
-{{ :combostrap:background:object-multicolor.svg |}}
+{{ :combostrap:background:object-multicolor.svg?200 |}}
 </col>
 </row>
 </slide>

@@ -45,9 +45,11 @@ We find it awesome to see that our product is living outside our own world and i
 If you need to contact us, you can [[support|email us, create an issue or more]]. 
 
 
-===== Furthermore =====
 
-This page was created  with ''ComboStrap'' itself and showcase a [[semantic:organization|organization page]] used by Google to create their knowledge panel.
+
+<note tip>
+This page was created  with ''ComboStrap'' itself and showcase a [[semantic:organization|organization page]] used by Google to create their knowledge panel and advertise your organization.
+</note>
 
 
 

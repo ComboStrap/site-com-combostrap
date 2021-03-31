@@ -8,7 +8,7 @@
 ====== ComboStrap UI - Image ======
 
 ===== About =====
-''image'' is a [[block|block UI Component]] that permits to show images in your pages.
+''image'' is a [[block|block UI Component]] that permits to show images in your pages (media because video are also supported)
 
 
 ===== Articles Related =====
@@ -19,12 +19,14 @@
 ComboStrap uses the same syntax than [[doku>wiki:syntax#media_files|Dokuwiki]]
 
 <code dw>
-{{[ ]path?widthxheight[ ]}}
+{{[ ]path?WxH[ ]}}
 </code>
 where:
   * ''path'' is:
       * for an internal image: the internal path of the dokuwiki
       * for an external image: the URL.
+  * ''W'' is the width (0 = no width defined)
+  * ''H'' is the height (Optional)
   * ''[ ]'' are optional spaces that indicates the alignement of the image (left or right)
 
 
@@ -75,7 +77,7 @@ By default, the images are all loaded:
   * on time: ie just before they will enter the screen (while the user is scrolling)
   * with the lower resolution: the loaded image resolution is based on the screen size with break point at 300, 600 and 900.
 
-If you don't want this feature, you can disable it with the ''lazyLoadImageEnable'' [[:configuration|configuration]].
+If you don't want this feature, you can disable it with the ''lazyLoadRasterImageEnable'' [[:configuration|configuration]].
 
 
 
