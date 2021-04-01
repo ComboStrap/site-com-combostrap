@@ -28,7 +28,7 @@ A large [[ui:button|button]]
 ===== Components =====
 Only this component responds to this attribute:
   * [[ui:button]]
-  * [[ui:slice]]
+  * [[ui:slide]]]]
 
 
 ===== Syntax =====

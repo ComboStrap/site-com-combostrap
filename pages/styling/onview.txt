@@ -5,7 +5,7 @@
     "description":"Improve component emphasis by animating component when they come on the screen"
 }
 ---
-====== ComboStrap Styling - OnView ======
+====== ComboStrap Styling - OnScroll ======
 
 
 ===== About =====

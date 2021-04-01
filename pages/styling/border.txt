@@ -1,0 +1,37 @@
+---json
+{
+    "canonical":"border"
+}
+---
+====== ComboStrap Styling - Border ======
+
+
+
+
+===== About =====
+The ''border'' is the line that delimits the [[ui:block|block components]].
+
+===== Articles Related =====
+{{backlinks>.}}
+
+
+===== Attribute =====
+
+==== border-color ====
+Every [[ui:block|block component]] will react to the [[styling:styling|styling attribute]] ''border-color'' that sets the [[color|color]] of their border.
+
+
+Example with the generic [[ui:box|box]]
+<webcode name="Default" frameborder="0">
+<code dw>
+<box border-color="blue" spacing="p-5" width="20rem">
+A box with a blue border
+</box>
+</code>
+</webcode>
+
+
+<note tip spacing="mt-5">
+=== For the Geek ===
+When set, this attribute will apply automatically default CSS attributes such as solid to show the border
+</note>

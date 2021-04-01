@@ -35,18 +35,21 @@ More see [[userstyle]]
 
 === Standard  ===
 The ''standard'' attributes are:
-  * [[styling:dimension|Dimension (Width and height)]] - Take control of the space
+  * [[styling:dimension|Dimension (Width and height)]] - Take control of the dimensions
   * [[styling:align|Align]] - Align your component and their text as you wish
   * [[styling:spacing|Spacing]] - Master your layout at the pixel-perfect details
   * [[color|Color]] - Text, Border and Background color made easy with name and declarative gradient
-  * [[skin|Skin]] - Apply a skin to control the emphasis level of your components
-  * [[styling:shadow]]|Elevation]] - Add a shadow and elevate your component
+  * [[styling:shadow|Elevation]] - Add a shadow and elevate your component
 
 <note>
 === For the Geek ===
 ''Standard attributes'' are all transformed into [[style|CSS rules]].
 </note>
 
+
+=== Animation ===
+  * [[onview|OnView]] - Add an animation when a component become visible
+  * [[hover|OnHover]] - Add an animation when the mouse is over a component
 
 === Advanced ===
 Every component is a [[styling:html|html superset]] and you can therefore use the HTML attributes:

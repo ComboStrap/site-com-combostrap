@@ -27,5 +27,11 @@ You can change the value of 1 rem with the ''rem'' configuration of the [[:strap
 {{:ui:rem_strap_conf.png|}}
 
 
+===== Bootstrap =====
+[[:bootstrap5|Bootstrap]] version 5 has introduced the [[https://getbootstrap.com/docs/5.0/getting-started/rfs/|RFS module (Responsive Font Sizes)]] that reacts also to styling properties with unit values like:
+  * [[styling:spacing|margin, padding]], 
+  * [[styling:border|border-radius]], 
+  * or even [[styling:shadow|box-shadow]].
+
 ===== Documentation / Reference =====
   * [[https://getbootstrap.com/docs/4.0/content/typography/#responsive-typography|Responsive Typo]]
