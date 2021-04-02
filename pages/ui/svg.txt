@@ -1,0 +1,92 @@
+---json
+{
+    "canonical":"svg",
+    "title":"Native Svg support",
+    "description":"ComboStap supports natively SVG"
+}
+---
+====== ComboStrap UI - SVG ======
+
+
+===== About =====
+''Svg'' are supported natively as [[image|image]]
+
+
+They are by default [[#optimization|optimized]]
+
+If they have:
+  * a small size, they are [[#inclusion|included]] directly to the web page
+  * a big size, they are:
+      * [[#lazy loading|lazy loaded]]
+      * and [[#injection|injected]] as markup
+
+
+<note>
+This features apply also to the [[icon|icon component]]
+</note>
+
+
+===== Example =====
+
+
+<webcode name="Default" frameborder="0">
+<code dw>
+{{ :combostrap:background:object-multicolor.svg?400 |}}
+</code>
+</webcode>
+
+
+
+===== Features =====
+
+==== Inclusion =====
+If the SVG file has a size that is less or equal to the [[#svgMaxInlineSize]] configuration, the SVG is directly included into the HTML document as markup
+Otherwise, it is added as a image.
+
+This is a tradeoff configuration between the size of your web page and the cost of downloading your SVG file.
+
+
+
+==== Lazy Loading ====
+By default all big SVG file are lazy loaded meaning that they are downloaded only when they are going to be seen (enter into the screen).
+
+If you don't want this feature, you can disable it in the [[#configuration|configuration]].
+
+==== Injection ====
+Big SVG file are downloaded and then injected as SVG markup. It's then possible to style them with CSS property.
+
+
+
+If you don't want this feature, you can disable it in the [[#configuration|configuration]].
+
+==== Optimization ====
+Svg Optimization is the reduction of the file size by deleting unneeded information in the returned SVG.
+
+We are following the same optimization rules than SvgOmg.
+If you want to see the effect, you can go to the [[https://jakearchibald.github.io/svgomg/|SVGOMG tool]].
+
+==== Upload permission ====
+
+By default, the svg files cannot be uploaded because they can contain code. Only the ''admin'' user can upload a SVG.
+
+If you want to allow users to upload, you need to:
+  * set the group that is allowed to upload a SVG in the [[#svgUploadGroupName|svgUploadGroupName]] configuration.
+  * add the user to this group.
+
+===== Configuration =====
+
+==== svgMaxInlineSize ====
+The ''svgMaxInlineSize'' [[:configuration|configuration]] is the maximum file size until a SVG file is included directly in the web page.
+
+With a default of ''2Kb'', all small SVG file such as [[ui:icon|icon]] are automatically included. The browser does not need to download them.
+
+==== svgOptimizationEnable ====
+By default, the [[#optimization]] are enabled. This configuration permits to disable this feature.
+
+==== lazyLoadSvgEnable ====
+By default, the SVG files are [[#lazy Loading|lazy loaded]]. This configuration permits to disable this feature.
+
+==== svgUploadGroupName ====
+This [[:configuration|configuration]] sets the group that is allowed to upload a SVG file.
+
+SVG file can contain code and this by default not allowed to upload a SVG.
