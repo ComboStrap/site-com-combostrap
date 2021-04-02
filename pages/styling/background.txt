@@ -142,5 +142,8 @@ Example:
   * https://www.pexels.com/
   * https://stocksnap.io/
 
+
+==== Parallax ====
+https://entervjday.appspot.com/
 ===== Documentation / Reference =====
   * [[https://getbootstrap.com/docs/4.6/utilities/image-replacement/|Bootstrap Text for background image]]
