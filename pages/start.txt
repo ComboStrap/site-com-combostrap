@@ -8,7 +8,7 @@
 
 
 <slide size="lg" height="100vh" >
-
+<background>{{ :combostrap:background:object-multicolor.svg |}}</background>
 <row>
 <col class="col-md-6" spacing="ml-3">
 <title 4 class="text-capitalize"> Create your footprint that lasts ForEver</title>
@@ -21,9 +21,7 @@ a product that makes website design, creation and management, \\ unique, easy an
 [[getting_started:getting_started|Get started <icon name="arrow-right-drop-circle-outline"/>]]
 </btn>
 </col>
-<col>
-{{ :combostrap:background:object-multicolor.svg |}}
-</col>
+
 </row>
 </slide>
 
