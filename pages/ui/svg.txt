@@ -190,5 +190,5 @@ The default value at installation time is: ''xMidYMid slice'' which means that:
 
 Other options with the [[https://www.w3.org/TR/SVG11/coords.html#PreserveAspectRatioAttribute|Svg Reference]] or at [[https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/preserveAspectRatio|the mozilla knowledge base]]
 
-{{ :ui:preserveaspectratio.svg?320 |}}
+{{ :ui:preserveaspectratio.svg?400 |}}
 
