@@ -63,7 +63,14 @@ If you don't want this feature, you can disable it in the [[#configuration|confi
 Svg Optimization is the reduction of the file size by deleting unneeded information in the returned SVG.
 
 We are following a subset of the optimization rules than [[https://github.com/svg/svgo#built-in-plugins|SvgO]]:
-  * remove doctype
+  * remove XML header
+<code xml>
+'<?xml version="1.0" encoding="UTF-8"?>
+</code>
+  * remove doctype ie 
+<code xml>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+</code>
   * remove comments
   * remove metadata
   * clean ID's
