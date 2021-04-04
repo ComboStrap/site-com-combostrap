@@ -62,7 +62,7 @@ If you don't want this feature, you can disable it in the [[#configuration|confi
 ==== Optimization ====
 Svg Optimization is the reduction of the file size by deleting unneeded information in the returned SVG.
 
-We are following a subset of the optimization rules than [[https://github.com/svg/svgo#built-in-plugins|SvgO]]:
+We are following a subset of the  [[https://github.com/svg/svgo#built-in-plugins|SvgO]] optimization rules:
   * remove XML header
 <code xml>
 '<?xml version="1.0" encoding="UTF-8"?>
@@ -91,7 +91,7 @@ If you want to see the effect or optimized manually your SVG, you can go to the 
 
 \\
 
-{{ :ui:svgomg.png?500 |}}
+{{ :ui:svgomg.png?300 |}}
 </note>
 
 
@@ -129,7 +129,7 @@ By default, we are deleting the ''id'' and ''style'' attributes.
 The elements to delete on the whole SVG.
 
 By default, we delete the following elements:
-  * [[https://developer.mozilla.org/en-US/docs/Web/SVG/Element/script|script]]: No script can be injected via ''SVG''.
+  * [[https://developer.mozilla.org/en-US/docs/Web/SVG/Element/script|script]] (No script can be injected via ''SVG'')
   * [[https://developer.mozilla.org/en-US/docs/Web/SVG/Element/title|title]]
   * [[https://developer.mozilla.org/en-US/docs/Web/SVG/Element/desc|desc]]
 
