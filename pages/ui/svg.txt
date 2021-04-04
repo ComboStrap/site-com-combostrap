@@ -62,8 +62,31 @@ If you don't want this feature, you can disable it in the [[#configuration|confi
 ==== Optimization ====
 Svg Optimization is the reduction of the file size by deleting unneeded information in the returned SVG.
 
-We are following the same optimization rules than SvgOmg.
-If you want to see the effect, you can go to the [[https://jakearchibald.github.io/svgomg/|SVGOMG tool]].
+We are following a subset of the optimization rules than [[https://github.com/svg/svgo#built-in-plugins|SvgO]]:
+  * remove doctype
+  * remove comments
+  * remove metadata
+  * clean ID's
+  * Remove empty defs
+  * Remove empty elements
+  * Remove namespace
+  * Remove title
+  * Remove desc
+  * Remove Style element
+  * Remove Script element
+
+
+
+You can disable and/or tune the optimizations with the help of the [[#svgOptimizationEnable|svg optimization configurations]].
+
+<note>
+If you want to see the effect or optimized manually your SVG, you can go to the [[https://jakearchibald.github.io/svgomg/|SVGOMG tool]].
+
+\\
+
+{{ :ui:svgomg.png?500 |}}
+</note>
+
 
 ==== Upload permission ====
 
@@ -83,9 +106,40 @@ With a default of ''2Kb'', all small SVG file such as [[ui:icon|icon]] are autom
 ==== svgOptimizationEnable ====
 By default, the [[#optimization]] are enabled. This configuration permits to disable this feature.
 
-==== lazyLoadSvgEnable ====
-By default, the SVG files are [[#lazy Loading|lazy loaded]]. This configuration permits to disable this feature.
+The below configuration permits to control how the optimization is peformed.
+=== svgOptimizationNamespacesToKeep ===
+This configuration set the namespace ''prefix''  (not the http URI but the name) that should be kept separated by a comma.
 
+By default, the optimization will delete all namespace.
+
+=== svgOptimizationAttributesToDelete ===
+The attributes to delete on all nodes.
+
+By default, we are deleting the ''id'' and ''style'' attributes.
+
+
+=== svgOptimizationElementsToDelete ===
+The elements to delete on the whole SVG.
+
+By default, we delete the following elements:
+  * [[https://developer.mozilla.org/en-US/docs/Web/SVG/Element/script|script]]: No script can be injected via ''SVG''.
+  * [[https://developer.mozilla.org/en-US/docs/Web/SVG/Element/title|title]]
+  * [[https://developer.mozilla.org/en-US/docs/Web/SVG/Element/desc|desc]]
+
+
+
+
+
+==== svgLazyLoadEnable ====
+By default, the SVG files that have a size bigger than the [[#svgmaxinlinesize|maximum inline size]] are [[#lazy Loading|lazy loaded]]. 
+
+This configuration permits to disable this feature.
+
+
+==== svgInjectionEnable ====
+By default, the SVG files that have a size bigger than the [[#svgmaxinlinesize|maximum inline size]] are [[#injection|injected]]. 
+
+This configuration permits to disable this feature.
 ==== svgUploadGroupName ====
 This [[:configuration|configuration]] sets the group that is allowed to upload a SVG file.
 
