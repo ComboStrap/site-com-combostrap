@@ -63,24 +63,25 @@ If you don't want this feature, you can disable it in the [[#configuration|confi
 Svg Optimization is the reduction of the file size by deleting unneeded information in the returned SVG.
 
 We are following a subset of the  [[https://github.com/svg/svgo#built-in-plugins|SvgO]] optimization rules:
-  * remove XML header
+  * Remove XML header
 <code xml>
 '<?xml version="1.0" encoding="UTF-8"?>
 </code>
-  * remove doctype ie 
+  * Remove doctype ie 
 <code xml>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 </code>
-  * remove comments
-  * remove metadata
+  * Remove comments
+  * Eemove metadata
   * clean ID's
-  * Remove empty defs
   * Remove empty elements
-  * Remove namespace
+  * Remove editors and empty namespace
   * Remove title
   * Remove desc
   * Remove Style element
   * Remove Script element
+  * Remove Attribute with default value (for instance ''%%version="1.1"%%'' or ''%%preserveAspectRatio="xMidYMid meet"%%''
+  * Remove width and height if they have the same value than the viewBox
 
 
 
@@ -117,7 +118,33 @@ The below configuration permits to control how the optimization is peformed.
 === svgOptimizationNamespacesToKeep ===
 This configuration set the namespace ''prefix''  (not the http URI but the name) that should be kept separated by a comma.
 
-By default, the optimization will delete all namespace.
+By default, the optimization will delete all below editors and empty namespace.
+
+The editors namespace automatically deleted are:
+<file>
+http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd
+http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd
+http://www.inkscape.org/namespaces/inkscape
+http://www.bohemiancoding.com/sketch/ns
+http://ns.adobe.com/AdobeIllustrator/10.0/
+http://ns.adobe.com/Graphs/1.0/
+http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/
+http://ns.adobe.com/Variables/1.0/
+http://ns.adobe.com/SaveForWeb/1.0/
+http://ns.adobe.com/Extensibility/1.0/
+http://ns.adobe.com/Flows/1.0/
+http://ns.adobe.com/ImageReplacement/1.0/
+http://ns.adobe.com/GenericCustomNamespace/1.0/
+http://ns.adobe.com/XPath/1.0/
+http://schemas.microsoft.com/visio/2003/SVGExtensions/
+http://taptrix.com/vectorillustrator/svg_extensions
+http://www.figma.com/figma/ns
+http://purl.org/dc/elements/1.1/
+http://creativecommons.org/ns#
+http://www.w3.org/1999/02/22-rdf-syntax-ns#
+http://www.serif.com/
+http://www.vector.evaxdesign.sk
+</file>
 
 === svgOptimizationAttributesToDelete ===
 The attributes to delete on all nodes.
@@ -151,3 +178,17 @@ This configuration permits to disable this feature.
 This [[:configuration|configuration]] sets the group that is allowed to upload a SVG file.
 
 SVG file can contain code and this by default not allowed to upload a SVG.
+
+==== svgPreserveAspectRatioDefault ====
+If the [[https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/preserveAspectRatio|preserveAspectRatio]] attribute is not set, it will be set with the default value.
+
+This parameter drives how the SVG will fit in its container when the screen (viewport) is resizing.
+
+The default value at installation time is: ''xMidYMid slice'' which means that:
+  * the svg image will be in the middle of X and Y
+  * and will be cropped.
+
+Other options with the [[https://www.w3.org/TR/SVG11/coords.html#PreserveAspectRatioAttribute|Svg Reference]] or at [[https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/preserveAspectRatio|the mozilla knowledge base]]
+
+{{ :ui:preserveaspectratio.svg?320 |}}
+
