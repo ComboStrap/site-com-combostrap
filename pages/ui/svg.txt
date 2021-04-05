@@ -79,54 +79,6 @@ The ''svgMaxInlineSize'' [[:configuration|configuration]] is the maximum file si
 
 With a default of ''2Kb'', all small SVG file such as [[ui:icon|icon]] are automatically included. The browser does not need to download them.
 
-==== svgOptimizationEnable ====
-By default, the [[#optimization]] are enabled. This configuration permits to disable this feature.
-
-The below configuration permits to control how the optimization is peformed.
-=== svgOptimizationNamespacesToKeep ===
-This configuration set the namespace ''prefix''  (not the http URI but the name) that should be kept separated by a comma.
-
-By default, the optimization will delete all below editors and empty namespace.
-
-The editors namespace automatically deleted are:
-<file>
-http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd
-http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd
-http://www.inkscape.org/namespaces/inkscape
-http://www.bohemiancoding.com/sketch/ns
-http://ns.adobe.com/AdobeIllustrator/10.0/
-http://ns.adobe.com/Graphs/1.0/
-http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/
-http://ns.adobe.com/Variables/1.0/
-http://ns.adobe.com/SaveForWeb/1.0/
-http://ns.adobe.com/Extensibility/1.0/
-http://ns.adobe.com/Flows/1.0/
-http://ns.adobe.com/ImageReplacement/1.0/
-http://ns.adobe.com/GenericCustomNamespace/1.0/
-http://ns.adobe.com/XPath/1.0/
-http://schemas.microsoft.com/visio/2003/SVGExtensions/
-http://taptrix.com/vectorillustrator/svg_extensions
-http://www.figma.com/figma/ns
-http://purl.org/dc/elements/1.1/
-http://creativecommons.org/ns#
-http://www.w3.org/1999/02/22-rdf-syntax-ns#
-http://www.serif.com/
-http://www.vector.evaxdesign.sk
-</file>
-
-=== svgOptimizationAttributesToDelete ===
-The attributes to delete on all nodes.
-
-By default, we are deleting the ''id'' and ''style'' attributes.
-
-
-=== svgOptimizationElementsToDelete ===
-The elements to delete on the whole SVG.
-
-By default, we delete the following elements:
-  * [[https://developer.mozilla.org/en-US/docs/Web/SVG/Element/script|script]] (No script can be injected via ''SVG'')
-  * [[https://developer.mozilla.org/en-US/docs/Web/SVG/Element/title|title]]
-  * [[https://developer.mozilla.org/en-US/docs/Web/SVG/Element/desc|desc]]
 
 
 
