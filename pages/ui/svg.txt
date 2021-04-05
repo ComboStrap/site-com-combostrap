@@ -60,40 +60,8 @@ Big SVG file are downloaded and then injected as SVG markup. It's then possible 
 If you don't want this feature, you can disable it in the [[#configuration|configuration]].
 
 ==== Optimization ====
-Svg Optimization is the reduction of the file size by deleting unneeded information in the returned SVG.
+Svg Optimization is the reduction of the file size by deleting unneeded information. You can know more about this subject on the [[svg_optimization|dedicated page]].
 
-We are following a subset of the  [[https://github.com/svg/svgo#built-in-plugins|SvgO]] optimization rules:
-  * Remove XML header
-<code xml>
-'<?xml version="1.0" encoding="UTF-8"?>
-</code>
-  * Remove doctype ie 
-<code xml>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-</code>
-  * Remove comments
-  * Eemove metadata
-  * clean ID's
-  * Remove empty elements
-  * Remove editors and empty namespace
-  * Remove title
-  * Remove desc
-  * Remove Style element
-  * Remove Script element
-  * Remove Attribute with default value (for instance ''%%version="1.1"%%'' or ''%%preserveAspectRatio="xMidYMid meet"%%''
-  * Remove width and height if they have the same value than the viewBox
-
-
-
-You can disable and/or tune the optimizations with the help of the [[#svgOptimizationEnable|svg optimization configurations]].
-
-<note>
-If you want to see the effect or optimized manually your SVG, you can go to the [[https://jakearchibald.github.io/svgomg/|SVGOMG tool]].
-
-\\
-
-{{ :ui:svgomg.png?300 |}}
-</note>
 
 
 ==== Upload permission ====
@@ -190,5 +158,5 @@ The default value at installation time is: ''xMidYMid slice'' which means that:
 
 Other options with the [[https://www.w3.org/TR/SVG11/coords.html#PreserveAspectRatioAttribute|Svg Reference]] or at [[https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/preserveAspectRatio|the mozilla knowledge base]]
 
-{{ :ui:preserveaspectratio.svg?400 |}}
+{{ :ui:preserveaspectratio.svg?600 |}}
 
