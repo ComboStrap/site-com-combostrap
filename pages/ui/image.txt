@@ -8,9 +8,12 @@
 ====== ComboStrap UI - Image ======
 
 ===== About =====
-''image'' is a [[block|block UI Component]] that permits to show images in your pages (media because video are also supported)
+''image'' is a [[block|block UI Component]] that permits to show [[raster|raster]] or [[svg|svg]] images in your pages (We should say media because video are also supported)
 
 
+<note>
+All images are [[:lazy|lazy loaded]] by default to enhance [[:performance|performance]]
+</note>
 ===== Articles Related =====
 {{backlinks>.}}
 
@@ -69,15 +72,8 @@ For instance, to elevate this photography with a surfer, you could use this synt
 </webcode>
 
 
-===== Configuration =====
 
-==== Lazy Loading ====
 
-By default, the images are all loaded:
-  * on time: ie just before they will enter the screen (while the user is scrolling)
-  * with the lower resolution: the loaded image resolution is based on the screen size with break point at 300, 600 and 900.
-
-If you don't want this feature, you can disable it with the ''lazyLoadRasterImageEnable'' [[:configuration|configuration]].
 
 
 

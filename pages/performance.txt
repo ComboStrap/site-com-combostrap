@@ -1,0 +1,52 @@
+---json
+{
+    "canonical":"performance",
+    "title":"What makes the ComboStrap performance so fast",
+    "description":"This article explains the secret sauce of the ComboStrap performance and what you should avoid in order to not degrade it."
+}
+---
+====== ComboStrap - Perfomance ======
+
+===== About =====
+''performance'' is how fast your page will be seen by your user from the moment they click on a link and shows the resulting page.
+
+
+Google has a most detailed definition of what performance is and gives you with its 
+
+
+
+===== Steps =====
+
+==== Stylesheet ====
+The size of a web page served to the public (user not logged in) can be optimized with the [[:css|CSS optimization module]]
+
+All [[styling:stylesheet|published stylesheet (bootstrap and bootswatch)]] are served by defaut from a [[strap:cdn|CDN]]
+
+If you are using only ComboStrap, you can even disable the Dokuwiki Stylesheet for public user with the [[:css#disableDokuwikiStylesheet|disableDokuwikiStylesheet configuration]]
+
+The stylesheet used for [[styling:animation|animation]] are loaded at the end of the page.
+
+==== Javascript ====
+By default, the [[strap:bootstrap|bootstrap files]] are served from a [[strap:cdn|CDN]] and are deferred.
+
+==== Cache Bursting ====
+The [[:cache|sidebar cache]] is automatically bursted and is therefore rendered only when needed and not for every page.
+
+
+[[strap:sidebor|Sidebars]] are using heavily the index when they show [[ui:navigation|navigation component]] and have a great impact on the web server rendering time.
+
+With the cache bursting, the only user impacted is the editor that is recreating the sidebar when he saves the page.
+
+==== Image ====
+=== Lazy load ===
+
+All images are [[lazy|lazy loaded]] by default. It means that they are loaded only when are on the screen or are going to enter in the screen.
+
+=== Automatic sizing ===
+
+All raster images (jpg, png, ...) are also automatically loaded with the appropriate sizing. 
+
+If a page contains an big image (say 1200px),  this image will be resized to 300px on a mobile screen.
+
+
+

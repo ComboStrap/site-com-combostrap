@@ -1,0 +1,18 @@
+---json
+{
+    "canonical":"lazy:load",
+    "title":"Lazy loading in ComboStrap",
+    "description":"ComboStrap loads all images by default in a lazy mode meaning that they are loaded only when they are going to enter the screen."
+}
+---
+====== ComboStrap - Lazy Loading ======
+
+
+===== About =====
+''lazy loading'' is the loading of resources such as image only when they are needed.
+
+''ComboStrap'' supports by default the lazy loading of:
+  * [[ui:raster|raster image (png, jpg, ...)]]
+  * [[ui:svg|svg]]
+
+

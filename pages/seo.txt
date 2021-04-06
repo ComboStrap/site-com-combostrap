@@ -24,10 +24,7 @@ The following data may be set for a page:
 
 ==== Performance ====
 
-  * The size of a web page served to the public (user not logged in) can be optimized with the [[:css|CSS optimization module]]
-  * By default, the [[strap:bootstrap|bootstrap files]] are served from a [[strap:cdn|CDN]]
-  * The [[:cache|sidebar cache]] is automatically bursted and is therefore rendered only when needed and not for every page.
-
+There is so  much too say that we have created a [[performance|dedicated page]].
 ==== Quality ====
 [[quality:low_quality_page|Low quality pages]] have a big impact on the SEO score. The [[quality:quality|quality module]] aims to [[quality:score|score]], [[quality:dynamic_monitoring|monitor]] and [[quality:lqpp|protect]] the quality of your website.
 

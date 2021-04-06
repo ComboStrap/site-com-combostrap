@@ -1,0 +1,47 @@
+---json
+{
+    "canonical":"raster:image",
+    "title":"Raster Image in ComboStrap (jpg, png, ...)",
+    "description":"From lazy loading to automatic resizing, this page tells you how ComboStrap manages raster image"
+}
+---
+====== ComboStrap - Raster Images ======
+
+
+===== About =====
+''raster images'' are [[image|image]] that are defined as a matrix of pixel (as opposed to [[svg|vectorial image such as svg that are defined as geometric shape]]).
+
+
+===== Syntax =====
+ComboStrap follows the general [[image#syntax |image syntax]] where you can set:
+  * the dimension
+  * the alignement
+  * and all [[styling:styling|styling attributes]]
+
+
+==== Example ====
+
+For instance, an [[styling:shadow|elevated]] photography with a surfer and a [[styling:hover|hover float animation]]
+
+<webcode name="Default" frameborder=0>
+<code dw>
+{{ :ui:stock_image_surfer_in_the_see.png?600&shadow=default&onhover=float |}}
+</code>
+</webcode>
+
+===== Automatic Resizing =====
+With the [[#lazy loading|lazy loading feature]], we detect if the user is on a mobile or a desktop and download the image at the lowest needed resolution.
+
+The loaded image resolution is based on the screen size with the break points at 300, 600 and 900.
+
+===== Configuration =====
+
+==== Lazy Loading ====
+
+By default, the images are all loaded:
+  * on time: ie just before they will enter the screen (while the user is scrolling)
+  * with the lower resolution: the loaded image resolution is based on the screen size with break point at 300, 600 and 900.
+
+If you don't want this feature, you can disable it with the ''lazyLoadRasterImageEnable'' [[:configuration|configuration]].
+
+
