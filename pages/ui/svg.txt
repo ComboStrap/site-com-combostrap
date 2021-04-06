@@ -112,3 +112,6 @@ Other options with the [[https://www.w3.org/TR/SVG11/coords.html#PreserveAspectR
 
 {{ :ui:preserveaspectratio.svg?600 |}}
 
+===== Reference =====
+We follow the [[https://developers.google.com/web/fundamentals/design-and-ux/responsive/images#svg|Google Best Practice]]
+

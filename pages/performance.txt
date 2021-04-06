@@ -38,6 +38,8 @@ The [[:cache|sidebar cache]] is automatically bursted and is therefore rendered 
 With the cache bursting, the only user impacted is the editor that is recreating the sidebar when he saves the page.
 
 ==== Image ====
+
+We follow the [[https://developers.google.com/search/docs/advanced/guidelines/google-images|Google best practices on image]]
 === Lazy load ===
 
 All images are [[lazy|lazy loaded]] by default. It means that they are loaded only when are on the screen or are going to enter in the screen.

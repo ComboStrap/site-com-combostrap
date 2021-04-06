@@ -19,7 +19,7 @@ ComboStrap follows the general [[image#syntax |image syntax]] where you can set:
   * and all [[styling:styling|styling attributes]]
 
 
-==== Example ====
+
 
 For instance, an [[styling:shadow|elevated]] photography with a surfer and a [[styling:hover|hover float animation]]
 
