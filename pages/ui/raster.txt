@@ -29,8 +29,8 @@ For instance, an [[styling:shadow|elevated]] photography with a surfer and a [[s
 </code>
 </webcode>
 
-===== Automatic Resizing =====
-With the [[#lazy loading|lazy loading feature]], we detect if the user is on a mobile or a desktop and download the image at the lowest needed resolution.
+===== Automatic Responsive Resizing =====
+With our without the [[#lazy loading|lazy loading feature]], we detect if the user is on a mobile or a desktop and download the image at the lowest needed resolution.
 
 The loaded image resolution is based on the screen size and pixel resolution with breakpoints at 300, 600 and 900.
 

@@ -27,6 +27,7 @@ This is a page that lists all releases with their respective changes for [[:star
   * New: [[ui:svg#lazy loading|SVG Lazy loading]] - The big Svg file are now only loaded when they are going to become visible.
   * New: [[ui:svg#injection|SVG Injection]] - The big Svg file are downloaded and injected as SVG markup.
   * New: The [[styling:stylesheet|Bootswatch stylesheet]] are now also served from the CDN (by default)
+  * New: If there is no [[strap:bar|bar]], the main content is centered with a  max length of 9 cols.
 
 ==== Version 1.12 - 2021-03-21 ====
 

@@ -8,7 +8,7 @@
 ====== ComboStrap - Perfomance ======
 
 ===== About =====
-''performance'' is how fast your page will be seen by your user from the moment they click on a link and shows the resulting page.
+''performance'' is how fast your page will be perceived by yours user from the moment they click on a link until they see the resulting page.
 
 
 Google has a more detailed definition of what performance is and gives you a performance score along with performance metrics via the [[https://developers.google.com/web/tools/lighthouse|lighthouse product]].
@@ -42,19 +42,22 @@ The [[:cache|sidebar cache]] is automatically bursted and is therefore rendered 
 With the cache bursting, the only user impacted is the editor that is recreating the sidebar when he saves the page.
 
 
-Action: If you have any ''%%~~NOCACHE~~%%'' instructions in your sidebar, just delete them.
+Action: If you have any [[https://www.dokuwiki.org/caching|%%~~NOCACHE~~%%]] instructions in your sidebar, just delete them.
 ==== Image ====
 
 We follow the [[https://developers.google.com/search/docs/advanced/guidelines/google-images|Google best practices on image]]
 === Lazy load ===
 
-All images are [[lazy|lazy loaded]] by default. It means that they are loaded only when are on the screen or are going to enter in the screen.
+All [[ui:image|images]] are [[lazy|lazy loaded]] by default. It means that they are loaded only when:
+  * they are on the screen 
+  * they are going to enter in the screen.
 
-=== Mobile Automatic sizing ===
+=== Automatic Responsive Sizing ===
 
 All raster images (jpg, png, ...) are also automatically loaded with the appropriate sizing. 
 
 If a page contains an big image (say 1200px),  this image will be resized to 300px on a small mobile screen.
 
+Check the [[ui:raster#automatic responsive sizing|demonstration]]
 
 
