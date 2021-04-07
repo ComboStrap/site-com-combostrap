@@ -11,7 +11,11 @@
 ''performance'' is how fast your page will be seen by your user from the moment they click on a link and shows the resulting page.
 
 
-Google has a most detailed definition of what performance is and gives you with its 
+Google has a more detailed definition of what performance is and gives you a performance score along with performance metrics via the [[https://developers.google.com/web/tools/lighthouse|lighthouse product]].
+
+Below is a run of the home page of this website with the [[https://developers.google.com/speed/pagespeed/insights/|lighthouse website version]]
+
+{{ ::page_speed_performance.png?600 |}}
 
 
 
@@ -29,7 +33,7 @@ The stylesheet used for [[styling:animation|animation]] are loaded at the end of
 ==== Javascript ====
 By default, the [[strap:bootstrap|bootstrap files]] are served from a [[strap:cdn|CDN]] and are deferred.
 
-==== Cache Bursting ====
+==== Sidebar Cache Bursting ====
 The [[:cache|sidebar cache]] is automatically bursted and is therefore rendered only when needed and not for every page.
 
 
@@ -37,6 +41,8 @@ The [[:cache|sidebar cache]] is automatically bursted and is therefore rendered 
 
 With the cache bursting, the only user impacted is the editor that is recreating the sidebar when he saves the page.
 
+
+Action: If you have any ''%%~~NOCACHE~~%%'' instructions in your sidebar, just delete them.
 ==== Image ====
 
 We follow the [[https://developers.google.com/search/docs/advanced/guidelines/google-images|Google best practices on image]]
@@ -44,11 +50,11 @@ We follow the [[https://developers.google.com/search/docs/advanced/guidelines/go
 
 All images are [[lazy|lazy loaded]] by default. It means that they are loaded only when are on the screen or are going to enter in the screen.
 
-=== Automatic sizing ===
+=== Mobile Automatic sizing ===
 
 All raster images (jpg, png, ...) are also automatically loaded with the appropriate sizing. 
 
-If a page contains an big image (say 1200px),  this image will be resized to 300px on a mobile screen.
+If a page contains an big image (say 1200px),  this image will be resized to 300px on a small mobile screen.
 
 
 

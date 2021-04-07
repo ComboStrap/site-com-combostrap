@@ -20,7 +20,8 @@ This is a page that lists all releases with their respective changes for [[:star
   * New: Icons from [[https://icons.getbootstrap.com/|Bootstrap]] and [[https://feathericons.com/|Feather]] are now natively available from the [[ui:icon|icon component]]
   * New: [[styling:shadow|Elevation]] is also now known as the [[styling:shadow|shadow attribute]] and has gain 2 levels.
   * New: ''auto'' layout is supported on a [[ui:grid|grid]] where the columns takes the natural width of their content and never overflow.
-  * New: [[ui:image|Image]] are now lazy loaded by default on the optimal resolution.
+  * New: [[ui:raster|Raster Images]] are now lazy loaded by default 
+  * New: [[ui:raster|Raster Images]] are now loaded with a size that depends on the screen size.
   * New: [[ui:svg_optimization|SVG Optimization]] - The Svg returned are now optimized. They are injected inline for file less than 2KB such as [[ui:icon|icon]], they are otherwise loaded lazily and injected via javascript.
   * New: [[ui:svg#upload permission|SVG Upload Permission]] - The Svg can now be uploaded by the admin and by a group of users.
   * New: [[ui:svg#lazy loading|SVG Lazy loading]] - The big Svg file are now only loaded when they are going to become visible.
