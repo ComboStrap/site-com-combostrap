@@ -22,24 +22,28 @@ Below is a run of the home page of this website with the [[https://developers.go
 ===== Steps =====
 
 ==== Stylesheet ====
-The size of a web page served to the public (user not logged in) can be optimized with the [[:css|CSS optimization module]]
+
+=== Critical Path ====
 
 All [[styling:stylesheet|published stylesheet (bootstrap and bootswatch)]] are served by defaut from a [[strap:cdn|CDN]]
 
 If you are using only ComboStrap, you can even disable the Dokuwiki Stylesheet for public user with the [[:css#disableDokuwikiStylesheet|disableDokuwikiStylesheet configuration]]
 
-The stylesheet used for [[styling:animation|animation]] are loaded at the end of the page.
+The size of a web page served to the public (user not logged in) can be optimized with the [[:css|CSS optimization module]]
 
+=== Stylesheet Preload ===
+We preload stylesheet that are non critical for rendering. For instance, the stylesheet used for [[styling:animation|animation]] are preloaded and added to the page at the end.
 ==== Javascript ====
-By default, the [[strap:bootstrap|bootstrap files]] are served from a [[strap:cdn|CDN]] and are deferred.
+All Javascript file are served from a [[strap:cdn|CDN]] and are deferred (loaded at the end) because they are not needed for the first rendering.
+
+
 
 ==== Sidebar Cache Bursting ====
-The [[:cache|sidebar cache]] is automatically bursted and is therefore rendered only when needed and not for every page.
 
 
 [[strap:sidebor|Sidebars]] are using heavily the index when they show [[ui:navigation|navigation component]] and have a great impact on the web server rendering time.
 
-With the cache bursting, the only user impacted is the editor that is recreating the sidebar when he saves the page.
+With the [[:cache|cache bursting]], the only user impacted is the editor that is recreating the sidebar when he saves the page.
 
 
 Action: If you have any [[https://www.dokuwiki.org/caching|%%~~NOCACHE~~%%]] instructions in your sidebar, just delete them.
