@@ -25,32 +25,65 @@ For instance, an [[styling:shadow|elevated]] photography with a surfer and a [[s
 
 <webcode name="Default" frameborder=0>
 <code dw>
-{{ :ui:stock_image_surfer_in_the_see.png?600&shadow=default&onhover=float |}}
+{{ :ui:stock_image_surfer_in_the_see.png?600&shadow=md&onhover=float |}}
 </code>
 </webcode>
 
 ===== Automatic Responsive Resizing =====
 With our without the [[#lazy loading|lazy loading feature]], we detect if the user is on a mobile or a desktop and download the image at the lowest needed resolution.
 
-The loaded image resolution is based on the screen size and pixel resolution with breakpoints at 300, 600 and 900.
+The loaded image resolution is based on the screen size and pixel resolution with breakpoints at:
 
-The below video shows you a demonstration of responsive lazy loading of this page. When we are scrolling, just before the image is shown, we can see at the right side that the image is downloaded at a size of 300px (in the URL)
+^ Breakpoint ^ Max-Width ^ Description ^ 
+| Extra-Small | < 576 | Portrait phones |
+| Small | >= 576 | Landscape phones |
+| Medium | >= 768 | Tablets |
+| Large | >=992 | Desktops |
+
+The below video shows you a demonstration of responsive lazy loading of this page. When we are scrolling, just before the image that has a width of ''600'' is shown but we can see at the right side that the image downloaded has a size of ''300px'' (in the URL)
 
 
 {{:ui:lazy_responsive_load.gif?600|}}
 
 <note>
-If the user has a  mobile with a high pixel ratio resolution such as 3x, the browser will still download the image with a with factor of 3. If you test this feature, be sure to have selected a device pixel ratio of 1 for instance.
+=== DPR Correction ===
+
+If the user has a  mobile with a high device pixel ratio (DRP) resolution such as 3x, the browser will still download the image with a with factor of 3. By default, we disable this feature downloading the lowest size.
+
+\\
+If you want to enable this feature back, you need to unchecked the [[#responsiveimagedpicorrection|DPI Correction configuration]]
 </note>
 
 ===== Configuration =====
 
-==== Lazy Loading ====
+==== lazyLoadingRasterImageEnable ====
 
 By default, the images are all loaded:
   * on time: ie just before they will enter the screen (while the user is scrolling)
   * with the lower resolution: the loaded image resolution is based on the screen size with break point at 300, 600 and 900.
 
-If you don't want this feature, you can disable it with the ''lazyLoadRasterImageEnable'' [[:configuration|configuration]].
+If you don't want this feature, you can disable it with the ''lazyLoadingRasterImageEnable'' [[:configuration|configuration]].
+
+==== lazyLoadingPlaceholderColor ====
+
+This [[:configuration|configuration]] permits to change the placeholder background color see if the image takes to long to load.
+
+By default: ''#aecfc9''
+
+
+==== responsiveImageDpiCorrection ====
+
+On mobile phone, the devices have an higher resolution. 
+
+They generally shows 2 physical pixels for one logical pixels and therefore have what's called a ''device pixel ratio'' of 2.
+
+The high end mobile can go up to a factor of 3.
+
+By default, responsives images takes this into account and will download for a mobile screen of 300px and a ''device pixel ratio'' of 2, an image of 600px.
+
+To avoid confusion and spare bandwidth, we have disabled this behavior.
+
+If you want to go back to the default behavior, you can do it by unchecking the ''responsiveImageDpiCorrection'' [[:configuration|configuration]].
+
 
 

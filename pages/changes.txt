@@ -239,12 +239,10 @@ First release.
     * Readiblity
     * Word visualization - https://github.com/wooorm/write-music
 	* https://wooorm.com/short-words/
-  * ''mime.local.conf'' management - How to allow svg as image ?
   * Metadata:
       * https://developers.google.com/search/docs/data-types/breadcrumb#breadcrumb-list
       * https://developers.google.com/search/docs/data-types/qapage
       * https://developers.google.com/search/docs/data-types/how-to
   * Image:
-      * https://www.npmjs.com/package/vanilla-lazyload
       * Add a [[https://getbootstrap.com/docs/4.4/content/figures/|caption to image]]
 
