@@ -8,7 +8,7 @@
 
 
 ''ComboStrap'' renders the [[doku>wiki:syntax#tables|Dokuwiki table]] 
-  * as a [[https://getbootstrap.com/docs/4.0/content/tables/|Bootstrap table]]
+  * as a [[https://getbootstrap.com/docs/5.0/content/tables/|Bootstrap table]]
   * and make it responsives
 
 ===== Articles Related =====
