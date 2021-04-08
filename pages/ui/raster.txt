@@ -1,6 +1,6 @@
 ---json
 {
-    "canonical":"raster:image",
+    "canonical":"raster",
     "title":"Raster Image in ComboStrap (jpg, png, ...)",
     "description":"From lazy loading to automatic resizing, this page tells you how ComboStrap manages raster image"
 }
