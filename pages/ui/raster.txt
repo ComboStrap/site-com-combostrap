@@ -30,7 +30,9 @@ For instance, an [[styling:shadow|elevated]] photography with a surfer and a [[s
 </webcode>
 
 ===== Automatic Responsive Resizing =====
-With our without the [[#lazy loading|lazy loading feature]], we detect if the user is on a mobile or a desktop and download the image at the lowest needed resolution.
+''Automatic Responsive Resizing'' aims to send the image that suits the sizing of the browser.
+
+We detect if the user is on a mobile or a desktop and download the image at the lowest needed resolution.
 
 The loaded image resolution is based on the screen size and pixel resolution with breakpoints at:
 
@@ -51,7 +53,7 @@ The below video shows you a demonstration of responsive lazy loading of this pag
 If the user has a  mobile with a high device pixel ratio (DRP) resolution such as 3x, the browser will still download the image with a with factor of 3. By default, we disable this feature downloading the lowest size.
 
 \\
-If you want to enable this feature back, you need to unchecked the [[#responsiveimagedpicorrection|DPI Correction configuration]]
+If you want to enable this feature back, you need to uncheck the [[#responsiveimagedpicorrection|DPI Correction configuration]]
 </note>
 
 ===== Configuration =====
