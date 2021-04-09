@@ -9,7 +9,7 @@
 
 
 ===== About =====
-''raster images'' are [[image|image]] that are defined as a matrix of pixel (as opposed to [[svg|vectorial image such as svg that are defined as geometric shape]]).
+''raster images'' are [[image|images]] that are defined as a matrix of pixel (as opposed to [[svg|vectorial image such as svg that are defined as geometric shape]]).
 
 
 ===== Syntax =====
@@ -29,7 +29,13 @@ For instance, an [[styling:shadow|elevated]] photography with a surfer and a [[s
 </code>
 </webcode>
 
-===== Automatic Responsive Resizing =====
+
+===== Features =====
+==== Lazy loading ====
+By default, the raster image are [[:lazy|lazy loaded]] meaning that they are downloaded only when they are on the screen or going to enter on the screen.
+
+You can disable this feature with the [[#rasterImageLazyLoadingEnable]] configuration.
+==== Automatic Responsive Resizing ====
 ''Automatic Responsive Resizing'' aims to send the image that suits the sizing of the browser.
 
 We detect if the user is on a mobile or a desktop and download the image at the lowest needed resolution.
@@ -37,12 +43,13 @@ We detect if the user is on a mobile or a desktop and download the image at the 
 The loaded image resolution is based on the screen size and pixel resolution with breakpoints at:
 
 ^ Breakpoint ^ Max-Width ^ Description ^ 
-| Extra-Small | < 576 | Portrait phones |
-| Small | >= 576 | Landscape phones |
-| Medium | >= 768 | Tablets |
-| Large | >=992 | Desktops |
+| Extra-Small | %%<=%% 375 | Portrait phones |
+| Small | %%<=%% 576 | Landscape phones |
+| Medium | %%<=%% 768 | Tablets |
+| Large | %%<=992%% | Desktops |
+| Extra-Large \ %%>=992%% | Large Desktops |
 
-The below video shows you a demonstration of responsive lazy loading of this page. When we are scrolling, just before the image that has a width of ''600'' is shown but we can see at the right side that the image downloaded has a size of ''300px'' (in the URL)
+The below video shows you a demonstration of responsive lazy loading of this page. When we are scrolling, just before the image that has a width of ''600'' is shown but we can see at the right side that the image downloaded has a size of ''355px'' (A [[#responsiveImageMargin|margin of ''-20px'' is applied by default]])
 
 
 {{:ui:lazy_responsive_load.gif?600|}}
@@ -50,7 +57,7 @@ The below video shows you a demonstration of responsive lazy loading of this pag
 <note>
 === DPR Correction ===
 
-If the user has a  mobile with a high device pixel ratio (DRP) resolution such as 3x, the browser will still download the image with a with factor of 3. By default, we disable this feature downloading the lowest size.
+If the user has a  mobile with a high device pixel ratio (DRP) resolution such as 3x, the browser will still download the image with a factor of 3. By default, we disable this feature downloading the image at the screen size.
 
 \\
 If you want to enable this feature back, you need to uncheck the [[#responsiveimagedpicorrection|DPI Correction configuration]]
@@ -58,19 +65,15 @@ If you want to enable this feature back, you need to uncheck the [[#responsiveim
 
 ===== Configuration =====
 
-==== lazyLoadingRasterImageEnable ====
+==== rasterImageLazyLoadingEnable ====
 
 By default, the images are all loaded:
   * on time: ie just before they will enter the screen (while the user is scrolling)
-  * with the lower resolution: the loaded image resolution is based on the screen size with break point at 300, 600 and 900.
+  * with the lower resolution: the loaded image resolution is based on the screen size.
 
-If you don't want this feature, you can disable it with the ''lazyLoadingRasterImageEnable'' [[:configuration|configuration]].
+If you don't want this feature, you can disable it with the ''rasterImageLazyLoadingEnable'' [[:configuration|configuration]].
 
-==== lazyLoadingPlaceholderColor ====
 
-This [[:configuration|configuration]] permits to change the placeholder background color see if the image takes to long to load.
-
-By default: ''#aecfc9''
 
 
 ==== responsiveImageDpiCorrection ====
@@ -88,4 +91,6 @@ To avoid confusion and spare bandwidth, we have disabled this behavior.
 If you want to go back to the default behavior, you can do it by unchecking the ''responsiveImageDpiCorrection'' [[:configuration|configuration]].
 
 
+==== responsiveImageMargin ====
 
+Below the responsive breakpoints, we extract a margin. The default value is 20px but you may change it with the ''responsiveImageMargin'' [[:configuration|configuration]].

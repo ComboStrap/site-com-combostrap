@@ -9,10 +9,23 @@
 
 
 ===== About =====
-''lazy loading'' is the loading of resources such as image only when they are needed.
+''lazy loading'' is the loading of resources such as image only when:
+  * they are on the screen
+  * or a going to enter on the screen
 
-''ComboStrap'' supports by default the lazy loading of:
-  * [[ui:raster|raster image (png, jpg, ...)]]
+''ComboStrap'' supports and enables by default the lazy loading of:
+  * [[ui:raster|raster image (png, jpg, gif, ...)]]
   * [[ui:svg|svg]]
+
+
+===== Configuration =====
+
+==== lazyLoadingPlaceholderColor ====
+
+If the media loaded is heavy, the user sees a box with a background color that fades gracefully.
+
+With this [[:configuration|configuration]], you can change the placeholder background color.
+
+By default, the value is: ''#cbf1ea''
 
 
