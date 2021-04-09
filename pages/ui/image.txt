@@ -19,10 +19,12 @@ All images are [[:lazy|lazy loaded]] by default to enhance [[:performance|perfor
 
 ===== Syntax =====
 
-ComboStrap uses the same syntax than [[doku>wiki:syntax#media_files|Dokuwiki]]
+ComboStrap uses:
+  * the same syntax than [[doku>wiki:syntax#media_files|Dokuwiki]]
+  * extended with the [[styling:styling|styling attributes]]
 
 <code dw>
-{{[ ]path?WxH[ ]}}
+{{[ ]path?WxH&att=value[ ]}}
 </code>
 where:
   * ''path'' is:
@@ -31,6 +33,7 @@ where:
   * ''W'' is the width (0 = no width defined)
   * ''H'' is the height (Optional)
   * ''[ ]'' are optional spaces that indicates the alignement of the image (left or right)
+  * ''att=value'' is one or more [[styling:styling|styling attributes]]
 
 
 
@@ -55,7 +58,7 @@ where:
 {{https://secure.php.net/images/php.gif?200x50}}
 </code>
 
-==== Elevation ====
+==== Styling Attributes ====
 
 You can style even further your image with [[styling:styling|styling element]]:
   * with a [[styling:shadow|shadow elevation through styling]].
@@ -65,9 +68,7 @@ For instance, to elevate this photography with a surfer, you could use this synt
 
 <webcode name="Default" frameborder=0>
 <code dw>
-<box elevation="high" align="center" width="fit-content" onHover="float">
-  {{:ui:stock_image_surfer_in_the_see.png?600|}}
-</box>
+{{ :ui:stock_image_surfer_in_the_see.png?600&onHover=float&shadow=lg |}}
 </code>
 </webcode>
 

@@ -21,6 +21,7 @@ This is a page that lists all releases with their respective changes for [[:star
   * New: [[styling:shadow|Elevation]] is also now known as the [[styling:shadow|shadow attribute]] and has gain 2 levels.
   * New: ''auto'' layout is supported on a [[ui:grid|grid]] where the columns takes the natural width of their content and never overflow.
   * New: [[:lazy|Lazy loading]] is now part of Combostrap
+  * New: the [[ui:image|image component]] accepts now [[styling:styling|styling attributes]]
   * New: [[ui:raster|Raster Images]] are now lazy loaded by default 
   * New: [[ui:raster|Raster Images DPI Correction]] are now loaded with a size that depends on the screen size and not on the device pixel ratio
   * New: [[ui:svg_optimization|SVG Optimization]] - The Svg returned are now optimized. They are injected inline for file less than 2KB such as [[ui:icon|icon]], they are otherwise loaded lazily and injected via javascript.
