@@ -1,0 +1,14 @@
+---json
+{
+    "canonical":"layout",
+    "title":"Dynamic Layout",
+    "description":"This article talks about layout management and how it can be defined by page"
+}
+---
+====== ComboStrap - Layout ======
+
+===== About =====
+
+
+Layout are important.
+
