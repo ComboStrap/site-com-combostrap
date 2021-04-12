@@ -1,5 +1,12 @@
+---json
+{
+    "canonical":"security",
+    "title":"Security is important",
+     "description":"At combostrap, we take the security of your website seriously. This articles shows you what we do about it.",
+     "layout":"median"
+}
+---
 
-<container width="720px">
 ====== Security ======
 
 ===== About =====
@@ -22,4 +29,3 @@ To prevent an [[kb>injection/attack|injection attack]]
 ===== Reporting Security Issues =====
 For any security concern or issue, you can contact us at [[security@combostrap.com]]
 
-</container>

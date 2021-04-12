@@ -12,3 +12,39 @@
 
 Layout are important.
 
+{{:strap:layout_funny.png|}}
+
+You can specify a layout by page
+
+
+===== List =====
+
+
+==== Default ====
+
+The default layout is a fully responsive layout (known also as the holy grail) with:
+  * a [[strap:headerbor|header]]
+  * a [[strap:footerbor|footer]]
+  * and three columns:
+      * [[strap:sidebor|left sidebar]]
+      * [[strap:sidekickbor|right sidebar]]
+      * main content
+
+They are all contained in a page that is:
+  * centered 
+  * with a width adjusted by screen size (by breakpoint)
+
+The main content width expands to the width of the page if the sidebars are not present.
+
+==== Median ====
+
+If there is no sidebars, the median layout centers the main content with a fix width.
+
+
+You can defined it with the following [[semantic:frontmatter|frontmatter]]
+<code json>
+{
+   "layout":"median"
+}
+</code>
+

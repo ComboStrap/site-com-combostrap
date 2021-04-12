@@ -3,6 +3,7 @@
     "canonical":"combostrap",
     "title":"ComboStrap - The publishing platform",
     "description":"ComboStrap is a publishing platform, with markdown like based syntax and the power of Bootstrap",
+    "layout":"median",
     "type":"Product",
     "json-ld": {
     "name": "ComboStrap",
@@ -22,7 +23,6 @@
 }
 ---
 
-<container width="720px">
 
 ====== ComboStrap ======
 
@@ -62,6 +62,7 @@ It contains most of the UI and functional components such as:
   * the [[css|CSS optimizer]]
   * the [[quality:quality|quality module]]
   * the [[analytics:analytics|analytics module]]
+  * the [[:performance|performance master]]
 
 
 
@@ -93,4 +94,3 @@ It contains most of the UI and functional components such as:
 [[getting_started:getting_started|Love it ? Try it !]]
 </btn>
 
-</container>

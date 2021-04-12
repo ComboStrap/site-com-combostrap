@@ -1,3 +1,12 @@
+---json
+{
+    "canonical":"changes",
+    "title":"Release - A log of all ComboStrap changes and release",
+     "description":"This page logs the release history",
+     "layout":"median"
+}
+---
+
 ====== Change Logs  / Release ======
 
 
@@ -31,6 +40,7 @@ This is a page that lists all releases with their respective changes for [[:star
   * New: The [[styling:stylesheet|Bootswatch stylesheet]] are now also served from the CDN (by default)
   * New: If there is no [[strap:bar|bar]], the main content is centered with a  max length of 9 cols.
   * New: The [[ui:table|table]] component does not take 100% width to reduce the visual space and allow floating element to the right.
+  * New: A [[strap:layout|Layout]] by page can be specified. 
 
 ==== Version 1.12 - 2021-03-21 ====
 
