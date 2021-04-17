@@ -29,12 +29,12 @@
 ===== About =====
 ''ComboStrap'' is a publishing platform based on the [[doku>|DokuWiki framework]] that focus on creating frontend website such as:
   * corporate / marketing / personal website
-  * knowledge and documentation website
+  * knowledge and documentation 
 
 All the pages and configurations are stored in files written in a ''markdown-like'' based syntax. 
 
 The website can then be versioned:
-  * offline in a version control system. (For instance, this website is also stored in a [[https://github.com/ComboStrap/ComboStrap|Git Repository]]).
+  * offline in a version control system. (For instance, this website is also stored in a [[https://github.com/ComboStrap/website|Git Repository]]).
   * online via the [[doku>attic|native Dokuwiki revision]]
 
 

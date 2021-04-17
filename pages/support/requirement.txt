@@ -1,0 +1,50 @@
+---json
+{
+    "canonical":"requirement",
+    "layout":"median",
+    "low_quality_page":"false"
+}
+---
+====== ComboStrap - Platform Requirements ======
+
+
+===== About =====
+This articles lists the installation prerequisites of [[:combostrap|ComboStrap]].
+
+===== List =====
+==== Php ====
+
+ComboStrap is tested against ''php'' version 5.6. to 7.4
+
+==== Module / Extension ====
+
+ComboStrap uses [[https://www.php.net/manual/en/dom.installation.php|Php DOM]] for [[ui:svg|svg]] and [[ui:icon|icon]] manipulation.
+
+
+
+ComboStrap is dependent on the following extensions
+  * ''pdo_sqlite''
+  * ''mbstring''
+  * ''openssl''
+
+They should be available on standard php installation, if this is not the case, you can install/configure them
+
+Example:
+  * on Windows in the ''php.ini'' file
+<code ini php.ini>
+[PHP]
+extension=php_pdo_sqlite.dll
+extension=php_mbstring.dll
+extension=php_openssl.dll
+</code>
+  * on Linux
+<code bash>
+# ubuntu, ...
+sudo apt-get install php-xml php-pdo-sqlite php-mbstring php-openssl
+# centos, redhat
+sudo yum install php-xml php-pdo-sqlite php-mbstring php-openssl
+</code>
+
+
+ 
+

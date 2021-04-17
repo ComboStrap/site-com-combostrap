@@ -1,8 +1,8 @@
 ---json
 {
     "canonical":"svg",
-    "title":"Native Svg support",
-    "description":"ComboStap supports natively SVG"
+    "title":"How to use a SVG in ComboStrap",
+    "description":"ComboStrap supports natively SVG and allows you to use them as image, illustration and background"
 }
 ---
 ====== ComboStrap UI - SVG ======
@@ -12,7 +12,7 @@
 ''Svg'' are supported natively as [[image|image]]
 
 
-They are by default [[#optimization|optimized]]
+They are by default [[#optimization|optimized]].
 
 If they have:
   * a small size, they are [[#inclusion|included]] directly to the web page
@@ -31,7 +31,7 @@ This features apply also to the [[icon|icon component]]
 
 <webcode name="Default" frameborder="0">
 <code dw>
-{{ :combostrap:background:object-multicolor.svg?400 |}}
+{{ :combostrap:background:object-multicolor.svg?400&onHover=float |}}
 </code>
 </webcode>
 
@@ -64,14 +64,22 @@ Svg Optimization is the reduction of the file size by deleting unneeded informat
 
 
 
+
+===== Security =====
+
 ==== Upload permission ====
 
 By default, the svg files cannot be uploaded because they can contain code. Only the ''admin'' user can upload a SVG.
 
-If you want to allow users to upload, you need to:
+If you want to allow users to upload a SVG, you need to:
   * set the group that is allowed to upload a SVG in the [[#svgUploadGroupName|svgUploadGroupName]] configuration.
   * add the user to this group.
 
+==== Script deleted ====
+
+By default, the ''script'' element is part of the [[svg_optimization#svgoptimizationelementstodelete|elements to delete during the optimization]], meaning that no script can be injected this way.
+
+The ''on'' event attribute such as ''onClick'' are not.
 ===== Configuration =====
 
 ==== svgMaxInlineSize ====

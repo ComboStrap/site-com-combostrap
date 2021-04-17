@@ -14,10 +14,16 @@ The ''file'' component:
       * syntax highlighting
       * clipboard copy
 
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Example =====
+
 You can create block of code like this one:
 
 <file md line-numbers="true">
-==== Markdown header ====
+# Markdown header
 
 The `file` component:
 
@@ -28,11 +34,8 @@ The `file` component:
 </file>
 
 
-===== Articles Related =====
-{{backlinks>.}}
-
 ===== Syntax =====
-This is a [[styling:prism|Prism component]] and follows its [[styling:prism#syntax]]. You should then check the [[styling:prism#syntax|prism syntax]] for all details.
+This is a [[styling:prism|Prism component]] and follows the [[styling:prism#syntax|prism syntax]]. You should then check the [[styling:prism#syntax|prism syntax documentation]] for all details.
 
 
 

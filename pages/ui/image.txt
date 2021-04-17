@@ -8,15 +8,24 @@
 ====== ComboStrap UI - Image ======
 
 ===== About =====
-''image'' is a [[block|block UI Component]] that permits to show [[raster|raster]] or [[svg|svg]] images in your pages (We should say media because video are also supported)
+''image'' is a [[block|block UI Component]] that permits to show [[raster|raster]] or [[svg|svg]] images from your media library in your pages 
 
 
-<note>
-All images are [[:lazy|lazy loaded]] by default to enhance [[:performance|performance]]
-</note>
+
 ===== Articles Related =====
 {{backlinks>.}}
 
+===== Features =====
+
+
+All images are:
+  * [[:lazy|lazy loaded]] by default to enhance [[:performance|performance]]
+  * ''responsive'' (meaning that they adapt to their container)
+
+===== Supported Image Type =====
+''ComboStrap'' supports:
+  * [[raster|raster image]]
+  * and [[svg|svg image]]
 ===== Syntax =====
 
 ComboStrap uses:
@@ -40,23 +49,19 @@ where:
 ===== Example =====
 
 ==== Resize to given width ====
-  * Internal image
+
+<webcode name="Default" frameborder="0">
 <code dw>
-{{wiki:dokuwiki-128.png?200}}
+{{:ui:stock_image_surfer_in_the_see.png?200|}}
 </code>
-  * External Image
-<code dw>
-{{https://secure.php.net/images/php.gif?200}}
-</code>
-==== Resize to given width and height ====
-  * Internal image
-<code dw>
-{{wiki:dokuwiki-128.png?200x50}}
-</code>
-  * External Image
-<code dw>
-{{https://secure.php.net/images/php.gif?200x50}}
-</code>
+</webcode>
+
+
+
+<note>
+Resizing to a given height is not needed because the image are by default responsive and will adapt to their container. Therefore, this is not supported.
+</note>
+
 
 ==== Styling Attributes ====
 
@@ -76,6 +81,10 @@ For instance, to elevate this photography with a surfer, you could use this synt
 
 
 
-
+===== Configuration =====
+==== imageEnable ====
+This [[:configuration|configuration]] permits to disable completely this component. It will also disable:
+  * the [[raster|raster image]] 
+  * and [[svg|svg]] component
 
 

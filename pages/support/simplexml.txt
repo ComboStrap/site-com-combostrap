@@ -1,14 +1,15 @@
 ---json
 {
     "canonical":"simplexml",
-    "low_quality_page":"false"
+    "low_quality_page":"false",
+    "layout":"median"
 }
 ---
 ====== Fatal Error - Class 'SimpleXMLElement' not found ======
 
 
 ===== About =====
-''Combostrap'' makes use of the [[https://www.php.net/manual/en/simplexml.installation.php|SimpleXml]] library to manipulate SVG and HTML code.
+Until [[:changes#1.12|version 1.12]], ''Combostrap'' mades use of the [[https://www.php.net/manual/en/simplexml.installation.php|SimpleXml]] library to manipulate SVG and HTML code 
 
 This library is installed by default and is therefore part of most of the installation.
 

@@ -2,7 +2,7 @@
 
 
 ===== About =====
-The icon [[ui|component]] permits you to create an icon :
+The icon [[ui|component]] permits you to create an icon such as this one <icon name="bs:emoji-wink"/> :
   * from an [[#library|icon library]]
   * or from your media library as a [[#SVG media file]]
 
@@ -11,6 +11,17 @@ The icon [[ui|component]] permits you to create an icon :
 ===== Articles Related =====
 {{backlinks>.}}
 
+===== Icon Vs Svg =====
+
+An ''icon'' is just a [[svg|svg]] that is seen as a character.
+
+
+ComboStrap sets the following properties on a icon by default:
+  * width and height: 24px
+  * color: currentColor
+  * not responsive (no ''preserveAspectRatio'' and no max length CSS properties)
+
+If you don't want this properties adjusted, you can also use [[svg|svg directly]]
 ===== Syntax =====
 
 <code dw>
@@ -72,17 +83,7 @@ Example with a [[https://feathericons.com/?query=box|''box'' icon]]
 ==== SVG Media File ====
 The ''icon'' component supports the rendering of SVG file located in the [[doku>images|media library]]
 
-By default, ''svg files'' can't be uploaded because they can embedded script and makes it more difficult.
-
-To upload SVG files, you may:
-  * transfer the files directly on your server in a location under the media directory (ie ''DOKUWIKI_HOME/data/media'')
-  * or allows the upload of SVG file by adding the SVG extension into the [[doku>mime|mime.local.conf file]]
-<code properties mime.local.conf>
-svg image/svg+xml
-</code>
-
-
-Then, you can render it by giving the media id into the name attributes:
+You can render it by giving the media id into the name attributes:
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <icon name="logo.svg" color="orange"/>
@@ -90,10 +91,7 @@ Then, you can render it by giving the media id into the name attributes:
   * Output:
 </webcode>
 
-===== Inline SVG =====
-This component does not support inline SVG because it's a property of HTML.
 
-If you authorize the direct use of HTML, you can also show inline SVG. See [[icon_inline]]
 
 ===== Properties =====
 
@@ -107,13 +105,16 @@ In the color attribute, you can set a [[styling:color#value|color value]].
 
 ==== Sizing: Width and Height ====
 The ''width'' and ''height'' attributes take the default value of ''24px'' but you can overwrite them.
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="Sizing" frameborder="0" >
 <code dw>
-<icon name="logo.svg" color="pink" width="96px" height="96px" />
+<icon name="logo.svg" width="96px" height="96px" />
 </code>
 </webcode>
 ==== Native Attribute ====
 As all [[styling:html|ComboStrap UI components]] do, the ''icon'' component supports also all attributes of its underlying ''svg HTML element''. See [[https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg|svg attributes]]
+
+
+
 
 
 
@@ -134,7 +135,14 @@ You can change the default library with the ''defaultIconLibrary'' [[:configurat
 
 At installation time, the default library is [[#material design|material design]].
 
+===== Direct SVG =====
+This component does not support embedding a SVG directly because it's a property of HTML.
+
+If you authorize the direct use of HTML, you can also embed directly SVG in your page. See [[icon_inline]]
 ===== Support =====
 ==== Prerequisite ====
 
-This component uses the [[support:simplexml|simplexml]] module that is enabled by default. It should be then no problem for most of the platform.
+This component uses the [[support:requirement|DOM module]]. This module is enabled by default on all hosting platform. It should be then no problem for most of the platform.
+
+
+

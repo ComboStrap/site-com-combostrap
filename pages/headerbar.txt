@@ -1,5 +1,4 @@
 
-
 <navbar breakpoint="md" position="top">
 <brand title="ComboStrap Home" style="color:#075EBB">
 <icon name="logo.svg" />
