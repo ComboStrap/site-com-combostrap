@@ -2,7 +2,8 @@
 {
     "canonical":"social",
     "title":"ComboStrap makes your pages Social",
-    "description":"This page explains all social module of Combostrap and how they helps spread the words"
+    "description":"This page explains all social module of Combostrap and how they helps spread the words",
+    "layout":"median"
 }
 ---
 

@@ -2,10 +2,11 @@
 {
     "canonical":"image",
     "title":"How to use the image tag in ComboStrap",
-    "image":":ui:stock_image_surfer_in_the_see.png"
+    "image":":ui:stock_image_surfer_in_the_see.png",
+    "description":"Combostrap supports raster and vectoriel image. This page shows you how to add an image with syntax and examples."
 }
 ---
-====== ComboStrap UI - Image ======
+====== ComboStrap UI - Images ======
 
 ===== About =====
 ''image'' is a [[block|block UI Component]] that permits to show [[raster|raster]] or [[svg|svg]] images from your media library in your pages 
@@ -20,7 +21,9 @@
 
 All images are:
   * [[:lazy|lazy loaded]] by default to enhance [[:performance|performance]]
-  * ''responsive'' (meaning that they adapt to their container)
+  * ''Automatic resizing'' (or ''responsive'') 
+      * for [[svg|svg images]], we set extra responsive properties.
+      * for [[raster|raster images]],  a small screen will receive a small image while a big screen will receive the biggest image. For more information, see [[raster#automatic_responsive_resizing|Raster - Automatic Resizing]]
 
 ===== Supported Image Type =====
 ''ComboStrap'' supports:
@@ -39,7 +42,7 @@ where:
   * ''path'' is:
       * for an internal image: the internal path of the dokuwiki
       * for an external image: the URL.
-  * ''W'' is the width (0 = no width defined)
+  * ''W'' is the width (0 is not supported)
   * ''H'' is the height (Optional)
   * ''[ ]'' are optional spaces that indicates the alignement of the image (left or right)
   * ''att=value'' is one or more [[styling:styling|styling attributes]]
@@ -48,18 +51,47 @@ where:
 
 ===== Example =====
 
-==== Resize to given width ====
+==== Resize to a given width ====
 
+To resize to a given width, add a number.
+
+Example of the image resized to ''400px''
 <webcode name="Default" frameborder="0">
 <code dw>
-{{:ui:stock_image_surfer_in_the_see.png?200|}}
+{{:ui:stock_image_surfer_in_the_see.png?400|}}
 </code>
 </webcode>
 
 
 
+
+
+Resizing to a given height is not needed because the image are by default responsive and will adapt to their container. Therefore, setting an height is not supported.
+
 <note>
-Resizing to a given height is not needed because the image are by default responsive and will adapt to their container. Therefore, this is not supported.
+Raster images are automatically resized below the screen size. For more information, see the [[raster#automatic_responsive_resizing|Raster - Automatic Resizing feature]]
+</note>
+
+==== Align  ====
+
+
+  * To align to the right (ie float), let a space at the left
+  * To align to the left, let no space, this is the default
+  * To align to the center, let a space at the left and at the right
+
+Example: align the image to the right with:
+  * a width of 300
+  * a [[styling:color|background-color of white]]
+  * and a padding of 3 (''p-3'') with [[styling:spacing|spacing]]
+<webcode name="Default" frameborder="0">
+<code dw>
+{{ :ui:stock_image_surfer_in_the_see.png?300&spacing=p-3&background-color=white|}}
+</code>
+</webcode>
+
+<note>
+  * If you want more control on position, we advise you to use the [[ui:grid|grid]] and its columns.
+  * The ''align'' parameter applies the same effect than the [[styling:align#block|align attribute for a component]]
 </note>
 
 
@@ -73,7 +105,7 @@ For instance, to elevate this photography with a surfer, you could use this synt
 
 <webcode name="Default" frameborder=0>
 <code dw>
-{{ :ui:stock_image_surfer_in_the_see.png?600&onHover=float&shadow=lg |}}
+{{ :ui:stock_image_surfer_in_the_see.png?400&onHover=float&shadow=lg |}}
 </code>
 </webcode>
 

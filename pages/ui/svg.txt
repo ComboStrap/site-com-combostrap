@@ -31,7 +31,7 @@ This features apply also to the [[icon|icon component]]
 
 <webcode name="Default" frameborder="0">
 <code dw>
-{{ :combostrap:background:object-multicolor.svg?400&onHover=float |}}
+{{ :combostrap:background:object-multicolor.svg?400&onHover=float&shadow=md |}}
 </code>
 </webcode>
 
