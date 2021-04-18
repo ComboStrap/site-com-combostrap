@@ -41,6 +41,7 @@ This is a page that lists all releases with their respective changes for [[:star
   * New: If there is no [[strap:bar|bar]], the main content is centered with a  max length of 9 cols.
   * New: The [[ui:table|table]] component does not take 100% width to reduce the visual space and allow floating element to the right.
   * New: A [[strap:layout|Layout]] by page can be specified. 
+  * New: Edit button have been added for [[ui:card|card]] and [[ui:tabs|tabs]] making it easier them.
 
 ==== Version 1.12 - 2021-03-21 ====
 

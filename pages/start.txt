@@ -30,7 +30,6 @@ a product that makes website design, creation and management, \\ unique, easy an
 
 <card-columns class="mb-3">
 
-
 <card>
 ==== Large base of UI Components ====
 ''ComboStrap'' have a large [[ui:ui|UI components library]]. 
