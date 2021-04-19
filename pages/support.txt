@@ -27,25 +27,25 @@ Even if we think heel hard about it, real experience is the best feedback and we
 Feel free to contact us 
 
 <button spacing="mt-3" elevation="true">[[support@combostrap.com]]</button>
-
 </panel>
-<panel>
-<label> Twitter <icon name="twitter"/></label>
+
+<panel >
+<label>Twitter <icon name="twitter"/></label>
 === For the latest news about ComboStrap ===
 
 <btn spacing="mt-3">
 [[https://twitter.com/combostrapweb|Follow us on Twitter ]]
 </btn>
-
 </panel>
 
-<panel>
+<panel >
 <label>Github <icon name="github" /></label>
 The development happens on Github
 where you can open issues or asks questions.
 
 <btn spacing="mt-3">[[https://github.com/ComboStrap/combo/issues|ComboStrap Issues]]</btn> 
 </panel>
+
 </tabs>
 
 
