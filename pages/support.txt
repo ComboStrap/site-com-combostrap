@@ -16,7 +16,7 @@
 
 \\
 
-''ComboStrap'' comes from a custom product that was tailored to specific wishes and is migrating to a product that accommodates broader use cases. 
+[[:combostrap|ComboStrap]] comes from a custom product that was tailored to specific wishes and is migrating to a product that accommodates broader use cases. 
 
 Even if we think heel hard about it, real experience is the best feedback and we can't wait to hear what you have to say.
 </note>
