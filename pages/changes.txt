@@ -42,6 +42,7 @@ This is a page that lists all releases with their respective changes for [[:star
   * New: The [[ui:table|table]] component does not take 100% width to reduce the visual space and allow floating element to the right.
   * New: A [[strap:layout|Layout]] by page can be specified. 
   * New: Edit button have been added for [[ui:card|card]] and [[ui:panel|panel]] making it easier to edit them.
+  * New: [[ui:image|Image]] got the [[ui:image#defaultImageLinking|defaultImageLinking]] configuration to set the default media link behavior
 
 ==== Version 1.12 - 2021-03-21 ====
 

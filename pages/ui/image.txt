@@ -29,6 +29,8 @@ All images are:
 ''ComboStrap'' supports:
   * [[raster|raster image]]
   * and [[svg|svg image]]
+
+
 ===== Syntax =====
 
 ComboStrap uses:
@@ -118,5 +120,15 @@ For instance, to elevate this photography with a surfer, you could use this synt
 This [[:configuration|configuration]] permits to disable completely this component. It will also disable:
   * the [[raster|raster image]] 
   * and [[svg|svg]] component
+
+==== imageDefaultLinking ====
+
+This [[:configuration|configuration]] permits to set the link type to the image.
+
+^ Value ^ Behavior ^
+| ''Direct'' (default) | Direct link to the image |
+| ''detail'' | Link to a web page with image details |
+| ''linkonly'' | Only the link is displayed, not the image |
+| ''nolink'' | No link is added around the image |
 
 
