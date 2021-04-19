@@ -43,6 +43,7 @@ This is a page that lists all releases with their respective changes for [[:star
   * New: A [[strap:layout|Layout]] by page can be specified. 
   * New: Edit button have been added for [[ui:card|card]] and [[ui:panel|panel]] making it easier to edit them.
   * New: [[ui:image|Image]] got the [[ui:image#defaultImageLinking|defaultImageLinking]] configuration to set the default media link behavior
+  * New: [[ui:image|Image]] with a ''width'' are media aware. The width will be 100% for a screen size below the ''width'' to make them fully responsive.
 
 ==== Version 1.12 - 2021-03-21 ====
 
