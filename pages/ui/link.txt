@@ -107,7 +107,7 @@ Windows Shares: [[\\server\share|this]]
 </webcode>
 ==== Image ====
 
-
+You can add an [[image|image]]
 <webcode name="Default" frameborder=0>
 <code dw>
 [[:start|{{:apple-touch-icon.png?50|}}]]
@@ -142,7 +142,7 @@ If you don't want that ''Combostrap'' changes the default link behavior, you can
 ==== enableMultiLinesLink ====
 By default, a link is allowed only on one line to avoid strange behavior.
 
-For instance, when you forget to close a combostrap link with ''%%]]%%'' because the link allows any syntax inside, an error may appear at the end of the document (such as the ''%%//%%'' of an external link ''https://example.com'' seen as //italic / emphasis syntax//)
+For instance, when you forget to close a combostrap link with ''%%]]%%'' because the link allows any syntax inside, an error may appear at the end of the document (such as the double forward slash ''%%//%%'' of an external link ''https://example.com'' may be seen as the //italic / emphasis syntax//)
 
 Most of the links are written on one line and to avoid any strange behavior, this component does not allow by default link to be written on more than one line.
 

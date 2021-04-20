@@ -46,7 +46,7 @@ where:
 ===== Example =====
 
 ==== Color ====
-All ''Background color'' value described in the [[color|color page are supported.
+All ''Background color'' value described in the [[color|color page are supported]].
 
 
 You can set a background color with:
