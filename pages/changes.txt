@@ -45,6 +45,7 @@ This is a page that lists all releases with their respective changes for [[:star
   * New: [[ui:image|Image]] got the [[ui:image#defaultImageLinking|defaultImageLinking]] configuration to set the default media link behavior
   * New: [[ui:image|Image]] with a ''width'' are media aware. The width will be 100% for a screen size below the ''width'' to make them fully responsive.
   * New: [[:security|Security]], the csp directive are not statically saved in the template but added dynamically when the html headers are printed. It helps to have uniform on all pages (main, details and mediamanager)
+  * New: A [[ui:link|Link]] by default cannot be written on  multiple line to avoid having strange behavior. The [[ui:link#enableMultiLinesLink|enableMultiLinesLink]] configuration permits to control this behavior.
 
 ==== Version 1.12 - 2021-03-21 ====
 
