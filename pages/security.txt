@@ -23,6 +23,13 @@ To prevent an [[kb>injection/attack|injection attack]]
   * every HTML output is escaped to prevent HTML/Javascript injection.
   * every SQL input is passed through parameters to prevent [[kb>sql/injection|SQL injection]]
 
+==== Content Security Policy ====
+
+We apply the [[https://w3c.github.io/webappsec-csp/|Content Security Policy framework]].
+
+By default, we disallow:
+    * the framing of the website to prevent clickjacking.
+    * the use of ''http'' and ''https'' at the same time
 ===== Dokuwiki =====
 ''Dokuwiki'' follows also this rules (see [[doku>devel:security]]). We are making use of the CSRF token functionality.
 
