@@ -24,7 +24,13 @@ They are mainly used in landing page where they separate and add contrast betwee
 <code dw>
 <slide size="md|sm|lg|xl">
    <background></background>
-    My Slide
+   <backgrounds>
+       <background></background>
+       ...
+       <background></background>
+   </backgrounds>
+   <separator></separator>
+   My Slide
 </slice>
 </code>
 where:
@@ -40,18 +46,12 @@ This is also an [[styling:html|super HTML component]] and accepts therefore all 
 </note>
 ===== Example =====
 
+==== Slide with a blue background ====
 
 <webcode name="Default" frameborder="0">
 <code dw>
-<slide border-color="blue" text-align="center">
-    <title 2>A slide</title>
-    <typo lead>
-**A unique collection of UI elements that are all flexible, modular and composable.  \\
-A complete solution to building a professional website.**
-     </typo>
-</slide>
 <slide color="white" text-align="center" background-color="blue">
-    <title 2>A second slide</title>
+    <title 2>A blue slide</title>
     <typo lead>
 **A unique collection of UI elements that are all flexible, modular and composable.  \\
 A complete solution to building a professional website.**
@@ -60,3 +60,8 @@ A complete solution to building a professional website.**
 
 </code>
 </webcode>
+
+
+===== Separator =====
+
+  * https://getwaves.io/

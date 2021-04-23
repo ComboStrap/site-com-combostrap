@@ -82,8 +82,7 @@ You can also use the [[https://getbootstrap.com/docs/5.0/utilities/background/|b
 </note>
 
 
-==== Separator ====
-  * https://getwaves.io/
+
 ==== Background Transformation ====
 
 
