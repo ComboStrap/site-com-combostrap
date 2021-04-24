@@ -48,3 +48,7 @@ You can defined it with the following [[semantic:frontmatter|frontmatter]]
 }
 </code>
 
+===== Documentation / Reference =====
+  * https://1linelayouts.glitch.me/
+  * https://www.cssportal.com/layout-generator/layout.php
+
