@@ -31,7 +31,7 @@ They are mainly used in landing page where they separate and add contrast betwee
    </backgrounds>
    <separator></separator>
    My Slide
-</slice>
+</slide>
 </code>
 where:
   * ''size'' defines the space around the text (''padding'') and is one of:

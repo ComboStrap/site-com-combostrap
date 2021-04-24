@@ -118,8 +118,6 @@ A complete solution to building a professional website.**
 
 
 
-
-
 <note>
 You can also use the [[https://getbootstrap.com/docs/5.0/utilities/background/|bootstrap background utility class]] in the [[class|class attribute]]
 </note>
@@ -129,21 +127,14 @@ You can also use the [[https://getbootstrap.com/docs/5.0/utilities/background/|b
 ==== Background Transformation ====
 
 
+<webcode name="Default" frameborder="0">
 <code dw>
-<background width="600px" height="600px" color="#00f1c9" radius="12px"></background>
+<slide>
+    <background width="600px" height="600px" color="#00f1c9" border-radius="12px"></background>
+</slide>
 </code>
-<code css>
-element.style {
-    transform: rotate(45deg) translateY(-100px) translateX(220px);
-    position: absolute;
-    width: 600px;
-    height: 600px;
-    background: #00f1c9;
-    border-radius: 12px;
-    z-index: -1;
-}
-/** or for coordinate margin-top: -220px; margin-left: 100px; **/
-</code>
+</webcode>
+
 
 [[https://getbootstrap.com/docs/5.0/utilities/position/|position]]
 
