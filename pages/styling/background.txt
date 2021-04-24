@@ -11,7 +11,7 @@
 ===== About =====
 The ''background'' element manage and add a background to its parent element.
 
-It's mostly used with [[ui:slide|slice component]] to create compelling landing page.
+It's mostly used with [[ui:slide|slide component]] to create compelling landing page.
 
 
 The ''background'' is defined as being the content plus the [[styling:spacing|padding]] (ie not the margin)
@@ -41,21 +41,44 @@ where:
   * ''height'': ''100vh'' the height of the screen (vh = viewport height)
   * ''z-index''
 
+==== color ====
+All [[color#name|color name]] are supported and also a [[#gradient|gradient]]
 
-
-===== Example =====
-
-==== Color ====
-All ''Background color'' value described in the [[color|color page are supported]].
+All ''color'' value described in the [[color|color page are supported]].
 
 
 You can set a background color with:
   * the [[#color attribute|color attribute of the background component]]
-  * or via the [[#backgroundcolor attribute|background color attribute]]
+  * or via the [[#background color attribute|background color attribute]]
 
-=== Color attribute ===
+
+=== Gradient ===
+[[:start|ComboStrap]] implements also a ''gradient'' color naming scheme in order to show a ''linear color gradient'' in the background.
+
+<badge>Since [[:changes|version 1.2]]</badge>
+
+If you want to have a gradient on your color, just add the ''gradient-'' prefix to a color value.
+
+Example with a [[ui:note|note]]:
 
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<note info background-color="gradient-light" >
+==== Linear Background Gradient Color ====
+
+A [[ui:note|info note]] with a ''light gradient color'' as background
+</note>
+</code>
+</webcode>
+
+
+
+===== Example =====
+
+
+==== Color attribute ====
+
+<webcode name="Default" frameborder="0">
 <code dw>
 <note info>
 <background color="gradient-light"/>
@@ -65,7 +88,7 @@ A info note with a ''light gradient color'' as background
 </code>
 </webcode>
 
-=== Background color attribute ===
+==== Background color attribute ====
 The ''background-color'' attribute is just a short cut.
 <webcode name="Default" frameborder="0">
 <code dw>
@@ -75,6 +98,26 @@ A info note with a background color set via the background-color attribute
 </note>
 </code>
 </webcode>
+
+==== Background image ====
+
+
+<webcode name="Default" frameborder="0">
+<code dw>
+<slide color="steelblue" text-align="center" >
+   <background>{{:ui:stock_image_surfer_in_the_see.png|}}</background>
+    <title 2>A blue slide</title>
+    <typo lead>
+**A unique collection of UI elements that are all flexible, modular and composable.  \\
+A complete solution to building a professional website.**
+     </typo>
+</slide>
+
+</code>
+</webcode>
+
+
+
 
 
 <note>

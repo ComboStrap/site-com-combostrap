@@ -45,24 +45,11 @@ The default Bootstrap colors are:
 {{:ui:bootstrap_default_color.png|}}
 
 
-==== Gradient ====
-[[:start|ComboStrap]] implements also a ''gradient'' color naming scheme in order to show a ''linear color gradient'' in the background.
-
-<badge>Since [[:changes|version 1.2]]</badge>
-
-If you want to have a gradient on your color, just add the ''gradient-'' prefix to a color value.
-
-Example with a [[ui:note|note]]:
-
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
-<code dw>
-<note info background-color="gradient-light" >
-==== Linear Background Gradient Color ====
-
-A [[ui:note|info note]] with a ''light gradient color'' as background
+<note>
+You can also use a [[https://drafts.csswg.org/css-color/#color-keywords|CSS Color name]].
 </note>
-</code>
-</webcode>
+
+
 
 ===== Info =====
 
