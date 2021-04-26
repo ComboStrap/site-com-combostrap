@@ -26,10 +26,10 @@ The ''background'' is defined as being the content plus the [[styling:spacing|pa
 </code>
 where:
   * ''image'' is an [[ui:image|image]]
-  * ''sizing'' defines the main image behavior:
-      * ''cover'' (default) Scale the image within its container, crop, if necessary
-      * ''single'': Show the image once (Spaces not covered are filled with the background-color)
-      * ''tile'': Repeat the image if the container is larger than the image
+  * ''filling'' defines how the image takes the space of its container.
+      * ''cover'' (default) - The image is scaled within its container and cropped, if necessary (ie responsive background)
+      * ''single'': The image is shown once and the spaces not covered are filled with the background-color.
+      * ''tile'': The image is repeated until the container is filled.
   * ''color'': a [[color|color value]]
   * ''opacity'' to bring depth level on color. By layer, below are typical values.
     * First: 0.15
@@ -38,18 +38,22 @@ where:
     * Fourth: 0.6
     * Fifth: 0.75
     * Sixth: 0.9
-  * ''height'': ''100vh'' the height of the screen (vh = viewport height)
-  * ''z-index''
+
+<note>
+If you set more than one background, the first background is the farthest. 
+</note>
 
 ==== color ====
-All [[color#name|color name]] are supported and also a [[#gradient|gradient]]
-
-All ''color'' value described in the [[color|color page are supported]].
-
 
 You can set a background color with:
   * the [[#color attribute|color attribute of the background component]]
   * or via the [[#background color attribute|background color attribute]]
+
+=== Name / Value ===
+
+All [[color#name|color name]] are supported . All ''color'' value described in the [[color|color page are supported]].
+
+
 
 
 === Gradient ===
@@ -60,28 +64,24 @@ You can set a background color with:
 If you want to have a gradient on your color, just add the ''gradient-'' prefix to a color value.
 
 Example with a [[ui:note|note]]:
-
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <note info background-color="gradient-light" >
-==== Linear Background Gradient Color ====
-
-A [[ui:note|info note]] with a ''light gradient color'' as background
+...
 </note>
 </code>
-</webcode>
+
 
 
 
 ===== Example =====
 
 
-==== Color attribute ====
+==== Color attribute  ====
 
 <webcode name="Default" frameborder="0">
 <code dw>
 <note info>
-<background color="gradient-light"/>
+<background color="gradient-light"></background>
 ==== Linear Background Gradient Color ====
 A info note with a ''light gradient color'' as background
 </note>
@@ -92,9 +92,10 @@ A info note with a ''light gradient color'' as background
 The ''background-color'' attribute is just a short cut.
 <webcode name="Default" frameborder="0">
 <code dw>
-<note info background-color="#6FE2E9" >
+<note info>
+<background color="#6FE2E9" />
 ==== Direct Background  Color ====
-A info note with a background color set via the background-color attribute
+A info note with a background color set via the color attribute of a background
 </note>
 </code>
 </webcode>
