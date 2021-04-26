@@ -130,14 +130,15 @@ You can also use the [[https://getbootstrap.com/docs/5.0/utilities/background/|b
 
 <webcode name="Default" frameborder="0">
 <code dw>
-<slide>
-    <background width="600px" height="600px" color="#00f1c9" border-radius="12px"></background>
+<slide height="300px" >
+    <background height="120%" color="steelblue" border-radius="12px"  transform="translateX(-40px) translateY(-150px) rotate(-10deg)" />
+    <title 3>A slide with a box background</title>
+    <typo align="right">This demo is showing how to add a rotated background color.</typo>
 </slide>
 </code>
 </webcode>
 
 
-[[https://getbootstrap.com/docs/5.0/utilities/position/|position]]
 
 ==== Svg with BgJar ====
 
