@@ -29,10 +29,10 @@ The ''align'' attribute on a box, supports the values:
 Example:
 <webcode name="Centered" >
 <code dw>
-<note tip align="center"  width="300px">
-=== Centered Tip ===
+<note tip align="right"  width="300px">
+=== Block to the right ===
 
-As every block by default takes the whole available [[dimension|width]], you need to add a [[dimension|width attribute]] when you want to center it.
+As every block by default takes the whole available [[dimension|width]], you need to add a [[dimension|width attribute]] when you want to align it.
 
 </note>
 </code>

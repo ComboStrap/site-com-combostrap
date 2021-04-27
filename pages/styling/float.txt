@@ -1,0 +1,59 @@
+---json
+{
+    "canonical":"float",
+    "title":"Float an element in ComboStrap",
+    "description":"Float permits to print text along the side of a component"
+}
+---
+====== ComboStrap Styling - Float ======
+
+
+===== About =====
+''float'' is a [[styling|styling attribute]] that allows content along the side of the ''floated'' component whereas an [[align|aligned component]] does not.
+
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Syntax =====
+
+<code dw>
+<component float="value">
+</code>
+where value is a composition of one of the below floated value separated by a space. 
+
+^ [[breakpoint|Breakpoint]] / Position ^ Left ^ Right ^ None ^ Default ^
+| ''xs'' | ''xs-left'' | ''xs-right'' | ''xs-none'' | ''xs-none'' |
+| ''sm'' | ''sm-left'' | ''sm-right'' | ''sm-none'' | - |
+| ''md'' | ''md-left'' | ''md-right'' | ''md-none'' | - |
+| ''lg'' | ''lg-left'' | ''lg-right'' | ''lg-none'' | - | 
+| ''xl'' | ''xl-left'' | ''xl-right'' | ''xl-none'' | - |
+| [[#floatDefaultBreakpoint|default breakpoint]] | ''left'' | ''right'' | ''none'' | - |
+
+
+===== Example =====
+
+==== Right ====
+A value of ''right'' will:
+  * float the element from the [[#floatDefaultBreakpoint|default breakpoint]]
+  * not float the element on the extra small device because of the ''xs'' device
+
+Example with a [[ui:blockquote|blockquote]]
+
+<webcode name="Default" frameborder="0">
+<code dw>
+
+<blockquote float="right" spacing="m-3">
+The true work does not reveal itself until you get into.
+</blockquote>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas leo erat, aliquam eu felis nec, sodales pretium mi. In dictum, dui non tincidunt finibus, nibh quam condimentum tortor, at scelerisque ex sem non quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur fermentum justo id ligula ultrices tincidunt tristique eu quam. Vestibulum porttitor quam at dui dictum luctus. Fusce ut risus a magna pretium aliquam non a arcu. Morbi eu cursus lacus.
+</code>
+</webcode>
+
+===== Configuration =====
+==== floatDefaultBreakpoint ====
+
+The [[:configuration|configuration]] ''floatDefaultBreakpoint'' defines the screen size that will be used for the floated value: ''left'', ''right'' and ''none''
+
+The installation value is [[breakpoint|sm (small) - ≥576px]]
+

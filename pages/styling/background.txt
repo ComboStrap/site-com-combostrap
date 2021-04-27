@@ -54,14 +54,13 @@ You can set a background color with:
 All [[color#name|color name]] are supported . All ''color'' value described in the [[color|color page are supported]].
 
 
-
-
 === Gradient ===
 [[:start|ComboStrap]] implements also a ''gradient'' color naming scheme in order to show a ''linear color gradient'' in the background.
 
 <badge>Since [[:changes|version 1.2]]</badge>
 
 If you want to have a gradient on your color, just add the ''gradient-'' prefix to a color value.
+
 
 Example with a [[ui:note|note]]:
 <code dw>
@@ -73,6 +72,10 @@ Example with a [[ui:note|note]]:
 
 
 
+<note important>
+Because the gradient generated a image, you can't use a gradient color and an image at the same time in a background element.
+You just need to add another background.
+</note>
 ===== Example =====
 
 

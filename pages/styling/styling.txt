@@ -40,6 +40,8 @@ The ''standard'' attributes are:
   * [[styling:spacing|Spacing]] - Master your layout at the pixel-perfect details
   * [[color|Color]] - Text, Border and Background color made easy with name and declarative gradient
   * [[styling:shadow|Elevation]] - Add a shadow and elevate your component
+  * [[float|Float]] - Position a component to the right or left and let the content flows along its side
+  * [[position|Position]] - Position a component inside a container
 
 <note>
 === For the Geek ===

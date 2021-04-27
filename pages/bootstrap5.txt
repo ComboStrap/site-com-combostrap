@@ -36,7 +36,7 @@ The [[styling:stylesheet|Bootswatch stylesheet theme]] are not yet available for
 
 ===== New =====
   * [[https://getbootstrap.com/docs/5.0/getting-started/rfs/|Responsive Font size]] is on by default.
-  * [[https://getbootstrap.com/docs/5.0/layout/containers/|The container xxl!]] - You can have a width of 1320 on large screen
+  * [[https://getbootstrap.com/docs/5.0/layout/containers/|The container xxl!]] [[styling:breakpoint|breakpoint]]- You can have a width of 1320 on large screen
   * [[https://getbootstrap.com/docs/5.0/layout/grid/#row-columns|Natural Auto Width for a grid column]] - we support it with the [[ui:grid|row auto type]]
   * [[https://getbootstrap.com/docs/5.0/utilities/position/|Position]] more position utility class already supported (in Bootstrap version 4) via the [[styling:position|position attribute]].
 ===== Changes preserved  =====

@@ -1,0 +1,27 @@
+---json
+{
+    "canonical":"breakpoint",
+    "title":"Breakpoint - Responsive Design",
+    "description":"A breakpoint allows to created conditional styling / design"
+}
+---
+====== ComboStrap Styling - breakpoint ======
+
+
+===== About =====
+''combostrap'' follows the breakpoints of [[strap:bootstrap|bootstrap]] (even if you have created your [[bootstrap|own custom bootstrap]])
+
+
+
+===== List =====
+
+^ Breakpoint ^ Prefix ^ Default Dimensions ^
+| X-Small | xs | <576px |
+| Small | sm | ≥576px |
+| Medium | md | ≥768px |
+| Large | lg | ≥992px |
+| Extra large | xl | ≥1200px |
+| Extra extra large \\ (only with [[strap:bootstrap#version|bootstrap 5]]) | xxl | ≥1400px  |
+
+===== Documentation / Reference =====
+  * https://getbootstrap.com/docs/5.0/layout/breakpoints/

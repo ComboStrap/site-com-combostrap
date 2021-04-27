@@ -74,14 +74,13 @@ Resizing to a given height is not needed because the image are by default respon
 Raster images are automatically resized below the screen size. For more information, see the [[raster#automatic_responsive_resizing|Raster - Automatic Resizing feature]]
 </note>
 
-==== Align  ====
+==== Position ====
 
+  * To position the image to the left, let no space, this is the default
+  * To position the image to the center with a [[styling:align#center|center block]], let a space at the left and at the right
+  * To position the image to the right with a [[styling:float#right|right float]], let a space at the left
 
-  * To align to the right (ie float), let a space at the left
-  * To align to the left, let no space, this is the default
-  * To align to the center, let a space at the left and at the right
-
-Example: align the image to the right with:
+Example: position the image to the right with:
   * a width of 300
   * a [[styling:color|background-color of white]]
   * and a padding of 3 (''p-3'') with [[styling:spacing|spacing]]
@@ -92,8 +91,7 @@ Example: align the image to the right with:
 </webcode>
 
 <note>
-  * If you want more control on position, we advise you to use the [[ui:grid|grid]] and its columns.
-  * The ''align'' parameter applies the same effect than the [[styling:align#block|align attribute for a component]]
+If you want more control on position, we advise you to use the [[ui:grid|grid]] and its columns.
 </note>
 
 
