@@ -22,11 +22,11 @@ The ''background'' is defined as being the content plus the [[styling:spacing|pa
 
 
 <code dw>
-<background sizing="single|tile|cover">{{image}}</background>
+<background fill="single|tile|cover">{{image}}</background>
 </code>
 where:
   * ''image'' is an [[ui:image|image]]
-  * ''filling'' defines how the image takes the space of its container.
+  * ''fill'' defines how the image takes the space of its container.
       * ''cover'' (default) - The image is scaled within its container and cropped, if necessary (ie responsive background)
       * ''single'': The image is shown once and the spaces not covered are filled with the background-color.
       * ''tile'': The image is repeated until the container is filled.
