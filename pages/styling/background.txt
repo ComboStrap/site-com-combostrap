@@ -47,7 +47,8 @@ If you set more than one background, the first background is the farthest.
 
 You can set a background color with:
   * the [[#color attribute|color attribute of the background component]]
-  * or via the [[#background color attribute|background color attribute]]
+  * via the [[#background color attribute|background color attribute]]
+  * or any [[https://getbootstrap.com/docs/5.0/utilities/background/|bootstrap background utility class]] in the [[class|class attribute]]
 
 === Name / Value ===
 
@@ -108,7 +109,7 @@ A info note with a background color set via the color attribute of a background
 
 <webcode name="Default" frameborder="0">
 <code dw>
-<slide color="steelblue" text-align="center" >
+<slide color="#033865" text-align="center" >
    <background>{{:ui:stock_image_surfer_in_the_see.png|}}</background>
     <title 2>A blue slide</title>
     <typo lead>
@@ -122,9 +123,7 @@ A complete solution to building a professional website.**
 
 
 
-<note>
-You can also use the [[https://getbootstrap.com/docs/5.0/utilities/background/|bootstrap background utility class]] in the [[class|class attribute]]
-</note>
+
 
 
 
