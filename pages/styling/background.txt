@@ -22,15 +22,14 @@ The ''background'' is defined as being the content plus the [[styling:spacing|pa
 
 
 <code dw>
-<background fill="single|tile|cover">{{image}}</background>
+<background fill="cover|tile" color="value" opacity="0 to 1" scroll="local|fixed">{{image}}</background>
 </code>
 where:
   * ''image'' is an [[ui:image|image]]
   * ''fill'' defines how the image takes the space of its container.
       * ''cover'' (default) - The image is scaled within its container and cropped, if necessary (ie responsive background)
-      * ''single'': The image is shown once and the spaces not covered are filled with the background-color.
       * ''tile'': The image is repeated until the container is filled.
-  * ''color'': a [[color|color value]]
+  * ''color'': a [[color|color value]] - if you have set an image, the color value is seen while the image is loading.
   * ''opacity'' to bring depth level on color. By layer, below are typical values.
     * First: 0.15
     * Second: 0.3
@@ -38,9 +37,13 @@ where:
     * Fourth: 0.6
     * Fifth: 0.75
     * Sixth: 0.9
+  * ''scroll'': the scroll effect - how the background is moving while scrolling
+      * ''local'': the image is moving with its container
+      * ''fixed'': the image stays at the same position on the screen
+
 
 <note>
-If you set more than one background, the first background is the farthest. 
+If you set more than one background, the first background in the list is the farthest on the stack. 
 </note>
 
 ==== color ====
@@ -106,15 +109,14 @@ A info note with a background color set via the color attribute of a background
 
 ==== Background image ====
 
-
 <webcode name="Default" frameborder="0">
 <code dw>
-<slide color="#033865" text-align="center" >
-   <background>{{:ui:stock_image_surfer_in_the_see.png|}}</background>
+<slide color="steelblue" text-align="center" >
+   <background opacity="0.7">{{:ui:stock_image_surfer_in_the_see.png|}}</background>
     <title 2>A blue slide</title>
     <typo lead>
-**A unique collection of UI elements that are all flexible, modular and composable.  \\
-A complete solution to building a professional website.**
+**A blue slide with a little bit of opacity on the background image to increase contrast with the heading.  \\
+A complete solution to building great landing pages.**
      </typo>
 </slide>
 
@@ -125,20 +127,6 @@ A complete solution to building a professional website.**
 
 
 
-
-
-==== Background Transformation ====
-
-
-<webcode name="Default" frameborder="0">
-<code dw>
-<slide height="300px" >
-    <background height="120%" color="steelblue" border-radius="12px"  transform="translateX(-40px) translateY(-150px) rotate(-10deg)" />
-    <title 3>A slide with a box background</title>
-    <typo align="right">This demo is showing how to add a rotated background color.</typo>
-</slide>
-</code>
-</webcode>
 
 
 
@@ -171,8 +159,8 @@ Create a background based on a tile
 
 <webcode name="Default" frameborder="0">
 <code dw>
-<slide text-align="center">
-{{:styling:patternico.png|}}
+<slide text-align="center" height="25vh">
+<background fill="tile">{{:styling:patternico.png|}}</background>
 <title>An Pattern Icon Tile</title>
 </slide>
 </code>
