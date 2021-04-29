@@ -14,7 +14,10 @@ The ''background'' element manage and add a background to its parent element.
 It's mostly used with [[ui:slide|slide component]] to create compelling landing page.
 
 
-The ''background'' is defined as being the content plus the [[styling:spacing|padding]] (ie not the margin)
+The ''background'' is defined as being the content plus the [[styling:spacing|padding]] but not the margin.
+
+
+<badge>Since [[:changes#1.13|version 1.13]]</badge>
 ===== Articles Related =====
 {{backlinks>.}}
 
@@ -30,7 +33,7 @@ where:
       * ''cover'' (default) - The image is scaled within its container and cropped, if necessary (ie responsive background)
       * ''tile'': The image is repeated until the container is filled.
   * ''color'': a [[color|color value]] - if you have set an image, the color value is seen while the image is loading.
-  * ''opacity'' to bring depth level on color. By layer, below are typical values.
+  * ''opacity'' to bring depth level on color. Value goes from ''1'' (no opacity, default) to ''0'', completely opaque, not visible). By layer, below are typical values.
     * First: 0.15
     * Second: 0.3
     * Third: 0.45
@@ -80,10 +83,11 @@ Example with a [[ui:note|note]]:
 Because the gradient generated a image, you can't use a gradient color and an image at the same time in a background element.
 You just need to add another background.
 </note>
-===== Example =====
 
 
-==== Color attribute  ====
+===== Color =====
+
+==== Uniform Color ====
 
 <webcode name="Default" frameborder="0">
 <code dw>
@@ -95,7 +99,7 @@ A info note with a ''light gradient color'' as background
 </code>
 </webcode>
 
-==== Background color attribute ====
+
 The ''background-color'' attribute is just a short cut.
 <webcode name="Default" frameborder="0">
 <code dw>
@@ -107,12 +111,21 @@ A info note with a background color set via the color attribute of a background
 </code>
 </webcode>
 
-==== Background image ====
+
+==== Gradient Color ====
+
+  * https://gradienta.io/
+  * https://www.gradientmagic.com/
+
+
+===== Raster Image =====
+
+==== Raster Cover ====
 
 <webcode name="Default" frameborder="0">
 <code dw>
 <slide color="steelblue" text-align="center" >
-   <background opacity="0.7">{{:ui:stock_image_surfer_in_the_see.png|}}</background>
+   <background opacity="0.3">{{:ui:stock_image_surfer_in_the_see.png|}}</background>
     <title 2>A blue slide</title>
     <typo lead>
 **A blue slide with a little bit of opacity on the background image to increase contrast with the heading.  \\
@@ -123,18 +136,60 @@ A complete solution to building great landing pages.**
 </code>
 </webcode>
 
+You will find plenty of background image on image bank such as:
+  * https://unsplash.com/
+  * https://www.pexels.com/
+  * https://stocksnap.io/
+
+
+==== Raster Tile ====
+Create a tile background based on a [[ui:raster|raster image]] that represents a pattern.
+
+  * [[https://patternico.com/|Patterns icon]]
+<webcode name="Default" frameborder="0">
+<code dw>
+<slide text-align="center" height="20vh">
+<background fill="tile" opacity="0.5">{{:styling:patternico.png|}}</background>
+<title 3>**A tile background based on icons**</title>
+</slide>
+</code>
+</webcode>
+  * [[http://thepatternlibrary.com/#subway-lines|The pattern library subway lines]]
+<webcode name="Default" frameborder="0">
+<code dw>
+<slide text-align="center" height="25vh">
+<background fill="tile" opacity="0.1">{{:styling:subway-lines.png}}</background>
+<title 2 color="#3669b3">A tile background based on subway lines</title>
+</slide>
+</code>
+</webcode>
+
+You will find plenty of tile patterns generator on the web such as
+  * [[https://www.toptal.com/designers/subtlepatterns/|SubtlePatterns]]
+  * [[https://www.transparenttextures.com/|Transparent textures]]
 
 
 
+===== Svg  =====
+
+==== Svg Cover ====
+[[https://bgjar.com/|bgjar]] can generate a lot of different type of [[ui:svg|svg]] background cover 
+
+Example with a [[https://bgjar.com/stacked-wave.html|stacked wave]] where the color was changed with [[https://randomcolor.lllllllllllllllll.com/|attractive colors]].
+
+<webcode name="Default" frameborder="0">
+<code dw>
+<slide>
+<background>{{ :styling:stacked_wave.svg|}}</background>
+<title 1>A svg background cover</title>
+<typo lead>Thanks to [[https://bgjar.com/|bgjar]]</typo>
+</slide>
+</code>
+
+</webcode>
 
 
-
-
-==== Svg with BgJar ====
-
-  * https://bgjar.com/
-
-==== Direct Styling with heropatterns ====
+==== Svg Tile ====
 [[https://www.heropatterns.com/|heropatterns]] is a list of background pattern that can be ''tiled''.
 
 In their generator, they offers the styling declaration that you can use directly within the [[styling:style#style|style element]].
@@ -152,36 +207,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 </webcode>
 
 
-==== A icon tile with pattern icon ====
-Create a background based on a tile
 
-
-
-<webcode name="Default" frameborder="0">
-<code dw>
-<slide text-align="center" height="25vh">
-<background fill="tile">{{:styling:patternico.png|}}</background>
-<title>An Pattern Icon Tile</title>
-</slide>
-</code>
-</webcode>
-
-List of tile repository:
-  * [[https://patternico.com/|Patterns icon]]
-  * [[https://www.toptal.com/designers/subtlepatterns/|SubtlePatterns]]
-  * [[https://www.transparenttextures.com/|Transparent textures]]
-
-==== Full Image with the pattern library ====
-
-[[http://thepatternlibrary.com/#subway-lines]]
-
-{{:styling:subway-lines.png?400|}}
-
-==== Gradient ====
-  * https://gradienta.io/
-  * https://www.gradientmagic.com/
-
-==== CSS Pattern ====
+===== CSS Pattern =====
 
 https://bansal.io/pattern-css :
   * based on four css properties linear-gradient, radial-gradient, repeating-linear-gradient and repeating-radial-gradient
@@ -195,14 +222,6 @@ Example:
     background: repeating-linear-gradient(45deg, transparent, transparent 10px, currentColor 10px, currentColor calc(2 * 10px));
 }
 </code>
-==== Image ====
-  * https://unsplash.com/
-  * https://www.pexels.com/
-  * https://stocksnap.io/
 
 
-==== Parallax ====
-https://entervjday.appspot.com/
-===== Documentation / Reference =====
-  * [[https://getbootstrap.com/docs/4.6/utilities/image-replacement/|Bootstrap Text for background image]]
 
