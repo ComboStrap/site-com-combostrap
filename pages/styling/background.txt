@@ -190,7 +190,20 @@ Example with a [[https://bgjar.com/stacked-wave.html|stacked wave]] where the co
 
 
 ==== Svg Tile ====
-[[https://www.heropatterns.com/|heropatterns]] is a list of background pattern that can be ''tiled''.
+When a [[ui:svg|svg]] is used as ''tile'', you can set its color.
+
+
+Example with [[https://www.heropatterns.com/|heropatterns]] where 
+  * the foreground color can be set on the svg 
+  * the background color can be set with the color attribute of the background element
+<webcode name="Default" frameborder="0">
+<code dw>
+<slide text-align="center" color="white">
+<background color="#DFDBE5">{{:styling:jigsaw.svg?color=#9C92AC|}}</background>
+<title 1>An Svg tile based on Hero pattern</title>
+</slide>
+</code>
+</webcode>
 
 In their generator, they offers the styling declaration that you can use directly within the [[styling:style#style|style element]].
 
