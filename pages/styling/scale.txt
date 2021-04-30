@@ -22,9 +22,7 @@ This scale is used for ''font'' and [[styling:spacing|spacing]]
 ===== Responsive =====
 Every browser sets a value of ''16px'' for one ''rem'' and does not take into account the [[styling:breakpoint|screen size]].
 
-Therefore a big title will not adapt to a small screen and may take the whole screen. Below is an screenshot where we can see the effect on a mobile phone with a title that was not scaled down. The title takes the whole screen and also overflow.
 
-{{:styling:example_not_responsive_length.png|}}
 
 
 ==== Boostrap4 ====

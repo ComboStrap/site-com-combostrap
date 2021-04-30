@@ -92,9 +92,9 @@ You just need to add another background.
 <webcode name="Default" frameborder="0">
 <code dw>
 <note info>
-<background color="gradient-light"></background>
-==== Linear Background Gradient Color ====
-A info note with a ''light gradient color'' as background
+<background color="light"></background>
+==== Background Color ====
+A info note with a ''light color'' as background
 </note>
 </code>
 </webcode>
@@ -184,7 +184,6 @@ Example with a [[https://bgjar.com/stacked-wave.html|stacked wave]] where the co
 <slide>
 <background>{{ :styling:stacked_wave.svg|}}</background>
 <title 1>A svg background cover</title>
-<typo lead>Thanks to [[https://bgjar.com/|bgjar]]</typo>
 </slide>
 </code>
 
