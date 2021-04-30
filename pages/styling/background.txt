@@ -173,9 +173,11 @@ You will find plenty of tile patterns generator on the web such as
 ===== Svg  =====
 
 ==== Svg Cover ====
+A [[ui:svg|svg]] can be used as ''background cover''. Their dimension are constraint only by their parent.
+
 [[https://bgjar.com/|bgjar]] can generate a lot of different type of [[ui:svg|svg]] background cover 
 
-Example with a [[https://bgjar.com/stacked-wave.html|stacked wave]] where the color was changed with [[https://randomcolor.lllllllllllllllll.com/|attractive colors]].
+Example with a [[https://bgjar.com/stacked-wave.html|stacked wave]] where the colors were changed with [[https://randomcolor.lllllllllllllllll.com/|attractive colors]].
 
 <webcode name="Default" frameborder="0">
 <code dw>
@@ -190,22 +192,22 @@ Example with a [[https://bgjar.com/stacked-wave.html|stacked wave]] where the co
 
 
 ==== Svg Tile ====
-When a [[ui:svg|svg]] is used as ''tile'', you can set its color.
+A [[ui:svg|svg]] can also be used as a ''background tile''. They got by default a size of ''192px''
 
-
-Example with [[https://www.heropatterns.com/|heropatterns]] where 
+Below is an example on how to use a [[ui:svg|svg]] as a ''tile'' background with a [[https://www.heropatterns.com/|the heropatterns jigsaw tile pattern]] where 
   * the ''foreground color'' is just the color of the svg (ie ''color=#9C92AC'')
   * the ''background color'' is the background color (ie ''color="#DFDBE5"'')
+  * the ''opacity'' is the just the background ''opacity''
+  * the ''size'' was adjusted to ''50px''
 <webcode name="Default" frameborder="0">
 <code dw>
 <slide text-align="center">
-<background fill="tile" color="#DFDBE5">{{:styling:jigsaw.svg?150&color=#9C92AC|}}</background>
-<title 1>An Svg tile based on Hero pattern</title>
+<background fill="tile" color="#DFDBE5" opacity="0.3">{{:styling:jigsaw.svg?50&color=#9C92AC|}}</background>
+<title 1>An Svg Tile Based on Hero Pattern</title>
 </slide>
 </code>
 </webcode>
 
-In their generator, they offers the styling declaration that you can use directly within the [[styling:style#style|style element]].
 
 
 

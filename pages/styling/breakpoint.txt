@@ -9,19 +9,40 @@
 
 
 ===== About =====
+''breakpoints'' allows to create different designs based on the screen size of the browser.  You can apply styling attribute conditionally.
+
+Each breakpoints defines the maximum width of the screen for a property to be applied.
+
 ''combostrap'' follows the breakpoints of [[strap:bootstrap|bootstrap]] (even if you have created your [[bootstrap|own custom bootstrap]])
 
 
 
+===== Articles Related =====
+{{backlinks>.}}
+
+
 ===== List =====
 
-^ Breakpoint ^ Prefix ^ Default Dimensions ^
+==== Bootstrap 5 ====
+
+^ Breakpoint ^ Prefix ^ Apply to browser size ^
 | X-Small | xs | <576px |
 | Small | sm | ≥576px |
 | Medium | md | ≥768px |
 | Large | lg | ≥992px |
 | Extra large | xl | ≥1200px |
-| Extra extra large \\ (only with [[strap:bootstrap#version|bootstrap 5]]) | xxl | ≥1400px  |
+| Extra extra large \\ (new with [[strap:bootstrap#version|bootstrap 5]]) | xxl | ≥1400px  |
+
+
+==== Bootstrap 4 ====
+
+^ Code ^ Name ^ Device ^ Default \\ Value for a 12 grid columns  ^ Value for a [[strap:dynamic_grid|16 grid columns]] ^
+| xs (Default) | Extra Small | Mobile Phone | 0 | 0 |
+| sm | Small | Ipad | 576px | 576px |
+| md | Medium | Ipad Pro | 768px | 768px |
+| lg | Large | Desktop | 992px | 992px |
+| xl | Extra Large | Large Desktop | 1200px | 1280px |
+
 
 ===== Documentation / Reference =====
   * https://getbootstrap.com/docs/5.0/layout/breakpoints/

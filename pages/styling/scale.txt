@@ -4,34 +4,49 @@
 }
 ---
 
-====== ComboStrap Styling - Length Scale (Size Scale) - Responsive Typo ======
+====== ComboStrap Styling - Length Scale (Size Scale) - Responsive Sizing ======
 
 ===== About =====
-Every length expressed in a [[styling:spacing#spacing class name|spacing class name]] are scale based.
+Every length are scaled based on what's called the [[kb>rem|rem (Root Emphemeral Unit)]] which is equal by default to ''16px''.
 
 The scale is going:
   * from ''1'' for a length value of ''.25rem'' 
   * to ''5'' for a length value of ''3rem'' 
 
-where 1 ''rem'' [[kb>rem|Root Equal M]] unit which is equal to by default ''16px''.
 
 
+This scale is used for ''font'' and [[styling:spacing|spacing]]
 ===== Articles Related =====
 {{backlinks>.}}
 
-===== Configuration =====
-You can change the value of 1 rem with the ''rem'' configuration of the [[:strap:strap|strap template]]
+===== Responsive =====
+Every browser sets a value of ''16px'' for one ''rem'' and does not take into account the [[styling:breakpoint|screen size]].
 
+Therefore a big title will not adapt to a small screen and may take the whole screen. Below is an screenshot where we can see the effect on a mobile phone with a title that was not scaled down. The title takes the whole screen and also overflow.
+
+{{:styling:example_not_responsive_length.png|}}
+
+
+==== Boostrap4 ====
+
+[[bootstrap|Bootstrap4]] does not vary this value depending on the [[styling:breakpoint|screen size]] [[https://getbootstrap.com/docs/4.3/content/typography/#responsive-font-sizes|by default]], ''ComboStrap'' does it.
 
 
 {{:ui:rem_strap_conf.png|}}
 
 
-===== Bootstrap =====
-[[:bootstrap5|Bootstrap]] version 5 has introduced the [[https://getbootstrap.com/docs/5.0/getting-started/rfs/|RFS module (Responsive Font Sizes)]] that reacts also to styling properties with unit values like:
+==== Bootstrap 5 ====
+
+[[:bootstrap5|Bootstrap version 5]] does implement responsive size [[https://getbootstrap.com/docs/5.0/content/typography/#responsive-font-sizes|by default]]. ''ComboStrap'' does not apply therefore the fix of [[#Bootstrap 4]]
+
+It has introduced the [[https://getbootstrap.com/docs/5.0/getting-started/rfs/|RFS module (Responsive Font Sizes)]] that reacts also to styling properties with unit values like:
   * [[styling:spacing|margin, padding]], 
   * [[styling:border|border-radius]], 
   * or even [[styling:shadow|box-shadow]].
 
-===== Documentation / Reference =====
-  * [[https://getbootstrap.com/docs/4.0/content/typography/#responsive-typography|Responsive Typo]]
+
+
+
+
+
+

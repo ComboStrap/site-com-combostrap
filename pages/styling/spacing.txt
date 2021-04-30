@@ -59,7 +59,7 @@ where:
           * ''r'': right
           * ''t'': top
           * ''b'': bottom
-  * ''breakpoint'' is the [[ui:breakpoint|Breakpoint (Toggle size)]] : xs, sm, md, lg
+  * ''breakpoint'' is the [[styling:breakpoint|Breakpoint (Toggle size)]] : xs, sm, md, lg
   * ''size'' is 0,1,2,3,4 or 5 (based on [[styling:scale|size scale]])
 
 <note tip>

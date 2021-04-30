@@ -22,7 +22,10 @@ If they have:
 
 
 <note>
-This features apply also to the [[icon|icon component]]
+This features apply also to the following SVG:
+  * [[icon|icon]]
+  * [[styling:background#svg_cover|background svg cover]]
+  * [[styling:background#svg_tile|background svg tile]]
 </note>
 
 
