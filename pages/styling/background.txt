@@ -194,12 +194,12 @@ When a [[ui:svg|svg]] is used as ''tile'', you can set its color.
 
 
 Example with [[https://www.heropatterns.com/|heropatterns]] where 
-  * the foreground color can be set on the svg 
-  * the background color can be set with the color attribute of the background element
+  * the ''foreground color'' is just the color of the svg (ie ''color=#9C92AC'')
+  * the ''background color'' is the background color (ie ''color="#DFDBE5"'')
 <webcode name="Default" frameborder="0">
 <code dw>
-<slide text-align="center" color="white">
-<background fill="tile" color="#DFDBE5">{{:styling:jigsaw.svg?80x80&color=#9C92AC|}}</background>
+<slide text-align="center">
+<background fill="tile" color="#DFDBE5">{{:styling:jigsaw.svg?150&color=#9C92AC|}}</background>
 <title 1>An Svg tile based on Hero pattern</title>
 </slide>
 </code>
