@@ -47,6 +47,7 @@ This is a page that lists all releases with their respective changes for [[:star
   * New: [[:security|Security]], the csp directive are not statically saved in the template but added dynamically when the html headers are printed. It helps to have uniform on all pages (main, details and mediamanager)
   * New: A [[ui:link|Link]] by default cannot be written on  multiple line to avoid having strange behavior. The [[ui:link#enableMultiLinesLink|enableMultiLinesLink]] configuration permits to control this behavior.
   * New: [[styling:float|float]] - the float styling attribute has been added.
+  * New: [[ui:typo|Typo]] - the title styling class ''display-1'' to ''display-6'' are now responsive.
 
 ==== Version 1.12 - 2021-03-21 ====
 
