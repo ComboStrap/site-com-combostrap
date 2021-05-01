@@ -9,12 +9,19 @@
 
 
 ===== About =====
-The ''background'' element manage and add a background to its parent element.
+The ''background'' element defines and adds a background to its parent element.
 
 It's mostly used with [[ui:slide|slide component]] to create compelling landing page.
 
+You can create ''cover'' or ''tile'' background with:
+  * [[#raster image|raster image]]
+  * [[#svg|svg]]
+  * [[#color|color (uniform or gradient)]]
+  * [[#css pattern|css pattern]]
 
-The ''background'' is defined as being the content plus the [[styling:spacing|padding]] but not the margin.
+<note>
+The ''background'' area is the content plus the [[styling:spacing|padding]] but not the margin.
+</note>
 
 
 <badge>Since [[:changes#1.13|version 1.13]]</badge>
@@ -25,14 +32,22 @@ The ''background'' is defined as being the content plus the [[styling:spacing|pa
 
 
 <code dw>
-<background fill="cover|tile" color="value" opacity="0 to 1" scroll="local|fixed">{{image}}</background>
+<background 
+     fill="cover|tile" 
+     color="value" 
+     pattern="name"
+     pattern-color="colorValue"
+     opacity="0 to 1" 
+     scroll="local|fixed"
+     >{{image}}</background>
 </code>
 where:
-  * ''image'' is an [[ui:image|image]]
+  * ''image'' is to use an [[ui:image|image]] ([[#raster]] or [[#svg]]) as background
   * ''fill'' defines how the image takes the space of its container.
       * ''cover'' (default) - The image is scaled within its container and cropped, if necessary (ie responsive background)
       * ''tile'': The image is repeated until the container is filled.
-  * ''color'': a [[color|color value]] - if you have set an image, the color value is seen while the image is loading.
+  * ''color'': defines a background [[color|color]] - if you have set an image, the color value is seen while the image is loading.
+  * ''pattern'' and ''pattern-color'' are used to define the [[#css pattern]] name and color respectively.
   * ''opacity'' to bring depth level on color. Value goes from ''1'' (no opacity, default) to ''0'', completely opaque, not visible). By layer, below are typical values.
     * First: 0.15
     * Second: 0.3
@@ -94,7 +109,7 @@ You just need to add another background.
 <note info>
 <background color="light"></background>
 ==== Background Color ====
-A info note with a ''light color'' as background
+A info note with a bootstrap light color as background
 </note>
 </code>
 </webcode>
@@ -103,10 +118,9 @@ A info note with a ''light color'' as background
 The ''background-color'' attribute is just a short cut.
 <webcode name="Default" frameborder="0">
 <code dw>
-<note info>
-<background color="#6FE2E9" />
+<note info background-color="#6FE2E9">
 ==== Direct Background  Color ====
-A info note with a background color set via the color attribute of a background
+A info note with the background-color attribute
 </note>
 </code>
 </webcode>
@@ -218,11 +232,11 @@ with the following syntax.
 
 
 <code dw>
-<background pattern="name[-size]" color="colorValue" color-pattern="colorValue" />
+<background pattern="name[-size]" color="colorValue" pattern-color="colorValue" />
 </code>
 where:
   * ''color'' is the background color
-  * ''color-pattern'' is the color of the pattern
+  * ''pattern-color'' is the color of the pattern
   * ''pattern'' is the pattern ''name'' with its optional ''size''. The possible values are listed below.
 
 ^ Name ^ Size ^
@@ -245,7 +259,7 @@ Example:
 <webcode name="Default" frameborder="0">
 <code dw>
 <slide>
-   <background pattern="vertical-lines" color="#FACB0E" color-pattern="#FDE482" />
+   <background pattern="vertical-lines" color="#FACB0E" pattern-color="#FDE482" />
    <title 1>A slide with verticale line Css Pattern</title>
 </slide>
 </code>
