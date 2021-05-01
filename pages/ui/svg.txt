@@ -62,7 +62,7 @@ Below is an example of an illustrative image with a:
 
 <webcode name="Default" frameborder="0">
 <code dw>
-{{ :combostrap:background:object-multicolor.svg?400&onHover=float&shadow=md |}}
+{{ :combostrap:background:object-multicolor.svg?600&onHover=float&shadow=md |}}
 </code>
 </webcode>
 
@@ -71,9 +71,9 @@ If you don't have an icon in your library, the [[icon|icon component]] is more s
 
 
 Example of an svg icon with a:
-  * ''type=icon'' that makes it behave as [[icon|icon]]
-  * ''width'' of 30
-  * ''steelblue'' [[styling:color|color]]
+  * ''type=icon'' that makes it behave as an [[icon|icon]]
+  * ''size'' of 30
+  * and a ''steelblue'' [[styling:color|color]]
 
 
 <webcode name="Default" frameborder="0">

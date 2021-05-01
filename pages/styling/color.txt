@@ -92,5 +92,5 @@ and this one for a [[ui:note#primary|primary note]]
 
 
 ===== Documentation / Reference =====
-  * https://getbootstrap.com/docs/4.0/getting-started/theming/#color
+  * [[https://getbootstrap.com/docs/4.0/getting-started/theming/#color|Bootstrap color]]
 

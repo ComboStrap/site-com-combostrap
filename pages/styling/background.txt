@@ -182,7 +182,7 @@ Example with a [[https://bgjar.com/stacked-wave.html|stacked wave]] where the co
 <webcode name="Default" frameborder="0">
 <code dw>
 <slide>
-<background>{{ :styling:stacked_wave.svg|}}</background>
+<background>{{:styling:stacked_wave.svg|}}</background>
 <title 1>A svg background cover</title>
 </slide>
 </code>
@@ -213,17 +213,28 @@ Below is an example on how to use a [[ui:svg|svg]] as a ''tile'' background with
 
 ===== CSS Pattern =====
 
-https://bansal.io/pattern-css :
-  * based on four css properties linear-gradient, radial-gradient, repeating-linear-gradient and repeating-radial-gradient
-  * built with two colors only:
-      * transparent: the transparent color allows to see the background color
-      * currentColor: the current active color inside a element. 
+CSS Pattern are pre-created background created directly via CSS.
+
+We supports the following pattern from the [[https://bansal.io/pattern-css|css pattern library]]
+  * ''checks''
+  * ''grid''
+  * ''dots''
+  * ''cross-dots''
+  * ''diagonal-lines''
+  * ''horizontal-lines''
+  * ''vertical-lines''
+  * ''diagonal-stripes''
+  * ''horizontal-stripes''
+  * ''vertical-stripes''
+  * ''triangles''
+  * ''zigzag''
 
 Example:
-<code css>
-.pattern-diagonal-stripes-sm {
-    background: repeating-linear-gradient(45deg, transparent, transparent 10px, currentColor 10px, currentColor calc(2 * 10px));
-}
+<code dw>
+<slide>
+   <background pattern="vertical-lines-md" color="#FACB0E" color-pattern="#FDE482" />
+   <title 1>A slide with verticale line Css Pattern</title>
+</slide>
 </code>
 
 
