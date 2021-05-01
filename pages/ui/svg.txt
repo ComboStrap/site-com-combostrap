@@ -29,8 +29,36 @@ This features apply also to the following SVG:
 </note>
 
 
+===== Syntax =====
+
+Svg is just an image and follows therefore the same syntax than a [[image|Image]]
+
+<code dw>
+{{[ ]svg_path?WxH&att=value[ ]}}
+</code>
+
+A ''svg'' accepts all [[styling:styling|styling attributes]].
+
+You can change the svg type with one of the below ''type'' attribute.
+
+^ Type value ^ Default ^ Used as ^ Seen as  ^
+|  | Yes | [[styling:background#svg_cover|background cover]] and illustration | Illustrative Image |
+| ''icon'' | | [[icon|icon]] | Character (width = height and default to 24px) |
+| ''tile''  | | [[styling:background#svg_tile|background tile]] | Icon with a default dimension of 192px |
+
+
 ===== Example =====
 
+==== Illustration ====
+
+All ''svg'' are used by default as illustrative image that:
+  * takes all space available
+  * and are responsive
+
+Below is an example of an illustrative image with a:
+  * ''width'' of ''400px''
+  * [[styling:hover|hover animation]]
+  * [[styling:shadow|shadow]]
 
 <webcode name="Default" frameborder="0">
 <code dw>
@@ -38,6 +66,21 @@ This features apply also to the following SVG:
 </code>
 </webcode>
 
+==== Icon ====
+If you don't have an icon in your library, the [[icon|icon component]] is more suited but if you already have uploaded an icon, you can also use it with the ''svg syntax''
+
+
+Example of an svg icon with a:
+  * ''type=icon'' that makes it behave as [[icon|icon]]
+  * ''width'' of 30
+  * ''steelblue'' [[styling:color|color]]
+
+
+<webcode name="Default" frameborder="0">
+<code dw>
+{{:combostrap:icons:bs:emoji-wink.svg?30&type=icon&color=steelblue|Emoji wink}}
+</code>
+</webcode>
 
 
 ===== Features =====
