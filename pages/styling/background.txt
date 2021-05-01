@@ -213,29 +213,43 @@ Below is an example on how to use a [[ui:svg|svg]] as a ''tile'' background with
 
 ===== CSS Pattern =====
 
-CSS Pattern are pre-created background created directly via CSS.
+CSS Pattern are pre-created background created directly via CSS. ''ComboStrap'' supports the [[https://bansal.io/pattern-css|css pattern library]]
+with the following syntax.
 
-We supports the following pattern from the [[https://bansal.io/pattern-css|css pattern library]]
-  * ''checks''
-  * ''grid''
-  * ''dots''
-  * ''cross-dots''
-  * ''diagonal-lines''
-  * ''horizontal-lines''
-  * ''vertical-lines''
-  * ''diagonal-stripes''
-  * ''horizontal-stripes''
-  * ''vertical-stripes''
-  * ''triangles''
-  * ''zigzag''
+
+<code dw>
+<background pattern="name[-size]" color="colorValue" color-pattern="colorValue" />
+</code>
+where:
+  * ''color'' is the background color
+  * ''color-pattern'' is the color of the pattern
+  * ''pattern'' is the pattern ''name'' with its optional ''size''. The possible values are listed below.
+
+^ Name ^ Size ^
+| ''checks''  | ''sm'' (small) |
+| ''grid'' | ''md'' (medium, default) |
+| ''dots'' | ''lg'' (large) |
+| ''cross-dots'' | ''xl'' (extra-large) |
+| ''diagonal-lines'' | |
+| ''horizontal-lines'' | |
+| ''vertical-lines'' | |
+| ''diagonal-stripes'' | |
+| ''horizontal-stripes'' | |
+| ''vertical-stripes'' | |
+| ''triangles'' | |
+| ''zigzag'' | |
+
+
 
 Example:
+<webcode name="Default" frameborder="0">
 <code dw>
 <slide>
-   <background pattern="vertical-lines-md" color="#FACB0E" color-pattern="#FDE482" />
+   <background pattern="vertical-lines" color="#FACB0E" color-pattern="#FDE482" />
    <title 1>A slide with verticale line Css Pattern</title>
 </slide>
 </code>
+</webcode>
 
 
 
