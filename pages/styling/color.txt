@@ -1,3 +1,10 @@
+---json
+{
+    "canonical":"color",
+    "title":"Color - How to specify a Color Value on ComboStrap Component",
+     "description":"Color management in ComboStrap"
+}
+---
 ====== ComboStrap Styling - Color ======
 
 
@@ -89,6 +96,7 @@ and this one for a [[ui:note#primary|primary note]]
     border-color: #b8daff;
 }
 </code>
+
 
 
 ===== Documentation / Reference =====
