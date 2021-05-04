@@ -5,7 +5,7 @@
     "description":"From lazy loading to automatic resizing, this page tells you how ComboStrap manages raster image"
 }
 ---
-====== ComboStrap - Raster Images ======
+====== ComboStrap UI - Raster Images ======
 
 
 ===== About =====

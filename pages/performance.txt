@@ -2,7 +2,8 @@
 {
     "canonical":"performance",
     "title":"What makes the ComboStrap performance so fast",
-    "description":"This article explains the secret sauce of the ComboStrap performance and what you should avoid in order to not degrade it."
+    "description":"This article explains the secret sauce of the ComboStrap performance and what you should avoid in order to not degrade it.",
+    "layout":"median"
 }
 ---
 ====== ComboStrap - Perfomance ======
@@ -62,6 +63,6 @@ All raster images (jpg, png, ...) are also automatically loaded with the appropr
 
 If a page contains an big image (say 1200px),  this image will be resized to 300px on a small mobile screen.
 
-Check the [[ui:raster#automatic responsive sizing|demonstration]]
+Check the [[ui:raster#automatic_responsive_resizing|demonstration]]
 
 
