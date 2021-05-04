@@ -1,0 +1,225 @@
+---json
+{
+    "canonical":"color:generator",
+    "title":"Attractive Color generator",
+    "description":"A attractive color generator to pimp your design"
+}
+---
+====== ComboStrap Styling - Color Generator ======
+
+
+===== About =====
+While styling your design, the choice of [[color|colors]] is always primordial.
+
+This color generator will pimp your design by generating random attractive color based on [[https://randomcolor.lllllllllllllllll.com/|random Color]]
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Generator =====
+
+
+<webcode name="ColorGenerator" frameborder="0" renderingMode="onlyResult" height="1600px">
+<code html>
+<link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+          integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/randomcolor/0.6.1/randomColor.min.js"
+            integrity="sha512-vPeZ7JCboHcfpqSx5ZD+/jpEhS4JpXxfz9orSvAPPj0EKUVShU2tgy7XkU+oujBJKnWmu4hU7r9MMQNWPfXsYw=="
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/js/bootstrap-select.min.js"></script>
+</code>
+<code css>
+.swatch {
+            display: inline-flex;
+            border-radius: 50%;
+            margin: 1rem;
+            padding: 1rem;
+            height: 5rem;
+}
+
+.text {
+            display: flex;
+            margin: auto;
+            align-self: center;
+}
+</code>
+<code javascript>
+let generateColors = function (event) {
+    // to stop the submit process and to not get a 404
+    event.preventDefault();
+    // debugger;
+    // delete the content
+    let output = document.querySelector("output");
+    while (output.firstChild) {
+        output.firstChild.remove()
+    }
+    let form = event.target;
+
+    // https://github.com/davidmerfield/randomColor#options
+    let hue = form.hue.value;
+    let count = form.count.value;
+    let luminosity = form.luminosity.value;
+    let seed = form.seed.value;
+    let format = form.format.value;
+    let alpha = form.alpha.value;
+    let config = {
+        hue: hue,
+        count: count,
+        luminosity: luminosity,
+        seed: seed,
+        format: format,
+        alpha: alpha,
+    };
+    output.insertAdjacentHTML("beforeend",
+        `<p>The colors were generated with the following parameters:</p>
+<table class="table" style="width: auto !important;">
+<tr><th>Hue</th><td>${hue}</td><th>Luminosity</th><td>${luminosity}</td></tr>
+<tr><th>Count</th><td>${count}</td><th>Seed</th><td>${seed}</td></tr>
+<tr><th>Format</th><td>${format}</td><th>Alpha</th><td>${alpha}</td></tr>
+</table>`
+    );
+    randomColor(config).forEach(color => {
+        output
+            .insertAdjacentHTML(
+                'beforeend',
+                '<div class="swatch" style="background: ' + color + ';"><div class="text">' + color + '</div></div>'
+            );
+    });
+}
+
+
+window.onload = function () {
+
+    // Submit with default value to see the color colors
+    document.forms[0].requestSubmit();
+
+    // Attach change event on radio button
+    document.getElementsByName("hue-type").forEach(
+        element => {
+            element.addEventListener("click", function (event) {
+                let value = event.target.value;
+                let select = document.getElementById("color-hue-name");
+                let hex = document.getElementById("color-hue-hex");
+                switch (value) {
+                    case "name":
+                        select.parentElement.className = "dropdown bootstrap-select align-self-center d-flex";
+                        select.setAttribute("form","color-generator");
+                        hex.className = "d-none";
+                        hex.removeAttribute("form");
+                        break;
+                    case "hex":
+                        select.parentElement.className = "d-none";
+                        select.removeAttribute("form");
+                        hex.className = "align-self-center d-flex p-0 m-0";
+                        hex.setAttribute("form","color-generator");
+                        break;
+                }
+            })
+        }
+
+    );
+};
+</code>
+<code html>
+    <div class="form-group row">
+        <div class="col-sm-3">
+            <label class="col-form-label d-block">Color Value</label>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type=radio name="hue-type" required value="name" checked>
+                <label class="form-check-label">Name (Color Name)</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type=radio name="hue-type" required value="hex">
+                <label class="form-check-label">Hex (Hexadecimal Color, ex #00FFFF)</label>
+            </div>
+        </div>
+        <div class="col-sm-9 d-flex">
+            <select form="color-generator" class="selectpicker align-self-center d-flex" name="hue" id="color-hue-name"
+                    data-live-search="true">
+                <option style="background-color:#dae0e5;color: red;">red</option>
+                <option style="background-color:#dae0e5;color: orange;">orange</option>
+                <option style="background-color:#dae0e5;color: yellow;">yellow</option>
+                <option style="background-color:#dae0e5;color: green;">green</option>
+                <option style="background-color:#dae0e5;color: blue;" selected>blue</option>
+                <option style="background-color:#dae0e5;color: purple;">purple</option>
+                <option style="background-color:#dae0e5;color: deeppink;">pink</option>
+                <option style="background-color:#dae0e5;color: dimgray;">monochrome</option>
+                <option style="background-color:#dae0e5;color: dimgray;">random</option>
+            </select>
+            <input type="color" class="d-none" name="hue" value="#00FFFF" id="color-hue-hex"
+                   style="min-width:220px">
+        </div>
+    </div>
+    <form id="color-generator" onSubmit="generateColors(event)">
+        <div class="form-group row">
+            <label class="col-sm-3 align-self-center d-flex" for="color-luminosity">Color Luminosity</label>
+            <div class="col-sm-9">
+                <select class="selectpicker align-self-center d-flex" name="luminosity" id="color-luminosity"
+                        data-live-search="true">
+                    <option>bright</option>
+                    <option selected>light</option>
+                    <option>dark</option>
+                    <option>random</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-3 align-self-center d-flex" for="color-count">Color Count</label>
+            <div class="col-sm-9">
+                <input name="count" type="number" id="color-count" value="20" class="btn btn-light text-left"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-3 align-self-center d-flex" for="color-seed">Random Seed (Integer or string)</label>
+            <div class="col-sm-9">
+                <input name="seed" type="number" id="color-seed" value="1" class="btn btn-light text-left"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-sm-3 align-self-center d-flex">
+                <label for="color-alpha">
+                    Color Alpha <br>
+                    <i>(A decimal between 0 and 1)</i>
+                </label>
+            </div>
+            <div class="col-sm-9">
+                <input name="alpha" type="number" id="color-alpha" value="0.01" step=".01"
+                       class="btn btn-light text-left"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-3 align-self-center d-flex" for="color-format">Color Format Output</label>
+            <div class="col-sm-9">
+                <!--                <input name="format" type="text" id="color-format" list="color-formats" value="hex"/>-->
+                <select class="selectpicker align-self-center d-flex" name="format" id="color-format"
+                        data-live-search="true">
+                    <option>hex</option>
+                    <option>rgb</option>
+                    <option>rgba</option>
+                    <option>rgbArray</option>
+                    <option>hsl</option>
+                    <option>hsla</option>
+                    <option>hslArray</option>
+                </select>
+            </div>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit form</button>
+    </form>
+
+    <output>
+    </output>
+
+</code>
+</webcode>
+
+
+===== Documentation / Reference =====
+  * The color generation engine is [[https://github.com/davidmerfield/randomColor|randomColor generator]]

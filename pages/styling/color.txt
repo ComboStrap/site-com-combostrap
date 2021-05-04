@@ -97,6 +97,9 @@ and this one for a [[ui:note#primary|primary note]]
 }
 </code>
 
+===== Generator =====
+Generating or choosing attractive color is not easy. The [[color_generator|color generator]] may help you in this task.
+
 
 
 ===== Documentation / Reference =====

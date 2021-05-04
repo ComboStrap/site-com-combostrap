@@ -19,9 +19,6 @@ You can create ''cover'' or ''tile'' background with:
   * [[#color|color (uniform or gradient)]]
   * [[#css pattern|css pattern]]
 
-<note>
-The ''background'' area is the content plus the [[styling:spacing|padding]] but not the margin.
-</note>
 
 
 <badge>Since [[:changes#1.13|version 1.13]]</badge>
@@ -61,47 +58,24 @@ where:
 
 
 <note>
-If you set more than one background, the first background in the list is the farthest on the stack. 
+  * If you set more than one background, the first background in the list is the farthest on the stack. 
+  * The ''background'' area is the content plus the [[styling:spacing|padding]] but not the margin.
 </note>
 
-==== color ====
-
-You can set a background color with:
-  * the [[#color attribute|color attribute of the background component]]
-  * via the [[#background color attribute|background color attribute]]
-  * or any [[https://getbootstrap.com/docs/5.0/utilities/background/|bootstrap background utility class]] in the [[class|class attribute]]
-
-=== Name / Value ===
-
-All [[color#name|color name]] are supported . All ''color'' value described in the [[color|color page are supported]].
-
-
-=== Gradient ===
-[[:start|ComboStrap]] implements also a ''gradient'' color naming scheme in order to show a ''linear color gradient'' in the background.
-
-<badge>Since [[:changes|version 1.2]]</badge>
-
-If you want to have a gradient on your color, just add the ''gradient-'' prefix to a color value.
-
-
-Example with a [[ui:note|note]]:
-<code dw>
-<note info background-color="gradient-light" >
-...
-</note>
-</code>
 
 
 
-
-<note important>
-Because the gradient generated a image, you can't use a gradient color and an image at the same time in a background element.
-You just need to add another background.
-</note>
 
 
 ===== Color =====
 
+
+You can set a background color with:
+  * the ''color'' attribute of the background component
+  * via the ''background-color attribute'' on all component
+  * or any [[https://getbootstrap.com/docs/5.0/utilities/background/|bootstrap background utility class]] in the [[class|class attribute]]
+
+All ''color'' value (name and hex) described in the [[color|color page are supported]].
 ==== Uniform Color ====
 
 <webcode name="Default" frameborder="0">
@@ -127,9 +101,34 @@ A info note with the background-color attribute
 
 
 ==== Gradient Color ====
+[[:start|ComboStrap]] implements also a ''gradient'' color naming scheme in order to show a ''linear color gradient'' in the background.
 
+<badge>Since [[:changes|version 1.2]]</badge>
+
+If you want to have a gradient on your color, just add the ''gradient-'' prefix to a [[color|color value]].
+
+
+Example with a ''light gradient'' background.
+<webcode name="Default" frameborder="0">
+<code dw>
+<slide background-color="gradient-light">
+=== A gradient light slide ===
+</slide>
+</code>
+</webcode>
+
+
+
+If you want to have full gradient customization, you can add a gradient css style in the [[styling:userstyle|userstyle]] 
+
+The below css style gradient generator may help you in this task.
   * https://gradienta.io/
   * https://www.gradientmagic.com/
+
+<note important>
+Because the gradient generated a image, you can't use a gradient color and an image at the same time in a background element.
+You just need to add another background.
+</note>
 
 
 ===== Raster Image =====
@@ -191,7 +190,7 @@ A [[ui:svg|svg]] can be used as ''background cover''. Their dimension are constr
 
 [[https://bgjar.com/|bgjar]] can generate a lot of different type of [[ui:svg|svg]] background cover 
 
-Example with a [[https://bgjar.com/stacked-wave.html|stacked wave]] where the colors were changed with [[https://randomcolor.lllllllllllllllll.com/|attractive colors]].
+Example with a [[https://bgjar.com/stacked-wave.html|stacked wave]] where the colors were changed with [[color_generator|attractive colors]].
 
 <webcode name="Default" frameborder="0">
 <code dw>
