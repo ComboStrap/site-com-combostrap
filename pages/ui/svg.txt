@@ -56,7 +56,7 @@ All ''svg'' are used by default as illustrative image that:
   * and are responsive
 
 Below is an example of an illustrative image with a:
-  * ''width'' of ''400px''
+  * ''width'' of ''600px''
   * [[styling:hover|hover animation]]
   * [[styling:shadow|shadow]]
 
