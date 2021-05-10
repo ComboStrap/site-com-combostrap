@@ -41,7 +41,7 @@ To check your installation, in a php environment, you make use of the ''phpinfo'
 You can the output:
   * via the command line
 <code bash>
-php -i
+php -m
 </code>
   * via a php page, created at the root of your server. If you create the ''phpinfo.php'' with the below code, it will be accessible at http://host/phpinfo.php
 <code php phpinfo.php>
