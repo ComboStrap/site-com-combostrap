@@ -4,7 +4,7 @@
 }
 ---
 
-====== Strap Styling - StyleSheet ======
+====== ComboStrap Styling - StyleSheet ======
 
 ===== A propos =====
 

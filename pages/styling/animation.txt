@@ -5,7 +5,7 @@
     "description":"ComboStrap offers animation such as on scroll and on hover. This article list them all."
 }
 ---
-====== Styling - Animation ======
+====== ComboStrap Styling - Animation ======
 
 
 ===== About =====

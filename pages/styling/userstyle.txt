@@ -1,4 +1,4 @@
-====== Styling - User stylesheet (userstyle.css) ======
+====== ComboStrap Styling - User stylesheet (userstyle.css) ======
 
 ===== Userstyle =====
 
