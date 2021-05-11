@@ -9,7 +9,7 @@
 
 
 <note tip>
-The style attribute and component are low level to [[styling:styling|style your components]]. If you just need to change a property, check the [[styling:styling|high level attribute]].
+The style attribute and component are low level access to [[styling:styling|style your components]]. If you just need to change a property, check the [[styling:styling|high level attribute]].
 </note>
 ===== Articles Related =====
 {{backlinks>.}}
@@ -39,30 +39,3 @@ A centered card with a centered white text against a purple background
 </code>
 </webcode>
 
-==== Style ====
-
-The ''style'' component is an component that contains CSS declarations that will be applied to its parent component. 
-
-This is an utility component that:
-  * makes it easier to apply a serie of CSS declarations.
-  * supports the element state (ie ''active'',''focus'',''hover'',...)
-  * is XHTML compliant. The declarations are brought into the HTML ''head'' if needed.
-
-<badge>Since [[:changes#1.13|version 1.13]]</badge>
-
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
-<code dw>
-<card>
-    <style state="hover">
-        color:white;
-        background-color:purple;
-    </style>
-A card with another style when you hover over it.
-</card>
-</code>
-</webcode>
-
-
-<note tip>
-This is an example of [[hover#custom|custom hover animation]] but you can use the [[hover|built-in ones]] to animate your component and brings more emphasis.
-</note>

@@ -142,8 +142,10 @@ Control the more emphasis of your button by using the [[styling:skin|skin attrib
 
 <webcode name="ButtonSize" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
-<btn skin="outline" >Little emphasis</btn>
-<btn skin="contained" >Full emphasis</btn>
+<btn skin="contained" >Extra High emphasis</btn>
+<btn skin="filled">High emphasis</btn>
+<btn skin="outline" >Medium emphasis</btn>
+<btn skin="text">Low emphasis</btn>
 </code>
 </webcode>
 

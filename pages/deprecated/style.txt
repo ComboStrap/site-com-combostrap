@@ -1,0 +1,39 @@
+---json
+{
+    "layout":"median"
+}
+---====== Deprecated - Style ======
+
+
+
+===== About =====
+
+<note warning>
+Deprecated
+</note>
+
+The ''style'' component is an component that contains CSS declarations that will be applied to its parent component. 
+
+This is an utility component that:
+  * makes it easier to apply a serie of CSS declarations.
+  * supports the element state (ie ''active'',''focus'',''hover'',...)
+  * is XHTML compliant. The declarations are brought into the HTML ''head'' if needed.
+
+
+
+<webcode name="Default" frameborder=0>
+<code dw>
+<card>
+    <style state="hover">
+        color:white;
+        background-color:purple;
+    </style>
+A card with another style when you hover over it.
+</card>
+</code>
+</webcode>
+
+
+<note tip>
+This is an example of [[styling:hover#custom|custom hover animation]] but you can use the [[styling:hover|built-in ones]] to animate your component and brings more emphasis.
+</note>

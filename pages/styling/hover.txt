@@ -24,7 +24,7 @@ To add an ''hover animation'', add a ''onHover'' attribute with the name of your
 ===== Animation =====
 ==== Float ====
 
-When you want to add [[styling:shadow]]|dynamic elevation]], you can use the ''float'' animation
+When you want to add [[styling:shadow|dynamic elevation]], you can use the ''float'' animation
 
 <webcode name="Default" frameborder="0">
 <code dw>
@@ -52,7 +52,7 @@ A zoom-in / grow animated icon - <icon width="50px" height="50px" onHover="grow"
 
 ==== Shadow====
 
-You can use the [[styling:shadow#syntax]]|shadow animation name]] to add a shadow on hover.
+You can use the [[styling:shadow#syntax|shadow animation name]] to add a shadow on hover.
 
 <webcode name="Default" frameborder="0">
 <code dw>
@@ -64,7 +64,7 @@ You can use the [[styling:shadow#syntax]]|shadow animation name]] to add a shado
 
 ==== Float Shadow ====
 
-You can combine the effects, example with ''float'' and a [[styling:shadow]]|shadow]]
+You can combine the effects, example with ''float'' and a [[styling:shadow|shadow]]
 
 <webcode name="Default" frameborder="0">
 <code dw>
@@ -90,7 +90,7 @@ We support the ''hover.css''naming standard.
 Example:
 <webcode name="Default" frameborder="0">
 <code dw>
-<button onHover="underline-from-left">A hover underline from left animated button</button>
+<button onHover="underline-from-left" skin="text">A hover underline from left animated button</button>
 </code>
 </webcode>
 
@@ -105,25 +105,6 @@ If you underline problems, you can also [[#custom|add your own]].
 ===== Custom =====
 
 
-==== Inline ====
-
-To test or create a single animation, you can use the [[styling:style#style|style component]]
-
-
-Example with the ''fade'' like background transition of [[https://ianlunn.github.io/Hover/|hover.css]].
-<webcode name="Fade" frameborder="0">
-<code dw>
-<button>
-    <style state="hover">
-    background-color: #FFF;
-    color: #2098D1;
-    transition-duration: 0.4s;
-    transition-property: color, background-color;
-    </style>
-A button animated with a fade background transition
-</button>
-</code>
-</webcode>
 
 ==== Custom: Bootstrap Class ====
 
@@ -166,4 +147,35 @@ If you want to create an animation for yourself, add the CSS class rules in the 
 
 
 
+
+
+Example with the ''fade'' like background transition of [[https://ianlunn.github.io/Hover/|hover.css]].
+<webcode name="Fade" frameborder="0">
+  * The css in the [[styling:userstyle|userstyle stylesheet]]
+<code css userstyle.css>
+button.animated:hover {
+    background-color: #FFF;
+    color: #2098D1;
+    transition-duration: 0.4s;
+    transition-property: color, background-color;
+}
+</code>
+<code css display="none">
+button {
+    background-color: #007bff;
+    color: #FFF;
+    border-color: #007bff;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+</code>
+  * In your page
+<code html>
+<button class="animated">
+A button animated with a fade background transition
+</button>
+</code>
+  * Result:
+</webcode>
 

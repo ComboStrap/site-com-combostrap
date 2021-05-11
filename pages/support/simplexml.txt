@@ -78,7 +78,7 @@ sudo yum install php-xml
   * not configured in the ''php.ini''. Make sure that you see it in the extension.
 
 <box elevation="high" align="center" width="fit-content">
-{{:support:simplexml_phpinfo_ini_parsed.png?800|}}
+{{:support:simplexml_phpinfo_ini_parsed.png|}}
 </box>
 
 

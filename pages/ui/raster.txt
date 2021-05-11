@@ -32,7 +32,7 @@ For instance, an [[styling:shadow|elevated]] photography with a surfer and a [[s
 
 ===== Features =====
 ==== Lazy loading ====
-By default, the raster image are [[:lazy|lazy loaded]] meaning that they are downloaded only when they are on the screen or going to enter on the screen.
+By default, the raster image are [[:lazy|lazy loaded]] meaning that they are downloaded only when they are on the screen or going to be visible on the screen.
 
 You can disable this feature with the [[#rasterImageLazyLoadingEnable]] configuration.
 ==== Automatic Responsive Resizing ====

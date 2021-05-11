@@ -1,3 +1,11 @@
+---json
+{
+    "canonical":"card",
+    "title":"ComboStrap UI - Creating a card",
+     "description":"A card is a box composed of an image, a text and a call to action"
+}
+---
+
 ====== ComboStrap UI - Card ======
 
 ===== About =====
@@ -49,7 +57,7 @@ A ''card'':
 <webcode name="Card1" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <card style="width: 18rem;">
-{{:teaser_image_1.png?30|}}
+{{:teaser_image_1.png?200|}}
 
 === Teaser Title  ===
 A example taken from [[https://getbootstrap.com/docs/4.3/components/card/#example|the bootstrap quick example]] on how to build a card title in order to make up the bulk of the teaser content.
@@ -65,7 +73,7 @@ At first, ''teaser'' was the first name of card and you may still [[teaser|use i
 <webcode name="Card2" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <teaser style="width: 18rem;">
-{{teaser_image_2.jpg?25|}}
+{{teaser_image_2.jpg?200|}}
 === Teaser Title  ===
 A example taken from [[https://getbootstrap.com/docs/4.3/components/card/#example|the bootstrap quick example]] on how to build a card title in order to make up the bulk of the teaser content.
 <btn spacing="my-3">[[card|Go to this page !]]</btn>

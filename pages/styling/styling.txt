@@ -42,6 +42,7 @@ The ''standard'' attributes are:
   * [[styling:shadow|Elevation]] - Add a shadow and elevate your component
   * [[float|Float]] - Position a component to the right or left and let the content flows along its side
   * [[position|Position]] - Position a component inside a container
+  * [[clickable|Clickable]] - Make a whole component such as a card clickable
 
 <note>
 === For the Geek ===

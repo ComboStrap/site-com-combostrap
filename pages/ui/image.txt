@@ -46,7 +46,7 @@ where:
       * for an external image: the URL.
   * ''W'' is the width (0 is not supported)
   * ''H'' is the height (Optional)
-  * ''[ ]'' are optional spaces that indicates the alignement of the image (left or right)
+  * ''[ ]'' are optional spaces that indicates the alignement of the image (left, center, right float)
   * ''att=value'' is one or more [[styling:styling|styling attributes]]
 
 
@@ -55,9 +55,10 @@ where:
 
 ==== Resize to a given width ====
 
+
 To resize to a given width, add a number.
 
-Example of the image resized to ''400px''
+Example of an image resized to ''400px''
 <webcode name="Default" frameborder="0">
 <code dw>
 {{:ui:stock_image_surfer_in_the_see.png?400|}}
@@ -65,14 +66,12 @@ Example of the image resized to ''400px''
 </webcode>
 
 
-
-
-
 Resizing to a given height is not needed because the image are by default responsive and will adapt to their container. Therefore, setting an height is not supported.
 
 <note>
 Raster images are automatically resized below the screen size. For more information, see the [[raster#automatic_responsive_resizing|Raster - Automatic Resizing feature]]
 </note>
+
 
 ==== Position ====
 
