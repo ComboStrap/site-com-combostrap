@@ -21,13 +21,13 @@ You can also choose an [[accordion|accordion]] as another navigational collapsib
 
 ===== Syntax =====
 A ''tabs'' component is composed of:
-  * a serie of [[panel|panel]] 
+  * a serie of [[panel|panel]]
   * that must have a ''label'' element.
   * and optionally the ''selected'' attribute to specify the ''selected'' [[panel|panel]]
   * with a ''type'' attribute that may take the value:
-      * [[#tabs]] (default) 
+      * [[#tabs]] (default)
       * [[#pills]]
-      * [[#enclosed-tabs]] 
+      * [[#enclosed-tabs]]
       * [[#enclosed-pills]]
 <code dw>
 <tabs type>
@@ -56,9 +56,9 @@ A ''tabs'' component is composed of:
      Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.
     </panel>
     <panel selected="true">
-    <label>syntaxes</label>
+    <label>syntaxes {{:ui:code-square.png?24&nolink|}}</label>
         Other syntax are also accepted. Example with a table: \\ \\
-        
+
 ^ UI Components ^ Description ^
 | [[ui:badge|badge]] | A small status descriptors |
 | [[ui:note|note]] | A paragraph that is parenthetic or ancillary to the main text. |
@@ -74,12 +74,12 @@ A ''tabs'' component is composed of:
 
 <webcode name="Pills" frameborder=0 >
 <code dw>
-<tabs skin="pills">
+<tabs pills>
     <panel selected="true">
         <label>Home</label>
          ==== My Home ====
-         Raw denim you probably haven't heard of them jean [[https://combostrap.com/tabs|shorts Austin]]. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, 
-         williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. 
+         Raw denim you probably haven't heard of them jean [[https://combostrap.com/tabs|shorts Austin]]. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor,
+         williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid.
          Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.
      </panel>
      <panel>
@@ -99,8 +99,8 @@ A ''tabs'' component is composed of:
     <panel selected="true">
         <label>Home</label>
          ==== My Home ====
-         Raw denim you probably haven't heard of them [[https://combostrap.com|jean shorts Austin]]. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, 
-         williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. 
+         Raw denim you probably haven't heard of them [[https://combostrap.com|jean shorts Austin]]. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor,
+         williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid.
          Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.
          </panel>
          <panel>
@@ -120,8 +120,8 @@ A ''tabs'' component is composed of:
     <panel selected="true">
         <label>Home</label>
          ==== My Home ====
-         Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, 
-         williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. 
+         Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor,
+         williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid.
          Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.
          </panel>
          <panel>

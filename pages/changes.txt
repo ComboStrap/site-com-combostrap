@@ -16,6 +16,9 @@ This is a page that lists all releases with their respective changes for [[:star
 
 
 ==== Version 1.13 - Snapshot ====
+
+Todo: add comment at [[https://github.com/splitbrain/dokuwiki/issues/3356|ticket]]
+
   * New: added the [[styling:hover|hover animation]] to improve emphasis
   * New: added the [[ui:slide|slide component]] to create horizontal hero region with alternated background
   * New: added the [[styling:background|background component]] to manage the background of a component (at first for a [[ui:slide|slide]])
