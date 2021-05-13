@@ -230,6 +230,7 @@ First release.
 
 ===== Note=====
 
+  * [[https://www.dokuwiki.org/include_hooks|include-Hooks]] (meta)
   * [[https://aerolab.github.io/midnight.js/|Midnights]] ([[https://github.com/Aerolab/midnight.js|code]]) [[strap:fixed-top-navbar|fix topbar]] with differents colors depending on the background
   * Don't redirect missing [[:strap:bar|bars]]
   * [[semantic:article|Article]] role:
