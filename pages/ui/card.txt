@@ -54,15 +54,14 @@ A ''card'':
 
 ==== A Full Card (image, title, content, button styled) ====
 
-<webcode name="Card1" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="Card1" frameborder=0>
 <code dw>
-<card style="width: 18rem;">
-{{:teaser_image_1.png?200|}}
-
+<card width="18rem">
+{{:teaser_image_1.png|}}
 === Teaser Title  ===
 A example taken from [[https://getbootstrap.com/docs/4.3/components/card/#example|the bootstrap quick example]] on how to build a card title in order to make up the bulk of the teaser content.
 
-<btn spacing="my-3">[[:start|Go to the best plugin on the universe !]]</btn>
+<btn>[[:start|Go to the best plugin on the universe !]]</btn>
 </card>
 </code>
 
@@ -72,11 +71,11 @@ A example taken from [[https://getbootstrap.com/docs/4.3/components/card/#exampl
 At first, ''teaser'' was the first name of card and you may still [[teaser|use it]].
 <webcode name="Card2" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
-<teaser style="width: 18rem;">
-{{teaser_image_2.jpg?200|}}
+<teaser width="18rem">
+{{teaser_image_2.jpg|}}
 === Teaser Title  ===
 A example taken from [[https://getbootstrap.com/docs/4.3/components/card/#example|the bootstrap quick example]] on how to build a card title in order to make up the bulk of the teaser content.
-<btn spacing="my-3">[[card|Go to this page !]]</btn>
+<btn>[[card|Go to this page !]]</btn>
 </teaser>
 </code>
 </webcode>
@@ -87,9 +86,9 @@ A example taken from [[https://getbootstrap.com/docs/4.3/components/card/#exampl
 ''Card'' may include other [[ui|component]]. Example with [[related|related]]
 
 
-<webcode name="Card2" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="Card2" frameborder=0>
 <code dw>
-<teaser style="width: 18rem;">
+<teaser width="18rem">
 === Backlinks in Card ===
 This pages are talking about this subject:
 <related/>
@@ -115,7 +114,6 @@ A [[styling:align|centered box]] with a dark background [[styling:color|color]] 
 <btn light>
 [[styling:styling|Check it out !]]
 </btn>
-
 </card>
 </code>
 </webcode>
