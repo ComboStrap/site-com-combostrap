@@ -26,7 +26,7 @@ a product that makes website design, creation and management, \\ unique, easy an
 </slide>
 
 
-<slide size="xl">
+<slide size="sm">
 
 <card-columns class="mb-3">
 
