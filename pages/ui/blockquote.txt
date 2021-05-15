@@ -115,7 +115,7 @@ You can wrap a typographic blockquote in a card in order to add an image header 
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <card width="18rem">
-{{teaser_image_2.jpg?25|}}
+{{teaser_image_2.jpg|}}
 <header>True Work</header>
 <blockquote typo class="mb-0">
 The true work does not reveal itself until you get into.
