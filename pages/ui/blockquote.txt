@@ -111,7 +111,7 @@ The true work does not reveal itself until you get into.
 </code>
 </webcode>
 ==== In a card ====
-You can wrap a typographic blockquote in a card in order to add an image header .
+You can wrap a typographic blockquote in a [[card|card]] in order to add an image header .
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <card width="18rem">
