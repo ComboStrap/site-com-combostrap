@@ -19,7 +19,7 @@
   * New: [[ui:webcode|webcode]] outputs iframe for page syntax in order to demonstrate the [[styling:sticky|sticky attribute]]
   * New: the [[styling:sticky|Sticky attribute]] - Stick sidebar components on your page
   * New: the [[styling:position|position attribute]] permits to locate precisely a component
-  * New: [[:bootstrap5|Bootstrap beta 5 migration]] was done. This is still a beta.
+  * New: [[:bootstrap5|Bootstrap 5]] was done.
   * Improvement: Placing a [[ui:button|button]] in a [[ui:navbar|navbar]] does not require any [[styling:spacing|spacing]] attribute. The [[ui:button|button]] spacing is automatically created.
   * New : [[styling:clickable|clickable attribute]]: make a whole surface containing a link, clickable.
   * New: Icons from [[https://icons.getbootstrap.com/|Bootstrap]] and [[https://feathericons.com/|Feather]] are now natively available from the [[ui:icon|icon component]]
@@ -44,6 +44,9 @@
   * New: A [[ui:link|Link]] by default cannot be written on  multiple line to avoid having strange behavior. The [[ui:link#enableMultiLinesLink|enableMultiLinesLink]] configuration permits to control this behavior.
   * New: [[styling:float|float]] - the float styling attribute has been added.
   * New: [[ui:typo|Typo]] - the title styling class ''display-1'' to ''display-6'' are now responsive.
+  * Update: The test are testing now that the HTML generation is ''XHMTL'' compliant. This is no more done with the hand.
+  * New: ''Bootstrap perfect'': We generate exactly the same markup than [[strap:bootstrap|bootstrap]]. [[ui:card|card]] and [[ui:blockquote|blockquote]] have now bootstrap paragraph with the ''text'' class making them easier to read.
+
 
 ===== Todo =====
 
