@@ -15,6 +15,8 @@ With the ''card-columns'' components, you can put a [[card|card]] or [[ui:blockq
    <!-- Any type of card -->
 </card-columns>
 </code>
+
+
 ===== Example =====
 
 
@@ -31,7 +33,7 @@ With the ''card-columns'' components, you can put a [[card|card]] or [[ui:blockq
     </card>
 
 
-    <blockquote class="" >
+    <blockquote>
         Lorem ipsum [[:start|dolor]] sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
         <cite>Someone famous in [[:start|Source Title]]</cite>
     </blockquote>
@@ -39,3 +41,12 @@ With the ''card-columns'' components, you can put a [[card|card]] or [[ui:blockq
 </teaser-columns>
 </code>
 </webcode>
+
+
+===== Support =====
+
+==== Bootstrap 5 support ====
+
+If you use [[:bootstrap5|Bootstrap version 5]], you may see that the output is slightly different than with Bootstrap version 4.
+
+This is because does not support [[:bootstrap5|Bootstrap version 5]] ''card-column'' anymore and we have implemented it manually based on this [[https://getbootstrap.com/docs/5.0/examples/masonry/|example]]
