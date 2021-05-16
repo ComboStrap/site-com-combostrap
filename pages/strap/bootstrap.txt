@@ -8,13 +8,12 @@
 
 
 ===== About =====
-''bootstrap'' is the default UI stylesheet system used by the [[strap|strap template]].
+''bootstrap'' is the default UI system used by the [[strap|strap template]].
 
 
-[[strap|Strap]] permits to easily change:
-  * the [[#bootstrapVersion|bootstrap supported version]]
-  * the [[#bootstrapStylesheet|bootstrap supported stylesheet]]
-and even to [[styling:bootstrap|create and add your own]]
+You can:
+  * change the version and of style with the [[#bootstrapVersionStylesheet|bootstrap version stylesheet version]] (there is more than 30 differents style) 
+  * or even [[styling:bootstrap|create and bring your own]]
 ===== Articles Related =====
 {{backlinks>.}}
 
@@ -30,17 +29,15 @@ Check the [[styling:class|class article]] to know more about it.
 
 See [[styling:stylesheet]]
 ===== Configuration =====
-==== version ====
-You may change the used version with the ''bootstrapVersion'' [[:configuration|configuration]]
+==== version and stylesheet====
 
-Actually, there is two versions supported:
+You may change the BootStrap ''version'' and a corresponding [[styling:stylesheet|stylesheet]] with the ''bootstrapVersionStylesheet'' [[:configuration|configuration]]
+
+Actually, there is three Bootstrap versions supported:
+  * the ''5.0.1'' (See more info on the [[:bootstrap5|bootstrap 5 migration page]])
   * the ''4.5.0''
   * the ''4.4.1''
 
-We are also already ready for the ''5'' being still in beta. See more info on the [[:bootstrap5|bootstrap 5 migration page]].
 
-==== stylesheet ====
-The ''bootstrapStylesheet'' permits to dynamically choose the stylesheet.
-
-See [[styling:stylesheet]]
+After the version, you will find the [[styling:stylesheet|stylesheet name]].
 
