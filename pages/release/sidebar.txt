@@ -1,0 +1,6 @@
+
+
+<ntoc>
+<index>[[$id|$title]]</index>
+<page-item>[[$id|<pipeline>"$h1" | replace("ComboStrap - ","")</pipeline>]]</page-item>
+</ntoc>

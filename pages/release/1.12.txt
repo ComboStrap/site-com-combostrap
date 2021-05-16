@@ -1,0 +1,57 @@
+---json
+{
+    "canonical":"1.12",
+    "title":"The ComboStrap 1.12 release",
+    "description":"A [[https://combostrap.com/frontmatter|frontmatter]] description shown on the Search Engine Result Pages"
+}
+---
+====== ComboStrap - Release 1.12 ======
+
+===== About =====
+This page regroups the changes for the [[start|release]] ''1.12'' (''2021-03-21'')
+
+
+This is release that has started with a couple of request and ended big.
+
+The most important features are:
+  * the addition of the [[:social|social module]]
+  * the [[ui:link|link]] component accepts now children component.
+
+===== List =====
+
+Check the below changes to know more about all of them:
+  * [[ui:webcode|webcode]] is now integrated in Combo. The code is taken from the calls because the regular expression for the update lexer mode was not catching the code when there was whitespace.
+  * [[styling:shadow]]|elevation]] - a new elevation level was added called ''high'' that elevates on all side of the box.
+  * the disabling of [[ui:preformatted|preformated]] has been improved by not allowing this mode via the ''accept'' function of the syntax class.
+  * the ''combostrap'' logo got a fix color to be able to embedded it via object.
+  * the [[ui:code|code]] element supports now the code export functionality of dokuwiki.
+  * New component: [[ui:accordion|accordion]] lets you lay out [[ui:panel|panel]] in a ''accordion'' fashion.
+  * New syntax for [[ui:tabs|tabs]]. The syntax of the [[ui:tabs|tabs component]] was too complicated. We have deprecated the [[deprecated:tabs|old syntax]] in favor of a new one based on [[ui:panel|panel]]. It brings the fact that [[ui:accordion|accordion]] and [[ui:tabs|tabs]] are the same navigational element on two differents layouts.
+  * New skin for [[ui:tabs|tabs]] called ''enclosed-tabs'' and ''enclosed-pills'' that will enclose the tabs within a border.
+  * New syntax [[ui:link|link]] element. The dokuwiki link element allows only text or image as description. This link component enhances the syntax and allows any component as description ([[ui:link#icon|icon]] for instance)
+  * New [[ui:button|button]] HTML generation. If a button has a link in its description, the HTML generated is a link with a button role. This corrects the XHTML compliancy problem and makes the button clickable on its whole surface.
+  * New configuration to disable totally the [[quality:dynamic_monitoring|dynamic quality monitoring]] feature.
+  * Link Styling breaking change:
+      * the [[ui:dropdown|dropdown link]] in the [[ui:navbar|navbar]] got a ''active'' class. This was not right and was deleted. Unfortunately, it has an effect on the styling.
+      * the dokuwiki class ''wikilink1'' (existing page) and ''wikilink2'' (not existing page) were adding extra styling rules that were incompatible with Bootstrap. They have been changed by new name but it's still possible to get them back with [[ui:link#useDokuwikiLinkClassName|useDokuwikiLinkClassName configuration]].
+      * ''wikilink2'' was changed with ''text-warning'' to show visually that the page does not exist
+  * New [[ui:image|Image page]] to show how to elevate an image
+  * Bug: The [[strap:bar|bar pages]] are not anymore set as [[quality:low_quality_page|low quality page]].
+  * Twitter aware: ComboStrap pages are now [[semantic:twitter|twitter aware and renders in tweet as cards]].
+  * Facebook aware: ComboStrap pages are now [[semantic:facebook|facebook]].
+  * New: [[:social|social page]] to concentrate on one page all the social features.
+  * New Page Metadata - the [[semantic:image|page of an image]] used in card social illustration.
+  * Improved: the [[semantic:frontmatter|frontmatter]] creates a link to debug quickly the json if there is any errors.
+  * New: You can advertise your organization by creating an [[semantic:organization|organization page]].
+  * New: [[semantic:google|Google Rich Result]] aware. The below ''rich results'' are created automatically if you set the [[semantic:type|type]] of page.
+      * [[semantic:website|Search Box]],
+      * [[semantic:organization|Logo (Organization)]]
+      * [[semantic:article|Article Card]]
+  * New: [[quality:lpp|Late Publication Protection]] - Start writing a page now and publish it later.
+  * New: For internal and debug purpose: The version of Combostrap is now available in a ''html meta'' generator tag and in the title of the footer link.
+  * Bug: [[ui:dropdown|dropdown]] was not attributes aware. You can now add styling class to hide dropdown depending on the screen width.
+  * New anchor. Every [[ui:heading|heading]] has now an anchor to help get a direct link.
+  * New component: [[ui:tweet|tweet]] to embed tweet in your pages.
+  * New: Style and Javascript Dokuwiki independency: Combostrap does not depend anymore on Dokuwiki Style and Javascript engine. All component snippets are embedded individually on each page only when used.
+  * New: Strap template, run first the page, then the bars to fill the HTML heads with all web component snippet (CSS, JS)
+

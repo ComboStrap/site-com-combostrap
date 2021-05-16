@@ -40,7 +40,7 @@ If the body contains call-to-actions, this is called a [[teaser|teaser]]
 where:
   * ''attributes'' may be any [[styling:styling|styling attributes]]
       * such as [[styling:clickable|clickable]] to make the whole card clickable.
-  * ''imageTop'' if the first element is an image, it will be used as a top illustration image.
+  * ''imageTop'' if the first element is an [[image|image]], it will be used as a top illustration image.
   * ''header'' defines a label placed at the top of the card
 
 A ''card'':
