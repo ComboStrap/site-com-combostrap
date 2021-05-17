@@ -23,12 +23,12 @@
 
   * Full Qualified Syntax
 <code dw>
-<badge type="type" rounded="true|false">Text</badge>
+<badge type="type" rounded>Text</badge>
 </code>
 
   * Short Syntax
 <code dw>
-<badge type rounded="true|false">Text</badge>
+<badge type rounded>Text</badge>
 </code>
 
 where:

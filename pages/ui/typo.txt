@@ -36,13 +36,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </code>
 </webcode>
 
-=== Two buttons centered ===
-Two [[button|buttons]] centered
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
-<code dw>
-<typo align="center" width="fit-content">
-<btn>Button 1</btn> <btn skin="outline">Button 2</btn>
-</typo>
-</code>
-</webcode>
+
 

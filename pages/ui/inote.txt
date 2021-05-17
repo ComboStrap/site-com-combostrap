@@ -19,7 +19,10 @@ As a replacement, you could also use:
 
 A ''inote'' is a [[styling:html|superset HTML component]].
 ===== Example =====
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+
+==== Default ====
+
+<webcode name="Default" frameborder=0 >
 <code dw>
 The following type of note are now supported:
   * <inote info>info</inote> (Default)
@@ -29,3 +32,10 @@ The following type of note are now supported:
 </code>
 </webcode>
 
+==== Rounded ====
+
+<webcode name="Default" frameborder=0 >
+<code dw>
+<inote info rounded>info</inote>
+</code>
+</webcode>
