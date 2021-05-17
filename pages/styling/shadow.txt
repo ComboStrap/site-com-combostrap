@@ -12,7 +12,7 @@
 ===== About =====
 ''shadow'' (known also as ''elevation'') is a [[styling:styling|styling attribute]] that elevates a [[ui:block|block]].
 
-It adds a ''shadow'' and gives the block more emphasis.
+It adds a ''shadow'' and gives the block more [[styling:emphasis|emphasis]].
 
 
 As [[color|color]], it helps prioritizing the components on your page in order to guide the viewer's eyes.

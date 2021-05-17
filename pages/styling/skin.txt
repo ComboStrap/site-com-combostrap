@@ -2,12 +2,12 @@
 
 
 ===== About =====
-''skin'' is a [[styling|ComboStrap styling attribute]] that defines the emphasis level of your component by applying a set of standard styling attribute on:
+''skin'' is a [[styling|ComboStrap styling attribute]] that defines the [[styling:emphasis|emphasis]] level of your [[ui:button|button]] by applying a set of standard styling attribute on:
   * [[color|color]]
   * [[shadow|elevation (shadow)]]
   * and [[border|border]]
 
-<badge>Since [[:changes|version 1.4]]</badge>
+<badge>Since [[:release:1.4|version 1.4]]</badge>
 
 
 ===== Articles Related =====

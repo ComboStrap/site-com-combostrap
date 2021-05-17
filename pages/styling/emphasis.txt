@@ -1,0 +1,21 @@
+---json
+{
+    "canonical":"emphasis",
+    "title":"How to add emphasis in your website (ComboStrap)",
+    "description":"This article shows you how you can add emphasis on component in your page"
+}
+---
+====== Styling - Emphasis ======
+
+===== About =====
+You can add emphasis:
+  * by making text bold or italic.
+  * by styling [[ui:button|button]] with a [[skin|skin]]
+  * by adding a [[shadow|shadow]]
+  * by adding a [[hover|hover]] animation
+  * by using  [[color|color]] 
+      * that have a meaning (rod)
+      * that brings more contrast (between the background and the foreground).
+
+===== Articles Related =====
+{{backlinks>.}}
