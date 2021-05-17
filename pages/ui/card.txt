@@ -71,11 +71,13 @@ A example taken from [[https://getbootstrap.com/docs/4.3/components/card/#exampl
 At first, ''teaser'' was the first name of card and you may still [[teaser|use it]].
 <webcode name="Card2" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
-<teaser width="18rem">
+<teaser width="25rem">
 {{teaser_image_2.jpg|}}
 === Teaser Title  ===
 A example taken from [[https://getbootstrap.com/docs/4.3/components/card/#example|the bootstrap quick example]] on how to build a card title in order to make up the bulk of the teaser content.
-<btn>[[card|Go to this page !]]</btn>
+
+<btn skin="text" spacing="pl-0">[[card|Card link]]</btn>
+<btn skin="text">[[#|Another link]]</btn>
 </teaser>
 </code>
 </webcode>
@@ -128,6 +130,7 @@ You may extend the clickable surface of a  link to the whole card with the [[sty
 {{:styling:subway_card_tile.png|}}
 === Clickable Card ===
 Lorem ipsum
+
 <btn>[[https://combostrap.com/clickable|A clickable card]]</btn>
 </card>
 </code>
@@ -135,7 +138,7 @@ Lorem ipsum
 
 ===== Documentation / Reference =====
   * https://material.io/components/cards
-  * https://getbootstrap.com/docs/4.0/components/card/
+  * [[https://getbootstrap.com/docs/5.0/components/card/|Bootstrap card]]
 
 
 

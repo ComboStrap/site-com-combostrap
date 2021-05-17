@@ -1,4 +1,4 @@
-====== ComboStrap Styling - Skin attribute (Emphasis Control) ======
+====== ComboStrap Styling - Skin attribute (Button Emphasis Control) ======
 
 
 ===== About =====
