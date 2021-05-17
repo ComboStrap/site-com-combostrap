@@ -56,6 +56,7 @@ The [[styling:stylesheet|Bootswatch stylesheet theme]] are not yet available for
       * [[https://getbootstrap.com/docs/5.0/migration/#javascript-2|data attributes]]
   * ''auto margin'' used in the [[ui:group|Navgroup]] with the ''expand'' attribute has been renamed from [[https://getbootstrap.com/docs/4.0/utilities/flex/#auto-margins|mr-auto]] to [[https://getbootstrap.com/docs/5.0/utilities/flex/#auto-margins|me-auto]].
   * the [[https://getbootstrap.com/docs/5.0/getting-started/accessibility/#visually-hidden-content|assistive technologies class]] given in the [[ui:search|search bar]] has changed from ''sr-only'' to ''visually-hidden''
+  * [[ui:badge|badge]] uses now [[https://getbootstrap.com/docs/5.0/components/badge/#background-colors|background class]] to specify the background color. The colors have changed slightly.
 
 
 ===== More info =====

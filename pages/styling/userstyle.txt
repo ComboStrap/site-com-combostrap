@@ -15,11 +15,38 @@ More see [[doku>devel:css#user_styles]]
 ===== Articles Related =====
 {{backlinks>.}}
 
+===== Class =====
+
+
+Every component got two generated [[styling:class|class]] 
+
+<code>
+element-combo
+element-type-combo
+</code>
+
+For instance, for a [[ui:badge|badge]] with the [[styling:type|type]] ''primary'', you will get the [[class|class]]:
+<code>
+badge-combo
+badge-primary-combo
+</code>
+
+This [[class|classes]] permits to select the component by type and applies styling accordingly.
+
+
+
 ===== Example =====
 
 
-To add custom style on the [[ui:file|file component]], you could create the ''$DOKUWIKI_HOME/conf/userstyle.css'' file with the following content:
+To add custom style, you could create the ''$DOKUWIKI_HOME/conf/userstyle.css'' file with CSS rules.
 
+  * on [[ui:badge|primary badge]] to change the text color:
+<file css conf/userstyle.css>
+badge-primary-combo{
+    color: #333 !important;
+}
+</file>
+  * on the [[ui:file|file component]]
 <file css conf/userstyle.css>
 code.combo_file{
     color: #333 !important;

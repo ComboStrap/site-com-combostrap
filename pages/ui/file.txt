@@ -51,17 +51,14 @@ The ''file_enable'' [[:configuration|configuration]] permits to enable / disable
 
 ==== Theme ====
 
-This component:
-  * gets the [[styling:prism|theme]]  chosen
-  * and all [[styling:userstyle|userstyle]] applied to the elements ''pre'' and ''code'' with the class ''combo_file''
+This component gets the [[styling:prism|theme]]  chosen
 
+For [[styling:userstyle#class|custom css style]], there is also an extra [[styling:userstyle#class|userstyle class]] created on the ''pre'' element with the ''pref'' suffix. This element contains the code and the button.
 
 Example:
+  * Change the background color of [[ui:file|file]]
 <code css conf/userstyle.css>
-code.combo_file{
-    color: #333 !important;
-}
-pre.combo_file{
+.file-combo-pre{
     background-color: #e9ecef !important;
 }
 </code>

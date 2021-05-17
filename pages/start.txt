@@ -7,8 +7,8 @@
 ---
 
 
-<slide size="lg" height="100vh" >
-<background>{{ :combostrap:background:object-multicolor.svg |}}</background>
+<slide size="lg"  >
+<background opacity="0.4">{{ :combostrap:background:object-multicolor.svg |}}</background>
 <row>
 <col class="col-md-6" spacing="ml-3">
 <title 4 class="text-capitalize"> Create your footprint that lasts ForEver</title>

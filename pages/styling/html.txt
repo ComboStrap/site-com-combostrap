@@ -1,4 +1,4 @@
-====== ComboStrap Styling - HTML super set ======
+====== ComboStrap Styling - Marki (HTML super set) ======
 
 ===== About =====
 
@@ -22,22 +22,13 @@ Every [[ui:ui|UI component]] follows the following syntax
 </component>
 </code>
 where:
-  * ''type'' is the [[#type|type of component]]. Not every component has a type but if it's the case, you don't need to set a name for it.
+  * ''type'' is the [[type|type of component]]. Not every component has a type but if it's the case, you don't need to set a name for it.
   * ''nameX="valueX"'' are attributes that may be:
       * specific to this component
       * the [[#styling|styling attributes]]
       * or the [[#html|html attributes]]
 
-==== Type ====
 
-Example with a [[ui:note|note]], the fully HTML compliant syntax is
-<code dw>
-<note type="tip">A tip note</note>
-</code>
-but with the ''superset ComboStrap components'', you may write
-<code dw>
-<note tip>A tip note</note>
-</code>
 
 
 

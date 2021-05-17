@@ -1,0 +1,31 @@
+---json
+{
+    "canonical":"type",
+    "title":"ComboStrap - Component Type",
+    "description":"The component type attribute explained"
+}
+---
+====== ComboStrap Styling - Type Attribute ======
+
+
+===== About =====
+''type'' is the first [[styling|attribute]] of [[html|the combostrap marki syntax]].
+
+The default behavior of a ''type'' is to change the style.
+
+<note>
+If you want to apply custom styling, you can also create you own rules using the [[styling:userstyle#custom|combo styling class]] that contains the ''type''.
+</note>
+
+
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Example =====
+
+
+Example with a [[ui:note|note]] that has the ''info'' type.
+<code dw>
+<note info>A info note</note>
+</code>

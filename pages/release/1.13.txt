@@ -46,6 +46,7 @@
   * New: [[ui:typo|Typo]] - the title styling class ''display-1'' to ''display-6'' are now responsive.
   * Update: The test are testing now that the HTML generation is ''XHMTL'' compliant. This is no more done with the hand.
   * New: ''Bootstrap perfect'': We generate exactly the same markup than [[strap:bootstrap|bootstrap]]. [[ui:card|card]] and [[ui:blockquote|blockquote]] have now bootstrap paragraph with the ''text'' class making them easier to read.
+  * New: added [[styling:userstyle|styling class]] to all component. It permits to take over the whole styling and create its own via the [[styling:userstyle|userstyle stylesheet]].
 
 
 ===== Todo =====

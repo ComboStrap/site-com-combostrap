@@ -18,7 +18,7 @@
 {{backlinks>.}}
 
 
-==== Syntax ====
+===== Syntax =====
 ''badge'' follows the [[styling:html|superset HTML syntax]] and can then be [[styling:styling|customized]]
 
   * Full Qualified Syntax
@@ -38,7 +38,7 @@ where:
 
 A badge may have the following type:
   * <badge primary>primary</badge>
-  * <badge primary>secondary</badge>
+  * <badge secondary>secondary</badge>
   * <badge success>success</badge> 
   * <badge danger>danger</badge>
   * <badge warning>warning</badge>
@@ -59,3 +59,7 @@ Default value:
 <code html>
 type="info" rounded="true"
 </code>
+
+===== Support =====
+==== Background color ====
+We are not using the [[https://getbootstrap.com/docs/5.0/components/badge/#background-colors|background color]] because they are too dark. The contrast between this color and a link is not enough and make a link difficult to read. The actual colors are the [[https://getbootstrap.com/docs/5.0/components/alerts/|alerts colors]]
