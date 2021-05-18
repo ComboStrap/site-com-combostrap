@@ -9,17 +9,19 @@
 
 
 ===== About =====
-''Inline'' components are used inside a paragraph (ie in a line).
+''Inline'' components are used inside a [[typo|paragraph (ie in a line)]].
 
 [[ui|ComboStrap UI]] gets the following inline components in its library:
 
 
   * [[badge|Badge]]: A badge
   * [[button|Button (btn)]]: A button (they are generally set apart on their own line)
-  * [[cite|Cite]]: Give credits 
+  * [[highlight|Highlight]]: Highlight a sequence of words
   * [[icon|Icon]]: All material design icons or your own
+  * [[raster|raster image]]: A small image can be used as icon
   * [[inote|Inote]]: An inline note
   * [[link|Link]]: A link with text, icon, image or what ever you need.
+
   
   
 

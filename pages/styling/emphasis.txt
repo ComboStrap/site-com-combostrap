@@ -5,11 +5,15 @@
     "description":"This article shows you how you can add emphasis on component in your page"
 }
 ---
-====== Styling - Emphasis ======
+====== ComboStrap Styling - Emphasis ======
 
 ===== About =====
 You can add emphasis:
-  * by making text bold or italic.
+  * by making text:
+      * bold 
+      * italic
+      * [[ui:inote|inote]]
+      * [[ui:highlight|higlighted]]
   * by styling [[ui:button|button]] with a [[skin|skin]]
   * by adding a [[shadow|shadow]]
   * by adding a [[hover|hover]] animation

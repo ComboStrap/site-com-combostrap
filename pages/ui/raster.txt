@@ -21,13 +21,38 @@ ComboStrap follows the general [[image#syntax |image syntax]] where you can set:
 
 
 
-For instance, an [[styling:shadow|elevated]] photography with a surfer and a [[styling:hover|hover float animation]]
+===== Example =====
+
+==== Illustration ====
+
+
+
+For instance:
+  * an [[styling:shadow|elevated]] photography with a surfer
+  * a [[styling:hover|hover float animation]]
+  * ''centered''
+  * with a dimension of ''600''
+  * ''responsive'' and ''mobile ready''  (below ''600'', the image scales down).
 
 <webcode name="Default" frameborder=0>
 <code dw>
 {{ :ui:stock_image_surfer_in_the_see.png?600&shadow=md&onhover=float |}}
 </code>
 </webcode>
+
+==== Icon ====
+
+<webcode name="Default" frameborder=0>
+  * Syntax
+<code dw>
+A raster image can also be used as icon {{:ui:code-square.png?16&nolink|}}
+</code>
+  * Output:
+</webcode>
+
+<note>
+The [[icon|icon]] component creates [[svg|svg]] icons
+</note>
 
 
 ===== Features =====
@@ -49,19 +74,31 @@ The loaded image resolution is based on the screen size and pixel resolution wit
 | Large | %%<=992%% | Desktops |
 | Extra-Large \ %%>=992%% | Large Desktops |
 
-The below video shows you a demonstration of responsive lazy loading of this page. When we are scrolling, just before the image that has a width of ''600'' is shown but we can see at the right side that the image downloaded has a size of ''355px'' (A [[#responsiveImageMargin|margin of ''-20px'' is applied by default]])
+The below video shows you a demonstration of responsive lazy loading of this page. When we are scrolling, just before the image that has a width of ''600'' is shown but we can see at the right side that the image downloaded has a size of ''355px'' (A [[#responsiveImageMargin|margin of ''-20px'' is applied by default]] and [[#retina support|retina support]] is disabled)
 
 
 {{:ui:lazy_responsive_load.gif?600|}}
 
+==== Retina Support ====
+
+By default, the downloaded image will not have the resolution of the device.
+
+ie If the user has a screen with a high device pixel ratio (DRP) resolution such as 3x  (such as Retina), the downloaded image will be of a factor of 1.
+
+The images will then be smaller (less traffic, more performance) but at the cost of a small loss in quality.
+
+If you want to serve image that matches the resolution of the screen of your visitors, you need to check the [[#retinaRasterImageEnable|Raster Image Enable configuration]].
+
+Ultimately, the browser will decide which image is best depending on external factor such as:
+  * the internet connection of the user.
+  * or the browser configuration (the user may choose to save data in the browser options)
+
 <note>
-=== DPR Correction ===
+We recommend to enable this feature.
 
-If the user has a  mobile with a high device pixel ratio (DRP) resolution such as 3x, the browser will still download the image with a factor of 3. By default, we disable this feature downloading the image at the screen size.
-
-\\
-If you want to enable this feature back, you need to uncheck the [[#responsiveimagedpicorrection|DPI Correction configuration]]
+We have disabled it because it will defeat the [[#automatic_responsive_resizing|automatic responsive resizing]] (ie user will expect to see a smaller image on mobile but as most of the mobile phone nowdays have a higher resolution, a higher resolution image will be downloaded.)
 </note>
+
 
 ===== Configuration =====
 
@@ -76,9 +113,9 @@ If you don't want this feature, you can disable it with the ''rasterImageLazyLoa
 
 
 
-==== responsiveImageDpiCorrection ====
+==== retinaRasterImageEnable ====
 
-On mobile phone, the devices have an higher resolution. 
+On Mobile phones or high-end screens,  the devices may have a higher resolution. 
 
 They generally shows 2 physical pixels for one logical pixels and therefore have what's called a ''device pixel ratio'' of 2.
 
@@ -88,7 +125,7 @@ By default, responsives images takes this into account and will download for a m
 
 To avoid confusion and spare bandwidth, we have disabled this behavior.
 
-If you want to go back to the default behavior, you can do it by unchecking the ''responsiveImageDpiCorrection'' [[:configuration|configuration]].
+If you want to go back to the default behavior, you can do it by unchecking the ''retinaRasterImageEnable '' [[:configuration|configuration]].
 
 
 ==== responsiveImageMargin ====

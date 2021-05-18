@@ -1,0 +1,31 @@
+---json
+{
+    "canonical":"ui:highlight",
+    "title":"How to highlight words in ComboStrap"
+}
+---
+====== ComboStrap UI - Highlighting ======
+
+
+===== About =====
+To highlight a sequence of words in ComboStrap, you needs to wrap the words with two quote characters ''%%''%%''.
+
+''Highlighting'' permits to add [[styling:emphasis|emphasis]].
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Example =====
+
+  * Syntax
+<webcode name="Default" frameborder="0">
+<code dw>
+This text is not highlighted while ''this one is''. 
+</code>
+  * Output:
+</webcode>
+
+
+===== Note =====
+
+The standard dokuwiki syntax called it [[doku>wiki:syntax#basic_text_formatting|monospaced]]

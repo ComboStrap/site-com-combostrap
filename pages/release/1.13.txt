@@ -28,7 +28,7 @@
   * New: [[:lazy|Lazy loading]] is now part of Combostrap
   * New: the [[ui:image|image component]] accepts now [[styling:styling|styling attributes]]
   * New: [[ui:raster|Raster Images]] are now lazy loaded by default 
-  * New: [[ui:raster|Raster Images DPI Correction]] are now loaded with a size that depends on the screen size and not on the device pixel ratio
+  * New: [[ui:raster#retina support|Raster Images Retina Support]]. The image may be downloaded at a size that depends on the screen resolution (device pixel ratio) and not on the screen size.
   * New: [[ui:svg_optimization|SVG Optimization]] - The Svg returned are now optimized. They are injected inline for file less than 2KB such as [[ui:icon|icon]], they are otherwise loaded lazily and injected via javascript.
   * New: [[ui:svg#upload permission|SVG Upload Permission]] - The Svg can now be uploaded by the admin and by a group of users.
   * New: [[ui:svg#lazy loading|SVG Lazy loading]] - The big Svg file are now only loaded when they are going to become visible.
@@ -47,6 +47,7 @@
   * Update: The test are testing now that the HTML generation is ''XHMTL'' compliant. This is no more done with the hand.
   * New: ''Bootstrap perfect'': We generate exactly the same markup than [[strap:bootstrap|bootstrap]]. [[ui:card|card]] and [[ui:blockquote|blockquote]] have now bootstrap paragraph with the ''text'' class making them easier to read.
   * New: added [[styling:userstyle|styling class]] to all component. It permits to take over the whole styling and create its own via the [[styling:userstyle|userstyle stylesheet]].
+  * New: You can add [[ui:image|image]] in [[ui:panel|panel label]] (demo with [[ui:tabs#label|tabs label]])
 
 
 ===== Todo =====

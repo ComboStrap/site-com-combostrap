@@ -44,6 +44,35 @@ A ''tabs'' component is composed of:
 
 ===== Example =====
 
+
+==== Label ====
+
+The ''label'' tag supports all syntax inside. You can add:
+  * [[icon|icon]]
+  * [[ui:image|image]]
+  * or any other [[doku>plugins?plugintype=1#extension__table|dokuwiki syntax plugin]]
+
+Demo:
+<webcode name="Tabs" frameborder=0 >
+<code dw>
+<tabs enclosed-tabs>
+    <panel selected="true">
+        <label>Icon <icon name="home"/></label>
+        A panel with a svg icon.
+    </panel>
+    <panel>
+        <label>Image {{:ui:code-square.png?24&spacing=ml-1|}}</label>
+        A panel with a image icon.
+    </panel>
+        <panel>
+        <label>Characters ''&''</label>
+        All characters are supported even the ampersand.
+    </panel>
+</tabs>
+</code>
+</webcode>
+
+
 ==== Tabs ====
 
 <webcode name="Tabs" frameborder=0 >
