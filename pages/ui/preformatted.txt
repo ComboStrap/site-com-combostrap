@@ -1,25 +1,31 @@
-====== ComboStrap UI - Preformatted ======
+---json
+{
+    "canonical":"preformatted",
+    "title":"Preformatted (indented code block) - ComboStrap",
+     "description":"How to create a code block with indentation"
+}
+---
+
+====== ComboStrap UI - Preformatted (indented code block) ======
 
 
 ===== About =====
 ''Preformatted '' is a standard dokuwiki syntax that considers any line that starts with two spaces as a [[doku>wiki:syntax#code_blocks|block of code]].
 
-Due to the hierarchical structure of a document, it makes the reading of a ''Combostrap'' or ''HTML'' document difficult because every element needs to start at the beginning of the line to escape this formatting.
+This is also known as indented [[code|code block]].
 
-''Combostrap'' disables by default this mode.
 
 <badge rounded>[[:changes|since 1.11]]</badge>
 ===== Demo =====
 
 
-  * Code
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," >
-<code dw class="no-whitespace-normalization">                A line that starts with a lot of spaces is not seen as a code of block</code>
-  * Output:
-</webcode>
-
-  
+  * A line that starts with a couple of spaces is seen as a [[code|code of block]] with the ''text'' language. If you want to add a language, you need to use the [[code|code component]]
+<code class="no-whitespace-normalization">
+  A line that starts with a couple of spaces is seen as a code of block
+</code>
 ===== Configuration =====
+
+==== Disable ====
 
 The [[:configuration|configuration]] ''combo>preformattedEnable'' permits to enable or disable this feature.
 
