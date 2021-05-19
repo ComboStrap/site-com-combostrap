@@ -16,6 +16,11 @@
 ===== Syntax =====
 
 
+This syntax applies to the following ''component'':
+  * [[ui:file|file]], 
+  * [[ui:code|code]]
+  *  or [[ui:console|console]] 
+  * and **not** [[ui:preformatted|preformatted]] (that is based on indentation)
 
 <file html>
 <component language [file-path] line-numbers="true" prompt="$">
@@ -23,7 +28,6 @@
 </component>
 </file>
 where:
-  * ''component'' is [[ui:file|file]], [[ui:code|code]] or [[ui:console|console]]
   * ''language'' is the language of the code (''html'', ''xml'', ...). Find all [[https://prismjs.com/#supported-languages|supported languages in the Prism website]]
   * ''file-path'' is an optional argument that gives the name of the file that will show up in the download button when hovering over the component.
   * ''line-numbers'' will show line numbers if present
@@ -134,9 +138,9 @@ See also this prism [[https://prismjs.com/faq.html#if-pre-existing-html-is-strip
 
 ==== Regex language ====
 
-''Dokuwiki'' set a ''group'' class to apply a ''clearfix'' in its ''all.css'' file. This name pollute the css global scope and competes with the output of the ''regex'' prims language that set it on the regexp ''group''. The result is that there is a new line on all ''('' and '')'' characters.
+''Dokuwiki'' set a ''group'' class to apply a ''clearfix'' in its ''all.css'' file. This name pollute the css global scope and competes with the output of the ''regex'' prism language that set it on the regexp ''group''. The result is that there is a new line on all ''('' and '')'' characters.
 
-As you can see below, this is not the case.
+As you can see below, this is no more the case.
 <code regex >
 ^(\\w+\\s+\\d+\\s+\\d+:\\d+:\\d+)\\s+
 ([^@]+?)@(\\s+)\\s+(\\S+):\\s+(\\S+)\\s+(\\S+)

@@ -49,6 +49,7 @@
   * New: added [[styling:userstyle|styling class]] to all component. It permits to take over the whole styling and create its own via the [[styling:userstyle|userstyle stylesheet]].
   * New: You can add [[ui:image|image]] in [[ui:panel|panel label]] (demo with [[ui:tabs#label|tabs label]])
   * New: Template Protection: We empty the php buffer before printing and send a message to admin user. Otherwise, plugins that print directly may mess the page completely.
+  * Improvement: [[ui:preformatted|preformatted (indented code block)]] is now enable by default with [[styling:prism|prism styling]] but prints nothing when the line has only blank spaces to avoid confusion.
 
 
 ===== Todo =====

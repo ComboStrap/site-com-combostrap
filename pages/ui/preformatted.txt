@@ -6,27 +6,64 @@
 }
 ---
 
-====== ComboStrap UI - Preformatted (indented code block) ======
+====== ComboStrap UI - Preformatted (Indented code block) ======
 
 
 ===== About =====
-''Preformatted '' is a standard dokuwiki syntax that considers any line that starts with two spaces as a [[doku>wiki:syntax#code_blocks|block of code]].
+''Preformatted '' is a syntax that considers any successive lines that starts with two spaces as a ''block of code''.
 
-This is also known as indented [[code|code block]].
+This is also known as ''indented code block'' and is a minimal syntax to create a [[code|block of code]] with no syntax highlighting.
 
 
 <badge rounded>[[:changes|since 1.11]]</badge>
+
+===== Syntax =====
+A line that starts with a couple of spaces is seen as a [[code|code of block]] with no syntax highlighting. If you want to add a language, you need to use the [[code|code component]]
+<code dw class="no-whitespace-normalization">
+  Two spaces starts a block of code
+</code>
+
+
+<note>
+Without any content, the ''indented code block'' is not printed. You can disable this feature with the [[#preformattedEmptyContentNotPrintedEnable|preformattedEmptyContentNotPrintedEnable configuration]]
+</note>
+
 ===== Demo =====
 
+==== Default ====
 
-  * A line that starts with a couple of spaces is seen as a [[code|code of block]] with the ''text'' language. If you want to add a language, you need to use the [[code|code component]]
-<code class="no-whitespace-normalization">
+<webcode name="Default" frameborder="0">
+  * Input: A line that starts with two space
+<code dw class="no-whitespace-normalization">
   A line that starts with a couple of spaces is seen as a code of block
+  The next one with two spaces will also be part of the same block
 </code>
+  * Output: A block of code without any syntax highlighting
+</webcode>
+
+
+==== No content ====
+Without any content, the ''indented code block'' is not printed.
+
+You can disable this feature with the [[#preformattedEmptyContentNotPrintedEnable|preformattedEmptyContentNotPrintedEnable configuration]]
+
+
+<webcode name="Default" frameborder="0">
+  * There is two spaces below (You don't see them)
+<code dw class="no-whitespace-normalization">
+  
+</code>
+  * And there is no code block created as output. (ie below)
+</webcode>
+
+
 ===== Configuration =====
 
-==== Disable ====
+==== preformattedEnable ====
 
-The [[:configuration|configuration]] ''combo>preformattedEnable'' permits to enable or disable this feature.
+The [[:configuration|configuration]] ''preformattedEnable'' permits to enable or disable this feature.
 
+==== preformattedEmptyContentNotPrintedEnable ====
+
+If this [[:configuration|configuration]] is not check, a block of code will be printed even if there is no content.
 
