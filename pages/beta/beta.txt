@@ -20,29 +20,7 @@ We value all [[:support|feedback]] on beta feature.
 
 ===== Features =====
 
-
-==== Markdown Page Extension ====
-
-Actually, there is no way to change the file extension of a page.
-
-This is possible to change it at write/read but the [[https://github.com/splitbrain/dokuwiki/blob/master/inc/pageutils.php#L292|wikiFN]] function
-that makes the translation between a ID and a file does not allow it.
-
-
-A simple modification such as the below in the[[https://github.com/splitbrain/dokuwiki/blob/master/inc/pageutils.php#L307|wikiFn function]] works for writing / editing a file (The history functionality was not tested).
-<code php>
-if ($id == "markdown"){
-        $ext = 'md';
-} else {
-        $ext = 'txt';
-}
-
-if(empty($rev)){
-    $fn = $conf['datadir'].'/'.utf8_encodeFN($id).'.'.$ext;
-}else{
-   $fn = $conf['olddir'].'/'.utf8_encodeFN($id).'.'.$rev.'.'.$ext;
-   ....
-}
-</code>
-
-See [[https://forum.dokuwiki.org/d/18009-allowing-md-files-as-well-as-txt-files-wherehow-to-file/2|forum thread on the subject]]
+  * the [[beta:position|position attribute]] permits to locate precisely a component
+  * [[markdown|creating markdown page]]
+  * [[position]]
+  * [[sticky]]

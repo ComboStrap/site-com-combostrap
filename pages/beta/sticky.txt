@@ -17,6 +17,8 @@ This component are generally in aside [[strap:bar|bar]] such as the [[strap:side
 Sticky blocks are perceived much better by visitors than unfixed widgets and therefore they have a significantly higher click-through rate.
 
 <badge>[[beta|beta]]</badge>
+
+  * New: [[ui:webcode|webcode]] outputs iframe for page syntax in order to demonstrate the [[beta:sticky|sticky attribute]]
 ===== Syntax =====
 
 Adding the ''sticky'' attribute will made them sticky.

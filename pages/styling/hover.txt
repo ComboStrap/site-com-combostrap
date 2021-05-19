@@ -26,9 +26,17 @@ To add an ''hover animation'', add a ''onHover'' attribute with the name of your
 
 When you want to add [[styling:shadow|dynamic elevation]], you can use the ''float'' animation
 
+  * On a [[ui:button|button]]
 <webcode name="Default" frameborder="0">
 <code dw>
 <button onHover="float">A floated animated button</button>
+</code>
+</webcode>
+
+  * On an [[ui:Image|image]]
+<webcode name="Default" frameborder="0">
+<code dw>
+{{:styling:subway_card_tile.png?onHover=float|}}
 </code>
 </webcode>
 
@@ -122,7 +130,7 @@ A button animated with default Bootstrap class
 </code>
 </webcode>
 
-    
+
 ==== Custom: Bring it to Combostrap ====
 
 The ''hover animation'' applies the name of the animation as a class to the component when the mouse is hover it.
@@ -144,8 +152,6 @@ git clone https://github.com/ComboStrap/combo
 ==== Custom: UserStyle ====
 
 If you want to create an animation for yourself, add the CSS class rules in the [[styling:userstyle|userstyles stylesheet]].
-
-
 
 
 
