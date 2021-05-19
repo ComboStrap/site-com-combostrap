@@ -14,27 +14,9 @@
 This is a page that lists all releases with their respective changes for [[:start|ComboStrap]].
 ===== Releases =====
 
-
-
-==== Version 1.11 - 2021-02-02 ====
-
-List:
-  * The following monospaces component were added with the [[styling:prism|prism library]] to add feature such as prompt, copy text and syntax highlighting.
-     * The [[ui:file|file component]] -  a file
-     * The [[ui:code|code component]] - a code
-     * The [[ui:console|console component]] - a console
-  * Added documentation over the [[styling:userstyle|userstyle]] or how to bring its own css rules.
-  * Regression fixed: the section ''highlighting'' change of the previous release has removed the default header style.
-  * [[quality:automatic_hidden|New automatic hidden page]]: the internal page such as the bars and namespace are now automatically hidden. No configuration is needed.
-  * New: a new [[ui:box|Box]] component was introduced to group other component and allows for instance to define a [[ui:collapse|collapse]] target.
-  * New: the [[ui:preformatted|preformatted mode]] of dokuwiki is disabled by default in order to be able to write hierarchical block.
-  * New: the [[ui:collapse#attribute|collapse attribute]]: a control element such as a [[ui:button|button]] with this attribute can collapse a target component.
-  * Fix:  Deleted the clearfix ''group'' class css style of dokuwiki that was giving a line break on the [[styling:prism#regex_language|prism regex language]].
-  * New: [[analytics:analytics|analytics module]] that adds [[analytics:data|analytical data]] on [[analytics:statistics|page statistics]] and [[quality:quality|quality]] (with automatic refresh when backlinks are created or deleted).
-  * New: [[quality:quality|quality  module]] with [[quality:lqpp|low quality page protection]], [[quality:score|quality score]] and [[quality:rule|quality rules]]
-  * New ''auto frontmatter'' feature  - a [[semantic:frontmatter|frontmatter]] is created for a new page
-  * New ''h1'': The [[semantic:h1|h1 metadata]] has been added in order to have the notion of a short [[semantic:title|title page]].
-
+  * [[1.13]]
+  * [[1.12]]
+  * [[1.11]]
 
 ==== Version 1.10 - 2021-01-09 ====
 
@@ -99,9 +81,9 @@ The version 1.8 was a bug fix release.
 
 ==== Version 1.3 - 2020-07-15 ====
   * [[styling:dimension|Component sizing on height]] gets now an ''overflow:auto'' which bootstrap didn't take into account.
-  * [[support|New support page]] with [[https://twitter.com/combostrapweb|twitter account]], stackoverflow and spectrum.
+  * [[:support|New support page]] with [[https://twitter.com/combostrapweb|twitter account]], stackoverflow and spectrum.
   * A [[ui:container|container]] can now contain a whole page and keeps the [[ui:toc|TOC intact]]
-  * Added a [[support|support]] page
+  * Added a [[:support|support]] page
   * [[ui:breadcrumb|Breadcrumbs]] were made ''bootstrap'' aware and the documentation has improved.
 ==== Version 1.2 - 2020-07-14 ====
 The version 1.2 is a big template improvement release:
@@ -111,7 +93,7 @@ The version 1.2 is a big template improvement release:
   * You can now set a [[styling:color#gradient|background color gradient]].
   * The [[ui:footer|footer]] element was created.
   * The [[strap:strap|strap template]] applies now a ''dokuwiki'' class on the whole page in order to be able to have [[doku>Dokuwiki]] styling such as [[doku>interwiki|interwiki icon]] in the footer.
-  * The [[css|template CSS]] can now be [[css#preload|preloaded]]
+  * The [[:css|template CSS]] can now be [[:css#preload|preloaded]]
   * The [[strap:dynamic_grid|dynamic grid]] was added with a 16 grid system
   * A [[styling:bootstrap|custom bootstrap theme]] can now be added
   * The [[strap:sidekickbor|sidekickbar]] was added
@@ -132,7 +114,7 @@ The version 1.2 is a big template improvement release:
 
 ==== Version 1.0 - 2020-07-04 ====
 First release.
-  * The [[css|CSS optimizer]] was added
+  * The [[:css|CSS optimizer]] was added
   * The [[ui:button|button link]] takes now into account the [[styling:color|color attributes]] of its button parent.
   * All [[ui:ui|UI components]] support now the [[styling:styling|styling attributes]]
   * The [[ui:note|note component]] was created

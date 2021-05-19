@@ -16,8 +16,8 @@
   * New: added the [[ui:slide|slide component]] to create horizontal hero region with alternated background
   * New: added the [[styling:background|background component]] to manage the background of a component (at first for a [[ui:slide|slide]])
   * New: the [[styling:style#style|style node]] to add styling rules in block for a component
-  * New: [[ui:webcode|webcode]] outputs iframe for page syntax in order to demonstrate the [[styling:sticky|sticky attribute]]
-  * New: the [[styling:sticky|Sticky attribute]] - Stick sidebar components on your page
+  * New: [[ui:webcode|webcode]] outputs iframe for page syntax in order to demonstrate the [[beta:sticky|sticky attribute]]
+  * New: the [[beta:sticky|Sticky attribute]] - Stick sidebar components on your page
   * New: the [[styling:position|position attribute]] permits to locate precisely a component
   * New: [[:bootstrap5|Bootstrap 5]] was done.
   * Improvement: Placing a [[ui:button|button]] in a [[ui:navbar|navbar]] does not require any [[styling:spacing|spacing]] attribute. The [[ui:button|button]] spacing is automatically created.
@@ -52,6 +52,7 @@
   * Improvement: [[ui:preformatted|preformatted (indented code block)]] is now enable by default with [[styling:prism|prism styling]] but prints nothing when the line has only blank spaces to avoid confusion.
   * Improvement: For boolean attributes such as ''selected'' for a [[ui:tabs|panel tab]], this is no more needed to specify the value. ie ''selected'' is equivalent to ''selected=true''
   * Bug: A [[ui:link#image|image link]] points to the page now and not to the image.
+  * Bug: Backlinks are now correctly rewritten when moving a page. The backlinks that were not in first position were be badly rewritten from ''%%[[id|description]]%%'' to ''%%[[newid]]|description]]%%''
 
 
 ===== Todo =====

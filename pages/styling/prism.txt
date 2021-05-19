@@ -12,7 +12,7 @@
     * highlights code
     * and add extra features such as ''line number'', ''copy to clipboard''
 
-<badge>[[:changes|since 1.11]]</badge>
+<badge>[[release:release|since 1.11]]</badge>
 ===== Syntax =====
 
 

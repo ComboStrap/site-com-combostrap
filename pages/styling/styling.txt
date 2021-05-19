@@ -51,7 +51,7 @@ The ''standard'' attributes are:
 
 
 === Animation ===
-  * [[onview|OnVisible]] - Add an animation when a component become visible
+  * [[beta:onvisible|OnVisible]] - Add an animation when a component become visible
   * [[hover|OnHover]] - Add an animation when the mouse is over a component
 
 === Advanced ===

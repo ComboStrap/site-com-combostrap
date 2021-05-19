@@ -9,10 +9,10 @@
 
 
 ===== About =====
-A beta release contains  all feature that are:
+This section contains the beta features. They are:
   * in development 
   * not yet released
-  * that may never be released.
+  * and may never be released.
 
 
 We value all [[:support|feedback]] on beta feature.

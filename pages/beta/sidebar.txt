@@ -1,0 +1,10 @@
+
+<ntoc color="info">
+<index>
+[[$id|<pipeline>"$h1" | replace("ComboStrap Beta ","")</pipeline>]]
+</index>
+<page-item>
+[[$id|<pipeline>"$h1" | replace("ComboStrap Beta - ","")</pipeline>]]
+</page-item>
+</ntoc>
+

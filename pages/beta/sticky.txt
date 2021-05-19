@@ -15,6 +15,8 @@
 This component are generally in aside [[strap:bar|bar]] such as the [[strap:sidebor|sidebar]] or [[strap:sidekickbor|sidekickbar]].
 
 Sticky blocks are perceived much better by visitors than unfixed widgets and therefore they have a significantly higher click-through rate.
+
+<badge>[[beta|beta]]</badge>
 ===== Syntax =====
 
 Adding the ''sticky'' attribute will made them sticky.

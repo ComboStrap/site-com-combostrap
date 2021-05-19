@@ -15,7 +15,7 @@
 This is also known as ''indented code block'' and is a minimal syntax to create a [[code|block of code]] with no syntax highlighting.
 
 
-<badge rounded>[[:changes|since 1.11]]</badge>
+<badge rounded>[[release:release|since 1.11]]</badge>
 
 ===== Syntax =====
 A line that starts with a couple of spaces is seen as a [[code|code of block]] with no syntax highlighting. If you want to add a language, you need to use the [[code|code component]]

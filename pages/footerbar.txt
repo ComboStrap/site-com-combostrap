@@ -5,7 +5,7 @@
 		<col class="col-12 col-lg-6">
 **Product** \\
 [[combostrap|ComboStrap]] \\
-[[:changes|Release (Changes)]] \\
+[[:release:release|Release (Changes)]] \\
 		</col>
 		<col class="col-12 col-lg-6">
 **Contact** \\

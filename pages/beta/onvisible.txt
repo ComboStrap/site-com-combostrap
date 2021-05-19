@@ -9,10 +9,10 @@
 
 
 ===== About =====
-''OnVisible'' is an [[animation|animation attribute]] that permits to set an animation to a [[ui:block|block component]] when they enter the screen and become visible.
+''OnVisible'' is an [[styling:animation|animation attribute]] that permits to set an animation to a [[ui:block|block component]] when they enter the screen and become visible.
 
 
-<badge>[[:release:beta|Beta]]</badge>
+<badge>[[beta:beta|Beta]]</badge>
 
 ===== Articles Related =====
 {{backlinks>.}}
