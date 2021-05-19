@@ -15,7 +15,7 @@ A ''tabs'' is an [[layout|layout]], [[ui:navigation|interactive and navigational
 You can also choose an [[accordion|accordion]] as another navigational collapsible layout for panels.
 </note>
 
-<badge>Since [[:changes#version_112|version 1.12]]</badge>
+<badge>Since [[:release:1.12|version 1.12]]</badge>
 ===== Articles Related =====
 {{backlinks>.}}
 
@@ -31,7 +31,7 @@ A ''tabs'' component is composed of:
       * [[#enclosed-pills]]
 <code dw>
 <tabs type>
-    <panel selected="true">
+    <panel selected>
         <label>Text</label>
         Body
     </panel>
@@ -56,13 +56,13 @@ Demo:
 <webcode name="Tabs" frameborder=0 >
 <code dw>
 <tabs enclosed-tabs>
-    <panel selected="true">
+    <panel selected>
         <label>Icon <icon name="home"/></label>
-        A panel with a svg icon.
+        A panel with a [[icon|svg icon]].
     </panel>
     <panel>
         <label>Image {{:ui:code-square.png?24&spacing=ml-1|}}</label>
-        A panel with a image icon.
+        A panel with a [[raster#icon|raster image icon]].
     </panel>
         <panel>
         <label>Characters ''&''</label>
@@ -84,8 +84,8 @@ Demo:
 
      Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.
     </panel>
-    <panel selected="true">
-    <label>syntaxes {{:ui:code-square.png?24&nolink|}}</label>
+    <panel selected>
+    <label>Syntaxes {{:ui:code-square.png?24|}}</label>
         Other syntax are also accepted. Example with a table: \\ \\
 
 ^ UI Components ^ Description ^
@@ -104,7 +104,7 @@ Demo:
 <webcode name="Pills" frameborder=0 >
 <code dw>
 <tabs pills>
-    <panel selected="true">
+    <panel selected>
         <label>Home</label>
          ==== My Home ====
          Raw denim you probably haven't heard of them jean [[https://combostrap.com/tabs|shorts Austin]]. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor,
@@ -125,7 +125,7 @@ Demo:
 <webcode name="Card-Tabs" frameborder=0 >
 <code dw>
 <tabs enclosed-tabs>
-    <panel selected="true">
+    <panel selected>
         <label>Home</label>
          ==== My Home ====
          Raw denim you probably haven't heard of them [[https://combostrap.com|jean shorts Austin]]. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor,
