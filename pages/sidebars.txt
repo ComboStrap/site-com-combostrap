@@ -1,0 +1,30 @@
+---json
+{
+    "canonical":"sidebars",
+    "title":"Automatic Sidebar Content Management",
+    "layout":"median"
+}
+---
+
+====== ComboStrap - Automatic Sidebar Content Management ======
+
+
+===== About =====
+The ''sidebars'' (ie [[strap:sidebor|sidebar]] and [[strap:sidekickbor|sidekickbar]]) content are always up-to-date and does not require to disable the cache, increasing [[performance|performance.]]
+
+
+
+===== Articles Related =====
+{{backlinks>.}}
+===== Why ? =====
+
+''sidebars'' contains generally [[ui:navigation|navigational component]] such as a [[ui:ntoc|list of page]]. Therefore, their content becomes generally stale when a page is modified, added or deleted. 
+
+The basic solution is to disable cache but this action has an important impact on [[:performance|performance]] because they read the index.
+
+===== Implementation =====
+
+
+The cache:
+  * is scoped to the namespace (directory) of the requested page
+  * is automatically deleted when a page of this namespace is modified, added or deleted

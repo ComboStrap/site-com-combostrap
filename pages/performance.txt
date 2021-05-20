@@ -42,9 +42,9 @@ All Javascript file are served from a [[strap:cdn|CDN]] and are deferred (loaded
 ==== Sidebar Cache Bursting ====
 
 
-[[strap:sidebor|Sidebars]] are using heavily the index when they show [[ui:navigation|navigation component]] and have a great impact on the web server rendering time.
+[[strap:sidebor|Sidebars]] are using heavily the index when they show [[ui:navigation|navigational components]] and have a great impact on the web server rendering time.
 
-With the [[:cache|cache bursting]], the only user impacted is the editor that is recreating the sidebar when he saves the page.
+With the [[sidebars|cache bursting]], the only user impacted is the editor that is recreating the sidebar when he saves the page.
 
 
 Action: If you have any [[https://www.dokuwiki.org/caching|%%~~NOCACHE~~%%]] instructions in your sidebar, just delete them.
