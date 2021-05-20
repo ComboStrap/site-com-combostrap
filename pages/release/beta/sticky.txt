@@ -18,7 +18,7 @@ Sticky blocks are perceived much better by visitors than unfixed widgets and the
 
 <badge>[[beta|beta]]</badge>
 
-  * New: [[ui:webcode|webcode]] outputs iframe for page syntax in order to demonstrate the [[beta:sticky|sticky attribute]]
+  * New: [[ui:webcode|webcode]] outputs iframe for page syntax in order to demonstrate the [[release:beta:sticky|sticky attribute]]
 ===== Syntax =====
 
 Adding the ''sticky'' attribute will made them sticky.

@@ -2,5 +2,6 @@
 
 <ntoc>
 <index>[[$id|$title]]</index>
-<page-item>[[$id|<pipeline>"$h1" | replace("ComboStrap - ","")</pipeline>]]</page-item>
+<ns-item><icon name="folder" color="#17a2b8"/>     [[$id|$title]]</ns-item>
+<page-item>[[$id|<pipeline>"$h1" | replace("ComboStrap - ","")</pipeline>]] - </page-item>
 </ntoc>

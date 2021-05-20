@@ -13,7 +13,7 @@
 
 All [[ui:block|block component]] can be animated:
   * [[styling:hover|onHover]] - when the user mouse is over a component
-  * [[styling:onview|onVisible]] - when the component is visible
+  * [[release:beta:onvisible|onVisible]] - when the component is visible
 
 The animations are different by type of event and you need then to refer to the animation event page to have the full documentation and example.
 

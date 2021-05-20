@@ -20,7 +20,7 @@ We value all [[:support|feedback]] on beta feature.
 
 ===== Features =====
 
-  * the [[beta:position|position attribute]] permits to locate precisely a component
+  * the [[release:beta:position|position attribute]] permits to locate precisely a component
   * [[markdown|creating markdown page]]
   * [[position]]
   * [[sticky]]

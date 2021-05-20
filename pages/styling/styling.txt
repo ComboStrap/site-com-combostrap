@@ -41,7 +41,7 @@ The ''standard'' attributes are:
   * [[color|Color]] - Text, Border and Background color made easy with name and declarative gradient
   * [[styling:shadow|Elevation]] - Add a shadow and elevate your component
   * [[float|Float]] - Position a component to the right or left and let the content flows along its side
-  * [[position|Position]] - Position a component inside a container
+  * [[release:beta:position|Position]] - Position a component inside a container
   * [[clickable|Clickable]] - Make a whole component such as a card clickable
 
 <note>
@@ -51,7 +51,7 @@ The ''standard'' attributes are:
 
 
 === Animation ===
-  * [[beta:onvisible|OnVisible]] - Add an animation when a component become visible
+  * [[release:beta:onvisible|OnVisible]] - Add an animation when a component become visible
   * [[hover|OnHover]] - Add an animation when the mouse is over a component
 
 === Advanced ===

@@ -1,14 +1,15 @@
 ---json
 {
     "canonical":"boostrap5",
+    "title":"ComboStrap - Release 1.13 - BootStrap 4 to 5 Migration Changes",
     "layout":"median"
 }
 ---
-====== ComboStrap - BootStrap 4 to 5 Migration Changes ======
+====== ComboStrap - Release 1.13 - BootStrap 4 to 5 ======
 
 
 ===== About =====
-This page regroups all migration matters from BootStrap 4 to BootStrap 5.
+In the [[1.13|release 1.13]], we made Bootstrap 5 available. This page regroups all migration matters from BootStrap 4 to BootStrap 5.
 
 ComboStrap supports the two version.
 
@@ -19,13 +20,15 @@ If you got any problem on this migration, don;'t hesitate to [[:support|open a t
 </note>
 
 
-===== New in Bootstrap =====
+===== New in Bootstrap 5 =====
   * [[https://getbootstrap.com/docs/5.0/getting-started/rfs/|Responsive Font size]] is on by default.
   * [[https://getbootstrap.com/docs/5.0/layout/containers/|The container xxl!]] [[styling:breakpoint|breakpoint]]- You can have a width of 1320 on large screen
   * [[https://getbootstrap.com/docs/5.0/layout/grid/#row-columns|Natural Auto Width for a grid column]] - we support it with the [[ui:grid|row auto type]]
-  * [[https://getbootstrap.com/docs/5.0/utilities/position/|Position]] more position utility class already supported (in Bootstrap version 4) via the [[styling:position|position attribute]].
+  * [[https://getbootstrap.com/docs/5.0/utilities/position/|Position]] more position utility class already supported (in Bootstrap version 4) via the [[release:beta:position|position attribute]].
 
-===== Breaking changes in Combostrap =====
+
+
+===== Breaking changes from Combostrap 5 =====
 
 ==== Spacing Utility Class ====
 
@@ -38,8 +41,18 @@ The left and right spacing utility have been renamed to support text direction.
   * in place of ''r'' (''right''), you get a ''e'' (''end'')- for classes that set margin-right or padding-right in LTR, margin-left or padding-left in RTL
 
 ==== Theme ====
+<note>
+The below change is only valid for the default bootstrap theme, not for [[styling:stylesheet|third theme stylesheet such as bootswatch]]
+</note>
 
-The [[styling:stylesheet|Bootswatch stylesheet theme]] are not yet available for version 5.
+The [[https://getbootstrap.com/docs/5.0/migration/#color-system|colors have changed]] in the default Bootstrap them to add more contrast. Unfortunately, it means that the default colors are more bright.
+
+
+Example with the ''info'' color
+
+^ Bootstrap 4 ^ Bootstrap 5 ^
+| <icon name="folder" color="#17a2b8"/> | <icon name="folder" color="#0dcaf0"/> |
+
 
 
 ===== Changes preserved  =====

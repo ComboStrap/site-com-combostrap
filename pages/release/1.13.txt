@@ -15,7 +15,7 @@
   * New: added the [[styling:hover|hover animation]] to improve emphasis
   * New: added the [[ui:slide|slide component]] to create horizontal hero region with alternated background
   * New: added the [[styling:background|background component]] to manage the background of a component (at first for a [[ui:slide|slide]])
-  * New: [[:bootstrap5|Bootstrap 5]] is now the default. 
+  * New: [[release:1.13_bootstrap5|Bootstrap 5]] is now the default. [[release:1.13_bootstrap5]]
   * New / Breaking changes: The bootstrap version and the stylesheet are now in the same configuration.
   * Improvement: Placing a [[ui:button|button]] in a [[ui:navbar|navbar]] does not require any [[styling:spacing|spacing]] attribute. The [[ui:button|button]] spacing is automatically created.
   * New : [[styling:clickable|clickable attribute]]: make a whole surface containing a link, clickable.
