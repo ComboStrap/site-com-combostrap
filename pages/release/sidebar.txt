@@ -3,5 +3,5 @@
 <ntoc>
 <index>[[$id|$title]]</index>
 <ns-item><icon name="folder" color="#17a2b8"/>     [[$id|$title]]</ns-item>
-<page-item>[[$id|<pipeline>"$h1" | replace("ComboStrap - ","")</pipeline>]] - </page-item>
+<page-item>[[$id|<pipeline>"$h1" | replace("ComboStrap - ","")</pipeline>]]</page-item>
 </ntoc>
