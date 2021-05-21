@@ -20,15 +20,7 @@ This is a page that lists all releases with their respective changes for [[:star
 
   * [[1.10]]
 
-==== Version 1.9 - 2020-10-31 ====
-The version 1.9 was a bug fix release.
-  * Bug: A Dokuwiki table inside a [[deprecated:tabs#tabpanel|tabpanel]] was giving wrongfully a warning.
-  * Bug: The ''data-name'' attribute is used by illustrator to set layer information and was causing a problem in the [[ui:icon|icon]] component.
-  * Bug: The failed state HTML element of the file uploader (ie the form in the media manager) was visible by default. A css rule was added to default it to none. [[https://github.com/ComboStrap/dokuwiki-template-strap/commit/128140f1aeaba52dfa5afe80059c2dd623a9b0c1|commit]]
-  * Bug: [[ui:ntoc|Ntoc]], [[ui:related|Related]], [[ui:cite|cite]] - PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in inc/Cache/CacheInstructions.php on line 44 -
-      * The Dokuwiki function ''p_get_metadata'' can render and create a recursive call, we get the title now without rendering.
-      * The ''handler call tree'' was returned as return argument of the ''handle'' function, we don't pass it anymore
-  * Improvement: Expected ''Php warning'' does not appear anymore in the log (for instance when trying the decode a string as XML to see if it's an XML)
+  * [[1.9]]
 ==== Version 1.8 - 2020-09-03 ====
 The version 1.8 was a bug fix release.
   * Bug: [[strap:sidekickbor|sidekickbar]] configuration was missspeld to ''sideckickbar'' in place of ''sidekickbar''
@@ -39,7 +31,7 @@ The version 1.8 was a bug fix release.
   * The [[ui:ntoc|namespace toc]] accepts now the definition of an ''index'' and ''ns-item'' to define a line for the index page and the sub-namespace
   * Every link in a component does not get the dokuwiki class (''wikilink1'') to get a consistent styling with [[strap:bootstrap|bootstrap]].
   * Links inside [[ui:button|button]] inherit the color of its parent as bootstrap does not style a link inside a button
-  * Added [[:cache|automatic cache bursting]] to delete the cache of the sidebar when an element has changed in a namespace in order to get a consistent output.
+  * Added [[:sidebars|automatic cache bursting]] to delete the cache of the sidebar when an element has changed in a namespace in order to get a consistent output.
 ==== Version 1.6 - 2020-07-30 ====
 
   * The [[ui:list|list]] component was added

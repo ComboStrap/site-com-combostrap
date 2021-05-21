@@ -13,6 +13,9 @@
 The ''sidebars'' (ie [[strap:sidebor|sidebar]] and [[strap:sidekickbor|sidekickbar]]) content are always up-to-date and does not require to disable the cache, increasing [[performance|performance.]]
 
 
+<note>
+If you have any [[https://www.dokuwiki.org/caching|%%~~NOCACHE~~%%]] instructions in your sidebar, just delete them.
+</note>
 
 ===== Articles Related =====
 {{backlinks>.}}

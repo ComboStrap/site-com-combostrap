@@ -9,12 +9,12 @@
 ====== ComboStrap - Perfomance ======
 
 ===== About =====
-''performance'' is how fast your page will be perceived by yours user from the moment they click on a link until they see the resulting page.
+''performance'' is how fast your page will be perceived by your user from the moment they click on a link until they see the resulting page.
 
 
 Google has a more detailed definition of what performance is and gives you a performance score along with performance metrics via the [[https://developers.google.com/web/tools/lighthouse|lighthouse product]].
 
-Below is a run of the home page of this website with the [[https://developers.google.com/speed/pagespeed/insights/|lighthouse website version]]
+Below is a run of the home page of this website with the [[https://developers.google.com/speed/pagespeed/insights/|lighthouse website version]]. Note that our web server is running on a small machine with only 2 cores from Canada.
 
 {{ ::page_speed_performance.png?600 |}}
 
@@ -44,7 +44,7 @@ All Javascript file are served from a [[strap:cdn|CDN]] and are deferred (loaded
 
 [[strap:sidebor|Sidebars]] are using heavily the index when they show [[ui:navigation|navigational components]] and have a great impact on the web server rendering time.
 
-With the [[sidebars|cache bursting]], the only user impacted is the editor that is recreating the sidebar when he saves the page.
+With the [[sidebars|sidebars automatic cache bursting]], the only user impacted is the editor that is recreating the sidebar when he saves the page.
 
 
 Action: If you have any [[https://www.dokuwiki.org/caching|%%~~NOCACHE~~%%]] instructions in your sidebar, just delete them.
@@ -61,8 +61,8 @@ All [[ui:image|images]] are [[lazy|lazy loaded]] by default. It means that they 
 
 All raster images (jpg, png, ...) are also automatically loaded with the appropriate sizing. 
 
-If a page contains an big image (say 1200px),  this image will be resized to 300px on a small mobile screen.
+If a page contains an big image (say 2400px), this image will be resized and served to 300px on a small mobile screen.
 
-Check the [[ui:raster#automatic_responsive_resizing|demonstration]]
+If you want to see it in action, you can check the [[ui:raster#automatic_responsive_resizing|demonstration video]].
 
 
