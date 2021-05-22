@@ -43,7 +43,7 @@ The '' OnHover animation name'' is the name that can be used to apply a shadow w
 . See the [[#on hover|example]]
 </note>
 
-<badge>Elevation since [[:changes#version_112|version 1.12]], Shadow since [[:changes#version_114|version 1.14]]</badge>
+<badge>Elevation since [[release:release#version_112|version 1.12]], Shadow since [[release:release#version_114|version 1.14]]</badge>
 ===== Example =====
 
 ==== Button ====

@@ -11,13 +11,13 @@
 <background opacity="0.4">{{ :combostrap:background:object-multicolor.svg |}}</background>
 <row>
 <col class="col-md-6" spacing="ml-3">
-<title 4 class="text-capitalize"> Create your footprint that lasts ForEver</title>
+<title 2 class="text-capitalize"> Create your footprint that lasts ForEver</title>
 <typo lead spacing="ml-3" width="400px">
 Advertise yourself, your documentation or your company with 
-a product that makes website design, creation and management, \\ unique, easy and fun \\
+a product that makes website design, creation and management, \\ unique, easy and fun
 </typo>
 
-<btn spacing="ml-3" width="fit" elevation="true">
+<btn spacing="ml-3" elevation="true">
 [[getting_started:getting_started|Get started <icon name="arrow-right-drop-circle-outline"/>]]
 </btn>
 </col>

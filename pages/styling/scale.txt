@@ -1,10 +1,10 @@
 ---json
 {
-    "canonical":"length:scale"
+    "canonical":"rfs"
 }
 ---
 
-====== ComboStrap Styling - Length Scale (Size Scale) - Responsive Sizing ======
+====== ComboStrap Styling - Length Scale (Size Scale) ======
 
 ===== About =====
 Every length are scaled based on what's called the [[kb>rem|rem (Root Emphemeral Unit)]] which is equal by default to ''16px''.
@@ -15,7 +15,7 @@ The scale is going:
 
 
 
-This scale is used for ''font'' and [[styling:spacing|spacing]]
+This scale is used for [[font|font]] and [[styling:spacing|spacing]]
 ===== Articles Related =====
 {{backlinks>.}}
 
@@ -33,14 +33,7 @@ Every browser sets a value of ''16px'' for one ''rem'' and does not take into ac
 {{:ui:rem_strap_conf.png|}}
 
 
-==== Bootstrap 5 ====
 
-[[:bootstrap5|Bootstrap version 5]] does implement responsive size [[https://getbootstrap.com/docs/5.0/content/typography/#responsive-font-sizes|by default]]. ''ComboStrap'' does not apply therefore the fix of [[#Bootstrap 4]]
-
-It has introduced the [[https://getbootstrap.com/docs/5.0/getting-started/rfs/|RFS module (Responsive Font Sizes)]] that reacts also to styling properties with unit values like:
-  * [[styling:spacing|margin, padding]], 
-  * [[styling:border|border-radius]], 
-  * or even [[styling:shadow|box-shadow]].
 
 
 

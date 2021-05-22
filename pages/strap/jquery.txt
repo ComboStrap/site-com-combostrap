@@ -15,9 +15,11 @@
 
 ===== Version =====
 
-==== Bootstrap vs Dokuwiki ====
+==== Bootstrap 4 vs Dokuwiki ====
 
-[[bootstrap#version|Bootstrap]] from version 5 does not make use anymore of Jquery.
+<note>
+Since [[release:1.13|release 1.13]], this is possible to use [[release:1.13_bootstrap5|Bootstrap version 5]] that does not make use anymore of Jquery. Making the choice between the jQuery Dokuwiki and Bootstrap obsolete.
+</note>
 
 Before ''Bootstrap 5'', by default, the jquery version is:
   * for an anonymous user, the Jquery version of [[Bootstrap#bootstrapversion|Bootstrap]] <inote warning>Bootstrap does not use Jquery-ui</inote>
@@ -36,10 +38,16 @@ jQuery.ui.version
 </code>
 
 Example:
+
 {{:strap:jquery_version_browser_console.png|}}
 
 ===== Configuration =====
 ==== jQueryDoku ====
+
+<note>
+As [[release:1.13_bootstrap5|Bootstrap 5]] does not use Jquery anymore. This configuration become obsolete from [[release:1.13|release 1.13]]
+</note>
+
 The ''JqueryDoku'' configuration tells the stap template to use the Dokuwiki Jquery and not the Bootstrap Jquery Version for anonymous users.
 
 <note important>

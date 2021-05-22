@@ -5,7 +5,7 @@
 
 <note>
 The cache of the sidebar is automatically deleted when a page in the same namespace is created, added or deleted.
-See [[:cache]]
+See [[:sidebars]]
 </note>
 ===== Articles Related =====
 {{backlinks>.}}

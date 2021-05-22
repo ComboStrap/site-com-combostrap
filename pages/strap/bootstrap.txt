@@ -34,7 +34,7 @@ See [[styling:stylesheet]]
 You may change the BootStrap ''version'' and a corresponding [[styling:stylesheet|stylesheet]] with the ''bootstrapVersionStylesheet'' [[:configuration|configuration]]
 
 Actually, there is three Bootstrap versions supported:
-  * the ''5.0.1'' (See more info on the [[:bootstrap5|bootstrap 5 migration page]])
+  * the ''5.0.1'' (See more info on the [[release:1.13_bootstrap5|bootstrap 5 migration page]])
   * the ''4.5.0''
   * the ''4.4.1''
 
