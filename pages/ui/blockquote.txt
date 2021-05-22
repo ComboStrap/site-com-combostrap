@@ -46,7 +46,7 @@ where:
 A ''card'' blockquote is just a shortcut that wraps the typographic blockquote in a [[card|card]].
 </note>
 
-<badge>''header'' is only available since [[:changes|version 1.4]]</badge>
+<badge>''header'' is only available since [[release:release|version 1.4]]</badge>
 
 
 

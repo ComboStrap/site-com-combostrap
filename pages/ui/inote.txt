@@ -8,7 +8,7 @@ As a replacement, you could also use:
   * a [[tooltip|tooltip]]
   * or a [[doku>wiki:syntax#footnotes|footnote]].
 
-<badge>Since [[:changes|version 1.2]]</badge>
+<badge>Since [[release:release|version 1.2]]</badge>
 ===== Articles Related =====
 {{backlinks>.}}
 

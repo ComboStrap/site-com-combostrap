@@ -17,7 +17,7 @@
 You can also choose [[tabs|tabs]] as other navigational collapsible layout for panels.
 </note>
 
-<badge>Since [[:changes#version_112|version 1.12]]</badge>
+<badge>Since [[release:release#version_112|version 1.12]]</badge>
 ===== Articles Related =====
 {{backlinks>.}}
 

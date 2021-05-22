@@ -47,6 +47,6 @@ With the ''card-columns'' components, you can put a [[card|card]] or [[ui:blockq
 
 ==== Bootstrap 5 support ====
 
-If you use [[:bootstrap5|Bootstrap version 5]], you may see that the output is slightly different than with Bootstrap version 4.
+If you use [[release:1.13_bootstrap5|Bootstrap version 5]], you may see that the output is slightly different than with Bootstrap version 4.
 
-This is because does not support [[:bootstrap5|Bootstrap version 5]] ''card-column'' anymore and we have implemented it manually based on this [[https://getbootstrap.com/docs/5.0/examples/masonry/|example]]
+This is because does not support [[release:1.13_bootstrap5|Bootstrap version 5]] ''card-column'' anymore and we have implemented it manually based on this [[https://getbootstrap.com/docs/5.0/examples/masonry/|example]]

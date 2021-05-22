@@ -22,7 +22,7 @@ This is just an extension of the standard [[bar|bar feature]] of [[doku>|Dokuwik
 ===== Caching =====
 
 The cache of the sidebar is automatically deleted when a page in the same namespace is created, added or deleted.
-See [[:cache]]
+See [[:sidebars]]
 
 ===== Configuration =====
 ==== Name ====

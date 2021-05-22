@@ -15,7 +15,7 @@
 You can therefore have an [[#icon|icon link]]
 </note>
 
-<badge>Since [[:changes#version_112|version 1.12]]</badge>
+<badge>Since [[release:release#version_112|version 1.12]]</badge>
 ===== Articles Related =====
 {{backlinks>.}}
 
