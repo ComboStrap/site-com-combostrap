@@ -55,4 +55,8 @@ If you have a [[strap:fixed-top-navbar|fixed top navbar]], this is the [[strap:f
 </code>
 </webcode>
 
+===== Documentation / Reference =====
+    * Sticky sidebar:
+      * until the bottom (https://sticksy.js.org/)
+      * https://rgalus.github.io/sticky-js/
 
