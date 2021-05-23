@@ -14,7 +14,7 @@ A ''List'' is a [[ui|component]] that lay out continuous, vertical lines where e
 
 {{:ui:list_elements.png?600|}}
 
-<badge>Since [[:changes|version 1.6]]</badge>
+<badge>Since [[release:release|version 1.6]]</badge>
 ===== Articles Related =====
 {{backlinks>.}}
 

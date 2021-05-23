@@ -1,0 +1,17 @@
+---json
+{
+    "canonical":"",
+    "title":"A [[https://combostrap.com/frontmatter|frontmatter]] title shown on the Search Engine Result Pages",
+    "description":"A [[https://combostrap.com/frontmatter|frontmatter]] description shown on the Search Engine Result Pages"
+}
+---
+====== Release 1.14 - Snapshot ======
+
+
+===== List =====
+
+
+===== Bug =====
+
+  * XHTML bug: https://validator.w3.org/nu/?doc=https%3A%2F%2Fcombostrap.com%2F
+  * How to avoid : ''PHP Fatal error:  Uncaught Error: Undefined class constant ''

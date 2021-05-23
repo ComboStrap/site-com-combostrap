@@ -13,7 +13,7 @@
 
 A visitor should not be anonymous to be able to see or to follow a link to the ''late publication page''.
 
-<badge>Since [[:changes#version_112|version 1.12]]</badge>
+<badge>Since [[release:release#version_112|version 1.12]]</badge>
 ===== Articles Related =====
 {{backlinks>.}}
 

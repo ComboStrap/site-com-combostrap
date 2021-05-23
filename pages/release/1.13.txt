@@ -5,7 +5,7 @@
     "description":"The combostrap 1.13 release documentation "
 }
 ---
-====== ComboStrap - Release 1.13 - Snapshot ======
+====== ComboStrap - Release 1.13 (Current) ======
 
 
 ===== About =====

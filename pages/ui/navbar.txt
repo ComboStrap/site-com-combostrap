@@ -24,7 +24,7 @@ Inside a ''navbar'' component, you can add:
 <navbar breakpoint="lg" position="normal" align="left" theme="light">
 </code>
 where:
-  * ''breakpoint'' is one of the [[breakpoint|breakpoint code]] (''xs'','''sm'', ''md'', ''lg'' (Default), ''xl'')
+  * ''breakpoint'' is one of the [[styling:breakpoint|breakpoint code]] (''xs'','''sm'', ''md'', ''lg'' (Default), ''xl'')
   * ''position'' is one of ''normal'' (default),  [[#fixed-top|top]] (''bottom'' is not yet supported)
   * ''align'' defines the horizontal placement. Possible values: ''left''(Default) or ''center'' 
   * ''theme'' defines the luminance of the text. You can specify ''light'' (default) or ''dark''

@@ -52,7 +52,7 @@ Example:
 
 You can disable totally the ''dynamic quality monitoring'' feature by selecting the [[:configuration|configuration disableDynamicQualityMonitoring]].
 
-<badge>Since [[:changes#version_112|version 1.12]]</badge>
+<badge>Since [[release:release#version_112|version 1.12]]</badge>
 
 
 

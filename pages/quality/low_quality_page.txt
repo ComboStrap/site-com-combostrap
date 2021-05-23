@@ -20,7 +20,7 @@ This kind of page have this characteristics:
 
 
 
-<badge>Since [[:changes|version 1.11]]</badge>
+<badge>Since [[release:release|version 1.11]]</badge>
 ===== Articles Related =====
 {{backlinks>.}}
 

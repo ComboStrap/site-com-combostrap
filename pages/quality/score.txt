@@ -4,7 +4,7 @@
 ===== About =====
 ''ComboStrap'' calculates automatically a ''quality score'' for each page.
 
-<badge>Since [[:changes|version 1.11]]</badge>
+<badge>Since [[release:release|version 1.11]]</badge>
 
 ===== Articles Related =====
 {{backlinks>.}}

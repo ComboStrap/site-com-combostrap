@@ -10,7 +10,7 @@
 ===== About =====
 ''Tooltips'' display informative text when users hover over, focus on, or tap an element.
 
-<badge>Since [[:changes|version 1.4]]</badge>
+<badge>Since [[release:release|version 1.4]]</badge>
 ===== Articles Related =====
 {{backlinks>.}}
 

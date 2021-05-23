@@ -14,7 +14,7 @@
 
 You can optionally add your twitter handle in the cards if [[#configuration|configured]].
 
-<badge>Since [[:changes#version_112|version 1.12]]</badge>
+<badge>Since [[release:release#version_112|version 1.12]]</badge>
 
 
 <note>

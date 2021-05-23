@@ -59,7 +59,7 @@ The only action attached is to navigate to another page.
 
 
 ==== Hover Animation ====
-You can also add [[styling:onhover|hover animation]].
+You can also add [[styling:hover|hover animation]].
 
   * Float
 <webcode name="Button" frameborder="0" >

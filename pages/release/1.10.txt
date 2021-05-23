@@ -8,7 +8,7 @@
 ====== ComboStrap - Release 1.10 ======
 
 ===== About =====
-[[release|release]] ''1.10'' (2021-01-09)
+[[release:release|release]] ''1.10'' (2021-01-09)
 
 
 ===== List =====

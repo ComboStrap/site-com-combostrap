@@ -18,7 +18,7 @@ The ''ComboStrap'' pages supports the setting of [[semantic|metadata]] to enable
 
 
 
-<badge>Since [[:changes#version_112|version 1.12]]</badge>
+<badge>Since [[release:release#version_112|version 1.12]]</badge>
 
 ===== Creation =====
 

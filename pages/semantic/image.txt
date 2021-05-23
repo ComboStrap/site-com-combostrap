@@ -17,7 +17,7 @@ By default, if the ''image'' property is not set, the [[#configuration|first ima
 [[twitter#image|twitter]], [[google#image|google]] and [[facebook#image|facebook]] have all differents image specifications, therefore when used in this context, the first image conforming to their specification is used.
 </note>
 
-<badge>Since [[:changes#version_112|version 1.12]]</badge>
+<badge>Since [[release:release#version_112|version 1.12]]</badge>
 
 ===== Articles Related =====
 {{backlinks>.}}

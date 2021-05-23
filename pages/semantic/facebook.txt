@@ -13,7 +13,7 @@ Sharing a link will show on every facebook post a card thanks to the facebook so
 
 
 
-<badge>Since [[:changes#version_112|version 1.12]]</badge>
+<badge>Since [[release:release#version_112|version 1.12]]</badge>
 
 ===== Articles Related =====
 {{backlinks>.}}

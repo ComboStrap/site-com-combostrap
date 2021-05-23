@@ -3,7 +3,7 @@
 ===== About =====
 
 
-<note warning>Deprecated since [[:changes|version 1.12]] for [[ui:tabs|tabs with panel]].
+<note warning>Deprecated since [[release:release|version 1.12]] for [[ui:tabs|tabs with panel]].
 
 Why?
   * It has a simpler interface (no needs for two block tabs and tabpanels)
@@ -47,7 +47,7 @@ where:
       * it must **not** contain any space characters.
       * it must begin with a letter ''[A-Za-z]''
       * it may be followed by any number of letters, digits ''[0-9]'', hyphens ''-'', underscores ''_'', colons '':'', and periods ''.''
-  * the content of a ''tabpanel'' accepts all syntax (included the [[ui:title|dokuwiki heading format]] <badge>Since [[:changes|version 1.7]]</badge>)
+  * the content of a ''tabpanel'' accepts all syntax (included the [[ui:title|dokuwiki heading format]] <badge>Since [[release:release|version 1.7]]</badge>)
 ===== Example =====
 
 <note important>

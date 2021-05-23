@@ -11,7 +11,7 @@
 
 There is a lot of possible analytics that can answer all your question.
 
-<badge>Since [[:changes|version 1.11]]</badge>
+<badge>Since [[release:release|version 1.11]]</badge>
 
 ===== Getting started =====
 

@@ -15,7 +15,7 @@ If your website has a lot of [[quality:low_quality_page|low quality page]]:
 
 This feature if [[#enable|enabled]] makes [[quality:low_quality_page|low quality page]] no more discoverable by Search Engine and prevents you to be banned by [[kb>search:engine|Search Engine]].
 
-<badge>Since [[:changes|version 1.11]]</badge>
+<badge>Since [[release:release|version 1.11]]</badge>
 
 ===== Thin content with little or no added value =====
 The ''Thin content with little or no added value'' is explained in the [[https://support.google.com/webmasters/answer/9044175#thin-content|webmaster documentation]]

@@ -53,5 +53,5 @@ The ''JqueryDoku'' configuration tells the stap template to use the Dokuwiki Jqu
 <note important>
 It may add inconsistency with Bootstrap. If you need a front-end component that use ''Jquery UI'', [[:support|contact us]] to see if there is not already a ''bootstrap'' component.
 </note>
-<badge>Since [[:changes|version 1.6]]</badge>
+<badge>Since [[release:release|version 1.6]]</badge>
 

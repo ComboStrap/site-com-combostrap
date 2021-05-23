@@ -13,7 +13,7 @@ The ''grid'' component is a composition of two tags:
   * the ''row'' tag
   * and the ''column'' (or ''col'' tag)
 
-<badge>Since [[:changes|version 1.2]]</badge>
+<badge>Since [[release:release|version 1.2]]</badge>
 
 ===== Articles Related =====
 {{backlinks>.}}
@@ -32,15 +32,15 @@ where
 They are actually [[styling:html|superset HTML component]], you can therefore use all [[https://getbootstrap.com/docs/5.0/layout/grid/|Grid bootstrap class]]
 </note>
 
-<badge>Attributes are [[:changes|in the planning]]</badge>
+<badge>Attributes are [[release:release|in the planning]]</badge>
 
 ===== Example =====
 
 ==== Basic two columns ====
 
 On a grid of 12 columns, a row with two columns:
-  * evenly distributed on a [[breakpoint|large desktop (lg)]]
-  * stacked on a [[breakpoint|mobile phone]] - col-12 is for the [[breakpoint|extra small breakpoint]].
+  * evenly distributed on a [[styling:breakpoint|large desktop (lg)]]
+  * stacked on a [[styling:breakpoint|mobile phone]] - col-12 is for the [[styling:breakpoint|extra small breakpoint]].
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <row class="px-5">

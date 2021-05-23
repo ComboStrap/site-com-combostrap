@@ -14,7 +14,7 @@ A ''namespace TOC'' is a [[navigation|navigational component]] that creates a [[
 
 This component is mostly used in a [[strap:sidebor|sidebar]] or [[strap:sidekickbor|sidekickbar]]
 
-<badge>Since [[:changes|version 1.6]]</badge>
+<badge>Since [[release:release|version 1.6]]</badge>
 
 The ''ntoc'' has replaced the [[minimap|minimap]] component.
 
@@ -32,8 +32,8 @@ The ''ntoc'' has replaced the [[minimap|minimap]] component.
 </code>
 where:
   * ''ns'' is an attribute that defines the ''namespace'' (Default to the ''namespace'' of the current page)
-  * ''index'' defines a [[template|template]] for the index page of the namespace <badge>Since [[:changes|version 1.7]]</badge>
-  * ''ns-item'' defines a [[template|template]] for each sub-namespace of the namespace <badge>Since [[:changes|version 1.7]]</badge>
+  * ''index'' defines a [[template|template]] for the index page of the namespace <badge>Since [[release:release|version 1.7]]</badge>
+  * ''ns-item'' defines a [[template|template]] for each sub-namespace of the namespace <badge>Since [[release:release|version 1.7]]</badge>
   * ''page-item'' defines a [[template|template]] for each page in the namespace
 
 <note >

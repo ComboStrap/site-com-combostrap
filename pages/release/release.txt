@@ -14,13 +14,13 @@
 This is a page that lists all releases with their respective changes for [[:start|ComboStrap]].
 ===== Releases =====
 
-  * [[1.13]]
-  * [[1.12]]
-  * [[1.11]]
+  * [[release:1.13]]
+  * [[release:1.12]]
+  * [[release:1.11]]
 
-  * [[1.10]]
+  * [[release:1.10]]
 
-  * [[1.9]]
+  * [[release:1.9]]
 ==== Version 1.8 - 2020-09-03 ====
 The version 1.8 was a bug fix release.
   * Bug: [[strap:sidekickbor|sidekickbar]] configuration was missspeld to ''sideckickbar'' in place of ''sidekickbar''
@@ -49,20 +49,7 @@ The version 1.8 was a bug fix release.
   * A ''border-color'' will add (if not present) default styling attributes to see a border. See [[styling:color#border_color|Border-color]]
   * The [[ads:ads|Ads Module]] was added
 
-==== Version 1.4 - 2020-07-20 ====
-  * Corrected the bug: No message visible when the [[semantic:frontmatter|frontmatter json object]] is not valid
-  * The [[styling:align|align attribute]] was better documented and supports now also the text alignement.
-  * [[ui:blockquote|Blockquote]] and [[ui:card|card]] are fully implemented and supports also now a [[ui:header|header]]
-  * Added the [[styling:shadow]]|elevation styling attribute]] to give more emphasis.
-  * The [[ui:button|button]] was improved: outline and size are now supported.
-  * The [[ui:tooltip|tooltip component]] was added
-  * The [[ui:jumbotron|jumbotron component]] was added
-  * The [[ui:typo|typo component]] was added to apply styling on a paragraph level
-  * The [[ui:hr|hr component]] was added to draw an horizontal rule
-  * The [[ui:title|title component]] was added to give more control on the title of component
-  * The ''monospaced'' dokuwiki syntax has become an ''highlight'' within the [[ui:renderer|renderer]]
-  * Added the [[ui:table|table page]] to showcase the fact that they are by default responsive.
-  * Added the [[styling:skin|skin attributes]] to define emphasis.
+  * [[release:1.4]]
 
 ==== Version 1.3 - 2020-07-15 ====
   * [[styling:dimension|Component sizing on height]] gets now an ''overflow:auto'' which bootstrap didn't take into account.

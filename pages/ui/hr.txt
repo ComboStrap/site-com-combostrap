@@ -10,7 +10,7 @@ It represents:
   * a paragraph-level thematic break, e.g. a scene change in a story, or a transition to another topic within a section of a reference book.
   * or a separator between a groups of items.
 
-<badge>Since [[:changes|version 1.4]]</badge>
+<badge>Since [[release:release|version 1.4]]</badge>
 ===== Articles Related =====
 {{backlinks>.}}
 

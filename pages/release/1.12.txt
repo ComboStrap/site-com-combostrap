@@ -8,7 +8,7 @@
 ====== ComboStrap - Release 1.12 ======
 
 ===== About =====
-This page regroups the changes for the [[start|release]] ''1.12'' (''2021-03-21'')
+This page regroups the changes for the [[release:release|release]] ''1.12'' (''2021-03-21'')
 
 
 This is release that has started with a couple of request and ended big.

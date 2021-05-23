@@ -1,0 +1,28 @@
+---json
+{
+    "canonical":"1.4"
+}
+---
+====== ComboStrap - Release 1.4  ======
+
+
+===== About =====
+List of changes for the [[release:release|release]] ''1.4'' (2020-07-20)
+
+
+===== List =====
+
+
+  * Corrected the bug: No message visible when the [[semantic:frontmatter|frontmatter json object]] is not valid
+  * The [[styling:align|align attribute]] was better documented and supports now also the text alignement.
+  * [[ui:blockquote|Blockquote]] and [[ui:card|card]] are fully implemented and supports also now a [[ui:header|header]]
+  * Added the [[styling:shadow]]|elevation styling attribute]] to give more emphasis.
+  * The [[ui:button|button]] was improved: outline and size are now supported.
+  * The [[ui:tooltip|tooltip component]] was added
+  * The [[ui:jumbotron|jumbotron component]] was added
+  * The [[ui:typo|typo component]] was added to apply styling on a paragraph level
+  * The [[ui:hr|hr component]] was added to draw an horizontal rule
+  * The [[ui:title|title component]] was added to give more control on the title of component
+  * The ''monospaced'' dokuwiki syntax has become an ''highlight'' within the [[ui:renderer|renderer]]
+  * Added the [[ui:table|table page]] to showcase the fact that they are by default responsive.
+  * Added the [[styling:skin|skin attributes]] to define emphasis.
