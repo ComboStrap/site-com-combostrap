@@ -1,0 +1,16 @@
+---json
+{
+    "canonical":"1.6"
+}
+---
+====== ComboStrap - Release 1.6 ======
+
+===== About =====
+[[..:release|release]] 1.6 from 2020-07-30
+
+===== Change list =====
+
+  * The [[ui:list|list]] component was added
+  * The [[ui:ntoc|namespace toc]] component was added
+  * The [[strap:jquery#jquerydoku|jQuery doku]] configuration permits to use the Dokuwiki jQuery bundle in order to add Jquery UI to the front end.
+  * The [[deprecated:tabs|tabs]] component was added

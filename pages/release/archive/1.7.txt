@@ -1,0 +1,17 @@
+---json
+{
+    "canonical":"1.7"
+}
+---
+====== ComboStrap - Release 1.7 ======
+
+===== About =====
+[[..:release|release]] 1.7 from 2020-07-31
+
+===== Change list =====
+
+  * A [[ui:title|dokuwiki heading title]] can now be used in a [[deprecated:tabs#tabpanels|tabpanel]]
+  * The [[ui:ntoc|namespace toc]] accepts now the definition of an ''index'' and ''ns-item'' to define a line for the index page and the sub-namespace
+  * Every link in a component does not get the dokuwiki class (''wikilink1'') to get a consistent styling with [[strap:bootstrap|bootstrap]].
+  * Links inside [[ui:button|button]] inherit the color of its parent as bootstrap does not style a link inside a button
+  * Added [[:sidebars|automatic cache bursting]] to delete the cache of the sidebar when an element has changed in a namespace in order to get a consistent output.

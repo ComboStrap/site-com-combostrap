@@ -3,7 +3,8 @@
     "canonical":"changes",
     "title":"Release - A log of all ComboStrap changes and release",
      "description":"This page logs the release history",
-     "layout":"median"
+     "layout":"median",
+     "low_quality_page":"false"
 }
 ---
 
@@ -11,131 +12,20 @@
 
 
 ===== About =====
-This is a page that lists all releases with their respective changes for [[:start|ComboStrap]].
+This is a page that lists all releases with their respective changes for [[:combostrap|ComboStrap]].
 ===== Releases =====
 
   * [[release:last]]
-  * [[release:1.12]]
-  * [[release:1.11]]
-
-  * [[release:1.10]]
-
-  * [[release:1.9]]
-==== Version 1.8 - 2020-09-03 ====
-The version 1.8 was a bug fix release.
-  * Bug: [[strap:sidekickbor|sidekickbar]] configuration was missspeld to ''sideckickbar'' in place of ''sidekickbar''
-  * Bug: Check if the php sqlite extension is installed. When it was not installed, the SQLite Plugin returns a null value.
-  * Bug: [[ui:ntoc|Navigational Toc]] was not rendering correctly sub-namespace due to a bad predicate, index page was not filtered due to a semi-colon, the directory were rendering as a page if there was no template and as it was cached, the result was not accurate if the namespace was showing a parent sidebar
-==== Version 1.7 - 2020-07-31 ====
-  * A [[ui:title|dokuwiki heading title]] can now be used in a [[deprecated:tabs#tabpanels|tabpanel]]
-  * The [[ui:ntoc|namespace toc]] accepts now the definition of an ''index'' and ''ns-item'' to define a line for the index page and the sub-namespace
-  * Every link in a component does not get the dokuwiki class (''wikilink1'') to get a consistent styling with [[strap:bootstrap|bootstrap]].
-  * Links inside [[ui:button|button]] inherit the color of its parent as bootstrap does not style a link inside a button
-  * Added [[:sidebars|automatic cache bursting]] to delete the cache of the sidebar when an element has changed in a namespace in order to get a consistent output.
-==== Version 1.6 - 2020-07-30 ====
-
-  * The [[ui:list|list]] component was added
-  * The [[ui:ntoc|namespace toc]] component was added
-  * The [[strap:jquery#jquerydoku|jQuery doku]] configuration permits to use the Dokuwiki jQuery bundle in order to add Jquery UI to the front end.
-  * The [[deprecated:tabs|tabs]] component was added
-
-==== Version 1.5 - 2020-07-25 ====
-  * Add the ''og:description'' meta in the [[semantic:description|meta description]] to support Facebook.
-  * Bug: The section highlighting feature was:
-      * not working
-      * modifying the document making the edit button jump.
-  * Bug: A [[semantic:canonical|canonical value]] cannot be uppercase
-  * Bug: A [[ui:cite|cite element]] outside a component was giving an error because it had no parents
-  * A ''border-color'' will add (if not present) default styling attributes to see a border. See [[styling:color#border_color|Border-color]]
-  * The [[ads:ads|Ads Module]] was added
-
-  * [[release:1.4]]
-
-==== Version 1.3 - 2020-07-15 ====
-  * [[styling:dimension|Component sizing on height]] gets now an ''overflow:auto'' which bootstrap didn't take into account.
-  * [[:support|New support page]] with [[https://twitter.com/combostrapweb|twitter account]], stackoverflow and spectrum.
-  * A [[ui:container|container]] can now contain a whole page and keeps the [[ui:toc|TOC intact]]
-  * Added a [[:support|support]] page
-  * [[ui:breadcrumb|Breadcrumbs]] were made ''bootstrap'' aware and the documentation has improved.
-==== Version 1.2 - 2020-07-14 ====
-The version 1.2 is a big template improvement release:
-  * The [[strap:footerbor|footerbar]] is no longer constrained in width.
-  * Implementation of the [[ui:grid|grid component]]
-  * The [[ui:container|container]] is now a [[styling:html|superset HTML component]]
-  * You can now set a [[styling:color#gradient|background color gradient]].
-  * The [[ui:footer|footer]] element was created.
-  * The [[strap:strap|strap template]] applies now a ''dokuwiki'' class on the whole page in order to be able to have [[doku>Dokuwiki]] styling such as [[doku>interwiki|interwiki icon]] in the footer.
-  * The [[:css|template CSS]] can now be [[:css#preload|preloaded]]
-  * The [[strap:dynamic_grid|dynamic grid]] was added with a 16 grid system
-  * A [[styling:bootstrap|custom bootstrap theme]] can now be added
-  * The [[strap:sidekickbor|sidekickbar]] was added
-  * The [[strap:toolbar|toolbar]] can now be private
-  * The [[ui:inote|inote component]] (inline note) was created.
-  * The [[strap:cdn|CDN feature]] has now its own page and is also tested
-  * A [[strap:jquery|Jquery]] and [[strap:bootstrap|Bootstrap]] page were added
-  * The [[ui:navbar|navbar]] now supports completely the ''Bootstrap'' options.
-  * The [[strap:fixed-top-navbar|fixed-top navbar]] has now a page and is fully dynamically configurable.
-
-==== Version 1.1 - 2020-07-10 ====
-  * The [[semantic:viewer|metadata viewer]] shows now all metadatas and can apply a filter
-  * The [[semantic:title|web page title]] is now managed.
-  * The [[ui:math|math component]] is no more template dependent.
-  * The [[ui:disqus|disqus component]] was finalized
-  * The [[ui:badge|badge component]] was added
-
-
-==== Version 1.0 - 2020-07-04 ====
-First release.
-  * The [[:css|CSS optimizer]] was added
-  * The [[ui:button|button link]] takes now into account the [[styling:color|color attributes]] of its button parent.
-  * All [[ui:ui|UI components]] support now the [[styling:styling|styling attributes]]
-  * The [[ui:note|note component]] was created
-  * The [[ui:icon|icon component]] was created
-  * The [[url:page_rules|page rules admin interface]] was created
-  * [[url:redirection|Redirections]] - The ''REDIRECTIONS'' table was renamed to ''PAGE_RULES''
-    * The ''SOURCE'' column was renamed to ''MATCHER''
-    * The ''PRIORITY'' column was added
-    * An ''ID'' column was added and replace the old ''SOURCE'' primary key
-
-
-===== Note=====
-  * [[ui:note|Note]] - the last part of a note has a line due to the browser stylesheet for p and ul
-  * [[https://www.dokuwiki.org/include_hooks|include-Hooks]] (meta)
-  * [[https://aerolab.github.io/midnight.js/|Midnights]] ([[https://github.com/Aerolab/midnight.js|code]]) [[strap:fixed-top-navbar|fix topbar]] with differents colors depending on the background
-  * Don't redirect missing [[:strap:bar|bars]]
-  * [[semantic:article|Article]] role:
-      * [[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Article_Role|Add article role]]
-      * [[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_article_role|Article role]]
-  * Passing [[semantic:lang|lang]] to the body strap template node ?
-  * Social:
-      * Mail and Messenger wrapper: https://mailgo.dev/
-      * https://ellisonleao.github.io/sharer.js/
-  * Bug:
-      * The image (http:download.oracle.com:docs:cd:e14571_01:bi.1111:e10543:img:admintool2.gif) does not exist and was not added
-      *  image - The image id value (http://download.oracle.com/docs/cd/E14571_01/bi.1111/e10543/img/admintool2.gif) is not conform and should be (http:download.oracle.com:docs:cd:e14571_01:bi.1111:e10543:img:admintool2.gif) - 172.69.34.230
-  * [[https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/dn320426(v=vs.85)?redirectedfrom=MSDN|Browserconfig ?]]
-<code xml>
-<?xml version="1.0" encoding="utf-8"?>
-<browserconfig>
-    <msapplication>
-        <tile>
-            <square150x150logo src="/mstile-150x150.png"/>
-            <TileColor>#da532c</TileColor>
-        </tile>
-    </msapplication>
-</browserconfig>
-</code>
-  * Landing Page:
-      * Add a [[https://getbootstrap.com/docs/4.4/components/carousel/|Carrousel]]
-  * Add notification panel with a bell icon to show short updates ([[https://material-ui.com/|Example]])
-  * https://github.com/retextjs/retext:
-    * Readiblity
-    * Word visualization - https://github.com/wooorm/write-music
-	* https://wooorm.com/short-words/
-  * Metadata:
-      * https://developers.google.com/search/docs/data-types/breadcrumb#breadcrumb-list
-      * https://developers.google.com/search/docs/data-types/qapage
-      * https://developers.google.com/search/docs/data-types/how-to
-  * Image:
-      * Add a [[https://getbootstrap.com/docs/4.4/content/figures/|caption to image]]
-
+  * [[release:archive:1.12]]
+  * [[release:archive:1.11]]
+  * [[release:archive:1.10]]
+  * [[release:archive:1.9]]
+  * [[.archive:1.8]]
+  * [[.archive:1.7]]
+  * [[.archive:1.6]]
+  * [[.archive:1.5]]
+  * [[.archive:1.4]]
+  * [[.archive:1.3]]
+  * [[.archive:1.2]]
+  * [[.archive:1.1]]
+  * [[.archive:1.0]]

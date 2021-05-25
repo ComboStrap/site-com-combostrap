@@ -1,0 +1,13 @@
+---json
+{
+    "canonical":"release:archive",
+    "title":"ComboStrap - Archive of the release documentation"
+}
+---
+====== ComboStrap - Release Archive ======
+
+
+===== About =====
+This section regroups all documentation archive of the release page.
+
+
