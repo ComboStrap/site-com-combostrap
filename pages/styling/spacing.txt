@@ -21,10 +21,11 @@ where:
 {{backlinks>.}}
 ===== Example =====
 
+==== Padding and Spacing on all sides ====
 
 A [[ui:note|note]] with:
-  * a ''padding''  with a [[styling:scale|scale value of 3]] (blue color)
-  * a ''margin'' with a [[styling:scale|scale value of 5]] (no color)
+  * ''p-3'': a ''padding''  with a [[styling:scale|scale value of 3]] (blue color)
+  * ''m-5'': a ''margin'' with a [[styling:scale|scale value of 5]] (no color)
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <note spacing="p-3 m-5">
@@ -33,39 +34,77 @@ A note with a padding and a margin
 </code>
 </webcode>
 
+==== Padding and Spacing on the start (old left) side ====
 
-===== Spacing Class Name =====
-The spacing class name  implements the [[https://getbootstrap.com/docs/4.0/utilities/spacing/|Bootstrap spacing convention]].
-
-  * For ''extra-small (xs)'' breakpoint
-<code>
-{spaceType}{sides}-{size}
+A [[ui:note|note]] with:
+  * ''ps-3'' means:
+      * ''p'': a ''padding''  (painted in blue) 
+      * ''s'': at the ''start'' of the line  (ie ''left'' in english) 
+      * ''-3'': with a [[styling:scale|scale value of 3]] 
+  * ''ms-5'' means:
+      * ''m'': a ''margin'' (no color - transparent) 
+      * ''s'': at the ''start'' of the line  (ie ''left'' in english)
+      * ''-5'' with a [[styling:scale|scale value of 5]] 
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<note spacing="ps-3 ms-5">
+A note with a padding and a margin only at the start of the line (ie ''left'' in english) - not at the right
+</note>
 </code>
-  * For the other
+</webcode>
+
+
+
+
+
+
+
+
+
+===== Syntax =====
+
+<code dw>
+spacing="value"
+</code>
+
+where value is:
 <code>
-{spaceType}{sides}-{breakpoint}-{size}
+{spaceType}[sides][-{breakpoint}]-{size}
 </code>
 
 where:
-  * ''spaceType'' is
+  * ''spaceType'' (mandatory) is the type of space 
       * ''p'' for padding
       * ''m'' for margin
-  * ''sides'' is:
+  * ''sides'' (optional default to all sides) is
       * axis:
           * ''x'' (Left and right)
           * ''y'' (top & bottom)
       * position:
-          * ''l'': left
-          * ''r'': right
+          * ''s'': start (left for LTR or right for RTL language)
+          * ''e'': end (right for LTR or left for RTL language)
           * ''t'': top
           * ''b'': bottom
-  * ''breakpoint'' is the [[styling:breakpoint|Breakpoint (Toggle size)]] : xs, sm, md, lg
-  * ''size'' is 0,1,2,3,4 or 5 (based on [[styling:scale|size scale]])
+  * ''breakpoint'' (optional, default to xs) is the [[styling:breakpoint|Breakpoint (Toggle size)]] : xs, sm, md, lg
+  * ''size'' (mandatory) is 0,1,2,3,4 or 5 (based on [[styling:scale|size scale]])
 
 <note tip>
 === For the geek ===
 The ''margin'' properties can utilize negative values but ''padding'' cannot and that's how the top of the page is defined in a  [[strap:fixed-top-navbar|fixed-top navbar]]
 </note>
+
+===== Support =====
+
+==== Bootstrap 4 Notation Preserved ====
+
+The ''l'' and ''r'' for ''left'' and ''right'' of ''Bootstrap 4'' are translated to ''start'' and ''end''
+<webcode name="Default" frameborder=0 >
+<code dw>
+<note spacing="pl-3 ml-5">
+The old notation ''l'' and ''r'' are still supported therefore ''pl-3 ml-5'' is equivalent to  ''ps-3 ms-5''
+</note>
+</code>
+</webcode>
 ===== Documentation / Reference =====
   * [[https://getbootstrap.com/docs/4.0/utilities/spacing/|Bootstrap Spacing]].
 

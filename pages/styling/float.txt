@@ -22,19 +22,27 @@
 </code>
 where value is a composition of one of the below floated value separated by a space. 
 
-^ [[breakpoint|Breakpoint]] / Position ^ Left ^ Right ^ None ^ Default ^
-| ''xs'' | ''xs-left'' | ''xs-right'' | ''xs-none'' | ''xs-none'' |
-| ''sm'' | ''sm-left'' | ''sm-right'' | ''sm-none'' | - |
-| ''md'' | ''md-left'' | ''md-right'' | ''md-none'' | - |
-| ''lg'' | ''lg-left'' | ''lg-right'' | ''lg-none'' | - | 
-| ''xl'' | ''xl-left'' | ''xl-right'' | ''xl-none'' | - |
-| [[#floatDefaultBreakpoint|default breakpoint]] | ''left'' | ''right'' | ''none'' | - |
+A value of:
+  * ''start'' means on the ''left'' for a RTL language or on the ''right'' for LTR language
+  * ''end'' means on the ''right'' for a RTL language or on the ''left'' for LTR language
+
+^ [[breakpoint|Breakpoint]] / Position ^ Start ^ End ^ None ^ Default ^
+| ''xs'' | ''xs-start'' | ''xs-end'' | ''xs-none'' | ''xs-none'' |
+| ''sm'' | ''sm-start'' | ''sm-end'' | ''sm-none'' | - |
+| ''md'' | ''md-start'' | ''md-end'' | ''md-none'' | - |
+| ''lg'' | ''lg-start'' | ''lg-end'' | ''lg-none'' | - | 
+| ''xl'' | ''xl-start'' | ''xl-end'' | ''xl-none'' | - |
+| [[#floatDefaultBreakpoint|default breakpoint]] | ''start'' | ''end'' | ''none'' | - |
 
 
+<note>
+  * The value of ''left'' and ''right'' can also be used and are translated by ''start'' and ''end''
+  * When a component is floated on the ''end'' (''right'' in English) without [[styling:spacing|spacing]], we set automatically a margin at the ''start'' (''left'' in English) to give space between the component and the text.
+</note>
 ===== Example =====
 
-==== Right ====
-A value of ''right'' will:
+==== Right for RTL language (English) ====
+A value of ''end'' will:
   * float the element from the [[#floatDefaultBreakpoint|default breakpoint]]
   * not float the element on the extra small device because of the ''xs'' device
 
@@ -43,7 +51,7 @@ Example with a [[ui:blockquote|blockquote]]
 <webcode name="Default" frameborder="0">
 <code dw>
 
-<blockquote float="right" spacing="m-3">
+<blockquote float="end">
 The true work does not reveal itself until you get into.
 </blockquote>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas leo erat, aliquam eu felis nec, sodales pretium mi. In dictum, dui non tincidunt finibus, nibh quam condimentum tortor, at scelerisque ex sem non quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur fermentum justo id ligula ultrices tincidunt tristique eu quam. Vestibulum porttitor quam at dui dictum luctus. Fusce ut risus a magna pretium aliquam non a arcu. Morbi eu cursus lacus.

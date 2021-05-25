@@ -9,7 +9,7 @@
 
 
 ===== About =====
-In the [[1.13|release 1.13]], we made Bootstrap 5 available. This page regroups all migration matters from BootStrap 4 to BootStrap 5.
+In the [[last|release 1.13]], we made Bootstrap 5 available. This page regroups all migration matters from BootStrap 4 to BootStrap 5.
 
 ComboStrap supports the two version.
 
@@ -31,7 +31,7 @@ If you got any problem on this migration, don;'t hesitate to [[:support|open a t
 
 ===== Breaking changes from Combostrap 5 =====
 
-==== Spacing Utility Class ====
+==== Start and End in place of Left and Right in Utility Class ====
 
 The only breaking change is when you use utility class directly from bootstrap with the [[styling:class|class attribute]] (ie without using for instance the [[styling:spacing|spacing utility]] for instance).
 
@@ -57,8 +57,10 @@ Example with the ''info'' color
 
 
 ===== Changes preserved  =====
-
+This section lists the changes preserved by ComboStrap.
 ==== Deleted ====
+The following elements are deleted in Bootstrap 5 but preserved in Combostrap.
+
   * [[ui:card_column|Card Columns]] was deleted from Bootstrap 4 but we maintain it as explained in this [[https://getbootstrap.com/docs/5.0/examples/masonry/|example]]
   * [[strap:jquery|Jquery]] is [[https://getbootstrap.com/docs/5.0/getting-started/javascript/#still-want-to-use-jquery-its-possible|no more a dependency for Bootstrap]]. 
   * [[ui:jumbotron|jumbotron]] was [[https://getbootstrap.com/docs/5.0/migration/#jumbotron|deleted]].
@@ -71,6 +73,7 @@ Example with the ''info'' color
   * ''auto margin'' used in the [[ui:group|Navgroup]] with the ''expand'' attribute has been renamed from [[https://getbootstrap.com/docs/4.0/utilities/flex/#auto-margins|mr-auto]] to [[https://getbootstrap.com/docs/5.0/utilities/flex/#auto-margins|me-auto]].
   * the [[https://getbootstrap.com/docs/5.0/getting-started/accessibility/#visually-hidden-content|assistive technologies class]] given in the [[ui:search|search bar]] has changed from ''sr-only'' to ''visually-hidden''
   * [[ui:badge|badge]] uses now [[https://getbootstrap.com/docs/5.0/components/badge/#background-colors|background class]] to specify the background color. The colors have changed slightly.
+  * [[styling:spacing|spacing]] and [[styling:float|Float]] uses now also the ''start'' and ''end'' positioning
 
 
 ===== More info =====
