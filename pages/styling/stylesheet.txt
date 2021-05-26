@@ -17,12 +17,10 @@
 
 ===== Configuration =====
 
-You can choose your stylesheet in the ''Bootstrap Stylesheet'' [[:configuration|configuration]].
+You can choose your stylesheet via  the [[strap:bootstrap#configuration|Bootstrap Stylesheet Version configuration]].
 
-<note important>
-The ''bootswatch'' themes are available since the [[strap:bootstrap#version|Bootstrap version]] ''4.5.1''. The [[:configuration|configuration]] ''Bootstrap version'' should then be at minimal ''4.5.0''
-</note>
 
+{{:strap:bootstrapversionstylesheet.png|}}
 
 ===== List =====
 

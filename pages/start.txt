@@ -10,18 +10,20 @@
 <slide size="lg"  >
 <background opacity="0.4">{{ :combostrap:background:object-multicolor.svg |}}</background>
 <row>
-<col class="col-md-6" spacing="ml-3">
-<title 2 class="text-capitalize"> Create your footprint that lasts ForEver</title>
-<typo lead spacing="ml-3" width="400px">
+<col class="col-md-5">
+<title 3 class="text-capitalize"> Create your footprint that lasts ForEver</title>
+<typo lead>
 Advertise yourself, your documentation or your company with 
 a product that makes website design, creation and management, \\ unique, easy and fun
 </typo>
 
-<btn spacing="ml-3" elevation="true">
+<btn elevation="true">
 [[getting_started:getting_started|Get started <icon name="arrow-right-drop-circle-outline"/>]]
 </btn>
 </col>
-
+<col class="align-self-center" align="center">
+{{ ::undraw_content_creator.svg?500 |}}
+</col>
 </row>
 </slide>
 
@@ -44,16 +46,16 @@ a product that makes website design, creation and management, \\ unique, easy an
 </card>
 
 <card>
-==== Google Material Design Included ====
+==== Bootstrap 5 and Google Material Design Included ====
 ''ComboStrap'' implements the last
 version of [[strap:bootstrap|Bootstrap]] and 
 exposes all its design functionalities.
 
 But it does not stop here and apply also the [[styling:design|Material Design]]
 recommandations. That's why you get also the possibility to apply [[styling:skin|skin]]
-to your components in order to set the emphasis. 
+to your button in order to set the [[styling:emphasis|emphasis]]. 
 
-<btn secondary class="mt-3">
+<btn secondary>
 [[styling:design|Check the extra's]]
 </btn>
 </card>
@@ -65,7 +67,7 @@ provided by differents ''bootstrap'' stylesheet.
 
 We explain even also how you can create and install your own stylesheet.
 
-<btn secondary class="mt-3">
+<btn secondary>
 [[styling:stylesheet|Discover the Style(sheets)]]
 </btn>
 </card>
@@ -77,7 +79,7 @@ all ''ComboStrap'' component supports "built-in"
 a common set of basic styling attribute
 such as [[styling:dimension|width]], [[styling:align|align]], [[styling:color|color]].
 
-<btn secondary class="mt-3">
+<btn secondary>
 [[styling:styling|Styling as 1,2,3]]
 </btn>
 </card>
@@ -89,7 +91,7 @@ fixed in stone.\\
 With ''ComboStrap'', you can go beyond the [[strap:bootstrap|Bootstrap]] grid system 
 of 12 columns to 16 columns and gain some space for a [[strap:sidekickbor|right sidebar]]. 
 
-<btn secondary class="mt-3">
+<btn secondary>
 [[strap:dynamic_grid|Want a third sidebar ?]]
 </btn>
 </card>
@@ -100,7 +102,7 @@ The ''Search Engine Optimization'' module
 will help you define the description or get back authority
 by recovering broken back links and more.
 
-<btn secondary class="mt-3">
+<btn secondary>
 [[seo|Check the SEO module]]
 </btn>
 </card>
@@ -113,7 +115,7 @@ network such as [[semantic:twitter|<icon name="twitter"/> Twitter]],
 [[semantic:twitter|<icon name="google"/> Google]]. 
 Your pages have also automatically a professional look on this networks.
 
-<btn secondary class="mt-3">
+<btn secondary>
 [[:social|Social all the things]]
 </btn>
 </card>
@@ -126,7 +128,7 @@ can lead to your website being banned from Search Engine.
 With the  ''Low Quality Page Protection'' enabled, they will be hidden until 
 they reach a correct quality level.
 
-<btn secondary class="mt-3">
+<btn secondary>
 [[quality:lqpp|Check the LQPP feature]]
 </btn>
 </card>
@@ -137,7 +139,7 @@ A website is living and pages are moving around.
 To not break the navigation and influence badly your SEO authority, you can define a page id ([[semantic:canonical|canonical]])
 or [[url:page_rules|redirection rules]].
 
-<btn secondary class="mt-3">
+<btn secondary>
 [[url:url|Check the URL Manager]]
 </btn>
 </card>
@@ -149,7 +151,7 @@ you can add easily the metadata that you want.
 It helps your SEO ranking but it also enable [[url:permalink|permalink]]
 and transparent [[url:redirection|redirections]] with the [[semantic:canonical|canonical]] (''Page Id'')
 
-<btn secondary class="mt-3">
+<btn secondary>
 [[semantic:semantic|Check the Metadata module]]
 </btn>
 </card>
@@ -162,11 +164,10 @@ If you are a publisher trying to find a monetization channel,
 this module tries to find the best balance between user experience
 and revenue.
 
-<btn secondary class="mt-3">
+<btn secondary>
 [[ads:ads|Check the Ads Module]]
 </btn>
 </card>
-
 
 <card>
 ==== Page Analytics Powered ====
@@ -178,7 +179,7 @@ by page, the number of intra-links and more.
 
 Analytics is also the cornerstone of our quality module in order
 to made wise decision.
-<btn secondary class="mt-3">
+<btn secondary>
 [[analytics:analytics|Check the Analytics Module <icon name="chart-box-outline"/>]]
 </btn>
 </card>
@@ -190,11 +191,10 @@ is the cornerstone of a good website that leads to a good discoverability.
 
 This module helps you get quality insight via the quality rules and score.
 
-<btn secondary class="mt-3">
+<btn secondary>
 [[quality:quality|Check the Quality Module]]
 </btn>
 </card>
-
 
 </card-columns>
 

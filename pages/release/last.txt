@@ -9,53 +9,87 @@
 
 
 ===== About =====
+The [[release|release]] ''1.13'' was focus on the creation of ''landing page'' components. This is the first ''landing page'' release. The next will be ''landing page'' perfect with full animation and layout.
 
-===== Changes =====
 
+<note important>
+Due to [[release:1.13_bootstrap5|introduction of Bootstrap 5 in this release]], a configuration update is require. As the bootstrap version and the stylesheet are now in the same [[strap:bootstrap#configuration|configuration]], you need after the update to set it back to your [[styling:stylesheet|preferred stylesheet]] back.
+
+
+{{:strap:bootstrapversionstylesheet.png|}}
+</note>
+
+
+===== Changes / New =====
+==== Bootstrap 5 ====
+New: [[release:1.13_bootstrap5|Bootstrap 5]] is now the default. Read more about the bootstrap migration on this page: [[release:1.13_bootstrap5]]
+==== Animation ====
   * New: added the [[styling:hover|hover animation]] to improve emphasis
-  * New: added the [[ui:slide|slide component]] to create horizontal hero region with alternated background
+
+==== Landing page ====
+  * New: The [[ui:slide|slide component]] to create landing page with sections of a page or hero section with alternated background
   * New: added the [[styling:background|background component]] to manage the background of a component (at first for a [[ui:slide|slide]])
-  * New: [[release:1.13_bootstrap5|Bootstrap 5]] is now the default. [[release:1.13_bootstrap5]]
-  * New / Breaking changes: The bootstrap version and the stylesheet are now in the same configuration.
-  * Improvement: Placing a [[ui:button|button]] in a [[ui:navbar|navbar]] does not require any [[styling:spacing|spacing]] attribute. The [[ui:button|button]] spacing is automatically created.
   * New : [[styling:clickable|clickable attribute]]: make a whole surface containing a link, clickable.
+
+
+
+
+==== Svg ====
   * New: Icons from [[https://icons.getbootstrap.com/|Bootstrap]] and [[https://feathericons.com/|Feather]] are now natively available from the [[ui:icon|icon component]]
+  * New: [[ui:svg_optimization|SVG Optimization]] - The Svg returned are now optimized. They are injected inline for file less than 2KB such as [[ui:icon|icon]], they are otherwise loaded lazily and injected via javascript.
+  * New: [[ui:svg#upload permission|SVG Upload Permission]] - The Svg can now be uploaded by the admin and by a group of users.
+
+==== Styling / Theme ====
   * New: [[styling:shadow|Elevation]] is also now known as the [[styling:shadow|shadow attribute]] and has gain 2 levels.
-  * New: ''auto'' layout is supported on a [[ui:grid|grid]] where the columns takes the natural width of their content and never overflow.
-  * New: [[:lazy|Lazy loading]] is now part of Combostrap
+  * New: The [[styling:stylesheet|Bootswatch stylesheet]] are now also served from the CDN (by default)
+  * New: The [[ui:table|table]] component does not take 100% width to reduce the visual space and allow floating element to the right.
+  * New: [[styling:float|float]] - the float styling attribute has been added.
+  * New: added [[styling:userstyle|styling class]] to all component. It permits to take over the whole styling and create its own via the [[styling:userstyle|userstyle stylesheet]].
+
+==== Performance ====
+  * New: [[:lazy|Lazy loading]] is now part of Combostrap and the default
+
+==== Raster Image ====
   * New: the [[ui:image|image component]] accepts now [[styling:styling|styling attributes]]
   * New: [[ui:raster|Raster Images]] are now lazy loaded by default 
   * New: [[ui:raster#retina support|Raster Images Retina Support]]. The image may be downloaded at a size that depends on the screen resolution (device pixel ratio) and not on the screen size.
-  * New: [[ui:svg_optimization|SVG Optimization]] - The Svg returned are now optimized. They are injected inline for file less than 2KB such as [[ui:icon|icon]], they are otherwise loaded lazily and injected via javascript.
-  * New: [[ui:svg#upload permission|SVG Upload Permission]] - The Svg can now be uploaded by the admin and by a group of users.
   * New: [[ui:svg#lazy loading|SVG Lazy loading]] - The big Svg file are now only loaded when they are going to become visible.
   * New: [[ui:svg#injection|SVG Injection]] - The big Svg file are downloaded and injected as SVG markup.
-  * New: The [[styling:stylesheet|Bootswatch stylesheet]] are now also served from the CDN (by default)
-  * New: If there is no [[strap:bar|bar]], the main content is centered with a  max length of 9 cols.
-  * New: The [[ui:table|table]] component does not take 100% width to reduce the visual space and allow floating element to the right.
-  * New: A [[strap:layout|Layout]] by page can be specified. 
-  * New: The [[ui:slide|slide component]] to create landing page with sections of a page or hero section 
-  * New: ''Edit'' button have been added for [[ui:card|card]], [[ui:panel|panel]] and [[ui:slide|slide]] making it easier to edit them.
   * New: [[ui:image|Image]] got the [[ui:image#defaultImageLinking|defaultImageLinking]] configuration to set the default media link behavior
   * New: [[ui:image|Image]] with a ''width'' are media aware. The width will be 100% for a screen size below the ''width'' to make them fully responsive.
+
+==== Layout ====
+  * New: ''auto'' layout is supported on a [[ui:grid|grid]] where the columns takes the natural width of their content and never overflow.
+  * New: If there is no [[strap:bar|bar]], the main content is centered with a  max length of 9 cols.
+  * New: A [[strap:layout|Layout]] by page can be specified. 
+
+==== Security ====
+
   * New: [[:security|Security]], the csp directive are not statically saved in the template but added dynamically when the html headers are printed. It helps to have uniform on all pages (main, details and mediamanager)
+
+==== UI Component ====
+
   * New: A [[ui:link|Link]] by default cannot be written on  multiple line to avoid having strange behavior. The [[ui:link#enableMultiLinesLink|enableMultiLinesLink]] configuration permits to control this behavior.
-  * New: [[styling:float|float]] - the float styling attribute has been added.
-  * New: [[ui:typo|Typo]] - the title styling class ''display-1'' to ''display-6'' are now responsive.
+  * New: You can add [[ui:image|image]] in [[ui:panel|panel label]] (demo with [[ui:tabs#label|tabs label]])
+  * Improvement: [[ui:preformatted|preformatted (indented code block)]] is now enable by default with [[styling:prism|prism styling]] but prints nothing when the line has only blank spaces to avoid confusion.
+
+
+==== Markup perfect ====
+Markup perfect means that there is no need to tweak the output via styling.
+
+  * Improvement: Placing a [[ui:button|button]] in a [[ui:navbar|navbar]] does not require any [[styling:spacing|spacing]] attribute. The [[ui:button|button]] spacing is automatically created.
+  * New: ''Edit'' button have been added for [[ui:card|card]], [[ui:panel|panel]] and [[ui:slide|slide]] making it easier to edit them.
+  * New: [[ui:typo|Typo]] - the title styling class ''display-1'' to ''display-6'' are now responsive on Bootstrap 4
   * Update: The test are testing now that the HTML generation is ''XHMTL'' compliant. This is no more done with the hand.
   * New: ''Bootstrap perfect'': We generate exactly the same markup than [[strap:bootstrap|bootstrap]]. [[ui:card|card]] and [[ui:blockquote|blockquote]] have now bootstrap paragraph with the ''text'' class making them easier to read.
-  * New: added [[styling:userstyle|styling class]] to all component. It permits to take over the whole styling and create its own via the [[styling:userstyle|userstyle stylesheet]].
-  * New: You can add [[ui:image|image]] in [[ui:panel|panel label]] (demo with [[ui:tabs#label|tabs label]])
   * New: Template Protection: We empty the php buffer before printing and send a message to admin user. Otherwise, plugins that print directly may mess the page completely.
-  * Improvement: [[ui:preformatted|preformatted (indented code block)]] is now enable by default with [[styling:prism|prism styling]] but prints nothing when the line has only blank spaces to avoid confusion.
   * Improvement: For boolean attributes such as ''selected'' for a [[ui:tabs|panel tab]], this is no more needed to specify the value. ie ''selected'' is equivalent to ''selected=true''
+  * Improvement: A [[ui:note|note]] is now markup perfect (a stack) and accepts paragraph inside
+  * New: [[styling:float|floating right]] will add a margin at the left.
+
+
+==== Bug ====
+
   * Bug: A [[ui:link#image|image link]] points to the page now and not to the image.
   * Bug: Backlinks are now correctly rewritten when moving a page. The backlinks that were not in first position were be badly rewritten from ''%%[[id|description]]%%'' to ''%%[[newid]]|description]]%%''
 
-
-===== Todo =====
-
-Todo: add comment at:
-  * [[https://github.com/splitbrain/dokuwiki/issues/3356|ticket]]
-  * [[https://forum.dokuwiki.org/d/18978-low-image-quality-re-opened|forum]]
-  * [[https://forum.dokuwiki.org/d/18564-low-image-quality/34|forum]]
