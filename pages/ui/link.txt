@@ -148,3 +148,19 @@ Most of the links are written on one line and to avoid any strange behavior, thi
 
 If you still want to enable this component on more than one line, you can check the ''enableMultiLinesLink'' [[:configuration|configuration]].
 
+===== Support =====
+==== I can't format the description to Italic ====
+
+That's true, inside an link, this is actually not possible to use the %%//%% italic syntax.
+
+This is to keep the compatibility with the old syntax that allows to have URL as a description. And an URL has the %%//%% italic syntax after the ''http'' scheme.
+
+You can still create a link with an URL as description such as this one:
+<webcode name="Default" frameborder="0">
+  * Link with URL
+<code dw>
+[[https://combostrap.com|https://combostrap.com]]
+</code>
+  * Output:
+</webcode>
+
