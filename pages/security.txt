@@ -3,7 +3,8 @@
     "canonical":"security",
     "title":"Security is important",
      "description":"At combostrap, we take the security of your website seriously. This articles shows you what we do about it.",
-     "layout":"median"
+     "layout":"median",
+     "low_quality_page":"false"
 }
 ---
 
@@ -22,6 +23,7 @@ Every form uses a token to prevent a [[kb>csrf|cross-site request attack (CSRF)]
 To prevent an [[kb>injection/attack|injection attack]]
   * every HTML output is escaped to prevent HTML/Javascript injection.
   * every SQL input is passed through parameters to prevent [[kb>sql/injection|SQL injection]]
+  * every [[ui:svg|SVG]] got the ''script'' node deleted.
 
 ==== Content Security Policy ====
 

@@ -2,15 +2,13 @@
 {
     "layout":"median"
 }
----====== Deprecated - Style ======
+---
+====== Release Beta - Style Component ======
 
 
 
 ===== About =====
 
-<note warning>
-Deprecated
-</note>
 
 The ''style'' component is an component that contains CSS declarations that will be applied to its parent component. 
 

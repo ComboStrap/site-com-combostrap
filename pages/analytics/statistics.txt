@@ -44,7 +44,7 @@ And this is the result that we get on this website.
 You can see them by having a look to the [[data|data]] of a page with the export URL. For instance, for this page, you could check them at the following URL
 
 <btn>
-[[start?do=export_combo_analytics]]
+[[?do=export_combo_analytics]]
 </btn>
 
 You would see the ''statistics'' below the ''statistics'' property:

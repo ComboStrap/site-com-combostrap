@@ -6,7 +6,7 @@
 ====== ComboStrap - Release 1.6 ======
 
 ===== About =====
-[[..:release|release]] 1.6 from 2020-07-30
+The [[..:release|release]] ''1.6'' was the fifth release of ComboStrap and was published the 2020-07-30.
 
 ===== Change list =====
 

@@ -24,6 +24,7 @@ We value all [[:support|feedback]] on beta feature.
   * [[markdown|creating markdown page]]
   * [[position]]
   * [[sticky]]
+  * [[style]]
 
 
 ===== Note on wishes =====

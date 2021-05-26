@@ -1,12 +1,13 @@
 ---json
 {
-    "canonical":"1.1"
+    "canonical":"1.1",
+    "low_quality_page":"false"
 }
 ---
 ====== ComboStrap - Release 1.1 ======
 
 ===== About =====
-[[..:release|release]] 1.1 from 2020-07-10
+[[..:release|Release]] 1.1 is the second ComboStrap released from 2020-07-10
 
 ===== Changes List =====
 

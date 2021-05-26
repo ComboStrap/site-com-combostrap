@@ -1,7 +1,8 @@
 ---json
 {
     "canonical":"ui:highlight",
-    "title":"How to highlight words in ComboStrap"
+    "title":"How to highlight words in ComboStrap",
+    "description":"This article shows you the highlighting syntax"
 }
 ---
 ====== ComboStrap UI - Highlighting ======
@@ -10,7 +11,7 @@
 ===== About =====
 To highlight a sequence of words in ComboStrap, you needs to wrap the words with two quote characters ''%%''%%''.
 
-''Highlighting'' permits to add [[styling:emphasis|emphasis]].
+''Highlighting'' permits to add [[styling:emphasis|emphasis]] on a couple of words.
 
 ===== Articles Related =====
 {{backlinks>.}}

@@ -15,7 +15,7 @@ A ''tabs'' is an [[layout|layout]], [[ui:navigation|interactive and navigational
 You can also choose an [[accordion|accordion]] as another navigational collapsible layout for panels.
 </note>
 
-<badge>Since [[:release:1.12|version 1.12]]</badge>
+<badge>Since [[release:archive:1.12|version 1.12]]</badge>
 ===== Articles Related =====
 {{backlinks>.}}
 
