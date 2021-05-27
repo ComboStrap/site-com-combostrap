@@ -17,7 +17,7 @@
 text-align=[breakpoint-]value
 </code>
 where:
-  * ''breakpoint'' is optional and takes one of the [[styling:breakpoint|breakpoint values]] (ie screen size)
+  * ''breakpoint'' is optional and takes one of the [[styling:breakpoint|breakpoint values]] (ie screen size) (only on [[strap:bootstrap|Bootstrap 5]])
       * ''sm'': ''small''
       * ''md'': ''medium''
       * ''lg'': ''large''
