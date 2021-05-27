@@ -14,21 +14,16 @@ This page regroups all typographic component of ComboStrap
 ==== Paragraph ====
 
   * [[heading]]: 
-  * [[text]]: apply typography to one or several paragraph at once
+  * [[text]] : apply typography to one or several paragraph at once
+  * [[itext]] : apply typography to one or several words at once
 
 ==== Words ====
 This components applies to words.
 
 === Bold ===
 
+[[styling:bold|bold]]
 
-<webcode name="Default" frameborder="0">
-  * Input
-<code dw>
-This text is a **bold text**.
-</code>
-  * Output:
-</webcode>
 
 === Italic ===
 
@@ -51,7 +46,11 @@ Highlighting ''this highlight''
   * Output:
 </webcode>
 
-=== Underline ===
+=== Decoration ===
+
+https://getbootstrap.com/docs/5.0/utilities/text/#text-decoration
+
+== Underline ==
 <webcode name="Default" frameborder="0">
   * Input
 <code dw>
@@ -61,7 +60,7 @@ This text is __underlined__
 </webcode>
 
 
-=== Delete ===
+== Delete (line-through) ==
 
 <webcode name="Default" frameborder="0">
   * Input

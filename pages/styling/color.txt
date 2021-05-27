@@ -42,6 +42,7 @@ A teal [[ui:card|card]] with a black text and a blue border
 ''ComboStrap'' supports the following color value:
   * [[#name]]
   * [[#rgb|RGB]]
+  * ''reset'' (to take the color of the parent)
 
 <note tip>Because the component syntax are a [[styling:html|html superset]], all other colors value should work</note>
 ==== Name ====
@@ -56,6 +57,18 @@ The default Bootstrap colors are:
 You can also use a [[https://drafts.csswg.org/css-color/#color-keywords|CSS Color name]].
 </note>
 
+==== Reset ====
+The ''reset'' color applied on a [[ui:link|link]] will take the color of the [[ui:text|text]]
+<webcode name="Default" frameborder="0">
+  * Input
+
+<code dw>
+<text color="#6c757d">
+Colored text with a [[?color=reset|reset link]]
+</text>
+</code>
+  * Output
+</webcode>
 
 
 ===== Info =====

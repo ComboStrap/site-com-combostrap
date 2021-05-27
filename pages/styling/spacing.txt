@@ -8,15 +8,21 @@
 
 
 ===== About =====
-''spacing'' is the definition of the ''margin'' and ''padding'' of a [[ui:ui|UI component]] via the definition of a [[#spacing class name]]
+''spacing'' is the definition of the ''margin'' and ''padding'' between [[ui:block|block component]]
+
 
 
 
 {{:ui:spacing_margin_padding.png|}}
 
 where:
-  * ''margin'' is a transparent space outside the box  (not filled with [[styling:color|color]])
-  * ''padding'' is the space inside the box  (filled with [[styling:color|color]])
+  * ''margin'' is a transparent space outside the box  (not filled with [[styling:background#color|the background color]])
+  * ''padding'' is the space inside the box  (filled with [[styling:background#color|the background color]])
+
+
+<note>
+If you want to add space between lines, used the [[ui:text|text component]] and its ''line-spacing'' attribute
+</note>
 ===== Articles Related =====
 {{backlinks>.}}
 ===== Example =====
@@ -88,10 +94,7 @@ where:
   * ''breakpoint'' (optional, default to xs) is the [[styling:breakpoint|Breakpoint (Toggle size)]] : xs, sm, md, lg
   * ''size'' (mandatory) is 0,1,2,3,4 or 5 (based on [[styling:scale|size scale]])
 
-<note tip>
-=== For the geek ===
-The ''margin'' properties can utilize negative values but ''padding'' cannot and that's how the top of the page is defined in a  [[strap:fixed-top-navbar|fixed-top navbar]]
-</note>
+
 
 ===== Support =====
 
@@ -105,6 +108,11 @@ The old notation ''l'' and ''r'' are still supported therefore ''pl-3 ml-5'' is 
 </note>
 </code>
 </webcode>
+
+
+=== For the geek ===
+The ''margin'' properties can utilize negative values but ''padding'' cannot and that's how the top of the page is defined in a  [[strap:fixed-top-navbar|fixed-top navbar]]
+
 ===== Documentation / Reference =====
   * [[https://getbootstrap.com/docs/4.0/utilities/spacing/|Bootstrap Spacing]].
 

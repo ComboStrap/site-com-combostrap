@@ -21,7 +21,7 @@ If the component should start at a new line or expand on multiple line and you c
   * [[math|Math]]: Writing math formulas
   * [[note|Note]]: An ancillary text that needs attention.
   * [[related|Related]]: A component showing the backlinks
-  * [[typo|typo]] - a typo for a block
+  * [[text|typo]] - a typo for a block
   * [[webcode|Webcode]] - Output the result of web code (HTML, Javascript, CSS)
   * [[image|Image]] - Shows an image
   

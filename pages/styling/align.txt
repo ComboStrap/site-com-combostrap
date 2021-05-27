@@ -47,11 +47,7 @@ You can also [[ui:image#align|align an image by passing the align parameter]]
 
 How to align the text in a [[ui:block|block component]]
 
-The ''text-align'' attribute on a block, supports the value:
-  * ''center''
-  * ''right''
-  * ''justify''
-  * ''left'' (default)
+The ''text-align'' attribute is shortcut for the [[ui:text#align|align attribute of the text component]] that can be applied on [[ui:block|all block component]]
 
 Example:
 <webcode name="Text ALign" >
@@ -66,9 +62,6 @@ A text in the center
 </webcode>
 
 
-<note tip>
-=== For the geek ===
-This is just a CSS shortcut to the [[https://developer.mozilla.org/en-US/docs/Web/CSS/text-align|text-align CSS attribute]]
-</note>
+
 
 

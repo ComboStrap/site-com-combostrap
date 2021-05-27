@@ -1,0 +1,55 @@
+---json
+{
+    "canonical":"ComboStrap Styling - Bold (Font weight)"
+}
+---
+====== ComboStrap Styling - Font-weight (boldness) ======
+
+===== About =====
+''boldness'' is a [[ui:typo|typographic effect]] that sets the [[styling:font|font]] weight. It defines the width of a character outlines relative to its height.
+===== Syntax =====
+
+==== Simple ====
+
+<webcode name="Default" frameborder="0">
+  * Input
+<code dw>
+This text is a **bold text**.
+</code>
+  * Output:
+</webcode>
+
+
+==== Attribute ====
+You can also use the [[styling:typo|typographic attribute]] ''bold'' to set the boldness more precisely with the value:
+  * ''bold'': bold text
+  * ''bolder'': bolder than the parent
+  * ''light'': light weight text.
+  * ''lighter'': lighter than the parent
+
+^ Names ^ Numerical values ^
+| Thin / Hairline | 100 |
+| Ultra-light / Extra-light | 200 |
+| Light | 300 |
+| Normal / regular | 400 |
+| Medium | 500 |
+| Semi-bold / Demi-bold | 600 |
+| Bold | 700 |
+| Extra-bold / Ultra-bold | 800 |
+| Heavy / Black | 900 |
+| Extra-black / Ultra-black | 950 |
+
+<webcode name="Default" frameborder="0">
+  * Input
+<code dw>
+This text is a <itext boldness="bolder">bolder text</itext>
+</code>
+  * Output:
+</webcode>
+
+
+===== Documentation / Reference =====
+  * https://getbootstrap.com/docs/5.0/utilities/text/#font-weight-and-italics
+
+
+

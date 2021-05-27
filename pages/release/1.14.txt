@@ -10,20 +10,24 @@
 
 ===== Change List =====
 
-
+==== Miscellaneous ====
+  * Improvement: The [[ui:note|note component]] got also the [[styling:userstyle#class|userstyle class]].
 ==== Typography ====
-  * Change: The ''typo'' component has been renamed to [[ui:typo|text]]
-  * New: the [[ui:typo|text component]] accepts to style several paragraph at once
+  * New [[ui:typo|typographic page]]
+  * Change: The ''typo'' component has been renamed to [[ui:text|text]]
+  * New: the [[ui:text|text component]] accepts to style several paragraph at once
 
 
 ==== Bug Solved ====
 
-  * [[ui:box|box]] does not delete the paragraphs inside.
+  * [[ui:box|box]] does not delete paragraphs anymore (ie has become a stack component)
 
-
+==== Markup perfect ====
+  * A [[ui:note|note]] does not have any extra bottom margin. Due to the last paragraph of a [[ui:note|note]] and the default stylesheet of the browser, the content was not centered vertically.
 ===== Bug To solved =====
 
   * XHTML bug: https://validator.w3.org/nu/?doc=https%3A%2F%2Fcombostrap.com%2F
   * How to avoid : ''PHP Fatal error:  Uncaught Error: Undefined class constant ''
   * Page deleted / moved should be deleted /renamed into the database
-  * Box should be a stack
+  * monospace in the renderer should be a component
+  * [[https://getbootstrap.com/docs/5.0/utilities/vertical-align/|vertical align]] on grid

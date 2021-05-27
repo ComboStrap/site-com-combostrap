@@ -1,0 +1,19 @@
+---json
+{
+    "canonical":"typographic:attributes",
+    "title":"Typographic attributes in ComboStrap",
+    "description":"How to add typographic effect to your text with the typographic attributes"
+}
+---
+====== ComboStrap Styling -  Typographic Attributes ======
+
+===== About =====
+''Typographic Attribute'' are [[styling|styling attribute]] that may be applied on:
+    * ''paragraph'' with the [[ui:text|text component]]
+    * ''words'' with the [[ui:itext|itext component]]
+
+===== List =====
+  * [[https://getbootstrap.com/docs/5.0/utilities/text/#text-transform|case]]
+  * [[https://getbootstrap.com/docs/5.0/utilities/text/#font-size|font-size]]
+  * [[styling:color|color]]
+  * https://getbootstrap.com/docs/5.0/utilities/text/#text-decoration|decoration]]
