@@ -16,3 +16,4 @@
   * XHTML bug: https://validator.w3.org/nu/?doc=https%3A%2F%2Fcombostrap.com%2F
   * How to avoid : ''PHP Fatal error:  Uncaught Error: Undefined class constant ''
   * Page deleted / moved should be deleted /renamed into the database
+  * Box should be a stack
