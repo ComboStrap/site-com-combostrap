@@ -1,40 +1,90 @@
-====== ComboStrap UI - Typo ======
-
+---json
+{
+    "canonical":"typo",
+    "title":"Typography in ComboStrap",
+    "description":"This article shows you how to change applies typography effect"
+}
+---
+====== ComboStrap - Typography ======
 
 ===== About =====
-''typo'' is a typographic component that permits to style a paragraph at once.
+This page regroups all typographic component of ComboStrap
 
-<badge>Since [[release:release|version 1.4]]</badge>
-===== Articles Related =====
-{{backlinks>.}}
+===== List =====
+==== Paragraph ====
 
-===== Syntax =====
+  * [[heading]]: 
+  * [[text]]: apply typography to one or several paragraph at once
 
+==== Words ====
+This components applies to words.
+
+=== Bold ===
+
+
+<webcode name="Default" frameborder="0">
+  * Input
 <code dw>
-<typo type>
-Content
-</typo>
+This text is a **bold text**.
 </code>
-where:
-  * ''type'' can (for now) only take the value ''lead''. It makes a paragraph stand out by setting a bigger font-size and weigth.
+  * Output:
+</webcode>
 
-<note>
-''typo'' is a [[styling:html|superset HTML component]], you can therefore wrap other component with it and use all [[styling:styling|styling attributes]].
-</note>
-===== Example =====
+=== Italic ===
 
-=== Lead ====
 
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="Default" frameborder="0">
+  * Input
 <code dw>
-<typo lead>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-</typo>
-**versus:**\\
-\\
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+This text is a //italic text//
 </code>
+  * Output:
+</webcode>
+
+=== Highlighting ===
+[[highlight]]
+<webcode name="Default" frameborder="0">
+  * Input
+<code dw>
+Highlighting ''this highlight''
+</code>
+  * Output:
+</webcode>
+
+=== Underline ===
+<webcode name="Default" frameborder="0">
+  * Input
+<code dw>
+This text is __underlined__
+</code>
+  * Output:
 </webcode>
 
 
+=== Delete ===
 
+<webcode name="Default" frameborder="0">
+  * Input
+<code dw>
+This text is <del>deleted</del>
+</code>
+  * Output:
+</webcode>
+
+=== Subscript ===
+<webcode name="Default" frameborder="0">
+  * Input
+<code dw>
+This text is a <sub>subscript</sub>
+</code>
+  * Output:
+</webcode>
+
+=== Superscript ===
+<webcode name="Default" frameborder="0">
+  * Input
+<code dw>
+This text is a <sup>superscript</sup>
+</code>
+  * Output:
+</webcode>

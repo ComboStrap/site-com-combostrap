@@ -8,10 +8,20 @@
 ====== Release 1.14 - Snapshot ======
 
 
+===== Change List =====
 
 
+==== Typography ====
+  * Change: The ''typo'' component has been renamed to [[ui:typo|text]]
+  * New: the [[ui:typo|text component]] accepts to style several paragraph at once
 
-===== Bug =====
+
+==== Bug Solved ====
+
+  * [[ui:box|box]] does not delete the paragraphs inside.
+
+
+===== Bug To solved =====
 
   * XHTML bug: https://validator.w3.org/nu/?doc=https%3A%2F%2Fcombostrap.com%2F
   * How to avoid : ''PHP Fatal error:  Uncaught Error: Undefined class constant ''

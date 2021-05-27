@@ -5,19 +5,20 @@
     "description":"This article shows you the highlighting syntax"
 }
 ---
-====== ComboStrap UI - Highlighting ======
+====== ComboStrap UI - Highlighting (mark) ======
 
 
 ===== About =====
-To highlight a sequence of words in ComboStrap, you needs to wrap the words with two quote characters ''%%''%%''.
+''highlight'' is a [[ui:typo|typographic component]] that highlights a sequence of words.
+
 
 ''Highlighting'' permits to add [[styling:emphasis|emphasis]] on a couple of words.
 
 ===== Articles Related =====
 {{backlinks>.}}
 
-===== Example =====
-
+===== Syntax and Example =====
+You needs to wrap your words with two quote characters ''%%''%%''.
   * Syntax
 <webcode name="Default" frameborder="0">
 <code dw>
@@ -27,6 +28,7 @@ This text is not highlighted while ''this one is''.
 </webcode>
 
 
-===== Note =====
+===== Support =====
 
-The standard dokuwiki syntax called it [[doku>wiki:syntax#basic_text_formatting|monospaced]]
+
+The standard dokuwiki syntax calls it [[doku>wiki:syntax#basic_text_formatting|monospaced]] and use the ''code'' html but this syntax replaces it with the ''mark'' element.

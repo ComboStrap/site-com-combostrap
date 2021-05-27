@@ -10,8 +10,8 @@
 ===== About =====
 You can add emphasis:
   * by making text:
-      * bold 
-      * italic
+      * [[ui:typo#bold|bold]]
+      * [[ui:typo#italic|italic]]
       * [[ui:inote|inote]]
       * [[ui:highlight|higlighted]]
   * by styling [[ui:button|button]] with a [[skin|skin]]
