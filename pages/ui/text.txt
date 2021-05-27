@@ -1,3 +1,11 @@
+---json
+{
+    "canonical":"text",
+    "title":"ComboStrap - Text component - Apply text typographic effects",
+     "description":"The text component lets you apply text typographic effects on one ore more paragraph."
+}
+---
+
 ====== ComboStrap UI - Text ======
 
 
@@ -21,34 +29,18 @@ where:
   * [[styling:type|type]] can take the values:
       * ''lead'': It makes a paragraph stand out by setting a bigger font-size and weight
       * ''h1 to h6'': when you want to match the font styling of a [[heading|heading]]. <inote>If you want to set a title for a component, use the [[title|title component]] instead</inote>
-      * or any class that you created with the [[styling:userstyle|userstyle class]].
+      * or any custom class created with the [[styling:userstyle|userstyle stylesheet]].
   * ''line-spacing'' sets the space between the lines of a paragraph.
-    * ''1''
-    * ''sm''
-    * ''base''
-    * ''lg''
-  * [[styling:align#text|align]] 
+    * ''xs'' / ''extra-small''
+    * ''sm'' / ''small''
+    * ''md'' / ''medium'' (default)
+    * ''lg'' / ''large''
+  * [[styling:align-text|align]]:  
+    * ''left''
+    * ''center''
+    * ''right''
 
-==== Align ====
-It supports the value:
-  * ''center''
-  * ''right''
-  * ''justify'' (While, aesthetically, justified text might look more appealing, it does make word-spacing more random and therefore harder to read.)
-  * ''left'' (default)
 
-It can also be applied on other component with the [[styling:align#text|text-align attribute]].
-
-https://getbootstrap.com/docs/5.0/utilities/text/#text-alignment
-<file>
-<p class="text-start">Start aligned text on all viewport sizes.</p>
-<p class="text-center">Center aligned text on all viewport sizes.</p>
-<p class="text-end">End aligned text on all viewport sizes.</p>
-
-<p class="text-sm-start">Start aligned text on viewports sized SM (small) or wider.</p>
-<p class="text-md-start">Start aligned text on viewports sized MD (medium) or wider.</p>
-<p class="text-lg-start">Start aligned text on viewports sized LG (large) or wider.</p>
-<p class="text-xl-start">Start aligned text on viewports sized XL (extra-large) or wider.</p>
-</file>
 ===== Example =====
 
 ==== Lead =====
@@ -80,14 +72,29 @@ An heading level 1
   * Output:
 </webcode>
 
-==== Line height ====
+==== Line-Spacing ====
+''line-spacing'' lets you define the height between each line inside a paragraph. 
 
+Example:
 <webcode name="Default" frameborder="0">
 <code dw>
-<text line-spacing="1">
-This is a long paragraph written to show how the line-height of an element is affected.
+<text line-spacing="xs" width="40rem">
+**Extra-small line space**. This is a long paragraph written to show how the line-height of an element is affected. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</text>
+<text line-spacing="sm" width="40rem">
+**Small line space**. This is a long paragraph written to show how the line-height of an element is affected. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</text>
+<text line-spacing="md" width="40rem">
+**Medium line space**. This is a long paragraph written to show how the line-height of an element is affected. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</text>
+<text line-spacing="lg" width="40rem">
+**Large line space**. This is a long paragraph written to show how the line-height of an element is affected. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 </text>
 </code>
   * Output:
 </webcode>
 
+
+<note>
+If you want to add space between component, you should use the [[styling:spacing|spacing attribute]]
+</note>

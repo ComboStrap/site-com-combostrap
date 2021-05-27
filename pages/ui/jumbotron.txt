@@ -40,7 +40,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 <btn size="large">[[#|Learn More]]</btn>
 </jumbotron>
 </code>
-with a [[button|button]], a ''lead'' [[typo|typo]] and a [[hr|horizontal rule]].
+with a [[button|button]], a ''lead'' [[text|typo]] and a [[hr|horizontal rule]].
 
 Output:
 </webcode>

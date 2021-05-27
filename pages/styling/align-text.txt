@@ -1,0 +1,34 @@
+---json
+{
+    "canonical":"styling:align-text"
+}
+---
+====== Styling - Text Alignment ======
+
+
+===== About =====
+''text alignement'' set the alignment of text in a [[ui:block|block component]].
+
+
+===== Syntax =====
+
+
+It supports the value:
+  * ''center''
+  * ''right''
+  * ''justify'' (While, aesthetically, justified text might look more appealing, it does make word-spacing more random and therefore harder to read.)
+  * ''left'' (default)
+
+It can also be applied on other component with the [[styling:align#text|text-align attribute]].
+
+https://getbootstrap.com/docs/5.0/utilities/text/#text-alignment
+<file>
+<p class="text-start">Start aligned text on all viewport sizes.</p>
+<p class="text-center">Center aligned text on all viewport sizes.</p>
+<p class="text-end">End aligned text on all viewport sizes.</p>
+
+<p class="text-sm-start">Start aligned text on viewports sized SM (small) or wider.</p>
+<p class="text-md-start">Start aligned text on viewports sized MD (medium) or wider.</p>
+<p class="text-lg-start">Start aligned text on viewports sized LG (large) or wider.</p>
+<p class="text-xl-start">Start aligned text on viewports sized XL (extra-large) or wider.</p>
+</file>

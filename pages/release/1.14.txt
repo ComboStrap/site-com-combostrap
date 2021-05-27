@@ -16,6 +16,7 @@
   * New [[ui:typo|typographic page]]
   * Change: The ''typo'' component has been renamed to [[ui:text|text]]
   * New: the [[ui:text|text component]] accepts to style several paragraph at once
+  * New: the [[ui:text|text component]] accepts to a [[ui:text#line-spacing|line-spacing attribute]] to set the height between each line of a paragraph
 
 
 ==== Bug Solved ====

@@ -22,7 +22,7 @@ This components applies to words.
 
 === Bold ===
 
-[[styling:bold|bold]]
+[[styling:boldness|bold]]
 
 
 === Italic ===
