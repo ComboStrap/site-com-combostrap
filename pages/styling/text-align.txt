@@ -1,0 +1,76 @@
+---json
+{
+    "canonical":"styling:align-text"
+}
+---
+====== ComboStrap Styling - Text Align Attribute ======
+
+
+===== About =====
+''text-align'' is a [[styling:typo|typographic attribute]] that sets the alignment of the lines of text inside a [[ui:block|block component]].
+
+===== Articles Related =====
+{{backlinks>.}}
+===== Syntax =====
+
+<code dw>
+text-align=[breakpoint-]value
+</code>
+where:
+  * ''breakpoint'' is optional and takes one of the [[styling:breakpoint|breakpoint values]] (ie screen size)
+      * ''sm'': ''small''
+      * ''md'': ''medium''
+      * ''lg'': ''large''
+      * ''xl'': ''extra-large''
+  * the value may be:
+    * ''start'' - left for a LTR language and right for a RTL language - (default)
+    * ''center''
+    * ''end'' - right left for a LTR language and left for a RTL language
+    * ''justify'' (While, aesthetically, justified because the text might look more appealing, it does make word-spacing more random and therefore harder to read.)
+
+
+
+===== Demo =====
+
+==== Basic ====
+This example uses the general [[ui:box|box component]] but it should work for all other [[ui:block|block components]].
+
+
+<webcode name="Default" frameborder="0">
+<code dw>
+<box text-align="start">
+This line of text is at the **start** of the block (left for a left-to-right language)
+</box>
+<box text-align="center">
+This line of text is **centered** inside the block.
+</box>
+<box text-align="end">
+This line of text is at the **end** of the block (right for a left-to-right language)
+</box>
+</code>
+  * Output:
+</webcode>
+
+==== Centered text in a card ====
+
+A centered text in a [[ui:card|card]]:
+<webcode name="Text Align" >
+<code dw>
+<card text-align="center" width="300px">
+==== Centered Text in a Card  ====
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+</card>
+</code>
+</webcode>
+==== Conditional (Screen Width) ====
+
+https://getbootstrap.com/docs/5.0/utilities/text/#text-alignment
+<file>
+<p class="text-sm-start">Start aligned text on viewports sized SM (small) or wider.</p>
+<p class="text-md-start">Start aligned text on viewports sized MD (medium) or wider.</p>
+<p class="text-lg-start">Start aligned text on viewports sized LG (large) or wider.</p>
+<p class="text-xl-start">Start aligned text on viewports sized XL (extra-large) or wider.</p>
+</file>
+

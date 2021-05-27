@@ -35,7 +35,7 @@ where:
     * ''sm'' / ''small''
     * ''md'' / ''medium'' (default)
     * ''lg'' / ''large''
-  * [[styling:align-text|align]]:  
+  * [[styling:text-align|align]]:  
     * ''left''
     * ''center''
     * ''right''
@@ -66,7 +66,7 @@ sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 <webcode name="Default" frameborder="0">
 <code dw>
 <text h1>
-An heading level 1
+A text that looks like an heading level 1
 </text>
 </code>
   * Output:
@@ -97,4 +97,29 @@ Example:
 
 <note>
 If you want to add space between component, you should use the [[styling:spacing|spacing attribute]]
+</note>
+
+==== Align ====
+''align'' lets you define where the line of text will be located inside the paragraph. <inote>A paragraph is a [[ui:block|block]] and takes by default all the available width</inote>
+
+
+
+Example:
+<webcode name="Default" frameborder="0">
+<code dw>
+<text align="start">
+This line of text is at the **start** of a paragraph (left for a left-to-right language)
+</text>
+<text align="center">
+This line of text is **centered** inside the paragraph block.
+</text>
+<text align="end">
+This line of text is at the **end** of a paragraph (right for a left-to-right language)
+</text>
+</code>
+  * Output:
+</webcode>
+
+<note>
+Text alignment can also be conditional. For all information about this attribute, see the dedicated page: [[styling:text-align]]
 </note>

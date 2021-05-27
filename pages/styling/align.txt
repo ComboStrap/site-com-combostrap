@@ -45,9 +45,8 @@ You can also [[ui:image#align|align an image by passing the align parameter]]
 
 ==== Text ====
 
-How to align the text in a [[ui:block|block component]]
+To align the text in a [[ui:block|block component]], you can use the [[styling:align-text|text-align attribute]].
 
-The ''text-align'' attribute is shortcut for the [[ui:text#align|align attribute of the text component]] that can be applied on [[ui:block|all block component]]
 
 Example:
 <webcode name="Text ALign" >
@@ -60,8 +59,5 @@ A text in the center
 </card>
 </code>
 </webcode>
-
-
-
 
 

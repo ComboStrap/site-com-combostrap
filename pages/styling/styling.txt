@@ -43,6 +43,8 @@ The ''standard'' attributes are:
   * [[float|Float]] - Position a component to the right or left and let the content flows along its side
   * [[release:beta:position|Position]] - Position a component inside a container
   * [[clickable|Clickable]] - Make a whole component such as a card clickable
+  * [[text-align|Text align]] - Align the lines inside a block
+  * [[ui:text#line-spacing|Line Spacing]] - Set the height between lines of text
 
 <note>
 === For the Geek ===

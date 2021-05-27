@@ -17,3 +17,4 @@
   * [[https://getbootstrap.com/docs/5.0/utilities/text/#font-size|font-size]]
   * [[styling:color|color]]
   * https://getbootstrap.com/docs/5.0/utilities/text/#text-decoration|decoration]]
+  * [[text-align]]
