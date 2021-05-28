@@ -85,18 +85,6 @@ such as [[styling:dimension|width]], [[styling:align|align]], [[styling:color|co
 </card>
 
 <card>
-==== Third Sidebar with Dynamic Grid ====
-A website layout is not something that should be
-fixed in stone.\\
-With ''ComboStrap'', you can go beyond the [[strap:bootstrap|Bootstrap]] grid system 
-of 12 columns to 16 columns and gain some space for a [[strap:sidekickbor|right sidebar]]. 
-
-<btn secondary>
-[[strap:dynamic_grid|Want a third sidebar ?]]
-</btn>
-</card>
-
-<card>
 ==== SEO ready  ====
 The ''Search Engine Optimization'' module
 will help you define the description or get back authority

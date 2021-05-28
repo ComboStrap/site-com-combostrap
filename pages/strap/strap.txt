@@ -25,7 +25,7 @@ The ''strap'' template supports the following features:
       * [[sidekickbor|Sidekickbar]] (right)
       * [[headerbor|Headerbar]] (top)
       * [[footerbor|Footerbar]] (bottom)
-  * [[dynamic_grid|Dynamic grid system from 12 to 16 columns]]
+  * [[release:deprecated:dynamic_grid|Dynamic grid system from 12 to 16 columns]]
   * [[toolbar|Aggregate toolbar (Page, User Site) with a private option]]
   * Support [[semantic:tagline]]|tagline]]
   * [[fixed-top-navbar|Fixed-top navbar with automatic top page location correction]]

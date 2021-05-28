@@ -26,7 +26,7 @@ Check the below changes to know more about all of them:
   * the ''combostrap'' logo got a fix color to be able to embedded it via object.
   * the [[ui:code|code]] element supports now the code export functionality of dokuwiki.
   * New component: [[ui:accordion|accordion]] lets you lay out [[ui:panel|panel]] in a ''accordion'' fashion.
-  * New syntax for [[ui:tabs|tabs]]. The syntax of the [[ui:tabs|tabs component]] was too complicated. We have deprecated the [[deprecated:tabs|old syntax]] in favor of a new one based on [[ui:panel|panel]]. It brings the fact that [[ui:accordion|accordion]] and [[ui:tabs|tabs]] are the same navigational element on two differents layouts.
+  * New syntax for [[ui:tabs|tabs]]. The syntax of the [[ui:tabs|tabs component]] was too complicated. We have deprecated the [[release:deprecated:tabs|old syntax]] in favor of a new one based on [[ui:panel|panel]]. It brings the fact that [[ui:accordion|accordion]] and [[ui:tabs|tabs]] are the same navigational element on two differents layouts.
   * New skin for [[ui:tabs|tabs]] called ''enclosed-tabs'' and ''enclosed-pills'' that will enclose the tabs within a border.
   * New syntax [[ui:link|link]] element. The dokuwiki link element allows only text or image as description. This link component enhances the syntax and allows any component as description ([[ui:link#icon|icon]] for instance)
   * New [[ui:button|button]] HTML generation. If a button has a link in its description, the HTML generated is a link with a button role. This corrects the XHTML compliancy problem and makes the button clickable on its whole surface.

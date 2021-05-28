@@ -6,6 +6,7 @@
 **Product** \\
 [[combostrap|ComboStrap]] \\
 [[release:release|Release (Changes)]] \\
+[[credits|Credits]] \\
 		</col>
 		<col class="col-12 col-lg-6">
 **Contact** \\

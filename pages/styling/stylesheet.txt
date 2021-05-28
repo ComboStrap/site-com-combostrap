@@ -4,14 +4,13 @@
 }
 ---
 
-====== ComboStrap Styling - StyleSheet ======
+====== ComboStrap Styling - StyleSheet (Theme) ======
 
 ===== A propos =====
 
 ''ComboStrap'' comes with:
-  * the standard Bootstrap stylesheet 
-  * a [[strap:dynamic_grid|custom 16 columns]]
-  * the [[https://bootswatch.com/|bootswatch themes]]
+  * the standard [[strap:bootstrap|Bootstrap]] stylesheet 
+  * and the [[https://bootswatch.com/|bootswatch themes]]
 
 
 
@@ -22,19 +21,14 @@ You can choose your stylesheet via  the [[strap:bootstrap#configuration|Bootstra
 
 {{:strap:bootstrapversionstylesheet.png|}}
 
-===== List =====
 
-The [[strap:strap|strap template]] is delivered with the following stylesheets:
-  * ''bootstrap.min.css'' - the standard Bootstrap stylesheet
-  * ''bootstrap.16col'' - a Bootstrap stylesheet customized to support [[strap:dynamic_grid|a grid of 16 columns]]
-  * the others are from [[https://bootswatch.com/|Bootswatch]]
 
 
 ===== Custom Bootstrap Theme ===== 
 
 You can even create and install your [[styling:bootstrap|custom stylesheet]].
 
-If you want, you can also create and add your own Bootstrap stylesheet. This is an advanced configuration and requires some programming skills but this is not out of reach. See [[styling:bootstrap]]
+This is an advanced configuration and requires some programming skills but this is not out of reach. See [[styling:bootstrap]]
 
 
 

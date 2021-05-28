@@ -8,11 +8,14 @@
 
 
 ===== About =====
-The ''dynamic grid'' system is the ability to change dynamically:
-  * the [[#grid size|grid size]] to a ''16 columns'' grid.
-  * the [[#side bar size|size of the side bar]]
+The ''dynamic grid'' system is the ability to change dynamically the [[#grid size|grid size]] to a ''16 columns'' grid.
+
 
 <badge>Since [[release:release|version 1.2]]</badge>
+
+<note important>
+Deprecated in Bootstrap 5 because they have introduced a new [[styling:breakpoint|xxl]] breakpoint
+</note>
 
 ===== Articles Related =====
 {{backlinks>.}}
@@ -24,7 +27,7 @@ The ''dynamic grid'' system is the ability to change dynamically:
 This is a configuration that should be used only for Bootstrap 4. In Bootstrap 5, they have introduced a new [[styling:breakpoint#bootstrap_5|bigger breakpoint called xxl]] that makes this configuration obsolete.
 </note>
 
-The default grid system of [[bootstrap|bootstrap]] is based on ''12 columns'' and does not really allow any space for a [[sidekickbor|second sidebar]]
+The default grid system of [[strap:bootstrap|bootstrap]] is based on ''12 columns'' and does not really allow any space for a [[strap:sidekickbor|second sidebar]]
 
 ''strap'' supports a ''16 columns'' grid.
 
@@ -45,9 +48,6 @@ The 16 columns stylesheet set:
 See [[styling:breakpoint]]
 </note>
 
-==== Size of the sidebars ====
-The sidebars (''sidebar'' and [[sidekickbor|sidekickbar]]) have now a fixed weight of 3 columns.
 
-<badge>To be able to change this weight dynamically is planned for the [[release:release|version 1.3]]</badge>
 
 
