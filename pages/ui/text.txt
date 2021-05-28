@@ -35,10 +35,8 @@ where:
     * ''sm'' / ''small''
     * ''md'' / ''medium'' (default)
     * ''lg'' / ''large''
-  * [[styling:text-align|align]]:  
-    * ''left''
-    * ''center''
-    * ''right''
+  * [[styling:text-align|text-align]] (or ''align'' as shortcut)
+
 
 
 ===== Example =====
@@ -121,5 +119,6 @@ This line of text is at the **end** of a paragraph (right for a left-to-right la
 </webcode>
 
 <note>
-Text alignment can also be conditional. For all information about this attribute, see the dedicated page: [[styling:text-align]]
+  * ''align'' is an alias for the [[styling:text-align|text-align]] attribute
+  * Text alignment can also be conditional. For all information about this attribute, see the dedicated page: [[styling:text-align]]
 </note>
