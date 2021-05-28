@@ -22,7 +22,7 @@ a product that makes website design, creation and management, \\ unique, easy an
 </btn>
 </col>
 <col class="align-self-center" align="center">
-{{ ::undraw_content_creator.svg?500 |}}
+{{ ::undraw_content_creator.svg?500&nolink |}}
 </col>
 </row>
 </slide>

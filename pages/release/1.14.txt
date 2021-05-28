@@ -17,7 +17,7 @@
   * Change: The ''typo'' component has been renamed to [[ui:text|text]]
   * New: the [[ui:text|text component]] accepts to style several paragraph at once
   * New: the [[ui:text|text component]] accepts to a [[ui:text#line-spacing|line-spacing attribute]] to set the height between each line of a paragraph
-  * New: the [[styling:align-text|text-align]] attribute can now be conditional and takes the start and end notation
+  * New: the [[styling:text-align|text-align]] attribute can now be conditional and takes the start and end notation
 
 
 ==== Bug Solved ====
@@ -26,6 +26,12 @@
 
 ==== Markup perfect ====
   * A [[ui:note|note]] does not have any extra bottom margin. Due to the last paragraph of a [[ui:note|note]] and the default stylesheet of the browser, the content was not centered vertically.
+
+==== Documentation ====
+  * Added the [[:credits|credits page]]
+
+==== Deprecated ====
+  * [[release:deprecated:dynamic_grid|grid of 16 (dynamic grid)]] is deprecated from Bootstrap 5
 ===== Bug To solved =====
 
   * XHTML bug: https://validator.w3.org/nu/?doc=https%3A%2F%2Fcombostrap.com%2F
