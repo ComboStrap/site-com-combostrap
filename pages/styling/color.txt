@@ -18,9 +18,7 @@ Every [[ui:ui|ComboStrap UI component]] can be colorized with one of the followi
   * ''border-color'': The color of the [[border|border]]
 
 
-<note tip>
-The ''background'' is defined as being the content plus the [[styling:spacing|padding]]
-</note>
+
 
 
 ===== Articles Related =====

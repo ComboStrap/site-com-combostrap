@@ -9,7 +9,7 @@
 
 
 ===== About =====
-The ''background'' element defines and adds a background to its parent element.
+The ''background'' element defines and adds a background.
 
 It's mostly used with [[ui:slide|slide component]] to create compelling landing page.
 
@@ -19,6 +19,9 @@ You can create ''cover'' or ''tile'' background with:
   * [[#color|color (uniform or gradient)]]
   * [[#css pattern|css pattern]]
 
+
+
+The ''background area'' is defined as being the content plus the [[styling:spacing|padding]]
 
 
 <badge>Since [[release:release#1.13|version 1.13]]</badge>

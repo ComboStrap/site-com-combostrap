@@ -1,0 +1,44 @@
+---json
+{
+    "canonical":"",
+    "title":"A [[https://combostrap.com/frontmatter|frontmatter]] title shown on the Search Engine Result Pages",
+    "description":"A [[https://combostrap.com/frontmatter|frontmatter]] description shown on the Search Engine Result Pages"
+}
+---
+====== ComboStrap Styling - Opacity (Transparency) ======
+
+===== About =====
+''opacity'' (ie alpha or transparency) is a [[color|color]] effect that renders a component more or less transparent.
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Syntax =====
+
+<code dw>
+opacity=value
+</code>
+where the value is a number between:
+  * ''0'' completely transparent
+  * ''1'' no effect
+
+===== Example =====
+
+==== Image ====
+With a [[ui:raster|raster image]]
+<webcode name="Default" frameborder=0>
+<code dw>
+
+<row>
+<col>
+^ With an opacity of ''0.5'' ^
+| {{:ui:stock_image_surfer_in_the_see.png?300&opacity=0.5}} |
+</col>
+<col>
+^  Without opacity  ^
+| {{:ui:stock_image_surfer_in_the_see.png?300}} |
+</col>
+</row>
+</code>
+</webcode>
+

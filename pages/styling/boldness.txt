@@ -3,7 +3,7 @@
     "canonical":"ComboStrap Styling - Bold (Font weight)"
 }
 ---
-====== ComboStrap Styling - Font-weight (boldness) ======
+====== ComboStrap Styling - Boldness (Font-weight) ======
 
 ===== About =====
 ''boldness'' is a [[ui:typo|typographic effect]] that sets the [[styling:font|font]] weight. It defines the width of a character outlines relative to its height.
@@ -48,8 +48,7 @@ This text is a <itext boldness="bolder">bolder text</itext>
 </webcode>
 
 
-===== Documentation / Reference =====
-  * https://getbootstrap.com/docs/5.0/utilities/text/#font-weight-and-italics
+
 
 
 

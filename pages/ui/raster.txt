@@ -30,13 +30,14 @@ ComboStrap follows the general [[image#syntax |image syntax]] where you can set:
 For instance:
   * an [[styling:shadow|elevated]] photography with a surfer
   * a [[styling:hover|hover float animation]]
+  * an [[styling:opacity|opacity]] of ''0.5''
   * ''centered''
   * with a dimension of ''600''
   * ''responsive'' and ''mobile ready''  (below ''600'', the image scales down).
 
 <webcode name="Default" frameborder=0>
 <code dw>
-{{ :ui:stock_image_surfer_in_the_see.png?600&shadow=md&onhover=float |}}
+{{ :ui:stock_image_surfer_in_the_see.png?600&shadow=md&onhover=float&opacity=0.5 |}}
 </code>
 </webcode>
 
