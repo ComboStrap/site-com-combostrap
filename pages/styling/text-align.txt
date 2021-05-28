@@ -64,13 +64,20 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </card>
 </code>
 </webcode>
-==== Conditional (Screen Width) ====
+==== Screen Conditional ====
 
-https://getbootstrap.com/docs/5.0/utilities/text/#text-alignment
-<file>
-<p class="text-sm-start">Start aligned text on viewports sized SM (small) or wider.</p>
-<p class="text-md-start">Start aligned text on viewports sized MD (medium) or wider.</p>
-<p class="text-lg-start">Start aligned text on viewports sized LG (large) or wider.</p>
-<p class="text-xl-start">Start aligned text on viewports sized XL (extra-large) or wider.</p>
-</file>
+This example was made with the [[ui:text|text component]] and shows a conditional value based on [[styling:breakpoint|screen size]]
+
+
+<webcode name="Default" frameborder="0">
+
+  * Input
+<code dw>
+<text text-align="sm-end">End aligned text on SM (small) screen or wider.</text>
+<text text-align="md-center">Default (Start) align on SM (small screen), then Center aligned from MD (medium) screen and wider.</text>
+<text text-align="md-center lg-end">Default (Start) align on SM (small screen), then Center aligned from MD (medium), then End aligned text on LG (large) screen and wider.</text>
+<text text-align="xl-center">Default (Start) align on SM (small screen), then Center aligned text on XL (extra-large) screen and wider.</text>
+</code>
+  * Output:
+</webcode>
 
