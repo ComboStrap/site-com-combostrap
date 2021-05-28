@@ -12,7 +12,7 @@ This article shows you how to create and install your own custom [[stylesheet|Bo
 
 <note info>
   * This article was written for Bootstrap 4 but the steps should be relatively the same for Bootstrap 5
-  * This was the steps taken to create the [[strap:dynamic_grid|16 grid Stylesheet]].
+  * This was the steps taken to create the [[release:deprecated:dynamic_grid|16 grid Stylesheet]].
 </note>
 
 <note tip>
@@ -61,7 +61,7 @@ The naming convention is  ''$name-state-property-modifier'' where:
 Every Sass variable in Bootstrap 4 includes the ''!default'' flag allowing you to override the variable’s default value in your own Sass.
 </note>
 
-Example with a [[strap:dynamic_grid|grid of 16 columns with a max width of 1280px]]
+Example with a [[release:deprecated:dynamic_grid|grid of 16 columns with a max width of 1280px]]
 <code scss scss/_variables.scss>
 $grid-columns:                16 !default;
 

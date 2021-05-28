@@ -1,0 +1,58 @@
+---json
+{
+    "canonical":"line-spacing",
+    "title":"ComboStrap - Line Spacing (Line height)",
+    "description":"The line spacing attribute lets you set the space between each line in a paragraph"
+}
+---
+====== ComboStrap Styling - Line Spacing (Line Height) ======
+
+===== About =====
+''line-spacing'' is a [[styling|styling attributes]] that lets you define the height between each line inside a [[ui:block|block component]]. 
+
+
+<note>
+If you want to add space between component, you should use the [[styling:spacing|spacing attribute]]
+</note>
+
+
+===== Syntax =====
+
+
+<code dw>
+line-spacing=value
+</code>
+where value  may be:
+   * ''xs'' / ''extra-small''
+   * ''sm'' / ''small''
+   * ''md'' / ''medium'' (default)
+   * ''lg'' / ''large''
+
+The space value is scaled according to the [[scale|root scale value]]
+===== Example =====
+With the [[ui:text|text component]] that lets you create paragraphs with the same attributes
+<webcode name="Default" frameborder="0">
+<code dw>
+<text line-spacing="xs" width="40rem">
+**Extra-small line space**. This is a long paragraph written to show how the line-height of an element is affected. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</text>
+<text line-spacing="sm" width="40rem">
+**Small line space**. This is a long paragraph written to show how the line-height of an element is affected. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</text>
+<text line-spacing="md" width="40rem">
+**Medium line space**. This is a long paragraph written to show how the line-height of an element is affected. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</text>
+<text line-spacing="lg" width="40rem">
+**Large line space**. This is a long paragraph written to show how the line-height of an element is affected. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</text>
+</code>
+  * Output:
+</webcode>
+
+
+===== Configuration =====
+==== Base ====
+The values are scaled based on the [[scale|root value]]. If you want to get bigger line spacing, you can increase this value.
+
+
+

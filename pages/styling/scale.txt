@@ -9,32 +9,35 @@
 ===== About =====
 Every length are scaled based on what's called the [[kb>rem|rem (Root Emphemeral Unit)]] which is equal by default to ''16px''.
 
-The scale is going:
+
+
+
+This scale is used for [[font|font]] and ''spacing'' ([[styling:spacing|component spacing]] and [[line-spacing|line spacing]])
+
+
+The numerical scale is going:
   * from ''1'' for a length value of ''.25rem'' 
   * to ''5'' for a length value of ''3rem'' 
 
+The alphabetical scale is going:
+  * from ''xs'' (''extra-small'') for a length value of ''1rem''
+  * to ''lg'' (''large'') for a length value of ''2rem''
 
-
-This scale is used for [[font|font]] and [[styling:spacing|spacing]]
 ===== Articles Related =====
 {{backlinks>.}}
 
-===== Responsive =====
-Every browser sets a value of ''16px'' for one ''rem'' and does not take into account the [[styling:breakpoint|screen size]].
+===== Configuration =====
+Every browser sets a value of ''16px'' for one ''rem'' by default but you can increase it with the ''remSize'' configuration.
 
-
-
-
-==== Boostrap4 ====
-
-[[bootstrap|Bootstrap4]] does not vary this value depending on the [[styling:breakpoint|screen size]] [[https://getbootstrap.com/docs/4.3/content/typography/#responsive-font-sizes|by default]], ''ComboStrap'' does it.
 
 
 {{:ui:rem_strap_conf.png|}}
 
 
 
-
+<note>
+This value is not dependent on the [[styling:breakpoint|screen size]] (Bootstrap does not vary it either)
+</note>
 
 
 

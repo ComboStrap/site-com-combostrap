@@ -19,7 +19,7 @@ It means that on a smaller screen, a [[ui:heading|heading font size]] should bec
 
 ==== Bootstrap note =====
 
-[[release:1.13_bootstrap5|Bootstrap version 5]] does implement responsive size [[https://getbootstrap.com/docs/5.0/content/typography/#responsive-font-sizes|by default]]. ''ComboStrap'' does not apply therefore the fix of Bootstrap 4 for the [[ui:title|title]]
+[[release:1.13_bootstrap5|Bootstrap version 5]] does implement responsive size [[https://getbootstrap.com/docs/5.0/content/typography/#responsive-font-sizes|by default]]. ''ComboStrap'' does not apply therefore the fix of Bootstrap 4 for the [[ui:title|display title]]
 
 It has introduced the [[https://getbootstrap.com/docs/5.0/getting-started/rfs/|RFS module (Responsive Font Sizes)]] that reacts also to styling properties with unit values like:
   * [[styling:spacing|margin, padding]], 

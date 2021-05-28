@@ -30,11 +30,7 @@ where:
       * ''lead'': It makes a paragraph stand out by setting a bigger font-size and weight
       * ''h1 to h6'': when you want to match the font styling of a [[heading|heading]]. <inote>If you want to set a title for a component, use the [[title|title component]] instead</inote>
       * or any custom class created with the [[styling:userstyle|userstyle stylesheet]].
-  * ''line-spacing'' sets the space between the lines of a paragraph.
-    * ''xs'' / ''extra-small''
-    * ''sm'' / ''small''
-    * ''md'' / ''medium'' (default)
-    * ''lg'' / ''large''
+  * [[#line-spacing]] sets the space between the lines of a paragraph.
   * [[styling:text-align|text-align]] (or ''align'' as shortcut)
 
 
@@ -71,7 +67,7 @@ A text that looks like an heading level 1
 </webcode>
 
 ==== Line-Spacing ====
-''line-spacing'' lets you define the height between each line inside a paragraph. 
+[[styling:line-spacing|line-spacing]] is a styling attribute that lets you define the height between each line inside a paragraph. 
 
 Example:
 <webcode name="Default" frameborder="0">
