@@ -16,8 +16,12 @@
   * New [[ui:typo|typographic page]]
   * Change: The ''typo'' component has been renamed to [[ui:text|text]]
   * New: the [[ui:text|text component]] accepts to style several paragraph at once
+  * New: the [[ui:itext|itext component]] accepts to style several words at once (i for [[ui:inline|inline]])
   * New: the [[ui:text|text component]] accepts to a [[ui:text#line-spacing|line-spacing attribute]] to set the height between each line of a paragraph
   * New: the [[styling:text-align|text-align]] attribute can now be conditional and takes the start and end notation
+  * New: the [[styling:opacity|opacity attribute]] has its own page and can be applied to all component (not only to [[styling:background|background]])
+  * New: the [[styling:boldness|boldness attribute]] to set the font-weight from extra-light to extra-dark.
+  * New: the [[styling:line-spacing|line spacing attribute]] to set the space between line
 
 
 ==== Bug Solved ====

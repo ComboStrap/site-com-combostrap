@@ -8,7 +8,7 @@
 ====== ComboStrap - Typography ======
 
 ===== About =====
-This page regroups all typographic component of ComboStrap
+This page regroups all [[styling:typo|typographic]] component of ComboStrap
 
 ===== List =====
 ==== Paragraph ====
@@ -22,7 +22,16 @@ This components applies to words.
 
 === Bold ===
 
-[[styling:boldness|bold]]
+To modify the [[styling:boldness|boldness]] (known as font-weight), you can use ''double star'', ''name'', ''value'' or ''superlatif''. Check the dedicated page: [[styling:boldness]]
+
+Example with the [[ui:itext|itext component]]
+<webcode name="Default" frameborder="0">
+  * Input
+<code dw>
+This text is a <itext boldness="bold">bold text</itext> and this one **too**.
+</code>
+  * Output:
+</webcode>
 
 
 === Italic ===

@@ -46,11 +46,9 @@ The ''standard'' attributes are:
   * [[text-align|Text align]] - Align the lines inside a block
   * [[ui:text#line-spacing|Line Spacing]] - Set the height between lines of text
   * [[opacity|Opacity]] - Renders a component more or less opaque / transparent 
+  * [[boldness|Boldness]] - Set the weight of a font (from thin to bold)
 
-<note>
-=== For the Geek ===
-''Standard attributes'' are all transformed into [[style|CSS rules]].
-</note>
+
 
 
 === Animation ===
