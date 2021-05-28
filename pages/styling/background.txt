@@ -48,7 +48,7 @@ where:
       * ''tile'': The image is repeated until the container is filled.
   * ''color'': defines a background [[color|color]] - if you have set an image, the color value is seen while the image is loading.
   * ''pattern'' and ''pattern-color'' are used to define the [[#css pattern]] name and color respectively.
-  * ''opacity'' to bring depth level on color. Value goes from ''1'' (no opacity, default) to ''0'', completely opaque, not visible). By layer, below are typical values.
+  * [[opacity|opacity]] brings depth level on color. Value goes from ''1'' (no opacity, default) to ''0'', completely opaque, not visible). By layer, below are typical values.
     * First: 0.15
     * Second: 0.3
     * Third: 0.45

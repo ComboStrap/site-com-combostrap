@@ -45,6 +45,7 @@ The ''standard'' attributes are:
   * [[clickable|Clickable]] - Make a whole component such as a card clickable
   * [[text-align|Text align]] - Align the lines inside a block
   * [[ui:text#line-spacing|Line Spacing]] - Set the height between lines of text
+  * [[opacity|Opacity]] - Renders a component more or less opaque / transparent 
 
 <note>
 === For the Geek ===

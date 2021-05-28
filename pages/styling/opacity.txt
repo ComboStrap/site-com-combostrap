@@ -18,9 +18,12 @@
 <code dw>
 opacity=value
 </code>
-where the value is a number between:
-  * ''0'' completely transparent
-  * ''1'' no effect
+where the value goes:
+  * from ''1'' (no opacity, default) 
+  * to ''0'', completely opaque, not visible).
+
+
+''Opacity'' brings depth and is mostly used with [[#background|background]]
 
 ===== Example =====
 
@@ -42,3 +45,16 @@ With a [[ui:raster|raster image]]
 </code>
 </webcode>
 
+==== Background Opacity ====
+
+Opacity is mostly used with [[styling:background|background]]
+
+Example with a [[ui:slide|slide]] and a [[background|background]]
+<webcode name="Default" frameborder="0">
+<code dw>
+<slide color="steelblue" text-align="center" >
+   <background opacity="0.3">{{:ui:stock_image_surfer_in_the_see.png|}}</background>
+   <title 2>A background with an opacity of 0.3</title>
+</slide>
+</code>
+</webcode>
