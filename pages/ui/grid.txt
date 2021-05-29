@@ -21,18 +21,19 @@ The ''grid'' component is a composition of two tags:
 ===== Syntax =====
 <code dw>
 <row type>
-   <col></col>
+   <col vertical="center"></col>
    <col></col>
 </col>
 </code>
 where
   * ''type'' may be the value ''auto'' - each column will takes their natural width and never overflow
+  * ''vertical'': if the value is ''center'', the content will be vertically centered.
 
 <note>
 They are actually [[styling:html|superset HTML component]], you can therefore use all [[https://getbootstrap.com/docs/5.0/layout/grid/|Grid bootstrap class]]
 </note>
 
-<badge>Attributes are [[release:release|in the planning]]</badge>
+
 
 ===== Example =====
 
@@ -85,7 +86,4 @@ Example where the whole row:
 </webcode>
 
 
-===== Configuration =====
-==== gridColumns ====
-You can change the default number of columns from 12 to 16. See [[strap:dynamic_grid]]
 

@@ -9,6 +9,7 @@
 
 ===== About =====
 
+https://getbootstrap.com/docs/5.0/content/reboot/#native-font-stack
 
 ===== Responsive =====
 ''Responsive font'' means that the size of the font is adapting to each [[styling:breakpoint|screen size]].
