@@ -9,10 +9,18 @@
 ====== ComboStrap - Credits ======
 
 
-===== About =====
-[[combostrap|Combostrap]] is built on the shoulder of amazing piece of software. This page gives them credits.
 
-===== List =====
+
+<row>
+<col vertical="center" text-align="center">
+[[combostrap|Combostrap]] is built on the shoulder of amazing piece of software. This page gives them credits.
+</col>
+<col>
+{{::undraw_create.svg|}}
+</col>
+</row>
+
+
 
 ^ Software / Library ^ Usage ^
 | [[https://dokuwiki.org|Dokuwiki]] | This is the wiki engine that powers the creation and parsing of the page |

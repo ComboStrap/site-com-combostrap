@@ -64,4 +64,5 @@ We value all [[:support|feedback]] on beta feature.
       * https://developers.google.com/search/docs/data-types/how-to
   * Image:
       * Add a [[https://getbootstrap.com/docs/4.4/content/figures/|caption to image]]
+  * [[https://www.dokuwiki.org/plugin:wst|Template]]
 
