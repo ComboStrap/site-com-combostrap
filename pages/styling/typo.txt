@@ -13,8 +13,13 @@
     * ''words'' with the [[ui:itext|itext component]]
 
 ===== List =====
-  * [[https://getbootstrap.com/docs/5.0/utilities/text/#font-size|font-size]]
+==== Characters ====
+
+  * [[font-size]]
   * [[styling:color|color]]
   * [[https://getbootstrap.com/docs/5.0/utilities/text/#text-decoration|decoration]]
-  * [[text-align]]
   * [[boldness]]
+
+==== Paragraph / Block ====
+
+  * [[text-align]]

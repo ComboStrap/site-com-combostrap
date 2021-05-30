@@ -47,6 +47,7 @@ The ''standard'' attributes are:
   * [[ui:text#line-spacing|Line Spacing]] - Set the height between lines of text
   * [[opacity|Opacity]] - Renders a component more or less opaque / transparent 
   * [[boldness|Boldness]] - Set the weight of a font (from thin to bold)
+  * [[font-size|Font Size]] - Set the size of the characters.
 
 
 

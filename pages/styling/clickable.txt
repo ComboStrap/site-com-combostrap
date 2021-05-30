@@ -5,11 +5,11 @@
     "description":"When a component contains a link, you can make the whole surface clickable with the clickable attribute"
 }
 ---
-====== ComboStrap UI - Clickable (Stretched link) ======
+====== ComboStrap Styling - Clickable (Stretched link) ======
 
 
 ===== About =====
-''clickable'' is a [[styling|styling attribute]] that permits to make the whole surface of a component containing a link clickable. 
+''clickable'' is a [[styling|styling attribute]] that permits to make the whole surface of a component containing a [[ui:link|link]] clickable. 
 
 
 <note>
@@ -28,6 +28,7 @@ Example with a [[ui:card|card]]
 {{:styling:subway_card_tile.png|}}
 === Clickable Card ===
 Lorem ipsum
+
 <btn>[[https://combostrap.com/clickable|A clickable card]]</btn>
 </card>
 </code>

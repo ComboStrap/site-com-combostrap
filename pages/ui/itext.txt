@@ -9,16 +9,43 @@
 
 
 ===== About =====
-''itext'' is a [[ui:typo|typographic component]] that permits to applies [[styling:typo|typographic attribute]] to one or more words.
+''itext'' is a [[ui:typo|typographic component]] that permits to applies [[styling:typo|typographic attribute]] to one or more characters / words.
 
 <note tip>
-If you want to applies the [[styling:typo|typographic attributes]] on a paragraph, you should use the [[text|text component]].
+  * It's an [[ui:inline|inline component]]. Therefore, it can be used in a line and will not create a new line.
+  * If you want to applies the [[styling:typo|typographic attributes]] on a paragraph, you should use the [[text|text component]].
 </note>
+
 
 
 ===== Syntax =====
 
 
 <code dw>
-<itext ></itext>
+<itext attributes></itext>
 </code>
+where attributes is any [[styling:typo|typographic attributes]]
+
+===== Example =====
+
+==== Boldness ====
+
+With [[styling:boldness|boldness]]:
+<webcode name="Default" frameborder="0">
+  * Input
+<code dw>
+This text is a <itext boldness="black">black text</itext>
+</code>
+  * Output:
+</webcode>
+
+==== First letter ====
+With the [[styling:font-size|font-size attribute]]
+<webcode name="Default" frameborder="0">
+  * Input:
+<code dw>
+<itext font-size="h1" bold>T</itext>he first letter has the same size than the first heading
+</code>
+  * Output:
+</webcode>
+

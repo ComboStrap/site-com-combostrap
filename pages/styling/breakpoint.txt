@@ -36,7 +36,7 @@ Each breakpoints defines the maximum width of the screen for a property to be ap
 
 ==== Bootstrap 4 ====
 
-^ Code ^ Name ^ Device ^ Default \\ Value for a 12 grid columns  ^ Value for a [[strap:dynamic_grid|16 grid columns]] ^
+^ Code ^ Name ^ Device ^ Default \\ Value for a 12 grid columns  ^ Value for a [[release:deprecated:dynamic_grid|16 grid columns]] ^
 | xs (Default) | Extra Small | Mobile Phone | 0 | 0 |
 | sm | Small | Ipad | 576px | 576px |
 | md | Medium | Ipad Pro | 768px | 768px |
