@@ -7,12 +7,12 @@
 ====== ComboStrap Styling - Length Scale (Size Scale) ======
 
 ===== About =====
-Every length are scaled based on what's called the [[kb>rem|rem (Root Emphemeral Unit)]] which is equal by default to ''16px''.
+Every length are scaled based on what's called the ''[[kb>rem|rem (Root Emphemeral Unit)]]'' which is equal by default to ''16px''.
 
 
 
 
-This scale is used for [[font|font]] and ''spacing'' ([[styling:spacing|component spacing]] and [[line-spacing|line spacing]])
+This scale is used for [[font-size|font size]] and ''spacing'' ([[styling:spacing|component spacing]] and [[line-spacing|line spacing]])
 
 
 The numerical scale is going:

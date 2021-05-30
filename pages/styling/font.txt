@@ -8,7 +8,38 @@
 
 
 ===== About =====
+The fonts used are the default system font of the target system. They are designed specifically with today’ screen in mind. 
 
-https://getbootstrap.com/docs/5.0/content/reboot/#native-font-stack
+They are known as  ''native font stack'' or ''system font stack''.
+
+The following attributes permits to change the font rendering:
+  * [[styling:font-size]]
+  * [[styling:boldness]]
+
+
+===== List =====
+The font used is chosen in the following order:
+
+^ Name ^ System / Description ^
+| system-ui | Cross-platform generic font family (default user interface font) |
+| San Francisco | Safari font for macOS and iOS |
+| BlinkMacSystemFont | Chrome < 56 for macOS |
+| Segoe UI | Windows |
+| Roboto | Android |
+| Helvetica Neue, Arial | Basic web fallback |
+| Noto Sans, Liberation Sans | Linux |
+| sans-serif | Sans serif fallback |
+| Apple Color Emoji, \\ Segoe UI Emoji, \\ Segoe UI Symbol, \\ Noto Color Emoji | Emoji fonts |
+
+
+
+
+
+===== Documentation / Reference =====
+  * [[https://getbootstrap.com/docs/5.0/content/reboot/#native-font-stack|Bootstrap Native Font]]
+
+
+
+
 
 
