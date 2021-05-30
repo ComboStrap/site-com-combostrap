@@ -38,8 +38,13 @@
   * [[release:deprecated:dynamic_grid|grid of 16 (dynamic grid)]] is deprecated from Bootstrap 5
 ===== Bug To solved =====
 
+
   * XHTML bug: https://validator.w3.org/nu/?doc=https%3A%2F%2Fcombostrap.com%2F
-  * How to avoid : ''PHP Fatal error:  Uncaught Error: Undefined class constant ''
+  * The tag test have now their own test class.
+  * The tag syntax is no more needed.
+  * The page (viz:viz) and the page (data:viz:viz) have the same canonical.
+  * An empty name should give a warning in a link
   * Page deleted / moved should be deleted /renamed into the database
   * monospace in the renderer should be a component
-  * [[https://getbootstrap.com/docs/5.0/utilities/vertical-align/|vertical align]] on grid
+
+

@@ -1,0 +1,143 @@
+---json
+{
+    "canonical":"beta:note",
+    "low_quality_page":"true"
+}
+---
+====== Beta - Note ======
+
+
+
+===== Design Check list =====
+
+
+  * https://www.checklist.design/
+  * https://github.com/thedaviddias/Front-End-Checklist#how-to-use
+
+===== Nsw =====
+
+https://new.nvsw.nl/
+
+==== Data ====
+
+  * Airtable
+  * Google Sheets
+  * Notion
+
+
+=====  Website Cost =====
+
+
+  * https://designagency.io/
+
+
+===== Marketing ======
+
+
+  * https://www.indiehackers.com/product/softr
+  * https://producthunt.com/posts/softr
+
+===== New Release =====
+
+
+  * https://noticeable.io/ (https://www.softr.io/whats-new)
+
+===== Alias =====
+
+
+  * Alias: php/switch and php/case
+  * Reverse / Permalink: html:svg = svg:html
+
+
+
+==== Templates ====
+
+  * https://codyhouse.co/templates
+  * https://mdbootstrap.com/freebies/
+  * https://mdbootstrap.com/docs/standard/lab/
+
+===== Template functionality =====
+
+  * [[https://www.dokuwiki.org/plugin:wst|Template]]
+  * HTML Template: https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_templates_and_slots
+  * Angular: https://angular.io/guide/structural-directives#structural-directive-shorthand
+
+```html
+<ng-template [ngIf]="hero">
+  <div class="name">{{hero.name}}</div>
+</ng-template>
+```
+
+## Issue template
+
+https://docs.github.com/en/github/building-a-strong-community/manually-creating-a-single-issue-template-for-your-repository
+https://github.com/giterlizzi/dokuwiki-template-bootstrap3/tree/master/.github
+
+
+====== Bad Behavior ======
+
+
+<file>
+db:oracle:long_or_1_utl_inaddr.get_host_address_chr_33_chr_126_chr_33_chr_65_chr_66_chr_67_chr_49_chr_52_chr_53_chr_90_chr_81_chr_54_chr_50_chr_68_chr_87_chr_81_chr_65_chr_70_chr_80_chr_79_chr_73_chr_89_chr_67_chr_70_chr_68_chr_33_chr_126_chr_33
+db:oracle:999999.9:union:all:select_null:from_dual
+db:oracle:999999.9:union:all:select_null:from_dual_and_0_0
+</file>
+
+====== Namespace ======
+
+
+<code json>
+{
+   "canonical": "jq",
+   "namespaces": ["[[markup:json:json]]","[[data:processing:shell:shell]]"]
+}
+</code>
+
+
+
+
+
+
+===== Miscelenaous =====
+  * [[ui:note|Note]] - the last part of a note has a line due to the browser stylesheet for p and ul
+  * [[https://www.dokuwiki.org/include_hooks|include-Hooks]] (meta)
+  * [[https://aerolab.github.io/midnight.js/|Midnights]] ([[https://github.com/Aerolab/midnight.js|code]]) [[strap:fixed-top-navbar|fix topbar]] with differents colors depending on the background
+  * Don't redirect missing [[:strap:bar|bars]]
+  * [[semantic:article|Article]] role:
+      * [[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Article_Role|Add article role]]
+      * [[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_article_role|Article role]]
+  * Passing [[semantic:lang|lang]] to the body strap template node ?
+  * Social:
+      * Mail and Messenger wrapper: https://mailgo.dev/
+      * https://ellisonleao.github.io/sharer.js/
+  * [[https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/dn320426(v=vs.85)?redirectedfrom=MSDN|Browserconfig ?]]
+<code xml>
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+    <msapplication>
+        <tile>
+            <square150x150logo src="/mstile-150x150.png"/>
+            <TileColor>#da532c</TileColor>
+        </tile>
+    </msapplication>
+</browserconfig>
+</code>
+  * Landing Page:
+      * Add a [[https://getbootstrap.com/docs/4.4/components/carousel/|Carrousel]]
+  * Add notification panel with a bell icon to show short updates ([[https://material-ui.com/|Example]])
+  * https://github.com/retextjs/retext:
+    * Readiblity
+    * Word visualization - https://github.com/wooorm/write-music
+	* https://wooorm.com/short-words/
+  * Metadata:
+      * https://developers.google.com/search/docs/data-types/breadcrumb#breadcrumb-list
+      * https://developers.google.com/search/docs/data-types/qapage
+      * https://developers.google.com/search/docs/data-types/how-to
+  * Image:
+      * Add a [[https://getbootstrap.com/docs/4.4/content/figures/|caption to image]]
+  * Implement: image bottom for card
+  * Cookie Law Banner Notice
+
+
+===== Pricing =====
+  * https://webflow.com/pricing

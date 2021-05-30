@@ -79,7 +79,7 @@ Markup perfect means that there is no need to tweak the output via styling.
 
   * Improvement: Placing a [[ui:button|button]] in a [[ui:navbar|navbar]] does not require any [[styling:spacing|spacing]] attribute. The [[ui:button|button]] spacing is automatically created.
   * New: ''Edit'' button have been added for [[ui:card|card]], [[ui:panel|panel]] and [[ui:slide|slide]] making it easier to edit them.
-  * New: [[ui:typo|Typo]] - the title styling class ''display-1'' to ''display-6'' are now responsive on Bootstrap 4
+  * New: [[ui:text|Typo]] - the title styling class ''display-1'' to ''display-6'' are now responsive on Bootstrap 4
   * Update: The test are testing now that the HTML generation is ''XHMTL'' compliant. This is no more done with the hand.
   * New: ''Bootstrap perfect'': We generate exactly the same markup than [[strap:bootstrap|bootstrap]]. [[ui:card|card]] and [[ui:blockquote|blockquote]] have now bootstrap paragraph with the ''text'' class making them easier to read.
   * New: Template Protection: We empty the php buffer before printing and send a message to admin user. Otherwise, plugins that print directly may mess the page completely.
