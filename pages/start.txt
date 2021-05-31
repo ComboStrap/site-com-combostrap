@@ -2,13 +2,37 @@
 {
    "title":"ComboStrap - Create your web footprint that lasts ForEver ",
    "description":"Advertise yourself, your documentation or your company with a product that makes a qualitive website design, creation and management, unique, easy and fun",
-   "dynamic_quality_monitoring": "false"
+   "dynamic_quality_monitoring": "false",
+   "layout":"landing"
 }
 ---
 
 
 <slide size="lg"  >
-<background opacity="0.4">{{ :combostrap:background:object-multicolor.svg |}}</background>
+    <background opacity="0.4">{{ :combostrap:background:object-multicolor.svg |}}</background>
+    <container>
+        <row>
+            <col>
+<title 3 class="text-capitalize"> Create your footprint that lasts ForEver</title>
+<text lead boldness="350">
+Advertise yourself, your documentation or your company with 
+a product that makes website design, creation and management, \\ unique, easy and fun
+</text>
+
+<btn elevation="true">
+[[getting_started:getting_started|Get started <icon name="arrow-right-drop-circle-outline"/>]]
+</btn>
+            </col>
+            <col class="align-self-center" align="center">
+{{ ::undraw_content_creator.svg?500&nolink |}}
+            </col>
+</row>
+</container>
+</slide>
+
+
+<slide size="lg"  background-color="light">
+<container>
 <row>
 <col>
 <title 3 class="text-capitalize"> Create your footprint that lasts ForEver</title>
@@ -25,11 +49,13 @@ a product that makes website design, creation and management, \\ unique, easy an
 {{ ::undraw_content_creator.svg?500&nolink |}}
 </col>
 </row>
+</container>
 </slide>
 
 
-<slide size="sm">
 
+<slide size="sm">
+<container>
 <card-columns class="mb-3">
 
 <card>
@@ -185,5 +211,5 @@ This module helps you get quality insight via the quality rules and score.
 </card>
 
 </card-columns>
-
+</container>
 </slide>

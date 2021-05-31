@@ -5,24 +5,30 @@
     "description":"This article talks about layout management and how it can be defined by page"
 }
 ---
-====== ComboStrap - Layout ======
+====== ComboStrap - Page Layout ======
 
 ===== About =====
 
 
-Layout are important.
 
-{{:strap:layout_funny.png|}}
+<blockquote float="right" text-align="center" >
+**Layouts are important.**
 
-You can specify a layout by page
+{{:strap:layout_funny.png?300|}}
+</blockquote>
+
+ComboStrap supports actually, three page layouts:
+  * [[#holy]] - the default
+  * [[#median]] - the main content is centered and does not take the space of the sidebar if not present.
+  * [[#landing]] - the main content is not centered and takes the full page width
 
 
 ===== List =====
 
 
-==== Default ====
+==== Holy ====
 
-The default layout is a fully responsive layout (known also as the holy grail) with:
+The default layout is a fully responsive layout (known also as the ''holy grail'') with:
   * a [[strap:headerbor|header]]
   * a [[strap:footerbor|footer]]
   * and three columns:
@@ -30,7 +36,7 @@ The default layout is a fully responsive layout (known also as the holy grail) w
       * [[strap:sidekickbor|right sidebar]]
       * main content
 
-They are all contained in a page that is:
+They are all [[ui:container|contained]] in a page that is:
   * centered 
   * with a width adjusted by screen size (by breakpoint)
 
@@ -47,6 +53,32 @@ You can defined it with the following [[semantic:frontmatter|frontmatter]]
    "layout":"median"
 }
 </code>
+
+
+==== Landing ====
+
+In a landing page layout, the main content is not [[ui:container|contained]].
+
+You can then create section of page with the [[ui:slide|slide component]] where the [[styling:background|background]] will take the whole width of the page.
+
+
+You can defined it with the following [[semantic:frontmatter|frontmatter]]
+<code json>
+{
+   "layout":"landing"
+}
+</code>
+
+Then in your [[ui:slide|slide]] component, you can still center the content by adding a [[ui:container|container]].
+<code dw>
+<slide size="lg">
+    <background color="light"></background>
+    <container>
+        ... Your content
+    </container>
+</slide>
+</code>
+
 
 ===== Documentation / Reference =====
   * https://1linelayouts.glitch.me/

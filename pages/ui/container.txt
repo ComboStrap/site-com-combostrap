@@ -1,39 +1,41 @@
 ====== ComboStrap UI - Container ======
 
 ===== About =====
-[[https://getbootstrap.com/docs/4.3/layout/overview/#containers|container]] implementation of Bootstrap.
+A ''container'':
+  * positions the content in the center
+  * and limits the horizontal width (adjusted by [[styling:breakpoint|screen sizes]])
 
-Container are used to limit the horizontal width. ([[https://getbootstrap.com/docs/4.0/components/navbar/#containers|doc]])
 
 
-It's most used in a [[strap:headerbor|header]] or [[strap:footerbor|footer]]
+It's used in [[ui:layout|layout component]] such as:
+  * [[strap:headerbor|header]] 
+  * [[strap:footerbor|footer]]
+  * and [[ui:slide|slide]]
+
+<note>
+The [[strap:layout|page layout]] ''holy'' and ''median'' have their main content by default contained.
+</note>
 ===== Articles Related =====
 {{backlinks>.}}
 
-===== Attributes =====
-A ''container'' is a [[styling:html|superset HTML element]] and is therefore ready for [[styling:styling|styling]]
-
-<note important>
-A container has an automatic margin that centers it. You should then not set the margin, otherwise it will be located to the left
-</note>
+===== Syntax and example =====
 
 
-==== width ====
-You can wrap the whole content of your page in a container with a width to make reduce your page width.
-
-Example:
-<code dw>
-<container width="600px">
-</code>
-===== Example =====
-
-==== Custom Container  ====
 A container with a [[styling:color|light background color]] and a little bit of [[styling:spacing|padding]]
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+
 <code dw>
 <container background-color="light" class="p-3">
 Oh my Container !
 </container>
 </code>
-</webcode>
 
+
+\\
+\\
+\\
+
+
+
+<note important>
+A container has an automatic margin that centers it. You should then not set the margin, otherwise it will be located to the left
+</note>
