@@ -1,14 +1,14 @@
 
-<footer class="p-3" background-color="gradient-light">
-<container>
+<footer spacing="p-3" background-color="gradient-light">
+<container width="800px" align="center">
 	<row>
-		<col class="col-12 col-lg-6">
+		<col>
 **Product** \\
 [[combostrap|ComboStrap]] \\
 [[release:release|Release (Changes)]] \\
 [[credits|Credits]] \\
 		</col>
-		<col class="col-12 col-lg-6">
+		<col>
 **Contact** \\
 [[support@combostrap.com?subject=Contact via WebSite|support@combostrap.com]] \\
 [[:support|Support]] \\

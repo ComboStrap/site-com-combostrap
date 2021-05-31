@@ -27,9 +27,10 @@ The ''grid'' component is a composition of two tags:
 </code>
 where
   * ''type'' may be the value:
-      * ''auto'' (default) - each column width will automatically calculated to be greater than the minimum width of ''300''
+      * ''auto'' (default) - each column width will automatically calculated to be greater than the minimum width of ''300''. (This mode will not be applied if a [[styling:dimension|width]] or ''class'' attribute is present)
       * ''natural'' - each column will takes their natural width and never overflow
   * ''vertical'': if the value is ''center'', the box will be vertically centered.
+  * and all [[styling:styling|styling attributes]]
 
 
 
@@ -45,18 +46,12 @@ On a grid of 12 columns, a row with two columns:
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <row class="px-5">
-    <col 
-        background-color="green" 
-        color="white"
-        >
-        First line in the first column
+    <col background-color="green" color="white">
+        First paragraph in the first column.
         
-        Second line in the first column
+        Second paragraph in the first column.
     </col>
-    <col 
-        background-color="blue"
-        color="white"
-        >
+    <col background-color="blue" color="white">
         Second column
      </col>
 </row>
@@ -70,7 +65,7 @@ On a grid of 12 columns, a row with two columns:
 They are actually [[styling:html|superset HTML component]], you can therefore use all [[https://getbootstrap.com/docs/5.0/layout/grid/|Grid bootstrap class]]
 
 Example with the ''class'' value 
-  * ''col12'' takes the whole width (for a grid of 12 columns)
+  * ''col-12'' takes the whole width (for a grid of 12 columns)
   * ''col-md-8'' takes a space of 8 of 12 columns from the [[styling:breakpoint|medium breakpoint and over]].
 
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
