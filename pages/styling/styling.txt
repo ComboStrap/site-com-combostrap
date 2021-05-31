@@ -35,19 +35,21 @@ More see [[userstyle]]
 
 === Standard  ===
 The ''standard'' attributes are:
-  * [[styling:dimension|Dimension (Width and height)]] - Take control of the dimensions
-  * [[styling:align|Align]] - Align your component and their text as you wish
-  * [[styling:spacing|Spacing]] - Master your layout at the pixel-perfect details
-  * [[color|Color]] - Text, Border and Background color made easy with name and declarative gradient
-  * [[styling:shadow|Elevation]] - Add a shadow and elevate your component
-  * [[float|Float]] - Position a component to the right or left and let the content flows along its side
-  * [[release:beta:position|Position]] - Position a component inside a container
-  * [[clickable|Clickable]] - Make a whole component such as a card clickable
-  * [[text-align|Text align]] - Align the lines inside a block
-  * [[ui:text#line-spacing|Line Spacing]] - Set the height between lines of text
-  * [[opacity|Opacity]] - Renders a component more or less opaque / transparent 
-  * [[boldness|Boldness]] - Set the weight of a font (from thin to bold)
-  * [[font-size|Font Size]] - Set the size of the characters.
+
+^ Name ^ Description ^
+| [[styling:dimension|Dimension]] | Take control of the width and height |
+| [[styling:align|Align]] | Align your component and their text as you wish |
+| [[styling:spacing|Spacing]] | Master your layout at the pixel-perfect details |
+| [[color|Color]] | Text, Border and Background color made easy with name and declarative gradient |
+| [[styling:shadow|Elevation]] | Add a shadow and elevate your component |
+| [[float|Float]] | Position a component to the right or left and let the content flows along its side |
+| [[release:beta:position|Position]] | Position a component inside a container |
+| [[clickable|Clickable]] | Make a whole component such as a card clickable |
+| [[text-align|Text align]] | Align the lines inside a block |
+| [[line-spacing|Line Spacing]] | Set the height between lines of text |
+| [[opacity|Opacity]] | Renders a component more or less opaque / transparent|
+| [[boldness|Boldness]] | Set the weight of a font (from thin to bold) |
+| [[font-size|Font Size]] | Set the size of the characters. |
 
 
 

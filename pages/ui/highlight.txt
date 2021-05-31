@@ -9,7 +9,7 @@
 
 
 ===== About =====
-''highlight'' is a [[ui:typo|typographic component]] that highlights a sequence of words.
+''highlight'' is a [[styling:typo|typographic component]] that highlights a sequence of words.
 
 
 ''Highlighting'' permits to add [[styling:emphasis|emphasis]] on a couple of words.

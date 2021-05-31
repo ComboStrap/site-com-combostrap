@@ -1,25 +1,116 @@
 ---json
 {
-    "canonical":"typographic:attributes",
-    "title":"Typographic attributes in ComboStrap",
-    "description":"How to add typographic effect to your text with the typographic attributes"
+    "canonical":"typo",
+    "title":"Typographic effect and attributes in ComboStrap",
+    "description":"How to add typographic effect to your text"
 }
 ---
-====== ComboStrap Styling -  Typographic Attributes ======
+====== ComboStrap Styling -  Typography ======
 
 ===== About =====
-''Typographic Attribute'' are [[styling|styling attribute]] that may be applied on:
-    * ''paragraph'' with the [[ui:text|text component]]
-    * ''words'' with the [[ui:itext|itext component]]
+This page regroups all [[styling:typo|typographic]] component of ComboStrap
 
-===== List =====
-==== Characters ====
+===== Type =====
 
+===== Attributes =====
+
+''Typographic Attribute'' are [[styling|styling attribute]]
+  * [[text-align]]
   * [[font-size]]
-  * [[styling:color|color]]
-  * [[https://getbootstrap.com/docs/5.0/utilities/text/#text-decoration|decoration]]
+  * [[text-color]]
   * [[boldness]]
 
-==== Paragraph / Block ====
 
-  * [[text-align]]
+===== Component =====
+The below components are specific typographic components:
+
+Heading:
+  * [[ui:heading|heading]] - structural heading (table of content)
+  * [[ui:title|title]] - typographical heading (component heading)
+
+Text:
+  * [[ui:text|text]] : apply [[#attributes|typographics attributes]] to one or several paragraph at once
+  * [[ui:itext|itext]] : apply [[#attributes|typographics attributes]] to one or several characters/words at once
+
+
+
+
+
+
+===== Typographics markup =====
+
+==== Bold ====
+
+To modify the [[styling:boldness|boldness]] (known as font-weight), you can use ''double star'', ''name'', ''value'' or ''superlatif''. Check the dedicated page: [[styling:boldness]]
+
+Example with the [[ui:itext|itext component]]
+<webcode name="Default" frameborder="0">
+  * Input
+<code dw>
+This text is a <itext boldness="bold">bold text</itext> and this one **too**.
+</code>
+  * Output:
+</webcode>
+
+
+==== Italic ====
+
+
+<webcode name="Default" frameborder="0">
+  * Input
+<code dw>
+This text is a //italic text//
+</code>
+  * Output:
+</webcode>
+
+==== Highlighting ====
+[[ui:highlight]]
+<webcode name="Default" frameborder="0">
+  * Input
+<code dw>
+Highlighting ''this highlight''
+</code>
+  * Output:
+</webcode>
+
+
+
+==== Underline ====
+Underline decoration.
+<webcode name="Default" frameborder="0">
+  * Input
+<code dw>
+This text is __underlined__
+</code>
+  * Output:
+</webcode>
+
+
+==== Delete (line-through) ====
+Line-through / Delete decoration.
+<webcode name="Default" frameborder="0">
+  * Input
+<code dw>
+This text is <del>deleted</del>
+</code>
+  * Output:
+</webcode>
+
+==== Subscript ====
+<webcode name="Default" frameborder="0">
+  * Input
+<code dw>
+This text is a <sub>subscript</sub>
+</code>
+  * Output:
+</webcode>
+
+==== Superscript ====
+<webcode name="Default" frameborder="0">
+  * Input
+<code dw>
+This text is a <sup>superscript</sup>
+</code>
+  * Output:
+</webcode>

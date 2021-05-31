@@ -10,7 +10,7 @@
 
 
 ===== About =====
-''text'' is a [[typo|typographic]] component that permits to style one or several paragraph at once.
+''text'' is a [[styling:typo|typographic]] component that permits to style one or several paragraph at once.
 
 <badge>Since [[release:release|version 1.4]]</badge>
 ===== Articles Related =====
@@ -29,9 +29,10 @@ where:
   * [[styling:type|type]] can take the values:
       * ''lead'': It makes a paragraph stand out by setting a bigger font-size and weight
       * ''h1 to h6'': when you want to match the font styling of a [[heading|heading]]. <inote>If you want to set a title for a component, use the [[title|title component]] instead</inote>
-      * or any custom class created with the [[styling:userstyle|userstyle stylesheet]].
+      * ''custom class'' that you have created in the [[styling:userstyle|userstyle stylesheet]].
   * [[#line-spacing]] sets the space between the lines of a paragraph.
   * [[styling:text-align|text-align]] (or ''align'' as shortcut)
+  * or any [[styling:typo|typographic attributes]] (font size, font weight, ...)
 
 
 

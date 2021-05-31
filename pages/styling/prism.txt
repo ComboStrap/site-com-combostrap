@@ -8,19 +8,24 @@
 
 
 ===== About =====
-[[https://prismjs.com/|Prism]] is a linter that permits to:
+''Prism'' components permits to:
     * highlights code
     * and add extra features such as ''line number'', ''copy to clipboard''
 
+The following ''component'' are ''prism component'':
+  * [[ui:code|code]] - to highlight code
+  * [[ui:file|file]] - to shows the content of a file, 
+  * [[ui:console|console]] - to show the output of a command at the terminal
+  * [[ui:preformatted|preformatted]] - to quote and show unformatted text based on simple text indentation 
+
 <badge>[[release:release|since 1.11]]</badge>
+
+
+
 ===== Syntax =====
 
 
-This syntax applies to the following ''component'':
-  * [[ui:file|file]], 
-  * [[ui:code|code]]
-  *  or [[ui:console|console]] 
-  * and **not** [[ui:preformatted|preformatted]] (that is based on indentation)
+Except from [[ui:preformatted|preformatted]] that is based on indentation, they all follows the below syntax:
 
 <file html>
 <component language [file-path] line-numbers="true" prompt="$">
@@ -113,6 +118,7 @@ Windows Prompt: The prism component will add automatically a ''>'' at the end of
 
 ===== Note =====
 
+The prism components are based on the [[https://prismjs.com/|Prism library]]
 ==== Supported Plugin ====
 This component integrates the following Prism plugin:
   * [[https://prismjs.com/plugins/download-button|Download button]]

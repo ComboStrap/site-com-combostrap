@@ -1,0 +1,50 @@
+---json
+{
+    "canonical":"text-color",
+    "title":"ComboStrap - Text color",
+    "description":"How to change the color of a text with the text-color attribue"
+}
+---
+====== ComboStrap Styling - Text color ======
+
+===== About =====
+''text-color'' is a [[typo|typographic attributes]] that sets the [[styling:color|color]] of a text.
+
+
+===== Syntax =====
+
+<code dw>
+text-color="value"
+<!--- or --->
+color="value"
+</code>
+where ''value'' is one of the [[styling:color#value|accepted color values]]
+
+
+===== Example =====
+
+==== Basic ====
+
+Coloring paragraph with the [[ui:text|component]] and a couple of words with the [[ui:itext|itext component]]
+<webcode name="Default" frameborder="0">
+  * Input
+<code dw>
+<text color="steelblue">
+Steelblue colored paragraph with a <itext color="blue">couple of words in blue</itext>
+</text>
+</code>
+  * Output
+</webcode>
+
+==== Link =====
+
+The ''reset'' color applied on a [[ui:link|link]] will take the color of the [[ui:text|text]]
+<webcode name="Default" frameborder="0">
+  * Input
+<code dw>
+<text color="#6c757d">
+Colored text with a [[?color=reset|reset link]]
+</text>
+</code>
+  * Output
+</webcode>

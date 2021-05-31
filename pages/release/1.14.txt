@@ -13,7 +13,7 @@
 ==== Miscellaneous ====
   * Improvement: The [[ui:note|note component]] got also the [[styling:userstyle#class|userstyle class]].
 ==== Typography ====
-  * New [[ui:typo|typographic page]]
+  * New [[styling:typo|typographic page]]
   * Change: The ''typo'' component has been renamed to [[ui:text|text]]
   * New: the [[ui:text|text component]] accepts to style several paragraph at once
   * New: the [[ui:itext|itext component]] accepts to style several characters / words at once (i for [[ui:inline|inline]])

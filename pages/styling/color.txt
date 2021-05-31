@@ -13,7 +13,7 @@
 
 ===== About =====
 Every [[ui:ui|ComboStrap UI component]] can be colorized with one of the following attributes
-  * ''color'': The color of the text
+  * [[text-color|color]]: The color of the text
   * ''background-color'': The color of the [[background|background]]
   * ''border-color'': The color of the [[border|border]]
 
@@ -26,10 +26,14 @@ Every [[ui:ui|ComboStrap UI component]] can be colorized with one of the followi
 
 
 ===== Example =====
-With a [[ui:card|card]]
+With a [[ui:card|card]] that has:
+  * a ''black'' [[text-color|(text) color]]
+  * a ''teal'' [[styling:background#color|background color]]
+  * a ''blue'' [[styling:border#color|border color]]
+
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
-<card background-color="teal" color="black" border-color="blue" width="200px">
+<card color="black" background-color="teal" border-color="blue" width="200px">
 A teal [[ui:card|card]] with a black text and a blue border
 </card>
 </code>

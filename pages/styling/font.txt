@@ -4,7 +4,7 @@
     "title":"ComboStrap - Font"
 }
 ---
-====== ComboStrap - Font ======
+====== ComboStrap Styling - Font ======
 
 
 ===== About =====

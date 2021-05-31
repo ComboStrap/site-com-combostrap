@@ -1,15 +1,15 @@
 ---json
 {
     "canonical":"itext",
-    "title":"itext: applies typographic effect to text",
-    "description":"itext is a component that applies typographic effect to words such as boldness, font-size and more"
+    "title":"itext: applies typographic effect to characters or words",
+    "description":"itext is a component that applies typographic effect to characters or words such as boldness, font-size and more"
 }
 ---
 ====== ComboStrap UI - itext ======
 
 
 ===== About =====
-''itext'' is a [[ui:typo|typographic component]] that permits to applies [[styling:typo|typographic attribute]] to one or more characters / words.
+''itext'' is a [[styling:typo|typographic component]] that permits to applies typographic effects to one or more characters / words.
 
 <note tip>
   * It's an [[ui:inline|inline component]]. Therefore, it can be used in a line and will not create a new line.
