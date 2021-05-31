@@ -10,7 +10,7 @@
 <slide size="lg"  >
 <background opacity="0.4">{{ :combostrap:background:object-multicolor.svg |}}</background>
 <row>
-<col class="col-md-5">
+<col>
 <title 3 class="text-capitalize"> Create your footprint that lasts ForEver</title>
 <text lead boldness="350">
 Advertise yourself, your documentation or your company with 

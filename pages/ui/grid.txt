@@ -26,12 +26,12 @@ The ''grid'' component is a composition of two tags:
 </col>
 </code>
 where
-  * ''type'' may be the value ''auto'' - each column will takes their natural width and never overflow
-  * ''vertical'': if the value is ''center'', the content will be vertically centered.
+  * ''type'' may be the value:
+      * ''auto'' (default) - each column width will automatically calculated to be greater than the minimum width of ''300''
+      * ''natural'' - each column will takes their natural width and never overflow
+  * ''vertical'': if the value is ''center'', the box will be vertically centered.
 
-<note>
-They are actually [[styling:html|superset HTML component]], you can therefore use all [[https://getbootstrap.com/docs/5.0/layout/grid/|Grid bootstrap class]]
-</note>
+
 
 
 
@@ -46,15 +46,17 @@ On a grid of 12 columns, a row with two columns:
 <code dw>
 <row class="px-5">
     <col 
-        class="col-lg-6" 
         background-color="green" 
-        color="white">
-        First column
+        color="white"
+        >
+        First line in the first column
+        
+        Second line in the first column
     </col>
     <col 
-        class="col-lg-6"
         background-color="blue"
-        color="white">
+        color="white"
+        >
         Second column
      </col>
 </row>
@@ -62,6 +64,24 @@ On a grid of 12 columns, a row with two columns:
   * Output:
 </webcode>
 
+==== Bootstrap class to define the width ====
+
+
+They are actually [[styling:html|superset HTML component]], you can therefore use all [[https://getbootstrap.com/docs/5.0/layout/grid/|Grid bootstrap class]]
+
+Example with the ''class'' value 
+  * ''col12'' takes the whole width (for a grid of 12 columns)
+  * ''col-md-8'' takes a space of 8 of 12 columns from the [[styling:breakpoint|medium breakpoint and over]].
+
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<row class="px-5">
+    <col class="col-12 col-md-8" background-color="green" color="white">First column with a ratio of 8</col>
+    <col background-color="blue" color="white">Second column with a ratio of 4 \\ (12-8)</col>
+</row>
+</code>
+  * Output:
+</webcode>
 ==== Custom Card ====
 You can also create a [[ui:card|card]]-like component based on row and columns.
 
@@ -71,19 +91,21 @@ Example where the whole row:
 
 <webcode name="Default" frameborder="0">
 <code dw>
-<row clickable="true" background-color="light" class="g-0" spacing="m-3">
-  <col class="col-md-6" spacing="p-4">
-    {{:styling:subway_card_tile.png?0x200|}}
+<row clickable="true" background-color="light" spacing="m-3" width="800px" align="center">
+  <col spacing="px-4 py-1" width="fit" >
+    {{:styling:subway_card_tile.png?0x200&align=center|}}
   </col>
-  <col class="col-md-6" spacing="p-4">
+  <col spacing="px-4 py-1" vertical="center">
     === Card Clickable Grid ===
     Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.
-    [[#|Go somewhere]]
+    
+    [[#custom_card|Custom card]]
   </col>
 </row>
 </code>
 
 </webcode>
+
 
 
 
