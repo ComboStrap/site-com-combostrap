@@ -123,6 +123,23 @@ An [[icon|icon]] can be used to get a compelling visual.
 </code>
 </webcode>
 
+
+===== Styling =====
+
+An [[#internal|Internal link]] can be styled with the [[styling:styling|styling attributes]].
+
+Example with the [[styling:text-color#reset|reset color]] and [[styling:underline|underline]].
+<webcode name="Default" frameborder="0">
+  * Input
+<code dw>
+<text color="#6c757d">
+Colored text with a [[link?color=reset&underline#styling|styled link]]
+
+Colored text with a [[link#styling|native link]]
+</text>
+</code>
+  * Output
+</webcode>
 ===== Configuration =====
 
 ==== useDokuwikiLinkClassName ====

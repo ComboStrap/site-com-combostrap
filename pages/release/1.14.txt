@@ -12,6 +12,7 @@
 
 ==== Miscellaneous ====
   * Improvement: The [[ui:note|note component]] got also the [[styling:userstyle#class|userstyle class]].
+  * Improvement: The [[ui:link|link attribute]] can now be used with the [[styling:styling|styling attributes]]
 ==== Typography ====
   * New [[styling:typo|typographic page]]
   * Change: The ''typo'' component has been renamed to [[ui:text|text]]
@@ -23,6 +24,10 @@
   * New: the [[styling:boldness|boldness attribute]] to set the font-weight from extra-light to extra-dark.
   * New: the [[styling:line-spacing|line spacing attribute]] to set the space between line
   * New: the [[styling:font-size|font size attribute]] to set the size of characters
+  * New page: the color of the text got a page: [[styling:text-color]]
+  * New [[:styling:color#reset|color value ''reset'']]: the reset color permits to takes the color of its parent.
+  * New: the underline effect can be set with the [[styling:underline|underline attribute]]
+  * New: an internal link can be [[ui:link#styling|styled]]
 
 
 ==== Bug Solved ====

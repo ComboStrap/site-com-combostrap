@@ -10,7 +10,7 @@
 ===== About =====
 This page regroups all [[styling:typo|typographic]] component of ComboStrap
 
-===== Type =====
+
 
 ===== Attributes =====
 
@@ -77,7 +77,8 @@ Highlighting ''this highlight''
 
 
 ==== Underline ====
-Underline decoration.
+[[underline|Underline decoration]].
+
 <webcode name="Default" frameborder="0">
   * Input
 <code dw>

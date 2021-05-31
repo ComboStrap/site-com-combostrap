@@ -1,0 +1,45 @@
+---json
+{
+    "canonical":"ui:underline",
+    "title":"How to underline words in ComboStrap",
+    "description":"This article shows you the underline syntax"
+}
+---
+====== ComboStrap UI - Text Underlining  ======
+
+
+===== About =====
+''underline'' is a [[styling:typo|typographic effect]] that underlines a sequence of characters.
+
+<note>
+''Underlining'' permits to add [[styling:emphasis|emphasis]] on a couple of words but clashes with the conventional rendering of [[ui:link|link]]. Use it when it couldn't be confused for a hyperlink.
+</note>
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Syntax and Example =====
+==== Markup ====
+
+You needs to wrap your words with two under characters ''%%__%%''.
+  * Syntax
+<webcode name="Default" frameborder="0">
+<code dw>
+This text is not underlined while __this one is__
+</code>
+  * Output:
+</webcode>
+
+==== Attribute ====
+
+You can also use the ''underline'' attribute
+
+Example with the [[ui:itext|itext component]]
+  * Syntax
+<webcode name="Default" frameborder="0">
+<code dw>
+This text is not underlined while <itext underline>this one is</itext>
+</code>
+  * Output:
+</webcode>
+

@@ -50,6 +50,7 @@ The ''standard'' attributes are:
 | [[opacity|Opacity]] | Renders a component more or less opaque / transparent|
 | [[boldness|Boldness]] | Set the weight of a font (from thin to bold) |
 | [[font-size|Font Size]] | Set the size of the characters. |
+| [[underline|Underline]] | Underline one or more characters |
 
 
 

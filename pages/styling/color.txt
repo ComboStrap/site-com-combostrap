@@ -60,13 +60,13 @@ You can also use a [[https://drafts.csswg.org/css-color/#color-keywords|CSS Colo
 </note>
 
 ==== Reset ====
-The ''reset'' color applied on a [[ui:link|link]] will take the color of the [[ui:text|text]]
+The ''reset'' color applied on a [[ui:link|link]] will take the color of the [[ui:text|text]] and we [[styling:underline|underline it]] to make it visible.
 <webcode name="Default" frameborder="0">
   * Input
 
 <code dw>
 <text color="#6c757d">
-Colored text with a [[?color=reset|reset link]]
+Colored text with a [[?color=reset&underline|reset link]]
 </text>
 </code>
   * Output

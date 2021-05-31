@@ -43,7 +43,7 @@ The ''reset'' color applied on a [[ui:link|link]] will take the color of the [[u
   * Input
 <code dw>
 <text color="#6c757d">
-Colored text with a [[?color=reset|reset link]]
+Colored text with a [[?color=reset&underline|reset link]]
 </text>
 </code>
   * Output
