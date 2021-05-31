@@ -13,6 +13,7 @@
 ==== Miscellaneous ====
   * Improvement: The [[ui:note|note component]] got also the [[styling:userstyle#class|userstyle class]].
   * Improvement: The [[ui:link|link attribute]] can now be used with the [[styling:styling|styling attributes]]
+  * Improvement: The [[ui:slide|slide component]] gets responsive x margin. Using more left and right margins, the bigger the screen is.
 ==== Typography ====
   * New [[styling:typo|typographic page]]
   * Change: The ''typo'' component has been renamed to [[ui:text|text]]

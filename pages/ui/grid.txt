@@ -46,13 +46,13 @@ On a grid of 12 columns, a row with two columns:
 <code dw>
 <row class="px-5">
     <col 
-        class="col-12 col-lg-6" 
+        class="col-lg-6" 
         background-color="green" 
         color="white">
         First column
     </col>
     <col 
-        class="col-12 col-lg-6"
+        class="col-lg-6"
         background-color="blue"
         color="white">
         Second column

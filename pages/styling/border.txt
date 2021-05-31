@@ -24,14 +24,26 @@ Every [[ui:block|block component]] will react to the [[styling:styling|styling a
 Example with the generic [[ui:box|box]]
 <webcode name="Default" frameborder="0">
 <code dw>
-<box border-color="blue" spacing="p-5" width="20rem">
+<box border-color="blue" spacing="p-5" text-align="center" width="20rem">
 A box with a blue border
 </box>
 </code>
 </webcode>
 
 
-<note tip spacing="mt-5">
-=== For the Geek ===
-When set, this attribute will apply automatically default CSS attributes such as solid to show the border
-</note>
+===== Support =====
+
+==== Default Border Attributes applied with color ====
+If you set a ''border-color'' attributes, by default ''ComboStrap'' will set the following properties if they are not present.
+  * a width of 1px 
+  * a style of solid (ie a continue line)
+  * a radius of 0.25rem (round corner)
+
+
+This is :
+  * to avoid the confusion to see nothing appearing on the screen 
+  * and to have a consistent styling with [[strap:bootstrap|bootstrap]].
+
+
+
+

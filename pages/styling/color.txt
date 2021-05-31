@@ -12,10 +12,13 @@
 
 
 ===== About =====
-Every [[ui:ui|ComboStrap UI component]] can be colorized with one of the following attributes
-  * [[text-color|color]]: The color of the text
-  * ''background-color'': The color of the [[background|background]]
-  * ''border-color'': The color of the [[border|border]]
+Every [[ui:ui|ComboStrap UI component]] can be colorized with one of the following color attributes
+  * [[text-color|text-color]] : The color of the text
+  * [[background#color|background-color]] : The color of the [[background|background]]
+  * [[border#color|border-color]] : The color of the [[border|border]]
+
+This page describes which [[#value|color value]], they can take.
+
 
 
 
@@ -26,17 +29,19 @@ Every [[ui:ui|ComboStrap UI component]] can be colorized with one of the followi
 
 
 ===== Example =====
-With a [[ui:card|card]] that has:
-  * a ''black'' [[text-color|(text) color]]
-  * a ''teal'' [[styling:background#color|background color]]
-  * a ''blue'' [[styling:border#color|border color]]
+  * A [[ui:card|card]] with:
+      * a ''black'' [[text-color|(text) color]]
+      * a ''teal'' [[styling:background#color|background color]]
+      * a ''blue'' [[styling:border#color|border color]]
 
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+
 <code dw>
-<card color="black" background-color="teal" border-color="blue" width="200px">
+<card color="black" background-color="teal" border-color="blue" align="center" width="200px">
 A teal [[ui:card|card]] with a black text and a blue border
 </card>
 </code>
+  * Output:
 </webcode>
 
 ===== Value =====
@@ -44,9 +49,12 @@ A teal [[ui:card|card]] with a black text and a blue border
 ''ComboStrap'' supports the following color value:
   * [[#name]]
   * [[#rgb|RGB]]
-  * ''reset'' (to take the color of the parent)
+  * [[#reset]] (to take the color of the parent)
 
-<note tip>Because the component syntax are a [[styling:html|html superset]], all other colors value should work</note>
+<note tip>
+== Color Generator ==
+Generating or choosing attractive color is not easy. The [[color_generator|color generator page]] may help you in this task.
+</note>
 ==== Name ====
 [[:start|ComboStrap]] follows the [[https://getbootstrap.com/docs/4.0/utilities/colors/|Bootstrap color naming]] and you may then use the following color names.
 
@@ -58,6 +66,20 @@ The default Bootstrap colors are:
 <note>
 You can also use a [[https://drafts.csswg.org/css-color/#color-keywords|CSS Color name]].
 </note>
+
+==== Rgb ====
+
+''rbg'' (or red blue green) is the standard web value that is composed of an hexadecimal value.
+
+Example  with the [[ui:text|text component]]
+<webcode frameborder="0">
+<code dw>
+<text color="#6c757d" width="fit" align="center">
+Text color with a hexadecimal value of ''#6c757d''
+</text>
+</code>
+  * Output
+</webcode>
 
 ==== Reset ====
 The ''reset'' color applied on a [[ui:link|link]] will take the color of the [[ui:text|text]] and we [[styling:underline|underline it]] to make it visible.
@@ -72,19 +94,6 @@ Colored text with a [[?color=reset&underline|reset link]]
   * Output
 </webcode>
 
-
-===== Info =====
-
-==== Default Border Attributes ====
-If you set a ''border-color'' attributes, by default ''ComboStrap'' will set the following properties if they are not present.
-  * a width of 1px 
-  * a style of solid (ie a continue line)
-  * a radius of 0.25rem (round corner)
-
-
-This is :
-  * to avoid the confusion to see nothing appearing on the screen 
-  *and to have a consistent styling with [[strap:bootstrap|bootstrap]].
 
 
 
@@ -112,11 +121,9 @@ and this one for a [[ui:note#primary|primary note]]
 }
 </code>
 
-===== Generator =====
-Generating or choosing attractive color is not easy. The [[color_generator|color generator]] may help you in this task.
 
 
 
-===== Documentation / Reference =====
-  * [[https://getbootstrap.com/docs/4.0/getting-started/theming/#color|Bootstrap color]]
+
+
 

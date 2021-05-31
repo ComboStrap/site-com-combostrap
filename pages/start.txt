@@ -12,10 +12,10 @@
 <row>
 <col class="col-md-5">
 <title 3 class="text-capitalize"> Create your footprint that lasts ForEver</title>
-<typo lead>
+<text lead boldness="350">
 Advertise yourself, your documentation or your company with 
 a product that makes website design, creation and management, \\ unique, easy and fun
-</typo>
+</text>
 
 <btn elevation="true">
 [[getting_started:getting_started|Get started <icon name="arrow-right-drop-circle-outline"/>]]
