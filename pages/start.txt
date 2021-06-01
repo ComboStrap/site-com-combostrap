@@ -36,15 +36,27 @@ a product that makes website design, creation and management, \\ unique, easy an
 <container>
 <box text-align="center"> 
    <text h2>Really useful features</text>
-   <text lead>You get all Bootstrap components fully customized. Besides, you receive another numerous plugins out of the box and ready to use.</text>
+   <text lead width="400px" align="center">You get all Bootstrap components fully customized. Besides, you receive another numerous plugins out of the box and ready to use.</text>
 </box>
 <row>
    <col>
 <icon name="bootstrap" color="#7611F7" spacing="my-5" width="2.75rem"/>
-
 <text h5>Latest Bootstrap</text>
 
 A responsive and mobile-first theme built with the world's most popular component library.
+   </col>
+   <col>
+<icon name="palette" color="#7611F7" spacing="my-5" width="2.75rem"/>
+<text h5>Themes loaded</text>
+
+Choose any theme you want. You got a new design in second, not month.
+   </col>
+   <col>
+<icon name="bs:inboxes-fill" color="#7611F7" spacing="my-5" width="2.75rem"/>
+
+<text h5>100+ Components</text>
+
+Nicely customized components that can be reused anytime and anywhere in your project.
    </col>
 </row>
    
