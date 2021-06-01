@@ -31,7 +31,6 @@ where:
       * ''h1 to h6'': when you want to match the font styling of a [[heading|heading]]. <inote>If you want to set a title for a component, use the [[title|title component]] instead</inote>
       * ''custom class'' that you have created in the [[styling:userstyle|userstyle stylesheet]].
   * [[#line-spacing]] sets the space between the lines of a paragraph.
-  * [[styling:text-align|text-align]] (or ''align'' as shortcut)
   * or any [[styling:typo|typographic attributes]] (font size, font weight, ...)
 
 
@@ -94,21 +93,21 @@ Example:
 If you want to add space between component, you should use the [[styling:spacing|spacing attribute]]
 </note>
 
-==== Align ====
-''align'' lets you define where the line of text will be located inside the paragraph. <inote>A paragraph is a [[ui:block|block]] and takes by default all the available width</inote>
+==== Text-Align ====
+[[styling:text-align|text-align]] lets you define where the line of text will be located inside the paragraph. <inote>A paragraph is a [[ui:block|block]] and takes by default all the available width</inote>
 
 
 
 Example:
 <webcode name="Default" frameborder="0">
 <code dw>
-<text align="start">
+<text text-align="start">
 This line of text is at the **start** of a paragraph (left for a left-to-right language)
 </text>
-<text align="center">
+<text text-align="center">
 This line of text is **centered** inside the paragraph block.
 </text>
-<text align="end">
+<text text-align="end">
 This line of text is at the **end** of a paragraph (right for a left-to-right language)
 </text>
 </code>
@@ -116,6 +115,7 @@ This line of text is at the **end** of a paragraph (right for a left-to-right la
 </webcode>
 
 <note>
-  * ''align'' is an alias for the [[styling:text-align|text-align]] attribute
-  * Text alignment can also be conditional. For all information about this attribute, see the dedicated page: [[styling:text-align]]
+Text alignment can also be **screen conditional**. 
+
+For all information about this attribute, see the dedicated page: [[styling:text-align]]
 </note>
