@@ -15,13 +15,9 @@
             <col>
 <title 3 class="text-capitalize"> Create your footprint that lasts ForEver</title>
 <text lead boldness="350">
-Advertise yourself, your documentation or your company with 
-a product that makes website design, creation and management, \\ unique, easy and fun
+Advertise your company, your documentation or your creations with 
+a product that makes web publication \\ professional, beautiful, collaborative, unique, easy and **fun**
 </text>
-
-<btn elevation="true">
-[[getting_started:getting_started|Get started <icon name="arrow-right-drop-circle-outline"/>]]
-</btn>
             </col>
             <col vertical="center" align="center">
 {{ ::undraw_content_creator.svg?500&nolink |}}
@@ -36,28 +32,55 @@ a product that makes website design, creation and management, \\ unique, easy an
 <container>
 <box text-align="center"> 
    <text h2>Really useful features</text>
-   <text lead width="400px" align="center">You get all Bootstrap components fully customized. Besides, you receive another numerous plugins out of the box and ready to use.</text>
+   <text lead width="400px" align="center">You get all components fully customized out of the box and ready to use.</text>
 </box>
+
 <row>
    <col>
-<icon name="bootstrap" color="#7611F7" spacing="my-5" width="2.75rem"/>
+<icon name="bootstrap" color="#7611F7" spacing="my-3" width="2.75rem"/>
 <text h5>Latest Bootstrap</text>
 
 A responsive and mobile-first theme built with the world's most popular component library.
    </col>
    <col>
-<icon name="palette" color="#7611F7" spacing="my-5" width="2.75rem"/>
+<icon name="palette" color="#7611F7" spacing="my-3" width="2.75rem"/>
 <text h5>Themes loaded</text>
 
 Choose any theme you want. You got a new design in second, not month.
    </col>
    <col>
-<icon name="bs:inboxes-fill" color="#7611F7" spacing="my-5" width="2.75rem"/>
+<icon name="bs:inboxes-fill" color="#7611F7" spacing="my-3" width="2.75rem"/>
 
 <text h5>100+ Components</text>
 
 Nicely customized components that can be reused anytime and anywhere in your project.
    </col>
+   <col>
+<icon name="puzzle" color="#7611F7" spacing="my-3" width="2.75rem"/>
+
+<text h5>Everything is modular</text>
+
+All components can be reused and composed to create 
+the design of your dream
+</col>
+</row>
+
+<row>
+   <col>
+<icon name="asterisk" color="#7611F7" spacing="my-3" width="2.75rem"/>
+
+<text h5>Icons included</text>
+
+More than 1500 icons to your fingertip to add more intuitive and playful touch to your website.
+   </col>
+   <col>
+<icon name="bs:card-image" color="#7611F7" spacing="my-3" width="2.75rem"/>
+
+<text h5>SVG illustrations</text>
+
+Incorporate vivid illustrations to emphase and make your message stronger
+   </col>
+
 </row>
    
 </container>

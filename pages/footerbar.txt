@@ -1,8 +1,17 @@
 
 <footer spacing="p-3" background-color="gradient-light">
-<container width="800px" align="center">
+<container >
 	<row>
-		<col>
+<col spacing="ms-md-3">
+<text h4 color="#075EBB"><icon name="logo.svg"/ spacing="mr-1"/>ComboStrap</text>
+<text lead>The leading web markup platform</text> 
+
+<text width="350px">Create landing pages, write articles, how-to's, documentations or build your knowledge base
+with the power of the web.</text>
+</col>
+<col>
+    <row>
+         <col>
 **Product** \\
 [[combostrap|ComboStrap]] \\
 [[release:release|Release (Changes)]] \\
@@ -15,6 +24,8 @@
 [[:about_us|About Us]] \\
 [[:security|Security]] \\
 		</col>
-	</row>
+    </row>
+</col>
+</row>
 </container>
 </footer>

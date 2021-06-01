@@ -20,7 +20,7 @@ ComboStrap
 </dropdown>
 [[support|Contact]]
 </group>
-<btn elevation="true">[[getting_started:getting_started|Get Started]]</btn>
+<btn elevation="true">[[getting_started:getting_started|Get Started <icon name="arrow-right-drop-circle-outline" width="1.5rem"/>]]</btn>
 <search/>
 </collapse>
 </navbar>
