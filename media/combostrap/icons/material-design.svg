@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><defs/>
+<path d="M24 48c13.255 0 24-10.745 24-24S37.255 0 24 0 0 10.745 0 24s10.745 24 24 24z" class="material__region-1"/>
+<path fill="#b195ed" d="M40.75 7.25H7.25v33.5h33.5V7.25z" class="material__region-2"/>
+<path fill="#FFF" d="M40.75 7.25L24 40.75 7.25 7.25h33.5z" class="material__region-3"/>
+</svg>

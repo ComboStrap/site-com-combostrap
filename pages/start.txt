@@ -12,11 +12,11 @@
     <background opacity="0.4">{{ :combostrap:background:object-multicolor.svg |}}</background>
     <container>
         <row>
-            <col>
-<title 3 class="text-capitalize"> Create your footprint that lasts ForEver</title>
+            <col spacing="ps-lg-5">
+<title 3 class="text-capitalize">Create your footprint that lasts ForEver</title>
+<text h3 class="text-capitalize" boldness="light">The leading web markup publication platform</text>
 <text lead boldness="350">
-Advertise your company, your documentation or your creations with 
-a product that makes web publication \\ professional, beautiful, collaborative, unique, easy and **fun**
+Publish landing pages, articles, how-to's, documentations or build your knowledge base with the power of the web.
 </text>
             </col>
             <col vertical="center" align="center">
@@ -79,6 +79,22 @@ More than 1500 icons to your fingertip to add more intuitive and playful touch t
 <text h5>SVG illustrations</text>
 
 Incorporate vivid illustrations to emphase and make your message stronger
+   </col>
+
+   <col>
+{{:combostrap:icons:material-design.svg?type=icon&color=#7611F7&spacing=my-3&width=2.75rem}}
+
+<text h5>Material Design</text>
+
+All components follows the Material Design guidelines to bring more clarity.
+   </col>
+
+   <col>
+<icon name="twitter" color="#7611F7" spacing="my-3" width="2.75rem"/>
+
+<text h5>Social from the start</text>
+
+Advertise automatically with a a professional look your pages to social network such as  Twitter,  Facebook,  Google. 
    </col>
 
 </row>
