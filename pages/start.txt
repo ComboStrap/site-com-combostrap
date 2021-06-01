@@ -16,7 +16,7 @@
 <title 3 class="text-capitalize">Create your footprint that lasts ForEver</title>
 <text h3 class="text-capitalize" boldness="light">The leading web markup publication platform</text>
 <text lead boldness="350">
-Publish landing pages, articles, how-to's, documentations or build your knowledge base with the power of the web.
+Publish landing pages, articles, how-to's, documentations and \\ build your knowledge base with the power of the web.
 </text>
             </col>
             <col vertical="center" align="center">
