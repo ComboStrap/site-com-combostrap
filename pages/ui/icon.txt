@@ -1,3 +1,11 @@
+---json
+{
+    "canonical":"icon",
+    "title":"ComboStrap - Icon Component",
+     "description":"An icon component that makes it easy to add icon to your pages"
+}
+---
+
 ====== ComboStrap UI - Icon Component ======
 
 

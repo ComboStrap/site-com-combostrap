@@ -31,24 +31,23 @@ a product that makes website design, creation and management, \\ unique, easy an
 </slide>
 
 
+
 <slide size="lg"  background-color="light">
 <container>
+<box text-align="center"> 
+   <text h2>Really useful features</text>
+   <text lead>You get all Bootstrap components fully customized. Besides, you receive another numerous plugins out of the box and ready to use.</text>
+</box>
 <row>
-<col>
-<title 3 class="text-capitalize"> Create your footprint that lasts ForEver</title>
-<text lead boldness="350">
-Advertise yourself, your documentation or your company with 
-a product that makes website design, creation and management, \\ unique, easy and fun
-</text>
+   <col>
+<icon name="bootstrap" color="#7611F7" spacing="my-5" width="2.75rem"/>
 
-<btn elevation="true">
-[[getting_started:getting_started|Get started <icon name="arrow-right-drop-circle-outline"/>]]
-</btn>
-</col>
-<col vertical="center" align="center">
-{{ ::undraw_content_creator.svg?500&nolink |}}
-</col>
+<text h5>Latest Bootstrap</text>
+
+A responsive and mobile-first theme built with the world's most popular component library.
+   </col>
 </row>
+   
 </container>
 </slide>
 

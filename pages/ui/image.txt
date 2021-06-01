@@ -9,7 +9,7 @@
 ====== ComboStrap UI - Images ======
 
 ===== About =====
-''image'' is a [[block|block UI Component]] that permits to show [[raster|raster]] or [[svg|svg]] images from your media library in your pages 
+''image'' is a [[inline|inline component]] that permits to show [[raster|raster]] or [[svg|svg]] images from your media library in your pages.
 
 
 
@@ -27,7 +27,7 @@ All images are:
 
 ===== Supported Image Type =====
 ''ComboStrap'' supports:
-  * [[raster|raster image]]
+  * [[raster|raster image]] (jpg, png, ...)
   * and [[svg|svg image]]
 
 
@@ -38,15 +38,16 @@ ComboStrap uses:
   * extended with the [[styling:styling|styling attributes]]
 
 <code dw>
-{{[ ]path?WxH&att=value[ ]}}
+{{[ ]path?WxH&nolink&att=value[ ]}}
 </code>
 where:
   * ''path'' is:
       * for an internal image: the internal path of the dokuwiki
       * for an external image: the URL.
-  * ''W'' is the width (0 is not supported)
+  * ''W'' is the width (0 if you don't want to set it)
   * ''H'' is the height (Optional)
-  * ''[ ]'' are optional spaces that indicates the alignement of the image (left, center, right float)
+  * ''[ ]'' are optional spaces that indicates the alignement of the image (left, center, or right [[styling:float|float]])
+  * ''nolink'' will not add a link to the image itself.
   * ''att=value'' is one or more [[styling:styling|styling attributes]]
 
 
@@ -66,12 +67,21 @@ Example of an image resized to ''400px''
 </webcode>
 
 
-Resizing to a given height is not needed because the image are by default responsive and will adapt to their container. Therefore, setting an height is not supported.
-
 <note>
 Raster images are automatically resized below the screen size. For more information, see the [[raster#automatic_responsive_resizing|Raster - Automatic Resizing feature]]
 </note>
 
+==== Resize to a given height ====
+
+
+To resize to a given height, set a width to ''0'' followed by the height.
+
+Example of an image resized to ''225px'' height
+<webcode name="Default" frameborder="0">
+<code dw>
+{{:ui:stock_image_surfer_in_the_see.png?0x225|}}
+</code>
+</webcode>
 
 ==== Position ====
 
