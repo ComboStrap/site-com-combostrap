@@ -19,6 +19,8 @@
   * Improvement: The [[ui:slide|slide component]] gets responsive x margin. Using more left and right margins, the bigger the screen is.
   * Improvement: The [[ui:icon|icon component]] accepts any length unit (such as rem) and [[styling:spacing|padding]] was disabled because it makes the icon invisible.
 
+==== New Statistics ====
+You can now analyse the syntax used in your page with the [[analytics:statistics#syntax_count|syntax count]] analytics.
 ==== Grid ====
 
   * New: The ''automatic'' [[ui:grid|grid]] type. With this mode, the width of each column is automatically set and there is never an overflow on low screen size
@@ -53,6 +55,10 @@
 
 ==== Deprecated ====
   * [[release:deprecated:dynamic_grid|grid of 16 (dynamic grid)]] is deprecated from Bootstrap 5
+
+
+===== TODO =====
+  * Answer: https://forum.dokuwiki.org/d/19242-find-where-a-plugin-is-used
 ===== Bug To solved =====
 
 
