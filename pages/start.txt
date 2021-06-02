@@ -98,6 +98,17 @@ Advertise automatically with a a professional look your pages to social network 
    </col>
 
 </row>
+
+<row>
+   <col>
+<icon name="translate" color="#7611F7" spacing="my-3" width="2.75rem"/>
+
+<text h5>International with Native RTL</text>
+
+The pages support natively localization with Right-To-Left templating
+   </col>
+
+</row>
    
 </container>
 </slide>

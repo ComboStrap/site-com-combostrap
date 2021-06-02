@@ -13,3 +13,7 @@
 توضح هذه الصفحة استخدام تكوين lang لتعيين لغة الصفحة.
 
 لمعرفة المزيد ، يمكنك الذهاب إلى الصفحة [[lang]]
+
+<text lang="en">
+This paragraph was tagged with the english [[styling:lang|lang attribute]].
+</text>

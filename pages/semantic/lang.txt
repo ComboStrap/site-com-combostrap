@@ -17,8 +17,9 @@ Example:
   * ''en'' (English), 
   * ''fr'' (French)
   * ''nl'' (Dutch)
+  * ''ar'' (Arabic). (See [[#rtlright_to_left_language|Right-to-left language support]])
 
-The langue identifier is used:
+The language identifier is used:
   * in the [[locale|locale]] to localize the page.
   * in the [[strap:strap|strap template]] to set the lang and direction
 
@@ -28,9 +29,11 @@ The langue identifier is used:
 {{backlinks>.}}
 
 ===== Demo =====
-We have created a page in ''arabic'' that has a language direction from right-to-left (''rtl''). 
+We have created a page in ''arabic'' that has a language direction from [[#rtlright_to_left_language|right-to-left (''rtl'')]]
 
-See [[lang_ar]]
+See the demo page: [[lang_ar]]
+
+
 
 
 ===== Set =====
@@ -55,9 +58,7 @@ The default value is set in the [[doku>config:lang]] configuration.
 
 ==== RTL: Right to left language ====
 
-We use the [[https://getbootstrap.com/docs/5.0/getting-started/rtl/|RTL support in Bootstrap5]]. 
-
-You then need to set your [[strap:bootstrap|Bootstrap version at minimal to 5 with the bootstrap theme]]. <inote important>As ''bootswatch'' does not support RTL language, the other stylesheet does not support it.</inote>
+As ''bootswatch'' does not support yet RTL languages, you need to set your [[strap:bootstrap|Bootstrap version at minimal to 5 with the bootstrap theme]]. 
 
 Example with the version ''5.01 - bootstrap'':
 
