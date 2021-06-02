@@ -1,0 +1,44 @@
+---json
+{
+    "canonical":"lang",
+    "title":"The language attribute: How to set the language for a text",
+    "description":"The language permits to set the language at a words level and to write multi-language pages."
+}
+---
+====== ComboStrap Styling - Language Attribute ======
+
+
+===== About =====
+The ''lang'' attributes is a [[styling:styling|styling attribute]] that sets the language of a text.
+
+<note>
+If you want to set the language for:
+  * one page: use the [[semantic:lang|lang semantic attribute]] 
+  * the whole website, use the [[doku>config:lang|dokuwiki lang configuration]]
+</note>
+===== Example =====
+
+English and Arabic on the same page.
+<webcode name="Default" frameborder="0">
+<code dw>
+<text lang="en">This text is in English and goes from ''Left To Write''</text>
+<text lang="ar">بينما هذا النص عربي وينتقل من اليمين إلى اليسار</text>
+</code>
+</webcode>
+
+===== Syntax =====
+
+<code dw>
+lang="languagevalue"
+</code>
+where the language value is the two letters language. You can find it as the ''subtag'' in the [[https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry|official iana list]]
+
+You can set it in a [[ui:block|block]] as well as a [[ui:inline|inline component]].
+
+This attribute will also set the direction of the text (also known as characterOrder) to:
+  * Right to Left
+  * Or Left to Right
+
+
+
+

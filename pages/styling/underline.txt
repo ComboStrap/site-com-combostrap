@@ -5,7 +5,7 @@
     "description":"This article shows you the underline syntax"
 }
 ---
-====== ComboStrap UI - Text Underlining  ======
+====== ComboStrap Styling - Text Underlining  ======
 
 
 ===== About =====

@@ -38,11 +38,12 @@ The ''standard'' attributes are:
 
 ^ Name ^ Description ^
 | [[styling:dimension|Dimension]] | Take control of the width and height |
-| [[styling:align|Align]] | Align your component and their text as you wish |
+| [[styling:align|Align]] | Align your block component  |
 | [[styling:spacing|Spacing]] | Master your layout at the pixel-perfect details |
 | [[color|Color]] | Text, Border and Background color made easy with name and declarative gradient |
 | [[styling:shadow|Elevation]] | Add a shadow and elevate your component |
 | [[float|Float]] | Position a component to the right or left and let the content flows along its side |
+| [[lang|Lang]] | Set the language and direction of your text |
 | [[release:beta:position|Position]] | Position a component inside a container |
 | [[clickable|Clickable]] | Make a whole component such as a card clickable |
 | [[text-align|Text align]] | Align the lines inside a block |

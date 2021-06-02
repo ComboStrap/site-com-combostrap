@@ -24,6 +24,7 @@ You can now analyse the syntax used in your page with the [[analytics:statistics
 
 ==== RTL language ====
   * New: support for RTL language at the page level, through the [[semantic:lang|lang metadata of frontmatter]], we apply now the right language and direction in the [[strap:strap|strap template]]. Example: [[semantic:lang_ar]]
+  * New: [[semantic:lang|Lang attribute]] to mix languages on the same page. Demo with English and Arabic languages: [[semantic:lang_ar]]
 
 ==== Grid ====
 
