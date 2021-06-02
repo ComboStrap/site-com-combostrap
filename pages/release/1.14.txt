@@ -21,6 +21,10 @@
 
 ==== New Statistics ====
 You can now analyse the syntax used in your page with the [[analytics:statistics#syntax_count|syntax count]] analytics.
+
+==== RTL language ====
+  * New: support for RTL language at the page level, through the [[semantic:lang|lang metadata of frontmatter]], we apply now the right language and direction in the [[strap:strap|strap template]]. Example: [[semantic:lang_ar]]
+
 ==== Grid ====
 
   * New: The ''automatic'' [[ui:grid|grid]] type. With this mode, the width of each column is automatically set and there is never an overflow on low screen size
@@ -59,6 +63,7 @@ You can now analyse the syntax used in your page with the [[analytics:statistics
 
 ===== TODO =====
   * Answer: https://forum.dokuwiki.org/d/19242-find-where-a-plugin-is-used
+  * Answer: RTL/LTR https://github.com/splitbrain/dokuwiki/pull/3413
 ===== Bug To solved =====
 
 

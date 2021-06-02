@@ -21,8 +21,9 @@ as:
   * the possibility to put your own [[styling:bootstrap|Bootstrap template]]
   * the fix on automatic line break on [[styling:prism#regex_language|prism regex language]]
   * the auto head snippet (The component snippets (css, js) will not be in the head).
+  * the [[semantic:lang|right-to-left language]] at the page level
 
-The [[ui:ui|UI components]] just needs a ''Bootstrap'' template and are tested against [[strap:bootstrap#version|Bootstrap version 4]].
+The [[ui:ui|UI components]] just needs a ''Bootstrap'' template and are tested against [[strap:bootstrap#version_and_stylesheet|Bootstrap version 5 (and 4)]].
 </note>
 
 ===== Steps =====

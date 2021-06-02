@@ -18,12 +18,21 @@ Example:
   * ''fr'' (French)
   * ''nl'' (Dutch)
 
-The langue identifier is used in the [[locale|locale]] to localize the page.
+The langue identifier is used:
+  * in the [[locale|locale]] to localize the page.
+  * in the [[strap:strap|strap template]] to set the lang and direction
 
 <badge>Since [[release:release#version_112|version 1.12]]</badge>
 
 ===== Articles Related =====
 {{backlinks>.}}
+
+===== Demo =====
+We have created a page in ''arabic'' that has a language direction from right-to-left (''rtl''). 
+
+See [[lang_ar]]
+
+
 ===== Set =====
 The default value is set in the [[#config:lang]] configuration.
 
@@ -42,3 +51,15 @@ You can set a ''lang'' code in the [[frontmatter|frontmatter]] for a specific pa
 ==== config:lang ====
 
 The default value is set in the [[doku>config:lang]] configuration.
+
+
+==== RTL: Right to left language ====
+
+We use the [[https://getbootstrap.com/docs/5.0/getting-started/rtl/|RTL support in Bootstrap5]]. 
+
+You then need to set your [[strap:bootstrap|Bootstrap version at minimal to 5 with the bootstrap theme]]. <inote important>As ''bootswatch'' does not support RTL language, the other stylesheet does not support it.</inote>
+
+Example with the version ''5.01 - bootstrap'':
+
+{{:strap:bootstrapversionstylesheet.png|}}
+
