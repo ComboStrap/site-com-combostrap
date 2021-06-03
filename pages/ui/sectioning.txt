@@ -12,7 +12,10 @@ If you are interested in heading inside component to define a title, check the [
 {{backlinks>.}}
 
 ===== Syntax =====
-ComboStrap does not define an extra syntax over the DokuWiki syntax.
+
+
+
+To define an heading, you use this syntax.
 
 
 <code dw>
@@ -22,6 +25,8 @@ ComboStrap does not define an extra syntax over the DokuWiki syntax.
 === Headline Level 4 ===
 == Headline Level 5 ==
 </code>
+
+
 
 ===== Configuration =====
 
@@ -35,9 +40,7 @@ With a [[strap:fixed-top-navbar|Fixed top application bar]], the location of the
 
 More ... see [[strap:fixed-top-navbar|Fixed top application bar]].
 
-===== Support =====
-==== Atx Markdown heading ====
-[[https://spec.commonmark.org/0.29/#atx-heading|Atx Markdown heading]] are not supported because they would not be taken into account in the structure and therefore, will generate a bad [[toc|TOC]]
+
 
 
 ===== Documentation / Reference =====

@@ -18,7 +18,7 @@
 
 https://new.nvsw.nl/
 
-==== Data ====
+===== Data =====
 
   * Airtable
   * Google Sheets
@@ -50,13 +50,14 @@ https://new.nvsw.nl/
 
 
 
-==== Templates ====
+===== Website Template (not templating) =====
 
   * https://codyhouse.co/templates
   * https://mdbootstrap.com/freebies/
   * https://mdbootstrap.com/docs/standard/lab/
 
 ===== Template functionality =====
+Just ''$VAR'' 
 
   * [[https://www.dokuwiki.org/plugin:wst|Template]]
   * HTML Template: https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_templates_and_slots
@@ -76,7 +77,11 @@ https://docs.github.com/en/github/building-a-strong-community/manually-creating-
 https://github.com/giterlizzi/dokuwiki-template-bootstrap3/tree/master/.github
 
 
-====== Bad Behavior ======
+===== Git =====
+
+https://www.dokuwiki.org/plugin:gitbacked
+
+===== Bad Behavior =====
 
 
 <file>
@@ -85,7 +90,11 @@ db:oracle:999999.9:union:all:select_null:from_dual
 db:oracle:999999.9:union:all:select_null:from_dual_and_0_0
 </file>
 
-====== Namespace ======
+
+===== Internationalization / Translate =====
+[[https://github.com/michitux/dokuwiki-plugin-move/issues/145|Translation file are not moving]]
+
+===== Namespace =====
 
 
 <code json>
@@ -100,8 +109,7 @@ db:oracle:999999.9:union:all:select_null:from_dual_and_0_0
 
 
 
-===== Miscelenaous =====
-  * [[ui:note|Note]] - the last part of a note has a line due to the browser stylesheet for p and ul
+===== Miscellaneous =====
   * [[https://www.dokuwiki.org/include_hooks|include-Hooks]] (meta)
   * [[https://aerolab.github.io/midnight.js/|Midnights]] ([[https://github.com/Aerolab/midnight.js|code]]) [[strap:fixed-top-navbar|fix topbar]] with differents colors depending on the background
   * Don't redirect missing [[:strap:bar|bars]]
@@ -143,3 +151,6 @@ db:oracle:999999.9:union:all:select_null:from_dual_and_0_0
 
 ===== Pricing =====
   * https://webflow.com/pricing
+
+===== Forms =====
+  * https://www.dokuwiki.org/plugin:bureaucracy

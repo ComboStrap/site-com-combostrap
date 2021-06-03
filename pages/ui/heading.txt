@@ -1,3 +1,11 @@
+---json
+{
+    "canonical":"heading",
+    "title":"ComboStrap Heading",
+     "description":"A description for the search page result engine"
+}
+---
+
 ====== ComboStrap UI - Heading ======
 
 
