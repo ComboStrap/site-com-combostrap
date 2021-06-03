@@ -13,11 +13,14 @@
 ==== Landing Page ====
   * New [[strap:layout|page layout]]: ''landing'' in order to create landing page with section of page created with the [[ui:slide|slide component]]
 
+==== Markdown ====
+  * new: The [[ui:code|code]] component supports also the [[ui:code#markdown|markdown github code syntax]]
 ==== Miscellaneous ====
   * Improvement: The [[ui:note|note component]] got also the [[styling:userstyle#class|userstyle class]].
   * Improvement: The [[ui:link|link attribute]] can now be used with the [[styling:styling|styling attributes]]
   * Improvement: The [[ui:slide|slide component]] gets responsive x margin. Using more left and right margins, the bigger the screen is.
   * Improvement: The [[ui:icon|icon component]] accepts any length unit (such as rem) and [[styling:spacing|padding]] was disabled because it makes the icon invisible.
+
 
 ==== New Statistics ====
 You can now analyse the syntax used in your page with the [[analytics:statistics#syntax_count|syntax count]] analytics.
@@ -50,6 +53,7 @@ You can now analyse the syntax used in your page with the [[analytics:statistics
 ==== Bug Solved ====
 
   * [[ui:box|box]] does not delete paragraphs anymore (ie has become a stack component)
+  * Bug: A [[ui:link|link]] without description but with a separator was showing nothing. This is corrected and we get now the default page description.
 
 ==== Markup perfect ====
   * A [[ui:note|note]] does not have any extra bottom margin. Due to the last paragraph of a [[ui:note|note]] and the default stylesheet of the browser, the content was not centered vertically.

@@ -3,13 +3,20 @@
     "canonical":"markdown"
 }
 ---
-====== Markdown Page Extension ======
+====== Markdown Page ======
 
 ===== About =====
-This [[beta|beta]] idea is to create markdown page but actually, there is no way to change the file extension of a page.
+This [[beta|beta]] idea is to create markdown page 
 
 
-===== Manually =====
+===== Syntax =====
+Syntax supported:
+  * [[https://daringfireball.net/projects/markdown/syntax#precode|markdown code]], see [[ui:preformatted|indented code block]]
+  * [[https://github.github.com/gfm/#fenced-code-blocks|fenced code block]], see [[ui:code|code]]
+
+===== File Extension =====
+
+Actually, there is no way to change the file extension of a page.
 
 This is possible to change it at write/read but the [[https://github.com/splitbrain/dokuwiki/blob/master/inc/pageutils.php#L292|wikiFN]] function
 that makes the translation between a ID and a file does not allow it.
