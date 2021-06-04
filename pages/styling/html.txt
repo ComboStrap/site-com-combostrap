@@ -28,6 +28,11 @@ where:
       * the [[#styling|styling attributes]]
       * or the [[#html|html attributes]]
 
+<note>
+  * Boolean attributes does not need any value to set them to true
+  * If your value does not have space, this is not mandatory to enclose it between quotes
+</note>
+
 
 
 

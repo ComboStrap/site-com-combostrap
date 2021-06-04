@@ -20,6 +20,9 @@
   * Improvement: The [[ui:link|link attribute]] can now be used with the [[styling:styling|styling attributes]]
   * Improvement: The [[ui:slide|slide component]] gets responsive x margin. Using more left and right margins, the bigger the screen is.
   * Improvement: The [[ui:icon|icon component]] accepts any length unit (such as rem) and [[styling:spacing|padding]] was disabled because it makes the icon invisible.
+  * Improvement: in [[styling:html|html super set language]], this is no more needed for an attribute:
+      * to set a value if the value is true, 
+      * to enclose the value between between quotes if the value does not contain any spaces.
 
 
 ==== New Statistics ====
