@@ -12,7 +12,7 @@
 ===== About =====
 ''webcode'' is a component that permits to render the output of code such as HTML, Javascript or CSS.
 
-By enclosing [[code|code blocks]] by a ''webcode'' block, the plugin will add the result after the last ''webcode'' tag.
+By enclosing [[code|code blocks]] by a ''webcode'' block, the plugin will add the result at the end (after the last ''webcode'' tag).
 
 
 <badge>Integrated since [[release:release#version_112|version 1.12]]</badge>
@@ -89,7 +89,7 @@ The allowed webcode attributes are:
       * name. It will be added as a suffix
       * frameborder (default to 0)
       * width (default to 100%)
-      * height
+      * height (<inote>The height is automatically adjusted if not set</inote>)
       * scrolling
    * ''externalResources'': a comma separated list of external resources. (Ie an URL of a Css or Js file, generally a CDN)
    * ''renderingMode'': 
@@ -130,7 +130,7 @@ where:
 === Babel ===
 
 
-When a code block use [Babel](https://babeljs.io/) as language, the plugin will add the 
+When a code block use [[https://babeljs.io/|Babel]] as language, the plugin will add the 
 [[https://unpkg.com/babel-standalone@6/babel.min.js|babel.min.js]] version 6 to the external resources.
 
 You cannot have a Babel and a Javascript Block.
