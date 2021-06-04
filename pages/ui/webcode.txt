@@ -25,20 +25,20 @@ By enclosing [[code|code blocks]] by a ''webcode'' block, the plugin will add th
   * This example will output: One emoji [[unicode>1F600|Smiley (1F600)]] in a webcode
 <file html>
 <webcode>
-  * This is the HTML
+This is the HTML
 <code html>
 <span style="font-size:30pt">&#x1F600;</span>
 </code>
-  * Output:
+Output:
 </webcode>
 </file>
   * Result
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
-  * This is the HTML
+This is the HTML
 <code html>
 <span style="font-size:30pt">&#x1F600;</span>
 </code>
-  * Output:
+Output:
 </webcode>
 
 Others example can be found at github:
