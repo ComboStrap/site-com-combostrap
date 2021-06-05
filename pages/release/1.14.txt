@@ -23,6 +23,7 @@
   * Improvement: in [[styling:html|html super set language]], this is no more needed for an attribute:
       * to set a value if the value is true, 
       * to enclose the value between between quotes if the value does not contain any spaces.
+  * Modification Strap Css: The links are not anymore without underlined as specified in the [[https://github.com/splitbrain/dokuwiki/blob/stable/lib/tpl/dokuwiki/css/basic.less#L200|default dokuwiki template]]. This is just not the default of Bootstrap as seen in the [[https://github.com/twbs/bootstrap/blob/main/scss/_variables.scss#L289|default of the reboot stylesheet]].
 
 
 ==== New Statistics ====
@@ -51,6 +52,7 @@ You can now analyse the syntax used in your page with the [[analytics:statistics
   * New [[:styling:color#reset|color value ''reset'']]: the reset color permits to takes the color of its parent.
   * New: the underline effect can be set with the [[styling:underline|underline attribute]]
   * New: an internal link can be [[ui:link#styling|styled]]
+  * <itext color=danger>New !</itext>: added the text specialized colors for the [[ui:text#color|text]] and [[ui:itext#color|itext]] component.
 
 
 ==== Bug Solved ====

@@ -31,6 +31,11 @@ where:
       * ''h1 to h6'': when you want to match the font styling of a [[heading|heading]]. <inote>If you want to set a title for a component, use the [[title|title component]] instead</inote>
       * ''custom class'' that you have created in the [[styling:userstyle|userstyle stylesheet]].
   * [[#line-spacing]] sets the space between the lines of a paragraph.
+  * [[styling:text-color|color]] can take all [[styling:color|color values]] and the [[#color|specific text colors]]:
+      * ''body'': the color of the body
+      * ''muted'' : light gray
+      * ''black-50'' : 50 black
+      * ''white-50'' : 50 white
   * or any [[styling:typo|typographic attributes]] (font size, font weight, ...)
 
 
@@ -119,3 +124,18 @@ Text alignment can also be **screen conditional**.
 
 For all information about this attribute, see the dedicated page: [[styling:text-align]]
 </note>
+
+==== Color ====
+
+This example shows the color values specific to the ''text'' and [[itext|itext]] component
+
+<webcode name="Default" frameborder="0">
+<code dw>
+<box width="fit" spacing="p-3">
+    <text color="body">Text with the body color.</text>
+    <text color="muted">Text with the muted color.</text>
+    <text color="black-50">Text with the black-50 color.</text>
+    <text color="white-50" background-color="black">Text with the white-50 color.</text>
+</box>
+</code>
+</webcode>
