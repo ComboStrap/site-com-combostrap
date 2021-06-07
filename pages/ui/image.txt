@@ -60,7 +60,7 @@ where:
 To resize to a given width, add a number.
 
 Example of an image resized to ''400px''
-<webcode name="Default" frameborder="0">
+<webcode>
 <code dw>
 {{:ui:stock_image_surfer_in_the_see.png?400|}}
 </code>
