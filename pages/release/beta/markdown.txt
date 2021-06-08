@@ -14,7 +14,8 @@ This [[beta|beta]] idea is to create markdown page
 Syntax supported:
   * [[https://daringfireball.net/projects/markdown/syntax#precode|markdown code]], see [[ui:preformatted|indented code block]]
   * [[https://github.github.com/gfm/#fenced-code-blocks|fenced code block]], see [[ui:code|code]]
-==== atx ====
+
+## atx
 
 
 ComboStrap supports the [[https://github.github.com/gfm/#atx-headings|atx]] headings. They are not yet [[ui:sectioning|sectioning heading]]
