@@ -1,0 +1,114 @@
+---json
+{
+    "canonical":"outline",
+    "title":"Outline (Heading Hiearchy)",
+     "description":"Configuration and usage of the outline in Combostrap"
+}
+---
+
+====== ComboStrap UI - Outline (Headings Hierarchy) ======
+
+
+===== About =====
+''Sectioning heading'' are [[heading|headings]] that cuts the page into different hierarchical sections and creates an outline.
+
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Features =====
+
+==== Numbering ====
+
+You can enable and define a numbering for your outline heading.
+
+You can choose:
+  * a counter style for each level (default to ''decimal'')
+  * a counter separator (default to ''.'')
+  * a outline numbering prefix (default to blank)
+  * a outline numbering suffix (default to '' - '')
+
+For instance, with:
+  * the decimal counter style for all level
+  * the default counter separator (''.'')
+  * the prefix ''(''
+  * the suffix '') '',
+you would get the following outline numbering sequence:
+<file>
+(1)
+(1.1)
+(1.1.1)
+...
+</file>
+
+
+=== Counter Style ===
+
+Below, you can find all supported counter style.
+
+^ Counter Style ^ Description ^
+| decimal | Western decimal numbers (e.g., 1, 2, 3, ..., 98, 99, 100). | 
+| decimal-leading-zero | Decimal numbers padded by initial zeros (e.g., 01, 02, 03, ..., 98, 99, 100). | 
+| arabic-indic | Arabic-indic numbering (e.g., ١‎, ٢‎, ٣‎, ٤‎, ..., ٩٨‎, ٩٩‎, ١٠٠‎). | 
+| upper-armenian | Traditional uppercase Armenian numbering (e.g., Ա, Բ, Գ, ..., ՂԸ, ՂԹ, Ճ). | 
+| lower-armenian | Lowercase Armenian numbering (e.g., ա, բ, գ, ..., ղը, ղթ, ճ). | 
+| bengali | Bengali numbering (e.g., ১, ২, ৩, ..., ৯৮, ৯৯, ১০০). |  
+| cambodian/khmer | Cambodian/Khmer numbering (e.g., ១, ២, ៣, ..., ៩៨, ៩៩, ១០០). | 
+| cjk-decimal | Han decimal numbers (e.g., 一, 二, 三, ..., 九八, 九九, 一〇〇). | 
+| devanagari | devanagari numbering (e.g., १, २, ३, ..., ९८, ९९, १००). |
+| georgian | Traditional Georgian numbering (e.g., ა, ბ, გ, ..., ჟჱ, ჟთ, რ). |
+| gujarati | Gujarati numbering (e.g., ૧, ૨, ૩, ..., ૯૮, ૯૯, ૧૦૦).  | 
+| gurmukhi | Gurmukhi numbering (e.g., ੧, ੨, ੩, ..., ੯੮, ੯੯, ੧੦੦). |  
+| hebrew | Traditional Hebrew numbering (e.g., א‎, ב‎, ג‎, ..., צח‎, צט‎, ק‎). | 
+| kannada | Kannada numbering (e.g., ೧, ೨, ೩, ..., ೯೮, ೯೯, ೧೦೦). |
+| lao | Laotian numbering (e.g., ໑, ໒, ໓, ..., ໙໘, ໙໙, ໑໐໐). |
+| malayalam | Malayalam numbering (e.g., ൧, ൨, ൩, ..., ൯൮, ൯൯, ൧൦൦). | 
+| mongolian | Mongolian numbering (e.g., ᠑, ᠒, ᠓, ..., ᠙᠘, ᠙᠙, ᠑᠐᠐). | 
+| myanmar | Myanmar (Burmese) numbering (e.g., ၁, ၂, ၃, ..., ၉၈, ၉၉, ၁၀၀). |
+| oriya | Oriya numbering (e.g., ୧, ୨, ୩, ..., ୯୮, ୯୯, ୧୦୦). |
+| persian | Persian numbering (e.g., ۱, ۲, ۳, ۴, ..., ۹۸, ۹۹, ۱۰۰). |
+| lower-roman | Lowercase ASCII Roman numerals (e.g., i, ii, iii, ..., xcviii, xcix, c). |
+| upper-roman | Uppercase ASCII Roman numerals (e.g., I, II, III, ..., XCVIII, XCIX, C). |
+| tamil | Tamil numbering (e.g., ௧, ௨, ௩, ..., ௯௮, ௯௯, ௧௦௦).  |
+| telugu | Telugu numbering (e.g., ౧, ౨, ౩, ..., ౯౮, ౯౯, ౧౦౦). |
+| thai | Thai (Siamese) numbering (e.g., ๑, ๒, ๓, ..., ๙๘, ๙๙, ๑๐๐). | 
+| tibetan | Tibetan numbering (e.g., ༡, ༢, ༣, ..., ༩༨, ༩༩, ༡༠༠). | 
+| lower-alpha / lower-latin | Lowercase ASCII letters (e.g., a, b, c, ..., z, aa, ab). |
+| upper-alpha / upper-latin | Uppercase ASCII letters (e.g., A, B, C, ..., Z, AA, AB). |
+| lower-greek | Lowercase classical Greek (e.g., α, β, γ, ..., ω, αα, αβ). | 
+| hiragana | Dictionary-order hiragana lettering (e.g., あ, い, う, ..., ん, ああ, あい). |
+| hiragana-iroha | Iroha-order hiragana lettering (e.g., い, ろ, は, ..., す, いい, いろ). |
+| katakana | Dictionary-order katakana lettering (e.g., ア, イ, ウ, ..., ン, アア, アイ). |
+| katakana-iroha | Iroha-order katakana lettering (e.g., イ, ロ, ハ, ..., ス, イイ, イロ) |
+
+
+
+==== Anchor ====
+All outline headings supports an anchor that you can see when you hover over them.
+
+==== Fixed top bar Adjustment ====
+With a [[strap:fixed-top-navbar|Fixed top application bar]], the location of the headings are automatically adjusted to redefine the top position of the page to be below the top bar.
+
+More ... see [[strap:fixed-top-navbar|Fixed top application bar]].
+
+
+
+
+
+
+===== Configuration =====
+
+==== Outline Numbering ====
+
+^ [[:configuration|Configuration]] ^ Description ^ Default ^
+| ''outlineNumberingCounterStyleLevel2'' | Level 2 [[#counter style]] | ''decimal'' |
+| ''outlineNumberingCounterStyleLevel3'' | Level 3 [[#counter style]] | ''decimal'' |
+| ''outlineNumberingCounterStyleLevel4'' | Level 4 [[#counter style]] | ''decimal'' |
+| ''outlineNumberingCounterStyleLevel5'' | Level 5 [[#counter style]] | ''decimal'' |
+| ''outlineNumberingCounterStyleLevel6'' | Level 6 [[#counter style]] | ''decimal'' |
+| ''outlineNumberingCounterSeparator'' | The separator between counters | ''.'' |
+| ''outlineNumberingPrefix'' | The prefix (before the outline number counter sequence) | '''' |
+| ''outlineNumberingSuffix'' | The suffix (after the outline number counter sequence) | '' - '' |
+
+
+

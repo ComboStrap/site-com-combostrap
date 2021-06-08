@@ -16,12 +16,11 @@ The ''combo renderer'' is the component that renders each page.
 ===== Features =====
 
 
-  * Add Numbering to the [[sectioning|headings]]
   * Add below the first heading:
       * a [[toc|TOC]] 
       * a [[hierarchical_breadcrumb|hierarchical breadcrumb]]
   * Make the [[table|tables responsive]].
-  * Overwrite the monospace syntax to an highlight.
+  * Overwrite the monospace syntax to an [[ui:highlight|highlight]].
   * Enable [[ads:ads|ads inside the content]]
 
 

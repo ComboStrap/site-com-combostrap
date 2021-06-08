@@ -23,5 +23,15 @@ This is important to not mixed the two, this is why we have two different articl
 {{backlinks>.}}
 
 
-===== Anchor =====
-All outline headings supports an anchor that you can see when you hover over them.
+
+===== Syntax =====
+To define an heading, you use this syntax.
+
+
+<code dw>
+====== Headline Level 1 ======
+===== Headline Level 2 =====
+==== Headline Level 3 ====
+=== Headline Level 4 ===
+== Headline Level 5 ==
+</code>

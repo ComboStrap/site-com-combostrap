@@ -27,6 +27,10 @@ This text is not highlighted while ''this one is''.
   * Output:
 </webcode>
 
+===== Configuration =====
+==== Enable / Disable ====
+
+To enable the highlight feature, you should choose the [[ui:renderer|Combo renderer]]
 
 ===== Support =====
 
