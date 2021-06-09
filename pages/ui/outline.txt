@@ -12,7 +12,9 @@
 ===== About =====
 ''Sectioning heading'' are [[heading|headings]] that cuts the page into different hierarchical sections and creates an outline.
 
-
+<note>
+The outline is used to create the [[ui:toc|TOC]]
+</note>
 ===== Articles Related =====
 {{backlinks>.}}
 

@@ -1,0 +1,30 @@
+---json
+{
+    "canonical":"markdown",
+    "title":"Markdown syntax support in ComboStrap",
+    "description":"This page lists all markdown syntax support in ComboStrap "
+}
+---
+====== ComboStrap - Markdown  ======
+
+===== About =====
+''ComboStrap'' supports ''markdown''.
+
+===== Syntax =====
+
+
+
+
+Syntax supported:
+  * [[https://daringfireball.net/projects/markdown/syntax#precode|markdown code]], see [[ui:preformatted|indented code block]]
+  * [[https://github.github.com/gfm/#fenced-code-blocks|fenced code block]], see [[ui:code|code]]
+
+
+===== Support =====
+
+
+Because the markdown syntax was never fully specified, there is a lot of different flavor. We follow in order the following specification:
+  * https://daringfireball.net/projects/markdown/syntax
+  * https://github.github.com/gfm
+  * https://spec.commonmark.org/
+

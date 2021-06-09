@@ -1,51 +1,16 @@
 ---json
 {
-    "canonical":"markdown"
+    "canonical":"beta:markdown"
 }
 ---
 ====== Markdown Page ======
 
 ===== About =====
-This [[beta|beta]] idea is to create markdown page 
+This [[beta|beta]] idea is to create more [[ui:markdown|markdown capabilities]]
 
 
-===== Syntax =====
-
-Syntax supported:
-  * [[https://daringfireball.net/projects/markdown/syntax#precode|markdown code]], see [[ui:preformatted|indented code block]]
-  * [[https://github.github.com/gfm/#fenced-code-blocks|fenced code block]], see [[ui:code|code]]
-
-## atx
 
 
-ComboStrap supports the [[https://github.github.com/gfm/#atx-headings|atx]] headings. They are not yet [[ui:sectioning|sectioning heading]]
-
-They start with 1 or more hashtag ''%%#%%'' characters. 
-  * The level 1 heading (the title) starts with #, 
-  * section headings with ##, 
-  * subheads with ###, 
-  * and so on.
-
-This is:
-  * the best syntax for writing because you just need to adds up the number of hashtag to get the wanted heading level.
-  * the worst syntax visually because a lower level will have more emphasis than an higher
-
-<webcode name="Default" frameborder="0" iframe>
-<code marki>
-# Headline Level 1 <icon name="bs:card-heading"/>
-## Headline Level 2 <icon name="bs:card-heading"/>
-### Headline Level 3
-#### Headline Level 4 
-##### Headline Level 5 
-###### Headline Level 6
-</code>
-</webcode>
-
-
-===== Specification =====
-
-  * https://spec.commonmark.org/
-  * https://github.github.com/gfm
 
 ===== File Extension =====
 

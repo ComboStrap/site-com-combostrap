@@ -15,7 +15,7 @@
   * the second one is ''semantic'' and defines the title of a component.
 
 This is important to not mixed the two, this is why we have two different articles. See:
-  * the [[sectioning|sectioning page]] for structural heading
+  * the [[outline|sectioning page]] for structural heading
   * the [[title|title page]] for semantic heading.
 
 
@@ -25,8 +25,9 @@ This is important to not mixed the two, this is why we have two different articl
 
 
 ===== Syntax =====
-To define an heading, you use this syntax.
+To define an heading, you can use the following ''heading'' syntax.
 
+==== Wiki ====
 
 <code dw>
 ====== Headline Level 1 ======
@@ -35,3 +36,68 @@ To define an heading, you use this syntax.
 === Headline Level 4 ===
 == Headline Level 5 ==
 </code>
+
+### Markdown 
+
+
+The markdown atx heading start with 1 or more hashtag ''%%#%%'' characters. 
+  * The level 1 heading (the title) starts with #, 
+  * section headings with ##, 
+  * subheads with ###, 
+  * and so on.
+
+This is:
+  * the best syntax for writing because you just need to adds up the number of hashtag to get the wanted heading level.
+  * the worst syntax visually because a lower level will have more emphasis than an higher
+
+<webcode name="Default" frameborder="0" iframe>
+<code marki>
+# Headline Level 1 <icon name="bs:card-heading"/>
+## Headline Level 2 <icon name="bs:card-heading"/>
+### Headline Level 3
+#### Headline Level 4 
+##### Headline Level 5 
+###### Headline Level 6
+</code>
+</webcode>
+
+==== HTML Super Set ====
+
+''heading'' is a [[styling:html|Super set HTML component]] and therefore, you can then apply all [[styling:styling|styling attributes]].
+
+<code dw>
+<heading type>
+Heading
+</heading >
+</code>
+where:
+  * [[styling:type|type]] is:
+      * ''h1'' to ''h6'' for HTML heading styling
+      * ''d1'' to ''d4'' for bigger heading display (used mostly in landing page)
+  * ''level'' is the heading level (ie 1 to 6, default to the number in the type)
+
+
+Example:
+  * HTML Heading
+<webcode name="Type" >
+<code dw>
+<heading h1>Heading 1</heading>
+<heading h2>Heading 2</heading>
+<heading h3>Heading 3</heading>
+<heading h4>Heading 4</heading>
+<heading h5>Heading 5</heading>
+<heading h6>Heading 5</heading>
+</code>
+</webcode>
+
+  * Display Heading
+<webcode name="Type" >
+<code dw>
+<heading d1>Heading 1</heading>
+<heading d2>Heading 2</heading>
+<heading d3>Heading 3</heading>
+<heading d4>Heading 4</heading>
+</code>
+</webcode>
+
+
