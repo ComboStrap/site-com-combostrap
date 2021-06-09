@@ -27,6 +27,7 @@
   * New: [[ui:webcode|webcode]] shows the example code in a iframe. The markup code does not conflict with the code of the page. This was needed for the heading.
   * Bug: When the content of a rendered [[ui:webcode|webcode]] is less than the default html element height of 150, the padding of the first descendant phrasing element would end up in the margin of the iframe html element. 
   * New: [[ui:outline#numbering|Outline Numbering]] is now fully customizable from decimal to latin-upper. Due to this change, the anchor are now located to the right.
+  * Improvement: The icon attached to the configuration is no more downloaded but included to the page and cached leading to a big performance gain.
 
 
 ==== New Statistics ====

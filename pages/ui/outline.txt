@@ -98,7 +98,14 @@ More ... see [[strap:fixed-top-navbar|Fixed top application bar]].
 
 ===== Configuration =====
 
-==== Outline Numbering ====
+
+==== Numbering Enable ====
+
+The ''outlineNumberingEnable'' [[:configuration|configuration]] permits to enable or disable outline numbering.
+
+==== Numbering Styling ====
+
+The below configuration permits to style the numbering as you wish.
 
 ^ [[:configuration|Configuration]] ^ Description ^ Default ^
 | ''outlineNumberingCounterStyleLevel2'' | Level 2 [[#counter style]] | ''decimal'' |
