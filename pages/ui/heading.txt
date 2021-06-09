@@ -16,7 +16,7 @@
 
 This is important to not mixed the two, this is why we have two different articles. See:
   * the [[outline|sectioning page]] for structural heading
-  * the [[title|title page]] for semantic heading.
+  * the [[release:deprecated:title|title page]] for semantic heading.
 
 
 ===== Articles Related =====

@@ -8,16 +8,16 @@
 ====== ComboStrap - Markdown  ======
 
 ===== About =====
-''ComboStrap'' supports ''markdown''.
-
-===== Syntax =====
+''ComboStrap'' supports the following ''markdown'' syntax.
 
 
 
 
-Syntax supported:
-  * [[https://daringfireball.net/projects/markdown/syntax#precode|markdown code]], see [[ui:preformatted|indented code block]]
-  * [[https://github.github.com/gfm/#fenced-code-blocks|fenced code block]], see [[ui:code|code]]
+
+^ Syntax ^ Combo Component ^
+| [[https://daringfireball.net/projects/markdown/syntax#precode|markdown code]] | [[ui:preformatted|indented code block]] |
+| [[https://github.github.com/gfm/#fenced-code-blocks|fenced code block]] | [[ui:code|code]] |
+| [[https://github.github.com/gfm/#atx-headings|Atx Heading]] | [[ui:heading#markdown|Atx heading]] |
 
 
 ===== Support =====
