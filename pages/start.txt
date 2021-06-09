@@ -128,7 +128,7 @@ The pages support natively localization with Right-To-Left templating
   * [[ui:navigation|navigational components]]
   * and more ...
 
-<btn secondary class="mt-3">
+<btn secondary>
 [[ui:ui|Check the UI components]]
 </btn>
 </card>
@@ -255,6 +255,7 @@ by page, the number of intra-links and more.
 
 Analytics is also the cornerstone of our quality module in order
 to made wise decision.
+
 <btn secondary>
 [[analytics:analytics|Check the Analytics Module <icon name="chart-box-outline"/>]]
 </btn>
