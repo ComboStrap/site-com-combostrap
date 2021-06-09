@@ -37,7 +37,8 @@ Publish landing pages, articles, how-to's, documentations and \\ build your know
 
 <row>
    <col>
-<icon name="bootstrap" color="#7611F7" spacing="my-3" width="2.75rem"/>
+   
+<icon name="bootstrap5" color="#7611F7" spacing="my-3" width="2.75rem"/>
 <text h5>Latest Bootstrap</text>
 
 A responsive and mobile-first theme built with the world's most popular component library.
