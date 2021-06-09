@@ -1,7 +1,7 @@
 ---json
 {
     "canonical":"outline",
-    "title":"Outline (Heading Hiearchy)",
+    "title":"Outline (Heading Hierarchy)",
      "description":"Configuration and usage of the outline in Combostrap"
 }
 ---

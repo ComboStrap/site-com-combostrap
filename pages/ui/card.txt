@@ -10,7 +10,7 @@
 
 ===== About =====
 A ''card'' is a box with the dimension of a card that contains summary data such as:
-  * a [[title|title]]
+  * a [[release:deprecated:title|title]]
   * a short description
   * an optional image illustration
   * [[icon|icons]]

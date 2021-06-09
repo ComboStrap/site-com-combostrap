@@ -45,7 +45,7 @@ You can also [[ui:image#align|align an image by passing the align parameter]]
 
 ==== Text ====
 
-To align the text in a [[ui:block|block component]], you can use the [[styling:align-text|text-align attribute]].
+To align the text in a [[ui:block|block component]], you can use the [[styling:text-align|text-align attribute]].
 
 
 Example:
