@@ -133,7 +133,7 @@ Create permalink and even publish your company location.
 <icon name="bs:card-heading" color="#7611F7" spacing="my-3" width="2.75rem"/>
 <text h5>Ad System Ready</text>
 Monetize your content and place ads
-between reading section to balance between reading experience
+between reading section to balance between user experience
 and increase traffic.
 </col>
 
@@ -156,7 +156,7 @@ file history.
 <icon name="bs:markdown-fill" color="#7611F7" spacing="my-3" width="2.75rem"/>
 <text h5>Markup Complete</text>
 No Code. \\
-Just declare what you want in markdown or wiki form
+Just declare what you want in markdown or wiki format
 and watch the magic happen.
 </cell>
 
