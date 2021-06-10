@@ -152,8 +152,27 @@ Easy backup with plaintext files and
 file history.
 </col>
 
+<cell>
+<icon name="bs:markdown-fill" color="#7611F7" spacing="my-3" width="2.75rem"/>
+<text h5>Markup Complete</text>
+No Code. \\
+Just declare what you want in markdown or wiki form
+and watch the magic happen.
+</cell>
+
 </row>
    
+</container>
+</slide>
+
+<slide size="lg" height="60vh" vertical="center">
+<background>{{:woman-yoga-sunset.jpg|}}</background>
+<container>
+   <box text-align="center" color="white" class="col">
+       <text h1>Ready for the journey?</text>
+       <text lead>Create your own experience</text>
+       [[:getting_started:getting_started|<icon name="bs:play-circle-fill" color="white" width="36px"/>]]
+   </box>
 </container>
 </slide>
 

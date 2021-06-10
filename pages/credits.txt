@@ -9,11 +9,9 @@
 ====== ComboStrap - Credits ======
 
 
-
-
 <row>
 <col vertical="center" text-align="center">
-[[combostrap|Combostrap]] is built on the shoulder of amazing piece of software. This page gives them credits.
+[[combostrap|Combostrap]] is built on the shoulder of amazing piece of software and illustrations. This page gives them credits.
 </col>
 <col>
 {{::undraw_create.svg|}}
@@ -22,7 +20,7 @@
 
 
 
-^ Software / Library ^ Usage ^
+^ Software / Library / Image ^ Usage ^
 | [[https://dokuwiki.org|Dokuwiki]] | This is the wiki engine that powers the creation and parsing of the page |
 | [[https://bootstrap.com|Bootstrap]] | This is the styling platform where you can choose from several [[styling:stylesheet|theme]] or create your [[styling:stylesheet|own]] |
 | [[https://bootswatch.com/|Bootswatch]] | The pre-created [[styling:stylesheet|Bootstrap themes]] |
@@ -34,3 +32,5 @@
 | [[https://animate.style/|Animate]] | The CSS animation library applied to component when they [[release:beta:onvisible|become visible]] |
 | [[https://www.php.net/|Php]] | The backend language |
 | [[https://html.spec.whatwg.org/|HTML]] and [[https://en.wikipedia.org/wiki/JavaScript|Javascript]] | The frontend languages |
+| Home Page Photo | Women doing Yoga by [[https://unsplash.com/photos/F2qh3yjz6Jk|kikekiks]] |
+  
