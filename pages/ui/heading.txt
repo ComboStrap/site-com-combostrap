@@ -10,13 +10,12 @@
 
 
 ===== About =====
-''headings'' has two different function:
-  * the first one is ''structural'' and generates the structure (section) of the document. The table of content (TOC) is created from this structure.
+An ''heading'' has two different function:
+  * the first one is ''structural'' and generates the [[outline|outline (structure of the document]]. The table of content (TOC) is created from this structure.
   * the second one is ''semantic'' and defines the title of a component.
 
-This is important to not mixed the two, this is why we have two different articles. See:
-  * the [[outline|sectioning page]] for structural heading
-  * the [[release:deprecated:title|title page]] for semantic heading.
+
+The rule is simple, when a heading is not in a component, it's a [[outline|structural heading]], otherwise, it's a title component.
 
 
 ===== Articles Related =====
@@ -28,14 +27,28 @@ This is important to not mixed the two, this is why we have two different articl
 To define an heading, you can use the following ''heading'' syntax.
 
 ==== Wiki ====
+The wiki heading start with 6 hashtag ''%%#%%'' characters for the level 1 ([[semantic:h1|h1]]) and goes down by one.
 
+The higher the level, the higher the visual emphasis.
+
+
+
+<webcode name="Default" iframe>
 <code dw>
-====== Headline Level 1 ======
+====== Headline Level 1 <icon name="bs:card-heading"/> ======
 ===== Headline Level 2 =====
 ==== Headline Level 3 ====
 === Headline Level 4 ===
 == Headline Level 5 ==
 </code>
+</webcode>
+
+To facilitate the writing, you can use the following keyboard shortcuts:
+  * select the heading text
+  * and type:
+      * ''alt+8'' for the same level than the previous heading
+      * ''alt+9'' for a level lower than the previous heading
+      * ''alt+0'' for a level higher than the previous heading
 
 ### Markdown 
 
@@ -79,7 +92,7 @@ where:
 
 Example:
   * HTML Heading
-<webcode name="Type" >
+<webcode name="Type" iframe>
 <code dw>
 <heading h1>Heading 1</heading>
 <heading h2>Heading 2</heading>
@@ -91,7 +104,7 @@ Example:
 </webcode>
 
   * Display Heading
-<webcode name="Type" >
+<webcode name="Type" iframe>
 <code dw>
 <heading d1>Heading 1</heading>
 <heading d2>Heading 2</heading>
