@@ -4,7 +4,7 @@
 }
 ---
 
-====== ComboStrap - Page Metadata (Semantic) ======
+====== ComboStrap - Page Metadata (Semantic) <icon name="semantic-web"/> ======
 
 
 ===== About =====
@@ -39,4 +39,5 @@ They allows internally:
 They allows:
    * <icon name="twitter"/> [[twitter|Twitter card]]
    * <icon name="facebook"/> [[facebook|Facebook card]]
-   * <icon name="google"/> [[google|Google Rich Result (Organization, Search bar and article card)]]
+   * <icon name="google"/> [[google|Google Rich Result (Organization, Search bar and article card)
+]]
