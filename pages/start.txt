@@ -77,7 +77,7 @@ More than 1500 icons to your fingertip to add more intuitive and playful touch t
    <col>
 <icon name="bs:card-image" color="#7611F7" spacing="my-3" width="2.75rem"/>
 
-<text h5>SVG illustrations</text>
+<text h5>Illustrations</text>
 
 Incorporate vivid illustrations to emphase and make your message stronger
    </col>
@@ -104,10 +104,57 @@ Advertise automatically with a a professional look your pages to social network 
    <col>
 <icon name="translate" color="#7611F7" spacing="my-3" width="2.75rem"/>
 
-<text h5>International with Native RTL</text>
+<text h5>International</text>
 
-The pages support natively localization with Right-To-Left templating
+The pages support natively language and templating localization. You are Right-To-Left language ready from the start.
    </col>
+
+   <col>
+<icon name="bs:geo-alt-fill" color="#7611F7" spacing="my-3" width="2.75rem"/>
+
+<text h5>SEO ready</text>
+
+Be visible from the start. \\ Increase your Domain Authority (DA)
+with the SEO module.
+
+</col>
+
+<col>
+<icon name="seal" color="#7611F7" spacing="my-3" width="2.75rem"/>
+<text h5>Page Quality</text>
+Get a feedback on the quality of your pages and 
+even block them from publishing if they don't reach your standard
+</col>
+
+<col>
+<icon name="semantic-web" color="#7611F7" spacing="my-3" width="2.75rem"/>
+<text h5>Semantic Web</text>
+Control the rendering of your pages on external website. \\
+Create permalink and advertise your company.
+</col>
+
+<col>
+<icon name="bs:card-heading" color="#7611F7" spacing="my-3" width="2.75rem"/>
+<text h5>Ad System Ready</text>
+Monetize your content and place ads
+between reading section to balance between reading experience
+and increase traffic.
+</col>
+
+<col>
+<icon name="bs:bar-chart-fill" color="#7611F7" spacing="my-3" width="2.75rem"/>
+<text h5>Page Analytics Powered</text>
+Answer all your questions and get great insight on your pages.
+(Words count, intra-links, ..)
+</col>
+
+<col>
+<icon name="bs:shield-shaded" color="#7611F7" spacing="my-3" width="2.75rem"/>
+<text h5>Security by design</text>
+No database, no Sql injection. \\
+Easy backup with plaintext files and
+file history.
+</col>
 
 </row>
    
@@ -116,163 +163,3 @@ The pages support natively localization with Right-To-Left templating
 
 
 
-<slide size="sm">
-<container>
-<card-columns class="mb-3">
-
-<card>
-==== Large base of UI Components ====
-''ComboStrap'' have a large [[ui:ui|UI components library]]. 
-  * A large library of [[ui:icon|icons]], 
-  * This kind of [[ui:card|cards]]
-  * [[ui:navigation|navigational components]]
-  * and more ...
-
-<btn secondary>
-[[ui:ui|Check the UI components]]
-</btn>
-</card>
-
-<card>
-==== Bootstrap 5 and Google Material Design Included ====
-''ComboStrap'' implements the last
-version of [[strap:bootstrap|Bootstrap]] and 
-exposes all its design functionalities.
-
-But it does not stop here and apply also the [[styling:design|Material Design]]
-recommandations. That's why you get also the possibility to apply [[styling:skin|skin]]
-to your button in order to set the [[styling:emphasis|emphasis]]. 
-
-<btn secondary>
-[[styling:design|Check the extra's]]
-</btn>
-</card>
-
-<card>
-==== Themes Extra-Loaded ====
-ComboStrap comes loaded with a lot of pre-packaged themes 
-provided by differents ''bootstrap'' stylesheet.
-
-We explain even also how you can create and install your own stylesheet.
-
-<btn secondary>
-[[styling:stylesheet|Discover the Style(sheets)]]
-</btn>
-</card>
-
-<card>
-==== Styling made easy ====
-Basic styling should not be an hassle that's why
-all ''ComboStrap'' component supports "built-in" 
-a common set of basic styling attribute
-such as [[styling:dimension|width]], [[styling:align|align]], [[styling:color|color]].
-
-<btn secondary>
-[[styling:styling|Styling as 1,2,3]]
-</btn>
-</card>
-
-<card>
-==== SEO ready  ====
-The ''Search Engine Optimization'' module
-will help you define the description or get back authority
-by recovering broken back links and more.
-
-<btn secondary>
-[[seo|Check the SEO module]]
-</btn>
-</card>
-
-<card>
-==== Social from the start ====
-''ComboStrap'' is social ready. It advertise automatically its pages to social
-network such as [[semantic:twitter|<icon name="twitter"/> Twitter]], 
-[[semantic:twitter|<icon name="facebook"/> Facebook]], 
-[[semantic:twitter|<icon name="google"/> Google]]. 
-Your pages have also automatically a professional look on this networks.
-
-<btn secondary>
-[[:social|Social all the things]]
-</btn>
-</card>
-
-<card>
-==== Low Quality Page Protection  ====
-''Low Quality Page'' are really bad for your SEO score and
-can lead to your website being banned from Search Engine.
-
-With the  ''Low Quality Page Protection'' enabled, they will be hidden until 
-they reach a correct quality level.
-
-<btn secondary>
-[[quality:lqpp|Check the LQPP feature]]
-</btn>
-</card>
-
-<card>
-==== URL Management ====
-A website is living and pages are moving around.
-To not break the navigation and influence badly your SEO authority, you can define a page id ([[semantic:canonical|canonical]])
-or [[url:page_rules|redirection rules]].
-
-<btn secondary>
-[[url:url|Check the URL Manager]]
-</btn>
-</card>
-<card>
-==== Page Metadata included ====
-With the [[semantic:frontmatter|frontmatter]] component,
-you can add easily the metadata that you want.
-
-It helps your SEO ranking but it also enable [[url:permalink|permalink]]
-and transparent [[url:redirection|redirections]] with the [[semantic:canonical|canonical]] (''Page Id'')
-
-<btn secondary>
-[[semantic:semantic|Check the Metadata module]]
-</btn>
-</card>
-<card>
-==== Ad System Ready ====
-With the [[ads:ads|ads module]], you can
-put ''ads'' wherever your want (in sidebar or in the main page).
-
-If you are a publisher trying to find a monetization channel,
-this module tries to find the best balance between user experience
-and revenue.
-
-<btn secondary>
-[[ads:ads|Check the Ads Module]]
-</btn>
-</card>
-
-<card>
-==== Page Analytics Powered ====
-Do you have any questions on your website ?
-Answer them all with the ''analytics''  module.
-
-You can answer questions such as the average words count
-by page, the number of intra-links and more.
-
-Analytics is also the cornerstone of our quality module in order
-to made wise decision.
-
-<btn secondary>
-[[analytics:analytics|Check the Analytics Module <icon name="chart-box-outline"/>]]
-</btn>
-</card>
-
-<card>
-==== Quality at heart ====
-Getting grasp on the quality of the content that you publish
-is the cornerstone of a good website that leads to a good discoverability.
-
-This module helps you get quality insight via the quality rules and score.
-
-<btn secondary>
-[[quality:quality|Check the Quality Module]]
-</btn>
-</card>
-
-</card-columns>
-</container>
-</slide>

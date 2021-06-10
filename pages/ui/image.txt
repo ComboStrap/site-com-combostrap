@@ -76,10 +76,10 @@ Raster images are automatically resized below the screen size. For more informat
 
 To resize to a given height, set a width to ''0'' followed by the height.
 
-Example of an image resized to ''225px'' height
+Example of an image resized to ''250px'' height
 <webcode name="Default" frameborder="0">
 <code dw>
-{{:ui:stock_image_surfer_in_the_see.png?0x225|}}
+{{:ui:stock_image_surfer_in_the_see.png?0x250|}}
 </code>
 </webcode>
 
