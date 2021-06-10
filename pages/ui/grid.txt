@@ -5,13 +5,13 @@
 ---
 
 
-====== ComboStrap UI - Grid (Row and Column) ======
+====== ComboStrap UI - Grid (Row and Cell) ======
 
 
 ===== About =====
 The ''grid'' component is a composition of two tags:
   * the ''row'' tag
-  * and the ''column'' (or ''col'' tag)
+  * and the ''cell'' tag.
 
 <badge>Since [[release:release|version 1.2]]</badge>
 
@@ -21,14 +21,14 @@ The ''grid'' component is a composition of two tags:
 ===== Syntax =====
 <code dw>
 <row type>
-   <col vertical="center"></col>
-   <col></col>
-</col>
+   <cell vertical="center"></cell>
+   <cell></cell>
+</row>
 </code>
 where:
   * ''type'' may be the value:
-      * ''auto'' (default) - each column width will automatically calculated to be greater than the minimum width of ''300''. (This mode will not be applied if a [[styling:dimension|width]] or ''class'' attribute is present)
-      * ''natural'' - each column will takes their natural width and never overflow
+      * ''auto'' (default) - each cell width will automatically calculated to be greater than the minimum width of ''300''. (This mode will not be applied if a [[styling:dimension|width]] or ''class'' attribute is present)
+      * ''natural'' - each cell will takes their natural width and never overflow
   * ''vertical'': if the value is ''center'', the box will be vertically centered.
   * and you can use all [[styling:styling|styling attributes]].
 
@@ -46,14 +46,14 @@ On a grid of 12 columns, a row with two columns:
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <row class="px-5">
-    <col background-color="green" color="white">
+    <cell background-color="green" color="white">
         First paragraph in the first column.
         
         Second paragraph in the first column.
-    </col>
-    <col background-color="blue" color="white">
+    </cell>
+    <cell background-color="blue" color="white">
         Second column
-     </col>
+     </cell>
 </row>
 </code>
   * Output:
@@ -71,8 +71,8 @@ Example with the ''class'' value
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <row class="px-5">
-    <col class="col-12 col-md-8" background-color="green" color="white">First column with a ratio of 8</col>
-    <col background-color="blue" color="white">Second column with a ratio of 4 \\ (12-8)</col>
+    <cell class="col-12 col-md-8" background-color="green" color="white">First column with a ratio of 8</cell>
+    <cell background-color="blue" color="white">Second column with a ratio of 4 \\ (12-8)</cell>
 </row>
 </code>
   * Output:
@@ -86,16 +86,16 @@ Example where the whole row:
 
 <webcode name="Default" frameborder="0">
 <code dw>
-<row clickable="true" background-color="light" spacing="m-3" width="800px" align="center">
-  <col spacing="px-4 py-1" width="fit" >
-    {{:styling:subway_card_tile.png?0x200|}}
-  </col>
-  <col spacing="px-4 py-1" vertical="center">
+<row clickable background-color="light" spacing="m-3" width="800px" align="center">
+  <cell spacing="px-4 py-1" width="fit" >
+    {{:styling:subway_card_tile.png?0x200&nolink|}}
+  </cell>
+  <cell spacing="px-4 py-1" vertical="center">
     === Card Clickable Grid ===
     Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.
     
     [[#custom_card|Custom card]]
-  </col>
+  </cell>
 </row>
 </code>
 

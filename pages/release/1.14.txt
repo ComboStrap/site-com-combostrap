@@ -27,6 +27,7 @@
   * New: [[ui:webcode|webcode]] shows the example code in a iframe. The markup code does not conflict with the code of the page. This was needed for the heading.
   * Bug: When the content of a rendered [[ui:webcode|webcode]] is less than the default html element height of 150, the padding of the first descendant phrasing element would end up in the margin of the iframe html element. 
   * Improvement: The icon attached to the configuration is no more downloaded but included to the page and cached leading to a big performance gain.
+  * Modification: The ''col'' tag of the [[ui:grid|grid]] is now known as ''cell'' which makes much more sense
 
 ==== Heading Hierarchy ====
   * The ''title'' component is now known as the [[ui:heading|heading]].

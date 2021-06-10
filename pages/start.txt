@@ -12,11 +12,11 @@
     <background opacity="0.4">{{ :combostrap:background:object-multicolor.svg |}}</background>
     <container>
         <row>
-            <col >
+            <col spacing="ps-lg-5">
 <title 3 class="text-capitalize">Create All Your \\ Web Footprints \\ In Simple Markup</title>
 <text h3 class="text-capitalize" boldness="light">The leading web markup publication platform</text>
 <text lead boldness="350">
-Publish landing pages, articles, how-to's, documentations and build your knowledge base with the power of the web.
+Publish landing pages, articles, how-to's, documentations or build your knowledge base with the power of the web.
 </text>
             </col>
             <col vertical="center" align="center">
@@ -64,9 +64,7 @@ Nicely customized components that can be reused anytime and anywhere in your pro
 All components can be reused and composed to create 
 the design of your dream
 </col>
-</row>
 
-<row>
    <col>
 <icon name="asterisk" color="#7611F7" spacing="my-3" width="2.75rem"/>
 
@@ -98,9 +96,7 @@ All components follows the Material Design guidelines to bring more clarity.
 Advertise automatically with a a professional look your pages to social network such as  Twitter,  Facebook,  Google. 
    </col>
 
-</row>
 
-<row>
    <col>
 <icon name="translate" color="#7611F7" spacing="my-3" width="2.75rem"/>
 
@@ -130,7 +126,7 @@ even block them from publishing if they don't reach your standard
 <icon name="semantic-web" color="#7611F7" spacing="my-3" width="2.75rem"/>
 <text h5>Semantic Web</text>
 Control the rendering of your pages on external website. \\
-Create permalink and advertise your company.
+Create permalink and even publish your company location.
 </col>
 
 <col>
