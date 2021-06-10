@@ -18,11 +18,11 @@
   * [[button|Button (btn)]]: A button (they are generally set apart on their own line)
   * [[highlight|Highlight]]: Highlight a sequence of words
   * [[icon|Icon]]: All material design icons or your own
-  * [[raster|raster image]]: A small image can be used as icon
+  * [[raster|Raster image]]: A small image can be used as icon
   * [[inote|Inote]]: An inline note
   * [[link|Link]]: A link with text, icon, image or what ever you need.
   * [[itext|Itext]]: format one or several words at once.
-
+  * [[styling:typo|Typography]]: Typography markup such as boldness, underline, ...
   
   
 
