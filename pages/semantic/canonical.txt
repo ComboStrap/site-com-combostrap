@@ -9,6 +9,7 @@
 ===== About =====
 A ''canonical URL'' is an [[kb>identifier|identifier]] for a web page that is defined through the [[kb>canonical/url|canonical meta property]].
 
+
 It identifies uniquely a page in a domain.
 
 The ''canonical'' value:

@@ -24,7 +24,7 @@ This is also known as a ''stretched link''. The link surface applies also to its
 Example with a [[ui:card|card]]
 <webcode name="Default" frameborder="0">
 <code dw>
-<card width="18rem" clickable="true">
+<card width="18rem" clickable>
 {{:styling:subway_card_tile.png|}}
 === Clickable Card ===
 Lorem ipsum
@@ -38,9 +38,9 @@ Lorem ipsum
 [[ui:grid]]
 <webcode name="Default" frameborder="0">
 <code dw>
-<row clickable="true" background-color="light" class="g-0" spacing="m-3">
+<row clickable background-color="light" class="g-0" spacing="m-3">
   <col class="col-md-6" spacing="p-4">
-    {{:styling:subway_card_tile.png?0x200|}}
+    {{:styling:subway_card_tile.png?0x200&nolink|}}
   </col>
   <col class="col-md-6" spacing="p-4">
     === Columns with stretched link ===
