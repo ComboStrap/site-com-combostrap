@@ -166,13 +166,48 @@ and watch the magic happen.
 </slide>
 
 <slide size="lg" height="60vh" vertical="center">
-<background>{{:woman-yoga-sunset.jpg|}}</background>
+<background opacity="0.7">{{:woman-yoga-sunset.jpg|}}</background>
 <container>
-   <box text-align="center" color="white" class="col">
+<cell width="300px" text-align="center">
        <text h1>Ready for the journey?</text>
-       <text lead>Create your own experience</text>
-       [[:getting_started:getting_started|<icon name="bs:play-circle-fill" color="white" width="36px"/>]]
-   </box>
+       <text lead>Create your footprint today</text>
+       [[:getting_started:getting_started|<icon name="bs:play-circle-fill" color="black" width="3.75rem"/>]]
+</cell>
+</container>
+</slide>
+
+<slide size="lg" >
+<container>
+\\
+\\
+\\
+\\
+<row text-align="center" vertical="center">
+   <cell>
+       <icon name="heart" color="danger" width="3rem"/>
+       <text h3 color="danger">97%</text>
+       <text>Happy clients</text>
+   </cell>
+   <cell>
+       <icon name="bs:clock-fill" color="primary" width="3rem"/>
+       <text h3 color="primary">365x7</text>
+       <text>Customer support</text>
+   </cell>
+   <cell>
+       <icon name="bs:stack" color="warning" width="3rem"/>
+       <text h3 color="warning">100+</text>
+       <text>Fresh components</text>
+   </cell>
+   <cell>
+       <icon name="bs:file-richtext-fill" color="info" width="3rem"/>
+       <text h3 color="info">250+</text>
+       <text>Documentation pages</text>
+   </cell>
+</row>
+\\
+\\
+\\
+\\
 </container>
 </slide>
 
