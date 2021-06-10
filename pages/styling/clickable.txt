@@ -39,16 +39,15 @@ Lorem ipsum
 <webcode name="Default" frameborder="0">
 <code dw>
 <row clickable background-color="light" class="g-0" spacing="m-3">
-  <col class="col-md-6" spacing="p-4">
+  <cell spacing="p-4">
     {{:styling:subway_card_tile.png?0x200&nolink|}}
-  </col>
-  <col class="col-md-6" spacing="p-4">
+  </cell>
+  <cell spacing="p-4">
     === Columns with stretched link ===
     Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.
 
-
     [[#|Go somewhere]]
-  </col>
+  </cell>
 </row>
 </code>
 
