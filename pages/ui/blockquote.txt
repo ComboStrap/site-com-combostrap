@@ -39,7 +39,7 @@ content
 </code>
 where:
   * ''header'' is an [[header|component header]]
-  * ''title'' is a [[title|component title]]
+  * ''title'' is a [[release:deprecated:title|component title]]
   * ''cite'' is a [[cite|cite (citation)]]
 
 <note tip>
@@ -115,9 +115,9 @@ You can wrap a typographic blockquote in a [[card|card]] in order to add an imag
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <card width="18rem">
-{{teaser_image_2.jpg|}}
+{{:teaser_image_2.jpg|}}
 <header>True Work</header>
-<blockquote typo class="mb-0">
+<blockquote typo>
 The true work does not reveal itself until you get into.
 <cite>Nico</cite>
 </blockquote>
@@ -144,6 +144,7 @@ A Blockquote is wrapped by default in a [[card|card]]
 
 <blockquote>
 A Blockquote without [[cite|citation]].
+
 {{::teaser_image_2.jpg}}
 </blockquote>
 
