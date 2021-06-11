@@ -57,27 +57,32 @@ A ''card'' blockquote is just a shortcut that wraps the typographic blockquote i
 ==== Basic ====
 === Card blockquote ===
 
+The card blockquote is the default type.
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+  * Input:
 <code dw>
 <blockquote>
 The true work does not reveal itself until you get into.
 <cite>Nico</cite>
 </blockquote>
 </code>
+  * Output:
 </webcode>
 === Typographic Blockquote ===
 
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="Default">
+  * Input:
 <code dw>
 <blockquote typo>
 The true work does not reveal itself until you get into.
 <cite>Nico</cite>
 </blockquote>
 </code>
+  * Output:
 </webcode>
 
 ==== With a class ====
-As a [[styling:html|superset HTML element]], you can add your own class or [[styling:style|style]]
+As a [[styling:html|superset HTML element]], you can add your own [[styling:class|class]] or [[styling:style|style]]
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <blockquote class="p-4 m-4 mx-auto" style="border-color:blue;max-width:400px">
@@ -98,9 +103,10 @@ The true work does not reveal itself until you get into.
 </code>
 </webcode>
 
-==== With a title and a header ====
-A title is supported in the ''card'' blockquote.
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+==== With a heading and a header ====
+A [[ui:heading|heading]] is supported in the ''card'' blockquote.
+<webcode name="Default">
+  * Input:
 <code dw>
 <blockquote width="300px" align="center">
 <header>Work</header>
@@ -109,6 +115,7 @@ The true work does not reveal itself until you get into.
 <cite>Nico</cite>
 </blockquote>
 </code>
+  * Output:
 </webcode>
 ==== In a card ====
 You can wrap a typographic blockquote in a [[card|card]] in order to add an image header .
@@ -125,9 +132,7 @@ The true work does not reveal itself until you get into.
 </code>
 </webcode>
 
-<note tip>
-This will output the [[https://getbootstrap.com/docs/4.0/components/card/#header-and-footer|Bootstrap blockquote card of the documentation]]
-</note>
+
 ==== Card Columns ====
 
 A ''blockquote'' with the type ''card'' can also be wrapped in the [[card_column|card-columns layout component.]]

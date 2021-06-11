@@ -22,7 +22,7 @@ A ''tweet'' is a [[blockquote|blockquote]]:
 <code dw>
 <blockquote parameterKey="parameterValue" >
     Content
-    <cite>[[https://twitter.com/twitterHandle/status/twitterId|@handle date ]]</cite>
+    <cite>[[https://twitter.com/twitterHandle/status/twitterId|@handle date]]</cite>
 </blockquote>
 </code>
 
@@ -69,7 +69,7 @@ Example from this [[https://twitter.com/combostrapweb/status/1357699797541601286
 The same tweet than in the [[#basic|basic example]] but with the following properties:
   * Centered, 
   * Max Width, 
-  * French language,
+  * GUI in French,
   * Dark Theme 
   * Hidden Cards
 and without any content.
@@ -150,4 +150,4 @@ This method adds the ''widget.js'' everytime while the tweet syntax will take ca
 
 
 ===== Documentation / Reference =====
-  * https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/overview
+  * [[https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/overview|The official embedded tweet documentation]]
