@@ -7,20 +7,6 @@
 ====== Beta - Note ======
 
 
-===== Link color =====
-
-The icon should take the color of the box and the color of the link because there is no text.
-
-<webcode name="Default" frameborder="0">
-<code dw>
-<box color="#5b5965">
-Yolo
-
-[[:getting_started:getting_started|<icon name="bs:play-circle-fill" width="3.75rem"/>]]
-</box>
-</code>
-</webcode>
-
 
 ===== Design Check list =====
 
@@ -45,7 +31,7 @@ https://new.nvsw.nl/
   * https://designagency.io/
 
 
-===== Marketing ======
+===== Marketing =====
 
 
   * https://www.indiehackers.com/product/softr
@@ -167,5 +153,4 @@ db:oracle:999999.9:union:all:select_null:from_dual_and_0_0
   * https://webflow.com/pricing
 
 ===== Forms =====
-  * https://www.dokuwiki.org/plugin:bureaucra
-cy
+  * https://www.dokuwiki.org/plugin:bureaucracy
