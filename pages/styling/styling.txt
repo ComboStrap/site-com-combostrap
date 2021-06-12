@@ -52,8 +52,7 @@ The ''standard'' attributes are:
 | [[boldness|Boldness]] | Set the weight of a font (from thin to bold) |
 | [[font-size|Font Size]] | Set the size of the characters. |
 | [[underline|Underline]] | Underline one or more characters |
-
-
+| [[print|Print]] | Hide component on print |
 
 
 === Animation ===

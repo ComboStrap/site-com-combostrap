@@ -29,7 +29,7 @@
   * Improvement: The icon attached to the configuration is no more downloaded but included to the page and cached leading to a big performance gain.
   * Modification: The ''col'' tag of the [[ui:grid|grid]] is now known as ''cell'' which makes much more sense
   * Improvement: [[styling:clickable|clickable]] can now be used in **all** components with a link. This is no more limited to [[ui:grid|grid]] and [[ui:card|card]].
-
+  * New: [[styling:print|print]]. The lazy loaded image are downloaded before print and the bars are cached to be able to print a page.
 ==== Heading Hierarchy ====
   * The ''title'' component is now known as the [[ui:heading|heading]].
   * New: [[ui:outline#numbering|Outline Numbering]] is now fully customizable from decimal to latin-upper. Due to this change, the anchor are now located to the right.

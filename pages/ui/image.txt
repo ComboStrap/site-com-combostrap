@@ -19,11 +19,12 @@
 ===== Features =====
 
 
-All images are:
-  * [[:lazy|lazy loaded]] by default to enhance [[:performance|performance]]
-  * ''Automatic resizing'' (or ''responsive'') 
+All images:
+  * are [[:lazy|lazy loaded]] by default to enhance [[:performance|performance]]
+  * are ''automatically reduced in size'' and ''responsive''
       * for [[svg|svg images]], we set extra responsive properties.
       * for [[raster|raster images]],  a small screen will receive a small image while a big screen will receive the biggest image. For more information, see [[raster#automatic_responsive_resizing|Raster - Automatic Resizing]]
+  * support sizing via ''width'' or ''height''
 
 ===== Supported Image Type =====
 ''ComboStrap'' supports:
@@ -47,7 +48,7 @@ where:
   * ''W'' is the width (0 if you don't want to set it)
   * ''H'' is the height (Optional)
   * ''[ ]'' are optional spaces that indicates the alignement of the image (left, center, or right [[styling:float|float]])
-  * ''nolink'' will not add a link to the image itself.
+  * ''nolink'' will not add a [[#imagedefaultlinking|link to the image itself]].
   * ''att=value'' is one or more [[styling:styling|styling attributes]]
 
 
@@ -118,6 +119,19 @@ For instance, to elevate this photography with a surfer, you could use this synt
 </code>
 </webcode>
 
+==== Background ====
+
+You can also use the image as [[styling:background|background]].
+<webcode name="Default" frameborder="0">
+<code dw>
+<slide color="steelblue" text-align="center" >
+   <background opacity="0.3">{{:ui:stock_image_surfer_in_the_see.png|}}</background>
+    <heading d2>A background image</heading>
+    <text lead font-size="h3">A background image will emphase a short message.</text>
+</slide>
+</code>
+</webcode>
+
 
 
 
@@ -133,7 +147,7 @@ This [[:configuration|configuration]] permits to disable completely this compone
 This [[:configuration|configuration]] permits to set the link type to the image.
 
 ^ Value ^ Behavior ^
-| ''Direct'' (default) | Direct link to the image |
+| ''direct'' (default) | Direct link to the image |
 | ''detail'' | Link to a web page with image details |
 | ''linkonly'' | Only the link is displayed, not the image |
 | ''nolink'' | No link is added around the image |

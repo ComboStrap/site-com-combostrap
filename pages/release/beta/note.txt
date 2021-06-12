@@ -8,6 +8,12 @@
 
 
 
+
+===== Lazy load =====
+  * Noscript handling for [[:lazy|lazy loading]] Better for seo also. See [[https://github.com/ApoorvSaxena/lozad.js/wiki/Frequently-Asked-Questions#how-to-load-images-normally-when-javascript-is-disabled|doc]]
+  * Supports Background image
+
+
 ===== Design Check list =====
 
 

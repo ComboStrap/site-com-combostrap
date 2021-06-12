@@ -1,0 +1,33 @@
+---json
+{
+    "canonical":"print",
+    "title":"ComboStrap - Print",
+    "description":"How to handle component on print"
+}
+---
+====== ComboStrap Styling - Print ======
+
+
+===== About =====
+Before ''printing'', ''ComboStrap'' will:
+  * hide the [[ui:related|related component]] and section if any
+  * hide all [[strap:bar|bar]] ([[strap:headerbor|page header]], [[strap:footerbor|page footer]], [[strap:sidebor|sidebar]] and [[strap:sidekickbor|sidekickbar]])
+  * download [[:lazy|all lazy images]]
+
+
+If you want more control on your elements when printing, you can inject the [[https://getbootstrap.com/docs/5.0/utilities/display/#display-in-print|bootstrap class]] with the [[styling:class|class attribute]]
+
+===== Example =====
+
+==== Hide a component when printing ====
+
+Example made with the [[https://getbootstrap.com/docs/5.0/utilities/display/#display-in-print|d-print-none class]] .
+
+<webcode name="Default" frameborder="0">
+<code dw>
+<note class="d-print-none">
+This note will not appear if you print this page
+</note>
+</code>
+</webcode>
+
