@@ -89,6 +89,14 @@ More than 1500 icons to your fingertip to add more intuitive and playful touch t
 </cell>
 
 <cell>
+<icon name="rocket-launch" color="#7611F7" spacing="my-3" width="2.75rem"/>
+<text h5>Fast as hell</text>
+Fast pages means a better user experience, a better place in Google Search
+and more visitors.
+Your pages will reach the top score of the Google Lighthouse Performance Index.
+</cell>
+
+<cell>
 <icon name="bs:geo-alt-fill" color="#7611F7" spacing="my-3" width="2.75rem"/>
 <text h5>SEO ready</text>
 Be visible from the start. \\ Increase your Domain Authority (DA)
@@ -175,9 +183,10 @@ and publish your web publication when ready.
 <cell>
 <icon name="github" color="#7611F7" spacing="my-3" width="2.75rem"/>
 <text h5>Open Source Philosophy</text>
-The platform will stay for ever. It's yours.
-You can even fork it and makes it your own.
+The platform is open source, guarantee of sustainability and
+ supporting your investment. You can even fork it and makes it your own.
 </cell>
+
 
 </row>
    
