@@ -13,10 +13,10 @@
     <container>
         <row>
             <col spacing="ps-lg-5">
-<title 3 class="text-capitalize">Create All Your \\ Web Publishing\\ In Text File</title>
+<title 3 class="text-capitalize">Web Publication Platform Since 2010</title>
 <text h3 class="text-capitalize" boldness="light">The leading web markup publication platform</text>
 <text lead boldness="350">
-Publish landing pages, articles, how-to's, documentations or build your knowledge base with the power of the web and the simplicity of markup.
+Create website, publish landing pages, articles, how-to's, documentations or build your knowledge base with the power of the web and the simplicity of the markup language.
 </text>
             </col>
             <col vertical="center" align="center">
@@ -39,7 +39,7 @@ Publish landing pages, articles, how-to's, documentations or build your knowledg
 
 <cell>
 <icon name="bs:markdown-fill" color="#7611F7" spacing="my-3" width="2.75rem"/>
-<text h5>Markup Complete</text>
+<text h5>Extended Markdown</text>
 No Code. Just declare what you want in markdown or wiki format
 and watch the magic happen.
 </cell>
@@ -96,6 +96,13 @@ with the SEO module.
 </cell>
 
 <cell>
+<icon name="coffee" color="#7611F7" spacing="my-3" width="2.75rem"/>
+<text h5>Own your work</text>
+Based on text files and an open syntax, your pages are not ours but yours.
+Copy them on your computer, render them with any third open engine. 
+</cell>
+
+<cell>
 <icon name="seal" color="#7611F7" spacing="my-3" width="2.75rem"/>
 <text h5>Page Quality</text>
 Get a feedback on the quality of your pages and 
@@ -149,13 +156,27 @@ All components have been build responsive and mobile-first.
 <cell>   
 <icon name="bootstrap5" color="#7611F7" spacing="my-3" width="2.75rem"/>
 <text h5>Latest Bootstrap 5</text>
-Built with and extends the world's most popular component library
+Built with and extends the world's most popular styling library.
 </cell>
 
 <cell>
 <icon name="material-design" color="#7611F7" spacing="my-3" width="2.75rem"/>
 <text h5>Material Design</text>
 All components follows the Material Design guidelines to bring more clarity.
+</cell>
+
+<cell>
+<icon name="git" color="#7611F7" spacing="my-3" width="2.75rem"/>
+<text h5>Publish when ready</text>
+Based on simple text files, you can develop on Git, create revision
+and publish your web publication when ready.
+</cell>
+
+<cell>
+<icon name="github" color="#7611F7" spacing="my-3" width="2.75rem"/>
+<text h5>Open Source Philosophy</text>
+The platform will stay for ever. It's yours.
+You can even fork it and makes it your own.
 </cell>
 
 </row>
@@ -168,7 +189,7 @@ All components follows the Material Design guidelines to bring more clarity.
 <container>
 <cell width="300px" text-align="center" color="#5b5965">
        <text h1>Ready for the journey?</text>
-       <text lead>Become a maker today</text>
+       <text lead>Become a publisher today</text>
        [[:getting_started:getting_started|<icon name="bs:play-circle-fill" width="3.75rem" color="#5b5965"/>]]
 </cell>
 </container>
