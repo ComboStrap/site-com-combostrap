@@ -1,15 +1,15 @@
 ---json
 {
-    "canonical":"footerbor"
+    "canonical":"footer_slot"
 }
 ---
 
-====== Strap - Footerbar ======
+====== Strap - Footer Slot ======
 
 ===== About =====
-The footerbar is a [[bar|bar]] that is located at the bottom of a page.
+The ''footer slot'' is a [[slot|slot]] that is located at the bottom of a page that contains the footer of the page.
 
-A footer typically contains information about the author of the section, copyright data or links to related documents.
+It's also known as a ''fat footer'' and contains information about the web site.
 
 
 ===== Articles Related =====
@@ -29,17 +29,17 @@ With:
 
 <row>
 
-<col>
+<cell>
 **First Column** \\
 Powered by [[:start|ComboStrap]] \\
 [[support@combostrap.com?subject=Contact via WebSite|support@combostrap.com]] \\
-</col>
+</cell>
 
-<col>
+<cell>
 **Second Column** \\
-[[:security|Security]]\\
-[[:changes|Release (Changes)]]\\
-</col>
+[[#|Security]]\\
+[[#|Release (Changes)]]\\
+</cell>
 
 </row>
 

@@ -1,0 +1,33 @@
+---json
+{
+    "canonical":"sidebars",
+    "title":"Automatic Sidebar Content Management",
+    "layout":"median"
+}
+---
+
+====== ComboStrap - Automatic Side Slot Content Management ======
+
+
+===== About =====
+The ''side slots'' (ie [[strap:side_slot|side]] and [[strap:sidekickbor|sidekick]] slots) content are always up-to-date and does not require to disable the cache, increasing [[performance|performance]].
+
+
+<note>
+If you have any [[https://www.dokuwiki.org/caching|%%~~NOCACHE~~%%]] instructions in your side slots, just delete them.
+</note>
+
+===== Articles Related =====
+{{backlinks>.}}
+===== Why ? =====
+
+''side slots'' contains generally [[ui:navigation|navigational component]] such as a [[ui:ntoc|list of page]]. Therefore, their content becomes generally stale when a page is modified, added or deleted. 
+
+The basic solution is to disable cache but this action has an important impact on [[:performance|performance]] because they read the index.
+
+===== Implementation =====
+
+
+The cache:
+  * is scoped to the namespace (directory) of the requested page
+  * is automatically deleted when a page of this namespace is modified, added or deleted

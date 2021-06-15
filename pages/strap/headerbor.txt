@@ -1,17 +1,24 @@
 ---json
 {
-    "canonical":"headerbor"
+    "canonical":"header_slot"
 }
 ---
 
-====== Strap Template - Headerbar ======
+====== Strap Template - Header Slot ======
 
 
 ===== About =====
-The [[strap|strap template]] supports the creation of a [[bar|bar (page)]] called  ''headerbar'' that will be rendered at the top of the template.
+The [[strap|strap template]] supports the creation of a [[slot|slot]] that contains the header of the page.
+
+The ''page header'' is rendered at the top of the page and contains generally a [[ui:menubar|menu bar]]. 
 
 
-The ''headerbar'' is supposed to contain a ''navbar''. See [[getting_started:5_headerbor|Creation of a headerbar]].
+
+
+<note>
+  * The ''how-to'' getting started guide explains how to create a header navigational bar: [[getting_started:5_headerbor]].
+  * It defines a header for the page. If you want to define a header for a component, see the [[ui:header|header component]]
+</note>
 
 ===== Articles Related =====
 {{backlinks>.}}

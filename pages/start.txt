@@ -12,16 +12,16 @@
     <background opacity="0.4">{{ :combostrap:background:object-multicolor.svg |}}</background>
     <container>
         <row>
-            <col spacing="ps-lg-5">
+            <cell spacing="ps-lg-5">
 <title 3 class="text-capitalize">Web Publication Platform Since 2010</title>
 <text h3 class="text-capitalize" boldness="light">The leading web markup publication platform</text>
 <text lead boldness="350">
 Create website, publish landing pages, articles, how-to's, documentations or build your knowledge base with the power of the web and the simplicity of the markup language.
 </text>
-            </col>
-            <col vertical="center" align="center">
+            </cell>
+            <cell vertical="center" align="center">
 {{ ::undraw_content_creator.svg?500&nolink |}}
-            </col>
+            </cell>
 </row>
 </container>
 </slide>
@@ -30,7 +30,7 @@ Create website, publish landing pages, articles, how-to's, documentations or bui
 
 <slide size="lg"  background-color="light">
 <container>
-<box text-align="center"> 
+<box text-align="center">
    <text h2>Really useful features</text>
    <text lead width="400px" align="center">You get all components fully customized out of the box and ready to use.</text>
 </box>
@@ -49,7 +49,7 @@ and watch the magic happen.
 <text h5>Themes loaded</text>
 Choose any theme you want. You got a new design in second, not month.
 </cell>
-   
+
 <cell>
 <icon name="bs:inboxes-fill" color="#7611F7" spacing="my-3" width="2.75rem"/>
 <text h5>100+ Components</text>
@@ -59,21 +59,21 @@ Nicely customized components that can be reused anytime and anywhere in your pro
 <cell>
 <icon name="puzzle" color="#7611F7" spacing="my-3" width="2.75rem"/>
 <text h5>Everything is modular</text>
-All components can be reused and composed to create 
+All components can be reused and composed to create
 the design of your dream
 </cell>
 
 <cell>
 <icon name="bs:arrows-collapse" color="#7611F7" spacing="my-3" width="2.75rem"/>
 <text h5>Team ready</text>
-Collaborate on your pages, apply your changes immediately, 
+Collaborate on your pages, apply your changes immediately,
 see the history and even come back to a revision
 </cell>
 
 <cell>
 <icon name="twitter" color="#7611F7" spacing="my-3" width="2.75rem"/>
 <text h5>Social from the start</text>
-Advertise automatically with a a professional look your pages to social network such as  Twitter,  Facebook,  Google. 
+Advertise automatically with a a professional look your pages to social network such as  Twitter,  Facebook,  Google.
 </cell>
 
 <cell>
@@ -107,13 +107,13 @@ with the SEO module.
 <icon name="coffee" color="#7611F7" spacing="my-3" width="2.75rem"/>
 <text h5>Own your work</text>
 Based on text files and an open syntax, your pages are not ours but yours.
-Copy them on your computer, render them with any third open engine. 
+Copy them on your computer, render them with any third open engine.
 </cell>
 
 <cell>
 <icon name="seal" color="#7611F7" spacing="my-3" width="2.75rem"/>
 <text h5>Page Quality</text>
-Get a feedback on the quality of your pages and 
+Get a feedback on the quality of your pages and
 even block them from publishing if they don't reach your standard
 </cell>
 
@@ -122,7 +122,7 @@ even block them from publishing if they don't reach your standard
 <text h5>Page Analytics Powered</text>
 Answer all your questions and get great insight on your pages.
 (Words count, intra-links, broken links, ...)
-</col>
+</cell>
 
 
 <cell>
@@ -161,7 +161,7 @@ Beautiful on all screens from the start.
 All components have been build responsive and mobile-first.
 </cell>
 
-<cell>   
+<cell>
 <icon name="bootstrap5" color="#7611F7" spacing="my-3" width="2.75rem"/>
 <text h5>Latest Bootstrap 5</text>
 Built with and extends the world's most popular styling library.
@@ -189,7 +189,7 @@ The platform is open source, guarantee of sustainability and
 
 
 </row>
-   
+
 </container>
 </slide>
 

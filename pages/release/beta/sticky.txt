@@ -36,21 +36,21 @@ If you have a [[strap:fixed-top-navbar|fixed top navbar]], this is the [[strap:f
 <webcode name="Default" frameborder="0" >
 <code dw>
 <row align="center" width="600px" text-align="center">
-  <col>
+  <cell>
       <note>😎</note>
       <note>😎</note>
       <note>😎</note>
-  </col>
-  <col>
+  </cell>
+  <cell>
       <note>😎</note>
       <note>😎</note>
       <note>😎</note>
-  </col>
-  <col>
+  </cell>
+  <cell>
       <note>😎</note>
       <note>😎</note>
       <note>😎</note>
-  </col>
+  </cell>
 </row>
 </code>
 </webcode>

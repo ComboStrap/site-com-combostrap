@@ -5,7 +5,7 @@
     "description":"This article talks about layout management and how it can be defined by page"
 }
 ---
-====== ComboStrap - Page Layout ======
+====== Strap - Page Layout ======
 
 ===== About =====
 
@@ -32,7 +32,7 @@ The default layout is a fully responsive layout (known also as the ''holy grail'
   * a [[strap:headerbor|header]]
   * a [[strap:footerbor|footer]]
   * and three columns:
-      * [[strap:sidebor|left sidebar]]
+      * [[strap:side_slot|left sidebar]]
       * [[strap:sidekickbor|right sidebar]]
       * main content
 

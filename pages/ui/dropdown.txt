@@ -1,7 +1,7 @@
 ====== ComboStrap UI - Dropdown ======
 
 ===== About =====
-''dropdown'' is a [[ui|component]] that shows a ''dropdown menu''. 
+''dropdown'' is a [[ui|component]] that shows a ''dropdown menu''.
 
 It must be placed inside a [[group|group]] element of the [[navbar|navbar]] that you will find at the top of your page in a [[strap:headerbor|headerbar]]
 
@@ -13,7 +13,7 @@ This component accepts as entry a series of link. If the linked page does not ex
   * Markup:
 <webcode name="dropdown" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
-<navbar>
+<menubar>
     <group>
        <dropdown name="Navbar component">
 [[dropdown|dropdown]]
@@ -21,7 +21,7 @@ This component accepts as entry a series of link. If the linked page does not ex
 [[search|search]]
        </dropdown>
    </group>
-</navbar>
+</menubar>
 </code>
   * Output:
 </webcode>

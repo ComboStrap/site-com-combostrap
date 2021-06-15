@@ -1,5 +1,5 @@
 
-<navbar breakpoint="md" position="top">
+<menubar breakpoint="md" position="top">
 <brand title="ComboStrap Home" style="color:#075EBB">
 <icon name="logo.svg" />
 ComboStrap
@@ -23,5 +23,5 @@ ComboStrap
 <btn elevation="true">[[getting_started:getting_started|Get Started <icon name="arrow-right-drop-circle-outline" width="1.5rem"/>]]</btn>
 <search/>
 </collapse>
-</navbar>
+</menubar>
 

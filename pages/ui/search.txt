@@ -23,9 +23,9 @@ The search component has:
 ===== Example =====
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
-<navbar>
+<menubar>
 <search>
-</navbar>
+</menubar>
 </code>
 
 </webcode>

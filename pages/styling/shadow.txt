@@ -51,8 +51,8 @@ The '' OnHover animation name'' is the name that can be used to apply a shadow w
 With a [[ui:button|button]]
 
 
-<row auto>
-	<col>
+<row>
+	<cell>
 		<webcode name="Flat" >
 <code dw>
 <btn>
@@ -60,8 +60,8 @@ Flat
 </btn>
 </code>
 		</webcode>
-	</col>
-	<col>
+	</cell>
+	<cell>
 		<webcode name="Small" >
 <code dw>
 <btn shadow="sm">
@@ -69,17 +69,29 @@ Small Shadow
 </btn>
 </code>
 		</webcode>
-	</col>
-	<col>
-		<webcode name="DefaultElevation">
-<code dw>
-<btn shadow="true">
-Default (Medium)
+	</cell>
+
+<cell>
+<webcode name="DefaultElevation">
+    <code dw>
+<btn shadow="md">
+Medium Shadow
 </btn>
-</code>
-		</webcode>
-	</col>
-	<col>
+    </code>
+</webcode>
+</cell>
+
+<cell>
+<webcode name="DefaultElevationWithBoolean">
+    <code dw>
+<btn primary shadow>
+Default Shadow
+</btn>
+    </code>
+</webcode>
+</cell>
+
+	<cell>
 		<webcode name="HighElevation">
 <code dw>
 <btn shadow="lg">
@@ -87,8 +99,8 @@ Large Shadow
 </btn>
 </code>
 		</webcode>
-	</col>
-<col>
+	</cell>
+<cell>
 		<webcode name="HighElevation">
 <code dw>
 <btn shadow="xl">
@@ -96,14 +108,14 @@ Extra-Large Shadow
 </btn>
 </code>
 		</webcode>
-	</col>
+	</cell>
 </row>
 
 ==== Card ====
 With a [[ui:card|card]]
 <webcode name="cardElevation" >
 <code dw>
-<card elevation="xl" width="200px">
+<card shadow="xl" width="200px">
 ===== Elevated card =====
 Guide on how to elevate
 </card>
@@ -115,7 +127,7 @@ With a [[ui:image|image]] and a [[ui:box|box]]
 
 <webcode name="imgElevation" >
 <code dw>
-<box elevation="lg" width="fit-content" align="center">
+<box shadow="lg" width="fit-content" align="center">
    {{:ui:stock_image_surfer_in_the_see.png?400|}}
 </box>
 </code>
@@ -143,5 +155,4 @@ You can change the default level of shadow with the ''defaultShadowLevel'' [[:co
 
 
 
-===== Documentation / Reference =====
-  * [[https://getbootstrap.com/docs/4.6/utilities/shadows/|Bootstrap Shadow]]
+

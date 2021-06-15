@@ -10,12 +10,12 @@
 
 
 <row>
-<col vertical="center" text-align="center">
+<cell vertical="center" text-align="center">
 [[combostrap|Combostrap]] is built on the shoulder of amazing piece of software and illustrations. This page gives them credits.
-</col>
-<col>
+</cell>
+<cell>
 {{::undraw_create.svg|}}
-</col>
+</cell>
 </row>
 
 
@@ -33,4 +33,3 @@
 | [[https://www.php.net/|Php]] | The backend language |
 | [[https://html.spec.whatwg.org/|HTML]] and [[https://en.wikipedia.org/wiki/JavaScript|Javascript]] | The frontend languages |
 | Home Page Photo | Women doing Yoga by [[https://unsplash.com/photos/F2qh3yjz6Jk|kikekiks]] |
-  

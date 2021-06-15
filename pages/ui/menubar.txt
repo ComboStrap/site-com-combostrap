@@ -4,13 +4,13 @@
 }
 ---
 
-====== ComboStrap UI - Navbar ======
+====== ComboStrap UI - Menu bar ======
 
 ===== About =====
-The ''navbar'' component is the implementation of a top application bar via the [[https://getbootstrap.com/docs/4.0/components/navbar/|bootstrap navbar]].
+A ''menu'' is an horizontal [[ui:navigation|navigational bar]] with links and dropdown menu that should be used in the [[strap:headerbor|page header]].
 
 
-Inside a ''navbar'' component, you can add:
+Inside a ''menu'' component, you can add:
   * a [[brand|brand]] with an optional [[icon|icon]]
   * a [[ui:group|group]] to group navigational element such as a [[ui:dropdown|dropdown menu]]
   * a [[ui:collapse|collapse container]] to group the element that will collapse
@@ -20,13 +20,13 @@ Inside a ''navbar'' component, you can add:
 {{backlinks>.}}
 
 ===== Syntax =====
-<code>
-<navbar breakpoint="lg" position="normal" align="left" theme="light">
+<code dw>
+<menubar breakpoint="lg" position="normal" align="left" theme="light">
 </code>
 where:
   * ''breakpoint'' is one of the [[styling:breakpoint|breakpoint code]] (''xs'','''sm'', ''md'', ''lg'' (Default), ''xl'')
   * ''position'' is one of ''normal'' (default),  [[#fixed-top|top]] (''bottom'' is not yet supported)
-  * ''align'' defines the horizontal placement. Possible values: ''left''(Default) or ''center'' 
+  * ''align'' defines the horizontal placement. Possible values: ''left''(Default) or ''center''
   * ''theme'' defines the luminance of the text. You can specify ''light'' (default) or ''dark''
 
 <note info>
@@ -35,7 +35,7 @@ The default [[styling:color|background-color]] is a ''light'' background.
 ==== Fixed-top ====
 
 <note important>
-If you choose a fixed-top navbar, you need also to change a ''strap template'' styling parameter. See the dedicated page [[strap:fixed-top-navbar]]
+If you choose a fixed-top navbar, you need also to change a ''strap template'' styling parameter. See the dedicated page [[strap:fixed-top-menu]]
 </note>
 
 
@@ -50,7 +50,7 @@ If you choose a fixed-top navbar, you need also to change a ''strap template'' s
 </code>
   * The start of the navbar.
 <code dw>
-<navbar breakpoint="sm">
+<menubar breakpoint="sm">
 </code>
   * The [[brand|brand]]. You can also put your logo [[icon|icon]]
 <code dw>
@@ -89,7 +89,7 @@ If you choose a fixed-top navbar, you need also to change a ''strap template'' s
   * The end of the element to collapse (ie we collapse all [[dropdown|drop down]] and the [[search|search bar]]
 <code dw>
 </collapse>
-</navbar>
+</menubar>
 </code>
   * Output
 </webcode>
@@ -98,7 +98,7 @@ If you choose a fixed-top navbar, you need also to change a ''strap template'' s
 
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
-<navbar theme="dark" background-color="dark" breakpoint="xs">
+<menubar theme="dark" background-color="dark" breakpoint="xs">
 <brand title="ComboStrap Home">
 <icon name="logo.svg" />
 ComboStrap
@@ -111,10 +111,8 @@ ComboStrap
 Navbar text with an inline element
 </group>
 </collapse>
-</navbar>
+</menubar>
 </code>
 </webcode>
 
-===== Documentation / Reference =====
-  * [[https://material.io/components/app-bars-top|Material UI top bar documentation]]
 

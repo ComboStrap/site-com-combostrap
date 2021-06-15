@@ -19,7 +19,7 @@
 opacity=value
 </code>
 where the value goes:
-  * from ''1'' (no opacity, default) 
+  * from ''1'' (no opacity, default)
   * to ''0'', completely opaque, not visible).
 
 
@@ -33,14 +33,14 @@ With a [[ui:raster|raster image]]
 <code dw>
 
 <row>
-<col>
+<cell>
 ^ With an opacity of ''0.5'' ^
 | {{:ui:stock_image_surfer_in_the_see.png?300&opacity=0.5}} |
-</col>
-<col>
+</cell>
+<cell>
 ^  Without opacity  ^
 | {{:ui:stock_image_surfer_in_the_see.png?300}} |
-</col>
+</cell>
 </row>
 </code>
 </webcode>

@@ -41,7 +41,7 @@ We supports the below libraries.
 The ''name'' or ''acronym'' can be used as library name.
 
 
-^ Name ^ Acronym ^ Location ^ 
+^ Name ^ Acronym ^ Location ^
 | ''bootstrap'' | ''bs'' | [[https://icons.getbootstrap.com/|Bootstrap icon]] |
 | ''material-design'' | ''md'' | [[https://materialdesignicons.com/|Material design icon]] |
 | ''feather'' | ''fe'' | [[https://feathericons.com/|Feather]] |
@@ -51,7 +51,7 @@ The default library is ''material-design'' but you can [[#configuration|change t
 <note >
 === Other library ===
 
-You can also download an icon from your preferred icon library and use it directly. 
+You can also download an icon from your preferred icon library and use it directly.
 
 [[#other_library_such_as_google_icon|How to use an other icon library such as Google Icon]].
 </note>
@@ -140,22 +140,22 @@ ComboStrap detects automatically if the icon is a ''solid'' or ''outline'' one a
 Example with the [[https://icons.getbootstrap.com/|bootstrap alarm clock]]
 
 <row auto>
-  <col>
+  <cell>
 The ''outline'' icon
 <webcode name="outline" frameborder=0 >
 <code dw>
 <icon name="bs:alarm" color="pink" />
 </code>
 </webcode>
-</col>
-<col>
+</cell>
+<cell>
 Versus the ''solid'' (ie''fill'')  icon
 <webcode name="Solid">
 <code dw>
 <icon name="bs:alarm-fill" color="pink" />
 </code>
 </webcode>
-</col>
+</cell>
 </row>
 
 ==== Sizing: Width and Height ====

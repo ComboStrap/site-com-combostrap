@@ -1,0 +1,64 @@
+---json
+{
+    "canonical":"top:navbar",
+    "description":"A top navbar is just two steps",
+    "title":"Top navigation bar made simple"
+}
+---
+
+====== Strap Template - Fixed-top Menu ======
+
+
+
+===== About =====
+A ''fixed-top menu'' is a [[ui:menubar|menu bar]] that stays located at the top of your page even when you scroll the content down.
+
+
+
+===== Articles Related =====
+{{backlinks>.}}
+
+
+
+===== How to configure a fixed-top menu ? =====
+
+
+==== Create a fixed-top menu ====
+Create a [[ui:menubar|menu bar]] with the option ''position="top"''
+
+Minimal Example:
+<code dw>
+<menubar position="top">
+<brand title="ComboStrap Home">
+<icon name="logo.svg" />
+ComboStrap (Beta)
+</brand>
+</menubar>
+</code>
+
+For a complete and detailed instruction, see [[getting_started:5_headerbor]]
+
+==== Set the height of the menu bar ====
+
+The ''heightFixedTopNavbar'' [[:configuration|strap configuration]] permits to change automatically all style in order to move the top location of the page.
+
+You need to set the height of your [[ui:menubar|menu bar]]
+
+<note tip>
+With a menu bar that uses only on one line, it should be ''40px''.
+</note>
+
+{{:strap:height_fixed_top_menu_bar.png?600}}
+
+
+Done !
+
+
+===== Features =====
+
+A ''fixed-top'' [[ui:menubar|menu bar]] gives a great experience but is difficult to implement because they needs some extra styling in order to relocate:
+  * the top location of the page
+  * the location of the [[ui:heading|heading]]
+Without this changements, a navigation via a link to an [[ui:heading|heading]] would land below the fixed-top menu and will then cache the heading.
+
+''ComboStrap'' is ''fixed-top menu'' ready and permits to implement it with a couple of parameters. See the [[#how_to_configure_a_fixed-top_menu|steps]]

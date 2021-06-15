@@ -1,0 +1,18 @@
+====== Strap - Side Slot ======
+
+===== About =====
+The ''side slot'' is a [[slot|slot]] that is located by default at the left side of the content.
+
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Feature =====
+
+The cache of the side slot is automatically deleted when a page in the same namespace is created, added or deleted.
+See [[:sideslots]]
+
+===== Configuration =====
+==== sidebar ====
+
+In Dokuwiki, the ''side slot'' is known as the sidebar. You can change the name of the side slot page with the [[doku>config:sidebar|dokuwiki sidebar]] [[:configuration|configuration]]

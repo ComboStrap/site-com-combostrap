@@ -1,0 +1,24 @@
+====== Strap Template - Slot ======
+
+
+===== About =====
+''slot'' are placeholders in the template that can be filled dynamically.
+
+The Strap template supports the following slot:
+  * [[side_slot|side slot]] (at the left side of the content)
+  * [[headerbor|header slot]] (at the top of a page)
+  * [[footerbor|footer slot]] (at the bottom of a page)
+  * [[sidekickbor|sidekick slot]] (at the right of the content)
+
+
+For instance:
+  * if you want to create a [[side_slot|side slot]] for the whole website, you would create the page called ''sideslot''
+  * if you want to create a [[side_slot|side slot]] specific for a ''namespace'', you would create the page called ''namespace:sideslot''
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Features =====
+
+  * All ''slot'' follows the same convention than the [[doku>faq:sidebar|DokuWiki sidebar]]
+  * A ''slot'' can defined by namespace (directory), if there is a ''slot'' page created in a namespace, this slot has a higher priority than the root slot and is rendered for this namespace.
+  * A ''slot'' is automatically [[quality:automatic_hidden|hidden]].

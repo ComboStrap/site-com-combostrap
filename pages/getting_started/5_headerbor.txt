@@ -1,22 +1,22 @@
-====== ComboStrap Getting Started - Creation of a top bar======
+====== ComboStrap Getting Started - Creation of a top menu bar======
 
 
 ===== About =====
-The [[strap:strap|strap template]] supports the creation of a dokuwiki page called [[strap:headerbor|headerbar]] in order to create a [[ui:navbar|navigation bar]] at the top location of the page.
+The [[strap:strap|strap template]] supports the creation of a slot page called [[strap:headerbor|header slot]] in order to create a [[ui:menubar|menu bar]] at the top location of the page.
 
 
 ===== Steps=====
 
   * Create a page called '':headerbar'' (at the root directory of your pages)
-  * Enter the below [[ui:navbar|navbar]] example
+  * Enter the below [[ui:menubar|menu bar]] example
 
 
 
-If you have uploaded a icon in the [[getting_started/4_favicon|Favicon step]], a minimal ''headerbar'' with a [[ui:navbar|navbar]] would look like:
+If you have uploaded a icon in the [[getting_started/4_favicon|Favicon step]], a minimal ''header slot'' with a [[ui:menubar|menu bar]] would look like:
 
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="Default">
 <code dw>
-<navbar breakpoint="md" align="center">
+<menubar breakpoint="md" align="center">
 <brand title="My Brand">
 <icon name="logo.svg" />
 My Brand name
@@ -29,17 +29,17 @@ My Brand name
 </dropdown>
 </group>
 
-<btn elevation="true">[[getting_started:getting_started|Get Started]]</btn>
+<btn shadow="true">[[getting_started:getting_started|Get Started]]</btn>
 <search/>
 </collapse>
-</navbar>
+</menubar>
 </code>
 </webcode>
 
-More ... see the [[ui:navbar|navbar article]]
+More ... see the [[ui:menubar|menu bar page]]
 
 ===== Next Steps =====
-In the same way, you can also create a [[strap:footerbor|footerbar]].
+In the same way, you can also create a [[strap:footerbor|footer slot]].
 
 Then you can:
   * Check the [[ui:ui|UI Components]]

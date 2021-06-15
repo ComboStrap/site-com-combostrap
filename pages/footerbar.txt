@@ -2,30 +2,30 @@
 <footer spacing="p-3" background-color="gradient-light">
 <container >
 	<row>
-<col spacing="ms-md-3">
+<cell spacing="ms-md-3">
 <text h4 color="#075EBB"><icon name="logo.svg"/ spacing="mr-1"/>ComboStrap</text>
-<text lead>The leading web markup platform</text> 
+<text lead>The leading web markup platform</text>
 
 <text width="350px">Create web sites, publish landing pages, write articles, how-to's, documentations or build your knowledge base
 in simple markup language.</text>
-</col>
-<col>
+</cell>
+<cell>
     <row>
-         <col>
+         <cell>
 **Product** \\
 [[combostrap|ComboStrap]] \\
 [[release:release|Release (Changes)]] \\
 [[credits|Credits]] \\
-		</col>
-		<col>
+		</cell>
+		<cell>
 **Contact** \\
 [[support@combostrap.com?subject=Contact via WebSite|support@combostrap.com]] \\
 [[:support|Support]] \\
 [[:about_us|About Us]] \\
 [[:security|Security]] \\
-		</col>
+		</cell>
     </row>
-</col>
+</cell>
 </row>
 </container>
 </footer>

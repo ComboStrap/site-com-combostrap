@@ -1,30 +1,30 @@
 ---json
 {
-   "canonical":"sidekickbor"
+   "canonical":"sidekick"
 }
 ---
 
-====== Strap Template - Sidekick bar ======
+====== Strap Template - Sidekick Slot ======
 
 ===== About =====
-The ''sidekick bar'' is a [[bar|bar]] that is shown at the right side of a page.
+The ''sidekick slot'' is a [[slot|slot]] that is shown at the right side of the content.
 
 
 ===== Articles Related =====
 {{backlinks>.}}
 
 ===== How it works =====
-This is just an extension of the standard [[bar|bar feature]] of [[doku>|Dokuwiki]]
+This is just an extension of the standard [[slot|slot feature]] of [[doku>|Dokuwiki]]
 
-  * Create a page called ''sidekickbar'' 
+  * Create a page called ''sidekickslot'' 
   * And you will see its content appears at the right side of the page.
 
 ===== Caching =====
 
-The cache of the sidebar is automatically deleted when a page in the same namespace is created, added or deleted.
-See [[:sidebars]]
+The cache of the side slots is automatically deleted when a page in the same namespace is created, added or deleted.
+See [[:sideslots]]
 
 ===== Configuration =====
 ==== Name ====
 
-You can configure the name of the ''sidekickbar'' with the ''tpl»strap»sidekickbar'' [[:configuration|configuration]]
+You can configure the name of the ''sidekickslot'' with the ''tpl»strap»sidekickslot'' [[:configuration|configuration]]
