@@ -10,7 +10,7 @@
 
 
 ===== About =====
-The icon [[ui|component]] permits you to create an [[svg|svg]] icon such as this one <icon name="bs:emoji-wink" color="steelblue" width="22px"/> :
+''icon'' is a [[ui|component]] that permits to add easily an [[svg|svg]] icon such as this one: <icon name="bs:emoji-wink" color="steelblue" width="22px"/> :
   * from an [[#library|icon library]]
   * or from your media library as a [[#other_library_such_as_google_icon|SVG media file]]
 
@@ -21,7 +21,9 @@ The icon [[ui|component]] permits you to create an [[svg|svg]] icon such as this
 
 
 ===== Syntax =====
+An icon can be seen as a character and is therefore a component that can be used in a [[ui:inline|line]].
 
+The syntax is:
 <code dw>
 <icon name="[library:]name" />
 </code>
@@ -62,7 +64,7 @@ An ''icon'' is just a [[svg|svg]] that is seen as a character.
 
 
 ComboStrap sets the following properties on a icon by default:
-  * width and height have the same value (default to 24px)
+  * ''width'' and ''height'' have the same value (default to ''24px'')
   * [[styling:color|color]]: ''currentColor'' by default
   * not responsive (no ''preserveAspectRatio'' and no max length CSS properties)
   * no [[image#align|alignment]] (ie no left, center or right)
@@ -110,21 +112,29 @@ Example with a [[https://feathericons.com/?query=box|''box'' icon]]
 
 ==== Other library such as google icon ====
 
-You can also easily embedded icons from other icon banks by using the [[svg|svg syntax]].
+You can also easily embedded icons from other icon banks.
 
 You just need to follow this steps:
   * go to your icon repository
   * download your icon
-  * upload it to your [[doku>images|media library]]
-  * use it as [[svg|svg]] with a value of ''icon'' for the ''type'' attribute
+  * upload it to your [[doku>images|media library]] (preferably under the directory ''combostrap:icons'')
+  * use it:
+      * with the [[svg|svg]] syntax with a value of ''icon'' for the ''type'' attribute
+      * or with the [[#syntax|icon syntax]] (if saved under the directory ''combostrap:icons'')
 
 
-Example with [[https://fonts.google.com/icons|Google icon]] and the ''favorite'' icon
-<webcode name="Default" frameborder=0  >
+Example with [[https://fonts.google.com/icons|Google icon]] and the ''favorite'' icon saved in the media library in the namespace ''combostrap:icons:google''
+  * with the [[ui:svg|svg syntax]]
+<webcode name="SvgIconSyntax" frameborder=0  >
 <code dw>
-{{:ui:favorite_black_24dp.svg?36&type=icon&color=steelblue|}}
+{{:combostrap:icons:google:favorite_black_24dp.svg?36&type=icon&color=steelblue|}}
 </code>
-  * Output:
+</webcode>
+  * with the [[#syntax|icon syntax]] (if you saved it under the directory ''combostrap:icons'')
+<webcode name="IconGoogleSyntax" frameborder=0  >
+<code dw>
+<icon name="google:favorite_black_24dp" width="36" color="purple"/>
+</code>
 </webcode>
 
 
@@ -165,9 +175,21 @@ The ''width'' and ''height'' attributes have the same value and takes the defaul
 <icon name="logo.svg" width="96px" />
 </code>
 </webcode>
-==== Native Attribute ====
-As all [[styling:html|ComboStrap UI components]] do, the ''icon'' component supports also all attributes of its underlying ''svg HTML element''. See [[https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg|svg attributes]]
+==== Styling and Native Attribute ====
 
+
+The ''icon'' component supports also :
+  * all SVG attributes ([[https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg|svg attributes]])
+  * and [[styling:styling|styling attribute]]
+
+
+Example:
+  * with a [[styling:hover|hover animation]]
+<webcode name="Solid">
+<code dw>
+<icon name="bs:alarm-fill" color="pink" onHover="grow" width="36"/>
+</code>
+</webcode>
 
 
 
@@ -194,7 +216,7 @@ At installation time, the default library is [[#material design|material design]
 ===== Support =====
 ==== Prerequisite ====
 
-This component uses the [[support:requirement|DOM module]]. This module is enabled by default on all hosting platform. It should be then no problem for most of the platform.
+This component uses the [[support:requirement|DOM module]]. This module is enabled by default on all hosting platform. It should be then no problem for most of your installation.
 
 
 

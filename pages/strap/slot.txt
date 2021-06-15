@@ -2,23 +2,23 @@
 
 
 ===== About =====
-''slot'' are placeholders in the template that can be filled dynamically.
+''slot'' are placeholders in the template that can be filled by creat
 
 The Strap template supports the following slot:
   * [[side_slot|side slot]] (at the left side of the content)
-  * [[headerbor|header slot]] (at the top of a page)
-  * [[footerbor|footer slot]] (at the bottom of a page)
+  * [[header_slot|header slot]] (at the top of a page)
+  * [[footer_slot|footer slot]] (at the bottom of a page)
   * [[sidekickbor|sidekick slot]] (at the right of the content)
 
 
 For instance:
-  * if you want to create a [[side_slot|side slot]] for the whole website, you would create the page called ''sideslot''
-  * if you want to create a [[side_slot|side slot]] specific for a ''namespace'', you would create the page called ''namespace:sideslot''
+  * if you want to fill the [[side_slot|side slot]] for the whole website, you would create the ''side slot'' page (by default known as ''sidebar'')
+  * if you want to fill the [[side_slot|side slot]] only  for a specific ''namespace'', you would create the  ''side slot'' page under this namespace (for instance: ''namespace:sidebar'')
 ===== Articles Related =====
 {{backlinks>.}}
 
 ===== Features =====
 
-  * All ''slot'' follows the same convention than the [[doku>faq:sidebar|DokuWiki sidebar]]
-  * A ''slot'' can defined by namespace (directory), if there is a ''slot'' page created in a namespace, this slot has a higher priority than the root slot and is rendered for this namespace.
-  * A ''slot'' is automatically [[quality:automatic_hidden|hidden]].
+  * A ''slot'' can be defined for every namespace (directory). If there is no ''slot'' page for a namespace, a  ''slot'' page is searched in the ascendant namespace (parent, grand parent,...)
+  * A ''slot'' is automatically [[quality:automatic_hidden|hidden]] and not searchable.
+  * [[:sideslots|Side slots (side and sidekick slots)]] are rendered for every namespace and regenerated for each namespace changes (page creation, modification, deletion)

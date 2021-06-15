@@ -12,7 +12,7 @@
 ''sticky'' is a property of a [[ui:block|block component]] that will stick their position to the [[#page top|top of your page]].
 
 
-This component are generally in aside [[strap:bar|bar]] such as the [[strap:sidebor|sidebar]] or [[strap:sidekickbor|sidekickbar]].
+This component are generally in aside [[strap:slot|bar]] such as the [[strap:side_slot|sidebar]] or [[strap:sidekickbor|sidekickbar]].
 
 Sticky blocks are perceived much better by visitors than unfixed widgets and therefore they have a significantly higher click-through rate.
 
@@ -28,7 +28,7 @@ Adding the ''sticky'' attribute will made them sticky.
 
 ==== Page top ====
 
-If you have a [[strap:fixed-top-navbar|fixed top navbar]], this is the [[strap:fixed-top-navbar#set_the_height_of_the_navbar|height of your navbar]], otherwise this is the top of the window.
+If you have a [[strap:fixed-top-menu|fixed top navbar]], this is the [[strap:fixed-top-menu#set_the_height_of_the_navbar|height of your navbar]], otherwise this is the top of the window.
 
 ===== Example =====
 

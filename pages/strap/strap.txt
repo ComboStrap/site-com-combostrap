@@ -20,15 +20,15 @@ The ''strap'' template supports the following features:
   * [[bootstrap|Last bootstrap version (4)]]
   * [[styling:bootstrap|Custom Bootstrap Styleshet (create and add your own)]]
   * [[cdn|Serve the Bootstrap files by default from a CDN]]
-  * Supports [[bar|4 bars]] layout
-      * [[sidebor|Sidebar]] (left)
+  * Supports [[slot|4 bars]] layout
+      * [[side_slot|Sidebar]] (left)
       * [[sidekickbor|Sidekickbar]] (right)
-      * [[headerbor|Headerbar]] (top)
+      * [[header_slot|Headerbar]] (top)
       * [[footerbor|Footerbar]] (bottom)
   * [[release:deprecated:dynamic_grid|Dynamic grid system from 12 to 16 columns]]
   * [[toolbar|Aggregate toolbar (Page, User Site) with a private option]]
   * Support [[semantic:tagline]]|tagline]]
-  * [[fixed-top-navbar|Fixed-top navbar with automatic top page location correction]]
+  * [[fixed-top-menu|Fixed-top navbar with automatic top page location correction]]
   * Support a [[ui:trail_breadcrumb|trailing breadcrumb]]
   * [[styling:scale|Size Scale configuration (font and spacing)]]
   * [[getting_started:4_favicon|Favicon]]: Recognized the [[getting_started:4_favicon|favicons]]  (included ''android-chrome-192x192.png'')

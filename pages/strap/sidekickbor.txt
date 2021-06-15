@@ -1,6 +1,6 @@
 ---json
 {
-   "canonical":"sidekick"
+   "canonical":"sidekick_slot"
 }
 ---
 
@@ -14,10 +14,10 @@ The ''sidekick slot'' is a [[slot|slot]] that is shown at the right side of the 
 {{backlinks>.}}
 
 ===== How it works =====
-This is just an extension of the standard [[slot|slot feature]] of [[doku>|Dokuwiki]]
+This is a standard [[slot|slot feature]]
 
   * Create a page called ''sidekickslot'' 
-  * And you will see its content appears at the right side of the page.
+  * And you will see its content appears at the right side of the main content.
 
 ===== Caching =====
 
