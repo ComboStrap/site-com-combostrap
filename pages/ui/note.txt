@@ -22,7 +22,7 @@ Content
 </note>
 </code>
 where:
-  * ''title'' is a [[title|title]]
+  * ''title'' is a [[release:deprecated:title|title]]
   * ''type'' may have one of the following value:
     * [[#info]] (Default)
     * [[#important]]
@@ -67,7 +67,7 @@ You can also style your [[ui|ComboStrap UI components]] with [[styling:spacing|s
 
 ==== Important ====
 
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="important">
 <code dw>
 <note important >
 === Important note ===
@@ -78,7 +78,7 @@ Too little sport is not good for your health
 
 ==== Warning ====
 
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="warning">
 <code dw>
 <note type="warning">
 === Warning note ===
@@ -102,6 +102,7 @@ Too little sport is not good for your health
 </webcode>
 
 ==== Horizontal Centering====
+
 With the [[styling:align|align attribute]]
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>

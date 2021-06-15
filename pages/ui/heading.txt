@@ -17,6 +17,10 @@ An ''heading'' has two different function:
 
 The rule is simple, when a heading is not in a component, it's a [[outline|structural heading]], otherwise, it's a title component.
 
+<note info>
+If you search the ''title'' of a ''page'', see the page [[semantic:title]]
+</note>
+
 
 ===== Articles Related =====
 {{backlinks>.}}
