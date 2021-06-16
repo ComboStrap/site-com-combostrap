@@ -60,7 +60,7 @@ New: [[release:1.13_bootstrap5|Bootstrap 5]] is now the default. Read more about
 
 ==== Layout ====
   * New: ''auto'' layout is supported on a [[ui:grid|grid]] where the columns takes the natural width of their content and never overflow.
-  * New: If there is no [[strap:bar|bar]], the main content is centered with a  max length of 9 cols.
+  * New: If there is no [[strap:slot|bar]], the main content is centered with a  max length of 9 cols.
   * New: A [[strap:layout|Layout]] by page can be specified. 
 
 ==== Security ====
@@ -77,7 +77,7 @@ New: [[release:1.13_bootstrap5|Bootstrap 5]] is now the default. Read more about
 ==== Markup perfect ====
 Markup perfect means that there is no need to tweak the output via styling.
 
-  * Improvement: Placing a [[ui:button|button]] in a [[ui:navbar|navbar]] does not require any [[styling:spacing|spacing]] attribute. The [[ui:button|button]] spacing is automatically created.
+  * Improvement: Placing a [[ui:button|button]] in a [[ui:menubar|navbar]] does not require any [[styling:spacing|spacing]] attribute. The [[ui:button|button]] spacing is automatically created.
   * New: ''Edit'' button have been added for [[ui:card|card]], [[ui:panel|panel]] and [[ui:slide|slide]] making it easier to edit them.
   * New: [[ui:text|Typo]] - the title styling class ''display-1'' to ''display-6'' are now responsive on Bootstrap 4
   * Update: The test are testing now that the HTML generation is ''XHMTL'' compliant. This is no more done with the hand.

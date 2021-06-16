@@ -73,15 +73,15 @@ It contains most of the UI and functional components such as:
   * [[strap:bootstrap|Last bootstrap version (4)]]
   * [[styling:bootstrap|Custom Bootstrap Styleshet (create and add your own)]]
   * [[strap:cdn|Serve the Bootstrap files by default from a CDN]]
-  * Supports [[strap:bar|4 bars]] layout
-      * [[strap:sidebor|Sidebar]] (left)
+  * Supports [[strap:slot|4 bars]] layout
+      * [[strap:side_slot|Sidebar]] (left)
       * [[strap:sidekickbor|Sidekickbar]] (right)
-      * [[strap:headerbor|Headerbar]] (top)
-      * [[strap:footerbor|Footerbar]] (bottom)
+      * [[strap:header_slot|Headerbar]] (top)
+      * [[strap:footer_slot|Footerbar]] (bottom)
   * [[release:deprecated:dynamic_grid|Dynamic grid system from 12 to 16 columns]]
   * [[strap:toolbar|Aggregate toolbar (Page, User Site) with a private option]]
   * Support [[semantic:tagline|tagline]]
-  * [[strap:fixed-top-navbar|Fixed-top navbar with automatic top page location correction]]
+  * [[strap:fixed-top-menu|Fixed-top navbar with automatic top page location correction]]
   * Support a [[ui:trail_breadcrumb|trailing breadcrumb]]
   * [[styling:scale|Size Scale configuration (font and spacing)]]
   * [[getting_started:4_favicon|Favicon]]: Recognized the [[getting_started:4_favicon|favicons]]  (included ''android-chrome-192x192.png'')

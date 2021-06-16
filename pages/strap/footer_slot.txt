@@ -51,4 +51,4 @@ This code will output the following:
 </webcode>
 
 ===== Configuration =====
-You can configure the name of page that will render in the ''footer slot'' with the ''tpl»strap»footerslot'' [[:configuration|configuration]]
+You can configure the name of page that will render in the ''footer slot'' with the ''tpl»strap»footerSlotPageName'' [[:configuration|configuration]]

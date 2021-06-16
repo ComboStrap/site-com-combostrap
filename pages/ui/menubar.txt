@@ -7,7 +7,7 @@
 ====== ComboStrap UI - Menu bar ======
 
 ===== About =====
-A ''menu'' is an horizontal [[ui:navigation|navigational bar]] with links and dropdown menu that should be used in the [[strap:headerbor|page header]].
+A ''menu'' is an horizontal [[ui:navigation|navigational bar]] with links and dropdown menu that should be used in the [[strap:header_slot|page header]].
 
 
 Inside a ''menu'' component, you can add:

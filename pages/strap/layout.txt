@@ -29,8 +29,8 @@ ComboStrap supports actually, three page layouts:
 ==== Holy ====
 
 The default layout is a fully responsive layout (known also as the ''holy grail'') with:
-  * a [[strap:headerbor|header]]
-  * a [[strap:footerbor|footer]]
+  * a [[strap:header_slot|header]]
+  * a [[strap:footer_slot|footer]]
   * and three columns:
       * [[strap:side_slot|left sidebar]]
       * [[strap:sidekickbor|right sidebar]]

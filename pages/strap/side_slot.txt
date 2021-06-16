@@ -10,7 +10,7 @@ The ''side slot'' is a [[slot|slot]] that is located by default at the left side
 ===== Feature =====
 
 The cache of the side slot is automatically deleted when a page in the same namespace is created, added or deleted.
-See [[:sideslots]]
+See [[strap:sideslots]]
 
 ===== Configuration =====
 ==== sidebar ====

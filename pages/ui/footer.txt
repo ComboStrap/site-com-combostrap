@@ -4,7 +4,7 @@
 ===== About =====
 ''footer'' is an [[ui|UI ComboStrap component]] that implements the [[https://www.w3.org/TR/2011/WD-html5-author-20110809/the-footer-element.html|HTML footer element]].
 
-It's generally used in the [[strap:footerbor|footerbar]] of the [[strap:strap|Strap template]].
+It's generally used in the [[strap:footer_slot|footerbar]] of the [[strap:strap|Strap template]].
 
 <note tip>A footer for a whole page is known as a fat footer.</note>
 
