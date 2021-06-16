@@ -9,7 +9,7 @@ For all [[ads|ads module]], the ads are located  in the namespace (directory) ca
 
 To exclude the ''combostrap'' location from the search index with the [[doku>config:hidepages]] [[:configuration|configuration]] 
   * Add ''combostrap'' in the page to hide.
-  * With the [[strap:bar|bar]] of the template, you should have this value:
+  * With the [[strap:slot|bar]] of the template, you should have this value:
 <file>
 (headerbar|footerbar|sidebar|sidekickbar|combostrap)
 </file>

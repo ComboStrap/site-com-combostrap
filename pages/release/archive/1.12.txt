@@ -32,11 +32,11 @@ Check the below changes to know more about all of them:
   * New [[ui:button|button]] HTML generation. If a button has a link in its description, the HTML generated is a link with a button role. This corrects the XHTML compliancy problem and makes the button clickable on its whole surface.
   * New configuration to disable totally the [[quality:dynamic_monitoring|dynamic quality monitoring]] feature.
   * Link Styling breaking change:
-      * the [[ui:dropdown|dropdown link]] in the [[ui:navbar|navbar]] got a ''active'' class. This was not right and was deleted. Unfortunately, it has an effect on the styling.
+      * the [[ui:dropdown|dropdown link]] in the [[ui:menubar|navbar]] got a ''active'' class. This was not right and was deleted. Unfortunately, it has an effect on the styling.
       * the dokuwiki class ''wikilink1'' (existing page) and ''wikilink2'' (not existing page) were adding extra styling rules that were incompatible with Bootstrap. They have been changed by new name but it's still possible to get them back with [[ui:link#useDokuwikiLinkClassName|useDokuwikiLinkClassName configuration]].
       * ''wikilink2'' was changed with ''text-warning'' to show visually that the page does not exist
   * New [[ui:image|Image page]] to show how to elevate an image
-  * Bug: The [[strap:bar|bar pages]] are not anymore set as [[quality:low_quality_page|low quality page]].
+  * Bug: The [[strap:slot|bar pages]] are not anymore set as [[quality:low_quality_page|low quality page]].
   * Twitter aware: ComboStrap pages are now [[semantic:twitter|twitter aware and renders in tweet as cards]].
   * Facebook aware: ComboStrap pages are now [[semantic:facebook|facebook]].
   * New: [[:social|social page]] to concentrate on one page all the social features.

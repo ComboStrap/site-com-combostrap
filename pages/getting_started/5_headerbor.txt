@@ -2,7 +2,7 @@
 
 
 ===== About =====
-The [[strap:strap|strap template]] supports the creation of a slot page called [[strap:headerbor|header slot]] in order to create a [[ui:menubar|menu bar]] at the top location of the page.
+The [[strap:strap|strap template]] supports the creation of a slot page called [[strap:header_slot|header slot]] in order to create a [[ui:menubar|menu bar]] at the top location of the page.
 
 
 ===== Steps=====
@@ -39,7 +39,7 @@ My Brand name
 More ... see the [[ui:menubar|menu bar page]]
 
 ===== Next Steps =====
-In the same way, you can also create a [[strap:footerbor|footer slot]].
+In the same way, you can also create a [[strap:footer_slot|footer slot]].
 
 Then you can:
   * Check the [[ui:ui|UI Components]]

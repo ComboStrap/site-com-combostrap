@@ -12,11 +12,11 @@
 ===== About =====
 A ''namespace TOC'' is a [[navigation|navigational component]] that creates a [[toc|table of content (TOC)]] for a ''namespace''. It lays out all pages of a [[doku>namespaces|namespace (ie directory)]] in a [[list|list fashion]]
 
-This component is mostly used in a [[strap:sidebor|sidebar]] or [[strap:sidekickbor|sidekickbar]]
+This component is mostly used in a [[strap:side_slot|side slot]] or [[strap:sidekickbor|sidekick slot]]
 
 <badge>Since [[release:release|version 1.6]]</badge>
 
-The ''ntoc'' has replaced the [[minimap|minimap]] component.
+The ''ntoc'' has replaced the [[release:deprecated:minimap|minimap]] component.
 
 ===== Articles Related =====
 {{backlinks>.}}
@@ -58,7 +58,7 @@ where:
 where the ''page-item'' template is composed of:
   * an [[icon|icon]]
   * a link
-  * and a [[pipeline|pipeline]] to modify the [[title|title]] of the page.
+  * and a [[pipeline|pipeline]] to modify the [[release:deprecated:title|title]] of the page.
 </webcode>
 
 

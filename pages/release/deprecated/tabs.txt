@@ -47,7 +47,7 @@ where:
       * it must **not** contain any space characters.
       * it must begin with a letter ''[A-Za-z]''
       * it may be followed by any number of letters, digits ''[0-9]'', hyphens ''-'', underscores ''_'', colons '':'', and periods ''.''
-  * the content of a ''tabpanel'' accepts all syntax (included the [[ui:title|dokuwiki heading format]] <badge>Since [[release:release|version 1.7]]</badge>)
+  * the content of a ''tabpanel'' accepts all syntax (included the [[release:deprecated:title|dokuwiki heading format]] <badge>Since [[release:release|version 1.7]]</badge>)
 ===== Example =====
 
 <note important>

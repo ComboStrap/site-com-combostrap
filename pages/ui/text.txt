@@ -28,7 +28,7 @@ Second paragraph
 where:
   * [[styling:type|type]] can take the values:
       * ''lead'': It makes a paragraph stand out by setting a bigger font-size and weight
-      * ''h1 to h6'': when you want to match the font styling of a [[heading|heading]]. <inote>If you want to set a title for a component, use the [[title|title component]] instead</inote>
+      * ''h1 to h6'': when you want to match the font styling of a [[heading|heading]].
       * ''custom class'' that you have created in the [[styling:userstyle|userstyle stylesheet]].
   * [[#line-spacing]] sets the space between the lines of a paragraph.
   * [[styling:text-color|color]] can take all [[styling:color|color values]] and the [[#color|specific text colors]]:
@@ -49,14 +49,14 @@ where:
 <text lead>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit
 
-Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 </text>
 
 **versus:**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 
-sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 </code>
 </webcode>
 
@@ -72,7 +72,7 @@ A text that looks like an heading level 1
 </webcode>
 
 ==== Line-Spacing ====
-[[styling:line-spacing|line-spacing]] is a styling attribute that lets you define the height between each line inside a paragraph. 
+[[styling:line-spacing|line-spacing]] is a styling attribute that lets you define the height between each line inside a paragraph.
 
 Example:
 <webcode name="Default" frameborder="0">
@@ -120,7 +120,7 @@ This line of text is at the **end** of a paragraph (right for a left-to-right la
 </webcode>
 
 <note>
-Text alignment can also be **screen conditional**. 
+Text alignment can also be **screen conditional**.
 
 For all information about this attribute, see the dedicated page: [[styling:text-align]]
 </note>

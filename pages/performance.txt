@@ -42,9 +42,9 @@ All Javascript file are served from a [[strap:cdn|CDN]] and are deferred (loaded
 ==== Sidebar Cache Bursting ====
 
 
-[[strap:sidebor|Sidebars]] are using heavily the index when they show [[ui:navigation|navigational components]] and have a great impact on the web server rendering time.
+[[strap:side_slot|Side slots]] are using heavily the index when they show [[ui:navigation|navigational components]] and have a great impact on the web server rendering time.
 
-With the [[sidebars|sidebars automatic cache bursting]], the only user impacted is the editor that is recreating the sidebar when he saves the page.
+With the [[strap:sideslots|side slots automatic cache bursting]], the only user impacted is the editor that is recreating the sidebar when he saves the page.
 
 
 Action: If you have any [[https://www.dokuwiki.org/caching|%%~~NOCACHE~~%%]] instructions in your sidebar, just delete them.
@@ -54,12 +54,12 @@ We follow the [[https://developers.google.com/search/docs/advanced/guidelines/go
 === Lazy load ===
 
 All [[ui:image|images]] are [[lazy|lazy loaded]] by default. It means that they are loaded only when:
-  * they are on the screen 
+  * they are on the screen
   * they are going to enter in the screen.
 
 === Automatic Responsive Sizing ===
 
-All raster images (jpg, png, ...) are also automatically loaded with the appropriate sizing. 
+All raster images (jpg, png, ...) are also automatically loaded with the appropriate sizing.
 
 If a page contains an big image (say 2400px), this image will be resized and served to 300px on a small mobile screen.
 

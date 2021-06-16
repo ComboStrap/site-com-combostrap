@@ -11,19 +11,19 @@
 ===== Change list =====
 
 The version 1.2 is a big template improvement release:
-  * The [[strap:footerbor|footerbar]] is no longer constrained in width.
+  * The [[strap:footer_slot|footerbar]] is no longer constrained in width.
   * Implementation of the [[ui:grid|grid component]]
   * The [[ui:container|container]] is now a [[styling:html|superset HTML component]]
   * You can now set a [[styling:color#gradient|background color gradient]].
   * The [[ui:footer|footer]] element was created.
   * The [[strap:strap|strap template]] applies now a ''dokuwiki'' class on the whole page in order to be able to have [[doku>Dokuwiki]] styling such as [[doku>interwiki|interwiki icon]] in the footer.
   * The [[:css|template CSS]] can now be [[:css#preload|preloaded]]
-  * The [[strap:dynamic_grid|dynamic grid]] was added with a 16 grid system
+  * The [[release:deprecated:dynamic_grid|dynamic grid]] was added with a 16 grid system
   * A [[styling:bootstrap|custom bootstrap theme]] can now be added
   * The [[strap:sidekickbor|sidekickbar]] was added
   * The [[strap:toolbar|toolbar]] can now be private
   * The [[ui:inote|inote component]] (inline note) was created.
   * The [[strap:cdn|CDN feature]] has now its own page and is also tested
   * A [[strap:jquery|Jquery]] and [[strap:bootstrap|Bootstrap]] page were added
-  * The [[ui:navbar|navbar]] now supports completely the ''Bootstrap'' options.
-  * The [[strap:fixed-top-navbar|fixed-top navbar]] has now a page and is fully dynamically configurable.
+  * The [[ui:menubar|navbar]] now supports completely the ''Bootstrap'' options.
+  * The [[strap:fixed-top-menu|fixed-top navbar]] has now a page and is fully dynamically configurable.

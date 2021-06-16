@@ -3,8 +3,8 @@
 
 ===== About =====
 ''jquery'' is available in the [[strap|strap template]] and is used for interactive actions such as:
-  * the [[ui:search|search bar]] 
-  * the [[ui:navbar|collapse of the navbar]]
+  * the [[ui:search|search bar]]
+  * the [[ui:menubar|collapse of the menu bar]]
   * the [[ui:dropdown|dropdowns]]
 
 ===== Articles Related =====
@@ -25,7 +25,7 @@ Before ''Bootstrap 5'', by default, the jquery version is:
   * for an anonymous user, the Jquery version of [[Bootstrap#bootstrapversion|Bootstrap]] <inote warning>Bootstrap does not use Jquery-ui</inote>
   * for a logged-in user, the [[doku>devel:jqueryfaq|Jquery version of Dokuwiki]].
 
-You can change this behavior with the [[#JqueryDoku|JqueryDoku configuration]] in order to use only the Jquery bundle of DokuWiki. 
+You can change this behavior with the [[#JqueryDoku|JqueryDoku configuration]] in order to use only the Jquery bundle of DokuWiki.
 
 ==== See ====
 

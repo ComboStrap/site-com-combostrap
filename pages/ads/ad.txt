@@ -9,12 +9,12 @@ The ''ad tag'' is a syntax component of the [[ads|ads module]] that will insert 
 {{backlinks>.}}
 ===== Example =====
 
-For instance, if you want to add a ''Ad'' in the top of the [[strap:sidebor|sidebar]], you would:
-  * create a [[page|ad page]] called ''sidebarTop'' 
-  * and add it in your [[strap:sidebor|sidebar]] with the following syntax
+For instance, if you want to add a ''Ad'' in the top of the [[strap:side_slot|side slot]], you would:
+  * create a [[page|ad page]] called ''sideSlotTop''
+  * and add it in your [[strap:side_slot|side slot]] with the following syntax
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
-<ad name="sidebarTop"/>
+<ad name="sideSlotTop"/>
 </code>
 
 </webcode>

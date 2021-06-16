@@ -20,9 +20,9 @@ List of changes for the [[release:release|release]] ''1.4'' (2020-07-20)
   * The [[ui:button|button]] was improved: outline and size are now supported.
   * The [[ui:tooltip|tooltip component]] was added
   * The [[ui:jumbotron|jumbotron component]] was added
-  * The [[ui:typo|typo component]] was added to apply styling on a paragraph level
+  * The [[ui:text|typo component]] was added to apply styling on a paragraph level
   * The [[ui:hr|hr component]] was added to draw an horizontal rule
-  * The [[ui:title|title component]] was added to give more control on the title of component
+  * The [[release:deprecated:title|title component]] was added to give more control on the title of component
   * The ''monospaced'' dokuwiki syntax has become an ''highlight'' within the [[ui:renderer|renderer]]
   * Added the [[ui:table|table page]] to showcase the fact that they are by default responsive.
   * Added the [[styling:skin|skin attributes]] to define emphasis.

@@ -10,7 +10,7 @@
 ''header'' is the top location of a page or of a component.
 
 Combostrap supports:
-  * the modification of the page header with the [[strap:headerbor|headerbar]]
+  * the modification of the page header with the [[strap:header_slot|header slot]]
   * the definition of an header in the following component:
       * [[card]]
       * [[blockquote]]

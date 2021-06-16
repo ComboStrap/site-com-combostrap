@@ -8,8 +8,8 @@ A ''container'':
 
 
 It's used in [[ui:layout|layout component]] such as:
-  * [[strap:headerbor|header]] 
-  * [[strap:footerbor|footer]]
+  * [[strap:header_slot|page header]]
+  * [[strap:footer_slot|page footer]]
   * and [[ui:slide|slide]]
 
 <note>

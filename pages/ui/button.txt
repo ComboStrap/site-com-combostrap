@@ -80,7 +80,7 @@ You can also add [[styling:hover|hover animation]].
 <button type size="medium" elevation="false" skin="outline|...">
 </button>
 </code>
-or 
+or
 <code dw>
 <btn type size="medium" elevation="false" skin="outline|...">
 </btn>
@@ -100,7 +100,7 @@ The ''button'' component is a fully [[styling:html|super set HTML component]] an
 A ''button'' can be used:
   * in the page content
   * in a [[card|card]]
-  * in a [[navbar|navbar]]
+  * in a [[menubar|menubar]]
 
 
 ==== Type ====

@@ -2,7 +2,7 @@
 
 
 ===== About =====
-''navgroup'' implements the ''navbar-nav'' element that is used in a [[navbar|navbar]] to group navigation elements.
+''navgroup'' implements the ''navbar-nav'' element that is used in a [[menubar|menubar]] to group navigation elements.
 
 This is used to group elements of a navbar such as:
   * links

@@ -1,7 +1,7 @@
 ====== ComboStrap UI - Brand ======
 
 ===== About =====
-''brand'' is a [[ui|component]] that must go in a [[ui:navbar|navbar]]. It highlights and helps styling the ''brand'' depicted as text and/or [[ui:icon|icon]].
+''brand'' is a [[ui|component]] that must go in a [[ui:menubar|menubar]]. It highlights and helps styling the ''brand'' depicted as text and/or [[ui:icon|icon]].
 
 This is a variation of the [[https://getbootstrap.com/docs/4.0/components/navbar/#brand|Bootstrap Brand component]]
 

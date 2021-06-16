@@ -19,7 +19,7 @@
 
 
   * [[breadcrumb]] : A list of pages shown in a [[hierarchical_breadcrumb|hierarchical]] or [[trail_breadcrumb|trail]]  way.
-  * [[navbar]] : The top navigation bar
+  * [[menubar]] : The top navigation bar
   * [[toc]] : The table of content
   * [[ntoc]] : A sidebar navigation component that shows list of pages of the current category 
   * [[tabs]] : A tab when activated that shows its related [[panel|panel]]

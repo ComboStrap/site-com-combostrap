@@ -13,10 +13,10 @@
 ''Strap'' is the template part and this page shows you how to install it.
 
 <note>
-This is not mandatory to install the ''strap'' template if you want to use the [[:combostrap|combo components]] but some feature may not work such 
+This is not mandatory to install the ''strap'' template if you want to use the [[:combostrap|combo components]] but some feature may not work such
 as:
   * the setting of the [[semantic:title|title]].
-  * no canonical for [[strap:bar|bars]]
+  * no canonical for [[strap:slot|slots]]
   * no [[styling:scale|responsive typo]]
   * the possibility to put your own [[styling:bootstrap|Bootstrap template]]
   * the fix on automatic line break on [[styling:prism#regex_language|prism regex language]]

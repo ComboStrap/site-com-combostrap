@@ -4,7 +4,7 @@
 ===== About =====
 ''search'' is a component that implement the [[doku>search|dokuwiki search form]] in a [[https://getbootstrap.com/docs/4.0/components/navbar/#forms|Bootstrap format]].
 
-It was developed to be placed in a [[navbar|navbar component]].
+It was developed to be placed in a [[menubar|menubar component]].
 
 ===== Quick Access =====
 

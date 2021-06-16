@@ -16,13 +16,13 @@ The ''sidekick slot'' is a [[slot|slot]] that is shown at the right side of the 
 ===== How it works =====
 This is a standard [[slot|slot feature]]
 
-  * Create a page called ''sidekickslot'' 
+  * Create a page called ''slot_sidekick''
   * And you will see its content appears at the right side of the main content.
 
 ===== Caching =====
 
 The cache of the side slots is automatically deleted when a page in the same namespace is created, added or deleted.
-See [[:sideslots]]
+See [[strap:sideslots]]
 
 ===== Configuration =====
 ==== Name ====
