@@ -36,7 +36,7 @@ ComboStrap (Beta)
 </menubar>
 </code>
 
-For a complete and detailed instruction, see [[getting_started:5_headerbor]]
+For a complete and detailed instruction, see [[getting_started:5_menu]]
 
 ==== Set the height of the menu bar ====
 

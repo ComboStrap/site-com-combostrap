@@ -10,13 +10,18 @@ This ''how-to'' guide regroups a serie of article to get you started.
   * [[2_combo|Combo Installation]]
   * [[3_strap|Strap Installation]]
   * [[4_favicon|Installation of a favicon]]
-  * [[5_headerbor|Creation of the top bar]]
+  * [[5_menu|Creation of the top bar]]
 
 
 <note tip>
 If you have any further questions, wishes or errors, don't hesitate to [[:support|contact us]]
 </note>
 
+
+===== Start =====
+<btn color="white">
+[[getting_started:1_dokuwiki|Step 1 - Dokuwiki Installation]]
+</btn>
 
 
 

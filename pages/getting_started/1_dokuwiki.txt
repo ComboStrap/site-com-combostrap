@@ -18,6 +18,6 @@ To know more:
   * about the installer script, see [[doku>installer]]
 
 ===== Next Step =====
-<btn>
+<btn color="white">
 [[2_combo|Combo Installation]]
 </btn>

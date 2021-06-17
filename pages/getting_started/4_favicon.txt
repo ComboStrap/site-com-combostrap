@@ -81,6 +81,6 @@ The [[semantic:facebook|facebook page]] will tell your more about the specific o
 
 ==== Next Step ====
 
-<btn>
-[[5_headerbor|Create a headerbar]]
+<btn color="white">
+[[5_menu|Create a menu]]
 </btn>

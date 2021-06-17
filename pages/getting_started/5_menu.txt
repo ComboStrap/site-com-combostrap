@@ -7,12 +7,12 @@ The [[strap:strap|strap template]] supports the creation of a slot page called [
 
 ===== Steps=====
 
-  * Create a page called '':headerbar'' (at the root directory of your pages)
+  * Create a page called '':slot_header'' (at the root directory of your pages)
   * Enter the below [[ui:menubar|menu bar]] example
 
 
 
-If you have uploaded a icon in the [[getting_started/4_favicon|Favicon step]], a minimal ''header slot'' with a [[ui:menubar|menu bar]] would look like:
+If you have uploaded a icon in the [[4_favicon|Favicon step]], a minimal ''header slot'' with a [[ui:menubar|menu bar]] would look like:
 
 <webcode name="Default">
 <code dw>
@@ -23,13 +23,13 @@ My Brand name
 </brand>
 <collapse>
 <group expand="true">
-<dropdown name="ComboStrap Components">
-[[ui:ui|UI Components]]
-[[url:url|Url Management]]
+<dropdown name="Menu">
+[[#|item]]
+[[#|item]]
 </dropdown>
 </group>
 
-<btn shadow="true">[[getting_started:getting_started|Get Started]]</btn>
+<btn shadow="true" color="white">[[getting_started:getting_started|Get Started]]</btn>
 <search/>
 </collapse>
 </menubar>
