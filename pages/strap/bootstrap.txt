@@ -10,14 +10,13 @@
 ===== About =====
 ''bootstrap'' is the default UI system used by [[:combostrap|ComboStrap]].
 
-We use by default, the latest Bootstrap version 5 supported.
+We use by default, the latest Bootstrap version supported.
 
 If you use the [[strap:strap|strap template]], you can
-  * change the version and of style with the [[#bootstrapVersionStylesheet|bootstrap version stylesheet version]] (there is more than 30 differents style) 
+  * change the version and stylesheet with the [[#bootstrapVersionStylesheet|bootstrap version stylesheet version]] (there is more than 30 differents style) 
   * or even [[styling:bootstrap|create and bring your own]]
 
 
-If you don't use the [[strap:strap|strap template]] and we don't found bootstap on your template, the latest Bootstrap version is added.
 ===== Articles Related =====
 {{backlinks>.}}
 
@@ -47,3 +46,6 @@ Actually, there is three Bootstrap versions supported:
 
 After the version, you will find the [[styling:stylesheet|stylesheet name]].
 
+<note>
+If you don't use the [[strap:strap|strap template]] and we don't found bootstrap on your template, the latest Bootstrap version will be added with the default stylesheet.
+</note>
