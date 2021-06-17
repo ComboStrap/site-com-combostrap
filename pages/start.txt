@@ -35,7 +35,7 @@ Create website, publish landing pages, articles, how-to's, documentations or bui
    <text lead width="400px" align="center">You get all components fully customized out of the box and ready to use.</text>
 </box>
 
-<row>
+<row class="justify-content-center">
 
 <cell>
 <icon name="bs:markdown-fill" color="#7611F7" spacing="my-3" width="2.75rem"/>
@@ -172,6 +172,7 @@ Built with and extends the world's most popular styling library.
 <text h5>Material Design</text>
 All components follows the Material Design guidelines to bring more clarity.
 </cell>
+
 
 <cell>
 <icon name="git" color="#7611F7" spacing="my-3" width="2.75rem"/>
