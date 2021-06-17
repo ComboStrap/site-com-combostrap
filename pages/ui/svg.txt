@@ -85,7 +85,7 @@ Example of an svg icon with a:
 
 ===== Features =====
 
-==== Inclusion =====
+==== Inclusion ====
 If the SVG file has a size that is less or equal to the [[#svgMaxInlineSize]] configuration, the SVG is directly included into the HTML document as markup
 Otherwise, it is added as a image.
 

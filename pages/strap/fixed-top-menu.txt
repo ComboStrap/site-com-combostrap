@@ -1,7 +1,7 @@
 ---json
 {
-    "canonical":"top:navbar",
-    "description":"A top navbar is just two steps",
+    "canonical":"top_menubar",
+    "description":"A top menubar is just two steps",
     "title":"Top navigation bar made simple"
 }
 ---
