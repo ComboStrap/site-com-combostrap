@@ -5,19 +5,101 @@
     "description":"This page lists all markdown syntax support in ComboStrap "
 }
 ---
-====== ComboStrap - Markdown  ======
+====== ComboStrap UI - Markdown  ======
 
 ===== About =====
-''ComboStrap'' supports the following ''markdown'' syntax.
+''ComboStrap'' supports the ''markdown'' syntax. This page lists all supported syntax.
 
 
 
 
+===== List =====
 
-^ Syntax ^ Combo Component ^
-| [[https://daringfireball.net/projects/markdown/syntax#precode|markdown code]] | [[ui:preformatted|indented code block]] |
-| [[https://github.github.com/gfm/#fenced-code-blocks|fenced code block]] | [[ui:code|code]] |
-| [[https://github.github.com/gfm/#atx-headings|Atx Heading]] | [[ui:heading#markdown|Atx heading]] |
+
+==== Heading ====
+
+The [[https://github.github.com/gfm/#atx-headings|Atx Heading]] is supported as  [[ui:heading#markdown|Heading]].
+
+<webcode name="Default" frameborder="0">
+<code dw iframe>
+# Heading 1
+## Heading 2
+</code>
+</webcode>
+
+==== Code ====
+
+The [[https://daringfireball.net/projects/markdown/syntax#precode|precode]] is supported via the [[ui:preformatted|Indented code block component]]
+
+<webcode name="Default" frameborder="0">
+  * Input:
+<code dw class="no-whitespace-normalization">
+    Indented code
+    block
+</code>
+  * Output
+</webcode>
+
+The [[https://github.github.com/gfm/#fenced-code-blocks|fenced code block]] is supported via the [[ui:code|Code component]]
+
+<webcode name="Default" frameborder="0">
+  * Input
+<code md>
+```html
+<div>Fenced Code Block</div>
+```
+</code>
+  * Output:
+</webcode>
+
+
+
+==== Bold ====
+We support the [[https://daringfireball.net/projects/markdown/syntax#emphasis|double asterix syntax]] for [[styling:boldness|bold emphasis (ie strong)]]
+
+<webcode name="Default" frameborder="0">
+  * Input:
+<code dw>
+**double asterisks**
+</code>
+  * output
+</webcode>
+
+\\
+\\
+\\
+<note>
+The syntax with two underscore ''%%__%%'' is actually not supported because it's the syntax that is used by the wiki language to specify [[styling:underline|underline]].
+</note>
+
+==== List ====
+
+[[https://daringfireball.net/projects/markdown/syntax#list|list]] are supported but with two spaces at the start of the line.
+
+<webcode name="Default" frameborder="0">
+Input:
+<code dw class="no-whitespace-normalization">
+  *   Red
+  *   Green
+  *   Blue
+</code>
+Output
+</webcode>
+
+==== Horizontal Rule ====
+
+[[https://daringfireball.net/projects/markdown/syntax#hr|Horizontal Rule]] are supported by using four or more dashes. See also the [[ui:hr|horizontal rule]] component for more styling possibilities.
+
+<webcode name="Default" frameborder="0">
+  * Input:
+<code dw>
+----
+</code>
+  * Output:
+</webcode>
+
+
+
 
 
 ===== Support =====
