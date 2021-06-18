@@ -1,30 +1,33 @@
 ====== ComboStrap UI - Brand ======
 
 ===== About =====
-''brand'' is a [[ui|component]] that must go in a [[ui:menubar|menubar]]. It highlights and helps styling the ''brand'' depicted as text and/or [[ui:icon|icon]].
+''brand'' is a [[ui|component]] that goes generally in the left side of the [[ui:menubar|menubar]]. 
 
-This is a variation of the [[https://getbootstrap.com/docs/4.0/components/navbar/#brand|Bootstrap Brand component]]
+It highlights and helps styling the ''brand'' depicted as text and/or [[ui:icon|icon]] and adds a [[link|link]] to your home page.
+
 
 ===== Articles Related =====
 {{backlinks>.}}
 ===== Example =====
 ==== Text ====
 
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="Text only">
 <code dw>
 <brand>
-Nico
+Company
 </brand>
 </code>
 </webcode>
 
 ==== Icon ====
-With an embbedded [[icon|icon]] and some [[styling:style|style]]
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+With an embbedded [[icon|icon]] and some [[styling:styling|styling]]
+<webcode name="icon" >
+  * Input:
 <code dw>
-<brand style="color:#dc3545">
+<brand color="#dc3545" boldness="semi-bold">
     <icon name="alpha-d-box" />
     The best brand !
 </brand>
 </code>
+  * Output:
 </webcode>

@@ -34,6 +34,7 @@
   * The ''navbar'' has also be renamed to [[ui:menubar|menu bar]] that convey much more it's functionality (being an horizontal bar with dropdown).
   * Every template perfect: A bootstrap and [[strap:strap|strap]] template is no longer mandatory. If [[strap:bootstrap|Bootstrap]] is not found, it will be added. The css of the template may conflict. This is the case for instance with the default Dokuwiki. In a button, this template sets the color of ''a:link'' and ''a:visited'' that takes precedence over the white text color and the text in the button is therefore not displayed. You need then to set the [[styling:color|text color]] to ''white'' for each primary button.
   * Bug: [[doku>config:target|target]] configuration was not taken into account for [[ui:link|internal link]]
+  * [[ui:brand|brand]] is now a [[styling:html|superset html component]] and allows all styling.
 ==== Heading Hierarchy ====
   * The ''title'' component is now known as the [[ui:heading|heading]].
   * New: [[ui:outline#numbering|Outline Numbering]] is now fully customizable from decimal to latin-upper. Due to this change, the anchor are now located to the right.
