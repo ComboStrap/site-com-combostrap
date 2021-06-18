@@ -13,9 +13,9 @@
     <container>
         <row>
             <cell spacing="ps-lg-5">
-<title 3 class="text-capitalize">Web Publication Platform Since 2010</title>
+<heading d3 class="text-capitalize">Web Publication Platform Since 2010</heading>
 <text h3 class="text-capitalize" boldness="light">The leading web markup publication platform</text>
-<text lead boldness="350">
+<text lead>
 Create website, publish landing pages, articles, how-to's, documentations or build your knowledge base with the power of the web and the simplicity of a markup language.
 </text>
             </cell>
@@ -31,7 +31,7 @@ Create website, publish landing pages, articles, how-to's, documentations or bui
 <slide size="lg"  background-color="light">
 <container>
 <box text-align="center">
-   <text h2>Really useful features</text>
+   <heading h2>Really useful features</heading>
    <text lead width="400px" align="center">You get all components fully customized out of the box and ready to use.</text>
 </box>
 
@@ -198,7 +198,7 @@ The platform is open source, guarantee of sustainability and
 <background opacity="0.7">{{:woman-yoga-sunset.jpg|}}</background>
 <container>
 <cell width="300px" text-align="center" color="#5b5965">
-       <text h1>Ready for the journey?</text>
+       <heading h1>Ready for the journey?</heading>
        <text lead>Become a publisher today</text>
        [[:getting_started:getting_started|<icon name="bs:play-circle-fill" width="3.75rem" color="#5b5965"/>]]
 </cell>
