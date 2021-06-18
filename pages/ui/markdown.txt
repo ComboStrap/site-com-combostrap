@@ -8,7 +8,7 @@
 ====== ComboStrap UI - Markdown  ======
 
 ===== About =====
-''ComboStrap'' supports the ''markdown'' syntax. This page lists all supported syntax.
+''ComboStrap'' can render ''markdown'' syntaxes and this page lists all supported syntax.
 
 
 
@@ -20,8 +20,8 @@
 
 The [[https://github.github.com/gfm/#atx-headings|Atx Heading]] is supported as  [[ui:heading#markdown|Heading]].
 
-<webcode name="Default" frameborder="0">
-<code dw iframe>
+<webcode name="Default" frameborder="0" iframe>
+<code dw>
 # Heading 1
 ## Heading 2
 </code>
