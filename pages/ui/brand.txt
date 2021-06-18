@@ -12,11 +12,13 @@ It highlights and helps styling the ''brand'' depicted as text and/or [[ui:icon|
 ==== Text ====
 
 <webcode name="Text only">
+  * Input:
 <code dw>
 <brand>
 Company
 </brand>
 </code>
+  * Output:
 </webcode>
 
 ==== Icon ====
@@ -25,7 +27,7 @@ With an embbedded [[icon|icon]] and some [[styling:styling|styling]]
   * Input:
 <code dw>
 <brand color="#dc3545" boldness="semi-bold">
-    <icon name="alpha-d-box" />
+    <icon name="alpha-d-box" width="36"/>
     The best brand !
 </brand>
 </code>
