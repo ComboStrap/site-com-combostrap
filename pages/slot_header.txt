@@ -1,7 +1,7 @@
 
 <menubar breakpoint="md" position="top">
-<brand title="ComboStrap Home" style="color:#075EBB">
-<icon name="logo.svg" />
+<brand title="ComboStrap Home" color="#7611F7" boldness="bold">
+<icon name="logo.svg" color="#7611F7" width="30"/>
 ComboStrap
 </brand>
 <collapse>
@@ -20,7 +20,7 @@ ComboStrap
 </dropdown>
 [[support|Contact]]
 </group>
-<btn elevation="true">[[getting_started:getting_started|Get Started <icon name="arrow-right-drop-circle-outline" width="1.5rem"/>]]</btn>
+<btn elevation="true" background-color="#7611F7" border-color="#7611F7">[[getting_started:getting_started|Get Started <icon name="arrow-right-drop-circle-outline" width="1.5rem"/>]]</btn>
 <search/>
 </collapse>
 </menubar>

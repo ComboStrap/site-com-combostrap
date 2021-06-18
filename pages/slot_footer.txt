@@ -19,7 +19,7 @@ in simple markup language.</text>
 		</cell>
 		<cell>
 **Contact** \\
-[[support@combostrap.com?subject=Contact via WebSite|support@combostrap.com]] \\
+[[support@combostrap.com?subject=Contact via WebSite|Mail]] \\
 [[:support|Support]] \\
 [[:about_us|About Us]] \\
 [[:security|Security]] \\
