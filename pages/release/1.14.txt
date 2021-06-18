@@ -78,6 +78,7 @@ In [[styling:html|html super set language]], this is no more needed for an attri
 ==== Webcode ====
   * [[ui:webcode|webcode]] shows the example code in a iframe. The markup code does not conflict with the code of the page. This was needed for the [[ui:heading|heading example]].
   * [[ui:webcode|webcode]] supports also the markdown code syntax
+  * [[ui:webcode|webcode]] has become a stack component leading to less HTML paragraph creation.
 ==== Clickable ====
   * [[styling:clickable|clickable]] can now be used in **all** components with a link. This is no more limited to [[ui:grid|grid]] and [[ui:card|card]].
 
@@ -110,7 +111,8 @@ The ''title'' component is now integrated and known as a [[ui:heading|heading]].
 
 ===== Bug =====
 ==== Webcode ====
-When the content of a rendered [[ui:webcode|webcode]] is less than the default html element height of 150, the padding of the first descendant phrasing element would end up in the margin of the iframe html element. 
+  * When the content of a rendered [[ui:webcode|webcode]] is less than the default html element height of 150, the padding of the first descendant phrasing element would end up in the margin of the iframe html element. 
+  * Webcode was deleting the first p and last p if present. We got then an XHTML error when their was a first p but not a last p. It can be the case with a button and a div as this is with the [[ui:collapse|collapse example]]
 
 ==== Target for internal link was not taken into account ====
 Bug: [[doku>config:target|target]] configuration was not taken into account for [[ui:link|internal link]]
