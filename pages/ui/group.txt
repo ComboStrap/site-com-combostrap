@@ -2,11 +2,8 @@
 
 
 ===== About =====
-''navgroup'' implements the ''navbar-nav'' element that is used in a [[menubar|menubar]] to group navigation elements.
+''group'' permit to groups navigation elements to the left or right side of a [[menubar|menubar]].
 
-This is used to group elements of a navbar such as:
-  * links
-  * or [[dropdown|dropdown]]
 
 ===== Articles Related =====
 {{backlinks>.}}
@@ -17,18 +14,18 @@ This is used to group elements of a navbar such as:
 <group expand="true|false">
 </code>
 where:
-  * ''expand=true''  will make the group expand on the right side in order to take the available space and push the next element to the right. <inote tip>For the geek, this attribute will apply the bootstrap class ''mr-auto''</inote>
+  * ''expand=true''  will push the elements outside the group to the right.
 ===== Example =====
 The first group will be at the left and the search form at the right
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="Default" frameborder=0 >
 <code dw>
 <menubar>
 <group expand="true">
-[[navbar|Navbar]]
+[[#|Menubar]]
 <dropdown name="Nav Menu">
-[[group|Navbar]]
-[[dropdown|DropDown]]
-[[search|Search]]
+[[#|Menubar]]
+[[#|DropDown]]
+[[#|Search]]
 </dropdown>
 </group>
 <search>

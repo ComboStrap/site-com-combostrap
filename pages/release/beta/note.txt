@@ -7,8 +7,13 @@
 ====== Beta - Note ======
 
 
+===== Improvement =====
 
-
+  * The tag test have now their own test class.
+  * The tag syntax is no more needed.
+  * The page (viz:viz) and the page (data:viz:viz) have the same canonical.
+  * Page deleted / moved should be deleted /renamed into the database
+  * monospace in the renderer should be a component
 ===== Lazy load =====
   * Noscript handling for [[:lazy|lazy loading]] Better for seo also. See [[https://github.com/ApoorvSaxena/lozad.js/wiki/Frequently-Asked-Questions#how-to-load-images-normally-when-javascript-is-disabled|doc]]
   * Supports Background image
@@ -122,7 +127,6 @@ db:oracle:999999.9:union:all:select_null:from_dual_and_0_0
   * [[semantic:article|Article]] role:
       * [[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Article_Role|Add article role]]
       * [[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_article_role|Article role]]
-  * Passing [[semantic:lang|lang]] to the body strap template node ?
   * Social:
       * Mail and Messenger wrapper: https://mailgo.dev/
       * https://ellisonleao.github.io/sharer.js/

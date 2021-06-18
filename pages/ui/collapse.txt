@@ -8,7 +8,7 @@
 
 ===== About =====
 ''collapse'' can refers to
-  * a [[#navbar|navbar]] component that will collapse its children.
+  * a [[#menubar|menubar]] component that will collapse its children on a smaller screen.
   * or an [[#attribute|attribute]] that defines a UI component to collapse.
 
 
@@ -42,7 +42,7 @@ where the following attributes are mandatory:
 </webcode>
 
 
-==== Navbar ====
+==== Menubar ====
 
 in a [[menubar|menubar]], a ''collapse'' element will collapse its children . All the element that are inside a collapse will be collapsed when the width of the page becomes a mobile size.
 

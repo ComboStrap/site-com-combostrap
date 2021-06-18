@@ -1,13 +1,13 @@
 ---json
 {
-   "canonical":"navbar"
+   "canonical":"menubar"
 }
 ---
 
 ====== ComboStrap UI - Menu bar ======
 
 ===== About =====
-A ''menu'' is an horizontal [[ui:navigation|navigational bar]] with links and dropdown menu that should be used in the [[strap:header_slot|page header]].
+A ''menubar'' is an horizontal [[ui:navigation|navigational bar]] with links and dropdown menu that should be used in the [[strap:header_slot|page header]].
 
 
 Inside a ''menu'' component, you can add:
@@ -41,14 +41,11 @@ If you choose a fixed-top navbar, you need also to change a ''strap template'' s
 
 ===== Example =====
 
-==== A navbar with two dropdown menu and the search box at the right ====
+==== A menubar with two dropdown menu and the search box at the right ====
 
-<webcode name="NavbarDropDownSearchBox" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
-  * No cache when developing the bar to be sure.
-<code dw>
-~~NOCACHE~~
-</code>
-  * The start of the navbar.
+<webcode name="MenubarDropDownSearchBox" frameborder=0>
+
+  * The start of the menubar.
 <code dw>
 <menubar breakpoint="sm">
 </code>
@@ -58,7 +55,7 @@ If you choose a fixed-top navbar, you need also to change a ''strap template'' s
 <icon name="desktop-mac-dashboard" /> Brandly
 </brand>
 </code>
-  * [[collapse|Collapse]] to indicate all elements that will collapse when the size of the screen is lower than the navbar breakpoint
+  * [[collapse|Collapse]] to indicate all elements that will collapse when the size of the screen is lower than the menubar breakpoint
 <code dw>
 <collapse>
 </code>
@@ -94,7 +91,7 @@ If you choose a fixed-top navbar, you need also to change a ''strap template'' s
   * Output
 </webcode>
 
-==== A dark navbar ====
+==== A dark menubar ====
 
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
@@ -108,7 +105,7 @@ ComboStrap
 [[#|Home]]
 [[#|Features]]
 [[#|Release]]
-Navbar text with an inline element
+Menubar text with an inline element
 </group>
 </collapse>
 </menubar>
