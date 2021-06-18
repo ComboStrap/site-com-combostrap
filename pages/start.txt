@@ -35,7 +35,7 @@ Create website, publish landing pages, articles, how-to's, documentations or bui
    <text lead width="400px" align="center">You get all components fully customized out of the box and ready to use.</text>
 </box>
 
-<row class="justify-content-center">
+<row>
 
 <cell>
 <icon name="bs:markdown-fill" color="#7611F7" spacing="my-3" width="2.75rem"/>

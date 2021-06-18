@@ -29,11 +29,11 @@ ComboStrap supports actually, three page layouts:
 ==== Holy ====
 
 The default layout is a fully responsive layout (known also as the ''holy grail'') with:
-  * a [[strap:header_slot|header]]
-  * a [[strap:footer_slot|footer]]
+  * a [[strap:header_slot|header slot]]
+  * a [[strap:footer_slot|footer slot]]
   * and three columns:
-      * [[strap:side_slot|left sidebar]]
-      * [[strap:sidekickbor|right sidebar]]
+      * [[strap:side_slot|left slot]]
+      * [[strap:sidekickbor|right slot]]
       * main content
 
 They are all [[ui:container|contained]] in a page that is:
@@ -44,7 +44,7 @@ The main content width expands to the width of the page if the sidebars are not 
 
 ==== Median ====
 
-If there is no sidebars, the median layout centers the main content with a fix width.
+If there is no sidebars, the median layout centers the main content with a fix width, making the length of a line shorter and therefore more readable.
 
 
 You can defined it with the following [[semantic:frontmatter|frontmatter]]
@@ -80,7 +80,5 @@ Then in your [[ui:slide|slide]] component, you can still center the content by a
 </code>
 
 
-===== Documentation / Reference =====
-  * https://1linelayouts.glitch.me/
-  * https://www.cssportal.com/layout-generator/layout.php
+
 

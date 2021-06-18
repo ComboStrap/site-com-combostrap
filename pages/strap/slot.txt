@@ -2,7 +2,7 @@
 
 
 ===== About =====
-''slot'' are placeholders in the template that can be filled by creat
+''slot'' are placeholders in the template that can be filled by creating a page.
 
 The Strap template supports the following slot:
   * [[side_slot|side slot]] (at the left side of the content)
@@ -12,7 +12,7 @@ The Strap template supports the following slot:
 
 
 For instance:
-  * if you want to fill the [[side_slot|side slot]] for the whole website, you would create the ''side slot'' page (by default known as ''sidebar'')
+  * if you want to fill the [[side_slot|side slot]] for the whole website, you would create the ''side slot'' page (by default the ''sidebar'' page)
   * if you want to fill the [[side_slot|side slot]] only  for a specific ''namespace'', you would create the  ''side slot'' page under this namespace (for instance: ''namespace:sidebar'')
 ===== Articles Related =====
 {{backlinks>.}}
@@ -22,3 +22,10 @@ For instance:
   * A ''slot'' can be defined for every namespace (directory). If there is no ''slot'' page for a namespace, a  ''slot'' page is searched in the ascendant namespace (parent, grand parent,...)
   * A ''slot'' is automatically [[quality:automatic_hidden|hidden]] and not searchable.
   * [[strap:sideslots|Side slots (side and sidekick slots)]] are rendered for every namespace and regenerated for each namespace changes (page creation, modification, deletion)
+
+
+===== Glossary =====
+
+==== Bar vs Slot ====
+
+In ComboStrap, a ''slot'' is a place in the template where content can be added while a ''bar'' is a UI component such as the [[ui:menubar|menu bar]].

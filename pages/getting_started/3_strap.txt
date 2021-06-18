@@ -17,6 +17,7 @@ This is not mandatory to install the ''strap'' template if you want to use the [
 
 Be aware that:
   * this features will not work:
+      * no [[strap:layout|page layout]] (holy, median, landing, ..)
       * no [[strap:slot|slot]] (no dynamic ''header'', ''footer'' and ''sidekick bar'') 
       * the setting of the [[semantic:title|title]].
       * no canonical for [[strap:slot|slots]]
