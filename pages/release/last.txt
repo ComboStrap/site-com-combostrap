@@ -150,6 +150,11 @@ Bug: [[doku>config:target|target]] configuration was not taken into account for 
 
 ==== Collapse ====
 The new [[release:1.13_bootstrap5|bootstrap]] namespace was not applied and therefore [[ui:collapse|collapse]] was not working with Bootstrap 5.
+
+==== Raster Image ====
+  * The width and height of the [[ui:raster|raster image]] were set on the intrinsic width and height on not on the requested width and height. There was then FOUC effect when the image was lazy downloaded .
+  * The rounding dimension value was not to the closest but the the lowest integer value.
+
 ===== Deprecated =====
 ==== Dynamic Grid ====
 
