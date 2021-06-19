@@ -8,7 +8,7 @@ The Strap template supports the following slot:
   * [[side_slot|side slot]] (at the left side of the content)
   * [[header_slot|header slot]] (at the top of a page)
   * [[footer_slot|footer slot]] (at the bottom of a page)
-  * [[sidekickbor|sidekick slot]] (at the right of the content)
+  * [[sidekick_slot|sidekick slot]] (at the right of the content)
 
 
 For instance:

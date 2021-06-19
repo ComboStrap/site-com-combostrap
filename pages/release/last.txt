@@ -1,95 +1,175 @@
 ---json
 {
-    "canonical":"1.13",
-    "title":"ComboStrap - 1.13 release",
-    "description":"The combostrap 1.13 release documentation "
+    "canonical":"1.14",
+    "title":"ComboStrap - Release 1.14",
+    "description":"ComboStrap - Release 1.14"
 }
 ---
-====== ComboStrap - Release 1.13 - Last  ======
-
+====== ComboStrap - Release 1.14 (Last) ======
 
 ===== About =====
-The [[release|release]] ''1.13'' was focus on the creation of ''landing page'' components. This is the first ''landing page'' release. The next will be ''landing page'' perfect with full animation and layout.
+The ''release 1.14'' has made Combostap fully functional on the [[styling:typo|typographic side]]. It was needed to create ''landing page'' that requires to tweak the style a little bit.
 
+There is also a lot of improvement in order to make the product easier to use.
 
 <note important>
-Due to [[release:1.13_bootstrap5|introduction of Bootstrap 5 in this release]], a configuration update is require. As the bootstrap version and the stylesheet are now in the same [[strap:bootstrap#configuration|configuration]], you need after the update to set it back to your [[styling:stylesheet|preferred stylesheet]] back.
-
-
-{{:strap:bootstrapversionstylesheet.png|}}
+The bar configuration has changed to be renamed to [[strap:slot|slot]]. The new release should take care of the migration but if
+there is any problem during the migration, you may not see your header, footer or sidebar. If this is the case, you should just set the value in your [[strap:slot|slot configuration]]
+  * [[strap:side_slot|side slot]]
+  * [[strap:sidekick_slot|sidekick slot]]
+  * [[strap:header_slot|header slot]]
+  * [[strap:footer_slot|footer slot]]
 </note>
+===== New =====
+
+==== Typography ====
+  * New [[styling:typo|typographic page]]
+  * New: the [[ui:text|text component]] accepts to style several paragraph at once
+  * New: the [[ui:itext|itext component]] accepts to style several characters / words at once (i for [[ui:inline|inline]])
+  * New: the [[ui:text|text component]] accepts to a [[ui:text#line-spacing|line-spacing attribute]] to set the height between each line of a paragraph
+  * New: the [[styling:text-align|text-align]] attribute can now be conditional and takes the start and end notation
+  * New: the [[styling:opacity|opacity attribute]] has its own page and can be applied to all component (not only to [[styling:background|background]])
+  * New: the [[styling:boldness|boldness attribute]] to set the font-weight from extra-light to extra-dark.
+  * New: the [[styling:line-spacing|line spacing attribute]] to set the space between line
+  * New: the [[styling:font-size|font size attribute]] to set the size of characters
+  * New page: the color of the text got a page: [[styling:text-color]]
+  * New [[:styling:color#reset|color value ''reset'']]: the reset color permits to takes the color of its parent.
+  * New: the underline effect can be set with the [[styling:underline|underline attribute]]
+  * New: an internal link can be [[ui:link#styling|styled]]
+  * <itext color=danger>New !</itext>: added the text specialized colors for the [[ui:text#color|text]] and [[ui:itext#color|itext]] component.
 
 
-===== Changes / New =====
-==== Bootstrap 5 ====
-New: [[release:1.13_bootstrap5|Bootstrap 5]] is now the default. Read more about the bootstrap migration on this page: [[release:1.13_bootstrap5]]
-==== Animation ====
-  * New: added the [[styling:hover|hover animation]] to improve emphasis
+==== Page Layout: Landing Page ====
+  * New [[strap:layout|page layout]]: ''landing'' in order to create landing page with section of page created with the [[ui:slide|slide component]]
 
-==== Landing page ====
-  * New: The [[ui:slide|slide component]] to create landing page with sections of a page or hero section with alternated background
-  * New: added the [[styling:background|background component]] to manage the background of a component (at first for a [[ui:slide|slide]])
-  * New : [[styling:clickable|clickable attribute]]: make a whole surface containing a link, clickable.
+==== Markdown Code Syntax ====
+  * new: The [[ui:code|code]] component supports also the [[ui:code#markdown|markdown github code syntax]]
+
+==== Markdown Heading ====
+The [[ui:heading|heading component]] supports also the ATX markdown heading.
 
 
 
+==== Print ====
+[[styling:print|print]]. The lazy loaded image are downloaded before print and the bars are cached to be able to print a page.
+==== Outline Numbering ====
+[[ui:outline#numbering|Outline Numbering]] is now fully customizable from decimal to latin-upper. Due to this change, the anchor are now located to the right and this is no more mandatory to use the [[ui:renderer|renderer]]
 
-==== Svg ====
-  * New: Icons from [[https://icons.getbootstrap.com/|Bootstrap]] and [[https://feathericons.com/|Feather]] are now natively available from the [[ui:icon|icon component]]
-  * New: [[ui:svg_optimization|SVG Optimization]] - The Svg returned are now optimized. They are injected inline for file less than 2KB such as [[ui:icon|icon]], they are otherwise loaded lazily and injected via javascript.
-  * New: [[ui:svg#upload permission|SVG Upload Permission]] - The Svg can now be uploaded by the admin and by a group of users.
+==== New Statistics on component usage ====
+You can now analyse the syntax used in your page with the [[analytics:statistics#syntax_count|syntax count]] analytics.
 
-==== Styling / Theme ====
-  * New: [[styling:shadow|Elevation]] is also now known as the [[styling:shadow|shadow attribute]] and has gain 2 levels.
-  * New: The [[styling:stylesheet|Bootswatch stylesheet]] are now also served from the CDN (by default)
-  * New: The [[ui:table|table]] component does not take 100% width to reduce the visual space and allow floating element to the right.
-  * New: [[styling:float|float]] - the float styling attribute has been added.
-  * New: added [[styling:userstyle|styling class]] to all component. It permits to take over the whole styling and create its own via the [[styling:userstyle|userstyle stylesheet]].
+==== RTL and Component Language support ====
+  * New: support for RTL language at the page level, through the [[semantic:lang|lang metadata of frontmatter]], we apply now the right language and direction in the [[strap:strap|strap template]]. Example: [[semantic:lang_ar]]
+  * New: [[semantic:lang|Lang attribute]] to mix languages on the same page. Demo with English and Arabic languages: [[semantic:lang_ar]]
 
-==== Performance ====
-  * New: [[:lazy|Lazy loading]] is now part of Combostrap and the default
+==== Credits page added  ====
+  * Added the [[:credits|credits page]]
 
-==== Raster Image ====
-  * New: the [[ui:image|image component]] accepts now [[styling:styling|styling attributes]]
-  * New: [[ui:raster|Raster Images]] are now lazy loaded by default 
-  * New: [[ui:raster#retina support|Raster Images Retina Support]]. The image may be downloaded at a size that depends on the screen resolution (device pixel ratio) and not on the screen size.
-  * New: [[ui:svg#lazy loading|SVG Lazy loading]] - The big Svg file are now only loaded when they are going to become visible.
-  * New: [[ui:svg#injection|SVG Injection]] - The big Svg file are downloaded and injected as SVG markup.
-  * New: [[ui:image|Image]] got the [[ui:image#defaultImageLinking|defaultImageLinking]] configuration to set the default media link behavior
-  * New: [[ui:image|Image]] with a ''width'' are media aware. The width will be 100% for a screen size below the ''width'' to make them fully responsive.
+===== Improvement =====
 
-==== Layout ====
-  * New: ''auto'' layout is supported on a [[ui:grid|grid]] where the columns takes the natural width of their content and never overflow.
-  * New: If there is no [[strap:slot|bar]], the main content is centered with a  max length of 9 cols.
-  * New: A [[strap:layout|Layout]] by page can be specified. 
+==== Heading can be styled - Easy <icon name="coffee"/> ====
+You can now style the content of your [[ui:heading|heading]] (adding icon, boldness, ...)
+==== Note ====
+  * The [[ui:note|note component]] got also the [[styling:userstyle#class|userstyle class]].
+  * A [[ui:note|note]] does not have any extra bottom margin. Due to the last paragraph of a [[ui:note|note]] and the default stylesheet of the browser, the content was not centered vertically.
 
-==== Security ====
+==== Link ====
+The [[ui:link|link attribute]] can now be used with the [[styling:styling|styling attributes]]
+==== Slide ====
+The [[ui:slide|slide component]] gets responsive x margin. Using more left and right margins, the bigger the screen is.
+==== Icon ====
+  * The [[ui:icon|icon component]] accepts any length unit (such as rem) and [[styling:spacing|padding]] was disabled because it makes the icon invisible.
+  * The icon attached to the configuration is no more downloaded but included to the page and cached leading to a big performance gain.
+==== HTML Super set ====
+In [[styling:html|html super set language]], this is no more needed for an attribute:
+      * to set a value if the value is true, 
+      * to enclose the value between between quotes if the value does not contain any spaces.
+==== Webcode ====
+  * [[ui:webcode|webcode]] shows the example code in a iframe. The markup code does not conflict with the code of the page. This was needed for the [[ui:heading|heading example]].
+  * [[ui:webcode|webcode]] supports also the markdown code syntax
+  * [[ui:webcode|webcode]] has become a stack component leading to less HTML paragraph creation.
+==== Clickable ====
+  * [[styling:clickable|clickable]] can now be used in **all** components with a link. This is no more limited to [[ui:grid|grid]] and [[ui:card|card]].
 
-  * New: [[:security|Security]], the csp directive are not statically saved in the template but added dynamically when the html headers are printed. It helps to have uniform on all pages (main, details and mediamanager)
+==== The template Bar has been renamed slot ====
 
-==== UI Component ====
+To improve the glossary, the template ''bar'' has been renamed to [[strap:slot|slot]]. This is to be abel to make the difference between:
+  * a bar (ie a GUI component) such as the menubar or toolbar
+  * and a [[strap:slot|slot]] (ie where content can be added in the template). 
+==== A bootstrap template is no more mandatory ====
+Every template perfect: A bootstrap and [[strap:strap|strap]] template is no longer mandatory. If [[strap:bootstrap|Bootstrap]] is not found, it will be added. The css of the template may conflict. This is the case for instance with the default Dokuwiki. In a button, this template sets the color of ''a:link'' and ''a:visited'' that takes precedence over the white text color and the text in the button is therefore not displayed. You need then to set the [[styling:color|text color]] to ''white'' for each primary button.
 
-  * New: A [[ui:link|Link]] by default cannot be written on  multiple line to avoid having strange behavior. The [[ui:link#enableMultiLinesLink|enableMultiLinesLink]] configuration permits to control this behavior.
-  * New: You can add [[ui:image|image]] in [[ui:panel|panel label]] (demo with [[ui:tabs#label|tabs label]])
-  * Improvement: [[ui:preformatted|preformatted (indented code block)]] is now enable by default with [[styling:prism|prism styling]] but prints nothing when the line has only blank spaces to avoid confusion.
+==== Brand ====
+[[ui:brand|brand]] is now a [[styling:html|superset html component]] and allows all styling.
+
+==== Grid ====
+
+  * New: The ''automatic'' [[ui:grid|grid]] type. With this mode, the width of each column is automatically set and there is never an overflow on low screen size
+  * The first paragraph of a [[ui:grid|grid]] does not touch the border anymore. The default stylesheet of the browser gave a zero margin and we corrected that.
+
+===== Modification =====
+
+==== Link ====
+  * Modification Strap Css: The links are not anymore without underlined as specified in the [[https://github.com/splitbrain/dokuwiki/blob/stable/lib/tpl/dokuwiki/css/basic.less#L200|default dokuwiki template]]. This is just not the default of Bootstrap as seen in the [[https://github.com/twbs/bootstrap/blob/main/scss/_variables.scss#L289|default of the reboot stylesheet]].
+
+==== Grid ====
+  * The ''col'' tag of the [[ui:grid|grid]] is now known as ''cell'' which makes much more sense as you can have several cell that  on several line.
+==== Bar becomes slot ====
+  * To not confound with the ''bar'' term as ui component, the ''bar'' of the strap template has been renamed to [[strap:slot|slot]]
+
+==== Navbar becomes menubar ====
+The ''navbar'' has also be renamed to [[ui:menubar|menu bar]] that convey much more it's functionality (being an horizontal bar with dropdown).
+
+==== Title and Heading are known as heading ====
+The ''title'' component is now integrated and known as a [[ui:heading|heading]]. No more difference, the context choose if this is an heading for an outline or not.
+
+===== Bug =====
+==== Webcode ====
+  * When the content of a rendered [[ui:webcode|webcode]] is less than the default html element height of 150, the padding of the first descendant phrasing element would end up in the margin of the iframe html element. 
+  * Webcode was deleting the first p and last p if present. We got then an XHTML error when their was a first p but not a last p. It can be the case with a button and a div as this is with the [[ui:collapse|collapse example]]
+
+==== Target for internal link was not taken into account ====
+Bug: [[doku>config:target|target]] configuration was not taken into account for [[ui:link|internal link]]
 
 
-==== Markup perfect ====
-Markup perfect means that there is no need to tweak the output via styling.
+==== Frontmatter section editing ====
 
-  * Improvement: Placing a [[ui:button|button]] in a [[ui:menubar|navbar]] does not require any [[styling:spacing|spacing]] attribute. The [[ui:button|button]] spacing is automatically created.
-  * New: ''Edit'' button have been added for [[ui:card|card]], [[ui:panel|panel]] and [[ui:slide|slide]] making it easier to edit them.
-  * New: [[ui:text|Typo]] - the title styling class ''display-1'' to ''display-6'' are now responsive on Bootstrap 4
-  * Update: The test are testing now that the HTML generation is ''XHMTL'' compliant. This is no more done with the hand.
-  * New: ''Bootstrap perfect'': We generate exactly the same markup than [[strap:bootstrap|bootstrap]]. [[ui:card|card]] and [[ui:blockquote|blockquote]] have now bootstrap paragraph with the ''text'' class making them easier to read.
-  * New: Template Protection: We empty the php buffer before printing and send a message to admin user. Otherwise, plugins that print directly may mess the page completely.
-  * Improvement: For boolean attributes such as ''selected'' for a [[ui:tabs|panel tab]], this is no more needed to specify the value. ie ''selected'' is equivalent to ''selected=true''
-  * Improvement: A [[ui:note|note]] is now markup perfect (a stack) and accepts paragraph inside
-  * New: [[styling:float|floating right]] will add a margin at the left.
+  * Bug: edit section on [[semantic:frontmatter|frontmatter]] had a bad end position due to variable mismatch.
 
 
-==== Bug ====
 
-  * Bug: A [[ui:link#image|image link]] points to the page now and not to the image.
-  * Bug: Backlinks are now correctly rewritten when moving a page. The backlinks that were not in first position were be badly rewritten from ''%%[[id|description]]%%'' to ''%%[[newid]]|description]]%%''
+==== Box ====
+
+  * [[ui:box|box]] does not delete paragraphs anymore (ie has become a stack component)
+
+==== Link ====
+
+  * Bug: A [[ui:link|link]] without description but with a separator was showing nothing. This is corrected and we get now the default page description.
+
+
+
+==== Collapse ====
+The new [[release:1.13_bootstrap5|bootstrap]] namespace was not applied and therefore [[ui:collapse|collapse]] was not working with Bootstrap 5.
+===== Deprecated =====
+==== Dynamic Grid ====
+
+  * [[release:deprecated:dynamic_grid|grid of 16 (dynamic grid)]] is deprecated from Bootstrap 5
+==== Title ====
+
+The ''title'' component is now integrated and known as a [[ui:heading|heading]]. No more difference, the context choose if this is an heading for an outline or not.
+
+==== Navbar ====
+The ''navbar'' has been renamed to [[ui:menubar|menubar]] that convey much more it's functionality (being an horizontal bar with dropdown).
+
+==== Typo is no known as text ====
+
+  * Change: The ''typo'' component has been renamed to [[ui:text|text]]
+
+
+===== Bug To solved =====
+  * Answer: https://forum.dokuwiki.org/d/19242-find-where-a-plugin-is-used
+  * Answer: RTL/LTR https://github.com/splitbrain/dokuwiki/pull/3413
+  * XHTML bug: https://validator.w3.org/nu/?doc=https%3A%2F%2Fcombostrap.com%2F
+
+
 

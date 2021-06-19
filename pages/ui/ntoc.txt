@@ -12,7 +12,7 @@
 ===== About =====
 A ''namespace TOC'' is a [[navigation|navigational component]] that creates a [[toc|table of content (TOC)]] for a ''namespace''. It lays out all pages of a [[doku>namespaces|namespace (ie directory)]] in a [[list|list fashion]]
 
-This component is mostly used in a [[strap:side_slot|side slot]] or [[strap:sidekickbor|sidekick slot]]
+This component is mostly used in a [[strap:side_slot|side slot]] or [[strap:sidekick_slot|sidekick slot]]
 
 <badge>Since [[release:release|version 1.6]]</badge>
 

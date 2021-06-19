@@ -22,7 +22,7 @@ The ''strap'' template supports the following features:
   * [[cdn|Serve the Bootstrap files by default from a CDN]]
   * Supports [[slot|4 bars]] layout
       * [[side_slot|Sidebar]] (left)
-      * [[sidekickbor|Sidekickbar]] (right)
+      * [[sidekick_slot|Sidekickbar]] (right)
       * [[header_slot|Headerbar]] (top)
       * [[footer_slot|Footerbar]] (bottom)
   * [[release:deprecated:dynamic_grid|Dynamic grid system from 12 to 16 columns]]

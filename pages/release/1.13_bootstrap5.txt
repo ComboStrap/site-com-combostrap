@@ -9,7 +9,7 @@
 
 
 ===== About =====
-In the [[last|release 1.13]], we made Bootstrap 5 available. This page regroups all migration matters from BootStrap 4 to BootStrap 5.
+In the [[1.13|release 1.13]], we made Bootstrap 5 available. This page regroups all migration matters from BootStrap 4 to BootStrap 5.
 
 ComboStrap supports the two version.
 

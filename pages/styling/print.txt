@@ -11,7 +11,7 @@
 ===== About =====
 Before ''printing'', ''ComboStrap'' will:
   * hide the [[ui:related|related component]] and section if any
-  * hide all [[strap:slot|slots]] ([[strap:header_slot|header slot]], [[strap:footer_slot|footer slot]], [[strap:side_slot|side slot]] and [[strap:sidekickbor|sidekick slot]])
+  * hide all [[strap:slot|slots]] ([[strap:header_slot|header slot]], [[strap:footer_slot|footer slot]], [[strap:side_slot|side slot]] and [[strap:sidekick_slot|sidekick slot]])
   * download [[:lazy|all lazy images]]
 
 

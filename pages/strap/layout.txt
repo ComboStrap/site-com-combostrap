@@ -33,7 +33,7 @@ The default layout is a fully responsive layout (known also as the ''holy grail'
   * a [[strap:footer_slot|footer slot]]
   * and three columns:
       * [[strap:side_slot|left slot]]
-      * [[strap:sidekickbor|right slot]]
+      * [[strap:sidekick_slot|right slot]]
       * main content
 
 They are all [[ui:container|contained]] in a page that is:

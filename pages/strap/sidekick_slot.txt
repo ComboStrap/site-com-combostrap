@@ -16,7 +16,7 @@ The ''sidekick slot'' is a [[slot|slot]] that is shown at the right side of the 
 ===== How it works =====
 This is a standard [[slot|slot feature]]
 
-  * Create a page called ''slot_sidekick''
+  * Create a page called ''slot_sidekick'' (The [[#name|default configuration value]])
   * And you will see its content appears at the right side of the main content.
 
 ===== Caching =====

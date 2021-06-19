@@ -20,7 +20,7 @@ The version 1.2 is a big template improvement release:
   * The [[:css|template CSS]] can now be [[:css#preload|preloaded]]
   * The [[release:deprecated:dynamic_grid|dynamic grid]] was added with a 16 grid system
   * A [[styling:bootstrap|custom bootstrap theme]] can now be added
-  * The [[strap:sidekickbor|sidekickbar]] was added
+  * The [[strap:sidekick_slot|sidekickbar]] was added
   * The [[strap:toolbar|toolbar]] can now be private
   * The [[ui:inote|inote component]] (inline note) was created.
   * The [[strap:cdn|CDN feature]] has now its own page and is also tested
