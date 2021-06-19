@@ -3,7 +3,7 @@
     "canonical":"1.8"
 }
 ---
-====== ComboStrap - Release 1.8 =======
+====== ComboStrap - Release 1.8 ======
 
 ===== About =====
 [[..:release|release]] 1.8 from 2020-09-03

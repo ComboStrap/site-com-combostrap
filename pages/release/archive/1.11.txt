@@ -5,7 +5,7 @@
     "description":"The changes of the 1.11 release"
 }
 ---
-======= ComboStrap - Release 1.11  =======
+====== ComboStrap - Release 1.11  ======
 
 ===== About =====
 [[release:release|Release]] 1.11 (2021-02-02)

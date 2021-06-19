@@ -5,7 +5,7 @@
     "description":"ComboStrap 1.9 Release changes"
 }
 ---
-====== ComboStrap - Release 1.9 =======
+====== ComboStrap - Release 1.9 ======
 
 ===== About =====
 The version 1.9 was a bug fix release. (2020-10-31)
