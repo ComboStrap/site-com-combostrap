@@ -119,5 +119,11 @@ The below configuration permits to style the numbering as you wish.
 | ''outlineNumberingPrefix'' | The prefix (before the outline number counter sequence) | '''' |
 | ''outlineNumberingSuffix'' | The suffix (after the outline number counter sequence) | '' - '' |
 
+===== Supports =====
+==== The top TOC Level supported for outline numbering is 2 ====
+We support only the value ''1'' and ''2'' of the TOC configuration of the [[doku>config:toptoclevel|toptoclevel]]
+  * A value of ''1'' will show the page title in the TOC
+  * A value of ''2'' will not show the page title in the TOC
+All value above will render inconsistent numbers for the TOC.
 
 

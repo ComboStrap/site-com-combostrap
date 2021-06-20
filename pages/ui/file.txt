@@ -8,11 +8,11 @@
 
 
 ===== About =====
-The ''file'' component:
-  * takes over the manipulation of the default [[doku>wiki:syntax#code_blocks|dokuwiki file block]]
-  * is a wrapper around the [[styling:prism|Prism]] component to add:
+The ''file'' component is a component that represents the content of a file.
+
+It's a [[styling:prism|prism]] component that add:
       * syntax highlighting
-      * clipboard copy
+      * and clipboard copy
 
 
 ===== Articles Related =====
@@ -22,7 +22,7 @@ The ''file'' component:
 
 You can create block of code like this one:
 
-<file md line-numbers="true">
+<file md line-numbers>
 # Markdown header
 
 The `file` component:
@@ -48,7 +48,7 @@ This is a [[styling:prism|Prism component]] and follows the [[styling:prism#synt
 ==== Enable / Disable ====
 The ''file_enable'' [[:configuration|configuration]] permits to enable / disable this component.
 
-
+If the component is disable, the [[doku>wiki:syntax#code_blocks|dokuwiki file block]] is applied.
 ==== Theme ====
 
 This component gets the [[styling:prism|theme]]  chosen
@@ -56,7 +56,7 @@ This component gets the [[styling:prism|theme]]  chosen
 For [[styling:userstyle#class|custom css style]], there is also an extra [[styling:userstyle#class|userstyle class]] created on the ''pre'' element with the ''pref'' suffix. This element contains the code and the button.
 
 Example:
-  * Change the background color of [[ui:file|file]]
+  * Change the background color of file.
 <code css conf/userstyle.css>
 .file-combo-pre{
     background-color: #e9ecef !important;

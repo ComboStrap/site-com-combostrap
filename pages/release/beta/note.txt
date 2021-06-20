@@ -8,12 +8,24 @@
 
 
 ===== Improvement =====
-
+  * Blockquote:
+      * should have a bottom margin of 1rem if not floated
+      * bad styling due to automatic paragraph
   * The tag test have now their own test class.
   * The tag syntax is no more needed.
   * The page (viz:viz) and the page (data:viz:viz) have the same canonical.
   * Page deleted / moved should be deleted /renamed into the database
   * monospace in the renderer should be a component
+
+<file txt>
+The page (web:javascript:node:module:module) and the page (web:javascript:module:module) have the same canonical (module:module)
+The page (web:javascript:node:module:module) and the page (web:javascript:module:module) have the same canonical (module:module)
+The page (lang:python:grammar:comment) and the page (code:grammar:comment) have the same canonical (grammar:comment)
+The page (lang:java:io:standard_stream) and the page (io:standard_stream) have the same canonical (io:standard_stream)
+The page (lang:python:grammar:import) and the page (code:grammar:import) have the same canonical (grammar:import)
+The page (lang:python:grammar:comment) and the page (code:grammar:comment) have the same canonical (grammar:comment)
+The page (lang:python:type:class) and the page (code:type:class) have the same canonical (type:class)
+</file>
 ===== Lazy load =====
   * Noscript handling for [[:lazy|lazy loading]] Better for seo also. See [[https://github.com/ApoorvSaxena/lozad.js/wiki/Frequently-Asked-Questions#how-to-load-images-normally-when-javascript-is-disabled|doc]]
   * Supports Background image

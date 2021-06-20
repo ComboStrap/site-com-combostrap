@@ -12,8 +12,19 @@ The ''release 1.14'' has made Combostap fully functional on the [[styling:typo|t
 
 There is also a lot of improvement in order to make the product easier to use.
 
+
+<note warning>
+#### Fixed Top Menu Bar Height should be set again
+
+The [[strap:fixed-top-menu|height of the top menu bar]] is lost in the upgrade and should be set again to its initial value. 
+
+We missed it in the test case, sorry.
+</note>
+
 <note important>
-The bar configuration has changed to be renamed to [[strap:slot|slot]]. The new release should take care of the migration but if
+#### Bar renamed to slot
+
+The bar configurations were changed and renamed to [[strap:slot|slot]]. The new release should take care of the migration but if
 there is any problem during the migration, you may not see your header, footer or sidebar. If this is the case, you should just set the value in your [[strap:slot|slot configuration]]
   * [[strap:side_slot|side slot]]
   * [[strap:sidekick_slot|sidekick slot]]

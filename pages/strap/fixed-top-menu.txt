@@ -6,12 +6,14 @@
 }
 ---
 
-====== Strap Template - Fixed-top Menu ======
+====== Strap Template - Fixed-top Menu (Header) ======
 
 
 
 ===== About =====
-A ''fixed-top menu'' is a [[ui:menubar|menu bar]] that stays located at the top of your page even when you scroll the content down.
+A ''fixed-top menu'' or ''fixed-top header'' is a UI region that stays located at the top of your page even when you scroll the content down.
+
+It contains generally a [[ui:menubar|menu bar]].
 
 
 
