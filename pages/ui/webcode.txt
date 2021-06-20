@@ -22,6 +22,8 @@ By enclosing [[code|code blocks]] by a ''webcode'' block, the plugin will add th
 
 ===== Example=====
 
+==== HTML ====
+
   * This example will output: One emoji [[unicode>1F600|Smiley (1F600)]] in a webcode
 <file html>
 <webcode>
@@ -33,13 +35,45 @@ Output:
 </webcode>
 </file>
   * Result
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="Default">
 This is the HTML
 <code html>
 <span style="font-size:30pt">&#x1F600;</span>
 </code>
 Output:
 </webcode>
+
+==== Javascript ====
+A ''webcode'' with Javascript code.
+<file html>
+<webcode>
+  * The javascript
+<code javascript>
+var colors = [ "blue", "green" ];
+for (const [index, value] of colors.entries()) {
+  console.log(index+", "+value+"\n");
+}
+</code>
+  * Output:
+</webcode>
+</file>
+
+\\
+\\ 
+The result is:
+<webcode>
+  * The javascript
+<code javascript>
+var colors = [ "blue", "green" ];
+for (const [index, value] of colors.entries()) {
+  console.log(index+", "+value+"\n");
+}
+</code>
+  * Output:
+</webcode>
+
+
+==== Others example ====
 
 Others example can be found at github:
   * [[https://github.com/gerardnico/dokuwiki-plugin-webcode/blob/master/_test/data/pages/across_section.txt|Across section example]]
