@@ -1,0 +1,15 @@
+---json
+{
+    "canonical":"release:latest",
+    "title":"ComboStap - Latest release",
+    "description":"A synonym page to redirect to the latest release",
+    "low_quality_page":"false"
+}
+---
+====== ComboStrap - Latest release ======
+
+
+===== About =====
+The latest release is the bug fix release [[1.15|1.15]] above the release [[1.14|1.14]]
+
+For all news and modifications, you should go and the release page [[1.14]].

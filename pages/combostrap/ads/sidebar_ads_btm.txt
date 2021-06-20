@@ -1,15 +1,15 @@
 <card>
 === Put your ad on this place ? ===
 
-An [[ads:ad|ad tag]] is all what you need. 
+An [[:ads:ad|ad tag]] is all what you need. 
 
 It's a syntax component that insert an ''ad'' in 
-your page or in a [[strap:bar|bar]].
+your page or in a [[:strap:slot|slot]].
 
-This one was added in the [[strap:sidebar|sidebar]]
-of the [[ads:ads|Ads]] namespace.
+This one was added in the [[:strap:sidebar|sidebar]]
+of the [[:ads:ads|Ads]] namespace.
 
 <btn>
-[[ads:ad|''Ad Tag'' all the way]]
+[[:ads:ad|''Ad Tag'' all the way]]
 </btn>
 </card>

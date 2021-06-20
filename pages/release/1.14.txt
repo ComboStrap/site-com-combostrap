@@ -5,7 +5,7 @@
     "description":"ComboStrap - Release 1.14"
 }
 ---
-====== ComboStrap - Release 1.14 (Last) ======
+====== ComboStrap - Release 1.14 ======
 
 ===== About =====
 The ''release 1.14'' has made Combostap fully functional on the [[styling:typo|typographic side]]. It was needed to create ''landing page'' that requires to tweak the style a little bit.
