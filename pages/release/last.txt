@@ -182,10 +182,7 @@ The ''navbar'' has been renamed to [[ui:menubar|menubar]] that convey much more 
   * Change: The ''typo'' component has been renamed to [[ui:text|text]]
 
 
-===== Bug To solved =====
-  * Answer: https://forum.dokuwiki.org/d/19242-find-where-a-plugin-is-used
-  * Answer: RTL/LTR https://github.com/splitbrain/dokuwiki/pull/3413
-  * XHTML bug: https://validator.w3.org/nu/?doc=https%3A%2F%2Fcombostrap.com%2F
+
 
 
 

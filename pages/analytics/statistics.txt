@@ -87,30 +87,4 @@ You would see the ''statistics'' below the ''statistics'' property:
   * ''local_links_count'': the number of local links (ie fragment link such as ''#id'')
   * ''word_section_count'': summary on words by section
   * ''words_count'': the number of words.
-
-==== Syntax Count ====
-
-''syntax_count'' shows the number of times that a syntax was used.
-
-Example:
-<code json>
-"syntax_count": {
-	"p": 8,
-	"combo_frontmatter": 1,
-	"section": 5,
-	"monospace": 21,
-	"combo_link": 7,
-	"combo_badge": 1,
-	"combo_code": 2,
-	"table": 1,
-	"tablethead": 1,
-	"tablerow": 2,
-	"tableheader": 5,
-	"tablecell": 5,
-	"combo_button": 1,
-	"listu": 2,
-	"listitem": 16,
-	"listcontent": 16
-}
-</code>
-
+  * [[syntax_count|syntax_count]] shows the number of times that a syntax is used.

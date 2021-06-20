@@ -1,0 +1,57 @@
+---json
+{
+    "canonical":"statistic:syntax_count",
+    "title":"syntax_count - Analyse the syntax of your page",
+    "description":"The syntax count statistic shows the number of occurrence of a component (syntax) on a page"
+}
+---
+====== Page Statistic - Syntax Count (Component count) ======
+
+
+===== About =====
+''syntax_count'' is an [[statistics|statistics]] that shows the number of times a syntax (ie component) is used.
+
+You can then analyse the syntax of your page.
+
+===== Example =====
+
+==== For one page ====
+Asking for the [[statistics|json statistics]] of a page, you would see a list of key / pair properties where:
+  * the key is the syntax
+  * the value is the number of occurrence on the page
+
+
+<code json>
+"syntax_count": {
+	"p": 8,
+	"combo_frontmatter": 1,
+	"section": 5,
+	"monospace": 21,
+	"combo_link": 7,
+	"combo_badge": 1,
+	"combo_code": 2,
+	"table": 1,
+	"tablethead": 1,
+	"tablerow": 2,
+	"tableheader": 5,
+	"tablecell": 5,
+	"combo_button": 1,
+	"listu": 2,
+	"listitem": 16,
+	"listcontent": 16
+}
+</code>
+
+==== SQL  analytics ====
+
+This SQL is an example that shows all pages that have a [[ui:button|button]]
+
+<code sql>
+select
+	id,
+	json_extract(analytics, '$.statistics.syntax_count.combo_button') as button_count
+from
+	pages
+where json_extract(analytics, '$.statistics.syntax_count.combo_button') is not null
+order by id
+</code>
