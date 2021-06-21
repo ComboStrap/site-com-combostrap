@@ -1,12 +1,18 @@
 ---json
 {
     "canonical":"beta:note",
-    "low_quality_page":"true"
+    "low_quality_page":"true",
+    "published":"2999-01-01"
 }
 ---
 ====== Beta - Note ======
 
 
+===== Link =====
+
+  * https://forum.dokuwiki.org/d/6695-set-image-height/11
+  * Answer: https://forum.dokuwiki.org/d/19242-find-where-a-plugin-is-used
+  * Answer: RTL/LTR https://github.com/splitbrain/dokuwiki/pull/3413
 ===== Improvement =====
   * Blockquote:
       * should have a bottom margin of 1rem if not floated
@@ -80,7 +86,7 @@ https://new.nvsw.nl/
   * https://mdbootstrap.com/docs/standard/lab/
 
 ===== Template functionality =====
-Just ''$VAR'' 
+Just ''$VAR''
 
   * [[https://www.dokuwiki.org/plugin:wst|Template]]
   * HTML Template: https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_templates_and_slots

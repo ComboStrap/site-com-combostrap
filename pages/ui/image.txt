@@ -101,7 +101,7 @@ Example: position the image to the right with:
 </webcode>
 
 <note>
-If you want more control on position, we advise you to use the [[ui:grid|grid]] and its columns.
+If you want more control on position, we advise you to use the [[ui:grid|grid]] and its cells.
 </note>
 
 
