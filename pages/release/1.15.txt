@@ -3,7 +3,7 @@
     "canonical":"release:1.15"
 }
 ---
-====== Release 1.15 ======
+====== ComboStrap - Release 1.15 ======
 
 ===== About =====
 The release ''1.15'' is a quick bug fix release above the [[1.14|1.14]].
@@ -11,9 +11,9 @@ The release ''1.15'' is a quick bug fix release above the [[1.14|1.14]].
 
 
 ===== Bug Resolved =====
-  * Image Resize by height has bad height and with ratio in the ''srcset'' url when resizing by height.
+  * Raster Image Resizing by height was broken (ie ''0x250''). It has bad height and width ratio in the ''srcset'' url
   * [[ui:outline|Outline numbering]] didn't take into account the [[doku>config:toptoclevel]]
-  * ''unformatted'' has an unknown display
+  * ''unformatted'' has an unknown display and was sending therefore a warning message.
   * ''webcode'' html output was escaped two times making it to print HTML and not rendering it.
 
 

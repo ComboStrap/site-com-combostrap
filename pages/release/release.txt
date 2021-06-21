@@ -14,7 +14,8 @@
 ===== About =====
 This is a page that lists all releases with their respective changes for [[:combostrap|ComboStrap]].
 ===== Releases =====
-  * [[release:last]]
+  * [[release:1.15]]
+  * [[release:1.14]]
   * [[release:1.13]]
   * [[release:archive:1.12]]
   * [[release:archive:1.11]]

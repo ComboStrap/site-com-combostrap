@@ -29,9 +29,9 @@
 ===== About =====
 ''ComboStrap'' is a publishing platform based on the [[doku>|DokuWiki framework]] that focus on creating frontend website such as:
   * corporate / marketing / personal website
-  * knowledge and documentation 
+  * knowledge and documentation
 
-All the pages and configurations are stored in files written in a ''markdown-like'' based syntax. 
+All the pages and configurations are stored in files written in a ''markdown-like'' based syntax.
 
 The website can then be versioned:
   * offline in a version control system. (For instance, this website is also stored in a [[https://github.com/ComboStrap/website|Git Repository]]).
@@ -73,20 +73,18 @@ It contains most of the UI and functional components such as:
   * [[strap:bootstrap|Last bootstrap version (4)]]
   * [[styling:bootstrap|Custom Bootstrap Styleshet (create and add your own)]]
   * [[strap:cdn|Serve the Bootstrap files by default from a CDN]]
-  * Supports [[strap:slot|4 bars]] layout
-      * [[strap:side_slot|Sidebar]] (left)
-      * [[strap:sidekickbor|Sidekickbar]] (right)
-      * [[strap:header_slot|Headerbar]] (top)
-      * [[strap:footer_slot|Footerbar]] (bottom)
-  * [[release:deprecated:dynamic_grid|Dynamic grid system from 12 to 16 columns]]
+  * Supports [[strap:slot|4 slots]] layout
+      * [[strap:side_slot|Side slot]] (left)
+      * [[strap:sidekick_slot|Sidekick slot]] (right)
+      * [[strap:header_slot|Header slot]] (top)
+      * [[strap:footer_slot|Footer slot]] (bottom)
   * [[strap:toolbar|Aggregate toolbar (Page, User Site) with a private option]]
   * Support [[semantic:tagline|tagline]]
-  * [[strap:fixed-top-menu|Fixed-top navbar with automatic top page location correction]]
+  * [[strap:fixed-top-menu|Fixed-top menubar with automatic top page location correction]]
   * Support a [[ui:trail_breadcrumb|trailing breadcrumb]]
   * [[styling:scale|Size Scale configuration (font and spacing)]]
   * [[getting_started:4_favicon|Favicon]]: Recognized the [[getting_started:4_favicon|favicons]]  (included ''android-chrome-192x192.png'')
   * [[strap:shortcut]]
-
 
 
 
