@@ -1,0 +1,11 @@
+---json
+{
+    "canonical":"release:1.16",
+    "title":"ComboStrap - Release 1.16",
+    "description":"The changes of the release 1.16"
+}
+---
+====== ComboStrap - Release 1.16 ======
+
+===== List =====
+  * New: login form
