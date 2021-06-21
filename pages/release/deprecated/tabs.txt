@@ -1,3 +1,9 @@
+---json
+{
+    "canonical":"deprecated:tabs"
+}
+---
+
 ====== Tabs and TabPanels (Deprecated for panels) ======
 
 ===== About =====

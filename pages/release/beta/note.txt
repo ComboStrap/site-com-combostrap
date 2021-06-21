@@ -2,7 +2,7 @@
 {
     "canonical":"beta:note",
     "low_quality_page":"true",
-    "published":"2999-01-01"
+    "published":"1999-01-01"
 }
 ---
 ====== Beta - Note ======
@@ -10,8 +10,6 @@
 
 ===== Link =====
 
-  * https://forum.dokuwiki.org/d/6695-set-image-height/11
-  * Answer: https://forum.dokuwiki.org/d/19242-find-where-a-plugin-is-used
   * Answer: RTL/LTR https://github.com/splitbrain/dokuwiki/pull/3413
 ===== Improvement =====
   * Blockquote:
