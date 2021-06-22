@@ -11,19 +11,12 @@
 ===== About =====
 ''toggle'' is an [[styling:animation|animation]] that will hide or display (collapse/expand) a component when clicking on a [[ui:link|link]] or [[ui:button|button]].
 
-===== Syntax =====
-This animation
-  * On the control component (link or button), you set the component id to toggle via the ''toggleTargetId''
-<code dw>
-toggleTargetId="componentIdToToggle"
-</code>
-  * On the controlled component, 
-      * you need to set its ''id''
-      * and optionally its initial state to ''collapsed''. (Without this attribute, a component is visible)
-<code dw>
-id="componentId" collapsed
-</code>
 
+<note>
+This effect is also already automatically added:
+  * in the [[ui:accordion|accordion]]
+  * or in the [[ui:tabs|tabs]]
+</note>
 ===== Example =====
 
 ==== Toggle from a button ====
@@ -57,3 +50,19 @@ Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richa
 </text>
 </code>
 </webcode>
+
+===== Syntax =====
+This animation needs to set attributes on the component to toggle and the control (link or button).
+
+
+  * On the component to toggle
+      * you need to identify it by giving an unique value with the ''id'' attribute
+      * and optionally its initial state to ''collapsed''. (Without this attribute, a component is visible)
+<code dw>
+id="componentId" collapsed
+</code>
+  * On the control component (link or button), you give the component id to toggle via the ''toggleTargetId''
+<code dw>
+toggleTargetId="componentIdToToggle"
+</code>
+
