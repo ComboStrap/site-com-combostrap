@@ -156,14 +156,7 @@ If you don't want that ''Combostrap'' changes the default link behavior, you can
 ''ComboStrap'' makes use of the context to output the correct bootstrap formatting. If you disable it, the page rendered will not be [[strap:bootstrap|fully BootStrap compliant]].
 
 
-==== enableMultiLinesLink ====
-By default, a link is allowed only on one line to avoid strange behavior.
 
-For instance, when you forget to close a combostrap link with ''%%]]%%'' because the link allows any syntax inside, an error may appear at the end of the document (such as the double forward slash ''%%//%%'' of an external link ''https://example.com'' may be seen as the //italic / emphasis syntax//)
-
-Most of the links are written on one line and to avoid any strange behavior, this component does not allow by default link to be written on more than one line.
-
-If you still want to enable this component on more than one line, you can check the ''enableMultiLinesLink'' [[:configuration|configuration]].
 
 ===== Support =====
 ==== I can't format the description to Italic ====
