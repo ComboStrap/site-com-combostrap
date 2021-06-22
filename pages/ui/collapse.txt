@@ -7,43 +7,44 @@
 ====== ComboStrap UI - Collapse ======
 
 ===== About =====
-''collapse'' can refers to
-  * a [[#menubar|menubar]] component that will collapse its children on a smaller screen.
-  * or an [[#attribute|attribute]] that defines a UI component to collapse.
+''collapse'' is a [[#menubar|menubar]] component that will collapse its children on a smaller screen making them only visible by clicking on the sandwich icon.
 
 
+<note>
+Other component have collapsible behavior such as:
+  * the [[ui:toggle|toggle effect]]
+  * the [[ui:accordion|accordion]]
+</note>
 
+===== Syntax =====
 
-===== Articles Related =====
-{{backlinks>.}}
-
-===== Type =====
-
-==== Attribute ====
-
-This example comes from the [[https://getbootstrap.com/docs/4.0/components/collapse/|Collapse bootstrap documentation]] and shows a [[button|button]] that will expand and collapse a [[card|card]] with the help of ''collapse'' attribute. <badge>[[release:release|since 1.11]]</badge>
-<webcode name="Collapse" frameborder=0 >
+All the element that are inside a collapse will be collapsed when the width of the page is lower than defined [[styling:breakpoint|breakpoint]] on the [[menubar|menu bar]].
 <code dw>
-<button collapse="#collapseExample">
-Click Me to Expand and re-click me to Collapse
-</button>
-<box class="collapse" id="collapseExample">
-  <card>
-    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-  </card>
-</box>
+<menubar breakpoint="md">
+<collapse>
+  .......... The element in the collapse container will collapse below the max screen width (breakpoint attribute) defined in the menubar
+</collapse>
+</menubar>
 </code>
-where the following attributes are mandatory:
-  * on the control element (the element to click)
-      * ''collapse="#collapseExample"'' defines the ''id'' of the element to collapse. In this case, ''#collapseExample''
-  * on the target element (the element to collapse)
-      * ''class="collapse"'' will cache the block by default if present
-      * ''id="collapseExample"'' should define the same value than the ''collapse'' value of the control.
+
+More... see the page [[menubar]]
+
+===== Example =====
+
+Below is a [[ui:menubar|menubar]] where all elements are collapsed because the screen is always greater than the [[styling:breakpoint|xs breakpoint (extra-small screen)]].
+<webcode>
+<code dw>
+<menubar breakpoint="xs">
+<collapse>
+<group>
+[[#|Home]]
+[[#|Features]]
+[[#|Release]]
+Line
+</group>
+</collapse>
+</menubar>
+</code>
+  * Click on the sandwich icon to expand and see the elements.
 </webcode>
 
-
-==== Menubar ====
-
-in a [[menubar|menubar]], a ''collapse'' element will collapse its children . All the element that are inside a collapse will be collapsed when the width of the page becomes a mobile size.
-
-More... see the [[menubar|menubar documentation]]

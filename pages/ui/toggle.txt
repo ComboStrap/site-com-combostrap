@@ -1,0 +1,59 @@
+---json
+{
+    "canonical":"toggleTargetId",
+    "title":"Collapse or expand any component with the toggle effect",
+    "description":"The toggleTargetId is an attribute that transform a link or a button in a toggle element"
+}
+---
+====== ComboStrap - Toggle Effect ======
+
+
+===== About =====
+''toggle'' is an [[styling:animation|animation]] that will hide or display (collapse/expand) a component when clicking on a [[ui:link|link]] or [[ui:button|button]].
+
+===== Syntax =====
+This animation
+  * On the control component (link or button), you set the component id to toggle via the ''toggleTargetId''
+<code dw>
+toggleTargetId="componentIdToToggle"
+</code>
+  * On the controlled component, 
+      * you need to set its ''id''
+      * and optionally its initial state to ''collapsed''. (Without this attribute, a component is visible)
+<code dw>
+id="componentId" collapsed
+</code>
+
+===== Example =====
+
+==== Toggle from a button ====
+
+A [[button|button]] that will expand and collapse a [[card|card]] with the help of ''collapse'' attribute.
+<webcode name="Collapse" frameborder=0 >
+<code dw>
+<button toggleTargetId="cardId">
+Click Me to Expand and re-click me to Collapse
+</button>
+<card id="cardId" collapsed>
+Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+</card>
+</code>
+where the following attributes are mandatory:
+  * on the control element (the element to click)
+      * ''toggleTargetId="cardId"'' defines the ''id'' of the element to collapse. In this case, ''cardId''
+  * on the target element (the element to collapse)
+      * ''collapsed'' will collapse the block
+      * ''id="cardId"'' is the id of the card component and is the same value than the ''toggleTargetId'' value of the button.
+</webcode>
+
+==== Toggle from a link ====
+
+<webcode name="Collapse" frameborder=0 >
+<code dw>
+<text>Lorem Ipsum 
+<itext id="collapsableTextId" collapsed>
+Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+</itext> [[?toggleTargetId=collapsableTextId#|More...]]
+</text>
+</code>
+</webcode>

@@ -10,7 +10,7 @@
 
 
 ===== About =====
-''accordion'' is a [[ui:ui|UI component]] that [[layout|lays out]] [[panel|panels]] in an accordion fashion.
+''accordion'' is a [[ui:ui|UI component]] that [[layout|lays out]] [[panel|panels]] in an accordion fashion that [[ui:toggle|toggle (collapse or expand)]] when clicked.
 
 
 <note tip>
@@ -23,6 +23,7 @@ You can also choose [[tabs|tabs]] as other navigational collapsible layout for p
 
 ===== Example =====
 
+By default, [[ui:collapse|panels]] are ''collpased'', if you don't want, you need to set it explicitly to ''false''.
 
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
@@ -40,5 +41,4 @@ You can also choose [[tabs|tabs]] as other navigational collapsible layout for p
 </code>
 </webcode>
 
-===== Reference =====
-This component generates the [[https://getbootstrap.com/docs/4.6/components/collapse/#accordion-example|Bootstrap accordion]]
+

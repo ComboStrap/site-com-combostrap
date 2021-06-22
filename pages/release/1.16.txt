@@ -12,3 +12,6 @@
   * New register form
   * The option to span multiple line is no more supported for a [[ui:link|link]] to preserve the parse tree. See error below.
   * Bug: A [[ui:link|link]] not closed (without '']]'') followed by a closed link was making the parse tree not even and caused parsing issue on [[ui:heading|heading]] and other traversal.
+  * rename: ''collapse'' has been renamed to [[ui:toggle|toggle]]
+  * New: [[ui:toggle|toggle]] allows [[ui:link|link]] as control element.
+  * Bug: [[ui:slide|slide]] had no padding on small screen
