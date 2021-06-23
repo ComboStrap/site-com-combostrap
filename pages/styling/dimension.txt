@@ -67,12 +67,13 @@ I'm a note being constraint in a box with a maximum height of 100 pixel.
 The default scroll mechanism is a lift but you can also set it to a [[ui:toggle|toggle]]
 
 <webcode name="HeightToggle" >
-<code dw>
-<note important width="200px" height="100px" align="center" scroll="toggle">
-=== A constrained note in height ===
+```dw
+<code md width="200px" height="100px" align="center" scroll="toggle">
+###  A constrained note in height
 I'm a note being constraint in a box with a maximum height of 100 pixel.
-</note>
 </code>
+```
 </webcode>
+
 
 
