@@ -14,19 +14,21 @@ The ''code'' component permits to format ''block of code'' and add features such
       * line numbering
 
 
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Example =====
+
 You can create block of code like this one:
 <file html>
 <code html line-numbers="true">
-    <p class="hey">Type some code here</p>
+    <p class="hey">Lorem ipsum</p>
 </code>
 </file>
 
 <note tip>
 If you want to shows the output of web language such as HTML, Css or Javascript, you can also use the [[webcode|webcode]] component.
 </note>
-===== Articles Related =====
-{{backlinks>.}}
-
 ===== Syntax =====
 
 ==== HTML Super Set ====

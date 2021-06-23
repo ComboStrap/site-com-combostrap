@@ -50,7 +50,7 @@ where:
 </code>
 </file>
 You will get this output:
-<code html line-numbers="true">
+<code html line-numbers>
 <p class="hey">Type some code here</p>
 </code>
 
@@ -85,6 +85,19 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
 </file>
+
+
+==== Constrained on height ====
+''prism'' component may contain a big content that is not completely relevant for the reading of article. In this case, you can constrained it in [[styling:dimension|height]]
+
+
+<file txt loremipsum.txt height="200px" width="100px" scroll="toggle">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+</file>
+
 
 
 ===== Configuration =====
