@@ -15,4 +15,4 @@
   * rename: ''collapse'' has been renamed to [[ui:toggle|toggle]]
   * New: [[ui:toggle|toggle]] allows [[ui:link|link]] as control element.
   * Bug: [[ui:slide|slide]] had no padding on small screen
-  * New: You can set the scroll mechanism to ''toggle'' on a [[styling:dimension#height|constrained height box]]
+  * New: You can set the scroll mechanism to [[styling:dimension##toggle_scroll|toggle]] on a [[styling:dimension#height|constrained height box]]. It works also with any [[styling:prism#constrained by height|prism component]] such as [[ui:code|code]], [[ui:file|file]], [[ui:console|console]]
