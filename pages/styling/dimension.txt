@@ -19,7 +19,6 @@ Every [[ui:block|Box components]] and even the whole main page dimension may be 
 ===== Dimension =====
 
 ==== Width ====
-=== Box ===
 
 The ''width'' attributes supports the following values:
   * ''length'' - a length (in pixel, percentage, or other length unit)
@@ -47,28 +46,16 @@ On a [[ui:block|box]], the ''width'' attribute will apply a ''maximum-width'' co
 
 
 
-=== Page ===
-If you want to constraint a whole page, you can use a [[ui:container|container]]
 
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
-<code dw>
-<container width="700px">
-====== Page title ======
-A page that is centered and constraint in width
-===== Section =====
-Lorem ipsum
-</container>
-</code>
-</webcode>
 
 
 ==== Height ====
-The ''height'' attribute is also a [[styling:style|style shortcut]] that will apply a minimum height.
+The ''height'' attribute is also a [[styling:style|style shortcut]] that will apply a maximum height.
 
 
 Example: a [[ui:note|note]] will take all the space by default, if you want to constraint the box to a lower size, apply the ''width'' attributes.
 
-<webcode name="Width" >
+<webcode name="Height" >
 <code dw>
 <note important width="200px" height="100px" align="center">
 === A constrained note in height ===
@@ -77,16 +64,15 @@ I'm a note being constraint in a box with a maximum height of 100 pixel.
 </code>
 </webcode>
 
-===== For the geek =====
-<note tip width="600px" align="center">
-The ''width'' component attribute is a [[styling:style|style shortcut]] and could have been written
-<code html>
-<note style="max-width:200px">
-</code>
+The default scroll mechanism is a lift but you can also set it to a [[ui:toggle|toggle]]
 
-
-The ''height'' component attribute is a [[styling:style|style shortcut]] and could have been written
-<code html>
-<note style="height:100px;overflow:auto">
-</code>
+<webcode name="HeightToggle" >
+<code dw>
+<note important width="200px" height="100px" align="center" scroll="toggle">
+=== A constrained note in height ===
+I'm a note being constraint in a box with a maximum height of 100 pixel.
 </note>
+</code>
+</webcode>
+
+
