@@ -15,7 +15,8 @@
 <note>
 This effect is also already automatically added:
   * in the [[ui:accordion|accordion]]
-  * or in the [[ui:tabs|tabs]]
+  * in the [[ui:tabs|tabs]]
+  * in a [[styling:dimension|constrained by height component]] (with the toggle scroll mechanism)
 </note>
 ===== Example =====
 
@@ -46,7 +47,7 @@ where the following attributes are mandatory:
 <text>Lorem Ipsum 
 <itext id="collapsableTextId" collapsed>
 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-</itext> [[?toggleTargetId=collapsableTextId#|More...]]
+</itext> [[?toggleTargetId=collapsableTextId#|More/Less...]]
 </text>
 </code>
 </webcode>
