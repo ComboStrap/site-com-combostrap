@@ -17,3 +17,5 @@
   * New: [[ui:toggle|toggle]] allows [[ui:link|link]] as control element.
   * Bug: [[ui:slide|slide]] had no padding on small screen
   * New: You can set the scroll mechanism to [[styling:dimension##toggle_scroll|toggle]] on a [[styling:dimension#height|constrained height box]]. It works also with any [[styling:prism#constrained by height|prism component]] such as [[ui:code|code]], [[ui:file|file]], [[ui:console|console]]
+  * ''Internal'' and ''Mail'' [[ui:link|link]] accepts now all [[styling:styling|styling attribute]] (even [[styling:text-color?color=#495057|text color]])
+  * New: [[styling:underline|underline]] accepts also ''false'' to not decorate a link for instance.

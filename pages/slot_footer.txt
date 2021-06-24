@@ -13,16 +13,16 @@ in simple markup language.</text>
     <row>
          <cell>
 **Product** \\
-[[combostrap|ComboStrap]] \\
-[[release:release|Release (Changes)]] \\
-[[credits|Credits]] \\
+[[combostrap?color=#495057|ComboStrap]] \\
+[[release:release?color=#495057|Release (Changes)]] \\
+[[credits?color=#495057|Credits]] \\
 		</cell>
 		<cell>
 **Contact** \\
-[[support@combostrap.com?subject=Contact via WebSite|Mail]] \\
-[[:support|Support]] \\
-[[:about_us|About Us]] \\
-[[:security|Security]] \\
+[[support@combostrap.com?subject=Contact via WebSite&color=#495057|Mail]] \\
+[[:support?color=#495057|Support]] \\
+[[:about_us?color=#495057|About Us]] \\
+[[:security?color=#495057|Security]] \\
 		</cell>
     </row>
 </cell>

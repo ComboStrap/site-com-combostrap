@@ -32,14 +32,20 @@ This text is not underlined while __this one is__
 
 ==== Attribute ====
 
-You can also use the ''underline'' attribute
+You can also use the ''underline'' boolean attribute .
 
-Example with the [[ui:itext|itext component]]
-  * Syntax
+Example:
+  * with the [[ui:itext|itext component]]
 <webcode name="Default" frameborder="0">
 <code dw>
 This text is not underlined while <itext underline>this one is</itext>
 </code>
-  * Output:
 </webcode>
+  * or with a [[ui:link|link]]
+<webcode name="Default" frameborder="0">
+<code dw>
+This [[?underline=false|link]] is not underlined while [[?underline|this one]] is.
+</code>
+</webcode>
+
 

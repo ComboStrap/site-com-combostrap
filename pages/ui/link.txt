@@ -8,14 +8,10 @@
 ====== ComboStrap UI - Link ======
 
 ===== About =====
-''link'' is  a [[ui|ComboStrap UI component]] that enhances the [[doku>wiki:syntax#links|link]] syntax by allowing any content inside (by default on the [[#multiLinesLink|same line]]). Dokuwiki allows only text and media.
+''link'' is  a [[ui|ComboStrap UI component]] that permits to create hypertext link to page or media and allows any syntax inside. You can therefore have an [[#icon|icon link]]
 
 
-<note>
-You can therefore have an [[#icon|icon link]]
-</note>
 
-<badge>Since [[release:release#version_112|version 1.12]]</badge>
 ===== Articles Related =====
 {{backlinks>.}}
 
@@ -25,12 +21,14 @@ You can therefore have an [[#icon|icon link]]
 
 ==== Internal ====
 
-An ''internal'' link is a link to another page. If the target page does not exist, the link is shown in ''red''.
+An ''internal'' link is a link to another page. If the target page does not exist, the link is shown in ''red''. You can even use the [[styling:styling|styling attributes]]
 
   * Example:
 <webcode name="Default" frameborder=0>
 <code dw>
-Links to [[link|existing pages]] are shown in a different style from [[nonexisting|nonexisting]] ones.
+Links to [[#|existing pages]] are shown in a different style from [[nonexisting|nonexisting]] ones.
+
+Internal Links can also be [[?color=#495057|styled]]
 </code>
   * Result:
 </webcode>
@@ -126,14 +124,14 @@ An [[icon|icon]] can be used to get a compelling visual.
 
 ===== Styling =====
 
-An [[#internal|Internal link]] can be styled with the [[styling:styling|styling attributes]].
+An [[#internal|Internal]] or [[#email|email]] link can be styled with the [[styling:styling|styling attributes]].
 
 Example with the [[styling:text-color#reset|reset color]] and [[styling:underline|underline]].
 <webcode name="Default" frameborder="0">
   * Input
 <code dw>
 <text color="#6c757d">
-Colored text with a [[link?color=reset&underline#styling|styled link]]
+Colored text with a [[link?color=reset&underline=false#styling|styled link]]
 
 Colored text with a [[link#styling|native link]]
 </text>
@@ -153,7 +151,11 @@ If you wish to get the Dokuwiki class name on your links, you can get them by en
 ==== disableLink ====
 If you don't want that ''Combostrap'' changes the default link behavior, you can disable it with the ''disableLink'' [[:configuration|configuration]].
 
-''ComboStrap'' makes use of the context to output the correct bootstrap formatting. If you disable it, the page rendered will not be [[strap:bootstrap|fully BootStrap compliant]].
+Note that the link component enhances the [[doku>wiki:syntax#links|link]] syntax.
+  * It allows any content inside. Dokuwiki allows only text and media. If you disable it, you can't style your link or add any icon in it.
+  * It allows advanced styling
+  * It applies the [[strap:bootstrap|bootstrap styling by default]]
+
 
 
 
@@ -163,7 +165,7 @@ If you don't want that ''Combostrap'' changes the default link behavior, you can
 
 That's true, inside an link, this is actually not possible to use the %%//%% italic syntax.
 
-This is to keep the compatibility with the old syntax that allows to have URL as a description. And an URL has the %%//%% italic syntax after the ''http'' scheme.
+This is to keep the compatibility with the old syntax that allows to have URL as a description. And an URL has the ''%%//%%'' italic syntax after the ''http'' scheme.
 
 You can still create a link with an URL as description such as this one:
 <webcode name="Default" frameborder="0">
