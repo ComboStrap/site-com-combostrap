@@ -1,9 +1,9 @@
 
-<footer spacing="p-3" background-color="gradient-light">
+<footer spacing="p-3" background-color="gradient-light" color="#495057">
 <container >
 	<row>
 <cell spacing="ms-md-3">
-<text h4 color="#075EBB"><icon name="logo.svg"/ spacing="mr-1"/>ComboStrap</text>
+<text h4 ><icon name="logo.svg"/ spacing="mr-1" color="#495057"/>ComboStrap</text>
 <text lead>The leading web markup platform</text>
 
 <text width="350px">Create web sites, publish landing pages, write articles, how-to's, documentations or build your knowledge base
