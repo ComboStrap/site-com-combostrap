@@ -1,0 +1,54 @@
+---json
+{
+    "canonical":"identity",
+    "title":"Identity Management in ComboStrap",
+    "description":"This page is about the identify forms and styling documentation",
+    "layout":"median"
+}
+---
+====== ComboStrap - Identity Management ======
+
+
+===== About =====
+''identity management'' is based on the [[doku>acl|Dokuwiki Acl module and plugins]]. 
+
+
+
+
+===== Forms =====
+By default, ''ComboStrap'' will styled the identity forms:
+  * [[#login]]
+  * [[#registration]]
+  * and [[#resend Password]]
+
+==== Login ====
+
+The [[doku>login]] form shows:
+  * a username
+  * a password
+  * and an ''remember me'' check box if the [[doku>config:rememberme|rememberme configuration]] is equal to one.
+
+==== Registration ====
+
+The [[doku>login#registration|Registration form]] will shows:
+  * a username
+  * a password and its confirmation (if the [[doku>config:autopasswd|automatic password feature]] is not enabled)
+  * a real name 
+  * and an email field
+
+==== Resend Password ====
+
+The ''resend password'' will shows only one field, the username.
+
+===== Configuration =====
+
+==== Logo ====
+The ''enableLogoOnIdentityForms'' permits to enable or disable the rendering of the [[getting_started:4_favicon|logo]] on the header of the forms.
+
+==== Enable / Disable Forms ====
+All forms are disabled, if the [[doku>acl|acl module]] is disabled.
+
+You can also if you want to get back to the original forms, disable the rendering of the forms individually with the following [[configuration|configuration]]:
+  * ''enableLoginForm''
+  * ''enableRegistrationForm''
+  * ''enableResendPwdForm''

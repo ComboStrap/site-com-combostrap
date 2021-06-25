@@ -14,6 +14,7 @@
   * The option to span multiple line is no more supported for a [[ui:link|link]] to preserve the parse tree. See error below.
   * Bug: A [[ui:link|link]] not closed (without '']]'') followed by a closed link was making the parse tree not even and caused parsing issue on [[ui:heading|heading]] and other traversal.
   * rename: ''collapse'' has been renamed to [[ui:toggle|toggle]]
+  * Minor Modification: Due to the [[ui:toggle|toggle]], the [[styling:prism|prism class styling]] have been renamed from ''code-combo-pre'' to ''code-container-combo''
   * New: [[ui:toggle|toggle]] allows [[ui:link|link]] as control element.
   * Bug: [[ui:slide|slide]] had no padding on small screen
   * New: You can set the scroll mechanism to [[styling:dimension##toggle_scroll|toggle]] on a [[styling:dimension#height|constrained height box]]. It works also with any [[styling:prism#constrained by height|prism component]] such as [[ui:code|code]], [[ui:file|file]], [[ui:console|console]]
@@ -27,3 +28,4 @@
 
   * Bug: SEO, the page queried by the [[semantic:canonical|canonical]] were not added to the search index. Why ? Because they got a meta robots value of ''noindex,follow'' via the ''tpl_metaheaders'' function of Dokuwiki that check the ''$INFO['exists']'' value.
   * Improvement: [[semantic:frontmatter|frontmatter]] process now the metadata at the render phase.
+  * New: [[:identity|Identity forms]] are now Bootstrap styled.
