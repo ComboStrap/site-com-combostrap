@@ -11,6 +11,31 @@
 ===== Link =====
 
   * Answer: RTL/LTR https://github.com/splitbrain/dokuwiki/pull/3413
+
+
+===== Prefetch: Performance =====
+
+==== On hover ====
+
+  * https://instant.page/tech
+  * https://www.dokuwiki.org/plugin:instantpage
+==== On Idle ====
+
+  * https://github.com/GoogleChromeLabs/quicklink
+
+
+Features:
+  * Detects links within the viewport (using Intersection Observer)
+  * Waits until the browser is idle (using requestIdleCallback)
+  * Checks if the user isn't on a slow connection (using navigator.connection.effectiveType) or has data-saver enabled (using navigator.connection.saveData)
+  * Prefetches URLs to the links (using <link rel=prefetch> or XHR). Provides some control over the request priority (can switch to fetch() if supported).
+
+==== On Navigation (Next page) ====
+
+  * https://barba.js.org/docs/getstarted/lifecycle/
+  * https://barba.js.org/docs/advanced/strategies/#Prefetch (Prefetch on hover)
+
+Since there is a 100-300ms delay during the user hover and the click, Barba use this time to start prefetching the next page. Most of time, this is enough to get the next page ready.
 ===== Improvement =====
   * Blockquote:
       * should have a bottom margin of 1rem if not floated

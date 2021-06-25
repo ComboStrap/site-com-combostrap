@@ -19,3 +19,6 @@
   * New: You can set the scroll mechanism to [[styling:dimension##toggle_scroll|toggle]] on a [[styling:dimension#height|constrained height box]]. It works also with any [[styling:prism#constrained by height|prism component]] such as [[ui:code|code]], [[ui:file|file]], [[ui:console|console]]
   * ''Internal'' and ''Mail'' [[ui:link|link]] accepts now all [[styling:styling|styling attribute]] (even [[styling:text-color?color=#495057|text color]])
   * New: [[styling:underline|underline]] accepts also ''false'' to not decorate a link for instance.
+  * Bug: A [[ui:svg|svg]] that was loaded via the ''img'' tag because it was too big to be inlined, their was no ''width'' and ''height'' attribute causing a layout shift.
+
+{{:release:layout_shift_bug.png|}}

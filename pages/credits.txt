@@ -33,3 +33,4 @@
 | [[https://www.php.net/|Php]] | The backend language |
 | [[https://html.spec.whatwg.org/|HTML]] and [[https://en.wikipedia.org/wiki/JavaScript|Javascript]] | The frontend languages |
 | Home Page Photo | Women doing Yoga by [[https://unsplash.com/photos/F2qh3yjz6Jk|kikekiks]] |
+| [[https://github.com/iconic/SVGInjector|Svg Injector]] | The library that injects the [[ui:svg|svg]] in the page |
