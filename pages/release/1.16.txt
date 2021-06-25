@@ -7,19 +7,39 @@
 ---
 ====== ComboStrap - Release 1.16 ======
 
+
+===== About =====
+This release has brought a old request. ie styling to the [[:identity|identity forms]] and many more bug fix and improvment.
+
 ===== List =====
+
+==== New ====
+=== Identify forms ===
+[[:identity|Identify forms]]
   * New: login form
   * New register form
   * New resend form 
-  * The option to span multiple line is no more supported for a [[ui:link|link]] to preserve the parse tree. See error below.
-  * Bug: A [[ui:link|link]] not closed (without '']]'') followed by a closed link was making the parse tree not even and caused parsing issue on [[ui:heading|heading]] and other traversal.
-  * rename: ''collapse'' has been renamed to [[ui:toggle|toggle]]
-  * Minor Modification: Due to the [[ui:toggle|toggle]], the [[styling:prism|prism class styling]] have been renamed from ''code-combo-pre'' to ''code-container-combo''
+
+=== Toggle ===
+
   * New: [[ui:toggle|toggle]] allows [[ui:link|link]] as control element.
-  * Bug: [[ui:slide|slide]] had no padding on small screen
   * New: You can set the scroll mechanism to [[styling:dimension##toggle_scroll|toggle]] on a [[styling:dimension#height|constrained height box]]. It works also with any [[styling:prism#constrained by height|prism component]] such as [[ui:code|code]], [[ui:file|file]], [[ui:console|console]]
+
+=== Styling ===
   * ''Internal'' and ''Mail'' [[ui:link|link]] accepts now all [[styling:styling|styling attribute]] (even [[styling:text-color?color=#495057|text color]])
   * New: [[styling:underline|underline]] accepts also ''false'' to not decorate a link for instance.
+
+=== Improvement ===
+
+  * Improvement: [[semantic:frontmatter|frontmatter]] process now the metadata at the render phase.
+
+==== Deleted ====
+  * The option to span multiple line is no more supported for a [[ui:link|link]] to preserve the parse tree. See error below.
+
+==== Bug Solved ====
+
+  * Bug: A [[ui:link|link]] not closed (without '']]'') followed by a closed link was making the parse tree not even and caused parsing issue on [[ui:heading|heading]] and other traversal.
+  * Bug: [[ui:slide|slide]] had no padding on small screen
   * Bug: A Layout Shift was occuring because
     * their was no ''width'' and ''height'' attribute on a [[ui:svg|svg]] that added via the ''img'' 
     * the styling of the svg returned was set to ''height"100%'' in place of ''height:auto''
@@ -27,5 +47,11 @@
 {{:release:layout_shift_bug.png|}}
 
   * Bug: SEO, the page queried by the [[semantic:canonical|canonical]] were not added to the search index. Why ? Because they got a meta robots value of ''noindex,follow'' via the ''tpl_metaheaders'' function of Dokuwiki that check the ''$INFO['exists']'' value.
-  * Improvement: [[semantic:frontmatter|frontmatter]] process now the metadata at the render phase.
-  * New: [[:identity|Identity forms]] are now Bootstrap styled.
+
+==== Renaming ====
+
+  * rename: ''collapse'' has been renamed to [[ui:toggle|toggle]]
+
+==== Minor Modification ====
+
+  * Minor Modification: Due to the [[ui:toggle|toggle]], the [[styling:prism|prism class styling]] have been renamed from ''code-combo-pre'' to ''code-container-combo''

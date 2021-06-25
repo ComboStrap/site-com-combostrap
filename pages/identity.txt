@@ -14,9 +14,7 @@
 
 
 
-
-===== Forms =====
-By default, ''ComboStrap'' will styled the identity forms:
+''ComboStrap'' add styling to the identity forms:
   * [[#login]]
   * [[#registration]]
   * and [[#resend Password]]
