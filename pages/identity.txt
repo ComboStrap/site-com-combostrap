@@ -38,6 +38,9 @@ The [[doku>login#registration|Registration form]] will shows:
 
 The ''resend password'' will shows only one field, the username.
 
+==== Profile ====
+
+[[doku>config:profileconfirm]] - Require a user to confirm their current password when updating their DokuWiki user profile.
 ===== Configuration =====
 
 ==== Logo ====

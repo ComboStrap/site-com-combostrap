@@ -29,7 +29,7 @@ This release has brought a old request. ie styling to the [[:identity|identity f
   * ''Internal'' and ''Mail'' [[ui:link|link]] accepts now all [[styling:styling|styling attribute]] (even [[styling:text-color?color=#495057|text color]])
   * New: [[styling:underline|underline]] accepts also ''false'' to not decorate a link for instance.
 
-=== Improvement ===
+==== Improvement ====
 
   * Improvement: [[semantic:frontmatter|frontmatter]] process now the metadata at the render phase.
 
