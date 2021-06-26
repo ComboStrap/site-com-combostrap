@@ -1,0 +1,14 @@
+---json
+{
+    "canonical":"release:1.17",
+    "title":"ComboStrap - Release 1.17",
+    "description":"The details of the release 1.17"
+}
+---
+====== ComboStrap - Release 1.17 ======
+
+
+===== About =====
+
+===== List =====
+  * The [[:identity|identity forms]] ''update profile'' and ''delete profile'' are now also styled.

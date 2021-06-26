@@ -14,10 +14,14 @@
 
 
 
-''ComboStrap'' add styling to the identity forms:
+''ComboStrap'' adds styling to the identity forms:
   * [[#login]]
   * [[#registration]]
-  * and [[#resend Password]]
+  * [[#resend Password]]
+  * [[#profile|Profile (update and delete)]]
+
+
+===== Forms =====
 
 ==== Login ====
 
@@ -40,11 +44,15 @@ The ''resend password'' will shows only one field, the username.
 
 ==== Profile ====
 
-[[doku>config:profileconfirm]] - Require a user to confirm their current password when updating their DokuWiki user profile.
+The ''profile'' page has two forms:
+  * an ''update'' form to update the user information
+  * a ''delete form'' to delete the account
+
+For the ''update'' form, with the [[doku>config:profileconfirm]] [[configuration|configuration]], you can require that a user confirm their current password in order to update their profile.
 ===== Configuration =====
 
 ==== Logo ====
-The ''enableLogoOnIdentityForms'' permits to enable or disable the rendering of the [[getting_started:4_favicon|logo]] on the header of the forms.
+The ''enableLogoOnIdentityForms'' permits to enable or disable the rendering of the [[getting_started:4_favicon|logo]] to render on the page.
 
 ==== Enable / Disable Forms ====
 All forms are disabled, if the [[doku>acl|acl module]] is disabled.
@@ -53,3 +61,5 @@ You can also if you want to get back to the original forms, disable the renderin
   * ''enableLoginForm''
   * ''enableRegistrationForm''
   * ''enableResendPwdForm''
+  * ''enableProfileUpdateForm''
+  * ''enableProfileDeleteForm''
