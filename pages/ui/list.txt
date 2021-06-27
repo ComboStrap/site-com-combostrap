@@ -53,12 +53,12 @@ and applied style accordingly:
     <li>
         <icon name="folder"/>
         [[icon|Icon]]
-        <badge>20</badge>
+        <itext align="right" color="#055160">text</itext>
     </li>
     <li>
         <icon name="folder"/>
         [[badge|Badge]]
-        <badge>info</badge>
+        <badge align="right">info</badge>
     </li>
 </list>
 </code>
@@ -70,4 +70,7 @@ and applied style accordingly:
 
 Further reading and or related documentation
   * [[https://getbootstrap.com/docs/4.0/layout/media-object/#media-list|Bootstrap media list]]
+  * [[https://getbootstrap.com/docs/5.0/components/list-group/|List group]]
   * [[https://github.com/material-components/material-components-web/tree/master/packages/mdc-list|mdc list]]
+  * https://getbootstrap.com/docs/5.0/utilities/flex/
+  * https://getbootstrap.com/docs/5.0/utilities/flex/#media-object

@@ -12,3 +12,4 @@
 
 ===== List =====
   * The [[:identity|identity forms]] ''update profile'' and ''delete profile'' are now also styled.
+  * [[styling:align|align]] understand now ''start'' and ''end'' to make page [[semantic:lang##rtlright_to_left_language|LTR or RTL language ready]].

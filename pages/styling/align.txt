@@ -22,14 +22,14 @@ If you want more control on the position, you may also use a [[ui:grid|grid]]
 How to align a [[ui:block|block]]
 
 The ''align'' attribute on a box, supports the values:
-  * ''left'' (by default, the block is aligned to the left)
+  * ''left'' or ''start'' (by default, the block is aligned to the left)
   * ''center'', 
-  * ''right'' 
+  * ''right'' or ''end''
 
 Example:
 <webcode name="Centered" >
 <code dw>
-<note tip align="right"  width="300px">
+<note tip align="end"  width="300px">
 === Block to the right ===
 
 As every block by default takes the whole available [[dimension|width]], you need to add a [[dimension|width attribute]] when you want to align it.

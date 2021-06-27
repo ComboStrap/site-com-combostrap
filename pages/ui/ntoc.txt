@@ -14,9 +14,7 @@ A ''namespace TOC'' is a [[navigation|navigational component]] that creates a [[
 
 This component is mostly used in a [[strap:side_slot|side slot]] or [[strap:sidekick_slot|sidekick slot]]
 
-<badge>Since [[release:release|version 1.6]]</badge>
 
-The ''ntoc'' has replaced the [[release:deprecated:minimap|minimap]] component.
 
 ===== Articles Related =====
 {{backlinks>.}}
@@ -25,14 +23,14 @@ The ''ntoc'' has replaced the [[release:deprecated:minimap|minimap]] component.
 
 <code dw>
 <ntoc ns="current">
-<index>$id - $title</index>
-<page-item>$id - $title</page-item>
-<ns-item>$id - $title</ns-item>
+  <index>$id - $title</index>
+  <page-item>$id - $title</page-item>
+  <ns-item>$id - $title</ns-item>
 </ntoc>
 </code>
 where:
   * ''ns'' is an attribute that defines the ''namespace'' (Default to the ''namespace'' of the current page)
-  * ''index'' defines a [[template|template]] for the index page of the namespace <badge>Since [[release:release|version 1.7]]</badge>
+  * ''index'' defines a [[template|template]] for the index page of the current namespace <badge>Since [[release:release|version 1.7]]</badge>
   * ''ns-item'' defines a [[template|template]] for each sub-namespace of the namespace <badge>Since [[release:release|version 1.7]]</badge>
   * ''page-item'' defines a [[template|template]] for each page in the namespace
 
@@ -47,12 +45,10 @@ where:
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <ntoc color="info">
-<index>
-[[$id|$title]]
-</index>
-<page-item>
-<icon name="file"/>[[$id|<pipeline>"$h1" | replace("ComboStrap UI - ","")</pipeline>]]
-</page-item>
+    <index>[[$id|$title]]</index>
+    <page-item>
+        <icon name="file"/>[[$id|<pipeline>"$h1" | replace("ComboStrap UI - ","")</pipeline>]]
+    </page-item>
 </ntoc>
 </code>
 where the ''page-item'' template is composed of:
@@ -62,8 +58,5 @@ where the ''page-item'' template is composed of:
 </webcode>
 
 
-===== Documentation / Reference =====
-  * https://getbootstrap.com/docs/4.0/components/navs/#vertical
-  * https://getbootstrap.com/docs/4.1/components/list-group/
-  * https://getbootstrap.com/docs/4.0/components/scrollspy/#example-with-list-group
-  * https://getbootstrap.com/docs/4.0/components/scrollspy/#example-with-nested-nav
+
+
