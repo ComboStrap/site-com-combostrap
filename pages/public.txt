@@ -6,11 +6,11 @@
 ---
 
 
-====== ComboStrap CSS - Front End Optimization ======
+====== ComboStrap - Public Front End Optimization ======
 
 
 ===== About =====
-''css optimization'' is a [[:start|ComboStrap]] module that reduce the CSS overhead when a public user is navigating the website and speeds therefore the ''page rendering''.
+''public front end optimization'' is a [[:start|ComboStrap]] module that reduce the page overhead when a ''public'' / ''anonymous'' / ''search engine'' user is navigating your website and speeds therefore the performance of the ''page rendering''.
 
 
 
@@ -26,7 +26,7 @@
 
 As the [[strap:bootstrap|BootStrap file]] is distributed worldwide thanks to the Content delivery network, it reaches the computer user really quickly. 
 
-Because we embrace the web component technology, we add to the page only the CSS needed to render for each component to render. 
+Because we embrace the web component technology, we add to the page only the CSS needed for each component to render. 
 
 The page speed is then completely dependent on where your server is located.
 
@@ -46,7 +46,7 @@ You can enable it by changing the ''enableMinimalFrontEndCss'' [[:configuration|
 
 
 ==== Disable the Dokuwiki Stylesheet ====
-If your front-end is completely based on ''BootStrap'', you may want to not include the Dokuwiki Stylesheet file entirely for anonymous user.
+If your front-end is completely based on ''ComboStrap'', you don't need to include the Dokuwiki Stylesheet file for anonymous user.
 
 
 By default, this optimization is disabled.
@@ -61,6 +61,24 @@ This optimization will delete from the front end page, the following HTML header
 <link rel="stylesheet" href="/lib/exe/css.php?t=dokuwiki&tseed=xxxxxx">
 </code>
 </note>
+
+==== Disable third Javascript ====
+
+If your front-end is completely based on ''ComboStrap'', you don't need to include third Javascript files that are used only for the backend. 
+
+This configuration goes even further with [[strap:bootstrap|bootstrap version 5]] and delete [[strap:jquery|Jquery]].
+
+<note important>
+If you use any analytics plugin such as the Google Analytics that relies on Javascript, you should not use/check this option.
+</note>
+
+If the configuration ''disableThirdJavascriptForPublicUser'' is checked, the following javascript script will not be included in your pages:
+  * ''js.php''
+  * ''jquery.php'' (only for Bootstrap 5)
+  * ''JSINFO''
+
+
+
 
 ==== Enable Preload ====
 
