@@ -17,7 +17,7 @@ The version 1.2 is a big template improvement release:
   * You can now set a [[styling:color#gradient|background color gradient]].
   * The [[ui:footer|footer]] element was created.
   * The [[strap:strap|strap template]] applies now a ''dokuwiki'' class on the whole page in order to be able to have [[doku>Dokuwiki]] styling such as [[doku>interwiki|interwiki icon]] in the footer.
-  * The [[:css|template CSS]] can now be [[:css#preload|preloaded]]
+  * The [[:frontend_optimization|template CSS]] can now be [[:frontend_optimization#preload|preloaded]]
   * The [[release:deprecated:dynamic_grid|dynamic grid]] was added with a 16 grid system
   * A [[styling:bootstrap|custom bootstrap theme]] can now be added
   * The [[strap:sidekick_slot|sidekickbar]] was added

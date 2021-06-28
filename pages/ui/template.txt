@@ -8,7 +8,7 @@
 {{backlinks>.}}
 
 ===== Example =====
-Example of template used in a [[ntoc|namespace toc]] to create a link where the words ''ComboStrap UI - '' are deleted from the [[semantic:h1|h1]]
+Example of template used in a [[page-explorer|namespace toc]] to create a link where the words ''ComboStrap UI - '' are deleted from the [[semantic:h1|h1]]
 <code dw>
 [[$id|<pipeline>"$h1" | replace("ComboStrap UI - ","")</pipeline>]]
 </code>

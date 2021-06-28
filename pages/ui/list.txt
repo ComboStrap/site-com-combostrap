@@ -49,18 +49,19 @@ and applied style accordingly:
   * a ''link'' get the style attribute of its parent
 <webcode name="List" >
 <code dw>
-<list width="300px" color="info">
+<content-list color="info">
     <li>
-        <icon name="folder"/>
-        [[icon|Icon]]
-        <itext align="right" color="#055160">text</itext>
+        <row class="justify-content-between">
+            <itext><icon name="folder"/> [[icon|Icon]]</itext>
+            <itext color="#055160">text</itext>
+        </row>
     </li>
     <li>
         <icon name="folder"/>
         [[badge|Badge]]
         <badge align="right">info</badge>
     </li>
-</list>
+</content-list>
 </code>
 </webcode>
 

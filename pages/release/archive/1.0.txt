@@ -11,7 +11,7 @@ First [[..:release|release]] 1.0 from 2020-07-04
 
 ===== Changes =====
 
-  * The [[:css|CSS optimizer]] was added
+  * The [[:frontend_optimization|CSS optimizer]] was added
   * The [[ui:button|button link]] takes now into account the [[styling:color|color attributes]] of its button parent.
   * All [[ui:ui|UI components]] support now the [[styling:styling|styling attributes]]
   * The [[ui:note|note component]] was created
