@@ -46,7 +46,7 @@ The ''resend password'' will shows only one field, the username.
 
 The ''profile'' page has two forms:
   * an ''update'' form to update the user information
-  * a ''delete form'' to delete the account
+  * a ''delete'' form to delete the account
 
 For the ''update'' form, with the [[doku>config:profileconfirm]] [[configuration|configuration]], you can require that a user confirm their current password in order to update their profile.
 ===== Configuration =====

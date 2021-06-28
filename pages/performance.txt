@@ -24,19 +24,21 @@ Below is a run of the home page of this website with the [[https://developers.go
 
 ==== Stylesheet ====
 
-=== Critical Path ====
+=== Critical Path ===
 
 All [[styling:stylesheet|published stylesheet (bootstrap and bootswatch)]] are served by defaut from a [[strap:cdn|CDN]]
 
-If you are using only ComboStrap, you can even disable the Dokuwiki Stylesheet for public user with the [[:css#disableDokuwikiStylesheet|disableDokuwikiStylesheet configuration]]
+If you are using only ComboStrap, you can even disable the Dokuwiki Stylesheet for public user with the [[frontend_optimization#disableDokuwikiStylesheet|disableDokuwikiStylesheet configuration]]
 
-The size of a web page served to the public (user not logged in) can be optimized with the [[:css|CSS optimization module]]
+The size of a web page served to the public (user not logged in) can be optimized with the [[frontend_optimization|CSS optimization module]]
 
 === Stylesheet Preload ===
 We preload stylesheet that are non critical for rendering. For instance, the stylesheet used for [[styling:animation|animation]] are preloaded and added to the page at the end.
 ==== Javascript ====
 All Javascript file are served from a [[strap:cdn|CDN]] and are deferred (loaded at the end) because they are not needed for the first rendering.
 
+
+If you only depend on the ''ComboStrap'' plugins, you can even [[frontend_optimization#javascriptdisable_backend|disable the backend javascript]].
 
 
 ==== Sidebar Cache Bursting ====

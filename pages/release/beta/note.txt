@@ -46,7 +46,10 @@ Since there is a 100-300ms delay during the user hover and the click, Barba use 
   * Page deleted / moved should be deleted /renamed into the database
   * monospace in the renderer should be a component
 
+===== Canonical bug =====
+
 <file txt>
+The page (web:javascript:test:test) and the page (lang:python:test:test) have the same canonical (test:test)
 The page (web:javascript:node:module:module) and the page (web:javascript:module:module) have the same canonical (module:module)
 The page (web:javascript:node:module:module) and the page (web:javascript:module:module) have the same canonical (module:module)
 The page (lang:python:grammar:comment) and the page (code:grammar:comment) have the same canonical (grammar:comment)

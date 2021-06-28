@@ -145,9 +145,11 @@ This configuration permits to disable this feature.
 
 
 ==== svgInjectionEnable ====
-By default, the SVG files that have a size bigger than the [[#svgmaxinlinesize|maximum inline size]] are [[#injection|injected]]. 
+If this configuration is on, the SVG files that have a size bigger than the [[#svgmaxinlinesize|maximum inline size]] are [[#injection|injected]]. 
 
-This configuration permits to disable this feature.
+This configuration permits to disable / enable this feature.
+
+This feature is off by default because in case of slower network, an empty image can be seen for a fraction of second.
 ==== svgUploadGroupName ====
 This [[:configuration|configuration]] sets the group that is allowed to upload a SVG file.
 
