@@ -1,0 +1,75 @@
+---json
+{
+    "canonical":"content-list"
+}
+---
+
+====== ComboStrap UI - Content List ======
+
+===== About =====
+A ''List'' is a [[ui|component]] that lay out continuous, vertical lines where each line is composed of:
+  - [Optional] a visual (icon or image)
+  - a text
+  - [Optional] and a meta information.
+
+{{:ui:list_elements.png?600|}}
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Syntax =====
+''list'' is a [[styling:html|HTML superset component]] and follows the following syntax
+<code dw>
+<content-list>
+    <row>
+        Text
+    </row>
+</list>
+</code>
+where:
+  * ''content-list'' defines a list
+  * ''li'' defines a list item.
+
+===== Example =====
+==== Icon and badge ====
+The ''List'' component is aware of:
+  * [[icon|icon]] as visual 
+  * [[badge|badge]] as meta
+and applied style accordingly:
+  * an [[icon|icon]] gets by default a margin of two with the text.
+  * the [[badge|badge]] is pushed to the right side.
+  * a ''link'' get the style attribute of its parent
+<webcode name="List" >
+<code dw>
+<content-list color="info">
+    <row>
+        <itext><icon name="folder"/> [[icon|Icon]]</itext>
+        <badge align="right">info</badge>
+    </row>
+    <row>
+        <itext><icon name="folder"/> [[badge|Badge]]</itext>
+        <badge align="right">info</badge>
+    </row>
+</content-list>
+</code>
+</webcode>
+
+
+==== Media List ====
+
+<webcode name="List" >
+<code dw>
+<content-list color="info">
+    <row class="align-items-center">
+        <cell>
+        {{:placeholder-rect-img.svg?100&nolink|}}
+        </cell>
+        <cell>
+          <itext><icon name="folder"/> [[icon|Icon]]</itext>
+           <badge align="right">info</badge>
+         </cell>
+    </row>
+</content-list>
+</code>
+</webcode>
+

@@ -92,7 +92,7 @@ Example where the whole row:
 <code dw>
 <row background-color="light" spacing="m-3" width="800px" align="center" clickable>
   <cell spacing="px-4 py-1" width="fit" >
-    {{:styling:subway_card_tile.png?0x200&nolink|}}
+    {{:styling:subway_card_tile.png?0x180&nolink|}}
   </cell>
   <cell spacing="px-4 py-1" vertical="center">
     === Card Clickable Grid ===

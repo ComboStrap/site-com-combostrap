@@ -32,4 +32,4 @@ See [[styling:html]]
 | [[Layout|Layout]] | Tabs, panel, grid, ... |
 | ''Outline'' | [[hr|Hr]] to draw an horizontal rule. \\ [[heading|Heading]] that defines the structure of the page or a component title. |
 | ''Informative'' | [[tooltip|Tooltip]]: Tooltips display informative text when users hover over, focus on, or tap an element. |
-| ''List'' | [[list|List]] - continuous, vertical indexes of text or images. \\  [[table|Table]] - a list of records |
+| ''List'' | [[content-list|List]] - continuous, vertical indexes of text or images. \\  [[table|Table]] - a list of records |
