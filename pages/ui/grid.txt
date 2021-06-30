@@ -71,10 +71,10 @@ Example of a card:
 
 <webcode name="Default" frameborder="0">
 <code dw>
-<card background-color="light" width="800px" clickable align="center">
+<card background-color="light" width="800px" align="center">
     <row>
       <cell width="fit" >
-        {{:styling:subway_card_tile.png?0x180|}}
+        {{:styling:subway_card_tile.png?0x180&align=center|}}
       </cell>
       <cell>
         === Card Clickable Grid ===
