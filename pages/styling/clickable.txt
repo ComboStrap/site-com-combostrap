@@ -38,9 +38,9 @@ Lorem ipsum
 [[ui:grid]]
 <webcode name="Default" frameborder="0">
 <code dw>
-<row clickable background-color="light" class="g-0" spacing="m-3">
+<row clickable background-color="light" class="g-0" spacing="m-3" class="align-items-center">
   <cell spacing="p-4">
-    {{:styling:subway_card_tile.png?0x200&nolink|}}
+    {{:styling:subway_card_tile.png?0x180&nolink|}}
   </cell>
   <cell spacing="p-4">
     === Columns with stretched link ===
@@ -54,5 +54,4 @@ Lorem ipsum
 </webcode>
 
 
-===== Documentation / Reference =====
-  * [[https://getbootstrap.com/docs/5.0/helpers/stretched-link/|Stretched link]]
+

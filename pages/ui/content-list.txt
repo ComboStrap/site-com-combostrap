@@ -28,7 +28,7 @@ A ''List'' is a [[ui|component]] that lay out continuous, vertical lines where e
 </code>
 where:
   * ''content-list'' defines a list
-  * ''li'' defines a list item.
+  * ''row'' is a list item.
 
 ===== Example =====
 ==== Icon and badge ====
@@ -57,16 +57,19 @@ and applied style accordingly:
 
 ==== Media List ====
 
-<webcode name="List" >
+<webcode name="media-list" >
 <code dw>
-<content-list color="info">
+<content-list width="500px">
     <row class="align-items-center">
-        <cell>
-        {{:placeholder-rect-img.svg?100&nolink|}}
+        <cell width="fit" spacing="pl-0">
+        {{:placeholder-rect-img.svg?150&nolink|}}
         </cell>
         <cell>
-          <itext><icon name="folder"/> [[icon|Icon]]</itext>
-           <badge align="right">info</badge>
+            <text>
+                <icon name="folder" color="info"/> [[icon|Icon]] <badge align="right">info</badge>
+                
+                This is some content from a media component. You can replace this with any content and adjust it as needed.
+            </text>
          </cell>
     </row>
 </content-list>
