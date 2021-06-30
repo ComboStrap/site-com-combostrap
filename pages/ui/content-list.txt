@@ -31,6 +31,8 @@ where the [[styling:type|type]] may be:
   * ''box'' (Default)
   * ''flush'' - to get a cleaner separation by removing borders and rounded corners 
 
+
+
 ===== Example =====
 ==== Icon and badge ====
 Ths example shows a ''content-list'' component with an:
@@ -54,12 +56,13 @@ Ths example shows a ''content-list'' component with an:
 
 ==== Media List ====
 
+If you want to create more complex list of content, you can add the [[ui:grid|cells]] that will lay out the content automatically.
 <webcode name="media-list" >
 <code dw>
 <content-list width="500px">
-    <row class="align-items-center">
+    <row>
         <cell width="fit">
-        {{:placeholder-rect-img.svg?100&nolink|}}
+        {{:placeholder-rect-img.svg?100|}}
         </cell>
         <cell>
             <text>
