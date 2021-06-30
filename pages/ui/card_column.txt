@@ -27,9 +27,9 @@ With the ''card-columns'' components, you can put a [[card|card]] or [[ui:blockq
     <card>
         {{:teaser_image_1.png|}}
         === Teaser Title  ===
-        A example taken from [[https://getbootstrap.com/docs/4.3/components/card/#example|the bootstrap quick example]] on how to build a card title in order to 
-        make up the bulk of the teaser content. \\
-        <btn spacing="my-2">[[:start|Go to this page !]]</btn>
+        A example taken from [[https://getbootstrap.com/docs/4.3/components/card/#example|the bootstrap quick example]] on how to build a card title in order to make up the bulk of the teaser content. 
+        
+        <btn>[[:start|Go to this page !]]</btn>
     </card>
 
 

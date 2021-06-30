@@ -18,30 +18,27 @@ A ''List'' is a [[ui|component]] that lay out continuous, vertical lines where e
 {{backlinks>.}}
 
 ===== Syntax =====
-''list'' is a [[styling:html|HTML superset component]] and follows the following syntax
+''content-list'' is a [[styling:html|HTML superset component]] that layouts a serie of [[ui:grid|row]]
+
 <code dw>
-<content-list>
+<content-list type>
     <row>
         Text
     </row>
 </list>
 </code>
-where:
-  * ''content-list'' defines a list
-  * ''row'' is a list item.
+where the [[styling:type|type]] may be:
+  * ''box'' (Default)
+  * ''flush'' - to get a cleaner separation by removing borders and rounded corners 
 
 ===== Example =====
 ==== Icon and badge ====
-The ''List'' component is aware of:
-  * [[icon|icon]] as visual 
+Ths example shows a ''content-list'' component with an:
+  * [[icon|icon]] as visual and a [[ui:link|link]] in a [[ui:itext|itext]]
   * [[badge|badge]] as meta
-and applied style accordingly:
-  * an [[icon|icon]] gets by default a margin of two with the text.
-  * the [[badge|badge]] is pushed to the right side.
-  * a ''link'' get the style attribute of its parent
 <webcode name="List" >
 <code dw>
-<content-list color="info">
+<content-list flush color="info" width="300px">
     <row>
         <itext><icon name="folder"/> [[icon|Icon]]</itext>
         <badge align="right">info</badge>
@@ -61,8 +58,8 @@ and applied style accordingly:
 <code dw>
 <content-list width="500px">
     <row class="align-items-center">
-        <cell width="fit" spacing="pl-0">
-        {{:placeholder-rect-img.svg?150&nolink|}}
+        <cell width="fit">
+        {{:placeholder-rect-img.svg?100&nolink|}}
         </cell>
         <cell>
             <text>
