@@ -9,11 +9,10 @@
 
 
 ===== About =====
-The ''grid'' component is a composition of two tags:
-  * the ''row'' tag
-  * and the ''cell'' tag.
+The ''grid'' component permits to create complex layout based
+  * on ''row'' 
+  * and ''cell''
 
-<badge>Since [[release:release|version 1.2]]</badge>
 
 ===== Articles Related =====
 {{backlinks>.}}
@@ -28,7 +27,7 @@ The ''grid'' component is a composition of two tags:
 where:
   * ''type'' may be the value:
       * ''auto'' (default) - each cell width will automatically calculated to be greater than the minimum width of ''300''. (This mode will not be applied if a [[styling:dimension|width]] or ''class'' attribute is present)
-      * ''natural'' - each cell will takes their natural width and never overflow. Beware that this type is not well suited for long text as the natural size is until the end of the paragraph.
+      * ''natural'' - each cell will takes their natural width and never overflow. Beware that you should set a width on cell with long text because the natural size of text is until the end of the paragraph.
   * ''vertical'': if the value is ''center'', the cell will be vertically centered.
   * and you can use all [[styling:styling|styling attributes]].
 
@@ -44,7 +43,7 @@ The combostrap grid will layout nicely your cells uniformly on the horizontal. T
 
 <webcode>
 <code dw>
-<row class="px-5">
+<row spacing="p-5">
     <cell background-color="green" color="white">
         First paragraph in the first cell.
         
@@ -58,49 +57,33 @@ The combostrap grid will layout nicely your cells uniformly on the horizontal. T
   * Output:
 </webcode>
 
-\\
-\\
+
 <note tip>
 As you can see, the dimension of the the cells are not uniform, this is why the [[styling:background|background]] is never used inside a grid.
 </note>
-==== Bootstrap class to define the width ====
 
+==== Card with a media ====
+You can also use the grid in a [[ui:card|card]] to create all sort of layout.
 
-They are actually [[styling:html|superset HTML component]], you can therefore use all [[https://getbootstrap.com/docs/5.0/layout/grid/|Grid bootstrap class]]
-
-Example with the ''class'' value 
-  * ''col-12'' takes the whole width (for a grid of 12 columns)
-  * ''col-md-8'' takes a space of 8 of 12 columns from the [[styling:breakpoint|medium breakpoint and over]].
-
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
-<code dw>
-<row class="px-5">
-    <cell class="col-12 col-md-8" background-color="green" color="white">First column with a ratio of 8</cell>
-    <cell background-color="blue" color="white">Second column with a ratio of 4 \\ (12-8)</cell>
-</row>
-</code>
-  * Output:
-</webcode>
-==== Custom Card ====
-You can also create a [[ui:card|card]]-like component based on row and cells.
-
-Example where the whole row:
-  * is presented as a card 
-  * and is [[styling:clickable|clickable]] 
+Example of a card:
+  * with an [[ui:image|image]] on the left
+  * completly [[styling:clickable|clickable]] 
 
 <webcode name="Default" frameborder="0">
 <code dw>
-<row background-color="light" spacing="m-3" width="800px" align="center" clickable>
-  <cell spacing="px-4 py-1" width="fit" >
-    {{:styling:subway_card_tile.png?0x180&nolink|}}
-  </cell>
-  <cell spacing="px-4 py-1" vertical="center">
-    === Card Clickable Grid ===
-    Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.
+<card background-color="light" width="800px" clickable align="center">
+    <row>
+      <cell width="fit" >
+        {{:styling:subway_card_tile.png?0x180|}}
+      </cell>
+      <cell>
+        === Card Clickable Grid ===
+        Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.
     
-    [[#custom_card|Custom card]]
-  </cell>
-</row>
+        [[#custom_card|Custom card]]
+      </cell>
+    </row>
+</card>
 </code>
 
 </webcode>
