@@ -4,59 +4,61 @@
 ===== About =====
 ''align'' is an [[styling:styling|styling attribute]] of the [[styling:html|HTML superset component]]
 
-It permits to align:
-  * a [[#block|block]]
-  * or its [[#text|text]]
+It permits to align a [[#block|block]] on the horizontal axis. 
 
 <note tip align="center" width="fit-content">
 If you want more control on the position, you may also use a [[ui:grid|grid]]
 </note>
 
-<badge>Fully operational, since [[release:release|version 1.4]]</badge>
 ===== Articles Related =====
 {{backlinks>.}}
 
-===== Type =====
-==== Block ====
+===== Syntax =====
 
-How to align a [[ui:block|block]]
 
 The ''align'' attribute on a box, supports the values:
   * ''left'' or ''start'' (by default, the block is aligned to the left)
   * ''center'', 
   * ''right'' or ''end''
 
-Example:
+<note>
+The content will not flow along the box, if you want this behavior, you need to use the [[styling:float|float attribute]]
+</note>
+===== Example =====
+
+==== With a container component ====
+
+
+
 <webcode name="Centered" >
+  * Example:
 <code dw>
-<note tip align="end"  width="300px">
+A little bit of  content that shows that the text will not flow along the aligned box. The ''aligned'' box will then be located after this text.
+<note tip align="end"  width="300px" text-align="center">
 === Block to the right ===
 
 As every block by default takes the whole available [[dimension|width]], you need to add a [[dimension|width attribute]] when you want to align it.
 
 </note>
 </code>
+  * Output:
 </webcode>
 
 
 <note>
-You can also [[ui:image#align|align an image by passing the align parameter]]
+=== Text ===
+
+To align the text inside a [[ui:block|block component]], you use the [[styling:text-align|text-align attribute]].
+
 </note>
 
-==== Text ====
+==== Image ====
 
-To align the text in a [[ui:block|block component]], you can use the [[styling:text-align|text-align attribute]].
+With a [[ui:image|image]], if you want to align it to the ''center'', you would let a space after ''%%{{%%'' and before ''%%}}%%''. More information, see the [[ui:image#position|image position section]].
 
-
-Example:
-<webcode name="Text ALign" >
+<webcode name="Default" frameborder=0>
 <code dw>
-<card text-align="center" width="300px">
-=== Centered Text  ===
-
-A text in the center
-
-</card>
+{{ :ui:stock_image_surfer_in_the_see.png?400 |}}
 </code>
 </webcode>
 

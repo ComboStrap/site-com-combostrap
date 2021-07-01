@@ -48,8 +48,8 @@ where:
 
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
-<page-explorer color="info" height="150px" scroll="toggle">
-    <header>[[$id|$title]]</header>
+<page-explorer color="info" height="200px" scroll="toggle">
+    <home>[[$id|$title]]</home>
     <page>
         <icon name="file"/>[[$id|<pipeline>"$h1" | replace("ComboStrap UI - ","")</pipeline>]]
     </page>

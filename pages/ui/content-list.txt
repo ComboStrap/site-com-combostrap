@@ -59,9 +59,9 @@ Ths example shows a ''content-list'' component with an:
 If you want to create more complex list of content, you can add the [[ui:grid|cells]] that will lay out the content automatically.
 <webcode name="media-list" >
 <code dw>
-<content-list width="500px">
+<content-list width="fit">
     <row>
-        <cell width="fit">
+        <cell>
         {{:placeholder-rect-img.svg?100|}}
         </cell>
         <cell>
@@ -74,5 +74,6 @@ If you want to create more complex list of content, you can add the [[ui:grid|ce
     </row>
 </content-list>
 </code>
+  * Output:
 </webcode>
 

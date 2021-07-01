@@ -20,16 +20,22 @@ The ''grid'' component permits to create complex layout based
 ===== Syntax =====
 <code dw>
 <row type>
-   <cell vertical="center"></cell>
+   <cell></cell>
    <cell></cell>
 </row>
 </code>
 where:
   * ''type'' may be the value:
-      * ''auto'' (default) - each cell width will automatically calculated to be greater than the minimum width of ''300''. (This mode will not be applied if a [[styling:dimension|width]] or ''class'' attribute is present)
-      * ''fit'' - each cell will takes their natural width and never overflow. Automatically, for cells with text, we set a width of ''300'' if not set because the natural size of text is the line until the end of the paragraph.
-  * ''vertical'': if the value is ''center'', the cell will be vertically centered.
-  * and you can use all [[styling:styling|styling attributes]].
+
+^ Type ^ Description ^ Default for ^
+| ''auto'' | each cell width will automatically calculated to be greater than the minimum width of ''300'' | loss grid | 
+| ''fit'' | each cell will takes their natural width . Note that for cells with text and without width, we set a width of ''300'' (because the natural width of text is the whole line until the end of the paragraph) | contained grid |
+| ''none'' | the content will just shrink without overflow | |
+
+
+<note>
+You can use all [[styling:styling|styling attributes]].
+</note>
 
 
 
@@ -71,14 +77,14 @@ Example of a card:
 
 <webcode name="Default" frameborder="0">
 <code dw>
-<card background-color="light" align="center" width="fit">
+<card background-color="light" align="center" width="fit" clickable>
     <row>
       <cell >
-        {{:styling:subway_card_tile.png?0x180&align=center|}}
+        {{ :styling:subway_card_tile.png?0x180 |}}
       </cell>
       <cell>
         === Card Clickable Grid ===
-        Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.
+        This placeholder content is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.
     
         [[#custom_card|Custom card]]
       </cell>

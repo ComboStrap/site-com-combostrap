@@ -10,7 +10,7 @@
 
 ===== About =====
 <note important>
-The ''minimap'' has been deprecated. You should use the [[ui:ntoc|ntoc component]] instead if you want to list the pages of a namespace.
+The ''minimap'' has been deprecated. You should use the [[ui:page-explorer|ntoc component]] instead if you want to list the pages of a namespace.
 </note>
 
 It's still usable for compatibility reason.
