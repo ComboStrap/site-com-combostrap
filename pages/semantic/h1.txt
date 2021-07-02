@@ -18,7 +18,7 @@ For instance, the ''h1'' for this page is ''ComboStrap Semantic - H1 title''.
 
 ===== Usage =====
 
-''ComboStrap'' captures it and adds it to the [[semantic|metadata]] and you can then use it in a [[ui:template|template component]] such as the [[ui:ntoc|navigational toc]].
+''ComboStrap'' captures it and adds it to the [[semantic|metadata]] and you can then use it in a [[ui:template|template component]] such as the [[ui:page-explorer|navigational toc]].
 
 
 

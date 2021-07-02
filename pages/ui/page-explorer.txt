@@ -41,7 +41,7 @@ where:
 
 
 <note >
-''page-explorer'', ''header'', ''page'' and ''namespace'' are all [[styling:html|superset HTML component]].
+''page-explorer'', ''home'', ''page'' and ''namespace'' are all [[styling:html|superset HTML component]].
 </note>
 
 ===== Example =====
@@ -58,7 +58,7 @@ where:
 where the ''page'' template is composed of:
   * an [[icon|icon]]
   * a link
-  * and a [[pipeline|pipeline]] to modify the [[release:deprecated:title|title]] of the page.
+  * and a [[pipeline|pipeline]] to modify the [[semantic:h1|heading 1]] of the page.
 </webcode>
 
 

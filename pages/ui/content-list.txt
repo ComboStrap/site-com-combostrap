@@ -49,6 +49,10 @@ Ths example shows a ''content-list'' component with an:
         <itext><icon name="folder"/> [[badge|Badge]]</itext>
         <badge align="right">info</badge>
     </row>
+    <row>
+        <itext><icon name="folder"/> [[badge|Badge]]</itext>
+        <badge align="right">info</badge>
+    </row>
 </content-list>
 </code>
 </webcode>
