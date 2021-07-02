@@ -77,7 +77,7 @@ Example of a card:
 
 <webcode name="Default" frameborder="0">
 <code dw>
-<card background-color="light" align="center" width="fit" clickable>
+<card background-color="light" align="center" width="fit" >
     <row>
       <cell >
         {{ :styling:subway_card_tile.png?0x180 |}}

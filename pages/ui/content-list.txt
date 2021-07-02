@@ -72,6 +72,18 @@ If you want to create more complex list of content, you can add the [[ui:grid|ce
             </text>
          </cell>
     </row>
+    <row>
+        <cell>
+        {{:placeholder-rect-img.svg?100|}}
+        </cell>
+        <cell>
+            <text>
+                <icon name="folder" color="info"/> [[icon|Icon]] <badge align="right">info</badge>
+                
+                This is some content from a media component. You can replace this with any content and adjust it as needed.
+            </text>
+         </cell>
+    </row>
 </content-list>
 </code>
   * Output:
