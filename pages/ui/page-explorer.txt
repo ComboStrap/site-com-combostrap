@@ -46,6 +46,8 @@ where:
 
 ===== Example =====
 
+==== List ====
+
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <page-explorer color="info" height="200px" scroll="toggle">
@@ -61,6 +63,22 @@ where the ''page'' template is composed of:
   * and a [[pipeline|pipeline]] to modify the [[semantic:h1|heading 1]] of the page.
 </webcode>
 
+==== Collapsible Tree ====
+
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<page-explorer tree ns=":">
+    <home>[[$id|$title]]</home>
+    <page>
+        <icon name="file"/>[[$id|<pipeline>"$h1" | replace("ComboStrap UI - ","")</pipeline>]]
+    </page>
+</page-explorer>
+</code>
+where the ''page'' template is composed of:
+  * an [[icon|icon]]
+  * a link
+  * and a [[pipeline|pipeline]] to modify the [[semantic:h1|heading 1]] of the page.
+</webcode>
 
 
 
