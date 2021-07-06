@@ -70,7 +70,7 @@ where the ''page'' template is composed of:
 <page-explorer tree ns=":">
     <home>[[$id|$title]]</home>
     <page>
-        <icon name="file"/>[[$id|<pipeline>"$h1" | replace("ComboStrap UI - ","")</pipeline>]]
+        <icon name="file"/>[[$id|<pipeline>"$h1" | cut("-",2) | trim() </pipeline>]]
     </page>
 </page-explorer>
 </code>

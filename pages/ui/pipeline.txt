@@ -1,3 +1,9 @@
+---json
+{
+    "canonical":"pipeline"
+}
+---
+
 ====== ComboStrap UI - Pipeline ======
 
 
@@ -22,7 +28,9 @@ where:
   * ''function'' is one of:
       * [[#replace]] -  replace a string
       * [[#rconcat]] - add a string at the right side
-      * [[#head]] - cut the string to a maximum number of characters
+      * [[#head]] - return the first characters
+      * [[#cut]] - cut the string in parts and return one
+      * [[#trim]] - delete any space before and after
 
 ===== Functions =====
 
@@ -74,3 +82,46 @@ For instance:
 Output:
 </webcode>
 
+==== Cut ====
+''cut'' is a function that will split the string in parts and returned the asked part concatenated. If the separator is not found, the original string is returned
+
+**Syntax**:
+<code>
+cut("separator",partIndex)
+</code>
+where:
+  * ''separator'' can be a simple character or a regular expression.
+  * ''partIndex'' is the part number (starts at 1 for the first one)
+
+Example:
+  * Basic
+<webcode name="cut" frameborder=0 >
+<code dw>
+<pipeline> "Hello - World" | cut("-",2) </pipeline>
+</code>
+Output:
+</webcode>
+
+  * if the separator is not found, the function has not effect on the string given.
+<webcode name="cut" frameborder=0 >
+<code dw>
+<pipeline> "Hello World" | cut("-",2) </pipeline>
+</code>
+Output:
+</webcode>
+
+==== Trim ====
+''trim'' is a function that strip whitespace from the beginning and end of a string
+
+**Syntax**:
+<code>
+trim()
+</code>
+
+For instance:
+<webcode name="cut" frameborder=0 >
+<code dw>
+<pipeline> "Hello World   " | trim() </pipeline>
+</code>
+Output:
+</webcode>

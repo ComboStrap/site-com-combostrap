@@ -20,3 +20,4 @@
   * Improvement [[ui:svg|SVG]]
       * A transparent gif is shown when lazy loaded
       * [[ui:svg#svginjectionenable|Svg Injection]] has been disabled by default because we may see on slow network a blank image.
+  * new [[ui:pipeline|Pipeline function]]: ''cut'' and ''trim''
