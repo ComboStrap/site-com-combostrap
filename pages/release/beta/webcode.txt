@@ -1,0 +1,42 @@
+---json
+{
+    "canonical":"beta:webcode"
+}
+---
+====== Beta - Webcode ======
+
+
+===== About =====
+[[ui:webcode|webcode]] improvement
+
+
+
+
+===== List =====
+
+
+==== Code Execution Visualisation ====
+  * http://pythontutor.com/
+
+==== Run other languages ====
+Webcode is actually only running code for the browser
+
+[[https://datacadamia.com/code/interactive/repl|Repl]]
+
+Example:
+  * https://github.com/datacamp/datacamp-light/ - r and python
+  * Restfull api is supported (POST only) at http://rextester.com/rundotnet/api. 
+  * https://github.com/umesh-timalsina/riju
+  * https://github.com/replit/polygott
+  * https://sqlbook.io/ [[https://www.reddit.com/r/SQL/comments/o9z3e7/sql_rapid_prototyping/]]
+  * https://npm.runkit.com (interactive book for node)
+  * https://github.com/broofa/runmd - Just a node runner - Integrate Js in README
+
+
+==== Print statement ====
+  * helper function to output formatted results.
+<code javascript>
+function print(value) {
+    document.write(value + '<br>');
+}
+</code>
