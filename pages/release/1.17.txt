@@ -24,3 +24,4 @@
   * Bug: [[:lazy|Lazy loaded image]] has a transparent inline gif image placeholder that has an intrinsic dimension of 1x1 creating problem and layout shift when the image are responsive.
   * Bug: [[ui:card_column|card-column layout]] in Bootstrap 5 is implemented via Masonry and a recalculation of the layout should be done after each image load.
   * Bug: As [[ui:image|image]] crop is not supported, a warning message was shown and we didn't let the original code take over. Crop are now supported via the original code.
+  * Bug: [[ui:heading|heading]] in [[ui:webcode|webcode]] were seen as component heading and not as outline heading.

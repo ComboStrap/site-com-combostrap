@@ -73,11 +73,29 @@ for (const [index, value] of colors.entries()) {
 </webcode>
 
 
-==== Others example ====
+==== Across section ====
 
-Others example can be found at github:
-  * [[https://github.com/gerardnico/dokuwiki-plugin-webcode/blob/master/_test/data/pages/across_section.txt|Across section example]]
-  * [[https://github.com/gerardnico/dokuwiki-plugin-webcode/blob/master/_test/data/pages/display.txt|Cached block (display=none)]]
+You can use webcode across section (ie with [[ui:heading|heading]])
+
+Example:
+  * the following markup
+<webcode iframe width="600">
+<code dw iframe>
+<webcode>
+=== Javascript ===
+```javascript
+var colors = [ "blue", "green" ];
+for (const [index, value] of colors.entries()) {
+  console.log(index+", "+value+"\n");
+}
+```
+=== Result ===
+</webcode>
+</code>
+  * will output:
+</webcode>
+
+
 
 
 ===== Syntax =====
