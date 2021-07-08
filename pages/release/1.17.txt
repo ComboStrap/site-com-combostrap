@@ -18,8 +18,8 @@
       * ComboStrap is no more dependent on Jquery
       * New: Disable backend Javascript
   * Improvement [[ui:svg|SVG]]
-      * A placeholder is shown when lazy loaded
-      * [[ui:svg#svginjectionenable|Svg Injection]] has been disabled by default because we may see on slow network a blank image.
+      * A placeholder is shown with the good dimension when lazy loaded
+      * [[ui:svg#svginjectionenable|Svg Injection]] was showing a broken image for a couple of second. This is because the underlying library let a src with no value. We just cache the image before the injection and show it again after.
   * new [[ui:pipeline|Pipeline function]]: ''cut'' and ''trim''
   * Bug: [[:lazy|Lazy loaded image]] has a transparent inline gif image placeholder that has an intrinsic dimension of 1x1 creating problem and layout shift when the image are responsive.
   * Bug: [[ui:card_column|card-column layout]] in Bootstrap 5 is implemented via Masonry and a recalculation of the layout should be done after each image load.
