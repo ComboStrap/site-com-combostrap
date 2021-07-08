@@ -37,14 +37,12 @@ Features:
 
 Since there is a 100-300ms delay during the user hover and the click, Barba use this time to start prefetching the next page. Most of time, this is enough to get the next page ready.
 ===== Improvement =====
-  * Blockquote:
-      * should have a bottom margin of 1rem if not floated
-      * bad styling due to automatic paragraph
   * The tag test have now their own test class.
   * The tag syntax is no more needed.
   * The page (viz:viz) and the page (data:viz:viz) have the same canonical.
   * Page deleted / moved should be deleted /renamed into the database
   * monospace in the renderer should be a component
+  * [[ui:card_column|card-columns]] as a real [[https://masonry.desandro.com/layout.html#responsive-layouts|responsive masonry]] ?
 
 ===== Canonical bug =====
 

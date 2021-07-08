@@ -11,8 +11,8 @@
 
 ===== About =====
 ''lazy loading'' is the loading of resources such as image only when:
-  * they are on the screen
-  * or a going to enter on the screen
+  * they are on the screen (ie visible)
+  * or are going to enter on the screen
 
 ''ComboStrap'' supports and enables by default the lazy loading of:
   * [[ui:raster|raster image (png, jpg, gif, ...)]]

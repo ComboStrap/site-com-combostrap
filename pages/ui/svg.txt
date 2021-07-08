@@ -89,7 +89,7 @@ Example of an svg icon with a:
 If the SVG file has a size that is less or equal to the [[#svgMaxInlineSize]] configuration, the SVG is directly included into the HTML document as markup
 Otherwise, it is added as a image.
 
-This is a tradeoff configuration between the size of your web page and the cost of downloading your SVG file.
+This is a [[:performance|performance tradeoff]] configuration between the size of your web page and the cost of downloading your SVG file.
 
 
 
@@ -149,7 +149,6 @@ If this configuration is on, the SVG files that have a size bigger than the [[#s
 
 This configuration permits to disable / enable this feature.
 
-This feature is off by default because in case of slower network, an empty image can be seen for a fraction of second.
 ==== svgUploadGroupName ====
 This [[:configuration|configuration]] sets the group that is allowed to upload a SVG file.
 
