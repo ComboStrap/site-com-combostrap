@@ -84,6 +84,8 @@ Example of an image resized to ''250px'' height
 </code>
 </webcode>
 
+
+
 ==== Position ====
 
   * To position the image to the left, let no space, this is the default
@@ -133,6 +135,19 @@ You can also use the image as [[styling:background|background]].
 </webcode>
 
 
+===== Support =====
+
+==== Cropping ====
+
+
+''cropping'' works only for [[ui:raster|raster image]] but does not get any extra features such as [[:lazy|lazy loading]] and styling.
+
+Example of an image cropped to ''200x200px'' 
+<webcode name="Default" frameborder="0">
+<code dw>
+{{:ui:stock_image_surfer_in_the_see.png?200x200|}}
+</code>
+</webcode>
 
 
 
