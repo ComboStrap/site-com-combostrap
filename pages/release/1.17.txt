@@ -12,7 +12,7 @@
 
 ===== List =====
   * The [[:identity|identity forms]] ''update profile'' and ''delete profile'' are now also styled.
-  * [[styling:align|align]] understand now ''start'' and ''end'' to make page [[semantic:lang##rtlright_to_left_language|LTR or RTL language ready]].
+  * [[styling:align|Align]] understand now ''start'' and ''end'' to make page [[semantic:lang##rtlright_to_left_language|LTR or RTL language ready]].
   * Improvement: Added the page on the error message. The error messages may be created in the background and are then not always relevant to the actual page. 
   * [[:frontend_optimization|FrontEnd Optimization]]:
       * ComboStrap is no more dependent on Jquery
