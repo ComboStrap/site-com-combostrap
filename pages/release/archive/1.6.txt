@@ -10,7 +10,7 @@ The [[..:release|release]] ''1.6'' was the fifth release of ComboStrap and was p
 
 ===== Change list =====
 
-  * The [[ui:list|list]] component was added
-  * The [[ui:ntoc|namespace toc]] component was added
+  * The [[ui:content-list|list]] component was added
+  * The [[ui:page-explorer|namespace toc]] component was added
   * The [[strap:jquery#jquerydoku|jQuery doku]] configuration permits to use the Dokuwiki jQuery bundle in order to add Jquery UI to the front end.
   * The [[release:deprecated:tabs|tabs]] component was added

@@ -20,7 +20,7 @@ If you have any [[https://www.dokuwiki.org/caching|%%~~NOCACHE~~%%]] instruction
 {{backlinks>.}}
 ===== Why ? =====
 
-''side slots'' contains generally [[ui:navigation|navigational component]] such as a [[ui:ntoc|list of page]]. Therefore, their content becomes generally stale when a page is modified, added or deleted. 
+''side slots'' contains generally [[ui:navigation|navigational component]] such as a [[ui:page-explorer|list of page]]. Therefore, their content becomes generally stale when a page is modified, added or deleted. 
 
 The basic solution is to disable cache but this action has an important impact on [[:performance|performance]] because they read the index.
 
