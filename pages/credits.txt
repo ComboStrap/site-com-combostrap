@@ -11,7 +11,7 @@
 
 <row>
 <cell vertical="center" text-align="center">
-[[combostrap|Combostrap]] is built on the shoulder of amazing piece of software and illustrations. This page gives them credits.
+[[combostrap|Combostrap]] is built on the shoulders of amazing pieces of software and illustrations. This page gives them credits.
 </cell>
 <cell>
 {{::undraw_create.svg|}}
@@ -34,3 +34,4 @@
 | [[https://html.spec.whatwg.org/|HTML]] and [[https://en.wikipedia.org/wiki/JavaScript|Javascript]] | The frontend languages |
 | Home Page Photo | Women doing Yoga by [[https://unsplash.com/photos/F2qh3yjz6Jk|kikekiks]] |
 | [[https://github.com/iconic/SVGInjector|Svg Injector]] | The library that injects the [[ui:svg|svg]] in the page |
+| [[https://masonry.desandro.com/|Masonry]] | The library that drives the [[ui:card_column|card-column layout]] |

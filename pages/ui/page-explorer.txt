@@ -48,12 +48,14 @@ where:
 
 ==== List ====
 
+{{:ui:page-explorer-list-name-to-ui-region.png|}}
+
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <page-explorer color="blue" height="250px" width="400" scroll="toggle">
-    <home>[[$id?underline=false|$title]]</home>
+    <home>[[$path?underline=false|$title]]</home>
     <page>
-        [[$id?underline=false|<icon name="file"/> <pipeline>"$h1" | replace("ComboStrap UI - ","")</pipeline>]]
+        [[$path?underline=false|<icon name="file"/> <pipeline>"$h1" | replace("ComboStrap UI - ","")</pipeline>]]
     </page>
 </page-explorer>
 </code>
@@ -72,7 +74,7 @@ where the ''page'' template is composed of:
     <home>Overview</home>
     <ns><pipeline>"$h1" | cut("-",2) | trim() </pipeline></ns>
     <page>
-        [[$id|<icon name="file" color="#0000004d" width="20"/>  <pipeline>"$h1" | cut("-",2) | trim() </pipeline>]]
+        [[$path|<icon name="file" color="#0000004d" width="20"/>  <pipeline>"$h1" | cut("-",2) | trim() </pipeline>]]
     </page>
 </page-explorer>
 </code>
