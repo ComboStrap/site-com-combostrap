@@ -1,7 +1,7 @@
 
 
 <ntoc>
-<index>[[$id|$h1]]</index>
-<ns-item><icon name="folder" color="#17a2b8"/>     [[$id|<pipeline>"$h1" | replace("ComboStrap - ","")</pipeline>]]</ns-item>
-<page-item>[[$id|<pipeline>"$h1" | replace("ComboStrap - ","")</pipeline>]]</page-item>
+<index>[[$id?underline=false|$h1]]</index>
+<ns-item>[[$id?underline=false|<icon name="folder" color="#17a2b8"/> <pipeline>"$h1" | cut("-","2") | trim()</pipeline>]]</ns-item>
+<page-item>[[$id?underline=false|<pipeline>"$h1" | cut("-","2") | trim()</pipeline>]]</page-item>
 </ntoc>
