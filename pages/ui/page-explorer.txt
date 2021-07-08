@@ -10,43 +10,49 @@
 
 
 ===== About =====
-A ''page-explorer'' is a [[navigation|navigational component]] that creates a list of page
+A ''page-explorer'' is a [[navigation|navigational component]] that creates a navigation pane in the form of:
+  * a list 
+  * or clickable levels of folder hierarchy
 
-[[doku>namespaces|namespace (ie directory)]] in a [[content-list|list fashion]] [[toc|table of content (TOC)]] for a ''namespace''. It lays out all pages of a 
 
 This component is mostly used in a [[strap:side_slot|side slot]] or [[strap:sidekick_slot|sidekick slot]]
 
 
-A navigation pane on the left into clickable levels of folder hierarchy
 ===== Articles Related =====
 {{backlinks>.}}
 
 ===== Syntax =====
 
 <code dw>
-<page-explorer ns="current">
-  <page>$id - $title</page>
-  <namespace>$id - $title</namespace>
-  <home>$id - $title</home>
+<page-explorer type ns="current">
+  <page>$path - $title</page>
+  <namespace>$path - $title</namespace>
+  <home>$path - $title</home>
 </page-explorer>
 </code>
 where:
+  * the attributes are:
+      * [[styling:type|type]] that defines the layout and may be one of this two value:
+          * [[#list|list]] to create list navigation pane (the default)
+          * [[#tree|tree]] to create tree navigation pane
+      * ''ns'' that defines the ''namespace'' (Default to the ''namespace'' of the requested page)
   * the sub-element are:
     * ''page'' defines a [[template|template]] for each page in the namespace
     * ''home'' defines a [[template|template]] for the home page of the namespace
     * ''namespace'' defines a [[template|template]] for each child namespace of the actual namespace 
-  * the attribute are:
-      * ''ns''. It defines the ''namespace'' (Default to the ''namespace'' of the current page)
+    *  ''parent'' defines a [[template|template]] for the parent namespace of the actual namespace (used only in the [[#list|list layout]])
   
 
 
 <note >
-''page-explorer'', ''home'', ''page'' and ''namespace'' are all [[styling:html|superset HTML component]].
+''page-explorer'', ''home'', ''page'', ''parent'' and ''namespace'' are all [[styling:html|superset HTML component]].
 </note>
+
 
 ===== Example =====
 
 ==== List ====
+The below image shows you the mapping between the tag and their location in a ''list''  layout.
 
 {{:ui:page-explorer-list-name-to-ui-region.png|}}
 
