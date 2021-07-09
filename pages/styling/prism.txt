@@ -14,10 +14,10 @@
    
 
 The following ''component'' are ''prism component'':
-  * [[ui:code|code]] - to highlight code
-  * [[ui:file|file]] - to shows the content of a file, 
-  * [[ui:console|console]] - to show the output of a command at the terminal
-  * [[ui:preformatted|preformatted]] - to quote and show unformatted text based on simple text indentation 
+  * [[docs:block:code|code]] - to highlight code
+  * [[docs:block:file|file]] - to shows the content of a file, 
+  * [[docs:block:console|console]] - to show the output of a command at the terminal
+  * [[docs:block:preformatted|preformatted]] - to quote and show unformatted text based on simple text indentation 
 
 <badge>[[release:release|since 1.11]]</badge>
 
@@ -26,7 +26,7 @@ The following ''component'' are ''prism component'':
 ===== Syntax =====
 
 
-Except from [[ui:preformatted|preformatted]] that is based on indentation, they all follows the below syntax:
+Except from [[docs:block:preformatted|preformatted]] that is based on indentation, they all follows the below syntax:
 
 <file html>
 <component language [file-path] line-numbers="true" prompt="$">
@@ -44,7 +44,7 @@ where:
 ===== Example =====
 ==== Line numbers ====
 
-''HTML'' code in a [[ui:code|code component]] with the following syntax,
+''HTML'' code in a [[docs:block:code|code component]] with the following syntax,
 <file html>
 <code html line-numbers="true">
     <p class="hey">Type some code here</p>
@@ -57,7 +57,7 @@ You will get this output:
 
 ==== Prompt ====
 
-''HTML'' code in a [[ui:code|code component]] with the following syntax,
+''HTML'' code in a [[docs:block:code|code component]] with the following syntax,
 <file html>
 <code bash prompt="#">
 ls -a

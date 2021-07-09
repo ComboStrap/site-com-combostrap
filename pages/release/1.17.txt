@@ -14,14 +14,14 @@
   * The [[:identity|identity forms]] ''update profile'' and ''delete profile'' are now also styled.
   * [[styling:align|Align]] understand now ''start'' and ''end'' to make page [[semantic:lang##rtlright_to_left_language|LTR or RTL language ready]].
   * Improvement: Added the page on the error message. The error messages may be created in the background and are then not always relevant to the actual page. 
-  * [[:frontend_optimization|FrontEnd Optimization]]:
+  * [[docs:performance:frontend_optimization|FrontEnd Optimization]]:
       * ComboStrap is no more dependent on Jquery
       * New: Disable backend Javascript
-  * Improvement [[ui:svg|SVG]]
+  * Improvement [[docs:content:svg|SVG]]
       * A placeholder is shown with the good dimension when lazy loaded
-      * [[ui:svg#svginjectionenable|Svg Injection]] was showing a broken image for a couple of second. This is because the underlying library let a src with no value. We just cache the image before the injection and show it again after.
-  * new [[ui:pipeline|Pipeline function]]: ''cut'' and ''trim''
-  * Bug: [[:lazy|Lazy loaded image]] has a transparent inline gif image placeholder that has an intrinsic dimension of 1x1 creating problem and layout shift when the image are responsive.
-  * Bug: [[ui:card_column|card-column layout]] in Bootstrap 5 is implemented via Masonry and a recalculation of the layout should be done after each image load.
-  * Bug: As [[ui:image|image]] crop is not supported, a warning message was shown and we didn't let the original code take over. Crop are now supported via the original code.
-  * Bug: [[ui:heading|heading]] in [[ui:webcode|webcode]] were seen as component heading and not as outline heading.
+      * [[docs:content:svg#svginjectionenable|Svg Injection]] was showing a broken image for a couple of second. This is because the underlying library let a src with no value. We just cache the image before the injection and show it again after.
+  * new [[docs:utility:pipeline|Pipeline function]]: ''cut'' and ''trim''
+  * Bug: [[docs:performance:lazy|Lazy loaded image]] has a transparent inline gif image placeholder that has an intrinsic dimension of 1x1 creating problem and layout shift when the image are responsive.
+  * Bug: [[docs:layout:component:card_column|card-column layout]] in Bootstrap 5 is implemented via Masonry and a recalculation of the layout should be done after each image load.
+  * Bug: As [[docs:content:image|image]] crop is not supported, a warning message was shown and we didn't let the original code take over. Crop are now supported via the original code.
+  * Bug: [[docs:content:heading|heading]] in [[docs:utility:webcode|webcode]] were seen as component heading and not as outline heading.

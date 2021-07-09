@@ -1,0 +1,19 @@
+====== ComboStrap UI - Footer ======
+
+
+===== About =====
+''footer'' is an [[docs:docs|UI ComboStrap component]] that implements the [[https://www.w3.org/TR/2011/WD-html5-author-20110809/the-footer-element.html|HTML footer element]].
+
+It's generally used in the [[docs:layout:page:footer_slot|footerbar]] of the [[:strap|Strap template]].
+
+<note tip>A footer for a whole page is known as a fat footer.</note>
+
+<badge>Since [[release:release|version 1.2]]</badge>
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Syntax =====
+''footer'' is a [[styling:html|superser HTML element]] and takes therefore into account all [[styling:styling|styling attributes such as class and style]].
+<code dw>
+<footer> </footer>
+</code>

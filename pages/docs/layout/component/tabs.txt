@@ -1,0 +1,173 @@
+---json
+{
+    "canonical":"tabs",
+    "title":"Tabs: layout panels in tab",
+    "description":"A tabs is an layout, interactive and navigational element that is composed of a a serie of tab that, when activated, displays their associated panel."
+}
+---
+====== ComboStrap UI - Tabs ======
+
+
+===== About =====
+A ''tabs'' is an [[docs:layout:component:component|layout]], [[docs:navigation:navigation|interactive and navigational]] element that is composed of a a serie of ''tab'' that, when activated, displays their associated [[docs:layout:component:panel|panel]].
+
+<note tip>
+You can also choose an [[docs:layout:component:accordion|accordion]] as another navigational collapsible layout for panels.
+</note>
+
+<badge>Since [[release:archive:1.12|version 1.12]]</badge>
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Syntax =====
+A ''tabs'' component is composed of:
+  * a serie of [[docs:layout:component:panel|panel]]
+  * that must have a ''label'' element.
+  * and optionally the ''selected'' attribute to specify the ''selected'' [[docs:layout:component:panel|panel]]
+  * with a ''type'' attribute that may take the value:
+      * [[#tabs]] (default)
+      * [[#pills]]
+      * [[#enclosed-tabs]]
+      * [[#enclosed-pills]]
+<code dw>
+<tabs type>
+    <panel selected>
+        <label>Text</label>
+        Body
+    </panel>
+    ...
+</tabs>
+</code>
+
+
+
+
+===== Example =====
+
+
+==== Label ====
+
+The ''label'' tag supports all syntax inside. You can add:
+  * [[docs:content:icon|icon]]
+  * [[docs:content:image|image]]
+  * or any other [[doku>plugins?plugintype=1#extension__table|dokuwiki syntax plugin]]
+
+Demo:
+<webcode name="Tabs" frameborder=0 >
+<code dw>
+<tabs enclosed-tabs>
+    <panel selected>
+        <label>Icon <icon name="home"/></label>
+        A panel with a [[:docs:content:icon|svg icon]].
+    </panel>
+    <panel>
+        <label>Image {{:ui:code-square.png?24&spacing=ml-1|}}</label>
+        A panel with a [[:docs:content:raster#icon|raster image icon]].
+    </panel>
+        <panel>
+        <label>Characters ''&''</label>
+        All characters are supported even the ampersand.
+    </panel>
+</tabs>
+</code>
+</webcode>
+
+
+==== Tabs ====
+
+<webcode name="Tabs" frameborder=0 >
+<code dw>
+<tabs>
+     <panel>
+     <label>Home <icon name="home"/></label>
+     Raw denim you probably haven't heard of them jean shorts Austin.
+
+     Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.
+    </panel>
+    <panel selected>
+    <label>Syntaxes {{:ui:code-square.png?24|}}</label>
+        Other syntax are also accepted. Example with a table: \\ \\
+
+^ UI Components ^ Description ^
+| [[ui:badge|badge]] | A small status descriptors |
+| [[ui:note|note]] | A paragraph that is parenthetic or ancillary to the main text. |
+| [[ui:ui|See the full list ...]] ||
+
+    </panel>
+</tabs>
+
+</code>
+</webcode>
+
+==== Pills ====
+
+<webcode name="Pills" frameborder=0 >
+<code dw>
+<tabs pills>
+    <panel selected>
+        <label>Home</label>
+         ==== My Home ====
+         Raw denim you probably haven't heard of them jean [[https://combostrap.com/tabs|shorts Austin]]. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor,
+         williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid.
+         Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.
+     </panel>
+     <panel>
+         <label>Profile</label>
+              <title 1>Profile</title>
+              Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.
+     </panel>
+</tabs>
+</code>
+</webcode>
+
+==== Enclosed-Tabs ====
+
+<webcode name="Card-Tabs" frameborder=0 >
+<code dw>
+<tabs enclosed-tabs>
+    <panel selected>
+        <label>Home</label>
+         ==== My Home ====
+         Raw denim you probably haven't heard of them [[https://combostrap.com|jean shorts Austin]]. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor,
+         williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid.
+         Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.
+         </panel>
+         <panel>
+         <label>Profile</label>
+              <title 1>Profile</title>
+              Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.
+         </panel>
+</tabs>
+</code>
+</webcode>
+
+==== Enclosed-Pills ====
+
+<webcode name="Card-Pills" frameborder=0 >
+<code dw>
+<tabs enclosed-pills>
+    <panel selected="true">
+        <label>Home</label>
+         ==== My Home ====
+         Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor,
+         williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid.
+         Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.
+         </panel>
+         <panel>
+         <label>Profile</label>
+              <title 1>Profile</title>
+              Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.
+         </panel>
+</tabs>
+</code>
+</webcode>
+
+
+===== For the geek =====
+The [[docs:layout:component:panel|panel]] rendered is a [[https://www.w3.org/TR/wai-aria-practices-1.1/#tabpanel|tabpanel (WAI-ARIA Authoring Practices 1.1)]]
+
+
+
+
+
+

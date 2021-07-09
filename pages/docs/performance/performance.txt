@@ -1,0 +1,70 @@
+---json
+{
+    "canonical":"performance",
+    "title":"What makes the ComboStrap performance so fast",
+    "description":"This article explains the secret sauce of the ComboStrap performance and what you should avoid in order to not degrade it.",
+    "layout":"median"
+}
+---
+====== ComboStrap - Perfomance ======
+
+===== About =====
+''performance'' is how fast your page will be perceived by your user from the moment they click on a link until they see the resulting page.
+
+
+Google has a more detailed definition of what performance is and gives you a performance score along with performance metrics via the [[https://developers.google.com/web/tools/lighthouse|lighthouse product]].
+
+Below is a run of the home page of this website with the [[https://developers.google.com/speed/pagespeed/insights/|lighthouse website version]]. Note that our web server is running on a small machine with only 2 cores from Canada.
+
+{{ ::page_speed_performance.png?600 |}}
+
+
+
+===== Steps =====
+
+==== Stylesheet ====
+
+=== Critical Path ===
+
+All [[styling:stylesheet|published stylesheet (bootstrap and bootswatch)]] are served by defaut from a [[docs:performance:cdn|CDN]]
+
+If you are using only ComboStrap, you can even disable the Dokuwiki Stylesheet for public user with the [[docs:performance:frontend_optimization#disableDokuwikiStylesheet|disableDokuwikiStylesheet configuration]]
+
+The size of a web page served to the public (user not logged in) can be optimized with the [[docs:performance:frontend_optimization|CSS optimization module]]
+
+=== Stylesheet Preload ===
+We preload stylesheet that are non critical for rendering. For instance, the stylesheet used for [[docs:animation:animation|animation]] are preloaded and added to the page at the end.
+==== Javascript ====
+All Javascript file are served from a [[docs:performance:cdn|CDN]] and are deferred (loaded at the end) because they are not needed for the first rendering.
+
+
+If you only depend on the ''ComboStrap'' plugins, you can even [[docs:performance:frontend_optimization#javascriptdisable_backend|disable the backend javascript]].
+
+
+==== Sidebar Cache Bursting ====
+
+
+[[docs:layout:page:side_slot|Side slots]] are using heavily the index when they show [[docs:navigation:navigation|navigational components]] and have a great impact on the web server rendering time.
+
+With the [[docs:performance:sideslots|side slots automatic cache bursting]], the only user impacted is the editor that is recreating the sidebar when he saves the page.
+
+
+Action: If you have any [[https://www.dokuwiki.org/caching|%%~~NOCACHE~~%%]] instructions in your sidebar, just delete them.
+==== Image ====
+
+We follow the [[https://developers.google.com/search/docs/advanced/guidelines/google-images|Google best practices on image]]
+=== Lazy load ===
+
+All [[docs:content:image|images]] are [[docs:performance:lazy|lazy loaded]] by default. It means that they are loaded only when:
+  * they are on the screen
+  * they are going to enter in the screen.
+
+=== Automatic Responsive Sizing ===
+
+All raster images (jpg, png, ...) are also automatically loaded with the appropriate sizing.
+
+If a page contains an big image (say 2400px), this image will be resized and served to 300px on a small mobile screen.
+
+If you want to see it in action, you can check the [[docs:content:raster#automatic_responsive_resizing|demonstration video]].
+
+

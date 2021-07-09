@@ -10,17 +10,16 @@ ComboStrap
 [[:ads:ads|Ads]]
 [[:analytics:analytics|Analytics]]
 [[:quality:quality|Quality]]
-[[ui:ui|UI Components]]
+[[docs:docs|Docs]]
 [[url:url|Url Manager]]
 [[:seo|Search Engine Optimization]]
 [[semantic:semantic|Web Structured Data]]
 [[:social|Social (Twitter, Facebook, Google)]]
 [[styling:styling|Styling]]
-[[:strap:strap|Templating]]
 </dropdown>
 [[support|Contact]]
 </group>
-<btn elevation="true" background-color="#7611F7" border-color="#7611F7">[[getting_started:getting_started|Get Started <icon name="arrow-right-drop-circle-outline" width="1.5rem"/>]]</btn>
+<btn elevation="true" background-color="#7611F7" border-color="#7611F7">[[docs:getting_started:getting_started|Get Started <icon name="arrow-right-drop-circle-outline" width="1.5rem"/>]]</btn>
 <search/>
 </collapse>
 </menubar>

@@ -24,7 +24,7 @@ If you want to modify the styling once, you can also do it via [[styling#attribu
 
 
 ===== Prerequisites =====
-  * [[strap:strap|Strap template]]
+  * [[:strap|Strap template]]
   * Install [[https://nodejs.org/en/download/|Node]]
   * Insatll [[https://git-scm.com/downloads|Git]]
 
@@ -35,7 +35,7 @@ If you want to modify the styling once, you can also do it via [[styling#attribu
 <code bash>
 git clone https://github.com/twbs/bootstrap.git
 </code>
-  * Get the last [[strap:bootstrap#version|Combostrap Bootstrap version]]. Example for Bootstrap version 4.5.0
+  * Get the last [[docs:utility:bootstrap#version|Combostrap Bootstrap version]]. Example for Bootstrap version 4.5.0
 <code bash>
 cd bootstrap
 git checkout -b version4.5.0 v4.5.0
@@ -166,7 +166,7 @@ Example:
 </code>
 
 === change the bootstrapStylesheet configuration ===
-The last step is to change the [[strap:bootstrap#bootstrapStylesheet]] configuration.
+The last step is to change the [[docs:utility:bootstrap#bootstrapStylesheet]] configuration.
 
 
 ===== Documentation =====

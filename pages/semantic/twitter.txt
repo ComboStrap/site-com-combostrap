@@ -18,7 +18,7 @@ You can optionally add your twitter handle in the cards if [[#configuration|conf
 
 
 <note>
-This is page is about the integration of your page as card in twitter. If you want the inverse and embed a tweet in your page, see the [[ui:tweet|tweet page]]
+This is page is about the integration of your page as card in twitter. If you want the inverse and embed a tweet in your page, see the [[docs:block:tweet|tweet page]]
 </note>
 
 ===== Articles Related =====
@@ -49,7 +49,7 @@ You can set the following [[:configuration|configuration]]:
 | ''defaultTwitterImage'' | the image used if an [[image|page image]] was not found ([[https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup|svg is not supported, less than 5MB]]) | apple-touch-icon.png |
 
 <note>
-The default site image ''apple-touch-icon.png'' is already installed if you have followed the [[getting_started:4_favicon|favicon installation guide]]
+The default site image ''apple-touch-icon.png'' is already installed if you have followed the [[docs:getting_started:4_favicon|favicon installation guide]]
 </note>
 
 

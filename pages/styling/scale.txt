@@ -31,7 +31,7 @@ Every browser sets a value of ''16px'' for one ''rem'' by default but you can in
 
 
 
-{{:ui:rem_strap_conf.png|}}
+{{docs:block:rem_strap_conf.png|}}
 
 
 

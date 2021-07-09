@@ -18,7 +18,7 @@ ComboStrap is tested against ''php'' version 5.6. to 7.4
 
 ==== Module / Extension ====
 
-ComboStrap uses [[https://www.php.net/manual/en/dom.installation.php|Php DOM]] for [[ui:svg|svg]] and [[ui:icon|icon]] manipulation.
+ComboStrap uses [[https://www.php.net/manual/en/dom.installation.php|Php DOM]] for [[docs:content:svg|svg]] and [[docs:content:icon|icon]] manipulation.
 
 
 

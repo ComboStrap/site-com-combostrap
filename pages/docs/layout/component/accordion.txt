@@ -1,0 +1,44 @@
+---json
+{
+    "canonical":"accordion",
+    "title":"How to create a accordion in combostrap",
+    "description":"The accordion component is a widget that layouts it children component in an accordion fashion. This article shows you how to do it."
+}
+---
+
+====== ComboStrap UI - Accordion ======
+
+
+===== About =====
+''accordion'' is a [[docs:docs|UI component]] that [[docs:layout:component:component|lays out]] [[docs:layout:component:panel|panels]] in an accordion fashion that [[docs:animation:toggle|toggle (collapse or expand)]] when clicked.
+
+
+<note tip>
+You can also choose [[docs:layout:component:tabs|tabs]] as other navigational collapsible layout for panels.
+</note>
+
+<badge>Since [[release:release#version_112|version 1.12]]</badge>
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Example =====
+
+By default, [[docs:menubar:collapse|panels]] are ''collpased'', if you don't want, you need to set it explicitly to ''false''.
+
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<accordion>
+    <panel collapsed="false">
+        <label>Collapsible Group Item #1</label>
+        Some placeholder content for the first accordion card. This card is shown by default because of the ''collapsed'' attribute.
+    </panel>
+    <panel>
+        <label><icon name="hamburger"/> Menu</label>
+        === With Hamburger Icon ===
+        You can use all syntaxes inside a label [[ui:icon|icon included]]
+    </panel>
+</accordion>
+</code>
+</webcode>
+
+

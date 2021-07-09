@@ -9,7 +9,7 @@
 
 
 ===== About =====
-''hover animation'' permits to add animations to your [[ui:block|block component]] when the mouse points an element (ie is ''hover'').
+''hover animation'' permits to add animations to your [[docs:block:block|block component]] when the mouse points an element (ie is ''hover'').
 
 
 
@@ -26,14 +26,14 @@ To add an ''hover animation'', add a ''onHover'' attribute with the name of your
 
 When you want to add [[styling:shadow|dynamic elevation]], you can use the ''float'' animation
 
-  * On a [[ui:button|button]]
+  * On a [[docs:content:button|button]]
 <webcode name="Default" frameborder="0">
 <code dw>
 <button onHover="float">A floated animated button</button>
 </code>
 </webcode>
 
-  * On an [[ui:Image|image]]
+  * On an [[docs:content:image|image]]
 <webcode name="Default" frameborder="0">
 <code dw>
 {{:styling:subway_card_tile.png?onHover=float|}}
@@ -45,13 +45,13 @@ When you want to add [[styling:shadow|dynamic elevation]], you can use the ''flo
 
 When you want to add a zoom-in effect, you can use the ''grow'' animation
 
-  * [[ui:button|button]]
+  * [[docs:content:button|button]]
 <webcode name="Default" frameborder="0">
 <code dw>
 <button onHover="grow">A zoom-in / grow animated button</button>
 </code>
 </webcode>
-  * [[ui:icon|icon]]
+  * [[docs:content:icon|icon]]
 <webcode name="Default" frameborder="0">
 <code dw>
 A zoom-in / grow animated icon - <icon width="50px" height="50px" onHover="grow" name="logo.svg" />
@@ -105,7 +105,7 @@ Example:
 
 <note>
 The library is not primary supported because:
-  * there is some incompatibility with [[strap:bootstrap|BootStrap]]
+  * there is some incompatibility with [[docs:utility:bootstrap|BootStrap]]
   * they require a commercial license if not for personal use.
 If you underline problems, you can also [[#custom|add your own]].
 </note>

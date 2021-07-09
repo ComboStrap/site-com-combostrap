@@ -33,7 +33,7 @@ lang="languagevalue"
 </code>
 where the language value is the two letters language. You can find it as the ''subtag'' in the [[https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry|official iana list]]
 
-You can set it in a [[ui:block|block]] as well as a [[ui:inline|inline component]].
+You can set it in a [[docs:block:block|block]] as well as a [[docs:content:content|inline component]].
 
 This attribute will also set the direction of the text (also known as characterOrder) to:
   * Right to Left

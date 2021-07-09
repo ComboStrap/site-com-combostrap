@@ -13,15 +13,15 @@
 ===== List =====
 
   * The following monospaces component were added with the [[styling:prism|prism library]] to add feature such as prompt, copy text and syntax highlighting.
-     * The [[ui:file|file component]] -  a file
-     * The [[ui:code|code component]] - a code
-     * The [[ui:console|console component]] - a console
+     * The [[docs:block:file|file component]] -  a file
+     * The [[docs:block:code|code component]] - a code
+     * The [[docs:block:console|console component]] - a console
   * Added documentation over the [[styling:userstyle|userstyle]] or how to bring its own css rules.
   * Regression fixed: the section ''highlighting'' change of the previous release has removed the default header style.
   * [[quality:automatic_hidden|New automatic hidden page]]: the internal page such as the bars and namespace are now automatically hidden. No configuration is needed.
-  * New: a new [[ui:box|Box]] component was introduced to group other component and allows for instance to define a [[ui:collapse|collapse]] target.
-  * New: the [[ui:preformatted|preformatted mode]] of dokuwiki is disabled by default in order to be able to write hierarchical block.
-  * New: the [[ui:collapse#attribute|collapse attribute]]: a control element such as a [[ui:button|button]] with this attribute can collapse a target component.
+  * New: a new [[docs:block:box|Box]] component was introduced to group other component and allows for instance to define a [[docs:menubar:collapse|collapse]] target.
+  * New: the [[docs:block:preformatted|preformatted mode]] of dokuwiki is disabled by default in order to be able to write hierarchical block.
+  * New: the [[docs:menubar:collapse#attribute|collapse attribute]]: a control element such as a [[docs:content:button|button]] with this attribute can collapse a target component.
   * Fix:  Deleted the clearfix ''group'' class css style of dokuwiki that was giving a line break on the [[styling:prism#regex_language|prism regex language]].
   * New: [[analytics:analytics|analytics module]] that adds [[analytics:data|analytical data]] on [[analytics:statistics|page statistics]] and [[quality:quality|quality]] (with automatic refresh when backlinks are created or deleted).
   * New: [[quality:quality|quality  module]] with [[quality:lqpp|low quality page protection]], [[quality:score|quality score]] and [[quality:rule|quality rules]]

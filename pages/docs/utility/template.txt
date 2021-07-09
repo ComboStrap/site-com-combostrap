@@ -1,0 +1,31 @@
+====== ComboStrap UI - Template ======
+
+
+===== About =====
+''template'' are text that may contains [[#variables|variables]] that will be replaced at runtime.
+
+They are supported in the [[docs:navigation:page-explorer|page explorer component]].
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Example =====
+Example of template used in a [[docs:navigation:page-explorer|page-explorer navigation pan]] to create:
+  * a [[docs:content:link|link]] 
+  * with a [[docs:utility:pipeline|pipeline]] 
+  * that separate the [[semantic:h1|h1]] with the minus ''-'' 
+  * and used the second part as link description
+<code dw>
+[[$path|<pipeline>"$h1" | cut("-",2) | trim()</pipeline>]]
+</code>
+
+===== Variables =====
+The following variables can be used in a ''template'':
+  * ''$path'' is the full qualified path of a page that can be used in [[docs:content:link|link]]
+  * ''$title'' - the [[semantic:title|title]] of the page - if empty, the ''h1''
+  * ''$h1'' - the [[semantic:h1|h1 title]] (the first header text of the page) - if empty, the ''title''.
+  * ''$id'' - the id of the page
+
+===== Transformation =====
+A ''template'' supports text transformation through the use of a [[docs:utility:pipeline|pipeline]].
+
+

@@ -12,7 +12,7 @@
 
 
 ===== About =====
-Every [[ui:ui|ComboStrap UI component]] can be colorized with one of the following color attributes
+Every [[docs:docs|ComboStrap UI component]] can be colorized with one of the following color attributes
   * [[text-color|text-color]] : The color of the text
   * [[background#color|background-color]] : The color of the [[background|background]]
   * [[border#color|border-color]] : The color of the [[border|border]]
@@ -29,7 +29,7 @@ This page describes which [[#value|color value]], they can take.
 
 
 ===== Example =====
-  * A [[ui:card|card]] with:
+  * A [[docs:block:card|card]] with:
       * a ''black'' [[text-color|(text) color]]
       * a ''teal'' [[styling:background#color|background color]]
       * a ''blue'' [[styling:border#color|border color]]
@@ -60,7 +60,7 @@ Generating or choosing attractive color is not easy. The [[color_generator|color
 
 The default Bootstrap colors are:
 
-{{:ui:bootstrap_default_color.png|}}
+{{docs:block:bootstrap_default_color.png|}}
 
 
 <note>
@@ -71,7 +71,7 @@ You can also use a [[https://drafts.csswg.org/css-color/#color-keywords|CSS Colo
 
 ''rbg'' (or red blue green) is the standard web value that is composed of an hexadecimal value.
 
-Example  with the [[ui:text|text component]]
+Example  with the [[docs:block:text|text component]]
 <webcode frameborder="0">
 <code dw>
 <text color="#6c757d" width="fit" align="center">
@@ -82,7 +82,7 @@ Text color with a hexadecimal value of ''#6c757d''
 </webcode>
 
 ==== Reset ====
-The ''reset'' color applied on a [[ui:link|link]] will take the color of the [[ui:text|text]] and we [[styling:underline|underline it]] to make it visible.
+The ''reset'' color applied on a [[docs:content:link|link]] will take the color of the [[docs:block:text|text]] and we [[styling:underline|underline it]] to make it visible.
 <webcode name="Default" frameborder="0">
   * Input
 
@@ -104,7 +104,7 @@ Colored text with a [[?color=reset&underline|reset link]]
 Just for your information, Bootstrap does not assign the same color set by name for a component.
 </note>
 
-For instance, you got this colors for a [[ui:button#primary|Primary button]]
+For instance, you got this colors for a [[docs:content:button#primary|Primary button]]
 <code css>
 .btn-primary {
     color: #fff;
@@ -112,7 +112,7 @@ For instance, you got this colors for a [[ui:button#primary|Primary button]]
     border-color: #075ebb;
 }
 </code>
-and this one for a [[ui:note#primary|primary note]]
+and this one for a [[docs:block:note#primary|primary note]]
 <code css>
 .alert-primary {
     color: #004085;

@@ -1,0 +1,28 @@
+---json
+{
+    "canonical":"ui:inline",
+    "title":"ComboStrap UI Inline components ",
+    "description":"Inline components are used inside a paragraph (ie in a line)."
+}
+---
+====== ComboStrap UI - Inline Components ======
+
+
+===== About =====
+''Inline'' components are used inside a [[docs:block:text|paragraph (ie in a line)]].
+
+[[docs:docs|ComboStrap UI]] gets the following inline components in its library:
+
+
+  * [[docs:content:badge|Badge]]: A badge
+  * [[docs:content:button|Button (btn)]]: A button (they are generally set apart on their own line)
+  * [[docs:content:highlight|Highlight]]: Highlight a sequence of words
+  * [[docs:content:icon|Icon]]: All material design icons or your own
+  * [[docs:content:raster|Raster image]]: A small image can be used as icon
+  * [[docs:content:inote|Inote]]: An inline note
+  * [[docs:content:link|Link]]: A link with text, icon, image or what ever you need.
+  * [[docs:content:itext|Itext]]: format one or several words at once.
+  * [[docs:content:typo|Typography]]: Typography markup such as boldness, underline, ...
+  
+  
+

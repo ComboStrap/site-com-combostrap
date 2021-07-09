@@ -6,7 +6,7 @@
 ====== Markdown Page ======
 
 ===== About =====
-This [[beta|beta]] idea is to create more [[ui:markdown|markdown capabilities]]
+This [[beta|beta]] idea is to create more [[docs:utility:markdown|markdown capabilities]]
 
 
 

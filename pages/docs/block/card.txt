@@ -1,0 +1,148 @@
+---json
+{
+    "canonical":"card",
+    "title":"ComboStrap UI - Creating a card",
+     "description":"A card is a box composed of an image, a text and a call to action"
+}
+---
+
+====== ComboStrap UI - Card ======
+
+===== About =====
+A ''card'' is a box with the dimension of a card that contains summary data such as:
+  * a [[release:deprecated:title|title]]
+  * a short description
+  * an optional image illustration
+  * [[docs:content:icon|icons]]
+  
+
+
+<note>
+If the body contains call-to-actions, this is called a [[teaser|teaser]]
+</note>
+
+
+
+
+
+===== Articles Related =====
+{{backlinks>.}}
+===== Syntax =====
+
+<code dw>
+<card attribute>
+    {{imageTop}}
+    <header>Label</header>
+    Content
+    <btn>[[link|button]]</btn>
+</card>
+</code>
+where:
+  * ''attributes'' may be any [[styling:styling|styling attributes]]
+      * such as [[styling:clickable|clickable]] to make the whole card clickable.
+  * ''imageTop'' if the first element is an [[docs:content:image|image]], it will be used as a top illustration image.
+  * ''header'' defines a label placed at the top of the card
+
+A ''card'':
+  * is a [[styling:html|superset HTML component]] and permits then all kind of [[styling:styling|styling]]
+  * can be laid out in tile with the [[docs:layout:component:card_column|card-columns]] component
+
+<inote>A [[docs:block:blockquote|blockquote]] is also logically a card that happens to have an external quote in its body.</inote>
+
+
+===== Visual =====
+
+==== A Full Card (image, title, content, button styled) ====
+
+<webcode name="Card1" frameborder=0>
+<code dw>
+<card width="18rem">
+{{:teaser_image_1.png|}}
+=== Teaser Title  ===
+A example taken from [[https://getbootstrap.com/docs/4.3/components/card/#example|the bootstrap quick example]] on how to build a card title in order to make up the bulk of the teaser content.
+
+<btn>[[:start|Go to the best plugin on the universe !]]</btn>
+</card>
+</code>
+
+</webcode>
+
+==== Teaser is an alias for card. ====
+At first, ''teaser'' was the first name of card and you may still [[teaser|use it]].
+<webcode name="Card2" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<teaser width="20rem">
+{{:teaser_image_2.jpg|}}
+=== Teaser Title  ===
+A example taken from [[https://getbootstrap.com/docs/4.3/components/card/#example|the bootstrap quick example]] on how to build a card title in order to make up the bulk of the teaser content.
+
+<btn skin="text" spacing="pl-0">[[:ui:card|Card link]]</btn>
+<btn skin="text">[[#|Another link]]</btn>
+</teaser>
+</code>
+</webcode>
+
+
+==== A card may include other dokuwiki syntax ====
+
+''Card'' may include other [[docs:docs|component]]. Example with [[docs:navigation:related|related]]
+
+
+<webcode name="Card2" frameborder=0>
+<code dw>
+<teaser width="18rem">
+=== Backlinks in Card ===
+This pages are talking about this subject:
+<related/>
+</teaser>
+</code>
+</webcode>
+
+
+==== A card may be styled ====
+
+Because a ''card'' is a [[styling:html|HTML superset component]], you can style it as you wish.
+
+
+<webcode name="Styled Card"  >
+<code dw>
+<card width="300px" background-color="dark" color="white" align="center" >
+<header>Header is the top of a component</header>
+=== A styled card ===
+You can style all [[styling:html|HTML superset component]] easily.
+
+A [[styling:align|centered box]] with a dark background [[styling:color|color]] and a white text.
+
+<btn light>
+[[styling:styling|Check it out !]]
+</btn>
+</card>
+</code>
+</webcode>
+
+==== A card may be clickable ====
+
+You may extend the clickable surface of a  link to the whole card with the [[styling:clickable|clickable attribute]].
+
+<webcode name="Default" frameborder="0">
+<code dw>
+<card width="18rem" clickable="true">
+{{:styling:subway_card_tile.png|}}
+=== Clickable Card ===
+Lorem ipsum
+
+<btn>[[https://combostrap.com/clickable|A clickable card]]</btn>
+</card>
+</code>
+</webcode>
+
+===== Documentation / Reference =====
+  * https://material.io/components/cards
+  * [[https://getbootstrap.com/docs/5.0/components/card/|Bootstrap card]]
+
+
+
+
+
+
+

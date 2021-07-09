@@ -11,7 +11,7 @@
 This feature creates automatically a [[canonical|canonical value]] (ie a page identifier) based on the last part of a [[doku>pagename|DokuWiki Id]].
 
 <note info>
-There is no automatic canonical created for the [[strap:slot|slots]] as they are not intended to be accessed directly.
+There is no automatic canonical created for the [[docs:layout:page:slot|slots]] as they are not intended to be accessed directly.
 </note>
 ===== Articles Related =====
 {{backlinks>.}}

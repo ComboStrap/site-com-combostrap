@@ -28,18 +28,18 @@ where the value goes:
 ===== Example =====
 
 ==== Image ====
-With a [[ui:raster|raster image]]
+With a [[docs:content:raster|raster image]]
 <webcode name="Default" frameborder=0>
 <code dw>
 
 <row>
 <cell>
 ^ With an opacity of ''0.5'' ^
-| {{:ui:stock_image_surfer_in_the_see.png?300&opacity=0.5}} |
+| {{:docs:block:stock_image_surfer_in_the_see.png?300&opacity=0.5}} |
 </cell>
 <cell>
 ^  Without opacity  ^
-| {{:ui:stock_image_surfer_in_the_see.png?300}} |
+| {{:docs:block:stock_image_surfer_in_the_see.png?300}} |
 </cell>
 </row>
 </code>
@@ -49,11 +49,11 @@ With a [[ui:raster|raster image]]
 
 Opacity is mostly used with [[styling:background|background]]
 
-Example with a [[ui:slide|slide]] and a [[background|background]]
+Example with a [[docs:layout:component:slide|slide]] and a [[background|background]]
 <webcode name="Default" frameborder="0">
 <code dw>
 <slide color="steelblue" text-align="center" >
-   <background opacity="0.3">{{:ui:stock_image_surfer_in_the_see.png|}}</background>
+   <background opacity="0.3">{{:docs:block:stock_image_surfer_in_the_see.png|}}</background>
    <title 2>A background with an opacity of 0.3</title>
 </slide>
 </code>

@@ -2,9 +2,9 @@
 
 
 ===== About =====
-Because all [[ui:ui|ComboStrap UI component]] are implemented as [[html|super set HTML element]], you can apply the ''class attributes''.
+Because all [[docs:docs|ComboStrap UI component]] are implemented as [[html|super set HTML element]], you can apply the ''class attributes''.
 
-The ''class'' attribute is used intensively by [[strap:bootstrap|Bootstrap]] to apply the [[https://getbootstrap.com/docs/4.0/utilities/|Bootstrap Utilities]].
+The ''class'' attribute is used intensively by [[docs:utility:bootstrap|Bootstrap]] to apply the [[https://getbootstrap.com/docs/4.0/utilities/|Bootstrap Utilities]].
 
 ''ComboStrap'' already implements most of this utilities through the [[styling#standard attributes]] but in the case that you need something really advanced, you can always take the control over and apply them.
 
@@ -15,9 +15,9 @@ The ''class'' attribute is used intensively by [[strap:bootstrap|Bootstrap]] to 
 
 
 
-If you want to apply a [[https://getbootstrap.com/docs/4.0/utilities/float/|float-right]] on a [[ui:note|note]], you will give the value ''float-right'' to the ''class'' attribute.
+If you want to apply a [[https://getbootstrap.com/docs/4.0/utilities/float/|float-right]] on a [[docs:block:note|note]], you will give the value ''float-right'' to the ''class'' attribute.
 
-Example with a [[ui:note|note]] and a [[ui:container|container]]
+Example with a [[docs:block:note|note]] and a [[docs:layout:component:container|container]]
 <webcode name="Float right">
 <code dw>
 <container width="600px">

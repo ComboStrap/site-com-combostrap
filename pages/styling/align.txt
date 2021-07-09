@@ -4,10 +4,10 @@
 ===== About =====
 ''align'' is an [[styling:styling|styling attribute]] of the [[styling:html|HTML superset component]]
 
-It permits to align a [[#block|block]] on the horizontal axis. 
+It permits to align a [[#block|block]] on the horizontal axis.
 
 <note tip align="center" width="fit-content">
-If you want more control on the position, you may also use a [[ui:grid|grid]]
+If you want more control on the position, you may also use a [[docs:layout:component:grid|grid]]
 </note>
 
 ===== Articles Related =====
@@ -18,7 +18,7 @@ If you want more control on the position, you may also use a [[ui:grid|grid]]
 
 The ''align'' attribute on a box, supports the values:
   * ''left'' or ''start'' (by default, the block is aligned to the left)
-  * ''center'', 
+  * ''center'',
   * ''right'' or ''end''
 
 <note>
@@ -48,17 +48,17 @@ As every block by default takes the whole available [[dimension|width]], you nee
 <note>
 === Text ===
 
-To align the text inside a [[ui:block|block component]], you use the [[styling:text-align|text-align attribute]].
+To align the text inside a [[docs:block:block|block component]], you use the [[styling:text-align|text-align attribute]].
 
 </note>
 
 ==== Image ====
 
-With a [[ui:image|image]], if you want to align it to the ''center'', you would let a space after ''%%{{%%'' and before ''%%}}%%''. More information, see the [[ui:image#position|image position section]].
+With a [[docs:content:image|image]], if you want to align it to the ''center'', you would let a space after ''%%{{%%'' and before ''%%}}%%''. More information, see the [[docs:content:image#position|image position section]].
 
 <webcode name="Default" frameborder=0>
 <code dw>
-{{ :ui:stock_image_surfer_in_the_see.png?400 |}}
+{{ :docs:block:stock_image_surfer_in_the_see.png?400 |}}
 </code>
 </webcode>
 

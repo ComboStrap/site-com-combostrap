@@ -24,14 +24,14 @@
 | [[https://dokuwiki.org|Dokuwiki]] | This is the wiki engine that powers the creation and parsing of the page |
 | [[https://bootstrap.com|Bootstrap]] | This is the styling platform where you can choose from several [[styling:stylesheet|theme]] or create your [[styling:stylesheet|own]] |
 | [[https://bootswatch.com/|Bootswatch]] | The pre-created [[styling:stylesheet|Bootstrap themes]] |
-| [[https://materialdesignicons.com/|Material Design]], [[https://icons.getbootstrap.com/|Bootstrap]], [[https://feathericons.com/|Feather]] | This icons libraries that powers the [[ui:icon|Icon Component]] |
+| [[https://materialdesignicons.com/|Material Design]], [[https://icons.getbootstrap.com/|Bootstrap]], [[https://feathericons.com/|Feather]] | This icons libraries that powers the [[docs:content:icon|Icon Component]] |
 | [[https://undraw.co/illustrations|Undraw]] and [[https://unsplash.com/|Unsplash]] | This image libraries are used for the illustrations of this website |
-| [[https://apoorv.pro/lozad.js/|Lozad]] | This is the [[lazy|lazy load engine]] delaying the download of image when they are going to enter in the screen |
+| [[https://apoorv.pro/lozad.js/|Lozad]] | This is the [[docs:performance:lazy|lazy load engine]] delaying the download of image when they are going to enter in the screen |
 | [[https://prismjs.com/|Prism]] | This is the code highlighting engine that powers the [[styling:prism|prism base component]] such as code, file, console and indented block |
-| [[http://scrollmagic.io/|ScrollMagic]] | This is the engine that start the [[styling:animation|animation]] when a component [[release:beta:onvisible|become visible]] |
+| [[http://scrollmagic.io/|ScrollMagic]] | This is the engine that start the [[docs:animation:animation|animation]] when a component [[release:beta:onvisible|become visible]] |
 | [[https://animate.style/|Animate]] | The CSS animation library applied to component when they [[release:beta:onvisible|become visible]] |
 | [[https://www.php.net/|Php]] | The backend language |
 | [[https://html.spec.whatwg.org/|HTML]] and [[https://en.wikipedia.org/wiki/JavaScript|Javascript]] | The frontend languages |
 | Home Page Photo | Women doing Yoga by [[https://unsplash.com/photos/F2qh3yjz6Jk|kikekiks]] |
-| [[https://github.com/iconic/SVGInjector|Svg Injector]] | The library that injects the [[ui:svg|svg]] in the page |
-| [[https://masonry.desandro.com/|Masonry]] | The library that drives the [[ui:card_column|card-column layout]] |
+| [[https://github.com/iconic/SVGInjector|Svg Injector]] | The library that injects the [[docs:content:svg|svg]] in the page |
+| [[https://masonry.desandro.com/|Masonry]] | The library that drives the [[docs:layout:component:card_column|card-column layout]] |

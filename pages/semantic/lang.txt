@@ -21,7 +21,7 @@ Example:
 
 The language identifier is used:
   * in the [[locale|locale]] to localize the page.
-  * in the [[strap:strap|strap template]] to set the lang and direction
+  * in the [[:strap|strap template]] to set the lang and direction
 
 <badge>Since [[release:release#version_112|version 1.12]]</badge>
 
@@ -58,7 +58,7 @@ The default value is set in the [[doku>config:lang]] configuration.
 
 ==== RTL: Right to left language ====
 
-As ''bootswatch'' does not support yet RTL languages, you need to set your [[strap:bootstrap|Bootstrap version at minimal to 5 with the bootstrap theme]]. 
+As ''bootswatch'' does not support yet RTL languages, you need to set your [[docs:utility:bootstrap|Bootstrap version at minimal to 5 with the bootstrap theme]]. 
 
 Example with the version ''5.01 - bootstrap'':
 

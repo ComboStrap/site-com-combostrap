@@ -1,0 +1,56 @@
+====== Strap - Web App Manifest ======
+
+===== About =====
+A ''Web App Manifest'' is a JSON file that permits a [[kb>web/app|Web App]] to be installed to a mobile or computer's homescreen without an app store.
+
+
+===== Articles Related =====
+{{backlinks>.}}
+===== URL =====
+
+You can see it by going to the following URL:
+  * https://yourdomain.com/lib/exe/manifest.php
+for this website:
+  * https://combostrap.com/lib/exe/manifest.php
+
+===== Schema =====
+
+The JSON file contains several information
+<code javascript>
+{
+    "display": "standalone",
+    "scope": "/",
+    "name": "ComboStrap",
+    "short_name": "ComboStrap",
+    "description": "The most performant way to Web publication",
+    "start_url": "/",
+    "background_color": "#fff",
+    "theme_color": "#dee7ec",
+    "icons": [{
+            "src": "http://localhost:81/_media/logo.svg",
+            "sizes": "17x17 512x512",
+            "type": "image/svg+xml"
+        }, {
+            "src": "http://localhost:81/_media/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
+}
+</code>
+  * ''name'' is the [[doku>config:title|title]] [[:configuration|configuration]]
+  * ''description'' is the [[semantic:tagline|tagline configuration]]
+  * ''icons'' are automatically recognized. See [[docs:getting_started:4_favicon]]
+
+===== Configuration =====
+  * ''manifest'' is a dokuwiki action and should not be [[doku>config:disableactions|disabled]].
+  * ''icons'' should be put at the root media library. ''logo.svg'' and ''android-chrome-192x192.png'' are taken into account. See [[docs:getting_started:4_favicon]]
+
+
+===== For the Geek =====
+You can also see that you manifest is working in the ''Application'' tab of the [[kb>devtool|devtool]]
+
+{{:strap:app_manifest_firefox.png?250|}}
+===== Documentation / Reference =====
+  * [[doku>devel:manifest|webmanifest]]
+  * https://developer.mozilla.org/en-US/docs/Web/Manifest

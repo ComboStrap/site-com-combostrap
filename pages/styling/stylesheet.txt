@@ -9,14 +9,14 @@
 ===== A propos =====
 
 ''ComboStrap'' comes with:
-  * the standard [[strap:bootstrap|Bootstrap]] stylesheet 
+  * the standard [[docs:utility:bootstrap|Bootstrap]] stylesheet 
   * and the [[https://bootswatch.com/|bootswatch themes]]
 
 
 
 ===== Configuration =====
 
-You can choose your stylesheet via  the [[strap:bootstrap#configuration|Bootstrap Stylesheet Version configuration]].
+You can choose your stylesheet via  the [[docs:utility:bootstrap#configuration|Bootstrap Stylesheet Version configuration]].
 
 
 {{:strap:bootstrapversionstylesheet.png|}}

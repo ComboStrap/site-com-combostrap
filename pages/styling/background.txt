@@ -11,7 +11,7 @@
 ===== About =====
 The ''background'' element defines and adds a background.
 
-It's mostly used with [[ui:slide|slide component]] to create compelling landing page.
+It's mostly used with [[docs:layout:component:slide|slide component]] to create compelling landing page.
 
 You can create ''cover'' or ''tile'' background with:
   * [[#raster image|raster image]]
@@ -32,17 +32,17 @@ The ''background area'' is defined as being the content plus the [[styling:spaci
 
 
 <code dw>
-<background 
-     fill="cover|tile" 
-     color="value" 
+<background
+     fill="cover|tile"
+     color="value"
      pattern="name"
      pattern-color="colorValue"
-     opacity="0 to 1" 
+     opacity="0 to 1"
      scroll="local|fixed"
      >{{image}}</background>
 </code>
 where:
-  * ''image'' is to use an [[ui:image|image]] ([[#raster]] or [[#svg]]) as background
+  * ''image'' is to use an [[docs:content:image|image]] ([[#raster]] or [[#svg]]) as background
   * ''fill'' defines how the image takes the space of its container.
       * ''cover'' (default) - The image is scaled within its container and cropped, if necessary (ie responsive background)
       * ''tile'': The image is repeated until the container is filled.
@@ -61,7 +61,7 @@ where:
 
 
 <note>
-  * If you set more than one background, the first background in the list is the farthest on the stack. 
+  * If you set more than one background, the first background in the list is the farthest on the stack.
   * The ''background'' area is the content plus the [[styling:spacing|padding]] but not the margin.
 </note>
 
@@ -122,7 +122,7 @@ Example with a ''light gradient'' background.
 
 
 
-If you want to have full gradient customization, you can add a gradient css style in the [[styling:userstyle|userstyle]] 
+If you want to have full gradient customization, you can add a gradient css style in the [[styling:userstyle|userstyle]]
 
 The below css style gradient generator may help you in this task.
   * https://gradienta.io/
@@ -141,7 +141,7 @@ You just need to add another background.
 <webcode name="Default" frameborder="0">
 <code dw>
 <slide color="steelblue" text-align="center" >
-   <background opacity="0.3">{{:ui:stock_image_surfer_in_the_see.png|}}</background>
+   <background opacity="0.3">{{:docs:block:stock_image_surfer_in_the_see.png|}}</background>
     <title 2>A blue slide</title>
     <typo lead>
 **A blue slide with a little bit of opacity on the background image to increase contrast with the heading.  \\
@@ -159,7 +159,7 @@ You will find plenty of background image on image bank such as:
 
 
 ==== Raster Tile ====
-Create a tile background based on a [[ui:raster|raster image]] that represents a pattern.
+Create a tile background based on a [[docs:content:raster|raster image]] that represents a pattern.
 
   * [[https://patternico.com/|Patterns icon]]
 <webcode name="Default" frameborder="0">
@@ -189,9 +189,9 @@ You will find plenty of tile patterns generator on the web such as
 ===== Svg  =====
 
 ==== Svg Cover ====
-A [[ui:svg|svg]] can be used as ''background cover''. Their dimension are constraint only by their parent.
+A [[docs:content:svg|svg]] can be used as ''background cover''. Their dimension are constraint only by their parent.
 
-[[https://bgjar.com/|bgjar]] can generate a lot of different type of [[ui:svg|svg]] background cover 
+[[https://bgjar.com/|bgjar]] can generate a lot of different type of [[docs:content:svg|svg]] background cover
 
 Example with a [[https://bgjar.com/stacked-wave.html|stacked wave]] where the colors were changed with [[color_generator|attractive colors]].
 
@@ -207,9 +207,9 @@ Example with a [[https://bgjar.com/stacked-wave.html|stacked wave]] where the co
 
 
 ==== Svg Tile ====
-A [[ui:svg|svg]] can also be used as a ''background tile''. They got by default a size of ''192px''
+A [[docs:content:svg|svg]] can also be used as a ''background tile''. They got by default a size of ''192px''
 
-Below is an example on how to use a [[ui:svg|svg]] as a ''tile'' background with a [[https://www.heropatterns.com/|the heropatterns jigsaw tile pattern]] where 
+Below is an example on how to use a [[docs:content:svg|svg]] as a ''tile'' background with a [[https://www.heropatterns.com/|the heropatterns jigsaw tile pattern]] where
   * the ''foreground color'' is just the color of the svg (ie ''color=#9C92AC'')
   * the ''background color'' is the background color (ie ''color="#DFDBE5"'')
   * the ''opacity'' is the just the background ''opacity''

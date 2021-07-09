@@ -1,0 +1,84 @@
+---json
+{
+    "canonical":"layout",
+    "title":"Dynamic Layout",
+    "description":"This article talks about layout management and how it can be defined by page"
+}
+---
+====== Strap - Page Layout ======
+
+===== About =====
+
+
+
+<blockquote float="right" text-align="center" >
+**Layouts are important.**
+
+{{:strap:layout_funny.png?300|}}
+</blockquote>
+
+ComboStrap supports actually, three page layouts:
+  * [[#holy]] - the default
+  * [[#median]] - the main content is centered and does not take the space of the sidebar if not present.
+  * [[#landing]] - the main content is not centered and takes the full page width
+
+
+===== List =====
+
+
+==== Holy ====
+
+The default layout is a fully responsive layout (known also as the ''holy grail'') with:
+  * a [[docs:layout:page:header_slot|header slot]]
+  * a [[docs:layout:page:footer_slot|footer slot]]
+  * and three columns:
+      * [[docs:layout:page:side_slot|left slot]]
+      * [[docs:layout:page:sidekick_slot|right slot]]
+      * main content
+
+They are all [[docs:layout:component:container|contained]] in a page that is:
+  * centered 
+  * with a width adjusted by screen size (by breakpoint)
+
+The main content width expands to the width of the page if the sidebars are not present.
+
+==== Median ====
+
+If there is no sidebars, the median layout centers the main content with a fix width, making the length of a line shorter and therefore more readable.
+
+
+You can defined it with the following [[semantic:frontmatter|frontmatter]]
+<code json>
+{
+   "layout":"median"
+}
+</code>
+
+
+==== Landing ====
+
+In a landing page layout, the main content is not [[docs:layout:component:container|contained]].
+
+You can then create section of page with the [[docs:layout:component:slide|slide component]] where the [[styling:background|background]] will take the whole width of the page.
+
+
+You can defined it with the following [[semantic:frontmatter|frontmatter]]
+<code json>
+{
+   "layout":"landing"
+}
+</code>
+
+Then in your [[docs:layout:component:slide|slide]] component, you can still center the content by adding a [[docs:layout:component:container|container]].
+<code dw>
+<slide size="lg">
+    <background color="light"></background>
+    <container>
+        ... Your content
+    </container>
+</slide>
+</code>
+
+
+
+

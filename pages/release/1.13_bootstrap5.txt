@@ -23,12 +23,12 @@ If you got any problem on this migration, don;'t hesitate to [[:support|open a t
 ===== New in Bootstrap 5 =====
   * [[styling:scale|Responsive Font size]] is on by default. We deleted the fix to make the [[release:deprecated:title|title display]] responsive.
   * [[https://getbootstrap.com/docs/5.0/layout/containers/|The container xxl!]] [[styling:breakpoint|breakpoint]]- You can have a width of 1320 on large screen
-  * [[https://getbootstrap.com/docs/5.0/layout/grid/#row-columns|Natural Auto Width for a grid column]] - we support it with the [[ui:grid|row auto type]]
+  * [[https://getbootstrap.com/docs/5.0/layout/grid/#row-columns|Natural Auto Width for a grid column]] - we support it with the [[docs:layout:component:grid|row auto type]]
   * [[https://getbootstrap.com/docs/5.0/utilities/position/|Position]] more position utility class already supported (in Bootstrap version 4) via the [[release:beta:position|position attribute]].
-  * [[strap:jquery|JQuery]] is no more needed and Popper is included in one bundle.
+  * [[docs:utility:jquery|JQuery]] is no more needed and Popper is included in one bundle.
   * [[styling:text-align|Text-align]] can now be applied conditionally by screen size
   * Supports for [[semantic:lang|RTL language]]. Example: Check this arabic page: [[semantic:lang_ar]]
-  * The two new [[ui:heading|heading display style]] `d5` and `d6`
+  * The two new [[docs:content:heading|heading display style]] `d5` and `d6`
 
 
 
@@ -65,18 +65,18 @@ This section lists the changes preserved by ComboStrap.
 ==== Deleted ====
 The following elements are deleted in Bootstrap 5 but preserved in Combostrap.
 
-  * [[ui:card_column|Card Columns]] was deleted from Bootstrap 4 but we maintain it as explained in this [[https://getbootstrap.com/docs/5.0/examples/masonry/|example]]
-  * [[strap:jquery|Jquery]] is [[https://getbootstrap.com/docs/5.0/getting-started/javascript/#still-want-to-use-jquery-its-possible|no more a dependency for Bootstrap]].
-  * [[ui:jumbotron|jumbotron]] was [[https://getbootstrap.com/docs/5.0/migration/#jumbotron|deleted]].
+  * [[docs:layout:component:card_column|Card Columns]] was deleted from Bootstrap 4 but we maintain it as explained in this [[https://getbootstrap.com/docs/5.0/examples/masonry/|example]]
+  * [[docs:utility:jquery|Jquery]] is [[https://getbootstrap.com/docs/5.0/getting-started/javascript/#still-want-to-use-jquery-its-possible|no more a dependency for Bootstrap]].
+  * [[docs:layout:component:jumbotron|jumbotron]] was [[https://getbootstrap.com/docs/5.0/migration/#jumbotron|deleted]].
 
 ==== Modified ====
 
   * The ''bs'' namespace has been added to all variables:
       * [[https://getbootstrap.com/docs/5.0/customize/css-variables/|color names]]. We maintain the old color scheme without the prefix name by applying the new prefix transparently.
       * [[https://getbootstrap.com/docs/5.0/migration/#javascript-2|data attributes]]
-  * ''auto margin'' used in the [[ui:group|Navgroup]] with the ''expand'' attribute has been renamed from [[https://getbootstrap.com/docs/4.0/utilities/flex/#auto-margins|mr-auto]] to [[https://getbootstrap.com/docs/5.0/utilities/flex/#auto-margins|me-auto]].
-  * the [[https://getbootstrap.com/docs/5.0/getting-started/accessibility/#visually-hidden-content|assistive technologies class]] given in the [[ui:search|search bar]] has changed from ''sr-only'' to ''visually-hidden''
-  * [[ui:badge|badge]] uses now [[https://getbootstrap.com/docs/5.0/components/badge/#background-colors|background class]] to specify the background color. The colors have changed slightly.
+  * ''auto margin'' used in the [[docs:menubar:group|Navgroup]] with the ''expand'' attribute has been renamed from [[https://getbootstrap.com/docs/4.0/utilities/flex/#auto-margins|mr-auto]] to [[https://getbootstrap.com/docs/5.0/utilities/flex/#auto-margins|me-auto]].
+  * the [[https://getbootstrap.com/docs/5.0/getting-started/accessibility/#visually-hidden-content|assistive technologies class]] given in the [[docs:menubar:search|search bar]] has changed from ''sr-only'' to ''visually-hidden''
+  * [[docs:content:badge|badge]] uses now [[https://getbootstrap.com/docs/5.0/components/badge/#background-colors|background class]] to specify the background color. The colors have changed slightly.
   * [[styling:spacing|spacing]] and [[styling:float|Float]] uses now also the ''start'' and ''end'' positioning
 
 

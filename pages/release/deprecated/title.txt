@@ -11,7 +11,7 @@
 
 
 ===== About =====
-The ''title'' component has been renamed and integrated to the [[ui:heading#heading|heading component]]
+The ''title'' component has been renamed and integrated to the [[docs:content:heading#heading|heading component]]
 
 
 

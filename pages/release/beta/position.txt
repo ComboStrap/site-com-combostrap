@@ -17,7 +17,7 @@
 ===== Syntax =====
 
 ==== Inside a block====
-Inside a [[ui:block|block component]], you can position your component using the ''position'' attribute.
+Inside a [[docs:block:block|block component]], you can position your component using the ''position'' attribute.
 <code dw>
 <block>
    <component position="value"></component>

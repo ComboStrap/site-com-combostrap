@@ -9,7 +9,7 @@
 
 
 ===== About =====
-''clickable'' is a [[styling|styling attribute]] that permits to make the whole surface of a component containing a [[ui:link|link]] clickable. 
+''clickable'' is a [[styling|styling attribute]] that permits to make the whole surface of a component containing a [[docs:content:link|link]] clickable. 
 
 
 <note>
@@ -21,7 +21,7 @@ This is also known as a ''stretched link''. The link surface applies also to its
 
 
 ==== Card ====
-Example with a [[ui:card|card]]
+Example with a [[docs:block:card|card]]
 <webcode name="Default" frameborder="0">
 <code dw>
 <card width="18rem" clickable>
@@ -35,7 +35,7 @@ Lorem ipsum
 </webcode>
 
 ==== Grid ====
-[[ui:grid]]
+[[docs:layout:component:grid]]
 <webcode name="Default" frameborder="0">
 <code dw>
 <row clickable background-color="light" class="g-0" spacing="m-3" class="align-items-center">

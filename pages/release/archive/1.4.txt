@@ -15,14 +15,14 @@ List of changes for the [[release:release|release]] ''1.4'' (2020-07-20)
 
   * Corrected the bug: No message visible when the [[semantic:frontmatter|frontmatter json object]] is not valid
   * The [[styling:align|align attribute]] was better documented and supports now also the text alignement.
-  * [[ui:blockquote|Blockquote]] and [[ui:card|card]] are fully implemented and supports also now a [[ui:header|header]]
+  * [[docs:block:blockquote|Blockquote]] and [[docs:block:card|card]] are fully implemented and supports also now a [[docs:utility:header|header]]
   * Added the [[styling:shadow]]|elevation styling attribute]] to give more emphasis.
-  * The [[ui:button|button]] was improved: outline and size are now supported.
-  * The [[ui:tooltip|tooltip component]] was added
-  * The [[ui:jumbotron|jumbotron component]] was added
-  * The [[ui:text|typo component]] was added to apply styling on a paragraph level
-  * The [[ui:hr|hr component]] was added to draw an horizontal rule
+  * The [[docs:content:button|button]] was improved: outline and size are now supported.
+  * The [[docs:content:tooltip|tooltip component]] was added
+  * The [[docs:layout:component:jumbotron|jumbotron component]] was added
+  * The [[docs:block:text|typo component]] was added to apply styling on a paragraph level
+  * The [[docs:layout:component:hr|hr component]] was added to draw an horizontal rule
   * The [[release:deprecated:title|title component]] was added to give more control on the title of component
-  * The ''monospaced'' dokuwiki syntax has become an ''highlight'' within the [[ui:renderer|renderer]]
-  * Added the [[ui:table|table page]] to showcase the fact that they are by default responsive.
+  * The ''monospaced'' dokuwiki syntax has become an ''highlight'' within the [[docs:utility:renderer|renderer]]
+  * Added the [[docs:list:table|table page]] to showcase the fact that they are by default responsive.
   * Added the [[styling:skin|skin attributes]] to define emphasis.

@@ -13,7 +13,7 @@
 
 Each breakpoints defines the maximum width of the screen for a property to be applied.
 
-''combostrap'' follows the breakpoints of [[strap:bootstrap|bootstrap]] (even if you have created your [[bootstrap|own custom bootstrap]])
+''combostrap'' follows the breakpoints of [[docs:utility:bootstrap|bootstrap]] (even if you have created your [[bootstrap|own custom bootstrap]])
 
 
 
@@ -31,7 +31,7 @@ Each breakpoints defines the maximum width of the screen for a property to be ap
 | Medium | md | ≥768px |
 | Large | lg | ≥992px |
 | Extra large | xl | ≥1200px |
-| Extra extra large \\ (new with [[strap:bootstrap#version|bootstrap 5]]) | xxl | ≥1400px  |
+| Extra extra large \\ (new with [[docs:utility:bootstrap#version|bootstrap 5]]) | xxl | ≥1400px  |
 
 
 ==== Bootstrap 4 ====

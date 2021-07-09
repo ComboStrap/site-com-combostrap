@@ -56,13 +56,13 @@ The website can then be versioned:
 
 
 It contains most of the UI and functional components such as:
-  * the [[ui:ui|UI Components]]
+  * the [[docs:docs|UI Components]]
   * the [[url:url|Url Manager]]
   * the [[semantic:semantic|Web Structured Data and Social Sharing]]
-  * the [[frontend_optimization|frontend optimizer]]
+  * the [[docs:performance:frontend_optimization|frontend optimizer]]
   * the [[quality:quality|quality module]]
   * the [[analytics:analytics|analytics module]]
-  * the [[:performance|performance master]]
+  * the [[docs:performance:performance|performance master]]
 
 
 
@@ -70,25 +70,25 @@ It contains most of the UI and functional components such as:
 
 ''strap'' is the template component that supports the following features:
 
-  * [[strap:bootstrap|Last bootstrap version (4)]]
+  * [[docs:utility:bootstrap|Last bootstrap version (4)]]
   * [[styling:bootstrap|Custom Bootstrap Styleshet (create and add your own)]]
-  * [[strap:cdn|Serve the Bootstrap files by default from a CDN]]
-  * Supports [[strap:slot|4 slots]] layout
-      * [[strap:side_slot|Side slot]] (left)
-      * [[strap:sidekick_slot|Sidekick slot]] (right)
-      * [[strap:header_slot|Header slot]] (top)
-      * [[strap:footer_slot|Footer slot]] (bottom)
-  * [[strap:toolbar|Aggregate toolbar (Page, User Site) with a private option]]
+  * [[docs:performance:cdn|Serve the Bootstrap files by default from a CDN]]
+  * Supports [[docs:layout:page:slot|4 slots]] layout
+      * [[docs:layout:page:side_slot|Side slot]] (left)
+      * [[docs:layout:page:sidekick_slot|Sidekick slot]] (right)
+      * [[docs:layout:page:header_slot|Header slot]] (top)
+      * [[docs:layout:page:footer_slot|Footer slot]] (bottom)
+  * [[docs:layout:page:toolbar|Aggregate toolbar (Page, User Site) with a private option]]
   * Support [[semantic:tagline|tagline]]
-  * [[strap:fixed-top-menu|Fixed-top menubar with automatic top page location correction]]
-  * Support a [[ui:trail_breadcrumb|trailing breadcrumb]]
+  * [[docs:layout:component:fixed-top-menu|Fixed-top menubar with automatic top page location correction]]
+  * Support a [[docs:navigation:trail_breadcrumb|trailing breadcrumb]]
   * [[styling:scale|Size Scale configuration (font and spacing)]]
-  * [[getting_started:4_favicon|Favicon]]: Recognized the [[getting_started:4_favicon|favicons]]  (included ''android-chrome-192x192.png'')
-  * [[strap:shortcut]]
+  * [[docs:getting_started:4_favicon|Favicon]]: Recognized the [[docs:getting_started:4_favicon|favicons]]  (included ''android-chrome-192x192.png'')
+  * [[docs:utility:shortcut]]
 
 
 
 <btn class="mb-5">
-[[getting_started:getting_started|Love it ? Try it !]]
+[[docs:getting_started:getting_started|Love it ? Try it !]]
 </btn>
 

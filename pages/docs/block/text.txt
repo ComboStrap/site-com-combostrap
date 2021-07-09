@@ -1,0 +1,141 @@
+---json
+{
+    "canonical":"text",
+    "title":"ComboStrap - Text component - Apply text typographic effects",
+     "description":"The text component lets you apply text typographic effects on one ore more paragraph."
+}
+---
+
+====== ComboStrap UI - Text ======
+
+
+===== About =====
+''text'' is a [[docs:content:typo|typographic]] component that permits to style one or several paragraph at once.
+
+<badge>Since [[release:release|version 1.4]]</badge>
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Syntax =====
+
+<code dw>
+<text type>
+First paragraph
+
+Second paragraph
+</text>
+</code>
+where:
+  * [[styling:type|type]] can take the values:
+      * ''lead'': It makes a paragraph stand out by setting a bigger font-size and weight
+      * ''h1 to h6'': when you want to match the font styling of a [[docs:content:heading|heading]].
+      * ''custom class'' that you have created in the [[styling:userstyle|userstyle stylesheet]].
+  * [[#line-spacing]] sets the space between the lines of a paragraph.
+  * [[styling:text-color|color]] can take all [[styling:color|color values]] and the [[#color|specific text colors]]:
+      * ''body'': the color of the body
+      * ''muted'' : light gray
+      * ''black-50'' : 50 black
+      * ''white-50'' : 50 white
+  * or any [[docs:content:typo|typographic attributes]] (font size, font weight, ...)
+
+
+
+===== Example =====
+
+==== Lead ====
+
+<webcode name="Default" frameborder=0 >
+<code dw>
+<text lead>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
+
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+</text>
+
+**versus:**
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+
+sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+</code>
+</webcode>
+
+==== Heading style ====
+
+<webcode name="Default" frameborder="0">
+<code dw>
+<text h1>
+A text that looks like an heading level 1
+</text>
+</code>
+  * Output:
+</webcode>
+
+==== Line-Spacing ====
+[[styling:line-spacing|line-spacing]] is a styling attribute that lets you define the height between each line inside a paragraph.
+
+Example:
+<webcode name="Default" frameborder="0">
+<code dw>
+<text line-spacing="xs" width="40rem">
+**Extra-small line space**. This is a long paragraph written to show how the line-height of an element is affected. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</text>
+<text line-spacing="sm" width="40rem">
+**Small line space**. This is a long paragraph written to show how the line-height of an element is affected. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</text>
+<text line-spacing="md" width="40rem">
+**Medium line space**. This is a long paragraph written to show how the line-height of an element is affected. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</text>
+<text line-spacing="lg" width="40rem">
+**Large line space**. This is a long paragraph written to show how the line-height of an element is affected. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</text>
+</code>
+  * Output:
+</webcode>
+
+
+<note>
+If you want to add space between component, you should use the [[styling:spacing|spacing attribute]]
+</note>
+
+==== Text-Align ====
+[[styling:text-align|text-align]] lets you define where the line of text will be located inside the paragraph. <inote>A paragraph is a [[docs:block:block|block]] and takes by default all the available width</inote>
+
+
+
+Example:
+<webcode name="Default" frameborder="0">
+<code dw>
+<text text-align="start">
+This line of text is at the **start** of a paragraph (left for a left-to-right language)
+</text>
+<text text-align="center">
+This line of text is **centered** inside the paragraph block.
+</text>
+<text text-align="end">
+This line of text is at the **end** of a paragraph (right for a left-to-right language)
+</text>
+</code>
+  * Output:
+</webcode>
+
+<note>
+Text alignment can also be **screen conditional**.
+
+For all information about this attribute, see the dedicated page: [[styling:text-align]]
+</note>
+
+==== Color ====
+
+This example shows the color values specific to the ''text'' and [[docs:content:itext|itext]] component
+
+<webcode name="Default" frameborder="0">
+<code dw>
+<box width="fit" spacing="p-3">
+    <text color="body">Text with the body color.</text>
+    <text color="muted">Text with the muted color.</text>
+    <text color="black-50">Text with the black-50 color.</text>
+    <text color="white-50" background-color="black">Text with the white-50 color.</text>
+</box>
+</code>
+</webcode>

@@ -1,0 +1,95 @@
+---json
+{
+    "canonical":"content-list"
+}
+---
+
+====== ComboStrap UI - Content List ======
+
+===== About =====
+A ''content-list'' is a [[docs:docs|component]] that lay out continuous, vertical lines where each line is composed of:
+  - a visual (icon or image)
+  - a text
+  - and or meta information.
+
+
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Syntax =====
+''content-list'' is a [[styling:html|HTML superset component]] that layouts a serie of [[docs:layout:component:grid|row]]
+
+<code dw>
+<content-list type>
+    <row>
+        Text
+    </row>
+</list>
+</code>
+where the [[styling:type|type]] may be:
+  * ''box'' (Default)
+  * ''flush'' - to get a cleaner separation by removing borders and rounded corners 
+
+
+
+===== Example =====
+==== Icon and badge ====
+Ths example shows a ''content-list'' component with an:
+  * [[docs:content:icon|icon]] as visual and a [[docs:content:link|link]] in a [[docs:content:itext|itext]]
+  * [[docs:content:badge|badge]] as meta
+<webcode name="List" >
+<code dw>
+<content-list flush color="info" width="300px">
+    <row>
+        <itext><icon name="folder"/> [[docs:content:icon|Icon]]</itext>
+        <badge align="right">info</badge>
+    </row>
+    <row>
+        <itext><icon name="folder"/> [[docs:content:badge|Badge]]</itext>
+        <badge align="right">info</badge>
+    </row>
+    <row>
+        <itext><icon name="folder"/> [[docs:content:badge|Badge]]</itext>
+        <badge align="right">info</badge>
+    </row>
+</content-list>
+</code>
+</webcode>
+
+
+==== Media List ====
+
+If you want to create more complex list of content, you can add the [[docs:layout:component:grid|cells]] that will lay out the content automatically.
+<webcode name="media-list" >
+<code dw>
+<content-list width="fit">
+    <row>
+        <cell>
+        {{:placeholder-rect-img.svg?100|}}
+        </cell>
+        <cell>
+            <text>
+                <icon name="folder" color="info"/> [[docs:content:icon|Icon]] <badge align="right">info</badge>
+                
+                This is some content from a media component. You can replace this with any content and adjust it as needed.
+            </text>
+         </cell>
+    </row>
+    <row>
+        <cell>
+        {{:placeholder-rect-img.svg?100|}}
+        </cell>
+        <cell>
+            <text>
+                <icon name="folder" color="info"/> [[docs:content:icon|Icon]] <badge align="right">info</badge>
+                
+                This is some content from a media component. You can replace this with any content and adjust it as needed.
+            </text>
+         </cell>
+    </row>
+</content-list>
+</code>
+  * Output:
+</webcode>
+

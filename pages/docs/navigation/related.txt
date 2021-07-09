@@ -1,0 +1,26 @@
+====== ComboStrap UI - Related ======
+
+
+===== About =====
+''related'' is a [[docs:docs|ComboStrap UI component]] that shows the [[kb>backlink|backlinks]] of a page ordered by their importance.
+
+
+The more backlinks has a page, the more important it is.
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Syntax =====
+
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<related/>
+</code>
+</webcode>
+
+===== Configuration =====
+  * The max numbers of backlinks can be set. Default value: ''10''
+  * An extra pattern can also be set if you come for instance from the [[doku>plugin:backlinks|backlinks plugin]]. Default value: ''%%{{backlinks>.}}%%''
+
+
+

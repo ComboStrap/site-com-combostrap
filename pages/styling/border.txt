@@ -9,7 +9,7 @@
 
 
 ===== About =====
-The ''border'' is the line that delimits the [[ui:block|block components]].
+The ''border'' is the line that delimits the [[docs:block:block|block components]].
 
 ===== Articles Related =====
 {{backlinks>.}}
@@ -18,10 +18,10 @@ The ''border'' is the line that delimits the [[ui:block|block components]].
 ===== Attribute =====
 
 ==== border-color ====
-Every [[ui:block|block component]] will react to the [[styling:styling|styling attribute]] ''border-color'' that sets the [[color|color]] of their border.
+Every [[docs:block:block|block component]] will react to the [[styling:styling|styling attribute]] ''border-color'' that sets the [[color|color]] of their border.
 
 
-Example with the generic [[ui:box|box]]
+Example with the generic [[docs:block:box|box]]
 <webcode name="Default" frameborder="0">
 <code dw>
 <box border-color="blue" spacing="p-5" text-align="center" width="20rem">
@@ -42,7 +42,7 @@ If you set a ''border-color'' attributes, by default ''ComboStrap'' will set the
 
 This is :
   * to avoid the confusion to see nothing appearing on the screen 
-  * and to have a consistent styling with [[strap:bootstrap|bootstrap]].
+  * and to have a consistent styling with [[docs:utility:bootstrap|bootstrap]].
 
 
 

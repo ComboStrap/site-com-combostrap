@@ -201,7 +201,7 @@ The platform is open source, guarantee of sustainability and
 <cell width="300px" text-align="center" color="#5b5965">
        <heading h1>Ready for the journey?</heading>
        <text lead>Become a publisher today</text>
-       [[:getting_started:getting_started|<icon name="bs:play-circle-fill" width="3.75rem" color="#5b5965"/>]]
+       [[docs:getting_started:getting_started|<icon name="bs:play-circle-fill" width="3.75rem" color="#5b5965"/>]]
 </cell>
 </container>
 </slide>

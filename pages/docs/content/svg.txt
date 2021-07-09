@@ -1,0 +1,172 @@
+---json
+{
+    "canonical":"svg",
+    "title":"How to use a SVG in ComboStrap",
+    "description":"ComboStrap supports natively SVG and allows you to use them as image, illustration and background"
+}
+---
+====== ComboStrap UI - SVG ======
+
+
+===== About =====
+''Svg'' are supported natively as [[docs:content:image|image]]
+
+
+They are by default [[#optimization|optimized]].
+
+If they have:
+  * a small size, they are [[#inclusion|included]] directly to the web page
+  * a big size, they are:
+      * [[#lazy loading|lazy loaded]]
+      * and [[#injection|injected]] as markup
+
+
+<note>
+This features apply also to the following SVG:
+  * [[docs:content:icon|icon]]
+  * [[styling:background#svg_cover|background svg cover]]
+  * [[styling:background#svg_tile|background svg tile]]
+</note>
+
+
+===== Syntax =====
+
+Svg is just an image and follows therefore the same syntax than a [[docs:content:image|Image]]
+
+<code dw>
+{{[ ]svg_path?WxH&att=value[ ]}}
+</code>
+
+A ''svg'' accepts all [[styling:styling|styling attributes]].
+
+You can change the svg type with one of the below ''type'' attribute.
+
+^ Type value ^ Default ^ Used as ^ Seen as  ^
+|  | Yes | [[styling:background#svg_cover|background cover]] and illustration | Illustrative Image |
+| ''icon'' | | [[docs:content:icon|icon]] | Character (width = height and default to 24px) |
+| ''tile''  | | [[styling:background#svg_tile|background tile]] | Icon with a default dimension of 192px |
+
+
+===== Example =====
+
+==== Illustration ====
+
+All ''svg'' are used by default as illustrative image that:
+  * takes all space available
+  * and are responsive
+
+Below is an example of an illustrative image with a:
+  * ''width'' of ''600px''
+  * [[styling:hover|hover animation]]
+  * [[styling:shadow|shadow]]
+
+<webcode name="Default" frameborder="0">
+<code dw>
+{{ :combostrap:background:object-multicolor.svg?600&onHover=float&shadow=md |}}
+</code>
+</webcode>
+
+==== Icon ====
+If you don't have an icon in your library, the [[docs:content:icon|icon component]] is more suited but if you already have uploaded an icon, you can also use it with the ''svg syntax''
+
+
+Example of an svg icon with a:
+  * ''type=icon'' that makes it behave as an [[docs:content:icon|icon]]
+  * ''size'' of 30
+  * and a ''steelblue'' [[styling:color|color]]
+
+
+<webcode name="Default" frameborder="0">
+<code dw>
+{{:combostrap:icons:bs:emoji-wink.svg?30&type=icon&color=steelblue|Emoji wink}}
+</code>
+</webcode>
+
+
+===== Features =====
+
+==== Inclusion ====
+If the SVG file has a size that is less or equal to the [[#svgMaxInlineSize]] configuration, the SVG is directly included into the HTML document as markup
+Otherwise, it is added as a image.
+
+This is a [[docs:performance:performance|performance tradeoff]] configuration between the size of your web page and the cost of downloading your SVG file.
+
+
+
+==== Lazy Loading ====
+By default all big SVG file are lazy loaded meaning that they are downloaded only when they are going to be seen (enter into the screen).
+
+If you don't want this feature, you can disable it in the [[#configuration|configuration]].
+
+==== Injection ====
+Big SVG file are downloaded and then injected as SVG markup. It's then possible to style them with CSS property.
+
+
+
+If you don't want this feature, you can disable it in the [[#configuration|configuration]].
+
+==== Optimization ====
+Svg Optimization is the reduction of the file size by deleting unneeded information. You can know more about this subject on the [[docs:performance:svg_optimization|dedicated page]].
+
+
+
+
+===== Security =====
+
+==== Upload permission ====
+
+By default, the svg files cannot be uploaded because they can contain code. Only the ''admin'' user can upload a SVG.
+
+If you want to allow users to upload a SVG, you need to:
+  * set the group that is allowed to upload a SVG in the [[#svgUploadGroupName|svgUploadGroupName]] configuration.
+  * add the user to this group.
+
+==== Script deleted ====
+
+By default, the ''script'' element is part of the [[docs:performance:svg_optimization#svgoptimizationelementstodelete|elements to delete during the optimization]], meaning that no script can be injected this way.
+
+The ''on'' event attribute such as ''onClick'' are not.
+===== Configuration =====
+
+==== svgMaxInlineSize ====
+The ''svgMaxInlineSize'' [[:configuration|configuration]] is the maximum file size until a SVG file is included directly in the web page.
+
+With a default of ''2Kb'', all small SVG file such as [[docs:content:icon|icon]] are automatically included. The browser does not need to download them.
+
+
+
+
+
+
+==== svgLazyLoadEnable ====
+By default, the SVG files that have a size bigger than the [[#svgmaxinlinesize|maximum inline size]] are [[#lazy Loading|lazy loaded]]. 
+
+This configuration permits to disable this feature.
+
+
+==== svgInjectionEnable ====
+If this configuration is on, the SVG files that have a size bigger than the [[#svgmaxinlinesize|maximum inline size]] are [[#injection|injected]]. 
+
+This configuration permits to disable / enable this feature.
+
+==== svgUploadGroupName ====
+This [[:configuration|configuration]] sets the group that is allowed to upload a SVG file.
+
+SVG file can contain code and this by default not allowed to upload a SVG.
+
+==== svgPreserveAspectRatioDefault ====
+If the [[https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/preserveAspectRatio|preserveAspectRatio]] attribute is not set, it will be set with the default value.
+
+This parameter drives how the SVG will fit in its container when the screen (viewport) is resizing.
+
+The default value at installation time is: ''xMidYMid slice'' which means that:
+  * the svg image will be in the middle of X and Y
+  * and will be cropped.
+
+Other options with the [[https://www.w3.org/TR/SVG11/coords.html#PreserveAspectRatioAttribute|Svg Reference]] or at [[https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/preserveAspectRatio|the mozilla knowledge base]]
+
+{{ docs:block:preserveaspectratio.svg?600 |}}
+
+===== Reference =====
+We follow the [[https://developers.google.com/web/fundamentals/design-and-ux/responsive/images#svg|Google Best Practice]]
+

@@ -1,0 +1,72 @@
+---json
+{
+    "canonical":"itext",
+    "title":"itext: applies typographic effect to characters or words",
+    "description":"itext is a component that applies typographic effect to characters or words such as boldness, font-size and more"
+}
+---
+====== ComboStrap UI - itext ======
+
+
+===== About =====
+''itext'' is a [[docs:content:typo|typographic component]] that permits to applies typographic effects to one or more characters / words.
+
+<note tip>
+  * It's an [[docs:content:content|inline component]]. Therefore, it can be used in a line and will not create a new line.
+  * If you want to applies the [[docs:content:typo|typographic attributes]] on a paragraph, you should use the [[docs:block:text|text component]].
+</note>
+
+
+
+===== Syntax =====
+
+
+<code dw>
+<itext attributes></itext>
+</code>
+where:
+  * attributes are any [[docs:content:typo|typographic attributes]]
+
+Note that the [[styling:text-color|color attribute]] can take all [[styling:color|color values]] and the [[#color|specific text colors]]:
+      * ''body'': the color of the body
+      * ''muted'' : light gray
+      * ''black-50'' : 50 black
+      * ''white-50'' : 50 white
+
+===== Example =====
+
+==== Boldness ====
+
+With [[styling:boldness|boldness]]:
+<webcode name="Default" frameborder="0">
+  * Input
+<code dw>
+This text is a <itext boldness="black">black text</itext>
+</code>
+  * Output:
+</webcode>
+
+==== First letter ====
+With the [[styling:font-size|font-size attribute]]
+<webcode name="Default" frameborder="0">
+  * Input:
+<code dw>
+<itext font-size="h1" bold>T</itext>he first letter has the same size than the first heading
+</code>
+  * Output:
+</webcode>
+
+==== Color ====
+
+This example shows the color values specific to the itext and [[docs:block:text|text]] component
+
+<webcode name="Default" frameborder="0">
+<code dw>
+<itext color="body">Text with the body color.</itext>
+<itext color="muted">Text with the muted color.</itext>
+<itext color="black-50">Text with the black-50 color.</itext>
+<itext color="white-50" background-color="black">Text with the white-50 color.</itext>
+</code>
+</webcode>
+
+

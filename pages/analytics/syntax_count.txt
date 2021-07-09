@@ -44,7 +44,7 @@ Asking for the [[statistics|json statistics]] of a page, you would see a list of
 
 ==== SQL  analytics ====
 
-This SQL is an example that shows all pages that have a [[ui:button|button]]
+This SQL is an example that shows all pages that have a [[docs:content:button|button]]
 
 <code sql>
 select

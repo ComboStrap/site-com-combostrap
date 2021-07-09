@@ -1,0 +1,51 @@
+---json
+{
+    "canonical":"lazy:load",
+    "title":"Lazy loading in ComboStrap",
+    "description":"ComboStrap loads all images by default in a lazy mode meaning that they are loaded only when they are going to enter the screen.",
+    "layout":"median"
+}
+---
+====== ComboStrap - Lazy Loading ======
+
+
+===== About =====
+''lazy loading'' is the loading of resources such as image only when:
+  * they are on the screen (ie visible)
+  * or are going to enter on the screen
+
+''ComboStrap'' supports and enables by default the lazy loading of:
+  * [[docs:content:raster|raster image (png, jpg, gif, ...)]]
+  * [[docs:content:svg|svg]]
+
+===== Background color =====
+
+While the image is loading, the user will see a ''background-color'' as placeholder that appears with a fade effect.
+
+The default color is set in the configuration [[#lazyLoadingPlaceholderColor]] but you can change it
+with the standard [[styling:color|''background-color'' attribute]].
+
+  * You can use a color value
+  * You can use a css color value
+  * You can't use a bootstrap color value
+
+Example with a ''dark color''. 
+
+<webcode name="Default" frameborder="0">
+<code dw>
+{{:docs:block:stock_image_surfer_in_the_see.png?300&background-color=#6c757d&spacing=p-3|}}
+</code>
+</webcode>
+
+<note>We have added [[styling:spacing|padding]] (''spacing=p-3'') to be able to see the background. Without the spacing attribute, the background-color is only seen when the image is loading</note>
+===== Configuration =====
+
+==== lazyLoadingPlaceholderColor ====
+
+If the media loaded is heavy, the user sees a box with a background color that fades gracefully.
+
+With this [[:configuration|configuration]], you can change the placeholder background color.
+
+By default, the value is: ''#cbf1ea''
+
+

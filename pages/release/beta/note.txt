@@ -42,7 +42,7 @@ Since there is a 100-300ms delay during the user hover and the click, Barba use 
   * The page (viz:viz) and the page (data:viz:viz) have the same canonical.
   * Page deleted / moved should be deleted /renamed into the database
   * monospace in the renderer should be a component
-  * [[ui:card_column|card-columns]] as a real [[https://masonry.desandro.com/layout.html#responsive-layouts|responsive masonry]] ?
+  * [[docs:layout:component:card_column|card-columns]] as a real [[https://masonry.desandro.com/layout.html#responsive-layouts|responsive masonry]] ?
 
 ===== Canonical bug =====
 
@@ -57,7 +57,7 @@ The page (lang:python:grammar:comment) and the page (code:grammar:comment) have 
 The page (lang:python:type:class) and the page (code:type:class) have the same canonical (type:class)
 </file>
 ===== Lazy load =====
-  * Noscript handling for [[:lazy|lazy loading]] Better for seo also. See [[https://github.com/ApoorvSaxena/lozad.js/wiki/Frequently-Asked-Questions#how-to-load-images-normally-when-javascript-is-disabled|doc]]
+  * Noscript handling for [[docs:performance:lazy|lazy loading]] Better for seo also. See [[https://github.com/ApoorvSaxena/lozad.js/wiki/Frequently-Asked-Questions#how-to-load-images-normally-when-javascript-is-disabled|doc]]
   * Supports Background image
 
 
@@ -164,8 +164,8 @@ db:oracle:999999.9:union:all:select_null:from_dual_and_0_0
 
 ===== Miscellaneous =====
   * [[https://www.dokuwiki.org/include_hooks|include-Hooks]] (meta)
-  * [[https://aerolab.github.io/midnight.js/|Midnights]] ([[https://github.com/Aerolab/midnight.js|code]]) [[strap:fixed-top-menu|fix topbar]] with differents colors depending on the background
-  * Don't redirect missing [[strap:slot|bars]]
+  * [[https://aerolab.github.io/midnight.js/|Midnights]] ([[https://github.com/Aerolab/midnight.js|code]]) [[docs:layout:component:fixed-top-menu|fix topbar]] with differents colors depending on the background
+  * Don't redirect missing [[docs:layout:page:slot|bars]]
   * [[semantic:article|Article]] role:
       * [[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Article_Role|Add article role]]
       * [[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_article_role|Article role]]

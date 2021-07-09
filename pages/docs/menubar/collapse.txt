@@ -1,0 +1,50 @@
+---json
+{
+    "canonical":"collapse"
+}
+---
+
+====== ComboStrap UI - Collapse ======
+
+===== About =====
+''collapse'' is a [[docs:menubar:menubar|menubar]] component that will collapse its children on a smaller screen making them only visible by clicking on the sandwich icon.
+
+
+<note>
+Other component have collapsible behavior such as:
+  * the [[docs:animation:toggle|toggle effect]]
+  * the [[docs:layout:component:accordion|accordion]]
+</note>
+
+===== Syntax =====
+
+All the element that are inside a collapse will be collapsed when the width of the page is lower than defined [[styling:breakpoint|breakpoint]] on the [[docs:menubar:menubar|menu bar]].
+<code dw>
+<menubar breakpoint="md">
+<collapse>
+  .......... The element in the collapse container will collapse below the max screen width (breakpoint attribute) defined in the menubar
+</collapse>
+</menubar>
+</code>
+
+More... see the page [[docs:menubar:menubar]]
+
+===== Example =====
+
+Below is a [[docs:menubar:menubar|menubar]] where all elements are collapsed because the screen is always greater than the [[styling:breakpoint|xs breakpoint (extra-small screen)]].
+<webcode>
+<code dw>
+<menubar breakpoint="xs">
+<collapse>
+<group>
+[[#|Home]]
+[[#|Features]]
+[[#|Release]]
+Line
+</group>
+</collapse>
+</menubar>
+</code>
+  * Click on the sandwich icon to expand and see the elements.
+</webcode>
+

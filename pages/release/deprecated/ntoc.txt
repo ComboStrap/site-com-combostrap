@@ -9,7 +9,7 @@
 
 
 ===== About =====
-The ''ntoc'' component is no more and has been renamed to [[ui:page-explorer|page-explorer]] where:
+The ''ntoc'' component is no more and has been renamed to [[docs:navigation:page-explorer|page-explorer]] where:
   * The ''index'' has become the ''home''
   * The ''page-item'' has become the ''page''
   * The ''ns-item'' has become the ''namespace''

@@ -34,7 +34,7 @@ The following [[semantic|metadata]] are automatically added to a ''website'' pag
   * ''url'', the base url
   * ''name'', the [[doku>config:title|title]]
   * ''description'', the [[semantic:tagline|tagline]]
-  * ''image'', the [[getting_started:4_favicon|logo]] (as png)
+  * ''image'', the [[docs:getting_started:4_favicon|logo]] (as png)
 
 
 <note>

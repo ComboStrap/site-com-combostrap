@@ -1,0 +1,52 @@
+====== ComboStrap UI - Card Columns ======
+
+
+
+===== About =====
+With the ''card-columns'' components, you can put a [[docs:block:card|card]] or [[docs:block:blockquote|blockquote]] in a column format.
+
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Syntax =====
+<code xml>
+<card-columns>
+   <!-- Any type of card -->
+</card-columns>
+</code>
+
+
+===== Example =====
+
+
+<webcode name="Default" frameborder=0>
+<code dw>
+<teaser-columns>
+
+    <card>
+        {{:teaser_image_1.png|}}
+        === Teaser Title  ===
+        A example taken from [[https://getbootstrap.com/docs/4.3/components/card/#example|the bootstrap quick example]] on how to build a card title in order to make up the bulk of the teaser content. 
+        
+        <btn>[[:start|Go to this page !]]</btn>
+    </card>
+
+
+    <blockquote>
+        Lorem ipsum [[:start|dolor]] sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+        <cite>Someone famous in [[:start|Source Title]]</cite>
+    </blockquote>
+
+</teaser-columns>
+</code>
+</webcode>
+
+
+===== Support =====
+
+==== Bootstrap 5 support ====
+
+If you use [[release:1.13_bootstrap5|Bootstrap version 5]], you may see that the output is slightly different than with Bootstrap version 4.
+
+This is because does not support [[release:1.13_bootstrap5|Bootstrap version 5]] ''card-column'' anymore and we have implemented it manually based on this [[https://getbootstrap.com/docs/5.0/examples/masonry/|example]]

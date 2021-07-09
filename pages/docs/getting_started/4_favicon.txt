@@ -1,0 +1,86 @@
+---json
+{
+    "canonical":"favicon"
+}
+---
+
+
+====== ComboStrap Getting Started - How to configure the Favicons ======
+
+===== About =====
+This page is an ''HowTo'' that shows you how to choose and install a favicon and your logo image with [[:start|ComboStrap]].
+
+
+===== Steps =====
+==== Choosing a icon logo ====
+You can design your own logo but you can also be inspired by [[semantic:logo#collection|collection of logo]]
+
+
+In our case we have chosen an icon directly from https://materialdesignicons.com/
+  * Choose an icon
+{{::material_design_choose_icon.png|}}
+  * Download the Svg file and rename it to ''logo.svg''
+{{::material_design_download_icon_svg.png?500|}}
+  * Go back in the Advanced Export and create a PNG with the biggest size
+{{::material_design_download_icon_png_big.png?500|}}
+
+==== Generate the favicons ====
+
+  * Go to the [[https://realfavicongenerator.net/|realfavicongenerator generator]]
+  * Upload your PNG image
+  * Answer the forms, follows the steps and download the package icon
+
+==== Upload the favicons ====
+
+  * Then upload the below icon files with the [[doku>media_manager|media manager]] to the root location (ie DOKUWIKI_HOME/data/media/)
+      * ''favicon.ico''
+      * ''favicon-32x32.png''
+      * ''favicon-16x16.png''
+      * ''apple-touch-icon.png''
+      * ''android-chrome-192x192.png'' (used in the [[docs:utility:manifest|manifest]])
+
+Example:
+
+{{::mediamanager_favicon.png|}}
+
+==== Upload the logo.svg file ====
+
+''svg'' files are by default not permitted by Dokuwiki because they can include script, you therefore need to upload it directly to the computer to ''data/media'' from the dokuwiki installation directory.
+
+{{::dokuwik_logo_svg_media.png|}}
+
+To see where and how you can use your logo, see the [[semantic:logo|logo page]].
+
+==== Create the facebook default ====
+
+[[semantic:facebook|facebook]] has a dimension constraint on the image illustration. The image should be at minimum 200px by 200px.
+
+We recommend then that:
+  * you create an image with your photo editor:
+     * with the dimension of a [[semantic:facebook|facebook card]] ''524×274''
+     * where you copy your logo
+     * and named ''logo-facebook.png'' (the [[semantic:facebook#configuration|default value]])
+
+  * and upload it at the root of your media manager (next to the other logos)
+
+
+The [[semantic:facebook|facebook page]] will tell your more about the specific of a ''facebook card''.
+
+
+
+
+==== Verify ====
+
+  * Refresh and delete the Browser cache by hitting the key combination
+    * ''Ctrl + Shift + R'' - Chrome
+    * or ''Ctrl + F5'' - Firefox
+  * Check that you see your favicon
+
+{{strap:favicon_verification.png|}}
+
+
+==== Next Step ====
+
+<btn color="white">
+[[5_menu|Create a menu]]
+</btn>

@@ -25,7 +25,7 @@ If you want to apply custom styling, you can also create you own rules using the
 ===== Example =====
 
 
-Example with a [[ui:note|note]] that has the ''info'' type.
+Example with a [[docs:block:note|note]] that has the ''info'' type.
 <code dw>
 <note info>A info note</note>
 </code>

@@ -33,11 +33,11 @@ This ''title'' will:
 
 For [[doku>|Dokuwiki]], 
   * by default, the title of a page is the [[doku>pagename|DokuWiki Id]] with the the [[doku>config:title|title configuration]]
-  * If the [[doku>config:useheading|useheading]] [[:configuration|configuration]] is on, the first [[ui:heading|heading]] is used to replace the [[doku>pagename|DokuWiki Id]]
+  * If the [[doku>config:useheading|useheading]] [[:configuration|configuration]] is on, the first [[docs:content:heading|heading]] is used to replace the [[doku>pagename|DokuWiki Id]]
 
 ==== With ComboStrap ====
 <note warning>
-The [[strap:strap|Strap template]] is mandatory or a template should take into account the ''title'' metadata.
+The [[:strap|Strap template]] is mandatory or a template should take into account the ''title'' metadata.
 </note>
 
 With [[:start|ComboStrap]], if you set a ''title'' property with [[frontmatter|frontmatter]], it will become the page title.
@@ -57,7 +57,7 @@ Result:
 
 
 <note>
-With the [[strap:strap|strap template]],  the website ''home page'' title is the Dokuwiki title with the website [[semantic:tagline|tagline]] 
+With the [[:strap|strap template]],  the website ''home page'' title is the Dokuwiki title with the website [[semantic:tagline|tagline]] 
 </note>
 
 ===== Search Engine Result Pages (SERP) =====

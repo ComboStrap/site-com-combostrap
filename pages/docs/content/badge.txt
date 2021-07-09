@@ -1,0 +1,65 @@
+---json
+{
+   "canonical":"badge"
+}
+---
+
+====== ComboStrap UI - Badge  ======
+
+
+===== About =====
+''badge'' is a [[docs:docs|ComboStrap UI component]] that shows a small status descriptors such as:
+  * a count
+  * or a label
+
+
+<badge>Since [[release:release|version 1.1]]</badge>
+===== Articles Related =====
+{{backlinks>.}}
+
+
+===== Syntax =====
+''badge'' follows the [[styling:html|superset HTML syntax]] and can then be [[styling:styling|customized]]
+
+  * Full Qualified Syntax
+<code dw>
+<badge type="type" rounded>Text</badge>
+</code>
+
+  * Short Syntax
+<code dw>
+<badge type rounded>Text</badge>
+</code>
+
+where:
+  * ''type'' defines the color
+  * ''rounded'' will give a look more rounded (Default: true)
+===== Type =====
+
+A badge may have the following type:
+  * <badge primary>primary</badge>
+  * <badge secondary>secondary</badge>
+  * <badge success>success</badge> 
+  * <badge danger>danger</badge>
+  * <badge warning>warning</badge>
+  * <badge>info</badge> (Default)
+  * <badge tip>tip</badge>
+  * <badge light>light</badge>
+  * <badge dark>dark</badge>
+
+
+
+
+===== Configuration =====
+
+==== defaultBadgeAttributes ====
+''defaultBadgeAttributes'' is a [[:configuration|configuration]] that defines the default badge attributes
+
+Default value:
+<code html>
+type="info" rounded="true"
+</code>
+
+===== Support =====
+==== Background color ====
+We are not using the [[https://getbootstrap.com/docs/5.0/components/badge/#background-colors|background color]] because they are too dark. The contrast between this color and a link is not enough and make a link difficult to read. The actual colors are the [[https://getbootstrap.com/docs/5.0/components/alerts/|alerts colors]]

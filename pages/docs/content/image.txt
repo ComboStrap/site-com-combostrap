@@ -1,0 +1,170 @@
+---json
+{
+    "canonical":"image",
+    "title":"How to use the image tag in ComboStrap",
+    "image":"::docs:block:stock_image_surfer_in_the_see.png",
+    "description":"Combostrap supports raster and vectoriel image. This page shows you how to add an image with syntax and examples."
+}
+---
+====== ComboStrap UI - Images ======
+
+===== About =====
+''image'' is a [[docs:content:content|inline component]] that permits to show [[docs:content:raster|raster]] or [[docs:content:svg|svg]] images from your media library in your pages.
+
+
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Features =====
+
+
+All images:
+  * are [[docs:performance:lazy|lazy loaded]] by default to enhance [[docs:performance:performance|performance]]
+  * are ''automatically reduced in size'' and ''responsive''
+      * for [[docs:content:svg|svg images]], we set extra responsive properties.
+      * for [[docs:content:raster|raster images]],  a small screen will receive a small image while a big screen will receive the biggest image. For more information, see [[docs:content:raster#automatic_responsive_resizing|Raster - Automatic Resizing]]
+  * support sizing via ''width'' or ''height''
+
+===== Supported Image Type =====
+''ComboStrap'' supports:
+  * [[docs:content:raster|raster image]] (jpg, png, ...)
+  * and [[docs:content:svg|svg image]]
+
+
+===== Syntax =====
+
+ComboStrap uses:
+  * the same syntax than [[doku>wiki:syntax#media_files|Dokuwiki]]
+  * extended with the [[styling:styling|styling attributes]]
+
+<code dw>
+{{[ ]path?WxH&nolink&att=value[ ]}}
+</code>
+where:
+  * ''path'' is:
+      * for an internal image: the internal path of the dokuwiki
+      * for an external image: the URL.
+  * ''W'' is the width (0 if you don't want to set it)
+  * ''H'' is the height (Optional)
+  * ''[ ]'' are optional spaces that indicates the alignement of the image (left, center, or right [[styling:float|float]])
+  * ''nolink'' will not add a [[#imagedefaultlinking|link to the image itself]].
+  * ''att=value'' is one or more [[styling:styling|styling attributes]]
+
+
+
+===== Example =====
+
+==== Resize to a given width ====
+
+
+To resize to a given width, add a number.
+
+Example of an image resized to ''400px''
+<webcode>
+<code dw>
+{{:docs:block:stock_image_surfer_in_the_see.png?400|}}
+</code>
+</webcode>
+
+
+<note>
+Raster images are automatically resized below the screen size. For more information, see the [[docs:content:raster#automatic_responsive_resizing|Raster - Automatic Resizing feature]]
+</note>
+
+==== Resize to a given height ====
+
+
+To resize to a given height, set a width to ''0'' followed by the height.
+
+Example of an image resized to ''250px'' height
+<webcode name="Default" frameborder="0">
+<code dw>
+{{:docs:block:stock_image_surfer_in_the_see.png?0x250|}}
+</code>
+</webcode>
+
+
+
+==== Position ====
+
+  * To position the image to the left, let no space, this is the default
+  * To position the image to the center with a [[styling:align#center|center block]], let a space at the left and at the right
+  * To position the image to the right with a [[styling:float#right|right float]], let a space at the left
+
+Example: position the image to the right with:
+  * a width of 300
+  * a [[styling:color|background-color of white]]
+  * and a padding of 3 (''p-3'') with [[styling:spacing|spacing]]
+<webcode name="Default" frameborder="0">
+<code dw>
+{{ :docs:block:stock_image_surfer_in_the_see.png?300&spacing=p-3&background-color=white|}}
+</code>
+</webcode>
+
+<note>
+If you want more control on position, we advise you to use the [[docs:layout:component:grid|grid]] and its cells.
+</note>
+
+
+==== Styling Attributes ====
+
+You can style even further your image with [[styling:styling|styling element]]:
+  * with a [[styling:shadow|shadow elevation through styling]].
+  * with a [[styling:hover|hover float effect]]
+
+For instance, to elevate this photography with a surfer, you could use this syntax.
+
+<webcode name="Default" frameborder=0>
+<code dw>
+{{ :docs:block:stock_image_surfer_in_the_see.png?400&onHover=float&shadow=lg |}}
+</code>
+</webcode>
+
+==== Background ====
+
+You can also use the image as [[styling:background|background]].
+<webcode name="Default" frameborder="0">
+<code dw>
+<slide color="steelblue" text-align="center" >
+   <background opacity="0.3">{{:docs:block:stock_image_surfer_in_the_see.png|}}</background>
+    <heading d2>A background image</heading>
+    <text lead font-size="h3">A background image will emphase a short message.</text>
+</slide>
+</code>
+</webcode>
+
+
+===== Support =====
+
+==== Cropping ====
+
+
+''cropping'' works only for [[docs:content:raster|raster image]] but does not get any extra features such as [[docs:performance:lazy|lazy loading]] and styling.
+
+Example of an image cropped to ''200x200px''
+<webcode name="Default" frameborder="0">
+<code dw>
+{{:docs:block:stock_image_surfer_in_the_see.png?200x200|}}
+</code>
+</webcode>
+
+
+
+===== Configuration =====
+==== imageEnable ====
+This [[:configuration|configuration]] permits to disable completely this component. It will also disable:
+  * the [[docs:content:raster|raster image]]
+  * and [[docs:content:svg|svg]] component
+
+==== imageDefaultLinking ====
+
+This [[:configuration|configuration]] permits to set the link type to the image.
+
+^ Value ^ Behavior ^
+| ''direct'' (default) | Direct link to the image |
+| ''detail'' | Link to a web page with image details |
+| ''linkonly'' | Only the link is displayed, not the image |
+| ''nolink'' | No link is added around the image |
+
+

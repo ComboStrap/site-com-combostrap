@@ -7,7 +7,7 @@
 
 
 ===== About =====
-[[ui:webcode|webcode]] improvement
+[[docs:utility:webcode|webcode]] improvement
 
 
 

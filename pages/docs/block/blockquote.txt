@@ -1,0 +1,206 @@
+---json
+{
+    "canonical":"blockquote",
+    "title":"What is a blockquote widget and how to use it",
+     "description":"A blockquote is a extract from another source and is set appart with a citation."
+}
+---
+
+====== ComboStrap UI - Blockquote ======
+
+
+
+===== About =====
+A ''blockquote'' component is a content with a [[docs:content:cite|citation]].
+
+A blockquote is an extract from another source and is set appart with a citation.
+
+<note tip>
+A pullquote is an typographic effect that quotes words of the current [[semantic:article|article]]
+</note>
+
+===== Articles Related =====
+{{backlinks>.}}
+
+
+===== Syntax =====
+A ''blockquote'' has three type:
+  * ''typo'' for the [[https://getbootstrap.com/docs/4.0/content/typography/#blockquotes|the typographic Blockquote]]
+  * ''card'' (default) for the [[https://getbootstrap.com/docs/4.0/components/card/#header-and-footer|the card Blockquote]]
+  * ''tweet''. If you want to quote a tweet, you should refer to the [[tweet|tweet component]].
+
+<code dw>
+<blockquote type="card">
+<header>My Header</header>
+=== Title === or <title>Title</title>
+content
+<cite>The reference</cite>
+</blockquote>
+</code>
+where:
+  * ''header'' is an [[docs:utility:header|component header]]
+  * ''title'' is a [[release:deprecated:title|component title]]
+  * ''cite'' is a [[docs:content:cite|cite (citation)]]
+
+<note tip>
+A ''card'' blockquote is just a shortcut that wraps the typographic blockquote in a [[card|card]].
+</note>
+
+<badge>''header'' is only available since [[release:release|version 1.4]]</badge>
+
+
+
+
+
+===== Example =====
+
+==== Basic ====
+=== Card blockquote ===
+
+The card blockquote is the default type.
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+  * Input:
+<code dw>
+<blockquote>
+The true work does not reveal itself until you get into.
+<cite>Nico</cite>
+</blockquote>
+</code>
+  * Output:
+</webcode>
+=== Typographic Blockquote ===
+
+<webcode name="Default">
+  * Input:
+<code dw>
+<blockquote typo>
+The true work does not reveal itself until you get into.
+<cite>Nico</cite>
+</blockquote>
+</code>
+  * Output:
+</webcode>
+
+==== With a class ====
+As a [[styling:html|superset HTML element]], you can add your own [[styling:class|class]] or [[styling:style|style]]
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<blockquote class="p-4 m-4 mx-auto" style="border-color:blue;max-width:400px">
+The true work does not reveal itself until you get into.
+<cite>Nico</cite>
+</blockquote>
+</code>
+</webcode>
+==== With a header ====
+An header is supported in the ''card'' blockquote.
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<blockquote width="300px" align="center">
+<header>True work</header>
+The true work does not reveal itself until you get into.
+<cite>Nico</cite>
+</blockquote>
+</code>
+</webcode>
+
+==== With a heading and a header ====
+A [[docs:content:heading|heading]] is supported in the ''card'' blockquote.
+<webcode name="Default">
+  * Input:
+<code dw>
+<blockquote width="300px" align="center">
+<header>Work</header>
+=== True Work ===
+The true work does not reveal itself until you get into.
+<cite>Nico</cite>
+</blockquote>
+</code>
+  * Output:
+</webcode>
+==== In a card ====
+You can wrap a typographic blockquote in a [[card|card]] in order to add an image header .
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<card width="18rem">
+{{:teaser_image_2.jpg|}}
+<header>True Work</header>
+<blockquote typo>
+The true work does not reveal itself until you get into.
+<cite>Nico</cite>
+</blockquote>
+</card>
+</code>
+</webcode>
+
+
+==== Card Columns ====
+
+A ''blockquote'' with the type ''card'' can also be wrapped in the [[docs:layout:component:card_column|card-columns layout component.]]
+
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<card-columns>
+
+<blockquote>
+A Blockquote is wrapped by default in a [[card|card]] 
+<cite>Say the [[card|card]]</cite>
+{{::teaser_image_1.png?400}}
+</blockquote>
+
+<blockquote>
+A Blockquote without [[cite|citation]].
+
+{{::teaser_image_2.jpg}}
+</blockquote>
+
+<blockquote>
+My Blockquote With Citation
+<cite>Citation</cite>
+</blockquote>
+
+
+</card-columns>
+</code>
+</webcode>
+
+
+
+====  Blockquote with other components (Math) ====
+
+A card blockquote accepts any other [[docs:docs|components]] 
+
+
+Example with [[math|Math]]
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<blockquote>
+<MATH>
+\begin{array}{lrl}
+\text{errors} & =&  (\text{more code})^2 \\
+e & = & mc^2
+\end{array}
+</MATH>
+<cite>[[twitter>ypriverol/status/603134562399559680/photo/1|Brilliant]]</cite>
+</blockquote>
+</code>
+  * Result
+</webcode>
+
+==== Tweet ====
+
+For more information on tweet, see the [[tweet|corresponding page]]
+
+<webcode name="Default" frameborder="0" >
+<code dw>
+<blockquote width="300px">
+<cite>[[https://twitter.com/themaxburns/status/1372630627611201536]]</cite>
+</blockquote>
+</code>
+</webcode>
+
+
+
+
+
+
+

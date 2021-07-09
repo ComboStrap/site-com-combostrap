@@ -1,0 +1,47 @@
+====== ComboStrap Getting Started - Creation of a top menu bar======
+
+
+===== About =====
+The [[:strap|strap template]] supports the creation of a slot page called [[docs:layout:page:header_slot|header slot]] in order to create a [[docs:menubar:menubar|menu bar]] at the top location of the page.
+
+
+===== Steps=====
+
+  * Create a page called '':slot_header'' (at the root directory of your pages)
+  * Enter the below [[docs:menubar:menubar|menu bar]] example
+
+
+
+If you have uploaded a icon in the [[4_favicon|Favicon step]], a minimal ''header slot'' with a [[docs:menubar:menubar|menu bar]] would look like:
+
+<webcode name="Default">
+<code dw>
+<menubar breakpoint="md" align="center">
+<brand title="My Brand">
+<icon name="logo.svg" />
+My Brand name
+</brand>
+<collapse>
+<group expand="true">
+<dropdown name="Menu">
+[[#|item]]
+[[#|item]]
+</dropdown>
+</group>
+
+<btn shadow="true" color="white">[[getting_started:getting_started|Get Started]]</btn>
+<search/>
+</collapse>
+</menubar>
+</code>
+</webcode>
+
+More ... see the [[docs:menubar:menubar|menu bar page]]
+
+===== Next Steps =====
+In the same way, you can also create a [[docs:layout:page:footer_slot|footer slot]].
+
+Then you can:
+  * Check the [[docs:docs|UI Components]]
+  * Learn about [[url:url|URL Management and redirections]]
+  * Have a look at the [[:seo|SEO page]]

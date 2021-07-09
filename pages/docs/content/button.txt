@@ -1,0 +1,190 @@
+---json
+{
+   "canonical":"button"
+}
+---
+
+====== ComboStrap UI - Button ======
+
+===== About =====
+''Button'' is a [[docs:docs|ComboStrap UI component]] that implements a ''button'' style.
+
+
+The only action attached is to navigate to another page.
+===== Articles Related =====
+{{backlinks>.}}
+
+
+===== Example =====
+
+====  Internal link ====
+
+<webcode name="Button" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<btn>[[:start|Go to ComboStrap]]</btn>
+</code>
+</webcode>
+==== External Link and secondary type ====
+
+  * External [[docs:content:link|Link]] and a [[#type|secondary type]]
+<webcode name="Button" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<btn secondary color="yellow">[[https://combostrap.com/button|Go to this page via an external link]]</btn>
+</code>
+</webcode>
+==== Spacing ====
+
+  * With [[styling:spacing|spacing]]
+<webcode name="Button" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<btn class="p-3">[[:start|Go to ComboStrap]]</btn>
+</code>
+</webcode>
+==== Large button ====
+
+  * With the [[#size|size attribute]]
+<webcode name="Button" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<btn size="large">[[:start|Go to ComboStrap]]</btn>
+</code>
+</webcode>
+==== Colors ====
+
+  * With [[styling:color|colors]]
+<webcode name="Button" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<btn color="black" background-color="teal">[[:start|Go to ComboStrap]]</btn>
+</code>
+</webcode>
+
+
+==== Hover Animation ====
+You can also add [[styling:hover|hover animation]].
+
+  * Float
+<webcode name="Button" frameborder="0" >
+<code dw>
+<btn hover="float">[[:start|Go to ComboStrap]]</btn>
+</code>
+</webcode>
+  * Zoom
+<webcode name="Button" frameborder="0" >
+<code dw>
+<btn hover="zoom">[[:start|Go to ComboStrap]]</btn>
+</code>
+</webcode>
+
+===== Syntax =====
+
+<code dw>
+<button type size="medium" elevation="false" skin="outline|...">
+</button>
+</code>
+or
+<code dw>
+<btn type size="medium" elevation="false" skin="outline|...">
+</btn>
+</code>
+where:
+  * ''type'' defines the [[#type|default styling]]
+  * ''size'' defines its [[#size]]
+  * ''skin'' defines its [[#skin]]
+  * ''elevation'' adds an [[#elevation|elevation]]
+
+
+<note tip>
+The ''button'' component is a fully [[styling:html|super set HTML component]] and can therefore by [[styling:styling|styled]] as you wish
+</note>
+
+
+A ''button'' can be used:
+  * in the page content
+  * in a [[docs:block:card|card]]
+  * in a [[docs:menubar:menubar|menubar]]
+
+
+==== Type ====
+The type of the button defines its styling:
+<webcode name="ButtonType" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<btn>Primary (Default)</btn>
+<btn secondary>Secondary</btn>
+<btn success>Success</btn>
+<btn danger>Danger</btn>
+<btn warning>Warning</btn>
+<btn info>Info</btn>
+<btn light>Light</btn>
+<btn dark>Dark</btn>
+</code>
+</webcode>
+
+==== Size ====
+
+''Button'' is a component that responds to the [[styling:size|size attribute]]
+  * small
+  * medium (default)
+  * large
+
+
+
+<webcode name="ButtonSize" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<btn size="large" >Large</btn>
+<btn >Medium</btn>
+<btn size="small">Small</btn>
+</code>
+</webcode>
+
+
+==== Skin ====
+
+Control the more emphasis of your button by using the [[styling:skin|skin attribute]]
+
+<webcode name="ButtonSize" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<btn skin="contained" >Extra High emphasis</btn>
+<btn skin="filled">High emphasis</btn>
+<btn skin="outline" >Medium emphasis</btn>
+<btn skin="text">Low emphasis</btn>
+</code>
+</webcode>
+
+
+==== Elevation ====
+
+All [[styling:styling|styling attribute]] are available but you may want to give more emphasis by adding a big shadow around the [[docs:block:block|box]] with the [[styling:shadow|elevation attribute]]
+
+<webcode name="ButtonSize" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<btn shadow="lg" >Large Elevated button</btn>
+</code>
+</webcode>
+
+
+===== How to ? =====
+==== Center two buttons ====
+Buttons are [[docs:content:content|inline elements]] which means that they can be added in a line and are therefore not a [[docs:block:block|block]].
+
+If you want to center two buttons, you need to wrap them in a [[docs:block:box|box]] element and center it.
+
+Example:
+
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<box align="center" width="fit-content">
+    <btn>[[#|Button 1]]</btn> <btn skin="outline">[[#|Button 2]]</btn>
+</box>
+</code>
+</webcode>
+
+
+
+
+
+
+===== For the Geek =====
+This is not the [[https://www.w3.org/TR/wai-aria-practices/#button|Button as describe by the Web Specification]] but a styling over a [[https://www.w3.org/TR/wai-aria-practices/#link|link ]]
+
+===== Documentation / Reference =====
+  * https://material.io/components/buttons
+  * https://getbootstrap.com/docs/4.5/components/buttons/

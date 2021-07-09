@@ -1,0 +1,26 @@
+====== Strap template - Keyboard Shortcut ======
+
+===== About =====
+
+Keyboard shortcut are available and are really handy for editing and navigating a page.
+
+<note>
+They prevent [[wp>Repetitive_strain_injury|hand problem]] by minimizing the usage of the mouse
+</note>
+
+===== List =====
+
+The shortcuts are also called [[wp>access key]].
+
+<note>
+The first combination of key to press may be different by browser. This article assumes Firefox or Chrome
+</note>
+
+  * To edit a page, type ''Shift + Alt + E''
+      * In the editor:
+        * ''Shift + Alt + L'' to open the link wizard.
+        * ''Shift + Alt + P'' for preview
+        * ''Shift + Alt + S'' for save
+  * To go to the [[docs:menubar:search|search box]]:
+      * ''Alt + Shift + F''
+      * or ''Alt + D then Tab''

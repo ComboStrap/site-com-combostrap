@@ -8,7 +8,7 @@
 ====== ComboStrap Styling - Text color ======
 
 ===== About =====
-''text-color'' is a [[typo|typographic attributes]] that sets the [[styling:color|color]] of a text.
+''text-color'' is a [[docs:content:typo|typographic attributes]] that sets the [[styling:color|color]] of a text.
 
 
 ===== Syntax =====
@@ -25,7 +25,7 @@ where ''value'' is one of the [[styling:color#value|accepted color values]]
 
 ==== Basic ====
 
-Coloring paragraph with the [[ui:text|component]] and a couple of words with the [[ui:itext|itext component]]
+Coloring paragraph with the [[docs:block:text|component]] and a couple of words with the [[docs:content:itext|itext component]]
 <webcode name="Default" frameborder="0">
   * Input
 <code dw>
@@ -38,7 +38,7 @@ Steelblue colored paragraph with a <itext color="blue">couple of words in blue</
 
 ==== Link =====
 
-The ''reset'' color applied on a [[ui:link|link]] will take the color of the [[ui:text|text]]
+The ''reset'' color applied on a [[docs:content:link|link]] will take the color of the [[docs:block:text|text]]
 <webcode name="Default" frameborder="0">
   * Input
 <code dw>

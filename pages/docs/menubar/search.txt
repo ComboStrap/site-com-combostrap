@@ -1,0 +1,29 @@
+====== ComboStrap UI - Search ======
+
+
+===== About =====
+''search'' is a search box that can be placed in a [[docs:menubar:menubar|menubar component]].
+
+===== Quick Access =====
+
+The search component has:
+  * the ''f'' accesskey. In chrome, ''Alt+shift+f'' will bring you in the search box.
+  * a tabindex of 1. Which means, if you do on Windows ''Alt+D'' + ''Tab'', you comes directly in the search bar.
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Syntax =====
+
+<code>
+<search>
+</code>
+
+===== Example =====
+<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<code dw>
+<menubar>
+<search>
+</menubar>
+</code>
+
+</webcode>

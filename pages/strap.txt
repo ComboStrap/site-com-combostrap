@@ -1,0 +1,37 @@
+---json
+{
+   "canonical":"strap",
+   "layout":"median"
+}
+---
+
+====== Strap - Template ======
+
+===== About =====
+''strap'' is the template and second component of [[:combostrap|ComboStrap]]
+
+
+The ''strap'' template supports the following features:
+
+  * [[docs:utility:bootstrap|Last bootstrap version (5)]]
+  * [[styling:bootstrap|Custom Bootstrap Styleshet (create and add your own)]]
+  * [[docs:performance:cdn|Serve the Bootstrap files by default from a CDN]]
+  * Supports [[docs:layout:page:slot|4 bars]] layout
+      * [[docs:layout:page:side_slot|Sidebar]] (left)
+      * [[docs:layout:page:sidekick_slot|Sidekickbar]] (right)
+      * [[docs:layout:page:header_slot|Headerbar]] (top)
+      * [[docs:layout:page:footer_slot|Footerbar]] (bottom)
+  * [[docs:layout:page:toolbar|Aggregate toolbar (Page, User Site) with a private option]]
+  * Support [[semantic:tagline]]|tagline]]
+  * [[docs:layout:component:fixed-top-menu|Fixed-top navbar with automatic top page location correction]]
+  * Support a [[docs:navigation:trail_breadcrumb|trailing breadcrumb]]
+  * [[styling:scale|Size Scale configuration (font and spacing)]]
+  * [[docs:getting_started:4_favicon|Favicon]]: Recognized the [[docs:getting_started:4_favicon|favicons]]  (included ''android-chrome-192x192.png'')
+  * [[docs:utility:shortcut]]
+
+
+
+
+<btn class="mb-5">
+[[docs:getting_started:getting_started|Love it ? Try it !]]
+</btn>

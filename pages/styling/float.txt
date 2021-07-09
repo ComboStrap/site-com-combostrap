@@ -46,7 +46,7 @@ A value of ''end'' will:
   * float the element from the [[#floatDefaultBreakpoint|default breakpoint]]
   * not float the element on the extra small device because of the ''xs'' device
 
-Example with a [[ui:blockquote|blockquote]]
+Example with a [[docs:block:blockquote|blockquote]]
 
 <webcode name="Default" frameborder="0">
 <code dw>

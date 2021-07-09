@@ -1,0 +1,67 @@
+====== ComboStrap Getting Started - Combo Installation ======
+
+===== About =====
+[[:combostrap|combo]] is a bundle of components that complements the [[:strap|strap template]].
+
+It contains:
+  * the [[docs:docs|collection of UI component]]
+  * the [[url:url|Url Manager]]
+  * the [[semantic:semantic|Page Metadata]]
+  * the [[:seo|SEO module]]
+  * and many more.
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Steps =====
+
+==== Go to the Extension Manager ====
+
+To install the ''Combo'' plugin:
+  * Click on the ''Admin'' link to go to the [[doku>admin_window|Admin Window]]. ie ''https://yourdomain.com/?do=admin''
+
+{{::dokuwiki_admin_window_default_template.png|}}
+
+  * Click on the ''Extension Manager'' link to go to the [[doku>plugin:extension|Extension Manager plugin]].
+  * Click on the ''Search and Install'' link to go to the ''Search tab''
+
+==== Install the SQLite extension ====
+
+''combo'' is saving its data in a sqlite database and therefore uses this extension.
+
+  * Search for the term ''sqlite''
+  * Click on the ''install'' button.
+
+{{docs:getting_started:sqlite_install_via_extension_manager.png|}}
+
+==== Disable the already included extensions ====
+<note warning>
+If you have already one of this extension:
+  * [[doku>plugin:404manager]]
+  * [[doku>plugin:webcomponent]]
+you need to disable them because they are already included in this installation.
+
+</note>
+Steps:
+  * Search the extension in the ''extension manager''
+  * And click the disable button (or uninstall)
+
+{{docs:getting_started:dokuwiki_disable_button_extension.png|}}
+
+
+<note tip>
+The ''combo'' term was chosen for this reason. It's just a ''combo''
+</note>
+
+==== Install the Combo extension ====
+
+  * Search for the term ''Combo''
+  * Click on the ''install'' button.
+
+{{docs:getting_started:combo_install_via_extension_manager.png|}}
+
+
+===== Next Step =====
+<btn>
+[[3_strap|Strap Installation]]
+</btn>

@@ -1,0 +1,35 @@
+---json
+{
+    "canonical":"ui:components"
+}
+---
+
+====== User Interface ======
+
+===== About =====
+The ''UI'' components changes the rendering of a page
+
+
+
+
+
+<note info width="600px" align="center">
+=== HTML Superset Component ===
+They are all a superset of HTML which means that for every component, you can use:
+  * the ''class''
+  * and the ''style'' attribute
+to refine how you want them to be.
+
+See [[styling:html]]
+</note>
+===== List =====
+
+
+^ Type ^ Example ^
+| [[docs:block:block|Block]] | Card, ... |
+| [[docs:content:content|Inline]] | Typography, Icon, Bold, .. |
+| [[docs:navigation:navigation|Navigational]] | Toc, button, tabs, ... |
+| [[docs:layout:component:component|Layout]] | Tabs, panel, grid, ... |
+| ''Outline'' | [[docs:layout:component:hr|Hr]] to draw an horizontal rule. \\ [[docs:content:heading|Heading]] that defines the structure of the page or a component title. |
+| ''Informative'' | [[docs:content:tooltip|Tooltip]]: Tooltips display informative text when users hover over, focus on, or tap an element. |
+| ''List'' | [[docs:list:content-list|List]] - continuous, vertical indexes of text or images. \\  [[docs:list:table|Table]] - a list of records |

@@ -1,0 +1,28 @@
+---json
+{
+   "canonical":"cdn"
+}
+---
+
+====== Strap - CDN ======
+
+
+===== About =====
+''cdn'' is a feature that permits to serve the static library files for anonymous users from a ''CDN''.
+
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Configuration =====
+==== useCDN ====
+The ''useCDN'' [[:configuration|configuration]] is on by default and can be switch off.
+
+
+
+===== Support =====
+==== JQuery ====
+
+<note important>
+The [[docs:utility:jquery|jquery]] version of Bootstrap takes over the [[docs:utility:jquery|jquery]] of Dokuwiki for anonymous users.
+</note>

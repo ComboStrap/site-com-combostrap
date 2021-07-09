@@ -52,7 +52,7 @@ For the ''update'' form, with the [[doku>config:profileconfirm]] [[configuration
 ===== Configuration =====
 
 ==== Logo ====
-The ''enableLogoOnIdentityForms'' permits to enable or disable the rendering of the [[getting_started:4_favicon|logo]] to render on the page.
+The ''enableLogoOnIdentityForms'' permits to enable or disable the rendering of the [[docs:getting_started:4_favicon|logo]] to render on the page.
 
 ==== Enable / Disable Forms ====
 All forms are disabled, if the [[doku>acl|acl module]] is disabled.

@@ -9,6 +9,6 @@
 
 
 ===== About =====
-''navbar'' is no known as [[ui:menubar|menubar]] that convey much more it's functionality (being an horizontal bar with dropdown).
+''navbar'' is no known as [[docs:menubar:menubar|menubar]] that convey much more it's functionality (being an horizontal bar with dropdown).
 
 The ''navbar'' word is still supported for backward compatibility but this is recommended to switch to the new name.

@@ -11,10 +11,10 @@
 You can add emphasis:
   * by making text:
       * [[boldness|bold]]
-      * [[typo#italic|italic]]
-      * [[ui:inote|inote]]
-      * [[ui:highlight|higlighted]]
-  * by styling [[ui:button|button]] with a [[skin|skin]]
+      * [[docs:content:typo#italic|italic]]
+      * [[docs:content:inote|inote]]
+      * [[docs:content:highlight|higlighted]]
+  * by styling [[docs:content:button|button]] with a [[skin|skin]]
   * by adding a [[shadow|shadow]]
   * by adding a [[hover|hover]] animation
   * by using  [[color|color]] 

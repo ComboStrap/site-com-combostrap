@@ -4,8 +4,8 @@
 ===== About =====
 
 The [[:combostrap|combo plugin]] automatically [[quality:hidden|hides]]:
-  * the [[strap:slot|slots]]
-  * the ''combostrap'' private namespace (where [[ui:icon|icons]] and other internal component are saved)
+  * the [[docs:layout:page:slot|slots]]
+  * the ''combostrap'' private namespace (where [[docs:content:icon|icons]] and other internal component are saved)
 
 
 This page resource are still accessible but should not be advertised to the outside world because they are just component and have [[quality:low_quality_page|low value]].

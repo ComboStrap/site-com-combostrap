@@ -41,7 +41,7 @@ To be sure that nothing gets cropped, you could create a 40pt white margin aroun
 ===== Interaction =====
 Interaction happens through widgets embedded in your pages.
 
-Actually, only the [[ui:tweet|embedded tweet]] has been implemented.
+Actually, only the [[docs:block:tweet|embedded tweet]] has been implemented.
 
 
 

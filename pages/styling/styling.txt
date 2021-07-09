@@ -2,7 +2,7 @@
 
 
 ===== About =====
-''Styling'' in ''ComboStrap'' is the possibility to render every [[ui:ui|component]] as you wish.
+''Styling'' in ''ComboStrap'' is the possibility to render every [[docs:docs|component]] as you wish.
 
 ''ComboStrap'' has three levels of styling:
   * the [[#bootstrap stylesheet|bootstrap stylesheet level]] - bootstrap standard theme

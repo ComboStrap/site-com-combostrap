@@ -24,11 +24,11 @@ This placement conforms to most of the Ads network rules.
 ==== Enable the Renderer ====
 
 
-The [[ui:renderer|Combo Renderer]] is responsible to inject the ad in the page. 
+The [[docs:utility:renderer|Combo Renderer]] is responsible to inject the ad in the page. 
 
 You need to [[:configuration|configure]] it as your renderer.
 
-{{:ui:combo_renderer_setting.png?500|}}
+{{docs:block:combo_renderer_setting.png?500|}}
 
 
 ==== Exclude the ads page from the index ====

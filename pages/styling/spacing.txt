@@ -8,12 +8,12 @@
 
 
 ===== About =====
-''spacing'' is the definition of the ''margin'' and ''padding'' between [[ui:block|block component]]
+''spacing'' is the definition of the ''margin'' and ''padding'' between [[docs:block:block|block component]]
 
 
 
 
-{{:ui:spacing_margin_padding.png|}}
+{{docs:block:spacing_margin_padding.png|}}
 
 where:
   * ''margin'' is a transparent space outside the box  (not filled with [[styling:background#color|the background color]])
@@ -21,7 +21,7 @@ where:
 
 
 <note>
-If you want to add space between lines, used the [[ui:text|text component]] and its ''line-spacing'' attribute
+If you want to add space between lines, used the [[docs:block:text|text component]] and its ''line-spacing'' attribute
 </note>
 ===== Articles Related =====
 {{backlinks>.}}
@@ -29,7 +29,7 @@ If you want to add space between lines, used the [[ui:text|text component]] and 
 
 ==== Padding and Spacing on all sides ====
 
-A [[ui:note|note]] with:
+A [[docs:block:note|note]] with:
   * ''p-3'': a ''padding''  with a [[styling:scale|scale value of 3]] (blue color)
   * ''m-5'': a ''margin'' with a [[styling:scale|scale value of 5]] (no color)
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
@@ -42,7 +42,7 @@ A note with a padding and a margin
 
 ==== Padding and Spacing on the start (old left) side ====
 
-A [[ui:note|note]] with:
+A [[docs:block:note|note]] with:
   * ''ps-3'' means:
       * ''p'': a ''padding''  (painted in blue)
       * ''s'': at the ''start'' of the line  (ie ''left'' in english)
@@ -111,7 +111,7 @@ The old notation ''l'' and ''r'' are still supported therefore ''pl-3 ml-5'' is 
 
 
 === For the geek ===
-The ''margin'' properties can utilize negative values but ''padding'' cannot and that's how the top of the page is defined in a  [[strap:fixed-top-menu|fixed-top menubar]]
+The ''margin'' properties can utilize negative values but ''padding'' cannot and that's how the top of the page is defined in a  [[docs:layout:component:fixed-top-menu|fixed-top menubar]]
 
 ===== Documentation / Reference =====
   * [[https://getbootstrap.com/docs/4.0/utilities/spacing/|Bootstrap Spacing]].

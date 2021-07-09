@@ -1,0 +1,19 @@
+====== ComboStrap UI - Trail Breadcrumb ======
+
+
+===== About =====
+A ''trail breadcrumb'' is a type of [[docs:navigation:breadcrumb|breadcrumb]] that shows the navigational history (the last pages that were visited in order).
+
+It's part of the [[docs:navigation:navigation|navigational components]].
+
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Illustration =====
+
+{{docs:block:trail_breadcrumb.png?500|}}
+===== Configuration =====
+To show the trail breadcrumb, you need to set the [[doku>config:breadcrumbs|breadcrumbs]] [[:configuration|configuration]] to a number above 0.
+
+{{docs:block:trace_breadcrumb_configuration.png?500|}}

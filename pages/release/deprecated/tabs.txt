@@ -9,7 +9,7 @@
 ===== About =====
 
 
-<note warning>Deprecated since [[release:release|version 1.12]] for [[ui:tabs|tabs with panel]].
+<note warning>Deprecated since [[release:release|version 1.12]] for [[docs:layout:component:tabs|tabs with panel]].
 
 Why?
   * It has a simpler interface (no needs for two block tabs and tabpanels)
@@ -35,7 +35,7 @@ The syntax has two parts:
 </code>
 where:
   * ''skin'' can take the value [[#tabs]] (default) or [[#pills]]
-  * ''pannel'' is the ''id'' of the [[#tabpannels|tabpannel]]. It should be unique on the whole page ([[ui:heading|heading included]])
+  * ''pannel'' is the ''id'' of the [[#tabpannels|tabpannel]]. It should be unique on the whole page ([[docs:content:heading|heading included]])
   * ''selected'' defines the default selected panel.
 ==== Tabpanels ====
 

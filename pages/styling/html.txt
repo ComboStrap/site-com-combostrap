@@ -2,7 +2,7 @@
 
 ===== About =====
 
-The [[:ui:ui|UI ComboStrap components]] are all super set tag of the ''HTML'' language. 
+The [[docs:docs|UI ComboStrap components]] are all super set tag of the ''HTML'' language. 
 
 They follow the same rules and you may then use them as every HTML element.
 
@@ -15,7 +15,7 @@ Below, we describe the [[#syntax]], they all have in common.
 
 
 ===== Syntax =====
-Every [[ui:ui|UI component]] follows the following syntax
+Every [[docs:docs|UI component]] follows the following syntax
 <code dw>
 <component type name1="value1" ... nameN="valueN" >
 <!-- content -->

@@ -10,9 +10,9 @@
 
 ===== About =====
 Before ''printing'', ''ComboStrap'' will:
-  * hide the [[ui:related|related component]] and section if any
-  * hide all [[strap:slot|slots]] ([[strap:header_slot|header slot]], [[strap:footer_slot|footer slot]], [[strap:side_slot|side slot]] and [[strap:sidekick_slot|sidekick slot]])
-  * download [[:lazy|all lazy images]]
+  * hide the [[docs:navigation:related|related component]] and section if any
+  * hide all [[docs:layout:page:slot|slots]] ([[docs:layout:page:header_slot|header slot]], [[docs:layout:page:footer_slot|footer slot]], [[docs:layout:page:side_slot|side slot]] and [[docs:layout:page:sidekick_slot|sidekick slot]])
+  * download [[docs:performance:lazy|all lazy images]]
 
 
 If you want more control on your elements when printing, you can inject the [[https://getbootstrap.com/docs/5.0/utilities/display/#display-in-print|bootstrap class]] with the [[styling:class|class attribute]]

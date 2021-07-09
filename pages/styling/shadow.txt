@@ -10,14 +10,14 @@
 
 
 ===== About =====
-''shadow'' (known also as ''elevation'') is a [[styling:styling|styling attribute]] that elevates a [[ui:block|block]].
+''shadow'' (known also as ''elevation'') is a [[styling:styling|styling attribute]] that elevates a [[docs:block:block|block]].
 
 It adds a ''shadow'' and gives the block more [[styling:emphasis|emphasis]].
 
 
 As [[color|color]], it helps prioritizing the components on your page in order to guide the viewer's eyes.
 
-It's mostly used on a ''call-to-action'' component such as a [[ui:button|button]].
+It's mostly used on a ''call-to-action'' component such as a [[docs:content:button|button]].
 
 ===== Articles Related =====
 {{backlinks>.}}
@@ -48,7 +48,7 @@ The '' OnHover animation name'' is the name that can be used to apply a shadow w
 
 ==== Button ====
 
-With a [[ui:button|button]]
+With a [[docs:content:button|button]]
 
 
 <row>
@@ -112,7 +112,7 @@ Extra-Large Shadow
 </row>
 
 ==== Card ====
-With a [[ui:card|card]]
+With a [[docs:block:card|card]]
 <webcode name="cardElevation" >
 <code dw>
 <card shadow="xl" width="200px">
@@ -123,12 +123,12 @@ Guide on how to elevate
 </webcode>
 
 ==== Image ====
-With a [[ui:image|image]] and a [[ui:box|box]]
+With a [[docs:content:image|image]] and a [[docs:block:box|box]]
 
 <webcode name="imgElevation" >
 <code dw>
 <box shadow="lg" width="fit-content" align="center">
-   {{:ui:stock_image_surfer_in_the_see.png?400|}}
+   {{:docs:block:stock_image_surfer_in_the_see.png?400|}}
 </box>
 </code>
 </webcode>

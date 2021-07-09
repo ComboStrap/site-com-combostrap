@@ -1,0 +1,183 @@
+---json
+{
+    "canonical":"link",
+    "title":"ComboStrap UI - Link",
+    "description":"The hyperlinks in ComboStrap UI"
+}
+---
+====== ComboStrap UI - Link ======
+
+===== About =====
+''link'' is  a [[docs:docs|ComboStrap UI component]] that permits to create hypertext link to page or media and allows any syntax inside. You can therefore have an [[#icon|icon link]]
+
+
+
+===== Articles Related =====
+{{backlinks>.}}
+
+
+
+===== Type =====
+
+==== Internal ====
+
+An ''internal'' link is a link to another page. If the target page does not exist, the link is shown in ''red''. You can even use the [[styling:styling|styling attributes]]
+
+  * Example:
+<webcode name="Default" frameborder=0>
+<code dw>
+Links to [[#|existing pages]] are shown in a different style from [[nonexisting|nonexisting]] ones.
+
+Internal Links can also be [[?color=#495057|styled]]
+</code>
+  * Result:
+</webcode>
+
+
+==== External ====
+
+An ''external'' link is a link that begins with ''http'' or ''https''. 
+
+  * Example:
+<webcode name="Default" frameborder=0>
+<code dw>
+External link to our protected page [[https://combostrap.com/quality/low_quality_example|low quality page]] 
+</code>
+  * Result:
+</webcode>
+==== Interwiki ====
+
+An ''interwiki'' page is a shortcut syntax that permits to create rapidly a link to another website. The host is replaced by a ''wikiName'' (ie website name)
+
+Syntax:
+<code html>
+wikiName>path?query#fragment
+</code>
+
+For instance:
+  * to [[doku>|Dokuwiki]] syntax
+<webcode name="Default" frameborder="1">
+<code dw>
+Interwiki: [[doku>Interwiki]]
+</code>
+  * to [[doku>|Dokuwiki]] Result
+</webcode>
+  * to [[wp>|wikipedia]] syntax
+<webcode name="Default" frameborder="1" >
+<code dw>
+The ''publication'' article link can be created with this syntax: [[wp>publication]]
+</code>
+  * to [[wp>|wikipedia]] result
+</webcode>
+
+
+==== Email ====
+
+
+===  Email addresses ===
+
+<webcode name="Default" frameborder=0>
+<code dw>
+<support@combostrap.com>
+</code>
+</webcode>
+=== Email link ===
+If there is no description, the email is shown with the [[doku>config:mailguard|visible protection]].
+<webcode name="Default" frameborder=0>
+<code dw>
+[[support@combostrap.com?subject=Contact via WebSite]]
+</code>
+</webcode>
+
+=== Email Protection ===
+
+
+Email protection against bots is almost a lost cause but you can give them an hard time with this    [[doku>config:mailguard|mailguard configuration]].
+
+
+
+==== Windows Share ====
+
+<webcode frameborder=0>
+<code dw>
+Windows Shares: [[\\server\share|this]]
+</code>
+</webcode>
+==== Image ====
+
+You can add an [[docs:content:image|image]]
+<webcode name="Default" frameborder=0>
+<code dw>
+[[:start|{{:apple-touch-icon.png?50|}}]]
+</code>
+</webcode>
+
+==== Icon ====
+
+An [[docs:content:icon|icon]] can be used to get a compelling visual.
+<webcode name="Default" frameborder=0>
+<code dw>
+[[https://combostrap.com|<icon name="logo.svg" width="96px" height="96px"/>]]
+</code>
+</webcode>
+
+
+===== Styling =====
+
+==== Attributes ====
+
+An [[#internal|Internal]] or [[#email|email]] link can be styled with the [[styling:styling|styling attributes]].
+
+Example with the [[styling:text-color#reset|reset color]] and [[styling:underline|underline]].
+<webcode name="Default" frameborder="0">
+  * Input
+<code dw>
+<text color="#6c757d">
+Colored text with a [[link?color=reset&underline=false#styling|styled link]]
+
+Colored text with a [[link#styling|native link]]
+</text>
+</code>
+  * Output
+</webcode>
+
+==== Stretchable ====
+You can also stretch a link and make the whole parent clickable with the [[styling:clickable|clickable styling attribute]].
+===== Configuration =====
+
+==== useDokuwikiLinkClassName ====
+[[doku>|Dokuwiki]] sets class names (''wikilink1'',''wikilink2'',''urlextern'',...) on the link to differentiate them. Unfortunately, this class names have styling rules that are in conflict with [[styling:bootstrap|Bootstrap]].
+
+To resolve this issue, we have set other class name by link type that a web designer can use to style the links.
+
+If you wish to get the Dokuwiki class name on your links, you can get them by enabling the [[:configuration|useDokuwikiLinkClassName configuration]].
+
+
+==== disableLink ====
+If you don't want that ''Combostrap'' changes the default link behavior, you can disable it with the ''disableLink'' [[:configuration|configuration]].
+
+Note that the link component enhances the [[doku>wiki:syntax#links|link]] syntax.
+  * It allows any content inside. Dokuwiki allows only text and media. If you disable it, you can't style your link or add any icon in it.
+  * It allows advanced styling
+  * It applies the [[docs:utility:bootstrap|bootstrap styling by default]]
+
+
+
+
+
+===== Support =====
+==== I can't format the description to Italic ====
+
+That's true, inside an link, this is actually not possible to use the %%//%% italic syntax.
+
+This is to keep the compatibility with the old syntax that allows to have URL as a description. And an URL has the ''%%//%%'' italic syntax after the ''http'' scheme.
+
+You can still create a link with an URL as description such as this one:
+<webcode name="Default" frameborder="0">
+  * Link with URL
+<code dw>
+[[https://combostrap.com|https://combostrap.com]]
+</code>
+  * Output:
+</webcode>
+

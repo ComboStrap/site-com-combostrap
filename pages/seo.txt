@@ -24,7 +24,7 @@ The following data may be set for a page:
 
 ==== Performance ====
 
-There is so  much too say that we have created a [[performance|dedicated page]].
+There is so  much too say that we have created a [[docs:performance:performance|dedicated page]].
 ==== Quality ====
 [[quality:low_quality_page|Low quality pages]] have a big impact on the SEO score. The [[quality:quality|quality module]] aims to [[quality:score|score]], [[quality:dynamic_monitoring|monitor]] and [[quality:lqpp|protect]] the quality of your website.
 

@@ -1,0 +1,45 @@
+====== ComboStrap UI - Jumbotron ======
+
+
+===== About =====
+A ''jumbotron'' is a simple [[docs:block:block|box component]] that emphase prominently its content.
+
+<note>
+For a hero unit style content, you can also use a [[docs:layout:component:slide|slide]].
+</note>
+
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Syntax =====
+<code dw>
+<jumbotron>
+=== Title ===
+Content
+</jumbotron>
+</code>
+
+
+
+===== Example =====
+
+<webcode name="Default" >
+<code dw>
+<jumbotron>
+====== Jumbotron ======
+<text lead>A jumbotron-style component to call extra attention to featured content or information.</typo>
+<hr spacing="my-4"/>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+<btn size="large">[[#|Learn More]]</btn>
+</jumbotron>
+</code>
+with a [[docs:content:button|button]], a ''lead'' [[docs:block:text|text]] and a [[docs:layout:component:hr|horizontal rule]].
+
+Output:
+</webcode>
+

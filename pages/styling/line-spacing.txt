@@ -8,7 +8,7 @@
 ====== ComboStrap Styling - Line Spacing (Line Height) ======
 
 ===== About =====
-''line-spacing'' is a [[styling|styling attributes]] that lets you define the height between each line inside a [[ui:block|block component]]. 
+''line-spacing'' is a [[styling|styling attributes]] that lets you define the height between each line inside a [[docs:block:block|block component]]. 
 
 
 <note>
@@ -30,7 +30,7 @@ where value  may be:
 
 The space value is scaled according to the [[scale|root scale value]]
 ===== Example =====
-With the [[ui:text|text component]] that lets you create paragraphs with the same attributes
+With the [[docs:block:text|text component]] that lets you create paragraphs with the same attributes
 <webcode name="Default" frameborder="0">
 <code dw>
 <text line-spacing="xs" width="40rem">

@@ -8,7 +8,7 @@
 
 
 ===== About =====
-Every [[ui:block|Box components]] and even the whole main page dimension may be resized with the [[styling:styling|styling attributes]]:
+Every [[docs:block:block|Box components]] and even the whole main page dimension may be resized with the [[styling:styling|styling attributes]]:
   * [[#width]] 
   * and [[#height]].
 
@@ -26,7 +26,7 @@ The ''width'' attributes supports the following values:
 
 <note info width="fit-content">If you want to center the box, use the [[styling:align|align attributes]]</note>
 
-**Example**: a [[ui:note|note]] will take all the space by default, if you want to constraint the box to a lower size, apply the ''width'' attributes.
+**Example**: a [[docs:block:note|note]] will take all the space by default, if you want to constraint the box to a lower size, apply the ''width'' attributes.
 
 <webcode name="Width" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
@@ -40,7 +40,7 @@ I'm a note being constraint in a box with a maximum width of 200 pixels.
 
 <note info>
 === For the Geek ===
-On a [[ui:block|box]], the ''width'' attribute will apply a ''maximum-width'' constraint. When your website will be seen on a screen below this ''width'', the box will adapt accordingly keeping your website responsive.
+On a [[docs:block:block|box]], the ''width'' attribute will apply a ''maximum-width'' constraint. When your website will be seen on a screen below this ''width'', the box will adapt accordingly keeping your website responsive.
 </note>
 
 
@@ -53,7 +53,7 @@ On a [[ui:block|box]], the ''width'' attribute will apply a ''maximum-width'' co
 The ''height'' attribute is also a [[styling:style|style shortcut]] that will apply a maximum height.
 
 
-Example: a [[ui:note|note]] will take all the space by default, if you want to constraint the box to a lower size, apply the ''width'' attributes.
+Example: a [[docs:block:note|note]] will take all the space by default, if you want to constraint the box to a lower size, apply the ''width'' attributes.
 
 <webcode name="Height" >
 <code dw>
@@ -67,7 +67,7 @@ I'm a note being constraint in a box with a maximum height of 100 pixel.
 === Toggle Scroll ===
 
 
-The default scroll mechanism is a lift but you can also set it to a [[ui:toggle|toggle]]
+The default scroll mechanism is a lift but you can also set it to a [[docs:animation:toggle|toggle]]
 
 <webcode name="Height" >
 <code dw>

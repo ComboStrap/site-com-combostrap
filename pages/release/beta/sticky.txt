@@ -9,16 +9,16 @@
 
 
 ===== About =====
-''sticky'' is a property of a [[ui:block|block component]] that will stick their position to the [[#page top|top of your page]].
+''sticky'' is a property of a [[docs:block:block|block component]] that will stick their position to the [[#page top|top of your page]].
 
 
-This component are generally in aside [[strap:slot|bar]] such as the [[strap:side_slot|sidebar]] or [[strap:sidekick_slot|sidekickbar]].
+This component are generally in aside [[docs:layout:page:slot|bar]] such as the [[docs:layout:page:side_slot|sidebar]] or [[docs:layout:page:sidekick_slot|sidekickbar]].
 
 Sticky blocks are perceived much better by visitors than unfixed widgets and therefore they have a significantly higher click-through rate.
 
 <badge>[[beta|beta]]</badge>
 
-  * New: [[ui:webcode|webcode]] outputs iframe for page syntax in order to demonstrate the [[release:beta:sticky|sticky attribute]]
+  * New: [[docs:utility:webcode|webcode]] outputs iframe for page syntax in order to demonstrate the [[release:beta:sticky|sticky attribute]]
 ===== Syntax =====
 
 Adding the ''sticky'' attribute will made them sticky.
@@ -28,7 +28,7 @@ Adding the ''sticky'' attribute will made them sticky.
 
 ==== Page top ====
 
-If you have a [[strap:fixed-top-menu|fixed top navbar]], this is the [[strap:fixed-top-menu#set_the_height_of_the_navbar|height of your navbar]], otherwise this is the top of the window.
+If you have a [[docs:layout:component:fixed-top-menu|fixed top navbar]], this is the [[docs:layout:component:fixed-top-menu#set_the_height_of_the_navbar|height of your navbar]], otherwise this is the top of the window.
 
 ===== Example =====
 

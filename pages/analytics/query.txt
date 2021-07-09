@@ -9,7 +9,7 @@ This page will show you how to query the [[database|analytics database]] online.
 
 Click on the ''Admin'' link to go to the [[doku>admin_window|Admin Window]]. ie ''https://yourdomain.com/?do=admin''
 
-^ [[strap:strap|ComboStrap Template]] ^ Dokuwiki Template ^
+^ [[:strap|ComboStrap Template]] ^ Dokuwiki Template ^
 | {{:analytics:admin_combo.png?150|}} | {{::dokuwiki_admin_window_default_template.png|}} |
 ==== Go to the Sqlite Interface ====
 

@@ -13,7 +13,7 @@ The [[release|release]] ''1.13'' was focus on the creation of ''landing page'' c
 
 
 <note important>
-Due to [[release:1.13_bootstrap5|introduction of Bootstrap 5 in this release]], a configuration update is require. As the bootstrap version and the stylesheet are now in the same [[strap:bootstrap#configuration|configuration]], you need after the update to set it back to your [[styling:stylesheet|preferred stylesheet]] back.
+Due to [[release:1.13_bootstrap5|introduction of Bootstrap 5 in this release]], a configuration update is require. As the bootstrap version and the stylesheet are now in the same [[docs:utility:bootstrap#configuration|configuration]], you need after the update to set it back to your [[styling:stylesheet|preferred stylesheet]] back.
 
 
 {{:strap:bootstrapversionstylesheet.png|}}
@@ -27,41 +27,41 @@ New: [[release:1.13_bootstrap5|Bootstrap 5]] is now the default. Read more about
   * New: added the [[styling:hover|hover animation]] to improve emphasis
 
 ==== Landing page ====
-  * New: The [[ui:slide|slide component]] to create landing page with sections of a page or hero section with alternated background
-  * New: added the [[styling:background|background component]] to manage the background of a component (at first for a [[ui:slide|slide]])
+  * New: The [[docs:layout:component:slide|slide component]] to create landing page with sections of a page or hero section with alternated background
+  * New: added the [[styling:background|background component]] to manage the background of a component (at first for a [[docs:layout:component:slide|slide]])
   * New : [[styling:clickable|clickable attribute]]: make a whole surface containing a link, clickable.
 
 
 
 
 ==== Svg ====
-  * New: Icons from [[https://icons.getbootstrap.com/|Bootstrap]] and [[https://feathericons.com/|Feather]] are now natively available from the [[ui:icon|icon component]]
-  * New: [[ui:svg_optimization|SVG Optimization]] - The Svg returned are now optimized. They are injected inline for file less than 2KB such as [[ui:icon|icon]], they are otherwise loaded lazily and injected via javascript.
-  * New: [[ui:svg#upload permission|SVG Upload Permission]] - The Svg can now be uploaded by the admin and by a group of users.
+  * New: Icons from [[https://icons.getbootstrap.com/|Bootstrap]] and [[https://feathericons.com/|Feather]] are now natively available from the [[docs:content:icon|icon component]]
+  * New: [[docs:performance:svg_optimization|SVG Optimization]] - The Svg returned are now optimized. They are injected inline for file less than 2KB such as [[docs:content:icon|icon]], they are otherwise loaded lazily and injected via javascript.
+  * New: [[docs:content:svg#upload permission|SVG Upload Permission]] - The Svg can now be uploaded by the admin and by a group of users.
 
 ==== Styling / Theme ====
   * New: [[styling:shadow|Elevation]] is also now known as the [[styling:shadow|shadow attribute]] and has gain 2 levels.
   * New: The [[styling:stylesheet|Bootswatch stylesheet]] are now also served from the CDN (by default)
-  * New: The [[ui:table|table]] component does not take 100% width to reduce the visual space and allow floating element to the right.
+  * New: The [[docs:list:table|table]] component does not take 100% width to reduce the visual space and allow floating element to the right.
   * New: [[styling:float|float]] - the float styling attribute has been added.
   * New: added [[styling:userstyle|styling class]] to all component. It permits to take over the whole styling and create its own via the [[styling:userstyle|userstyle stylesheet]].
 
 ==== Performance ====
-  * New: [[:lazy|Lazy loading]] is now part of Combostrap and the default
+  * New: [[docs:performance:lazy|Lazy loading]] is now part of Combostrap and the default
 
 ==== Raster Image ====
-  * New: the [[ui:image|image component]] accepts now [[styling:styling|styling attributes]]
-  * New: [[ui:raster|Raster Images]] are now lazy loaded by default 
-  * New: [[ui:raster#retina support|Raster Images Retina Support]]. The image may be downloaded at a size that depends on the screen resolution (device pixel ratio) and not on the screen size.
-  * New: [[ui:svg#lazy loading|SVG Lazy loading]] - The big Svg file are now only loaded when they are going to become visible.
-  * New: [[ui:svg#injection|SVG Injection]] - The big Svg file are downloaded and injected as SVG markup.
-  * New: [[ui:image|Image]] got the [[ui:image#defaultImageLinking|defaultImageLinking]] configuration to set the default media link behavior
-  * New: [[ui:image|Image]] with a ''width'' are media aware. The width will be 100% for a screen size below the ''width'' to make them fully responsive.
+  * New: the [[docs:content:image|image component]] accepts now [[styling:styling|styling attributes]]
+  * New: [[docs:content:raster|Raster Images]] are now lazy loaded by default 
+  * New: [[docs:content:raster#retina support|Raster Images Retina Support]]. The image may be downloaded at a size that depends on the screen resolution (device pixel ratio) and not on the screen size.
+  * New: [[docs:content:svg#lazy loading|SVG Lazy loading]] - The big Svg file are now only loaded when they are going to become visible.
+  * New: [[docs:content:svg#injection|SVG Injection]] - The big Svg file are downloaded and injected as SVG markup.
+  * New: [[docs:content:image|Image]] got the [[docs:content:image#defaultImageLinking|defaultImageLinking]] configuration to set the default media link behavior
+  * New: [[docs:content:image|Image]] with a ''width'' are media aware. The width will be 100% for a screen size below the ''width'' to make them fully responsive.
 
 ==== Layout ====
-  * New: ''auto'' layout is supported on a [[ui:grid|grid]] where the columns takes the natural width of their content and never overflow.
-  * New: If there is no [[strap:slot|bar]], the main content is centered with a  max length of 9 cols.
-  * New: A [[strap:layout|Layout]] by page can be specified. 
+  * New: ''auto'' layout is supported on a [[docs:layout:component:grid|grid]] where the columns takes the natural width of their content and never overflow.
+  * New: If there is no [[docs:layout:page:slot|bar]], the main content is centered with a  max length of 9 cols.
+  * New: A [[docs:layout:page:page|Layout]] by page can be specified. 
 
 ==== Security ====
 
@@ -69,27 +69,27 @@ New: [[release:1.13_bootstrap5|Bootstrap 5]] is now the default. Read more about
 
 ==== UI Component ====
 
-  * New: A [[ui:link|Link]] by default cannot be written on  multiple line to avoid having strange behavior. The [[ui:link#enableMultiLinesLink|enableMultiLinesLink]] configuration permits to control this behavior.
-  * New: You can add [[ui:image|image]] in [[ui:panel|panel label]] (demo with [[ui:tabs#label|tabs label]])
-  * Improvement: [[ui:preformatted|preformatted (indented code block)]] is now enable by default with [[styling:prism|prism styling]] but prints nothing when the line has only blank spaces to avoid confusion.
+  * New: A [[docs:content:link|Link]] by default cannot be written on  multiple line to avoid having strange behavior. The [[docs:content:link#enableMultiLinesLink|enableMultiLinesLink]] configuration permits to control this behavior.
+  * New: You can add [[docs:content:image|image]] in [[docs:layout:component:panel|panel label]] (demo with [[docs:layout:component:tabs#label|tabs label]])
+  * Improvement: [[docs:block:preformatted|preformatted (indented code block)]] is now enable by default with [[styling:prism|prism styling]] but prints nothing when the line has only blank spaces to avoid confusion.
 
 
 ==== Markup perfect ====
 Markup perfect means that there is no need to tweak the output via styling.
 
-  * Improvement: Placing a [[ui:button|button]] in a [[ui:menubar|navbar]] does not require any [[styling:spacing|spacing]] attribute. The [[ui:button|button]] spacing is automatically created.
-  * New: ''Edit'' button have been added for [[ui:card|card]], [[ui:panel|panel]] and [[ui:slide|slide]] making it easier to edit them.
-  * New: [[ui:text|Typo]] - the title styling class ''display-1'' to ''display-6'' are now responsive on Bootstrap 4
+  * Improvement: Placing a [[docs:content:button|button]] in a [[docs:menubar:menubar|navbar]] does not require any [[styling:spacing|spacing]] attribute. The [[docs:content:button|button]] spacing is automatically created.
+  * New: ''Edit'' button have been added for [[docs:block:card|card]], [[docs:layout:component:panel|panel]] and [[docs:layout:component:slide|slide]] making it easier to edit them.
+  * New: [[docs:block:text|Typo]] - the title styling class ''display-1'' to ''display-6'' are now responsive on Bootstrap 4
   * Update: The test are testing now that the HTML generation is ''XHMTL'' compliant. This is no more done with the hand.
-  * New: ''Bootstrap perfect'': We generate exactly the same markup than [[strap:bootstrap|bootstrap]]. [[ui:card|card]] and [[ui:blockquote|blockquote]] have now bootstrap paragraph with the ''text'' class making them easier to read.
+  * New: ''Bootstrap perfect'': We generate exactly the same markup than [[docs:utility:bootstrap|bootstrap]]. [[docs:block:card|card]] and [[docs:block:blockquote|blockquote]] have now bootstrap paragraph with the ''text'' class making them easier to read.
   * New: Template Protection: We empty the php buffer before printing and send a message to admin user. Otherwise, plugins that print directly may mess the page completely.
-  * Improvement: For boolean attributes such as ''selected'' for a [[ui:tabs|panel tab]], this is no more needed to specify the value. ie ''selected'' is equivalent to ''selected=true''
-  * Improvement: A [[ui:note|note]] is now markup perfect (a stack) and accepts paragraph inside
+  * Improvement: For boolean attributes such as ''selected'' for a [[docs:layout:component:tabs|panel tab]], this is no more needed to specify the value. ie ''selected'' is equivalent to ''selected=true''
+  * Improvement: A [[docs:block:note|note]] is now markup perfect (a stack) and accepts paragraph inside
   * New: [[styling:float|floating right]] will add a margin at the left.
 
 
 ==== Bug ====
 
-  * Bug: A [[ui:link#image|image link]] points to the page now and not to the image.
+  * Bug: A [[docs:content:link#image|image link]] points to the page now and not to the image.
   * Bug: Backlinks are now correctly rewritten when moving a page. The backlinks that were not in first position were be badly rewritten from ''%%[[id|description]]%%'' to ''%%[[newid]]|description]]%%''
 

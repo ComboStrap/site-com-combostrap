@@ -1,0 +1,38 @@
+---json
+{
+    "canonical":"ui:highlight",
+    "title":"How to highlight words in ComboStrap",
+    "description":"This article shows you the highlighting syntax"
+}
+---
+====== ComboStrap UI - Highlighting (mark) ======
+
+
+===== About =====
+''highlight'' is a [[docs:content:typo|typographic component]] that highlights a sequence of words.
+
+
+''Highlighting'' permits to add [[styling:emphasis|emphasis]] on a couple of words.
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Syntax and Example =====
+You needs to wrap your words with two quote characters ''%%''%%''.
+  * Syntax
+<webcode name="Default" frameborder="0">
+<code dw>
+This text is not highlighted while ''this one is''. 
+</code>
+  * Output:
+</webcode>
+
+===== Configuration =====
+==== Enable / Disable ====
+
+To enable the highlight feature, you should choose the [[docs:utility:renderer|Combo renderer]]
+
+===== Support =====
+
+
+The standard dokuwiki syntax calls it [[doku>wiki:syntax#basic_text_formatting|monospaced]] and use the ''code'' html but this syntax replaces it with the ''mark'' element.

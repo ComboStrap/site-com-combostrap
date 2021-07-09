@@ -1,0 +1,30 @@
+---json
+{
+   "canonical":"sidekick_slot"
+}
+---
+
+====== Strap Template - Sidekick Slot ======
+
+===== About =====
+The ''sidekick slot'' is a [[docs:layout:page:slot|slot]] that is shown at the right side of the content.
+
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== How it works =====
+This is a standard [[docs:layout:page:slot|slot feature]]
+
+  * Create a page called ''slot_sidekick'' (The [[#name|default configuration value]])
+  * And you will see its content appears at the right side of the main content.
+
+===== Caching =====
+
+The cache of the side slots is automatically deleted when a page in the same namespace is created, added or deleted.
+See [[docs:performance:sideslots]]
+
+===== Configuration =====
+==== Name ====
+
+You can configure the name of the ''sidekickslot'' with the ''tpl»strap»sidekickslot'' [[:configuration|configuration]]

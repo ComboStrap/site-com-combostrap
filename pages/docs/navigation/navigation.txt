@@ -1,0 +1,32 @@
+---json
+{
+   "canonical":"navigation"
+}
+---
+
+====== ComboStrap UI - Navigational Components ======
+
+
+===== About =====
+''navigational components'' helps the user to navigate and discover a website.
+
+
+===== List =====
+
+[[docs:docs|ComboStrap UI]] get the following component in its library.
+
+==== Layout Component ====
+
+
+  * [[docs:navigation:breadcrumb]] : A list of pages shown in a [[docs:navigation:hierarchical_breadcrumb|hierarchical]] or [[docs:navigation:trail_breadcrumb|trail]]  way.
+  * [[docs:menubar:menubar]] : The top navigation bar
+  * [[docs:navigation:toc]] : The table of content
+  * [[docs:navigation:page-explorer]] : A sidebar navigation component that shows list of pages of the current category 
+  * [[docs:layout:component:tabs]] : A tab when activated that shows its related [[docs:layout:component:panel|panel]]
+  * [[docs:layout:component:accordion]] : A list of rows that when activated shows its related [[docs:layout:component:panel|panel]]
+
+==== Leaf Component ====
+
+  * [[docs:menubar:search|Search]] - A search form
+  * [[docs:content:button|Button]] - A button
+  * [[docs:content:link|Link]] - A link
