@@ -1,0 +1,27 @@
+====== ComboStrap URL - Page Alias ======
+
+
+===== About =====
+A ''page alias'' is ''id alias'' for a page.
+
+It's used with the [[redirection|redirection module]]. If a ''page'' has an alias that corresponds to a [[docs:url:404|missing page]], a [[id_redirect|id redirection]] will be performed.
+
+===== Articles Related =====
+{{backlinks>.}}
+===== Management =====
+
+==== Set ====
+
+The page alias is automatically created when a page that have a [[docs:semantic:canonical|canonical]] is moved.
+
+For instance:
+  * you could have a page with the ''pear'' [[docs:semantic:canonical|canonical]] created at ''fruit:pear''. 
+  * if you move the page to another location such as ''fruit:tree:pear''
+  * ''fruit:pear'' will become an alias of the page ''fruit:tree:pear''.
+
+==== List ====
+You can [[docs:analytics:query|query]] the alias with the following statement:
+
+<code sql>
+select canonical, alias from pages_alias
+</code>

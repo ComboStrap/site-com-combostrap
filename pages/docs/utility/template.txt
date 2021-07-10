@@ -12,7 +12,7 @@ They are supported in the [[docs:navigation:page-explorer|page explorer componen
 Example of template used in a [[docs:navigation:page-explorer|page-explorer navigation pan]] to create:
   * a [[docs:content:link|link]] 
   * with a [[docs:utility:pipeline|pipeline]] 
-  * that separate the [[semantic:h1|h1]] with the minus ''-'' 
+  * that separate the [[docs:semantic:h1|h1]] with the minus ''-'' 
   * and used the second part as link description
 <code dw>
 [[$path|<pipeline>"$h1" | cut("-",2) | trim()</pipeline>]]
@@ -21,11 +21,11 @@ Example of template used in a [[docs:navigation:page-explorer|page-explorer navi
 ===== Variables =====
 The following variables can be used in a ''template'':
   * ''$path'' is the full qualified path of a page that can be used in [[docs:content:link|link]]
-  * ''$title'' - the [[semantic:title|title]] of the page - if empty, the ''h1''
-  * ''$h1'' - the [[semantic:h1|h1 title]] (the first header text of the page) - if empty, the ''title''.
-  * "$description" - the [[semantic:description|description]]
+  * ''$title'' - the [[docs:semantic:title|title]] of the page - if empty, the ''h1''
+  * ''$h1'' - the [[docs:semantic:h1|h1 title]] (the first header text of the page) - if empty, the ''title''.
+  * "$description" - the [[docs:semantic:description|description]]
   * ''$id'' - the id of the page
-  * and all [[semantic:frontmatter|frontmatter metadatas]]
+  * and all [[docs:semantic:frontmatter|frontmatter metadatas]]
 
 ===== Transformation =====
 A ''template'' supports text transformation through the use of a [[docs:utility:pipeline|pipeline]].

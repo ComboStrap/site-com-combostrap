@@ -1,0 +1,28 @@
+---json
+{
+    "canonical":"redirection:message"
+}
+---
+
+====== ComboStrap URL Management - Redirection Message ======
+
+
+===== About =====
+When a [[http_redirect|HTTP redirection]] has occurred, the user is by default informed with a ''message''
+
+By default, this components show also a listing of existing pages that have the same name. 
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Example =====
+
+{{docs:url:redirection_message_example.png|}}
+
+===== Configuration =====
+
+
+The ''ShowPageNameIsNotUnique'' [[:configuration|configuration]] turns ''on'' and ''off'', the listing of existing pages with the same name.
+
+{{docs:url:redirection_message_conf_page_name_not_unique.png|}}
+

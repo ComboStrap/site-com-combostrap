@@ -1,0 +1,24 @@
+====== ComboStrap URL Management - Edit Mode Redirection ======
+
+
+===== About =====
+
+
+By default, when a page does not exist, ''Dokuwiki'' will show you an empty page. 
+
+With the ''edit mode'' [[redirection|redirection]], a writer (ie a user with the edit permission) can be redirected directly to the ''edit form''.
+
+<note tip>
+A [[message|message]] can also be shown with the pages that have the same name.
+</note>
+
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Configuration =====
+
+
+
+You can set ''on'' and ''off'' this feature with the ''GoToEditMode'' [[:configuration|configuration]]
+{{docs:url:edit_mode_redirection_configuration.png|}}

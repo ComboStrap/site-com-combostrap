@@ -1,0 +1,31 @@
+---json
+{
+   "canonical":"url:manager"
+}
+---
+====== ComboStrap - URL Management  ======
+
+
+
+===== About =====
+The ''URL manager'' (known formerly as the ''404manager'') manages the behavior of your website when an [[kb>url|URL]] does not match a page.
+
+
+
+===== Features =====
+
+
+In case of [[docs:url:404|missing page]], the ''URL Manager'' can [[redirection|redirect]]:
+    * a writer to the edit mode
+    * a reader (ie public or search engine) to the best page following an [[redirection|algorithm]].
+    * shows [[message|a message (with optionally a list of the pages with the same name)]]
+
+<note>
+By setting a [[docs:semantic:canonical|canonical]], you will have [[nice|nice url]].
+</note>
+
+
+
+
+
+

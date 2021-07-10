@@ -1,0 +1,52 @@
+---json
+{
+   "canonical":"metadata:manager"
+}
+---
+
+====== ComboStrap - Metadata ======
+
+
+===== About =====
+The ''metadata manager'' permits to manage and set data for a page. 
+
+It's also known as:
+  * web structured data 
+  * or semantic web.
+
+The metadatas can be seen by default thanks to the [[viewer|Metadata viewer]].
+
+
+===== Usage =====
+
+They below internal metadata are used by ''ComboStrap'':
+      * [[canonical|canonical]]
+      * [[description|description]]
+      * [[title|title]]
+      * [[published|published date]]
+      * [[type|page Type]]
+      * [[image|image]]
+
+and enables the ''semantic component'' explained in the next section.
+
+==== Internal ====
+
+They allows internally:
+
+  * [[docs:url:redirection|URL redirection processing]]
+  * [[automatic_canonical|Automatic Canonical]]
+  * [[docs:url:permalink|Permalink]]
+  * [[docs:quality:lpp|Late Publication Protection]]
+  * [[docs:utility:template|Templating]]
+
+
+==== External ====
+
+They allows:
+   * <icon name="twitter"/> [[..:social:twitter|Twitter card]]
+   * <icon name="facebook"/> [[..:social:facebook|Facebook card]]
+   * <icon name="google"/> [[..:social:google|Google Rich Result (Organization, Search bar and article card)]]
+
+
+===== Set =====
+To set your own data, you use the [[frontmatter|frontmatter]].

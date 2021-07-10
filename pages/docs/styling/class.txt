@@ -1,4 +1,4 @@
-====== ComboStrap Styling - HTML Class attribute ======
+====== ComboStrap Styling - Class attribute ======
 
 
 ===== About =====
@@ -6,7 +6,7 @@ Because all [[docs:docs|ComboStrap UI component]] are implemented as [[html|supe
 
 The ''class'' attribute is used intensively by [[docs:utility:bootstrap|Bootstrap]] to apply the [[https://getbootstrap.com/docs/4.0/utilities/|Bootstrap Utilities]].
 
-''ComboStrap'' already implements most of this utilities through the [[styling#standard attributes]] but in the case that you need something really advanced, you can always take the control over and apply them.
+''ComboStrap'' already implements most of this utilities through the [[styling#standard attributes|standard attributes]] but in the case that you need something really advanced, you can always take the control over and apply them.
 
 ===== Articles Related =====
 {{backlinks>.}}
@@ -15,23 +15,21 @@ The ''class'' attribute is used intensively by [[docs:utility:bootstrap|Bootstra
 
 
 
-If you want to apply a [[https://getbootstrap.com/docs/4.0/utilities/float/|float-right]] on a [[docs:block:note|note]], you will give the value ''float-right'' to the ''class'' attribute.
+Example: 
+  * Setting a [[https://getbootstrap.com/docs/5.0/utilities/visibility/|invisibility class]] on a [[docs:block:note|note]]
 
-Example with a [[docs:block:note|note]] and a [[docs:layout:component:container|container]]
-<webcode name="Float right">
+<webcode>
+  * The markup
 <code dw>
-<container width="600px">
-
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 
-<note class="float-right" spacing="m-3">
-A note that float on the right side
+<note class="invisible" >
+A note that is no more visible
 </note>
 
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-</container>
 </code>
+  * The output:
 </webcode>
 
 

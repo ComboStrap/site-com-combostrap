@@ -12,7 +12,7 @@
 ''ComboStrap'' offers natively animations.
 
 All [[docs:block:block|block component]] can be animated:
-  * [[styling:hover|onHover]] - when the user mouse is over a component
+  * [[docs:animation:hover|onHover]] - when the user mouse is over a component
   * [[release:beta:onvisible|onVisible]] - when the component is visible
   * [[docs:animation:toggle|toggle]] - when the user click on a link or button
 

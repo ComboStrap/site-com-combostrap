@@ -9,7 +9,7 @@
 
 
 ===== About =====
-''clickable'' is a [[styling|styling attribute]] that permits to make the whole surface of a component containing a [[docs:content:link|link]] clickable. 
+''clickable'' is a [[styling|styling attribute]] that permits to make the whole surface of a component containing a [[docs:content:link|link]] clickable.
 
 
 <note>
@@ -25,7 +25,7 @@ Example with a [[docs:block:card|card]]
 <webcode name="Default" frameborder="0">
 <code dw>
 <card width="18rem" clickable>
-{{:styling:subway_card_tile.png|}}
+{{:docs:styling:subway_card_tile.png|}}
 === Clickable Card ===
 Lorem ipsum
 
@@ -34,24 +34,7 @@ Lorem ipsum
 </code>
 </webcode>
 
-==== Grid ====
-[[docs:layout:component:grid]]
-<webcode name="Default" frameborder="0">
-<code dw>
-<row clickable background-color="light" class="g-0" spacing="m-3" class="align-items-center">
-  <cell spacing="p-4">
-    {{:styling:subway_card_tile.png?0x180&nolink|}}
-  </cell>
-  <cell spacing="p-4">
-    === Columns with stretched link ===
-    Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.
 
-    [[#|Go somewhere]]
-  </cell>
-</row>
-</code>
-
-</webcode>
 
 
 

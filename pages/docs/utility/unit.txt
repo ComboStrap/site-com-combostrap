@@ -2,7 +2,7 @@
 
 
 ===== About =====
-''unit'' is just a [[semantic:semantic|semantic component]] to indicate a unit of sequence of [[docs:block:code|code block]].
+''unit'' is just a [[docs:semantic:semantic|semantic component]] to indicate a unit of sequence of [[docs:block:code|code block]].
 
 It doesn't render and is used to create [[kb>unit:test|unit tests]] in documentation that are later used by an external test engine.
 

@@ -16,8 +16,8 @@ First [[..:release|release]] 1.0 from 2020-07-04
   * All [[docs:docs|UI components]] support now the [[docs:styling:styling|styling attributes]]
   * The [[docs:block:note|note component]] was created
   * The [[docs:content:icon|icon component]] was created
-  * The [[url:page_rules|page rules admin interface]] was created
-  * [[url:redirection|Redirections]] - The ''REDIRECTIONS'' table was renamed to ''PAGE_RULES''
+  * The [[docs:url:page_rules|page rules admin interface]] was created
+  * [[docs:url:redirection|Redirections]] - The ''REDIRECTIONS'' table was renamed to ''PAGE_RULES''
     * The ''SOURCE'' column was renamed to ''MATCHER''
     * The ''PRIORITY'' column was added
     * An ''ID'' column was added and replace the old ''SOURCE'' primary key

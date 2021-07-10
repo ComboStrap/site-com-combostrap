@@ -18,7 +18,7 @@ An ''heading'' has two different function:
 The rule is simple, when a heading is not in a component, it's a [[docs:navigation:outline|structural heading]], otherwise, it's a title component.
 
 <note info>
-If you search the ''title'' of a ''page'', see the page [[semantic:title]]
+If you search the ''title'' of a ''page'', see the page [[docs:semantic:title]]
 </note>
 
 
@@ -31,7 +31,7 @@ If you search the ''title'' of a ''page'', see the page [[semantic:title]]
 To define an heading, you can use the following ''heading'' syntax.
 
 ==== Wiki ====
-The wiki heading start with 6 hashtag ''%%#%%'' characters for the level 1 ([[semantic:h1|h1]]) and goes down by one.
+The wiki heading start with 6 hashtag ''%%#%%'' characters for the level 1 ([[docs:semantic:h1|h1]]) and goes down by one.
 
 The higher the level, the higher the visual emphasis.
 

@@ -13,7 +13,7 @@ This page is an ''HowTo'' that shows you how to choose and install a favicon and
 
 ===== Steps =====
 ==== Choosing a icon logo ====
-You can design your own logo but you can also be inspired by [[semantic:logo#collection|collection of logo]]
+You can design your own logo but you can also be inspired by [[docs:semantic:logo#collection|collection of logo]]
 
 
 In our case we have chosen an icon directly from https://materialdesignicons.com/
@@ -49,22 +49,22 @@ Example:
 
 {{::dokuwik_logo_svg_media.png|}}
 
-To see where and how you can use your logo, see the [[semantic:logo|logo page]].
+To see where and how you can use your logo, see the [[docs:semantic:logo|logo page]].
 
 ==== Create the facebook default ====
 
-[[semantic:facebook|facebook]] has a dimension constraint on the image illustration. The image should be at minimum 200px by 200px.
+[[docs:social:facebook|facebook]] has a dimension constraint on the image illustration. The image should be at minimum 200px by 200px.
 
 We recommend then that:
   * you create an image with your photo editor:
-     * with the dimension of a [[semantic:facebook|facebook card]] ''524×274''
+     * with the dimension of a [[docs:social:facebook|facebook card]] ''524×274''
      * where you copy your logo
-     * and named ''logo-facebook.png'' (the [[semantic:facebook#configuration|default value]])
+     * and named ''logo-facebook.png'' (the [[docs:social:facebook#configuration|default value]])
 
   * and upload it at the root of your media manager (next to the other logos)
 
 
-The [[semantic:facebook|facebook page]] will tell your more about the specific of a ''facebook card''.
+The [[docs:social:facebook|facebook page]] will tell your more about the specific of a ''facebook card''.
 
 
 

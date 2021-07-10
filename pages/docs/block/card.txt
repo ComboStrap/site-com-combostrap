@@ -14,7 +14,7 @@ A ''card'' is a box with the dimension of a card that contains summary data such
   * a short description
   * an optional image illustration
   * [[docs:content:icon|icons]]
-  
+
 
 
 <note>
@@ -127,7 +127,7 @@ You may extend the clickable surface of a  link to the whole card with the [[doc
 <webcode name="Default" frameborder="0">
 <code dw>
 <card width="18rem" clickable="true">
-{{:styling:subway_card_tile.png|}}
+{{:docs:styling:subway_card_tile.png|}}
 === Clickable Card ===
 Lorem ipsum
 

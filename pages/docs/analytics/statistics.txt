@@ -1,0 +1,90 @@
+---json
+{
+   "canonical":"statistics",
+   "description":"The statistics feature allows you to query your page statistics such as word count, internal, backlinks and get insight on your whole website at once."
+}
+---
+
+====== ComboStrap Analytics - Page Statistics ======
+
+
+===== About =====
+The ''ComboStrap Page Statistics'' are a list of ''page statistics'' that are available in the [[data|analytical data]].
+
+<badge>Since [[release:release|version 1.11]]</badge>
+
+===== Example Words Summary =====
+For instance, if you want to get statistics over ''words'', you could [[query|execute]] the below query.
+<code sql>
+select
+	count(*) as page_count,
+	round(avg(words)) as words_avg,
+	sum(words) as words_count,
+	max(words) as words_max,
+	min(words) as words_min
+from
+	(
+	select
+		id,
+		json_extract(analytics, '$.statistics.words') as words
+	from
+		pages
+	where
+		analytics is not null
+)
+</code>
+
+And this is the result that we get on this website.
+
+^ page_count ^ words_avg ^ words_count ^ words_max ^ words_min ^
+|136|131|17865|1100|4|
+
+===== See =====
+
+You can see them by having a look to the [[data|data]] of a page with the export URL. For instance, for this page, you could check them at the following URL
+
+<btn>
+[[start?do=export_combo_analytics]]
+</btn>
+
+You would see the ''statistics'' below the ''statistics'' property:
+<code json>
+"statistics": {
+	"chars_count": 1919,
+	"fixme": 0,
+	"headers_count": {
+		"h1": 1,
+		"h2": 3
+	},
+	"internal_backlinks_count": 5,
+	"internal_links_count": 3,
+	"internal_links_distance": {
+		"avg": 0,
+		"max": 0,
+		"min": 0
+	},
+	"word_section_count": {
+		"avg": 75
+	},
+	"words_count": 225
+}
+</code>
+
+===== Definition =====
+
+  * ''authors'' the authors and their number of edits
+  * ''edits_count'': the number of edits
+  * ''chars_count'': the number of chars
+  * ''fixme'': the number of ''fixme'' present in the page
+  * ''headers_count'': the number of headers by level
+  * ''internal_backlinks_count'': the number of internal backlinks
+  * ''internal_links_count'': the number of internal links
+  * ''internal_broken_links_count'': the number of internal [[docs:quality:broken_link|broken links]]
+  * ''internal_links_distance'': the distance of the internal links with the actual page. A value 2 would mean that you need to go in the directory structure:
+        * down or up 2 times
+        * or down one time and up one time
+  * ''interwiki_links_count'': the number of interwiki links (ie such as this one [[doku>interwiki]])
+  * ''local_links_count'': the number of local links (ie fragment link such as ''#id'')
+  * ''word_section_count'': summary on words by section
+  * ''words_count'': the number of words.
+  * [[syntax_count|syntax_count]] shows the number of times that a syntax is used.

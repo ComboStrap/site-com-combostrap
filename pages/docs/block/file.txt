@@ -10,7 +10,7 @@
 ===== About =====
 The ''file'' component is a component that represents the content of a file.
 
-It's a [[docs:styling:prism|prism]] component that add:
+It's a [[docs:utility:prism|prism]] component that add:
       * syntax highlighting
       * and clipboard copy
 
@@ -35,7 +35,7 @@ The `file` component:
 
 
 ===== Syntax =====
-This is a [[docs:styling:prism|Prism component]] and follows the [[docs:styling:prism#syntax|prism syntax]]. You should then check the [[docs:styling:prism#syntax|prism syntax documentation]] for all details.
+This is a [[docs:utility:prism|Prism component]] and follows the [[docs:utility:prism#syntax|prism syntax]]. You should then check the [[docs:utility:prism#syntax|prism syntax documentation]] for all details.
 
 
 
@@ -51,7 +51,7 @@ The ''file_enable'' [[:configuration|configuration]] permits to enable / disable
 If the component is disable, the [[doku>wiki:syntax#code_blocks|dokuwiki file block]] is applied.
 ==== Theme ====
 
-This component gets the [[docs:styling:prism|theme]]  chosen
+This component gets the [[docs:utility:prism|theme]]  chosen
 
 For [[docs:styling:userstyle#class|custom css style]], there is also an extra [[docs:styling:userstyle#class|userstyle class]] created on the ''pre'' element with the ''pref'' suffix. This element contains the code and the button.
 

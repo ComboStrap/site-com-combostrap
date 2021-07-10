@@ -67,11 +67,11 @@ The [[docs:content:heading|heading component]] supports also the ATX markdown he
 [[docs:navigation:outline#numbering|Outline Numbering]] is now fully customizable from decimal to latin-upper. Due to this change, the anchor are now located to the right and this is no more mandatory to use the [[docs:utility:renderer|renderer]]
 
 ==== New Statistics on component usage ====
-You can now analyse the syntax used in your page with the [[analytics:statistics#syntax_count|syntax count]] analytics.
+You can now analyse the syntax used in your page with the [[docs:analytics:statistics#syntax_count|syntax count]] analytics.
 
 ==== RTL and Component Language support ====
-  * New: support for RTL language at the page level, through the [[semantic:lang|lang metadata of frontmatter]], we apply now the right language and direction in the [[:strap|strap template]]. Example: [[semantic:lang_ar]]
-  * New: [[semantic:lang|Lang attribute]] to mix languages on the same page. Demo with English and Arabic languages: [[semantic:lang_ar]]
+  * New: support for RTL language at the page level, through the [[docs:semantic:lang|lang metadata of frontmatter]], we apply now the right language and direction in the [[:strap|strap template]]. Example: [[docs:semantic:lang_ar]]
+  * New: [[docs:semantic:lang|Lang attribute]] to mix languages on the same page. Demo with English and Arabic languages: [[docs:semantic:lang_ar]]
 
 ==== Credits page added  ====
   * Added the [[:credits|credits page]]
@@ -145,7 +145,7 @@ Bug: [[doku>config:target|target]] configuration was not taken into account for 
 
 ==== Frontmatter section editing ====
 
-  * Bug: edit section on [[semantic:frontmatter|frontmatter]] had a bad end position due to variable mismatch.
+  * Bug: edit section on [[docs:semantic:frontmatter|frontmatter]] had a bad end position due to variable mismatch.
 
 
 

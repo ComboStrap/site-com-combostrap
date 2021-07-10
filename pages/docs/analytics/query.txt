@@ -1,0 +1,74 @@
+====== ComboStrap Analytics - How to query the analytics database ======
+
+
+===== How-to =====
+This page will show you how to query the [[database|analytics database]] online.
+
+===== Steps =====
+==== Go to the admin page ====
+
+Click on the ''Admin'' link to go to the [[doku>admin_window|Admin Window]]. ie ''https://yourdomain.com/?do=admin''
+
+^ [[:strap|ComboStrap Template]] ^ Dokuwiki Template ^
+| {{docs:analytics:admin_combo.png?150|}} | {{::dokuwiki_admin_window_default_template.png|}} |
+==== Go to the Sqlite Interface ====
+
+The [[doku>plugin:sqlite#admin_interface|SQLite interface]] is a webpage that permits to send statement to the ''SQLite'' database.
+
+{{docs:analytics:sqlite_interface.png?150|}}
+
+
+<note tip>
+To access it directly, the URL is ''%%https://yourdomain.com/?do=admin&page=sqlite%%''
+</note>
+
+==== Choose the database ====
+
+Choose the ''Combo'' [[database|database]].
+
+{{docs:analytics:database_combo_sqlite_interface.png|}}
+
+<note warning>
+If you were users:
+  * of the 404Manager, the database may be named ''404manager''
+  * of the webcomponent plugin, the database may be named ''webcomponent''
+</note>
+
+
+The URL to access your database will look like the following URL
+
+ ''%%https://yourdomain.com/?do=admin&page=sqlite&db=combo&version=sqlite3%%''
+
+
+==== Enter your query and submit ====
+
+
+Enter the analytical query and submit.
+
+{{docs:analytics:sqlite_interface_query.png?500|}}
+
+
+
+You can try the below query that returns statistics over ''words'' from the [[data|json analytics column]].
+<code sql>
+select
+	count(*) as page_count,
+	round(avg(words)) as words_avg,
+	sum(words) as words_count,
+	max(words) as words_max,
+	min(words) as words_min
+from
+	(
+	select
+		id,
+		json_extract(analytics , '$.statistics.words') as words
+	from
+		pages
+	where
+		analytics is not null
+)
+</code>
+
+===== Sqlite JSON Support =====
+If it does not work, see [[data#json_support|the JSON support documentation on the data page]]
+

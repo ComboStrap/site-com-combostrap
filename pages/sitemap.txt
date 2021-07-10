@@ -7,7 +7,7 @@ A ''sitemap'' is a file that [[kb>search:engine|search engine]] will read in ord
 ''Dokuwiki'' comes with a [[kb>sitemap|sitemap]] component that pings automatically search engines but you still need to [[#configuration|configure it]].
 
 The following pages are not included in the ''sitemap'':
-  * [[quality:hidden|hidden pages]]
+  * [[docs:quality:hidden|hidden pages]]
   * private pages
 ===== Articles Related =====
 {{backlinks>.}}

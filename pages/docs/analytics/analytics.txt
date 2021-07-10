@@ -1,0 +1,21 @@
+====== ComboStrap - Analytics ======
+
+
+===== About =====
+''analytics'' is a module that gives the possibility to [[query|query]] [[data|analytical data]] against a [[database|database]] in order to get insight on your website:
+  * [[docs:quality:quality|quality]]
+  * [[statistics|statistics]]
+  * [[docs:semantic:semantic|metadata]]
+  * and [[docs:url:redirection|redirections]]
+
+
+There is a lot of possible analytics that can answer all your question.
+
+
+===== Getting started =====
+
+To learn more about how this module, you should:
+  * first discover the [[database|database schema]]
+  * then discover the format of the [[data|analytical data]]
+  * and finally, learn how to [[query|query]].
+

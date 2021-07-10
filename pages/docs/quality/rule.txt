@@ -1,0 +1,77 @@
+---json
+{
+    "canonical":"quality:rule",
+    "title":"The content quality rule of a page that ComboStrap applies",
+    "description":"Learn about how to use the quality rule feature to improve the quality of your website"
+}
+---
+
+====== ComboStrap Quality - Quality Rules ======
+
+
+===== About =====
+''quality rules'' check the quality of a page and gives quality target at the same time.
+
+They have only two states:
+  * ''passed''
+  * or ''failed''
+
+They:
+  * can be [[#example|seen in the ''quality'' section of the analytical data]] 
+  * are [[dynamic_monitoring|dynamically monitored]]
+  * define what a [[low_quality_page|low quality page]] when they are [[low_quality_page#mandatory rules|mandatory]]
+  * can determine if a [[lqpp|page is public or not]]
+
+<badge>Since [[release:release|version 1.11]]</badge>
+
+===== Example =====
+Example of the ''quality'' section of the [[docs:analytics:data|json analytical data]] 
+<file json>
+"rules": {
+	"result": "1 quality rules errors",
+	"info": {
+		"canonical_present": "A canonical is not present in the frontmatter"
+	},
+	"details": {
+		"canonical_present": "Failed",
+		"description_present": "Passed",
+		"fixme_min": "Passed",
+		"internal_backlinks_min": "Passed",
+		"internal_links_broken_max": "Passed",
+		"internal_links_min": "Passed",
+		"outline_structure": "Passed",
+		"title_present": "Passed",
+		"words_by_section_avg_max": "Passed",
+		"words_by_section_avg_min": "Passed",
+		"words_max": "Passed",
+		"words_min": "Passed"
+	}
+}
+</file>
+
+
+===== List =====
+
+Below is the list of ''quality rules'' that ComboStrap applies. 
+
+<note>
+The threshold are actually fixed, you can't change them.
+</note>
+
+^ Name ^ Description ^
+| ''canonical_present'' | A [[docs:semantic:canonical|canonical]] should be present in the [[docs:semantic:frontmatter|frontmatter]] |
+| ''description_present'' | A [[docs:semantic:description|description]] should be present in the [[docs:semantic:frontmatter|frontmatter]] |
+| ''fixme_min'' | A page should have no fixme |
+| ''internal_backlinks_min'' | A page should have at minimum one link from another page (internal backlink) |
+| ''internal_links_broken_max'' | A page should not have a link to a non-existing page (broken link) |
+| ''internal_links_min'' | A page should have at minimal a link to another page (internal link) |
+| ''outline_structure'' | The headers should have a tree structure (outline, toc) |
+| ''title_present'' | A [[docs:semantic:title|title]] should be present in the [[docs:semantic:frontmatter|frontmatter]] |
+| ''words_by_section_avg_max'' | A page should have at maximal a average of 300 words by section |
+| ''words_by_section_avg_min'' | A page should have at minimal a average of 20 words by section |
+| ''words_max'' | A page should have at maximal 1500 words |
+| ''words_min'' | A page should have at minimal 50 words. |
+
+
+
+

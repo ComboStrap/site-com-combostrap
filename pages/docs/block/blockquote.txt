@@ -16,7 +16,7 @@ A ''blockquote'' component is a content with a [[docs:content:cite|citation]].
 A blockquote is an extract from another source and is set appart with a citation.
 
 <note tip>
-A pullquote is an typographic effect that quotes words of the current [[semantic:article|article]]
+A pullquote is an typographic effect that quotes words of the current [[docs:semantic:article|article]]
 </note>
 
 ===== Articles Related =====
@@ -27,7 +27,7 @@ A pullquote is an typographic effect that quotes words of the current [[semantic
 A ''blockquote'' has three type:
   * ''typo'' for the [[https://getbootstrap.com/docs/4.0/content/typography/#blockquotes|the typographic Blockquote]]
   * ''card'' (default) for the [[https://getbootstrap.com/docs/4.0/components/card/#header-and-footer|the card Blockquote]]
-  * ''tweet''. If you want to quote a tweet, you should refer to the [[tweet|tweet component]].
+  * ''tweet''. If you want to quote a tweet, you should refer to the [[..:social:tweet|tweet component]].
 
 <code dw>
 <blockquote type="card">
@@ -188,7 +188,7 @@ e & = & mc^2
 
 ==== Tweet ====
 
-For more information on tweet, see the [[tweet|corresponding page]]
+For more information on tweet, see the [[..:social:tweet|corresponding page]]
 
 <webcode name="Default" frameborder="0" >
 <code dw>

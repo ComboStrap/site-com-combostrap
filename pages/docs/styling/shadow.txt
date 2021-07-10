@@ -140,7 +140,7 @@ Example with a large shadow.
 <webcode name="imgElevation" >
 <code dw>
 <box onHover="shadow-lg" width="fit-content" align="center">
-    {{:styling:subway_card_tile.png|}}
+    {{:docs:styling:subway_card_tile.png|}}
 </box>
 </code>
 </webcode>

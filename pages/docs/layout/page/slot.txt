@@ -20,7 +20,7 @@ For instance:
 ===== Features =====
 
   * A ''slot'' can be defined for every namespace (directory). If there is no ''slot'' page for a namespace, a  ''slot'' page is searched in the ascendant namespace (parent, grand parent,...)
-  * A ''slot'' is automatically [[quality:automatic_hidden|hidden]] and not searchable.
+  * A ''slot'' is automatically [[docs:quality:automatic_hidden|hidden]] and not searchable.
   * [[docs:performance:sideslots|Side slots (side and sidekick slots)]] are rendered for every namespace and regenerated for each namespace changes (page creation, modification, deletion)
 
 

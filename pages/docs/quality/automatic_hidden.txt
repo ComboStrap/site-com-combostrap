@@ -1,0 +1,24 @@
+====== ComboStrap Quality - Automatic Hidden Artifactory ======
+
+
+===== About =====
+
+The [[:combostrap|combo plugin]] automatically [[docs:quality:hidden|hides]]:
+  * the [[docs:layout:page:slot|slots]]
+  * the ''combostrap'' private namespace (where [[docs:content:icon|icons]] and other internal component are saved)
+
+
+This page resource are still accessible but should not be advertised to the outside world because they are just component and have [[docs:quality:low_quality_page|low value]].
+
+This is a component of the [[docs:quality:quality|quality seo module]].
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Explanation =====
+
+
+This functionality adds automatically to the [[doku>config:hidepages]] [[:configuration|configuration]], the following pattern
+<file>
+(headerbar|footerbar|sidekickbar|sidebar|combostrap)
+</file>
+

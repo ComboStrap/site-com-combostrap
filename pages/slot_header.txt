@@ -8,13 +8,13 @@ ComboStrap
 <group expand="true">
 <dropdown name="Modules">
 [[:ads:ads|Ads]]
-[[:analytics:analytics|Analytics]]
-[[:quality:quality|Quality]]
+[[docs:analytics:analytics|Analytics]]
+[[docs:quality:quality|Quality]]
 [[docs:docs|Docs]]
-[[url:url|Url Manager]]
-[[:seo|Search Engine Optimization]]
-[[semantic:semantic|Web Structured Data]]
-[[:social|Social (Twitter, Facebook, Google)]]
+[[docs:url:url|Url Manager]]
+[[docs:seo|Search Engine Optimization]]
+[[docs:semantic:semantic|Web Structured Data]]
+[[docs:social:social|Social (Twitter, Facebook, Google)]]
 [[docs:styling:styling|Styling]]
 </dropdown>
 [[support|Contact]]

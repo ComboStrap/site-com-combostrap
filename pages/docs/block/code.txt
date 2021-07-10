@@ -43,7 +43,7 @@ Example:
 </file>
 
 
-It follows the full [[docs:styling:prism#syntax|syntax of the prism component]] where the tag name should be ''code''
+It follows the full [[docs:utility:prism#syntax|syntax of the prism component]] where the tag name should be ''code''
 
 
 
@@ -69,7 +69,7 @@ Example of an HTML code block.
 
 
 <note>
-  * This component does not support all [[docs:styling:prism|prism functionality]] such as line numbering, file naming, ...
+  * This component does not support all [[docs:utility:prism|prism functionality]] such as line numbering, file naming, ...
   * We support also the original markdown syntax. The indented code block syntax can be found on this page: [[docs:block:preformatted]]
 </note>
 
@@ -82,4 +82,4 @@ and goes back to the default [[doku>wiki:syntax#code_blocks|dokuwiki code block]
 
 
 ==== Theme ====
-To set the theme, see [[docs:styling:prism]]
+To set the theme, see [[docs:utility:prism]]

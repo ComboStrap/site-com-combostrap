@@ -36,7 +36,7 @@ When you want to add [[docs:styling:shadow|dynamic elevation]], you can use the 
   * On an [[docs:content:image|image]]
 <webcode name="Default" frameborder="0">
 <code dw>
-{{:styling:subway_card_tile.png?onHover=float|}}
+{{:docs:styling:subway_card_tile.png?onHover=float|}}
 </code>
 </webcode>
 

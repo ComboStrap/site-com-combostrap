@@ -1,0 +1,33 @@
+---json
+{
+    "canonical":"quality",
+    "title":"Web quality module of Combostrap",
+    "description":"Get insight on the quality of your pages and takes back control of your SEO"
+}
+---
+
+====== ComboStrap - Quality Module ======
+
+===== About =====
+The ''quality module'' aims to measure and keep the quality of the website high.
+
+This module regroups the following functionalities:
+  * [[docs:quality:automatic_hidden|Automatic Hidden Artifactory]]
+  * [[docs:quality:lqpp|Low Quality Page Protection]]
+  * [[rule|Quality rule]]
+  * [[score|Quality score]]
+
+<note>
+The [[docs:url:404|missing page management]] also improves the quality of the website.
+</note>
+
+
+===== Analytics =====
+
+All the quality data can be found and queried under the ''quality'' node of the [[docs:analytics:data|analytical data]].
+
+
+===== HTML Valid =====
+We take great care to be XHTML compliant valid. It helps the search engine to crawl your content and get a better indexing.
+
+Check it: [[https://validator.w3.org/nu/?doc=https%3A%2F%2Fcombostrap.com%2F|XHTML valid]] \\

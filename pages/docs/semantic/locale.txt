@@ -1,0 +1,33 @@
+---json
+{
+    "canonical":"semantic:locale",
+    "title":"How the locale meta is calculated",
+    "description":"The locale is the concatenation of a language and country identifier. This page explains how ComboStrap handles it."
+}
+---
+====== ComboStrap Page Metadata - Locale ======
+
+===== About =====
+The ''locale'' is a [[semantic|page metadata]] that contains a language and a country identifier.
+
+
+Example with the default value for [[..:social:facebook|facebook]] for the ''english'' language in the ''united state'' country.
+<code>
+en_US
+</code>
+
+It's used for localization filtering:
+  * by search engine to filter the search result ([[..:social:google|Google]], ...)
+  * by social engine to filter the newsfeed ([[..:social:twitter|twitter]], [[..:social:facebook|facebook]], ...).
+
+===== Articles Related =====
+{{backlinks>.}}
+===== Set =====
+
+The ''locale'' can not be set directly because it's a derived value from:
+  * the [[lang|language identifier]]
+  * and the [[country|country identifier]]
+
+This two values needs to be known to have a ''locale''.
+
+

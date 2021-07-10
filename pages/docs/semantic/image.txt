@@ -1,0 +1,55 @@
+---json
+{
+    "canonical":"page:image"
+}
+---
+====== ComboStrap Page Metadata - Image ======
+
+
+===== About =====
+''image'' is a [[semantic|page metadata]] that defines an image illustration for a page.
+
+The image is then used as illustration on social cards such as [[..:social:twitter|twitter]] or [[..:social:facebook|facebook]].
+
+By default, if the ''image'' property is not set, the [[#configuration|first image]] in the page is used.
+
+<note>
+[[..:social:twitter#image|twitter]], [[..:social:google#image|google]] and [[..:social:facebook#image|facebook]] have all differents image specifications, therefore when used in this context, the first image conforming to their specification is used.
+</note>
+
+<badge>Since [[release:release#version_112|version 1.12]]</badge>
+
+===== Articles Related =====
+{{backlinks>.}}
+===== Definition =====
+
+The image of a page is searched in this order:
+  - the ''image'' property in the [[frontmatter|frontmatter]]
+  - the ''first conforming image'' of a page if not [[#disableFirstImageAsPageImage|disabled]]
+
+Example of a a [[frontmatter|frontmatter]] image:
+  * Single: One image
+<code json>
+{
+   "image":":path:beautiful_image.png"
+}
+</code>
+  * Set: The same image in differents resolution and ratio. A set can be used in an [[article#image|article]].
+<code json>
+{
+    "image": [
+         ":photos:1x1:photo.jpg",
+         ":photos:4x3:photo.jpg",
+         ":photos:16x9:photo.jpg"
+    ]
+}
+</code>
+
+<note important>
+Moving image path in a frontmatter with the [[doku>plugin:move|move plugin]] are not yet supported. Therefore if you move an image, you also need to change the value in the frontmatter.
+</note>
+
+===== Configuration =====
+==== disableFirstImageAsPageImage====
+The ''disableFirstImageAsPageImage'' is a [[:configuration|configuration]] that permits to disable the use of the first image of page as the image of a page.
+

@@ -14,7 +14,7 @@ This page regroups the changes for the [[release:release|release]] ''1.12'' (''2
 This is release that has started with a couple of request and ended big.
 
 The most important features are:
-  * the addition of the [[:social|social module]]
+  * the addition of the [[docs:social:social|social module]]
   * the [[docs:content:link|link]] component accepts now children component.
 
 ===== List =====
@@ -30,24 +30,24 @@ Check the below changes to know more about all of them:
   * New skin for [[docs:layout:component:tabs|tabs]] called ''enclosed-tabs'' and ''enclosed-pills'' that will enclose the tabs within a border.
   * New syntax [[docs:content:link|link]] element. The dokuwiki link element allows only text or image as description. This link component enhances the syntax and allows any component as description ([[docs:content:link#icon|icon]] for instance)
   * New [[docs:content:button|button]] HTML generation. If a button has a link in its description, the HTML generated is a link with a button role. This corrects the XHTML compliancy problem and makes the button clickable on its whole surface.
-  * New configuration to disable totally the [[quality:dynamic_monitoring|dynamic quality monitoring]] feature.
+  * New configuration to disable totally the [[docs:quality:dynamic_monitoring|dynamic quality monitoring]] feature.
   * Link Styling breaking change:
       * the [[docs:menubar:dropdown|dropdown link]] in the [[docs:menubar:menubar|navbar]] got a ''active'' class. This was not right and was deleted. Unfortunately, it has an effect on the styling.
       * the dokuwiki class ''wikilink1'' (existing page) and ''wikilink2'' (not existing page) were adding extra styling rules that were incompatible with Bootstrap. They have been changed by new name but it's still possible to get them back with [[docs:content:link#useDokuwikiLinkClassName|useDokuwikiLinkClassName configuration]].
       * ''wikilink2'' was changed with ''text-warning'' to show visually that the page does not exist
   * New [[docs:content:image|Image page]] to show how to elevate an image
-  * Bug: The [[docs:layout:page:slot|bar pages]] are not anymore set as [[quality:low_quality_page|low quality page]].
-  * Twitter aware: ComboStrap pages are now [[semantic:twitter|twitter aware and renders in tweet as cards]].
-  * Facebook aware: ComboStrap pages are now [[semantic:facebook|facebook]].
-  * New: [[:social|social page]] to concentrate on one page all the social features.
-  * New Page Metadata - the [[semantic:image|page of an image]] used in card social illustration.
-  * Improved: the [[semantic:frontmatter|frontmatter]] creates a link to debug quickly the json if there is any errors.
-  * New: You can advertise your organization by creating an [[semantic:organization|organization page]].
-  * New: [[semantic:google|Google Rich Result]] aware. The below ''rich results'' are created automatically if you set the [[semantic:type|type]] of page.
-      * [[semantic:website|Search Box]],
-      * [[semantic:organization|Logo (Organization)]]
-      * [[semantic:article|Article Card]]
-  * New: [[quality:lpp|Late Publication Protection]] - Start writing a page now and publish it later.
+  * Bug: The [[docs:layout:page:slot|bar pages]] are not anymore set as [[docs:quality:low_quality_page|low quality page]].
+  * Twitter aware: ComboStrap pages are now [[docs:social:twitter|twitter aware and renders in tweet as cards]].
+  * Facebook aware: ComboStrap pages are now [[docs:social:facebook|facebook]].
+  * New: [[docs:social:social|social page]] to concentrate on one page all the social features.
+  * New Page Metadata - the [[docs:semantic:image|page of an image]] used in card social illustration.
+  * Improved: the [[docs:semantic:frontmatter|frontmatter]] creates a link to debug quickly the json if there is any errors.
+  * New: You can advertise your organization by creating an [[docs:semantic:organization|organization page]].
+  * New: [[docs:social:google|Google Rich Result]] aware. The below ''rich results'' are created automatically if you set the [[docs:semantic:type|type]] of page.
+      * [[docs:semantic:website|Search Box]],
+      * [[docs:semantic:organization|Logo (Organization)]]
+      * [[docs:semantic:article|Article Card]]
+  * New: [[docs:quality:lpp|Late Publication Protection]] - Start writing a page now and publish it later.
   * New: For internal and debug purpose: The version of Combostrap is now available in a ''html meta'' generator tag and in the title of the footer link.
   * Bug: [[docs:menubar:dropdown|dropdown]] was not attributes aware. You can now add styling class to hide dropdown depending on the screen width.
   * New anchor. Every [[docs:content:heading|heading]] has now an anchor to help get a direct link.

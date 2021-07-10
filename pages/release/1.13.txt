@@ -71,7 +71,7 @@ New: [[release:1.13_bootstrap5|Bootstrap 5]] is now the default. Read more about
 
   * New: A [[docs:content:link|Link]] by default cannot be written on  multiple line to avoid having strange behavior. The [[docs:content:link#enableMultiLinesLink|enableMultiLinesLink]] configuration permits to control this behavior.
   * New: You can add [[docs:content:image|image]] in [[docs:layout:component:panel|panel label]] (demo with [[docs:layout:component:tabs#label|tabs label]])
-  * Improvement: [[docs:block:preformatted|preformatted (indented code block)]] is now enable by default with [[docs:styling:prism|prism styling]] but prints nothing when the line has only blank spaces to avoid confusion.
+  * Improvement: [[docs:block:preformatted|preformatted (indented code block)]] is now enable by default with [[docs:utility:prism|prism styling]] but prints nothing when the line has only blank spaces to avoid confusion.
 
 
 ==== Markup perfect ====

@@ -16,7 +16,7 @@ The ''minimap'' has been deprecated. You should use the [[docs:navigation:page-e
 It's still usable for compatibility reason.
 
 
-This component supports also the [[quality:lqpp|low quality page protection]] and does not show the ''low quality page'' when protected.
+This component supports also the [[docs:quality:lqpp|low quality page protection]] and does not show the ''low quality page'' when protected.
 
 
 ===== Example =====

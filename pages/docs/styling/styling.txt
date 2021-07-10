@@ -1,4 +1,4 @@
-====== ComboStrap UI Styling ======
+====== ComboStrap UI - Styling ======
 
 
 ===== About =====

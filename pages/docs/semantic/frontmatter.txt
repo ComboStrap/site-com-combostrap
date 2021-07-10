@@ -1,0 +1,98 @@
+---json
+{
+    "canonical":"frontmatter",
+    "title":"Frontmatter - (Set your page metadata)",
+    "description":"The metadata such as title and description will show up in the Search Engine Result Pages but also helps create Search Snippet."
+}
+---
+
+====== ComboStrap Page Metadata - Front Matter ======
+
+===== About =====
+''Front Matter'' is a component that:
+  * permits to add and set [[semantic|metadata]]
+  * that will be published in your HTML page for:
+      * a better [[docs:seo|SEO]] such as:
+          * [[title|title]]
+          * [[description|description]]
+          * [[canonical|canonical]]
+      * a better social experience
+          * Twitter (todo)
+          * Facebook (only canonical for now)
+
+It borrows its name from the [[kb>markup:front-matter|front matter book]]
+
+
+
+
+
+===== Example =====
+Just add a block of code that:
+  * starts with ''%%---json%%''
+  * contains a json document
+  * end with ''%%---%%''
+
+Example:
+<code javascript>
+---json
+{
+    "canonical":"my:id",
+    "title":"My Big title in the Search Engine Result Pages",
+    "description":"That's the article that you want to read!"
+}
+---
+</code>
+
+===== Properties =====
+
+This section lists the properties that are active and that have a semantic.
+
+There is two groups of metadata:
+  * [[#combostrap]]: the properties that we are managing
+  * [[#dokuwiki|dokuwiki]]: the properties that ''DokuWiki'' follows.
+
+Unknown properties are written in the [[semantic|metadata]] without any further processing.
+
+==== ComboStrap ====
+
+''ComboStrap'' takes into account the below properties
+  * [[canonical|canonical]]
+  * [[title|title]]
+  * [[description|description]]
+
+
+
+==== Dokuwiki ====
+
+
+Dokuwiki follows the [[http://dublincore.org/documents/dces/|Dublin Core element names]] as keys in their meta. See [[doku>metadata]]
+
+If you use one of the key below, you can overwrite/set up this metadata.
+
+The below table comes from [[doku>plugin:meta#data_structure|the documentation of the meta plugin]]. 
+
+^ Element ^ Child Elements ^ Type ^ Comments ^
+| title | --- | string | The title of the page. If ''$conf['useheading']'' is on; defaults to the first heading |
+| creator | --- | string | indicates the primary author of a page; defaults to the full name of the user who created the page |
+| subject | --- | string | list of space separated tags; not set by default |
+| description | tableofcontents, abstract | array | tableofcontents is an array of the TOC items with keys ''hid'' (header ID), ''title'', ''type'' and ''level''; abstract is 250 to 500 char raw text from the beginning of the page used for the RSS feed |
+| publisher | --- | string | not used |
+| contributor | --- | array | a list of all users who have made non-minor contributions to the page; every item has the user ID as key and the full name as value |
+| date | created, valid, available, issued, modified | array | a timestamp (or an array of the timestamps ''start'' and ''end'' for a period); date created is filled with the creation date by default, date modified with the date of the last non-minor edit; the rest is not set by default |
+| type | --- | string | not set, but defaults to "text" when exported; recommended values are: collection, dataset, event, image, interactiveresource, movingimage, physicalobject, service, software, sound, stillimage or text |
+| format | --- | string | a MIME type is expected; not set, but defaults to "text/html" when exported |
+| identifier | --- | string | a unique ID of the page; not set, but defaults to the page ID when exported |
+| source | --- | string | not used |
+| language | --- | string | a two-letter language code is expected; not set, but defaults to the chosen language for DokuWiki when exported |
+| relation | isversionof, hasversion, isreplacedby, replaces, \\ isrequiredby, requires, ispartof, \\ haspart, isreferencedby, references, \\ isformatof, hasformat, conformsto | array | each of the child elements can contain a list of pages that stand in the indicated relation to the current page; the page ID serves as key, the existence of the page as value; in references, DokuWiki keeps track of which pages are linked by the current page;  |
+| coverage | spatial, temporal | array | not used |
+| rights | accessrights, license | array | not set, but accessrights default to "public editable", "public viewable" or "private" with respect to current ACL settings; license defaults to the Creative Commons license if set |
+
+===== Configuration =====
+==== Auto Frontmatter ====
+This feature adds a frontmatter template when you create a new page.
+
+This feature is by default enabled but you can disable it by unchecking the ''autoFrontMatter'' [[:configuration|configuration]].
+
+
+
