@@ -23,7 +23,7 @@ This example was done with ''Google Ad Sense'' but all ad network will work the 
 
   * After you have created an ''ad unit'', the ''ad network'' would show you the ''Ad Snippet''. For instance, with ''Google Ad Sense'':
 
-{{:ads:ad_sense_snippet.png|}}
+{{docs:ads:ad_sense_snippet.png|}}
 
   * Copy this snippet of code
   * Create a page in the '':combostrap:ads'' namespace.

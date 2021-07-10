@@ -5,14 +5,13 @@
     "description":"Inline components are used inside a paragraph (ie in a line)."
 }
 ---
-====== ComboStrap UI - Inline Components ======
+====== ComboStrap UI - Content ======
 
 
 ===== About =====
-''Inline'' components are used inside a [[docs:block:text|paragraph (ie in a line)]].
+''Content'' are components that permits to create the content of page and/or a [[docs:block:block|block component]]. 
 
-[[docs:docs|ComboStrap UI]] gets the following inline components in its library:
-
+[[docs:docs|ComboStrap UI]] gets the following content components in its library:
 
   * [[docs:content:badge|Badge]]: A badge
   * [[docs:content:button|Button (btn)]]: A button (they are generally set apart on their own line)
@@ -26,3 +25,4 @@
   
   
 
+They are also known as ''inline component'' because they can be used in a line.

@@ -6,7 +6,7 @@
 }
 ---
 
-====== Strap Template - Fixed-top Menu (Header) ======
+====== ComboStrap - Fixed top Menu ======
 
 
 

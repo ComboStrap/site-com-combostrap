@@ -51,7 +51,7 @@ Check the below changes to know more about all of them:
   * New: For internal and debug purpose: The version of Combostrap is now available in a ''html meta'' generator tag and in the title of the footer link.
   * Bug: [[docs:menubar:dropdown|dropdown]] was not attributes aware. You can now add styling class to hide dropdown depending on the screen width.
   * New anchor. Every [[docs:content:heading|heading]] has now an anchor to help get a direct link.
-  * New component: [[docs:block:tweet|tweet]] to embed tweet in your pages.
+  * New component: [[docs:social:tweet|tweet]] to embed tweet in your pages.
   * New: Style and Javascript Dokuwiki independency: Combostrap does not depend anymore on Dokuwiki Style and Javascript engine. All component snippets are embedded individually on each page only when used.
   * New: Strap template, run first the page, then the bars to fill the HTML heads with all web component snippet (CSS, JS)
 

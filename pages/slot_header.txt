@@ -7,7 +7,7 @@ ComboStrap
 <collapse>
 <group expand="true">
 <dropdown name="Modules">
-[[:ads:ads|Ads]]
+[[docs:ads:ads|Ads]]
 [[docs:analytics:analytics|Analytics]]
 [[docs:quality:quality|Quality]]
 [[docs:docs|Docs]]
