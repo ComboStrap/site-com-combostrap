@@ -80,7 +80,7 @@ This is:
 
 ==== HTML Super Set ====
 
-''heading'' is a [[styling:html|Super set HTML component]] and therefore, you can then apply all [[styling:styling|styling attributes]].
+''heading'' is a [[docs:styling:html|Super set HTML component]] and therefore, you can then apply all [[docs:styling:styling|styling attributes]].
 
 <code dw>
 <heading type>
@@ -88,7 +88,7 @@ Heading
 </heading >
 </code>
 where:
-  * [[styling:type|type]] is:
+  * [[docs:styling:type|type]] is:
       * ''h1'' to ''h6'' for HTML heading styling
       * ''d1'' to ''d4'' for bigger heading display (used mostly in landing page)
   * ''level'' is the heading level (ie 1 to 6, default to the number in the type)

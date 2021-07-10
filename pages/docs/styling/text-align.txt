@@ -17,7 +17,7 @@
 text-align=[breakpoint-]value
 </code>
 where:
-  * ''breakpoint'' is optional and takes one of the [[styling:breakpoint|breakpoint values]] (ie screen size) (only on [[docs:utility:bootstrap|Bootstrap 5]])
+  * ''breakpoint'' is optional and takes one of the [[docs:styling:breakpoint|breakpoint values]] (ie screen size) (only on [[docs:utility:bootstrap|Bootstrap 5]])
       * ''sm'': ''small''
       * ''md'': ''medium''
       * ''lg'': ''large''
@@ -66,7 +66,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </webcode>
 ==== Screen Conditional ====
 
-This example was made with the [[docs:block:text|text component]] and shows a conditional value based on [[styling:breakpoint|screen size]]
+This example was made with the [[docs:block:text|text component]] and shows a conditional value based on [[docs:styling:breakpoint|screen size]]
 
 
 <webcode name="Default" frameborder="0">

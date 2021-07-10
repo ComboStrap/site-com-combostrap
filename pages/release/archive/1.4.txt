@@ -14,9 +14,9 @@ List of changes for the [[release:release|release]] ''1.4'' (2020-07-20)
 
 
   * Corrected the bug: No message visible when the [[semantic:frontmatter|frontmatter json object]] is not valid
-  * The [[styling:align|align attribute]] was better documented and supports now also the text alignement.
+  * The [[docs:styling:align|align attribute]] was better documented and supports now also the text alignement.
   * [[docs:block:blockquote|Blockquote]] and [[docs:block:card|card]] are fully implemented and supports also now a [[docs:utility:header|header]]
-  * Added the [[styling:shadow]]|elevation styling attribute]] to give more emphasis.
+  * Added the [[docs:styling:shadow]]|elevation styling attribute]] to give more emphasis.
   * The [[docs:content:button|button]] was improved: outline and size are now supported.
   * The [[docs:content:tooltip|tooltip component]] was added
   * The [[docs:layout:component:jumbotron|jumbotron component]] was added
@@ -25,4 +25,4 @@ List of changes for the [[release:release|release]] ''1.4'' (2020-07-20)
   * The [[release:deprecated:title|title component]] was added to give more control on the title of component
   * The ''monospaced'' dokuwiki syntax has become an ''highlight'' within the [[docs:utility:renderer|renderer]]
   * Added the [[docs:list:table|table page]] to showcase the fact that they are by default responsive.
-  * Added the [[styling:skin|skin attributes]] to define emphasis.
+  * Added the [[docs:styling:skin|skin attributes]] to define emphasis.

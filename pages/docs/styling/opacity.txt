@@ -47,7 +47,7 @@ With a [[docs:content:raster|raster image]]
 
 ==== Background Opacity ====
 
-Opacity is mostly used with [[styling:background|background]]
+Opacity is mostly used with [[docs:styling:background|background]]
 
 Example with a [[docs:layout:component:slide|slide]] and a [[background|background]]
 <webcode name="Default" frameborder="0">

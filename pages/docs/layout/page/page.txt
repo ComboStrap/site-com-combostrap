@@ -59,7 +59,7 @@ You can defined it with the following [[semantic:frontmatter|frontmatter]]
 
 In a landing page layout, the main content is not [[docs:layout:component:container|contained]].
 
-You can then create section of page with the [[docs:layout:component:slide|slide component]] where the [[styling:background|background]] will take the whole width of the page.
+You can then create section of page with the [[docs:layout:component:slide|slide component]] where the [[docs:styling:background|background]] will take the whole width of the page.
 
 
 You can defined it with the following [[semantic:frontmatter|frontmatter]]

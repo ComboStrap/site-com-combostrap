@@ -20,7 +20,7 @@ The ''cite'' element will give credit to a portion of text. It can go anywhere b
 </webcode>
 
 ==== With style ====
-With the [[styling:style|style]] attribute and the ''blue'' [[styling:color|color]]
+With the [[docs:styling:style|style]] attribute and the ''blue'' [[docs:styling:color|color]]
   * Markup
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>

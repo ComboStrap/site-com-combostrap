@@ -26,12 +26,12 @@ Second paragraph
 </text>
 </code>
 where:
-  * [[styling:type|type]] can take the values:
+  * [[docs:styling:type|type]] can take the values:
       * ''lead'': It makes a paragraph stand out by setting a bigger font-size and weight
       * ''h1 to h6'': when you want to match the font styling of a [[docs:content:heading|heading]].
-      * ''custom class'' that you have created in the [[styling:userstyle|userstyle stylesheet]].
+      * ''custom class'' that you have created in the [[docs:styling:userstyle|userstyle stylesheet]].
   * [[#line-spacing]] sets the space between the lines of a paragraph.
-  * [[styling:text-color|color]] can take all [[styling:color|color values]] and the [[#color|specific text colors]]:
+  * [[docs:styling:text-color|color]] can take all [[docs:styling:color|color values]] and the [[#color|specific text colors]]:
       * ''body'': the color of the body
       * ''muted'' : light gray
       * ''black-50'' : 50 black
@@ -72,7 +72,7 @@ A text that looks like an heading level 1
 </webcode>
 
 ==== Line-Spacing ====
-[[styling:line-spacing|line-spacing]] is a styling attribute that lets you define the height between each line inside a paragraph.
+[[docs:styling:line-spacing|line-spacing]] is a styling attribute that lets you define the height between each line inside a paragraph.
 
 Example:
 <webcode name="Default" frameborder="0">
@@ -95,11 +95,11 @@ Example:
 
 
 <note>
-If you want to add space between component, you should use the [[styling:spacing|spacing attribute]]
+If you want to add space between component, you should use the [[docs:styling:spacing|spacing attribute]]
 </note>
 
 ==== Text-Align ====
-[[styling:text-align|text-align]] lets you define where the line of text will be located inside the paragraph. <inote>A paragraph is a [[docs:block:block|block]] and takes by default all the available width</inote>
+[[docs:styling:text-align|text-align]] lets you define where the line of text will be located inside the paragraph. <inote>A paragraph is a [[docs:block:block|block]] and takes by default all the available width</inote>
 
 
 
@@ -122,7 +122,7 @@ This line of text is at the **end** of a paragraph (right for a left-to-right la
 <note>
 Text alignment can also be **screen conditional**.
 
-For all information about this attribute, see the dedicated page: [[styling:text-align]]
+For all information about this attribute, see the dedicated page: [[docs:styling:text-align]]
 </note>
 
 ==== Color ====

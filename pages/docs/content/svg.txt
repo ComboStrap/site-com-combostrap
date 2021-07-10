@@ -24,8 +24,8 @@ If they have:
 <note>
 This features apply also to the following SVG:
   * [[docs:content:icon|icon]]
-  * [[styling:background#svg_cover|background svg cover]]
-  * [[styling:background#svg_tile|background svg tile]]
+  * [[docs:styling:background#svg_cover|background svg cover]]
+  * [[docs:styling:background#svg_tile|background svg tile]]
 </note>
 
 
@@ -37,14 +37,14 @@ Svg is just an image and follows therefore the same syntax than a [[docs:content
 {{[ ]svg_path?WxH&att=value[ ]}}
 </code>
 
-A ''svg'' accepts all [[styling:styling|styling attributes]].
+A ''svg'' accepts all [[docs:styling:styling|styling attributes]].
 
 You can change the svg type with one of the below ''type'' attribute.
 
 ^ Type value ^ Default ^ Used as ^ Seen as  ^
-|  | Yes | [[styling:background#svg_cover|background cover]] and illustration | Illustrative Image |
+|  | Yes | [[docs:styling:background#svg_cover|background cover]] and illustration | Illustrative Image |
 | ''icon'' | | [[docs:content:icon|icon]] | Character (width = height and default to 24px) |
-| ''tile''  | | [[styling:background#svg_tile|background tile]] | Icon with a default dimension of 192px |
+| ''tile''  | | [[docs:styling:background#svg_tile|background tile]] | Icon with a default dimension of 192px |
 
 
 ===== Example =====
@@ -57,8 +57,8 @@ All ''svg'' are used by default as illustrative image that:
 
 Below is an example of an illustrative image with a:
   * ''width'' of ''600px''
-  * [[styling:hover|hover animation]]
-  * [[styling:shadow|shadow]]
+  * [[docs:animation:hover|hover animation]]
+  * [[docs:styling:shadow|shadow]]
 
 <webcode name="Default" frameborder="0">
 <code dw>
@@ -73,7 +73,7 @@ If you don't have an icon in your library, the [[docs:content:icon|icon componen
 Example of an svg icon with a:
   * ''type=icon'' that makes it behave as an [[docs:content:icon|icon]]
   * ''size'' of 30
-  * and a ''steelblue'' [[styling:color|color]]
+  * and a ''steelblue'' [[docs:styling:color|color]]
 
 
 <webcode name="Default" frameborder="0">

@@ -2,7 +2,7 @@
 
 
 ===== About =====
-''skin'' is a [[styling|ComboStrap styling attribute]] that defines the [[styling:emphasis|emphasis]] level of your [[docs:content:button|button]] by applying a set of standard styling attribute on:
+''skin'' is a [[styling|ComboStrap styling attribute]] that defines the [[docs:styling:emphasis|emphasis]] level of your [[docs:content:button|button]] by applying a set of standard styling attribute on:
   * [[color|color]]
   * [[shadow|elevation (shadow)]]
   * and [[border|border]]

@@ -23,7 +23,7 @@
 While the image is loading, the user will see a ''background-color'' as placeholder that appears with a fade effect.
 
 The default color is set in the configuration [[#lazyLoadingPlaceholderColor]] but you can change it
-with the standard [[styling:color|''background-color'' attribute]].
+with the standard [[docs:styling:color|''background-color'' attribute]].
 
   * You can use a color value
   * You can use a css color value
@@ -37,7 +37,7 @@ Example with a ''dark color''.
 </code>
 </webcode>
 
-<note>We have added [[styling:spacing|padding]] (''spacing=p-3'') to be able to see the background. Without the spacing attribute, the background-color is only seen when the image is loading</note>
+<note>We have added [[docs:styling:spacing|padding]] (''spacing=p-3'') to be able to see the background. Without the spacing attribute, the background-color is only seen when the image is loading</note>
 ===== Configuration =====
 
 ==== lazyLoadingPlaceholderColor ====

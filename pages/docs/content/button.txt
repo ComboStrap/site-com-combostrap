@@ -34,7 +34,7 @@ The only action attached is to navigate to another page.
 </webcode>
 ==== Spacing ====
 
-  * With [[styling:spacing|spacing]]
+  * With [[docs:styling:spacing|spacing]]
 <webcode name="Button" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <btn class="p-3">[[:start|Go to ComboStrap]]</btn>
@@ -50,7 +50,7 @@ The only action attached is to navigate to another page.
 </webcode>
 ==== Colors ====
 
-  * With [[styling:color|colors]]
+  * With [[docs:styling:color|colors]]
 <webcode name="Button" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <btn color="black" background-color="teal">[[:start|Go to ComboStrap]]</btn>
@@ -59,7 +59,7 @@ The only action attached is to navigate to another page.
 
 
 ==== Hover Animation ====
-You can also add [[styling:hover|hover animation]].
+You can also add [[docs:animation:hover|hover animation]].
 
   * Float
 <webcode name="Button" frameborder="0" >
@@ -93,7 +93,7 @@ where:
 
 
 <note tip>
-The ''button'' component is a fully [[styling:html|super set HTML component]] and can therefore by [[styling:styling|styled]] as you wish
+The ''button'' component is a fully [[docs:styling:html|super set HTML component]] and can therefore by [[docs:styling:styling|styled]] as you wish
 </note>
 
 
@@ -120,7 +120,7 @@ The type of the button defines its styling:
 
 ==== Size ====
 
-''Button'' is a component that responds to the [[styling:size|size attribute]]
+''Button'' is a component that responds to the [[docs:styling:size|size attribute]]
   * small
   * medium (default)
   * large
@@ -138,7 +138,7 @@ The type of the button defines its styling:
 
 ==== Skin ====
 
-Control the more emphasis of your button by using the [[styling:skin|skin attribute]]
+Control the more emphasis of your button by using the [[docs:styling:skin|skin attribute]]
 
 <webcode name="ButtonSize" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
@@ -152,7 +152,7 @@ Control the more emphasis of your button by using the [[styling:skin|skin attrib
 
 ==== Elevation ====
 
-All [[styling:styling|styling attribute]] are available but you may want to give more emphasis by adding a big shadow around the [[docs:block:block|box]] with the [[styling:shadow|elevation attribute]]
+All [[docs:styling:styling|styling attribute]] are available but you may want to give more emphasis by adding a big shadow around the [[docs:block:block|box]] with the [[docs:styling:shadow|elevation attribute]]
 
 <webcode name="ButtonSize" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>

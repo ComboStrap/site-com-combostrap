@@ -11,7 +11,7 @@ A ''box'' is a component that permits to contain other [[docs:docs|components]].
 
 This is useful to:
   * define the elements that should [[docs:menubar:collapse|collapse]]
-  * or create a [[styling:styling|styled box]].
+  * or create a [[docs:styling:styling|styled box]].
 
 <note>
 On a HTML level, this is just a ''div'' element
@@ -38,11 +38,11 @@ A brown rectangle with round corner
 </box>
 </code>
 where:
-  * [[styling:align]]
-  * [[styling:color]]
-  * [[styling:dimension]]
-  * [[styling:spacing]]
-  * [[styling:style]]
+  * [[docs:styling:align]]
+  * [[docs:styling:color]]
+  * [[docs:styling:dimension]]
+  * [[docs:styling:spacing]]
+  * [[docs:styling:style]]
 
 Output:
 </webcode>

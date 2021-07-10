@@ -22,12 +22,12 @@
 
 ^ Software / Library / Image ^ Usage ^
 | [[https://dokuwiki.org|Dokuwiki]] | This is the wiki engine that powers the creation and parsing of the page |
-| [[https://bootstrap.com|Bootstrap]] | This is the styling platform where you can choose from several [[styling:stylesheet|theme]] or create your [[styling:stylesheet|own]] |
-| [[https://bootswatch.com/|Bootswatch]] | The pre-created [[styling:stylesheet|Bootstrap themes]] |
+| [[https://bootstrap.com|Bootstrap]] | This is the styling platform where you can choose from several [[docs:styling:stylesheet|theme]] or create your [[docs:styling:stylesheet|own]] |
+| [[https://bootswatch.com/|Bootswatch]] | The pre-created [[docs:styling:stylesheet|Bootstrap themes]] |
 | [[https://materialdesignicons.com/|Material Design]], [[https://icons.getbootstrap.com/|Bootstrap]], [[https://feathericons.com/|Feather]] | This icons libraries that powers the [[docs:content:icon|Icon Component]] |
 | [[https://undraw.co/illustrations|Undraw]] and [[https://unsplash.com/|Unsplash]] | This image libraries are used for the illustrations of this website |
 | [[https://apoorv.pro/lozad.js/|Lozad]] | This is the [[docs:performance:lazy|lazy load engine]] delaying the download of image when they are going to enter in the screen |
-| [[https://prismjs.com/|Prism]] | This is the code highlighting engine that powers the [[styling:prism|prism base component]] such as code, file, console and indented block |
+| [[https://prismjs.com/|Prism]] | This is the code highlighting engine that powers the [[docs:styling:prism|prism base component]] such as code, file, console and indented block |
 | [[http://scrollmagic.io/|ScrollMagic]] | This is the engine that start the [[docs:animation:animation|animation]] when a component [[release:beta:onvisible|become visible]] |
 | [[https://animate.style/|Animate]] | The CSS animation library applied to component when they [[release:beta:onvisible|become visible]] |
 | [[https://www.php.net/|Php]] | The backend language |

@@ -38,14 +38,14 @@ there is any problem during the migration, you may not see your header, footer o
   * New: the [[docs:block:text|text component]] accepts to style several paragraph at once
   * New: the [[docs:content:itext|itext component]] accepts to style several characters / words at once (i for [[docs:content:content|inline]])
   * New: the [[docs:block:text|text component]] accepts to a [[docs:block:text#line-spacing|line-spacing attribute]] to set the height between each line of a paragraph
-  * New: the [[styling:text-align|text-align]] attribute can now be conditional and takes the start and end notation
-  * New: the [[styling:opacity|opacity attribute]] has its own page and can be applied to all component (not only to [[styling:background|background]])
-  * New: the [[styling:boldness|boldness attribute]] to set the font-weight from extra-light to extra-dark.
-  * New: the [[styling:line-spacing|line spacing attribute]] to set the space between line
-  * New: the [[styling:font-size|font size attribute]] to set the size of characters
-  * New page: the color of the text got a page: [[styling:text-color]]
-  * New [[:styling:color#reset|color value ''reset'']]: the reset color permits to takes the color of its parent.
-  * New: the underline effect can be set with the [[styling:underline|underline attribute]]
+  * New: the [[docs:styling:text-align|text-align]] attribute can now be conditional and takes the start and end notation
+  * New: the [[docs:styling:opacity|opacity attribute]] has its own page and can be applied to all component (not only to [[docs:styling:background|background]])
+  * New: the [[docs:styling:boldness|boldness attribute]] to set the font-weight from extra-light to extra-dark.
+  * New: the [[docs:styling:line-spacing|line spacing attribute]] to set the space between line
+  * New: the [[docs:styling:font-size|font size attribute]] to set the size of characters
+  * New page: the color of the text got a page: [[docs:styling:text-color]]
+  * New [[docs:styling:color#reset|color value ''reset'']]: the reset color permits to takes the color of its parent.
+  * New: the underline effect can be set with the [[docs:styling:underline|underline attribute]]
   * New: an internal link can be [[docs:content:link#styling|styled]]
   * <itext color=danger>New !</itext>: added the text specialized colors for the [[docs:block:text#color|text]] and [[docs:content:itext#color|itext]] component.
 
@@ -62,7 +62,7 @@ The [[docs:content:heading|heading component]] supports also the ATX markdown he
 
 
 ==== Print ====
-[[styling:print|print]]. The lazy loaded image are downloaded before print and the bars are cached to be able to print a page.
+[[docs:styling:print|print]]. The lazy loaded image are downloaded before print and the bars are cached to be able to print a page.
 ==== Outline Numbering ====
 [[docs:navigation:outline#numbering|Outline Numbering]] is now fully customizable from decimal to latin-upper. Due to this change, the anchor are now located to the right and this is no more mandatory to use the [[docs:utility:renderer|renderer]]
 
@@ -81,18 +81,18 @@ You can now analyse the syntax used in your page with the [[analytics:statistics
 ==== Heading can be styled - Easy <icon name="coffee"/> ====
 You can now style the content of your [[docs:content:heading|heading]] (adding icon, boldness, ...)
 ==== Note ====
-  * The [[docs:block:note|note component]] got also the [[styling:userstyle#class|userstyle class]].
+  * The [[docs:block:note|note component]] got also the [[docs:styling:userstyle#class|userstyle class]].
   * A [[docs:block:note|note]] does not have any extra bottom margin. Due to the last paragraph of a [[docs:block:note|note]] and the default stylesheet of the browser, the content was not centered vertically.
 
 ==== Link ====
-The [[docs:content:link|link attribute]] can now be used with the [[styling:styling|styling attributes]]
+The [[docs:content:link|link attribute]] can now be used with the [[docs:styling:styling|styling attributes]]
 ==== Slide ====
 The [[docs:layout:component:slide|slide component]] gets responsive x margin. Using more left and right margins, the bigger the screen is.
 ==== Icon ====
-  * The [[docs:content:icon|icon component]] accepts any length unit (such as rem) and [[styling:spacing|padding]] was disabled because it makes the icon invisible.
+  * The [[docs:content:icon|icon component]] accepts any length unit (such as rem) and [[docs:styling:spacing|padding]] was disabled because it makes the icon invisible.
   * The icon attached to the configuration is no more downloaded but included to the page and cached leading to a big performance gain.
 ==== HTML Super set ====
-In [[styling:html|html super set language]], this is no more needed for an attribute:
+In [[docs:styling:html|html super set language]], this is no more needed for an attribute:
       * to set a value if the value is true, 
       * to enclose the value between between quotes if the value does not contain any spaces.
 ==== Webcode ====
@@ -100,7 +100,7 @@ In [[styling:html|html super set language]], this is no more needed for an attri
   * [[docs:utility:webcode|webcode]] supports also the markdown code syntax
   * [[docs:utility:webcode|webcode]] has become a stack component leading to less HTML paragraph creation.
 ==== Clickable ====
-  * [[styling:clickable|clickable]] can now be used in **all** components with a link. This is no more limited to [[docs:layout:component:grid|grid]] and [[docs:block:card|card]].
+  * [[docs:styling:clickable|clickable]] can now be used in **all** components with a link. This is no more limited to [[docs:layout:component:grid|grid]] and [[docs:block:card|card]].
 
 ==== The template Bar has been renamed slot ====
 
@@ -108,10 +108,10 @@ To improve the glossary, the template ''bar'' has been renamed to [[docs:layout:
   * a bar (ie a GUI component) such as the menubar or toolbar
   * and a [[docs:layout:page:slot|slot]] (ie where content can be added in the template). 
 ==== A bootstrap template is no more mandatory ====
-Every template perfect: A bootstrap and [[:strap|strap]] template is no longer mandatory. If [[docs:utility:bootstrap|Bootstrap]] is not found, it will be added. The css of the template may conflict. This is the case for instance with the default Dokuwiki. In a button, this template sets the color of ''a:link'' and ''a:visited'' that takes precedence over the white text color and the text in the button is therefore not displayed. You need then to set the [[styling:color|text color]] to ''white'' for each primary button.
+Every template perfect: A bootstrap and [[:strap|strap]] template is no longer mandatory. If [[docs:utility:bootstrap|Bootstrap]] is not found, it will be added. The css of the template may conflict. This is the case for instance with the default Dokuwiki. In a button, this template sets the color of ''a:link'' and ''a:visited'' that takes precedence over the white text color and the text in the button is therefore not displayed. You need then to set the [[docs:styling:color|text color]] to ''white'' for each primary button.
 
 ==== Brand ====
-[[docs:menubar:brand|brand]] is now a [[styling:html|superset html component]] and allows all styling.
+[[docs:menubar:brand|brand]] is now a [[docs:styling:html|superset html component]] and allows all styling.
 
 ==== Grid ====
 

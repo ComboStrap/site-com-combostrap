@@ -27,4 +27,4 @@
 </webcode>
 
 
-{{ :styling:scroll_trigger_point.png?600 |}}
+{{ docs:styling:scroll_trigger_point.png?600 |}}

@@ -21,12 +21,12 @@ If you got any problem on this migration, don;'t hesitate to [[:support|open a t
 
 
 ===== New in Bootstrap 5 =====
-  * [[styling:scale|Responsive Font size]] is on by default. We deleted the fix to make the [[release:deprecated:title|title display]] responsive.
-  * [[https://getbootstrap.com/docs/5.0/layout/containers/|The container xxl!]] [[styling:breakpoint|breakpoint]]- You can have a width of 1320 on large screen
+  * [[docs:styling:scale|Responsive Font size]] is on by default. We deleted the fix to make the [[release:deprecated:title|title display]] responsive.
+  * [[https://getbootstrap.com/docs/5.0/layout/containers/|The container xxl!]] [[docs:styling:breakpoint|breakpoint]]- You can have a width of 1320 on large screen
   * [[https://getbootstrap.com/docs/5.0/layout/grid/#row-columns|Natural Auto Width for a grid column]] - we support it with the [[docs:layout:component:grid|row auto type]]
   * [[https://getbootstrap.com/docs/5.0/utilities/position/|Position]] more position utility class already supported (in Bootstrap version 4) via the [[release:beta:position|position attribute]].
   * [[docs:utility:jquery|JQuery]] is no more needed and Popper is included in one bundle.
-  * [[styling:text-align|Text-align]] can now be applied conditionally by screen size
+  * [[docs:styling:text-align|Text-align]] can now be applied conditionally by screen size
   * Supports for [[semantic:lang|RTL language]]. Example: Check this arabic page: [[semantic:lang_ar]]
   * The two new [[docs:content:heading|heading display style]] `d5` and `d6`
 
@@ -37,7 +37,7 @@ If you got any problem on this migration, don;'t hesitate to [[:support|open a t
 ==== Start and End in place of Left and Right in Utility Class ====
 To support [[https://getbootstrap.com/docs/5.0/getting-started/rtl/|RTL languages, Bootstrap has renamed the direction properties ''left'' and ''right'' in favor ''start'' and ''end'']].
 
-The only breaking change is when you use utility class directly from bootstrap with the [[styling:class|class attribute]] (ie without using for instance the [[styling:spacing|spacing utility]] for instance).
+The only breaking change is when you use utility class directly from bootstrap with the [[docs:styling:class|class attribute]] (ie without using for instance the [[docs:styling:spacing|spacing utility]] for instance).
 
 They have been [[https://getbootstrap.com/docs/5.0/migration/#utilities-2|renamed]] and we can't do much in this case
 
@@ -47,7 +47,7 @@ The left and right spacing utility have been renamed to support text direction.
 
 ==== Theme ====
 <note>
-The below change is only valid for the default bootstrap theme, not for [[styling:stylesheet|third theme stylesheet such as bootswatch]]
+The below change is only valid for the default bootstrap theme, not for [[docs:styling:stylesheet|third theme stylesheet such as bootswatch]]
 </note>
 
 The [[https://getbootstrap.com/docs/5.0/migration/#color-system|colors have changed]] in the default Bootstrap them to add more contrast. Unfortunately, it means that the default colors are more bright.
@@ -77,7 +77,7 @@ The following elements are deleted in Bootstrap 5 but preserved in Combostrap.
   * ''auto margin'' used in the [[docs:menubar:group|Navgroup]] with the ''expand'' attribute has been renamed from [[https://getbootstrap.com/docs/4.0/utilities/flex/#auto-margins|mr-auto]] to [[https://getbootstrap.com/docs/5.0/utilities/flex/#auto-margins|me-auto]].
   * the [[https://getbootstrap.com/docs/5.0/getting-started/accessibility/#visually-hidden-content|assistive technologies class]] given in the [[docs:menubar:search|search bar]] has changed from ''sr-only'' to ''visually-hidden''
   * [[docs:content:badge|badge]] uses now [[https://getbootstrap.com/docs/5.0/components/badge/#background-colors|background class]] to specify the background color. The colors have changed slightly.
-  * [[styling:spacing|spacing]] and [[styling:float|Float]] uses now also the ''start'' and ''end'' positioning
+  * [[docs:styling:spacing|spacing]] and [[docs:styling:float|Float]] uses now also the ''start'' and ''end'' positioning
 
 
 ===== More info =====

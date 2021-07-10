@@ -31,8 +31,8 @@ This page describes which [[#value|color value]], they can take.
 ===== Example =====
   * A [[docs:block:card|card]] with:
       * a ''black'' [[text-color|(text) color]]
-      * a ''teal'' [[styling:background#color|background color]]
-      * a ''blue'' [[styling:border#color|border color]]
+      * a ''teal'' [[docs:styling:background#color|background color]]
+      * a ''blue'' [[docs:styling:border#color|border color]]
 
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 
@@ -82,7 +82,7 @@ Text color with a hexadecimal value of ''#6c757d''
 </webcode>
 
 ==== Reset ====
-The ''reset'' color applied on a [[docs:content:link|link]] will take the color of the [[docs:block:text|text]] and we [[styling:underline|underline it]] to make it visible.
+The ''reset'' color applied on a [[docs:content:link|link]] will take the color of the [[docs:block:text|text]] and we [[docs:styling:underline|underline it]] to make it visible.
 <webcode name="Default" frameborder="0">
   * Input
 

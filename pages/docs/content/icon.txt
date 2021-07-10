@@ -65,7 +65,7 @@ An ''icon'' is just a [[docs:content:svg|svg]] that is seen as a character.
 
 ComboStrap sets the following properties on a icon by default:
   * ''width'' and ''height'' have the same value (default to ''24px'')
-  * [[styling:color|color]]: ''currentColor'' by default
+  * [[docs:styling:color|color]]: ''currentColor'' by default
   * not responsive (no ''preserveAspectRatio'' and no max length CSS properties)
   * no [[docs:content:image#align|alignment]] (ie no left, center or right)
 
@@ -142,7 +142,7 @@ Example with [[https://fonts.google.com/icons|Google icon]] and the ''favorite''
 ===== Properties =====
 
 ==== Color ====
-In the color attribute, you can set a [[styling:color#value|color value]].
+In the color attribute, you can set a [[docs:styling:color#value|color value]].
 
 ComboStrap detects automatically if the icon is a ''solid'' or ''outline'' one and sets the color accordingly.
 
@@ -180,11 +180,11 @@ The ''width'' and ''height'' attributes have the same value and takes the defaul
 
 The ''icon'' component supports also :
   * all SVG attributes ([[https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg|svg attributes]])
-  * and [[styling:styling|styling attribute]]
+  * and [[docs:styling:styling|styling attribute]]
 
 
 Example:
-  * with a [[styling:hover|hover animation]]
+  * with a [[docs:animation:hover|hover animation]]
 <webcode name="Solid">
 <code dw>
 <icon name="bs:alarm-fill" color="pink" onHover="grow" width="36"/>

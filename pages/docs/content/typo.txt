@@ -14,11 +14,11 @@ This page regroups all [[docs:content:typo|typographic]] component of ComboStrap
 
 ===== Attributes =====
 
-''Typographic Attribute'' are [[styling:styling|styling attribute]]
-  * [[styling:text-align]]
-  * [[styling:font-size]]
-  * [[styling:text-color]]
-  * [[styling:boldness]]
+''Typographic Attribute'' are [[docs:styling:styling|styling attribute]]
+  * [[docs:styling:text-align]]
+  * [[docs:styling:font-size]]
+  * [[docs:styling:text-color]]
+  * [[docs:styling:boldness]]
 
 
 ===== Component =====
@@ -42,7 +42,7 @@ Text:
 
 ==== Bold ====
 
-To modify the [[styling:boldness|boldness]] (known as font-weight), you can use ''double star'', ''name'', ''value'' or ''superlatif''. Check the dedicated page: [[styling:boldness]]
+To modify the [[docs:styling:boldness|boldness]] (known as font-weight), you can use ''double star'', ''name'', ''value'' or ''superlatif''. Check the dedicated page: [[docs:styling:boldness]]
 
 Example with the [[docs:content:itext|itext component]]
 <webcode name="Default" frameborder="0">
@@ -78,7 +78,7 @@ Highlighting ''this highlight''
 
 
 ==== Underline ====
-[[styling:underline|Underline decoration]].
+[[docs:styling:underline|Underline decoration]].
 
 <webcode name="Default" frameborder="0">
   * Input

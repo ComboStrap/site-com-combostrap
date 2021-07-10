@@ -12,7 +12,7 @@
 ''underline'' is a [[docs:content:typo|typographic effect]] that underlines a sequence of characters.
 
 <note>
-''Underlining'' permits to add [[styling:emphasis|emphasis]] on a couple of words but clashes with the conventional rendering of [[docs:content:link|link]]. Use it when it couldn't be confused for a hyperlink.
+''Underlining'' permits to add [[docs:styling:emphasis|emphasis]] on a couple of words but clashes with the conventional rendering of [[docs:content:link|link]]. Use it when it couldn't be confused for a hyperlink.
 </note>
 
 ===== Articles Related =====

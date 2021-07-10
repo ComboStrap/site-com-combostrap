@@ -14,7 +14,7 @@
 The ''strap'' template supports the following features:
 
   * [[docs:utility:bootstrap|Last bootstrap version (5)]]
-  * [[styling:bootstrap|Custom Bootstrap Styleshet (create and add your own)]]
+  * [[docs:styling:bootstrap|Custom Bootstrap Styleshet (create and add your own)]]
   * [[docs:performance:cdn|Serve the Bootstrap files by default from a CDN]]
   * Supports [[docs:layout:page:slot|4 bars]] layout
       * [[docs:layout:page:side_slot|Sidebar]] (left)
@@ -25,7 +25,7 @@ The ''strap'' template supports the following features:
   * Support [[semantic:tagline]]|tagline]]
   * [[docs:layout:component:fixed-top-menu|Fixed-top navbar with automatic top page location correction]]
   * Support a [[docs:navigation:trail_breadcrumb|trailing breadcrumb]]
-  * [[styling:scale|Size Scale configuration (font and spacing)]]
+  * [[docs:styling:scale|Size Scale configuration (font and spacing)]]
   * [[docs:getting_started:4_favicon|Favicon]]: Recognized the [[docs:getting_started:4_favicon|favicons]]  (included ''android-chrome-192x192.png'')
   * [[docs:utility:shortcut]]
 

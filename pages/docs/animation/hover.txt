@@ -24,7 +24,7 @@ To add an ''hover animation'', add a ''onHover'' attribute with the name of your
 ===== Animation =====
 ==== Float ====
 
-When you want to add [[styling:shadow|dynamic elevation]], you can use the ''float'' animation
+When you want to add [[docs:styling:shadow|dynamic elevation]], you can use the ''float'' animation
 
   * On a [[docs:content:button|button]]
 <webcode name="Default" frameborder="0">
@@ -60,7 +60,7 @@ A zoom-in / grow animated icon - <icon width="50px" height="50px" onHover="grow"
 
 ==== Shadow====
 
-You can use the [[styling:shadow#syntax|shadow animation name]] to add a shadow on hover.
+You can use the [[docs:styling:shadow#syntax|shadow animation name]] to add a shadow on hover.
 
 <webcode name="Default" frameborder="0">
 <code dw>
@@ -72,7 +72,7 @@ You can use the [[styling:shadow#syntax|shadow animation name]] to add a shadow 
 
 ==== Float Shadow ====
 
-You can combine the effects, example with ''float'' and a [[styling:shadow|shadow]]
+You can combine the effects, example with ''float'' and a [[docs:styling:shadow|shadow]]
 
 <webcode name="Default" frameborder="0">
 <code dw>
@@ -119,7 +119,7 @@ If you underline problems, you can also [[#custom|add your own]].
 If the animation name is not found, the name is applied as a class. You can then used all Bootstrap utility class to create an hover effect.
 
 
-Example from an [[skin|outlined button to a contained one]] with the [[https://getbootstrap.com/docs/5.0/components/buttons/|Bootstrap button class]] where:
+Example from an [[docs:styling:skin|outlined button to a contained one]] with the [[https://getbootstrap.com/docs/5.0/components/buttons/|Bootstrap button class]] where:
   * ''btn-lg'' means a ''larger button''
   * ''btn-primary'' means with a ''color background''
 <webcode name="Custom" frameborder="0">
@@ -151,13 +151,13 @@ git clone https://github.com/ComboStrap/combo
 
 ==== Custom: UserStyle ====
 
-If you want to create an animation for yourself, add the CSS class rules in the [[styling:userstyle|userstyles stylesheet]].
+If you want to create an animation for yourself, add the CSS class rules in the [[docs:styling:userstyle|userstyles stylesheet]].
 
 
 
 Example with the ''fade'' like background transition of [[https://ianlunn.github.io/Hover/|hover.css]].
 <webcode name="Fade" frameborder="0">
-  * The css in the [[styling:userstyle|userstyle stylesheet]]
+  * The css in the [[docs:styling:userstyle|userstyle stylesheet]]
 <code css userstyle.css>
 button.animated:hover {
     background-color: #FFF;

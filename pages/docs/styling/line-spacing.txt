@@ -12,7 +12,7 @@
 
 
 <note>
-If you want to add space between component, you should use the [[styling:spacing|spacing attribute]]
+If you want to add space between component, you should use the [[docs:styling:spacing|spacing attribute]]
 </note>
 
 

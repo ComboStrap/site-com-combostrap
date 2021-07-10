@@ -9,7 +9,7 @@
 
 
 ===== About =====
-The ''lang'' attributes is a [[styling:styling|styling attribute]] that sets the language of a text.
+The ''lang'' attributes is a [[docs:styling:styling|styling attribute]] that sets the language of a text.
 
 <note>
 If you want to set the language for:

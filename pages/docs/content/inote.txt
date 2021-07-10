@@ -2,7 +2,7 @@
 
 
 ===== About =====
-The ''inote'' is a [[docs:block:note|note]] that can be added along side a text (ie inline). It gives [[styling:emphasis|emphasis]] on an ancillary text that adds context to the primary text. 
+The ''inote'' is a [[docs:block:note|note]] that can be added along side a text (ie inline). It gives [[docs:styling:emphasis|emphasis]] on an ancillary text that adds context to the primary text. 
 
 As a replacement, you could also use:
   * a [[docs:content:tooltip|tooltip]]
@@ -17,7 +17,7 @@ As a replacement, you could also use:
 <inote type>
 </code>
 
-A ''inote'' is a [[styling:html|superset HTML component]].
+A ''inote'' is a [[docs:styling:html|superset HTML component]].
 ===== Example =====
 
 ==== Default ====

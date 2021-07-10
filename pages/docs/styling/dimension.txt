@@ -8,7 +8,7 @@
 
 
 ===== About =====
-Every [[docs:block:block|Box components]] and even the whole main page dimension may be resized with the [[styling:styling|styling attributes]]:
+Every [[docs:block:block|Box components]] and even the whole main page dimension may be resized with the [[docs:styling:styling|styling attributes]]:
   * [[#width]] 
   * and [[#height]].
 
@@ -24,7 +24,7 @@ The ''width'' attributes supports the following values:
   * ''length'' - a length (in pixel, percentage, or other length unit)
   * ''fit-content'' - the width of the text.
 
-<note info width="fit-content">If you want to center the box, use the [[styling:align|align attributes]]</note>
+<note info width="fit-content">If you want to center the box, use the [[docs:styling:align|align attributes]]</note>
 
 **Example**: a [[docs:block:note|note]] will take all the space by default, if you want to constraint the box to a lower size, apply the ''width'' attributes.
 
@@ -50,7 +50,7 @@ On a [[docs:block:block|box]], the ''width'' attribute will apply a ''maximum-wi
 
 
 ==== Height ====
-The ''height'' attribute is also a [[styling:style|style shortcut]] that will apply a maximum height.
+The ''height'' attribute is also a [[docs:styling:style|style shortcut]] that will apply a maximum height.
 
 
 Example: a [[docs:block:note|note]] will take all the space by default, if you want to constraint the box to a lower size, apply the ''width'' attributes.

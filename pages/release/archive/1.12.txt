@@ -21,7 +21,7 @@ The most important features are:
 
 Check the below changes to know more about all of them:
   * [[docs:utility:webcode|webcode]] is now integrated in Combo. The code is taken from the calls because the regular expression for the update lexer mode was not catching the code when there was whitespace.
-  * [[styling:shadow]]|elevation]] - a new elevation level was added called ''high'' that elevates on all side of the box.
+  * [[docs:styling:shadow]]|elevation]] - a new elevation level was added called ''high'' that elevates on all side of the box.
   * the disabling of [[docs:block:preformatted|preformated]] has been improved by not allowing this mode via the ''accept'' function of the syntax class.
   * the ''combostrap'' logo got a fix color to be able to embedded it via object.
   * the [[docs:block:code|code]] element supports now the code export functionality of dokuwiki.

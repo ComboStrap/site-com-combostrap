@@ -24,13 +24,13 @@ Inside a ''menu'' component, you can add:
 <menubar breakpoint="lg" position="normal" align="left" theme="light">
 </code>
 where:
-  * ''breakpoint'' is one of the [[styling:breakpoint|breakpoint code]] (''xs'','''sm'', ''md'', ''lg'' (Default), ''xl'') when the menu bar will collapse.
+  * ''breakpoint'' is one of the [[docs:styling:breakpoint|breakpoint code]] (''xs'','''sm'', ''md'', ''lg'' (Default), ''xl'') when the menu bar will collapse.
   * ''position'' is one of ''normal'' (default),  [[#fixed-top|top]] (''bottom'' is not yet supported)
   * ''align'' defines the horizontal placement. Possible values: ''left''(Default) or ''center''
   * ''theme'' defines the luminance of the text. You can specify ''light'' (default) or ''dark''
 
 <note info>
-The default [[styling:color|background-color]] is a ''light'' background.
+The default [[docs:styling:color|background-color]] is a ''light'' background.
 </note>
 ==== Fixed-top ====
 

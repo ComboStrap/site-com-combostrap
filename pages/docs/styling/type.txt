@@ -14,7 +14,7 @@
 The default behavior of a ''type'' is to change the style.
 
 <note>
-If you want to apply custom styling, you can also create you own rules using the [[styling:userstyle#custom|combo styling class]] that contains the ''type''.
+If you want to apply custom styling, you can also create you own rules using the [[docs:styling:userstyle#custom|combo styling class]] that contains the ''type''.
 </note>
 
 

@@ -16,8 +16,8 @@
 {{docs:block:spacing_margin_padding.png|}}
 
 where:
-  * ''margin'' is a transparent space outside the box  (not filled with [[styling:background#color|the background color]])
-  * ''padding'' is the space inside the box  (filled with [[styling:background#color|the background color]])
+  * ''margin'' is a transparent space outside the box  (not filled with [[docs:styling:background#color|the background color]])
+  * ''padding'' is the space inside the box  (filled with [[docs:styling:background#color|the background color]])
 
 
 <note>
@@ -30,8 +30,8 @@ If you want to add space between lines, used the [[docs:block:text|text componen
 ==== Padding and Spacing on all sides ====
 
 A [[docs:block:note|note]] with:
-  * ''p-3'': a ''padding''  with a [[styling:scale|scale value of 3]] (blue color)
-  * ''m-5'': a ''margin'' with a [[styling:scale|scale value of 5]] (no color)
+  * ''p-3'': a ''padding''  with a [[docs:styling:scale|scale value of 3]] (blue color)
+  * ''m-5'': a ''margin'' with a [[docs:styling:scale|scale value of 5]] (no color)
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <note spacing="p-3 m-5">
@@ -46,11 +46,11 @@ A [[docs:block:note|note]] with:
   * ''ps-3'' means:
       * ''p'': a ''padding''  (painted in blue)
       * ''s'': at the ''start'' of the line  (ie ''left'' in english)
-      * ''-3'': with a [[styling:scale|scale value of 3]]
+      * ''-3'': with a [[docs:styling:scale|scale value of 3]]
   * ''ms-5'' means:
       * ''m'': a ''margin'' (no color - transparent)
       * ''s'': at the ''start'' of the line  (ie ''left'' in english)
-      * ''-5'' with a [[styling:scale|scale value of 5]]
+      * ''-5'' with a [[docs:styling:scale|scale value of 5]]
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <note spacing="ps-3 ms-5">
@@ -91,8 +91,8 @@ where:
           * ''e'': end (right for LTR or left for RTL language)
           * ''t'': top
           * ''b'': bottom
-  * ''breakpoint'' (optional, default to xs) is the [[styling:breakpoint|Breakpoint (Toggle size)]] : xs, sm, md, lg
-  * ''size'' (mandatory) is 0,1,2,3,4 or 5 (based on [[styling:scale|size scale]])
+  * ''breakpoint'' (optional, default to xs) is the [[docs:styling:breakpoint|Breakpoint (Toggle size)]] : xs, sm, md, lg
+  * ''size'' (mandatory) is 0,1,2,3,4 or 5 (based on [[docs:styling:scale|size scale]])
 
 
 

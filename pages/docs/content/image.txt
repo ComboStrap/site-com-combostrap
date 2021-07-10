@@ -36,7 +36,7 @@ All images:
 
 ComboStrap uses:
   * the same syntax than [[doku>wiki:syntax#media_files|Dokuwiki]]
-  * extended with the [[styling:styling|styling attributes]]
+  * extended with the [[docs:styling:styling|styling attributes]]
 
 <code dw>
 {{[ ]path?WxH&nolink&att=value[ ]}}
@@ -47,9 +47,9 @@ where:
       * for an external image: the URL.
   * ''W'' is the width (0 if you don't want to set it)
   * ''H'' is the height (Optional)
-  * ''[ ]'' are optional spaces that indicates the alignement of the image (left, center, or right [[styling:float|float]])
+  * ''[ ]'' are optional spaces that indicates the alignement of the image (left, center, or right [[docs:styling:float|float]])
   * ''nolink'' will not add a [[#imagedefaultlinking|link to the image itself]].
-  * ''att=value'' is one or more [[styling:styling|styling attributes]]
+  * ''att=value'' is one or more [[docs:styling:styling|styling attributes]]
 
 
 
@@ -89,13 +89,13 @@ Example of an image resized to ''250px'' height
 ==== Position ====
 
   * To position the image to the left, let no space, this is the default
-  * To position the image to the center with a [[styling:align#center|center block]], let a space at the left and at the right
-  * To position the image to the right with a [[styling:float#right|right float]], let a space at the left
+  * To position the image to the center with a [[docs:styling:align#center|center block]], let a space at the left and at the right
+  * To position the image to the right with a [[docs:styling:float#right|right float]], let a space at the left
 
 Example: position the image to the right with:
   * a width of 300
-  * a [[styling:color|background-color of white]]
-  * and a padding of 3 (''p-3'') with [[styling:spacing|spacing]]
+  * a [[docs:styling:color|background-color of white]]
+  * and a padding of 3 (''p-3'') with [[docs:styling:spacing|spacing]]
 <webcode name="Default" frameborder="0">
 <code dw>
 {{ :docs:block:stock_image_surfer_in_the_see.png?300&spacing=p-3&background-color=white|}}
@@ -109,9 +109,9 @@ If you want more control on position, we advise you to use the [[docs:layout:com
 
 ==== Styling Attributes ====
 
-You can style even further your image with [[styling:styling|styling element]]:
-  * with a [[styling:shadow|shadow elevation through styling]].
-  * with a [[styling:hover|hover float effect]]
+You can style even further your image with [[docs:styling:styling|styling element]]:
+  * with a [[docs:styling:shadow|shadow elevation through styling]].
+  * with a [[docs:animation:hover|hover float effect]]
 
 For instance, to elevate this photography with a surfer, you could use this syntax.
 
@@ -123,7 +123,7 @@ For instance, to elevate this photography with a surfer, you could use this synt
 
 ==== Background ====
 
-You can also use the image as [[styling:background|background]].
+You can also use the image as [[docs:styling:background|background]].
 <webcode name="Default" frameborder="0">
 <code dw>
 <slide color="steelblue" text-align="center" >

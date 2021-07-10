@@ -9,7 +9,7 @@
 
 
 <note tip>
-The style attribute and component are low level access to [[styling:styling|style your components]]. If you just need to change a property, check the [[styling:styling|high level attribute]].
+The style attribute and component are low level access to [[docs:styling:styling|style your components]]. If you just need to change a property, check the [[docs:styling:styling|high level attribute]].
 </note>
 ===== Articles Related =====
 {{backlinks>.}}
@@ -20,7 +20,7 @@ The style attribute and component are low level access to [[styling:styling|styl
 
 ==== Attribute ====
 
-Because every [[docs:docs|ComboStrap UI component]] are a [[styling:html|superset of HTML]], the ''CSS'' ''style'' attribute is also supported. 
+Because every [[docs:docs|ComboStrap UI component]] are a [[docs:styling:html|superset of HTML]], the ''CSS'' ''style'' attribute is also supported. 
 example with a [[docs:block:card|card]] 
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>

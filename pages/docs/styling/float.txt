@@ -37,7 +37,7 @@ A value of:
 
 <note>
   * The value of ''left'' and ''right'' can also be used and are translated by ''start'' and ''end''
-  * When a component is floated on the ''end'' (''right'' in English) without [[styling:spacing|spacing]], we set automatically a margin at the ''start'' (''left'' in English) to give space between the component and the text.
+  * When a component is floated on the ''end'' (''right'' in English) without [[docs:styling:spacing|spacing]], we set automatically a margin at the ''start'' (''left'' in English) to give space between the component and the text.
 </note>
 ===== Example =====
 

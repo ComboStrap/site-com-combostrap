@@ -21,7 +21,7 @@ You can create ''cover'' or ''tile'' background with:
 
 
 
-The ''background area'' is defined as being the content plus the [[styling:spacing|padding]]
+The ''background area'' is defined as being the content plus the [[docs:styling:spacing|padding]]
 
 
 <badge>Since [[release:release#1.13|version 1.13]]</badge>
@@ -62,7 +62,7 @@ where:
 
 <note>
   * If you set more than one background, the first background in the list is the farthest on the stack.
-  * The ''background'' area is the content plus the [[styling:spacing|padding]] but not the margin.
+  * The ''background'' area is the content plus the [[docs:styling:spacing|padding]] but not the margin.
 </note>
 
 
@@ -122,7 +122,7 @@ Example with a ''light gradient'' background.
 
 
 
-If you want to have full gradient customization, you can add a gradient css style in the [[styling:userstyle|userstyle]]
+If you want to have full gradient customization, you can add a gradient css style in the [[docs:styling:userstyle|userstyle]]
 
 The below css style gradient generator may help you in this task.
   * https://gradienta.io/

@@ -23,11 +23,11 @@ This release has brought a old request. ie styling to the [[:identity|identity f
 === Toggle ===
 
   * New: [[docs:animation:toggle|toggle]] allows [[docs:content:link|link]] as control element.
-  * New: You can set the scroll mechanism to [[styling:dimension##toggle_scroll|toggle]] on a [[styling:dimension#height|constrained height box]]. It works also with any [[styling:prism#constrained by height|prism component]] such as [[docs:block:code|code]], [[docs:block:file|file]], [[docs:block:console|console]]
+  * New: You can set the scroll mechanism to [[docs:styling:dimension##toggle_scroll|toggle]] on a [[docs:styling:dimension#height|constrained height box]]. It works also with any [[docs:styling:prism#constrained by height|prism component]] such as [[docs:block:code|code]], [[docs:block:file|file]], [[docs:block:console|console]]
 
 === Styling ===
-  * ''Internal'' and ''Mail'' [[docs:content:link|link]] accepts now all [[styling:styling|styling attribute]] (even [[styling:text-color?color=#495057|text color]])
-  * New: [[styling:underline|underline]] accepts also ''false'' to not decorate a link for instance.
+  * ''Internal'' and ''Mail'' [[docs:content:link|link]] accepts now all [[docs:styling:styling|styling attribute]] (even [[docs:styling:text-color?color=#495057|text color]])
+  * New: [[docs:styling:underline|underline]] accepts also ''false'' to not decorate a link for instance.
 
 ==== Improvement ====
 
@@ -54,4 +54,4 @@ This release has brought a old request. ie styling to the [[:identity|identity f
 
 ==== Minor Modification ====
 
-  * Minor Modification: Due to the [[docs:animation:toggle|toggle]], the [[styling:prism|prism class styling]] have been renamed from ''code-combo-pre'' to ''code-container-combo''
+  * Minor Modification: Due to the [[docs:animation:toggle|toggle]], the [[docs:styling:prism|prism class styling]] have been renamed from ''code-combo-pre'' to ''code-container-combo''

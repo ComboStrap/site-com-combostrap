@@ -27,7 +27,7 @@
 where:
   * attributes are any [[docs:content:typo|typographic attributes]]
 
-Note that the [[styling:text-color|color attribute]] can take all [[styling:color|color values]] and the [[#color|specific text colors]]:
+Note that the [[docs:styling:text-color|color attribute]] can take all [[docs:styling:color|color values]] and the [[#color|specific text colors]]:
       * ''body'': the color of the body
       * ''muted'' : light gray
       * ''black-50'' : 50 black
@@ -37,7 +37,7 @@ Note that the [[styling:text-color|color attribute]] can take all [[styling:colo
 
 ==== Boldness ====
 
-With [[styling:boldness|boldness]]:
+With [[docs:styling:boldness|boldness]]:
 <webcode name="Default" frameborder="0">
   * Input
 <code dw>
@@ -47,7 +47,7 @@ This text is a <itext boldness="black">black text</itext>
 </webcode>
 
 ==== First letter ====
-With the [[styling:font-size|font-size attribute]]
+With the [[docs:styling:font-size|font-size attribute]]
 <webcode name="Default" frameborder="0">
   * Input:
 <code dw>

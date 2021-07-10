@@ -8,7 +8,7 @@
 ====== ComboStrap Styling - Text color ======
 
 ===== About =====
-''text-color'' is a [[docs:content:typo|typographic attributes]] that sets the [[styling:color|color]] of a text.
+''text-color'' is a [[docs:content:typo|typographic attributes]] that sets the [[docs:styling:color|color]] of a text.
 
 
 ===== Syntax =====
@@ -18,7 +18,7 @@ text-color="value"
 <!--- or --->
 color="value"
 </code>
-where ''value'' is one of the [[styling:color#value|accepted color values]]
+where ''value'' is one of the [[docs:styling:color#value|accepted color values]]
 
 
 ===== Example =====

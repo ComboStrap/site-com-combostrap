@@ -15,7 +15,7 @@ ComboStrap
 [[:seo|Search Engine Optimization]]
 [[semantic:semantic|Web Structured Data]]
 [[:social|Social (Twitter, Facebook, Google)]]
-[[styling:styling|Styling]]
+[[docs:styling:styling|Styling]]
 </dropdown>
 [[support|Contact]]
 </group>

@@ -15,7 +15,7 @@ Before ''printing'', ''ComboStrap'' will:
   * download [[docs:performance:lazy|all lazy images]]
 
 
-If you want more control on your elements when printing, you can inject the [[https://getbootstrap.com/docs/5.0/utilities/display/#display-in-print|bootstrap class]] with the [[styling:class|class attribute]]
+If you want more control on your elements when printing, you can inject the [[https://getbootstrap.com/docs/5.0/utilities/display/#display-in-print|bootstrap class]] with the [[docs:styling:class|class attribute]]
 
 ===== Example =====
 

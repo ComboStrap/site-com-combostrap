@@ -71,7 +71,7 @@ It contains most of the UI and functional components such as:
 ''strap'' is the template component that supports the following features:
 
   * [[docs:utility:bootstrap|Last bootstrap version (4)]]
-  * [[styling:bootstrap|Custom Bootstrap Styleshet (create and add your own)]]
+  * [[docs:styling:bootstrap|Custom Bootstrap Styleshet (create and add your own)]]
   * [[docs:performance:cdn|Serve the Bootstrap files by default from a CDN]]
   * Supports [[docs:layout:page:slot|4 slots]] layout
       * [[docs:layout:page:side_slot|Side slot]] (left)
@@ -82,7 +82,7 @@ It contains most of the UI and functional components such as:
   * Support [[semantic:tagline|tagline]]
   * [[docs:layout:component:fixed-top-menu|Fixed-top menubar with automatic top page location correction]]
   * Support a [[docs:navigation:trail_breadcrumb|trailing breadcrumb]]
-  * [[styling:scale|Size Scale configuration (font and spacing)]]
+  * [[docs:styling:scale|Size Scale configuration (font and spacing)]]
   * [[docs:getting_started:4_favicon|Favicon]]: Recognized the [[docs:getting_started:4_favicon|favicons]]  (included ''android-chrome-192x192.png'')
   * [[docs:utility:shortcut]]
 

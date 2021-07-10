@@ -10,9 +10,9 @@
 
 
 ===== About =====
-''shadow'' (known also as ''elevation'') is a [[styling:styling|styling attribute]] that elevates a [[docs:block:block|block]].
+''shadow'' (known also as ''elevation'') is a [[docs:styling:styling|styling attribute]] that elevates a [[docs:block:block|block]].
 
-It adds a ''shadow'' and gives the block more [[styling:emphasis|emphasis]].
+It adds a ''shadow'' and gives the block more [[docs:styling:emphasis|emphasis]].
 
 
 As [[color|color]], it helps prioritizing the components on your page in order to guide the viewer's eyes.
@@ -39,7 +39,7 @@ where the value of the attribute sets the scale height of the elevation
 | ''true'', ''1'' | ''shadow'' | [[#default|Default]] |
 
 <note>
-The '' OnHover animation name'' is the name that can be used to apply a shadow when the mouse [[hover|is over]] an element
+The '' OnHover animation name'' is the name that can be used to apply a shadow when the mouse [[docs:animation:hover|is over]] an element
 . See the [[#on hover|example]]
 </note>
 
@@ -134,7 +134,7 @@ With a [[docs:content:image|image]] and a [[docs:block:box|box]]
 </webcode>
 
 ==== On Hover ====
-You can also apply a shadow [[hover|on hover]] with the [[#syntax|shadow animation name]]
+You can also apply a shadow [[docs:animation:hover|on hover]] with the [[#syntax|shadow animation name]]
 
 Example with a large shadow.
 <webcode name="imgElevation" >

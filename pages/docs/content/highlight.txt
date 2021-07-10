@@ -12,7 +12,7 @@
 ''highlight'' is a [[docs:content:typo|typographic component]] that highlights a sequence of words.
 
 
-''Highlighting'' permits to add [[styling:emphasis|emphasis]] on a couple of words.
+''Highlighting'' permits to add [[docs:styling:emphasis|emphasis]] on a couple of words.
 
 ===== Articles Related =====
 {{backlinks>.}}

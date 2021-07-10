@@ -2,7 +2,7 @@
 
 
 ===== About =====
-''align'' is an [[styling:styling|styling attribute]] of the [[styling:html|HTML superset component]]
+''align'' is an [[docs:styling:styling|styling attribute]] of the [[docs:styling:html|HTML superset component]]
 
 It permits to align a [[#block|block]] on the horizontal axis.
 
@@ -22,7 +22,7 @@ The ''align'' attribute on a box, supports the values:
   * ''right'' or ''end''
 
 <note>
-The content will not flow along the box, if you want this behavior, you need to use the [[styling:float|float attribute]]
+The content will not flow along the box, if you want this behavior, you need to use the [[docs:styling:float|float attribute]]
 </note>
 ===== Example =====
 
@@ -48,7 +48,7 @@ As every block by default takes the whole available [[dimension|width]], you nee
 <note>
 === Text ===
 
-To align the text inside a [[docs:block:block|block component]], you use the [[styling:text-align|text-align attribute]].
+To align the text inside a [[docs:block:block|block component]], you use the [[docs:styling:text-align|text-align attribute]].
 
 </note>
 

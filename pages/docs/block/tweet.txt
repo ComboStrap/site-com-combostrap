@@ -39,7 +39,7 @@ The parameters that you can set as attribute of the [[blockquote|blockquote tag]
 | cards | hidden | | links in a Tweet are not expanded to photo, video, or link previews |
 | conversation | none | | if set, only the cited Tweet will be displayed even if it is in reply to another Tweet |
 | theme | light/dark | [[#theme|light]] | Displays Tweet in their [[#theme]] |
-| width | 250-550px | 550px | same as [[styling:dimension|width]] (maximum width of the rendered Tweet in whole pixels) |
+| width | 250-550px | 550px | same as [[docs:styling:dimension|width]] (maximum width of the rendered Tweet in whole pixels) |
 | align | left, right, or center | center | Float the Tweet | 
 | dnt | true/false | true | dont not track (dnt) ([[https://developer.twitter.com/en/docs/twitter-for-websites/privacy|privacy]])|
 

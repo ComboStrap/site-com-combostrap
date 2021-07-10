@@ -34,7 +34,7 @@ where:
 
 
 <note>
-You can use all [[styling:styling|styling attributes]].
+You can use all [[docs:styling:styling|styling attributes]].
 </note>
 
 
@@ -65,7 +65,7 @@ The combostrap grid will layout nicely your cells uniformly on the horizontal. T
 
 
 <note tip>
-As you can see, the dimension of the the cells are not uniform, this is why the [[styling:background|background]] is never used inside a grid.
+As you can see, the dimension of the the cells are not uniform, this is why the [[docs:styling:background|background]] is never used inside a grid.
 </note>
 
 ==== Card with a media ====
@@ -73,7 +73,7 @@ You can also use the grid in a [[docs:block:card|card]] to create all sort of la
 
 Example of a card:
   * with an [[docs:content:image|image]] on the left
-  * completly [[styling:clickable|clickable]] 
+  * completly [[docs:styling:clickable|clickable]] 
 
 <webcode name="Default" frameborder="0">
 <code dw>

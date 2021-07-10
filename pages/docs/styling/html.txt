@@ -41,7 +41,7 @@ where:
 Every component implements also a set of [[styling|styling attributes]]
 
 Example: 
-  * The tree [[styling:color|colors attributes]] can be passed natively. You can write:
+  * The tree [[docs:styling:color|colors attributes]] can be passed natively. You can write:
 <code dw>
 <component color="blue">
 </code>
@@ -49,12 +49,12 @@ Example:
 <code dw>
 <component width="100px">
 </code>
-  * [[styling:styling|More  ? See the styling attributes]]
+  * [[docs:styling:styling|More  ? See the styling attributes]]
 
 ==== HTML ====
 
 All HTML attributes are supported on every component and in particularly, you may use the:
   * [[class|class]]
-  * [[styling:style|style]]
+  * [[docs:styling:style|style]]
 for [[styling#advanced|advanced styling]]
 

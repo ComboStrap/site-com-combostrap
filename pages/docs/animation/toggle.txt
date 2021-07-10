@@ -16,7 +16,7 @@
 This effect is also already automatically added:
   * in the [[docs:layout:component:accordion|accordion]]
   * in the [[docs:layout:component:tabs|tabs]]
-  * in a [[styling:dimension|constrained by height component]] (with the toggle scroll mechanism)
+  * in a [[docs:styling:dimension|constrained by height component]] (with the toggle scroll mechanism)
 </note>
 ===== Example =====
 

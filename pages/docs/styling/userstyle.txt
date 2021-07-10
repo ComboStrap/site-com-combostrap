@@ -18,14 +18,14 @@ More see [[doku>devel:css#user_styles]]
 ===== Class =====
 
 
-Every component got two generated [[styling:class|class]] 
+Every component got two generated [[docs:styling:class|class]] 
 
 <code>
 element-combo
 element-type-combo
 </code>
 
-For instance, for a [[docs:content:badge|badge]] with the [[styling:type|type]] ''primary'', you will get the [[class|class]]:
+For instance, for a [[docs:content:badge|badge]] with the [[docs:styling:type|type]] ''primary'', you will get the [[class|class]]:
 <code>
 badge-combo
 badge-primary-combo

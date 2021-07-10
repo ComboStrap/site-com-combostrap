@@ -18,7 +18,7 @@ The ''border'' is the line that delimits the [[docs:block:block|block components
 ===== Attribute =====
 
 ==== border-color ====
-Every [[docs:block:block|block component]] will react to the [[styling:styling|styling attribute]] ''border-color'' that sets the [[color|color]] of their border.
+Every [[docs:block:block|block component]] will react to the [[docs:styling:styling|styling attribute]] ''border-color'' that sets the [[color|color]] of their border.
 
 
 Example with the generic [[docs:block:box|box]]

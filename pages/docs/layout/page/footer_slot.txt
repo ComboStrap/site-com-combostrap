@@ -19,7 +19,7 @@ It's also known as a ''fat footer'' and contains information about the web site.
 With:
   * two columns in one row of the [[docs:layout:component:grid|grid]]
   * inside a [[docs:layout:component:container|container]] to limit the horizontal space
-  * inside a [[docs:utility:footer|footer]] to style the background with a [[styling:color#gradient|gradient color]] and a little bit of [[styling:spacing|spacing]]
+  * inside a [[docs:utility:footer|footer]] to style the background with a [[docs:styling:color#gradient|gradient color]] and a little bit of [[docs:styling:spacing|spacing]]
 
 
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >

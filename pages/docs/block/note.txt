@@ -32,7 +32,7 @@ where:
 
 
 <note info>
-A note is a [[styling:html|superset HTML syntax]]
+A note is a [[docs:styling:html|superset HTML syntax]]
 </note>
 
 <note tip>
@@ -91,7 +91,7 @@ Too much sport is not good for your health
 ===== Custom Styling =====
 
 ==== Style ====
-With the [[styling:style|style attribute]]:
+With the [[docs:styling:style|style attribute]]:
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <note type="warning" style="width:60%">
@@ -103,7 +103,7 @@ Too little sport is not good for your health
 
 ==== Horizontal Centering====
 
-With the [[styling:align|align attribute]]
+With the [[docs:styling:align|align attribute]]
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <note type="info" align="center" width="200px">

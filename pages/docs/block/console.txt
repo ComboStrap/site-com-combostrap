@@ -9,7 +9,7 @@
 
 
 ===== About =====
-The ''console'' component is just a semantic layer above the [[styling:prism|prism component]].
+The ''console'' component is just a semantic layer above the [[docs:styling:prism|prism component]].
 
 It's to indicate that this is the  output of a command line (and not a file).
 
@@ -30,9 +30,9 @@ drwxrwx---  4 www-user www-user   30 Jun 10  2020 authmysql
 {{backlinks>.}}
 
 ===== Syntax =====
-This is a [[styling:prism|Prism component]] and follows its [[styling:prism#syntax]]
+This is a [[docs:styling:prism|Prism component]] and follows its [[docs:styling:prism#syntax]]
 
-See [[styling:prism#syntax|prism syntax]]
+See [[docs:styling:prism#syntax|prism syntax]]
 
 
 
@@ -46,8 +46,8 @@ See [[styling:prism#syntax|prism syntax]]
 ==== Theme ====
 
 This component:
-  * gets the [[styling:prism|theme]]  chosen
-  * and all [[styling:userstyle|userstyle]] applied to the elements ''pre'' and ''code'' with the class ''combo_console''
+  * gets the [[docs:styling:prism|theme]]  chosen
+  * and all [[docs:styling:userstyle|userstyle]] applied to the elements ''pre'' and ''code'' with the class ''combo_console''
 
 
 Example:

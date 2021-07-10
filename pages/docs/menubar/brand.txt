@@ -22,7 +22,7 @@ Company
 </webcode>
 
 ==== Icon ====
-With an embbedded [[docs:content:icon|icon]] and some [[styling:styling|styling]]
+With an embbedded [[docs:content:icon|icon]] and some [[docs:styling:styling|styling]]
 <webcode name="icon" >
   * Input:
 <code dw>

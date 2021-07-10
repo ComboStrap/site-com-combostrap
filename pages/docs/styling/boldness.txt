@@ -6,7 +6,7 @@
 ====== ComboStrap Styling - Boldness (Font Weight) ======
 
 ===== About =====
-''boldness'' is a [[docs:content:typo|typographic effect]] that sets the [[styling:font|font]] weight. It defines the width of a character outlines relative to its height.
+''boldness'' is a [[docs:content:typo|typographic effect]] that sets the [[docs:styling:font|font]] weight. It defines the width of a character outlines relative to its height.
 ===== Syntax =====
 
 ==== Double Star ====

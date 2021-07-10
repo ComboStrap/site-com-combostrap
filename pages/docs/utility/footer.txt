@@ -13,7 +13,7 @@ It's generally used in the [[docs:layout:page:footer_slot|footerbar]] of the [[:
 {{backlinks>.}}
 
 ===== Syntax =====
-''footer'' is a [[styling:html|superser HTML element]] and takes therefore into account all [[styling:styling|styling attributes such as class and style]].
+''footer'' is a [[docs:styling:html|superser HTML element]] and takes therefore into account all [[docs:styling:styling|styling attributes such as class and style]].
 <code dw>
 <footer> </footer>
 </code>

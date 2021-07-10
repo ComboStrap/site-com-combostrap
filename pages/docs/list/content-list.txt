@@ -18,7 +18,7 @@ A ''content-list'' is a [[docs:docs|component]] that lay out continuous, vertica
 {{backlinks>.}}
 
 ===== Syntax =====
-''content-list'' is a [[styling:html|HTML superset component]] that layouts a serie of [[docs:layout:component:grid|row]]
+''content-list'' is a [[docs:styling:html|HTML superset component]] that layouts a serie of [[docs:layout:component:grid|row]]
 
 <code dw>
 <content-list type>
@@ -27,7 +27,7 @@ A ''content-list'' is a [[docs:docs|component]] that lay out continuous, vertica
     </row>
 </list>
 </code>
-where the [[styling:type|type]] may be:
+where the [[docs:styling:type|type]] may be:
   * ''box'' (Default)
   * ''flush'' - to get a cleaner separation by removing borders and rounded corners 
 

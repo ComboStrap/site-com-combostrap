@@ -12,8 +12,8 @@ First [[..:release|release]] 1.0 from 2020-07-04
 ===== Changes =====
 
   * The [[docs:performance:frontend_optimization|CSS optimizer]] was added
-  * The [[docs:content:button|button link]] takes now into account the [[styling:color|color attributes]] of its button parent.
-  * All [[docs:docs|UI components]] support now the [[styling:styling|styling attributes]]
+  * The [[docs:content:button|button link]] takes now into account the [[docs:styling:color|color attributes]] of its button parent.
+  * All [[docs:docs|UI components]] support now the [[docs:styling:styling|styling attributes]]
   * The [[docs:block:note|note component]] was created
   * The [[docs:content:icon|icon component]] was created
   * The [[url:page_rules|page rules admin interface]] was created

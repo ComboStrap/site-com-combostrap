@@ -21,7 +21,7 @@
 
 ==== Internal ====
 
-An ''internal'' link is a link to another page. If the target page does not exist, the link is shown in ''red''. You can even use the [[styling:styling|styling attributes]]
+An ''internal'' link is a link to another page. If the target page does not exist, the link is shown in ''red''. You can even use the [[docs:styling:styling|styling attributes]]
 
   * Example:
 <webcode name="Default" frameborder=0>
@@ -126,9 +126,9 @@ An [[docs:content:icon|icon]] can be used to get a compelling visual.
 
 ==== Attributes ====
 
-An [[#internal|Internal]] or [[#email|email]] link can be styled with the [[styling:styling|styling attributes]].
+An [[#internal|Internal]] or [[#email|email]] link can be styled with the [[docs:styling:styling|styling attributes]].
 
-Example with the [[styling:text-color#reset|reset color]] and [[styling:underline|underline]].
+Example with the [[docs:styling:text-color#reset|reset color]] and [[docs:styling:underline|underline]].
 <webcode name="Default" frameborder="0">
   * Input
 <code dw>
@@ -142,11 +142,11 @@ Colored text with a [[link#styling|native link]]
 </webcode>
 
 ==== Stretchable ====
-You can also stretch a link and make the whole parent clickable with the [[styling:clickable|clickable styling attribute]].
+You can also stretch a link and make the whole parent clickable with the [[docs:styling:clickable|clickable styling attribute]].
 ===== Configuration =====
 
 ==== useDokuwikiLinkClassName ====
-[[doku>|Dokuwiki]] sets class names (''wikilink1'',''wikilink2'',''urlextern'',...) on the link to differentiate them. Unfortunately, this class names have styling rules that are in conflict with [[styling:bootstrap|Bootstrap]].
+[[doku>|Dokuwiki]] sets class names (''wikilink1'',''wikilink2'',''urlextern'',...) on the link to differentiate them. Unfortunately, this class names have styling rules that are in conflict with [[docs:styling:bootstrap|Bootstrap]].
 
 To resolve this issue, we have set other class name by link type that a web designer can use to style the links.
 

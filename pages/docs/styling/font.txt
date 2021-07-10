@@ -13,8 +13,8 @@ The fonts used are the default system font of the target system. They are design
 They are known as  ''native font stack'' or ''system font stack''.
 
 The following attributes permits to change the font rendering:
-  * [[styling:font-size]]
-  * [[styling:boldness]]
+  * [[docs:styling:font-size]]
+  * [[docs:styling:boldness]]
 
 
 ===== List =====
