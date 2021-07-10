@@ -13,7 +13,7 @@ This page is an ''HowTo'' that shows you how to choose and install a favicon and
 
 ===== Steps =====
 ==== Choosing a icon logo ====
-You can design your own logo but you can also be inspired by [[docs:semantic:logo#collection|collection of logo]]
+You can design your own logo but you can also be inspired by [[docs:app:logo#collection|collection of logo]]
 
 
 In our case we have chosen an icon directly from https://materialdesignicons.com/
@@ -37,7 +37,7 @@ In our case we have chosen an icon directly from https://materialdesignicons.com
       * ''favicon-32x32.png''
       * ''favicon-16x16.png''
       * ''apple-touch-icon.png''
-      * ''android-chrome-192x192.png'' (used in the [[docs:utility:manifest|manifest]])
+      * ''android-chrome-192x192.png'' (used in the [[docs:app:manifest|manifest]])
 
 Example:
 
@@ -49,7 +49,7 @@ Example:
 
 {{::dokuwik_logo_svg_media.png|}}
 
-To see where and how you can use your logo, see the [[docs:semantic:logo|logo page]].
+To see where and how you can use your logo, see the [[docs:app:logo|logo page]].
 
 ==== Create the facebook default ====
 

@@ -2,7 +2,7 @@
 
 
 ===== About =====
-Because all [[docs:docs|ComboStrap UI component]] are implemented as [[html|super set HTML element]], you can apply the ''class attributes''.
+Because all [[docs:docs|ComboStrap UI component]] are implemented as [[..:marki|super set HTML element]], you can apply the ''class attributes''.
 
 The ''class'' attribute is used intensively by [[docs:utility:bootstrap|Bootstrap]] to apply the [[https://getbootstrap.com/docs/4.0/utilities/|Bootstrap Utilities]].
 

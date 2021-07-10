@@ -44,7 +44,7 @@ where:
   * ''header'' defines a label placed at the top of the card
 
 A ''card'':
-  * is a [[docs:styling:html|superset HTML component]] and permits then all kind of [[docs:styling:styling|styling]]
+  * is a [[docs:marki|superset HTML component]] and permits then all kind of [[docs:styling:styling|styling]]
   * can be laid out in tile with the [[docs:layout:component:card_column|card-columns]] component
 
 <inote>A [[docs:block:blockquote|blockquote]] is also logically a card that happens to have an external quote in its body.</inote>
@@ -101,7 +101,7 @@ This pages are talking about this subject:
 
 ==== A card may be styled ====
 
-Because a ''card'' is a [[docs:styling:html|HTML superset component]], you can style it as you wish.
+Because a ''card'' is a [[docs:marki|HTML superset component]], you can style it as you wish.
 
 
 <webcode name="Styled Card"  >

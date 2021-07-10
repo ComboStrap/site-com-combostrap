@@ -36,7 +36,7 @@ You need to set a configuration to prevent it. See [[conf]]
 where ''adsFileName'' is the name of the [[page|ad page]].
 
 <note info>
-The ''ad'' component is a [[docs:styling:html|superset HTML component]] and you can style it as you want.
+The ''ad'' component is a [[docs:marki|superset HTML component]] and you can style it as you want.
 </note>
 
 ===== Configuration =====

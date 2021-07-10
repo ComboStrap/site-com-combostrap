@@ -9,7 +9,7 @@
 
 
 ===== About =====
-''type'' is the first [[styling|attribute]] of [[html|the combostrap marki syntax]].
+''type'' is the first [[styling|attribute]] of [[..:marki|the combostrap marki syntax]].
 
 The default behavior of a ''type'' is to change the style.
 

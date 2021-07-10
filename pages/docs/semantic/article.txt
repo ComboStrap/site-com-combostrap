@@ -68,7 +68,7 @@ When a page gets the ''article'' [[type|type]], the below properties are automat
 | ''headline'' | ''title'' | The headline of the article (ie the first 110 characters of the [[title|title]]) |
 | Na | ''description'' | The [[description|description]] of the article  |
 | ''publisher.name'' | Na | The name of the publisher (the [[doku>config:title|dokuwiki wiki title configuration]]) |
-| ''publisher.logo.url'' | Na | The URL of the [[logo|logo]] |
+| ''publisher.logo.url'' | Na | The URL of the [[..:app:logo|logo]] |
 | ''image'' | ''image'' | Image that belongs to the article (The [[#image|page image]]) |
 
 

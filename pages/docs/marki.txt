@@ -1,10 +1,7 @@
-====== ComboStrap Styling - Marki (HTML super set) ======
+====== ComboStrap Styling - Marki Language ======
 
 ===== About =====
-
-The [[docs:docs|UI ComboStrap components]] are all super set tag of the ''HTML'' language. 
-
-They follow the same rules and you may then use them as every HTML element.
+''ComboStrap'' implements in most of its components the ''marki'' language. It's a simplified version of the ''HTML'' language and follows the same rules.
 
 Below, we describe the [[#syntax]], they all have in common.
 
@@ -15,14 +12,14 @@ Below, we describe the [[#syntax]], they all have in common.
 
 
 ===== Syntax =====
-Every [[docs:docs|UI component]] follows the following syntax
+Every marki component follows this syntax
 <code dw>
 <component type name1="value1" ... nameN="valueN" >
 <!-- content -->
 </component>
 </code>
 where:
-  * ''type'' is the [[type|type of component]]. Not every component has a type but if it's the case, you don't need to set a name for it.
+  * ''type'' is the [[.styling:type|type of component]]. Not every component has a type but if it's the case, you don't need to set a name for it.
   * ''nameX="valueX"'' are attributes that may be:
       * specific to this component
       * the [[#styling|styling attributes]]
@@ -38,7 +35,7 @@ where:
 
 
 ==== Styling ====
-Every component implements also a set of [[styling|styling attributes]]
+Every component implements also a set of [[.styling:styling|styling attributes]]
 
 Example: 
   * The tree [[docs:styling:color|colors attributes]] can be passed natively. You can write:
@@ -54,7 +51,7 @@ Example:
 ==== HTML ====
 
 All HTML attributes are supported on every component and in particularly, you may use the:
-  * [[class|class]]
+  * [[.styling:class|class]]
   * [[docs:styling:style|style]]
-for [[styling#advanced|advanced styling]]
+for [[.styling:styling#advanced|advanced styling]]
 

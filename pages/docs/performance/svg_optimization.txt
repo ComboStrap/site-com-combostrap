@@ -5,7 +5,7 @@
     "description":"ComboStrap optimizes by default all SVG making them smaller without losing any quality."
 }
 ---
-====== ComboStrap Svg Optimization ======
+====== ComboStrap - Svg Optimization ======
 
 ===== About =====
 ''Svg Optimization'' is the reduction of the [[docs:content:svg|svg file]] size by deleting unneeded information without losing any quality.
@@ -29,7 +29,7 @@ The implemented rules are:
   * Remove width and height if they have the same value than the viewBox
   * Remove XML header such as
 <code xml>
-'<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 </code>
   * Remove doctype such as:
 <code xml>

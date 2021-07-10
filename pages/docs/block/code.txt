@@ -33,7 +33,7 @@ If you want to shows the output of web language such as HTML, Css or Javascript,
 
 ==== HTML Super Set ====
 
-A ''code block'' can be expressed as a [[docs:styling:html|HTML super set component]] 
+A ''code block'' can be expressed as a [[docs:marki|HTML super set component]] 
 
 Example:
 <file html>

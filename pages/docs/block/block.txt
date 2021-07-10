@@ -1,4 +1,4 @@
-====== ComboStrap UI - Block Components ======
+====== ComboStrap UI - Components ======
 
 
 ===== About =====

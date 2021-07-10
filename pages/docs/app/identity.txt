@@ -48,7 +48,7 @@ The ''profile'' page has two forms:
   * an ''update'' form to update the user information
   * a ''delete'' form to delete the account
 
-For the ''update'' form, with the [[doku>config:profileconfirm]] [[configuration|configuration]], you can require that a user confirm their current password in order to update their profile.
+For the ''update'' form, with the [[doku>config:profileconfirm]] [[:configuration|configuration]], you can require that a user confirm their current password in order to update their profile.
 ===== Configuration =====
 
 ==== Logo ====
@@ -57,7 +57,7 @@ The ''enableLogoOnIdentityForms'' permits to enable or disable the rendering of 
 ==== Enable / Disable Forms ====
 All forms are disabled, if the [[doku>acl|acl module]] is disabled.
 
-You can also if you want to get back to the original forms, disable the rendering of the forms individually with the following [[configuration|configuration]]:
+You can also if you want to get back to the original forms, disable the rendering of the forms individually with the following [[:configuration|configuration]]:
   * ''enableLoginForm''
   * ''enableRegistrationForm''
   * ''enableResendPwdForm''

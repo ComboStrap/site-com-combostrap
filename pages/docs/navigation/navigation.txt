@@ -4,7 +4,7 @@
 }
 ---
 
-====== ComboStrap UI - Navigational Components ======
+====== ComboStrap UI - Navigation ======
 
 
 ===== About =====
@@ -15,7 +15,7 @@
 
 [[docs:docs|ComboStrap UI]] get the following component in its library.
 
-==== Layout Component ====
+==== Block Component ====
 
 
   * [[docs:navigation:breadcrumb]] : A list of pages shown in a [[docs:navigation:hierarchical_breadcrumb|hierarchical]] or [[docs:navigation:trail_breadcrumb|trail]]  way.

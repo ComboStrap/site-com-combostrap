@@ -17,7 +17,7 @@ As a replacement, you could also use:
 <inote type>
 </code>
 
-A ''inote'' is a [[docs:styling:html|superset HTML component]].
+A ''inote'' is a [[docs:marki|superset HTML component]].
 ===== Example =====
 
 ==== Default ====

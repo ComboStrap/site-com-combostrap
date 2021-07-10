@@ -32,7 +32,7 @@ where:
 
 
 <note info>
-A note is a [[docs:styling:html|superset HTML syntax]]
+A note is a [[docs:marki|superset HTML syntax]]
 </note>
 
 <note tip>

@@ -25,10 +25,10 @@ To create a page on your website that contains your organization  information su
 
 Combostrap will then add the following properties:
   * ''url'': the base url
-  * ''logo'': the [[logo|logo]]
+  * ''logo'': the [[..:app:logo|logo]]
   * ''name'': the [[doku>config:title|site title]]
   * ''slogan'': the [[tagline|tagline]]
-  * the [[twitter|twitter]] url if the handle is known
+  * the [[..:social:twitter|twitter]] url if the handle is known
   * the [[..:social:facebook|facebook]] url if the handle is known
 
 ===== How to add extra properties =====

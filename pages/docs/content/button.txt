@@ -93,7 +93,7 @@ where:
 
 
 <note tip>
-The ''button'' component is a fully [[docs:styling:html|super set HTML component]] and can therefore by [[docs:styling:styling|styled]] as you wish
+The ''button'' component is a fully [[docs:marki|super set HTML component]] and can therefore by [[docs:styling:styling|styled]] as you wish
 </note>
 
 

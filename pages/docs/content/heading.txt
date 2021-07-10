@@ -80,7 +80,7 @@ This is:
 
 ==== HTML Super Set ====
 
-''heading'' is a [[docs:styling:html|Super set HTML component]] and therefore, you can then apply all [[docs:styling:styling|styling attributes]].
+''heading'' is a [[docs:marki|Super set HTML component]] and therefore, you can then apply all [[docs:styling:styling|styling attributes]].
 
 <code dw>
 <heading type>

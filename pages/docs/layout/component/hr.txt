@@ -29,7 +29,7 @@ You can add a horizontal rule with four or more dashes.
 </webcode>
 
 ==== Super Set HTML ====
-We supports also the horizontal rule in a [[docs:styling:html|super set HTML syntax]].
+We supports also the horizontal rule in a [[docs:marki|super set HTML syntax]].
 
   * via the ''html''
 <code html>
@@ -53,7 +53,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 </webcode>
 ==== Super HTML ====
  
-As ''hr'' is a [[docs:styling:html|superset HTML component]], you can use all [[docs:styling:styling|styling attributes]] such as [[docs:styling:spacing|spacing]]
+As ''hr'' is a [[docs:marki|superset HTML component]], you can use all [[docs:styling:styling|styling attributes]] such as [[docs:styling:spacing|spacing]]
 <webcode name="Default" >
 <code dw>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
