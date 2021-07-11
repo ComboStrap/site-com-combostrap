@@ -2,7 +2,7 @@
 
 
 ===== About =====
-''related'' is a [[docs:docs|ComboStrap UI component]] that shows the [[kb>backlink|backlinks]] of a page ordered by their importance.
+''related'' is a [[docs:component|ComboStrap UI component]] that shows the [[kb>backlink|backlinks]] of a page ordered by their importance.
 
 
 The more backlinks has a page, the more important it is.

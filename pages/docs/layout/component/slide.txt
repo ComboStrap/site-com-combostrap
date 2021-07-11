@@ -8,7 +8,7 @@
 ====== ComboStrap UI - Slide ======
 
 ===== About =====
-A ''slide'' is an [[docs:docs|ui component]] that divides a page in horizontal region through the use of [[docs:styling:background|background]] (and therefore without any [[docs:styling:spacing|margin]]).
+A ''slide'' is an [[docs:component|ui component]] that divides a page in horizontal region through the use of [[docs:styling:background|background]] (and therefore without any [[docs:styling:spacing|margin]]).
 
 They are mainly used in landing page where they separate and add contrast between region.
 
@@ -42,7 +42,7 @@ where:
   * ''background'' is the optional [[docs:styling:background|background definition]]
 
 <note>
-This is also an [[docs:styling:html|super HTML component]] and accepts therefore all [[docs:styling:styling|styling attributes]]
+This is also an [[docs:marki|super HTML component]] and accepts therefore all [[docs:styling:styling|styling attributes]]
 </note>
 ===== Example =====
 

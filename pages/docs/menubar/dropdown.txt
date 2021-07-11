@@ -1,7 +1,7 @@
 ====== ComboStrap UI - Dropdown ======
 
 ===== About =====
-''dropdown'' is a [[docs:docs|component]] that shows a ''dropdown menu''.
+''dropdown'' is a [[docs:component|component]] that shows a ''dropdown menu''.
 
 It must be placed inside a [[docs:menubar:group|group]] element of the [[docs:menubar:menubar|menubar]] that you will find at the top of your page in a [[docs:layout:page:header_slot|header slot]]
 

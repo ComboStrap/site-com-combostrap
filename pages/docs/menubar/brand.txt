@@ -1,7 +1,7 @@
 ====== ComboStrap UI - Brand ======
 
 ===== About =====
-''brand'' is a [[docs:docs|component]] that goes generally in the left side of the [[docs:menubar:menubar|menubar]]. 
+''brand'' is a [[docs:component|component]] that goes generally in the left side of the [[docs:menubar:menubar|menubar]]. 
 
 It highlights and helps styling the ''brand'' depicted as text and/or [[docs:content:icon|icon]] and adds a [[docs:content:link|link]] to your home page.
 

@@ -15,7 +15,7 @@
 {{backlinks>.}}
 
 ===== Syntax =====
-A ''tooltip'' is a [[docs:docs|UI component]] that wraps the element where the ''tooltip'' should be attached
+A ''tooltip'' is a [[docs:component|UI component]] that wraps the element where the ''tooltip'' should be attached
 <code dw>
 <tooltip position="top" text="tooltip content">
 The tooltip target 

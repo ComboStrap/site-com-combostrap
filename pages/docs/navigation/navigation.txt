@@ -13,7 +13,7 @@
 
 ===== List =====
 
-[[docs:docs|ComboStrap UI]] get the following component in its library.
+[[docs:component|ComboStrap UI]] get the following component in its library.
 
 ==== Block Component ====
 

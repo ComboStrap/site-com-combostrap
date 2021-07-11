@@ -92,7 +92,7 @@ The [[docs:layout:component:slide|slide component]] gets responsive x margin. Us
   * The [[docs:content:icon|icon component]] accepts any length unit (such as rem) and [[docs:styling:spacing|padding]] was disabled because it makes the icon invisible.
   * The icon attached to the configuration is no more downloaded but included to the page and cached leading to a big performance gain.
 ==== HTML Super set ====
-In [[docs:styling:html|html super set language]], this is no more needed for an attribute:
+In [[docs:marki|html super set language]], this is no more needed for an attribute:
       * to set a value if the value is true, 
       * to enclose the value between between quotes if the value does not contain any spaces.
 ==== Webcode ====
@@ -111,7 +111,7 @@ To improve the glossary, the template ''bar'' has been renamed to [[docs:layout:
 Every template perfect: A bootstrap and [[:strap|strap]] template is no longer mandatory. If [[docs:utility:bootstrap|Bootstrap]] is not found, it will be added. The css of the template may conflict. This is the case for instance with the default Dokuwiki. In a button, this template sets the color of ''a:link'' and ''a:visited'' that takes precedence over the white text color and the text in the button is therefore not displayed. You need then to set the [[docs:styling:color|text color]] to ''white'' for each primary button.
 
 ==== Brand ====
-[[docs:menubar:brand|brand]] is now a [[docs:styling:html|superset html component]] and allows all styling.
+[[docs:menubar:brand|brand]] is now a [[docs:marki|superset html component]] and allows all styling.
 
 ==== Grid ====
 

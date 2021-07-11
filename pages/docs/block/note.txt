@@ -8,7 +8,7 @@
 
 
 ===== About =====
-''note'' is a [[docs:docs|ComboStrap UI component]] that shows a text that is parenthetic or ancillary to the main text.
+''note'' is a [[docs:component|ComboStrap UI component]] that shows a text that is parenthetic or ancillary to the main text.
 
 ===== Articles Related =====
 {{backlinks>.}}

@@ -12,7 +12,7 @@
 
 
 ===== About =====
-Every [[docs:docs|ComboStrap UI component]] can be colorized with one of the following color attributes
+Every [[docs:component|ComboStrap UI component]] can be colorized with one of the following color attributes
   * [[text-color|text-color]] : The color of the text
   * [[background#color|background-color]] : The color of the [[background|background]]
   * [[border#color|border-color]] : The color of the [[border|border]]

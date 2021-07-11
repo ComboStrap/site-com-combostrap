@@ -11,7 +11,7 @@
 ===== About =====
 ''Content'' are components that permits to create the content of page and/or a [[docs:block:block|block component]]. 
 
-[[docs:docs|ComboStrap UI]] gets the following content components in its library:
+[[docs:component|ComboStrap UI]] gets the following content components in its library:
 
   * [[docs:content:badge|Badge]]: A badge
   * [[docs:content:button|Button (btn)]]: A button (they are generally set apart on their own line)

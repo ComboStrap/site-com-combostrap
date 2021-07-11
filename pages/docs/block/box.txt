@@ -7,7 +7,7 @@
 
 
 ===== About =====
-A ''box'' is a component that permits to contain other [[docs:docs|components]].
+A ''box'' is a component that permits to contain other [[docs:component|components]].
 
 This is useful to:
   * define the elements that should [[docs:menubar:collapse|collapse]]

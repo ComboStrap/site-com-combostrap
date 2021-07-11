@@ -56,7 +56,7 @@ The website can then be versioned:
 
 
 It contains most of the UI and functional components such as:
-  * the [[docs:docs|UI Components]]
+  * the [[docs:component|UI Components]]
   * the [[docs:url:url|Url Manager]]
   * the [[docs:semantic:semantic|Web Structured Data and Social Sharing]]
   * the [[docs:performance:frontend_optimization|frontend optimizer]]

@@ -9,13 +9,13 @@
 
 
 ===== About =====
-This release has brought a old request. ie styling to the [[:identity|identity forms]] and many more bug fix and improvment.
+This release has brought a old request. ie styling to the [[docs:app:identity|identity forms]] and many more bug fix and improvment.
 
 ===== List =====
 
 ==== New ====
 === Identify forms ===
-[[:identity|Identify forms]]
+[[docs:app:identity|Identify forms]]
   * New: login form
   * New register form
   * New resend form 

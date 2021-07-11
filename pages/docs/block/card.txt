@@ -85,7 +85,7 @@ A example taken from [[https://getbootstrap.com/docs/4.3/components/card/#exampl
 
 ==== A card may include other dokuwiki syntax ====
 
-''Card'' may include other [[docs:docs|component]]. Example with [[docs:navigation:related|related]]
+''Card'' may include other [[docs:component|component]]. Example with [[docs:navigation:related|related]]
 
 
 <webcode name="Card2" frameborder=0>

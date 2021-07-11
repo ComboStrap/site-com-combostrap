@@ -46,7 +46,7 @@ where:
 
 
 <note >
-''page-explorer'', ''home'', ''page'', ''parent'' and ''namespace'' are all [[docs:styling:html|superset HTML component]].
+''page-explorer'', ''home'', ''page'', ''parent'' and ''namespace'' are all [[docs:marki|superset HTML component]].
 </note>
 
 

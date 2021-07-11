@@ -167,7 +167,7 @@ My Blockquote With Citation
 
 ====  Blockquote with other components (Math) ====
 
-A card blockquote accepts any other [[docs:docs|components]] 
+A card blockquote accepts any other [[docs:component|components]] 
 
 
 Example with [[math|Math]]

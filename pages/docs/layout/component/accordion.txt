@@ -10,7 +10,7 @@
 
 
 ===== About =====
-''accordion'' is a [[docs:docs|UI component]] that [[docs:layout:component:component|lays out]] [[docs:layout:component:panel|panels]] in an accordion fashion that [[docs:animation:toggle|toggle (collapse or expand)]] when clicked.
+''accordion'' is a [[docs:component|UI component]] that [[docs:layout:component:component|lays out]] [[docs:layout:component:panel|panels]] in an accordion fashion that [[docs:animation:toggle|toggle (collapse or expand)]] when clicked.
 
 
 <note tip>

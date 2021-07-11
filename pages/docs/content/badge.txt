@@ -8,7 +8,7 @@
 
 
 ===== About =====
-''badge'' is a [[docs:docs|ComboStrap UI component]] that shows a small status descriptors such as:
+''badge'' is a [[docs:component|ComboStrap UI component]] that shows a small status descriptors such as:
   * a count
   * or a label
 

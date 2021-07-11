@@ -42,6 +42,6 @@ More ... see the [[docs:menubar:menubar|menu bar page]]
 In the same way, you can also create a [[docs:layout:page:footer_slot|footer slot]].
 
 Then you can:
-  * Check the [[docs:docs|UI Components]]
+  * Check the [[docs:component|UI Components]]
   * Learn about [[docs:url:url|URL Management and redirections]]
   * Have a look at the [[docs:seo|SEO page]]

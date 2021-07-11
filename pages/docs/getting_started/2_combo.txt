@@ -4,7 +4,7 @@
 [[:combostrap|combo]] is a bundle of components that complements the [[:strap|strap template]].
 
 It contains:
-  * the [[docs:docs|collection of UI component]]
+  * the [[docs:component|collection of UI component]]
   * the [[docs:url:url|Url Manager]]
   * the [[docs:semantic:semantic|Page Metadata]]
   * the [[docs:seo|SEO module]]

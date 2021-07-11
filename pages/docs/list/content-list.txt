@@ -7,7 +7,7 @@
 ====== ComboStrap UI - Content List ======
 
 ===== About =====
-A ''content-list'' is a [[docs:docs|component]] that lay out continuous, vertical lines where each line is composed of a content created from:
+A ''content-list'' is a [[docs:component|component]] that lay out continuous, vertical lines where each line is composed of a content created from:
   - a visual (icon or image)
   - a text
   - and or meta information.

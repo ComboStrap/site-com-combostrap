@@ -11,7 +11,7 @@
 ===== About =====
 
 ===== List =====
-  * The [[:identity|identity forms]] ''update profile'' and ''delete profile'' are now also styled.
+  * The [[docs:app:identity|identity forms]] ''update profile'' and ''delete profile'' are now also styled.
   * [[docs:styling:align|Align]] understand now ''start'' and ''end'' to make page [[docs:semantic:lang##rtlright_to_left_language|LTR or RTL language ready]].
   * Improvement: Added the page on the error message. The error messages may be created in the background and are then not always relevant to the actual page. 
   * [[docs:performance:frontend_optimization|FrontEnd Optimization]]:

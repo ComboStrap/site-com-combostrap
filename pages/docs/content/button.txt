@@ -7,7 +7,7 @@
 ====== ComboStrap UI - Button ======
 
 ===== About =====
-''Button'' is a [[docs:docs|ComboStrap UI component]] that implements a ''button'' style.
+''Button'' is a [[docs:component|ComboStrap UI component]] that implements a ''button'' style.
 
 
 The only action attached is to navigate to another page.

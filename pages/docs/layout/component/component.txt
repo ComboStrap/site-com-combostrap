@@ -11,7 +11,7 @@
 ===== About =====
 A layout component is a component that laid out other components.
 
-[[docs:docs|ComboStrap UI]] has the following layout components in its library:
+[[docs:component|ComboStrap UI]] has the following layout components in its library:
 
   * [[docs:layout:component:card_column|Card column]] - A card column is a column layout for cards and blockquote.
   * [[docs:layout:component:grid|Grid]] - A grid to layout every component as you wish

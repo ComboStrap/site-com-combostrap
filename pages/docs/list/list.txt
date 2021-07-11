@@ -1,0 +1,59 @@
+---json
+{
+    "canonical":"list"
+}
+---
+====== ComboStrap - List ======
+
+===== About =====
+There  are two type of classic list:
+  * ordered 
+  * and unordered
+
+===== Syntax =====
+The list syntax expects you to put each item in a single line.
+
+<note>
+If you want a more complex list, you can use the [[[docs:list:content-list|content-list component]]
+</note>
+
+==== Unordered ====
+
+
+<webcode name="Default" frameborder="0">
+  * Input
+<code dw class="no-whitespace-normalization">
+  * Yellow
+  * Blue
+    * Steelblue
+  * Orange
+</code>
+  * Output
+</webcode>
+
+==== Ordered ====
+
+
+<webcode name="Default" frameborder="0">
+  * Input:
+<code dw class="no-whitespace-normalization">
+  - Yellow
+  - Blue
+    - Steelblue
+  - Orange
+</code>
+  * Output:
+</webcode>
+
+If you put an empty line, the numbering resets.
+Demo:
+<webcode name="Default" frameborder="0">
+  * Input:
+<code dw class="no-whitespace-normalization">
+  - Yellow
+  - Blue
+
+  - Orange
+</code>
+  * Output:
+</webcode>

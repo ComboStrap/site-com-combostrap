@@ -2,7 +2,7 @@
 
 
 ===== About =====
-''ComboStrap'' supports the low level styling of its [[docs:docs|component]] via pure CSS:
+''ComboStrap'' supports the low level styling of its [[docs:component|component]] via pure CSS:
   * in a [[#attribute|attribute]]
   * or in a [[#style|style component]]
 
@@ -20,7 +20,7 @@ The style attribute and component are low level access to [[docs:styling:styling
 
 ==== Attribute ====
 
-Because every [[docs:docs|ComboStrap UI component]] are a [[docs:marki|superset of HTML]], the ''CSS'' ''style'' attribute is also supported. 
+Because every [[docs:component|ComboStrap UI component]] are a [[docs:marki|superset of HTML]], the ''CSS'' ''style'' attribute is also supported. 
 example with a [[docs:block:card|card]] 
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>

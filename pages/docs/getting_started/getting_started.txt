@@ -13,10 +13,6 @@ This ''how-to'' guide regroups a serie of article to get you started.
   * [[5_menu|Creation of the top bar]]
 
 
-<note tip>
-If you have any further questions, wishes or errors, don't hesitate to [[:support|contact us]]
-</note>
-
 
 ===== Start =====
 <btn color="white">
@@ -26,3 +22,6 @@ If you have any further questions, wishes or errors, don't hesitate to [[:suppor
 
 
 
+<note tip>
+If you have any further questions, wishes or errors, don't hesitate to [[:support|contact us]]
+</note>

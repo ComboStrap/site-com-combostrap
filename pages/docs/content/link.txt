@@ -8,7 +8,7 @@
 ====== ComboStrap UI - Link ======
 
 ===== About =====
-''link'' is  a [[docs:docs|ComboStrap UI component]] that permits to create hypertext link to page or media and allows any syntax inside. You can therefore have an [[#icon|icon link]]
+''link'' is  a [[docs:component|ComboStrap UI component]] that permits to create hypertext link to page or media and allows any syntax inside. You can therefore have an [[#icon|icon link]]
 
 
 

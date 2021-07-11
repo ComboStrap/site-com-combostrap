@@ -2,7 +2,7 @@
 
 
 ===== About =====
-''footer'' is an [[docs:docs|UI ComboStrap component]] that implements the [[https://www.w3.org/TR/2011/WD-html5-author-20110809/the-footer-element.html|HTML footer element]].
+''footer'' is an [[docs:component|UI ComboStrap component]] that implements the [[https://www.w3.org/TR/2011/WD-html5-author-20110809/the-footer-element.html|HTML footer element]].
 
 It's generally used in the [[docs:layout:page:footer_slot|footerbar]] of the [[:strap|Strap template]].
 
@@ -13,7 +13,7 @@ It's generally used in the [[docs:layout:page:footer_slot|footerbar]] of the [[:
 {{backlinks>.}}
 
 ===== Syntax =====
-''footer'' is a [[docs:styling:html|superser HTML element]] and takes therefore into account all [[docs:styling:styling|styling attributes such as class and style]].
+''footer'' is a [[docs:marki|superser HTML element]] and takes therefore into account all [[docs:styling:styling|styling attributes such as class and style]].
 <code dw>
 <footer> </footer>
 </code>

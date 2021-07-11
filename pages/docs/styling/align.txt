@@ -2,7 +2,7 @@
 
 
 ===== About =====
-''align'' is an [[docs:styling:styling|styling attribute]] of the [[docs:styling:html|HTML superset component]]
+''align'' is an [[docs:styling:styling|styling attribute]] of the [[docs:marki|HTML superset component]]
 
 It permits to align a [[#block|block]] on the horizontal axis.
 

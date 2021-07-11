@@ -33,5 +33,5 @@ A card with another style when you hover over it.
 
 
 <note tip>
-This is an example of [[styling:hover#custom|custom hover animation]] but you can use the [[styling:hover|built-in ones]] to animate your component and brings more emphasis.
+This is an example of [[docs:animation:hover#custom|custom hover animation]] but you can use the [[docs:animation:hover|built-in ones]] to animate your component and brings more emphasis.
 </note>

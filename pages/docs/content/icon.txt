@@ -10,7 +10,7 @@
 
 
 ===== About =====
-''icon'' is a [[docs:docs|component]] that permits to add easily an [[docs:content:svg|svg]] icon such as this one: <icon name="bs:emoji-wink" color="steelblue" width="22px"/> :
+''icon'' is a [[docs:component|component]] that permits to add easily an [[docs:content:svg|svg]] icon such as this one: <icon name="bs:emoji-wink" color="steelblue" width="22px"/> :
   * from an [[#library|icon library]]
   * or from your media library as a [[#other_library_such_as_google_icon|SVG media file]]
 

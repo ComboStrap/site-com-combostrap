@@ -8,7 +8,7 @@
 ====== ComboStrap Styling - Size ======
 
 ===== About =====
-The size attributes determines the background surface of a [[docs:docs|component]], the higher the more surface, it will take.
+The size attributes determines the background surface of a [[docs:component|component]], the higher the more surface, it will take.
 
 Technically, it sets the ''padding'' (the external zone of a box).
 
