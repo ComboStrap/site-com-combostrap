@@ -27,3 +27,5 @@
   * Bug: [[docs:content:heading|heading]] in [[docs:utility:webcode|webcode]] were seen as component heading and not as outline heading.
   * New: [[docs:utility:template|Template]] allows now any [[docs:semantic:frontmatter|frontmatter metadata]]
   * Bug: [[docs:content:link|link]] with [[docs:utility:template|a path template variable]] were wrongly rewritten and added to the index.
+  * Bug: [[docs:layout:page:sidekick_slot|sidekick slot]] has not its cached deleted in the [[docs:performance:sideslots|auto cache bursting functionality]] (due to a hard written configuration)
+  * New: Added the scope of a page to improve the [[docs:performance:sideslots|auto cache bursting functionality]]. When a [[docs:navigation:page-explorer|tree page-explorer]] is used, the sidebar cache is deleted when any level of the [[docs:navigation:page-explorer|page-explorer tree]] is changed (page added, deleted, modified)
