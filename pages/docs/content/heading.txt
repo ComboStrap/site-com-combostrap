@@ -10,9 +10,9 @@
 
 
 ===== About =====
-An ''heading'' has two different function:
+An ''heading'' has two different functions:
   * the first one is ''structural'' and generates the [[docs:navigation:outline|outline (structure of the document]]. The table of content (TOC) is created from this structure.
-  * the second one is ''semantic'' and defines the title of a component.
+  * the second one is ''semantic'' and defines the title of a [[docs:block:block|block component]].
 
 
 The rule is simple, when a heading is not in a component, it's a [[docs:navigation:outline|structural heading]], otherwise, it's a title component.
@@ -49,7 +49,7 @@ The higher the level, the higher the visual emphasis.
 
 To facilitate the writing, you can use the following keyboard shortcuts:
   * select the heading text
-  * and type:
+  * and type one of the following [[docs:utility:shortcut|keyboard shortcuts]]:
       * ''alt+8'' for the same level than the previous heading
       * ''alt+9'' for a level lower than the previous heading
       * ''alt+0'' for a level higher than the previous heading
@@ -57,7 +57,7 @@ To facilitate the writing, you can use the following keyboard shortcuts:
 ### Markdown 
 
 
-The markdown atx heading start with 1 or more hashtag ''%%#%%'' characters. 
+The [[docs:utility:markdown|markdown]] atx heading start with 1 or more hashtag ''%%#%%'' characters. 
   * The level 1 heading (the title) starts with #, 
   * section headings with ##, 
   * subheads with ###, 

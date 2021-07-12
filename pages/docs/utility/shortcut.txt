@@ -1,8 +1,16 @@
-====== Strap template - Keyboard Shortcut ======
+---json
+{
+    "canonical":"accesskey",
+    "title":"ComboStrap - List of the keyboard shortcuts (access key)",
+     "description":"This article lists the most common keyboard shortcuts available"
+}
+---
+
+====== ComboStrap - Keyboard Shortcuts ======
 
 ===== About =====
 
-Keyboard shortcut are available and are really handy for editing and navigating a page.
+Keyboard shortcuts are available and are really handy for editing and navigating a page.
 
 <note>
 They prevent [[wp>Repetitive_strain_injury|hand problem]] by minimizing the usage of the mouse
@@ -24,3 +32,7 @@ The first combination of key to press may be different by browser. This article 
   * To go to the [[docs:menubar:search|search box]]:
       * ''Alt + Shift + F''
       * or ''Alt + D then Tab''
+  * To create from the selected text an [[docs:content:heading|heading]]
+      * ''alt+8'' for the same level than the previous heading
+      * ''alt+9'' for a level lower than the previous heading
+      * ''alt+0'' for a level higher than the previous heading
