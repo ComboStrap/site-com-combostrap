@@ -74,7 +74,7 @@ The syntax with two underscore ''%%__%%'' is actually not supported because it's
 
 ==== List ====
 
-[[https://daringfireball.net/projects/markdown/syntax#list|list]] are [[docs:list:list|supported]] but with two spaces at the start of the line.
+[[https://daringfireball.net/projects/markdown/syntax#list|list]] are [[docs:lists:list|supported]] but with two spaces at the start of the line.
 
 <webcode name="Default" frameborder="0">
 Input:

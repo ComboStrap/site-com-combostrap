@@ -42,7 +42,7 @@ New: [[release:1.13_bootstrap5|Bootstrap 5]] is now the default. Read more about
 ==== Styling / Theme ====
   * New: [[docs:styling:shadow|Elevation]] is also now known as the [[docs:styling:shadow|shadow attribute]] and has gain 2 levels.
   * New: The [[docs:styling:stylesheet|Bootswatch stylesheet]] are now also served from the CDN (by default)
-  * New: The [[docs:list:table|table]] component does not take 100% width to reduce the visual space and allow floating element to the right.
+  * New: The [[docs:lists:table|table]] component does not take 100% width to reduce the visual space and allow floating element to the right.
   * New: [[docs:styling:float|float]] - the float styling attribute has been added.
   * New: added [[docs:styling:userstyle|styling class]] to all component. It permits to take over the whole styling and create its own via the [[docs:styling:userstyle|userstyle stylesheet]].
 

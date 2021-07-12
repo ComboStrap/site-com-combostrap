@@ -14,7 +14,7 @@ There  are two type of classic list:
 The list syntax expects you to put each item in a single line.
 
 <note>
-If you want a more complex list, you can use the [[[docs:list:content-list|content-list component]]
+If you want a more complex list, you can use the [[docs:lists:content-list|content-list component]]
 </note>
 
 ==== Unordered ====

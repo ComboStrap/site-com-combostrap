@@ -19,7 +19,7 @@ The ''combo renderer'' is the component that renders each page.
   * Add below the first heading:
       * a [[docs:navigation:toc|TOC]] 
       * a [[docs:navigation:hierarchical_breadcrumb|hierarchical breadcrumb]]
-  * Make the [[docs:list:table|tables responsive]].
+  * Make the [[docs:lists:table|tables responsive]].
   * Overwrite the monospace syntax to an [[docs:content:highlight|highlight]].
   * Enable [[docs:ads:ads|ads inside the content]]
 

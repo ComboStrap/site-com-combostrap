@@ -9,7 +9,9 @@
 ===== About =====
 ''components'' are the units of content creation for a page.
 
-Writing a page consists of writing a text that is styled and layout with components.
+Writing a page consists of:
+  * writing a text 
+  * that is styled and laid out with components.
 
 ComboStrap groups them in 5 categories.
 
@@ -18,4 +20,4 @@ ComboStrap groups them in 5 categories.
 | [[docs:block:block|Block]] | Card, Note, Code, ... |
 | [[docs:navigation:navigation|Navigational]] | Page Explorer, Toc, tabs, ... |
 | [[docs:layout:component:component|Layout]] | Tabs, panel, grid, ... |
-| ''List'' | [[docs:list:content-list|Content-list]] - continuous, vertical indexes of text or images. \\  [[docs:list:table|Table]] - a list of records |
+| [[docs:lists:lists|Lists]] | List of line, records or content |

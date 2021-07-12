@@ -1,0 +1,13 @@
+---json
+{
+    "canonical":"lists",
+    "low_quality_page":"false"
+}
+---
+====== ComboStrap - Lists ======
+
+===== About =====
+ComboStrap supports the following ''list'' [[:docs:component|components]]
+  * [[:docs:lists:list|List]] - simple ordered or unordered list, 
+  * [[docs:lists:content-list|Content-list]] - continuous, vertical indexes of text or images. 
+  * [[docs:lists:table|Table]] - a list of records

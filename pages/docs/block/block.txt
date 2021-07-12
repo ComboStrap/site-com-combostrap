@@ -20,7 +20,7 @@ If the component should start at a new line or expand on multiple line and you c
   * [[docs:block:file|File]] - a file
   * [[docs:layout:component:slide|Slide]] - A slide used to create landing page or hero content
   * [[docs:layout:component:jumbotron|Jumbotron]]: Prominently at the top of your page emphase a content.
-  * [[docs:list:content-list|List]] - a list
+  * [[docs:lists:content-list|List]] - a list
   * [[docs:block:math|Math]]: Writing math formulas
   * [[docs:block:note|Note]]: An ancillary text that needs attention.
   * [[docs:navigation:related|Related]]: A component showing the backlinks

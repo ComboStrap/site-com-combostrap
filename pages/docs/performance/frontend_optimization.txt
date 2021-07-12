@@ -76,7 +76,7 @@ If you use any analytics plugin such as the Google Analytics that relies on Java
 If the configuration ''disableBackendJavascript'' is checked, the following javascript script will not be included in your pages:
   * ''js.php''
   * ''jquery.php'' (only for Bootstrap 5)
-  * ''JSINFO''
+
 
 
 

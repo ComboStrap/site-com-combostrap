@@ -24,5 +24,5 @@ List of changes for the [[release:release|release]] ''1.4'' (2020-07-20)
   * The [[docs:layout:component:hr|hr component]] was added to draw an horizontal rule
   * The [[release:deprecated:title|title component]] was added to give more control on the title of component
   * The ''monospaced'' dokuwiki syntax has become an ''highlight'' within the [[docs:utility:renderer|renderer]]
-  * Added the [[docs:list:table|table page]] to showcase the fact that they are by default responsive.
+  * Added the [[docs:lists:table|table page]] to showcase the fact that they are by default responsive.
   * Added the [[docs:styling:skin|skin attributes]] to define emphasis.

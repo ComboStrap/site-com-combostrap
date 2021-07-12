@@ -10,7 +10,7 @@ The ''ComboStrap design'' system takes all the good part of [[docs:utility:boots
 ''ComboStrap'' applies the following [[https://material.io/|Google Material Design]] on:
   * [[skin|skin]]: to set the level of emphasis on button.
   * [[shadow|elevation]]: to a elevate a a single component and give more emphasis
-  * [[docs:list:content-list|list]]: powerful list with visual, text and meta information
+  * [[docs:lists:content-list|list]]: powerful list with visual, text and meta information
 and integrates also the [[docs:content:icon|material design icons]]
 
 
