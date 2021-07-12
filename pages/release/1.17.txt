@@ -31,3 +31,4 @@
   * New: Added the scope of a page to improve the [[docs:performance:sideslots|auto cache bursting functionality]]. When a [[docs:navigation:page-explorer|tree page-explorer]] is used, the sidebar cache is deleted when any level of the [[docs:navigation:page-explorer|page-explorer tree]] is changed (page added, deleted, modified)
   * New: the [[docs:navigation:page-explorer#tree|page-explorer tree]] is now opening to the actual page and making it active (ie bold)
   * Improvement: [[docs:navigation:hierarchical_breadcrumb|hierarchical breadcrumb]] is showing the last part of the namespace path when it does not have any home page.
+  * Improvement: An attribute may now have an empty string. This is needed as the root namespace id is the empty string.
