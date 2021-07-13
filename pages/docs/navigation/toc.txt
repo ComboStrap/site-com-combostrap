@@ -9,7 +9,7 @@
 ===== About =====
 The ''toc (table of content)'' is actually a feature of the [[docs:utility:renderer|combo renderer]]. 
 
-It will be actually printed below the first heading with the the outline created by the [[docs:content:heading|headings]] ang gives to the reader an overview of your document.
+It will be actually printed below the first [[docs:navigation:outline|outline heading]] ang gives to the reader an overview of your document.
 
 
 
