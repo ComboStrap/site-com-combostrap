@@ -5,6 +5,8 @@
 This page will show you how to query the [[database|analytics database]] online.
 
 ===== Steps =====
+
+
 ==== Go to the admin page ====
 
 Click on the ''Admin'' link to go to the [[doku>admin_window|Admin Window]]. ie ''https://yourdomain.com/?do=admin''
@@ -40,6 +42,26 @@ The URL to access your database will look like the following URL
  ''%%https://yourdomain.com/?do=admin&page=sqlite&db=combo&version=sqlite3%%''
 
 
+==== Json Support  ====
+
+You need to have sqlite with [[data#json_support|json support]].
+  * The sqlite database version should be greater or equal to SQLite 3.9.0 (2015-10-14). 
+<code sql>
+select sqlite_version();
+</code>
+<file>
+^ sqlite_version ^
+| 3.28.0 |
+</file>
+   * The json module should be present when executing the below SQL.
+<code sql>
+PRAGMA compile_options;
+</code>
+<file>
+^ compile_options ^
+| ENABLE_JSON1 |
+</file>
+
 ==== Enter your query and submit ====
 
 
@@ -69,6 +91,5 @@ from
 )
 </code>
 
-===== Sqlite JSON Support =====
-If it does not work, see [[data#json_support|the JSON support documentation on the data page]]
+
 
