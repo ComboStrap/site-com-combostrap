@@ -9,27 +9,38 @@
 
 
 ===== About =====
+This [[release|release]] brings a new page [[docs:navigation:navigation|navigational]] pane [[docs:navigation:page-explorer|page-explorer]] that replaces the old [[release:deprecated:ntoc|deprecated ntoc]].
+
 
 ===== List =====
+==== New ====
+  * The [[docs:navigation:page-explorer#tree|page-explorer tree]] is a tree of page that opens to the visited page and makes it active (ie bold)
+  * The [[docs:navigation:page-explorer#tree|page-explorer list (old ntoc)]] can show now the parent namespace as well in order to navigate backward.
+  * Added the scope of a page to improve the [[docs:performance:sideslots|auto cache bursting functionality]]. When a [[docs:navigation:page-explorer|tree page-explorer]] is used, the sidebar cache is deleted when any level of the [[docs:navigation:page-explorer|page-explorer tree]] is changed (page added, deleted, modified)
   * The [[docs:app:identity|identity forms]] ''update profile'' and ''delete profile'' are now also styled.
+  * [[docs:utility:template|Template]] allows now any [[docs:semantic:frontmatter|frontmatter metadata]]
+==== Improvement ====
+
   * [[docs:styling:align|Align]] understand now ''start'' and ''end'' to make page [[docs:semantic:lang##rtlright_to_left_language|LTR or RTL language ready]].
-  * Improvement: Added the page on the error message. The error messages may be created in the background and are then not always relevant to the actual page. 
+  * Added the a link to the page where a error message has occured. Why ? Because The error messages may be created in the background and are then not always relevant to the actual page visited.
   * [[docs:performance:frontend_optimization|FrontEnd Optimization]]:
-      * ComboStrap is no more dependent on Jquery
+      * ComboStrap begins to be no more dependent on Jquery
       * New: Disable backend Javascript
-  * Improvement [[docs:content:svg|SVG]]
-      * A placeholder is shown with the good dimension when lazy loaded
-      * [[docs:content:svg#svginjectionenable|Svg Injection]] was showing a broken image for a couple of second. This is because the underlying library let a src with no value. We just cache the image before the injection and show it again after.
   * new [[docs:utility:pipeline|Pipeline function]]: ''cut'' and ''trim''
-  * Bug: [[docs:performance:lazy|Lazy loaded image]] has a transparent inline gif image placeholder that has an intrinsic dimension of 1x1 creating problem and layout shift when the image are responsive.
-  * Bug: [[docs:layout:component:card_column|card-column layout]] in Bootstrap 5 is implemented via Masonry and a recalculation of the layout should be done after each image load.
-  * Bug: As [[docs:content:image|image]] crop is not supported, a warning message was shown and we didn't let the original code take over. Crop are now supported via the original code.
-  * Bug: [[docs:content:heading|heading]] in [[docs:utility:webcode|webcode]] were seen as component heading and not as outline heading.
-  * New: [[docs:utility:template|Template]] allows now any [[docs:semantic:frontmatter|frontmatter metadata]]
-  * Bug: [[docs:content:link|link]] with [[docs:utility:template|a path template variable]] were wrongly rewritten and added to the index.
-  * Bug: [[docs:layout:page:sidekick_slot|sidekick slot]] has not its cached deleted in the [[docs:performance:sideslots|auto cache bursting functionality]] (due to a hard written configuration)
-  * New: Added the scope of a page to improve the [[docs:performance:sideslots|auto cache bursting functionality]]. When a [[docs:navigation:page-explorer|tree page-explorer]] is used, the sidebar cache is deleted when any level of the [[docs:navigation:page-explorer|page-explorer tree]] is changed (page added, deleted, modified)
-  * New: the [[docs:navigation:page-explorer#tree|page-explorer tree]] is now opening to the actual page and making it active (ie bold)
   * Improvement: [[docs:navigation:hierarchical_breadcrumb|hierarchical breadcrumb]] is showing the last part of the namespace path when it does not have any home page.
   * Improvement: An attribute may now have an empty string. This is needed as the root namespace id is the empty string.
   * Improvement: When a [[docs:content:link|link]] does not have any description, we show the last part of the id.
+
+==== Bug ====
+  * [[docs:content:svg|SVG]]
+      * A placeholder is shown with the good dimension when lazy loaded
+      * [[docs:content:svg#svginjectionenable|Svg Injection]] was showing a broken image for a couple of second. This is because the underlying library let a src with no value. We just cache the image before the injection and show it again after.
+  * [[docs:performance:lazy|Lazy loaded image]] has a transparent inline gif image placeholder that has an intrinsic dimension of 1x1 creating problem and layout shift when the image are responsive.
+  * [[docs:layout:component:card_column|card-column layout]] in Bootstrap 5 is implemented via Masonry and a recalculation of the layout should be done after each image load.
+  * As [[docs:content:image|image]] crop is not supported, a warning message was shown and we didn't let the original code take over. Crop are now supported via the original code.
+  * [[docs:content:heading|heading]] in [[docs:utility:webcode|webcode]] were seen as component heading and not as outline heading.
+  * Bug: [[docs:content:link|link]] with [[docs:utility:template|a path template variable]] were wrongly rewritten and added to the index.
+  * Bug: [[docs:layout:page:sidekick_slot|sidekick slot]] has not its cached deleted in the [[docs:performance:sideslots|auto cache bursting functionality]] (due to a hard written configuration)
+
+==== Deprecation ====
+  * The navigational component [[release:deprecated:ntoc|ntoc]] has been replaced by the [[docs:navigation:page-explorer|page-explorer]]

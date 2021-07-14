@@ -10,6 +10,6 @@
 
 
 ===== About =====
-The latest release is the release [[1.16|1.16]] bringing styling for the [[docs:app:identity|identify forms]] and many minor bug fix and improvment.
+The latest release is the release [[1.17|1.17]] bringing new  [[docs:app:identity|identify forms]], [[docs:navigation:page-explorer|page-explorer]] and many minor bug fix and improvment.
 
-For all news and modifications, you should go and the release page [[1.16]].
+For all news and modifications, you should go and the release page [[1.17]].

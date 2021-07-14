@@ -5,8 +5,6 @@
 ''ComboStrap'' performs regularly analytical calculation on pages.
 
 
-<badge>Since [[release:release|version 1.11]]</badge>
-
 ===== Format =====
 The analytical data are composed of three parts:
   * [[docs:semantic:semantic|metadata]]: the metadata
@@ -27,7 +25,7 @@ This data are accessible:
 
 You can get the analytical data as ''json'' with an export.
 
-  * via a direct URL by by adding ''?do=export_combo_analytics'' to a page URL. For instance, to get the data of the actual page, click on this [[start?do=export_combo_analytics|link]]
+  * via a direct URL by by adding ''?do=export_combo_analytics'' to a page URL. For instance, to get the data of the actual page, click on this [[?do=export_combo_analytics|link]]
   * via the ''Analytics'' menu item by clicking on the following icon <icon name="file-chart"/> (only for logged user) 
 
 ==== Database ====
