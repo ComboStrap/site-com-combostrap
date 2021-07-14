@@ -24,7 +24,7 @@ This component is mostly used in a [[docs:layout:page:side_slot|side slot]] or [
 ===== Syntax =====
 
 <code dw>
-<page-explorer type ns="current">
+<page-explorer type ns="namespacePath">
   <page>$path - $title</page>
   <namespace>$path - $title</namespace>
   <home>$path - $title</home>
@@ -36,7 +36,9 @@ where:
       * [[docs:styling:type|type]] that defines the layout and may be one of this two value:
           * [[#list|list]] to create a list navigation pane (the default)
           * [[#tree|tree]] to create a tree navigation pane
-      * ''ns'' that defines the ''namespace'' (Default to the ''namespace'' of the requested page)
+      * ''ns'' that defines the ''namespace''. The default  value is the namespace of:
+          * the rendered page for a [[#list]]
+          * the physical page for a [[#tree]].
   * the sub-element are:
     * ''page'' defines a [[docs:utility:template|template]] for each page in the namespace
     * ''home'' defines a [[docs:utility:template|template]] for the home page of the namespace
