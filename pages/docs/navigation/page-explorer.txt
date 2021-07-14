@@ -101,3 +101,13 @@ It produces:
 
 
 
+===== Support =====
+
+==== Performance consideration with the tree pane ====
+The [[#tree|page-explorer tree]] is recreated every time that a subpage is modified. If your tree has a lot of page, it may perform poorly:
+  * while editing 
+  * and for the first viewer
+
+
+
+
