@@ -1,4 +1,4 @@
-<container width="800px">
+
 ====== SEO (Search Engine Optimization) ======
 
 ===== About =====
@@ -45,4 +45,3 @@ The Combostrap page renders automatically as card in:
   * [[docs:social:twitter|Twitter]]
   * [[docs:social:facebook|Facebook]]
   * [[docs:social:google|Google]]
-</container>
