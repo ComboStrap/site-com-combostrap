@@ -13,7 +13,7 @@
 ===== About =====
 A ''broken link'' is a internal link that points to a [[docs:url:404|non-existing page]].
 
-They hurt your [[docs:seo|SEO]] and should be avoided at all cost.
+They hurt your [[docs:seo:seo|SEO]] and should be avoided at all cost.
 
 You can [[dynamic_monitoring|monitor them]] and you can even [[#list|list them]]
 

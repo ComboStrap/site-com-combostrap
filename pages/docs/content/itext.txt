@@ -5,7 +5,7 @@
     "description":"itext is a component that applies typographic effect to characters or words such as boldness, font-size and more"
 }
 ---
-====== ComboStrap UI - itext ======
+====== ComboStrap UI - Itext ======
 
 
 ===== About =====

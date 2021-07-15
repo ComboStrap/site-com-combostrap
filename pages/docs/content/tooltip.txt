@@ -10,7 +10,6 @@
 ===== About =====
 ''Tooltips'' display informative text when users hover over, focus on, or tap an element.
 
-<badge>Since [[release:release|version 1.4]]</badge>
 ===== Articles Related =====
 {{backlinks>.}}
 
@@ -38,18 +37,14 @@ where:
 
 </webcode>
 
-==== Text ====
+==== Button ====
 
 <webcode name="Button">
 <code dw>
 <tooltip position="top" text="A tooltip">
-<btn>A button with tooltip on the top</btn>
+<btn>A button with a tooltip on the top</btn>
 </tooltip>
 </code>
 
 </webcode>
 
-===== Documentation / Reference =====
-  * https://material.io/components/tooltips
-  * [[https://getbootstrap.com/docs/4.0/components/tooltips/|Tooltip Boostrap version 4]]
-  * [[https://getbootstrap.com/docs/5.0/components/tooltips/|Tooltip Boostrap version 5]]
