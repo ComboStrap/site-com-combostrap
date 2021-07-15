@@ -14,7 +14,7 @@ There is a lot of possible analytics that can answer all your question.
 
 ===== Getting started =====
 
-To learn more about how this module, you should:
+To learn more about this module, you should:
   * first discover the [[database|database schema]]
   * then discover the format of the [[data|analytical data]]
   * and finally, learn how to [[query|query]].

@@ -4,18 +4,17 @@
 }
 ---
 
-====== ComboStrap Quality - Low Quality Page Protection (LQPP) ======
+====== ComboStrap SEO - Low Quality Page Protection (LQPP) ======
 
 
 ===== About =====
 If your website has a lot of [[docs:quality:low_quality_page|low quality page]]:
-  * your [[docs:seo|SEO]] score will be lower
+  * your [[docs:seo:seo|SEO]] score will be lower
   * you can even get at worse the [[#Thin content with little or no added value]] penalty and be deleted from the search engine inde.
 
 
 This feature if [[#enable|enabled]] makes [[docs:quality:low_quality_page|low quality page]] no more discoverable by Search Engine and prevents you to be banned by [[kb>search:engine|Search Engine]].
 
-<badge>Since [[release:release|version 1.11]]</badge>
 
 ===== Thin content with little or no added value =====
 The ''Thin content with little or no added value'' is explained in the [[https://support.google.com/webmasters/answer/9044175#thin-content|webmaster documentation]]
@@ -37,7 +36,7 @@ The effect is that:
 ===== Demo =====
 
 We have created a low page demo to show you the protection in action.
-  * Link: This is a  [[low_quality_example|internal link to the low quality page]]. If you are hovering over it, it will shows a [[docs:content:tooltip|tooltip]] asking you to log in in order to see the link with the ''LQPP'' acronym that stands for ''Low Quality Page Protection''
+  * Link: This is a  [[..:quality:low_quality_example|internal link to the low quality page]]. If you are hovering over it, it will shows a [[docs:content:tooltip|tooltip]] asking you to log in in order to see the link with the ''LQPP'' acronym that stands for ''Low Quality Page Protection''
 
   * Mode: The [[#protection mode|protection mode]] of this website is ''hidden'' which means that everybody with an external link can still navigate to this page. For instance, if you click on this external link [[https://combostrap.com/quality/low_quality_example|low quality demo page]], you should be able to see the ''hidden'' low quality page.
 
@@ -50,13 +49,15 @@ This protection is disabled by default. If you want to enable it, you need to ch
 A protection becomes active for a page when [[docs:analytics:process|it was analyzed]].
 </note>
 ==== Protection Mode ====
-The [[protection|protection mode]] determines how a [[low quality page|low quality page]] is protected from Search Engine.
+The [[..:quality:protection|protection mode]] determines how a [[..:quality:low_quality_page|low quality page]] is protected from Search Engine.
 
 
 ===== Support =====
 ==== The link does not appear as a low quality page protected link ====
 
 This module uses the [[docs:analytics:process|analytical process]] that ''cache'' the data by default. If you want to see the links, you should [[docs:analytics:process#cache|clear the cache]].
-===== Documentation / Reference =====
-  * https://support.google.com/webmasters/answer/9044175#thin-content
-  * https://developers.google.com/search/docs/advanced/guidelines/auto-gen-content
+
+===== Google Guidelines=====
+To know more about thin and generated content, you can refer to the google documentation.
+  * [[https://support.google.com/webmasters/answer/9044175#thin-content|thin content]]
+  * [[https://developers.google.com/search/docs/advanced/guidelines/auto-gen-content|auto generated content]]

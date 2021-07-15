@@ -3,7 +3,7 @@
 
 ===== About =====
 A ''hidden'' resource (page, image, file, ...) is a resource that is:
-  * not published to [[kb>search:engine|Search Engine]] (ie not included in the [[:sitemap|sitemap]] and not pinged)
+  * not published to [[kb>search:engine|Search Engine]] (ie not included in the [[docs:seo:sitemap|sitemap]] and not pinged)
   * not included 
       * in the [[docs:navigation:page-explorer|page-explorer pane]]
       * in the change log feeds
@@ -20,7 +20,5 @@ In short, the page is still accessible directly (with its URL) but is no more vi
 
 ===== Features =====
   * ''ComboStrap'' [[docs:quality:automatic_hidden|hide automatically artifactory]] (components used to create page but are not page themselves)
-  * ''ComboStrap'' can automatically hide [[docs:quality:low_quality_page|low quality page]] until they get a correct quality score. See [[docs:quality:lqpp]]
+  * ''ComboStrap'' can automatically hide [[docs:quality:low_quality_page|low quality page]] until they get a correct quality score. See [[docs:seo:lqpp]]
 
-===== Documentation / Reference =====
-  * More on the official [[doku>config:hidepages|DokuWiki documentation]]

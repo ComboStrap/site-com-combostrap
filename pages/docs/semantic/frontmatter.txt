@@ -12,7 +12,7 @@
 ''Front Matter'' is a component that:
   * permits to add and set [[semantic|metadata]]
   * that will be published in your HTML page for:
-      * a better [[docs:seo|SEO]] such as:
+      * a better [[docs:seo:seo|SEO]] such as:
           * [[title|title]]
           * [[description|description]]
           * [[canonical|canonical]]

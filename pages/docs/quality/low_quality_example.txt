@@ -12,5 +12,5 @@ This page has a very poor quality:
   * few words
   * no internal links
   * no outline
-  * one backlink but for demo purpose.
+  * one backlink ((ie from the low quality page protection documentation) but only for demo purpose.
 

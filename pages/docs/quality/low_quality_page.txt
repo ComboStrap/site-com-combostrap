@@ -20,19 +20,19 @@ This kind of page have this characteristics:
 
 
 
-<badge>Since [[release:release|version 1.11]]</badge>
+
 ===== Articles Related =====
 {{backlinks>.}}
 
 
 ===== SEO impact and Protection =====
 
-They have a real negative impact on your [[docs:seo|SEO]] score and should be avoid at all cost.
-''ComboStrap'' has even developed a [[docs:quality:lqpp|low quality page protection feature]] because you can get badly impacted by them.
+They have a real negative impact on your [[docs:seo:seo|SEO]] score and should be avoid at all cost.
+''ComboStrap'' has even developed a [[docs:seo:lqpp|low quality page protection feature]] because you can get badly impacted by them.
 
 {{:seo:low_quality_content_effect.png?600|}}
 
-For more information, see [[docs:quality:lqpp]]
+For more information, see [[docs:seo:lqpp]]
 
 
 ===== Definition =====
@@ -93,7 +93,7 @@ The default values are:
 
 
 <note>
-If the [[lqpp|low quality page protection]] is [[lqpp#enable|enabled]], the page will then not be publicly visible.
+If the [[..:seo:lqpp|low quality page protection]] is [[..:seo:lqpp#enable|enabled]], the page will then not be publicly visible.
 </note>
 
 ==== Low Quality Page Indicator ====

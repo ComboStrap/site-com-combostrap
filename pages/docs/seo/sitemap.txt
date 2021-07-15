@@ -1,4 +1,4 @@
-<container width="800px">
+
 ====== ComboStrap SEO - Sitemap ======
 
 ===== About =====
@@ -26,4 +26,3 @@ The ''sitemap'' file is available:
 
 To enable the ''sitemap'' generation, you need to set the [[doku>config:sitemap]] configuration with a number that defines a period in day that is not zero.
 
-</container>

@@ -8,17 +8,27 @@
 ====== ComboStrap Quality - Protection Mode ======
 
 ===== About =====
-The ''protection mode'' is a [[:configuration|configuration]] value that determine how articles that should not be published are protected.
+The ''protection mode'' is a [[:configuration|configuration]] value that determine the level of page protection when:
+  * they should not be published publicly 
+  * or are protected.
 
 
 ===== Usage =====
 The protection mode is used in two configurations to determine the protection of:
-  * [[lqpp#protection mode|low quality pages]]
+  * [[..:seo:lqpp#protection mode|low quality pages]]
   * pages with a [[lpp|published date in the past]]
 
 ===== Value =====
 
-This configuration has two possibilities:
-  * [[docs:quality:automatic_hidden|Hidden]] (default) - The page is still accessible directly but is not searchable. A visitor coming from an external link (such as backlinks or email) will be able to see the page but the page will not be advertised to Search Engine.
+This configuration has the following possibilities:
+  * ''norobot'': The page will be protected from search engine (aka ''robots'')
+      * The page will not be added to the search engine index
+      * The page will not appear in the [[docs:seo:sitemap|sitemap]].
+  * [[docs:quality:hidden|Hidden]] (default) - The page is still accessible directly but is not advertised. A visitor coming from an external link (such as external backlinks or email) will be able to see the page but the page will not be available in any listing.
   * ''ACL'' (''Access Control Lists'') - The page is not accessible to anonymous user. The user needs to log in to see the page.
 
+
+^ Mode ^ Search Engine \\ Indexation ^ Sitemap ^ Internal Search \\ Result ^ RSS ^ Recent changes ^ Index Page ^ Publicly Accessible ^
+| norobot |  | | <icon name="check"/> | <icon name="check"/> | <icon name="check"/> | <icon name="check"/> | <icon name="check"/> |
+| hidden | | | | | | | <icon name="check"/> | 
+| ACL | | | | | | | |

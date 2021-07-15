@@ -7,7 +7,7 @@ It contains:
   * the [[docs:component|collection of UI component]]
   * the [[docs:url:url|Url Manager]]
   * the [[docs:semantic:semantic|Page Metadata]]
-  * the [[docs:seo|SEO module]]
+  * the [[docs:seo:seo|SEO module]]
   * and many more.
 
 ===== Articles Related =====

@@ -38,3 +38,28 @@ On the server, you can update the analytical data with the following command
 cd $DOKUWIKI_HOME
 ./bin/plugin.php combo analytics
 </code>
+
+===== Monitoring =====
+
+==== The last pages analyzed ====
+
+You can monitor the process by [[query|querying]] on the ''date'' field.
+
+Example:
+<code sql>
+select
+	id,
+	json_extract(analytics, '$.date') as date
+from
+	pages
+order by date desc
+limit 10;
+</code>
+
+==== The pages to be analyzed ====
+The pages to analyze are stored in the table ''analtyics_to_refresh''.
+
+If you query this table, you would get all page that should be analyzed in the near future.
+<code sql>
+select * from analtyics_to_refresh
+</code>

@@ -20,7 +20,7 @@ They:
   * can be [[#example|seen in the ''quality'' section of the analytical data]] 
   * are [[dynamic_monitoring|dynamically monitored]]
   * define what a [[low_quality_page|low quality page]] when they are [[low_quality_page#mandatory rules|mandatory]]
-  * can determine if a [[lqpp|page is public or not]]
+  * can determine if a [[..:seo:lqpp|page is public or not]]
 
 <badge>Since [[release:release|version 1.11]]</badge>
 

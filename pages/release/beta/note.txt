@@ -8,46 +8,23 @@
 ====== Beta - Note ======
 
 
-===== Link =====
-
-  * Answer: RTL/LTR https://github.com/splitbrain/dokuwiki/pull/3413
-  * self-managed vs hosted
-
-
-===== Prefetch: Performance =====
-
-==== On hover ====
-
-  * https://instant.page/tech
-  * https://www.dokuwiki.org/plugin:instantpage
-==== On Idle ====
-
-  * https://github.com/GoogleChromeLabs/quicklink
-
-
-Features:
-  * Detects links within the viewport (using Intersection Observer)
-  * Waits until the browser is idle (using requestIdleCallback)
-  * Checks if the user isn't on a slow connection (using navigator.connection.effectiveType) or has data-saver enabled (using navigator.connection.saveData)
-  * Prefetches URLs to the links (using <link rel=prefetch> or XHR). Provides some control over the request priority (can switch to fetch() if supported).
-
-==== On Navigation (Next page) ====
-
-  * https://barba.js.org/docs/getstarted/lifecycle/
-  * https://barba.js.org/docs/advanced/strategies/#Prefetch (Prefetch on hover)
-
-Since there is a 100-300ms delay during the user hover and the click, Barba use this time to start prefetching the next page. Most of time, this is enough to get the next page ready.
 ===== Improvement =====
   * [[docs:quality:lqpp|lqqp]] could be just a link with a ''noindex'' attribute.
+  * The page (viz:viz) and the page (data:viz:viz) have the same canonical.
+  * slot improvement
+      * slot explorer - to see where they are
+      * [[docs:ads:conf]] could be automated
+  * monospace in the renderer should be a component
+  * link preview (autotooltip)
+  * template to generate a list of pages with sql
+  * multiple background to add a black layer to add more contrast
+  * no jquery - search, ...
+  * self-managed vs hosted documentation
   * reference system where link would be given weight
-  * [[docs:ads:conf]] could be automated
   * The tag test have now their own test class.
   * The tag syntax is no more needed.
-  * The page (viz:viz) and the page (data:viz:viz) have the same canonical.
   * Page deleted / moved should be deleted /renamed into the database
-  * monospace in the renderer should be a component
   * [[docs:layout:component:card_column|card-columns]] as a real [[https://masonry.desandro.com/layout.html#responsive-layouts|responsive masonry]] ?
-  * [[docs:performance:sideslots|sideslots]] does not work for a [[docs:navigation:page-explorer|page-explorer tree]]
 
 ===== Canonical bug =====
 
@@ -152,7 +129,8 @@ db:oracle:999999.9:union:all:select_null:from_dual_and_0_0
 
 
 ===== Internationalization / Translate =====
-[[https://github.com/michitux/dokuwiki-plugin-move/issues/145|Translation file are not moving]]
+  * [[https://github.com/michitux/dokuwiki-plugin-move/issues/145|Translation file are not moving]]
+  * Not the same schema by language
 
 ===== Namespace =====
 
@@ -213,3 +191,27 @@ db:oracle:999999.9:union:all:select_null:from_dual_and_0_0
 
 ===== Forms =====
   * https://www.dokuwiki.org/plugin:bureaucracy
+
+===== Prefetch: Performance =====
+
+==== On hover ====
+
+  * https://instant.page/tech
+  * https://www.dokuwiki.org/plugin:instantpage
+==== On Idle ====
+
+  * https://github.com/GoogleChromeLabs/quicklink
+
+
+Features:
+  * Detects links within the viewport (using Intersection Observer)
+  * Waits until the browser is idle (using requestIdleCallback)
+  * Checks if the user isn't on a slow connection (using navigator.connection.effectiveType) or has data-saver enabled (using navigator.connection.saveData)
+  * Prefetches URLs to the links (using <link rel=prefetch> or XHR). Provides some control over the request priority (can switch to fetch() if supported).
+
+==== On Navigation (Next page) ====
+
+  * https://barba.js.org/docs/getstarted/lifecycle/
+  * https://barba.js.org/docs/advanced/strategies/#Prefetch (Prefetch on hover)
+
+Since there is a 100-300ms delay during the user hover and the click, Barba use this time to start prefetching the next page. Most of time, this is enough to get the next page ready.
