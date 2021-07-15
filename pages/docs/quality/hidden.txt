@@ -4,11 +4,10 @@
 ===== About =====
 A ''hidden'' resource (page, image, file, ...) is a resource that is:
   * not published to [[kb>search:engine|Search Engine]] (ie not included in the [[docs:seo:sitemap|sitemap]] and not pinged)
-  * not included 
+  * not visible in any listing. ie not:
       * in the [[docs:navigation:page-explorer|page-explorer pane]]
       * in the change log feeds
-  * not visible:
-      * when searching
+      * in the internal search result
       * in internal backlinks.
 
 <note>

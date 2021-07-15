@@ -8,7 +8,7 @@ The [[:combostrap|combo plugin]] automatically [[docs:quality:hidden|hides]]:
   * the ''combostrap'' private namespace (where [[docs:content:icon|icons]] and other internal component are saved)
 
 
-This page resource are still accessible but should not be advertised to the outside world because they are just component and have [[docs:quality:low_quality_page|low value]].
+This page resource are still accessible but should not be advertised to the outside world because they are just component and have a [[docs:quality:low_quality_page|low value]].
 
 This is a component of the [[docs:quality:quality|quality seo module]].
 ===== Articles Related =====
@@ -19,6 +19,6 @@ This is a component of the [[docs:quality:quality|quality seo module]].
 
 This functionality adds automatically to the [[doku>config:hidepages]] [[:configuration|configuration]], the following pattern
 <file>
-(headerbar|footerbar|sidekickbar|sidebar|combostrap)
+(slot_header|slot_footer|slot_sidekick|sidebar|combostrap)
 </file>
 
