@@ -15,6 +15,7 @@
 
 ==== New ====
   * The [[docs:content:tooltip|tooltip]] can now have all syntax possible inside
+  * A link can now have a tooltip automatically created via the ''tooltip'' attribute. See [[docs:content:tooltip?tooltip|link with automatic tooltip]]
 
 ==== Deprecated ====
   * The old [[release:deprecated:tooltip|tooltip]] syntax was deprecated for a tooltip seen as a child of a component

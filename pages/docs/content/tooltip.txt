@@ -1,6 +1,8 @@
 ---json
 {
-   "canonical":"tooltip"
+   "canonical":"tooltip",
+   "name":"tooltip",
+   "description":"A Tooltip displays informative text when users hover over, focus on, or tap an element."
 }
 ---
 
@@ -25,7 +27,7 @@ where:
 
 ===== Example =====
 
-==== Link ====
+==== A link with a custom tooltip ====
 Because a link should be written on one line, you need to inline the tooltip markup.
 <webcode name="Default">
 <code dw>
@@ -33,6 +35,14 @@ Because a link should be written on one line, you need to inline the tooltip mar
 </code>
 </webcode>
 
+==== A link with the default tooltip ====
+
+A [[docs:content:link|link]] can get a tooltip created from the [[docs:semantic:title|title]] and the [[docs:semantic:description|description]] via the ''tooltip'' attribute.
+<webcode name="Default">
+<code dw>
+[[?tooltip|A link with a tooltip]]
+</code>
+</webcode>
 ==== Button ====
 
 <webcode name="Button">
