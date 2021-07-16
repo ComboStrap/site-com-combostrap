@@ -14,37 +14,36 @@
 {{backlinks>.}}
 
 ===== Syntax =====
-A ''tooltip'' is a [[docs:component|UI component]] that wraps the element where the ''tooltip'' should be attached
+A ''tooltip'' is a [[docs:component|UI component]] that adds a tooltip to its container generally a button or a link.
 <code dw>
-<tooltip position="top" text="tooltip content">
-The tooltip target 
+<tooltip position="top">
+The tooltip content
 </tooltip>
 </code>
 where:
   * ''position'' is one of ''top'' (Default),''right'',''bottom'', ''left''
-  * ''text'' is the text of the tooltip
 
 ===== Example =====
 
-==== Text ====
-
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+==== Link ====
+Because a link should be written on one line, you need to inline the tooltip markup.
+<webcode name="Default">
 <code dw>
-<tooltip position="right" text="A tooltip">
-**A text with a tooltip on the right**
-</tooltip>
+[[#|<tooltip position="right">A tooltip</tooltip>A link with a tooltip on the right]]
 </code>
-
 </webcode>
 
 ==== Button ====
 
 <webcode name="Button">
 <code dw>
-<tooltip position="top" text="A tooltip">
-<btn>A button with a tooltip on the top</btn>
+<btn>
+<tooltip position="top">
+=== Tooltip Heading ===
+A tooltip text
 </tooltip>
+A button with a tooltip on the top
+</btn>
 </code>
-
 </webcode>
 
