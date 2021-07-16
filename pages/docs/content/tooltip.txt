@@ -8,7 +8,7 @@
 
 
 ===== About =====
-''Tooltips'' display informative text when users hover over, focus on, or tap an element.
+A ''Tooltip'' displays informative text when users hover over, focus on, or tap an element.
 
 ===== Articles Related =====
 {{backlinks>.}}
@@ -46,4 +46,3 @@ A button with a tooltip on the top
 </btn>
 </code>
 </webcode>
-
