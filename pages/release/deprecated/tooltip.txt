@@ -1,0 +1,34 @@
+---json
+{
+    "canonical":"deprecated:tooltip"
+}
+---
+====== Deprecated Tooltip Syntax ======
+
+
+===== About =====
+The [[docs:content:tooltip|tooltip]] syntax with the ''text'' attribute has been deprecated.
+
+For compatibility reason, the old syntax is still supported but customers should whenever they can, migrate to the new syntax.
+
+==== Deprecated Syntax ====
+
+<webcode name="Default" frameborder="0">
+<code dw>
+<tooltip text="The tooltip">
+<btn>Hover on me</btn>
+</tooltip>
+</code>
+</webcode>
+
+==== New Syntax ====
+
+<webcode name="Default" frameborder="0">
+<code dw>
+<btn>
+<tooltip>The tooltip</tooltip>
+Hover on me
+</btn>
+</code>
+</webcode>
+
