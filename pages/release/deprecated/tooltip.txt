@@ -26,7 +26,10 @@ For compatibility reason, the old syntax is still supported but customers should
 <webcode name="Default" frameborder="0">
 <code dw>
 <btn>
-<tooltip>The tooltip</tooltip>
+<tooltip>
+=== The tooltip ===
+Text
+</tooltip>
 Hover on me
 </btn>
 </code>

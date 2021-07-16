@@ -1,0 +1,20 @@
+---json
+{
+    "canonical":"release:1.18",
+    "title":"ComboStrap Release 1.18",
+    "description":"ComboStrap Release 1.18"
+}
+---
+====== ComboStrap - Release 1.18 ======
+
+
+===== About =====
+
+
+===== List =====
+
+==== New ====
+  * The [[docs:content:tooltip|tooltip]] can now have all syntax possible inside
+
+==== Deprecated ====
+  * The old [[release:deprecated:tooltip|tooltip]] syntax was deprecated for a tooltip seen as a child of a component
