@@ -35,12 +35,12 @@ Because a link should be written on one line, you need to inline the tooltip mar
 </code>
 </webcode>
 
-==== A link with the default tooltip ====
+==== A link with the preview tooltip ====
 
-A [[docs:content:link|link]] can get a tooltip created from the [[docs:semantic:title|title]] and the [[docs:semantic:description|description]] via the ''tooltip'' attribute.
+A [[docs:content:link|link]] can get a automatic tooltip  via the [[docs:content:link#preview|preview]] attribute.
 <webcode name="Default">
 <code dw>
-[[?tooltip|A link with a tooltip]]
+[[?preview|A link with a tooltip]]
 </code>
 </webcode>
 ==== Button ====

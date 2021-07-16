@@ -1,3 +1,11 @@
+---json
+{
+    "canonical":"getting_started",
+    "name":"Get Started",
+     "description":"This page helps you to get started with ComboStrap"
+}
+---
+
 ====== ComboStrap UI - Getting Started ======
 
 

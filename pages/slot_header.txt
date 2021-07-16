@@ -6,10 +6,10 @@ ComboStrap
 </brand>
 <collapse>
 <group expand="true">
-[[:docs:getting_started:getting_started|Docs]]
-[[support|Contact]]
+[[:docs:getting_started:getting_started?preview=false|Docs]]
+[[support?preview|Contact]]
 </group>
-<btn elevation="true" background-color="#7611F7" border-color="#7611F7">[[docs:getting_started:getting_started|Get Started <icon name="arrow-right-drop-circle-outline" width="1.5rem"/>]]</btn>
+<btn elevation="true" background-color="#7611F7" border-color="#7611F7">[[docs:getting_started:getting_started?preview|Get Started <icon name="arrow-right-drop-circle-outline" width="1.5rem"/>]]</btn>
 <search/>
 </collapse>
 </menubar>
