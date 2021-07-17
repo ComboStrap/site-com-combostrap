@@ -18,7 +18,9 @@ A visitor should not be anonymous to be able to see or to follow a link to the '
 
 ===== Configuration =====
 
+==== Enable ====
 
-By default, this feature is enable but you can disable it by setting the ''latePublicationProtectionEnable'' [[:configuration|configuration]] to false.
+By default, this feature is enabled but you can disable it by setting the ''latePublicationProtectionEnable'' [[:configuration|configuration]] to false.
 
-The mode of protection is defined by the [[docs:quality:protection#configuration|protection mode configuration]]
+==== Protection Mode ====
+The configuration ''latePublicationProtectionMode'' determines the mode of protection and may be one of the [[docs:quality:protection|protection mode values]].

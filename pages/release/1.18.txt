@@ -19,7 +19,8 @@
   * The [[docs:content:link#preview|preview]] attribute on [[docs:content:link|link]] will show a tooltip with the page name and description.
   * The [[docs:semantic:name|page name]] metadata was added to set a short description of a page.
 
-
+==== Breaking ====
+  * With the advent of the [[docs:quality:protection#robot|robot protection mode]], the [[docs:quality:protection|protection mode]] has been broken in two configurations: [[docs:seo:lqpp#protection_mode|low quality protection mode]] and [[docs:semantic:published#protection_mode|publication protection mode]]. The default value has been reset to ''ACL'', if you had another value, you should set it again.
 ==== Improvement ====
   * A [[docs:content:link#internal|internal link]] gets as title the [[docs:semantic:description|description]] of the target page. This way it enhances the HTML default tooltip.
 ==== Deprecated ====

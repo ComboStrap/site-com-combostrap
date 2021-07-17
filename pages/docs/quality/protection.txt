@@ -8,27 +8,25 @@
 ====== ComboStrap Quality - Protection Mode ======
 
 ===== About =====
-The ''protection mode'' is a [[:configuration|configuration]] value that determine the level of page protection when:
-  * they should not be published publicly 
-  * or are protected.
+The ''protection mode'' is a value that determines the level of page protection used in the protection configuration of:
+  * [[..:seo:lqpp#protection_mode|low quality pages]]
+  * or [[lpp#protection_mode|pages published in the past]]
 
 
-===== Usage =====
-The protection mode is used in two configurations to determine the protection of:
-  * [[..:seo:lqpp#protection mode|low quality pages]]
-  * pages with a [[lpp|published date in the past]]
+
 
 ===== Value =====
 
 This configuration has the following possibilities:
-  * ''norobot'': The page will be protected from search engine (aka ''robots'')
-      * The page will not be added to the search engine index
-      * The page will not appear in the [[docs:seo:sitemap|sitemap]].
-  * [[docs:quality:hidden|Hidden]] (default) - The page is still accessible directly but is not advertised. A visitor coming from an external link (such as external backlinks or email) will be able to see the page but the page will not be available in any listing.
+  * ''robot'': The page will not be added to the search engine index (aka ''robots'') and will not be added to the [[docs:seo:sitemap|search engine sitemap]].
+  * ''feed'': The page is accessible directly, is added to all listing and web page but is not advertised as been changed / or created
+  * [[docs:quality:hidden|Hidden]] (default) - The page is still accessible directly but is not added to all listing. A visitor coming from an external link (such as external backlinks or email) will be able to see the page..
   * ''ACL'' (''Access Control Lists'') - The page is not accessible to anonymous user. The user needs to log in to see the page.
 
+The table below lists the available listing and where the page will appear by protection mode
 
-^ Mode ^ Search Engine \\ Indexation ^ Sitemap ^ Internal Search \\ Result ^ RSS ^ Recent changes ^ Index Page ^ Publicly Accessible ^
-| norobot |  | | <icon name="check"/> | <icon name="check"/> | <icon name="check"/> | <icon name="check"/> | <icon name="check"/> |
-| hidden | | | | | | | <icon name="check"/> | 
-| ACL | | | | | | | |
+^ Mode \ Listing ^  Search Engine \\ (Sitemap)  ^  Recent changes \\ (RSS)  ^  Internal Search Index \\ (Result / Index Page)  ^  Publicly Accessible  ^
+| robot |  |  <icon name="check"/>  |  <icon name="check"/>  |  <icon name="check"/>  |
+| feed | | |  <icon name="check"/>  |  <icon name="check"/>  | 
+| hidden | | | |  <icon name="check"/>  | 
+| ACL | | | | |

@@ -10,7 +10,7 @@
 ===== About =====
 If your website has a lot of [[docs:quality:low_quality_page|low quality page]]:
   * your [[docs:seo:seo|SEO]] score will be lower
-  * you can even get at worse the [[#Thin content with little or no added value]] penalty and be deleted from the search engine inde.
+  * you can even get at worse the [[#Thin content with little or no added value]] penalty and be deleted from the search engine index.
 
 
 This feature if [[#enable|enabled]] makes [[docs:quality:low_quality_page|low quality page]] no more discoverable by Search Engine and prevents you to be banned by [[kb>search:engine|Search Engine]].
@@ -49,9 +49,16 @@ This protection is disabled by default. If you want to enable it, you need to ch
 A protection becomes active for a page when [[docs:analytics:process|it was analyzed]].
 </note>
 ==== Protection Mode ====
-The [[..:quality:protection|protection mode]] determines how a [[..:quality:low_quality_page|low quality page]] is protected from Search Engine.
+The ''lowQualityProtectionMode'' configuration holds a [[..:quality:protection|protection mode]] value that determines how a [[..:quality:low_quality_page|low quality page]] is protected from Search Engine.
 
 
+==== Navigation Behavior ====
+When [[#protection_mode|protection mode value]] is ''robot'', the default behavior is to print a normal link. This configuration permits to change the link.
+
+Values:
+  * ''normal'' - the default value
+  * ''warning'' - a ''warning'' link will shows a [[docs:content:tooltip|tooltip]] with a warning
+  * ''login'' - a ''login'' link will shows a [[docs:content:popover|popover]] requiring the user to login.
 ===== Support =====
 ==== The link does not appear as a low quality page protected link ====
 
