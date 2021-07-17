@@ -15,7 +15,6 @@
       * slot explorer - to see where they are
       * [[docs:ads:conf]] could be automated
   * monospace in the renderer should be a component
-  * link preview (autotooltip)
   * template to generate a list of pages with sql
       * Templating for the current page ([[https://forum.dokuwiki.org/d/19399-purge-on-a-namespace/7|example]]) - [[https://www.dokuwiki.org/plugin:struct:aggregation|aggregation]]
   * multiple background to add a black layer to add more contrast
