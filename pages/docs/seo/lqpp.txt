@@ -49,16 +49,18 @@ This protection is disabled by default. If you want to enable it, you need to ch
 A protection becomes active for a page when [[docs:analytics:process|it was analyzed]].
 </note>
 ==== Protection Mode ====
-The ''lowQualityProtectionMode'' configuration holds a [[..:quality:protection|protection mode]] value that determines how a [[..:quality:low_quality_page|low quality page]] is protected from Search Engine.
+The ''lowQualityProtectionMode'' configuration holds a [[..:quality:protection|protection mode]] value that determines how a [[..:quality:low_quality_page|low quality page]] is protected.
 
 
 ==== Navigation Behavior ====
-When [[#protection_mode|protection mode value]] is ''robot'', the default behavior is to print a normal link. This configuration permits to change the link.
+When the [[#protection_mode|protection mode value]] is ''robot'' or ''feed'', you can choose the tip of link created for [[docs:quality:low_quality_page|low quality pages]].
 
-Values:
-  * ''normal'' - the default value
-  * ''warning'' - a ''warning'' link will shows a [[docs:content:tooltip|tooltip]] with a warning
-  * ''login'' - a ''login'' link will shows a [[docs:content:popover|popover]] requiring the user to login.
+The possible values are:
+^ Values ^  Clickable  ^ Description ^
+| ''normal'' |  <icon name="check"/>  | A ''normal'' link (default) shows less emphasis (not underlined, less font-size) |
+| ''info'' |  <icon name="check"/>  | A ''info'' link will add the LQPP prefix on the default title link tooltip. |
+| ''warning'' |  <icon name="check"/>  | A ''warning'' link shows a [[docs:content:tooltip|tooltip]] with a warning. |
+| ''login'' |  <icon name="close"/>  | A ''login'' link shows a [[docs:content:tooltip|tooltip]] requiring the user to [[docs:app:identity|login]] to make the link clickable. |
 ===== Support =====
 ==== The link does not appear as a low quality page protected link ====
 
