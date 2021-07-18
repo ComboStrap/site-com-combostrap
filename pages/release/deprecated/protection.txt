@@ -1,0 +1,13 @@
+---json
+{
+    "canonical":"deprecated:protection"
+}
+---
+====== Deprecation - Protection Mode ======
+
+
+===== About =====
+The unique configuration ''pageProtectionMode'' has been deprecated and replaced by two configurations:
+  * [[docs:quality:low_quality_page#lowQualityPageProtectionMode|lowQualityPageProtectionMode]]
+  * [[docs:quality:lpp#latePublicationProtectionMode|latePublicationProtectionMode]]
+
