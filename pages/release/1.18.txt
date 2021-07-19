@@ -24,5 +24,6 @@
   * With the advent of the [[docs:quality:protection#robot|robot protection mode]], the [[docs:quality:protection|protection mode]] has been broken in two configurations: [[docs:seo:lqpp#protection_mode|low quality protection mode]] and [[docs:semantic:published#protection_mode|publication protection mode]]. The default value has been reset to ''ACL'', if you had another value, you should set it again.
 ==== Improvement ====
   * A [[docs:content:link#internal|internal link]] gets as title the [[docs:semantic:description|description]] of the target page. This way it enhances the HTML default tooltip.
+  * The height of the [[docs:layout:component:fixed-top-menu|fixed-top-menu]] is now automatically set. The configuration ''heightFixedTopMenuBar'' has become obsolete.
 ==== Deprecated ====
   * The old [[release:deprecated:tooltip|tooltip]] syntax was deprecated for a tooltip seen as a child of a component

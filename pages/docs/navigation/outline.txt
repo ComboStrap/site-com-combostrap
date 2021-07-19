@@ -89,9 +89,9 @@ Below, you can find all supported counter style.
 All outline headings supports an anchor that you can see when you hover over them.
 
 ==== Fixed top bar Adjustment ====
-With a [[docs:layout:component:fixed-top-menu|Fixed top menu bar]], the location of the headings are automatically adjusted to redefine the top position of the page to be below the top bar.
+With a [[docs:menubar:fixed-top|Fixed top menu bar]], the location of the headings are automatically adjusted to redefine the top position of the page to be below the top bar.
 
-More ... see [[docs:layout:component:fixed-top-menu|Fixed top menu bar]].
+More ... see [[docs:menubar:fixed-top|Fixed top menu bar]].
 
 
 

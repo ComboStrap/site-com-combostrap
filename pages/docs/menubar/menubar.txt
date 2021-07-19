@@ -35,7 +35,7 @@ The default [[docs:styling:color|background-color]] is a ''light'' background.
 ==== Fixed-top ====
 
 <note important>
-If you choose a fixed-top navbar, you need also to change a ''strap template'' styling parameter. See the dedicated page [[docs:layout:component:fixed-top-menu]]
+If you choose a fixed-top navbar, you need also to change a ''strap template'' styling parameter. See the dedicated page [[docs:menubar:fixed-top]]
 </note>
 
 

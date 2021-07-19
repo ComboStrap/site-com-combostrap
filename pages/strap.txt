@@ -23,7 +23,6 @@ The ''strap'' template supports the following features:
       * [[docs:layout:page:footer_slot|Footerbar]] (bottom)
   * [[docs:layout:page:toolbar|Aggregate toolbar (Page, User Site) with a private option]]
   * Support [[docs:semantic:tagline]]|tagline]]
-  * [[docs:layout:component:fixed-top-menu|Fixed-top navbar with automatic top page location correction]]
   * Support a [[docs:navigation:trail_breadcrumb|trailing breadcrumb]]
   * [[docs:styling:scale|Size Scale configuration (font and spacing)]]
   * [[docs:getting_started:4_favicon|Favicon]]: Recognized the [[docs:getting_started:4_favicon|favicons]]  (included ''android-chrome-192x192.png'')
