@@ -16,7 +16,7 @@ A ''Tooltip'' displays informative text when users hover over, focus on, or tap 
 {{backlinks>.}}
 
 ===== Syntax =====
-A ''tooltip'' is a [[docs:component|UI component]] that adds a tooltip to its container generally a button or a link.
+A ''tooltip'' is a [[docs:component?preview|UI component]] that adds a tooltip to its direct parent.
 <code dw>
 <tooltip position="top">
 The tooltip content
@@ -24,28 +24,38 @@ The tooltip content
 </code>
 where:
   * ''position'' is one of ''top'' (Default),''right'',''bottom'', ''left''
+  * the tooltip content can be any markup (heading, image, ..)
 
 ===== Example =====
 
 ==== A link with a custom tooltip ====
 Because a link should be written on one line, you need to inline the tooltip markup.
+
+Example:
 <webcode name="Default">
+  * Markup
 <code dw>
 [[#|<tooltip position="right">A tooltip</tooltip>A link with a tooltip on the right]]
 </code>
+  * Output:
 </webcode>
 
 ==== A link with the preview tooltip ====
 
-A [[docs:content:link|link]] can get a automatic tooltip  via the [[docs:content:link#preview|preview]] attribute.
+A [[docs:content:link?preview|link]] can get a automatic tooltip  via the [[docs:content:link?preview#preview|link preview attribute]].
 <webcode name="Default">
+  * Markup
 <code dw>
 [[?preview|A link with a tooltip]]
 </code>
+  * Output:
 </webcode>
 ==== Button ====
+Adding a tooltip to a [[docs:content:button?preview|button]].
 
+Example:
 <webcode name="Button">
+  * Markup
 <code dw>
 <btn>
 <tooltip position="top">
@@ -55,11 +65,12 @@ A tooltip text
 A button with a tooltip on the top
 </btn>
 </code>
+  * Output:
 </webcode>
 
 ==== Text ====
 
-You can also add a tooltip on words. For instance, with the [[docs:content:itext|itext component]]
+You can also add a tooltip on words. For instance, with the [[docs:content:itext?preview|itext component]]
 <webcode name="text">
   * Markup
 <code dw>
@@ -69,3 +80,40 @@ You can also add a tooltip on words. For instance, with the [[docs:content:itext
 
 </webcode>
 
+==== Icon ====
+
+You can also add a tooltip on a [[docs:content:icon?preview|icon]]. 
+<webcode name="text">
+  * Markup
+<code dw>
+<icon name="information-outline">
+<tooltip>
+=== Icon tooltip ===
+A tooltip on a icon can also be added
+</tooltip></icon>
+</code>
+  * Output:
+
+</webcode>
+
+==== Image ====
+Adding a tooltip on a [[docs:content:image?preview|image]] is not directly supported but if you see your image as text and wrap it up inside a [[docs:content:itext?preview|itext]], you get the same effect.
+
+Example:
+<webcode name="text">
+  * Markup
+<code dw>
+<itext class="d-inline-block">
+<tooltip>
+=== Image tooltip ===
+A surfer at the beach
+</tooltip>
+{{:docs:block:stock_image_surfer_in_the_see.png?200|}}
+</itext>
+</code>
+  * Output:
+
+</webcode>
+
+
+<note>To see the tooltip immediately when hovering on the image the [[docs:styling:class|class]] ''d-inline-block'' on the ''itext'' component is mandatory. The ''itext'' component takes then the same size than the image)</note>

@@ -1,6 +1,8 @@
 ---json
 {
-    "canonical":"ui:components"
+    "canonical":"ui:component",
+    "name":"component",
+    "description":"Components are the units of content creation for a page. Together, they create the content of the page."
 }
 ---
 
