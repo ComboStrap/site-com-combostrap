@@ -56,3 +56,16 @@ A button with a tooltip on the top
 </btn>
 </code>
 </webcode>
+
+==== Text ====
+
+You can also add a tooltip on words. For instance, with the [[docs:content:itext|itext component]]
+<webcode name="text">
+  * Markup
+<code dw>
+<itext><tooltip>A tooltip on words can also be added</tooltip>Tooltip on words</itext>
+</code>
+  * Output:
+
+</webcode>
+

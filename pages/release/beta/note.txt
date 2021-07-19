@@ -25,6 +25,7 @@
   * The tag syntax is no more needed.
   * Page deleted / moved should be deleted /renamed into the database
   * [[docs:layout:component:card_column|card-columns]] as a real [[https://masonry.desandro.com/layout.html#responsive-layouts|responsive masonry]] ?
+  * namespace documentation ? https://help.fandom.com/wiki/Namespaces
 
 ===== Canonical bug =====
 
