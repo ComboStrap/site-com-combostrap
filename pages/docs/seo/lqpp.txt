@@ -56,11 +56,10 @@ The ''lowQualityProtectionMode'' configuration holds a [[..:quality:protection|p
 When the [[#protection_mode|protection mode value]] is ''robot'' or ''feed'', you can choose the tip of link created for [[docs:quality:low_quality_page|low quality pages]].
 
 The possible values are:
-^ Values ^  Clickable  ^ Description ^
-| ''normal'' |  <icon name="check"/>  | A ''normal'' link (default) shows less emphasis (not underlined, less font-size) |
-| ''info'' |  <icon name="check"/>  | A ''info'' link will add the LQPP prefix on the default title link tooltip. |
-| ''warning'' |  <icon name="check"/>  | A ''warning'' link shows a [[docs:content:tooltip|tooltip]] with a warning. |
-| ''login'' |  <icon name="close"/>  | A ''login'' link shows a [[docs:content:tooltip|tooltip]] requiring the user to [[docs:app:identity|login]] to make the link clickable. |
+^ Values ^  Clickable  ^ <itext><tooltip>The visibility level defines the emphasis for the reader. The bigger, the more chance, your reader will notice the low quality page</tooltip>Visibility Level</itext> ^ Description ^
+| ''normal'' |  <icon name="check"/>  | Editor | A ''normal'' link (default) shows less emphasis (not underlined, less font-size) and add the LQPP prefix on the default title link tooltip making it visible for the editor |
+| ''warning'' |  <icon name="check"/>  | Reader | A ''warning'' link shows a [[docs:content:tooltip|tooltip]] with a warning making it more visible to the reader |
+| ''login'' |  <icon name="close"/>  | Reader | A ''login'' link shows a [[docs:content:tooltip|tooltip]] requiring the user to [[docs:app:identity|login]] to make the link clickable. |
 ===== Support =====
 ==== The link does not appear as a low quality page protected link ====
 
