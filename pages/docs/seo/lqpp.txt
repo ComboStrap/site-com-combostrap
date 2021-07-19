@@ -53,7 +53,7 @@ The ''lowQualityProtectionMode'' configuration holds a [[..:quality:protection|p
 
 
 ==== Navigation Behavior ====
-When the [[#protection_mode|protection mode value]] is ''robot'' or ''feed'', you can choose the tip of link created for [[docs:quality:low_quality_page|low quality pages]].
+When the [[docs:quality:protection|protection mode value]] is ''robot'' or ''feed'', you can choose the tip of link created for [[docs:quality:low_quality_page|low quality pages]].
 
 The possible values are:
 ^ Values ^  <itext><tooltip>Can we click on the link and navigate to the page</tooltip>Clickable</itext>  ^ <itext><tooltip>The visibility level defines the emphasis for the reader. The bigger, the more chance, your reader will notice the low quality page</tooltip>Visibility Level</itext> ^ Description ^
