@@ -36,9 +36,8 @@ The effect is that:
 ===== Demo =====
 
 We have created a low page demo to show you the protection in action.
-  * Link: This is a  [[..:quality:low_quality_example|internal link to the low quality page]]. It is a [[#link type|normal link]] that is not  [[docs:styling:underline|underlined]] and if you are hovering over it, it will shows a tooltip with a description that has the ''LQPP'' acronym at the end (''LQPP'' stands for ''Low Quality Page Protection'')
-
-  * Mode: The [[#protection mode|protection mode]] of this website is ''hidden'' which means that everybody with an external link can still navigate to this page. For instance, if you click on this external link [[https://combostrap.com/quality/low_quality_example|low quality demo page]], you should be able to see the ''hidden'' low quality page.
+  * Link: This is a  [[..:quality:low_quality_example|internal link to the low quality page]]. It is a [[#link type|warning link]] that is not  [[docs:styling:underline|underlined]] and if you are hovering over it, it will shows a tooltip. 
+  * Mode: The [[#protection mode|protection mode]] of this website is ''hidden'' which means that everybody with an external link can still navigate to this page. For instance, if you click on this external link [[https://combostrap.com/quality/low_quality_example|low quality demo page]], you will be able to see the ''hidden'' low quality page.
 
 ===== Configuration =====
 ==== Enable ====
@@ -58,9 +57,27 @@ When the [[docs:quality:protection|protection mode value]] is ''robot'' or ''fee
 
 The possible values are:
 ^ Values ^  <itext><tooltip>Can we click on the link and navigate to the page</tooltip>Clickable</itext>  ^ <itext><tooltip>The visibility level defines the emphasis for the reader. The bigger, the more chance, your reader will notice the low quality page</tooltip>Visibility Level</itext> ^ Description ^
-| ''normal'' |  <icon name="check"/>  | Editor | A ''normal'' link (default) shows less emphasis (not underlined) and add the LQPP suffix on the default title link tooltip making it visible for the editor |
+| ''normal'' |  <icon name="check"/>  | Editor | A ''normal'' link (default) shows less emphasis (not underlined) and add the ''LQPP'' suffix (''Low Quality Page Protection'') on the default title link tooltip making it visible for the editor. |
 | ''warning'' |  <icon name="check"/>  | Reader | A ''warning'' link shows a [[docs:content:tooltip|tooltip]] with a warning making it more visible to the reader |
-| ''login'' |  <icon name="close"/>  | Reader | A ''login'' link shows a [[docs:content:tooltip|tooltip]] requiring the user to [[docs:app:identity|login]] to make the link clickable. |
+| ''login'' |  <icon name="close"/>  | Reader | A ''login'' link shows a [[docs:content:tooltip|tooltip]] requiring the user to [[docs:app:identity|login]] to make the link clickable. If the user is signed in, this is a normal link. |
+
+
+
+<row>
+<cell text-align="center">
+=== Normal link ===
+{{:docs:seo:lqpp_normal_link.png|}}
+</cell>
+<cell text-align="center">
+=== Warning Link ===
+{{:docs:seo:lqpp_warning_link.png|}}
+</cell>
+<cell text-align="center">
+=== Login Link ===
+{{:docs:seo:lqpp_login_link.png|}}
+</cell>
+</row>
+
 ===== Support =====
 ==== The link does not appear as a low quality page protected link ====
 
