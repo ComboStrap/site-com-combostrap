@@ -1,0 +1,14 @@
+---json
+{
+    "canonical":"late_publication_example",
+    "name":"Late Publication Page",
+    "title":"Late Publication Demo Page",
+    "published":"2999-01-01"
+}
+---
+====== Late Publication Page Demo ======
+
+
+This page is not accessible for an anonymous user due to the [[docs:quality:lpp|Late Page Publication Protection]].
+
+If you can read this and that you are not signed in, please [[:support|contact us]].

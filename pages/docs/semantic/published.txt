@@ -16,7 +16,6 @@ The ''published'' property is a page [[semantic|metadata]] that permits to modif
 If the ''published date'' is set in the future, the article will be [[docs:quality:lpp|protected]].
 </note>
 
-<badge>Since [[release:release#version_112|version 1.12]]</badge>
 ===== Articles Related =====
 {{backlinks>.}}
 ===== How to set a published date ? =====

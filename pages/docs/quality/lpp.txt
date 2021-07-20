@@ -11,10 +11,18 @@
 ===== About =====
 ''late publication protection'' is a feature that protects page with a [[docs:semantic:published|published date]] in the future (late) to be disclosed publicly until the [[docs:semantic:published|publication date]] is due.
 
-A visitor should not be anonymous to be able to see or to follow a link to the ''late publication page''.
+A visitor should not be signed in to be able to see or to follow a link to the ''late publication page''.
 
 ===== Articles Related =====
 {{backlinks>.}}
+
+===== Demo =====
+
+
+This [[docs:quality:lpp_demo|late publication page]]:
+  * shows a tooltip to inform you that you should login to see the page
+  * is not clickable.
+
 
 ===== Configuration =====
 

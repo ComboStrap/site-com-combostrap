@@ -16,7 +16,7 @@ There is also a lot of improvement in order to make the product easier to use.
 <note warning>
 #### Fixed Top Menu Bar Height should be set again
 
-The [[docs:layout:component:fixed-top-menu|height of the top menu bar]] is lost in the upgrade and should be set again to its initial value. 
+The [[docs:menubar:fixed-top|height of the top menu bar]] is lost in the upgrade and should be set again to its initial value. 
 
 We missed it in the test case, sorry.
 </note>

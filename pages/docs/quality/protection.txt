@@ -18,9 +18,9 @@ The ''protection mode'' is a value that determines the level of page protection 
 ===== Value =====
 
 This configuration has the following possibilities:
-  * ''robot'': The page will not be added to the search engine index (aka ''robots'') and will not be added to the [[docs:seo:sitemap|search engine sitemap]].
-  * ''feed'': The page is accessible directly, is added to all listing and web page but is not advertised as been changed / or created
-  * [[docs:quality:hidden|Hidden]] (default) - The page is still accessible directly but is not added to all listing. A visitor coming from an external link (such as external backlinks or email) will be able to see the page..
+  * ''robot'': (default)  The page will not be added to the search engine index (aka ''robots'') and will not be added to the [[docs:seo:sitemap|search engine sitemap]].
+  * ''feed'': The page is accessible directly, is added to all listing and web page but is not advertised as been changed / or created (ie feed protected)
+  * [[docs:quality:hidden|hidden]] - The page is still accessible directly but is not added to all listing. A visitor coming from an external link (such as external backlinks or email) will be able to see the page..
   * ''ACL'' (''Access Control Lists'') - The page is not accessible to anonymous user. The user needs to log in to see the page.
 
 The table below lists the available listing and where the page will appear by protection mode
