@@ -28,7 +28,7 @@ Adding the ''sticky'' attribute will made them sticky.
 
 ==== Page top ====
 
-If you have a [[docs:layout:component:fixed-top-menu|fixed top navbar]], this is the [[docs:layout:component:fixed-top-menu#set_the_height_of_the_navbar|height of your navbar]], otherwise this is the top of the window.
+If you have a [[docs:menubar:fixed-top|fixed top navbar]], this is the [[docs:menubar:fixed-top#set_the_height_of_the_navbar|height of your navbar]], otherwise this is the top of the window.
 
 ===== Example =====
 
