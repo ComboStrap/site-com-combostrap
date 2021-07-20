@@ -19,10 +19,13 @@ A visitor should not be signed in to be able to see or to follow a link to the '
 ===== Demo =====
 
 
-This [[docs:quality:lpp_demo|late publication page]]:
-  * shows a tooltip to inform you that you should login to see the page
+For an anonymous user, this link to a [[docs:quality:lpp_demo|late publication page]]:
   * is not clickable.
+  * shows a [[docs:content:tooltip|tooltip]] to inform that the login is required.
 
+Visual Example:
+
+{{:docs:quality:lpp_login_link.png|}}
 
 ===== Configuration =====
 
