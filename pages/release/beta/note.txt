@@ -9,7 +9,6 @@
 
 
 ===== Improvement =====
-  * The page (viz:viz) and the page (data:viz:viz) have the same canonical.
   * slot improvement
       * slot explorer - to see where they are
       * [[docs:ads:conf]] could be automated

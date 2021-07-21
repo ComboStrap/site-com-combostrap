@@ -29,3 +29,10 @@
   * The [[docs:quality:lpp|late publication protection]] and  [[docs:seo:lqpp|low quality page protection]] does not share the same [[docs:quality:protection|protection mode]]
 ==== Deprecated ====
   * The old [[release:deprecated:tooltip|tooltip]] syntax was deprecated for a tooltip seen as a child of a component
+==== Bug ====
+
+With the [[docs:semantic:automatic_canonical|automatic canonical]], two pages with the same last two parts could get the same canonical and get this errors:
+<file>
+The page (viz:viz) and the page (data:viz:viz) have the same canonical. ''viz:viz''
+</file>
+To resolve this problem, we delete now the last name if it's the same than its previous. The page ''viz:viz'' gets the canonical ''viz'' and the page ''data:viz:viz'' gets the canonical ''data:viz''.
