@@ -10,7 +10,7 @@
 
 ===== About =====
 
-This release is a [[docs:seo:seo|SEO]] focused release. 
+This release is a [[docs:seo:seo|SEO]] focused release.
 
 As extra, the [[docs:content:tooltip|tooltip]] component has been largely enhanced and has permitted to add the [[docs:content:link?preview#preview|preview functionality to link]].
 ===== List =====
@@ -21,6 +21,7 @@ As extra, the [[docs:content:tooltip|tooltip]] component has been largely enhanc
   * A [[docs:content:link|link]] can now have a tooltip automatically created via the ''tooltip'' attribute. See [[docs:content:tooltip?tooltip|link with automatic tooltip]]
   * The [[docs:content:link#preview|preview]] attribute on [[docs:content:link|link]] will show a tooltip with the page name and description.
   * The [[docs:semantic:name|page name]] metadata was added to set a short description of a page.
+  * You can now add the [[#highlight_words_in_the_target_page|words to highlight in a link]] when navigating to a page.
 
 ==== Breaking ====
   * With the advent of the [[docs:quality:protection#robot|robot protection mode]], the [[docs:quality:protection|protection mode]] has been broken in two configurations: [[docs:seo:lqpp#protection_mode|low quality protection mode]] and [[docs:semantic:published#protection_mode|publication protection mode]]. The default value has been reset to ''ACL'', if you had another value, you should set it again.
@@ -33,8 +34,9 @@ As extra, the [[docs:content:tooltip|tooltip]] component has been largely enhanc
   * The old [[release:deprecated:tooltip|tooltip]] syntax was deprecated for a tooltip seen as a child of a component
 ==== Bug ====
 
-With the [[docs:semantic:automatic_canonical|automatic canonical]], two pages with the same last two parts could get the same canonical and get this errors:
+  * With the [[docs:semantic:automatic_canonical|automatic canonical]], two pages with the same last two parts could get the same canonical and get this errors:
 <file>
 The page (viz:viz) and the page (data:viz:viz) have the same canonical. ''viz:viz''
 </file>
 To resolve this problem, we delete now the last name if it's the same than its previous. The page ''viz:viz'' gets the canonical ''viz'' and the page ''data:viz:viz'' gets the canonical ''data:viz''.
+  * The windows share link was broken. ''\\share'' became ''\\\\share'' due to the new mandatory string transformation. A string is no more transformed as string.

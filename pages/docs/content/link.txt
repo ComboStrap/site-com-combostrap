@@ -168,6 +168,24 @@ Hovering on this link, you will see a [[?preview|preview of the actual page]]
 <note>
 If you enable the [[#previewLink]] configuration, the ''preview'' attribute will be added on all internal links.
 </note>
+
+==== Highlight Words in the target page ====
+
+You can even create links that will highlight words in your target path.
+
+Example:
+<webcode name="Default" frameborder="0">
+<code dw>
+[[?s=Highlight&s=path#highlight_words_in_the_target_page|Click this link to highlight the words ''highlight'' and ''path'' on the target page]]
+</code>
+  * Output:
+</webcode>
+
+\\
+
+<note important>
+You can't use the form ''s[]'' to highlight words.  Why ? See [[#Square bracket not allowed]]
+</note>
 ===== Configuration =====
 
 ==== useDokuwikiLinkClassName ====
@@ -209,4 +227,19 @@ You can still create a link with an URL as description such as this one:
 </code>
   * Output:
 </webcode>
+
+==== Square Bracket Not allowed ====
+
+The Closing Square Bracket '']'' is not allowed in a link.
+
+For instance, this link format is not allowed
+<code dw>
+[[?s[]=word1+word2#fragment]]
+</code>
+
+
+Why ?
+  * Because Dokuwiki does not accept any group in the regular expression pattern that capture the content of the link. 
+  * Hence, there is no way to create a logic that will capture all characters until the '']]'' or ''|'' character is found using a lazy regular expression. 
+  * Therefore, we use a greedy expression and the '']'' is denied to allow more than one link on a line.
 
