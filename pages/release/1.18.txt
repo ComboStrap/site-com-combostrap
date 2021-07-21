@@ -10,7 +10,9 @@
 
 ===== About =====
 
+This release is a [[docs:seo:seo|SEO]] focused release. 
 
+As extra, the [[docs:content:tooltip|tooltip]] component has been largely enhanced and has permitted to add the [[docs:content:link?preview#preview|preview functionality to link]].
 ===== List =====
 
 ==== New ====
