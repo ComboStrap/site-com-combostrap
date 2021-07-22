@@ -1,7 +1,7 @@
 ---json
 {
    "canonical":"meta:description",
-   "description":"Would you want to  modify your meta description to rank better on the SERP page ? This is how you do it."
+   "description":"The page description is a summary of what your page is about. It's used heavily (search engine, page preview, social card,...). This page shows you how to modify it."
 }
 ---
 
@@ -18,6 +18,7 @@ It's a [[semantic|page metadata]] that:
   * is displayed:
       * in social cards ([[..:social:twitter|twitter]], [[..:social:facebook|facebook]], [[..:social:google|Google Rich Result]])
       * in the [[#Search Engine Results Page]].
+      * in the [[docs:content:link|link default popup]] or the [[docs:content:link#preview|link preview tooltip]]. (Example for this page, hovering over this [[?preview#|link]] will show you the description of this page in a tooltip)
   * used in ''text-to-speech (TTS)'' (thanks to [[https://developers.google.com/search/docs/data-types/speakable|Speakable]])
 
 
@@ -46,8 +47,8 @@ To known more about description and [[docs:seo:seo|search engine optimization]],
 
 
 
-===== Usage =====
-For the geek, technically, this component will create the following ''description'' [[kb>html:meta|HTML meta header]] 
+===== HTML Meta =====
+This component will also create the following ''description'' [[kb>html:meta|HTML meta header]] 
 
 
    * The HTML standard used by [[#Search Engine Result Pages (SERP)|Search engine]] and crawler.
