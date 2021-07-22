@@ -10,7 +10,7 @@
 
 
 ===== About =====
-''social'' is a [[docs:seo|SEO module]] that helps to improve:
+''social'' is a [[docs:seo:seo|SEO module]] that helps to improve:
   * the [[#discoverability|discoverability]]
   * and the [[#interaction|interaction]] with your users.
 

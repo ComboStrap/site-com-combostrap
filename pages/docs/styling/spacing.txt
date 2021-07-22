@@ -111,7 +111,7 @@ The old notation ''l'' and ''r'' are still supported therefore ''pl-3 ml-5'' is 
 
 
 === For the geek ===
-The ''margin'' properties can utilize negative values but ''padding'' cannot and that's how the top of the page is defined in a  [[docs:layout:component:fixed-top-menu|fixed-top menubar]]
+The ''margin'' properties can utilize negative values but ''padding'' cannot and that's how the top of the page is defined in a  [[docs:menubar:fixed-top|fixed-top menubar]]
 
 ===== Documentation / Reference =====
   * [[https://getbootstrap.com/docs/4.0/utilities/spacing/|Bootstrap Spacing]].

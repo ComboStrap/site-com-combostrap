@@ -26,4 +26,4 @@ The version 1.2 is a big template improvement release:
   * The [[docs:performance:cdn|CDN feature]] has now its own page and is also tested
   * A [[docs:utility:jquery|Jquery]] and [[docs:utility:bootstrap|Bootstrap]] page were added
   * The [[docs:menubar:menubar|navbar]] now supports completely the ''Bootstrap'' options.
-  * The [[docs:layout:component:fixed-top-menu|fixed-top navbar]] has now a page and is fully dynamically configurable.
+  * The [[docs:menubar:fixed-top|fixed-top navbar]] has now a page and is fully dynamically configurable.
