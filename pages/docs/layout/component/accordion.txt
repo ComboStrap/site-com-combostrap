@@ -17,7 +17,6 @@
 You can also choose [[docs:layout:component:tabs|tabs]] as other navigational collapsible layout for panels.
 </note>
 
-<badge>Since [[release:release#version_112|version 1.12]]</badge>
 ===== Articles Related =====
 {{backlinks>.}}
 
@@ -35,7 +34,7 @@ By default, [[docs:menubar:collapse|panels]] are ''collpased'', if you don't wan
     <panel>
         <label><icon name="hamburger"/> Menu</label>
         === With Hamburger Icon ===
-        You can use all syntaxes inside a label [[ui:icon|icon included]]
+        You can use all syntaxes inside a label [[:docs:content:icon|icon included]]
     </panel>
 </accordion>
 </code>
