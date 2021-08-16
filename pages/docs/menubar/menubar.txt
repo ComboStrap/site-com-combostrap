@@ -81,7 +81,7 @@ If you choose a fixed-top navbar, you need also to change a ''strap template'' s
 </code>
   * The [[docs:menubar:search|search bar]]
 <code dw>
-<search class="mr-0 pr-0">
+<search/>
 </code>
   * The end of the element to collapse (ie we collapse all [[docs:menubar:dropdown|drop down]] and the [[docs:menubar:search|search bar]]
 <code dw>
