@@ -10,6 +10,6 @@
 
 
 ===== About =====
-The latest release is the release [[1.18|1.18]] bringing SEO improvement in [[docs:seo:lqpp|low quality page protection]], an improved tooltip component, link preview and more.
+The latest release is the release [[1.19|1.19]]
 
-For all news and modifications, you should go and the release page [[1.18]].
+For all news and modifications, you should go and the release page [[1.19]].

@@ -25,7 +25,7 @@ from
 	(
 	select
 		id,
-		json_extract(analytics, '$.statistics.words') as words
+		json_extract(analytics, '$.statistics.words_count') as words
 	from
 		pages
 	where
@@ -36,7 +36,8 @@ from
 And this is the result that we get on this website.
 
 ^ page_count ^ words_avg ^ words_count ^ words_max ^ words_min ^
-|136|131|17865|1100|4|
+|258|173|44664|1301|2|
+
 
 ===== See =====
 

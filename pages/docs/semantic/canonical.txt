@@ -58,18 +58,18 @@ the canonical head properties would become
 ===== Demo =====
 This page has the canonical value set to ''canonical:url'' and therefore is also available at this Canonical URL.
 
-<wrap tip>In [[doku>|dokuwiki]], a red hyperlink means that the file does not exist but with the ''canonical'' feature, the page exists.</wrap>
+<note tip>In [[doku>|dokuwiki]], a red hyperlink means that the file does not exist but with the ''canonical'' feature, the page exists.</note>
 
 Try it your self !
 
 <btn>
-[[https://combostrap.com/canonical#demo|Navigate to this page via its canonical URL]] !
+[[https://combostrap.com/canonical#demo|Navigate to this page via its canonical URL !]]
 </btn>
 
 or
 
 <btn>
-[[docs:semantic:canonical#demo|Navigate to this page via its dokuwiki URL]] !
+[[docs:semantic:canonical#demo|Navigate to this page via its dokuwiki URL !]]
 </btn>
 
 ===== Usage =====

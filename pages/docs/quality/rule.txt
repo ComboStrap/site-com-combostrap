@@ -22,7 +22,6 @@ They:
   * define what a [[low_quality_page|low quality page]] when they are [[low_quality_page#mandatory rules|mandatory]]
   * can determine if a [[..:seo:lqpp|page is public or not]]
 
-<badge>Since [[release:release|version 1.11]]</badge>
 
 ===== Example =====
 Example of the ''quality'' section of the [[docs:analytics:data|json analytical data]] 
