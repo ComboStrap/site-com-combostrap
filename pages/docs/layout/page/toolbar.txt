@@ -14,7 +14,7 @@ The ''toolbar'' is located at the right side of the template and follows the scr
 It regroups in one place:
   * the page menu (Create / Edit / Show / Backlinks / Old Revisions / BacktoTop)
   * the user menu (Login / Logout / Update Profile)
-  * and the site menu (Admin)
+  * and the site menu (Admin, Media Manager, Recent Changes, Sitemap)
 
 <note tip>
 === Navigational rail ===

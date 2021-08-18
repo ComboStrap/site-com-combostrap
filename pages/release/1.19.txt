@@ -9,5 +9,10 @@
 ===== About =====
 
 ===== List =====
+==== Improvement ====
+  * The sidekick [[docs:layout:page:toolbar|toolbar]] icons have been grouped by type of tool (ie user, page, website)
+
+==== Bug ====
+
   * semi-bug: Page request with the [[doku>config:send404]] config enabled would return a 404 even if a page with a [[docs:semantic:canonical|canonical]] was found. Because the http status is set at the beginning, we can't change it, we send therefore an error message
   * bug: the toolbar editor for a blockquote was closed not with a blockquote tag.
