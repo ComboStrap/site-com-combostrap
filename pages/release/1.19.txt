@@ -11,6 +11,7 @@
 ===== List =====
 ==== Improvement ====
   * The sidekick [[docs:layout:page:toolbar|toolbar]] icons have been grouped by type of tool (ie user, page, website)
+  * [[docs:utility:pipeline#cut|pipeline cut function]] allows a ''range'' selection. (ie all token after the first separator for instance)
 
 ==== Bug ====
 

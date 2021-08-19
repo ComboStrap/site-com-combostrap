@@ -87,22 +87,31 @@ Output:
 
 **Syntax**:
 <code>
-cut("separator",partIndex)
+cut("separator",selector)
 </code>
 where:
   * ''separator'' can be a simple character or a regular expression.
-  * ''partIndex'' is the part number (starts at 1 for the first one)
+  * ''selector'' is a token selection in the form ''x[-y]'' where:
+      * ''x'' is the first token to select
+      * ''-'' will select also the next tokens (optional, if not set only one token is returned)
+      * ''y'' is the last token to select (optional, by default, the last one)
 
 Example:
-  * Basic
+  * Range Token Selection. Select all token from the second
 <webcode name="cut" frameborder=0 >
 <code dw>
-<pipeline> "Hello - World" | cut("-",2) </pipeline>
+<pipeline> "Hello - Foo - Bar" | cut("-","2-") </pipeline>
 </code>
 Output:
 </webcode>
-
-  * if the separator is not found, the function has not effect on the string given.
+  * Single Token Selection. Select only the second token
+<webcode name="cut" frameborder=0 >
+<code dw>
+<pipeline> "Hello - Foo - Bar" | cut("-",2) </pipeline>
+</code>
+Output:
+</webcode>
+  * If the separator is not found, the function has not effect on the given string.
 <webcode name="cut" frameborder=0 >
 <code dw>
 <pipeline> "Hello World" | cut("-",2) </pipeline>
