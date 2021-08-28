@@ -13,6 +13,8 @@
       * slot explorer - to see where they are
       * [[docs:ads:conf]] could be automated
   * monospace in the renderer should be a component
+  * add an edit page button (example: https://kotlinlang.org/docs/control-flow.html)
+  * add a previous page, next page. (Example at the bottom: https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/downloads-list.html)
   * template to generate a list of pages with sql
       * Templating for the current page ([[https://forum.dokuwiki.org/d/19399-purge-on-a-namespace/7|example]]) - [[https://www.dokuwiki.org/plugin:struct:aggregation|aggregation]]
   * multiple background to add a black layer to add more contrast
@@ -24,19 +26,9 @@
   * Page deleted / moved should be deleted /renamed into the database
   * [[docs:layout:component:card_column|card-columns]] as a real [[https://masonry.desandro.com/layout.html#responsive-layouts|responsive masonry]] ?
   * namespace documentation ? https://help.fandom.com/wiki/Namespaces
+  * export ([[https://github.com/i-net-software/dokuwiki-plugin-siteexport/issues/116|siteexport issue]]), note the configuration should be change from ''wiki:export.zip'' to ''export.zip'' to get it working, log file is the full path)
 
-===== Canonical bug =====
 
-<file txt>
-The page (web:javascript:test:test) and the page (lang:python:test:test) have the same canonical (test:test)
-The page (web:javascript:node:module:module) and the page (web:javascript:module:module) have the same canonical (module:module)
-The page (web:javascript:node:module:module) and the page (web:javascript:module:module) have the same canonical (module:module)
-The page (lang:python:grammar:comment) and the page (code:grammar:comment) have the same canonical (grammar:comment)
-The page (lang:java:io:standard_stream) and the page (io:standard_stream) have the same canonical (io:standard_stream)
-The page (lang:python:grammar:import) and the page (code:grammar:import) have the same canonical (grammar:import)
-The page (lang:python:grammar:comment) and the page (code:grammar:comment) have the same canonical (grammar:comment)
-The page (lang:python:type:class) and the page (code:type:class) have the same canonical (type:class)
-</file>
 ===== Lazy load =====
   * Noscript handling for [[docs:performance:lazy|lazy loading]] Better for seo also. See [[https://github.com/ApoorvSaxena/lozad.js/wiki/Frequently-Asked-Questions#how-to-load-images-normally-when-javascript-is-disabled|doc]]
   * Supports Background image
@@ -146,6 +138,13 @@ db:oracle:999999.9:union:all:select_null:from_dual_and_0_0
 
 
 
+
+===== Social =====
+
+  * See sharing button at the end of https://how-to.vertx.io/aws-native-image-lambda-howto/
+  * Mail opener and Call opener Wrapper: https://mailgo.dev/
+  * https://ellisonleao.github.io/sharer.js/
+
 ===== Miscellaneous =====
   * [[https://www.dokuwiki.org/include_hooks|include-Hooks]] (meta)
   * [[https://aerolab.github.io/midnight.js/|Midnights]] ([[https://github.com/Aerolab/midnight.js|code]]) [[docs:menubar:fixed-top|fix topbar]] with differents colors depending on the background
@@ -153,9 +152,6 @@ db:oracle:999999.9:union:all:select_null:from_dual_and_0_0
   * [[docs:semantic:article|Article]] role:
       * [[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Article_Role|Add article role]]
       * [[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_article_role|Article role]]
-  * Social:
-      * Mail and Messenger wrapper: https://mailgo.dev/
-      * https://ellisonleao.github.io/sharer.js/
   * [[https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/dn320426(v=vs.85)?redirectedfrom=MSDN|Browserconfig ?]]
 <code xml>
 <?xml version="1.0" encoding="utf-8"?>

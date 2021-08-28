@@ -21,7 +21,7 @@ The ''strap'' template supports the following features:
       * [[docs:layout:page:sidekick_slot|Sidekickbar]] (right)
       * [[docs:layout:page:header_slot|Headerbar]] (top)
       * [[docs:layout:page:footer_slot|Footerbar]] (bottom)
-  * [[docs:layout:page:toolbar|Aggregate toolbar (Page, User Site) with a private option]]
+  * [[docs:layout:page:railbar|Aggregate toolbar (Page, User Site) with a private option]]
   * Support [[docs:semantic:tagline]]|tagline]]
   * Support a [[docs:navigation:trail_breadcrumb|trailing breadcrumb]]
   * [[docs:styling:scale|Size Scale configuration (font and spacing)]]

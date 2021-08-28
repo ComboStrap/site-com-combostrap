@@ -1,0 +1,33 @@
+---json
+{
+   "canonical":"toolbar"
+}
+---
+
+====== ComboStrap - Railbar ======
+
+{{ :strap:strap_toolbar.png|}}
+
+===== About =====
+The ''railbar'' is navigation rail located at the end side of the template (ie right for a LTR language, left for a RL [[docs:semantic:lang|language]]) and follows the scrolling of the page.
+
+It regroups all [[doku>devel:menus|Menus]] in one place:
+  * the page menu (Create / Edit / Show / Backlinks / Old Revisions / BackToTop)
+  * the user menu (Login / Logout / Update Profile)
+  * and the site menu (Admin, Media Manager, Recent Changes, Sitemap)
+
+
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Configuration =====
+==== privateRailbar ====
+
+You can cache the ''railbar'' from anonymous users with the  ''privateRailbar'' [[:configuration|configuration]].
+
+When this configuration is on, you can log in again at: https://yourdomain.com/?do=login
+
+===== Documentation / Reference =====
+  * [[doku>devel:menus]]
+  * [[https://material.io/components/navigation-rail|Navigation rail]]

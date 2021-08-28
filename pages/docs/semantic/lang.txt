@@ -23,7 +23,6 @@ The language identifier is used:
   * in the [[locale|locale]] to localize the page.
   * in the [[:strap|strap template]] to set the lang and direction
 
-<badge>Since [[release:release#version_112|version 1.12]]</badge>
 
 ===== Articles Related =====
 {{backlinks>.}}

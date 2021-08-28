@@ -21,7 +21,7 @@ In case of [[docs:url:404|missing page]], the ''URL Manager'' can [[redirection|
     * shows [[message|a message (with optionally a list of the pages with the same name)]]
 
 <note>
-By setting a [[docs:semantic:canonical|canonical]], you will have [[nice|nice url]].
+By setting a [[docs:semantic:canonical|canonical]], you will have a [[nice|nice url]].
 </note>
 
 

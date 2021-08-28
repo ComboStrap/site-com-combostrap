@@ -7,13 +7,26 @@
 
 
 ===== About =====
+This is a minor improvement release with bug fixes. The most improvement has been made on the [[docs:layout:page:railbar|toolbar]]. 
+
+The toolbar:
+  * has been renamed to ''railbar'' to not confound with the [[doku>toolbar|toolbar of the editor]]
+  * is now grouped by type of tool
+  * is also available in mobile screen.
+  * is made available in an offcanvas from a configurable breakpoint 
 
 ===== List =====
 ==== Improvement ====
-  * The sidekick [[docs:layout:page:toolbar|toolbar]] icons have been grouped by type of tool (ie user, page, website)
+  * The sidekick [[docs:layout:page:railbar|railbar]] icons have been grouped by type of tool (ie user, page, website)
+  * The sidekick [[docs:layout:page:railbar|railbar]] is available on all screen size and goes now in an offcanvas from a configured breakpoint (default to md)
   * [[docs:utility:pipeline#cut|pipeline cut function]] allows a ''range'' selection. (ie all token after the first separator for instance)
 
 ==== Bug ====
 
   * semi-bug: Page request with the [[doku>config:send404]] config enabled would return a 404 even if a page with a [[docs:semantic:canonical|canonical]] was found. Because the http status is set at the beginning, we can't change it, we send therefore an error message
   * bug: the toolbar editor for a blockquote was closed not with a blockquote tag.
+  * bug: the [[:security#content_security_policy|http header content security policy]] were send after output causing the below warning. They are now send when dokuwiki starts.
+<file>
+Warning: Cannot modify header information - headers already sent by (output started at C:\DokuWikiStick\dokuwiki\lib\tpl\strap\main.php:157) 
+in C:\DokuWikiStick\dokuwiki\lib\plugins\combo\action\metacsp.php on line 82
+</file>
