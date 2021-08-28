@@ -20,6 +20,7 @@ The toolbar:
   * The sidekick [[docs:layout:page:railbar|railbar]] icons have been grouped by type of tool (ie user, page, website)
   * The sidekick [[docs:layout:page:railbar|railbar]] is available on all screen size and goes now in an offcanvas from a configured breakpoint (default to md)
   * [[docs:utility:pipeline#cut|pipeline cut function]] allows a ''range'' selection. (ie all token after the first separator for instance)
+  * In [[docs:navigation:page-explorer|page-explorer]], the ''home'' template has been made optional and follows the ''page'' template if not present. If the ''home'' tag is present but empty, the ''home'' section is not shown.
 
 ==== Bug ====
 

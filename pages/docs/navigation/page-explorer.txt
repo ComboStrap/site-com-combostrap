@@ -48,7 +48,10 @@ where:
 
 
 <note >
-''page-explorer'', ''home'', ''page'', ''parent'' and ''namespace'' are all [[docs:marki|superset HTML component]].
+  * if the ''home'' tag:
+      * is defined without any template (ie empty content), the ''home'' section is not shown
+      * is not defined, the ''page'' template is used instead
+  * ''page-explorer'', ''home'', ''page'', ''parent'' and ''namespace'' are all [[docs:marki|superset HTML component]].
 </note>
 
 
