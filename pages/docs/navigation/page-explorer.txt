@@ -84,14 +84,12 @@ The below image shows you the mapping between the tag and their location in a tr
 
 Example:
 
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="Default">
 <code dw>
 <page-explorer tree ns=":docs">
     <home>[[$path|<icon name="home" color="#0000004d" width="20"/> Overview]]</home>
-    <ns><pipeline>"$h1" | cut("-",2) | trim() </pipeline></ns>
-    <page>
-        [[$path|<icon name="file" color="#0000004d" width="20"/>  <pipeline>"$h1" | cut("-",2) | trim() </pipeline>]]
-    </page>
+    <ns><pipeline>"$h1" | cut("-","2-") | trim() </pipeline></ns>
+    <page>[[$path|<icon name="file" color="#0000004d" width="20"/>  <pipeline>"$h1" | cut("-","2-") | trim() </pipeline>]]</page>
 </page-explorer>
 </code>
 where the ''page'' template is composed of:

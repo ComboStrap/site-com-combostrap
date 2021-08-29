@@ -29,6 +29,17 @@
   * export ([[https://github.com/i-net-software/dokuwiki-plugin-siteexport/issues/116|siteexport issue]]), note the configuration should be change from ''wiki:export.zip'' to ''export.zip'' to get it working, log file is the full path)
 
 
+Download Tracking
+ * [[https://github.com/googleanalytics/autotrack/blob/master/docs/plugins/event-tracker.md|tracking download]] ([[https://www.datadrivenu.com/track-downloads-google-analytics/|blog]])
+
+  * GTM: After the body
+
+<code html>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MD83VQ8"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+</code>
 ===== Lazy load =====
   * Noscript handling for [[docs:performance:lazy|lazy loading]] Better for seo also. See [[https://github.com/ApoorvSaxena/lozad.js/wiki/Frequently-Asked-Questions#how-to-load-images-normally-when-javascript-is-disabled|doc]]
   * Supports Background image

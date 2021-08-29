@@ -55,6 +55,6 @@ To install the [[:strap|Strap template]]:
 
 
 ===== Next Step =====
-<btn color="white">
-[[docs:getting_started:4_favicon|Install a favicon]]
+<btn>
+[[docs:getting_started:4_plugin|Install extra utility plugins]]
 </btn>

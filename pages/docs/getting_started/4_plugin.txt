@@ -1,0 +1,61 @@
+---json
+{
+   "canonical":"installation:plugins"
+}
+---
+
+====== ComboStrap Getting Started - Third Plugins ======
+
+
+===== About =====
+[[:combostrap|ComboStrap]] uses and supports third utility plugins natively. 
+
+We are using them daily and share them with you. You can install them the same way than [[docs:getting_started:2_combo|Combo]] and [[docs:getting_started:3_strap|Strap]]
+
+This is an optional and informative step.
+
+===== List =====
+
+==== Move ====
+
+The [[doku>plugin:move]] plugin permits to move page without creating any [[docs:quality:broken_link|broken link]].
+
+ComboStrap intercepts the move event and moves the [[docs:content:link|link]] and [[docs:content:image|image]] accordingly.
+
+You can quickly move a page with the ''rename'' action in the [[docs:layout:page:railbar|railbar]].
+
+{{:docs:getting_started:move_plugin_rename.png|}}
+==== Search Index Manager ====
+
+The ''search index'' is an index of your page that permits to retrieve quickly any information. 
+
+The index is [[doku>search|updated]] incrementally page by page when a visitor see a page.
+
+If you change a lot of page (for instance, making a release), the [[doku>plugin:searchindex|search index manager]] is for you. It will rebuild the index completely.
+
+You access it on the admin page via the ''admin'' action of the [[docs:layout:page:railbar|railbar]]
+
+{{:docs:getting_started:admin_railbar.png|}}
+==== Cache ====
+If you have an inconsistent page, you may have a cache issue. The [[doku>plugin:stale]] permits to make the whole cache stale in one click.
+
+You access it as action in the [[docs:layout:page:railbar|railbar]]
+
+{{:docs:getting_started:stale_plugin_rail_action.png|}}
+==== Analytics ====
+
+If you want some analytics information on your page, you can use the following Google plugin:
+  * [[doku>plugin:googleanalytics|Google Analtyics]]
+  * [[doku>plugin:googletagmanager|Google Tag Manager]]
+
+You can configure your tag id via the [[doku>plugin:config|configuration manager]] available via the ''admin'' action of the [[docs:layout:page:railbar|railbar]]
+
+{{:docs:getting_started:admin_railbar.png|}}
+
+
+===== Next Step =====
+
+
+<btn color="white">
+[[docs:getting_started:4_favicon|Install a favicon]]
+</btn>

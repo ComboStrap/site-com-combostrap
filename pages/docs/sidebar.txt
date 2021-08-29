@@ -1,4 +1,5 @@
 <page-explorer tree>
     <ns><pipeline>"$h1" | cut("-",2) | trim() </pipeline></ns>
+    <home>[[$path?preview=false|Overview]]</home>
     <page>[[$path?preview=false|<pipeline>"$h1" | cut("-","2-") | trim() </pipeline>]]</page>
 </page-explorer>
