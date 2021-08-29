@@ -65,10 +65,8 @@ The below image shows you the mapping between the tag and their location in a ''
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <page-explorer color="blue" height="250px" width="400" scroll="toggle">
-    <home>[[$path?underline=false|$title]]</home>
-    <page>
-        [[$path?underline=false|<icon name="file"/> <pipeline>"$h1" | replace("ComboStrap UI - ","")</pipeline>]]
-    </page>
+    <parent>[[$path?underline=false|<icon name="arrow-up-box"/> ... <pipeline>"$h1" | cut("-","2-") | trim()</pipeline>]]</parent>
+    <page>[[$path?underline=false|<icon name="file"/> <pipeline>"$h1" | cut("-","2-") | trim()</pipeline>]]</page>
 </page-explorer>
 </code>
 where the ''page'' template is composed of:

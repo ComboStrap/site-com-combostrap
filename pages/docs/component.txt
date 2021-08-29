@@ -6,7 +6,7 @@
 }
 ---
 
-====== ComboStrap - Components ======
+====== ComboStrap - UI Components ======
 
 ===== About =====
 ''components'' are the units of content creation for a page.

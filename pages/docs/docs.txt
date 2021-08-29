@@ -1,0 +1,20 @@
+---json
+{
+    "canonical":"docs",
+    "low_quality_page":"false"
+}
+---
+====== ComboStrap - Documentation ======
+
+
+===== About =====
+This section regroups all documentation of ComboStrap in one place. 
+
+On the left side in the tree navigation pane, you can explore all features and components that are available to you to create stunning web pages.
+
+From [[docs:seo:seo|SEO]] to [[docs:component|UI Component]], ComboStrap supports more than 200 features.
+
+<note>
+If you don't have any knowledge of ComboStrap, we recommend to first start with our [[docs:getting_started:getting_started|getting started guide]].
+</note>
+
