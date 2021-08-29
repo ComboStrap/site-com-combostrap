@@ -14,11 +14,10 @@
 For instance, the ''h1'' for this page is ''ComboStrap Semantic - H1 title''.
 
 
-<badge>Since [[release:release|version 1.11]]</badge>
 
 ===== Usage =====
 
-''ComboStrap'' captures it and adds it to the [[semantic|metadata]] and you can then use it in a [[docs:utility:template|template component]] such as the [[docs:navigation:page-explorer|navigational toc]].
+''ComboStrap'' captures it and adds it to the [[semantic|metadata]] and you can then use it in a [[docs:utility:template|template component]] such as in the [[docs:navigation:page-explorer|page-explorer]].
 
 
 

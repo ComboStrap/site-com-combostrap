@@ -46,13 +46,30 @@ where:
     *  ''parent'' defines a [[docs:utility:template|template]] for the parent namespace of the actual namespace (used only in the [[#list|list layout]])
   
 
+If a sub-element (''home'', ''parent'', ''namespace'') is defined without any template (ie empty content), they are not shown.
+
 
 <note >
-  * if the ''home'' tag:
-      * is defined without any template (ie empty content), the ''home'' section is not shown
-      * is not defined, the ''page'' template is used instead
-  * ''page-explorer'', ''home'', ''page'', ''parent'' and ''namespace'' are all [[docs:marki|superset HTML component]].
+''page-explorer'', ''home'', ''page'', ''parent'' and ''namespace'' are all [[docs:marki|superset HTML component]].
 </note>
+==== Default template ====
+
+  * if the ''page'' tag is is not defined, the below default ''page'' template is used 
+<code html>
+[[$path|$name]]
+</code>
+  * if the ''namespace'' tag is not defined, a default namespace template is used
+<code html>
+<!-- For a list -->
+[[$path|<icon name="folder"/> ... $name]]
+<!-- For a tree -->
+$name
+</code>
+  * if the ''parent'' tag is not defined, a default parent template is used
+<code html>
+[[$path|<icon name="arrow-up-box"/> ... $name]]
+</code>
+  * if the ''home'' tag is is not defined, the ''page'' template is used  
 
 
 ===== Example =====
@@ -101,7 +118,25 @@ It produces:
 </webcode>
 
 
+==== Default ====
 
+The default ''page-explorer''
+
+
+
+
+  * List
+<webcode name="DefaultList" >
+<code dw>
+<page-explorer></page-explorer>
+</code>
+</webcode>
+  * Tree
+<webcode name="DefaultList" >
+<code dw>
+<page-explorer tree></page-explorer>
+</code>
+</webcode>
 ===== Support =====
 
 ==== Performance consideration with the tree pane ====
