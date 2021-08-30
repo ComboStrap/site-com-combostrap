@@ -21,65 +21,29 @@ This component is mostly used in a [[docs:layout:page:side_slot|side slot]] or [
 ===== Articles Related =====
 {{backlinks>.}}
 
-===== Syntax =====
-
-<code dw>
-<page-explorer type ns="namespacePath">
-  <page>$path - $title</page>
-  <namespace>$path - $title</namespace>
-  <home>$path - $title</home>
-  <parent>$path - $title</parent>
-</page-explorer>
-</code>
-where:
-  * the attributes are:
-      * [[docs:styling:type|type]] that defines the layout and may be one of this two value:
-          * [[#list|list]] to create a list navigation pane (the default)
-          * [[#tree|tree]] to create a tree navigation pane
-      * ''ns'' that defines the ''namespace''. The default  value is the namespace of:
-          * the rendered page for a [[#list]]
-          * the physical page for a [[#tree]].
-  * the sub-element are:
-    * ''page'' defines a [[docs:utility:template|template]] for each page in the namespace
-    * ''home'' defines a [[docs:utility:template|template]] for the home page of the namespace
-    * ''namespace'' defines a [[docs:utility:template|template]] for each child namespace of the actual namespace 
-    *  ''parent'' defines a [[docs:utility:template|template]] for the parent namespace of the actual namespace (used only in the [[#list|list layout]])
-  
-
-If a sub-element (''home'', ''parent'', ''namespace'') is defined without any template (ie empty content), they are not shown.
-
-
-<note >
-''page-explorer'', ''home'', ''page'', ''parent'' and ''namespace'' are all [[docs:marki|superset HTML component]].
-</note>
-==== Default template ====
-
-  * if the ''page'' tag is is not defined, the below default ''page'' template is used 
-<code html>
-[[$path|$name]]
-</code>
-  * if the ''namespace'' tag is not defined, a default namespace template is used
-<code html>
-<!-- For a list -->
-[[$path|<icon name="folder"/> ... $name]]
-<!-- For a tree -->
-$name
-</code>
-  * if the ''parent'' tag is not defined, a default parent template is used
-<code html>
-[[$path|<icon name="arrow-up-box"/> ... $name]]
-</code>
-  * if the ''home'' tag is is not defined, the ''page'' template is used  
-
-
 ===== Example =====
 
-==== List ====
-The below image shows you the mapping between the tag and their location in a ''list''  layout.
+==== Default List ====
 
-{{docs:block:page-explorer-list-name-to-ui-region.png|}}
+''page-explorer'' does not need any template. The default list will look like this
 
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="DefaultList" >
+<code dw>
+<page-explorer></page-explorer>
+</code>
+</webcode>
+==== Default Tree ====
+
+''page-explorer'' does not need any template. The default tree will look like this
+<webcode name="DefaultTree" >
+<code dw>
+<page-explorer tree></page-explorer>
+</code>
+</webcode>
+
+==== Custom List ====
+
+<webcode name="Default" frameborder=0 >
 <code dw>
 <page-explorer color="blue" height="250px" width="400" scroll="toggle">
     <parent>[[$path?underline=false|<icon name="arrow-up-box"/> ... <pipeline>"$h1" | cut("-","2-") | trim()</pipeline>]]</parent>
@@ -92,11 +56,7 @@ where the ''page'' template is composed of:
   * and a [[docs:utility:pipeline|pipeline]] to modify the [[docs:semantic:h1|heading 1]] of the page.
 </webcode>
 
-==== Collapsible Tree ====
-
-The below image shows you the mapping between the tag and their location in a tree layout.
-
-{{docs:block:page-explorer-tree-name-to-ui-region.png|}}
+==== Custom Collapsible Tree ====
 
 
 Example:
@@ -118,25 +78,71 @@ It produces:
 </webcode>
 
 
-==== Default ====
 
-The default ''page-explorer''
+===== Syntax =====
 
-
-
-
-  * List
-<webcode name="DefaultList" >
 <code dw>
-<page-explorer></page-explorer>
+<page-explorer type ns="namespacePath">
+  <page>template</page>
+  <namespace>template</namespace>
+  <home>template</home>
+  <parent>template</parent>
+</page-explorer>
 </code>
-</webcode>
-  * Tree
-<webcode name="DefaultList" >
-<code dw>
-<page-explorer tree></page-explorer>
+where:
+  * the attributes are:
+      * [[docs:styling:type|type]] that defines the layout and may be one of this two value:
+          * [[#list|list]] to create a list navigation pane (the default)
+          * [[#tree|tree]] to create a tree navigation pane
+      * ''ns'' that defines the ''namespace''. The default  value is the namespace of:
+          * the rendered page for a [[#list]]
+          * the physical page for a [[#tree]].
+  * the sub-elements ''page'',''namespace'', ''home'' and ''parent'' define [[#template|templates]] for each ''page-explorer'' node.
+
+==== Templates ====
+
+    * ''page'' defines a [[docs:utility:template|template]] for each page in the namespace
+    * ''home'' defines a [[docs:utility:template|template]] for the home page of the namespace
+    * ''namespace'' defines a [[docs:utility:template|template]] for each child namespace of the actual namespace 
+    *  ''parent'' defines a [[docs:utility:template|template]] for the parent namespace of the actual namespace (used only in the [[#list|list layout]])
+  
+
+If a sub-element (''home'', ''parent'', ''namespace'') is defined without any template (ie empty content), they are not shown.
+
+
+<note >
+''page-explorer'', ''home'', ''page'', ''parent'' and ''namespace'' are all [[docs:marki|superset HTML component]].
+</note>
+
+The below image shows you the mapping between the tag and their location in a ''list''  layout.
+
+{{docs:block:page-explorer-list-name-to-ui-region.png|}}
+
+The below image shows you the mapping between the tag and their location in a ''tree'' layout.
+
+{{docs:block:page-explorer-tree-name-to-ui-region.png|}}
+
+
+==== Default template ====
+
+  * if the ''page'' tag is is not defined, the below default ''page'' template is used 
+<code html>
+[[$path|<pipeline>"$name" | capitalize()</pipeline>]]
 </code>
-</webcode>
+  * if the ''namespace'' tag is not defined, a default namespace template is used
+<code html>
+<!-- For a list -->
+[[$path|<icon name="folder"/> <pipeline>"$name" | capitalize()</pipeline>]]
+<!-- For a tree -->
+<pipeline>"$name" | capitalize()</pipeline>
+</code>
+  * if the ''parent'' tag is not defined, a default parent template is used
+<code html>
+[[$path|<icon name="arrow-up-box"/> ... <pipeline>"$name" | capitalize()</pipeline>]]
+</code>
+  * if the ''home'' tag is is not defined, the ''page'' template is used  
+
+
 ===== Support =====
 
 ==== Performance consideration with the tree pane ====

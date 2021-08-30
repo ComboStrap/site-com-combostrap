@@ -26,61 +26,32 @@ A ''pipeline'' is a element that contains a list of function (called a ''pipelin
 where:
   * ''value'' is the string to transform or a [[docs:utility:template#variable|template variable]]
   * ''function'' is one of:
+      * [[#capitalize]] - make the first letter of each word a capital letter (ie uppercase letter)
+      * [[#cut]] - cut the string in parts and return one
+      * [[#head]] - return the first characters
       * [[#replace]] -  replace a string
       * [[#rconcat]] - add a string at the right side
-      * [[#head]] - return the first characters
-      * [[#cut]] - cut the string in parts and return one
       * [[#trim]] - delete any space before and after
 
 ===== Functions =====
 
-==== Replace ====
-''replace'' is a function that will search a string and replace it.
+
+==== Capitalize ====
+''capitalize'' is a function that will make the first letter of each word an uppercase letter (ie capital letter)
 
 **Syntax**:
 <code>
-replace($search, $replace)
+capitalize()
 </code>
 
-For instance:
-<webcode name="Replace" frameborder=0 >
+Example:
+<webcode name="capitalize" frameborder=0 >
 <code dw>
-<pipeline> "Prefix - Title" | replace("Prefix - ","") </pipeline>
+<pipeline> "hello foo  bar" | capitalize() </pipeline>
 </code>
 Output:
 </webcode>
 
-==== Rconcat ====
-''rconcat'' is a function that will concatenate a string to the right
-
-**Syntax**:
-<code>
-rconcat($string)
-</code>
-
-For instance:
-<webcode name="rconcat" frameborder=0 >
-<code dw>
-<pipeline> "Title" | rconcat("...") </pipeline>
-</code>
-Output:
-</webcode>
-
-==== Head ====
-''head'' is a function that will take the fist N characters of a string
-
-**Syntax**:
-<code>
-head($length)
-</code>
-
-For instance:
-<webcode name="rconcat" frameborder=0 >
-<code dw>
-<pipeline> "Long Title that we want to cut" | head(10) | rconcat("...") </pipeline>
-</code>
-Output:
-</webcode>
 
 ==== Cut ====
 ''cut'' is a function that will split the string in parts and returned the asked part concatenated. If the separator is not found, the original string is returned
@@ -118,6 +89,58 @@ Output:
 </code>
 Output:
 </webcode>
+
+
+==== Head ====
+''head'' is a function that will take the fist N characters of a string
+
+**Syntax**:
+<code>
+head($length)
+</code>
+
+For instance:
+<webcode name="rconcat" frameborder=0 >
+<code dw>
+<pipeline> "Long Title that we want to cut" | head(10) | rconcat("...") </pipeline>
+</code>
+Output:
+</webcode>
+
+
+
+==== Rconcat ====
+''rconcat'' is a function that will concatenate a string to the right
+
+**Syntax**:
+<code>
+rconcat($string)
+</code>
+
+For instance:
+<webcode name="rconcat" frameborder=0 >
+<code dw>
+<pipeline> "Title" | rconcat("...") </pipeline>
+</code>
+Output:
+</webcode>
+
+==== Replace ====
+''replace'' is a function that will search a string and replace it.
+
+**Syntax**:
+<code>
+replace($search, $replace)
+</code>
+
+For instance:
+<webcode name="Replace" frameborder=0 >
+<code dw>
+<pipeline> "Prefix - Title" | replace("Prefix - ","") </pipeline>
+</code>
+Output:
+</webcode>
+
 
 ==== Trim ====
 ''trim'' is a function that strip whitespace from the beginning and end of a string
