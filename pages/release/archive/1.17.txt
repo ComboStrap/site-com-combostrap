@@ -9,7 +9,7 @@
 
 
 ===== About =====
-This [[release|release]] brings a new page [[docs:navigation:navigation|navigational]] pane [[docs:navigation:page-explorer|page-explorer]] that replaces the old [[release:deprecated:ntoc|deprecated ntoc]].
+This [[..:release|release]] brings a new page [[docs:navigation:navigation|navigational]] pane [[docs:navigation:page-explorer|page-explorer]] that replaces the old [[release:deprecated:ntoc|deprecated ntoc]].
 
 
 ===== List =====

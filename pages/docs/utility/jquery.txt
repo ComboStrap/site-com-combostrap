@@ -50,7 +50,7 @@ You can change this behavior with the [[#JqueryDoku|JqueryDoku configuration]] i
 ==== jQueryDoku ====
 
 <note>
-As [[release:1.13_bootstrap5|Bootstrap 5]] does not use Jquery anymore. This configuration become obsolete from [[release:1.13|release 1.13]]
+As [[release:archive:1.13_bootstrap5|Bootstrap 5]] does not use Jquery anymore. This configuration become obsolete from [[release:archive:1.13|release 1.13]]
 </note>
 
 The ''JqueryDoku'' configuration tells the stap template to use the Dokuwiki Jquery and not the Bootstrap Jquery Version for anonymous users.

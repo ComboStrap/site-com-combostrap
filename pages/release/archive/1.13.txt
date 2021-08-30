@@ -9,11 +9,11 @@
 
 
 ===== About =====
-The [[release|release]] ''1.13'' was focus on the creation of ''landing page'' components. This is the first ''landing page'' release. The next will be ''landing page'' perfect with full animation and layout.
+The [[..:release|release]] ''1.13'' was focus on the creation of ''landing page'' components. This is the first ''landing page'' release. The next will be ''landing page'' perfect with full animation and layout.
 
 
 <note important>
-Due to [[release:1.13_bootstrap5|introduction of Bootstrap 5 in this release]], a configuration update is require. As the bootstrap version and the stylesheet are now in the same [[docs:utility:bootstrap#configuration|configuration]], you need after the update to set it back to your [[docs:styling:stylesheet|preferred stylesheet]] back.
+Due to [[release:archive:1.13_bootstrap5|introduction of Bootstrap 5 in this release]], a configuration update is require. As the bootstrap version and the stylesheet are now in the same [[docs:utility:bootstrap#configuration|configuration]], you need after the update to set it back to your [[docs:styling:stylesheet|preferred stylesheet]] back.
 
 
 {{:strap:bootstrapversionstylesheet.png|}}
@@ -22,7 +22,7 @@ Due to [[release:1.13_bootstrap5|introduction of Bootstrap 5 in this release]], 
 
 ===== Changes / New =====
 ==== Bootstrap 5 ====
-New: [[release:1.13_bootstrap5|Bootstrap 5]] is now the default. Read more about the bootstrap migration on this page: [[release:1.13_bootstrap5]]
+New: [[release:archive:1.13_bootstrap5|Bootstrap 5]] is now the default. Read more about the bootstrap migration on this page: [[release:archive:1.13_bootstrap5]]
 ==== Animation ====
   * New: added the [[docs:animation:hover|hover animation]] to improve emphasis
 

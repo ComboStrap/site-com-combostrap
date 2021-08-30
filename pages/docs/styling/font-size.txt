@@ -88,7 +88,7 @@ The ''scale value'' is based on a [[docs:styling:scale|scale]] where you can cha
 
 ==== Bootstrap note =====
 
-[[release:1.13_bootstrap5|Bootstrap version 5]] does implement responsive size [[https://getbootstrap.com/docs/5.0/content/typography/#responsive-font-sizes|by default]]. ''ComboStrap'' does not apply therefore the fix of Bootstrap 4 for the [[docs:content:heading#display|display title]]
+[[release:archive:1.13_bootstrap5|Bootstrap version 5]] does implement responsive size [[https://getbootstrap.com/docs/5.0/content/typography/#responsive-font-sizes|by default]]. ''ComboStrap'' does not apply therefore the fix of Bootstrap 4 for the [[docs:content:heading#display|display title]]
 
 It has introduced the [[https://getbootstrap.com/docs/5.0/getting-started/rfs/|RFS module (Responsive Font Sizes)]] that reacts also to styling properties with unit values like:
   * [[docs:styling:spacing|margin, padding]],

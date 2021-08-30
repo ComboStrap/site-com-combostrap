@@ -37,11 +37,15 @@ and will look like this:
 
 ==== Default Tree ====
 
-''page-explorer'' does not need any template. The default tree will look like this
+A ''page-explorer tree'' does not need any template definition. 
+
+
 <webcode name="DefaultTree" >
+  * with a minimal markup (The ''ns'' option is a cosmetic and can be deleted)
 <code dw>
-<page-explorer tree></page-explorer>
+<page-explorer tree ns=":docs:layout"></page-explorer>
 </code>
+  * a page-explorer tree will look like this:
 </webcode>
 
 ==== Custom List ====

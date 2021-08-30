@@ -2,7 +2,7 @@
 
 <ntoc>
 <index>[[$id?underline=false|$h1]]</index>
-<ns-item>[[$path?underline=false|<icon name="folder" color="#17a2b8"/> <pipeline>"$h1" | cut("-","2") | trim()</pipeline>]]</ns-item>
-<page-item>[[$path?underline=false|<pipeline>"$h1" | cut("-","2") | trim()</pipeline>]]</page-item>
-<parent>[[$path?underline=false|<icon name="arrow-up-box" color="#17a2b8"/> ... <pipeline>"$h1" | cut("-","2") | trim()</pipeline>]]</parent>
+<ns-item>[[$path?underline=false|<icon name="folder" color="#17a2b8"/> <pipeline>"$h1" | cut("-","2-") | trim()</pipeline>]]</ns-item>
+<page-item>[[$path?underline=false|<pipeline>"$h1" | cut("-","2-") | trim()</pipeline>]]</page-item>
+<parent>[[$path?underline=false|<icon name="arrow-up-box" color="#17a2b8"/> ... <pipeline>"$h1" | cut("-","2-") | trim()</pipeline>]]</parent>
 </ntoc>
