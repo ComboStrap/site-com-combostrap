@@ -25,13 +25,18 @@ This component is mostly used in a [[docs:layout:page:side_slot|side slot]] or [
 
 ==== Default List ====
 
-''page-explorer'' does not need any template. The default list will look like this
+''page-explorer'' does not need any template definition. 
+
+A default ''page-explorer list'' pane can be asked with this minimal markup:
 
 <webcode name="DefaultList" >
 <code dw>
 <page-explorer></page-explorer>
 </code>
+and will look like this:
 </webcode>
+
+
 ==== Default Tree ====
 
 ''page-explorer'' does not need any template. The default tree will look like this
@@ -99,20 +104,16 @@ where:
           * the physical page for a [[#tree]].
   * the sub-elements ''page'',''namespace'', ''home'' and ''parent'' define [[#template|templates]] for each ''page-explorer'' node.
 
+
+''page-explorer'', ''home'', ''page'', ''parent'' and ''namespace'' are all [[docs:marki|superset HTML component]].
 ==== Templates ====
 
+The templates define the output of each node in the ''list'' or ''tree'' layout:
     * ''page'' defines a [[docs:utility:template|template]] for each page in the namespace
     * ''home'' defines a [[docs:utility:template|template]] for the home page of the namespace
     * ''namespace'' defines a [[docs:utility:template|template]] for each child namespace of the actual namespace 
     *  ''parent'' defines a [[docs:utility:template|template]] for the parent namespace of the actual namespace (used only in the [[#list|list layout]])
   
-
-If a sub-element (''home'', ''parent'', ''namespace'') is defined without any template (ie empty content), they are not shown.
-
-
-<note >
-''page-explorer'', ''home'', ''page'', ''parent'' and ''namespace'' are all [[docs:marki|superset HTML component]].
-</note>
 
 The below image shows you the mapping between the tag and their location in a ''list''  layout.
 
@@ -122,23 +123,26 @@ The below image shows you the mapping between the tag and their location in a ''
 
 {{docs:block:page-explorer-tree-name-to-ui-region.png|}}
 
+<note>
+If a sub-element (''home'', ''parent'', ''namespace'') is defined without any template (ie empty content), they are not shown.
+</note>
 
 ==== Default template ====
 
   * if the ''page'' tag is is not defined, the below default ''page'' template is used 
 <code html>
-[[$path|<pipeline>"$name" | capitalize()</pipeline>]]
+[[$path|<pipeline>"$name" | replace("_"," ") | capitalize()</pipeline>]]
 </code>
   * if the ''namespace'' tag is not defined, a default namespace template is used
 <code html>
 <!-- For a list -->
 [[$path|<icon name="folder"/> <pipeline>"$name" | capitalize()</pipeline>]]
 <!-- For a tree -->
-<pipeline>"$name" | capitalize()</pipeline>
+<pipeline>"$name" | replace("_"," ") | capitalize()</pipeline>
 </code>
   * if the ''parent'' tag is not defined, a default parent template is used
 <code html>
-[[$path|<icon name="arrow-up-box"/> ... <pipeline>"$name" | capitalize()</pipeline>]]
+[[$path|<icon name="arrow-up-box"/> ... <pipeline>"$name" | replace("_"," ") | capitalize()</pipeline>]]
 </code>
   * if the ''home'' tag is is not defined, the ''page'' template is used  
 
