@@ -25,13 +25,11 @@ This component is mostly used in a [[docs:layout:page:side_slot|side slot]] or [
 
 ==== Default List ====
 
-''page-explorer'' does not need any template definition. 
-
-A default ''page-explorer list'' pane can be asked with this minimal markup:
+A default ''page-explorer list'' pane can be asked with this minimal markup (the ''ns'' and [[docs:styling:dimension|width]] options are just cosmetic and could be deleted)
 
 <webcode name="DefaultList" >
 <code dw>
-<page-explorer></page-explorer>
+<page-explorer ns=":release" width="300px"></page-explorer>
 </code>
 and will look like this:
 </webcode>
@@ -136,7 +134,7 @@ If a sub-element (''home'', ''parent'', ''namespace'') is defined without any te
   * if the ''namespace'' tag is not defined, a default namespace template is used
 <code html>
 <!-- For a list -->
-[[$path|<icon name="folder"/> <pipeline>"$name" | capitalize()</pipeline>]]
+[[$path|<icon name="folder"/> <pipeline>"$name" | replace("_"," ") | capitalize()</pipeline>]]
 <!-- For a tree -->
 <pipeline>"$name" | replace("_"," ") | capitalize()</pipeline>
 </code>

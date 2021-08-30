@@ -3,8 +3,9 @@
    "title":"ComboStrap - Create your web footprint that lasts ForEver ",
    "description":"Advertise yourself, your documentation or your company with a product that makes a qualitive website design, creation and management, unique, easy and fun",
    "dynamic_quality_monitoring": "false",
+   "low_quality_page":"false",
    "layout":"landing",
-   "h1":"Home"
+   "name":"Home"
 }
 ---
 
