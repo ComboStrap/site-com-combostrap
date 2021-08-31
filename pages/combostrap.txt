@@ -81,7 +81,7 @@ It contains most of the UI and functional components such as:
   * [[docs:layout:page:railbar|Aggregate toolbar (Page, User Site) with a private option]]
   * Support [[docs:semantic:tagline|tagline]]
   * [[docs:menubar:fixed-top|Fixed-top menubar with automatic top page location correction]]
-  * Support a [[docs:navigation:trail_breadcrumb|trailing breadcrumb]]
+  * Support a [[docs:navigation:historical_breadcrumb|trailing breadcrumb]]
   * [[docs:styling:scale|Size Scale configuration (font and spacing)]]
   * [[docs:getting_started:4_favicon|Favicon]]: Recognized the [[docs:getting_started:4_favicon|favicons]]  (included ''android-chrome-192x192.png'')
   * [[docs:utility:shortcut]]

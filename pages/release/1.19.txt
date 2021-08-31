@@ -23,6 +23,15 @@ If you had your railbar private, you need to [[docs:layout:page:railbar#configur
 ==== New ====
   * The [[docs:semantic:name|page name]] can now be used in a [[docs:utility:template|template]]
   * A [[docs:utility:pipeline|pipeline]] can use the ''capitalize'' function to capitalize the first letter of each word
+  * The ''trail breadcrumb'' was renamed to [[docs:navigation:historical_breadcrumb|historical breadcrumb]] to reflect more the content (''Trail'' being a design term) and it has moved from the [[:strap|strap template]] to the [[docs:layout:page:railbar|railbar]]
+
+Before:
+
+{{:docs:block:trail_breadcrumb.png|}}
+
+After:
+
+{{:docs:navigation:historical_breadcrumb.png|}}
 
 ==== Improvement ====
   * The sidekick [[docs:layout:page:railbar|railbar]] icons have been grouped by type of tool (ie user, page, website)

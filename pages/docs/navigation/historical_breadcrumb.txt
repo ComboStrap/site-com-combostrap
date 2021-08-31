@@ -1,0 +1,29 @@
+---json
+{
+    "canonical":"historical:breadcrumb",
+    "title":"Recent Page Visited",
+     "description":"A component to list the pages recently visited",
+     "h1":"Recent Pages Visited"
+}
+---
+
+====== ComboStrap UI - Historical Breadcrumb (Recent Pages Visited) ======
+
+
+===== About =====
+A ''historical breadcrumb'' is a [[docs:navigation:navigation|navigational components]] that shows the navigational history (the last pages that were visited in descendant order).
+
+
+
+===== Articles Related =====
+{{backlinks>.}}
+
+===== Illustration =====
+
+It's accessible via the [[docs:layout:page:railbar|railbar]] if in the [[#configuration]], the number of pages (to show) is greater than 0.
+
+{{:docs:navigation:historical_breadcrumb.png|}}
+===== Configuration =====
+To show the ''trace'' breadcrumb, you need to set the [[doku>config:breadcrumbs|breadcrumbs]] [[:configuration|configuration]] to a number above 0.
+
+{{docs:block:trace_breadcrumb_configuration.png?500|}}

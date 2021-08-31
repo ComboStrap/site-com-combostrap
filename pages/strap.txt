@@ -16,14 +16,13 @@ The ''strap'' template supports the following features:
   * [[docs:utility:bootstrap|Last bootstrap version (5)]]
   * [[docs:styling:bootstrap|Custom Bootstrap Styleshet (create and add your own)]]
   * [[docs:performance:cdn|Serve the Bootstrap files by default from a CDN]]
-  * Supports [[docs:layout:page:slot|4 bars]] layout
+  * Supports several [[docs:layout:page:page|page layout]] and 4 [[docs:layout:page:slot|slots]]:
       * [[docs:layout:page:side_slot|Sidebar]] (left)
       * [[docs:layout:page:sidekick_slot|Sidekickbar]] (right)
       * [[docs:layout:page:header_slot|Headerbar]] (top)
       * [[docs:layout:page:footer_slot|Footerbar]] (bottom)
-  * [[docs:layout:page:railbar|Aggregate toolbar (Page, User Site) with a private option]]
-  * Support [[docs:semantic:tagline]]|tagline]]
-  * Support a [[docs:navigation:trail_breadcrumb|trailing breadcrumb]]
+  * [[docs:layout:page:railbar|Railbar Menu (Page, User Site) with a private option]]
+  * Support [[docs:semantic:tagline|tagline]]
   * [[docs:styling:scale|Size Scale configuration (font and spacing)]]
   * [[docs:getting_started:4_favicon|Favicon]]: Recognized the [[docs:getting_started:4_favicon|favicons]]  (included ''android-chrome-192x192.png'')
   * [[docs:utility:shortcut]]
