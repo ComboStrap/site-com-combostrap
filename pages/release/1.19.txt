@@ -41,3 +41,4 @@ in C:\DokuWikiStick\dokuwiki\lib\plugins\combo\action\metacsp.php on line 82
 </file>
   * Minor bug: they the ''Jquery-ui'' closing icon was not showing up. As reported on this conversation, we have moved the ''Jquery-ui'' library to be called after the bootstrap library.
 {{:release:bug_jquery_ui_closing_icon_missing.png|}}
+  * Bug: [[docs:quality:protection|Page protection]] was returning an authorization code in place of a filtered list of result causing an error when searching.
