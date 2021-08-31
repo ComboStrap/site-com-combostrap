@@ -37,6 +37,7 @@ After:
 {{:docs:navigation:historical_breadcrumb.png|}}
 
   * Due to the new [[docs:navigation:historical_breadcrumb|historical breadcrumb]], the [[docs:menubar:fixed-top|fixed-top menu margin]] was too small, we have added ''1 rem''.
+  * The [[docs:navigation:page-explorer|#list|page-explorer list]] panel does not underline any link to be conform with the style of the tree layout.
 ==== Improvement ====
   * The sidekick [[docs:layout:page:railbar|railbar]] icons have been grouped by type of tool (ie user, page, website)
   * The sidekick [[docs:layout:page:railbar|railbar]] is available on all screen size and goes now in an offcanvas from a configured breakpoint (default to md)
