@@ -26,7 +26,7 @@ If you had your railbar private, you need to [[docs:layout:page:railbar#configur
 
 ==== Change ====
 
-  * The ''trail breadcrumb'' was renamed to [[docs:navigation:historical_breadcrumb|historical breadcrumb]] to reflect more the content (''Trail'' being a design term) and it has moved from the [[:strap|strap template]] to the [[docs:layout:page:railbar|railbar]]
+  * The ''trail breadcrumb'' was renamed to [[docs:navigation:historical_breadcrumb|historical breadcrumb]] to reflect more the content (''Trail'' being a design term) and it has moved from the [[:strap|strap template]] to the [[docs:layout:page:railbar|railbar]] because it has a lower importance than the page content.
 
 Before:
 
