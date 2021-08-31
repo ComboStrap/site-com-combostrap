@@ -2,7 +2,8 @@
 {
     "canonical":"getting_started",
     "name":"Get Started",
-     "description":"This page helps you to get started with ComboStrap"
+     "description":"This page helps you to get started with ComboStrap",
+     "title":"How to configure and get started with a ComboStrap website"
 }
 ---
 
