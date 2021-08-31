@@ -11,8 +11,8 @@
 
 ===== About =====
 A ''page-explorer'' is a [[docs:navigation:navigation|navigational component]] that creates a navigation pane in the form of:
-  * a list 
-  * or clickable levels of folder hierarchy
+  * a ''list'' 
+  * or a collapsible ''tree'' (ie clickable levels of folder hierarchy)
 
 
 This component is mostly used in a [[docs:layout:page:side_slot|side slot]] or [[docs:layout:page:sidekick_slot|sidekick slot]]
@@ -25,7 +25,7 @@ This component is mostly used in a [[docs:layout:page:side_slot|side slot]] or [
 
 ==== Default List ====
 
-A default ''page-explorer list'' pane can be asked with this minimal markup (the ''ns'' and [[docs:styling:dimension|width]] options are just cosmetic and could be deleted)
+A default ''page-explorer list'' pane can be asked with this minimal markup (the ''ns'' ([[doku>namespaces|namespace]]) and [[docs:styling:dimension|width]] options are just cosmetic and could be deleted)
 
 <webcode name="DefaultList" >
 <code dw>
@@ -144,7 +144,7 @@ If a sub-element (''home'', ''parent'', ''namespace'') is defined without any te
 </code>
   * if the ''parent'' tag is not defined, a default parent template is used
 <code html>
-[[$path|<icon name="arrow-up-box"/> ... <pipeline>"$name" | replace("_"," ") | capitalize()</pipeline>]]
+[[$path|<icon name="arrow-left-box"/> ... <pipeline>"$name" | replace("_"," ") | capitalize()</pipeline>]]
 </code>
   * if the ''home'' tag is is not defined, the ''page'' template is used  
 

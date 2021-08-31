@@ -12,6 +12,7 @@
   * slot improvement
       * slot explorer - to see where they are
       * [[docs:ads:conf]] could be automated
+  * unique id
   * monospace in the renderer should be a component
   * add an edit page button (example: https://kotlinlang.org/docs/control-flow.html)
   * add a previous page, next page. (Example at the bottom: https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/downloads-list.html)

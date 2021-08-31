@@ -42,3 +42,4 @@ in C:\DokuWikiStick\dokuwiki\lib\plugins\combo\action\metacsp.php on line 82
   * Minor bug: they the ''Jquery-ui'' closing icon was not showing up. As reported on this conversation, we have moved the ''Jquery-ui'' library to be called after the bootstrap library.
 {{:release:bug_jquery_ui_closing_icon_missing.png|}}
   * Bug: [[docs:quality:protection|Page protection]] was returning an authorization code in place of a filtered list of result causing an error when searching.
+  * Bug: [[docs:content:tooltip|tooltip]] was not working with [[docs:utility:jquery|Jquery alone]] because of a case error (ie ''jQuery.fn.tooltip.Constructor'' in place of ''jQuery.fn.tooltip.constructor'')
