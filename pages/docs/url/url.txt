@@ -26,6 +26,8 @@ By setting a [[docs:semantic:canonical|canonical]], you will have a [[nice|nice 
 
 
 
-
+===== Configuration =====
+==== enableUrlManager ====
+The [[:configuration|configuration]] ''enableUrlManager'' permits to disable/enable the URL manager entirely.
 
 
