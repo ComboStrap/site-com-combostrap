@@ -1,7 +1,9 @@
 ---json
 {
    "canonical":"page-explorer",
-   "shortname":"Page explorer"
+   "name":"Page explorer",
+   "title":"Page-explorer: adding page navigation easily to your website",
+   "description":"With the page-explorer component, you can add an explorer like panel that will list your pages in a list or collapsible tree fashion"
 }
 ---
 
@@ -70,7 +72,7 @@ Example:
 
 <webcode name="Default">
 <code dw>
-<page-explorer tree ns=":docs">
+<page-explorer tree ns=":docs:layout">
     <home>[[$path|<icon name="home" color="#0000004d" width="20"/> Overview]]</home>
     <ns><pipeline>"$h1" | cut("-","2-") | trim() </pipeline></ns>
     <page>[[$path|<icon name="file" color="#0000004d" width="20"/>  <pipeline>"$h1" | cut("-","2-") | trim() </pipeline>]]</page>

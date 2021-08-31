@@ -43,3 +43,4 @@ in C:\DokuWikiStick\dokuwiki\lib\plugins\combo\action\metacsp.php on line 82
 {{:release:bug_jquery_ui_closing_icon_missing.png|}}
   * Bug: [[docs:quality:protection|Page protection]] was returning an authorization code in place of a filtered list of result causing an error when searching.
   * Bug: [[docs:content:tooltip|tooltip]] was not working with [[docs:utility:jquery|Jquery alone]] because of a case error (ie ''jQuery.fn.tooltip.Constructor'' in place of ''jQuery.fn.tooltip.constructor'')
+  * Bug: [[docs:navigation:page-explorer|page-explorer]] javascript would throw an error when the current page was not in the created tree because it would try to open the directory or set the link as active.
