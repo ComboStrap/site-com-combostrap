@@ -3,6 +3,7 @@
 	"canonical": "about",
 	"title": "The ComboStrap Organization - About us",
 	"description": "A page about the combostrap organization that also demonstrates how you can create an organization page",
+        "layout":"median",
 	"type": "organization",
 	"organization": {
 		"name": "ComboStrap",
@@ -22,7 +23,6 @@
 }
 ---
 
-<container width="720px">
 ====== ComboStrap - About Us ======
 
 
@@ -54,5 +54,4 @@ This page was created  with ''ComboStrap'' itself and showcase a [[docs:semantic
 
 
 
-</container>
 
