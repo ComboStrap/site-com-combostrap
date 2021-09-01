@@ -32,5 +32,9 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
   * The output:
 </webcode>
 
+===== Generated =====
+To be able to style as you wish, combostrap add a [[userstyle#class|generated class]] for each element of a component.
+
+More ? See [[docs:styling:userstyle]]
 
 

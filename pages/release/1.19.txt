@@ -38,13 +38,13 @@ After:
 {{:docs:navigation:historical_breadcrumb.png|}}
 
   * Due to the new [[docs:navigation:historical_breadcrumb|historical breadcrumb]], the [[docs:menubar:fixed-top|fixed-top menu margin]] was too small, we have added ''1 rem''.
-  * The [[docs:navigation:page-explorer|#list|page-explorer list]] panel does not underline any link to be conform with the style of the tree layout.
+  * The [[docs:navigation:page-explorer#list|page-explorer list]] panel does not underline any link to be conform with the style of the tree layout.
 ==== Improvement ====
   * The sidekick [[docs:layout:page:railbar|railbar]] icons have been grouped by type of tool (ie user, page, website)
   * The sidekick [[docs:layout:page:railbar|railbar]] is available on all screen size and goes now in an offcanvas from a configured breakpoint (default to md)
   * [[docs:utility:pipeline#cut|pipeline cut function]] allows a ''range'' selection. (ie all token after the first separator for instance)
   * In [[docs:navigation:page-explorer|page-explorer]], the ''home'' template has been made optional and follows the ''page'' template if not present. If the ''home'' tag is present but empty, the ''home'' section is not shown.
-
+  * [[docs:navigation:page-explorer|page-explorer]] got the [[docs:styling:userstyle#class|custom generated class]] for custom styling
 ==== Bug ====
 
   * semi-bug: Page request with the [[doku>config:send404]] config enabled would return a 404 even if a page with a [[docs:semantic:canonical|canonical]] was found. Because the http status is set at the beginning, we can't change it, we send therefore an error message
