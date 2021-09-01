@@ -88,3 +88,21 @@ You would see the ''statistics'' below the ''statistics'' property:
   * ''word_section_count'': summary on words by section
   * ''words_count'': the number of words.
   * [[syntax_count|syntax_count]] shows the number of times that a syntax is used.
+
+==== Media ====
+''media'' shows a number of count statistics on ''media'' such as [[docs:content:image|image]].
+
+Example:
+<code json>
+"media": {
+    "total_count": 5,
+    "internal_count": 5,
+    "internal_broken_count": 0,
+    "external_count": 0
+}
+</code>
+where:
+  * ''total_count'': the total number of media for the page
+  * ''internal_count'': the number of internal media for the page
+  * ''internal_broken_count'': the number of internal media that does not exists, creating a [[docs:quality:broken_link|broken link]]
+  * ''external_count'': the number of external media (ie hosted on an external server, example: ''https://host/myimage.png'')

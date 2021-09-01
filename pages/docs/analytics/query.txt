@@ -43,9 +43,10 @@ The URL to access your database will look like the following URL
 
 
 ==== Json Support  ====
+If you want to query, the [[data|analytics json data]], you need to have sqlite with [[https://www.sqlite.org/json1.html|json support]].
 
-You need to have sqlite with [[data#json_support|json support]].
-  * The sqlite database version should be greater or equal to SQLite 3.9.0 (2015-10-14). 
+This steps shows you how to validate that your SQLite database can query JSON.
+  * The sqlite database version should then be greater or equal to SQLite 3.9.0 (2015-10-14). 
 <code sql>
 select sqlite_version();
 </code>
@@ -61,6 +62,16 @@ PRAGMA compile_options;
 ^ compile_options ^
 | ENABLE_JSON1 |
 </file>
+
+
+<note tip>
+If you don't have the [[https://www.sqlite.org/json1.html|JSON extension]] or can't install it, you can always download the [[database|database file]] and query it locally for instance with [[https://dbeaver.io/|dbeaver]]
+</note>
+
+
+
+
+
 
 ==== Enter your query and submit ====
 

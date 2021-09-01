@@ -28,6 +28,10 @@ You can get the analytical data as ''json'' with an export.
   * via a direct URL by by adding ''?do=export_combo_analytics'' to a page URL. For instance, to get the data of the actual page, click on this [[?do=export_combo_analytics|link]]
   * via the ''Analytics'' menu item by clicking on the following icon <icon name="file-chart"/> (only for logged user) 
 
+
+<note>
+The analytical process is done only when the file has changed. If you want to perform it again or overcome the cache, add to your URL, the following query parameter: ''&purge=true''
+</note>
 ==== Database ====
 The Analytical data are stored in the [[database|database]] in the ''analytics'' column of the ''page'' table in a ''json'' format. You can then query it with the [[https://www.sqlite.org/json1.html|json function of SQLite]].
 
@@ -48,23 +52,4 @@ json_extract(analytics, '$.quality.low') = true
 <note>
 To know how to query the database online, check this page [[query]]
 </note>
-
-===== JSON Support =====
-[[https://www.sqlite.org/json1.html|JSON]] supports was added for SQLite 3.9.0 (2015-10-14).
-  * You can verify your version with this [[query|query]]
-<code sql>
-select sqlite_version();
-</code>
-  * You can also verify that you have the JSON extension compiled with the following pragma
-<code sql>
-PRAGMA compile_options;
-</code>
-  * An extension can be installed .
-
-<note tip>
-If you don't have the [[https://www.sqlite.org/json1.html|JSON extension]] or can't install it, you can always download the [[database|database file]] and query it locally for instance with [[https://dbeaver.io/|dbeaver]]
-</note>
-
-
-
 
