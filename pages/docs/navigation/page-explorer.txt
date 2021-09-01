@@ -55,8 +55,8 @@ A ''page-explorer tree'' does not need any template definition.
 <webcode name="Default" frameborder=0 >
 <code dw>
 <page-explorer color="blue" height="250px" width="400" scroll="toggle">
-    <parent>[[$path?underline=false|<icon name="arrow-up-box"/> ... <pipeline>"$h1" | cut("-","2-") | trim()</pipeline>]]</parent>
-    <page>[[$path?underline=false|<icon name="file"/> <pipeline>"$h1" | cut("-","2-") | trim()</pipeline>]]</page>
+    <parent>[[$path|<icon name="arrow-left-box"/> ... <pipeline>"$h1" | cut("-","2-") | trim()</pipeline>]]</parent>
+    <page>[[$path|<icon name="file"/> <pipeline>"$h1" | cut("-","2-") | trim()</pipeline>]]</page>
 </page-explorer>
 </code>
 where the ''page'' template is composed of:
