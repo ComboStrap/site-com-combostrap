@@ -7,6 +7,12 @@
 
 
 ===== About =====
+
+<note warning>
+  * Php version 5.6 is no [[support:requirement|more supported]] because the SQlite Plugin does [[https://github.com/cosmocode/sqlite/blob/master/.github/workflows/phpTestLinux.yml#L13|not support it anymore]] (and the ''AbstractTest'' is failing on [[https://github.com/cosmocode/sqlite/blob/master/_test/AbstractTest.php#L14|line 14]] due to the '': void'')
+  * If you had your private toolbar, you need to [[docs:layout:page:railbar#configuration|reconfigure it]] due to a change of name from ''toolbar'' to ''railbar''
+</note>
+
 This is a minor improvement release with bug fixes. The most improvement has been made on the [[docs:layout:page:railbar|toolbar]]. 
 
 The toolbar:
@@ -15,9 +21,7 @@ The toolbar:
   * is also available in mobile screen.
   * is made available in an offcanvas from a configurable breakpoint 
 
-<note warning>
-If you had your railbar private, you need to [[docs:layout:page:railbar#configuration|reconfigure it]]
-</note>
+
 ===== List =====
 
 ==== New ====

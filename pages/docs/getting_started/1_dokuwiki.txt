@@ -25,7 +25,7 @@ If you don't have the last version, we recommend to install the [[https://www.do
 
 If you don't have a Dokuwiki Instance, you can install it as follow:
   * [[https://download.dokuwiki.org/|Download the last Dokuwiki]], 
-  * Upload the zip file to your web server (php version supported ''7.3'', ''7.2'', ''7.1'', ''7.0'', ''5.6'')
+  * Upload the zip file to your web server ([[support:requirement#php|php version supported]]: ''8.0'', ''7.3'', ''7.2'', ''7.1'')
   * Unzip it to your web directory
   * Access the installer script at ''https://yourdomain.com/install.php''
   * Answer the install form (Choose at minimal the [[doku>config:useacl|ACL option]], otherwise you get no access to the admin page)

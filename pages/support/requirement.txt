@@ -14,7 +14,7 @@ This articles lists the installation prerequisites of [[:combostrap|ComboStrap]]
 ===== List =====
 ==== Php ====
 
-ComboStrap is tested against ''php'' version 5.6. to 7.4
+ComboStrap follows the [[https://github.com/splitbrain/dokuwiki/blob/master/.github/workflows/testLinux.yml#L13|supported version of DokuWiki]] and is therefore tested against ''php'' version to 7.2, 7.3, 7.4, 8.0
 
 ==== Module / Extension ====
 
