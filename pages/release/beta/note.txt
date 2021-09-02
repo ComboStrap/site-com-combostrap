@@ -9,6 +9,11 @@
 
 
 ===== Improvement =====
+  * Working on website release via git
+  * in `/var/log/php-fpm/error.log`
+<file>
+[01-Sep-2021 23:28:12] WARNING: [pool www] server reached pm.max_children setting (50), consider raising it
+</file>
   * slot improvement
       * slot explorer - to see where they are
       * [[docs:ads:conf]] could be automated
