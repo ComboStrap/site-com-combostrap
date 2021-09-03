@@ -8,7 +8,20 @@
 ====== Beta - Note ======
 
 
+
+===== Bug =====
+  * Bug: file is parsed here
+<code>
+=== -c/--cookie-jar <file name> ===
+</code>
+  * Bad logo test: Error Logo Svg ComboStrap
+  * mode nest is unknown
+<file>
+ The display of the call with the mode nest is unknown - 162.158.94.3 - code:design:reusable
+</file>
 ===== Improvement =====
+
+  * Name of a start page should be the namespace name
   * Working on website release via git
   * in `/var/log/php-fpm/error.log`
 <file>
@@ -17,12 +30,10 @@
   * slot improvement
       * slot explorer - to see where they are
       * [[docs:ads:conf]] could be automated
-  * unique id
+  * unique real id
   * monospace in the renderer should be a component
   * add an edit page button (example: https://kotlinlang.org/docs/control-flow.html)
   * add a previous page, next page. (Example at the bottom: https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/downloads-list.html)
-  * template to generate a list of pages with sql
-      * Templating for the current page ([[https://forum.dokuwiki.org/d/19399-purge-on-a-namespace/7|example]]) - [[https://www.dokuwiki.org/plugin:struct:aggregation|aggregation]]
   * multiple background to add a black layer to add more contrast
   * no jquery - search, ...
   * self-managed vs hosted documentation
@@ -46,6 +57,39 @@ Download Tracking
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 </code>
+
+==== Iterator: template iteration ====
+  * Should solved that: https://forum.dokuwiki.org/d/19414-pdf-file-from-the-sidebar/7
+  * template to generate a list of pages with sql
+      * Templating for the current page ([[https://forum.dokuwiki.org/d/19399-purge-on-a-namespace/7|example]]) - [[https://www.dokuwiki.org/plugin:struct:aggregation|aggregation]]
+
+==== Git-based workflow ====
+
+An intuitive Git-based workflow and powerful serverless platform to build, deploy, and collaborate on web site and documentation.
+===== Cookie banner =====
+Good example at: https://groningen.nl/en/
+
+Offcanvas at the bottom
+
+<file>
+=== This website uses cookies ===
+
+To make your visit to our website even easier and more personal we use cookies (and comparable techniques). With this cookies we and third parties are able to collect information about you and your internet behavior on our website (and possibly outside of our website). With this information we and third parties are able to adapt content to your interests and profile. In addition, cookies allow us to share information through social media. You can read more about our cookie policy on this page.
+
+
+x Functional cookies: These cookies ensure the website works
+
+x Marketing cookies: These cookies are used to measure how visitors interact with our website to keep improving
+
+<btn>Accept All</btn><btn>Save Preferences</btn>
+</file>
+===== Seo =====
+
+==== Step by step ====
+
+  * Step by step in Google Search: for instance [[https://www.launch2success.com/guide/advanced-find-and-replace-in-notepad/|this page]] found with ''notepad replace''
+
+
 ===== Lazy load =====
   * Noscript handling for [[docs:performance:lazy|lazy loading]] Better for seo also. See [[https://github.com/ApoorvSaxena/lozad.js/wiki/Frequently-Asked-Questions#how-to-load-images-normally-when-javascript-is-disabled|doc]]
   * Supports Background image

@@ -132,3 +132,10 @@ If you want to go back to the default behavior, you can do it by unchecking the 
 ==== responsiveImageMargin ====
 
 Below the responsive breakpoints, we extract a margin. The default value is 20px but you may change it with the ''responsiveImageMargin'' [[:configuration|configuration]].
+
+===== Support =====
+==== Resizing is not working from my big raster image ====
+
+By default, Dokuwiki uses the [[doku>config:gdlib|PHP's libGD]] for resizing. This library loads the image in memory and if your run out of memory, the server-side resizing is aborted and the image is sent as is.
+
+[[doku>config:im_convert|Configuring DokuWiki to use imagemagick]] may/should circumvent this problem.

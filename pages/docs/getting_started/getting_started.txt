@@ -18,6 +18,7 @@ This ''how-to'' guide regroups a serie of article to get you started.
   * [[1_dokuwiki|DokuWiki Installation]]
   * [[2_combo|Combo Installation]]
   * [[3_strap|Strap Installation]]
+  * [[docs:getting_started:4_plugin|Third Plugins]]
   * [[4_favicon|Installation of a favicon]]
   * [[5_menu|Creation of the top bar]]
 
