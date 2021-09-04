@@ -15,7 +15,7 @@ Example of template used in a [[docs:navigation:page-explorer|page-explorer navi
   * that separate the [[docs:semantic:h1|h1]] with the minus ''-'' 
   * and used the second part as link description
 <code dw>
-[[$path|<pipeline>"$h1" | cut("-",2) | trim()</pipeline>]]
+[[$path|<pipeline>"$h1" | cut("-","2-") | trim()</pipeline>]]
 </code>
 
 ===== Variables =====

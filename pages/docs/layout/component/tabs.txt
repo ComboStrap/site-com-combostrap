@@ -15,7 +15,6 @@ A ''tabs'' is an [[docs:layout:component:component|layout]], [[docs:navigation:n
 You can also choose an [[docs:layout:component:accordion|accordion]] as another navigational collapsible layout for panels.
 </note>
 
-<badge>Since [[release:archive:1.12|version 1.12]]</badge>
 ===== Articles Related =====
 {{backlinks>.}}
 
@@ -61,7 +60,7 @@ Demo:
         A panel with a [[:docs:content:icon|svg icon]].
     </panel>
     <panel>
-        <label>Image {{:ui:code-square.png?24&spacing=ml-1|}}</label>
+        <label>Image {{:docs:block:code-square.png?24&spacing=ml-1|}}</label>
         A panel with a [[:docs:content:raster#icon|raster image icon]].
     </panel>
         <panel>
@@ -85,13 +84,13 @@ Demo:
      Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.
     </panel>
     <panel selected>
-    <label>Syntaxes {{:ui:code-square.png?24|}}</label>
+    <label>Syntaxes {{:docs:block:code-square.png?24|}}</label>
         Other syntax are also accepted. Example with a table: \\ \\
 
 ^ UI Components ^ Description ^
-| [[ui:badge|badge]] | A small status descriptors |
-| [[ui:note|note]] | A paragraph that is parenthetic or ancillary to the main text. |
-| [[ui:ui|See the full list ...]] ||
+| [[:docs:content:badge|badge]] | A small status descriptors |
+| [[docs:block:note|note]] | A paragraph that is parenthetic or ancillary to the main text. |
+| [[docs:component|See the full list ...]] ||
 
     </panel>
 </tabs>
@@ -161,13 +160,4 @@ Demo:
 </tabs>
 </code>
 </webcode>
-
-
-===== For the geek =====
-The [[docs:layout:component:panel|panel]] rendered is a [[https://www.w3.org/TR/wai-aria-practices-1.1/#tabpanel|tabpanel (WAI-ARIA Authoring Practices 1.1)]]
-
-
-
-
-
 

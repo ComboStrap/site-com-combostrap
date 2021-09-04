@@ -135,7 +135,9 @@ https://new.nvsw.nl/
   * Alias: php/switch and php/case
   * Reverse / Permalink: html:svg = svg:html
 
-
+===== Landing Page =====
+  * [[https://twitter.com/maiale/status/1419687196311752704|Thread]]
+  * Example: https://www.swytchbike.com/p/universal-ebike-conversion-kit/
 
 ===== Website Template (not templating) =====
 

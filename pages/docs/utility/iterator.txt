@@ -1,0 +1,22 @@
+---json
+{
+    "canonical":"iterator"
+}
+---
+====== Iterator ======
+
+===== About =====
+''iterator'' permits to loop over [[docs:utility:template|template]] repeatably.
+
+
+
+===== Example =====
+
+<webcode name="Default" frameborder="0">
+<code dw>
+<iterator>
+   <data>select 1 as name</data>
+   <body>$name</body>
+</iterator>
+</code>
+</webcode>
