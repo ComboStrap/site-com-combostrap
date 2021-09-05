@@ -16,7 +16,7 @@
 <code dw>
 <iterator>
    <data>select 1 as name</data>
-   <body>$name</body>
+   <body>$hello</body>
 </iterator>
 </code>
 </webcode>
