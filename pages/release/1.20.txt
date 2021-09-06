@@ -1,0 +1,18 @@
+---json
+{
+    "canonical":"release:1.20",
+    "title":"ComboStrap - Release 1.20",
+    "description":"New, Improvement, Deprecation and Bug resolution of the release 1.20"
+}
+---
+====== ComboStrap - Release 1.20 ======
+
+===== About =====
+List of changes for the release 1.20.
+
+===== List =====
+
+==== Deprecation ====
+  * The ''id'' is no more reported as in the [[docs:analytics:data|data metadata]] and was replaced by the [[docs:semantic:path|path]]
+  * ''age_creation'' and ''age_modification'' have been deleted
+  * The [[docs:analytics:data|data metadata]] have been enhanced to show [[docs:semantic:semantic|metadatas]] as they will appear in a [[docs:utility:template|template]].

@@ -9,7 +9,7 @@
 
 
 ===== About =====
-The ''published'' property is a page [[semantic|metadata]] that permits to modify the ''published date'' of an [[article|article]].
+The ''date_published'' property is a page [[semantic|metadata]] that permits to modify the ''published date'' of an [[article|article]].
 
 
 <note>
@@ -20,23 +20,38 @@ If the ''published date'' is set in the future, the article will be [[docs:quali
 {{backlinks>.}}
 ===== How to set a published date ? =====
 
-You can set a published date in the [[frontmatter|frontmatter]] with an [[wp>ISO_8601|ISO format]].
+You can set a published date in the [[frontmatter|frontmatter]] with an [[wp>ISO_8601|ISO format]]. 
+
+You can use as key:
+  * the qualified name: ''date_published''
+  * or the alias: ''published''
 
 Example:
-  * at the day level:
+  * at the day level (will be translated at midnight, ie ''2021-03-15T00:00:00'')
 <code json>
 {
-   "published":"2021-03-15"
+   "date_published":"2021-03-15"
 }
 </code>
   * at the hour level (10 hour)
 <code json>
 {
-   "published":"2021-03-15T10:00:00"
+   "date_published":"2021-03-15T10:00:00"
 }
 </code>
 
-<note>
-The dates are all located in the [[doku>tips:timezone|timezone]] of your server.
-</note>
+
+
+===== Timezone =====
+
+The dates are all located in the [[doku>tips:timezone|timezone]] of your server but you can add a timezone if you want.
+
+For instance, for ''Europe/Paris'':
+<code json>
+{
+   "date_published":"2021-03-15T10:00:00+0200"
+}
+</code>
+
+
 

@@ -23,10 +23,13 @@ They below internal page metadata are used by ''ComboStrap'':
       * [[canonical|canonical]]
       * [[description|description]]
       * [[title|title]]
-      * [[published|published date]]
+      * [[name|name]]
       * [[type|page Type]]
       * [[image|image]]
       * ''path'': the path of the page with wiki separator (ie '':namespace:page'')
+      * ''date_created'': the creation date
+      * ''date_modified'': the modification date
+      * [[published|date_published]] - the publication date
 
 They are also used in the ''semantic component'' explained in the next section.
 

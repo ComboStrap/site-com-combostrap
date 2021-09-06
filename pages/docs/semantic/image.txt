@@ -9,7 +9,7 @@
 ===== About =====
 ''image'' is a [[semantic|page metadata]] that defines an image illustration for a page.
 
-The image is then used as illustration on social cards such as [[..:social:twitter|twitter]] or [[..:social:facebook|facebook]].
+The image is then used as illustration on [[docs:social:social|social]] cards such as [[..:social:twitter|twitter]] or [[..:social:facebook|facebook]].
 
 By default, if the ''image'' property is not set, the [[#configuration|first image]] in the page is used.
 
