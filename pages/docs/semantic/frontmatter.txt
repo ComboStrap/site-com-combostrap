@@ -62,10 +62,11 @@ There is three groups of metadata:
   * [[description|description]]
   * [[docs:semantic:published|date_published]]
   * [[docs:semantic:image|image]]
+  * [[docs:semantic:type|page type]]
 
 
 ==== Protected ====
-The below property are protected and cannot be changed:
+The below properties are protected and cannot be changed:
   * [[docs:semantic:path|path]]
   * ''date_created'', ''date_modified''
   * ''user'', ''creator'', ''contributor''

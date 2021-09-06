@@ -20,6 +20,8 @@ If the ''published date'' is set in the future, the article will be [[docs:quali
 {{backlinks>.}}
 ===== How to set a published date ? =====
 
+By default, the ''published date'' is the ''creation date'' 
+
 You can set a published date in the [[frontmatter|frontmatter]] with an [[wp>ISO_8601|ISO format]]. 
 
 You can use as key:
