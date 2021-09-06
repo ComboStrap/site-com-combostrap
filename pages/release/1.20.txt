@@ -10,6 +10,10 @@
 ===== About =====
 List of changes for the release 1.20.
 
+
+<note warning>
+The [[docs:semantic:published|Published]] format has changed that can cause temporary warning until the [[docs:analytics:process|data is refreshed]]
+</note>
 ===== List =====
 
 ==== Deprecation ====
