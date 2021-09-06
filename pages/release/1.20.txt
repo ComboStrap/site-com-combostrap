@@ -11,8 +11,8 @@
 List of changes for the release 1.20.
 
 
-<note warning>
-The [[docs:semantic:published|Published]] format has changed that can cause temporary warning until the [[docs:analytics:process|data is refreshed]]
+<note important>
+The [[docs:semantic:published|Published]] format has changed that can cause temporary warning until the [[docs:analytics:process|data is refreshed]].
 </note>
 ===== List =====
 
@@ -22,4 +22,5 @@ The [[docs:semantic:published|Published]] format has changed that can cause temp
   * The [[docs:analytics:data|data metadata]] have been enhanced to show [[docs:semantic:semantic|metadatas]] as they will appear in a [[docs:utility:template|template]].
 
 ==== Bug ====
-  * Snippets of code could be missing (such as [[docs:utility:prism|prism]] to highlight the code) on certain page due to the new [[docs:navigation:historical_breadcrumb|historical breadcrumb]] that created snippets scoped to the previous page. The snippets are now merged to prevent any scope related problem.
+  * Snippets of code could be missing (such as [[docs:utility:prism|prism]] to highlight the code) on certain page due to the new [[docs:navigation:historical_breadcrumb|historical breadcrumb]] that created snippets scoped to the previous page because of the link that can be [[docs:quality:protection|protected]]. The snippets are now merged to prevent any scope related problem.
+  * The format saved for the [[docs:semantic:published|published date]] was actually not IS08601 compliant because [[https://www.php.net/manual/en/class.datetimeinterface.php#datetime.constants.iso8601|the DATE_ISO8601 constant in PHP]] is actually not compliant but was kept for backward compatibility. The new constant format used in php is the one pointed in the documentation, namely ''DATE_ATOM''.
