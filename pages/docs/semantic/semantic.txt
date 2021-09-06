@@ -19,15 +19,16 @@ The metadatas can be seen by default thanks to the [[viewer|Metadata viewer]].
 
 ===== Usage =====
 
-They below internal metadata are used by ''ComboStrap'':
+They below internal page metadata are used by ''ComboStrap'':
       * [[canonical|canonical]]
       * [[description|description]]
       * [[title|title]]
       * [[published|published date]]
       * [[type|page Type]]
       * [[image|image]]
+      * ''path'': the path of the page with wiki separator (ie '':namespace:page'')
 
-and enables the ''semantic component'' explained in the next section.
+They are also used in the ''semantic component'' explained in the next section.
 
 ==== Internal ====
 

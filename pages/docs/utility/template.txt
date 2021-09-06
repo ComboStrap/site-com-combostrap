@@ -20,7 +20,7 @@ Example of template used in a [[docs:navigation:page-explorer|page-explorer navi
 
 ===== Variables =====
 The following variables can be used in a ''template'':
-  * ''$path'' is the full qualified path of a page that can be used in [[docs:content:link|link]]
+  * ''$path'' is the [[docs:semantic:path|full qualified path of a page]] that can be used in [[docs:content:link|link]]
   * ''$title'' - the [[docs:semantic:title|title]] of the page - if empty, the ''h1''
   * ''$name'' - the [[docs:semantic:name|name]] of the page - if empty, the last part of the id
   * ''$h1'' - the [[docs:semantic:h1|h1 title]] (the first header text of the page) - if empty, the ''title''.

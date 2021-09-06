@@ -1,0 +1,20 @@
+---json
+{
+    "canonical":"page:path",
+    "name":"Page Path",
+    "title":"The page path metadata",
+    "description":"The page path metadata is the full qualified path of a page that can be used in link"
+}
+---
+====== ComboStrap Metadata - Page Path ======
+
+
+
+===== About =====
+The ''path'' is a [[semantic|page metadata]] that represents the full qualified path of a page that can be used in [[docs:utility:template|template]] to create for instance [[docs:content:link|links]]
+
+You can't set a path, the path is a derived metadata and can be seen in the [[docs:analytics:data|analtyics data file]].
+
+
+===== Articles Related =====
+{{backlinks>.}}

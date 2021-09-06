@@ -15,8 +15,6 @@ This information is used by:
 to set the extra properties that are required.
 
 
-<badge>Since [[release:release#version_112|version 1.12]]</badge>
-
 ===== How to set the value =====
 You can set the value in the [[frontmatter|frontmatter]]
 
