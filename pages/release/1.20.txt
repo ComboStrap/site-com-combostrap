@@ -20,3 +20,6 @@ The [[docs:semantic:published|Published]] format has changed that can cause temp
   * The ''id'' is no more reported as in the [[docs:analytics:data|data metadata]] and was replaced by the [[docs:semantic:path|path]]
   * ''age_creation'' and ''age_modification'' have been deleted
   * The [[docs:analytics:data|data metadata]] have been enhanced to show [[docs:semantic:semantic|metadatas]] as they will appear in a [[docs:utility:template|template]].
+
+==== Bug ====
+  * Snippets of code could be missing (such as [[docs:utility:prism|prism]] to highlight the code) on certain page due to the new [[docs:navigation:historical_breadcrumb|historical breadcrumb]] that created snippets scoped to the previous page. The snippets are now merged to prevent any scope related problem.
