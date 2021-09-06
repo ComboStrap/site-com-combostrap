@@ -4,7 +4,9 @@
 ===== About =====
 ''template'' are text that may contains [[#variables|variables]] that will be replaced at runtime.
 
-They are supported in the [[docs:navigation:page-explorer|page explorer component]].
+They are supported:
+  * in the [[docs:navigation:page-explorer|page explorer component]].
+  * and in the [[docs:utility:iterator|iterator component]]
 ===== Articles Related =====
 {{backlinks>.}}
 
@@ -19,15 +21,20 @@ Example of template used in a [[docs:navigation:page-explorer|page-explorer navi
 </code>
 
 ===== Variables =====
-The following variables can be used in a ''template'':
+
+The following variables can be used:
   * ''$path'' is the [[docs:semantic:path|full qualified path of a page]] that can be used in [[docs:content:link|link]]
   * ''$title'' - the [[docs:semantic:title|title]] of the page - if empty, the ''h1''
   * ''$name'' - the [[docs:semantic:name|name]] of the page - if empty, the last part of the id
   * ''$h1'' - the [[docs:semantic:h1|h1 title]] (the first header text of the page) - if empty, the ''title''.
   * ''$description'' - the [[docs:semantic:description|description]]
-  * ''$id'' - the id of the page
+  * ''$date_created'' - the creation date
+  * ''$date_modified'' - the modification date
+  * ''$date_published'' - the [[docs:semantic:published|publication date]]
+  * ''$type'' - the [[docs:semantic:type|type of page]]
   * and all [[docs:semantic:frontmatter|frontmatter metadatas]]
 
+Basically, all metadata that can be seen in the [[docs:analytics:data|metadata node of the analytics data]] can be used as variable.
 ===== Transformation =====
 A ''template'' supports text transformation through the use of a [[docs:utility:pipeline|pipeline]].
 

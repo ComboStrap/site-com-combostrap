@@ -10,13 +10,31 @@
 
 
 
+
 ===== Example =====
 
 <webcode name="Default" frameborder="0">
 <code dw>
 <iterator>
-   <data>select 1 as name</data>
+   <data>select 1 as hello from pages where path="docs:utility:iterator"</data>
    <body>$hello</body>
 </iterator>
 </code>
 </webcode>
+
+
+===== Syntax =====
+<code dw>
+<iterator>
+   <data>select attribute1, attribute2 where attribute3 = 'xxx'</data>
+   <body>$attribute1 ... $attribute2</body>
+</iterator>
+</code>
+where:
+  * ''data'' defined a sql statement:
+      * that may contains any [[docs:utility:template#variable|template variable]]
+      * without ''from'' clause
+      * with an optional ''where'' clause
+      * with an optional ''limit'' clause
+      * with an optional ''order by'' clause
+  * ''body'' contains a [[docs:utility:template|template]] that will be repeated for each data row.
