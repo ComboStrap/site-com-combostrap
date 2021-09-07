@@ -127,3 +127,6 @@ We support only the value ''1'' and ''2'' of the TOC configuration of the [[doku
 All value above will render inconsistent numbers for the TOC.
 
 
+
+<heading h2 id="whatever">Heading 1</heading>
+Hallo
