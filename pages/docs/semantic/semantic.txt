@@ -14,7 +14,9 @@ It's also known as:
   * web structured data 
   * or semantic web.
 
-The metadatas can be seen by default thanks to the [[viewer|Metadata viewer]].
+The metadatas can be seen:
+  * via the [[viewer|Metadata viewer]]
+  * or the [[docs:analytics:data|analytics data]]
 
 
 ===== Usage =====
@@ -30,6 +32,7 @@ They below internal page metadata are used by ''ComboStrap'':
       * ''date_created'': the creation date
       * ''date_modified'': the modification date
       * [[published|date_published]] - the publication date
+      * [[docs:utility:cache|date_cache_expiration]] - the expiration date of the cache if any
 
 They are also used in the ''semantic component'' explained in the next section.
 
@@ -42,6 +45,7 @@ They allows internally:
   * [[docs:url:permalink|Permalink]]
   * [[docs:quality:lpp|Late Publication Protection]]
   * [[docs:utility:template|Templating]]
+  * [[docs:utility:cache|Cache expiration]]
 
 
 ==== External ====

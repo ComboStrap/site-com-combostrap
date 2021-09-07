@@ -15,7 +15,7 @@ Writing a page consists of:
   * writing a text 
   * that is styled and laid out with components.
 
-ComboStrap groups them in 5 categories.
+ComboStrap groups them in categories.
 
 ^ Type ^ Example ^
 | [[docs:content:content|Content (Inline)]] | Text, Image, Icon, .. |
@@ -23,3 +23,4 @@ ComboStrap groups them in 5 categories.
 | [[docs:navigation:navigation|Navigational]] | Page Explorer, Toc, tabs, ... |
 | [[docs:layout:component:component|Layout]] | Tabs, panel, grid, ... |
 | [[docs:lists:lists|Lists]] | List of line, records or content |
+| Metadata | [[docs:semantic:frontmatter|frontmatter]], [[docs:utility:cache|cache]] |

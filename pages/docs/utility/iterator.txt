@@ -38,3 +38,8 @@ where:
       * with an optional ''limit'' clause
       * with an optional ''order by'' clause
   * ''body'' contains a [[docs:utility:template|template]] that will be repeated for each data row.
+
+
+<note>
+If your iteration is time-based, you may need to set a cache validity on your page with the [[docs:utility:cache|cache]] component
+</note>

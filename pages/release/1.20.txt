@@ -16,6 +16,8 @@ The [[docs:semantic:published|Published]] format has changed that can cause temp
 </note>
 ===== List =====
 
+==== New ====
+  * The [[docs:utility:cache|cache]] component to set the cache validity of a page.
 ==== Deprecation ====
   * The ''id'' is no more reported as in the [[docs:analytics:data|data metadata]] and was replaced by the [[docs:semantic:path|path]]
   * ''age_creation'' and ''age_modification'' have been deleted

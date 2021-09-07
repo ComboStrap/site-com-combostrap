@@ -7,9 +7,9 @@
 
 ===== Format =====
 The analytical data are composed of three parts:
-  * [[docs:semantic:semantic|metadata]]: the metadata
-  * [[statistics|statistics]] : page statistics such as words_count, links, header
-  * [[docs:quality:quality|quality]] data:
+  * ''metadata'': the [[docs:semantic:semantic|page metadata]]
+  * ''statistics'': the [[statistics|page statistics]] such as words_count, links, header
+  * ''quality'': the [[docs:quality:quality|quality]] data:
       * ''low'' is the [[docs:quality:low_quality_page|low quality page]] indicator
       * ''quality score'' data
       * [[docs:quality:rule|quality rule information]]

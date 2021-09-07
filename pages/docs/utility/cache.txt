@@ -1,0 +1,48 @@
+---json
+{
+    "canonical":"cache",
+    "title":"Set the cache expiration date of a page with the cache component",
+    "description":"With the cache component, you can manage disable the cache of a page at interval"
+}
+---
+====== ComboStap - Cache component ======
+
+
+===== About =====
+With the ''cache'' [[docs:component|component]], you can disable all the caches of a page at interval. 
+
+
+
+===== Example =====
+
+To delete your cache:
+  * daily at midnight:
+<code dw>
+<cache expiration="@daily"/>
+</code>
+  * At 12:02 on Monday
+<code dw>
+<cache expiration="02 12 * * 1"/>
+</code>
+
+
+
+===== Syntax =====
+
+<code dw>
+<cache expiration="cronExpression"/>
+</code>
+where ''cronExpression'' is a ''cron'' expression.
+
+<note>
+To create a ''cron'' expression easily, we recommend you the  [[https://crontab.guru/|crontab.guru wizard]]
+</note>
+
+===== How to check the next expiration date =====
+
+The expiration date can be seen in the ''date_cache_expiration'' field of the [[docs:semantic:semantic|metadata]].
+
+
+
+ 
+
