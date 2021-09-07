@@ -11,11 +11,11 @@
 
 ===== About =====
 An ''heading'' has two different functions:
-  * the first one is ''structural'' and generates the [[docs:navigation:outline|outline (structure of the document]]. The table of content (TOC) is created from this structure.
+  * the first one is ''structural'' and generates the [[docs:navigation:outline|outline (structure of the document]]). The table of content (TOC) is created from this structure.
   * the second one is ''semantic'' and defines the title of a [[docs:block:block|block component]].
 
 
-The rule is simple, when a heading is not in a component, it's a [[docs:navigation:outline|structural heading]], otherwise, it's a title component.
+The rule is simple, when a heading is not in a [[docs:component|component]], it's a [[docs:navigation:outline|outline heading]], otherwise, it's the ''title'' of the component.
 
 <note info>
 If you search the ''title'' of a ''page'', see the page [[docs:semantic:title]]
@@ -78,12 +78,12 @@ This is:
 </code>
 </webcode>
 
-==== HTML Super Set ====
+<heading h3>Marki</heading>
 
-''heading'' is a [[docs:marki|Super set HTML component]] and therefore, you can then apply all [[docs:styling:styling|styling attributes]].
+''heading'' is a [[docs:marki|marki syntax]]. You can therefore apply all [[docs:styling:styling|styling attributes]] (such as adding an ''id'' if you want to specify your fragment)
 
 <code dw>
-<heading type>
+<heading type level=1-6>
 Heading
 </heading >
 </code>
