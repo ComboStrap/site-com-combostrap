@@ -17,7 +17,14 @@ The [[docs:semantic:published|Published]] format has changed that can cause temp
 ===== List =====
 
 ==== New ====
-  * The [[docs:utility:cache|cache]] component to set the cache validity of a page.
+
+  * the [[docs:utility:iterator|iterator]] to iterate over [[docs:utility:template|template]]
+  * The [[docs:utility:cache|cache]] component to set the validity of a page at interval to avoid [[https://forum.dokuwiki.org/d/19495-caching-problem-with-a-plugin/11|caching problem with iterator]]
+  * The message area is now a toaster.
+
+
+==== Improvement ====
+  * The callstack manager can handle bad/old handler to prevent a fatal error such as ''Uncaught Error: Cannot access private property ImageMap_Handler::$calls''
 ==== Deprecation ====
   * The ''id'' is no more reported as in the [[docs:analytics:data|data metadata]] and was replaced by the [[docs:semantic:path|path]]
   * ''age_creation'' and ''age_modification'' have been deleted

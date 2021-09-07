@@ -12,4 +12,4 @@
 ===== About =====
 The latest release is the release [[1.19|1.19]]
 
-For all news and modifications, you should go and the release page [[1.19]].
+For all news and modifications, you should go to the release page [[1.19]].
