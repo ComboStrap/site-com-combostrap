@@ -5,12 +5,14 @@
     "description":"With the cache component, you can manage disable the cache of a page at interval"
 }
 ---
+
+<cache expiration="@monthly"/>
+
 ====== ComboStap - Cache component ======
 
 
 ===== About =====
 With the ''cache'' [[docs:component|component]], you can disable all the caches of a page at interval. 
-
 
 
 ===== Example =====
@@ -45,4 +47,13 @@ The expiration date can be seen in the ''date_cache_expiration'' field of the [[
 
 
  
+For instance, this page has a ''monthly'' expiration, check the ''date_cache_expiration'' in the ''metadata'' field of its analytical data. 
 
+<btn>[[?do=export_combo_analytics|View the analytical data for this page]]</btn>
+
+Example of output:
+<code javascript>
+"metadata": {
+        "date_cache_expiration": "YYYY-MM-DDT00:00:00+00:00"
+}
+</code>
