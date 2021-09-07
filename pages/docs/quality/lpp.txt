@@ -2,7 +2,8 @@
 {
     "canonical":"lpp",
     "title":"What is the Late Publication Protection feature ?",
-    "description":"With late publication protection, the article that are not yet published will not be advertised to the world until the date is due"
+    "description":"With late publication protection, the article that are not yet published will not be advertised to the world until the date is due",
+    "name":"Late Publication Protection"
 }
 ---
 ====== Late Publication Protection (LPP) ======

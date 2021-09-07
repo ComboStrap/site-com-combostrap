@@ -82,5 +82,5 @@ The [[docs:social:facebook|facebook page]] will tell your more about the specifi
 ==== Next Step ====
 
 <btn color="white">
-[[5_menu|Create a menu]]
+[[6_menu|Create a menu]]
 </btn>

@@ -2,7 +2,8 @@
 {
     "canonical":"quality:rule",
     "title":"The content quality rule of a page that ComboStrap applies",
-    "description":"Learn about how to use the quality rule feature to improve the quality of your website"
+    "description":"Learn about how to use the quality rule feature to improve the quality of your website",
+    "name":"Quality Rule"
 }
 ---
 

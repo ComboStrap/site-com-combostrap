@@ -1,6 +1,7 @@
 ---json
 {
-    "canonical":"lqpp"
+    "canonical":"lqpp",
+    "name":"Low Quality Page Protection"
 }
 ---
 

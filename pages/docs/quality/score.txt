@@ -1,3 +1,12 @@
+---json
+{
+    "canonical":"quality:score",
+    "name":"Quality Score",
+    "title":"The calculated quality score",
+     "description":"The quality score metrics permits to measure the quality of your pages"
+}
+---
+
 ====== ComboStrap Quality - Score ======
 
 
