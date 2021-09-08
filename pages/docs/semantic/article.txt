@@ -20,7 +20,6 @@ Example:
   * blog,
   * piece of investigative report
 
-<badge>Since [[release:release#version_112|version 1.12]]</badge>
 ===== Articles Related =====
 {{backlinks>.}}
 
