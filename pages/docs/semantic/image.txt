@@ -21,9 +21,9 @@
 ===== Definition =====
 
 The image of a page is searched in this order:
-  - the ''image'' property in the [[frontmatter|frontmatter]]
-  - the ''first image'' of a page if not [[#disableFirstImageAsPageImage|disabled]]
-  - the [[docs:app:logo|logo]]
+  - the first conform ''image'' property in the [[frontmatter|frontmatter]]
+  - the first conform ''image'' of a page if not [[#disableFirstImageAsPageImage|disabled]]
+  - the first conform [[docs:app:logo|logo]]
 
 
 <note>
@@ -46,27 +46,6 @@ Example of a a [[frontmatter|frontmatter]] image:
          ":photos:4x3:photo.jpg",
          ":photos:16x9:photo.jpg"
     ]
-}
-</code>
-  * A [[docs:social:twitter|twitter image]]
-<code json>
-{
-    "image": {
-        "twitter":"twitter.jpg"
-    }
-}
-</code>
-  * A set of images for [[docs:semantic:article#image|google in a article]]
-<code json>
-{
-    "image": {
-        "google":
-            [
-                ":photos:1x1:photo.jpg",
-                ":photos:4x3:photo.jpg",
-                ":photos:16x9:photo.jpg"
-            ]
-    }
 }
 </code>
 
