@@ -1,6 +1,6 @@
 ---json
 {
-    "canonical":"page:image",
+    "canonical":"metadata:image",
     "image":":docs:block:stock_image_surfer_in_the_see.png"
 }
 ---

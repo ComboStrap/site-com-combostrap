@@ -27,6 +27,7 @@ The [[docs:semantic:published|Published]] format has changed that can cause temp
 
 
 ==== Improvement ====
+  * The [[docs:semantic:image|image metadata]] handles now two levels of image definitions allowing to set image only for the [[docs:social:social|social provider]]
   * The callstack manager can handle bad/old handler to prevent a fatal error such as ''Uncaught Error: Cannot access private property ImageMap_Handler::$calls''
 ==== Deprecation ====
   * The ''id'' is no more reported as in the [[docs:analytics:data|data metadata]] and was replaced by the [[docs:semantic:path|path]]
