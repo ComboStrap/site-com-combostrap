@@ -83,7 +83,7 @@ It contains most of the UI and functional components such as:
   * [[docs:menubar:fixed-top|Fixed-top menubar with automatic top page location correction]]
   * Support a [[docs:navigation:historical_breadcrumb|trailing breadcrumb]]
   * [[docs:styling:scale|Size Scale configuration (font and spacing)]]
-  * [[docs:getting_started:4_favicon|Favicon]]: Recognized the [[docs:getting_started:4_favicon|favicons]]  (included ''android-chrome-192x192.png'')
+  * [[docs:getting_started:5_favicon|Favicon]]: Recognized the [[docs:getting_started:5_favicon|favicons]]  (included ''android-chrome-192x192.png'')
   * [[docs:utility:shortcut]]
 
 

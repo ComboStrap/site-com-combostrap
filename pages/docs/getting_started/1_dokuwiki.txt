@@ -9,13 +9,18 @@
 
 
 ==== DokuWiki Version Check ====
-If you have already a Dokuwiki Installation, you should have the last version (actually ''2020-07-29 "Hogfather''). We support the previous version only a couple of month.
+If you have already a Dokuwiki Installation, you should have the last version. We support the previous version only a couple of month.
 
 You can check the version of your installation:
   * by logging in as a superuser 
   * and use the ''do=check'' parameter to your wiki's URL. Eg:
 <code>
 http://yourdomain/yourwiki/doku.php?do=check
+</code>
+
+You should get the following:
+<code>
+DokuWiki version: Release 2020-07-29 "Hogfather"
 </code>
 
 If you don't have the last version, we recommend to install the [[https://www.dokuwiki.org/plugin:upgrade|Upgrade plugin]] and to upgrade your installation.

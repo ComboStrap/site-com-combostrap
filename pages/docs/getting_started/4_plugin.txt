@@ -1,6 +1,7 @@
 ---json
 {
-   "canonical":"installation:plugins"
+   "canonical":"installation:plugins",
+   "name":"4 Third plugins"
 }
 ---
 
@@ -8,9 +9,9 @@
 
 
 ===== About =====
-[[:combostrap|ComboStrap]] uses and supports third utility plugins natively. 
+[[:combostrap|ComboStrap]] supports third utility plugins natively. 
 
-We are using them daily and share them with you. You can install them the same way than [[docs:getting_started:2_combo|Combo]] and [[docs:getting_started:3_strap|Strap]]
+They are tested against ComboStrap and you can install them the same way than [[docs:getting_started:2_combo|Combo]] and [[docs:getting_started:3_strap|Strap]]
 
 This is an optional and informative step.
 
@@ -27,11 +28,17 @@ You can quickly move a page with the ''rename'' action in the [[docs:layout:page
 {{:docs:getting_started:move_plugin_rename.png|}}
 ==== Search Index Manager ====
 
-The ''search index'' is an index of your page that permits to retrieve quickly any information. 
+The ''search index'' is an index of your page that powers the [[docs:menubar:search|search component]] and stores the [[docs:navigation:related|backlinks]].
 
 The index is [[doku>search|updated]] incrementally page by page when a visitor see a page.
 
-If you change a lot of page (for instance, making a release), the [[doku>plugin:searchindex|search index manager]] is for you. It will rebuild the index completely.
+If you change a lot of page (for instance, making a release), the [[doku>plugin:searchindex|search index manager]] is for you. It will rebuild the index completely. 
+
+<note>
+The [[#move]] plugins depends on it to retrieve the backlinks.
+
+If you don't want to create [[docs:quality:broken_link|broken links]] don't forget to rebuild your index if you have added pages externally (ie moved from an other installation via the file system, not via the web interface)
+</note>
 
 You access it on the admin page via the ''admin'' action of the [[docs:layout:page:railbar|railbar]]
 

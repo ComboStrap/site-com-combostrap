@@ -1,7 +1,13 @@
+---json
+{
+    "canonical":"combo"
+}
+---
+
 ====== ComboStrap Getting Started - Combo Installation ======
 
 ===== About =====
-[[:combostrap|combo]] is a bundle of components that complements the [[:strap|strap template]].
+''combo'' is a bundle of components that complements the [[:strap|strap template]].
 
 It contains:
   * the [[docs:component|collection of UI component]]
@@ -15,6 +21,10 @@ It contains:
 
 ===== Steps =====
 
+==== DokuWiki Pre-requisites ====
+In case, you have not followed the [[docs:getting_started:1_dokuwiki|dokuwiki step]], you should install ''ComboStrap'' on the last dokuwiki version.
+
+If you don't know the version of your installation, the [[1_dokuwiki#dokuwiki_version_check|dokuwiki version check]] will help you.
 ==== Go to the Extension Manager ====
 
 To install the ''Combo'' plugin:
@@ -61,8 +71,8 @@ This application has a large code base going from [[docs:utility:cache|cache]] t
 
 Plugins that are too old or does not respect the DokuWiki Interfaces may not work well with ''ComboStrap''.
 
-If this is the case and that you got your installation not working anymore, the fix is on your server:
-  * to rename the directory ''dokuwiki/lib/plugins/combo'' to ''dokuwiki/lib/plugins/combo.old'' 
+If this is the case and that you got your installation not working anymore, the fix is:
+  * to rename on your server the directory ''dokuwiki/lib/plugins/combo'' to ''dokuwiki/lib/plugins/combo.old'' 
   * or to delete it
 
 And to [[:support|send us the log of your webserver]] if you want us to take a look.
