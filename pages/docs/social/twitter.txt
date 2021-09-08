@@ -14,7 +14,6 @@
 
 You can optionally add your twitter handle in the cards if [[#configuration|configured]].
 
-<badge>Since [[release:release#version_112|version 1.12]]</badge>
 
 
 <note>
@@ -38,7 +37,20 @@ You can preview a card page before tweeting it at: https://cards-dev.twitter.com
 The list of metadata that are used in the card are:
   * for the heading: [[..:semantic:title|title]] if present otherwise [[..:semantic:h1|h1]], otherwise the page id.
   * for the description: [[..:semantic:description|description]]
-  * for the image: the [[..:semantic:image|image]] otherwise the [[#configuration|default one]]
+  * for the image:
+      * the ''twitter'' [[..:semantic:image|image]] 
+      * otherwise any other conforming [[..:semantic:image|image]], 
+      * otherwise the [[#configuration|default one]]
+      * otherwise any conforming [[docs:app:logo|logo image]]
+
+Example of ''twitter'' [[..:semantic:image|image]] definition in [[docs:semantic:frontmatter|frontmatter]]
+<code json>
+{
+    "image": {
+        "twitter":"image_for_twitter.jpg"
+    }
+}
+</code>
 ===== Configuration =====
 
 You can set the following [[:configuration|configuration]]:
@@ -49,7 +61,7 @@ You can set the following [[:configuration|configuration]]:
 | ''defaultTwitterImage'' | the image used if an [[..:semantic:image|page image]] was not found ([[https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup|svg is not supported, less than 5MB]]) | apple-touch-icon.png |
 
 <note>
-The default site image ''apple-touch-icon.png'' is already installed if you have followed the [[docs:getting_started:4_favicon|favicon installation guide]]
+The default site image ''apple-touch-icon.png'' is already installed if you have followed the [[docs:getting_started:5_favicon|favicon installation guide]]
 </note>
 
 
