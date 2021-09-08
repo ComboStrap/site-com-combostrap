@@ -57,5 +57,5 @@ You can configure your tag id via the [[doku>plugin:config|configuration manager
 
 
 <btn color="white">
-[[docs:getting_started:4_favicon|Install a favicon]]
+[[docs:getting_started:5_favicon|Install a favicon]]
 </btn>

@@ -53,6 +53,19 @@ Steps:
 The ''combo'' term was chosen for this reason. It's just a ''combo''
 </note>
 
+==== Do you have any other plugins ? ====
+
+''ComboStrap'' is tested against [[docs:getting_started:4_plugin|third party plugins]] but we can't test them all.
+
+This application has a large code base going from [[docs:utility:cache|cache]] to [[docs:url:url|url]] and [[docs:component|user interface]] management.
+
+Plugins that are too old or does not respect the DokuWiki Interfaces may not work well with ''ComboStrap''.
+
+If this is the case and that you got your installation not working anymore, the fix is on your server:
+  * to rename the directory ''dokuwiki/lib/plugins/combo'' to ''dokuwiki/lib/plugins/combo.old'' 
+  * or to delete it
+
+And to [[:support|send us the log of your webserver]] if you want us to take a look.
 ==== Install the Combo extension ====
 
   * Search for the term ''Combo''
@@ -62,6 +75,9 @@ The ''combo'' term was chosen for this reason. It's just a ''combo''
 
 
 ===== Next Step =====
+
+All good ? Well done, otherwise check the [[#do_you_have_any_other_plugins|other plugins section]] if you need to repair your installation.
+
 <btn>
 [[3_strap|Strap Installation]]
 </btn>
