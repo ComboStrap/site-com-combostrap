@@ -22,19 +22,19 @@ The metadatas can be seen:
 ===== Usage =====
 
 They below internal page metadata are used by ''ComboStrap'':
-      * [[canonical|canonical]]
-      * [[description|description]]
-      * [[title|title]]
-      * [[name|name]]
-      * [[type|page Type]]
-      * [[image|image]]
-      * ''path'': the path of the page with wiki separator (ie '':namespace:page'')
-      * ''date_created'': the creation date
+      * [[canonical|canonical]] - an unique page identifier for the web
+      * [[description|description]] - a summary of the page
+      * [[title|title]] - a long name for the page
+      * [[name|name]] - a short name for the page
+      * [[type|page Type]] - the type of page (article, ...)
+      * [[image|image]] - the image illustrations
+      * ''path'' - the path of the page with wiki separator (ie '':namespace:page'')
+      * ''date_created'' - the creation date
       * ''date_modified'': the modification date
       * [[published|date_published]] - the publication date
       * [[docs:utility:cache|date_cache_expiration]] - the expiration date of the cache if any
-      * [[country|country]]: the localized country
-      * [[lang|lang]]: the language of the page
+      * [[country|country]] - the localized country
+      * [[lang|lang]] - the language of the page
 
 They are also used in the ''semantic component'' explained in the next section.
 
