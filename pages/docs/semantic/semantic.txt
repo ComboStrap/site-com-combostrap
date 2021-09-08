@@ -33,6 +33,8 @@ They below internal page metadata are used by ''ComboStrap'':
       * ''date_modified'': the modification date
       * [[published|date_published]] - the publication date
       * [[docs:utility:cache|date_cache_expiration]] - the expiration date of the cache if any
+      * [[country|country]]: the localized country
+      * [[lang|lang]]: the language of the page
 
 They are also used in the ''semantic component'' explained in the next section.
 
