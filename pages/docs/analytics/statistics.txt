@@ -17,15 +17,15 @@ For instance, if you want to get statistics over ''words'', you could [[query|ex
 <code sql>
 select
 	count(*) as page_count,
-	round(avg(words)) as words_avg,
-	sum(words) as words_count,
-	max(words) as words_max,
-	min(words) as words_min
+	round(avg(word_count)) as words_avg,
+	sum(word_count) as words_count,
+	max(word_count) as words_max,
+	min(word_count) as words_min
 from
 	(
 	select
 		id,
-		json_extract(analytics, '$.statistics.words_count') as words
+		json_extract(analytics, '$.statistics.word_count') as word_count
 	from
 		pages
 	where
@@ -36,7 +36,8 @@ from
 And this is the result that we get on this website.
 
 ^ page_count ^ words_avg ^ words_count ^ words_max ^ words_min ^
-|258|173|44664|1301|2|
+|268|181|45933|1301|11|
+
 
 
 ===== See =====
@@ -66,7 +67,7 @@ You would see the ''statistics'' below the ''statistics'' property:
 	"word_section_count": {
 		"avg": 75
 	},
-	"words_count": 225
+	"late publication page": 225
 }
 </code>
 
@@ -86,7 +87,7 @@ You would see the ''statistics'' below the ''statistics'' property:
   * ''interwiki_links_count'': the number of interwiki links (ie such as this one [[doku>interwiki]])
   * ''local_links_count'': the number of local links (ie fragment link such as ''#id'')
   * ''word_section_count'': summary on words by section
-  * ''words_count'': the number of words.
+  * ''late publication page'': the number of words.
   * [[syntax_count|syntax_count]] shows the number of times that a syntax is used.
 
 ==== Media ====

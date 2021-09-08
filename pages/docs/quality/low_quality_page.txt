@@ -56,7 +56,7 @@ You can [[docs:analytics:query|query]] them with the following SQL.
 select
 	id,
 	json_extract(analytics,'$.quality.failed_mandatory_rules') as failed_rules,
-	json_extract(analytics,'$.statistics.words_count') as words,
+	json_extract(analytics,'$.statistics.late publication page') as words,
 	json_extract(analytics,'$.statistics.internal_links_count') as internal_links,
 	json_extract(analytics,'$.statistics.internal_backlinks_count') as internal_backlinks
 from

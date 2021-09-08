@@ -40,11 +40,11 @@ The JSON file contains several information
 </code>
   * ''name'' is the [[doku>config:title|title]] [[:configuration|configuration]]
   * ''description'' is the [[docs:semantic:tagline|tagline configuration]]
-  * ''icons'' are automatically recognized. See [[docs:getting_started:4_favicon]]
+  * ''icons'' are automatically recognized. See [[docs:getting_started:5_favicon]]
 
 ===== Configuration =====
   * ''manifest'' is a dokuwiki action and should not be [[doku>config:disableactions|disabled]].
-  * ''icons'' should be put at the root media library. ''logo.svg'' and ''android-chrome-192x192.png'' are taken into account. See [[docs:getting_started:4_favicon]]
+  * ''icons'' should be put at the root media library. ''logo.svg'' and ''android-chrome-192x192.png'' are taken into account. See [[docs:getting_started:5_favicon]]
 
 
 ===== For the Geek =====

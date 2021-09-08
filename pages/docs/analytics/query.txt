@@ -46,7 +46,7 @@ The URL to access your database will look like the following URL
 If you want to query, the [[data|analytics json data]], you need to have sqlite with [[https://www.sqlite.org/json1.html|json support]].
 
 This steps shows you how to validate that your SQLite database can query JSON.
-  * The sqlite database version should then be greater or equal to SQLite 3.9.0 (2015-10-14). 
+  * The sqlite database version should then be greater or equal to SQLite 3.9.0 (2015-10-14).
 <code sql>
 select sqlite_version();
 </code>
@@ -87,7 +87,7 @@ You can try the below query that returns statistics over ''words'' from the [[da
 select
 	count(*) as page_count,
 	round(avg(words)) as words_avg,
-	sum(words) as words_count,
+	sum(words) as late publication page,
 	max(words) as words_max,
 	min(words) as words_min
 from

@@ -1,22 +1,19 @@
 ---json
 {
     "canonical":"metadata:image",
-    "image":":docs:block:stock_image_surfer_in_the_see.png"
+    "image": [":docs:block:stock_image_surfer_in_the_see.png",":docs:semantic:facebook_card.png"]
 }
 ---
 ====== ComboStrap Page Metadata - Image ======
 
 
 ===== About =====
-''image'' is a [[semantic|page metadata]] that defines the [[docs:content:image|path of an image]] to be used as illustration for a page.
+''image'' is a [[semantic|page metadata]] that defines the [[docs:content:image|path of images]] to be used as illustration for a page in:
+  * a [[docs:social:social|social]] cards such as [[..:social:twitter|twitter]] or [[..:social:facebook|facebook]]
+  * or in a [[docs:utility:template|template]]
 
-The image is then used on [[docs:social:social|social]] cards such as [[..:social:twitter|twitter]] or [[..:social:facebook|facebook]].
 
-By default, if the ''image'' property is not set, the [[#configuration|first image]] in the page is used.
 
-<note>
-[[..:social:twitter#image|twitter]], [[..:social:google#image|google]] and [[..:social:facebook#image|facebook]] have all differents image specifications, therefore when used in this context, the first image conforming to their specification is used.
-</note>
 
 
 ===== Articles Related =====
@@ -28,7 +25,10 @@ The image of a page is searched in this order:
   - the ''first image'' of a page if not [[#disableFirstImageAsPageImage|disabled]]
   - the [[docs:app:logo|logo]]
 
-For a [[docs:social:social|social image]] (Twitter, Google, Facebook, ...), if the images found in a step is not conform (low resolution, bad type), the next step is taken.
+
+<note>
+For a [[docs:social:social|social image]] ([[..:social:twitter#image|twitter]], [[..:social:google#image|google]] and [[..:social:facebook#image|facebook]]) have all differents image specifications, if the images found in a step is not conform (low resolution, bad type), the next step is taken.
+</note>
 ===== Example =====
 
 Example of a a [[frontmatter|frontmatter]] image:

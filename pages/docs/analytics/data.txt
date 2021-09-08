@@ -8,7 +8,7 @@
 ===== Format =====
 The analytical data are composed of three parts:
   * ''metadata'': the [[docs:semantic:semantic|page metadata]]
-  * ''statistics'': the [[statistics|page statistics]] such as words_count, links, header
+  * ''statistics'': the [[statistics|page statistics]] such as late publication page, links, header
   * ''quality'': the [[docs:quality:quality|quality]] data:
       * ''low'' is the [[docs:quality:low_quality_page|low quality page]] indicator
       * ''quality score'' data
@@ -26,7 +26,7 @@ This data are accessible:
 You can get the analytical data as ''json'' with an export.
 
   * via a direct URL by by adding ''?do=export_combo_analytics'' to a page URL. For instance, to get the data of the actual page, click on this [[?do=export_combo_analytics|link]]
-  * via the ''Analytics'' menu item by clicking on the following icon <icon name="file-chart"/> (only for logged user) 
+  * via the ''Analytics'' menu item by clicking on the following icon <icon name="file-chart"/> (only for logged user)
 
 
 <note>
@@ -40,7 +40,7 @@ For instance, you can then execute a query such as the following that extracts [
 select
 	id,
 	json_extract(analytics,'$.quality.failed_mandatory_rules') as failed_rules,
-	json_extract(analytics,'$.statistics.words_count') as words,
+	json_extract(analytics,'$.statistics.late publication page') as words,
 	json_extract(analytics,'$.statistics.internal_links_count') as internal_links,
 	json_extract(analytics,'$.statistics.internal_backlinks_count') as internal_backlinks
 from

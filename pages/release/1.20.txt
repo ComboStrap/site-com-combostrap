@@ -10,7 +10,12 @@
 ===== About =====
 List of changes for the release 1.20.
 
+<note warning>
+With the advent of the [[docs:utility:iterator|iterator]], we have standardized the analytics name.
+  * ''words_count'' is now ''word_count''
 
+If you have queries running on the [[docs:analytics:data|analytical data]], you should change them.
+</note>
 <note important>
 The [[docs:semantic:published|Published]] format has changed that can cause temporary warning until the [[docs:analytics:process|data is refreshed]].
 </note>
