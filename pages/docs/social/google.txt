@@ -18,8 +18,6 @@ The ''ComboStrap'' pages supports the setting of [[..:semantic:semantic|metadata
 
 
 
-<badge>Since [[release:release#version_112|version 1.12]]</badge>
-
 ===== Creation =====
 
 ==== Automatic ====

@@ -25,7 +25,11 @@ By default, if the ''image'' property is not set, the [[#configuration|first ima
 
 The image of a page is searched in this order:
   - the ''image'' property in the [[frontmatter|frontmatter]]
-  - the ''first conforming image'' of a page if not [[#disableFirstImageAsPageImage|disabled]]
+  - the ''first image'' of a page if not [[#disableFirstImageAsPageImage|disabled]]
+  - the [[docs:app:logo|logo]]
+
+For a [[docs:social:social|social image]] (Twitter, Google, Facebook, ...), if the images found in a step is not conform (low resolution, bad type), the next step is taken.
+===== Example =====
 
 Example of a a [[frontmatter|frontmatter]] image:
   * Single: One image
@@ -42,6 +46,27 @@ Example of a a [[frontmatter|frontmatter]] image:
          ":photos:4x3:photo.jpg",
          ":photos:16x9:photo.jpg"
     ]
+}
+</code>
+  * A [[docs:social:twitter|twitter image]]
+<code json>
+{
+    "image": {
+        "twitter":"twitter.jpg"
+    }
+}
+</code>
+  * A set of images for [[docs:semantic:article#image|google in a article]]
+<code json>
+{
+    "image": {
+        "google":
+            [
+                ":photos:1x1:photo.jpg",
+                ":photos:4x3:photo.jpg",
+                ":photos:16x9:photo.jpg"
+            ]
+    }
 }
 </code>
 
