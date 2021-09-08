@@ -21,6 +21,7 @@ The [[docs:semantic:published|Published]] format has changed that can cause temp
   * the [[docs:utility:iterator|iterator]] to iterate over [[docs:utility:template|template]]
   * The [[docs:utility:cache|cache]] component to set the validity of a page at interval to avoid [[https://forum.dokuwiki.org/d/19495-caching-problem-with-a-plugin/11|caching problem with iterator]]
   * The message area is now a toaster.
+  * The [[docs:semantic:image|image metadata]] set in [[docs:semantic:frontmatter|frontmatter]] are now updated when the [[docs:content:image|image]] is moved via the [[docs:getting_started:4_plugin#move|move plugin]]
 
 
 ==== Improvement ====

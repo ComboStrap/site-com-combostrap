@@ -45,8 +45,8 @@ Example of a a [[frontmatter|frontmatter]] image:
 }
 </code>
 
-<note important>
-Moving image path in a frontmatter with the [[doku>plugin:move|move plugin]] are not yet supported. Therefore if you move an image, you also need to change the value in the frontmatter.
+<note>
+Moving image path with the [[docs:getting_started:4_plugin#move|move plugin]] will update the value in the [[docs:semantic:frontmatter|frontmatter]].
 </note>
 
 ===== Configuration =====
