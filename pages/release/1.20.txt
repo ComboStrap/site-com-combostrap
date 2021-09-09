@@ -34,6 +34,7 @@ The [[docs:semantic:published|Published]] format has changed that can cause temp
 ==== Improvement ====
   * The [[docs:semantic:image|image metadata]] handles now two levels of image definitions allowing to group image.
   * The callstack manager can handle bad/old handler to prevent a fatal error such as ''Uncaught Error: Cannot access private property ImageMap_Handler::$calls''
+  * [[support:plugin#imagemapping|imagemapping]] supports added (links should still not be on list) and we don't take over with our [[docs:content:link|link component]]
 ==== Deprecation ====
   * The ''id'' is no more reported as in the [[docs:analytics:data|data metadata]] and was replaced by the [[docs:semantic:path|path]]
   * ''age_creation'' and ''age_modification'' have been deleted

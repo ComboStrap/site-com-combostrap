@@ -9,7 +9,8 @@
 
 
 ===== About =====
-[[:combostrap|ComboStrap]] supports third utility plugins natively. 
+[[:combostrap|ComboStrap]] supports [[:support:plugin|third utility plugins natively]]. 
+
 
 They are tested against ComboStrap and you can install them the same way than [[docs:getting_started:2_combo|Combo]] and [[docs:getting_started:3_strap|Strap]]
 

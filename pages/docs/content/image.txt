@@ -168,3 +168,5 @@ This [[:configuration|configuration]] permits to set the link type to the image.
 | ''nolink'' | No link is added around the image |
 
 
+===== Metadata Image =====
+You can also add [[docs:semantic:image|image in the metadata]] in order to add/set illustrations for social cards or templates.
