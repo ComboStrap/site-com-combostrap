@@ -29,8 +29,8 @@ You can quickly move a page with the ''rename'' action in the [[docs:layout:page
 {{:docs:getting_started:move_plugin_rename.png|}}
 
 
-<note important>
-If you move page on the file system (for instance in case of a new installation), you should update your index with the [[support:plugin#search index manager|Search Index Manager]] otherwise the rewrite of the link will not succeed with the move plugin.
+<note warning>
+If you move page on the server via the file system (for instance in case of a new installation), you should update your index with the [[support:plugin#search index manager|Search Index Manager]] otherwise the rewrite of the link will not succeed with the move plugin and you will get [[docs:quality:broken_link|broken links]].
 </note>
 
 
