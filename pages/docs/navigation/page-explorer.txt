@@ -62,7 +62,7 @@ A ''page-explorer tree'' does not need any template definition.
 where the ''page'' template is composed of:
   * an [[docs:content:icon|icon]]
   * a [[docs:content:link|link]] without [[docs:styling:underline|underline]]
-  * and a [[docs:utility:pipeline|pipeline]] to modify the [[docs:semantic:h1|heading 1]] of the page.
+  * and a [[docs:templating:pipeline|pipeline]] to modify the [[docs:semantic:h1|heading 1]] of the page.
 </webcode>
 
 ==== Custom Collapsible Tree ====
@@ -81,7 +81,7 @@ Example:
 where the ''page'' template is composed of:
   * an [[docs:content:icon|icon]]
   * a [[docs:content:link|link]]
-  * and a [[docs:utility:pipeline|pipeline]] to modify the [[docs:semantic:h1|heading 1]] of the page.
+  * and a [[docs:templating:pipeline|pipeline]] to modify the [[docs:semantic:h1|heading 1]] of the page.
 
 It produces:
 </webcode>
@@ -113,10 +113,10 @@ where:
 ==== Templates ====
 
 The templates define the output of each node in the ''list'' or ''tree'' layout:
-    * ''page'' defines a [[docs:utility:template|template]] for each page in the namespace
-    * ''home'' defines a [[docs:utility:template|template]] for the home page of the namespace
-    * ''namespace'' defines a [[docs:utility:template|template]] for each child namespace of the actual namespace 
-    *  ''parent'' defines a [[docs:utility:template|template]] for the parent namespace of the actual namespace (used only in the [[#list|list layout]])
+    * ''page'' defines a [[docs:templating:template|template]] for each page in the namespace
+    * ''home'' defines a [[docs:templating:template|template]] for the home page of the namespace
+    * ''namespace'' defines a [[docs:templating:template|template]] for each child namespace of the actual namespace 
+    *  ''parent'' defines a [[docs:templating:template|template]] for the parent namespace of the actual namespace (used only in the [[#list|list layout]])
   
 
 The below image shows you the mapping between the tag and their location in a ''list''  layout.

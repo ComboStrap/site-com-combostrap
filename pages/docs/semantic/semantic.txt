@@ -47,7 +47,7 @@ They allows internally:
   * [[automatic_canonical|Automatic Canonical]]
   * [[docs:url:permalink|Permalink]]
   * [[docs:quality:lpp|Late Publication Protection]]
-  * [[docs:utility:template|Templating]]
+  * [[docs:templating:template|Templating]]
   * [[docs:utility:cache|Cache expiration]]
 
 

@@ -20,7 +20,7 @@
           * [[docs:social:twitter|Twitter]]
           * [[docs:social:facebook|Facebook]]
           * [[docs:social:google|Google]]
-  * or can used in [[docs:utility:template|template]]
+  * or can used in [[docs:templating:template|template]]
 
 It borrows its name from the [[kb>markup:front-matter|front matter book]]
 

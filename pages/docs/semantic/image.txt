@@ -1,7 +1,10 @@
 ---json
 {
-    "canonical":"metadata:image",
-    "image": [":docs:block:stock_image_surfer_in_the_see.png",":docs:semantic:facebook_card.png"]
+    "canonical": "metadata:image",
+    "image": [
+        ":docs:block:stock_image_surfer_in_the_see.png",
+        ":docs:semantic:facebook_card.png"
+    ]
 }
 ---
 ====== ComboStrap Page Metadata - Image ======
@@ -10,7 +13,7 @@
 ===== About =====
 ''image'' is a [[semantic|page metadata]] that defines the [[docs:content:image|path of images]] to be used as illustration for a page in:
   * a [[docs:social:social|social]] cards such as [[..:social:twitter|twitter]] or [[..:social:facebook|facebook]]
-  * or in a [[docs:utility:template|template]]
+  * or in a [[docs:templating:template|template]]
 
 
 

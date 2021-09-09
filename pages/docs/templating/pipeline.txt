@@ -12,7 +12,7 @@ A ''pipeline'' is a element that contains a list of function (called a ''pipelin
 
 
 <note>
-''Pipeline'' are used in [[docs:utility:template|template]] when you want to transform a variable such as a page title. 
+''Pipeline'' are used in [[docs:templating:template|template]] when you want to transform a variable such as a page title. 
 </note>
 
 ===== Articles Related =====
@@ -24,7 +24,7 @@ A ''pipeline'' is a element that contains a list of function (called a ''pipelin
 <pipeline> value | function | function | ... </pipeline>
 </code>
 where:
-  * ''value'' is the string to transform or a [[docs:utility:template#variable|template variable]]
+  * ''value'' is the string to transform or a [[docs:templating:template#variable|template variable]]
   * ''function'' is one of:
       * [[#capitalize]] - make the first letter of each word a capital letter (ie uppercase letter)
       * [[#cut]] - cut the string in parts and return one

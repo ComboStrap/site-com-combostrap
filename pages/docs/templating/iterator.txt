@@ -8,7 +8,7 @@
 ====== ComboStrap - Iterator ======
 
 ===== About =====
-''iterator'' permits to loop and applies a [[docs:utility:template|template]] repeatably in order to create a list of pages.
+''iterator'' permits to loop and applies a [[docs:templating:template|template]] repeatably in order to create a list of pages.
 
 
 
@@ -17,10 +17,11 @@
 
 <webcode name="Default" frameborder="0">
 <code dw>
+=== Recent Changes ===
 <iterator>
-   <data>select date_modified, path, name order by date_modified desc limit 10</data>
+   <data>select date_modified, path, h1 order by date_modified desc limit 10</data>
    <body>
-  * $date_modified - [[$path|$name]]
+  * $date_modified - [[$path|$h1]]
    </body>
 </iterator>
 </code>
@@ -36,12 +37,12 @@
 </code>
 where:
   * ''data'' defined a sql statement:
-      * that may contains any [[docs:utility:template#variable|template variable]]
+      * that may contains any [[docs:templating:template#variable|template variable]]
       * without ''from'' clause
       * with an optional ''where'' clause
-      * with an optional ''limit'' clause
       * with an optional ''order by'' clause
-  * ''body'' contains a [[docs:utility:template|template]] that will be repeated for each data row.
+      * with an optional ''limit'' clause
+  * ''body'' contains a [[docs:templating:template|template]] that will be repeated for each data row.
 
 
 <note>

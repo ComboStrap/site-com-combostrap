@@ -6,14 +6,14 @@
 
 They are supported:
   * in the [[docs:navigation:page-explorer|page explorer component]].
-  * and in the [[docs:utility:iterator|iterator component]]
+  * and in the [[docs:templating:iterator|iterator component]]
 ===== Articles Related =====
 {{backlinks>.}}
 
 ===== Example =====
 Example of template used in a [[docs:navigation:page-explorer|page-explorer navigation pan]] to create:
   * a [[docs:content:link|link]] 
-  * with a [[docs:utility:pipeline|pipeline]] 
+  * with a [[docs:templating:pipeline|pipeline]] 
   * that separate the [[docs:semantic:h1|h1]] with the minus ''-'' 
   * and used the second part as link description
 <code dw>
@@ -36,6 +36,6 @@ The following variables can be used:
 
 Basically, all metadata that can be seen in the [[docs:analytics:data|metadata node of the analytics data]] can be used as variable.
 ===== Transformation =====
-A ''template'' supports text transformation through the use of a [[docs:utility:pipeline|pipeline]].
+A ''template'' supports text transformation through the use of a [[docs:templating:pipeline|pipeline]].
 
 

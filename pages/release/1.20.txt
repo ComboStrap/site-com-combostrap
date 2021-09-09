@@ -11,7 +11,7 @@
 List of changes for the release 1.20.
 
 <note warning>
-With the advent of the [[docs:utility:iterator|iterator]], we have standardized the analytics name.
+With the advent of the [[docs:templating:iterator|iterator]], we have standardized the analytics name.
   * ''words_count'' is now ''word_count''
 
 If you have queries running on the [[docs:analytics:data|analytical data]], you should change them.
@@ -23,7 +23,7 @@ The [[docs:semantic:published|Published]] format has changed that can cause temp
 
 ==== New ====
 
-  * the [[docs:utility:iterator|iterator]] to iterate over [[docs:utility:template|template]]
+  * the [[docs:templating:iterator|iterator]] to iterate over [[docs:templating:template|template]]
   * The [[docs:utility:cache|cache]] component to set the validity of a page at interval to avoid [[https://forum.dokuwiki.org/d/19495-caching-problem-with-a-plugin/11|caching problem with iterator]]
   * The message area is now a toaster.
   * The [[docs:semantic:image|page image metadata]] set in the [[docs:semantic:frontmatter|frontmatter]]:
@@ -39,7 +39,7 @@ The [[docs:semantic:published|Published]] format has changed that can cause temp
 ==== Deprecation ====
   * The ''id'' is no more reported as in the [[docs:analytics:data|data metadata]] and was replaced by the [[docs:semantic:path|path]]
   * ''age_creation'' and ''age_modification'' have been deleted
-  * The [[docs:analytics:data|data metadata]] have been enhanced to show [[docs:semantic:semantic|metadatas]] as they will appear in a [[docs:utility:template|template]].
+  * The [[docs:analytics:data|data metadata]] have been enhanced to show [[docs:semantic:semantic|metadatas]] as they will appear in a [[docs:templating:template|template]].
 
 ==== Bug ====
   * Snippets of code could be missing (such as [[docs:utility:prism|prism]] to highlight the code) on certain page due to the new [[docs:navigation:historical_breadcrumb|historical breadcrumb]] that created snippets scoped to the previous page because of the link that can be [[docs:quality:protection|protected]]. The snippets are now merged to prevent any scope related problem.
