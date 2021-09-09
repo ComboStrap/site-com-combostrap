@@ -1,12 +1,14 @@
 ---json
 {
-    "canonical":"iterator"
+    "canonical":"iterator",
+    "title":"The iterator: Template iteration made easy",
+    "description":"With the template iterator, you can loop over a template to create any list of page components such as the list of the last blog or recent pages"
 }
 ---
-====== Iterator ======
+====== ComboStrap - Iterator ======
 
 ===== About =====
-''iterator'' permits to loop over [[docs:utility:template|template]] repeatably.
+''iterator'' permits to loop and applies a [[docs:utility:template|template]] repeatably in order to create a list of pages.
 
 
 
@@ -16,8 +18,10 @@
 <webcode name="Default" frameborder="0">
 <code dw>
 <iterator>
-   <data>select 1 as hello from pages where path="docs:utility:iterator"</data>
-   <body>$hello</body>
+   <data>select date_modified, path, name order by date_modified desc limit 10</data>
+   <body>
+  * $date_modified - [[$path|$name]]
+   </body>
 </iterator>
 </code>
 </webcode>

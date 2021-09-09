@@ -23,9 +23,10 @@ The metadatas can be seen:
 
 They below internal page metadata are used by ''ComboStrap'':
       * [[canonical|canonical]] - an unique page identifier for the web
-      * [[description|description]] - a summary of the page
-      * [[title|title]] - a long name for the page
       * [[name|name]] - a short name for the page
+      * [[title|title]] - an long name for the page
+      * [[docs:semantic:h1|h1]] - the first heading of the page
+      * [[description|description]] - a summary of the page
       * [[type|page Type]] - the type of page (article, ...)
       * [[image|image]] - the image illustrations
       * ''path'' - the path of the page with wiki separator (ie '':namespace:page'')
