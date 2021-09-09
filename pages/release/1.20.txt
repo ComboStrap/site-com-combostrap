@@ -29,6 +29,7 @@ The [[docs:semantic:published|Published]] format has changed that can cause temp
   * The [[docs:semantic:image|page image metadata]] set in the [[docs:semantic:frontmatter|frontmatter]]:
       * are now updated when the [[docs:content:image|image]] is moved via the [[docs:getting_started:4_plugin#move|move plugin]]
       * are taken into account into the [[docs:analytics:statistics#media|media statistics]] and reported if they don't exist as [[docs:quality:broken_link|broken links]]
+  * A [[support:plugin|page dedicated to the support of third party plugin]] to enhance our support.
 
 
 ==== Improvement ====

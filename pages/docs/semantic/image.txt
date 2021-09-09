@@ -52,7 +52,7 @@ Example of a a [[frontmatter|frontmatter]] image:
 </code>
 
 <note>
-Moving image path with the [[docs:getting_started:4_plugin#move|move plugin]] will update the value in the [[docs:semantic:frontmatter|frontmatter]].
+Moving image path with the [[support:plugin#move|move plugin]] will update the value in the [[docs:semantic:frontmatter|frontmatter]].
 </note>
 
 ===== Configuration =====

@@ -9,56 +9,35 @@
 
 
 ===== About =====
-[[:combostrap|ComboStrap]] supports [[:support:plugin|third utility plugins natively]]. 
+This page is an optional and informative step that highlights important information that you should now about third party plugins.
+
+[[:combostrap|ComboStrap]] supports [[:support:plugin|third party plugins]] and you can see them all on their  [[:support:plugin|dedicated page]]
 
 
-They are tested against ComboStrap and you can install them the same way than [[docs:getting_started:2_combo|Combo]] and [[docs:getting_started:3_strap|Strap]]
+You can install any plugin the same way than [[docs:getting_started:2_combo|Combo]] and [[docs:getting_started:3_strap|Strap]] with the [[doku>plugin:extension|extension manager]].
 
-This is an optional and informative step.
+
 
 ===== List =====
 
 ==== Move ====
 
-The [[doku>plugin:move]] plugin permits to move page without creating any [[docs:quality:broken_link|broken link]].
-
-ComboStrap intercepts the move event and moves the [[docs:content:link|link]] and [[docs:content:image|image]] accordingly.
+We support the [[support:plugin#move|move plugin]].
 
 You can quickly move a page with the ''rename'' action in the [[docs:layout:page:railbar|railbar]].
 
 {{:docs:getting_started:move_plugin_rename.png|}}
-==== Search Index Manager ====
 
-The ''search index'' is an index of your page that powers the [[docs:menubar:search|search component]] and stores the [[docs:navigation:related|backlinks]].
 
-The index is [[doku>search|updated]] incrementally page by page when a visitor see a page.
-
-If you change a lot of page (for instance, making a release), the [[doku>plugin:searchindex|search index manager]] is for you. It will rebuild the index completely. 
-
-<note>
-The [[#move]] plugins depends on it to retrieve the backlinks.
-
-If you don't want to create [[docs:quality:broken_link|broken links]] don't forget to rebuild your index if you have added pages externally (ie moved from an other installation via the file system, not via the web interface)
+<note important>
+If you move page on the file system (for instance in case of a new installation), you should update your index with the [[support:plugin#search index manager|Search Index Manager]] otherwise the rewrite of the link will not succeed with the move plugin.
 </note>
 
-You access it on the admin page via the ''admin'' action of the [[docs:layout:page:railbar|railbar]]
 
-{{:docs:getting_started:admin_railbar.png|}}
-==== Cache ====
-If you have an inconsistent page, you may have a cache issue. The [[doku>plugin:stale]] permits to make the whole cache stale in one click.
+==== Image Mapping ====
 
-You access it as action in the [[docs:layout:page:railbar|railbar]]
+The [[support:plugin#imagemapping|image mapping]] is working with ComboStrap but you should put your link or media on a new line (not in a list). In the third party plugin support page, you can see a [[support:plugin#imagemapping|working example]].
 
-{{:docs:getting_started:stale_plugin_rail_action.png|}}
-==== Analytics ====
-
-If you want some analytics information on your page, you can use the following Google plugin:
-  * [[doku>plugin:googleanalytics|Google Analtyics]]
-  * [[doku>plugin:googletagmanager|Google Tag Manager]]
-
-You can configure your tag id via the [[doku>plugin:config|configuration manager]] available via the ''admin'' action of the [[docs:layout:page:railbar|railbar]]
-
-{{:docs:getting_started:admin_railbar.png|}}
 
 
 ===== Next Step =====

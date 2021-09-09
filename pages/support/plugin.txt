@@ -29,35 +29,75 @@ The [[doku>plugin:move]] plugin is a core plugin of ComboStrap and allows the mo
 By using ''ComboStrap'' if your [[#searchindex|index]] is up-to-date, you will not have any [[docs:quality:broken_link|broken link]]
 
 
+You can quickly move a page with the ''rename'' action in the [[docs:layout:page:railbar|railbar]].
+
+{{:docs:getting_started:move_plugin_rename.png|}}
+
+==== Search Index Manager ====
+
+The ''search index'' is an index of your page that powers the [[docs:menubar:search|search component]] and stores the [[docs:navigation:related|backlinks]].
+
+The index is [[doku>search|updated]] incrementally page by page when a visitor see a page.
+
+If you change a lot of page (for instance, making a release), the [[doku>plugin:searchindex|search index manager]] is for you. It will rebuild the index completely. 
+
+<note>
+The [[#move]] plugins depends on it to retrieve the backlinks.
+
+If you don't want to create [[docs:quality:broken_link|broken links]] don't forget to rebuild your index if you have added pages externally (ie moved from an other installation via the file system, not via the web interface)
+</note>
+
+You access it on the admin page via the ''admin'' action of the [[docs:layout:page:railbar|railbar]]
+
+{{:docs:getting_started:admin_railbar.png|}}
+
+==== Cache ====
+If you have an inconsistent page, you may have a cache issue. The [[doku>plugin:stale]] permits to make the whole cache stale in one click.
+
+You access it as action in the [[docs:layout:page:railbar|railbar]]
+
+{{:docs:getting_started:stale_plugin_rail_action.png|}}
+==== Analytics ====
+
+If you want some analytics information on your page, you can use the following Google plugin:
+  * [[doku>plugin:googleanalytics|Google Analtyics]]
+  * [[doku>plugin:googletagmanager|Google Tag Manager]]
+
+You can configure your tag id via the [[doku>plugin:config|configuration manager]] available via the ''admin'' action of the [[docs:layout:page:railbar|railbar]]
+
+{{:docs:getting_started:admin_railbar.png|}}
 ==== ImageMapping ====
 
-If you want to use [[doku>plugin:imagemapping]] with ComboStrap, you should not put the link on a list.
+If you want to use [[doku>plugin:imagemapping]] with ComboStrap, you should not put a link or image in a list.
 
 **Not Allowed**
-Which means that the example on the documentation will not work.
+The below example on the documentation will not work.
 <code dw>
-{{map>media_link|Alternate Text}}
-
-Type normal wiki markup here. Links will be automatically detected and used in the image map.
-
-  * [[wikipage|Description @ 10,12,40,30]]
-  * [[wp>image_map|An interwiki link @ 110,50,40]]
-  * [[http://w3c.org/|{{w3c_logo.png|Even image links work @10,115,80,95,150,115,80,135}}]]
+{{map>imagemap.png|Alternate Text}}
+Type normal wiki markup here. Links will be automatically 
+detected and used in the image map.
+  * [[imagemap#Syntax|Description @ 10,12,40,30]]
+  * [[wp>Image_map|An interwiki link @ 110,50,40]]
+  * [[http://w3.org/|{{w3c-logo.png|Even image links work @10,115,80,95,150,115,80,135}}]]
+  * {{w3c-logo.png|Direct link to a media file @155,90,244,142}}
 {{<map}}
 </code>
 
-**Allowed**
-You need to put the links on a line
+**Allowed/Corrected**
+You need to put the links / image at the beginning of a new line
+<webcode name="Default" frameborder="0">
 <code dw>
-{{map>media_link|Alternate Text}}
-
-Type normal wiki markup here. Links will be automatically detected and used in the image map.
-
-[[wikipage|Description @ 10,12,40,30]]
-[[wp>image_map|An interwiki link @ 110,50,40]]
-[[http://w3c.org/|{{w3c_logo.png|Even image links work @10,115,80,95,150,115,80,135}}]]
+{{map>imagemap.png|Alternate Text}}
+Type normal wiki markup here. Links will be automatically 
+detected and used in the image map.
+[[imagemap#Syntax|Description @ 10,12,40,30]]
+[[wp>Image_map|An interwiki link @ 110,50,40]]
+[[http://w3.org/|{{w3c-logo.png|Even image links work @10,115,80,95,150,115,80,135}}]]
+{{w3c-logo.png|Direct link to a media file @155,90,244,142}}
 {{<map}}
 </code>
+The output will be:
+</webcode>
 
 <note>
 === Why ? ===
