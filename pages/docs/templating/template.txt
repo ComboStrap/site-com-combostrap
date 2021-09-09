@@ -34,7 +34,7 @@ The following variables can be used:
   * ''$type'' - the [[docs:semantic:type|type of page]]
   * and all [[docs:semantic:frontmatter|frontmatter metadatas]]
 
-Basically, all metadata that can be seen in the [[docs:analytics:data|metadata node of the analytics data]] can be used as variable.
+Basically, all metadata that can be seen in the [[docs:analytics:data|scalar metadata node of the analytics data]] can be used as variable.
 ===== Transformation =====
 A ''template'' supports text transformation through the use of a [[docs:templating:pipeline|pipeline]].
 

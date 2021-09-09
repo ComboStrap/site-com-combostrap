@@ -17,13 +17,18 @@
 
 <webcode name="Default" frameborder="0">
 <code dw>
-=== Recent Changes ===
+=== The last 8 Changes ===
+<row>
 <iterator>
-   <data>select date_modified, path, h1 order by date_modified desc limit 10</data>
+   <data>select date_modified, path, h1, description order by date_modified desc limit 8</data>
    <body>
-  * $date_modified - [[$path|$h1]]
+<cell>
+[[$path|$h1]] \\
+<pipeline>"$description"| head(100) | rconcat("...") </pipeline>
+</cell>
    </body>
 </iterator>
+</row>
 </code>
 </webcode>
 
@@ -46,5 +51,5 @@ where:
 
 
 <note>
-If your iteration is time-based, you may need to set a cache validity on your page with the [[docs:utility:cache|cache]] component
+If your iteration is time-based, you may need to set a cache expiration on your page with the [[docs:utility:cache|cache]] component
 </note>
