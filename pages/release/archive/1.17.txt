@@ -36,7 +36,7 @@ This [[..:release|release]] brings a new page [[docs:navigation:navigation|navig
       * A placeholder is shown with the good dimension when lazy loaded
       * [[docs:content:svg#svginjectionenable|Svg Injection]] was showing a broken image for a couple of second. This is because the underlying library let a src with no value. We just cache the image before the injection and show it again after.
   * [[docs:performance:lazy|Lazy loaded image]] has a transparent inline gif image placeholder that has an intrinsic dimension of 1x1 creating problem and layout shift when the image are responsive.
-  * [[docs:layout:component:card_column|card-column layout]] in Bootstrap 5 is implemented via Masonry and a recalculation of the layout should be done after each image load.
+  * [[docs:layout:component:masonry|card-column layout]] in Bootstrap 5 is implemented via Masonry and a recalculation of the layout should be done after each image load.
   * As [[docs:content:image|image]] crop is not supported, a warning message was shown and we didn't let the original code take over. Crop are now supported via the original code.
   * [[docs:content:heading|heading]] in [[docs:utility:webcode|webcode]] were seen as component heading and not as outline heading.
   * Bug: [[docs:content:link|link]] with [[docs:templating:template|a path template variable]] were wrongly rewritten and added to the index.

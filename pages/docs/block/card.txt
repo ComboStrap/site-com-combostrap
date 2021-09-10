@@ -45,7 +45,7 @@ where:
 
 A ''card'':
   * is a [[docs:marki|superset HTML component]] and permits then all kind of [[docs:styling:styling|styling]]
-  * can be laid out in tile with the [[docs:layout:component:card_column|card-columns]] component
+  * can be laid out in tile with the [[docs:layout:component:masonry|card-columns]] component
 
 <inote>A [[docs:block:blockquote|blockquote]] is also logically a card that happens to have an external quote in its body.</inote>
 

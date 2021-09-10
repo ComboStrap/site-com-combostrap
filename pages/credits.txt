@@ -34,4 +34,4 @@
 | [[https://html.spec.whatwg.org/|HTML]] and [[https://en.wikipedia.org/wiki/JavaScript|Javascript]] | The frontend languages |
 | Home Page Photo | Women doing Yoga by [[https://unsplash.com/photos/F2qh3yjz6Jk|kikekiks]] |
 | [[https://github.com/iconic/SVGInjector|Svg Injector]] | The library that injects the [[docs:content:svg|svg]] in the page |
-| [[https://masonry.desandro.com/|Masonry]] | The library that drives the [[docs:layout:component:card_column|card-column layout]] |
+| [[https://masonry.desandro.com/|Masonry]] | The library that drives the [[docs:layout:component:masonry|masonry layout]] |

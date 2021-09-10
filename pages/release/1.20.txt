@@ -36,6 +36,10 @@ The [[docs:semantic:published|Published]] format has changed that can cause temp
   * The [[docs:semantic:image|image metadata]] handles now two levels of image definitions allowing to group image.
   * The callstack manager can handle bad/old handler to prevent a fatal error such as ''Uncaught Error: Cannot access private property ImageMap_Handler::$calls''
   * [[support:plugin#imagemapping|imagemapping]] supports added (links should still not be on list) and we don't take over with our [[docs:content:link|link component]]
+  * The [[docs:layout:component:masonry|masonry layout]] is now working with the [[docs:templating:iterator|iterator]] (The card and blockquote were searching themselves the context and got the iterator in place of masonry)
+
+==== Modification ====
+  * ''card-columns'' has been rename to [[docs:layout:component:masonry|masonry]] to give a better description of what the layout is doing.
 ==== Deprecation ====
   * The ''id'' is no more reported as in the [[docs:analytics:data|data metadata]] and was replaced by the [[docs:semantic:path|path]]
   * ''age_creation'' and ''age_modification'' have been deleted

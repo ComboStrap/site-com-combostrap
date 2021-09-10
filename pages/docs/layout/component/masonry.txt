@@ -1,9 +1,11 @@
-====== ComboStrap UI - Card Columns ======
+====== ComboStrap UI - Masonry ======
 
 
 
 ===== About =====
-With the ''card-columns'' components, you can put a [[docs:block:card|card]] or [[docs:block:blockquote|blockquote]] in a column format.
+With the ''masonry'' components, you can put a [[docs:block:card|card]] or [[docs:block:blockquote|blockquote]] in a masonry layout.
+
+The elements are laid out like a mason fitting stones in a wall (placing elements based on available vertical space).
 
 
 ===== Articles Related =====
@@ -11,9 +13,9 @@ With the ''card-columns'' components, you can put a [[docs:block:card|card]] or 
 
 ===== Syntax =====
 <code xml>
-<card-columns>
-   <!-- Any type of card -->
-</card-columns>
+<masonry>
+   <!-- Any type of card / blockquote -->
+</masonry>
 </code>
 
 
@@ -22,7 +24,7 @@ With the ''card-columns'' components, you can put a [[docs:block:card|card]] or 
 
 <webcode name="Default" frameborder=0>
 <code dw>
-<teaser-columns>
+<masonry>
 
     <card>
         {{:teaser_image_1.png|}}
@@ -38,7 +40,7 @@ With the ''card-columns'' components, you can put a [[docs:block:card|card]] or 
         <cite>Someone famous in [[:start|Source Title]]</cite>
     </blockquote>
 
-</teaser-columns>
+</masonry>
 </code>
 </webcode>
 
@@ -49,4 +51,4 @@ With the ''card-columns'' components, you can put a [[docs:block:card|card]] or 
 
 If you use [[release:archive:1.13_bootstrap5|Bootstrap version 5]], you may see that the output is slightly different than with Bootstrap version 4.
 
-This is because does not support [[release:archive:1.13_bootstrap5|Bootstrap version 5]] ''card-column'' anymore and we have implemented it manually based on this [[https://getbootstrap.com/docs/5.0/examples/masonry/|example]]
+This is because [[release:archive:1.13_bootstrap5|Bootstrap version 5]] does not support ''card-column'' anymore and we have implemented it manually.

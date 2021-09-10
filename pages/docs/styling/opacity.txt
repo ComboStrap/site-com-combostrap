@@ -1,8 +1,8 @@
 ---json
 {
-    "canonical":"",
-    "title":"A [[https://combostrap.com/frontmatter|frontmatter]] title shown on the Search Engine Result Pages",
-    "description":"A [[https://combostrap.com/frontmatter|frontmatter]] description shown on the Search Engine Result Pages"
+    "canonical":"opacity",
+    "title":"How to set the Opacity / Alpha or Transparency",
+    "description":"The opacity attribute permits to set the opacity (alpha/transparency) of any component."
 }
 ---
 ====== ComboStrap Styling - Opacity (Transparency) ======

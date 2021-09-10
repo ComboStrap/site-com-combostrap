@@ -10,25 +10,35 @@
 ===== About =====
 ''iterator'' permits to loop and applies a [[docs:templating:template|template]] repeatably in order to create a list of pages.
 
-
+You may choose to
+  * [[docs:layout:component:masonry|masonry]]
+  * carrousel
+  * [[docs:lists:list|simple list]]
+  * [[docs:lists:content-list|content list]]
+  * [[docs:layout:component:grid|grid]]
 
 
 ===== Example =====
+==== Masonry ====
 
 <webcode name="Default" frameborder="0">
 <code dw>
-=== The last 8 Changes ===
-<row>
 <iterator>
-   <data>select date_modified, path, h1, description order by date_modified desc limit 8</data>
+   <data>select date_modified, path, h1, description, name order by date_modified desc limit 8</data>
    <body>
-<cell>
-[[$path|$h1]] \\
-<pipeline>"$description"| head(100) | rconcat("...") </pipeline>
-</cell>
+          <heading d2 text-align="center" spacing="mb-5"> The last 8 Changes </heading>
+          <masonry>
+              <template>
+                  <card>
+                      === $h1 ===
+                      $description
+              
+                      <btn secondary>[[$path|$name]]</btn>
+                  </card>
+              </template>
+          </masonry>
    </body>
 </iterator>
-</row>
 </code>
 </webcode>
 

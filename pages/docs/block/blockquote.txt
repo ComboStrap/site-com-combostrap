@@ -135,7 +135,7 @@ The true work does not reveal itself until you get into.
 
 ==== Card Columns ====
 
-A ''blockquote'' with the type ''card'' can also be wrapped in the [[docs:layout:component:card_column|card-columns layout component.]]
+A ''blockquote'' with the type ''card'' can also be wrapped in the [[docs:layout:component:masonry|card-columns layout component.]]
 
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
