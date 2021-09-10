@@ -10,10 +10,10 @@
 
 ===== About =====
 A ''card'' is a box with the dimension of a card that contains summary data such as:
-  * a [[release:deprecated:title|title]]
+  * a [[docs:content:heading|heading]]
   * a short description
-  * an optional image illustration
-  * [[docs:content:icon|icons]]
+  * with an optional image illustration
+  * and generally a call to action such as a link or a button
 
 
 
@@ -40,7 +40,7 @@ If the body contains call-to-actions, this is called a [[teaser|teaser]]
 where:
   * ''attributes'' may be any [[docs:styling:styling|styling attributes]]
       * such as [[docs:styling:clickable|clickable]] to make the whole card clickable.
-  * ''imageTop'' if the first element is an [[docs:content:image|image]], it will be used as a top illustration image.
+  * ''image'' if the first element is an [[docs:content:image|image]], it will be used as a illustration.
   * ''header'' defines a label placed at the top of the card
 
 A ''card'':
@@ -76,7 +76,7 @@ At first, ''teaser'' was the first name of card and you may still [[teaser|use i
 === Teaser Title  ===
 A example taken from [[https://getbootstrap.com/docs/4.3/components/card/#example|the bootstrap quick example]] on how to build a card title in order to make up the bulk of the teaser content.
 
-<btn skin="text" spacing="pl-0">[[:ui:card|Card link]]</btn>
+<btn skin="text" spacing="pl-0">[[:docs:block:card|Card link]]</btn>
 <btn skin="text">[[#|Another link]]</btn>
 </teaser>
 </code>
@@ -109,12 +109,12 @@ Because a ''card'' is a [[docs:marki|HTML superset component]], you can style it
 <card width="300px" background-color="dark" color="white" align="center" >
 <header>Header is the top of a component</header>
 === A styled card ===
-You can style all [[styling:html|HTML superset component]] easily.
+You can style all [[:docs:marki|HTML superset component]] easily.
 
-A [[styling:align|centered box]] with a dark background [[styling:color|color]] and a white text.
+A [[:docs:styling:align|centered box]] with a dark background [[:docs:styling:color|color]] and a white text.
 
 <btn light>
-[[styling:styling|Check it out !]]
+[[:docs:styling:styling|Check it out !]]
 </btn>
 </card>
 </code>
@@ -136,9 +136,7 @@ Lorem ipsum
 </code>
 </webcode>
 
-===== Documentation / Reference =====
-  * https://material.io/components/cards
-  * [[https://getbootstrap.com/docs/5.0/components/card/|Bootstrap card]]
+
 
 
 

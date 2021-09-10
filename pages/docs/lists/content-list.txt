@@ -7,10 +7,7 @@
 ====== ComboStrap UI - Content List ======
 
 ===== About =====
-A ''content-list'' is a [[docs:component|component]] that lay out continuous, vertical lines where each line is composed of a content created from:
-  - a visual (icon or image)
-  - a text
-  - and or meta information.
+A ''content-list'' is a [[docs:component|component]] that lays out component as continuous, vertical lines.
 
 
 
@@ -34,8 +31,8 @@ where the [[docs:styling:type|type]] may be:
 
 
 ===== Example =====
-==== Icon and badge ====
-Ths example shows a ''content-list'' component with an:
+==== Basic - List of row with Icon and badge ====
+This example shows a ''content-list'' component with an:
   * [[docs:content:icon|icon]] as visual and a [[docs:content:link|link]] in a [[docs:content:itext|itext]]
   * [[docs:content:badge|badge]] as meta
 <webcode name="List" >
@@ -58,7 +55,7 @@ Ths example shows a ''content-list'' component with an:
 </webcode>
 
 
-==== Media List ====
+==== List of row  ====
 
 If you want to create more complex list of content, you can add the [[docs:layout:component:grid|cells]] that will lay out the content automatically.
 <webcode name="media-list" >
