@@ -30,6 +30,8 @@ The [[docs:semantic:published|Published]] format has changed that can cause temp
       * are now updated when the [[docs:content:image|image]] is moved via the [[docs:getting_started:4_plugin#move|move plugin]]
       * are taken into account into the [[docs:analytics:statistics#media|media statistics]] and reported if they don't exist as [[docs:quality:broken_link|broken links]]
   * A [[support:plugin|page dedicated to the support of third party plugin]] to enhance our support.
+  * The [[docs:templating:template|standalone template component]]: You can now print/replace metadata information of the actual page.
+  * A new dedicated page for [[docs:templating:variable|variables]].
 
 
 ==== Improvement ====

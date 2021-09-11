@@ -8,7 +8,7 @@
 ===== About =====
 There  are two type of classic list:
   * ordered 
-  * and unordered
+  * and unordered (also known as bullet list)
 
 ===== Syntax =====
 The list syntax expects you to put each item in a single line.
@@ -21,39 +21,41 @@ If you want a more complex list, you can use the [[docs:lists:content-list|conte
 
 
 <webcode name="Default" frameborder="0">
-  * Input
+**Input**
 <code dw class="no-whitespace-normalization">
   * Yellow
   * Blue
     * Steelblue
   * Orange
 </code>
-  * Output
+**Output**
 </webcode>
 
 ==== Ordered ====
 
 
 <webcode name="Default" frameborder="0">
-  * Input:
+**Input:**
 <code dw class="no-whitespace-normalization">
   - Yellow
   - Blue
     - Steelblue
   - Orange
 </code>
-  * Output:
+**Output:**
 </webcode>
+
+<hr/>
 
 If you put an empty line, the numbering resets.
 Demo:
 <webcode name="Default" frameborder="0">
-  * Input:
+**Input:**
 <code dw class="no-whitespace-normalization">
   - Yellow
   - Blue
 
   - Orange
 </code>
-  * Output:
+**Output:**
 </webcode>

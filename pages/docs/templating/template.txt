@@ -2,40 +2,69 @@
 
 
 ===== About =====
-''template'' are text that may contains [[#variables|variables]] that will be replaced at runtime.
+''template'' are text that may contains [[variable|variables]] that will be replaced at runtime.
 
 They are supported:
-  * in the [[docs:navigation:page-explorer|page explorer component]].
-  * and in the [[docs:templating:iterator|iterator component]]
+  * in its own [[#syntax|template component]] (to print information of the requested page)
+  * in the [[docs:navigation:page-explorer|page explorer component]] (to print information of the page on the file system)
+  * in the [[docs:templating:iterator|iterator component]] (to print information of selected pages)
 ===== Articles Related =====
 {{backlinks>.}}
 
 ===== Example =====
-Example of template used in a [[docs:navigation:page-explorer|page-explorer navigation pan]] to create:
+
+==== Printing information about the actual page ====
+
+The below ''template text'' inside a ''template component'' will print a [[docs:lists:list|bullet list]] with the [[docs:semantic:title|title]] and [[docs:semantic:path|path]] of the actual page.
+<webcode name="list">
+<code dw>
+<template>
+  * Title: $title
+  * Path: $path 
+</template>
+</code>
+</webcode>
+
+
+==== With pipeline====
+
+
+Example of ''template text'' that you could used in a [[docs:navigation:page-explorer|page-explorer navigation pan]].
+
+It will create:
   * a [[docs:content:link|link]] 
   * with a [[docs:templating:pipeline|pipeline]] 
   * that separate the [[docs:semantic:h1|h1]] with the minus ''-'' 
   * and used the second part as link description
+
+<webcode name="pipeline" frameborder="0">
 <code dw>
-[[$path|<pipeline>"$h1" | cut("-","2-") | trim()</pipeline>]]
+<template>
+The [[$path|<pipeline>"$h1" | cut("-","2-") | trim()</pipeline> page]].
+</template>
+</code>
+  * Result:
+</webcode>
+
+
+===== Syntax=====
+
+==== Template Text ====
+
+A ''template text '' can contains any [[docs:component|component]] and zero or more [[docs:templating:variable|variable]] (that supports text transformation through the use of a [[docs:templating:pipeline|pipeline]])
+<code dw>
+$variable
 </code>
 
-===== Variables =====
+==== Template component ====
 
-The following variables can be used:
-  * ''$path'' is the [[docs:semantic:path|full qualified path of a page]] that can be used in [[docs:content:link|link]]
-  * ''$title'' - the [[docs:semantic:title|title]] of the page - if empty, the ''h1''
-  * ''$name'' - the [[docs:semantic:name|name]] of the page - if empty, the last part of the id
-  * ''$h1'' - the [[docs:semantic:h1|h1 title]] (the first header text of the page) - if empty, the ''title''.
-  * ''$description'' - the [[docs:semantic:description|description]]
-  * ''$date_created'' - the creation date
-  * ''$date_modified'' - the modification date
-  * ''$date_published'' - the [[docs:semantic:published|publication date]]
-  * ''$type'' - the [[docs:semantic:type|type of page]]
-  * and all [[docs:semantic:frontmatter|frontmatter metadatas]]
+A ''template'' component contains a ''template text''
+<code dw>
+<template>
+The template text with $variable
+</template>
+</code>
 
-Basically, all metadata that can be seen in the [[docs:analytics:data|scalar metadata node of the analytics data]] can be used as variable.
-===== Transformation =====
-A ''template'' supports text transformation through the use of a [[docs:templating:pipeline|pipeline]].
+If this is a standalone template component, the variable are replaced with the values of the actual requested page, otherwise they are replaced by the value of the requested data (ie in a [[docs:templating:iterator|iterator]])
 
 
