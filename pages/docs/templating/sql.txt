@@ -2,7 +2,8 @@
 {
     "canonical":"logical_sql",
     "title":"How to define your data set with Logical Sql",
-    "description":"This page defines the logical sql that to define the data set used in the template"
+    "description":"This page defines the logical sql that to define the data set used in the template",
+    "name":"Logical Sql"
 }
 ---
 ====== ComboStrap - Logical Sql ======
@@ -18,16 +19,20 @@
 
 ==== Pattern matching comparison (Like) ====
 
-If you want to get the [[docs:semantic:path|path]] and [[docs:semantic:title|title]] of all pages that have the term ''image'' in their [[docs:semantic:path|path]], you would use the following logical sql:
+This example shows you the usage of ''like'' for pattern matching.
+If you want to get:
+  * the [[docs:semantic:path|path]] and [[docs:semantic:title|title]] of all pages 
+  * that have the terms ''image'', ''svg'' or ''raster'' in their [[docs:semantic:path|path]]
+you would use the following logical sql:
 <code sql>
-select path, title where path like '%image%'
+select path, title where path like '%image%' or path like '%svg%' or path like '%raster%'
 </code>
 
 <webcode name="Default" frameborder="0">
 <code dw display="none">
 <iterator>
 <data>
-select path, title where path like '%image%'
+select path, title where path like '%image%' or path like '%svg%' or path like '%raster%'
 </data>
 ^ Path ^ Title ^
 <template>
@@ -40,7 +45,12 @@ This logical sql will return the following data for this website.
 
 
 
-
+<note>
+In a ''like'' pattern expression:
+  * "%" matches any sequence of zero or more characters 
+  * an underscore ("_") matches any single character.
+  * any other characters match itself.
+</note>
 ===== Syntax =====
 
 <code sql>
@@ -56,12 +66,14 @@ limit N
 </code>
 where:
   * the ''select'' clause is followed by a series of [[docs:templating:variable|possible template variable]] (ie page attribute)
-  * the ''where''  clause is followed by a series of ''predicates''. The possible predicates are ''equality'' or ''pattern matching'' comparison (''like'')
+  * the ''where''  clause is followed by a series of ''predicates''. The possible predicates are describe below:
 <code sql>
 identifier = 'value'
 identifier != 'value'
-identifier like 'pattern' -- "%" matches any sequence of zero or more characters and an underscore ("_") matches any single character.
-identifier is not null
+identifier [not] like 'pattern' -- "%" matches any sequence of zero or more characters and an underscore ("_") matches any single character.
+identifier is [not] null
+identifier between x and y
+identifier in (x, y, ...)
 </code>
   * the ''order by'' clause is followed by a series of  [[docs:templating:variable|template variable]] with an optional order (''asc'' for ascendant and ''desc'' for descendant)
   * the ''limit'' clause will return the ''N'' first rows.
