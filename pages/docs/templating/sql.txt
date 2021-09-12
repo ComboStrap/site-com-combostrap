@@ -1,0 +1,68 @@
+---json
+{
+    "canonical":"logical_sql",
+    "title":"How to define your data set with Logical Sql",
+    "description":"This page defines the logical sql that to define the data set used in the template"
+}
+---
+====== ComboStrap - Logical Sql ======
+
+
+===== About =====
+''logical sql'' is sql syntax that permits to define the data set used in a [[docs:templating:iterator|template iterator]].
+
+
+
+===== Example =====
+
+
+==== Pattern matching comparison (Like) ====
+
+If you want to get the [[docs:semantic:path|path]] and [[docs:semantic:title|title]] of all pages that have the term ''image'' in their [[docs:semantic:path|path]], you would use the following logical sql:
+<code sql>
+select path, title where path like '%image%'
+</code>
+
+<webcode name="Default" frameborder="0">
+<code dw display="none">
+<iterator>
+<data>
+select path, title where path like '%image%'
+</data>
+^ Path ^ Title ^
+<template>
+| [[$path|$path]] | $title |
+</template>
+</iterator>
+</code>
+This logical sql will return the following data for this website.
+</webcode>
+
+
+
+
+===== Syntax =====
+
+<code sql>
+select 
+   attribute as name,
+   ...
+where
+  attributePredicate [and|or]
+order by
+  attribute [asc|desc],
+  ...
+limit N
+</code>
+where:
+  * the ''select'' clause is followed by a series of [[docs:templating:variable|possible template variable]] (ie page attribute)
+  * the ''where''  clause is followed by a series of ''predicates''. The possible predicates are ''equality'' or ''pattern matching'' comparison (''like'')
+<code sql>
+identifier = 'value'
+identifier != 'value'
+identifier like 'pattern' -- "%" matches any sequence of zero or more characters and an underscore ("_") matches any single character.
+identifier is not null
+</code>
+  * the ''order by'' clause is followed by a series of  [[docs:templating:variable|template variable]] with an optional order (''asc'' for ascendant and ''desc'' for descendant)
+  * the ''limit'' clause will return the ''N'' first rows.
+

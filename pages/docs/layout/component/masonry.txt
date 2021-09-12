@@ -3,18 +3,18 @@
 
 
 ===== About =====
-With the ''masonry'' components, you can put a [[docs:block:card|card]] or [[docs:block:blockquote|blockquote]] in a masonry layout.
+''masonry'' is a layout component. Its children are laid out like a mason fitting stones in a wall (placing elements based on available vertical space).
 
-The elements are laid out like a mason fitting stones in a wall (placing elements based on available vertical space).
+This layout is handy when you want to lay out a list of components that does not have an uniform height (Ie to mix small and big card for instance).
 
-
+A masonry layout is generally used with [[docs:block:card|cards]] or [[docs:block:blockquote|blockquotes]].
 ===== Articles Related =====
 {{backlinks>.}}
 
 ===== Syntax =====
-<code xml>
+<code dw>
 <masonry>
-   <!-- Any type of card / blockquote -->
+   <!-- Component -->
 </masonry>
 </code>
 

@@ -22,12 +22,24 @@ You may apply the following layout:
 ===== Example =====
 ==== Masonry ====
 
+The below ''iterator'' example:
+  * will generate the last 4 modified pages (defined by the [[sql|logical sql]] in the ''data'' node)
+<code sql>
+select date_modified, path, h1, description, name order by date_modified desc limit 4
+</code>
+  * as a list of [[docs:block:card|card]] (defined in the [[docs:templating:template|template]] node)
+  * laid out in a [[docs:layout:component:masonry|masonry layout]]
+  * with an [[docs:content:heading|display heading]]
+
+<hr/>
+
 <webcode name="Default" frameborder="0">
+**The iterator markup:**
 <code dw>
 <iterator>
-    <data>select date_modified, path, h1, description, name order by date_modified desc limit 8</data>
+    <data>select date_modified, path, h1, description, name order by date_modified desc limit 4</data>
 
-    <heading d2 text-align="center" spacing="mb-5"> The last 8 Changes </heading>
+    <heading d3 text-align="center" spacing="mb-3"> The last 4 Changes </heading>
     <masonry>
         <template>
             <card clickable>
@@ -38,6 +50,7 @@ You may apply the following layout:
     </masonry>
 </iterator>
 </code>
+**The Result:**
 </webcode>
 
 
@@ -51,12 +64,7 @@ You may apply the following layout:
 </iterator>
 </code>
 where:
-  * ''data'' defined a sql statement:
-      * that may contains any [[docs:templating:template#variable|template variable]]
-      * without ''from'' clause
-      * with an optional ''where'' clause
-      * with an optional ''order by'' clause
-      * with an optional ''limit'' clause
+  * ''data'' contains a [[sql|logical sql]]
   * ''template'' is a [[docs:templating:template|template]] that will be repeated for each data row.
 
 
