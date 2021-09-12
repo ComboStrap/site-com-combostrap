@@ -10,10 +10,11 @@
 ===== About =====
 ''iterator'' permits to loop and applies a [[docs:templating:template|template]] repeatably in order to create a list of pages.
 
-You may choose to
+You may apply the following layout:
   * [[docs:layout:component:masonry|masonry]]
   * carrousel
   * [[docs:lists:list|simple list]]
+  * [[docs:lists:table|table]]
   * [[docs:lists:content-list|content list]]
   * [[docs:layout:component:grid|grid]]
 
@@ -24,31 +25,29 @@ You may choose to
 <webcode name="Default" frameborder="0">
 <code dw>
 <iterator>
-   <data>select date_modified, path, h1, description, name order by date_modified desc limit 8</data>
-   <body>
-          <heading d2 text-align="center" spacing="mb-5"> The last 8 Changes </heading>
-          <masonry>
-              <template>
-<card>
-=== $h1 ===
-$description
+    <data>select date_modified, path, h1, description, name order by date_modified desc limit 8</data>
 
-<btn secondary>[[$path|$name]]</btn>
-</card>
-              </template>
-          </masonry>
-   </body>
+    <heading d2 text-align="center" spacing="mb-5"> The last 8 Changes </heading>
+    <masonry>
+        <template>
+            <card clickable>
+            === $h1 ===
+            $description [[$path| ]]
+            </card>
+        </template>
+    </masonry>
 </iterator>
 </code>
 </webcode>
 
 
-
 ===== Syntax =====
 <code dw>
 <iterator>
-   <data>select attribute1, attribute2 where attribute3 = 'xxx'</data>
-   <body>$attribute1 ... $attribute2</body>
+   <data>select variable1, variable2 where variable3 = 'xxx'</data>
+   ... header  markup...
+   <template>$variable1 ... $variable2</template>
+   ... footer  markup...
 </iterator>
 </code>
 where:
@@ -58,9 +57,10 @@ where:
       * with an optional ''where'' clause
       * with an optional ''order by'' clause
       * with an optional ''limit'' clause
-  * ''body'' contains a [[docs:templating:template|template]] that will be repeated for each data row.
+  * ''template'' is a [[docs:templating:template|template]] that will be repeated for each data row.
 
 
 <note>
-If your iteration is time-based, you may need to set a cache expiration on your page with the [[docs:utility:cache|cache]] component
+  * If your iteration is time-based, you may need to set a cache expiration on your page with the [[docs:utility:cache|cache]] component
+  * If the data does not return any rows, the iterator content is not printed (ie header and footer included)
 </note>
