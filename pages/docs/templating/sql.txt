@@ -10,7 +10,7 @@
 
 
 ===== About =====
-''logical sql'' is sql syntax that permits to define the data set used in a [[docs:templating:iterator|template iterator]].
+''logical sql'' is sql syntax that permits to define the data used in a [[docs:templating:iterator|template iterator]].
 
 
 
@@ -66,13 +66,13 @@ limit N
 </code>
 where:
   * the ''select'' clause is followed by a series of [[docs:templating:variable|possible template variable]] (ie page attribute)
-  * the ''where''  clause is followed by a series of ''predicates''. The possible predicates are describe below:
+  * the ''where''  clause is followed by a series of ''predicates''. The possible predicates are described below:
 <code sql>
 identifier = 'value'
 identifier != 'value'
 identifier [not] like 'pattern' -- "%" matches any sequence of zero or more characters and an underscore ("_") matches any single character.
 identifier is [not] null
-identifier between x and y
+identifier [not] between x and y
 identifier in (x, y, ...)
 </code>
   * the ''order by'' clause is followed by a series of  [[docs:templating:variable|template variable]] with an optional order (''asc'' for ascendant and ''desc'' for descendant)
