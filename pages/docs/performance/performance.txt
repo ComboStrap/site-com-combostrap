@@ -41,6 +41,13 @@ All Javascript file are served from a [[docs:performance:cdn|CDN]] and are defer
 If you only depend on the ''ComboStrap'' plugins, you can even [[docs:performance:frontend_optimization#javascriptdisable_backend|disable the backend javascript]].
 
 
+
+
+==== Cache ====
+All processing are cached by default until the page itself or a backlink page is changing.
+
+With the [[docs:performance:cache|cache component]], you can control the cache interval for more granular control.
+
 ==== Sidebar Cache Bursting ====
 
 
@@ -50,6 +57,10 @@ With the [[docs:performance:sideslots|side slots automatic cache bursting]], the
 
 
 Action: If you have any [[https://www.dokuwiki.org/caching|%%~~NOCACHE~~%%]] instructions in your sidebar, just delete them.
+
+
+
+
 ==== Image ====
 
 We follow the [[https://developers.google.com/search/docs/advanced/guidelines/google-images|Google best practices on image]]
