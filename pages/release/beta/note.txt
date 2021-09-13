@@ -19,6 +19,13 @@
 <file>
  The display of the call with the mode nest is unknown - 162.158.94.3 - code:design:reusable
 </file>
+  * Moving a page:
+      * with a self link will destroy the link. Example of link that will break after moving a page with it inside
+      * without a start page will break also
+<code dw>
+[[?do=export_combo_analytics|View the analytical data for this page]]
+[[tree:|trees]]
+</code>
 ===== Improvement =====
 
   * Name of a start page should be the namespace name
@@ -31,7 +38,7 @@
       * slot explorer - to see where they are
       * [[docs:ads:conf]] could be automated
   * unique real id
-  * monospace in the renderer should be a component
+  * monospace /tanle in the renderer should be a component
   * add an edit page button (example: https://kotlinlang.org/docs/control-flow.html)
   * add a previous page, next page. (Example at the bottom: https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/downloads-list.html)
   * multiple background to add a black layer to add more contrast
@@ -41,7 +48,7 @@
   * The tag test have now their own test class.
   * The tag syntax is no more needed.
   * Page deleted / moved should be deleted /renamed into the database
-  * [[docs:layout:component:card_column|card-columns]] as a real [[https://masonry.desandro.com/layout.html#responsive-layouts|responsive masonry]] ?
+  * [[docs:layout:component:masonry|card-columns]] as a real [[https://masonry.desandro.com/layout.html#responsive-layouts|responsive masonry]] ?
   * namespace documentation ? https://help.fandom.com/wiki/Namespaces
   * export ([[https://github.com/i-net-software/dokuwiki-plugin-siteexport/issues/116|siteexport issue]]), note the configuration should be change from ''wiki:export.zip'' to ''export.zip'' to get it working, log file is the full path)
 

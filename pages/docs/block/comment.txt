@@ -1,0 +1,32 @@
+---json
+{
+    "canonical":"comment",
+    "title":"How to add a comment to ComboStrap",
+    "description":"This page describes how to add a comment in ComboStrap"
+}
+---
+====== Combostrap - Comment ======
+
+
+===== About =====
+A comment is a piece of text that is not seen on the rendered page.
+
+It's an ancillary note about the content of your page.
+
+===== Syntax =====
+
+The syntax follows the [[docs:utility:markdown|markdown]] syntax (ie XML / HTML)
+<webcode name="Default" frameborder="0">
+<code dw>
+<!-- This is a comment and will not be visible in the rendered page -->
+</code>
+</webcode>
+
+
+===== Configuration =====
+
+==== outputComment ====
+By default, the comments are stripped off and are not part of the created page. If you want to have the comments (as comment ie still not visible) in your page, you can set this [[:configuration|configuration]] to ''on''
+
+
+

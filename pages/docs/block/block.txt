@@ -16,16 +16,17 @@ If the component should start at a new line or expand on multiple line and you c
   * [[docs:block:box|Box]] - a generic box for advanced styling
   * [[docs:block:card|Card (teaser)]]: Do you want to put a text in a box with optionally an image and a button, that's a card
   * [[docs:block:code|Code]] - a block of code
+  * [[docs:block:comment|Comment]] - a comment
   * [[docs:block:console|Console]] - a block representing the output of a command
   * [[docs:block:file|File]] - a file
-  * [[docs:layout:component:slide|Slide]] - A slide used to create landing page or hero content
   * [[docs:layout:component:jumbotron|Jumbotron]]: Prominently at the top of your page emphase a content.
   * [[docs:lists:content-list|List]] - a list
   * [[docs:block:math|Math]]: Writing math formulas
   * [[docs:block:note|Note]]: An ancillary text that needs attention.
   * [[docs:navigation:related|Related]]: A component showing the backlinks
-  * [[docs:utility:webcode|Webcode]] - Output the result of web code (HTML, Javascript, CSS)
+  * [[docs:layout:component:slide|Slide]] - A slide used to create landing page or hero content
   * [[docs:block:text|Text]] - Create one or more paragraph with the same styling
+  * [[docs:utility:webcode|Webcode]] - Output the result of web code (HTML, Javascript, CSS)
   
  
  

@@ -49,7 +49,7 @@ The expiration date can be seen in the ''date_cache_expiration'' field of the [[
  
 For instance, this page has a ''monthly'' expiration, check the ''date_cache_expiration'' in the ''metadata'' field of its analytical data. 
 
-<btn>[[..:utility:start?do=export_combo_analytics|View the analytical data for this page]]</btn>
+<btn>[[?do=export_combo_analytics|View the analytical data for this page]]</btn>
 
 Example of output:
 <code javascript>

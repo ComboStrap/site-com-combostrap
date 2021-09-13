@@ -24,7 +24,7 @@ The [[docs:semantic:published|Published]] format has changed that can cause temp
 ==== New ====
 
   * the [[docs:templating:iterator|iterator]] to iterate over [[docs:templating:template|template]]
-  * The [[docs:utility:cache|cache]] component to set the validity of a page at interval to avoid [[https://forum.dokuwiki.org/d/19495-caching-problem-with-a-plugin/11|caching problem with iterator]]
+  * The [[docs:performance:cache|cache]] component to set the validity of a page at interval to avoid [[https://forum.dokuwiki.org/d/19495-caching-problem-with-a-plugin/11|caching problem with iterator]]
   * The message area is now a toaster.
   * The [[docs:semantic:image|page image metadata]] set in the [[docs:semantic:frontmatter|frontmatter]]:
       * are now updated when the [[docs:content:image|image]] is moved via the [[docs:getting_started:4_plugin#move|move plugin]]
@@ -32,6 +32,7 @@ The [[docs:semantic:published|Published]] format has changed that can cause temp
   * A [[support:plugin|page dedicated to the support of third party plugin]] to enhance our support.
   * The [[docs:templating:template|standalone template component]]: You can now print/replace metadata information of the actual page.
   * A new dedicated page for [[docs:templating:variable|variables]].
+  * The [[docs:block:comment|comment component]] to add comment
 
 
 ==== Improvement ====
