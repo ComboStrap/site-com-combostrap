@@ -14,12 +14,12 @@ This articles lists the installation prerequisites of [[:combostrap|ComboStrap]]
 ===== List =====
 ==== Php ====
 
-ComboStrap follows the [[https://github.com/splitbrain/dokuwiki/blob/master/.github/workflows/testLinux.yml#L13|supported version of DokuWiki]] and is therefore tested against ''php'' version to 7.2, 7.3
+ComboStrap follows the [[doku>requirements|Dokuwiki Requirement]] ([[https://github.com/splitbrain/dokuwiki/blob/master/.github/workflows/testLinux.yml#L13|Build Ref]]) and is therefore tested against ''php'' version 7.2, 7.3 to 7.4.
 
 <note warning>
-php 7.4 and 8.0 is not [[https://github.com/splitbrain/dokuwiki/issues/3399|working yet]]
+  * php 8.0 is not [[https://github.com/splitbrain/dokuwiki/issues/3399|working yet]]
+  * At php, the version 7.2 is already in a [[https://www.php.net/eol.php|End Of Life state]]. You can check the [[https://www.php.net/supported-versions.php|timeline support for the php version]]
 </note>
-
 ==== Module / Extension ====
 
 ComboStrap uses [[https://www.php.net/manual/en/dom.installation.php|Php DOM]] for [[docs:content:svg|svg]] and [[docs:content:icon|icon]] manipulation.
