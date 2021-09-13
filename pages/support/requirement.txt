@@ -14,7 +14,7 @@ This articles lists the installation prerequisites of [[:combostrap|ComboStrap]]
 ===== List =====
 ==== Php ====
 
-ComboStrap follows the [[doku>requirements|Dokuwiki Requirement]] ([[https://github.com/splitbrain/dokuwiki/blob/master/.github/workflows/testLinux.yml#L13|Build Ref]]) and is therefore tested against ''php'' version 7.2, 7.3 to 7.4.
+ComboStrap follows the [[doku>requirements|Dokuwiki Requirement]] ([[https://github.com/splitbrain/dokuwiki/blob/master/.github/workflows/testLinux.yml#L13|Build Ref]], [[https://github.com/splitbrain/dokuwiki/blob/master/composer.json#L8|Composer Ref]]) and is therefore tested against ''php'' version 7.2, 7.3 to 7.4.
 
 <note warning>
   * php 8.0 is not [[https://github.com/splitbrain/dokuwiki/issues/3399|working yet]]
