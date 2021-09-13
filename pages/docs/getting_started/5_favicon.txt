@@ -38,16 +38,13 @@ In our case we have chosen an icon directly from https://materialdesignicons.com
       * ''favicon-16x16.png''
       * ''apple-touch-icon.png''
       * ''android-chrome-192x192.png'' (used in the [[docs:app:manifest|manifest]])
+      * ''logo.svg''
 
 Example:
 
 {{::mediamanager_favicon.png|}}
 
-==== Upload the logo.svg file ====
 
-''svg'' files are by default not permitted by Dokuwiki because they can include script, you therefore need to upload it directly to the computer to ''data/media'' from the dokuwiki installation directory.
-
-{{::dokuwik_logo_svg_media.png|}}
 
 To see where and how you can use your logo, see the [[docs:app:logo|logo page]].
 
