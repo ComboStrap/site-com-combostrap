@@ -10,7 +10,7 @@
 
 
 ===== About =====
-''logical sql'' is sql syntax that permits to define the data used in a [[docs:templating:iterator|template iterator]].
+''logical sql'' is a sql syntax that permits to define logically the data used in a [[docs:templating:iterator|template iterator]].
 
 
 
@@ -44,7 +44,6 @@ This logical sql will return the following data for this website.
 </webcode>
 
 
-
 <note>
 In a ''like'' pattern expression:
   * "%" matches any sequence of zero or more characters 
@@ -55,7 +54,7 @@ In a ''like'' pattern expression:
 
 <code sql>
 select 
-   attribute as name,
+   attribute,
    ...
 where
   attributePredicate [and|or]
