@@ -1,16 +1,16 @@
 ---json
 {
-    "canonical":"logical_sql",
-    "title":"How to define your data set with Logical Sql",
-    "description":"This page defines the logical sql that to define the data set used in the template",
-    "name":"Logical Sql"
+    "canonical":"page_sql",
+    "title":"How to define your data set with Sql",
+    "description":"This page defines the sql that can be used to retrieve data from pages",
+    "name":"Page Sql"
 }
 ---
 ====== ComboStrap - Page Sql ======
 
 
 ===== About =====
-''page sql'' is a ''SELECT'' sql syntax that permits to select the page and [[docs:templating:variable|page attribute]] used in a [[docs:templating:iterator|template iterator]].
+''page sql'' is a ''SELECT'' sql syntax that permits to select the page and return [[docs:templating:variable|page attribute]] used in a [[docs:templating:iterator|template iterator]].
 
 
 
