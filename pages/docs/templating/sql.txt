@@ -17,7 +17,32 @@
 ===== Example =====
 
 
-==== Pattern matching comparison (Like) ====
+==== Recent Pages Modified ====
+
+This example select the last 4 pages recently modified on the whole site.
+
+If you want to get the modification date and the [[docs:semantic:path|path]], you would execute this query:
+
+<code sql>
+select date_modified, path, name order by date_modified desc limit 4
+</code>
+
+<webcode name="Default" frameborder="0">
+<code dw display="none">
+<iterator>
+<data>
+select date_modified, path, name order by date_modified desc limit 4
+</data>
+^ Date Modified ^ Path ^
+<template>
+| $date_modified | [[$path|$path]] |
+</template>
+</iterator>
+</code>
+This logical sql will return the following data for this website.
+</webcode>
+
+==== Page Selection with pattern matching ====
 
 This example shows you the usage of ''like'' for pattern matching.
 If you want to get:
@@ -50,6 +75,8 @@ In a ''like'' pattern expression:
   * an underscore ("_") matches any single character.
   * any other characters match itself.
 </note>
+
+
 ===== Syntax =====
 
 <code sql>
@@ -71,7 +98,6 @@ identifier = 'value'
 identifier != 'value'
 identifier [not] like 'pattern' -- "%" matches any sequence of zero or more characters and an underscore ("_") matches any single character.
 identifier is [not] null
-identifier [not] between x and y
 identifier in (x, y, ...)
 </code>
   * the ''order by'' clause is followed by a series of  [[docs:templating:variable|template variable]] with an optional order (''asc'' for ascendant and ''desc'' for descendant)

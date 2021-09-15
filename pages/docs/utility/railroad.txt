@@ -1,0 +1,85 @@
+---json
+{
+    "canonical":"railroad",
+    "title":"Render a railroad diagram from a BNG grammar",
+    "description":"This component helps you render a railroad / syntax diagram from a BNG grammar"
+}
+---
+====== ComboStrap - Railroad diagram ======
+
+
+===== About =====
+The ''railroad'' component will render  a [[wp>Syntax_diagram|railroad diagram]] from a [[wp>Backus–Naur_form|BNF grammar]].
+
+
+===== Example =====
+
+
+Below is the BNF of the select sql statement of the H2 database.
+<webcode name="Default" frameborder="0">
+```dw
+<railroad>
+<code bnf display="none">
+'SELECT' [ 'TOP' term ] [ 'DISTINCT' | 'ALL' ] selectExpression {',' selectExpression} \
+'FROM' tableExpression {',' tableExpression} [ 'WHERE' expression ] \
+[ 'GROUP BY' expression {',' expression} ] [ 'HAVING' expression ] \
+[ ( 'UNION' [ 'ALL' ] | 'MINUS' | 'EXCEPT' | 'INTERSECT' ) select ] [ 'ORDER BY' order {',' order} ] \
+[ 'LIMIT' expression [ 'OFFSET' expression ] [ 'SAMPLE_SIZE' rowCountInt ] ] \
+[ 'FOR UPDATE' ];
+</code>
+</railroad>
+```
+This BNF grammar will render as the below railroad diagram.
+</webcode>
+
+===== Syntax =====
+
+To render a railroad diagram, you just need to enclose a [[docs:block:code|code block]] with a [[#bnf|bnf grammar]] with the ''railroad'' component
+
+```dw
+<railroad>
+    <code bnf display="none">
+    ... bnf code
+    </code>
+</railroad>
+```
+
+<note>
+''display="none"'' is added to show you how to not print a [[docs:block:code|code block]] but this is optional.
+</note>
+
+==== Bnf ====
+The supported BNF is described below:
+<code>
+- definition
+    =
+    :=
+    ::=
+- concatenation
+    ,
+    <whitespace>
+- termination
+    ;
+- alternation
+    |
+- option
+    [ ... ]
+    ?
+- repetition
+    { ... } => 0..N
+    expression* => 0..N
+    expression+ => 1..N
+    <digits> * expression => <digits>...<digits>
+    <digits> * [expression] => <0>...<digits>
+    <digits> * expression? => <0>...<digits>
+- grouping
+    ( ... )
+- literal
+    " ... " or ' ... '
+- special characters
+    (? ... ?)
+- comments
+    (* ... *)
+</code>
+
+

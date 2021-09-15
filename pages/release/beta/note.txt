@@ -73,6 +73,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 ==== Git-based workflow ====
 
 An intuitive Git-based workflow and powerful serverless platform to build, deploy, and collaborate on web site and documentation.
+
+==== Event ====
+
+https://developers.google.com/search/docs/advanced/structured-data/event
+
+==== Tag ====
+
+As image
 ===== Cookie banner =====
 Good example at: https://groningen.nl/en/
 

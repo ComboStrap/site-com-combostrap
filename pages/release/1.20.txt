@@ -35,6 +35,7 @@ The [[docs:semantic:published|Published]] format has changed that can cause temp
   * The [[docs:templating:template|standalone template component]]: You can now print/replace metadata information of the actual page.
   * A new dedicated page for [[docs:templating:variable|variables]].
   * The [[docs:block:comment|comment component]] to add comment
+  * The [[docs:utility:railroad|Railroad]] component permits to draw railroad from BNF grammar.
 
 
 ==== Improvement ====
