@@ -6,11 +6,11 @@
     "name":"Logical Sql"
 }
 ---
-====== ComboStrap - Logical Sql ======
+====== ComboStrap - Page Sql ======
 
 
 ===== About =====
-''logical sql'' is a sql syntax that permits to define logically the data used in a [[docs:templating:iterator|template iterator]].
+''page sql'' is a ''SELECT'' sql syntax that permits to select the page and [[docs:templating:variable|page attribute]] used in a [[docs:templating:iterator|template iterator]].
 
 
 
@@ -93,19 +93,23 @@ The ''attribute'' are defined in the [[docs:templating:variable|page attribute]]
 A predicate takes the below form:
 <railroad>
 <code bnf display="none">
-attribute  ( ('='|'!=')  'value' ||  [not] ('LIKE'|'GLOB') 'pattern') 
+attribute  ( ('='|'!=')  'value' ||  ['NOT'] ('GLOB' glob-pattern | 'LIKE'  like-pattern  ['ESCAPE' 'char'])) 
 </code>
 </railroad>
 
-where the pattern must follow the following syntax for:
-  * ''GLOB'' is case sensitive and uses the [[kb>glob|Unix file globbing syntax]] for its wildcards:
+=== glob-pattern ===
+
+''GLOB'' pattern matching is case sensitive and uses the [[kb>glob|Unix file globbing syntax]] for its wildcards:
       * ''*'' matches any number of characters (including none)
       * ''?'' matches exactly one character.
       * ''{}'' specify a collection of subpatterns. For example: ''{sun,moon,stars}'' matches ''sun'', ''moon'', or ''stars''.
       * ''[]'' specify a set of single characters or, when the hyphen character ''-'' is used, a range of characters. Example: ''[aeiou]'' matches any lowercase vowel, ''[0-9]'' matches any digit.
       * the backslash character ''\'' is the escape character. ie ''\\'' matches a single backslash, ''\?'' matches the question mark.
        * any other characters match itself.
-  * ''LIKE'' is not case sensitive and in the pattern expression:
+
+=== like-pattern ===
+
+The ''LIKE'' is not case sensitive and in the pattern expression:
       * ''%'' matches any sequence of zero or more characters 
       * ''_'' matches any single character.
       * any other characters match itself.
