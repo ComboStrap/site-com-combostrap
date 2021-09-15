@@ -17,31 +17,6 @@
 ===== Example =====
 
 
-==== Recent Pages Modified ====
-
-This example select the last 4 pages recently modified on the whole site.
-
-If you want to get the modification date and the [[docs:semantic:path|path]], you would execute this query:
-
-<code sql>
-select date_modified, path, name order by date_modified desc limit 4
-</code>
-
-<webcode name="Default" frameborder="0">
-<code dw display="none">
-<iterator>
-<data>
-select date_modified, path, name order by date_modified desc limit 4
-</data>
-^ Date Modified ^ Path ^
-<template>
-| $date_modified | [[$path|$path]] |
-</template>
-</iterator>
-</code>
-This logical sql will return the following data for this website.
-</webcode>
-
 
 ===== Syntax =====
 
@@ -52,7 +27,7 @@ This logical sql will return the following data for this website.
 'SELECT' attribute {',' attribute} \
 [ 'WHERE' predicate {',' predicate } ] \
 [ 'ORDER BY' attribute ('ASC'|'DESC')? {',' attribute ('ASC'|'DESC')?} ] \
-[ 'LIMIT' 'Number' ] ;
+[ limit 'Number' ] ;
 </code>
 </railroad>
 
@@ -74,10 +49,31 @@ attribute  ( ('='|'!=')  'value' ||  ['NOT'] ('GLOB' glob-pattern | 'LIKE'  like
 ''GLOB'' pattern matching is case sensitive and uses the [[kb>glob|Unix file globbing syntax]] for its wildcards:
       * ''*'' matches any number of characters (including none)
       * ''?'' matches exactly one character.
-      * ''{}'' specify a collection of subpatterns. For example: ''{sun,moon,stars}'' matches ''sun'', ''moon'', or ''stars''.
       * ''[]'' specify a set of single characters or, when the hyphen character ''-'' is used, a range of characters. Example: ''[aeiou]'' matches any lowercase vowel, ''[0-9]'' matches any digit.
       * the backslash character ''\'' is the escape character. ie ''\\'' matches a single backslash, ''\?'' matches the question mark.
        * any other characters match itself.
+Subpatterns are not supported by Sqlite (ie ''{sun,moon,stars}'' to match ''sun'', ''moon'', or ''stars'')
+
+**example:** the [[docs:semantic:path|path]] and [[docs:semantic:title|title]] of all pages that ends with 3 digits.
+
+<code sql>
+select title, path where path glob '*[0-9][0-9][0-9]' 
+</code>
+<webcode name="Default" frameborder="0">
+<code dw display="none">
+<iterator>
+<data>
+select title, path where path glob '*[0-9][0-9][0-9]' 
+</data>
+^ Title ^ Path ^
+<template>
+| $title | [[$path|$path]] |
+</template>
+</iterator>
+</code>
+This sql returns the following data for this website.
+</webcode>
+
 
 === like-pattern ===
 
@@ -94,22 +90,48 @@ The ''LIKE'' is not case sensitive and in the pattern expression:
   * that have the terms ''image'', ''svg'' or ''raster'' in their [[docs:semantic:path|path]]
 you would use the following logical sql:
 <code sql>
-select path, title where path like '%image%' or path like '%svg%' or path like '%raster%'
+select title, path where path like '%image%' or path like '%svg%' or path like '%raster%'
 </code>
 
 <webcode name="Default" frameborder="0">
 <code dw display="none">
 <iterator>
 <data>
-select path, title where path like '%image%' or path like '%svg%' or path like '%raster%'
+select title, path where path like '%image%' or path like '%svg%' or path like '%raster%'
 </data>
-^ Path ^ Title ^
+^ Title ^ Path ^
 <template>
-| [[$path|$path]] | $title |
+| $title | [[$path|$path]] |
 </template>
 </iterator>
 </code>
 This logical sql will return the following data for this website.
+</webcode>
+
+
+==== Limit ====
+The ''limit'' clause permits to return the first rows. It's mostly used in ''Recent'' statement such as the last pages recently modified or created.
+
+
+Example: If you want to get the last 4 pages along with the modification date and the [[docs:semantic:path|path]], you would execute this query:
+
+<code sql>
+select date_modified, path, name order by date_modified desc limit 4
+</code>
+
+<webcode name="Default" frameborder="0">
+<code dw display="none">
+<iterator>
+<data>
+select date_modified, path, name order by date_modified desc limit 4
+</data>
+^ Date Modified ^ Path ^
+<template>
+| $date_modified | [[$path|$path]] |
+</template>
+</iterator>
+</code>
+This sql returns the following data for this website.
 </webcode>
 
 
