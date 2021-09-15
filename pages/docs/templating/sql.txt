@@ -69,37 +69,43 @@ This logical sql will return the following data for this website.
 </webcode>
 
 
-<note>
-In a ''like'' pattern expression:
-  * "%" matches any sequence of zero or more characters 
-  * an underscore ("_") matches any single character.
-  * any other characters match itself.
-</note>
 
 
 ===== Syntax =====
 
-<code sql>
-select 
-   attribute,
-   ...
-where
-  attributePredicate [and|or]
-order by
-  attribute [asc|desc],
-  ...
-limit N
-</code>
-where:
-  * the ''select'' clause is followed by a series of [[docs:templating:variable|possible template variable]] (ie page attribute)
-  * the ''where''  clause is followed by a series of ''predicates''. The possible predicates are described below:
-<code sql>
-identifier = 'value'
-identifier != 'value'
-identifier [not] like 'pattern' -- "%" matches any sequence of zero or more characters and an underscore ("_") matches any single character.
-identifier is [not] null
-identifier in (x, y, ...)
-</code>
-  * the ''order by'' clause is followed by a series of  [[docs:templating:variable|template variable]] with an optional order (''asc'' for ascendant and ''desc'' for descendant)
-  * the ''limit'' clause will return the ''N'' first rows.
+==== Select ====
 
+<railroad>
+<code bnf display="none">
+'SELECT' attribute {',' attribute} \
+[ 'WHERE' predicate {',' predicate } ] \
+[ 'ORDER BY' attribute ('ASC'|'DESC')? {',' attribute ('ASC'|'DESC')?} ] \
+[ 'LIMIT' 'Number' ] ;
+</code>
+</railroad>
+
+
+==== Attribute ====
+The ''attribute'' are defined in the [[docs:templating:variable|page attribute]] 
+
+==== Predicate ====
+
+A predicate takes the below form:
+<railroad>
+<code bnf display="none">
+attribute  ( ('='|'!=')  'value' ||  [not] ('LIKE'|'GLOB') 'pattern') 
+</code>
+</railroad>
+
+where the pattern must follow the following syntax for:
+  * ''GLOB'' is case sensitive and uses the [[kb>glob|Unix file globbing syntax]] for its wildcards:
+      * ''*'' matches any number of characters (including none)
+      * ''?'' matches exactly one character.
+      * ''{}'' specify a collection of subpatterns. For example: ''{sun,moon,stars}'' matches ''sun'', ''moon'', or ''stars''.
+      * ''[]'' specify a set of single characters or, when the hyphen character ''-'' is used, a range of characters. Example: ''[aeiou]'' matches any lowercase vowel, ''[0-9]'' matches any digit.
+      * the backslash character ''\'' is the escape character. ie ''\\'' matches a single backslash, ''\?'' matches the question mark.
+       * any other characters match itself.
+  * ''LIKE'' is not case sensitive and in the pattern expression:
+      * ''%'' matches any sequence of zero or more characters 
+      * ''_'' matches any single character.
+      * any other characters match itself.
