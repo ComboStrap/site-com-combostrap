@@ -23,7 +23,7 @@ You may apply the following layout:
 ==== Masonry ====
 
 The below ''iterator'' example:
-  * will generate the last 4 modified pages (defined by the [[sql|logical sql]] in the ''data'' node)
+  * will generate the last 4 modified pages (defined by the [[sql|page sql]] in the ''data'' node)
 <code sql>
 select date_modified, path, h1, description, name order by date_modified desc limit 4
 </code>
@@ -64,7 +64,7 @@ select date_modified, path, h1, description, name order by date_modified desc li
 </iterator>
 </code>
 where:
-  * ''data'' contains a [[sql|logical sql]]
+  * ''data'' contains a [[sql|page sql]]
   * ''template'' is a [[docs:templating:template|template]] that will be repeated for each data row.
 
 

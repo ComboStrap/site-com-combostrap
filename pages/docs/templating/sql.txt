@@ -33,14 +33,14 @@
 
 
 ==== Attribute ====
-The ''attribute'' are defined in the [[docs:templating:variable|page attribute]] 
+The ''attribute'' are defined in the [[docs:templating:variable|page attribute]]
 
 ==== Predicate ====
 
 A predicate takes the below form:
 <railroad>
 <code bnf display="none">
-attribute  ( ('='|'!=')  'value' ||  ['NOT'] ('GLOB' glob-pattern | 'LIKE'  like-pattern  ['ESCAPE' 'char'])) 
+attribute  ( ('='|'!=')  'value' ||  ['NOT'] ('GLOB' glob-pattern | 'LIKE'  like-pattern  ['ESCAPE' 'char']))
 </code>
 </railroad>
 
@@ -57,13 +57,13 @@ Subpatterns are not supported by Sqlite (ie ''{sun,moon,stars}'' to match ''sun'
 **example:** the [[docs:semantic:path|path]] and [[docs:semantic:title|title]] of all pages that ends with 3 digits.
 
 <code sql>
-select title, path where path glob '*[0-9][0-9][0-9]' 
+select title, path where path glob '*[0-9][0-9][0-9]'
 </code>
 <webcode name="Default" frameborder="0">
 <code dw display="none">
 <iterator>
 <data>
-select title, path where path glob '*[0-9][0-9][0-9]' 
+select title, path where path glob '*[0-9][0-9][0-9]'
 </data>
 ^ Title ^ Path ^
 <template>
@@ -78,7 +78,7 @@ This sql returns the following data for this website.
 === like-pattern ===
 
 The ''LIKE'' is not case sensitive and in the pattern expression:
-      * ''%'' matches any sequence of zero or more characters 
+      * ''%'' matches any sequence of zero or more characters
       * ''_'' matches any single character.
       * any other characters match itself.
 
@@ -86,9 +86,9 @@ The ''LIKE'' is not case sensitive and in the pattern expression:
 
 
 **example:** If you want to get:
-  * the [[docs:semantic:path|path]] and [[docs:semantic:title|title]] of all pages 
+  * the [[docs:semantic:path|path]] and [[docs:semantic:title|title]] of all pages
   * that have the terms ''image'', ''svg'' or ''raster'' in their [[docs:semantic:path|path]]
-you would use the following logical sql:
+you would use the following page sql:
 <code sql>
 select title, path where path like '%image%' or path like '%svg%' or path like '%raster%'
 </code>
@@ -105,7 +105,7 @@ select title, path where path like '%image%' or path like '%svg%' or path like '
 </template>
 </iterator>
 </code>
-This logical sql will return the following data for this website.
+This page sql will return the following data for this website.
 </webcode>
 
 
