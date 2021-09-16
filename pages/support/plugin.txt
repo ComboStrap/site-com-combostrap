@@ -103,3 +103,13 @@ The output will be:
 === Why ? ===
 Because we allow [[docs:content:link|link]] to be on a list. The image mapping plugin will then process our link and will not see any standard dokuwiki link.
 </note>
+
+
+**Automatic test not supported**
+
+We test manually but we cannot test automatically because the imagemapping plugin fails the tests in Continuous Integration.
+
+To be more detailed, the imagemapping plugin has HTML file created as php file in the [[https://github.com/i-net-software/dokuwiki-plugin-imagemap/tree/master/_test/jstests|jstests directory]] causing the build to fail with with the following error:
+<file>
+Cannot modify header information - headers already sent by (output started at /home/travis/build/doku/lib/plugins/imagemapping/_test/jstests/ImageMapTest.php:1)
+</file>
