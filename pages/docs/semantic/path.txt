@@ -15,6 +15,6 @@ The ''path'' is a [[semantic|page metadata]] that represents the full qualified 
 
 You can't set a path, the path is a derived metadata and can be seen in the [[docs:analytics:data|analtyics data file]].
 
-
+This metadata is known as [[doku>pagename]] for Dokuwiki.
 ===== Articles Related =====
 {{backlinks>.}}

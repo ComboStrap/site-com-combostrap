@@ -33,7 +33,7 @@ They below internal page metadata are used by ''ComboStrap'':
       * ''date_created'' - the creation date
       * ''date_modified'': the modification date
       * [[published|date_published]] - the publication date
-      * [[docs:utility:cache|date_cache_expiration]] - the expiration date of the cache if any
+      * [[docs:performance:cache|date_cache_expiration]] - the expiration date of the cache if any
       * [[country|country]] - the localized country
       * [[lang|lang]] - the language of the page
 
@@ -48,7 +48,7 @@ They allows internally:
   * [[docs:url:permalink|Permalink]]
   * [[docs:quality:lpp|Late Publication Protection]]
   * [[docs:templating:template|Templating]]
-  * [[docs:utility:cache|Cache expiration]]
+  * [[docs:performance:cache|Cache expiration]]
 
 
 ==== External ====

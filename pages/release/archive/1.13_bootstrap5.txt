@@ -65,7 +65,7 @@ This section lists the changes preserved by ComboStrap.
 ==== Deleted ====
 The following elements are deleted in Bootstrap 5 but preserved in Combostrap.
 
-  * [[docs:layout:component:card_column|Card Columns]] was deleted from Bootstrap 4 but we maintain it as explained in this [[https://getbootstrap.com/docs/5.0/examples/masonry/|example]]
+  * [[docs:layout:component:masonry|Card Columns]] was deleted from Bootstrap 4 but we maintain it as explained in this [[https://getbootstrap.com/docs/5.0/examples/masonry/|example]]
   * [[docs:utility:jquery|Jquery]] is [[https://getbootstrap.com/docs/5.0/getting-started/javascript/#still-want-to-use-jquery-its-possible|no more a dependency for Bootstrap]].
   * [[docs:layout:component:jumbotron|jumbotron]] was [[https://getbootstrap.com/docs/5.0/migration/#jumbotron|deleted]].
 
