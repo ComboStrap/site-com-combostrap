@@ -2,39 +2,36 @@
 {
     "canonical":"release:1.20",
     "title":"ComboStrap - Release 1.20",
-    "description":"New, Improvement, Deprecation and Bug resolution of the release 1.20"
+    "description":"New, Improvement, Deprecation and Bug resolution of the release 1.20",
+    "name":"1.20 - templating"
 }
 ---
 ====== ComboStrap - Release 1.20 ======
 
 ===== About =====
-List of changes for the release 1.20.
+The release ''1.20'' introduces a full template system based on the [[docs:templating:iterator|iterator component]] where you can select pages data via [[docs:templating:sql|SQL]] and iterates over them to create powerful design layout.
 
 <note warning>
-=== Breaking ====
+=== Breaking ===
   * With the advent of the [[docs:templating:iterator|iterator]], we have standardized the analytics name. If you have queries running on the [[docs:analytics:data|analytical data]], you should change them.
       * ''words_count'' is now ''word_count''
       * ''id'' has been deleted and has become [[docs:semantic:path|path]]
   * Php 5.6 is [[support:requirement|no more supported]]
 </note>
 
-<note important>
-The [[docs:semantic:published|Published]] format has changed that can cause temporary warning until the [[docs:analytics:process|data is refreshed]].
-</note>
 ===== List =====
 
 ==== New ====
 
-  * the [[docs:templating:iterator|iterator]] to iterate over [[docs:templating:template|template]]
+  * The [[docs:templating:iterator|iterator]] to iterate over [[docs:templating:template|template]]
   * The [[docs:performance:cache|cache]] component to set the validity of a page at interval to avoid [[https://forum.dokuwiki.org/d/19495-caching-problem-with-a-plugin/11|caching problem with iterator]]
-  * The message area is now a toaster.
   * The [[docs:semantic:image|page image metadata]] set in the [[docs:semantic:frontmatter|frontmatter]]:
       * are now updated when the [[docs:content:image|image]] is moved via the [[docs:getting_started:4_plugin#move|move plugin]]
       * are taken into account into the [[docs:analytics:statistics#media|media statistics]] and reported if they don't exist as [[docs:quality:broken_link|broken links]]
   * A [[support:plugin|page dedicated to the support of third party plugin]] to enhance our support.
   * The [[docs:templating:template|standalone template component]]: You can now print/replace metadata information of the actual page.
   * A new dedicated page for [[docs:templating:variable|variables]].
-  * The [[docs:block:comment|comment component]] to add comment
+  * The [[docs:block:comment|comment component]] to add a comment
   * The [[docs:utility:railroad|Railroad]] component permits to draw railroad from BNF grammar.
 
 
@@ -55,3 +52,7 @@ The [[docs:semantic:published|Published]] format has changed that can cause temp
   * Snippets of code could be missing (such as [[docs:utility:prism|prism]] to highlight the code) on certain page due to the new [[docs:navigation:historical_breadcrumb|historical breadcrumb]] that created snippets scoped to the previous page because of the link that can be [[docs:quality:protection|protected]]. The snippets are now merged to prevent any scope related problem.
   * The format saved for the [[docs:semantic:published|published date]] was actually not IS08601 compliant because [[https://www.php.net/manual/en/class.datetimeinterface.php#datetime.constants.iso8601|the DATE_ISO8601 constant in PHP]] is actually not compliant but was kept for backward compatibility. The new constant format used in php is the one pointed in the documentation, namely ''DATE_ATOM''.
   * Setting an ''id'' on a [[docs:content:heading#marki|marki heading]] is overwritten by the id generator making it useless. [[https://forum.dokuwiki.org/d/19523-dw-creates-broken-links-when-using-date-yyyy-mm-dd-as-section/28|Solution to Broken link discussion]]
+
+==== Temporary warning ====
+
+The [[docs:semantic:published|Published]] format has changed that can cause temporary warning until the [[docs:analytics:process|data is refreshed]].

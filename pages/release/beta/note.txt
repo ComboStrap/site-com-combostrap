@@ -26,8 +26,9 @@
 [[?do=export_combo_analytics|View the analytical data for this page]]
 [[tree:|trees]]
 </code>
-===== Improvement =====
 
+===== Improvement =====
+  * The message area should be a toaster.
   * Name of a start page should be the namespace name
   * Working on website release via git
   * in `/var/log/php-fpm/error.log`
