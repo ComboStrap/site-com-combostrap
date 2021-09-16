@@ -2,8 +2,9 @@
 {
     "canonical":"release:1.20",
     "title":"ComboStrap - Release 1.20",
-    "description":"New, Improvement, Deprecation and Bug resolution of the release 1.20",
-    "name":"1.20 - templating"
+    "description":"    "description":"Templating has been introduced with iteration and SQL",
+    "name":"1.20 - templating",
+    "date_published":"2021-09-16"
 }
 ---
 ====== ComboStrap - Release 1.20 ======
