@@ -1,7 +1,7 @@
 ---json
 {
     "canonical":"railroad",
-    "title":"Render a railroad diagram from a BNG grammar",
+    "title":"Render a railroad diagram from a BNF grammar",
     "description":"This component helps you render a railroad / syntax diagram from a BNG grammar"
 }
 ---
