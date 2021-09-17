@@ -23,8 +23,6 @@ You can create ''cover'' or ''tile'' background with:
 
 The ''background area'' is defined as being the content plus the [[docs:styling:spacing|padding]]
 
-
-<badge>Since [[release:release#1.13|version 1.13]]</badge>
 ===== Articles Related =====
 {{backlinks>.}}
 
@@ -106,7 +104,6 @@ A info note with the background-color attribute
 ==== Gradient Color ====
 [[:start|ComboStrap]] implements also a ''gradient'' color naming scheme in order to show a ''linear color gradient'' in the background.
 
-<badge>Since [[release:release|version 1.2]]</badge>
 
 If you want to have a gradient on your color, just add the ''gradient-'' prefix to a [[color|color value]].
 
@@ -165,7 +162,7 @@ Create a tile background based on a [[docs:content:raster|raster image]] that re
 <webcode name="Default" frameborder="0">
 <code dw>
 <slide text-align="center" height="20vh">
-<background fill="tile" opacity="0.5">{{:styling:patternico.png|}}</background>
+<background fill="tile" opacity="0.5">{{:docs:styling:patternico.png|}}</background>
 <title 3>**A tile background based on icons**</title>
 </slide>
 </code>
@@ -174,7 +171,7 @@ Create a tile background based on a [[docs:content:raster|raster image]] that re
 <webcode name="Default" frameborder="0">
 <code dw>
 <slide text-align="center" height="25vh">
-<background fill="tile" opacity="0.1">{{:styling:subway-lines.png}}</background>
+<background fill="tile" opacity="0.1">{{:docs:styling:subway-lines.png}}</background>
 <title 2 color="#3669b3">A tile background based on subway lines</title>
 </slide>
 </code>
@@ -198,7 +195,7 @@ Example with a [[https://bgjar.com/stacked-wave.html|stacked wave]] where the co
 <webcode name="Default" frameborder="0">
 <code dw>
 <slide>
-<background>{{:styling:stacked_wave.svg|}}</background>
+<background>{{:docs:styling:stacked_wave.svg|}}</background>
 <title 1>A svg background cover</title>
 </slide>
 </code>
@@ -217,7 +214,7 @@ Below is an example on how to use a [[docs:content:svg|svg]] as a ''tile'' backg
 <webcode name="Default" frameborder="0">
 <code dw>
 <slide text-align="center">
-<background fill="tile" color="#DFDBE5" opacity="0.3">{{:styling:jigsaw.svg?50&color=#9C92AC|}}</background>
+<background fill="tile" color="#DFDBE5" opacity="0.3">{{:docs:styling:jigsaw.svg?50&color=#9C92AC|}}</background>
 <title 1>An Svg Tile Based on Hero Pattern</title>
 </slide>
 </code>
