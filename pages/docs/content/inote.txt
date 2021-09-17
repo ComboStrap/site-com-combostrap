@@ -8,7 +8,6 @@ As a replacement, you could also use:
   * a [[docs:content:tooltip|tooltip]]
   * or a [[doku>wiki:syntax#footnotes|footnote]].
 
-<badge>Since [[release:release|version 1.2]]</badge>
 ===== Articles Related =====
 {{backlinks>.}}
 

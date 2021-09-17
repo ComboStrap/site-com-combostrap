@@ -11,10 +11,13 @@
 
 
 ===== About =====
-''image'' is a [[semantic|page metadata]] that defines the [[docs:content:image|path of images]] to be used as illustration for a page in:
-  * a [[docs:social:social|social]] cards such as [[..:social:twitter|twitter]] or [[..:social:facebook|facebook]]
-  * or in a [[docs:templating:template|template]]
+''image'' is a [[semantic|page metadata]] that defines an illustrative [[docs:content:image|image]] for the page.
 
+
+
+The image:
+  * can be rendered with the [[docs:content:pageimage|pageimage component]] in [[docs:templating:template|template]]
+  * and will be added into [[docs:social:social|social]] cards such as [[..:social:twitter|twitter]] or [[..:social:facebook|facebook]].
 
 
 

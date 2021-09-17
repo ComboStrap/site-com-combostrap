@@ -20,6 +20,7 @@
   * [[docs:content:raster|Raster image]]: A small image can be used as icon
   * [[docs:content:inote|Inote]]: An inline note
   * [[docs:content:link|Link]]: A link with text, icon, image or what ever you need.
+  * [[docs:content:pageimage|Pageimage]]: Renders the illustrative image of a page
   * [[docs:content:itext|Itext]]: format one or several words at once.
   * [[docs:content:typo|Typography]]: Typography markup such as boldness, underline, ...
   
