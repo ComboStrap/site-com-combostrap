@@ -9,26 +9,28 @@
 
 
 ===== About =====
-This page describes all variables that can be used in a [[docs:templating:template|template text]]
+This page describes all attribute that can be used:
+  * in a [[docs:templating:template|template text]] 
+  * or in [[docs:templating:sql|page sql]] 
 
 ===== List =====
 
-The following variables can be used:
-  * ''$path'' is the [[docs:semantic:path|full qualified path of a page]] that can be used in [[docs:content:link|link]]
-  * ''$title'' - the [[docs:semantic:title|title]] of the page - if empty, the ''h1''
-  * ''$name'' - the [[docs:semantic:name|name]] of the page - if empty, the last part of the id
-  * ''$h1'' - the [[docs:semantic:h1|h1 title]] (the first header text of the page) - if empty, the ''title''.
-  * ''$description'' - the [[docs:semantic:description|description]]
-  * ''$date_created'' - the creation date
-  * ''$date_modified'' - the modification date
-  * ''$date_published'' - the [[docs:semantic:published|publication date]]
-  * ''$date_start'' - the start date of an [[docs:semantic:event|event]]
-  * ''$date_end'' - the end date of an [[docs:semantic:event|event]]
-  * ''$word_count'' - the number of word in a page
-  * ''$type'' - the [[docs:semantic:type|type of page]]
-  * and all [[docs:semantic:frontmatter|frontmatter metadatas]] that are scalar (ie no array)
+The supported attribute can be used:
+  * ''path'' is the [[docs:semantic:path|full qualified path of a page]] that can be used in [[docs:content:link|link]]
+  * ''title'' - the [[docs:semantic:title|title]] of the page - if empty, the ''h1''
+  * ''name'' - the [[docs:semantic:name|name]] of the page - if empty, the last part of the id
+  * ''h1'' - the [[docs:semantic:h1|h1 title]] (the first header text of the page) - if empty, the ''title''.
+  * ''description'' - the [[docs:semantic:description|description]]
+  * ''date_created'' - the creation date
+  * ''date_modified'' - the modification date
+  * ''date_published'' - the [[docs:semantic:published|publication date]]
+  * ''date_start'' - the start date of an [[docs:semantic:event|event]]
+  * ''date_end'' - the end date of an [[docs:semantic:event|event]]
+  * ''word_count'' - the number of word in a page
+  * ''type'' - the [[docs:semantic:type|type of page]]
+  * ''is_low_quality'' - a boolean that is set o 1 if the page is of [[docs:quality:low_quality_page|low quality]]
 
-Basically, all metadata that can be seen in the [[docs:analytics:data|scalar metadata node of the analytics data]] can be used as variable.
+And all [[docs:semantic:frontmatter|frontmatter metadatas]] that are scalar (ie no array). Basically, all metadata that can be seen in the [[docs:analytics:data|scalar metadata node of the analytics data]] can be used as attribute.
 
 ===== Example =====
 
@@ -42,4 +44,6 @@ The below ''template text'' inside a ''template component'' will print:
   * Path: $path 
 </template>
 </code>
+<hr/>
+**Output**
 </webcode>

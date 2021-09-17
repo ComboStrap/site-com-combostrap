@@ -2,7 +2,7 @@
 
 
 ===== About =====
-''template'' are text that may contains [[variable|variables]] that will be replaced at runtime.
+''template'' are text that may contains [[#variable|variables]] that will be replaced at runtime.
 
 They are supported:
   * in its own [[#syntax|template component]] (to print information of the requested page)
@@ -29,7 +29,7 @@ The below ''template text'' inside a ''template component'' will print a [[docs:
 ==== With pipeline====
 
 
-Example of ''template text'' that you could used in a [[docs:navigation:page-explorer|page-explorer navigation pan]].
+Example of ''template text'' that you could used in a [[docs:navigation:page-explorer|page-explorer navigation panel]].
 
 It will create:
   * a [[docs:content:link|link]] 
@@ -43,7 +43,8 @@ It will create:
 The [[$path|<pipeline>"$h1" | cut("-","2-") | trim()</pipeline> page]].
 </template>
 </code>
-  * Result:
+<hr/>
+**Result:**
 </webcode>
 
 
@@ -51,9 +52,9 @@ The [[$path|<pipeline>"$h1" | cut("-","2-") | trim()</pipeline> page]].
 
 ==== Template Text ====
 
-A ''template text '' can contains any [[docs:component|component]] and zero or more [[docs:templating:variable|variable]] (that supports text transformation through the use of a [[docs:templating:pipeline|pipeline]])
+A ''template text '' can contains any [[docs:component|component]] and zero or more [[#variable|variable]] (that supports text transformation through the use of a [[docs:templating:pipeline|pipeline]])
 <code dw>
-$variable
+A template text with a $variable
 </code>
 
 ==== Template component ====
@@ -67,4 +68,10 @@ The template text with $variable
 
 If this is a standalone template component, the variable are replaced with the values of the actual requested page, otherwise they are replaced by the value of the requested data (ie in a [[docs:templating:iterator|iterator]])
 
+==== Variable ====
 
+A variable is the name of an [[variable|attribute]] prefixed with the ''$'' dollar character.
+
+Example:
+  * for the [[docs:semantic:path|path]] attribute
+  * the variable would be ''$path''

@@ -13,13 +13,45 @@ An ''event page'' is a page that is advertising an event.
 
 To tag your page has a ''event'', you need to have:
   * the [[docs:semantic:type|type of page]] set to ''event''
-  * a ''date_start'' set to the ''start'' [[date|date]] of the event
+  * a ''date_start'' set to the ''start'' [[date|date]] of the event in the local timezone
   * a ''date_end'' set to the ''end'' [[date|date]] of the event
+  * [[docs:semantic:name|name]] - the name of the event
+  * [[docs:semantic:description|a description]] - the description of the event
 
-You may also want to add:
-  * [[docs:semantic:name|a name]] - for navigation
-  * [[docs:semantic:name|a title]] - for the search engine and the [[docs:content:link|link title]]
-  * [[docs:semantic:description|a description]] - for the search engine
+
 
 ===== Articles Related =====
 {{backlinks>.}}
+
+===== Location =====
+We declare the page as [[https://developers.google.com/search/docs/advanced/structured-data/event|event page for google]] but to be valid, you also need to add the location in the [[frontmatter|frontmatter]].
+
+You can add a virtual or physical location by adding a "json-ld" property. Below is an example of an event taking place ''online'' and ''offline'' (if this is not the case for you, just delete the non-relevant location)
+<code json>
+{
+  "json-ld": {
+    "location": [
+      {
+        "@type": "VirtualLocation",
+        "url": "https://domain/online/location"
+      },
+      {
+        "@type": "Place",
+        "name": "Physical Location - Snickerpark Stadium",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "100 West Snickerpark Dr",
+          "addressLocality": "Snickertown",
+          "postalCode": "19019",
+          "addressRegion": "PA",
+          "addressCountry": "US"
+        }
+      }
+    ]
+  }
+}
+</code>
+
+===== Offers, performer, organizer =====
+
+If you want to add more information such as ''offers'', ''performer'' or ''organizer'', you just need to add the properties defined in the [[https://developers.google.com/search/docs/advanced/structured-data/event|event page of google]] to the ''json-ld'' property.

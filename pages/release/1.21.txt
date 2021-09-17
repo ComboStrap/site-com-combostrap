@@ -10,9 +10,13 @@
 
 ===== List =====
 
+
+==== New ====
+  * The [[docs:semantic:event|event page]] to create event.
 ==== Improvement ====
   * A [[docs:templating:template|template]] sends an error when the [[docs:templating:variable|page attribute]] was not found.
   * In a [[docs:templating:sql|sql]], the column attributes have been made optional.
   * If the [[docs:templating:sql|page sql]] has an error, a error message is returned (ie the page does not crash)
   * Not all [[docs:templating:variable|page attribute]] can be used to filter the pages, an error message is returned if this is the case
+  * The [[docs:templating:sql#filter-attribute|sql filter attribute]] have been expanded with 7 new attributes
 

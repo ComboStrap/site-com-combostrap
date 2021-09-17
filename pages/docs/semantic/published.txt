@@ -2,7 +2,8 @@
 {
     "canonical":"published",
     "title":"The published date",
-    "description":"The published date is a field that permits late publication by modifying the published date of a page."
+    "description":"The published date is a field that permits late publication by modifying the published date of a page.",
+    "name":"Published Date"
 }
 ---
 ====== ComboStrap Metadata - Published Date ======
@@ -11,6 +12,7 @@
 ===== About =====
 The ''date_published'' property is a page [[semantic|metadata]] that permits to modify the ''published date'' of an [[article|article]].
 
+By default, the ''published date'' is the ''creation date'' 
 
 <note>
 If the ''published date'' is set in the future, the article will be [[docs:quality:lpp|protected]].
@@ -20,50 +22,13 @@ If the ''published date'' is set in the future, the article will be [[docs:quali
 {{backlinks>.}}
 ===== How to set a published date ? =====
 
-By default, the ''published date'' is the ''creation date'' 
 
-You can set a published date in the [[frontmatter|frontmatter]].
 
-The date value must follow the below [[wp>ISO_8601|ISO8601 format]]. 
-<code>
-YYYY-MM-DDTHH:MM:SS+hh:mm
-</code>
-where:
-  * ''YYY-MM-DD'' is the day part. For instance for the first January of 2021: ''2021-01-01''
-  * ''T'' is just a separator between the day and time part
-  * ''HH:MM:SS'' is the time part. For instance, for 2 hour pm, 15 minutes and 20 seconds: ''14:15:20''
-  * ''+hh:mm'' is a positive or negative time offsets from the UTC timezone (ie London). For instance, ''Europe/Paris'' (one hour timezone from London) ''+01:00''
-
-You can use as key:
-  * the qualified name: ''date_published''
-  * or the alias: ''published''
+To set a published date in the [[frontmatter|frontmatter]], you add the ''date_published'' property with a [[date|date value]]
 
 Example:
-  * at the day level (will be translated at midnight, ie ''2021-03-15T00:00:00+00:00'')
 <code json>
 {
    "date_published":"2021-03-15"
 }
 </code>
-  * at the hour level (10 hour)
-<code json>
-{
-   "date_published":"2021-03-15T10:00:00"
-}
-</code>
-
-
-
-===== Timezone =====
-
-The dates are all located in the [[doku>tips:timezone|timezone]] of your server but you can add a timezone if you want.
-
-For instance, for ''Europe/Paris'':
-<code json>
-{
-   "date_published":"2021-03-15T10:00:00+01:00"
-}
-</code>
-
-
-

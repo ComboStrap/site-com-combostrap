@@ -45,21 +45,9 @@ filter-attribute  ( ('='|'!=')  'value' ||  ['NOT'] ('GLOB' glob-pattern | 'LIKE
 </railroad>
 
 
-==== filter-attribute ====
-If your [[docs:analytics:query##json_support|sqlite does not support Json]], you can't filter on all [[docs:templating:variable|attribute]].
+=== filter-attribute ===
+If your [[docs:analytics:query##json_support|sqlite does not support Json]], you can't filter on manually added metadata, otherwise you can filter on all [[variable|attributes]]
 
-The [[docs:templating:variable|attributes]] that can be used to filter are:
-  * [[docs:semantic:path|path]]
-  * [[docs:semantic:name|name]]
-  * [[docs:semantic:title|title]]
-  * [[docs:semantic:h1|h1]]
-  * ''date_created''
-  * ''date_modified''
-  * [[docs:semantic:published|date_published]]
-  * [[docs:semantic:event|date_start]]
-  * [[docs:semantic:event|date_end]]
-  * ''word_count''
-  * [[docs:quality:low_quality_page|is_low_quality]]
 
 === glob-pattern ===
 

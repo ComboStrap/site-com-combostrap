@@ -1,0 +1,66 @@
+---json
+{
+    "canonical":"date",
+    "title":"ComboStrap - Date value and format",
+    "name":"Date format",
+    "description":"How to write a date in the frontmatter to be valid"
+}
+---
+====== Metadata - Date ======
+
+===== About =====
+When you add a date such as the [[docs:semantic:published|published date]], [[event|start/end date]] in the [[docs:semantic:frontmatter|frontmatter]], ComboStrap accepts a specific format.
+
+
+
+===== Syntax =====
+
+Combostrap understand all the following format as date:
+
+<code>
+YYYY-MM-DDTHH:MM:SS+hh:mm // iso 8601 format
+YYYY-MM-DD HH:MM:SS+hh:mm // timestamp format
+YYYY-MM-DD HH:MM:SS 
+YYYY-MM-DD HH:MM
+YYYY-MM-DD HH
+YYYY-MM-DD
+</code>
+where:
+  * ''YYY-MM-DD'' is the day part and is the only one mandatory. For instance for the first January of 2021: ''2021-01-01''
+  * ''T'' is a separator used in [[wp>ISO_8601|ISO8601 format]] between the day and time part (optional, handy when copying)
+  * ''HH:MM:SS'' is the time part. For instance, for 2 hour pm, 15 minutes and 20 seconds: ''14:15:20''
+  * ''+hh:mm'' is a positive or negative time offsets from the UTC timezone (ie London). For instance, ''Europe/Paris'' (one hour timezone from London) ''+01:00''
+
+
+
+==== Time ====
+
+  * at the day level, the default time is midnight, ie ''2021-03-15 00:00:00+00:00''
+<code json>
+{
+   "date_published":"2021-03-15"
+}
+</code>
+  * at the hour level (10 hour), the default minute and second are null. ie ''2021-03-15 10:00:00''
+<code json>
+{
+   "date_published":"2021-03-15 10"
+}
+</code>
+
+
+
+==== Timezone ====
+
+The dates are all located in the [[doku>tips:timezone|timezone]] of your server 
+
+For instance, a date with the ''Europe/Paris'' timezone.
+<code json>
+{
+   "date_published":"2021-03-15 10:00:00+01:00"
+}
+</code>
+
+
+
+ 
