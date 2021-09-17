@@ -3,7 +3,8 @@
     "canonical":"metadata:viewer",
     "title":"The ComboStrap Metadata Viewer",
     "description":"The ComboStrap Metadata Viewer is showing you the page metadata while editing it",
-    "keywords":"web,metadata,data structure"
+    "keywords":"web,metadata,data structure",
+    "name":"Metadata Viewer"
 }
 ---
 
@@ -16,7 +17,7 @@ The box renders:
    * via the [[#metadata tag|metadata tag]]
    * when in ''edit mode'' if the [[#enableMetadataViewerWhenEditing]] configuration is enabled (''true'' by default)
 
-<badge>Since [[release:release|version 1.1]]</badge>
+
 
 
 ===== Articles Related =====

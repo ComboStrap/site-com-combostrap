@@ -2,7 +2,8 @@
 {
     "canonical":"semantic:organization",
     "title":"How to define a page advertising your organization",
-    "description":"ComboStrap Semantic creates metadata that advertise your organization to search engine and crawler. This article shows you how to create an organization page"
+    "description":"ComboStrap Semantic creates metadata that advertise your organization to search engine and crawler. This article shows you how to create an organization page",
+    "name":"Organization Page"
 }
 ---
 ====== ComboStrap Metadata - Organization Page ======

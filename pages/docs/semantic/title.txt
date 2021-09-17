@@ -12,14 +12,20 @@
 
 ===== About =====
 
-''ComboStrap'' can manage the meta ''title'' of a web page.
+''ComboStrap'' can manage the meta ''title'' of a web page. It's also known as the page ''headline''.
 
 A page's title may be a few words or a phrase (whereas a [[description|page's description]] might be a sentence or two or even a short paragraph. 
 
+In the [[https://developers.google.com/search/docs/beginner/seo-starter-guide#create-good-titles-and-snippets-in-search-results|Google SEO start guide title section]], Google recommends to create title that are:
+  * ''Accurate'' (that describe the page's content)
+  * ''Unique'' for each page
+  * ''Brief'' but ''descriptive''
+
+
 This ''title'' will:
-  * show up in the [[#Search Engine Result Pages (SERP)]]
+  * show up in the ''Search Engine Result Pages (SERP)'' (the results that you see when querying Google)
   * show up in the title bar at the top of the web browser, 
-  * show up in social cards such as [[..:social:twitter|twitter]] or [[..:social:facebook|facebook]]
+  * show up in [[docs:social:social|social]] cards such as [[..:social:twitter|twitter]], [[..:social:google|google]]  or [[..:social:facebook|facebook]]
   * be used when someone bookmarks the page.
   * be used in ''text-to-speech (TTS)'' (thanks to [[https://developers.google.com/search/docs/data-types/speakable|Speakable]])
 
@@ -44,28 +50,18 @@ With [[:start|ComboStrap]], if you set a ''title'' property with [[frontmatter|f
 
 Example:
 <code javascript>
----json
 {
     "title":"Page title (Set by Combostrap)"
 }
----
 </code>
 Result:
 {{docs:semantic:page_title_set_by_combostrap.png|}}
-    
-
 
 
 <note>
 With the [[:strap|strap template]],  the website ''home page'' title is the Dokuwiki title with the website [[docs:semantic:tagline|tagline]] 
 </note>
 
-===== Search Engine Result Pages (SERP) =====
 
-The title is used in the [[kb>serp|Search Engine Result Pages (SERP)]] (ie the results that you see when querying Google) where it appear in the first line of the results.
 
-In the [[https://developers.google.com/search/docs/beginner/seo-starter-guide#create-good-titles-and-snippets-in-search-results|Google SEO start guide title section]], Google recommends to create title that are:
-  * ''Accurate'' (that describe the page's content)
-  * Unique for each page''
-  * ''Brief but descriptive''
 

@@ -1,0 +1,25 @@
+---json
+{
+    "canonical":"page:event",
+    "title":"Event Page",
+    "description":"An event page is a page that is describing an event"
+}
+---
+====== ComboStrap Semantic - Event ======
+
+
+===== About =====
+An ''event page'' is a page that is advertising an event.
+
+To tag your page has a ''event'', you need to have:
+  * the [[docs:semantic:type|type of page]] set to ''event''
+  * a ''date_start'' set to the ''start'' [[date|date]] of the event
+  * a ''date_end'' set to the ''end'' [[date|date]] of the event
+
+You may also want to add:
+  * [[docs:semantic:name|a name]] - for navigation
+  * [[docs:semantic:name|a title]] - for the search engine and the [[docs:content:link|link title]]
+  * [[docs:semantic:description|a description]] - for the search engine
+
+===== Articles Related =====
+{{backlinks>.}}

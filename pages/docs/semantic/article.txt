@@ -1,7 +1,8 @@
 ---json
 {
     "canonical":"page:article",
-    "type":"article"
+    "type":"article",
+    "name":"Article Page (Blog)"
 }
 ---
 ====== ComboStrap Metadata - Article Page (News, Blog) ======
@@ -19,6 +20,10 @@ Example:
   * news article,
   * blog,
   * piece of investigative report
+
+<note>
+If you don't defined a [[docs:semantic:published|published date]], the creation date is taken.
+</note>
 
 ===== Articles Related =====
 {{backlinks>.}}
