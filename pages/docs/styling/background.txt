@@ -133,6 +133,8 @@ You just need to add another background.
 
 ===== Raster Image =====
 
+This sections shows you how to use a [[docs:content:raster|raster image]] as background.
+
 ==== Raster Cover ====
 
 <webcode name="Default" frameborder="0">

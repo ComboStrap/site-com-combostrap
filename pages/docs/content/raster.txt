@@ -14,8 +14,8 @@
 
 ===== Syntax =====
 ComboStrap follows the general [[docs:content:image#syntax|image syntax]] where you can set:
-  * the dimension
-  * the alignement
+  * the dimension (width and height)
+  * the alignement (left, center, right float)
   * and all [[docs:styling:styling|styling attributes]]
 
 
@@ -31,8 +31,8 @@ For instance:
   * an [[docs:styling:shadow|elevated]] photography with a surfer
   * a [[docs:animation:hover|hover float animation]]
   * an [[docs:styling:opacity|opacity]] of ''0.5''
-  * ''centered''
-  * with a dimension of ''600''
+  * ''centered'' (one space at the beginning, one space at the end)
+  * with a width of ''600'' pixel
   * ''responsive'' and ''mobile ready''  (below ''600'', the image scales down).
 
 <webcode name="Default" frameborder=0>
