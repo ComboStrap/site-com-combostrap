@@ -2,7 +2,7 @@
 
 
 ===== About =====
-''slot'' are placeholders in the template that can be filled by creating a page.
+''slot'' are placeholders in the template that can be filled by creating a page with a special name.
 
 The Strap template supports the following slot:
   * [[docs:layout:page:side_slot|side slot]] (at the left side of the content)

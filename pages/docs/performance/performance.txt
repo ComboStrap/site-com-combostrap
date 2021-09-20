@@ -44,22 +44,9 @@ If you only depend on the ''ComboStrap'' plugins, you can even [[docs:performanc
 
 
 ==== Cache ====
-All processing are cached by default until the page itself or a backlink page is changing.
+Caching is done by default for all content based process (from page to image). 
 
-With the [[docs:performance:page_cache|cache component]], you can control the cache interval for more granular control.
-
-==== Sidebar Cache Bursting ====
-
-
-[[docs:layout:page:side_slot|Side slots]] are using heavily the index when they show [[docs:navigation:navigation|navigational components]] and have a great impact on the web server rendering time.
-
-With the [[docs:performance:sideslots|side slots automatic cache bursting]], the only user impacted is the editor that is recreating the sidebar when he saves the page.
-
-
-Action: If you have any [[https://www.dokuwiki.org/caching|%%~~NOCACHE~~%%]] instructions in your sidebar, just delete them.
-
-
-
+For more information, see the page: [[cache]]
 
 ==== Image ====
 

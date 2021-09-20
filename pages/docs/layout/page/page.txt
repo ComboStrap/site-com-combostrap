@@ -34,7 +34,7 @@ The default layout is a fully responsive layout (known also as the ''holy grail'
   * and three columns:
       * [[docs:layout:page:side_slot|left slot]]
       * [[docs:layout:page:sidekick_slot|right slot]]
-      * main content
+      * main slot (ie content)
 
 They are all [[docs:layout:component:container|contained]] in a page that is:
   * centered 

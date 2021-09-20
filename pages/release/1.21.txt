@@ -24,5 +24,6 @@
   * Not all [[docs:templating:variable|page attribute]] can be used to filter the pages, an error message is returned if this is the case
   * The [[docs:templating:sql#filter-attribute|sql filter attribute]] have been expanded with 7 new attributes
   * More [[docs:semantic:date|date format]] are now supported
+  * A HTML [[docs:cache:page|page cache file]] may have an empty content due to timeout (or any other problem), we delete the cache in this case.
 
 
