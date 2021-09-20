@@ -1,6 +1,7 @@
 ---json
 {
     "canonical":"side_slots",
+    "name":"Sideslot cache",
     "title":"Automatic Sidebar Content Management"
 }
 ---
@@ -9,7 +10,7 @@
 
 
 ===== About =====
-The ''side slots'' (ie [[docs:layout:page:side_slot|side]] and [[docs:layout:page:sidekick_slot|sidekick]] slots) content are always up-to-date and does not require to disable the cache, increasing [[docs:performance:performance|performance]].
+The ''side slots'' (ie [[docs:layout:page:side_slot|side]] and [[docs:layout:page:sidekick_slot|sidekick]] slots) content are always up-to-date and does not require to disable the [[cache|cache]], increasing [[docs:performance:performance|performance]].
 
 
 <note>

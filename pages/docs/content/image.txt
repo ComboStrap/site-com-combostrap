@@ -24,7 +24,8 @@ All images:
   * are ''automatically reduced in size'' and ''responsive''
       * for [[docs:content:svg|svg images]], we set extra responsive properties.
       * for [[docs:content:raster|raster images]],  a small screen will receive a small image while a big screen will receive the biggest image. For more information, see [[docs:content:raster#automatic_responsive_resizing|Raster - Automatic Resizing]]
-  * support sizing via ''width'' or ''height''
+  * support scaling on ''width'', ''height'' or both
+  * are cached permanently by the server and the browser until the physical file has changed.
 
 ===== Supported Image Type =====
 ''ComboStrap'' supports:

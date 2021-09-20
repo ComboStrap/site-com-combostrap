@@ -1,59 +1,28 @@
 ---json
 {
     "canonical":"cache",
-    "title":"Set the cache expiration date of a page with the cache component",
-    "description":"With the cache component, you can manage disable the cache of a page at interval"
+    "title":"Cache Management",
+    "description":"All the caches are explained in this page, from pages to images"
 }
 ---
-
-<cache expiration="@monthly"/>
-
-====== ComboStap Performance - Cache component ======
+====== ComboStrap - Cache ======
 
 
 ===== About =====
-With the ''cache'' [[docs:component|component]], you can disable all the caches of a page at interval. 
+''cache'' is a simple and great feature that enhances [[docs:performance:performance|performance]]. 
 
+''ComboStrap'' supports two three levels of cache:
+  * Page
+  * Slot
+  * Image
 
-===== Example =====
+===== Type =====
+==== Page ====
 
-To delete your cache:
-  * daily at midnight:
-<code dw>
-<cache expiration="@daily"/>
-</code>
-  * At 12:02 on Monday
-<code dw>
-<cache expiration="02 12 * * 1"/>
-</code>
+==== Image ====
+For images, ''ComboStrap'' supports two caches:
+  * ''server cache'' that caches all processed image (for instance, [[docs:performance:svg_optimization|svg optimization]] but also [[docs:content:image#cropping|image resizing]])
+  * ''browser cache'': all images are send to the browser with a cache instruction:
+      * of an infinite amount of time 
+      * if the image file has not changed.
 
-
-
-===== Syntax =====
-
-<code dw>
-<cache expiration="cronExpression"/>
-</code>
-where ''cronExpression'' is a ''cron'' expression.
-
-<note>
-To create a ''cron'' expression easily, we recommend you the  [[https://crontab.guru/|crontab.guru wizard]]
-</note>
-
-===== How to check the next expiration date =====
-
-The expiration date can be seen in the ''date_cache_expiration'' field of the [[docs:semantic:semantic|metadata]].
-
-
-
- 
-For instance, this page has a ''monthly'' expiration, check the ''date_cache_expiration'' in the ''metadata'' field of its analytical data. 
-
-<btn>[[?do=export_combo_analytics|View the analytical data for this page]]</btn>
-
-Example of output:
-<code javascript>
-"metadata": {
-        "date_cache_expiration": "YYYY-MM-DDT00:00:00+00:00"
-}
-</code>

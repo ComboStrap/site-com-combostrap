@@ -46,7 +46,7 @@ If you only depend on the ''ComboStrap'' plugins, you can even [[docs:performanc
 ==== Cache ====
 All processing are cached by default until the page itself or a backlink page is changing.
 
-With the [[docs:performance:cache|cache component]], you can control the cache interval for more granular control.
+With the [[docs:performance:page_cache|cache component]], you can control the cache interval for more granular control.
 
 ==== Sidebar Cache Bursting ====
 
