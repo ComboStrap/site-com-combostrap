@@ -45,7 +45,7 @@ where:
   * ''path'' is:
       * for an internal image: the internal path of the dokuwiki
       * for an external image: the URL.
-  * ''W'' is the width (0 if you don't want to set it)
+  * ''W'' is the width (0 if you want to set only the height)
   * ''H'' is the height (Optional)
   * ''[ ]'' are optional spaces that indicates the alignement of the image (left, center, or right [[docs:styling:float|float]])
   * ''nolink'' will not add a [[#imagedefaultlinking|link to the image itself]].
@@ -84,6 +84,18 @@ Example of an image resized to ''250px'' height
 </code>
 </webcode>
 
+
+==== Cropping ====
+
+
+''cropping'' happens when you set a width and an height. First, the image is scaled down by height and is then cropped on the width towards the center.
+
+Example of a squared image with a ''1:1'' ratio cropped to ''200x200px''
+<webcode name="Default" frameborder="0">
+<code dw>
+{{:docs:block:stock_image_surfer_in_the_see.png?200x200|}}
+</code>
+</webcode>
 
 
 ==== Position ====
@@ -137,17 +149,7 @@ You can also use the image as [[docs:styling:background|background]].
 
 ===== Support =====
 
-==== Cropping ====
 
-
-''cropping'' works only for [[docs:content:raster|raster image]] but does not get any extra features such as [[docs:performance:lazy|lazy loading]] and styling.
-
-Example of an image cropped to ''200x200px''
-<webcode name="Default" frameborder="0">
-<code dw>
-{{:docs:block:stock_image_surfer_in_the_see.png?200x200|}}
-</code>
-</webcode>
 
 
 
