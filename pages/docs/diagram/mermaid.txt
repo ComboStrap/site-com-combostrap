@@ -1,0 +1,211 @@
+---json
+{
+    "canonical":"mermaid",
+    "title":"Create diagram with mermaid",
+    "description":"This component will render mermaid diagram"
+}
+---
+====== ComboStrap - Mermaid diagrams ======
+
+
+===== About =====
+The ''mermaid'' component will render diagrams defined with the [[https://mermaid-js.github.io/mermaid/|mermaid language]]
+
+
+
+===== Example =====
+
+==== Flowchart ====
+
+<webcode name="Flow" frameborder="0">
+  * The [[https://mermaid-js.github.io/mermaid/#/flowchart|mermaid flow chart definition]]
+```dw
+<mermaid>
+<code mermaid>
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+</code>
+</mermaid>
+```
+  * The output:
+</webcode>
+
+==== Sequence ====
+
+<webcode name="Sequence" frameborder="0">
+  * The [[https://mermaid-js.github.io/mermaid/#/sequenceDiagram|mermaid sequenceDiagram definition]]
+```dw
+<mermaid>
+<code mermaid display="none">
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+</code>
+</mermaid>
+```
+  * The output
+</webcode>
+
+==== Gant ====
+
+<webcode name="Gant" frameborder="0">
+  * The [[https://mermaid-js.github.io/mermaid/#/gantt|mermaid Gant definition]]
+```dw
+<mermaid>
+<code mermaid display="none">
+gantt
+dateFormat  YYYY-MM-DD
+title Adding GANTT diagram to mermaid
+excludes weekdays 2014-01-10
+
+section A section
+Completed task            :done,    des1, 2014-01-06,2014-01-08
+Active task               :active,  des2, 2014-01-09, 3d
+Future task               :         des3, after des2, 5d
+Future task2               :         des4, after des3, 5d
+</code>
+</mermaid>
+```
+  * The output:
+</webcode>
+
+==== Class ====
+
+<webcode name="Class" frameborder="0">
+  * The [[https://mermaid-js.github.io/mermaid/#/classDiagram|mermaid class Diagram definition]]
+```dw
+<mermaid>
+<code mermaid display="none">
+classDiagram
+Class01 <|-- AveryLongClass : Cool
+Class03 *-- Class04
+Class05 o-- Class06
+Class07 .. Class08
+Class09 --> C2 : Where am i?
+Class09 --* C3
+Class09 --|> Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+Class08 <--> C2: Cool label
+</code>
+</mermaid>
+```
+  * The output:
+</webcode>
+
+
+==== User Journey ====
+
+
+<webcode name="Sequence" frameborder="0">
+  * The [[https://mermaid-js.github.io/mermaid/#/user-journey|user journey mermaid definition]]
+```dw
+<mermaid>
+<code mermaid>
+journey
+    title My working day
+    section Go to work
+      Make tea: 5: Me
+      Go upstairs: 3: Me
+      Do work: 1: Me, Cat
+    section Go home
+      Go downstairs: 5: Me
+      Sit down: 5: Me
+</code>
+</mermaid>
+```
+  * The output:
+</webcode>
+
+==== State ====
+
+
+<webcode name="State" frameborder="0">
+  * [[https://mermaid-js.github.io/mermaid/#/stateDiagram|State Diagram]]
+```dw
+<mermaid>
+<code mermaid display="none">
+stateDiagram-v2
+    [*] --> Still
+    Still --> [*]
+
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> [*]
+</code>
+</mermaid>
+```
+  * Output:
+</webcode>
+
+==== Pie ====
+
+
+<webcode name="State" frameborder="0">
+  * [[https://mermaid-js.github.io/mermaid/#/pie|Pie Chart]]
+```dw
+<mermaid width="40%">
+<code mermaid display="none">
+pie title Pets adopted by volunteers
+    "Dogs" : 386
+    "Cats" : 85
+    "Rats" : 15
+</code>
+</mermaid>
+```
+  * Output:
+</webcode>
+
+
+==== Entity RelationShip ====
+
+
+<webcode name="ERD" frameborder="0">
+  * [[https://mermaid-js.github.io/mermaid/#/entityRelationshipDiagram|Entity RelationShip Diagram]]
+```dw
+<mermaid>
+<code mermaid display="none">
+erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+</code>
+</mermaid>
+```
+  * Output:
+</webcode>
+
+
+
+
+===== Syntax =====
+
+To render a mermaid diagram, you just need to enclose a [[docs:block:code|code block]] with [[https://mermaid-js.github.io/mermaid/#/|mermaid diagram definition language]] inside a ''mermaid'' block.
+
+```dw
+<mermaid>
+    <code mermaid display="none">
+    ... mermaid diagram definition
+    </code>
+</railroad>
+```
+
+<note>
+''display="none"'' is added to show you how to not print a [[docs:block:code|code block]] but this is optional.
+</note>
+

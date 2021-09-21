@@ -45,15 +45,15 @@ where:
 ==== Line numbers ====
 
 ''HTML'' code in a [[docs:block:code|code component]] with the following syntax,
-<file html>
+<webcode name="Default" frameborder="0">
+```dw
 <code html line-numbers="true">
     <p class="hey">Type some code here</p>
 </code>
-</file>
+```
 You will get this output:
-<code html line-numbers>
-<p class="hey">Type some code here</p>
-</code>
+</webcode>
+
 
 ==== Prompt ====
 
