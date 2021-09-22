@@ -1,0 +1,57 @@
+---json
+{
+    "canonical":"class-diagram",
+    "name":"Class Diagram",
+    "title":"How to create a class diagram with ComboStrap",
+     "description":"This article shows you how to create a class diagram."
+}
+---
+====== ComboStrap Diagram - Class Diagram ======
+
+===== About =====
+The ''class-diagram'' component is a [[diagram|diagram component]] that permits to create a ''class diagram''.
+
+
+===== Example =====
+
+
+<webcode name="ClassDiagram" frameborder="0">
+  * The markup
+```dw
+<class-diagram>
+classDiagram
+	Class01 <|-- AveryLongClass : Cool
+	Class03 *-- Class04
+	Class05 o-- Class06
+	Class07 .. Class08
+	Class09 --> C2 : Where am i?
+	Class09 --* C3
+	Class09 --|> Class07
+	Class07 : equals()
+	Class07 : Object[] elementData
+	Class01 : size()
+	Class01 : int chimp
+	Class01 : int gorilla
+	Class08 <--> C2: Cool label
+</class-diagram>
+```
+  * The output:
+</webcode>
+
+===== Syntax =====
+
+
+
+The syntax is based on the [[https://mermaid-js.github.io/mermaid/#/classDiagram|mermaid class Diagram definition]]
+
+<code dw>
+<flowchart>
+   ... Mermaid Class Diagram definition ...
+</flowchart>
+</code>
+
+<note>
+Mermaid offers a [[https://mermaid-js.github.io/mermaid-live-editor|live editor]] that you can use to validate and develop your diagrams.
+</note>
+
+This component is based on the [[docs:utility:mermaid|mermaid component]].

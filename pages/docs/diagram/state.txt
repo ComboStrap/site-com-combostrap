@@ -1,0 +1,51 @@
+---json
+{
+    "canonical":"state-diagram",
+    "name":"State Diagram",
+    "title":"How to create a state diagram with ComboStrap",
+     "description":"This article shows you how to create a state diagram."
+}
+---
+====== ComboStrap Diagram - State Diagram ======
+
+===== About =====
+The ''state-diagram'' component is a [[diagram|diagram component]] that permits to create ''state diagram''.
+
+
+===== Example =====
+
+
+<webcode name="State" frameborder="0">
+  * The markup
+```dw
+<state-diagram>
+stateDiagram-v2
+    direction LR
+    [*] --> Still
+    Still --> [*]
+
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> [*]
+</state-diagram>
+```
+  * The output:
+</webcode>
+
+===== Syntax =====
+
+
+The syntax is based on the [[https://mermaid-js.github.io/mermaid/#/stateDiagram|State Diagram Mermaid Definition]]
+
+<code dw>
+<state-diagram>
+   ... Mermaid State Diagram definition ...
+</state-diagram>
+</code>
+
+<note>
+Mermaid offers a [[https://mermaid-js.github.io/mermaid-live-editor|live editor]] that you can use to validate and develop your diagrams.
+</note>
+
+This component is based on the [[docs:utility:mermaid|mermaid component]].

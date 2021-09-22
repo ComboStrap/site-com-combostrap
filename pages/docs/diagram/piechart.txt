@@ -1,0 +1,46 @@
+---json
+{
+    "canonical":"pie-chart",
+    "name":"Pie Chart",
+    "title":"How to create a Pie Chart with ComboStrap",
+     "description":"This article shows you how to create a Pie Chart."
+}
+---
+====== ComboStrap Diagram - PieChart ======
+
+===== About =====
+The ''piechart'' component is a [[diagram|diagram component]] that permits to create a ''Pie Chart''.
+
+
+===== Example =====
+
+
+<webcode name="Erd" frameborder="0">
+  * The markup
+```dw
+<piechart width="350">
+pie title Pets adopted by volunteers
+    "Dogs" : 386
+    "Cats" : 85
+    "Rats" : 15
+</piechart>
+```
+  * The output:
+</webcode>
+
+===== Syntax =====
+
+
+The syntax is based on the [[https://mermaid-js.github.io/mermaid/#/pie|Pie Chart Mermaid Definition]]
+
+<code dw>
+<piechart>
+   ... Mermaid Pie Chart definition ...
+</piechart>
+</code>
+
+<note>
+Mermaid offers a [[https://mermaid-js.github.io/mermaid-live-editor|live editor]] that you can use to validate and develop your diagrams.
+</note>
+
+This component is based on the [[docs:utility:mermaid|mermaid component]].

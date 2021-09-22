@@ -1,0 +1,74 @@
+---json
+{
+    "canonical":"mermaid",
+    "title":"Create diagram with mermaid",
+    "description":"This component will render mermaid diagram"
+}
+---
+====== ComboStrap - Mermaid diagrams ======
+
+
+===== About =====
+''mermaid'' is a library that renders diagram/chart based on a markup definition.
+
+To ease the creation of mermaid diagram, we have created the following component that accepts directly the mermaid diagram definition
+
+  * [[:docs:diagram:erd]]
+  * [[..:diagram:gantt]]
+  * [[..:diagram:flowchart]]
+  * [[docs:diagram:piechart]]
+  * [[..:diagram:sequence]]
+  * [[:docs:diagram:state]]
+  * [[:docs:diagram:user-journey]]
+
+
+
+If for any reason, you wanted to show up also the diagram definition, you can use the below ''mermaid''.
+
+===== Syntax =====
+
+To render a mermaid diagram, you just need to enclose a [[docs:block:code|code block]] with [[https://mermaid-js.github.io/mermaid/#/|mermaid diagram definition language]] inside a ''mermaid'' block.
+
+<note>
+Mermaid offers a [[https://mermaid-js.github.io/mermaid-live-editor|live editor]] that you can use to validate and develop your diagrams.
+</note>
+
+```dw
+<mermaid>
+    <code mermaid display="none">
+    ... mermaid diagram definition
+    </code>
+</railroad>
+```
+
+<note>
+''display="none"'' is added to show you how to not print a [[docs:block:code|code block]] but this is optional.
+</note>
+
+===== Example =====
+
+
+<webcode name="State" frameborder="0">
+  * With a [[docs:diagram:state|state diagram]]
+```dw
+<mermaid>
+<code mermaid>
+stateDiagram-v2
+    Direction LR
+    [*] --> Still
+    Still --> [*]
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> [*]
+</code>
+</mermaid>
+```
+  * Output:
+</webcode>
+
+
+===== Security =====
+On a [[:security|security level]]:
+  * the [[https://mermaid-js.github.io/mermaid/#/usage?id=securitylevel|level of security]] is set to ''strict'' 
+  * and we does not authorize ''script'', ''style'', ''iframe'' tag and ''on'' attribute handler.

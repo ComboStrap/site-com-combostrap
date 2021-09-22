@@ -1,0 +1,46 @@
+---json
+{
+    "canonical":"erd",
+    "name":"Entity RelationShip Diagram",
+    "title":"How to create a Entity RelationShip Diagram with ComboStrap",
+     "description":"This article shows you how to create a Entity RelationShip Diagram."
+}
+---
+====== ComboStrap Diagram - Entity RelationShip Diagram (ERD) ======
+
+===== About =====
+The ''erd'' component is a [[diagram|diagram component]] that permits to create an ''Entity RelationShip Diagram''.
+
+
+===== Example =====
+
+
+<webcode name="Erd" frameborder="0">
+  * The markup
+```dw
+<erd>
+erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+</erd>
+```
+  * The output:
+</webcode>
+
+===== Syntax =====
+
+
+The syntax is based on the [[https://mermaid-js.github.io/mermaid/#/entityRelationshipDiagram|Entity RelationShip Diagram Mermaid Definition]]
+
+<code dw>
+<erd>
+   ... Mermaid ERD definition ...
+</erd>
+</code>
+
+<note>
+Mermaid offers a [[https://mermaid-js.github.io/mermaid-live-editor|live editor]] that you can use to validate and develop your diagrams.
+</note>
+
+This component is based on the [[docs:utility:mermaid|mermaid component]].

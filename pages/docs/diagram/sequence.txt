@@ -1,6 +1,6 @@
 ---json
 {
-    "canonical":"sequence",
+    "canonical":"sequence-diagram",
     "name":"Sequence Diagram",
     "title":"How to create a sequence diagram with ComboStrap (UML)",
      "description":"This article shows you how to create a UML sequence diagram."
@@ -37,10 +37,6 @@ sequenceDiagram
 
 ===== Syntax =====
 
-==== Sequence ====
-
-
-
 
 The syntax is based on the  [[https://mermaid-js.github.io/mermaid/#/sequenceDiagram|mermaid sequenceDiagram definition]]
 
@@ -50,5 +46,8 @@ The syntax is based on the  [[https://mermaid-js.github.io/mermaid/#/sequenceDia
 </gant>
 </code>
 
+<note>
+Mermaid offers a [[https://mermaid-js.github.io/mermaid-live-editor|live editor]] that you can use to validate and develop your diagrams.
+</note>
 
-This component is based on the [[docs:diagram:mermaid|mermaid component]].
+This component is based on the [[docs:utility:mermaid|mermaid component]].

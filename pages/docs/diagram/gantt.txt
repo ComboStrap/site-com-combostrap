@@ -1,0 +1,50 @@
+---json
+{
+    "canonical":"gantt",
+    "name":"Gantt",
+    "title":"How to create a gantt diagram with ComboStrap",
+     "description":"This article shows you how to create a Gantt diagram."
+}
+---
+====== ComboStrap Diagram - Gantt ======
+
+===== About =====
+The ''gantt'' component is a [[diagram|diagram component]] that permits to create a ''gantt diagram''
+
+
+===== Example =====
+
+
+<webcode name="Gant" frameborder="0">
+  * The markup
+```dw
+<gantt>
+gantt
+    title A Gantt Diagram
+    dateFormat  YYYY-MM-DD
+    section Section
+    A task           :a1, 2014-01-01, 30d
+    Another task     :after a1  , 20d
+    section Another
+    Task in sec      :2014-01-12  , 12d
+    another task      : 24d
+</gantt>
+```
+  * The output:
+</webcode>
+
+===== Syntax =====
+
+The syntax is based on the  [[https://mermaid-js.github.io/mermaid/#/gantt|mermaid Gantt definition]]
+
+<code dw>
+<gantt>
+   ... Mermaid Gantt definition ...
+</gantt>
+</code>
+
+<note>
+Mermaid offers a [[https://mermaid-js.github.io/mermaid-live-editor|live editor]] that you can use to validate and develop your diagrams.
+</note>
+
+This component is based on the [[docs:utility:mermaid|mermaid component]].

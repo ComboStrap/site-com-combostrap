@@ -6,12 +6,12 @@
 
 If your diagrams are in a ''svg'' format, you can just render them with the [[docs:content:svg|svg component]].
 
-Otherwise, you can use the following components to create and render diagram.
+Otherwise, you can use the following components to create and render diagrams.
   * [[class]]
   * [[erd]]
   * [[flowchart]]
-  * [[gant]]
-  * [[pie]]
+  * [[gantt]]
+  * [[piechart]]
   * [[railroad]]
   * [[sequence]]
   * [[state]]

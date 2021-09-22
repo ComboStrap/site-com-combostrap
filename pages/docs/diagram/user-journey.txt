@@ -1,0 +1,51 @@
+---json
+{
+    "canonical":"journey",
+    "name":"User Journey Diagram",
+    "title":"How to create a user-journey diagram with ComboStrap",
+     "description":"This article shows you how to create a user-journey diagram."
+}
+---
+====== ComboStrap Diagram - User Journey Diagram ======
+
+===== About =====
+The ''journey'' component is a [[diagram|diagram component]] that permits to create a ''user journey diagram''.
+
+
+===== Example =====
+
+
+<webcode name="User" frameborder="0">
+  * The markup
+```dw
+<journey>
+journey
+    title My working day
+    section Go to work
+      Make tea: 5: Me
+      Go upstairs: 3: Me
+      Do work: 1: Me, Cat
+    section Go home
+      Go downstairs: 5: Me
+      Sit down: 5: Me
+</journey>
+```
+  * The output:
+</webcode>
+
+===== Syntax =====
+
+
+The syntax is based on the  [[https://mermaid-js.github.io/mermaid/#/user-journey|user journey mermaid definition]]
+
+<code dw>
+<journey>
+   ... Mermaid User Journey Diagram definition ...
+</journey>
+</code>
+
+<note>
+Mermaid offers a [[https://mermaid-js.github.io/mermaid-live-editor|live editor]] that you can use to validate and develop your diagrams.
+</note>
+
+This component is based on the [[docs:utility:mermaid|mermaid component]].
