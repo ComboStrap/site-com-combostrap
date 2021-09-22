@@ -27,10 +27,14 @@
   * More [[docs:semantic:date|date format]] are now supported
   * A HTML [[docs:cache:page|page cache file]] may have an empty content due to timeout (or any other problem), we delete the cache in this case.
 
+==== Modified ====
+
+  * The [[docs:semantic:frontmatter#configuration|auto-frontmatter]] configuration has been disabled. Users could just not see it and leave with the default value without changing them.
 ==== Migration ====
   * The [[docs:utility:prism|prism]] component uses now the last version 1.25 with added language support for highligting.
 
 ==== Bug ====
   * The [[docs:diagram:railroad|railroad]] could overflow. There is now a lift if this is the case.
+  * The [[docs:diagram:railroad|railroad]] SRI browser control is not the same, we have added also the version number in the path.
   * A space would be missing after an acronym link in a note. ie the space before the ''and'' in ''%%[[path|ACCR]] and%%'' would have been deleted.
 
