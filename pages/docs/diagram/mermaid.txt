@@ -33,30 +33,7 @@ graph TD;
   * The output:
 </webcode>
 
-==== Sequence ====
-
-<webcode name="Sequence" frameborder="0">
-  * The [[https://mermaid-js.github.io/mermaid/#/sequenceDiagram|mermaid sequenceDiagram definition]]
-```dw
-<mermaid>
-<code mermaid display="none">
-sequenceDiagram
-    participant Alice
-    participant Bob
-    Alice->>John: Hello John, how are you?
-    loop Healthcheck
-        John->>John: Fight against hypochondria
-    end
-    Note right of John: Rational thoughts <br/>prevail!
-    John-->>Alice: Great!
-    John->>Bob: How about you?
-    Bob-->>John: Jolly good!
-</code>
-</mermaid>
-```
-  * The output
-</webcode>
-
+  * [[sequence]]
 ==== Gant ====
 [[gant]]
 ==== Class ====
@@ -176,6 +153,10 @@ erDiagram
 
 To render a mermaid diagram, you just need to enclose a [[docs:block:code|code block]] with [[https://mermaid-js.github.io/mermaid/#/|mermaid diagram definition language]] inside a ''mermaid'' block.
 
+<note>
+Mermaid offers a [[https://mermaid-js.github.io/mermaid-live-editor|live editor]] that you can use to validate and develop your diagrams.
+</note>
+
 ```dw
 <mermaid>
     <code mermaid display="none">
@@ -191,4 +172,4 @@ To render a mermaid diagram, you just need to enclose a [[docs:block:code|code b
 ===== Security =====
 On a [[:security|security level]]:
   * the [[https://mermaid-js.github.io/mermaid/#/usage?id=securitylevel|level of security]] is set to ''strict'' 
-  * and we escape the content (ie all script or style tag are disabled)
+  * and we does not authorize ''script'', ''style'', ''iframe'' tag and ''on'' attribute handler.

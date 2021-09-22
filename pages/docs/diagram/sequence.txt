@@ -1,0 +1,54 @@
+---json
+{
+    "canonical":"sequence",
+    "name":"Sequence Diagram",
+    "title":"How to create a sequence diagram with ComboStrap (UML)",
+     "description":"This article shows you how to create a UML sequence diagram."
+}
+---
+====== ComboStrap Diagram - Sequence UML Diagram ======
+
+===== About =====
+The ''sequence-diagram'' component is a [[diagram|diagram component]] that permits to create ''UML sequence diagram''.
+
+
+===== Example =====
+
+
+<webcode name="Gant" frameborder="0">
+  * The markup
+```dw
+<sequence-diagram>
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+</sequence-diagram>
+```
+  * The output:
+</webcode>
+
+===== Syntax =====
+
+==== Sequence ====
+
+
+
+
+The syntax is based on the  [[https://mermaid-js.github.io/mermaid/#/sequenceDiagram|mermaid sequenceDiagram definition]]
+
+<code dw>
+<gant>
+   ... Mermaid Sequence Diagram definition ...
+</gant>
+</code>
+
+
+This component is based on the [[docs:diagram:mermaid|mermaid component]].
