@@ -19,6 +19,8 @@
   * New [[docs:semantic:date|date]] page to describe the date format.
   * We support now [[docs:content:image#cropping|cropped image]] on all [[docs:content:raster|raster image feature]] such as [[docs:performance:lazy|lazy loading]], responsiveness and more
   * All [[docs:content:image|image]] have now a [[docs:cache:cache|cache]] buster that will make the HTML img URL not valid if the image has been changed
+  * The [[docs:diagram:sequence|sequence diagram]]
+  * The [[docs:diagram:gant|Gant diagram]]
   * The [[docs:diagram:mermaid|mermaid]] component to render diagram with the ''mermaid'' library (from sequence to gant, to state and other UML diagram)
 
 ==== Improvement ====
