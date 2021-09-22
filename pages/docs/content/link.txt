@@ -34,6 +34,10 @@ Internal Links can also be [[?color=#495057|styled]]
   * Result:
 </webcode>
 
+<note>
+The default description if not set is the [[docs:semantic:name|page name]].
+</note>
+
 
 ==== External ====
 

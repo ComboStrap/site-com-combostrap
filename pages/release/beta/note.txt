@@ -81,7 +81,19 @@ An intuitive Git-based workflow and powerful serverless platform to build, deplo
 
 ==== Tag ====
 
-As image
+Create tag page as image in frontmatter
+
+==== Snapshot as illustration ====
+
+https://datacadamia.com/web/browser/screenshot#webdriver
+
+Example: https://threadreaderapp.com/images/screenshots/thread/1440247034187968519.jpg for the [[https://threadreaderapp.com/thread/1440247034187968519.html|page]]
+  * Image: 1200 x 628
+  * Resolution 72,00
+
+Or service such as:
+  * https://www.site-shot.com/
+  * https://screenshotlayer.com/
 ===== Cookie banner =====
 Good example at: https://groningen.nl/en/
 
@@ -289,3 +301,5 @@ Features:
   * https://barba.js.org/docs/advanced/strategies/#Prefetch (Prefetch on hover)
 
 Since there is a 100-300ms delay during the user hover and the click, Barba use this time to start prefetching the next page. Most of time, this is enough to get the next page ready.
+
+

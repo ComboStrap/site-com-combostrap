@@ -15,7 +15,9 @@ The page ''name'' is a metadata that stores the shortest [[description|descripti
 
 It can be used in place where long description are not welcome such as the [[docs:navigation:page-explorer|page-explorer]]
 
-This ''name'' will show up in the [[docs:content:link#preview|link preview as title]].
+This ''name'' will show up:
+  * in the [[docs:content:link?preview#preview|link preview as title]].
+  * as default name for a [[docs:content:link#internal|internal link]]
 
 
 
@@ -24,13 +26,11 @@ This ''name'' will show up in the [[docs:content:link#preview|link preview as ti
 
 ===== How to set a name =====
 
-By default, the value of the name is the last part of the page id but you can overwrite it by adding a ''name'' property in the [[frontmatter|frontmatter]]
+By default, the value of the name is the last part of the [[docs:semantic:path|path]] but you can overwrite it by adding a ''name'' property in the [[frontmatter|frontmatter]]
 
 Example:
 <code javascript>
----json
 {
     "name":"Page Name"
 }
----
 </code>

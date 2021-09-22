@@ -1,0 +1,15 @@
+====== ComboStrap Diagram ======
+
+
+===== About =====
+''ComboStrap'' is able to generate the following diagrams:
+  * [[class]]
+  * [[erd]]
+  * [[flowchart]]
+  * [[gant]]
+  * [[pie]]
+  * [[railroad]]
+  * [[sequence]]
+  * [[state]]
+  * [[user-journey]]
+
