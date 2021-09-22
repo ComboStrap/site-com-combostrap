@@ -188,3 +188,7 @@ To render a mermaid diagram, you just need to enclose a [[docs:block:code|code b
 ''display="none"'' is added to show you how to not print a [[docs:block:code|code block]] but this is optional.
 </note>
 
+===== Security =====
+On a [[:security|security level]]:
+  * the [[https://mermaid-js.github.io/mermaid/#/usage?id=securitylevel|level of security]] is set to ''strict'' 
+  * and we escape the content (ie all script or style tag are disabled)
