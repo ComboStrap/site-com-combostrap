@@ -23,7 +23,7 @@ To ease the creation of mermaid diagram, we have created the following component
 
 
 
-If for any reason, you wanted to show up also the diagram definition, you can use the below ''mermaid''.
+If for any reason, you wanted to show up also the diagram definition, you can use the below ''mermaid'' component.
 
 ===== Syntax =====
 

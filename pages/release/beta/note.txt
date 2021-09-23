@@ -94,6 +94,19 @@ Example: https://threadreaderapp.com/images/screenshots/thread/14402470341879685
 Or service such as:
   * https://www.site-shot.com/
   * https://screenshotlayer.com/
+
+
+==== Git ====
+
+One branch, one website.
+
+Files:
+  * conf
+  * data:
+      * media
+      * pages
+
+https://www.dokuwiki.org/plugin:gitbacked
 ===== Cookie banner =====
 Good example at: https://groningen.nl/en/
 
@@ -196,9 +209,7 @@ https://docs.github.com/en/github/building-a-strong-community/manually-creating-
 https://github.com/giterlizzi/dokuwiki-template-bootstrap3/tree/master/.github
 
 
-===== Git =====
 
-https://www.dokuwiki.org/plugin:gitbacked
 
 ===== Bad Behavior =====
 
