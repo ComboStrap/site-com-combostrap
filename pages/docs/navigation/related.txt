@@ -1,14 +1,22 @@
+---json
+{
+    "canonical":"related",
+    "name":"Related",
+    "title":"Related Component - Add backlinks into your page",
+     "description":"The related component will add backlinks into the content of your page"
+}
+---
+
 ====== ComboStrap UI - Related ======
 
 
 ===== About =====
-''related'' is a [[docs:component|ComboStrap UI component]] that shows the [[kb>backlink|backlinks]] of a page ordered by their importance.
+''related'' is a [[docs:component|ComboStrap UI component]] that shows the [[backlink|backlinks]] of a page ordered by their importance.
 
 
 The more backlinks has a page, the more important it is.
 
-===== Articles Related =====
-{{backlinks>.}}
+
 
 ===== Syntax =====
 
@@ -19,8 +27,16 @@ The more backlinks has a page, the more important it is.
 </webcode>
 
 ===== Configuration =====
-  * The max numbers of backlinks can be set. Default value: ''10''
-  * An extra pattern can also be set if you come for instance from the [[doku>plugin:backlinks|backlinks plugin]]. Default value: ''%%{{backlinks>.}}%%''
+==== Maximum number of backlinks ====
+The max numbers of backlinks can be set. Default value: ''10''
+
+==== Link Content ====
+The link content follows the [[doku>config:useheading]] configuration.
+
+==== Extra Pattern ====
+
+An extra pattern can also be set if you come for instance from the [[doku>plugin:backlinks|backlinks plugin]]. Default value: ''%%{{backlinks>.}}%%''
+
 
 
 

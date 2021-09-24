@@ -11,6 +11,11 @@
 ===== About =====
 
 
+
+<note warning>
+=== Breaking ===
+With the advent of the [[docs:templating:iterator|iterator]], we have standardized the analytics name. If you have queries running on the [[docs:analytics:statistics|statistics data]], you should change them. All count name are now singular. For instance: ''internal_backlinks_count'' is now ''internal_backlink_count'', ''emails_count'' is now ''emails_count'', ...
+</note>
 ===== List =====
 
 
@@ -28,6 +33,7 @@
       * [[:docs:diagram:state]]
       * [[:docs:diagram:user-journey]]
   * Based on the [[docs:utility:mermaid|mermaid]] component (to render diagram with the ''mermaid'' library)
+  * ''backlinks'': Added the [[docs:navigation:backlink|backlink page]], the pages tables get also the ''backlink_count'' column
 
 ==== Improvement ====
   * A [[docs:templating:template|template]] sends an error when the [[docs:templating:variable|page attribute]] was not found.
@@ -37,6 +43,7 @@
   * The [[docs:templating:sql#filter-attribute|sql filter attribute]] have been expanded with 7 new attributes
   * More [[docs:semantic:date|date format]] are now supported
   * A HTML [[docs:cache:page|page cache file]] may have an empty content due to timeout (or any other problem), we delete the cache in this case.
+  * [[docs:navigation:related|Related]] follows now the useheading configuration of dokuwiki
 
 ==== Modified ====
 

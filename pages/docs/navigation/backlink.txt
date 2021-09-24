@@ -1,0 +1,39 @@
+---json
+{
+    "canonical":"backlink",
+    "title":"Backlinks management in ComboStrap",
+     "description":"Backlinks are important because they give extra-navigation possibilities and gives also more weight to pages. This article tell you everything about backlinks in ComboStrap"
+}
+---
+====== ComboStrap - Backlink Page ======
+
+
+===== About =====
+A ''backlink'' is a page that contains a [[docs:content:link|link]] with a [[docs:semantic:path|path]] to the rendered page.
+
+
+
+===== List =====
+
+
+You can see them with the ''backlinks'' action of the [[docs:layout:page:railbar|railbar]]
+
+{{:docs:navigation:backlink_action.png|}}
+
+===== Add them in the content of your page =====
+
+You can add them to your page as content with the [[docs:navigation:related|related component]]
+
+Example:
+**The markup**
+<webcode name="Default" frameborder="0">
+<code dw>
+<related/>
+</code>
+**The output:**
+</webcode>
+
+
+===== Statistics =====
+
+The backlinks are also available the [[docs:analytics:statistics|statistics data]].

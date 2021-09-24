@@ -51,43 +51,42 @@ You can see them by having a look to the [[data|data]] of a page with the export
 You would see the ''statistics'' below the ''statistics'' property:
 <code json>
 "statistics": {
-	"chars_count": 1919,
+	"char_count": 1919,
 	"fixme": 0,
-	"headers_count": {
+	"header_count": {
 		"h1": 1,
 		"h2": 3
 	},
-	"internal_backlinks_count": 5,
-	"internal_links_count": 3,
-	"internal_links_distance": {
+	"internal_backlink_count": 5,
+	"internal_link_count": 3,
+	"internal_link_distance": {
 		"avg": 0,
 		"max": 0,
 		"min": 0
 	},
 	"word_section_count": {
 		"avg": 75
-	},
-	"late publication page": 225
+	}
 }
 </code>
 
 ===== Definition =====
 
   * ''authors'' the authors and their number of edits
-  * ''edits_count'': the number of edits
-  * ''chars_count'': the number of chars
+  * ''edit_count'': the number of edits
+  * ''char_count'': the number of chars
   * ''fixme'': the number of ''fixme'' present in the page
-  * ''headers_count'': the number of headers by level
-  * ''internal_backlinks_count'': the number of internal backlinks
-  * ''internal_links_count'': the number of internal links
-  * ''internal_broken_links_count'': the number of internal [[docs:quality:broken_link|broken links]]
-  * ''internal_links_distance'': the distance of the internal links with the actual page. A value 2 would mean that you need to go in the directory structure:
+  * ''heading_count'': the number of [[docs:content:heading|heading]] by level
+  * ''internal_backlink_count'': the number of internal [[docs:navigation:backlink|backlinks]]
+  * ''internal_link_count'': the number of internal links
+  * ''internal_broken_link_count'': the number of internal [[docs:quality:broken_link|broken links]]
+  * ''internal_link_distance'': the distance of the internal links with the actual page. A value 2 would mean that you need to go in the directory structure:
         * down or up 2 times
         * or down one time and up one time
-  * ''interwiki_links_count'': the number of interwiki links (ie such as this one [[doku>interwiki]])
-  * ''local_links_count'': the number of local links (ie fragment link such as ''#id'')
+  * ''interwiki_link_count'': the number of interwiki links (ie such as this one [[doku>interwiki]])
+  * ''local_link_count'': the number of local links (ie fragment link such as ''#id'')
   * ''word_section_count'': summary on words by section
-  * ''late publication page'': the number of words.
+  * ''word_count'': the number of words.
   * [[syntax_count|syntax_count]] shows the number of times that a syntax is used.
 
 ==== Media ====
