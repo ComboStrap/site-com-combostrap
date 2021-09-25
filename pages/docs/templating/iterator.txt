@@ -43,6 +43,7 @@ select date_modified, path, h1, description, name order by date_modified desc li
     <masonry>
         <template>
             <card clickable>
+            <page-image path="$path" ratio="4:3"/>
             === $h1 ===
             $description [[$path| ]]
             </card>

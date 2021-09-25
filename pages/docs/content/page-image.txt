@@ -1,0 +1,67 @@
+---json
+{
+    "canonical": "page-image",
+    "name":"Page Image",
+    "title": "Page-image Component: Renders the illustrative image of your page",
+    "description": "Page-image is a component that renders the illustrative image of the page and is generally used in a template",
+    "image": ":docs:content:surfer600.png"
+}
+---
+====== ComboStrap UI - Page Image Component ======
+
+
+===== About =====
+''page-image'' is a [[content|content component]] that chooses and renders one of the [[docs:semantic:image|page images]] (illustration, thumbnail) defined for a page.
+
+
+<note>
+This component is generally used in a [[docs:templating:iterator|template iteration]] to create illustrative image for [[docs:block:block|block component]] (mainly for [[docs:block:card|cards]])
+</note>
+
+
+The generated image inherits all [[docs:content:image|images features]] such as lazy loading and responsiveness.
+
+===== Example =====
+
+==== The original page image ====
+
+This example shows the [[docs:semantic:image|page image]] of this page (We have set it to the image of a surfer)
+
+<webcode name="Default" frameborder="0">
+<code dw>
+<page-image path=":docs:content:page-image" />
+</code>
+</webcode>
+
+==== A page image with a 4:3 ratio ====
+
+Note that the image has an intrinsic ratio of ''16:9'', we can change it to a ratio of ''4:3'' with the below markup.
+
+<webcode name="Default" frameborder="0">
+<code dw>
+<page-image path=":docs:content:page-image" ratio="4:3"/>
+</code>
+</webcode>
+
+===== Syntax =====
+
+<code dw>
+<page-image path="path" ratio="ratio"/>
+</code>
+where:
+  * ''path'' is the [[docs:semantic:path|path]] of a page
+  * ''ratio'' is the ratio of the image (default to original):
+      * ''4:3''
+      * ''16:9''
+      * ''1:1''
+
+When the ''ratio'' is set, the algorithm will:
+  * select the image in the set of [[docs:semantic:image|page image]] with the most equivalent ratio
+  * [[docs:content:image#cropping|crop]] the image to fit the ratio
+
+<note>
+The ratio is important in a [[docs:templating:iterator|template iteration]] because it permits to get the same height for all images. This way the layout will get a consistent and peaceful visual.
+</note>
+
+
+
