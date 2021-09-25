@@ -3,7 +3,7 @@
     "canonical": "page-image",
     "name":"Page Image",
     "title": "Page-image Component: Renders the illustrative image of your page",
-    "description": "Page-image is a component that renders the illustrative image of the page and is generally used in a template",
+    "description": "Page-image is a component that renders the illustrative image of the page and is generally used in a template.",
     "image": ":docs:content:surfer600.png"
 }
 ---
@@ -51,8 +51,8 @@ Note that the image has an intrinsic ratio of ''16:9'', we can change it to a ra
 where:
   * ''path'' is the [[docs:semantic:path|path]] of a page
   * ''ratio'' is the ratio of the image (default to original):
-      * ''4:3''
       * ''16:9''
+      * ''4:3''
       * ''1:1''
 
 When the ''ratio'' is set, the algorithm will:
@@ -63,5 +63,20 @@ When the ''ratio'' is set, the algorithm will:
 The ratio is important in a [[docs:templating:iterator|template iteration]] because it permits to get the same height for all images. This way the layout will get a consistent and peaceful visual.
 </note>
 
+===== Card Support =====
 
 
+A page-image is supported as illustrative image for a [[docs:block:card|card]]
+
+Example a card with data of this page (thanks to the [[docs:templating:template|template component]])
+<webcode name="Default" frameborder="0">
+<code dw>
+<template>
+    <card clickable width="300">
+        <page-image path="$path" ratio="16:9"/>
+        === $h1 ===
+        $description [[$path| ]]
+    </card>
+</template>
+</code>
+</webcode>

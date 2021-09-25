@@ -27,6 +27,7 @@ The supported attribute can be used:
   * ''date_start'' - the start date of an [[docs:semantic:event|event]]
   * ''date_end'' - the end date of an [[docs:semantic:event|event]]
   * ''word_count'' - the number of word in a page
+  * ''backlink_count'' -  the number of [[docs:navigation:backlink|backlinks]]
   * ''type'' - the [[docs:semantic:type|type of page]]
   * ''is_low_quality'' - a boolean that is set o 1 if the page is of [[docs:quality:low_quality_page|low quality]]
 

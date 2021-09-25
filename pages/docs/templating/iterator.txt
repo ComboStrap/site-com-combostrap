@@ -25,11 +25,12 @@ You may apply the following layout:
 The below ''iterator'' example:
   * will generate the last 4 modified pages (defined by the [[sql|page sql]] in the ''data'' node)
 <code sql>
-select date_modified, path, h1, description, name order by date_modified desc limit 4
+select order by date_modified desc limit 4
 </code>
   * as a list of [[docs:block:card|card]] (defined in the [[docs:templating:template|template]] node)
   * laid out in a [[docs:layout:component:masonry|masonry layout]]
-  * with an [[docs:content:heading|display heading]]
+  * with a [[docs:content:heading|display heading]] (ie ''heading d3'')
+  * and the [[docs:content:page-image|illustrative image of the page]] (ie ''page-image'')
 
 <hr/>
 
@@ -37,13 +38,13 @@ select date_modified, path, h1, description, name order by date_modified desc li
 **The iterator markup:**
 <code dw>
 <iterator>
-    <data>select date_modified, path, h1, description, name order by date_modified desc limit 4</data>
+    <data>select order by date_modified desc limit 4</data>
 
     <heading d3 text-align="center" spacing="mb-3"> The last 4 Changes </heading>
     <masonry>
         <template>
             <card clickable>
-            <page-image path="$path" ratio="4:3"/>
+            <page-image path="$path" ratio="16:9"/>
             === $h1 ===
             $description [[$path| ]]
             </card>
@@ -57,7 +58,7 @@ select date_modified, path, h1, description, name order by date_modified desc li
 ===== Syntax =====
 <code dw>
 <iterator>
-   <data>select variable1, variable2 where variable3 = 'xxx'</data>
+   <data>select where variable = 'xxx'</data>
    ... header  markup...
    <template>$variable1 ... $variable2</template>
    ... footer  markup...
