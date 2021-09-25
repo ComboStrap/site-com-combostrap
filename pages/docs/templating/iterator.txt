@@ -54,7 +54,6 @@ select date_modified, path, h1, description, name order by date_modified desc li
 **The Result:**
 </webcode>
 
-
 ===== Syntax =====
 <code dw>
 <iterator>
