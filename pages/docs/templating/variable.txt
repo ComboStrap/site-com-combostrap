@@ -30,6 +30,7 @@ The supported attribute can be used:
   * ''backlink_count'' -  the number of [[docs:navigation:backlink|backlinks]]
   * ''type'' - the [[docs:semantic:type|type of page]]
   * ''is_low_quality'' - a boolean that is set o 1 if the page is of [[docs:quality:low_quality_page|low quality]]
+  * ''lang'' - the [[docs:styling:lang|lang]] of a page
 
 And all [[docs:semantic:frontmatter|frontmatter metadatas]] that are scalar (ie no array). Basically, all metadata that can be seen in the [[docs:analytics:data|scalar metadata node of the analytics data]] can be used as attribute.
 

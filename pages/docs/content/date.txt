@@ -1,0 +1,104 @@
+---json
+{
+    "canonical":"content:date",
+    "title":"Date Component: display a date in any format you wish",
+     "description":"With the date component, you can print a date in any format (from today's date to page date)",
+     "date_published":"2021-09-26"
+}
+---
+
+====== ComboStrap - Date Component ======
+
+===== About =====
+With the date component, you can format any date:
+  * the today's date
+  * any [[docs:semantic:date|string date]]
+  * or any [[docs:templating:variable|page date attribute]] such as:
+      * ''date_created'' or ''date_modified''  of a page
+      * ''date_published'' (if specified, see [[docs:semantic:published]])
+      * ''date_start'' or ''date_end'' of an [[docs:semantic:event|event]]
+
+
+
+
+===== Example =====
+
+==== Today's date ====
+
+<webcode name="Default" frameborder="0">
+  * The markup
+<code dw>
+<date/>
+</code>
+  * The output is a date formatted to the default format.
+</webcode>
+<note>
+To have it refresh every day, we expire the [[docs:cache:cache|cache date daily]]
+<code dw>
+<cache expiration="@daily"/>
+</code>
+</note>
+<cache expiration="@daily"/>
+
+==== Today's date - short format ====
+
+<webcode name="Default" frameborder="0">
+  * Today's date with a short month description and the day number US style
+<code dw>
+<date format="%h %d"/>
+</code>
+  * The output:
+</webcode>
+
+
+==== Today's date in French ====
+
+
+<webcode name="Default" frameborder="0">
+  * The markup with the [[docs:semantic:lang|lang]] attribute
+<code dw>
+<date lang="fr"/>
+</code>
+  * The output is a date formatted with French word.
+</webcode>
+
+==== Date specified manually ====
+
+
+<webcode name="Default" frameborder="0">
+  * When you specify a date, you need to write it in a [[docs:semantic:date|accepted date format]]
+<code dw>
+<date format="%A">2021-09-27</date>
+</code>
+  * The output gives the day name of the date (ie ''%A'')
+</webcode>
+
+==== Date of a page ====
+
+With a [[docs:templating:template|template component]], you can even print a date metadata of a page.
+<webcode name="Default" frameborder="0">
+  * For instance, for the [[docs:semantic:published|published date]] of this article
+<code dw>
+<template>
+    <date>$date_published</date>
+</template>
+</code>
+  * The output will be:
+</webcode>
+
+===== Syntax =====
+
+  * For the today's date
+<code dw>
+<date format="formatValue" lang="langValue"/>
+</code>
+  * When specifying a date value
+<code dw>
+<date format="formatValue" lang="langValue">dateValue</date>
+</code>
+where:
+  * ''format'' is any [[https://www.php.net/manual/en/function.strftime.php|format accepted by the strftime function]]
+  * ''lang'' is a [[docs:semantic:lang|lang]] value
+  * ''dateValue'' is:
+      * one of the [[docs:semantic:date|accepted date format]]
+      * or any [[docs:templating:variable|page date metadata]].
