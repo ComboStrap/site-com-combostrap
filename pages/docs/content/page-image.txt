@@ -25,7 +25,7 @@ The generated image inherits all [[docs:content:image|images features]] such as 
 
 ==== The original page image ====
 
-This example shows the [[docs:semantic:image|page image]] of this page (We have set it to the image of a surfer)
+This example shows the [[docs:semantic:image|page image]] of this page (path: ''<template>$path</template>'') - We have set it to the image of the surfer below.
 
 <webcode name="Default" frameborder="0">
 <code dw>

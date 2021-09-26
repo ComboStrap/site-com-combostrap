@@ -2,7 +2,8 @@
 {
     "canonical":"card",
     "title":"ComboStrap UI - Creating a card",
-     "description":"A card is a box composed of an image, a text and a call to action"
+     "description":"A card is a box composed of an image, a text and a call to action",
+     "image":":docs:block:card_illustration.png"
 }
 ---
 
@@ -12,8 +13,8 @@
 A ''card'' is a box with the dimension of a card that contains summary data such as:
   * a [[docs:content:heading|heading]]
   * a short description
-  * with an optional image illustration
-  * and generally a call to action such as a link or a button
+  * with an optional [[docs:content:image|image illustration]]
+  * and generally a call to action such as a [[docs:content:link|link]] or a [[docs:content:button|button]]
 
 
 
@@ -25,32 +26,9 @@ If the body contains call-to-actions, this is called a [[teaser|teaser]]
 
 
 
-===== Articles Related =====
-{{backlinks>.}}
-===== Syntax =====
-
-<code dw>
-<card attribute>
-    {{imageTop}}
-    <header>Label</header>
-    Content
-    <btn>[[link|button]]</btn>
-</card>
-</code>
-where:
-  * ''attributes'' may be any [[docs:styling:styling|styling attributes]]
-      * such as [[docs:styling:clickable|clickable]] to make the whole card clickable.
-  * ''image'' if the first element is an [[docs:content:image|image]], it will be used as a illustration.
-  * ''header'' defines a label placed at the top of the card
-
-A ''card'':
-  * is a [[docs:marki|superset HTML component]] and permits then all kind of [[docs:styling:styling|styling]]
-  * can be laid out in tile with the [[docs:layout:component:masonry|card-columns]] component
-
-<inote>A [[docs:block:blockquote|blockquote]] is also logically a card that happens to have an external quote in its body.</inote>
 
 
-===== Visual =====
+===== Example =====
 
 ==== A Full Card (image, title, content, button styled) ====
 
@@ -135,6 +113,49 @@ Lorem ipsum
 </card>
 </code>
 </webcode>
+
+
+==== A card in a template ====
+
+A card can be used in a [[docs:templating:template|template]] with the [[docs:content:page-image|page-image]] component as illustration.
+
+
+Example for the actual page
+<webcode name="Default" frameborder="0">
+<code dw>
+<template>
+    <card clickable width="300">
+        <page-image path="$path" ratio="16:9"/>
+        === $h1 ===
+        $description [[$path| ]]
+    </card>
+</template>
+</code>
+</webcode>
+
+===== Syntax =====
+
+<code dw>
+<card attribute>
+    illustration
+    <header>Label</header>
+    Content
+    <btn>[[link|button]]</btn>
+</card>
+</code>
+where:
+  * ''attributes'' may be any [[docs:styling:styling|styling attributes]]
+      * such as [[docs:styling:clickable|clickable]] to make the whole card clickable.
+  * ''illustration'' may be:
+      * an [[docs:content:image|image link]]
+      * or a [[docs:content:page-image|page-image]] (used in a [[#a_card_in_a_template|template]])
+  * ''header'' defines a label placed at the top of the card
+
+A ''card'':
+  * is a [[docs:marki|superset HTML component]] and permits then all kind of [[docs:styling:styling|styling]]
+  * can be laid out in tile with the [[docs:layout:component:masonry|card-columns]] component
+
+<inote>A [[docs:block:blockquote|blockquote]] is also logically a card that happens to have an external quote in its body.</inote>
 
 
 
