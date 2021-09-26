@@ -9,8 +9,12 @@
 
 
 ===== About =====
+This release brought an improve templating system:
+  * this is possible to print the [[docs:semantic:image|image of a page]] with the [[docs:content:page-image|page-image]]
+  * the columns have been made optional in the [[docs:templating:sql|sql]]
+  * the [[docs:content:date|date component]] permits to print a date in a supported format.
 
-
+A lot of [[#new diagrams|diagrams]] have also been added and a big [[#performance|performance boost]] on static resources.
 
 <note warning>
 === Breaking ===
@@ -21,8 +25,10 @@ With the advent of the [[docs:templating:iterator|iterator]], we have standardiz
 
 ==== New ====
   * The [[docs:semantic:event|event page]] to create event.
-  * New [[docs:semantic:date|date]] page to describe the date format supported.
-  * ''backlinks'': Added the [[docs:navigation:backlink|backlink page]], the pages tables get also the ''backlink_count'' column
+  * New : the [[docs:semantic:date|date]] page that describes the date format supported in metadata.
+  * ''backlinks'': 
+      * Added the [[docs:navigation:backlink|backlink page]] to give more information
+      * The pages table get also the ''backlink_count'' column
 
 === New Diagrams ===
 
@@ -39,7 +45,7 @@ With the advent of the [[docs:templating:iterator|iterator]], we have standardiz
 
   * [[docs:cache:static|Infinite Static Cache]]: cache for an infinite amount of time all public static resources - making the rendering  much much sneller.
   * All [[docs:content:image|image]] have now a [[docs:cache:cache|cache]] buster that will make the HTML img URL not valid if the image has been changed, part of [[docs:cache:static|infinite static cache]]
-  * We support now [[docs:content:image#cropping|cropped image]] on all [[docs:content:raster|raster image feature]] such as [[docs:performance:lazy|lazy loading]], responsiveness and more. This was needed for the new [[docs:content:pageimage|pageimage component]].
+  * We support now [[docs:content:image#cropping|cropped image]] on all [[docs:content:raster|raster image feature]] such as [[docs:performance:lazy|lazy loading]], responsiveness and more. This was needed for the new [[docs:content:page-image|pageimage component]].
 
 ==== Improvement ====
   * A [[docs:templating:template|template]] sends an error when the [[docs:templating:variable|page attribute]] was not found.

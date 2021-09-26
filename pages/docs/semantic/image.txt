@@ -16,7 +16,7 @@
 
 
 The image:
-  * can be rendered with the [[docs:content:pageimage|pageimage component]] in [[docs:templating:template|template]]
+  * can be rendered with the [[docs:content:page-image|pageimage component]] in [[docs:templating:template|template]]
   * and will be added into [[docs:social:social|social]] cards such as [[..:social:twitter|twitter]], [[..:social:google|google]] or [[..:social:facebook|facebook]].
 
 The image should be relevant to the page. For example, if you define an image for a news article, the image must be relevant to that news article.
