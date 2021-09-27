@@ -38,7 +38,7 @@ select order by date_modified desc limit 4
 **The iterator markup:**
 <code dw>
 <iterator>
-    <data>select order by date_modified desc limit 4</data>
+    <data>select where is_low_quality = 0 order by date_modified desc limit 4</data>
 
     <heading d3 text-align="center" spacing="mb-3"> The last 4 Changes </heading>
     <masonry>
@@ -46,6 +46,8 @@ select order by date_modified desc limit 4
             <card clickable>
             <page-image path="$path" ratio="16:9"/>
             === $h1 ===
+            <itext color="muted"><date format="%h %d - %H:%M">$date_modified</date></itext>
+            
             $description [[$path| ]]
             </card>
         </template>
