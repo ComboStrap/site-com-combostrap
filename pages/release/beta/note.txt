@@ -85,17 +85,20 @@ Create tag page as image in frontmatter
 
 ==== Snapshot as illustration ====
 
-https://datacadamia.com/web/browser/screenshot#webdriver
+Jus text to image: https://github.com/ttodua/useful-php-scripts/blob/master/text-to-image.php
 
 Example: https://threadreaderapp.com/images/screenshots/thread/1440247034187968519.jpg for the [[https://threadreaderapp.com/thread/1440247034187968519.html|page]]
   * Image: 1200 x 628
   * Resolution 72,00
 
-Or service such as:
-  * https://www.site-shot.com/
-  * https://screenshotlayer.com/
 
 
+==== Page Move bug ====
+  * in [[docs:content:page-image|Page-image Component: Renders the illustrative image of your page]]
+<code dw>
+<page-image path=":docs:content:page-image" />
+</code>
+  * in the table, they are not moved
 ==== Git ====
 
 One branch, one website.
