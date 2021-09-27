@@ -1,0 +1,36 @@
+---json
+{
+    "canonical":"cache:static",
+    "name":"Infinite Static Cache",
+    "title":"Infinite Static Cache: Cache Image, Javascript and Stylesheet for an infinite amount of time",
+    "description":"With the Infinite Static Cache feature, ComboStrap will cache images, javascript and stylesheet infinitely."
+}
+---
+====== ComboStrap - Infinite Static Cache ======
+
+
+===== About =====
+''infinite static cache'' is a [[cache|cache functionality]] that sends to the browser the below cache instruction:
+      * cache all [[docs:content:image|images]], css, and javascript library
+      * for an infinite amount of time
+
+
+In reality, the files change but because the URL (ie ''https://host/my/file'') generated are unique:
+  * when a file change, 
+  * its URL change 
+  * and the browser will ask the new file version.
+
+===== Support =====
+We support static cache on:
+  * [[doku>devel:css|Dokuwiki Style Sheet]] (ie ''lib/exe/css.php'')
+  * [[doku>devel:javascript|Dokuwiki Javascript]] (ie ''lib/exe/jquery.php'' and ''lib/exe/js.php'')
+  * all ''public'' [[docs:content:image|images (raster, svg)]] (generated or not)
+  * and all [[:credits|third libraries]]
+===== Configuration =====
+
+==== staticCacheEnabled ====
+
+If you want to disable this feature, you can turn it off with the ''staticCacheEnabled'' [[:configuration|configuration]].
+
+
+

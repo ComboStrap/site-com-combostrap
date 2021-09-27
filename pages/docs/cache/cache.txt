@@ -1,0 +1,57 @@
+---json
+{
+    "canonical":"cache",
+    "title":"Cache Management",
+    "description":"All the caches are explained in this page, from pages to images"
+}
+---
+====== ComboStrap - Cache ======
+
+
+===== About =====
+''cache'' is a simple and great feature that enhances [[docs:performance:performance|performance]]. 
+
+''ComboStrap'' has two levels of cache:
+  * [[#Page]] (and [[#side slots]])
+  * [[#Image]]
+
+===== Type =====
+==== Page ====
+
+All pages are cached until their content or any [[:configuration|global configuration]] is changed.
+
+<note>
+If you need to delete the page cache at interval because your page contains time-based data, you can use the [[docs:cache:page|page cache component]].
+</note>
+
+==== Side Slots ====
+
+
+[[docs:layout:page:side_slot|Side slots]] are special pages for the cache because they used heavily the index when they show [[docs:navigation:navigation|navigational components]] and have then a great impact on the web server rendering time.
+
+With the [[docs:cache:sideslots|side slots automatic cache bursting]], the only user impacted is the editor that is recreating the sidebar when he saves the page. And your reader or visitor will always benefit from this cache.
+
+<note>
+Action: If you have any [[https://www.dokuwiki.org/caching|%%~~NOCACHE~~%%]] instructions in your sidebar, just delete them.
+</note>
+
+
+
+==== Image ====
+For images, ''ComboStrap'' supports two caches:
+  * ''server cache'' that caches all processed image (for instance, [[docs:performance:svg_optimization|svg optimization]] but also [[docs:content:image#cropping|image resizing]])
+  * ''browser cache'' with the [[static|infinite static cache]] 
+
+
+==== Javascript and Css Library  ====
+
+With the [[static|infinite static cache functionality]], all Javascript and Css Libraries are cached for an infinite amount of time.
+
+
+
+
+
+
+
+
+

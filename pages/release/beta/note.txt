@@ -66,11 +66,39 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 </code>
 
-==== Iterator: template iteration ====
-  * Should solved that: https://forum.dokuwiki.org/d/19414-pdf-file-from-the-sidebar/7
-  * template to generate a list of pages with sql
-      * Templating for the current page ([[https://forum.dokuwiki.org/d/19399-purge-on-a-namespace/7|example]]) - [[https://www.dokuwiki.org/plugin:struct:aggregation|aggregation]]
+==== Template - from sidebar ====
+Should solved that: https://forum.dokuwiki.org/d/19414-pdf-file-from-the-sidebar/7
 
+Add an export button for the main page. Example
+<code dw>
+<template target="main"/>
+</code>
+
+==== Template - of a page (footer and header) ====
+
+  * template to generate a list of pages with sql
+      * Templating for the current page ([[https://forum.dokuwiki.org/d/19399-purge-on-a-namespace/7|example]]) - 
+
+==== Sql Aggregation ====
+
+[[https://www.dokuwiki.org/plugin:struct:aggregation|aggregation]]
+
+
+==== Sql Date Diff ====
+
+<code sql>
+select
+	id,
+	date_modified,
+	date_created,
+	date_modified - date_created,
+	(strftime('%s',date_modified) - strftime('%s',date_created))/60/60/24 as dayDiff,
+	(strftime('%s',date_modified) - strftime('%s',date_created)) as secDiff
+from
+	pages
+order by date_created desc
+limit 8
+</code>
 ==== Git-based workflow ====
 
 An intuitive Git-based workflow and powerful serverless platform to build, deploy, and collaborate on web site and documentation.
