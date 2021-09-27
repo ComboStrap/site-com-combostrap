@@ -45,7 +45,7 @@ select order by date_modified desc limit 4
         <template>
             <card clickable>
             <page-image path="$path" ratio="16:9"/>
-            === $h1 ===
+            === $title ===
             <itext color="muted"><date format="%h %d - %H:%M">$date_modified</date></itext>
             
             $description [[$path| ]]
