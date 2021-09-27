@@ -69,4 +69,6 @@ With the advent of the [[docs:templating:iterator|iterator]], we have standardiz
   * The [[docs:diagram:railroad|railroad]] could overflow. There is now a lift if this is the case.
   * The [[docs:diagram:railroad|railroad]] SRI browser control is not the same, we have added also the version number in the path.
   * A space would be missing after an acronym link in a note. ie the space before the ''and'' in ''%%[[path|ACCR]] and%%'' would have been deleted.
+  * The [[docs:content:link#email|email link]] if containing a subject would not be in a good HTML format.
+
 

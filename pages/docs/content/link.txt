@@ -100,6 +100,10 @@ If there is no description, the email is shown with the [[doku>config:mailguard|
 Email protection against bots is almost a lost cause but you can give them an hard time with this    [[doku>config:mailguard|mailguard configuration]].
 
 
+<note>
+Note that the ''hex'' value is only valid for email written in text and not in link. If this is the case, the protection is set to ''visible'' replacing the ''@'' with its textual counterpart (ie '''at'')
+</note>
+
 
 ==== Windows Share ====
 
