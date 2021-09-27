@@ -23,4 +23,4 @@ ComboStrap groups them in categories.
 | [[docs:navigation:navigation|Navigational]] | Page Explorer, Toc, tabs, ... |
 | [[docs:layout:component:component|Layout]] | Tabs, panel, grid, ... |
 | [[docs:lists:lists|Lists]] | List of line, records or content |
-| Metadata | [[docs:semantic:frontmatter|frontmatter]], [[docs:performance:cache|cache]] |
+| Metadata | [[docs:semantic:frontmatter|frontmatter]], [[docs:cache:page|cache]] |

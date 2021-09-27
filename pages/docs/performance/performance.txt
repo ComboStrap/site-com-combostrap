@@ -46,7 +46,7 @@ If you only depend on the ''ComboStrap'' plugins, you can even [[docs:performanc
 ==== Cache ====
 Caching is done by default for all content based process (from page to image). 
 
-For more information, see the page: [[cache]]
+For more information, see the page: [[..:cache:cache]]
 
 ==== Image ====
 
