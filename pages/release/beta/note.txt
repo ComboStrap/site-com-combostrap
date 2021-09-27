@@ -107,6 +107,15 @@ Files:
       * pages
 
 https://www.dokuwiki.org/plugin:gitbacked
+
+==== Caching Heading ====
+
+In [[docs:layout:component:slide|slide]], this is important to have an heading for navigation but you may not want to output it.
+
+Example:
+<code dw>
+<heading visible="none">Cache heading</heading>
+</code>
 ===== Cookie banner =====
 Good example at: https://groningen.nl/en/
 

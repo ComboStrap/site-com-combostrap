@@ -1,0 +1,20 @@
+====== ComboStrap - Quality XHTML compliant ======
+
+
+===== About =====
+''XHTML'' is a [[https://www.w3.org/TR/xhtml1/|specification]] that describes how the HTML code for the pages should be generated.
+
+This is important for:
+  * a good rendering inside browser 
+  * and for [[docs:seo:seo|indexing by search engine]].
+
+In our effort to offer the best [[docs:quality:quality|quality website]], we test it and therefore, all pages generated are XHMTL compliant.
+===== Check =====
+
+You can check any page with the official validator at https://validator.w3.org
+
+<note>
+For instance, to check the home page, you can click on this link [[https://validator.w3.org/nu/?doc=https%3A%2F%2Fcombostrap.com%2F|XHTML valid]] \\
+
+You will note that we got a warning because we didn't have any [[docs:content:heading|heading]] specified in the last [[docs:layout:component:slide|slide]].
+</note>

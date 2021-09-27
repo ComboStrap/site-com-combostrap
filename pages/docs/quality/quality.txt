@@ -28,14 +28,8 @@ All the quality data can be found and queried under the ''quality'' node of the 
 
 
 ===== HTML Valid =====
-We take great care to be XHTML compliant valid. It helps the search engine to crawl your content and get a better indexing.
+We take great care to be [[xhtml|XHTML compliant]] valid. It helps the search engine to crawl your content and get a better indexing.
 
-Check it at[[https://validator.w3.org/nu/?doc=https%3A%2F%2Fcombostrap.com%2F|XHTML valid]] \\
 
-<note>
-There is still errors / warning listed below that are not real errors because they comes from a bug in the validation or in the HTML version validated.
-<file>
-CSS: background-image:   is an incorrect operator.
-CSS: margin-top: revert is not a margin-top value.
-</file>
-</note>
+
+

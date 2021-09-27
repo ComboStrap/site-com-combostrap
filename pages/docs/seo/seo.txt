@@ -45,3 +45,9 @@ The Combostrap page renders automatically as card in:
   * [[docs:social:twitter|Twitter]]
   * [[docs:social:facebook|Facebook]]
   * [[docs:social:google|Google]]
+
+==== XHTML compliant ====
+
+All the HTML page generated follows the internet standard and are generated to be easily crawlable and indexed by any search engine.
+
+For more information and to check your generated HTML pages, see this article: [[docs:quality:xhtml]]

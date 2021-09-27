@@ -56,6 +56,7 @@ With the advent of the [[docs:templating:iterator|iterator]], we have standardiz
   * More [[docs:semantic:date|date format]] are now supported
   * A HTML [[docs:cache:page|page cache file]] may have an empty content due to timeout (or any other problem), we delete the cache in this case.
   * [[docs:navigation:related|Related]] follows now the useheading configuration of dokuwiki
+  * New [[docs:quality:xhtml|XHTML page]] that shows the quality of the HTML page generated
 
 ==== Modified ====
 
