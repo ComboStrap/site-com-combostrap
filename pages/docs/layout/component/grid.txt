@@ -9,13 +9,46 @@
 
 
 ===== About =====
-The ''grid'' component permits to create complex layout based
-  * on ''row'' 
-  * and ''cell''
+The ''grid'' component permits to create a grid layout based on ''cells''  inside a ''row''.
+
+It will layout the  cells uniformly on the horizontal axis.  
+
+If a cell does not pass horizontally, it goes to a new line in a centered position.
+
+A grid layout makes also all cells readable from the start from a mobile device. 
+
+===== Example =====
+
+==== A 3 cells grid ====
+
+<webcode>
+<code dw>
+<row>
+    <cell>
+        <icon name="bs:inboxes-fill" width="3rem"/>
+        == Lorem Ipsum 1 ==
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+    </cell>
+    <cell>
+        <icon name="bs:inboxes-fill" width="3rem"/>
+        == Lorem Ipsum 2 ==
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+    </cell>
+        <cell>
+        <icon name="bs:inboxes-fill" width="3rem"/>
+        == Lorem Ipsum 3 ==
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+    </cell>
+</row>
+</code>
+  * Output:
+</webcode>
 
 
-===== Articles Related =====
-{{backlinks>.}}
+<note tip>
+The dimension of the the cells are not uniform, this is why a [[docs:styling:background|background]] should never be used inside a grid.
+</note>
+
 
 ===== Syntax =====
 <code dw>
@@ -36,64 +69,4 @@ where:
 <note>
 You can use all [[docs:styling:styling|styling attributes]].
 </note>
-
-
-
-
-
-===== Example =====
-
-==== Basic two columns ====
-
-The combostrap grid will layout nicely your cells uniformly on the horizontal. They are also readable from the start from a mobile device.
-
-<webcode>
-<code dw>
-<row spacing="p-5">
-    <cell background-color="green" color="white">
-        First paragraph in the first cell.
-        
-        Second paragraph in the first cell.
-    </cell>
-    <cell background-color="blue" color="white" vertical="center">
-        Second cell
-     </cell>
-</row>
-</code>
-  * Output:
-</webcode>
-
-
-<note tip>
-As you can see, the dimension of the the cells are not uniform, this is why the [[docs:styling:background|background]] is never used inside a grid.
-</note>
-
-==== Card with a media ====
-You can also use the grid in a [[docs:block:card|card]] to create all sort of layout.
-
-Example of a card:
-  * with an [[docs:content:image|image]] on the left
-  * completly [[docs:styling:clickable|clickable]] 
-
-<webcode name="Default" frameborder="0">
-<code dw>
-<card background-color="light" align="center" width="fit" >
-    <row>
-      <cell >
-        {{ :styling:subway_card_tile.png?0x180 |}}
-      </cell>
-      <cell>
-        === Card Clickable Grid ===
-        This placeholder content is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.
-    
-        [[#custom_card|Custom card]]
-      </cell>
-    </row>
-</card>
-</code>
-
-</webcode>
-
-
-
 
