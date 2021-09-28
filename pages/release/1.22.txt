@@ -1,0 +1,8 @@
+====== Release 1.22 ======
+
+
+
+===== List of changes =====
+
+==== New ====
+  * The [[docs:page:home|home]] page attribute ''is_home'' in order to be able to select the home pages within [[docs:templating:sql|page sql]]

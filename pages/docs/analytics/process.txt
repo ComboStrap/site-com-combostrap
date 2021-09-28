@@ -36,7 +36,10 @@ To purge the analytical cache, you can:
 On the server, you can update the analytical data with the following command
 <code bash>
 cd $DOKUWIKI_HOME
-./bin/plugin.php combo analytics
+# optional (for farm)
+animal=foo
+# command
+php ./bin/plugin.php combo analytics
 </code>
 
 ===== Monitoring =====

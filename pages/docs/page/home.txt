@@ -1,0 +1,45 @@
+====== Home Page ======
+
+===== About =====
+An ''home'' page is the page that is shown when a namespace is asked.
+
+===== Example =====
+
+A URL asking a namespace will look like that (ie with a backslash ''/'' at the end)
+<code url>
+https://foo.com/bar/
+</code>
+
+If this URL is entered in the Browser, then:
+  * If there is a page with the  [[#startpage|startpage configuration]] name (default to start), the page shown will be
+<code url>
+https://foo.com/bar/start
+</code>
+  * If there is not a ''start'' page but there is a page with the name of the namespace (ie ''bar''), the page shown will be
+<code url>
+https://foo.com/bar/bar
+</code>
+
+
+===== Sql Templating =====
+In a [[docs:templating:sql|Sql templating]], you can select all home pages with the attribute ''is_home''
+
+Example:
+<code sql>
+select where is_home = 1 order by path desc limit 8
+</code>
+
+On this website, this SQL will select the following pages.
+<iterator>
+    <data>select where is_home = 1 order by path desc limit 4</data>
+^ Path ^
+<template>
+| [[$path|$path]] |
+</template>
+</iterator>
+
+
+===== Configuration =====
+
+==== startpage ====
+The dokuwiki configuration [[doku>config:startpage]] permits to set the name of the home page. By default, this is ''start'' but other known name are ''index'' or ''home''

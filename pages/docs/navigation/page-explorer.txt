@@ -114,7 +114,7 @@ where:
 
 The templates define the output of each node in the ''list'' or ''tree'' layout:
     * ''page'' defines a [[docs:templating:template|template]] for each page in the namespace
-    * ''home'' defines a [[docs:templating:template|template]] for the home page of the namespace
+    * ''home'' defines a [[docs:templating:template|template]] for the [[docs:page:home|home page of the namespace]]
     * ''namespace'' defines a [[docs:templating:template|template]] for each child namespace of the actual namespace 
     *  ''parent'' defines a [[docs:templating:template|template]] for the parent namespace of the actual namespace (used only in the [[#list|list layout]])
   
