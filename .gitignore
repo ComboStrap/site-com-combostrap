@@ -7,3 +7,6 @@
 /meta
 /tmp
 .env
+*.bak.php
+*.bak
+*.dist
