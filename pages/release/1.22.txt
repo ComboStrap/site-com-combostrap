@@ -1,3 +1,11 @@
+---json
+{
+    "canonical":"release:1.22",
+    "title":"A title for the search page result engine",
+     "description":"A description for the search page result engine"
+}
+---
+
 ====== Release 1.22 ======
 
 
@@ -6,3 +14,7 @@
 
 ==== New ====
   * The [[docs:page:home|home]] page attribute ''is_home'' in order to be able to select the home pages within [[docs:templating:sql|page sql]]
+
+
+==== Bug ====
+  * After a change in the [[docs:performance:svg_optimization|svg optimization]], the svg shown will not refresh. Cause: The [[docs:cache:static|static cache]] ''buster'' was using the time of the original SVG file and not from the optimized file.
