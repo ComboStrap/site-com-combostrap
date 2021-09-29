@@ -74,6 +74,10 @@ Add an export button for the main page. Example
 <template target="main"/>
 </code>
 
+
+==== Data definition for page-explorer ====
+
+See [[https://forum.dokuwiki.org/d/19593-nspages]]
 ==== Template - of a page (footer and header) ====
 
   * template to generate a list of pages with sql

@@ -6,7 +6,7 @@
 }
 ---
 
-====== Release 1.22 ======
+====== ComboStrap - Release 1.22 ======
 
 
 
