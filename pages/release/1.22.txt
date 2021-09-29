@@ -18,3 +18,4 @@
 
 ==== Bug ====
   * After a change in the [[docs:performance:svg_optimization|svg optimization]], the svg shown will not refresh. Cause: The [[docs:cache:static|static cache]] ''buster'' was using the time of the original SVG file and not from the optimized file.
+  * Not able to navigate to an heading from a link fragment for a [[docs:content:link#internal|internal link]]. Bug: the fragment was not qualified as fully section id (letting spaces in it)
