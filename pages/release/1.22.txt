@@ -15,6 +15,8 @@
 ==== New ====
   * The [[docs:page:home|home]] page attribute ''is_home'' in order to be able to select the home pages within [[docs:templating:sql|page sql]]
 
+==== Improvement ====
+  * The [[docs:analytics:replication|data synchronization process]] is now treated as a real replication and got a ''date_synchronization'' and a [[docs:semantic:uuid|universal id]]. The synchronization is now also based on the database version file.
 
 ==== Bug ====
   * After a change in the [[docs:performance:svg_optimization|svg optimization]], the svg shown will not refresh. Cause: The [[docs:cache:static|static cache]] ''buster'' was using the time of the original SVG file and not from the optimized file.

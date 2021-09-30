@@ -1,0 +1,84 @@
+---json
+{
+    "canonical":"replication",
+    "title":"How ComboStrap analyze and replicate data ?",
+    "description":"The analysis and replication of a webpage is the corner stone of the quality and performance of a page. This page explains how this is done."
+}
+---
+====== ComboStrap - Analytics and database replication ======
+
+
+===== About =====
+The ''replication process'' is the process that creates the [[data|analytical data]] if needed and replicates the data with the [[docs:analytics:database|database]].
+
+
+
+
+===== Update =====
+Because this is a intensive process, it happens slowly:
+  * for every page visited 
+  * or for every page that gains or lost backlinks.
+And the output is [[#cache|cached]].
+
+If you want to update all pages in batch, you can do it with the [[#cli]] on the server.
+
+
+===== Cache =====
+
+To purge the analytical cache, you can:
+  * run the [[#cli|cli]]
+  * do it manually for one page by adding the following query ''?do=export_combo_analytics&purge=true''. See [[doku>devel:caching#purging_the_cache|the dokuwiki doc]]
+  * modifying a [[:configuration|configuration]] forth and back. The update of the configuration file purges the current cache.
+
+
+===== Cli =====
+On the server, you can update the analytical data with the following command
+<code bash>
+cd $DOKUWIKI_HOME
+# optional (for farm)
+animal=foo
+# command
+php ./bin/plugin.php combo replicate
+</code>
+
+===== Monitoring =====
+
+==== The replication date ====
+
+The replication date is stored in the ''date_replication'' metadata and can be seen via:
+  * the [[docs:semantic:viewer|Metadata Viewer]].
+  * or [[query|query]] .
+<code sql>
+select
+	path,
+	date_replication
+from
+	pages
+order by date desc
+limit 10;
+</code>
+
+
+==== The analytics date ====
+
+You can see the analytics date on the ''date'' field of the [[data|JSON object]]
+
+Example of [[query|query]] .
+<code sql>
+select
+	path,
+	json_extract(analytics, '$.date') as date
+from
+	pages
+order by date desc
+limit 10;
+</code>
+
+==== Analytics Request ====
+When [[docs:navigation:backlink|backlinks]] are added or deleted, an analyze request of the page is asked.
+
+
+This request are stored in the table ''analytics_to_refresh''. If you query this table, you would get all page that should be analyzed in the near future. This table should be empty 99% of the time.
+<code sql>
+select * from analytics_to_refresh
+</code>

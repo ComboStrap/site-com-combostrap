@@ -7,17 +7,22 @@
 
 
 ===== About =====
-A ''canonical URL'' is an [[kb>identifier|identifier]] for a web page that is defined through the [[kb>canonical/url|canonical meta property]].
-
-
-It identifies uniquely a page in a domain.
+A ''canonical'' is a string [[kb>identifier|identifier]] for a page.
 
 The ''canonical'' value:
-  * should never change (theoretically)
-  * does not need to be the [[doku>pagename]]
+  * should be unique for all pages of your website (ie domain).
+  * does not need to be the [[:docs:semantic:path|path]]
   * is always lowercase
 
-The ''canonical'' component is a part of the [[docs:seo:seo|SEO]] module.
+
+
+The canonical will:
+  * create a ''canonical url'' that is seen in the Search Result.
+<code url>
+https://yourdomain.com/your/canonical
+</code>
+  * be used in your tracking metrics
+  * help [[docs:seo:seo|Search Crawler]] detecting that the page from the default and canonical URL are the same.
 ===== Articles Related =====
 {{backlinks>.}}
 
