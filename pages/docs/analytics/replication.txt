@@ -32,7 +32,7 @@ To purge the analytical cache, you can:
 
 
 ===== Cli =====
-On the server, you can update the analytical data with the following command
+On the server, you can replicate the data to the database with the following command
 <code bash>
 cd $DOKUWIKI_HOME
 # optional (for farm)
@@ -74,11 +74,11 @@ order by date desc
 limit 10;
 </code>
 
-==== Analytics Request ====
-When [[docs:navigation:backlink|backlinks]] are added or deleted, an analyze request of the page is asked.
+==== Replication Request ====
+When [[docs:navigation:backlink|backlinks]] are added or deleted, a replication request of the page is asked to update them.
 
 
-This request are stored in the table ''analytics_to_refresh''. If you query this table, you would get all page that should be analyzed in the near future. This table should be empty 99% of the time.
+This request are stored in the table ''pages_to_replicate''. If you query this table, you would get all page that should be replicated in the near future. This table should be empty 99% of the time as this is a temporary table.
 <code sql>
-select * from analytics_to_refresh
+select * from pages_to_replicate
 </code>

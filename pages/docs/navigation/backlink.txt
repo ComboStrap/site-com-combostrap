@@ -36,4 +36,6 @@ Example:
 
 ===== Statistics =====
 
-The backlinks are also available the [[docs:analytics:statistics|statistics data]].
+The backlinks are also available:
+  * as count for each page in the [[docs:analytics:statistics|statistics data]]
+  * as tables in [[docs:templating:sql|page sql]]

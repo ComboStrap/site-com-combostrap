@@ -215,8 +215,17 @@ Note that the link component enhances the [[doku>wiki:syntax#links|link]] syntax
 ==== previewLink ====
 If you enable this configuration, the [[#preview|preview]] attribute will be set on all internal link.
 
+==== enableEnhancedLinkWizard ====
 
+In the  [[doku>toolbar|editor]], ComboStrap will make the ''link wizard'' also search for pattern in [[docs:semantic:path|path]], [[docs:semantic:title|title]], [[docs:semantic:h1|heading 1]] and [[docs:semantic:name|name]]
 
+{{:docs:content:link_wizard.png|}}
+
+This configuration is on by default but you can disable it by unchecking the ''enableEnhancedLinkWizard '' configuration.
+
+<note>
+This functionality depends on the [[docs:analytics:replication|data replication process]]. If you don't get the pages that you expect, you can perform a full replication manually. See [[docs:analytics:replication]]
+</note>
 
 
 
