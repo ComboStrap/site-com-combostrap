@@ -1,7 +1,7 @@
 ---json
 {
     "canonical":"replication",
-    "title":"How ComboStrap analyze and replicate data ?",
+    "title":"How ComboStrap analyzes and replicates data ?",
     "description":"The analysis and replication of a webpage is the corner stone of the quality and performance of a page. This page explains how this is done."
 }
 ---

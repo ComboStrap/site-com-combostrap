@@ -9,7 +9,7 @@
 
 
 ===== About =====
-A ''backlink'' is a page that contains a [[docs:content:link|link]] with a [[docs:semantic:path|path]] to the rendered page.
+A ''backlink'' is a page that [[docs:content:link|links]] to the rendered page.
 
 
 
@@ -22,6 +22,8 @@ You can see them with the ''backlinks'' action of the [[docs:layout:page:railbar
 
 ===== Add them in the content of your page =====
 
+==== Related ====
+
 You can add them to your page as content with the [[docs:navigation:related|related component]]
 
 Example:
@@ -33,26 +35,31 @@ Example:
 **The output:**
 </webcode>
 
+==== Page SQL ====
 
-===== Statistics =====
+The backlinks are also available in the [[docs:templating:sql|page sql]]. You can therefore list them in a [[docs:templating:iterator|iterator template]]
 
-The backlinks are also available:
-  * as count for each page in the [[docs:analytics:statistics|statistics data]]
-  * as a table in [[docs:templating:sql|page sql]]
-
-
-Example: The below [[docs:templating:sql|page sql]]:
+Example:
 <code sql>
-select from backlinks
+select from backlinks order by backlink_count desc
 </code>
 would return on this website:
 <webcode name="backlinks" frameborder="0">
 <iterator>
-<data>select from backlinks</data>
-^ Path ^
+<data>select from backlinks order by backlink_count desc</data>
+^ Path ^ Backlink Count ^ 
 <template>
-| [[$path|$title]] |
+| [[$path|$title]] | $backlink_count |
 </template>
 </iterator>
 </webcode>
+
+
+
+===== Statistics =====
+
+The backlinks are also available as count for each page in:
+  * the [[docs:analytics:statistics|statistics data]]
+  * or [[docs:templating:variable|page sql attribute]]
+
 
