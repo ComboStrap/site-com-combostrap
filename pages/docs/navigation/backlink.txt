@@ -38,4 +38,21 @@ Example:
 
 The backlinks are also available:
   * as count for each page in the [[docs:analytics:statistics|statistics data]]
-  * as tables in [[docs:templating:sql|page sql]]
+  * as a table in [[docs:templating:sql|page sql]]
+
+
+Example: The below [[docs:templating:sql|page sql]]:
+<code sql>
+select from backlinks
+</code>
+would return on this website:
+<webcode name="backlinks" frameborder="0">
+<iterator>
+<data>select from backlinks</data>
+^ Path ^
+<template>
+| [[$path|$title]] |
+</template>
+</iterator>
+</webcode>
+
