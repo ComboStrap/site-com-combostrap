@@ -5,10 +5,10 @@
     "description":"With the template iterator, you can loop over a template to create any list of page components such as the list of the last blog or recent pages"
 }
 ---
-====== ComboStrap - Iterator ======
+====== ComboStrap - Template Iterator ======
 
 ===== About =====
-''iterator'' permits to loop and applies a [[docs:templating:template|template]] repeatably in order to create a list of pages.
+''iterator'' permits to loop and applies a [[docs:templating:template|template]] in order to create a list of pages.
 
 You may apply the following layout:
   * [[docs:layout:component:masonry|masonry]]
