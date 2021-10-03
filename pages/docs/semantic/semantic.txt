@@ -19,23 +19,45 @@ The metadatas can be seen:
   * or the [[docs:analytics:data|analytics data]]
 
 
-===== Usage =====
 
-They below internal page metadata are used by ''ComboStrap'':
-      * [[canonical|canonical]] - an unique page identifier for the web
-      * [[name|name]] - a short name for the page
-      * [[title|title]] - an long name for the page
-      * [[docs:semantic:h1|h1]] - the first heading of the page
-      * [[description|description]] - a summary of the page
-      * [[type|page Type]] - the type of page (article, ...)
-      * [[image|image]] - the image illustrations
-      * ''path'' - the path of the page with wiki separator (ie '':namespace:page'')
-      * ''date_created'' - the creation date
-      * ''date_modified'': the modification date
-      * [[published|date_published]] - the publication date
-      * [[docs:cache:page|date_cache_expiration]] - the expiration date of the cache if any
-      * [[country|country]] - the localized country
-      * [[lang|lang]] - the language of the page
+
+===== Type =====
+
+There is three groups of metadata:
+  * [[#managed]]: the properties that ComboStrap used for its own processing
+  * [[#protected]]: the properties that cannot be modified
+  * ''unknown'': Unknown properties (They may be written without any further processing)
+
+==== Managed ====
+
+''ComboStrap'' manages and reacts to the following metadata:
+  * [[canonical|canonical]] - an unique page identifier for the web
+  * [[docs:semantic:name|page name]] - a short name for the page
+  * [[title|page title]] - a long name for the page
+  * [[h1|h1]] - the first heading of the page
+  * [[description|description]] - a summary of the page
+  * [[docs:semantic:published|date_published]]
+  * [[docs:semantic:image|image]] - the page illustrations
+  * [[docs:semantic:type|page type]] - the type of page (article, ...)
+  * [[published|date_published]] - the publication date
+  * [[country|country]] - the localized country
+  * [[lang|lang]] - the language of the page
+
+==== Protected ====
+The below properties are protected and cannot be changed:
+  * [[docs:semantic:path|path]] - the path of the page with wiki separator (ie '':namespace:page'')
+  * ''date_created'' - the creation date
+  * ''date_modified'' - the modification date
+  * ''user'', ''creator'', ''contributor''
+  * [[docs:cache:page|date_cache_expiration]] - the expiration date of the cache if any
+  * [[uuid|uuid]] - an universal unique identification
+
+
+
+
+
+
+===== Usage =====
 
 They are also used in the ''semantic component'' explained in the next section.
 
@@ -49,14 +71,18 @@ They allows internally:
   * [[docs:quality:lpp|Late Publication Protection]]
   * [[docs:templating:template|Templating]]
   * [[docs:cache:page|Cache expiration]]
-
-
+  * [[docs:analytics:replication|Database replication]]
 ==== External ====
 
 They allows:
-   * <icon name="twitter"/> [[..:social:twitter|Twitter card]]
-   * <icon name="facebook"/> [[..:social:facebook|Facebook card]]
-   * <icon name="google"/> [[..:social:google|Google Rich Result (Organization, Search bar and article card)]]
+      * a better [[docs:seo:seo|SEO]] with:
+          * [[title|title]]
+          * [[description|description]]
+          * [[canonical|canonical]]
+      * a better [[docs:social:social|social experience]] with
+           * <icon name="twitter"/> [[..:social:twitter|Twitter card]]
+           * <icon name="facebook"/> [[..:social:facebook|Facebook card]]
+           * <icon name="google"/> [[..:social:google|Google Rich Result (Organization, Search bar and article card)]]
 
 
 ===== Set =====

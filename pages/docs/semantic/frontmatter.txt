@@ -9,18 +9,9 @@
 ====== ComboStrap Page Metadata - Front Matter ======
 
 ===== About =====
-''Front Matter'' is a component that:
-  * permits to add and set [[semantic|metadata]]
-  * that will be published in your HTML page for:
-      * a better [[docs:seo:seo|SEO]] such as:
-          * [[title|title]]
-          * [[description|description]]
-          * [[canonical|canonical]]
-      * a better [[docs:social:social|social experience]]
-          * [[docs:social:twitter|Twitter]]
-          * [[docs:social:facebook|Facebook]]
-          * [[docs:social:google|Google]]
-  * or can used in [[docs:templating:template|template]]
+''Front Matter'' is a component that permit to:
+  * stores the [[semantic|metadata]] in your page.
+  * set a custom metadata property.
 
 It borrows its name from the [[kb>markup:front-matter|front matter book]]
 
@@ -45,37 +36,9 @@ Example:
 ---
 </code>
 
-===== Metadata =====
-
-There is three groups of metadata:
-  * [[#managed]]: the properties that ComboStrap used for its own processing
-  * [[#protected]]: the properties that cannot be modified
-  * ''unknown'': Unknown properties are written in the [[semantic|metadata]] without any further processing.
-
-==== Managed ====
-
-''ComboStrap'' manages and reacts to the following metadata:
-  * [[canonical|canonical]]
-  * [[docs:semantic:name|page name]]
-  * [[title|page title]]
-  * [[h1|h1]]
-  * [[description|description]]
-  * [[docs:semantic:published|date_published]]
-  * [[docs:semantic:image|image]]
-  * [[docs:semantic:type|page type]]
-
-
-==== Protected ====
-The below properties are protected and cannot be changed:
-  * [[docs:semantic:path|path]]
-  * ''date_created'', ''date_modified''
-  * ''user'', ''creator'', ''contributor''
-
-
-
 
 ===== Configuration =====
-==== Auto Frontmatter ====
+==== Auto-Frontmatter ====
 This feature adds a frontmatter template when you create a new page.
 
 This feature is by default enabled but you can disable it by unchecking the ''autoFrontMatter'' [[:configuration|configuration]].
