@@ -40,12 +40,12 @@ To show a icon:
 
 We supports the below libraries.
 
-The ''name'' or ''acronym'' can be used as library name.
+The ''name'' or ''acronym'' can be used as library name. It follows the [[https://icon-sets.iconify.design/|acronyn found in the iconify search engine]]
 
 
 ^ Name ^ Acronym ^ Location ^
-| ''bootstrap'' | ''bs'' | [[https://icons.getbootstrap.com/|Bootstrap icon]] |
-| ''material-design'' | ''md'' | [[https://materialdesignicons.com/|Material design icon]] |
+| ''bootstrap'' | ''bi'' | [[https://icons.getbootstrap.com/|Bootstrap icon]] |
+| ''material-design'' | ''mdi'' | [[https://materialdesignicons.com/|Material design icon]] |
 | ''feather'' | ''fe'' | [[https://feathericons.com/|Feather]] |
 | ''codicon'' | ''codicon'' | [[https://microsoft.github.io/vscode-codicons/|Microsoft Code Icon]] |
 | ''logos'' | ''logos'' | [[https://svgporn.com/|SvgPorn]] |
