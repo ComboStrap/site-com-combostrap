@@ -24,7 +24,7 @@
 ==== Improvement ====
   * The [[docs:analytics:replication|data synchronization process]] is now treated as a real replication and got a ''date_synchronization'' and a [[docs:semantic:uuid|universal id]]. The synchronization is now also based on the database version file.
   * the [[docs:analytics:replication|replication table]] ''ANALYTICS_TO_REFRESH'' has been renamed to ''PAGES_TO_REPLICATE'' to get more accurate
-  * the [[docs:semantic:frontmatter|frontmatter]] metadata are [[docs:analytics:replication|replicated]] directly to avoid inconsistency with the [[docs:templating:sql|page sql]]
+  * the [[docs:semantic:frontmatter|frontmatter]] metadata are [[docs:analytics:replication|replicated]] directly to avoid inconsistency with [[docs:templating:sql|page sql]]
 
 ==== Changes ====
   * The acronym / name of  a [[docs:content:icon|icon library]] follows the library name of the [[https://icon-sets.iconify.design/|iconify search engine]]. Therefore:
@@ -35,5 +35,5 @@
   * After a change in the [[docs:performance:svg_optimization|svg optimization]], the svg shown will not refresh. Cause: The [[docs:cache:static|static cache]] ''buster'' was using the time of the original SVG file and not from the optimized file.
   * Not able to navigate to an heading from a link fragment for a [[docs:content:link#internal|internal link]]. Bug: the fragment was not qualified as fully section id (letting spaces in it)
   * The first rendering of a [[docs:content:svg|SVG]] would be empty. The cause root was that the buster calculation of the [[docs:cache:static|static cache]] would close the rendering of the svg and the src would set not be added. Resolution: we make a difference between request and response attribute and we have added an error message when the tag attributes are finalized twice.
-  * The ''svg'' cache was not depend on its [[docs:performance:svg_optimization|optimization configuration]].
+  * The ''svg'' cache was not dependent on its [[docs:performance:svg_optimization|optimization configuration]].
   * The new [[docs:semantic:date|date format]] was not applied on the [[docs:semantic:published|published date]] causing a not valid date error message.
