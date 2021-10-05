@@ -19,7 +19,7 @@
   * ''references between pages'' (ie [[docs:content:link|link]] and [[docs:navigation:backlink|backlink]]) are now [[docs:analytics:replication|replicated]] in the [[docs:analytics:database|database]]
   * The [[docs:layout:component:grid|grid]] layout can now be used within an [[docs:templating:iterator|template iterator]]
   * [[docs:semantic:description|description]] is now loaded into the [[docs:analytics:database|database]]
-  * Added microsoft ''codicon'' as [[docs:content:icon|icon library]]
+  * Added microsoft ''codicon'' and ''logos'' as [[docs:content:icon|icon library]]
 
 ==== Improvement ====
   * The [[docs:analytics:replication|data synchronization process]] is now treated as a real replication and got a ''date_synchronization'' and a [[docs:semantic:uuid|universal id]]. The synchronization is now also based on the database version file.

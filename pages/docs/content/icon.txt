@@ -48,6 +48,7 @@ The ''name'' or ''acronym'' can be used as library name.
 | ''material-design'' | ''md'' | [[https://materialdesignicons.com/|Material design icon]] |
 | ''feather'' | ''fe'' | [[https://feathericons.com/|Feather]] |
 | ''codicon'' | ''codicon'' | [[https://microsoft.github.io/vscode-codicons/|Microsoft Code Icon]] |
+| ''logos'' | ''logos'' | [[https://svgporn.com/|SvgPorn]] |
 
 The default library is ''material-design'' but you can [[#configuration|change this configuration]].
 
