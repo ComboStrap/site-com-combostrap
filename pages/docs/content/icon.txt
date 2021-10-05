@@ -16,8 +16,6 @@
 
 
 
-===== Articles Related =====
-{{backlinks>.}}
 
 
 ===== Syntax =====
@@ -49,6 +47,7 @@ The ''name'' or ''acronym'' can be used as library name. It follows the [[https:
 | ''feather'' | ''fe'' | [[https://feathericons.com/|Feather]] |
 | ''codicon'' | ''codicon'' | [[https://microsoft.github.io/vscode-codicons/|Microsoft Code Icon]] |
 | ''logos'' | ''logos'' | [[https://svgporn.com/|SvgPorn]] |
+| ''carbon'' | ''carbon'' | [[https://www.carbondesignsystem.com/guidelines/icons/library/|Carbon (IBM)]] |
 
 The default library is ''material-design'' but you can [[#configuration|change this configuration]].
 
