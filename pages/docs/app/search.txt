@@ -1,0 +1,32 @@
+====== Internal Search Engine ======
+
+
+===== About =====
+The ''internal search engine'' permits to search a page via search term.
+
+The basic way to add it is to add the [[docs:menubar:search|search component]] in the menubar.
+
+
+===== Integration =====
+
+==== Browser ====
+
+The internal search engine is advertised to the browser
+  * When a user starts to type the name of a website  in the address bar (''alt+D'')
+  * It will see a ''Search WebSite'' box
+  * When typing the ''tab'' key, it will then be able to enter a ''search term''
+  * Typing the ''enter'' key will then bring the user to the ''search'' page of this website.
+
+Demo:
+
+{{:docs:page_type:internal_search_engine_browser.gif|}}
+
+<note>The user doesn't need to go to a page and uses the [[docs:menubar:search|search box]]</note>
+
+==== Google ====
+
+The internal search engine is advertised to the Google Search Engine via the [[docs:page_type:website|website page type]].
+
+==== Redirection ====
+
+Internally, if a URL is not found, the user is [[docs:url:search_engine|redirected to the search engine]].

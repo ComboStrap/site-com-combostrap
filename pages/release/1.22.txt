@@ -20,6 +20,7 @@
   * The [[docs:layout:component:grid|grid]] layout can now be used within an [[docs:templating:iterator|template iterator]]
   * [[docs:page_meta:description|description]] is now loaded into the [[docs:analytics:database|database]]
   * Added microsoft ''codicon'', ibm ''carbon'' and ''logos'' as [[docs:content:icon|icon library]]
+  * Added a page on the internal search engine. See [[docs:app:search]]
 
 ==== Improvement ====
   * The [[docs:analytics:replication|data synchronization process]] is now treated as a real replication and got a ''date_synchronization'' and a [[docs:page_meta:uuid|universal id]]. The synchronization is now also based on the database version file.

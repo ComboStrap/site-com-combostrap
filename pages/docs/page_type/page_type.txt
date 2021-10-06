@@ -26,7 +26,7 @@ You can set the value in the [[docs:semantic:frontmatter|frontmatter]]
 
 If not set, the default value is:
   * [[docs:page_type:website|website]] for the [[docs:page_type:home#root|root home page]]
-  * ''webpage'' for the other [[docs:page_type:home|home page]]
+  * [[docs:page_type:home|home]] for other [[docs:page_type:home|home page]]
   * and the value of the [[#configuration|default configuration]] for the others ([[docs:page_type:article|article]] at installation time)
  
 ===== Values and Schema Mapping =====
