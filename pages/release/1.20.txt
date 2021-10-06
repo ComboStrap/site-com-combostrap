@@ -51,11 +51,11 @@ The release ''1.20'' introduces a full template system based on the [[docs:templ
 
 ==== Bug ====
   * Snippets of code could be missing (such as [[docs:utility:prism|prism]] to highlight the code) on certain page due to the new [[docs:navigation:historical_breadcrumb|historical breadcrumb]] that created snippets scoped to the previous page because of the link that can be [[docs:quality:protection|protected]]. The snippets are now merged to prevent any scope related problem.
-  * The format saved for the [[docs:semantic:published|published date]] was actually not IS08601 compliant because [[https://www.php.net/manual/en/class.datetimeinterface.php#datetime.constants.iso8601|the DATE_ISO8601 constant in PHP]] is actually not compliant but was kept for backward compatibility. The new constant format used in php is the one pointed in the documentation, namely ''DATE_ATOM''.
+  * The format saved for the [[docs:page_meta:published|published date]] was actually not IS08601 compliant because [[https://www.php.net/manual/en/class.datetimeinterface.php#datetime.constants.iso8601|the DATE_ISO8601 constant in PHP]] is actually not compliant but was kept for backward compatibility. The new constant format used in php is the one pointed in the documentation, namely ''DATE_ATOM''.
   * Setting an ''id'' on a [[docs:content:heading#marki|marki heading]] is overwritten by the id generator making it useless. [[https://forum.dokuwiki.org/d/19523-dw-creates-broken-links-when-using-date-yyyy-mm-dd-as-section/28|Solution to Broken link discussion]]
   * Bad Svg were not tested and could then crash the rendering of a page. The [[docs:content:icon|icon]], the [[docs:content:svg|svg]] and [[docs:performance:svg_optimization|svg optimization]] has been corrected
   * Bug: [[docs:content:svg|svg]] was only visible for admin/manager when there was no cache (There was no mime due to security reason, we have added svg as supported format only for rendering).
 
 ==== Temporary warning ====
 
-The [[docs:semantic:published|Published]] format has changed that can cause temporary warning until the [[docs:analytics:process|data is refreshed]].
+The [[docs:page_meta:published|Published]] format has changed that can cause temporary warning until the [[docs:analytics:process|data is refreshed]].

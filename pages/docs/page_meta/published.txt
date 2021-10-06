@@ -10,7 +10,7 @@
 
 
 ===== About =====
-The ''date_published'' property is a page [[semantic|metadata]] that permits to modify the ''published date'' of an [[..:page_type:article|article]].
+The ''date_published'' property is a page [[..:semantic:semantic|metadata]] that permits to modify the ''published date'' of an [[..:page_type:article|article]].
 
 By default, the ''published date'' is the ''creation date'' 
 
@@ -24,7 +24,7 @@ If the ''published date'' is set in the future, the article will be [[docs:quali
 
 
 
-To set a published date in the [[frontmatter|frontmatter]], you add the ''date_published'' property with a [[date|date value]]
+To set a published date in the [[..:semantic:frontmatter|frontmatter]], you add the ''date_published'' property with a [[..:semantic:date|date value]]
 
 Example:
 <code json>

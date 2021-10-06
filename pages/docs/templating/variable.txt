@@ -23,7 +23,7 @@ The supported attribute can be used:
   * ''description'' - the [[docs:page_meta:description|description]]
   * ''date_created'' - the creation date
   * ''date_modified'' - the modification date
-  * ''date_published'' - the [[docs:semantic:published|publication date]]
+  * ''date_published'' - the [[docs:page_meta:published|publication date]]
   * ''date_start'' - the start date of an [[docs:page_type:event|event]]
   * ''date_end'' - the end date of an [[docs:page_type:event|event]]
   * ''word_count'' - the number of word in a page

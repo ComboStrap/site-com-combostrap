@@ -24,7 +24,7 @@ As extra, the [[docs:content:tooltip|tooltip]] component has been largely enhanc
   * You can now add the [[#highlight_words_in_the_target_page|words to highlight in a link]] when navigating to a page.
 
 ==== Breaking ====
-  * With the advent of the [[docs:quality:protection#robot|robot protection mode]], the [[docs:quality:protection|protection mode]] has been broken in two configurations: [[docs:seo:lqpp#protection_mode|low quality protection mode]] and [[docs:semantic:published#protection_mode|publication protection mode]]. The default value has been reset to ''ACL'', if you had another value, you should set it again.
+  * With the advent of the [[docs:quality:protection#robot|robot protection mode]], the [[docs:quality:protection|protection mode]] has been broken in two configurations: [[docs:seo:lqpp#protection_mode|low quality protection mode]] and [[docs:page_meta:published#protection_mode|publication protection mode]]. The default value has been reset to ''ACL'', if you had another value, you should set it again.
 ==== Improvement ====
   * A [[docs:content:link#internal|internal link]] gets as title the [[docs:page_meta:description|description]] of the target page. This way it enhances the HTML default tooltip.
   * The height of the [[docs:menubar:fixed-top|fixed-top-menu]] is now automatically set. The configuration ''heightFixedTopMenuBar'' has become obsolete.

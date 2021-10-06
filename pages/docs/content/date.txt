@@ -15,7 +15,7 @@ With the date component, you can format any date:
   * any [[docs:semantic:date|string date]]
   * or any [[docs:templating:variable|page date attribute]] such as:
       * ''date_created'' or ''date_modified''  of a page
-      * ''date_published'' (if specified, see [[docs:semantic:published]])
+      * ''date_published'' (if specified, see [[docs:page_meta:published]])
       * ''date_start'' or ''date_end'' of an [[docs:page_type:event|event]]
 
 
@@ -77,7 +77,7 @@ To have it refresh every day, we expire the [[docs:cache:cache|cache date daily]
 
 With a [[docs:templating:template|template component]], you can even print a date metadata of a page.
 <webcode name="Default" frameborder="0">
-  * For instance, for the [[docs:semantic:published|published date]] of this article
+  * For instance, for the [[docs:page_meta:published|published date]] of this article
 <code dw>
 <template>
     <date>$date_published</date>

@@ -22,7 +22,7 @@ Example:
   * piece of investigative report
 
 <note>
-If you don't defined a [[docs:semantic:published|published date]], the creation date is taken.
+If you don't defined a [[docs:page_meta:published|published date]], the creation date is taken.
 </note>
 
 
@@ -65,7 +65,7 @@ When a page gets the ''article'' [[docs:page_type:page_type|type]], the below pr
 
 
 ^ [[docs:social:google|Google (ld-json)]] ^ [[docs:social:facebook|Facebook (ogp)]] ^ Description ^ 
-| ''datePublished'' | ''published_time'' | When the article was first published - The [[docs:semantic:published|published date]] or the creation date if not available | 
+| ''datePublished'' | ''published_time'' | When the article was first published - The [[docs:page_meta:published|published date]] or the creation date if not available | 
 | ''dateModified'' | ''modified_time'' | When the article was last changed. | 
 | ''author'' | ''author'' | Writers of the article | 
 | ''headline'' | ''title'' | The headline of the article (ie the first 110 characters of the [[docs:page_meta:title|title]]) |

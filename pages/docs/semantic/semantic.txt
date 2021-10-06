@@ -36,10 +36,10 @@ There is three groups of metadata:
   * [[..:page_meta:title|page title]] - a long name for the page
   * [[..:page_meta:h1|h1]] - the first heading of the page
   * [[..:page_meta:description|description]] - a summary of the page
-  * [[docs:semantic:published|date_published]]
+  * [[docs:page_meta:published|date_published]]
   * [[docs:page_meta:image|image]] - the page illustrations
   * [[docs:page_type:page_type|page type]] - the type of page (article, ...)
-  * [[published|date_published]] - the publication date
+  * [[..:page_meta:published|date_published]] - the publication date
   * [[..:page_meta:country|country]] - the localized country
   * [[..:page_meta:lang|lang]] - the language of the page
 

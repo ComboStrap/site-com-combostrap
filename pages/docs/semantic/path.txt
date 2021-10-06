@@ -13,8 +13,10 @@
 ===== About =====
 The ''path'' is a [[semantic|page metadata]] that represents the full qualified path of a page that can be used in [[docs:templating:template|template]] to create for instance [[docs:content:link|links]]
 
-You can't set a path, the path is a derived metadata and can be seen in the [[docs:analytics:data|analtyics data file]].
+You can't set a path, the path is a derived metadata.
+
+It can be seen in:
+  * the [[docs:analytics:data|analtyics data file]].
+  * the [[docs:semantic:viewer|metadata manager]]
 
 This metadata is known as [[doku>pagename]] for Dokuwiki.
-===== Articles Related =====
-{{backlinks>.}}
