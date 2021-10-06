@@ -21,10 +21,13 @@ ie:
 
 ==== Move ====
 
-The [[doku>plugin:move]] plugin is a core plugin of ComboStrap and allows the move of:
-  * [[docs:content:link|link in the page]]
-  * [[docs:content:image|image in the page]]
-  * [[docs:page_meta:image|image declared in the metadata]]
+The [[doku>plugin:move]] plugin is a core plugin of ComboStrap.
+
+For each page move, we:
+  * rename the [[docs:content:link|page link]]
+  * rename the [[docs:content:image|image link]] and [[docs:page_meta:image|page image]]
+  * take into account the [[docs:navigation:backlink|backlink]]
+  * and [[docs:analytics:replication|replicate]] the change in the database
 
 By using ''ComboStrap'' if your [[#searchindex|index]] is up-to-date, you will not have any [[docs:quality:broken_link|broken link]]
 
@@ -109,7 +112,7 @@ Because we allow [[docs:content:link|link]] to be on a list. The image mapping p
 
 We test manually but we cannot test automatically because the imagemapping plugin fails the tests in Continuous Integration.
 
-To be more detailed, the imagemapping plugin has HTML file created as php file in the [[https://github.com/i-net-software/dokuwiki-plugin-imagemap/tree/master/_test/jstests|jstests directory]] causing the build to fail with with the following error:
+To be more detailed, the imagemapping plugin has created php file with HTML content  in the [[https://github.com/i-net-software/dokuwiki-plugin-imagemap/tree/master/_test/jstests|jstests directory]]. It causes the build to fail with with the following error:
 <file>
 Cannot modify header information - headers already sent by (output started at /home/travis/build/doku/lib/plugins/imagemapping/_test/jstests/ImageMapTest.php:1)
 </file>

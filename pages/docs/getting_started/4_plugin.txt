@@ -34,6 +34,7 @@ If you move page on the server via the file system (for instance in case of a ne
 </note>
 
 
+
 ==== Image Mapping ====
 
 The [[support:plugin#imagemapping|image mapping]] is working with ComboStrap but you should put your link or media on a new line (not in a list). In the third party plugin support page, you can see a [[support:plugin#imagemapping|working example]].
