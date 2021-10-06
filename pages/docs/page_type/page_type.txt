@@ -1,6 +1,6 @@
 ---json
 {
-    "canonical":"semantic:type"
+    "canonical":"page:type"
 }
 ---
 ====== ComboStrap Page Metadata - Type of Page ======
