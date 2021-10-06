@@ -55,7 +55,7 @@ After:
   * [[docs:navigation:page-explorer|page-explorer]]: the home page is now the first element in a tree. It was after the child namespaces making it difficult to spot.
 ==== Bug ====
 
-  * semi-bug: Page request with the [[doku>config:send404]] config enabled would return a 404 even if a page with a [[docs:semantic:canonical|canonical]] was found. Because the http status is set at the beginning, we can't change it, we send therefore an error message
+  * semi-bug: Page request with the [[doku>config:send404]] config enabled would return a 404 even if a page with a [[docs:page_meta:canonical|canonical]] was found. Because the http status is set at the beginning, we can't change it, we send therefore an error message
   * bug: the toolbar editor for a blockquote was closed not with a blockquote tag.
   * bug: the [[:security#content_security_policy|http header content security policy]] were send after output causing the below warning. They are now send when dokuwiki starts.
 <file>

@@ -8,7 +8,7 @@
 
 ===== About =====
 The ''redirection actions'' takes place in the [[redirection|redirection processing]] when:
-  * the missing page id is not a [[docs:semantic:canonical|canonical]]
+  * the missing page id is not a [[docs:page_meta:canonical|canonical]]
   * the missing page id does not have any [[page_rules|page rules]] that rewrite to an existing page id.
   * the user is not redirected to the [[edit|edit mode]] if it's a writer.
 ===== Articles Related =====

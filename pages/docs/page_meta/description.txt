@@ -14,11 +14,11 @@ The ''description'' is a summary of what the page is about.
 
 A page's description might be a sentence or two or even a short paragraph (whereas a [[title|page's title]] may be a few words or a phrase).
 
-It's a [[semantic|page metadata]] that:
+It's a [[..:semantic:semantic|page metadata]] that:
   * is displayed:
       * in social cards ([[..:social:twitter|twitter]], [[..:social:facebook|facebook]], [[..:social:google|Google Rich Result]])
       * in the [[#Search Engine Results Page]].
-      * in the [[docs:content:link|link default popup]] or the [[docs:content:link#preview|link preview tooltip]]. (Example for this page, hovering over this [[?preview#|link]] will show you the description of this page in a tooltip)
+      * in the [[docs:content:link|link default popup]] or the [[docs:content:link#preview|link preview tooltip]]. (Example for this page, hovering over this [[..:semantic:start?preview|link]] will show you the description of this page in a tooltip)
   * used in ''text-to-speech (TTS)'' (thanks to [[https://developers.google.com/search/docs/data-types/speakable|Speakable]])
 
 
@@ -27,7 +27,7 @@ It's a [[semantic|page metadata]] that:
 ===== Articles Related =====
 {{backlinks>.}}
 ===== Set=====
-You can modify the description by adding a ''description'' property in the [[frontmatter|frontmatter]].
+You can modify the description by adding a ''description'' property in the [[..:semantic:frontmatter|frontmatter]].
 <code json>
 {
     "description":"Would you want to  modify your meta description to rank better on the SERP page ? This is how you do it."
@@ -67,5 +67,5 @@ This component will also create the following ''description'' [[kb>html:meta|HTM
 \\
 
 <note>
-The description is not set specifically for the [[article#Google Rich Result|Article Google Rich Result Card]], they used the ''meta description'' tag.
+The description is not set specifically for the [[..:page_type:article#Google Rich Result|Article Google Rich Result Card]], they used the ''meta description'' tag.
 </note>

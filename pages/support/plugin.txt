@@ -24,7 +24,7 @@ ie:
 The [[doku>plugin:move]] plugin is a core plugin of ComboStrap and allows the move of:
   * [[docs:content:link|link in the page]]
   * [[docs:content:image|image in the page]]
-  * [[docs:semantic:image|image declared in the metadata]]
+  * [[docs:page_meta:image|image declared in the metadata]]
 
 By using ''ComboStrap'' if your [[#searchindex|index]] is up-to-date, you will not have any [[docs:quality:broken_link|broken link]]
 

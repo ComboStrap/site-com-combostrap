@@ -25,7 +25,7 @@ The [[..:social:google|google search engine]] uses this information to localize 
 ===== Set =====
 The default value is set in the [[#siteCountry]] configuration.
 
-You can set a ''country'' code in the [[frontmatter|frontmatter]] to localize a specific page.
+You can set a ''country'' code in the [[..:semantic:frontmatter|frontmatter]] to localize a specific page.
 
 <code json>
 {

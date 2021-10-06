@@ -16,7 +16,7 @@ With the date component, you can format any date:
   * or any [[docs:templating:variable|page date attribute]] such as:
       * ''date_created'' or ''date_modified''  of a page
       * ''date_published'' (if specified, see [[docs:semantic:published]])
-      * ''date_start'' or ''date_end'' of an [[docs:semantic:event|event]]
+      * ''date_start'' or ''date_end'' of an [[docs:page_type:event|event]]
 
 
 
@@ -55,7 +55,7 @@ To have it refresh every day, we expire the [[docs:cache:cache|cache date daily]
 
 
 <webcode name="Default" frameborder="0">
-  * The markup with the [[docs:semantic:lang|lang]] attribute
+  * The markup with the [[docs:page_meta:lang|lang]] attribute
 <code dw>
 <date lang="fr"/>
 </code>
@@ -98,7 +98,7 @@ With a [[docs:templating:template|template component]], you can even print a dat
 </code>
 where:
   * ''format'' is any [[https://www.php.net/manual/en/function.strftime.php|format accepted by the strftime function]]
-  * ''lang'' is a [[docs:semantic:lang|lang]] value
+  * ''lang'' is a [[docs:page_meta:lang|lang]] value
   * ''dateValue'' is:
       * one of the [[docs:semantic:date|accepted date format]]
       * or any [[docs:templating:variable|page date metadata]].

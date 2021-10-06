@@ -48,7 +48,7 @@ If you need to contact us, you can [[support|email us, create an issue or more]]
 
 
 <note tip>
-This page was created  with ''ComboStrap'' itself and showcase a [[docs:semantic:organization|organization page]] used by Google to create their knowledge panel and advertise your organization.
+This page was created  with ''ComboStrap'' itself and showcase a [[docs:page_type:organization|organization page]] used by Google to create their knowledge panel and advertise your organization.
 </note>
 
 

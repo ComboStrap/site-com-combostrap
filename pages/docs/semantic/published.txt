@@ -10,7 +10,7 @@
 
 
 ===== About =====
-The ''date_published'' property is a page [[semantic|metadata]] that permits to modify the ''published date'' of an [[article|article]].
+The ''date_published'' property is a page [[semantic|metadata]] that permits to modify the ''published date'' of an [[..:page_type:article|article]].
 
 By default, the ''published date'' is the ''creation date'' 
 

@@ -23,14 +23,13 @@ https://yourdomain.com/your/canonical
 </code>
   * be used in your tracking metrics
   * help [[docs:seo:seo|Search Crawler]] detecting that the page from the default and canonical URL are the same.
-===== Articles Related =====
-{{backlinks>.}}
+
 
 ===== How to set the canonical value ? =====
 
 ==== Manually ====
 
-To set the canonical value, uses the [[frontmatter|frontmatter component]] and add the ''canonical'' property in the JSON document.
+To set the canonical value, uses the [[..:semantic:frontmatter|frontmatter component]] and add the ''canonical'' property in the JSON document.
 
 <code javascript>
 ---json
@@ -74,7 +73,7 @@ Try it your self !
 or
 
 <btn>
-[[docs:semantic:canonical#demo|Navigate to this page via its dokuwiki URL !]]
+[[docs:page_meta:canonical#demo|Navigate to this page via its dokuwiki URL !]]
 </btn>
 
 ===== Usage =====

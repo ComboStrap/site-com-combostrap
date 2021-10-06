@@ -1,9 +1,9 @@
 ---json
 {
-    "canonical":"image",
-    "title":"How to use the image tag in ComboStrap",
-    "image":"::docs:block:stock_image_surfer_in_the_see.png",
-    "description":"Combostrap supports raster and vectoriel image. This page shows you how to add an image with syntax and examples."
+    "canonical": "image",
+    "title": "How to use the image tag in ComboStrap",
+    "image": ":docs:block:stock_image_surfer_in_the_see.png",
+    "description": "Combostrap supports raster and vectoriel image. This page shows you how to add an image with syntax and examples."
 }
 ---
 ====== ComboStrap UI - Images ======
@@ -172,4 +172,4 @@ This [[:configuration|configuration]] permits to set the link type to the image.
 
 
 ===== Metadata Image =====
-You can also add [[docs:semantic:image|image in the metadata]] in order to add/set illustrations for social cards or templates.
+You can also add [[docs:page_meta:image|image in the metadata]] in order to add/set illustrations for social cards or templates.

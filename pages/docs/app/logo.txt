@@ -6,7 +6,7 @@
 ====== ComboStrap Site Metadata - Logo ======
 
 ===== About =====
-A ''logo'' is an image that illustrates your [[..:semantic:organization|organization]].
+A ''logo'' is an image that illustrates your [[..:page_type:organization|organization]].
 ===== Usage =====
 
 ==== Metadata ====

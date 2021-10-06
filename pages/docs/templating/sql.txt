@@ -71,7 +71,7 @@ If your [[docs:analytics:query##json_support|sqlite does not support Json]], you
        * any other characters match itself.
 Subpatterns are not supported by Sqlite (ie ''{sun,moon,stars}'' to match ''sun'', ''moon'', or ''stars'')
 
-**example:** the [[docs:semantic:path|path]] and [[docs:semantic:title|title]] of all pages that ends with 3 digits.
+**example:** the [[docs:semantic:path|path]] and [[docs:page_meta:title|title]] of all pages that ends with 3 digits.
 
 <code sql>
 select where path glob '*[0-9][0-9][0-9]'
@@ -103,7 +103,7 @@ The ''LIKE'' is not case sensitive and in the pattern expression:
 
 
 **example:** If you want to get:
-  * the [[docs:semantic:path|path]] and [[docs:semantic:title|title]] of all pages
+  * the [[docs:semantic:path|path]] and [[docs:page_meta:title|title]] of all pages
   * that have the terms ''image'', ''svg'' or ''raster'' in their [[docs:semantic:path|path]]
 you would use the following page sql:
 <code sql>

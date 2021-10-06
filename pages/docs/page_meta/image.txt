@@ -11,33 +11,32 @@
 
 
 ===== About =====
-''image'' is a [[semantic|page metadata]] that defines an illustrative [[docs:content:image|image]] for the page.
+''image'' is a [[docs:semantic:semantic|page metadata]] that defines an illustrative [[docs:content:image|image]] for the page.
 
 
 
 The image:
   * can be rendered with the [[docs:content:page-image|pageimage component]] in [[docs:templating:template|template]]
-  * and will be added into [[docs:social:social|social]] cards such as [[..:social:twitter|twitter]], [[..:social:google|google]] or [[..:social:facebook|facebook]].
+  * and will be added into [[docs:social:social|social]] cards such as [[docs:social:twitter|twitter]], [[docs:social:google|google]] or [[docs:social:facebook|facebook]].
 
 The image should be relevant to the page. For example, if you define an image for a news article, the image must be relevant to that news article.
 
 
-===== Articles Related =====
-{{backlinks>.}}
+
 ===== Definition =====
 
 The image of a page is searched in this order:
-  - the first conform ''image'' property in the [[frontmatter|frontmatter]]
+  - the first conform ''image'' property in the [[docs:semantic:frontmatter|frontmatter]]
   - the first conform ''image'' of a page if not [[#disableFirstImageAsPageImage|disabled]]
   - the first conform [[docs:app:logo|logo]]
 
 
 <note>
-For a [[docs:social:social|social image]] ([[..:social:twitter#image|twitter]], [[..:social:google#image|google]] and [[..:social:facebook#image|facebook]]) have all differents image specifications, if the images found in a step is not conform (low resolution, bad type), the next step is taken.
+For a [[docs:social:social|social image]] ([[docs:social:twitter#image|twitter]], [[docs:social:google#image|google]] and [[docs:social:facebook#image|facebook]]) have all differents image specifications, if the images found in a step is not conform (low resolution, bad type), the next step is taken.
 </note>
 ===== Example =====
 
-Example of a a [[frontmatter|frontmatter]] image:
+Example of a a [[docs:semantic:frontmatter|frontmatter]] image:
   * Set: multiple images. The recommended images are:
       * high-resolution (minimum of 300,000 pixels when multiplying ''width'' and ''height'', to avoid blurry, unclear images)
       * with the following aspect ratios: ''16x9'', ''4x3'', and ''1x1'' (to avoid [[docs:content:image#cropping|cropping]])

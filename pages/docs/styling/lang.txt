@@ -13,7 +13,7 @@ The ''lang'' attributes is a [[docs:styling:styling|styling attribute]] that set
 
 <note>
 If you want to set the language for:
-  * one page: use the [[docs:semantic:lang|lang semantic attribute]] 
+  * one page: use the [[docs:page_meta:lang|lang semantic attribute]] 
   * the whole website, use the [[doku>config:lang|dokuwiki lang configuration]]
 </note>
 ===== Example =====

@@ -26,7 +26,7 @@ As extra, the [[docs:content:tooltip|tooltip]] component has been largely enhanc
 ==== Breaking ====
   * With the advent of the [[docs:quality:protection#robot|robot protection mode]], the [[docs:quality:protection|protection mode]] has been broken in two configurations: [[docs:seo:lqpp#protection_mode|low quality protection mode]] and [[docs:semantic:published#protection_mode|publication protection mode]]. The default value has been reset to ''ACL'', if you had another value, you should set it again.
 ==== Improvement ====
-  * A [[docs:content:link#internal|internal link]] gets as title the [[docs:semantic:description|description]] of the target page. This way it enhances the HTML default tooltip.
+  * A [[docs:content:link#internal|internal link]] gets as title the [[docs:page_meta:description|description]] of the target page. This way it enhances the HTML default tooltip.
   * The height of the [[docs:menubar:fixed-top|fixed-top-menu]] is now automatically set. The configuration ''heightFixedTopMenuBar'' has become obsolete.
   * The [[docs:seo:lqpp|low quality page protection]] creates now friendly SEO links, offers two more levels of protection and 3 type of links
   * The [[docs:quality:lpp|late publication protection]] and  [[docs:seo:lqpp|low quality page protection]] does not share the same [[docs:quality:protection|protection mode]]
@@ -34,7 +34,7 @@ As extra, the [[docs:content:tooltip|tooltip]] component has been largely enhanc
   * The old [[release:deprecated:tooltip|tooltip]] syntax was deprecated for a tooltip seen as a child of a component
 ==== Bug ====
 
-  * With the [[docs:semantic:automatic_canonical|automatic canonical]], two pages with the same last two parts could get the same canonical and get this errors:
+  * With the [[docs:page_meta:automatic_canonical|automatic canonical]], two pages with the same last two parts could get the same canonical and get this errors:
 <file>
 The page (viz:viz) and the page (data:viz:viz) have the same canonical. ''viz:viz''
 </file>

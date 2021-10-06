@@ -10,12 +10,12 @@
 
 
 ===== About =====
-''WebSite'' is a [[type|page type]] that holds data over a whole website.
+''WebSite'' is a [[type|page type]] that shows information to search engine over the whole website.
 
-Generally, you would have only one page of this type and it would be your [[docs:page:home#root|root home page]]. ''ComboStrap'' sets automatically a ''website'' [[type|type]] page on the [[#root|root home page]] if not set.
+Generally, you would have only one page of this type and it would be your [[docs:page_type:home#root|root home page]]. ''ComboStrap'' sets automatically a ''website'' [[type|type]] page on the [[#root|root home page]] if not set.
 
 
-We add also the search action to implements the [[https://developers.google.com/search/docs/data-types/sitelinks-searchbox|searchbox]] [[..:social:google|google rich result]]. 
+We add also the search action to implements the [[https://developers.google.com/search/docs/data-types/sitelinks-searchbox|searchbox]] [[docs:social:google|google rich result]]. 
 
 
 The exact definition of a ''website'' from [[https://schema.org/WebSite|semantic.org]] is a set of related web pages that are served from a single web domain.
@@ -26,14 +26,14 @@ The exact definition of a ''website'' from [[https://schema.org/WebSite|semantic
 The following metadata are automatically added to a ''website'' page:
   * ''url'', the base url
   * ''name'', the website [[doku>config:title|title]]
-  * ''description'', the [[docs:semantic:tagline|tagline]]
+  * ''description'', the [[docs:app:tagline|tagline]]
   * ''image'', the [[docs:app:logo|logo]] (as png)
 
 
 <note>
 You can set more metadata yourself:
   * check the ''json-ld'' example and what kind of properties may be added at [[https://schema.org/WebSite|Schema.org WebSite]]
-  * and go to the [[..:social:google|Google Rich Result page]] to know how.
+  * and go to the [[docs:social:google|Google Rich Result page]] to know how.
 </note>
 
 

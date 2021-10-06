@@ -35,7 +35,7 @@ The content is optional and is used:
 The parameters that you can set as attribute of the [[..:block:blockquote|blockquote tag]]  are listed in the below table.
 
 ^ Parameter ^ Possible Values ^ Default ^ Description ^ 
-| lang | Two letters | [[docs:semantic:lang|See lang]] | Language interface (if in the [[https://developer.twitter.com/en/docs/twitter-for-websites/supported-languages|supported language]] otherwise ''en'') |
+| lang | Two letters | [[docs:page_meta:lang|See lang]] | Language interface (if in the [[https://developer.twitter.com/en/docs/twitter-for-websites/supported-languages|supported language]] otherwise ''en'') |
 | cards | hidden | | links in a Tweet are not expanded to photo, video, or link previews |
 | conversation | none | | if set, only the cited Tweet will be displayed even if it is in reply to another Tweet |
 | theme | light/dark | [[#theme|light]] | Displays Tweet in their [[#theme]] |

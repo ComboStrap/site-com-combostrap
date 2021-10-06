@@ -9,7 +9,7 @@
 
 
 ===== About =====
-''article'' is a [[docs:page:type:type|type]] of page that defines a page where most of the content is textual and is meant to be read. 
+''article'' is a [[docs:page_type:page_type|type]] of page that defines a page where most of the content is textual and is meant to be read. 
 
 This type of page understands also the subtype:
   * ''news''
@@ -33,7 +33,7 @@ If you don't defined a [[docs:semantic:published|published date]], the creation 
 
 Setting a page to ''article'' enables:
   * the [[https://developers.google.com/search/docs/data-types/article|article card (advanced SEO)]].
-  * and the [[https://developers.google.com/search/docs/data-types/speakable|Speakable feature]] for the [[docs:semantic:title|title]] and the [[docs:semantic:description|description]] if set
+  * and the [[https://developers.google.com/search/docs/data-types/speakable|Speakable feature]] for the [[docs:page_meta:title|title]] and the [[docs:page_meta:description|description]] if set
 
 
 <box elevation="high" align="center" width="fit-content">
@@ -42,7 +42,7 @@ Setting a page to ''article'' enables:
 
 \\
 
-[[docs:social:google|Google]] understands the following ''article'' [[docs:page:type:type|type]] that we matches to the following [[docs:page:type:type|type values]]
+[[docs:social:google|Google]] understands the following ''article'' [[docs:page_type:page_type|type]] that we matches to the following [[docs:page_type:page_type|type values]]
 
 ^ Value ^ Google (Schema.org) ^
 | ''article'' | [[https://schema.org/Article|Article]] |
@@ -61,15 +61,15 @@ Setting a page to ''article'' enables:
 ==== Automatically ====
 
 
-When a page gets the ''article'' [[docs:page:type:type|type]], the below properties are automatically added.
+When a page gets the ''article'' [[docs:page_type:page_type|type]], the below properties are automatically added.
 
 
 ^ [[docs:social:google|Google (ld-json)]] ^ [[docs:social:facebook|Facebook (ogp)]] ^ Description ^ 
 | ''datePublished'' | ''published_time'' | When the article was first published - The [[docs:semantic:published|published date]] or the creation date if not available | 
 | ''dateModified'' | ''modified_time'' | When the article was last changed. | 
 | ''author'' | ''author'' | Writers of the article | 
-| ''headline'' | ''title'' | The headline of the article (ie the first 110 characters of the [[docs:semantic:title|title]]) |
-| Na | ''description'' | The [[docs:semantic:description|description]] of the article  |
+| ''headline'' | ''title'' | The headline of the article (ie the first 110 characters of the [[docs:page_meta:title|title]]) |
+| Na | ''description'' | The [[docs:page_meta:description|description]] of the article  |
 | ''publisher.name'' | Na | The name of the publisher (the [[doku>config:title|dokuwiki wiki title configuration]]) |
 | ''publisher.logo.url'' | Na | The URL of the [[docs:app:logo|logo]] |
 | ''image'' | ''image'' | Image that belongs to the article (The [[#image|page image]]) |
@@ -90,13 +90,13 @@ For instance, if you want to add a [[https://schema.org/Article|keywords propert
 
 
 ===== Image =====
-By default, ''ComboStap'' will set the [[docs:semantic:image|page image]].
+By default, ''ComboStap'' will set the [[docs:page_meta:image|page image]].
 
 Google recommends to provide multiple images with 
   * a high-resolution (minimum of 300,000 pixels when multiplying width and height) 
   * the following aspect ratios: 16x9, 4x3, and 1x1.
 
-You can create them and set them with the [[docs:semantic:image|image]] property even if the [[https://schema.org/image|standard does not allow it]].
+You can create them and set them with the [[docs:page_meta:image|image]] property even if the [[https://schema.org/image|standard does not allow it]].
 
 <code json>
 {

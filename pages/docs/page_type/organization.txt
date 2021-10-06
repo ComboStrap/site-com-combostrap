@@ -28,7 +28,7 @@ Combostrap will then add the following properties:
   * ''url'': the base url
   * ''logo'': the [[docs:app:logo|logo]]
   * ''name'': the [[doku>config:title|site title]]
-  * ''slogan'': the [[docs:semantic:tagline|tagline]]
+  * ''slogan'': the [[docs:app:tagline|tagline]]
   * the [[docs:social:twitter|twitter]] url if the handle is known
   * the [[docs:social:facebook|facebook]] url if the handle is known
 

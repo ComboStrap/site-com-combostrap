@@ -1,7 +1,0 @@
-====== UUID (Universally Unique IDentifier) ======
-
-
-===== About =====
-The ''uuid'' field stores a ''UUID (Universally Unique IDentifier)''. It's a generated page identifier that is unique for the whole website.
-
-It is used in the [[docs:analytics:replication|data replication process]]

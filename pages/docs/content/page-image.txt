@@ -1,7 +1,7 @@
 ---json
 {
     "canonical": "page-image",
-    "name":"Page Image",
+    "name": "Page Image",
     "title": "Page-image Component: Renders the illustrative image of your page",
     "description": "Page-image is a component that renders the illustrative image of the page and is generally used in a template.",
     "image": ":docs:content:surfer600.png"
@@ -11,7 +11,7 @@
 
 
 ===== About =====
-''page-image'' is a [[content|content component]] that chooses and renders one of the [[docs:semantic:image|page images]] (illustration, thumbnail) defined for a page.
+''page-image'' is a [[content|content component]] that chooses and renders one of the [[docs:page_meta:image|page images]] (illustration, thumbnail) defined for a page.
 
 
 <note>
@@ -25,7 +25,7 @@ The generated image inherits all [[docs:content:image|images features]] such as 
 
 ==== The original page image ====
 
-This example shows the [[docs:semantic:image|page image]] of this page (path: ''<template>$path</template>'') - We have set it to the image of the surfer below.
+This example shows the [[docs:page_meta:image|page image]] of this page (path: ''<template>$path</template>'') - We have set it to the image of the surfer below.
 
 <webcode name="Default" frameborder="0">
 <code dw>
@@ -56,7 +56,7 @@ where:
       * ''1:1''
 
 When the ''ratio'' is set, the algorithm will:
-  * select the image in the set of [[docs:semantic:image|page image]] with the most equivalent ratio
+  * select the image in the set of [[docs:page_meta:image|page image]] with the most equivalent ratio
   * [[docs:content:image#cropping|crop]] the image to fit the ratio
 
 <note>

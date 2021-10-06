@@ -17,7 +17,7 @@ For instance, the ''h1'' for this page is ''ComboStrap Semantic - H1 title''.
 
 ===== Usage =====
 
-''ComboStrap'' captures it and adds it to the [[semantic|metadata]] and you can then use it in a [[docs:templating:template|template component]] such as in the [[docs:navigation:page-explorer|page-explorer]].
+''ComboStrap'' captures it and adds it to the [[..:semantic:semantic|metadata]] and you can then use it in a [[docs:templating:template|template component]] such as in the [[docs:navigation:page-explorer|page-explorer]].
 
 
 

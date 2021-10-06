@@ -8,7 +8,7 @@
 ====== ComboStrap Page Metadata - Locale ======
 
 ===== About =====
-The ''locale'' is a [[semantic|page metadata]] that contains a language and a country identifier.
+The ''locale'' is a [[..:semantic:semantic|page metadata]] that contains a language and a country identifier.
 
 
 Example with the default value for [[..:social:facebook|facebook]] for the ''english'' language in the ''united state'' country.

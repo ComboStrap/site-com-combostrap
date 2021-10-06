@@ -46,7 +46,7 @@ For [[doku>|Dokuwiki]],
 The [[:strap|Strap template]] is mandatory or a template should take into account the ''title'' metadata.
 </note>
 
-With [[:start|ComboStrap]], if you set a ''title'' property with [[frontmatter|frontmatter]], it will become the page title.
+With [[:start|ComboStrap]], if you set a ''title'' property with [[..:semantic:frontmatter|frontmatter]], it will become the page title.
 
 Example:
 <code javascript>
@@ -59,7 +59,7 @@ Result:
 
 
 <note>
-With the [[:strap|strap template]],  the website ''home page'' title is the Dokuwiki title with the website [[docs:semantic:tagline|tagline]] 
+With the [[:strap|strap template]],  the website ''home page'' title is the Dokuwiki title with the website [[docs:app:tagline|tagline]] 
 </note>
 
 

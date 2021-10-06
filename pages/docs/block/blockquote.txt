@@ -16,7 +16,7 @@ A ''blockquote'' component is a content with a [[docs:content:cite|citation]].
 A blockquote is an extract from another source and is set appart with a citation.
 
 <note tip>
-A pullquote is an typographic effect that quotes words of the current [[docs:semantic:article|article]]
+A pullquote is an typographic effect that quotes words of the current [[docs:page_type:article|article]]
 </note>
 
 ===== Articles Related =====

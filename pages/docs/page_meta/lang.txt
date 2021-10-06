@@ -8,7 +8,7 @@
 
 
 ===== About =====
-The ''lang'' [[semantic|metadata]] is an language identifier that sets the language of a page
+The ''lang'' [[..:semantic:semantic|metadata]] is an language identifier that sets the language of a page
 
 
 The format supported is the [[https://www.loc.gov/standards/iso639-2/php/English_list.php|ISO 639-2]] 2 letters code.
@@ -38,7 +38,7 @@ See the demo page: [[lang_ar]]
 ===== Set =====
 The default value is set in the [[#config:lang]] configuration.
 
-You can set a ''lang'' code in the [[frontmatter|frontmatter]] for a specific page.
+You can set a ''lang'' code in the [[..:semantic:frontmatter|frontmatter]] for a specific page.
 
 <code json>
 ---json

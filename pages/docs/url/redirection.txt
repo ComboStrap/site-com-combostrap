@@ -11,7 +11,7 @@
 ===== Processing =====
 
 If a page does not exist
-  * if the page has a [[docs:semantic:canonical|canonical]], rewrite the [[doku>Pagename|Dokuwiki ID]] to the [[docs:semantic:canonical|canonical]] one
+  * if the page has a [[docs:page_meta:canonical|canonical]], rewrite the [[doku>Pagename|Dokuwiki ID]] to the [[docs:page_meta:canonical|canonical]] one
   * if the page has a [[page_rules|page rules redirect]], redirect with a permanent redirection (301)
   * if the user has a write permission, redirect the writer to the ''edit'' form
   * if the user has only read permission, follow the [[action|redirect actions]] in the order of the configurations

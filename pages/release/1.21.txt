@@ -10,7 +10,7 @@
 
 ===== About =====
 This release brought an improve templating system:
-  * this is possible to print the [[docs:semantic:image|image of a page]] with the [[docs:content:page-image|page-image]]
+  * this is possible to print the [[docs:page_meta:image|image of a page]] with the [[docs:content:page-image|page-image]]
   * the columns have been made optional in the [[docs:templating:sql|sql]]
   * the [[docs:content:date|date component]] permits to print a date in a supported format.
 
@@ -24,7 +24,7 @@ With the advent of the [[docs:templating:iterator|iterator]], we have standardiz
 
 
 ==== New ====
-  * The [[docs:semantic:event|event page]] to create event.
+  * The [[docs:page_type:event|event page]] to create event.
   * New : the [[docs:semantic:date|date]] page that describes the date format supported in metadata.
   * ''backlinks'': 
       * Added the [[docs:navigation:backlink|backlink page]] to give more information

@@ -1,0 +1,24 @@
+---json
+{
+   "canonical":"tagline"
+}
+---
+
+====== ComboStrap App - Tagline ======
+
+
+===== About =====
+A tagline is a short and appealing marketing description for your website.
+
+It's used:
+  * in the ''description'' field of the [[docs:app:manifest|manifest]]
+  * in the [[docs:page_type:home#root|root home page]] [[docs:page_meta:title|title]].
+  * in the home page [[..:page_type:website|website metadata]] as site description.
+
+
+
+
+===== Enable =====
+
+To enable it, you just need to set the [[doku>config:tagline|tagline]] [[:configuration|configuration]] with a value.
+

@@ -11,7 +11,7 @@
 
 
 ===== About =====
-The page ''name'' is a metadata that stores the shortest [[description|description of a page]], generally one or two words.
+The page ''name'' is a metadata that stores the shortest [[..:page_meta:description|description of a page]], generally one or two words.
 
 It can be used in place where long description are not welcome such as the [[docs:navigation:page-explorer|page-explorer]]
 

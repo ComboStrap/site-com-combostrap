@@ -17,21 +17,21 @@ This page describes all attribute that can be used:
 
 The supported attribute can be used:
   * ''path'' is the [[docs:semantic:path|full qualified path of a page]] that can be used in [[docs:content:link|link]]
-  * ''title'' - the [[docs:semantic:title|title]] of the page - if empty, the ''h1''
+  * ''title'' - the [[docs:page_meta:title|title]] of the page - if empty, the ''h1''
   * ''name'' - the [[docs:semantic:name|name]] of the page - if empty, the last part of the id
-  * ''h1'' - the [[docs:semantic:h1|h1 title]] (the first header text of the page) - if empty, the ''title''.
-  * ''description'' - the [[docs:semantic:description|description]]
+  * ''h1'' - the [[docs:page_meta:h1|h1 title]] (the first header text of the page) - if empty, the ''title''.
+  * ''description'' - the [[docs:page_meta:description|description]]
   * ''date_created'' - the creation date
   * ''date_modified'' - the modification date
   * ''date_published'' - the [[docs:semantic:published|publication date]]
-  * ''date_start'' - the start date of an [[docs:semantic:event|event]]
-  * ''date_end'' - the end date of an [[docs:semantic:event|event]]
+  * ''date_start'' - the start date of an [[docs:page_type:event|event]]
+  * ''date_end'' - the end date of an [[docs:page_type:event|event]]
   * ''word_count'' - the number of word in a page
   * ''backlink_count'' -  the number of [[docs:navigation:backlink|backlinks]]
   * ''type'' - the [[docs:semantic:type|type of page]]
   * ''is_low_quality'' - a boolean that is set to 1 if the page is of [[docs:quality:low_quality_page|low quality]]
   * ''lang'' - the [[docs:styling:lang|lang]] of a page
-  * ''is_home'' - a boolean that is set to 1 if the page is a [[docs:page:home|home page]]
+  * ''is_home'' - a boolean that is set to 1 if the page is a [[docs:page_type:home|home page]]
 
 And all [[docs:semantic:frontmatter|frontmatter metadatas]] that are scalar (ie no array). Basically, all metadata that can be seen in the [[docs:analytics:data|scalar metadata node of the analytics data]] can be used as attribute.
 
@@ -39,7 +39,7 @@ And all [[docs:semantic:frontmatter|frontmatter metadatas]] that are scalar (ie 
 
 The below ''template text'' inside a ''template component'' will print:
   * a [[docs:lists:list|bullet list]] 
-  * with the variables: [[docs:semantic:title|title]] and [[docs:semantic:path|path]] of the actual page.
+  * with the variables: [[docs:page_meta:title|title]] and [[docs:semantic:path|path]] of the actual page.
 <webcode name="list">
 <code dw>
 <template>
