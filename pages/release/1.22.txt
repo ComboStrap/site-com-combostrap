@@ -21,6 +21,7 @@
   * [[docs:page_meta:description|description]] is now loaded into the [[docs:analytics:database|database]]
   * Added microsoft ''codicon'', ibm ''carbon'' and ''logos'' as [[docs:content:icon|icon library]]
   * Added a page on the internal search engine. See [[docs:app:search]]
+  * Lockfile protection for the [[support:plugin#move|move plugin]]. When a move goes wrong, a lock file may stay in the data directory. We cancel the move if the lock file age is bigger than 10 minutes.
 
 ==== Improvement ====
   * The [[docs:analytics:replication|data synchronization process]] is now treated as a real replication and got a ''date_synchronization'' and a [[docs:page_meta:uuid|universal id]]. The synchronization is now also based on the database version file.

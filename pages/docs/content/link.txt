@@ -35,7 +35,7 @@ Internal Links can also be [[?color=#495057|styled]]
 </webcode>
 
 <note>
-The default description if not set is the [[docs:semantic:name|page name]].
+The default description if not set is the [[docs:page_meta:name|page name]].
 </note>
 
 
@@ -97,7 +97,7 @@ If there is no description, the email is shown with the [[doku>config:mailguard|
 === Email Protection ===
 
 
-Email protection against bots is almost a lost cause but you can give them an hard time with this    [[doku>config:mailguard|mailguard configuration]].
+Email protection against bots is almost a lost cause but you can give them an hard time with this [[doku>config:mailguard|mailguard configuration]].
 
 
 <note>
@@ -156,7 +156,7 @@ You can also stretch a link and make the whole parent clickable with the [[docs:
 ==== Preview ====
 
 By adding the ''preview'' attribute, you can create automatically a [[docs:content:tooltip|tooltip]] ''preview'' of the [[#internal|internal target page]] with:
-  * the [[docs:semantic:name|page name]]
+  * the [[docs:page_meta:name|page name]]
   * and the [[docs:page_meta:description|description]]
 
 {{:docs:content:combostrap_link_preview.jpg|}}
@@ -217,7 +217,7 @@ If you enable this configuration, the [[#preview|preview]] attribute will be set
 
 ==== enableEnhancedLinkWizard ====
 
-In the  [[doku>toolbar|editor]], ComboStrap will make the ''link wizard'' also search for pattern in [[docs:semantic:path|path]], [[docs:page_meta:title|title]], [[docs:page_meta:h1|heading 1]] and [[docs:semantic:name|name]]
+In the  [[doku>toolbar|editor]], ComboStrap will make the ''link wizard'' also search for pattern in [[docs:semantic:path|path]], [[docs:page_meta:title|title]], [[docs:page_meta:h1|heading 1]] and [[docs:page_meta:name|name]]
 
 {{:docs:content:link_wizard.png|}}
 

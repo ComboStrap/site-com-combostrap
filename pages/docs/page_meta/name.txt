@@ -26,7 +26,7 @@ This ''name'' will show up:
 
 ===== How to set a name =====
 
-By default, the value of the name is the last part of the [[docs:semantic:path|path]] but you can overwrite it by adding a ''name'' property in the [[frontmatter|frontmatter]]
+By default, the value of the name is the last part of the [[docs:semantic:path|path]] but you can overwrite it by adding a ''name'' property in the [[..:semantic:frontmatter|frontmatter]]
 
 Example:
 <code javascript>

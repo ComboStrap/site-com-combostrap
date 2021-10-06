@@ -14,7 +14,7 @@ This page regroups all support information about external plugins.
 
 ie:
   * if the plugin is supported and tested against ComboStrap
-  * or any extra informations needed 
+  * or any extra informations needed
 
 
 ===== List =====
@@ -36,13 +36,23 @@ You can quickly move a page with the ''rename'' action in the [[docs:layout:page
 
 {{:docs:getting_started:move_plugin_rename.png|}}
 
+<note important>
+=== Lock File ===
+
+If for any reason such as an index that is not up to date, you got a problem during a move, the plugin can let a lock file at ''DOKUWIKI_HOME/data/locks_plugin_move.lock''.
+
+This file should be deleted, otherwise you may get strange behavior. For instance, the move plugin will not save any of its processing.
+
+To prevent any more damage, we don't allow any move if the lock file was created more than 5 minutes ago.
+</note>
+
 ==== Search Index Manager ====
 
 The ''search index'' is an index of your page that powers the [[docs:menubar:search|search component]] and stores the [[docs:navigation:related|backlinks]].
 
 The index is [[doku>search|updated]] incrementally page by page when a visitor see a page.
 
-If you change a lot of page (for instance, making a release), the [[doku>plugin:searchindex|search index manager]] is for you. It will rebuild the index completely. 
+If you change a lot of page (for instance, making a release), the [[doku>plugin:searchindex|search index manager]] is for you. It will rebuild the index completely.
 
 <note>
 The [[#move]] plugins depends on it to retrieve the backlinks.
@@ -77,7 +87,7 @@ If you want to use [[doku>plugin:imagemapping]] with ComboStrap, you should not 
 The below example on the documentation will not work.
 <code dw>
 {{map>imagemap.png|Alternate Text}}
-Type normal wiki markup here. Links will be automatically 
+Type normal wiki markup here. Links will be automatically
 detected and used in the image map.
   * [[imagemap#Syntax|Description @ 10,12,40,30]]
   * [[wp>Image_map|An interwiki link @ 110,50,40]]
@@ -91,7 +101,7 @@ You need to put the links / image at the beginning of a new line
 <webcode name="Default" frameborder="0">
 <code dw>
 {{map>imagemap.png|Alternate Text}}
-Type normal wiki markup here. Links will be automatically 
+Type normal wiki markup here. Links will be automatically
 detected and used in the image map.
 [[imagemap#Syntax|Description @ 10,12,40,30]]
 [[wp>Image_map|An interwiki link @ 110,50,40]]

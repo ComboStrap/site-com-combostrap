@@ -25,7 +25,7 @@ The toolbar:
 ===== List =====
 
 ==== New ====
-  * The [[docs:semantic:name|page name]] can now be used in a [[docs:templating:template|template]]
+  * The [[docs:page_meta:name|page name]] can now be used in a [[docs:templating:template|template]]
   * A [[docs:templating:pipeline|pipeline]] can use the ''capitalize'' function to capitalize the first letter of each word
   * New Configuration [[docs:url:url#enableUrlManager|enableUrlManager]] that permits to disable entirely the [[docs:url:url|URL manager]]. This can be useful in case of conflicting URL management plugin.
   * [[docs:analytics:statistics|page statistics]] got now [[docs:analytics:statistics#media|count statistics on media]].

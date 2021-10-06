@@ -32,7 +32,7 @@ There is three groups of metadata:
 
 ''ComboStrap'' manages and reacts to the following metadata:
   * [[..:page_meta:canonical|canonical]] - an unique page identifier for the web
-  * [[docs:semantic:name|page name]] - a short name for the page
+  * [[docs:page_meta:name|page name]] - a short name for the page
   * [[..:page_meta:title|page title]] - a long name for the page
   * [[..:page_meta:h1|h1]] - the first heading of the page
   * [[..:page_meta:description|description]] - a summary of the page
