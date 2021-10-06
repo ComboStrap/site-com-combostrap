@@ -1,7 +1,7 @@
 ====== Home Page ======
 
 ===== About =====
-An ''home'' page is the page that is shown when a namespace is asked.
+An ''home'' page is the page shown when a namespace is asked.
 
 ===== Example =====
 

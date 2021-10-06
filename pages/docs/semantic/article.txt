@@ -9,7 +9,7 @@
 
 
 ===== About =====
-''article'' is a [[type|type]] of page that defines a page where most of the content is textual and is meant to be read. 
+''article'' is a [[docs:page:type:type|type]] of page that defines a page where most of the content is textual and is meant to be read. 
 
 This type of page understands also the subtype:
   * ''news''
