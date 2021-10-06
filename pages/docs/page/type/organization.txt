@@ -13,7 +13,7 @@ An ''organization'' page is a [[type|type of page]] that defines information abo
 
 
 <note>
-[[..:social:google|Google]] uses it to create the [[https://developers.google.com/search/docs/data-types/logo|knowledge panel]]
+[[docs:social:google|Google]] uses it to create the [[https://developers.google.com/search/docs/data-types/logo|knowledge panel]]
 </note>
 ===== How to create an organization page =====
 To create a page on your website that contains your organization  information such as our [[:about_us|About us]] page, you need to define the [[type|type]] to ''Organization''
@@ -26,17 +26,17 @@ To create a page on your website that contains your organization  information su
 
 Combostrap will then add the following properties:
   * ''url'': the base url
-  * ''logo'': the [[..:app:logo|logo]]
+  * ''logo'': the [[docs:app:logo|logo]]
   * ''name'': the [[doku>config:title|site title]]
-  * ''slogan'': the [[tagline|tagline]]
-  * the [[..:social:twitter|twitter]] url if the handle is known
-  * the [[..:social:facebook|facebook]] url if the handle is known
+  * ''slogan'': the [[docs:semantic:tagline|tagline]]
+  * the [[docs:social:twitter|twitter]] url if the handle is known
+  * the [[docs:social:facebook|facebook]] url if the handle is known
 
 ===== How to add extra properties =====
 
 We also supports the creation of an ''organization'' property that would match the [[https://schema.org/Organization|Schema.org organization field]].
 
-For example, in our [[:about_us|About us]] page, we have set in the [[frontmatter|frontmatter]] the following properties:
+For example, in our [[:about_us|About us]] page, we have set in the [[docs:semantic:frontmatter|frontmatter]] the following properties:
 <code json>
 {
 	"canonical": "about",

@@ -2,7 +2,7 @@
 {
     "canonical":"page:article",
     "type":"article",
-    "name":"Article Page (Blog)"
+    "name":"Article (Blog, News)"
 }
 ---
 ====== ComboStrap Metadata - Article Page (News, Blog) ======
@@ -25,8 +25,7 @@ Example:
 If you don't defined a [[docs:semantic:published|published date]], the creation date is taken.
 </note>
 
-===== Articles Related =====
-{{backlinks>.}}
+
 
 ===== Usage =====
 
@@ -34,7 +33,7 @@ If you don't defined a [[docs:semantic:published|published date]], the creation 
 
 Setting a page to ''article'' enables:
   * the [[https://developers.google.com/search/docs/data-types/article|article card (advanced SEO)]].
-  * and the [[https://developers.google.com/search/docs/data-types/speakable|Speakable feature]] for the [[title|title]] and the [[description|description]] if set
+  * and the [[https://developers.google.com/search/docs/data-types/speakable|Speakable feature]] for the [[docs:semantic:title|title]] and the [[docs:semantic:description|description]] if set
 
 
 <box elevation="high" align="center" width="fit-content">
@@ -43,7 +42,7 @@ Setting a page to ''article'' enables:
 
 \\
 
-[[..:social:google|Google]] understands the following ''article'' [[type|type]] that we matches to the following [[type|type values]]
+[[docs:social:google|Google]] understands the following ''article'' [[docs:page:type:type|type]] that we matches to the following [[docs:page:type:type|type values]]
 
 ^ Value ^ Google (Schema.org) ^
 | ''article'' | [[https://schema.org/Article|Article]] |
@@ -51,7 +50,7 @@ Setting a page to ''article'' enables:
 | ''blog'' | [[https://schema.org/BlogPosting|BlogPosting]] |
 
 ==== Facebook ====
-[[..:social:facebook|Facebook]] uses the ''article'' type to create cards and follows the [[https://ogp.me/#type_article|article ogp type]].
+[[docs:social:facebook|Facebook]] uses the ''article'' type to create cards and follows the [[https://ogp.me/#type_article|article ogp type]].
 
 <box elevation="high" align="center" width="fit-content">
     {{docs:semantic:facebook_card.png?400|}}
@@ -62,22 +61,22 @@ Setting a page to ''article'' enables:
 ==== Automatically ====
 
 
-When a page gets the ''article'' [[type|type]], the below properties are automatically added.
+When a page gets the ''article'' [[docs:page:type:type|type]], the below properties are automatically added.
 
 
-^ [[..:social:google|Google (ld-json)]] ^ [[..:social:facebook|Facebook (ogp)]] ^ Description ^ 
-| ''datePublished'' | ''published_time'' | When the article was first published - The [[published|published date]] or the creation date if not available | 
+^ [[docs:social:google|Google (ld-json)]] ^ [[docs:social:facebook|Facebook (ogp)]] ^ Description ^ 
+| ''datePublished'' | ''published_time'' | When the article was first published - The [[docs:semantic:published|published date]] or the creation date if not available | 
 | ''dateModified'' | ''modified_time'' | When the article was last changed. | 
 | ''author'' | ''author'' | Writers of the article | 
-| ''headline'' | ''title'' | The headline of the article (ie the first 110 characters of the [[title|title]]) |
-| Na | ''description'' | The [[description|description]] of the article  |
+| ''headline'' | ''title'' | The headline of the article (ie the first 110 characters of the [[docs:semantic:title|title]]) |
+| Na | ''description'' | The [[docs:semantic:description|description]] of the article  |
 | ''publisher.name'' | Na | The name of the publisher (the [[doku>config:title|dokuwiki wiki title configuration]]) |
-| ''publisher.logo.url'' | Na | The URL of the [[..:app:logo|logo]] |
+| ''publisher.logo.url'' | Na | The URL of the [[docs:app:logo|logo]] |
 | ''image'' | ''image'' | Image that belongs to the article (The [[#image|page image]]) |
 
 
 ==== Manually ====
-With the [[..:social:google#manual|manual json-ld property]], you can also add extra ''json-ld'' properties.
+With the [[docs:social:google#manual|manual json-ld property]], you can also add extra ''json-ld'' properties.
 
 For instance, if you want to add a [[https://schema.org/Article|keywords property]]
 <code json>
@@ -91,13 +90,13 @@ For instance, if you want to add a [[https://schema.org/Article|keywords propert
 
 
 ===== Image =====
-By default, ''ComboStap'' will set the [[image|page image]].
+By default, ''ComboStap'' will set the [[docs:semantic:image|page image]].
 
 Google recommends to provide multiple images with 
   * a high-resolution (minimum of 300,000 pixels when multiplying width and height) 
   * the following aspect ratios: 16x9, 4x3, and 1x1.
 
-You can create them and set them with the [[image|image]] property even if the [[https://schema.org/image|standard does not allow it]].
+You can create them and set them with the [[docs:semantic:image|image]] property even if the [[https://schema.org/image|standard does not allow it]].
 
 <code json>
 {
