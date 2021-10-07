@@ -38,14 +38,7 @@ If you had a [[rule|quality rule]] in this list, it will not show up in the mess
 
 ==== Disable for a page====
 
-You can disable the ''dynamic quality monitoring'' feature by setting the property ''dynamic_quality_monitoring'' in the [[docs:semantic:frontmatter|frontmatter]] to ''false''.
-
-Example:
-<code javascript>
-{
-    "dynamic_quality_monitoring":"false"
-}
-</code>
+You can disable the ''dynamic quality monitoring'' feature by setting the property ''dynamic_quality_monitoring'' in the [[docs:semantic:viewer|metadata manager]] to ''false''.
 
  
 ==== Disable totally ====
