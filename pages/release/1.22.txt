@@ -1,8 +1,6 @@
 ---json
 {
-    "canonical":"release:1.22",
-    "title":"A title for the search page result engine",
-     "description":"A description for the search page result engine"
+    "canonical":"release:1.22"
 }
 ---
 
