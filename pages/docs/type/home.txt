@@ -1,7 +1,7 @@
 ====== Home Page ======
 
 ===== About =====
-An ''home'' page is the page shown when a namespace is asked.
+An ''home'' page is the page shown when a namespace is asked in the URL or [[docs:content:link|link]] path.
 
 ===== Example =====
 
@@ -22,16 +22,16 @@ https://foo.com/bar/bar
 
 
 ===== Sql Templating =====
-In a [[docs:templating:sql|Sql templating]], you can select all home pages with the attribute ''is_home''
+In a [[docs:templating:sql|Page Sql]], you can select all home pages with the attribute ''is_home''
 
 Example:
 <code sql>
-select where is_home = 1 order by path desc limit 8
+select where is_home = 1 order by path desc limit 4
 </code>
 
 On this website, this SQL will select the following pages.
 <iterator>
-    <data>select where is_home = 1 order by path desc limit 4</data>
+    <data>select where is_home = 1 order by path asc limit 4</data>
 ^ Path ^
 <template>
 | [[$path|$path]] |
@@ -39,13 +39,13 @@ On this website, this SQL will select the following pages.
 </iterator>
 
 ===== Root =====
-The root home page is the web page shown a URL to your website does have any path. For instance: https://yourdomain.com
+The root home page is the web page shown when a URL to your website (domain) does have any path. For instance: https://yourdomain.com
 
-This is als known as the top page and is generally the most viewed page.
+This is also known as the top page and is generally the most viewed page.
 
 The root home page gets the [[docs:type:website|website type]] in order to add information on your website such as:
   * name, url, logo
-  * and the search engine.
+  * and your internal search engine.
 
 ===== Configuration =====
 
