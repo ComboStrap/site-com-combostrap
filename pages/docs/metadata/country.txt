@@ -23,16 +23,15 @@ The complete list of values can be found on Wikipedia on this page: [[wp>List_of
 The [[..:social:google|google search engine]] uses this information to localize your content.
 
 ===== Set =====
+
+
+You can set a ''country'' code in the [[docs:metadata:manager|manager]] to localize a specific page.
+
+===== Default =====
+
 The default value is set in the [[#siteCountry]] configuration.
 
-You can set a ''country'' code in the [[..:semantic:frontmatter|frontmatter]] to localize a specific page.
-
-<code json>
-{
-    "country":"nl"
-}
-</code>
-
+If there is no value, the locale server country is retrieved (if the [[support:requirement|internationale extension is installed]])
 ===== Configuration =====
 
 ==== siteCountry ====

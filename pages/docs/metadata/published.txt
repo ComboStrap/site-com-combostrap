@@ -18,17 +18,10 @@ By default, the ''published date'' is the ''creation date''
 If the ''published date'' is set in the future, the article will be [[docs:quality:lpp|protected]].
 </note>
 
-===== Articles Related =====
-{{backlinks>.}}
+
 ===== How to set a published date ? =====
 
 
 
-To set a published date in the [[..:semantic:frontmatter|frontmatter]], you add the ''date_published'' property with a [[..:semantic:date|date value]]
+You can set a published date with the [[docs:metadata:manager|metadata manager]].
 
-Example:
-<code json>
-{
-   "date_published":"2021-03-15"
-}
-</code>

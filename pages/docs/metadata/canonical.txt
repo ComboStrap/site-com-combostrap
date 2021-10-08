@@ -29,7 +29,7 @@ https://yourdomain.com/your/canonical
 
 ==== Manually ====
 
-To set the canonical value, uses the [[..:semantic:frontmatter|frontmatter component]] and add the ''canonical'' property in the JSON document.
+To set the canonical value, uses the [[frontmatter|frontmatter component]] and add the ''canonical'' property in the JSON document.
 
 <code javascript>
 ---json
