@@ -98,11 +98,6 @@ If the [[..:seo:lqpp|low quality page protection]] is [[..:seo:lqpp#enable|enabl
 
 ==== Low Quality Page Indicator ====
 
-You can set manually the ''low quality indicator'' to false in the [[docs:semantic:frontmatter|frontmatter]]
+You can overwrite the calculation and set manually the ''low quality indicator'' to false in the [[docs:metadata:manager|metadata manager]]
 
-Example:
-<code json>
-{
-    "low_quality_page":"false"
-}
-</code>
+

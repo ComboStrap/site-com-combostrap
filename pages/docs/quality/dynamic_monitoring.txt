@@ -45,7 +45,7 @@ You can disable the ''dynamic quality monitoring'' feature by setting the proper
 
 You can disable totally the ''dynamic quality monitoring'' feature by selecting the [[:configuration|configuration disableDynamicQualityMonitoring]].
 
-<badge>Since [[release:release#version_112|version 1.12]]</badge>
+
 
 
 

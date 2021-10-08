@@ -16,7 +16,7 @@ This page describes all attribute that can be used:
 ===== List =====
 
 The supported attribute can be used:
-  * ''path'' is the [[docs:semantic:path|full qualified path of a page]] that can be used in [[docs:content:link|link]]
+  * ''path'' is the [[docs:metadata:path|full qualified path of a page]] that can be used in [[docs:content:link|link]]
   * ''title'' - the [[docs:metadata:title|title]] of the page - if empty, the ''h1''
   * ''name'' - the [[docs:metadata:name|name]] of the page - if empty, the last part of the id
   * ''h1'' - the [[docs:metadata:h1|h1 title]] (the first header text of the page) - if empty, the ''title''.
@@ -33,13 +33,13 @@ The supported attribute can be used:
   * ''lang'' - the [[docs:styling:lang|lang]] of a page
   * ''is_home'' - a boolean that is set to 1 if the page is a [[docs:type:home|home page]]
 
-And all [[docs:semantic:frontmatter|frontmatter metadatas]] that are scalar (ie no array). Basically, all metadata that can be seen in the [[docs:analytics:data|scalar metadata node of the analytics data]] can be used as attribute.
+And all [[docs:metadata:frontmatter|frontmatter metadatas]] that are scalar (ie no array). Basically, all metadata that can be seen in the [[docs:analytics:data|scalar metadata node of the analytics data]] can be used as attribute.
 
 ===== Example =====
 
 The below ''template text'' inside a ''template component'' will print:
   * a [[docs:lists:list|bullet list]] 
-  * with the variables: [[docs:metadata:title|title]] and [[docs:semantic:path|path]] of the actual page.
+  * with the variables: [[docs:metadata:title|title]] and [[docs:metadata:path|path]] of the actual page.
 <webcode name="list">
 <code dw>
 <template>

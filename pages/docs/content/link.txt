@@ -217,7 +217,7 @@ If you enable this configuration, the [[#preview|preview]] attribute will be set
 
 ==== enableEnhancedLinkWizard ====
 
-In the  [[doku>toolbar|editor]], ComboStrap will make the ''link wizard'' also search for pattern in [[docs:semantic:path|path]], [[docs:metadata:title|title]], [[docs:metadata:h1|heading 1]] and [[docs:metadata:name|name]]
+In the  [[doku>toolbar|editor]], ComboStrap will make the ''link wizard'' also search for pattern in [[docs:metadata:path|path]], [[docs:metadata:title|title]], [[docs:metadata:h1|heading 1]] and [[docs:metadata:name|name]]
 
 {{:docs:content:link_wizard.png|}}
 
