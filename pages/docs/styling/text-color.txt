@@ -18,7 +18,11 @@ text-color="value"
 <!--- or --->
 color="value"
 </code>
-where ''value'' is one of the [[docs:styling:color#value|accepted color values]]
+where ''value'' is one of the [[docs:styling:color#value|accepted color values]] and the special text colors value:
+  * ''body''
+  * ''muted''
+  * ''black-50''
+  * ''white-50''
 
 
 ===== Example =====

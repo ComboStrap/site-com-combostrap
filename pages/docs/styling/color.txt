@@ -24,9 +24,6 @@ This page describes which [[#value|color value]], they can take.
 
 
 
-===== Articles Related =====
-{{backlinks>.}}
-
 
 ===== Example =====
   * A [[docs:block:card|card]] with:
@@ -38,7 +35,7 @@ This page describes which [[#value|color value]], they can take.
 
 <code dw>
 <card color="black" background-color="teal" border-color="blue" align="center" width="200px">
-A teal [[ui:card|card]] with a black text and a blue border
+A teal [[docs:block:card|card]] with a black text and a blue border
 </card>
 </code>
   * Output:
