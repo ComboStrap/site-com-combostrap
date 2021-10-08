@@ -1,7 +1,8 @@
 ---json
 {
     "canonical":"semantic:lang",
-    "title":"How to set the language of a page"
+    "title":"How to set the language of a page",
+    "name":"Language"
 }
 ---
 ====== ComboStrap Page Metadata - Lang (Language) ======
@@ -24,8 +25,7 @@ The language identifier is used:
   * in the [[:strap|strap template]] to set the lang and direction
 
 
-===== Articles Related =====
-{{backlinks>.}}
+
 
 ===== Demo =====
 We have created a page in ''arabic'' that has a language direction from [[#rtlright_to_left_language|right-to-left (''rtl'')]]
@@ -38,15 +38,8 @@ See the demo page: [[lang_ar]]
 ===== Set =====
 The default value is set in the [[#config:lang]] configuration.
 
-You can set a ''lang'' code in the [[..:semantic:frontmatter|frontmatter]] for a specific page.
+You can set a ''lang'' code in the [[manager|manager]] for a specific page.
 
-<code json>
----json
-{
-    "lang":"nl"
-}
----
-</code>
 
 ===== Configuration =====
 

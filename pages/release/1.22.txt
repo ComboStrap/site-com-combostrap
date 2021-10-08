@@ -20,6 +20,7 @@
   * Added microsoft ''codicon'', ibm ''carbon'' and ''logos'' as [[docs:content:icon|icon library]]
   * Added a page on the internal search engine. See [[docs:app:search]]
   * Lockfile protection for the [[support:plugin#move|move plugin]]. When a move goes wrong, a lock file may stay in the data directory. We cancel the move if the lock file age is bigger than 10 minutes.
+  * A [[docs:metadata:lang|language region]] will be determined from the server if not set.
 
 ==== Deprecated ====
 
@@ -36,6 +37,7 @@
       * for bootstrap, ''bs'' is now ''bi'' 
       * for material design, ''md'' is now ''mdi''
   * To support the old icon library, the icons are not moved to the new directory.
+  * The ''country'' metadata is now known as the [[docs:metadata:region|language region]] to be more accurate as the region is often but not always a country.
 ==== Bug ====
   * After a change in the [[docs:performance:svg_optimization|svg optimization]], the svg shown will not refresh. Cause: The [[docs:cache:static|static cache]] ''buster'' was using the time of the original SVG file and not from the optimized file.
   * Not able to navigate to an heading from a link fragment for a [[docs:content:link#internal|internal link]]. Bug: the fragment was not qualified as fully section id (letting spaces in it)

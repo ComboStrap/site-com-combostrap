@@ -1,0 +1,44 @@
+---json
+{
+    "canonical":"region",
+    "name":"Language Region"
+}
+---
+====== ComboStrap Page Metadata - Language Region ======
+
+
+===== About =====
+The ''region'' code localized the page geographically at a region level and is used to generate the [[docs:metadata:locale|locale setting]]
+
+
+Example: the french language is present in the region:
+  * ''CA'' (Canada), 
+  * ''FR'' (France)
+
+This regions even if they have the same language may have different formatting such as the thousand separator or decimal points.
+
+
+The [[..:social:google|google search engine]] uses this information to localize your content.
+
+===== Set =====
+
+
+You can set a ''region'' code:
+  * in the [[docs:metadata:manager|manager]] to localize a specific page.
+  * in the [[#configuration|configuration]] to set it for the whole website
+
+
+
+The format supported is the ISO 3166 alpha-2 country code.
+The complete list of values can be found on Wikipedia on this page: [[wp>List_of_ISO_3166_country_codes|list of ISO3166 country codes]]
+
+===== Default =====
+
+The default value is set in the [[#siteLanguageRegion]] configuration.
+
+If there is no value, the locale server country is retrieved (if the [[support:requirement|internationale extension is installed]])
+===== Configuration =====
+
+==== siteLanguageRegion ====
+
+A page is by default localized to the region set in the ''siteLanguageRegion'' [[:configuration|configuration]]

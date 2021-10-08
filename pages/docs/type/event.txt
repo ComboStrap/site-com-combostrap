@@ -22,7 +22,7 @@ To tag your page has a ''event'', you need to have:
 
 
 ===== Location =====
-We declare the page as [[https://developers.google.com/search/docs/advanced/structured-data/event|event page for google]] but to be valid, you also need to add the location in the [[docs:semantic:frontmatter|frontmatter]].
+We declare the page as [[https://developers.google.com/search/docs/advanced/structured-data/event|event page for google]] but to be valid, you also need to add the location in the [[docs:metadata:frontmatter|frontmatter]].
 
 You can add a virtual or physical location by adding a "json-ld" property. Below is an example of an event taking place ''online'' and ''offline'' (if this is not the case for you, just delete the non-relevant location)
 <code json>

@@ -145,7 +145,7 @@ Bug: [[doku>config:target|target]] configuration was not taken into account for 
 
 ==== Frontmatter section editing ====
 
-  * Bug: edit section on [[docs:semantic:frontmatter|frontmatter]] had a bad end position due to variable mismatch.
+  * Bug: edit section on [[docs:metadata:frontmatter|frontmatter]] had a bad end position due to variable mismatch.
 
 
 
