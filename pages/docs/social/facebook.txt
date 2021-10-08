@@ -31,21 +31,21 @@ You can check the generated card before posting with the [[https://developers.fa
 ===== List of metadata =====
 
 The following metadata's are used in the card:
-  * for the ''og:title'': [[..:page_meta:title|title]] if present otherwise [[..:page_meta:h1|h1]], otherwise the page id.
-  * for the ''og:description'': [[..:page_meta:description|description]]
-  * for the ''og:image'': the [[..:page_meta:image|image]]. The image must be at minimum 200px by 200px (The card rendering uses 524x274) More see the [[https://developers.facebook.com/docs/sharing/webmasters/images|Facebook Image documentation]]
+  * for the ''og:title'': [[..:metadata:title|title]] if present otherwise [[..:metadata:h1|h1]], otherwise the page id.
+  * for the ''og:description'': [[..:metadata:description|description]]
+  * for the ''og:image'': the [[..:metadata:image|image]]. The image must be at minimum 200px by 200px (The card rendering uses 524x274) More see the [[https://developers.facebook.com/docs/sharing/webmasters/images|Facebook Image documentation]]
   * for the ''og:type'': the [[..:semantic:type|page type]]
-  * for the ''og:locale'': the [[..:page_meta:locale|locale]] - if the locale cannot be derived, we set the default Facebook value (''en_US'').
+  * for the ''og:locale'': the [[..:metadata:locale|locale]] - if the locale cannot be derived, we set the default Facebook value (''en_US'').
 
 <note>
-If the page is of the [[..:page_type:article|article type]], we add also the [[..:page_type:article|article metadata]]
+If the page is of the [[..:type:article|article type]], we add also the [[..:type:article|article metadata]]
 </note>
 ===== Configuration =====
 
 You can set the following [[:configuration|configuration]]:
 
 ^ Name ^ Description ^ Default value ^
-| ''facebookDefautImage'' | the default image if no [[..:page_meta:image|page image]] was found | :logo-facebook.png |
+| ''facebookDefautImage'' | the default image if no [[..:metadata:image|page image]] was found | :logo-facebook.png |
 
 ===== Documentation / Reference =====
   * https://developers.facebook.com/docs/sharing/webmasters

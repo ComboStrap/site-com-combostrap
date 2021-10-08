@@ -7,7 +7,7 @@
 ====== Google Rich Result ======
 
 ===== About =====
-The ''ComboStrap'' pages supports the setting of [[..:semantic:semantic|metadata]] to enable [[https://developers.google.com/search/docs/guides/search-gallery|Google Rich Result]].
+The ''ComboStrap'' pages supports the setting of [[..:metadata:metadata|metadata]] to enable [[https://developers.google.com/search/docs/guides/search-gallery|Google Rich Result]].
 
 ''Google Rich Result'' are results as below shown in the search page of Google that have been [[kb>rich:text|styled]].
 
@@ -23,9 +23,9 @@ The ''ComboStrap'' pages supports the setting of [[..:semantic:semantic|metadata
 ==== Automatic ====
 
 ''ComboStrap'' will automatically create the minimum information needed to create a ''Google Rich Result'' for the following [[..:semantic:type|type]] of page:
-  * [[..:page_type:website|website]] - The home page gets automatically this type of page with [[https://developers.google.com/search/docs/data-types/sitelinks-searchbox|the searchbox]] ''Rich Result''
-  * [[..:page_type:organization|organization]] - You set this type of page in a ''About Us'' page where you gives information about your company. It enables the [[https://developers.google.com/search/docs/data-types/logo|the Google knowledge panel]] ''rich result''
-  * [[..:page_type:article|article]] - An article such as a wikipedia article, news article or piece of investigative report that enables [[https://developers.google.com/search/docs/data-types/article|card]]
+  * [[..:type:website|website]] - The home page gets automatically this type of page with [[https://developers.google.com/search/docs/data-types/sitelinks-searchbox|the searchbox]] ''Rich Result''
+  * [[..:type:organization|organization]] - You set this type of page in a ''About Us'' page where you gives information about your company. It enables the [[https://developers.google.com/search/docs/data-types/logo|the Google knowledge panel]] ''rich result''
+  * [[..:type:article|article]] - An article such as a wikipedia article, news article or piece of investigative report that enables [[https://developers.google.com/search/docs/data-types/article|card]]
 
 
 <note>

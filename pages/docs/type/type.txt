@@ -1,0 +1,49 @@
+---json
+{
+    "canonical":"page:type",
+    "name":"Page Type"
+}
+---
+====== ComboStrap - Type of Page ======
+
+
+===== About =====
+''type'' is a [[docs:metadata:metadata|metadata]] that define the type of a page. 
+
+This information is used by:
+  * the [[docs:social:facebook|Facebook Social Graph]].
+  * and [[docs:social:google|Google Rich Result]]
+to set the properties that they required when crawling your website.
+
+
+===== How to set the value =====
+You can set the value in the [[docs:semantic:viewer|metadata manager]]
+
+
+If not set, the default value is:
+  * [[docs:type:website|website]] for the [[docs:type:home#root|root home page]]
+  * [[docs:type:home|home]] for other [[docs:type:home|home page]]
+  * and the value of the [[#configuration|default configuration]] for the others ([[docs:type:article|article]] at installation time)
+ 
+===== Values and Schema Mapping =====
+
+The table below maps the ''type'' value with the value supported of the schema used by [[docs:social:facebook|facebook]] and [[docs:social:google|google]]
+
+^ Value ^ Facebook (og) ^ Google \\ (ld-json) ^ Description ^
+| [[docs:type:article|article]] \\ [[docs:type:article|news]] \\ [[docs:type:article|blog]] | [[https://ogp.me/#type_article|article]] \\ [[https://ogp.me/#type_article|article]] \\ [[https://ogp.me/#type_article|article]] | [[https://schema.org/Article|Article]] \\ [[https://schema.org/NewsArticle|NewsArticle]] \\ [[https://schema.org/BlogPosting|BlogPosting]] | A published page. The content is mostly text and it will change slowly after publication - blog, newspaper, .. |
+| [[docs:type:organization|organization]] | [[https://ogp.me/#type_website|website]] | [[https://schema.org/Organization|Organization]] | A page with your organization metadata |
+| [[docs:type:website|website]] | [[https://ogp.me/#type_website|website]] | [[https://schema.org/Website|Website]] | A page with metadata about website (and search box) |
+| [[docs:type:home|home]] | [[https://ogp.me/#type_website|website]] | [[https://schema.org/WebPage|WebPage]] | A web page |
+
+
+===== Configuration =====
+
+==== defaultPageType ====
+The ''defaultPageType'' [[:configuration|configuration]] permits to set the default ''type'' value of a page except for the home page that has a default value of [[docs:type:website|website]].
+
+By default, the value is [[docs:type:article|article]].
+
+
+
+
+

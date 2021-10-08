@@ -11,20 +11,25 @@
 ===== List of changes =====
 
 ==== New ====
-  * The [[docs:page_type:home|home]] page attribute ''is_home'' in order to be able to select the home pages within [[docs:templating:sql|page sql]]
+  * The [[docs:type:home|home]] page attribute ''is_home'' in order to be able to select the home pages within [[docs:templating:sql|page sql]]
   * The [[docs:content:link#enableenhancedlinkwizard|enhanced link wizard]] to search also on path, title, heading and name of a page.
   * [[docs:templating:sql|Page SQL]] can now return [[docs:navigation:backlink|backlink pages]]
   * ''references between pages'' (ie [[docs:content:link|link]] and [[docs:navigation:backlink|backlink]]) are now [[docs:analytics:replication|replicated]] in the [[docs:analytics:database|database]]
   * The [[docs:layout:component:grid|grid]] layout can now be used within an [[docs:templating:iterator|template iterator]]
-  * [[docs:page_meta:description|description]] is now loaded into the [[docs:analytics:database|database]]
+  * [[docs:metadata:description|description]] is now loaded into the [[docs:analytics:database|database]]
   * Added microsoft ''codicon'', ibm ''carbon'' and ''logos'' as [[docs:content:icon|icon library]]
   * Added a page on the internal search engine. See [[docs:app:search]]
   * Lockfile protection for the [[support:plugin#move|move plugin]]. When a move goes wrong, a lock file may stay in the data directory. We cancel the move if the lock file age is bigger than 10 minutes.
 
+==== Deprecated ====
+
+  * The [[docs:metadata:frontmatter|frontmatter]] cannot be used to enter metadata anymore. You need to use the [[docs:metadata:manager|metadata manager]].
+  * The ''autofrontmatter'' feature has been deleted (due to the advent of the [[docs:metadata:manager|metadata manager]].
+
 ==== Improvement ====
-  * The [[docs:analytics:replication|data synchronization process]] is now treated as a real replication and got a ''date_synchronization'' and a [[docs:page_meta:uuid|universal id]]. The synchronization is now also based on the database version file.
+  * The [[docs:analytics:replication|data synchronization process]] is now treated as a real replication and got a ''date_synchronization'' and a [[docs:metadata:uuid|universal id]]. The synchronization is now also based on the database version file.
   * the [[docs:analytics:replication|replication table]] ''ANALYTICS_TO_REFRESH'' has been renamed to ''PAGES_TO_REPLICATE'' to get more accurate
-  * the [[docs:semantic:frontmatter|frontmatter]] metadata are [[docs:analytics:replication|replicated]] directly to avoid inconsistency with [[docs:templating:sql|page sql]]
+  * the [[docs:metadata:frontmatter|frontmatter]] metadata are [[docs:analytics:replication|replicated]] directly to avoid inconsistency with [[docs:templating:sql|page sql]]
 
 ==== Changes ====
   * The acronym / name of  a [[docs:content:icon|icon library]] follows the library name of the [[https://icon-sets.iconify.design/|iconify search engine]]. Therefore:
@@ -36,5 +41,5 @@
   * Not able to navigate to an heading from a link fragment for a [[docs:content:link#internal|internal link]]. Bug: the fragment was not qualified as fully section id (letting spaces in it)
   * The first rendering of a [[docs:content:svg|SVG]] would be empty. The cause root was that the buster calculation of the [[docs:cache:static|static cache]] would close the rendering of the svg and the src would set not be added. Resolution: we make a difference between request and response attribute and we have added an error message when the tag attributes are finalized twice.
   * The ''svg'' cache was not dependent on its [[docs:performance:svg_optimization|optimization configuration]].
-  * The new [[docs:semantic:date|date format]] was not applied on the [[docs:page_meta:published|published date]] causing a not valid date error message.
+  * The new [[docs:semantic:date|date format]] was not applied on the [[docs:metadata:published|published date]] causing a not valid date error message.
   * A page move would create two pages in the [[docs:analytics:database|database]]. The move  is now automatically [[docs:analytics:replication|replicated]] making it consistent.

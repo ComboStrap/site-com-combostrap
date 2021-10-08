@@ -1,0 +1,6 @@
+====== Metadata - Manager ======
+
+
+===== About =====
+The ''metadata manager'' permits to see and modify [[metadata|page metadatas]].
+

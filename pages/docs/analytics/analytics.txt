@@ -5,7 +5,7 @@
 ''analytics'' is a module that gives the possibility to [[query|query]] [[data|analytical data]] against a [[database|database]] in order to get insight on your website:
   * [[docs:quality:quality|quality]]
   * [[statistics|statistics]]
-  * [[docs:semantic:semantic|metadata]]
+  * [[docs:metadata:metadata|metadata]]
   * and [[docs:url:redirection|redirections]]
 
 

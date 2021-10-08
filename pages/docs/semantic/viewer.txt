@@ -11,7 +11,7 @@
 ====== ComboStrap Page Metadata - The Metadata Viewer ======
 
 ===== About =====
-The ''ComboStrap Metadata Viewer'' is an utility that render a box with the [[semantic|page metadatas]].
+The ''ComboStrap Metadata Viewer'' is an utility that render a box with the [[..:metadata:metadata|page metadatas]].
 
 The box renders:
    * via the [[#metadata tag|metadata tag]]

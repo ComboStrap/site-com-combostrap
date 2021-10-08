@@ -7,7 +7,7 @@
 
 ===== Format =====
 The analytical data are composed of three parts:
-  * ''metadata'': the [[docs:semantic:semantic|page metadata]]
+  * ''metadata'': the [[docs:metadata:metadata|page metadata]]
   * ''statistics'': the [[statistics|page statistics]] such as late publication page, links, header
   * ''quality'': the [[docs:quality:quality|quality]] data:
       * ''low'' is the [[docs:quality:low_quality_page|low quality page]] indicator
@@ -25,7 +25,7 @@ This data are accessible:
 
 You can get the analytical data as ''json'' with an export.
 
-  * via a direct URL by by adding ''?do=export_combo_analytics'' to a page URL. For instance, to get the data of the actual page, click on this <btn>[[?do=export_combo_analytics|button]]</btn>
+  * via a direct URL by by adding ''?do=export_combo_analytics'' to a page URL. For instance, to get the data of the actual page, click on this <btn>[[start?do=export_combo_analytics|button]]</btn>
   * via the ''Analytics'' menu item by clicking on the following icon <icon name="file-chart"/> (only for logged user)
 
 

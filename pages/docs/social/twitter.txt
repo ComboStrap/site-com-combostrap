@@ -35,15 +35,15 @@ You can preview a card page before tweeting it at: https://cards-dev.twitter.com
 ===== List of metadata =====
 
 The list of metadata that are used in the card are:
-  * for the heading: [[..:page_meta:title|title]] if present otherwise [[..:page_meta:h1|h1]], otherwise the page id.
-  * for the description: [[..:page_meta:description|description]]
+  * for the heading: [[..:metadata:title|title]] if present otherwise [[..:metadata:h1|h1]], otherwise the page id.
+  * for the description: [[..:metadata:description|description]]
   * for the image:
-      * the ''twitter'' [[..:page_meta:image|image]] 
-      * otherwise any other conforming [[..:page_meta:image|image]], 
+      * the ''twitter'' [[..:metadata:image|image]] 
+      * otherwise any other conforming [[..:metadata:image|image]], 
       * otherwise the [[#configuration|default one]]
       * otherwise any conforming [[docs:app:logo|logo image]]
 
-Example of ''twitter'' [[..:page_meta:image|image]] definition in [[docs:semantic:frontmatter|frontmatter]]
+Example of ''twitter'' [[..:metadata:image|image]] definition in [[docs:semantic:frontmatter|frontmatter]]
 <code json>
 {
     "image": {
@@ -58,7 +58,7 @@ You can set the following [[:configuration|configuration]]:
 ^ Name ^ Description ^ Default value ^
 | ''twitterSiteHandle'' | the handle name of your twitter account (Example: @combostraweb) | None |
 | ''twitterSiteId'' | the twitter id of your twitter account ([[google>twitter id|Search on Google]]) | None |
-| ''defaultTwitterImage'' | the image used if an [[..:page_meta:image|page image]] was not found ([[https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup|svg is not supported, less than 5MB]]) | apple-touch-icon.png |
+| ''defaultTwitterImage'' | the image used if an [[..:metadata:image|page image]] was not found ([[https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup|svg is not supported, less than 5MB]]) | apple-touch-icon.png |
 
 <note>
 The default site image ''apple-touch-icon.png'' is already installed if you have followed the [[docs:getting_started:5_favicon|favicon installation guide]]

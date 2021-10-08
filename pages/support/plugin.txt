@@ -25,7 +25,7 @@ The [[doku>plugin:move]] plugin is a core plugin of ComboStrap.
 
 For each page move, we:
   * rename the [[docs:content:link|page link]]
-  * rename the [[docs:content:image|image link]] and [[docs:page_meta:image|page image]]
+  * rename the [[docs:content:image|image link]] and [[docs:metadata:image|page image]]
   * take into account the [[docs:navigation:backlink|backlink]]
   * and [[docs:analytics:replication|replicate]] the change in the database
 

@@ -11,7 +11,7 @@
 
 
 ===== About =====
-''image'' is a [[docs:semantic:semantic|page metadata]] that defines an illustrative [[docs:content:image|image]] for the page.
+''image'' is a [[docs:metadata:metadata|page metadata]] that defines an illustrative [[docs:content:image|image]] for the page.
 
 
 

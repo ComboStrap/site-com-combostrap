@@ -28,10 +28,10 @@ Since [[release:release|version 1.1]]
 
 ^ Attributes  ^ Default to ^ Description ^
 | ''shortname'' | the [[#disqusDefaultAttributes]] configuration | It's the forum's shortname. It's the unique identifier for your website as registered on Disqus. |
-| ''id'' | The [[docs:page_meta:canonical|canonical value]] and if not set to the [[doku>pagename|Dokuwiki Id]] | The chosen discussion ''identifier'' (ie the page) is persisted in in  the [[#disqus_identifier]] meta. |
-| ''url'' | the [[docs:page_meta:canonical|canonical URL]] if set | The ''Url'' disqus configuration is used to come back from Disqus to your page |
+| ''id'' | The [[docs:metadata:canonical|canonical value]] and if not set to the [[doku>pagename|Dokuwiki Id]] | The chosen discussion ''identifier'' (ie the page) is persisted in in  the [[#disqus_identifier]] meta. |
+| ''url'' | the [[docs:metadata:canonical|canonical URL]] if set | The ''Url'' disqus configuration is used to come back from Disqus to your page |
 | ''category'' | Not set | It's the category id number to be used for the current page |
-| ''title'' | the [[docs:page_meta:title|title]] of the page | The title of the thread |
+| ''title'' | the [[docs:metadata:title|title]] of the page | The title of the thread |
 
 
 
@@ -55,7 +55,7 @@ shortName="yourRegisteredDisqusShortName"
 </code>
 
 ==== disqus_identifier ====
-''disqus_identifier'' is a [[docs:semantic:semantic|meta]] that persist the chosen ''id''  over time.
+''disqus_identifier'' is a [[docs:metadata:metadata|meta]] that persist the chosen ''id''  over time.
 
 <note important>
 Don't change it if you have any comments, otherwise you will create a new discussion and lose them.

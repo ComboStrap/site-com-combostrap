@@ -73,7 +73,7 @@ Try it your self !
 or
 
 <btn>
-[[docs:page_meta:canonical#demo|Navigate to this page via its dokuwiki URL !]]
+[[docs:metadata:canonical#demo|Navigate to this page via its dokuwiki URL !]]
 </btn>
 
 ===== Usage =====

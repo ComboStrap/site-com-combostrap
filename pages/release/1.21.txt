@@ -10,7 +10,7 @@
 
 ===== About =====
 This release brought an improve templating system:
-  * this is possible to print the [[docs:page_meta:image|image of a page]] with the [[docs:content:page-image|page-image]]
+  * this is possible to print the [[docs:metadata:image|image of a page]] with the [[docs:content:page-image|page-image]]
   * the columns have been made optional in the [[docs:templating:sql|sql]]
   * the [[docs:content:date|date component]] permits to print a date in a supported format.
 
@@ -24,7 +24,7 @@ With the advent of the [[docs:templating:iterator|iterator]], we have standardiz
 
 
 ==== New ====
-  * The [[docs:page_type:event|event page]] to create event.
+  * The [[docs:type:event|event page]] to create event.
   * New : the [[docs:semantic:date|date]] page that describes the date format supported in metadata.
   * ''backlinks'': 
       * Added the [[docs:navigation:backlink|backlink page]] to give more information
@@ -60,9 +60,9 @@ With the advent of the [[docs:templating:iterator|iterator]], we have standardiz
 
 ==== Modified ====
 
-  * The [[docs:semantic:frontmatter#configuration|auto-frontmatter]] configuration has been disabled. Users could just not see it and leave with the default value without changing them.
-  * The default description for [[docs:content:link#internal|internal link]] is now the [[docs:page_meta:name|page name]]. It was the last part of the [[docs:semantic:path|path]].
-  * The [[docs:navigation:hierarchical_breadcrumb|hierachical breadcrumb]] gots also the [[docs:page_meta:name|page name]] in the link description. 
+  * The [[docs:metadata:frontmatter#configuration|auto-frontmatter]] configuration has been disabled. Users could just not see it and leave with the default value without changing them.
+  * The default description for [[docs:content:link#internal|internal link]] is now the [[docs:metadata:name|page name]]. It was the last part of the [[docs:semantic:path|path]].
+  * The [[docs:navigation:hierarchical_breadcrumb|hierachical breadcrumb]] gots also the [[docs:metadata:name|page name]] in the link description. 
 ==== Migration ====
   * The [[docs:utility:prism|prism]] component uses now the last version 1.25 with added language support for highligting (ie [[docs:utility:mermaid|mermaid]])
 

@@ -43,7 +43,7 @@ The root home page is the web page shown a URL to your website does have any pat
 
 This is als known as the top page and is generally the most viewed page.
 
-The root home page gets the [[docs:page_type:website|website type]] in order to add information on your website such as:
+The root home page gets the [[docs:type:website|website type]] in order to add information on your website such as:
   * name, url, logo
   * and the search engine.
 

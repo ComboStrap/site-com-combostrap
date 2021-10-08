@@ -21,7 +21,7 @@ The ''railbar'' is a navigation rail with all [[doku>devel:menus|menus actions]]
 
 ===== Features =====
 
-  * It's located at the end side of the template (ie right for a LTR language, left for a RTL [[docs:page_meta:lang|language]]).
+  * It's located at the end side of the template (ie right for a LTR language, left for a RTL [[docs:metadata:lang|language]]).
   * It follows the scrolling of the page 
   * It is available in two layouts:
       * ''offcanvas''

@@ -1,0 +1,14 @@
+====== ComboStrap - Templating ======
+
+
+===== About =====
+''templating'' is a functionality that permits:
+  * to define a template with page variables
+  * and to replace the variables at runtime
+
+Templating offers the following components:
+  * [[template|template]] to show the [[variable|page attributes]] of the current page
+  * [[iterator|template iterator]] to iterate over a [[template|template]] with [[variable|attributes]] of a list of pages
+  * [[sql|page sql]] that defines the list of pages used in a [[iterator|template iterator]]
+  * [[pipeline|pipeline]] to transform the [[variable|page attributes]] with function (ie replace, ...)
+

@@ -19,13 +19,13 @@ The internal search engine is advertised to the browser
 
 Demo:
 
-{{:docs:page_type:internal_search_engine_browser.gif|}}
+{{docs:type:internal_search_engine_browser.gif|}}
 
 <note>The user doesn't need to go to a page and uses the [[docs:menubar:search|search box]]</note>
 
 ==== Google ====
 
-The internal search engine is advertised to the Google Search Engine via the [[docs:page_type:website|website page type]].
+The internal search engine is advertised to the Google Search Engine via the [[docs:type:website|website page type]].
 
 ==== Redirection ====
 

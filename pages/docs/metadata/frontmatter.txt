@@ -9,9 +9,11 @@
 ====== ComboStrap Page Metadata - Front Matter ======
 
 ===== About =====
-''Front Matter'' is a component that permit to:
-  * stores the [[semantic|metadata]] in your page.
-  * set a custom metadata property.
+''Front Matter'' is a component that permit to replicate the [[..:metadata:metadata|metadata]] into your page.
+
+This functionality is used when you want to:
+  * move your pages and get the metadata in sync in other ComboStrap installation
+  * get an history of the metadata modification
 
 It borrows its name from the [[kb>markup:front-matter|front matter book]]
 
@@ -20,7 +22,7 @@ It borrows its name from the [[kb>markup:front-matter|front matter book]]
 
 
 ===== Example =====
-Just add a block of code that:
+A frontmatter is block located at the start of your page that:
   * starts with ''%%---json%%''
   * contains a json document
   * end with ''%%---%%''
@@ -35,13 +37,5 @@ Example:
 }
 ---
 </code>
-
-
-===== Configuration =====
-==== Auto-Frontmatter ====
-This feature adds a frontmatter template when you create a new page.
-
-This feature is by default enabled but you can disable it by unchecking the ''autoFrontMatter'' [[:configuration|configuration]].
-
 
 

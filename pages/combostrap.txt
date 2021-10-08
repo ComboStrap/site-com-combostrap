@@ -58,7 +58,7 @@ The website can then be versioned:
 It contains most of the UI and functional components such as:
   * the [[docs:component|UI Components]]
   * the [[docs:url:url|Url Manager]]
-  * the [[docs:semantic:semantic|Web Structured Data and Social Sharing]]
+  * the [[docs:metadata:page_meta|Web Structured Data and Social Sharing]]
   * the [[docs:performance:frontend_optimization|frontend optimizer]]
   * the [[docs:quality:quality|quality module]]
   * the [[docs:analytics:analytics|analytics module]]
@@ -79,7 +79,7 @@ It contains most of the UI and functional components such as:
       * [[docs:layout:page:header_slot|Header slot]] (top)
       * [[docs:layout:page:footer_slot|Footer slot]] (bottom)
   * [[docs:layout:page:railbar|Aggregate toolbar (Page, User Site) with a private option]]
-  * Support [[docs:semantic:tagline|tagline]]
+  * Support [[docs:app:tagline|tagline]]
   * [[docs:menubar:fixed-top|Fixed-top menubar with automatic top page location correction]]
   * Support a [[docs:navigation:historical_breadcrumb|trailing breadcrumb]]
   * [[docs:styling:scale|Size Scale configuration (font and spacing)]]

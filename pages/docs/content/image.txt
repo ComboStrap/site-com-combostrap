@@ -172,4 +172,4 @@ This [[:configuration|configuration]] permits to set the link type to the image.
 
 
 ===== Metadata Image =====
-You can also add [[docs:page_meta:image|image in the metadata]] in order to add/set illustrations for social cards or templates.
+You can also add [[docs:metadata:image|image in the metadata]] in order to add/set illustrations for social cards or templates.

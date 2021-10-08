@@ -14,7 +14,7 @@ The ''description'' is a summary of what the page is about.
 
 A page's description might be a sentence or two or even a short paragraph (whereas a [[title|page's title]] may be a few words or a phrase).
 
-It's a [[..:semantic:semantic|page metadata]] that:
+It's a [[metadata|page metadata]] that:
   * is displayed:
       * in social cards ([[..:social:twitter|twitter]], [[..:social:facebook|facebook]], [[..:social:google|Google Rich Result]])
       * in the [[#Search Engine Results Page]].
@@ -67,5 +67,5 @@ This component will also create the following ''description'' [[kb>html:meta|HTM
 \\
 
 <note>
-The description is not set specifically for the [[..:page_type:article#Google Rich Result|Article Google Rich Result Card]], they used the ''meta description'' tag.
+The description is not set specifically for the [[..:type:article#Google Rich Result|Article Google Rich Result Card]], they used the ''meta description'' tag.
 </note>

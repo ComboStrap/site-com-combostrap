@@ -18,9 +18,9 @@ On a website level, it means:
 
 ==== Page Metadata ====
 The following data may be set for a page:
-  * [[docs:page_meta:canonical|Canonical]]
-  * [[docs:page_meta:title|Title]]
-  * [[docs:page_meta:description|Description]]
+  * [[docs:metadata:canonical|Canonical]]
+  * [[docs:metadata:title|Title]]
+  * [[docs:metadata:description|Description]]
 
 ==== Performance ====
 

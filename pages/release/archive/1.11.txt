@@ -26,5 +26,5 @@
   * New: [[docs:analytics:analytics|analytics module]] that adds [[docs:analytics:data|analytical data]] on [[docs:analytics:statistics|page statistics]] and [[docs:quality:quality|quality]] (with automatic refresh when backlinks are created or deleted).
   * New: [[docs:quality:quality|quality  module]] with [[docs:seo:lqpp|low quality page protection]], [[docs:quality:score|quality score]] and [[docs:quality:rule|quality rules]]
   * New ''auto frontmatter'' feature  - a [[docs:semantic:frontmatter|frontmatter]] is created for a new page
-  * New ''h1'': The [[docs:page_meta:h1|h1 metadata]] has been added in order to have the notion of a short [[docs:page_meta:title|title page]].
+  * New ''h1'': The [[docs:metadata:h1|h1 metadata]] has been added in order to have the notion of a short [[docs:metadata:title|title page]].
 

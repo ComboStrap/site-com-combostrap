@@ -295,7 +295,7 @@ db:oracle:999999.9:union:all:select_null:from_dual_and_0_0
   * [[https://www.dokuwiki.org/include_hooks|include-Hooks]] (meta)
   * [[https://aerolab.github.io/midnight.js/|Midnights]] ([[https://github.com/Aerolab/midnight.js|code]]) [[docs:menubar:fixed-top|fix topbar]] with differents colors depending on the background
   * Don't redirect missing [[docs:layout:page:slot|bars]]
-  * [[docs:page_type:article|Article]] role:
+  * [[docs:type:article|Article]] role:
       * [[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Article_Role|Add article role]]
       * [[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_article_role|Article role]]
   * [[https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/dn320426(v=vs.85)?redirectedfrom=MSDN|Browserconfig ?]]
