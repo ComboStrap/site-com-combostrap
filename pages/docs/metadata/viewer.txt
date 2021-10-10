@@ -11,19 +11,30 @@
 ====== ComboStrap Page Metadata - The Metadata Viewer ======
 
 ===== About =====
-The ''ComboStrap Metadata Viewer'' is an utility that render a box with the [[..:metadata:metadata|page metadatas]].
+The ''ComboStrap Metadata Viewer'' is an utility that renders a box with all known page metadata's in a raw form without any filtering.
 
-The box renders:
-   * via the [[#metadata tag|metadata tag]]
-   * when in ''edit mode'' if the [[#enableMetadataViewerWhenEditing]] configuration is enabled (''true'' by default)
+It's used mainly for support purpose.
+
+You will see:
+  * the  [[..:metadata:metadata|metadata managed by ComboStrap]]
+  * and all other metadata's of your installation (from [[support:plugin|third plugin]] to [[doku>metadata|dokuwiki itself]])
 
 
 
 
-===== Articles Related =====
-{{backlinks>.}}
 
-===== Metadata tag =====
+===== Type =====
+
+You can:
+  * access it in a [[#window|popup form]]
+  * or print them in a page via the [[#tag|metadata tag]]
+
+==== Window ====
+The metadata viewer is accessible via the [[docs:metadata:manager|metadata manager]]
+
+{{:docs:semantic:metadata_viewer_link_button_in_metadata_manager.png|}}
+
+==== Tag ====
 
 You can render the metadata of a page with the ''metadata tag''
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
@@ -47,7 +58,4 @@ By default, the value filters the [[docs:navigation:toc|table of contents]].
 title="Metadata" exclude="tableofcontents"
 </code>
 
-==== enableMetadataViewerWhenEditing ====
-This [[:configuration|configuration]] tells if a metadata box should be shown while editing a page.
 
-The default value is ''True''
