@@ -18,12 +18,6 @@ An ''organization'' page is a [[type|type of page]] that defines information abo
 ===== How to create an organization page =====
 To create a page on your website that contains your organization  information such as our [[:about_us|About us]] page, you need to define the [[type|type]] to ''Organization''
 
-<code json>
-{
-   "type":"organization"
-}
-</code>
-
 Combostrap will then add the following properties:
   * ''url'': the base url
   * ''logo'': the [[docs:app:logo|logo]]
@@ -34,30 +28,27 @@ Combostrap will then add the following properties:
 
 ===== How to add extra properties =====
 
-We also supports the creation of an ''organization'' property that would match the [[https://schema.org/Organization|Schema.org organization field]].
+You can also add extra properties such as the [[https://schema.org/Organization|organization details]] in the [[docs:social:google#json-ld|json-ld property]].
 
-For example, in our [[:about_us|About us]] page, we have set in the [[docs:semantic:frontmatter|frontmatter]] the following properties:
+
+For example, in our [[:about_us|About us]] page, we have set the following properties:
 <code json>
 {
-	"canonical": "about",
-	"title": "The ComboStrap Organization - About us",
-	"description": "A page about the combostrap organization that also demonstrates how you can create an organization page",
-	"type": "organization",
-	"organization": {
-		"name": "ComboStrap",
-		"email": "support@combostrap.com",
-		"slogan": "Growing the world GDP of publishers and creators",
-		"address": {
-			"@type": "PostalAddress",
-			"addressLocality": "Oegstgeest, Netherlands",
-			"postalCode": "2343KE"
-		},
-		"parentOrganization": {
-			"@type": "organization",
-			"name": "Bytle",
-			"url": "https://bytle.net"
-		}
-	}
+  "organization": {
+    "name": "ComboStrap",
+    "email": "support@combostrap.com",
+    "slogan": "Growing the world GDP of publishers and creators",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Oegstgeest, Netherlands",
+      "postalCode": "2343KE"
+    },
+    "parentOrganization": {
+      "@type": "organization",
+      "name": "Bytle",
+      "url": "https://bytle.net"
+    }
+  }
 }
 </code>
        

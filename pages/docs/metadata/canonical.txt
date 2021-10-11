@@ -7,11 +7,11 @@
 
 
 ===== About =====
-A ''canonical'' is a string [[kb>identifier|identifier]] for a page.
+A ''canonical'' is a [[kb>identifier|identifier]] for a page that should have meaning and be understandable by humans
 
 The ''canonical'' value:
   * should be unique for all pages of your website (ie domain).
-  * does not need to be the [[:docs:semantic:path|path]]
+  * does not need to be the [[docs:metadata:path|path]]
   * is always lowercase
 
 
@@ -22,49 +22,14 @@ The canonical will:
 https://yourdomain.com/your/canonical
 </code>
   * be used in your tracking metrics
+  * be used by external service to reference your page (Search Engine, [[docs:social:social|Social network]]
   * help [[docs:seo:seo|Search Crawler]] detecting that the page from the default and canonical URL are the same.
 
-
-===== How to set the canonical value ? =====
-
-==== Manually ====
-
-To set the canonical value, uses the [[frontmatter|frontmatter component]] and add the ''canonical'' property in the JSON document.
-
-<code javascript>
----json
-{
-    "canonical":"my:canonical:id"
-}
----
-</code>
-
-==== Automatically ====
-
-This plugin can create a canonical value based on the last parts of a page ''ID''. See [[automatic_canonical]]
-===== HTML HEAD properties =====
-By setting a ''canonical'' value, you will get two ''head'' properties in your HTML page.
-
-For instance:
-  * if the canonical value is ''cat:post1''
-  * on a page hosted at ''example.com''
-the canonical head properties would become
-
-  * for [[https://support.google.com/webmasters/answer/139066?hl=en|Google]]
-<code html>
-<link rel="canonical" href="https://example.com/cat/post1" />
-</code>
-  * and for [[https://developers.facebook.com/docs/sharing/webmasters/getting-started/versioned-link/|Facebook]]
-<code html>
-<meta property="og:url" content="https://example.com/cat/post1" />
-</code>
-
 ===== Demo =====
-This page has the canonical value set to ''canonical:url'' and therefore is also available at this Canonical URL.
+This page has the canonical value set to ''canonical'' and therefore is also available at the Canonical URL. ''https://combostrap.com/canonical''
 
-<note tip>In [[doku>|dokuwiki]], a red hyperlink means that the file does not exist but with the ''canonical'' feature, the page exists.</note>
 
-Try it your self !
+You can try it your self.
 
 <btn>
 [[https://combostrap.com/canonical#demo|Navigate to this page via its canonical URL !]]
@@ -73,14 +38,23 @@ Try it your self !
 or
 
 <btn>
-[[docs:metadata:canonical#demo|Navigate to this page via its dokuwiki URL !]]
+[[docs:metadata:canonical#demo|Navigate to this page via its standard URL !]]
 </btn>
 
-===== Usage =====
-All external provider will use this value to refer to your page.
 
-For instance:
-  * [[https://developer.twitter.com/en/docs/twitter-for-websites/webpage-properties|the tweet button]]
+===== How to set the canonical value ? =====
 
-===== For the Geek =====
-The canonical is explained in depth in the  [[https://tools.ietf.org/html/rfc6596|RFC6956 - the Canonical Link Relation]]
+==== Manually ====
+
+To set the canonical value, uses the [[manager|metadata manager]] and set the ''canonical'' property in a wiki path format (ie the path separator should be a colon)
+
+Example:
+<code dw>
+my:path
+</code>
+
+==== Automatically ====
+
+You can also create a canonical value based on the last parts of a [[path|page path]]. See [[automatic_canonical]]
+
+

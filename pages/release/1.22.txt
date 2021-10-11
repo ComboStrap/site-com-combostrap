@@ -27,7 +27,9 @@
 
   * The [[docs:metadata:frontmatter|frontmatter]] cannot be used to enter metadata anymore. You need to use the [[docs:metadata:manager|metadata manager]].
   * The ''autofrontmatter'' feature has been deleted (due to the advent of the [[docs:metadata:manager|metadata manager]].
-  * With the advent of  the [[docs:metadata:viewer|metadata viewer window]], the metadata does not need to be show in the editor and therefore the ''enableMetadataViewerWhenEditing'' configuration became obsolete and was deprecated.
+  * With the advent of  the [[docs:metadata:viewer|metadata viewer window]], 
+      * the metadata does not need to be show in the editor and therefore the ''enableMetadataViewerWhenEditing'' configuration became obsolete and was deprecated.
+      * the special [[docs:type:organization|organization field]] has been deprecated. You should use now the [[docs:social:google#json-ld|json-ld field instead]]
 
 ==== Improvement ====
   * The [[docs:analytics:replication|data synchronization process]] is now treated as a real replication and got a ''date_synchronization'' and a [[docs:metadata:uuid|universal id]]. The synchronization is now also based on the database version file.

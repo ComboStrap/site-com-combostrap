@@ -18,51 +18,17 @@ The ''ComboStrap'' pages supports the setting of [[..:metadata:metadata|metadata
 
 
 
-===== Creation =====
+===== List =====
 
-==== Automatic ====
-
-''ComboStrap'' will automatically create the minimum information needed to create a ''Google Rich Result'' for the following [[..:semantic:type|type]] of page:
+''ComboStrap'' will automatically create the minimum information needed to create a ''Google Rich Result'' for the following [[docs:type:type|type of page]]:
   * [[..:type:website|website]] - The home page gets automatically this type of page with [[https://developers.google.com/search/docs/data-types/sitelinks-searchbox|the searchbox]] ''Rich Result''
   * [[..:type:organization|organization]] - You set this type of page in a ''About Us'' page where you gives information about your company. It enables the [[https://developers.google.com/search/docs/data-types/logo|the Google knowledge panel]] ''rich result''
   * [[..:type:article|article]] - An article such as a wikipedia article, news article or piece of investigative report that enables [[https://developers.google.com/search/docs/data-types/article|card]]
+  * [[docs:type:event|event]] - On an event page, we add its start and end date
 
 
 <note>
-With the [[#manual|manual json-ld]] attribute, you can also set extra properties if needed
-</note>
-==== Manual ====
-
-
-You can also:
-  * transform yourself a page to a [[https://developers.google.com/search/docs/guides/search-gallery|Google Rich Result]].
-  * or set extra attributes.
-
-You just need to:
-  * set the [[..:semantic:type|type]] of your page
-  * set a ''json-ld'' property with the extra [[https://schema.org/docs/full.html|Schema.org metadata properties]] in [[https://json-ld.org|json-ld format]]).
-
-
-For instance, if you create a page for a [[https://schema.org/Course|Course]] as explained on this [[https://developers.google.com/search/docs/data-types/course|Google example]], you would create the following [[..:semantic:frontmatter|frontmatter]] where:
-  * the [[..:semantic:type|type]] was set to ''Course''
-  * a ''json-ld'' property was created that holds the ''course'' property.
-
-<code json>
-{
-    "type":"Course",
-    "json-ld": {
-        "name": "Introduction to Computer Science and Programming",
-        "description": "Introductory CS course laying out the basics.",
-        "provider": {
-            "@type": "Organization",
-            "name": "University of Technology - Eureka",
-            "sameAs": "http://www.ut-eureka.edu"
-        }
-}
-</code>
-
-<note tip>
-You can validate the ''json-ld'' value with the [[https://json-ld.org/playground/|json-ld playground]]
+With the [[#json-ld|manual json-ld]] attribute, you can also set extra properties if needed
 </note>
 ===== Preview / Control =====
 You can control the ''Rich Result'' of your page with the following tools:
@@ -78,5 +44,47 @@ Example of result:
 
 \\
 
-===== Documentation / Reference =====
-  * If you want to know more about ''search result features'', see the [[https://developers.google.com/search/docs/advanced/appearance/search-result-features#what-features-are-best-for-my-page-or-site|Google documentation]].
+===== Advanced =====
+
+==== Manual Rich Result ====
+
+
+
+You can also:
+  * transform yourself a page to a [[https://developers.google.com/search/docs/guides/search-gallery|Google Rich Result]].
+  * or set extra attributes.
+
+You just need to:
+  * set the [[docs:type:type|type of your page]]
+  * set the [[#json-ld|json-ld property]] with the extra [[https://schema.org/docs/full.html|Schema.org metadata properties]] in [[https://json-ld.org|json-ld format]]).
+
+
+For instance, if you create a page for a [[https://schema.org/Course|Course]] as explained on this [[https://developers.google.com/search/docs/data-types/course|Google example]], you would create the following [[..:metadata:frontmatter|frontmatter]] where:
+  * the [[docs:type:type|type of your page]] was set to ''Course''
+  * a [[#json-ld|json-ld property]] was created that holds the ''course'' property.
+
+<code json>
+{
+  "name": "Introduction to Computer Science and Programming",
+  "description": "Introductory CS course laying out the basics.",
+  "provider": {
+    "@type": "Organization",
+    "name": "University of Technology - Eureka",
+    "sameAs": "http://www.ut-eureka.edu"
+  }
+}
+</code>
+
+If you want to know more about ''search result features'', see the [[https://developers.google.com/search/docs/advanced/appearance/search-result-features#what-features-are-best-for-my-page-or-site|Google documentation]].
+
+==== json-ld ====
+
+The ''json-ld'' property is a [[docs:metadata:metadata|page metadata]] that you can use to set extra [[https://schema.org/docs/full.html|Schema.org metadata properties]] in [[https://json-ld.org|json-ld format]]).
+
+This metadata field is available in the ''page type'' tab of the [[docs:metadata:manager|]].
+
+<note tip>
+You can validate the ''json-ld'' value with the [[https://json-ld.org/playground/|json-ld playground]]
+</note>
+
+

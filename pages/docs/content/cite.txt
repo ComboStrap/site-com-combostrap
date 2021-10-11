@@ -4,8 +4,6 @@
 ===== About =====
 The ''cite'' element will give credit to a portion of text. It can go anywhere but you put it mostly in a [[docs:block:blockquote|blockquote]].
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Example =====
 
@@ -20,11 +18,11 @@ The ''cite'' element will give credit to a portion of text. It can go anywhere b
 </webcode>
 
 ==== With style ====
-With the [[docs:styling:style|style]] attribute and the ''blue'' [[docs:styling:color|color]]
+You can [[docs:styling:styling|style]] them. For instance, with a ''blue'' [[docs:styling:color|color]]
   * Markup
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
-<cite style="color:var(--blue)">The credits goes to</cite>
+<cite color="blue">The credits goes to</cite>
 </code>
   * Output:
 </webcode>
@@ -36,7 +34,7 @@ With a [[docs:block:blockquote|blockquote]]
 <code dw>
 <blockquote>
     It's not the Destination, It's the journey.
-    <cite style="color:#2780E3">Ralph Waldo Emerson</cite>
+    <cite>Ralph Waldo Emerson</cite>
 </blockquote>
 </code>
   * Output:

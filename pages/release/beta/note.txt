@@ -74,7 +74,54 @@ Add an export button for the main page. Example
 <template target="main"/>
 </code>
 
+==== Footnote ====
 
+Footnotes are used most commonly to provide:
+  * references (bibliographic citations) to reliable sources,
+  * explanatory information or
+  * source information for tables and other elements.
+
+Footnotes allow you to add:
+  * notes, 
+  * citations 
+  * and references 
+without cluttering the body of the document. 
+
+When you create a footnote, a superscript number with a link appears where you added the footnote reference. Readers can click the link to jump to the content of the footnote at the bottom of the page.
+
+  * Dokuwiki: [[https://www.dokuwiki.org/wiki:syntax#footnotes|dokuwiki footnote syntax]] and [[docs:content:cite|cite]] for citation (see also [[doku>plugin:refnotes:refdb]])
+<code dw>
+((<cite></cite>))
+</code>
+
+  * Implemented as ref as in [[https://en.wikipedia.org/wiki/Help:Footnotes|Wikipedia solution]]. Add a name attribute when creating a footnote <ref name="name">citation text</ref>. Thereafter, the footnote may be referenced by just using the following expression <ref name="name" />.
+<code dw>
+<ref name="Smith">citation</ref>
+<!-- At the end, reference may be added  -->
+<references>
+   <ref name="Smith">citation</ref>
+</reference>
+</code>
+  * Latex: known as fnref (footnote ref)
+<code>
+fnref
+</code>
+  * [[https://www.markdownguide.org/extended-syntax/#fnref:1|markdown]]
+
+
+
+==== Citation creation for a page ====
+
+Wikipedia citation generator: Create a citation with https://en.wikipedia.org/w/index.php?title=Special:CiteThisPage
+
+markdown
+<code dw>
+[[URL]] ([[Special:Permalink/1048495552|this version]])
+</code>
+
+==== Permalink ====
+
+Permalink should be done with [[docs:metadata:uuid|uuid]] 
 ==== Data definition for page-explorer ====
 
 See [[https://forum.dokuwiki.org/d/19593-nspages]]
@@ -130,7 +177,9 @@ Example: https://threadreaderapp.com/images/screenshots/thread/14402470341879685
 <code dw>
 <page-image path=":docs:content:page-image" />
 </code>
-  * in the table, they are not moved
+
+==== Editor ====
+See: https://www.mediawiki.org/wiki/Help:VisualEditor/User_guide
 ==== Git ====
 
 One branch, one website.
