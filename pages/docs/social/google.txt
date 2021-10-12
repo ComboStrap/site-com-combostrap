@@ -21,9 +21,9 @@ The ''ComboStrap'' pages supports the setting of [[..:metadata:metadata|metadata
 ===== List =====
 
 ''ComboStrap'' will automatically create the minimum information needed to create a ''Google Rich Result'' for the following [[docs:type:type|type of page]]:
-  * [[..:type:website|website]] - The home page gets automatically this type of page with [[https://developers.google.com/search/docs/data-types/sitelinks-searchbox|the searchbox]] ''Rich Result''
+  * [[..:type:website|website]] - The [[docs:type:home#root|root home page]] gets automatically this type of page with [[https://developers.google.com/search/docs/data-types/sitelinks-searchbox|the searchbox]] ''Rich Result''
   * [[..:type:organization|organization]] - You set this type of page in a ''About Us'' page where you gives information about your company. It enables the [[https://developers.google.com/search/docs/data-types/logo|the Google knowledge panel]] ''rich result''
-  * [[..:type:article|article]] - An article such as a wikipedia article, news article or piece of investigative report that enables [[https://developers.google.com/search/docs/data-types/article|card]]
+  * [[..:type:article|article]] - An article such as a wikipedia article, news article or piece of investigative report that enables [[https://developers.google.com/search/docs/data-types/article|google card]]
   * [[docs:type:event|event]] - On an event page, we add its start and end date
 
 
@@ -55,16 +55,20 @@ You can also:
   * or set extra attributes.
 
 You just need to:
-  * set the [[docs:type:type|type of your page]]
-  * set the [[#json-ld|json-ld property]] with the extra [[https://schema.org/docs/full.html|Schema.org metadata properties]] in [[https://json-ld.org|json-ld format]]).
+  * set the [[docs:type:type|type of your page]] 
+  * set the [[#json-ld|json-ld property]] with:
+      * a full json-ld definition
+      * or extra [[https://schema.org/docs/full.html|Schema.org metadata properties]] in [[https://json-ld.org|json-ld format]]
 
 
-For instance, if you create a page for a [[https://schema.org/Course|Course]] as explained on this [[https://developers.google.com/search/docs/data-types/course|Google example]], you would create the following [[..:metadata:frontmatter|frontmatter]] where:
-  * the [[docs:type:type|type of your page]] was set to ''Course''
-  * a [[#json-ld|json-ld property]] was created that holds the ''course'' property.
+For instance, if you want to create a [[https://developers.google.com/search/docs/data-types/course|course page]], you would:
+  * set the [[docs:type:type|type of your page]] to ''custom''
+  * and set the [[#json-ld|json-ld property]] with the below definition:
 
 <code json>
 {
+  "@context": "https://schema.org",
+  "@type": "Course",
   "name": "Introduction to Computer Science and Programming",
   "description": "Introductory CS course laying out the basics.",
   "provider": {

@@ -35,6 +35,7 @@
   * The [[docs:analytics:replication|data synchronization process]] is now treated as a real replication and got a ''date_synchronization'' and a [[docs:metadata:uuid|universal id]]. The synchronization is now also based on the database version file.
   * the [[docs:analytics:replication|replication table]] ''ANALYTICS_TO_REFRESH'' has been renamed to ''PAGES_TO_REPLICATE'' to get more accurate
   * the [[docs:metadata:frontmatter|frontmatter]] metadata are [[docs:analytics:replication|replicated]] directly to avoid inconsistency with [[docs:templating:sql|page sql]]
+  * The [[docs:social:google#json-ld|google json-ld]] supports now a full json-ld value. It's easier to valid it with the playground for the user.
 
 ==== Changes ====
   * The acronym / name of  a [[docs:content:icon|icon library]] follows the library name of the [[https://icon-sets.iconify.design/|iconify search engine]]. Therefore:
