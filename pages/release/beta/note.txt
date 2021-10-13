@@ -217,6 +217,13 @@ x Marketing cookies: These cookies are used to measure how visitors interact wit
 
 <btn>Accept All</btn><btn>Save Preferences</btn>
 </file>
+
+==== Serverless / Vercel ====
+  * https://github.com/juicyfx/vercel-examples/blob/master/php-wordpress
+  * Runtime:
+      * The runtime is a [node module runtime](https://github.com/vercel/vercel/blob/main/DEVELOPING_A_RUNTIME.md)
+      * php runtime implements it [here](https://github.com/juicyfx/vercel-php/blob/master/src/index.ts)
+      * The [[https://vercel.com/docs/runtimes#advanced-usage/developing-your-own-runtime|documentation]]
 ===== Seo =====
 
 ==== Step by step ====
@@ -227,6 +234,18 @@ x Marketing cookies: These cookies are used to measure how visitors interact wit
 ===== Lazy load =====
   * Noscript handling for [[docs:performance:lazy|lazy loading]] Better for seo also. See [[https://github.com/ApoorvSaxena/lozad.js/wiki/Frequently-Asked-Questions#how-to-load-images-normally-when-javascript-is-disabled|doc]]
   * Supports Background image
+
+  * Supports Video: [[https://forum.dokuwiki.org/d/19653-displaying-image-instead-of-video/5|Forum]] By default, standard HTML, Lazy loading video elements means, that:
+      * it will lazy load a poster image if set (not the case for your videos) 
+      * and sets the preload attribute to none (so the browser does not start loading the video)
+
+With [[https://github.com/aFarkas/lazysizes/tree/gh-pages/plugins/unveilhooks|unveilhooks]], the class should switch to lazyloaded and the preload is changed to auto
+ie For video/audio use data-poster and preload="none" (by default preload="metadata")
+<code html>
+ <video class="lazyload" preload="none" data-poster="poster.jpg" src="src.mp4">
+ <!-- sources -->
+ </video>
+</code>
 
 
 ===== Design Check list =====
