@@ -51,3 +51,4 @@
   * The new [[docs:semantic:date|date format]] was not applied on the [[docs:metadata:published|published date]] causing a not valid date error message.
   * A page move would create two pages in the [[docs:analytics:database|database]]. The move  is now automatically [[docs:analytics:replication|replicated]] making it consistent.
   * Bug: The [[docs:content:image|media]] statistics was crashing the page because it was asking the image and not the media file on third media such as video, pdf, ...
+  * [[docs:performance:lazy|lazy load]] on small [[docs:content:raster|raster image]] was showing a broken image at page load because the placeholder was not set.
