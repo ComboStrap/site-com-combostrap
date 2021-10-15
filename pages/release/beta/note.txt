@@ -164,7 +164,8 @@ Create tag page as image in frontmatter
 
 ==== Snapshot as illustration ====
 
-Jus text to image: https://github.com/ttodua/useful-php-scripts/blob/master/text-to-image.php
+  * https://github.com/carbon-app/carbon - Create and share beautiful images of your source code. ([[https://github.com/mixn/carbon-now-cli#installation|cli]])
+  * Just text to image: https://github.com/ttodua/useful-php-scripts/blob/master/text-to-image.php
 
 Example: https://threadreaderapp.com/images/screenshots/thread/1440247034187968519.jpg for the [[https://threadreaderapp.com/thread/1440247034187968519.html|page]]
   * Image: 1200 x 628
