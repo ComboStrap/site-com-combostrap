@@ -1,8 +1,8 @@
-====== ComboStrap Analytics - How to query the analytics database ======
+====== ComboStrap - How to query the database ======
 
 
 ===== How-to =====
-This page will show you how to query the [[database|analytics database]] online.
+This page will show you how to query the [[database|database]] online.
 
 ===== Steps =====
 
@@ -11,8 +11,21 @@ This page will show you how to query the [[database|analytics database]] online.
 
 Click on the ''Admin'' link to go to the [[doku>admin_window|Admin Window]]. ie ''https://yourdomain.com/?do=admin''
 
-^ [[:strap|ComboStrap Template]] ^ Dokuwiki Template ^
-| {{docs:analytics:admin_combo.png?150|}} | {{::dokuwiki_admin_window_default_template.png|}} |
+<tabs enclosed-tabs>
+  <panel selected>
+     <label>Strap Template</label>
+With the [[:strap|ComboStrap Template]]:
+
+{{docs:analytics:admin_combo.png?150|}} 
+  </panel>
+  <panel>
+    <label>Dokuwiki Template</label>
+
+With the [[doku>template:dokuwiki|Dokuwiki Template]]
+
+{{::dokuwiki_admin_window_default_template.png|}}
+    </panel>
+</tabs>
 ==== Go to the Sqlite Interface ====
 
 The [[doku>plugin:sqlite#admin_interface|SQLite interface]] is a webpage that permits to send statement to the ''SQLite'' database.
@@ -42,7 +55,36 @@ The URL to access your database will look like the following URL
  ''%%https://yourdomain.com/?do=admin&page=sqlite&db=combo&version=sqlite3%%''
 
 
-==== Json Support  ====
+
+==== Enter your query and submit ====
+
+
+Enter the analytical query and submit.
+
+{{docs:analytics:sqlite_interface_query.png?500|}}
+
+
+
+You can try the below query that returns statistics over ''words''.
+<code sql>
+select
+	count(*) as page_count,
+	round(word_count) as word_avg,
+	sum(word_count) as word_count,
+	max(word_count) as word_max,
+	min(word_count) as word_min
+from
+	(
+	select
+		id,
+		word_count
+	from
+		pages
+	)
+</code>
+
+
+==== Advanced: Json Support  ====
 If you want to query, the [[data|analytics json data]], you need to have sqlite with [[https://www.sqlite.org/json1.html|json support]].
 
 This steps shows you how to validate that your SQLite database can query JSON.
@@ -63,6 +105,25 @@ PRAGMA compile_options;
 | ENABLE_JSON1 |
 </file>
 
+If you have Json enable, you can extract all information in the analytics file.
+
+For instance, the above query can be translated to this query with the [[data|json analytics column]]
+<code sql>
+select
+	count(*) as page_count,
+	round(word_count) as word_avg,
+	sum(word_count) as word_count,
+	max(word_count) as word_max,
+	min(word_count) as word_min
+from
+	(
+	select
+		id,
+		json_extract(analytics , '$.statistics.words') as word_count
+	from
+		pages
+	)
+</code>
 
 <note tip>
 If you don't have the [[https://www.sqlite.org/json1.html|JSON extension]] or can't install it, you can always download the [[database|database file]] and query it locally for instance with [[https://dbeaver.io/|dbeaver]]
@@ -70,37 +131,6 @@ If you don't have the [[https://www.sqlite.org/json1.html|JSON extension]] or ca
 
 
 
-
-
-
-==== Enter your query and submit ====
-
-
-Enter the analytical query and submit.
-
-{{docs:analytics:sqlite_interface_query.png?500|}}
-
-
-
-You can try the below query that returns statistics over ''words'' from the [[data|json analytics column]].
-<code sql>
-select
-	count(*) as page_count,
-	round(avg(words)) as words_avg,
-	sum(words) as late publication page,
-	max(words) as words_max,
-	min(words) as words_min
-from
-	(
-	select
-		id,
-		json_extract(analytics , '$.statistics.words') as words
-	from
-		pages
-	where
-		analytics is not null
-	)
-</code>
 
 
 

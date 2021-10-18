@@ -1,0 +1,43 @@
+====== ComboStrap URL - Page Alias ======
+
+
+===== About =====
+A ''page alias'' is an extra [[docs:metadata:path|path]] value for a page.
+
+If a ''page'' has an alias that corresponds to the path of a [[docs:url:404|missing page]], a [[..:url:http_redirect|redirection]] is performed.
+
+You can see them as symlink or shortcut for a file system.
+
+
+
+
+
+===== Management =====
+
+==== Creation ====
+
+The page alias is automatically created when a page is [[support:plugin#move|moved with the move plugin]]
+
+For instance:
+  * you could have a page at the [[docs:metadata:path|]] ''fruit:pear''. 
+  * if you move the page to another location such as ''fruit:tree:pear''
+  * the page ''fruit:tree:pear'' will get the alias ''fruit:pear''
+
+
+
+
+==== See ====
+
+You can see the aliases for a page via the [[docs:metadata:manager|metadata manager]].
+
+==== Query ====
+You can [[docs:analytics:query|query]] the aliases with the following statement:
+
+<code sql>
+select 
+  p.path, 
+  pa.alias 
+from 
+   page_aliases pa,
+   inner join pages p on pa.UUID = p.UUID
+</code>
