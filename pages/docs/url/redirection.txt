@@ -2,16 +2,14 @@
 
 ===== About =====
 ''ComboStrap'' performs two kind of redirection:
-    * an [[id_redirect|ID redirect]]
+    * an [[path_redirect|Path redirect]]
     * an [[http_redirect|HTTP redirect]]
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Processing =====
 
 If a page does not exist
-  * if the page has a [[docs:metadata:canonical|canonical]], rewrite the [[doku>Pagename|Dokuwiki ID]] to the [[docs:metadata:canonical|canonical]] one
+  * if the page has a [[docs:metadata:canonical|canonical]], rewrite the [[docs:metadata:path|path]] to the [[docs:metadata:canonical|canonical]] one
   * if the page has a [[page_rules|page rules redirect]], redirect with a permanent redirection (301)
   * if the user has a write permission, redirect the writer to the ''edit'' form
   * if the user has only read permission, follow the [[action|redirect actions]] in the order of the configurations

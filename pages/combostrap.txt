@@ -58,7 +58,7 @@ The website can then be versioned:
 It contains most of the UI and functional components such as:
   * the [[docs:component|UI Components]]
   * the [[docs:url:url|Url Manager]]
-  * the [[docs:metadata:page_meta|Web Structured Data and Social Sharing]]
+  * the [[docs:metadata:metadata|Web Structured Data and Social Sharing]]
   * the [[docs:performance:frontend_optimization|frontend optimizer]]
   * the [[docs:quality:quality|quality module]]
   * the [[docs:analytics:analytics|analytics module]]

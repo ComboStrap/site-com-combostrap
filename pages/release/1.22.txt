@@ -22,6 +22,7 @@
   * Lockfile protection for the [[support:plugin#move|move plugin]]. When a move goes wrong, a lock file may stay in the data directory. We cancel the move if the lock file age is bigger than 10 minutes.
   * A [[docs:metadata:lang|language region]] will be determined from the server if not set.
   * The [[docs:metadata:viewer|metadata viewer window]]. A window that shows all raw metadata known by your installation for a specific page.
+  * The [[docs:metadata:alias|page alias]] have migrated into a table with the [[docs:metadata:uuid|uuid]] as foreign key.
 
 ==== Deprecated ====
 

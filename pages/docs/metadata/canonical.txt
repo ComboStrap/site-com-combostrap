@@ -22,7 +22,7 @@ The canonical will:
 https://yourdomain.com/your/canonical
 </code>
   * be used in your tracking metrics
-  * be used by external service to reference your page (Search Engine, [[docs:social:social|Social network]]
+  * be used by external service to reference your page (Search Engine, [[docs:social:social|Social network]])
   * help [[docs:seo:seo|Search Crawler]] detecting that the page from the default and canonical URL are the same.
 
 ===== Demo =====

@@ -20,7 +20,7 @@
 With the below rule:
   * Pattern: ''database:*''
   * Target: ''db:$1''
-If a page called ''database:table'' does not exist, the URL manager will calculate the target page ''db:table'' and if the page exists, it will [[id_redirect|rewrite it]].
+If a page called ''database:table'' does not exist, the URL manager will calculate the target page ''db:table'' and if the page exists, it will [[path_redirect|rewrite it]].
 
 ==== Redirect a page to an external web site ====
 With the below rule:
