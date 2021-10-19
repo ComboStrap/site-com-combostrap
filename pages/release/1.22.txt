@@ -53,3 +53,4 @@
   * A page move would create two pages in the [[docs:analytics:database|database]]. The move  is now automatically [[docs:analytics:replication|replicated]] making it consistent.
   * Bug: The [[docs:content:image|media]] statistics was crashing the page because it was asking the image and not the media file on third media such as video, pdf, ...
   * [[docs:performance:lazy|lazy load]] on small [[docs:content:raster|raster image]] was showing a broken image at page load because the placeholder was not set.
+  * bug: [[docs:navigation:outline|outline numbering]] was not reset for the heading level 3
