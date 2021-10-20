@@ -26,7 +26,7 @@ The image should be relevant to the page. For example, if you define an image fo
 ===== Definition =====
 
 The image of a page is searched in this order:
-  - the first conform ''image'' property in the [[docs:semantic:frontmatter|frontmatter]]
+  - the first conform ''image'' property in the [[docs:metadata:frontmatter|frontmatter]]
   - the first conform ''image'' of a page if not [[#disableFirstImageAsPageImage|disabled]]
   - the first conform [[docs:app:logo|logo]]
 
@@ -36,7 +36,7 @@ For a [[docs:social:social|social image]] ([[docs:social:twitter#image|twitter]]
 </note>
 ===== Example =====
 
-Example of a a [[docs:semantic:frontmatter|frontmatter]] image:
+Example of a a [[docs:metadata:frontmatter|frontmatter]] image:
   * Set: multiple images. The recommended images are:
       * high-resolution (minimum of 300,000 pixels when multiplying ''width'' and ''height'', to avoid blurry, unclear images)
       * with the following aspect ratios: ''16x9'', ''4x3'', and ''1x1'' (to avoid [[docs:content:image#cropping|cropping]])
@@ -57,7 +57,7 @@ Example of a a [[docs:semantic:frontmatter|frontmatter]] image:
 </code>
 
 <note>
-Moving image path with the [[support:plugin#move|move plugin]] will update the value in the [[docs:semantic:frontmatter|frontmatter]].
+Moving image path with the [[support:plugin#move|move plugin]] will update the value in the [[docs:metadata:frontmatter|frontmatter]].
 </note>
 
 ===== Configuration =====

@@ -27,7 +27,7 @@ It's a [[metadata|page metadata]] that:
 ===== Articles Related =====
 {{backlinks>.}}
 ===== Set=====
-You can modify the description by adding a ''description'' property in the [[..:semantic:frontmatter|frontmatter]].
+You can modify the description by adding a ''description'' property in the [[frontmatter|frontmatter]].
 <code json>
 {
     "description":"Would you want to  modify your meta description to rank better on the SERP page ? This is how you do it."
