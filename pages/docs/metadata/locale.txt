@@ -26,7 +26,7 @@ It's used for localization filtering:
 
 The ''locale'' can not be set directly because it's a derived value from:
   * the [[lang|language identifier]]
-  * and the [[country|country identifier]]
+  * and the [[region|country identifier]]
 
 This two values needs to be known to have a ''locale''.
 

@@ -49,7 +49,7 @@ Note that the image has an intrinsic ratio of ''16:9'', we can change it to a ra
 <page-image path="path" ratio="ratio"/>
 </code>
 where:
-  * ''path'' is the [[docs:semantic:path|path]] of a page
+  * ''path'' is the [[docs:metadata:path|path]] of a page
   * ''ratio'' is the ratio of the image (default to original):
       * ''16:9''
       * ''4:3''

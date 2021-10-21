@@ -46,7 +46,7 @@ php ./bin/plugin.php combo replicate
 ==== The replication date ====
 
 The replication date is stored in the ''date_replication'' metadata and can be seen via:
-  * the [[docs:semantic:viewer|Metadata Viewer]].
+  * the [[docs:metadata:viewer|Metadata Viewer]].
   * or [[query|query]] .
 <code sql>
 select

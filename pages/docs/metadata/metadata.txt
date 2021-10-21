@@ -34,12 +34,12 @@ There is two groups of metadata:
   * [[docs:metadata:image|image]] - the page illustrations
   * [[docs:type:type|page type]] - the type of page (article, ...)
   * [[published|date_published]] - the publication date
-  * [[country|country]] - the localized country
+  * [[region|country]] - the localized country
   * [[lang|lang]] - the language of the page
 
 ==== Protected ====
 The below properties are protected and cannot be changed:
-  * [[docs:semantic:path|path]] - the path of the page with wiki separator (ie '':namespace:page'')
+  * [[docs:metadata:path|path]] - the path of the page with wiki separator (ie '':namespace:page'')
   * ''date_created'' - the creation date
   * ''date_modified'' - the modification date
   * ''user'', ''creator'', ''contributor''
@@ -83,4 +83,4 @@ The metadata are also available in the [[docs:analytics:data|analytics data]]
 
 ===== Replication =====
 
-If you want them to be replicated between ComboStrap installation, you should enable the [[..:semantic:frontmatter|frontmatter]].
+If you want them to be replicated between ComboStrap installation, you should enable the [[frontmatter|frontmatter]].
