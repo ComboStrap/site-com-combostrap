@@ -26,7 +26,7 @@ If a page called ''database:table'' does not exist, the URL manager will calcula
 With the below rule:
   * Pattern: ''dokuwiki:404managerplugin''
   * Target: ''https://combostrap.com/url/manager''
-If a page called ''dokuwiki:404managerplugin'' does not exist, the URL manager will send a [[http_redirect|redirect]] to the page ''https://combostrap.com/url/manager''
+If a page called ''dokuwiki:404managerplugin'' does not exist, the URL manager will send a [[redirect|redirect]] to the page ''https://combostrap.com/url/manager''
 ===== Steps =====
 ==== Go to the new rule page ====
 

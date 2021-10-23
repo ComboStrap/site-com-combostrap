@@ -16,7 +16,7 @@
 ===== How to create a permalink ? =====
 
   * ''permalink'' are links that are created when the [[docs:metadata:canonical|canonical id]] is set for a page
-  * Add a [[docs:metadata:canonical|canonical property]] in the [[docs:semantic:frontmatter|frontmatter]]
+  * Add a [[docs:metadata:canonical|canonical property]] in the [[docs:metadata:frontmatter|frontmatter]]
 <code javascript>
 ---json
 {

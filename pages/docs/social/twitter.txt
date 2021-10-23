@@ -43,7 +43,7 @@ The list of metadata that are used in the card are:
       * otherwise the [[#configuration|default one]]
       * otherwise any conforming [[docs:app:logo|logo image]]
 
-Example of ''twitter'' [[..:metadata:image|image]] definition in [[docs:semantic:frontmatter|frontmatter]]
+Example of ''twitter'' [[..:metadata:image|image]] definition in [[docs:metadata:frontmatter|frontmatter]]
 <code json>
 {
     "image": {

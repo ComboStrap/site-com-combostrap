@@ -17,7 +17,7 @@ to set the properties that they required when crawling your website.
 
 
 ===== How to set the value =====
-You can set the value in the [[docs:semantic:viewer|metadata manager]]
+You can set the value in the [[docs:metadata:viewer|metadata manager]]
 
 
 If not set, the default value is:

@@ -18,7 +18,7 @@ This [[..:release|release]] brings a new page [[docs:navigation:navigation|navig
   * The [[docs:navigation:page-explorer#tree|page-explorer list (old ntoc)]] can show now the parent namespace as well in order to navigate backward.
   * Added the scope of a page to improve the [[docs:cache:sideslots|auto cache bursting functionality]]. When a [[docs:navigation:page-explorer|tree page-explorer]] is used, the sidebar cache is deleted when any level of the [[docs:navigation:page-explorer|page-explorer tree]] is changed (page added, deleted, modified)
   * The [[docs:app:identity|identity forms]] ''update profile'' and ''delete profile'' are now also styled.
-  * [[docs:templating:template|Template]] allows now any [[docs:semantic:frontmatter|frontmatter metadata]]
+  * [[docs:templating:template|Template]] allows now any [[docs:metadata:frontmatter|frontmatter metadata]]
 ==== Improvement ====
 
   * [[docs:styling:align|Align]] understand now ''start'' and ''end'' to make page [[docs:metadata:lang##rtlright_to_left_language|LTR or RTL language ready]].

@@ -1,3 +1,9 @@
+---json
+{
+    "canonical":"menubar:search"
+}
+---
+
 ====== ComboStrap UI - Search ======
 
 

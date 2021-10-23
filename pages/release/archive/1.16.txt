@@ -31,7 +31,7 @@ This release has brought a old request. ie styling to the [[docs:app:identity|id
 
 ==== Improvement ====
 
-  * Improvement: [[docs:semantic:frontmatter|frontmatter]] process now the metadata at the render phase.
+  * Improvement: [[docs:metadata:frontmatter|frontmatter]] process now the metadata at the render phase.
 
 ==== Deleted ====
   * The option to span multiple line is no more supported for a [[docs:content:link|link]] to preserve the parse tree. See error below.

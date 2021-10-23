@@ -3,7 +3,7 @@
 ===== About =====
 ''ComboStrap'' performs two kind of redirection:
     * an [[path_redirect|Path redirect]] (transparent)
-    * an [[http_redirect|HTTP redirect]] (visible by the user and search engine)
+    * an [[redirect|HTTP redirect]] (visible by the user and search engine)
 
 
 ===== Processing =====

@@ -13,7 +13,7 @@ List of changes for the [[release:release|release]] ''1.4'' (2020-07-20)
 ===== List =====
 
 
-  * Corrected the bug: No message visible when the [[docs:semantic:frontmatter|frontmatter json object]] is not valid
+  * Corrected the bug: No message visible when the [[docs:metadata:frontmatter|frontmatter json object]] is not valid
   * The [[docs:styling:align|align attribute]] was better documented and supports now also the text alignement.
   * [[docs:block:blockquote|Blockquote]] and [[docs:block:card|card]] are fully implemented and supports also now a [[docs:utility:header|header]]
   * Added the [[docs:styling:shadow]]|elevation styling attribute]] to give more emphasis.
