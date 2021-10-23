@@ -4,7 +4,7 @@
 ===== About =====
 A ''page alias'' is an extra [[docs:metadata:path|path]] value for a page.
 
-If a ''page'' has an alias that corresponds to the path of a [[docs:url:404|missing page]], a [[..:url:redirect|redirection]] is performed.
+If a ''page'' has an alias that corresponds to the path of a [[docs:url:404|missing page]], a [[..:url:redirection|redirection]] is performed.
 
 You can see them as symlink or shortcut for a file system.
 
@@ -36,14 +36,26 @@ You can create, delete and see the aliases for a page with the [[docs:metadata:m
 
 
 ===== Database =====
-You can [[docs:analytics:query|query]] the aliases with the following statement:
+You can [[docs:analytics:query|query]] the aliases with the following statements:
 
+
+<tabs enclosed-tabs>
+<panel selected>
+<label>Simple</label>
 <code sql>
-select 
-  p.path, 
-  pa.alias,
-  pa.type
-from 
-   page_aliases pa,
-   inner join pages p on pa.UUID = p.UUID
+select * from page_aliases_vw;
 </code>
+</panel>
+<panel>
+<label>Advanced</label>
+<code sql>
+select
+  p.path as page_path,
+  pa.path as alias_path,
+  pa.type as alias_type
+from
+   page_aliases pa
+   inner join pages p on pa.UUID = p.UUID;
+</code>
+</panel>
+</tabs>
