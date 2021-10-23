@@ -1,0 +1,15 @@
+====== ComboStrap - Redirect ======
+
+===== About =====
+An ''redirect'' is a [[redirection|redirection method]] used by the [[url|URL manager]] that redirects **permanently** a page to another page .
+
+The search engine will delete the redirected page from their search index.
+
+They are executed when the [[docs:metadata:alias|alias type]] is redirect.
+
+
+
+
+
+
+

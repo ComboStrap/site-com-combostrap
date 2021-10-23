@@ -4,39 +4,45 @@
 ===== About =====
 A ''page alias'' is an extra [[docs:metadata:path|path]] value for a page.
 
-If a ''page'' has an alias that corresponds to the path of a [[docs:url:404|missing page]], a [[..:url:http_redirect|redirection]] is performed.
+If a ''page'' has an alias that corresponds to the path of a [[docs:url:404|missing page]], a [[..:url:redirect|redirection]] is performed.
 
 You can see them as symlink or shortcut for a file system.
 
 
 
 
+===== Type =====
 
-===== Management =====
+==== Redirect ====
+A ''redirect'' alias is an alias that will perform a [[docs:url:redirect|permanent redirection]].
 
-==== Creation ====
-
-The page alias is automatically created when a page is [[support:plugin#move|moved with the move plugin]]
+This type of redirect are automatically created when you [[support:plugin#move|move a page with the move plugin]].
 
 For instance:
-  * you could have a page at the [[docs:metadata:path|]] ''fruit:pear''. 
+  * if you have a page at the [[docs:metadata:path|]] ''fruit:pear''. 
   * if you move the page to another location such as ''fruit:tree:pear''
-  * the page ''fruit:tree:pear'' will get the alias ''fruit:pear''
+  * the page ''fruit:tree:pear'' will get the alias ''fruit:pear'' with the type ''redirect''
+
+==== Synonym ====
+
+A ''synonym'' alias is an alias that will perform a [[docs:url:path_redirect|transparent redirection]].
+The page will be served normally as if it was also existing to the synonym path.
 
 
+===== Management  =====
 
 
-==== See ====
+You can create, delete and see the aliases for a page with the [[docs:metadata:manager|metadata manager]].
 
-You can see the aliases for a page via the [[docs:metadata:manager|metadata manager]].
 
-==== Query ====
+===== Database =====
 You can [[docs:analytics:query|query]] the aliases with the following statement:
 
 <code sql>
 select 
   p.path, 
-  pa.alias 
+  pa.alias,
+  pa.type
 from 
    page_aliases pa,
    inner join pages p on pa.UUID = p.UUID

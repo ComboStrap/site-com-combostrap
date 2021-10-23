@@ -30,12 +30,12 @@ When a user request a missing page (ie ''species:bird:sparrow''), the algorithm 
       * ''1'' point for ''europe:sparrow''
   * it will then select the page with the highest score. 
   * if the page has a score that is higher or equal to the [[#configuration|BestEndPageMinimalScoreForIdRedirect configuration]]:
-      * the redirection would be an [[id_redirect|ID redirect]]
+      * the redirection would be an [[path_redirect|ID redirect]]
       * otherwise it would be an [[http_redirect|HTTP redirect]]
 
 ===== Configuration =====
 
-  * ''BestEndPageMinimalScoreForIdRedirect'': This configuration permits to send an [[id_redirect|id redirect]] in place of a [[http_redirect|http redirect]] when the score of the best page is higher or equal.
+  * ''BestEndPageMinimalScoreForIdRedirect'': This configuration permits to send an [[path_redirect|id redirect]] in place of a [[http_redirect|http redirect]] when the score of the best page is higher or equal.
 
 {{docs:url:best_end_page_name_configuration.png|}}
 
