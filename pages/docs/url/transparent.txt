@@ -34,8 +34,8 @@ Click on the below button to test a permanent redirect:
   * When a user is asking for a [[404|missing page]] with the [[docs:metadata:path|path]] value ''namespace:name'' via one of this URL:
       * https://example.com/doku.php?id=namespace:name
       * or https://example.com/namespace/name (if [[doku>rewrite|dokuwiki URL rewriting]] was set)
-  * If a [[docs:metadata:canonical|canonical value]] or a [[docs:metadata:alias|synonym alias]] is found with the value ''othernamespace:name''
-  * the content of the page with this [[docs:metadata:canonical|canonical]] or [[docs:metadata:alias|alias]] is shown
+  * If a page is found with a [[docs:metadata:canonical|canonical]] or a [[docs:metadata:alias|synonym alias]] that has the value ''othernamespace:name''
+  * This page content is shown
 
 
 ===== Message =====
