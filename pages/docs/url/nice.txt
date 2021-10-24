@@ -1,6 +1,7 @@
 ---json
 {
-    "canonical":"nice:url"
+    "canonical":"nice:url",
+    "name":"Nice URL"
 }
 ---
 
@@ -28,7 +29,7 @@ Dokuwiki has an article about this topic: More see [[doku>rewrite]]
 ''ComboStrap'' can't  rewrite the URL to use the script ''doku.php''
 
 
-but it can [[path_redirect|redirect an id]].
+but it can [[transparent|show page at different paths]].
 
 **Example:** because this page has the ''nice:url'' canonical value, the page is available at:
 

@@ -45,6 +45,7 @@
   * To support the old icon library, the icons are not moved to the new directory.
   * The ''country'' metadata is now known as the [[docs:metadata:region|language region]] to be more accurate as the region is often but not always a country.
   * The ''buster'' key has been changed to ''tseed'' to be in line with dokuwiki.
+  * The [[docs:url:bestendpagename|best end page name]] redirection algorithm will create an [[docs:metadata:alias#|redirect alias]] if the score is bigger than 2. This behavior can be disabled with the [[docs:url:bestendpagename#configuration|BestEndPageMinimalScoreForAliasCreation configuration]].
 
 ==== Bug ====
   * After a change in the [[docs:performance:svg_optimization|svg optimization]], the svg shown will not refresh. Cause: The [[docs:cache:static|static cache]] ''buster'' was using the time of the original SVG file and not from the optimized file.

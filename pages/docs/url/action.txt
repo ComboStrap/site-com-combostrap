@@ -28,6 +28,6 @@ If an action does not find a page, the next action will try to find a page until
 
 ===== Configuration =====
 
-[[:configuration]]
+You can set the actions order in the [[:configuration|configuration]].
 
 {{docs:url:redirection_actions.png|}}

@@ -15,7 +15,7 @@ An ''permanent redirect'' is a [[redirection|redirection method]] used by the [[
 
 They are executed when:
   * when the [[docs:metadata:alias#redirect|alias type is redirect]].
-  * if the [[page_rules|page rules redirection]] leads to an existent page.
+  * if the [[page_rules|page rules redirection]] leads to an existing page.
 
 
 ===== Permanently =====

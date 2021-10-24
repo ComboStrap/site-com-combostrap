@@ -1,13 +1,14 @@
 ---json
 {
-   "canonical":"best:end:page:name"
+   "canonical":"best:end:page:name",
+   "name":"Best end page name algo"
 }
 ---
 
-====== ComboStrap URL Management - Best End Page Name Scoring ======
+====== ComboStrap URL Management - Best End Page Name Algorithm ======
 
 ===== About =====
-The ''Best End Page Name'' is a [[action|redirection scoring algorithm]] that finds the best page to redirect to when a non-existent page is requested.
+The ''Best End Page Name'' is a [[action|redirection scoring algorithm]] that finds the best page to redirect to when a [[404|non-existing page]] is requested.
 
 This algorithm performs the scoring by looping through the different part of a page name from the end to the beginning. For instance, if the page name was ''name1:name2:name3'', the algorithm would check first ''name3'', then ''name2'', then ''name1''
 
@@ -16,12 +17,11 @@ This concept comes from the fact that a content has a natural  hierarchical stru
   * there is also even more chance if this page was in the same category ''bird''
   * and so on.
 
-===== Articles Related =====
-{{backlinks>.}}
+
 ===== Algorithm =====
-When a user request a missing page (ie ''species:bird:sparrow''), the algorithm would:
-  * search all pages with the last name.
-  * if there is no pages, returns and let the next redirection action take place.
+When a user request a [[404|missing page]] (ie ''species:bird:sparrow''), the algorithm would:
+  * search all pages with the same last name.
+  * if there is no pages, returns and let the next [[action|redirection action]] takes place.
   * if it found pages. For instance, this two pages:
       * ''animal:bird:sparrow''
       * ''europe:sparrow''
@@ -29,15 +29,25 @@ When a user request a missing page (ie ''species:bird:sparrow''), the algorithm 
       * ''2'' point for ''animal:bird:sparrow'' (1 point for ''sparrow'' and 1 point for ''bird'')
       * ''1'' point for ''europe:sparrow''
   * it will then select the page with the highest score. 
-  * if the page has a score that is higher or equal to the [[#configuration|BestEndPageMinimalScoreForIdRedirect configuration]]:
-      * the redirection would be an [[path_redirect|ID redirect]]
-      * otherwise it would be an [[redirect|HTTP redirect]]
+  * if the page has a score that is higher or equal to the [[#configuration|BestEndPageMinimalScoreForAlias configuration]]:
+      * a [[docs:metadata:alias|alias redirect]] is created and a [[permanent|permanent redirect]] is performed.
+      * otherwise an [[notfound|not found redirect]] is executed
 
 ===== Configuration =====
 
-  * ''BestEndPageMinimalScoreForIdRedirect'': This configuration permits to send an [[path_redirect|id redirect]] in place of a [[redirect|http redirect]] when the score of the best page is higher or equal.
+==== BestEndPageMinimalScoreForAliasCreation ====
+
+This [[:configuration|configuration]] permits to:
+  * create a [[docs:metadata:alias#redirect|alias redirect]] 
+  * and executes a [[permanent|permanent redirect]] 
+when the number of parts in the found path that matches the missing page is higher or equal.
+
+By default, this value is 2 but you can disable it by setting a value of 0.
+
+
+
+
+==== Action Order ====
+You can set the importance of this rule in the [[action#configuration|redirection action configuration]].
 
 {{docs:url:best_end_page_name_configuration.png|}}
-
-
-

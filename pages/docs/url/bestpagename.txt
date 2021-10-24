@@ -1,15 +1,24 @@
 ---json
 {
-    "canonical":"best:page:name"
+    "canonical":"best:page:name",
+    "name":"Best Page Name Algo"
 }
 ---
 
-====== ComboStrap URL Management - Best Page Name ======
+====== ComboStrap URL Management - Best Page Name Algorithm ======
 
 
 ===== About =====
-''Best Page Name'' is a [[action#scoring|scoring algorithm]] that is used to choose the page to redirect to in case of missing page.
+''Best Page Name'' is a [[action#scoring|scoring algorithm]] that is used to choose the target page to redirect to in case of [[404|missing page]].
 
+
+This redirection algorithm performs always a [[docs:url:notfound|not found redirection]].
+
+<note>
+This algorithm should be in a low priority order because:
+  * it does not execute any [[docs:url:permanent|permanent redirection]]
+  * it performs less well than the [[docs:url:bestendpagename|best end page name]] 
+</note>
 ===== Articles Related =====
 {{backlinks>.}}
 
@@ -19,10 +28,10 @@ The redirection by best name page is an simple algorithm which occurs to find th
 
 It calculate a score for two kinds of page :
 
-  * the start pages of a namespace
+  * the [[docs:type:home|home pages of a namespace]]
   * the pages with the same name
 
-===== Conf =====
+===== Configuration =====
 
 A [[#weight factor]] [[:configuration|configuration]] is applied and in this way, you can influence the redirection :
 

@@ -1,0 +1,18 @@
+---json
+{
+    "name":"Not Found Redirect",
+    "canonical":"not:found:redirection",
+    "title":"What is a not found redirection and when they are executed",
+    "description":"This article shows you what a not found redirection is and when they occurs "
+}
+---
+
+====== ComboStrap - Not Found Redirect ======
+
+
+
+===== About =====
+A ''not found'' redirect is a [[redirection|redirection]] that:
+  * indicates to the user and search engines that a page was not found
+  * and redirects them to the best redirection destination calculated by the [[action|redirection algorithms]].
+
