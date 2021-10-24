@@ -56,3 +56,4 @@
   * Bug: The [[docs:content:image|media]] statistics was crashing the page because it was asking the image and not the media file on third media such as video, pdf, ...
   * [[docs:performance:lazy|lazy load]] on small [[docs:content:raster|raster image]] was showing a broken image at page load because the placeholder was not set.
   * bug: [[docs:navigation:outline|outline numbering]] was not reset for the heading level 3
+  * [[docs:social:facebook|facebook]]: the mime type of the [[docs:metadata:image|image]] was returning only the first letter of the mime (A refactoring has modified the mime type to a string in place of an array and as php allows to take the first element of string (ie a letter), no error was reported) - A test has been added.

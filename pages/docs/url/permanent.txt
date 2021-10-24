@@ -2,7 +2,7 @@
 {
     "name":"Permanent Redirect",
     "canonical":"permanent:redirect",
-    "title":"What are permanent redirect ?",
+    "title":"What are permanent redirects ?",
     "description":"This articles explains you what a permanent redirect is and when they are executed"
 }
 ---
@@ -26,7 +26,8 @@ Permanently means that the search engines will be instructed to:
 In Web term, we perform a ''301'' redirection.
 
 
-
+===== Statistics =====
+You can [[docs:analytics:query|query]] the permanent redirect in the [[log|log]].
 
 
 

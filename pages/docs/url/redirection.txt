@@ -1,14 +1,15 @@
 ====== ComboStrap URL Management - Redirection ======
 
 ===== About =====
-''ComboStrap'' performs two kind of redirection:
+''ComboStrap'' performs three kind of redirection:
     * an [[transparent|transparent redirection]] when the page has multiple known path.
-    * an [[permanent|permanent redirection]] when the page has moved (visible by the user and search engine)
+    * an [[permanent|permanent redirection]] when the page has a [[docs:metadata:alias#redirect|redirect alias]] (visible by the user and search engine)
+    * a simple redirection when the redirected page was calculated by the [[action|redirection actions]]
 
 
 ===== Automatic Redirection Processing =====
 
-If the requested page at the path ''p'' does not exist:
+If the requested page at the path ''p'' [[404|does not exist]]:
   - if a page has a [[docs:metadata:canonical|canonical]] with the value ''p'', perform a [[docs:url:transparent|transparent redirection]]
   - if a page has an [[docs:metadata:alias|alias]] with the same value ''p'', redirect to this existing page 
       - with a [[permanent|permanent redirection (301)]] if the alias type is redirect
