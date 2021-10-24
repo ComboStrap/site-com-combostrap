@@ -9,10 +9,9 @@
 ====== ComboStrap URL Management - Pages Rules ======
 
 ===== About =====
-''page rules'' are rules that permits to apply a [[redirection|redirections]] for a page or a group of page.
+''page rules'' are rules that permits to apply a [[docs:url:redirect|permanent redirection]] for a page or a group of page.
 
-===== Articles Related =====
-{{backlinks>.}}
+
 ===== Example =====
 
 {{docs:url:page_rules_illustration.png|}}
@@ -20,13 +19,13 @@
 With the below rule:
   * Pattern: ''database:*''
   * Target: ''db:$1''
-If a page called ''database:table'' does not exist, the URL manager will calculate the target page ''db:table'' and if the page exists, it will [[path_redirect|rewrite it]].
+If a page called ''database:table'' does not exist, the URL manager will calculate the target page ''db:table'' and if the page exists, it will [[transparent|rewrite it]].
 
 ==== Redirect a page to an external web site ====
 With the below rule:
   * Pattern: ''dokuwiki:404managerplugin''
   * Target: ''https://combostrap.com/url/manager''
-If a page called ''dokuwiki:404managerplugin'' does not exist, the URL manager will send a [[redirect|redirect]] to the page ''https://combostrap.com/url/manager''
+If a page called ''dokuwiki:404managerplugin'' does not exist, the URL manager will send a [[redirect|permanent redirect]] to the page ''https://combostrap.com/url/manager''
 ===== Steps =====
 ==== Go to the new rule page ====
 

@@ -1,0 +1,32 @@
+---json
+{
+    "name":"Permanent Redirect",
+    "canonical":"permanent:redirect",
+    "title":"What are permanent redirect ?",
+    "description":"This articles explains you what a permanent redirect is and when they are executed"
+}
+---
+
+====== ComboStrap - Permanent Redirect ======
+
+===== About =====
+An ''permanent redirect'' is a [[redirection|redirection method]] used by the [[url|URL manager]] that redirects [[#permanently|permanently]] a page to another page .
+
+
+They are executed when:
+  * when the [[docs:metadata:alias#redirect|alias type is redirect]].
+  * if the [[page_rules|page rules redirection]] leads to an existent page.
+
+
+===== Permanently =====
+
+Permanently means that the search engines will be instructed to:
+  * delete the redirected page from their search index.
+  * and update with the new one
+In Web term, we perform a ''301'' redirection.
+
+
+
+
+
+

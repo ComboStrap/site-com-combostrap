@@ -1,3 +1,13 @@
+
+---json
+{
+    "name":"Missing Page",
+    "canonical":"404",
+    "title":"What is a missing page (404) and how ComboStap solve them",
+    "description":"This article is about missing page that are asked due to broken link and how combostrap solve them."
+}
+---
+
 ====== ComboStrap URL - Missing Page (404) ======
 
 ===== About =====
@@ -15,9 +25,6 @@ It hurts:
   * [[#user_experience|ads revenue]]
   * and [[#domain_authority|domain authority]]
 
-To avoid it, ''ComboStrap'' implements [[docs:url:redirection|automatic redirection]].
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Missing pages effect =====
 
@@ -32,4 +39,13 @@ Showing a ''404 page'', next to the fact that this is not really friendly, gener
 
 When your page does not exist and returns a ''404 response'', this backlinks are not validated and your are losing [[kb>domain/authority|authority]].
 
+
+===== Solution =====
+
+To avoid missing pages, ''ComboStrap'':
+  * creates automatically [[docs:metadata:alias#redirect|redirect alias when pages are moved]].
+  * allows you to create:
+    * [[docs:metadata:alias|alias]] 
+    * and/or [[docs:url:page_rules|redirection rules]]
+  * implements [[docs:url:redirection|automatic redirection]].
 

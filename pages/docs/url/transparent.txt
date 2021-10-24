@@ -1,0 +1,39 @@
+---json
+{
+    "canonical":"transparent:redirect"
+}
+---
+====== ComboStrap URL Management - Transparent Redirect ======
+
+
+===== About =====
+An ''transparent redirect'' is a [[redirection|redirection]] that shows the content of another page transparently (A visitor or a search engine bot will not see the redirection).
+
+It can happen in the following case:
+  * If the [[docs:metadata:path|path]] in the URL matches a [[docs:metadata:canonical|canonial path]] of a page
+  * If the [[docs:metadata:path|path]] in the URL matches a [[docs:metadata:alias#synonym|synonym alias]] of a page
+  * If the [[docs:metadata:path|path]] in the URL matches a [[docs:metadata:automatic_canonical|automatic canonical path]], the path will be rewritten
+
+
+
+===== Demo =====
+
+This page has a [[docs:metadata:canonical|canonical value]] of  ''transparent:redirect'' and is therefore accessible also from this link
+
+<btn>
+[[https://combostrap.com/transparent/redirect#canonical demo|A link to demonstrate an Path Redirect]]
+</btn>
+
+
+
+===== Processing explanation =====
+
+  * When a user is asking for a [[404|missing page]] with the [[docs:metadata:path|path]] value ''namespace:name'' via one of this URL:
+      * https://example.com/doku.php?id=namespace:name
+      * or https://example.com/namespace/name (if [[doku>rewrite|dokuwiki URL rewriting]] was set)
+  * If the page has a [[docs:metadata:canonical|canonical value]] or a [[docs:metadata:alias|synonym alias]] of ''othernamespace:name'', the page rendered will be ''othernamespace:name''
+
+
+===== Message =====
+A ''transparent redirect'' is silent and shows no message.
+
