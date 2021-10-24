@@ -16,3 +16,5 @@ A ''not found'' redirect is a [[redirection|redirection]] that:
   * indicates to the user and search engines that a page was not found
   * and redirects them to the best redirection destination calculated by the [[action|redirection algorithms]].
 
+This redirection is performed as the last step of the [[redirection#processing|redirection procedure]] by [[action|most of the redirection actions]].
+
