@@ -15,14 +15,16 @@ An ''permanent redirect'' is a [[redirection|redirection method]] used by the [[
 
 They are executed when:
   * when the [[docs:metadata:alias#redirect|alias type is redirect]].
+  * when the requested url is a [[docs:url:permalink#generated|generated permalink]].
   * if the [[page_rules|page rules redirection]] leads to an existing page.
 
 
 ===== Permanently =====
 
 Permanently means that the search engines will be instructed to:
-  * delete the redirected page from their search index.
-  * and update with the new one
+  * not save the redirected page into its search index.
+  * and to delete it eventually 
+
 In Web term, we perform a ''301'' redirection.
 
 

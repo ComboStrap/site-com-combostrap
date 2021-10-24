@@ -10,7 +10,9 @@ The [[#processing|processing]] and the [[#type|type of redirections]] executed a
 
 ''ComboStrap'' performs four kind of redirection:
     * a [[transparent|transparent redirection]] when the page has multiple known path.
-    * a [[permanent|permanent redirection]] when the page has a [[docs:metadata:alias#redirect|redirect alias]] (visible by the user and search engine)
+    * a [[permanent|permanent redirection]]  (visible by the user and search engine) when:
+        * the page has a [[docs:metadata:alias#redirect|redirect alias]]
+        * the requested url is a [[docs:url:permalink#generated|generated permalink]]
     * a [[notfound|not found redirection]] when the redirected destination was determined by the [[action|redirection algorithms]]
     * a [[edit|editor redirection]] when the user is a writer.
 
