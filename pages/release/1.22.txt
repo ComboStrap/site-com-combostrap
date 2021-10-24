@@ -23,6 +23,8 @@
   * A [[docs:metadata:lang|language region]] will be determined from the server if not set.
   * The [[docs:metadata:viewer|metadata viewer window]]. A window that shows all raw metadata known by your installation for a specific page.
   * The [[docs:metadata:alias|page alias]] have migrated into a table with the [[docs:metadata:uuid|uuid]] as foreign key.
+  * The [[docs:url:permalink|permalink component]] permits to add a permalink to a page.
+  * The [[docs:metadata:uuid|uuid]] is now the real [[docs:url:permalink|permalink]] and performed a [[docs:url:transparent|transparent redirection]].
 
 ==== Deprecated ====
 

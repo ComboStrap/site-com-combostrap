@@ -11,8 +11,9 @@
 A ''transparent redirect'' is a [[redirection|redirection]] that shows the content of another page transparently (A visitor or a search engine bot will not see the redirection).
 
 It can happen in the following case:
-  * If the [[docs:metadata:path|path]] in the URL matches a [[docs:metadata:canonical|canonical path]] of a page
+  * If the [[docs:metadata:path|path]] in the URL matches the [[docs:metadata:canonical|canonical path]] of a page
   * If the [[docs:metadata:path|path]] in the URL matches a [[docs:metadata:alias#synonym|synonym alias]] of a page
+  * If the [[docs:metadata:path|path]] in the URL matches the [[docs:metadata:uuid|uuid]] of a page
   * If the [[docs:metadata:path|path]] in the URL matches a [[docs:metadata:automatic_canonical|automatic canonical path]]
 
 
@@ -24,8 +25,9 @@ This page has a [[docs:metadata:canonical|canonical value]] of  ''transparent:re
 Click on the below button to test a permanent redirect:
 
 <btn>
-[[https://combostrap.com/transparent/redirect#demo]]
+<permalink named fragment="demo"/>
 </btn>
+
 
 
 

@@ -15,20 +15,44 @@
 {{backlinks>.}}
 ===== How to create a permalink ? =====
 
-  * ''permalink'' are links that are created when the [[docs:metadata:canonical|canonical id]] is set for a page
-  * Add a [[docs:metadata:canonical|canonical property]] in the [[docs:metadata:frontmatter|frontmatter]]
-<code javascript>
----json
-{
-    "canonical":"my:canonical"
-}
----
+
+==== Generated ====
+
+A generated permalink is a link that uses the [[docs:metadata:uuid|universal id]] as [[docs:metadata:path|path]].
+
+As the id is guarantee to never change, it's the real / true permalink.
+
+
+
+
+<webcode name="Default" frameborder="0">
+  * You can add a permalink in your page with the ''permalink'' component.
+<code dw>
+<permalink/>
 </code>
-  * A permalink has been created to ''https://yourdomain.com/my/canonical''
+  * Result: The generated permalink for this page is:
+</webcode>
 
-===== Demo =====
-This page has a canonical value of ''permalink'' and is accessible at 
+\\
 
-<btn class="btn-light">
-[[combo>https://combostrap.com/permalink]]
-</btn>
+==== Named ====
+
+A named permalink is a link that uses the [[docs:metadata:canonical|canonical]] as [[docs:metadata:path|path]]
+
+Note that a [[docs:metadata:canonical|canonical]] is not a true permalink as it may be modified (It should not but you never know)
+
+
+<webcode name="Default" frameborder="0">
+  * You can add a named permalink in your page with the ''permalink'' component:
+<code dw>
+<permalink named/>
+</code>
+  * The named permalink for this page is:
+</webcode>
+
+
+
+==== Redirection ====
+
+All permalinks perform a [[docs:url:transparent|transparent redirection]].
+
