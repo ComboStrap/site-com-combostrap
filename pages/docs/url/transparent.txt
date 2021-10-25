@@ -19,7 +19,7 @@ It can happen in the following case:
 
 ===== Demo =====
 
-This page has a [[docs:metadata:canonical|canonical value]] of  ''transparent:redirect'' and is therefore accessible also from the below link.
+This page has a [[docs:metadata:canonical|canonical value]] of  ''<template>$canonical</template>'' and is therefore accessible also from the below link.
 
 Click on the below button to test a permanent redirect:
 
