@@ -1,6 +1,6 @@
 ---json
 {
-    "name":"Bat Bot Ban",
+    "name":"Bad Bot Ban",
     "canonical":"ban",
     "title":"How ComboStrap protects from bad bot scanning",
     "description":"This article describes when and how ComboStrap bans bad requests performed by bots"
@@ -11,11 +11,16 @@
 
 
 ===== About =====
-''combostrap'' will ban well-known [[docs:metadata:path|path]] that bots are using to scan your server. 
+''combostrap'' will ban well-known [[docs:metadata:path|path]] that bots are using to scan your server.
 
 We enforce a [[wp>Shadow_banning|shadow ban]] by performing a [[docs:url:transparent|transparent redirect]] to the website home page.
 
-It has the minimal benefit to perserve the resource of your server without telling explicitly to the attacker that they are banned.
+For example, clicking on this well-known wordpress link [[this>wp-admin]] will send you to the home page if you are not logged in.
+
+It has the benefits:
+  * to preserve the resources of your server.
+  * to not telling explicitly to the attacker that they are banned.
+  * to not trigger any web monitoring alert because of a too high redirection rate.
 
 
 
@@ -23,7 +28,8 @@ It has the minimal benefit to perserve the resource of your server without telli
 
 ==== Wordpress ====
 
-Wordpress Scanning bans all path that contains "wp-"
+Wordpress Scanning bans all path that contains ''wp-''.
+
 
 Example:
 <code>
@@ -34,6 +40,8 @@ wp-admin
 wp-content:start
 wp-admin:css:start
 </code>
+
+
 
 ==== Git ====
 
