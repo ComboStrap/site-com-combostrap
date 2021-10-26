@@ -9,7 +9,9 @@ The [[#processing|processing]] and the [[#type|type of redirections]] executed a
 ===== Type =====
 
 ''ComboStrap'' performs four kind of redirection:
-    * a [[transparent|transparent redirection]] when the page has multiple known path.
+    * a [[transparent|transparent redirection]] when:
+        * the page has multiple known path.
+        * the path is banned
     * a [[permanent|permanent redirection]]  (visible by the user and search engine) when:
         * the page has a [[docs:metadata:alias#redirect|redirect alias]]
         * the requested url is a [[docs:url:permalink#generated|generated permalink]]
@@ -21,6 +23,7 @@ The [[#processing|processing]] and the [[#type|type of redirections]] executed a
 The redirection procedure / processing is explained below.
 
 If the requested page at the path ''p'' [[404|does not exist]]:
+  - if this is a [[ban|banned path]], redirect [[docs:url:transparent|transparently]] to the home page
   - if an existing page with a [[docs:metadata:canonical|canonical]] of value ''p'' is found, perform a [[docs:url:transparent|transparent redirection]] to this page
   - if an existing page with an [[docs:metadata:alias|alias]] of value ''p'' is found, redirect to this page 
       - with a [[permanent|permanent redirection]] if the alias type is ''redirect''

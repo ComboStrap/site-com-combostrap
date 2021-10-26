@@ -1,0 +1,62 @@
+---json
+{
+    "name":"Bat Bot Ban",
+    "canonical":"ban",
+    "title":"How ComboStrap protects from bad bot scanning",
+    "description":"This article describes when and how ComboStrap bans bad requests performed by bots"
+}
+---
+
+====== ComboStrap - Ban (Scanning Protection) ======
+
+
+===== About =====
+''combostrap'' will ban well-known [[docs:metadata:path|path]] that bots are using to scan your server. 
+
+We enforce a [[wp>Shadow_banning|shadow ban]] by performing a [[docs:url:transparent|transparent redirect]] to the website home page.
+
+It has the minimal benefit to perserve the resource of your server without telling explicitly to the attacker that they are banned.
+
+
+
+===== Scanning Banned =====
+
+==== Wordpress ====
+
+Wordpress Scanning bans all path that contains "wp-"
+
+Example:
+<code>
+wp-json:api:flutter_woo:config_file
+wp-content:plugins:wpdiscuz:themes:default:style-rtl.css
+wp-admin
+2020:wp-includes:wlwmanifest.xml
+wp-content:start
+wp-admin:css:start
+</code>
+
+==== Git ====
+
+
+Git Scanning bans all path that starts with "git"
+
+Example:
+<code>
+git:objects:
+git:refs:heads:stable
+git:logs:refs:heads:main
+git:logs:refs:heads:stable
+git:hooks:pre-push.sample
+git:hooks:pre-receive.sample
+</code>
+
+==== Sql Injection ====
+
+Sql Injection Scanning bans all path that contains sql statement
+
+Example:
+<code>
+db:oracle:long_or_1_utl_inaddr.get_host_address_chr_33_chr_126_chr_33_chr_65_chr_66_chr_67_chr_49_chr_52_chr_53_chr_90_chr_81_chr_54_chr_50_chr_68_chr_87_chr_81_chr_65_chr_70_chr_80_chr_79_chr_73_chr_89_chr_67_chr_70_chr_68_chr_33_chr_126_chr_33
+</code>
+
+

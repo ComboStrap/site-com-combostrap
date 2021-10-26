@@ -25,6 +25,7 @@
   * The [[docs:metadata:alias|page alias]] have migrated into a table with the [[docs:metadata:uuid|uuid]] as foreign key.
   * The [[docs:url:permalink|permalink component]] permits to add a permalink to a page.
   * The [[docs:metadata:uuid|uuid]] is now the real [[docs:url:permalink|permalink]] that performs a [[docs:url:permanent|permanent redirection]].
+  * [[docs:url:ban|Bat Bot Scanning protection]] with shadow banning against well-known path.
 
 ==== Deprecated ====
 
