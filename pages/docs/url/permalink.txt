@@ -17,11 +17,9 @@
 
 ==== Generated ====
 
-A generated permalink is a link that uses the [[docs:metadata:uuid|universal id]] as [[docs:metadata:path|path]].
+A generated permalink is a link that uses the [[docs:metadata:page_id|page id]] as [[docs:metadata:path|path]].
 
-As the id is guarantee to never change, it's the real / true permalink.
-
-
+As the id is guaranteed to never change, it's the real / true permalink.
 
 
 <webcode name="Default" frameborder="0">

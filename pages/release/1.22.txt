@@ -21,10 +21,11 @@
   * Added a page on the internal search engine. See [[docs:app:search]]
   * Lockfile protection for the [[support:plugin#move|move plugin]]. When a move goes wrong, a lock file may stay in the data directory. We cancel the move if the lock file age is bigger than 10 minutes.
   * A [[docs:metadata:lang|language region]] will be determined from the server if not set.
+  * Every page gets now a generated unique [[docs:metadata:page_id|page id]]
   * The [[docs:metadata:viewer|metadata viewer window]]. A window that shows all raw metadata known by your installation for a specific page.
-  * The [[docs:metadata:alias|page alias]] have migrated into a table with the [[docs:metadata:uuid|uuid]] as foreign key.
+  * The [[docs:metadata:alias|page alias]] have migrated into a table with the [[docs:metadata:page_id|page_id]] as foreign key.
   * The [[docs:url:permalink|permalink component]] permits to add a permalink to a page.
-  * The [[docs:metadata:uuid|uuid]] is now the real [[docs:url:permalink|permalink]] that performs a [[docs:url:permanent|permanent redirection]].
+  * The [[docs:metadata:page_id|page id]] is now the real [[docs:url:permalink|permalink]] that performs a [[docs:url:permanent|permanent redirection]].
   * [[docs:url:ban|Bat Bot Scanning protection]] with shadow banning against well-known path.
 
 ==== Deprecated ====
@@ -36,7 +37,7 @@
       * the special [[docs:type:organization|organization field]] has been deprecated. You should use now the [[docs:social:google#json-ld|json-ld field instead]]
 
 ==== Improvement ====
-  * The [[docs:analytics:replication|data synchronization process]] is now treated as a real replication and got a ''date_synchronization'' and a [[docs:metadata:uuid|universal id]]. The synchronization is now also based on the database version file.
+  * The [[docs:analytics:replication|data synchronization process]] is now treated as a real replication and got a ''date_synchronization'' and a [[docs:metadata:page_id|universal id]]. The synchronization is now also based on the database version file.
   * the [[docs:analytics:replication|replication table]] ''ANALYTICS_TO_REFRESH'' has been renamed to ''PAGES_TO_REPLICATE'' to get more accurate
   * the [[docs:metadata:frontmatter|frontmatter]] metadata are [[docs:analytics:replication|replicated]] directly to avoid inconsistency with [[docs:templating:sql|page sql]]
   * The [[docs:social:google#json-ld|google json-ld]] supports now a full json-ld value. It's easier to valid it with the playground for the user.

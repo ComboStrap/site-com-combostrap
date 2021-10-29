@@ -1,0 +1,27 @@
+====== Page Id ======
+
+
+===== About =====
+The ''page_id'' field stores a identifier for your page that is unique for your website.
+
+
+
+It's a random generated string of length 12.
+
+===== Example =====
+
+The ''page_id'' of this page is:
+
+<template>
+<code uuid>
+$page_id
+</code>
+</template>
+===== Usage =====
+
+  * It is used by:
+      * the [[docs:url:permalink|permalink]]
+      * the [[docs:analytics:replication|data replication process]] in order to replicate data from the file system to the database
+  * It's also useful if you move page files between ComboStrap installation such as:
+      * from development to production
+      * or if you just split your site web
