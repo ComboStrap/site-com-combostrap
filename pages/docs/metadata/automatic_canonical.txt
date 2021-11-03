@@ -8,7 +8,7 @@
 
 
 ===== About =====
-This feature creates automatically a [[canonical|canonical value]] (ie a page identifier) based on the last part of a [[doku>pagename|DokuWiki Id]].
+This feature creates automatically a [[canonical|canonical value]] (ie a page identifier) based on the last parts of the [[docs:metadata:path|page path]]
 
 <note info>
 There is no automatic canonical created for the [[docs:layout:page:slot|slots]] as they are not intended to be accessed directly.
@@ -17,9 +17,9 @@ There is no automatic canonical created for the [[docs:layout:page:slot|slots]] 
 {{backlinks>.}}
 
 ===== Example =====
-For example, if you have a [[doku>pagename|Dokuwiki Id]] with the value
+For example, if you have a [[docs:metadata:path|page path]] with the value
 <file>
-seo:backlink
+:seo:backlink
 </file>
 This feature will:
   * not create a [[canonical|canonical]] if the [[#configuration|minimal number of name configuration]] is 0
@@ -28,8 +28,8 @@ This feature will:
       * ''seo:backlink'' if the [[#configuration|minimal number of name configuration]] is 2
 
 ===== Configuration =====
-If the [[:configuration|configuration]] ''BestEndPageMinimalScoreForIdRedirect'' has a value of:
-  * ''0'' disable this features
+If the [[:configuration|configuration]] ''MinimalNamesCountForAutomaticCanonical'' has a value of:
+  * ''0'' disable this feature
   * ''1'' will create a [[canonical|canonical]] with the first last name part
   * ''2'' will create a [[canonical|canonical]] with the last two name parts
 

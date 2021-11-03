@@ -7,24 +7,30 @@
 
 
 ===== About =====
-A ''canonical'' is a [[kb>identifier|identifier]] for a page that should have meaning and be understandable by humans
-
-The ''canonical'' value:
-  * should be unique for all pages of your website (ie domain).
-  * does not need to be the [[docs:metadata:path|path]]
-  * is always lowercase
+A ''canonical'' is a short unique named identifier for a page.
 
 
 
-The canonical will:
-  * create a ''canonical url'' that is seen in the Search Result.
+===== Usage =====
+
+The canonical:
+  * is used to create a [[docs:url:permalink|named permalink]]
 <code url>
 https://yourdomain.com/your/canonical
 </code>
-  * be used in your tracking metrics
-  * be used by external service to reference your page (Search Engine, [[docs:social:social|Social network]])
-  * help [[docs:seo:seo|Search Crawler]] detecting that the page from the default and canonical URL are the same.
+  * should be used in your tracking metrics
+  * can be used as [[docs:url:canonical_url|canonical url]]
 
+===== Value =====
+
+
+It should have meaning and be understandable by humans
+
+The ''canonical'' value:
+  * should be unique for all pages of your website (ie domain).
+  * is a path
+  * does not need to be the [[docs:metadata:path|page path]]
+  * is always lowercase
 ===== Demo =====
 This page has the canonical value set to ''canonical'' and therefore is also available at the Canonical URL. ''https://combostrap.com/canonical''
 
