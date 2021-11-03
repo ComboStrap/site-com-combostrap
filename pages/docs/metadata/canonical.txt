@@ -3,36 +3,52 @@
     "canonical":"canonical"
 }
 ---
-====== ComboStrap Page Metadata - Canonical URL ======
+====== ComboStrap Page Metadata - Canonical Path ======
 
 
 ===== About =====
-A ''canonical'' is a short unique named identifier for a page.
+A ''canonical'' is a short unique path identifier for a page.
 
 
 
 ===== Usage =====
 
-The canonical:
-  * is used to create a [[docs:url:permalink|named permalink]]
+==== Named permalink ====
+
+The canonical is used to create a [[docs:url:permalink|named permalink]] in order to get quickly to a page without known its [[docs:metadata:path|full path]]
 <code url>
 https://yourdomain.com/your/canonical
 </code>
-  * should be used in your tracking metrics
-  * can be used as [[docs:url:canonical_url|canonical url]]
+
+
+
+==== Canonical Url ====
+
+The canonical path can be used as path in the [[docs:url:canonical|canonical url]].
+
+==== Tracking Metrics ====
+
+The canonical path can be used in your tracking metrics in order to aggregate the page view even if the page:
+  * is accessed via different url
+  * or has [[support:plugin#move|moved]]
+
+You can:
+  * enable it for the ''Google Analytics plugin'' in the [[#google analytics|configuration]]
+  * or integrate it in your actual tracker. See the [[#javascript|javascript example]], to know how to access this value from your page.
 
 ===== Value =====
 
 
-It should have meaning and be understandable by humans
+The canonical path should have a meaning and be understandable by humans.
 
 The ''canonical'' value:
   * should be unique for all pages of your website (ie domain).
-  * is a path
+  * should be written as wiki path (ie with a '':'' semi-colon as path separator)
   * does not need to be the [[docs:metadata:path|page path]]
   * is always lowercase
+
 ===== Demo =====
-This page has the canonical value set to ''canonical'' and therefore is also available at the Canonical URL. ''https://combostrap.com/canonical''
+This page has the canonical value set to ''canonical'' and therefore is also available at the following [[docs:url:permalink|named permalink]]. ''https://combostrap.com/canonical''
 
 
 You can try it your self.
@@ -62,5 +78,21 @@ my:path
 ==== Automatically ====
 
 You can also create a canonical value based on the last parts of a [[path|page path]]. See [[automatic_canonical]]
+
+
+===== Javascript Example =====
+If you want to retrieve the canonical value to add it to your [[#tracking metrics]], you can access it via the ''JSINFO'' javascript variable.
+
+Example:
+<webcode name="Default" frameborder="0">
+<code javascript>
+console.log(`The canonical for this page is '${window.parent.JSINFO["canonical"]}'`);
+</code>
+</webcode>
+
+===== Configuration =====
+
+==== Google Analytics ====
+If the ''useCanonicalValueForGoogleAnalyticsPageView'' [[:configuration|configuration]] is enabled, the ''canonical'' value will passed to the [[support:plugin|Google Analytics Plugin]] in place of the [[docs:metadata:path|page path]].
 
 

@@ -1,0 +1,10 @@
+====== Canonical URL ======
+
+
+===== About =====
+The ''canonical url'' is the url of a page created by the [[docs:content:link|link component]].
+
+
+
+
+

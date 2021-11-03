@@ -41,9 +41,9 @@ You can quickly move a page with the ''rename'' action in the [[docs:layout:page
 
 If for any reason such as an index that is not up to date, you got a problem during a move, the plugin can let a lock file at ''DOKUWIKI_HOME/data/locks_plugin_move.lock''.
 
-This file should be deleted, otherwise you may get strange behavior. For instance, the move plugin will not save any of its processing.
+This file should be deleted, otherwise you may get strange behavior. For instance, the move plugin will not save any of its processing and it will purge the cache each time for locked page.
 
-To prevent any more damage, we don't allow any move if the lock file was created more than 5 minutes ago.
+To prevent any more damage, we don't allow any move if the lock file was created more than 5 minutes ago and we send you a notification.
 </note>
 
 ==== Search Index Manager ====
@@ -70,7 +70,7 @@ If you have an inconsistent page, you may have a cache issue. The [[doku>plugin:
 You access it as action in the [[docs:layout:page:railbar|railbar]]
 
 {{:docs:getting_started:stale_plugin_rail_action.png|}}
-==== Analytics ====
+==== Google Analytics ====
 
 If you want some analytics information on your page, you can use the following Google plugin:
   * [[doku>plugin:googleanalytics|Google Analtyics]]
@@ -79,6 +79,12 @@ If you want some analytics information on your page, you can use the following G
 You can configure your tag id via the [[doku>plugin:config|configuration manager]] available via the ''admin'' action of the [[docs:layout:page:railbar|railbar]]
 
 {{:docs:getting_started:admin_railbar.png|}}
+
+<note>
+For [[doku>plugin:googleanalytics|Google Analytics]], you can enable the use of the [[docs:metadata:canonical|canonical path]] instead of the [[docs:metadata:path|page path]] in order to get a coherent pageview reporting.
+
+For more information, see the [[docs:metadata:canonical#google Analytics|configuration section of the canonical path for google analytics]]
+</note>
 ==== ImageMapping ====
 
 If you want to use [[doku>plugin:imagemapping]] with ComboStrap, you should not put a link or image in a list.

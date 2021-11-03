@@ -7,7 +7,10 @@
 ====== ComboStrap - Release 1.22 ======
 
 
+===== About =====
 
+
+If you want to have the ''canonical path'' reported in place of the ''page path'', you should [[docs:metadata:canonical#Google Analytics|enable it]].
 ===== List of changes =====
 
 ==== New ====
@@ -19,7 +22,9 @@
   * [[docs:metadata:description|description]] is now loaded into the [[docs:analytics:database|database]]
   * Added microsoft ''codicon'', ibm ''carbon'' and ''logos'' as [[docs:content:icon|icon library]]
   * Added a page on the internal search engine. See [[docs:app:search]]
-  * Lockfile protection for the [[support:plugin#move|move plugin]]. When a move goes wrong, a lock file may stay in the data directory. We cancel the move if the lock file age is bigger than 10 minutes.
+  * Lockfile protection for the [[support:plugin#move|move plugin]]. When a move goes wrong, a lock file may stay in the data directory. If the lock file age is bigger than 5 minutes.
+      * We cancel any move 
+      * We send a message
   * A [[docs:metadata:lang|language region]] will be determined from the server if not set.
   * Every page gets now a generated unique [[docs:metadata:page_id|page id]]
   * The [[docs:metadata:viewer|metadata viewer window]]. A window that shows all raw metadata known by your installation for a specific page.
@@ -27,6 +32,7 @@
   * The [[docs:url:permalink|permalink component]] permits to add a permalink to a page.
   * The [[docs:metadata:page_id|page id]] is now the real [[docs:url:permalink|permalink]] that performs a [[docs:url:permanent|permanent redirection]].
   * [[docs:url:ban|Bat Bot Scanning protection]] with shadow banning against well-known path.
+  * The [[docs:metadata:canonical|canonical path]] can be used instead of the [[docs:metadata:path|page path]] for [[support:plugin#google Analytics|Google Analytics]]
 
 ==== Deprecated ====
 
@@ -41,6 +47,7 @@
   * the [[docs:analytics:replication|replication table]] ''ANALYTICS_TO_REFRESH'' has been renamed to ''PAGES_TO_REPLICATE'' to get more accurate
   * the [[docs:metadata:frontmatter|frontmatter]] metadata are [[docs:analytics:replication|replicated]] directly to avoid inconsistency with [[docs:templating:sql|page sql]]
   * The [[docs:social:google#json-ld|google json-ld]] supports now a full json-ld value. It's easier to valid it with the playground for the user.
+  * The lock file created by the [[support:plugin#move|move plugin]] is now checked for every parse. It was only checked for page move and was purging page automatically each time making the site really slow.
 
 ==== Changes ====
   * The acronym / name of  a [[docs:content:icon|icon library]] follows the library name of the [[https://icon-sets.iconify.design/|iconify search engine]]. Therefore:
