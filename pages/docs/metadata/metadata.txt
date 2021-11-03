@@ -36,6 +36,7 @@ There is two groups of metadata:
   * [[published|date_published]] - the publication date
   * [[region|country]] - the localized country
   * [[lang|lang]] - the language of the page
+  * [[docs:quality:low_quality_page#low_quality_page_indicator|low quality page indicator]] - the quality page indicator
 
 ==== Protected ====
 The below properties are protected and cannot be changed:
@@ -44,7 +45,7 @@ The below properties are protected and cannot be changed:
   * ''date_modified'' - the modification date
   * ''user'', ''creator'', ''contributor''
   * [[docs:cache:page|date_cache_expiration]] - the expiration date of the cache if any
-  * [[uuid|uuid]] - an universal unique identification
+  * [[page_id|page id]] - an universal unique identification
 
 
 

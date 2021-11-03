@@ -22,7 +22,7 @@ It borrows its name from the [[kb>markup:front-matter|front matter book]]
 
 
 ===== Example =====
-A frontmatter is block located at the start of your page that:
+A frontmatter is a block located at the start of your page that:
   * starts with ''%%---json%%''
   * contains a json document
   * end with ''%%---%%''

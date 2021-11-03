@@ -1,3 +1,11 @@
+---json
+{
+    "name":"Configuration",
+    "canonical":"configuration",
+    "layout":"median"
+}
+---
+
 ====== Step by step: How to set a configuration value======
 
 ===== About =====
@@ -9,7 +17,7 @@ This page shows you how to set a configuration value.
 
 To set a configuration value, go to the [[doku>admin_window|Admin Window]]
 
-  * With the [[strap|Strap template]]
+  * With the [[:strap|Strap template]]
 
 {{::dokuwiki_admin_manager.png|}}
 
@@ -19,7 +27,7 @@ To set a configuration value, go to the [[doku>admin_window|Admin Window]]
 
 ==== Go to the Configuration Manager ====
 
-  * With the [[strap|Strap template]]
+  * With the [[:strap|Strap template]]
 
 {{::dokuwiki_configuration_settings_Strap.png|}}
 
