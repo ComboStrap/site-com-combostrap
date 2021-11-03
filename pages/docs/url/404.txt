@@ -43,6 +43,7 @@ When your page does not exist and returns a ''404 response'', this backlinks are
 ===== Solution =====
 
 To avoid missing pages, ''ComboStrap'':
+  * can create [[docs:url:canonical#permanent|permanent url]]
   * creates automatically [[docs:metadata:alias#redirect|redirect alias when pages are moved]].
   * allows you to create:
     * [[docs:metadata:alias|alias]] 

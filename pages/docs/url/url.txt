@@ -1,9 +1,10 @@
 ---json
 {
-   "canonical":"url:manager"
+   "canonical":"url:manager",
+   "name":"Url Manager"
 }
 ---
-====== ComboStrap - Url Management  ======
+====== ComboStrap - Url Manager  ======
 
 
 

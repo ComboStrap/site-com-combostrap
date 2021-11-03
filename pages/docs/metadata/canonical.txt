@@ -7,7 +7,7 @@
 
 
 ===== About =====
-A ''canonical'' is a short unique path identifier for a page.
+A ''canonical'' is a short unique path identifier for a page on your website.
 
 
 

@@ -1,0 +1,10 @@
+====== Page URL ======
+
+
+===== About =====
+The ''page url'' is the url of a page created by the [[docs:content:link|link component]].
+
+
+
+
+
