@@ -8,5 +8,5 @@ The name of your application (website) can be set via the [[doku>config:title|do
 
 ===== Usage =====
 The application name:
-  * is added to every HTML page title along with the [[docs:metadata:title|page title metadata]].
+  * may be added the [[docs:metadata:title|page title]].
   * is set in the [[docs:app:manifest|app manifest]]
