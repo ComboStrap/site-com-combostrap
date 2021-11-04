@@ -14,7 +14,7 @@ The ''side slots'' (ie [[docs:layout:page:side_slot|side]] and [[docs:layout:pag
 
 
 <note>
-If you have any [[https://www.dokuwiki.org/caching|%%~~NOCACHE~~%%]] instructions in your side slots, just delete them.
+If you have any [[https://www.dokuwiki.org/caching|%%~~NOCACHE~~%%]] instructions in your side slots, you can delete them to increase performance.
 </note>
 
 ===== Articles Related =====
@@ -30,6 +30,10 @@ The basic solution is to disable cache but this action has an important impact o
 
 The cache:
   * is scoped to the namespace (directory) of the requested page
-  * is automatically deleted when a sub-pages of its namespace is modified, added or deleted
-
-
+  * is automatically deleted when:
+      * a sub-pages of its namespace is added or deleted
+      * one of the following attributes is updated:
+          * [[docs:metadata:name|page name]]
+          * [[docs:metadata:title|page title]]
+          * [[docs:metadata:h1|page h1]]
+          * [[docs:metadata:description|page description]]

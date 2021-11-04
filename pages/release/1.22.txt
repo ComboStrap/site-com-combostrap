@@ -48,6 +48,7 @@ If you want to have the ''canonical path'' reported in place of the ''page path'
   * the [[docs:metadata:frontmatter|frontmatter]] metadata are [[docs:analytics:replication|replicated]] directly to avoid inconsistency with [[docs:templating:sql|page sql]]
   * The [[docs:social:google#json-ld|google json-ld]] supports now a full json-ld value. It's easier to valid it with the playground for the user.
   * The lock file created by the [[support:plugin#move|move plugin]] is now checked for every parse. It was only checked for page move and was purging page automatically each time making the site really slow.
+  * The [[docs:cache:sideslots|side slots cache management]] removes the cache only when one of the description attributes is updated (ie name, title, h1, description)
 
 ==== Changes ====
   * The acronym / name of  a [[docs:content:icon|icon library]] follows the library name of the [[https://icon-sets.iconify.design/|iconify search engine]]. Therefore:
