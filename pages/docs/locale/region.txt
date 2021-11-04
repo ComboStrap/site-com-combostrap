@@ -8,7 +8,7 @@
 
 
 ===== About =====
-The ''region'' code localized the page geographically at a region level and is used to generate the [[docs:metadata:locale|locale setting]]
+The ''region'' code localized the page geographically at a region level and is used to generate the [[docs:locale:locale|locale setting]]
 
 
 Example: the french language is present in the region:
@@ -41,4 +41,4 @@ If there is no value, the locale server country is retrieved (if the [[support:r
 
 ==== siteLanguageRegion ====
 
-A page is by default localized to the region set in the ''siteLanguageRegion'' [[:configuration|configuration]]
+A page is by default localized to the region set in the ''siteLanguageRegion'' [[docs:configuration|configuration]]

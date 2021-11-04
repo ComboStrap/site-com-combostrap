@@ -1,3 +1,10 @@
+---json
+{
+    "name":"Metadata Manager",
+    "canonical":"metadata:manager"
+}
+---
+
 ====== Metadata - Manager ======
 
 

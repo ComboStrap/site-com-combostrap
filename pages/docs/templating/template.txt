@@ -15,7 +15,7 @@ They are supported:
 
 ==== Printing information about the actual page ====
 
-The below ''template text'' inside a ''template component'' will print a [[docs:lists:list|bullet list]] with the [[docs:metadata:title|title]] and [[docs:metadata:path|path]] of the actual page.
+The below ''template text'' inside a ''template component'' will print a [[docs:lists:list|bullet list]] with the [[docs:page:title|title]] and [[docs:page:path|path]] of the actual page.
 <webcode name="list">
 <code dw>
 <template>
@@ -34,7 +34,7 @@ Example of ''template text'' that you could used in a [[docs:navigation:page-exp
 It will create:
   * a [[docs:content:link|link]] 
   * with a [[docs:templating:pipeline|pipeline]] 
-  * that separate the [[docs:metadata:h1|h1]] with the minus ''-'' 
+  * that separate the [[docs:page:h1|h1]] with the minus ''-'' 
   * and used the second part as link description
 
 <webcode name="pipeline" frameborder="0">
@@ -73,5 +73,5 @@ If this is a standalone template component, the variable are replaced with the v
 A variable is the name of an [[variable|attribute]] prefixed with the ''$'' dollar character.
 
 Example:
-  * for the [[docs:metadata:path|path]] attribute
+  * for the [[docs:page:path|path]] attribute
   * the variable would be ''$path''

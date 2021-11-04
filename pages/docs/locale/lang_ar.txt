@@ -12,7 +12,7 @@
 ===== حول =====
 توضح هذه الصفحة استخدام تكوين lang لتعيين لغة الصفحة.
 
-لمعرفة المزيد ، يمكنك الذهاب إلى الصفحة [[lang]]
+لمعرفة المزيد ، يمكنك الذهاب إلى الصفحة [[..:locale:lang]]
 
 <text lang="en">
 This paragraph was tagged with the english [[docs:styling:lang|lang attribute]].

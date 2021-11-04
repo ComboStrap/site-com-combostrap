@@ -1,0 +1,35 @@
+---json
+{
+    "name":"Page H1",
+    "canonical":"h1",
+    "title":"H1 - A shorter version of the title ",
+    "description":"The H1 is the text of the first header and can be used in template within a list of link. "
+}
+---
+====== Page Heading 1 (h1) ======
+
+===== About =====
+''Heading 1'' or ''h1'' is the text of the first [[docs:navigation:outline|outline heading of your page]]. 
+
+
+
+===== Usage =====
+
+It's the default value for the [[..:page:title|title]] and can be used in [[docs:templating:template|template]].
+
+
+For instance:
+<webcode name="Default" frameborder="0">
+  * The template
+<code dw>
+<template>
+The ''h1'' for this page is: ''$h1''
+</template>
+</code>
+  * Result:
+</webcode>
+
+
+===== How to set an heading 1 =====
+
+By default, the heading 1 is the first [[docs:navigation:outline|outline heading of your page]] but you can change it via the [[docs:metadata:manager|metadata manager]].

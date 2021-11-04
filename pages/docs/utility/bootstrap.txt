@@ -34,7 +34,7 @@ See [[docs:styling:stylesheet]]
 ===== Configuration =====
 ==== version and stylesheet====
 
-You may change the BootStrap ''version'' and a corresponding [[docs:styling:stylesheet|stylesheet]] with the ''bootstrapVersionStylesheet'' [[:configuration|configuration]]
+You may change the BootStrap ''version'' and a corresponding [[docs:styling:stylesheet|stylesheet]] with the ''bootstrapVersionStylesheet'' [[docs:configuration|configuration]]
 
 {{:strap:bootstrapversionstylesheet.png|}}
 

@@ -25,17 +25,17 @@ There is two groups of metadata:
 ==== Managed ====
 
 ''ComboStrap'' manages and reacts to the following metadata:
-  * [[canonical|canonical]] - an unique page identifier for the web
-  * [[docs:metadata:name|page name]] - a short name for the page
+  * [[..:page:canonical|canonical]] - an unique page identifier for the web
+  * [[docs:page:name|page name]] - a short name for the page
   * [[..:page:title|page title]] - a long name for the page
-  * [[h1|h1]] - the first heading of the page
+  * [[..:page:h1|h1]] - the first heading of the page
   * [[..:page:description|description]] - a summary of the page
-  * [[docs:metadata:published|date_published]]
-  * [[docs:metadata:image|image]] - the page illustrations
+  * [[docs:page:published|date_published]]
+  * [[docs:page:image|image]] - the page illustrations
   * [[docs:type:type|page type]] - the type of page (article, ...)
-  * [[published|date_published]] - the publication date
-  * [[region|country]] - the localized country
-  * [[lang|lang]] - the language of the page
+  * [[..:page:published|date_published]] - the publication date
+  * [[..:locale:region|country]] - the localized country
+  * [[..:locale:lang|lang]] - the language of the page
   * [[docs:quality:low_quality_page#low_quality_page_indicator|low quality page indicator]] - the quality page indicator
 
 ==== Protected ====
@@ -60,7 +60,7 @@ The below properties are protected and cannot be changed:
 They allows internally:
 
   * [[docs:url:redirection|URL redirection processing]]
-  * [[automatic_canonical|Automatic Canonical]]
+  * [[..:page:canonical_automatic|Automatic Canonical]]
   * [[docs:url:permalink|Permalink]]
   * [[docs:quality:lpp|Late Publication Protection]]
   * [[docs:templating:template|Templating]]
@@ -72,7 +72,7 @@ They allows:
       * a better [[docs:seo:seo|SEO]] with:
           * [[..:page:title|title]]
           * [[..:page:description|description]]
-          * [[canonical|canonical]]
+          * [[..:page:canonical|canonical]]
       * a better [[docs:social:social|social experience]] with
            * <icon name="twitter"/> [[..:social:twitter|Twitter card]]
            * <icon name="facebook"/> [[..:social:facebook|Facebook card]]
@@ -84,4 +84,6 @@ The metadata are also available in the [[docs:analytics:data|analytics data]]
 
 ===== Replication =====
 
-If you want them to be replicated between ComboStrap installation, you should enable the [[frontmatter|frontmatter]].
+If you want them in your page, you should enable the [[frontmatter|frontmatter]].
+
+They will then be taken into account if your move your pages between different ComboStrap server installation.

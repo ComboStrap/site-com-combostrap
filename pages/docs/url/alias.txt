@@ -1,8 +1,15 @@
+---json
+{
+    "name":"Page Aliases",
+    "canonical":"page:alias"
+}
+---
+
 ====== ComboStrap URL - Page Alias ======
 
 
 ===== About =====
-A ''page alias'' is an extra [[docs:metadata:path|path]] value for a page.
+A ''page alias'' is an extra [[docs:page:path|path]] value for a page.
 
 If a ''page'' has an alias that corresponds to the path of a [[docs:url:404|missing page]], a [[..:url:redirection|redirection]] is performed.
 
@@ -21,7 +28,7 @@ This type of redirect are automatically created:
   * or when you [[docs:page:move|move a page]].
 
 For instance:
-  * if you have a page at the [[docs:metadata:path|path]] ''fruit:pear''. 
+  * if you have a page at the [[docs:page:path|path]] ''fruit:pear''. 
   * if you move the page to another location such as ''fruit:tree:pear''
   * the page ''fruit:tree:pear'' will get the alias ''fruit:pear'' with the type ''redirect''
 
