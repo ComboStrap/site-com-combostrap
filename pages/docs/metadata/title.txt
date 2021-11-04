@@ -30,36 +30,31 @@ This ''title'' will:
   * be used in ''text-to-speech (TTS)'' (thanks to [[https://developers.google.com/search/docs/data-types/speakable|Speakable]])
 
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Processing =====
 
-==== With Dokuwiki ====
+==== Default  ====
 
-For [[doku>|Dokuwiki]], 
-  * by default, the title of a page is the [[doku>pagename|DokuWiki Id]] with the the [[doku>config:title|title configuration]]
-  * If the [[doku>config:useheading|useheading]] [[:configuration|configuration]] is on, the first [[docs:content:heading|heading]] is used to replace the [[doku>pagename|DokuWiki Id]]
+By default, the title of a page is:
+  * [[docs:metadata:h1|the first heading]]
+  * and if empty, the [[docs:metadata:name|page name]]
 
-==== With ComboStrap ====
-<note warning>
-The [[:strap|Strap template]] is mandatory or a template should take into account the ''title'' metadata.
+<note>
+The [[docs:app:name|app name]] is added to the title
 </note>
 
-With [[:start|ComboStrap]], if you set a ''title'' property with [[frontmatter|frontmatter]], it will become the page title.
 
-Example:
-<code javascript>
-{
-    "title":"Page title (Set by Combostrap)"
-}
-</code>
-Result:
+==== How to set the title ? ====
+
+With [[:start|ComboStrap]], if you set a ''title'' property with the [[docs:metadata:manager|metadata manager]], it will become the page title.
+
+Example for this page with ''Page title (Set by Combostrap)''
+
 {{docs:semantic:page_title_set_by_combostrap.png|}}
 
 
 <note>
-With the [[:strap|strap template]],  the website ''home page'' title is the Dokuwiki title with the website [[docs:app:tagline|tagline]] 
+With the [[:strap|strap template]],  the website [[docs:type:home#root|root home page]] title is the [[docs:app:name|app name]] with the [[docs:app:tagline|tagline]] 
 </note>
 
 

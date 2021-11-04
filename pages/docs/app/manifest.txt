@@ -1,17 +1,29 @@
 ====== Strap - Web App Manifest ======
 
 ===== About =====
-A ''Web App Manifest'' is a JSON file that permits a [[kb>web/app|Web App]] to be installed to a mobile or computer's homescreen without an app store.
+A ''Web App Manifest'' is a JSON file that permits to install your [[app|application (website)]] in a mobile or computer's homescreen without an app store.
 
 
 ===== Articles Related =====
 {{backlinks>.}}
-===== URL =====
+
+
+===== How to see the manifest =====
+
+==== Via the Manifest Url ====
 
 You can see it by going to the following URL:
   * https://yourdomain.com/lib/exe/manifest.php
 for this website:
   * https://combostrap.com/lib/exe/manifest.php
+
+
+==== Via the browser ====
+
+You can see your manifest in the ''Application'' tab of the [[kb>devtool|devtool]]
+
+{{:strap:app_manifest_firefox.png?250|}}
+
 
 ===== Schema =====
 
@@ -38,7 +50,7 @@ The JSON file contains several information
     ]
 }
 </code>
-  * ''name'' is the [[doku>config:title|title]] [[:configuration|configuration]]
+  * ''name'' is the [[name|application name]]
   * ''description'' is the [[docs:app:tagline|tagline configuration]]
   * ''icons'' are automatically recognized. See [[docs:getting_started:5_favicon]]
 
@@ -47,10 +59,5 @@ The JSON file contains several information
   * ''icons'' should be put at the root media library. ''logo.svg'' and ''android-chrome-192x192.png'' are taken into account. See [[docs:getting_started:5_favicon]]
 
 
-===== For the Geek =====
-You can also see that you manifest is working in the ''Application'' tab of the [[kb>devtool|devtool]]
 
-{{:strap:app_manifest_firefox.png?250|}}
-===== Documentation / Reference =====
-  * [[doku>devel:manifest|webmanifest]]
-  * https://developer.mozilla.org/en-US/docs/Web/Manifest
+

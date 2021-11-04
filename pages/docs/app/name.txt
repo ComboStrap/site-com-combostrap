@@ -1,0 +1,12 @@
+====== Application - Name ======
+
+
+
+===== About =====
+The name of your application (website) can be set via the [[doku>config:title|dokuwiki title configuration]].
+
+
+===== Usage =====
+The application name:
+  * is added to every HTML page title along with the [[docs:metadata:title|page title metadata]].
+  * is set in the [[docs:app:manifest|app manifest]]

@@ -5,10 +5,12 @@
 A ComboStrap website is a whole application (''app'').
 
 ===== Features =====
+  * [[name|Name]] - The application name
+  * [[tagline|Tag line]] - The headline of your application
   * [[manifest|Manifest (app properties)]] - With a manifest, a user can install your website on its mobile.
   * [[logo|Logo]] - The branding used in a menu bar and as icon in a browser tab.
   * [[identity|Identity Form]] - To login and logout
   * [[search|Internal Search Engine]] - To search the content of your page
-  * [[tagline|Tag line]] - The headline of your application
 
 If your website represents an organization, you can even create an [[docs:type:organization|organization page]].
+
