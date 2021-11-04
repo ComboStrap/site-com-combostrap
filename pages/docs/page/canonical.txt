@@ -1,9 +1,10 @@
 ---json
 {
-    "canonical":"canonical"
+    "canonical":"canonical",
+    "name":"Canonical Path"
 }
 ---
-====== ComboStrap Page Metadata - Canonical Path ======
+====== Page - Canonical Path ======
 
 
 ===== About =====
@@ -15,7 +16,9 @@ A ''canonical'' is a short unique path identifier for a page on your website.
 
 ==== Named permalink ====
 
-The canonical is used to create a [[docs:url:permalink|named permalink]] in order to get quickly to a page without known its [[docs:metadata:path|full path]]
+The canonical is used to create a [[docs:url:permalink|named permalink]] in order to get quickly to a page without knowing its [[docs:page:path|full path]]
+
+Example:
 <code url>
 https://yourdomain.com/your/canonical
 </code>
@@ -24,16 +27,16 @@ https://yourdomain.com/your/canonical
 
 ==== Canonical Url ====
 
-The canonical path can be used as path in the [[docs:url:canonical|canonical url]].
+The canonical path can be used as path in the [[docs:page:url|canonical url]].
 
 ==== Tracking Metrics ====
 
 The canonical path can be used in your tracking metrics in order to aggregate the page view even if the page:
   * is accessed via different url
-  * or has [[support:plugin#move|moved]]
+  * or has [[docs:page:move|moved]]
 
 You can:
-  * enable it for the ''Google Analytics plugin'' in the [[#google analytics|configuration]]
+  * enable it via the [[docs:analytics:google_analytics#pageview|Google Analytics pageview configuration]]
   * or integrate it in your actual tracker. See the [[#javascript|javascript example]], to know how to access this value from your page.
 
 ===== Value =====
@@ -44,7 +47,7 @@ The canonical path should have a meaning and be understandable by humans.
 The ''canonical'' value:
   * should be unique for all pages of your website (ie domain).
   * should be written as wiki path (ie with a '':'' semi-colon as path separator)
-  * does not need to be the [[docs:metadata:path|page path]]
+  * does not need to be the [[docs:page:path|page path]]
   * is always lowercase
 
 ===== Demo =====
@@ -60,7 +63,7 @@ You can try it your self.
 or
 
 <btn>
-[[docs:metadata:canonical#demo|Navigate to this page via its standard URL !]]
+[[docs:page:canonical#demo|Navigate to this page via its standard URL !]]
 </btn>
 
 
@@ -68,7 +71,7 @@ or
 
 ==== Manually ====
 
-To set the canonical value, uses the [[manager|metadata manager]] and set the ''canonical'' property in a wiki path format (ie the path separator should be a colon)
+To set the canonical value, uses the [[..:metadata:manager|metadata manager]] and set the ''canonical'' property in a wiki path format (ie the path separator should be a colon)
 
 Example:
 <code dw>
@@ -77,7 +80,7 @@ my:path
 
 ==== Automatically ====
 
-You can also create a canonical value based on the last parts of a [[path|page path]]. See [[automatic_canonical]]
+You can also create a canonical value based on the last parts of a [[..:page:path|page path]]. See [[..:metadata:automatic_canonical]]
 
 
 ===== Javascript Example =====
@@ -93,6 +96,8 @@ console.log(`The canonical for this page is '${window.parent.JSINFO["canonical"]
 ===== Configuration =====
 
 ==== Google Analytics ====
-If the ''useCanonicalValueForGoogleAnalyticsPageView'' [[:configuration|configuration]] is enabled, the ''canonical'' value will passed to the [[support:plugin|Google Analytics Plugin]] in place of the [[docs:metadata:path|page path]].
+You can send the canonical path as page identifier to [[docs:analytics:google_analytics|Google Analytics]].
+
+For further information, see the [[docs:analytics:google_analytics#pageview|Google Analytics Pageview section]]
 
 

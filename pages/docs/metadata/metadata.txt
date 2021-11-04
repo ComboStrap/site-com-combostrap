@@ -27,9 +27,9 @@ There is two groups of metadata:
 ''ComboStrap'' manages and reacts to the following metadata:
   * [[canonical|canonical]] - an unique page identifier for the web
   * [[docs:metadata:name|page name]] - a short name for the page
-  * [[title|page title]] - a long name for the page
+  * [[..:page:title|page title]] - a long name for the page
   * [[h1|h1]] - the first heading of the page
-  * [[description|description]] - a summary of the page
+  * [[..:page:description|description]] - a summary of the page
   * [[docs:metadata:published|date_published]]
   * [[docs:metadata:image|image]] - the page illustrations
   * [[docs:type:type|page type]] - the type of page (article, ...)
@@ -40,12 +40,12 @@ There is two groups of metadata:
 
 ==== Protected ====
 The below properties are protected and cannot be changed:
-  * [[docs:metadata:path|path]] - the path of the page with wiki separator (ie '':namespace:page'')
+  * [[docs:page:path|path]] - the path of the page with wiki separator (ie '':namespace:page'')
   * ''date_created'' - the creation date
   * ''date_modified'' - the modification date
   * ''user'', ''creator'', ''contributor''
   * [[docs:cache:page|date_cache_expiration]] - the expiration date of the cache if any
-  * [[page_id|page id]] - an universal unique identification
+  * [[..:page:page_id|page id]] - an universal unique identification
 
 
 
@@ -70,8 +70,8 @@ They allows internally:
 
 They allows:
       * a better [[docs:seo:seo|SEO]] with:
-          * [[title|title]]
-          * [[description|description]]
+          * [[..:page:title|title]]
+          * [[..:page:description|description]]
           * [[canonical|canonical]]
       * a better [[docs:social:social|social experience]] with
            * <icon name="twitter"/> [[..:social:twitter|Twitter card]]

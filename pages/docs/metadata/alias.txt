@@ -18,7 +18,7 @@ A ''redirect'' alias is an alias that will perform a [[docs:url:permanent|perman
 
 This type of redirect are automatically created:
   * when a page was matched with the [[docs:url:bestendpagename|best end page name redirection algorithm]] (with at minimal two path parts that match by default)
-  * or when you [[support:plugin#move|move a page with the move plugin]].
+  * or when you [[docs:page:move|move a page]].
 
 For instance:
   * if you have a page at the [[docs:metadata:path|path]] ''fruit:pear''. 

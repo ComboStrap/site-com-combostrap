@@ -1,6 +1,7 @@
 ---json
 {
     "canonical":"title",
+    "name":"Page Tile",
     "title":"Page title (Set by Combostrap)",
     "description":"How to manage the title of a web page with ComboStrap ?"
 }
@@ -22,7 +23,7 @@ In the [[https://developers.google.com/search/docs/beginner/seo-starter-guide#cr
 
 
 This ''title'' will:
-  * show up in the ''Search Engine Result Pages (SERP)'' (the results that you see when querying Google)
+  * show up in the [[docs:seo:serp|Search Engine Result Pages (SERP)]] (the results that you see when querying Google)
   * show up in the title bar at the top of the web browser, 
   * show up in [[docs:social:social|social]] cards such as [[..:social:twitter|twitter]], [[..:social:google|google]]  or [[..:social:facebook|facebook]]
   * be used when someone bookmarks the page.
@@ -48,7 +49,7 @@ Example for this page with ''Page title (Set by Combostrap)''
 By default, the title of a page is in order of precedence:
    * the [[docs:app:tagline|tagline]] if this is the [[docs:type:home#root|root home page]]
    * the [[docs:metadata:h1|the first heading]] if not empty
-   * the [[docs:metadata:name|page name]]
+   * the [[docs:page:name|page name]]
 
 <note>
 The  [[docs:type:home|namespace name]] and the [[docs:app:name|app name]] are added to the web browser title.

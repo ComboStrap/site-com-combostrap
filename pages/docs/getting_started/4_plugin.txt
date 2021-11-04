@@ -22,7 +22,7 @@ You can install any plugin the same way than [[docs:getting_started:2_combo|Comb
 
 ==== Move ====
 
-We support the [[support:plugin#move|move plugin]].
+We support the [[docs:page:move|move plugin]]
 
 You can quickly move a page with the ''rename'' action in the [[docs:layout:page:railbar|railbar]].
 

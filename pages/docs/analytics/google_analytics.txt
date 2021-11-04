@@ -1,0 +1,17 @@
+====== Google Analytics ======
+
+
+===== About =====
+''combostrap'' supports the [[doku>plugin:googleanalytics|Google Analytics plugin]] as [[support:plugin|third party plugin]].
+
+
+===== PageView=====
+
+With ComboStrap , you can report your ''Google Analytics'' [[https://developers.google.com/analytics/devguides/collection/ga4/page-view|page view]] with the [[docs:page:canonical|canonical path]] instead of the [[docs:page:path|page path]].
+
+It has the benefit to aggregate all pageview under the same permanent path. Even if you [[:docs:page:move|move your page]], the pageview will not be impacted.
+
+You can enable it with the ''useCanonicalValueForGoogleAnalyticsPageView'' [[docs:configuration|configuration]].
+
+
+

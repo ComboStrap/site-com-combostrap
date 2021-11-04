@@ -1,0 +1,58 @@
+---json
+{
+   "canonical":"page:description",
+   "description":"The page description is a summary of what your page is about. It's used heavily (search engine, page preview, social card,...). This page shows you how to modify it."
+}
+---
+
+
+====== Page Description ======
+
+
+===== About =====
+The ''description'' is a summary of what the page is about. 
+
+A page's description might be a sentence or two or even a short paragraph (whereas a [[..:page:title|page's title]] may be a few words or a phrase).
+
+It's a [[..:metadata:metadata|page metadata]] that:
+  * is displayed:
+      * in social cards ([[..:social:twitter|twitter]], [[..:social:facebook|facebook]], [[..:social:google|Google Rich Result]])
+      * in the [[docs:seo:serp|Search Engine Results Page]].
+      * in the [[docs:content:link|link default popup]] or the [[docs:content:link#preview|link preview tooltip]]. (Example for this page, hovering over this [[?preview|link]] will show you the description of this page in a tooltip)
+  * used in ''text-to-speech (TTS)'' (thanks to [[https://developers.google.com/search/docs/data-types/speakable|Speakable]])
+
+
+
+
+
+===== Set=====
+You can modify the description via the [[docs:metadata:manager|metadata manager]].
+
+
+
+
+
+
+
+===== External Services =====
+This component will also create the following ''description'' [[kb>html:meta|HTML meta header]] for the below external services.
+
+
+   * For [[docs:seo:serp|Search Engine Result Pages (SERP)]] and crawler.
+<code html>
+<meta name="description" content="The best page on the universe">
+</code>
+  * For [[..:social:facebook|Facebook]], the ''og:description'' 
+<code html>
+<meta property="og:description" content="The best page on the universe">
+</code>
+  * For [[..:social:twitter|Twitter]], the ''twitter:description''
+<code html>
+<meta name="twitter:description" content="The best page on the universe">
+</code>
+
+\\
+
+<note>
+The description is not set specifically for the [[..:type:article#Google Rich Result|Article Google Rich Result Card]], they used the ''meta description'' tag.
+</note>

@@ -1,0 +1,22 @@
+---json
+{
+    "name":"Page Url",
+    "canonical":"page:url"
+}
+---
+
+====== Page URL ======
+
+
+===== About =====
+The ''page url'' is the official url of a page known also as the ''canonical url''.
+
+
+
+===== Canonical =====
+
+The page url:
+  * shows in 
+      * [[docs:seo:serp|Search Engine Result Pages]]
+      * [[docs:social:social|Social network Cards]]
+  * helps [[docs:seo:seo|Search Crawler]] to detect duplicate pages

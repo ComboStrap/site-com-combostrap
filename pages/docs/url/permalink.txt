@@ -9,7 +9,7 @@
 
 
 ===== About =====
-''permalink'' are links that are permanent and that will ''permanently'' be accessible even if the web page is [[support:plugin#move|moved]].
+''permalink'' are short links that will be ''permanently'' accessible even if the page is [[docs:page:move|moved]]
 
 
 ===== How to create a permalink ? =====
@@ -17,7 +17,7 @@
 
 ==== Generated ====
 
-A generated permalink is a link that uses the [[docs:metadata:page_id|page id]] as [[docs:metadata:path|path]].
+A generated permalink is a link that uses the [[docs:page:page_id|page id]] as [[docs:page:path|path]].
 
 As the id is guaranteed to never change, it's the real / true permalink.
 
@@ -32,13 +32,11 @@ As the id is guaranteed to never change, it's the real / true permalink.
 
 \\
 
-A generated permalink performs a [[docs:url:permanent|permanent redirection]]:
-  * to the [[docs:metadata:canonical#url|canonical url]] (if its [[docs:metadata:canonical|canonical]] is not empty)
-  * to the [[docs:metadata:path|page path]] (otherwise)
+A generated permalink performs a [[docs:url:permanent|permanent redirection]] to the [[docs:page:url|page url]]
 
 ==== Named ====
 
-A named permalink is a link that uses the [[docs:metadata:canonical|canonical]] as [[docs:metadata:path|path]]
+A named permalink is a link that uses the [[docs:metadata:canonical|canonical]] as [[docs:page:path|path]]
 
 Note that a [[docs:metadata:canonical|canonical]] is not a true permalink as it may be modified (It should not but you never know)
 

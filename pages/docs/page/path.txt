@@ -21,7 +21,7 @@ It can be seen in:
 
 This metadata is known as [[doku>pagename]] for Dokuwiki.
 
-By default, this is the value that is reported in third analytics tool such as [[support:plugin#google analytics|Google Analytics]] but you can use the [[docs:metadata:canonical#google analytics|canonical path]] instead.
+By default, this is the value that is reported in third analytics tool such as [[docs:analytics:google_analytics|Google Analytics]] but you can use the [[docs:page:canonical#google analytics|permanent canonical path]] instead.
 ===== Usage and Example =====
 
 A path can be used as [[docs:templating:variable|variable]] in a [[docs:templating:template|template]] to create [[docs:content:link|links]]

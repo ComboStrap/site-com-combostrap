@@ -17,10 +17,10 @@ On a website level, it means:
 ===== SEO Subject =====
 
 ==== Page Metadata ====
-The following data may be set for a page:
-  * [[docs:metadata:canonical|Canonical]]
-  * [[docs:metadata:title|Title]]
-  * [[docs:metadata:description|Description]]
+The following data are used heavily by Search Engine and may be set specifically for a page:
+  * [[docs:page:url|Canonical Url]]
+  * [[docs:page:title|Title]]
+  * [[docs:page:description|Description]]
 
 ==== Performance ====
 

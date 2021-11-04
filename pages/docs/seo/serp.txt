@@ -1,0 +1,21 @@
+---json
+{
+    "name":"Search Engine Result Pages",
+    "canonical":"serp"
+}
+---
+
+====== Search Engine Result Pages (SERP) ======
+
+===== About =====
+[[kb>serp|Search Engine Result Pages (SERP)]] are the pages that are shown when you use a [[seo|search engine]] such as Google.
+
+
+If your pages show up, the users will see:
+  * the [[docs:page:title|page title]]
+  * the [[docs:page:url|page url]]
+  * the [[docs:page:description|description]] (([[https://developers.google.com/search/docs/beginner/seo-starter-guide#use-the-description-meta-tag|Google may generate its own description]]))
+
+
+The search engine may also add extra information that are created with the [[docs:type:type|type of your page]].
+===== Reference =====

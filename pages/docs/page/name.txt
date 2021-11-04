@@ -1,0 +1,42 @@
+---json
+{
+    "canonical":"page:name",
+    "name":"Page Name",
+    "title":"The page name metadata",
+    "description":"The page name metadata is the shortest description of a page"
+}
+---
+====== ComboStrap Metadata - Page Name ======
+
+
+
+===== About =====
+The page ''name'' is a short text composed of a couple of words (one or two) that describes a page.
+
+
+This ''name'' will show up:
+  * in all [[docs:navigation:navigation|navigational component]] as default page description.
+  * in the [[docs:content:link?preview#preview|link preview as title]].
+  * in the [[docs:page:url#slug|slug url]] as default value for the parent page.
+  * as default name for a [[docs:content:link#internal|internal link]]
+
+
+
+===== How to set a name =====
+
+By default, the value of the name is the last part of the [[docs:page:path|path]] but you can overwrite it by setting a ''name'' property in the [[docs:metadata:manager|metadata manager]]
+
+===== Template =====
+
+You can use the ''$name'' [[docs:templating:variable|variable]] in a [[docs:templating:template|template]].
+
+Example:
+<webcode name="Default" frameborder="0">
+  * The template
+<code dw>
+<template>
+The name of this page is: ''$name''
+</template>
+</code>
+  * The result:
+</webcode>

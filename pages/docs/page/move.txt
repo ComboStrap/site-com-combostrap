@@ -1,0 +1,44 @@
+---json
+{
+    "name":"Page Move",
+    "canonical":"page:move"
+}
+---
+
+====== Page Move ======
+
+
+===== About =====
+''ComboStrap'' supports the move of a page via the [[doku>plugin:move|move]]  [[support:plugin|third party plugin]]
+
+
+For each page move, we:
+  * rename the [[docs:content:link|page link]]
+  * rename the [[docs:content:image|image link]] and [[docs:page:image|page image]]
+  * take into account the [[docs:navigation:backlink|backlink]]
+  * and [[docs:analytics:replication|replicate]] the change in the database
+
+
+===== How to move a page =====
+
+You can quickly move a page with the ''rename'' action in the [[docs:layout:page:railbar|railbar]].
+
+{{:docs:getting_started:move_plugin_rename.png|}}
+
+===== Support =====
+
+==== Search Index ====
+
+The move plugin is based on the search index.
+
+If you make a new installation or move pages around on the file system be sure to update your [[support:plugin#searchindex|index with the searchindex manager]] to avoid any [[docs:quality:broken_link|broken link]].
+
+
+==== Lock File ====
+
+If for any reason such as an index that is not up to date, you got a problem during a move, the plugin can let a lock file at ''DOKUWIKI_HOME/data/locks_plugin_move.lock''.
+
+This file should be deleted, otherwise you may get strange behavior. For instance, the move plugin will not save any of its processing and it will purge the cache each time for locked page.
+
+To prevent any more damage, we don't allow any move if the lock file was created more than 5 minutes ago and we send you a notification.
+
