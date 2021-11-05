@@ -4,7 +4,7 @@
     "name":"Transparent Redirect",
     "alias":{
        ":redirection:transparent":{ "type":"transparent" }
-       }
+     }
 }
 ---
 ====== ComboStrap Routing - Transparent Redirect ======
@@ -17,7 +17,6 @@ It happens when the requested URL matches:
   * the [[docs:page:url|page url (the canonical url)]]
   * a [[docs:router:alias#synonym|synonym alias]] of a page
   * a [[ban|banned path (bad behavior protection)]]
-
 
 
 ===== Demo =====
