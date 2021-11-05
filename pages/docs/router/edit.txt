@@ -7,7 +7,7 @@
 }
 ---
 
-====== ComboStrap URL Management - Editor Redirection ======
+====== ComboStrap Routing - Editor Redirection ======
 
 
 ===== About =====

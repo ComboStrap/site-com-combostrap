@@ -121,7 +121,7 @@ markdown
 
 ==== Permalink ====
 
-Permalink should be done with [[docs:metadata:page_id|uuid]] 
+Permalink should be done with [[docs:page:page_id|uuid]] 
 ==== Data definition for page-explorer ====
 
 See [[https://forum.dokuwiki.org/d/19593-nspages]]

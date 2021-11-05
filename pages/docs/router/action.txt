@@ -4,7 +4,7 @@
 }
 ---
 
-====== ComboStrap URL Management - Redirection Actions ======
+====== ComboStrap Routing - Redirection Actions ======
 
 ===== About =====
 The ''redirection actions'' takes place in the [[redirection|redirection processing]] when:

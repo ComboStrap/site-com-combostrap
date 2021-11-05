@@ -4,13 +4,13 @@
 }
 ---
 
-====== ComboStrap URL Management - Redirection Message ======
+====== ComboStrap Routing - Redirection Message ======
 
 
 ===== About =====
 When a [[permanent|HTTP redirection]] has occurred, the user is by default informed with a ''message''
 
-By default, this components show also a listing of existing pages that have the same name. 
+By default, this components show also a listing of existing pages that have the same name.
 
 ===== Articles Related =====
 {{backlinks>.}}

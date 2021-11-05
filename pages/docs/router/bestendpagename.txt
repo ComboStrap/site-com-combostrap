@@ -5,7 +5,7 @@
 }
 ---
 
-====== ComboStrap URL Management - Best End Page Name Algorithm ======
+====== ComboStrap Routing - Best End Page Name Algorithm ======
 
 ===== About =====
 The ''Best End Page Name'' is a [[action|redirection scoring algorithm]] that finds the best page to redirect to when a [[404|non-existing page]] is requested.
@@ -28,7 +28,7 @@ When a user request a [[404|missing page]] (ie ''species:bird:sparrow''), the al
   * it will score them by giving 1 point recursively for each matching name processing from the end to the beginning. For instance:
       * ''2'' point for ''animal:bird:sparrow'' (1 point for ''sparrow'' and 1 point for ''bird'')
       * ''1'' point for ''europe:sparrow''
-  * it will then select the page with the highest score. 
+  * it will then select the page with the highest score.
   * if the page has a score that is higher or equal to the [[#configuration|BestEndPageMinimalScoreForAlias configuration]]:
       * a [[docs:router:alias|alias redirect]] is created and a [[permanent|permanent redirect]] is performed.
       * otherwise an [[notfound|not found redirect]] is executed
@@ -38,8 +38,8 @@ When a user request a [[404|missing page]] (ie ''species:bird:sparrow''), the al
 ==== BestEndPageMinimalScoreForAliasCreation ====
 
 This [[docs:configuration|configuration]] permits to:
-  * create a [[docs:router:alias#redirect|alias redirect]] 
-  * and executes a [[permanent|permanent redirect]] 
+  * create a [[docs:router:alias#redirect|alias redirect]]
+  * and executes a [[permanent|permanent redirect]]
 when the number of parts in the found path that matches the missing page is higher or equal.
 
 By default, this value is 2 but you can disable it by setting a value of 0.

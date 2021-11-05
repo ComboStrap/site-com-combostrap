@@ -5,7 +5,7 @@
 }
 ---
 
-====== ComboStrap URL Management - Best Page Name Algorithm ======
+====== ComboStrap Routing - Best Page Name Algorithm ======
 
 
 ===== About =====
@@ -17,7 +17,7 @@ This redirection algorithm performs always a [[docs:router:notfound|not found re
 <note>
 This algorithm should be in a low priority order because:
   * it does not execute any [[docs:router:permanent|permanent redirection]]
-  * it performs less well than the [[docs:router:bestendpagename|best end page name]] 
+  * it performs less well than the [[docs:router:bestendpagename|best end page name]]
 </note>
 ===== Articles Related =====
 {{backlinks>.}}

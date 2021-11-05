@@ -1,4 +1,4 @@
-====== ComboStrap URL Management - Redirection ======
+====== ComboStrap Routing - Redirection ======
 
 ===== About =====
 A redirection occurs when a [[404|missing/non-existing page]] is requested.
@@ -29,7 +29,7 @@ If the requested page [[404|does not exist]]:
   - if this is a [[docs:page:url|valid page url]], redirect [[docs:router:transparent|transparently]]
   - if this is a [[docs:page:url#permanent|permanent url]] that does not match the [[docs:page:url|page url]], redirect with a [[docs:router:permanent|permanent redirection]]
   - if this is a [[docs:router:permalink|permalink]], redirect with a [[docs:router:permanent|permanent redirection]]
-  - if an existing page with an [[docs:router:alias|alias]] is found, redirect to this page 
+  - if an existing page with an [[docs:router:alias|alias]] is found, redirect to this page
       - with a [[permanent|permanent redirection]] if the alias type is ''redirect''
       - with a [[docs:router:transparent|transparent redirection]] if the alias type is ''synonym''
   - if a [[page_rules|page rules redirect]] applies, redirect to the calculated page with a [[docs:router:permanent|permanent redirection]].

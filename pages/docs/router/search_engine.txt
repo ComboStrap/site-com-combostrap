@@ -1,4 +1,4 @@
-====== ComboStrap URL Management - Redirection to the intern search engine ======
+====== ComboStrap Routing - Redirection to the intern search engine ======
 
 ===== About =====
 ''Redirection to search engine'' is a [[action|redirection action]] that redirects to the search engine.
@@ -18,5 +18,5 @@ For instance:
   * and the search engine would return all pages that contains the words:
       * ''namespace1'',
       * ''namespace2'',
-      * ''pre'', 
+      * ''pre'',
       * and ''pagename''

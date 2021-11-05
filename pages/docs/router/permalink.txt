@@ -5,7 +5,7 @@
 ---
 
 
-====== ComboStrap URL Management - Permalink ======
+====== ComboStrap Routing - Permalink ======
 
 
 ===== About =====

@@ -13,13 +13,13 @@
   * If you had your private toolbar, you need to [[docs:layout:page:railbar#configuration|reconfigure it]] due to a change of name from ''toolbar'' to ''railbar''
 </note>
 
-This is a minor improvement release with bug fixes. The most improvement has been made on the [[docs:layout:page:railbar|toolbar]]. 
+This is a minor improvement release with bug fixes. The most improvement has been made on the [[docs:layout:page:railbar|toolbar]].
 
 The toolbar:
   * has been renamed to ''railbar'' to not confound with the [[doku>toolbar|toolbar of the editor]]
   * is now grouped by type of tool
   * is also available in mobile screen.
-  * is made available in an offcanvas from a configurable breakpoint 
+  * is made available in an offcanvas from a configurable breakpoint
 
 
 ===== List =====
@@ -27,7 +27,7 @@ The toolbar:
 ==== New ====
   * The [[docs:page:name|page name]] can now be used in a [[docs:templating:template|template]]
   * A [[docs:templating:pipeline|pipeline]] can use the ''capitalize'' function to capitalize the first letter of each word
-  * New Configuration [[docs:router:url#enableUrlManager|enableUrlManager]] that permits to disable entirely the [[docs:router:url|URL manager]]. This can be useful in case of conflicting URL management plugin.
+  * New Configuration [[docs:router:router#enableUrlManager|enableUrlManager]] that permits to disable entirely the [[docs:router:router|URL manager]]. This can be useful in case of conflicting Routing plugin.
   * [[docs:analytics:statistics|page statistics]] got now [[docs:analytics:statistics#media|count statistics on media]].
   * [[docs:quality:broken_link|broken link]] takes now into account broken link to media (ie resource)
 
@@ -59,7 +59,7 @@ After:
   * bug: the toolbar editor for a blockquote was closed not with a blockquote tag.
   * bug: the [[:security#content_security_policy|http header content security policy]] were send after output causing the below warning. They are now send when dokuwiki starts.
 <file>
-Warning: Cannot modify header information - headers already sent by (output started at C:\DokuWikiStick\dokuwiki\lib\tpl\strap\main.php:157) 
+Warning: Cannot modify header information - headers already sent by (output started at C:\DokuWikiStick\dokuwiki\lib\tpl\strap\main.php:157)
 in C:\DokuWikiStick\dokuwiki\lib\plugins\combo\action\metacsp.php on line 82
 </file>
   * Minor bug: they the ''Jquery-ui'' closing icon was not showing up. As reported on this conversation, we have moved the ''Jquery-ui'' library to be called after the bootstrap library.

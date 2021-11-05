@@ -2,10 +2,12 @@
 {
     "canonical":"transparent:redirect",
     "name":"Transparent Redirect",
-    "alias":[":redirection:transparent"]
+    "alias":{
+       ":redirection:transparent":{ "type":"transparent" }
+       }
 }
 ---
-====== ComboStrap URL Management - Transparent Redirect ======
+====== ComboStrap Routing - Transparent Redirect ======
 
 
 ===== About =====

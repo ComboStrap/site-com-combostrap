@@ -11,7 +11,7 @@
 
 It contains:
   * the [[docs:component|collection of UI component]]
-  * the [[docs:router:url|Url Manager]]
+  * the [[docs:router:router|router]]
   * the [[docs:metadata:metadata|Page Metadata]]
   * the [[docs:seo:seo|SEO module]]
   * and many more.
@@ -67,12 +67,12 @@ The ''combo'' term was chosen for this reason. It's just a ''combo''
 
 ''ComboStrap'' is tested against [[docs:getting_started:4_plugin|third party plugins]] but we can't test them all.
 
-This application has a large code base going from [[docs:cache:page|cache]] to [[docs:router:url|url]] and [[docs:component|user interface]] management.
+This application has a large code base going from [[docs:cache:page|cache]] to [[docs:router:router|url]] and [[docs:component|user interface]] management.
 
 Plugins that are too old or does not respect the DokuWiki Interfaces may not work well with ''ComboStrap''.
 
 If this is the case and that you got your installation not working anymore, the fix is:
-  * to rename on your server the directory ''dokuwiki/lib/plugins/combo'' to ''dokuwiki/lib/plugins/combo.old'' 
+  * to rename on your server the directory ''dokuwiki/lib/plugins/combo'' to ''dokuwiki/lib/plugins/combo.old''
   * or to delete it
 
 And to [[:support|send us the log of your webserver]] if you want us to take a look.
