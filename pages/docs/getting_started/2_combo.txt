@@ -11,7 +11,7 @@
 
 It contains:
   * the [[docs:component|collection of UI component]]
-  * the [[docs:url:url|Url Manager]]
+  * the [[docs:router:url|Url Manager]]
   * the [[docs:metadata:metadata|Page Metadata]]
   * the [[docs:seo:seo|SEO module]]
   * and many more.
@@ -67,7 +67,7 @@ The ''combo'' term was chosen for this reason. It's just a ''combo''
 
 ''ComboStrap'' is tested against [[docs:getting_started:4_plugin|third party plugins]] but we can't test them all.
 
-This application has a large code base going from [[docs:cache:page|cache]] to [[docs:url:url|url]] and [[docs:component|user interface]] management.
+This application has a large code base going from [[docs:cache:page|cache]] to [[docs:router:url|url]] and [[docs:component|user interface]] management.
 
 Plugins that are too old or does not respect the DokuWiki Interfaces may not work well with ''ComboStrap''.
 

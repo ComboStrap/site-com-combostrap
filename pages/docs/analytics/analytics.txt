@@ -6,7 +6,7 @@
   * [[docs:quality:quality|quality]]
   * [[statistics|statistics]]
   * [[docs:metadata:metadata|metadata]]
-  * and [[docs:url:redirection|redirections]]
+  * and [[docs:router:redirection|redirections]]
 
 
 There is a lot of possible analytics that can answer all your question.

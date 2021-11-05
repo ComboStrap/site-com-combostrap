@@ -10,11 +10,11 @@ All ''ComboStrap'' data are stored in a Sqlite Database.
 The database schema has the following tables:
   * ''pages'' - [[data|data on pages]]:
       * ''id'': the page id
-      * ''canonical'': the [[docs:metadata:canonical|canonical]]
+      * ''canonical'': the [[docs:page:canonical|canonical]]
       * ''analytics'': the [[data|json analytics data]]
-  * ''page_aliases'' - the [[docs:metadata:alias|page aliases]]
-  * ''page_rules'' - the [[docs:url:page_rules|page_rules]]
-  * ''redirections_log'' - the [[docs:url:log|log redirection history]]
+  * ''page_aliases'' - the [[docs:router:alias|page aliases]]
+  * ''page_rules'' - the [[docs:router:page_rules|page_rules]]
+  * ''redirections_log'' - the [[docs:router:log|log redirection history]]
   * ''opts'' - an internal table that manage the database version <inote important>don't delete</inote>
 
 You can [[query|query the database online]]

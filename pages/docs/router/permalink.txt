@@ -32,13 +32,13 @@ As the id is guaranteed to never change, it's the real / true permalink.
 
 \\
 
-A generated permalink performs a [[docs:url:permanent|permanent redirection]] to the [[docs:page:url|page url]]
+A generated permalink performs a [[docs:router:permanent|permanent redirection]] to the [[docs:page:url|page url]]
 
 ==== Named ====
 
-A named permalink is a link that uses the [[docs:metadata:canonical|canonical]] as [[docs:page:path|path]]
+A named permalink is a link that uses the [[docs:page:canonical|canonical]] as [[docs:page:path|path]]
 
-Note that a [[docs:metadata:canonical|canonical]] is not a true permalink as it may be modified (It should not but you never know)
+Note that a [[docs:page:canonical|canonical]] is not a true permalink as it may be modified (It should not but you never know)
 
 
 <webcode name="Default" frameborder="0">
@@ -52,7 +52,7 @@ Note that a [[docs:metadata:canonical|canonical]] is not a true permalink as it 
 
 
 
-A named permalink performs a [[docs:url:transparent|transparent redirection]].
+A named permalink performs a [[docs:router:transparent|transparent redirection]].
 
 
 

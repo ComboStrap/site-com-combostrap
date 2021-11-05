@@ -18,7 +18,7 @@ This module regroups the following functionalities:
   * [[score|Quality score]]
 
 <note>
-The [[docs:url:404|missing page management]] also improves the quality of the website.
+The [[docs:router:404|missing page management]] also improves the quality of the website.
 </note>
 
 

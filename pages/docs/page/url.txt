@@ -5,18 +5,47 @@
 }
 ---
 
-====== Page URL ======
+====== Page URL (canonical URL) ======
 
 
 ===== About =====
-The ''page url'' is the official url of a page known also as the ''canonical url''.
+The ''page url'' is the unique official url of a page known also as the ''canonical url''.
 
 
 
 ===== Canonical =====
 
-The page url:
+This url:
+  * is created via the [[docs:content:link|link component]]
+  * is in the [[docs:seo:sitemap|sitemap]]
+  * is used when users bookmark your pages.
   * shows in 
       * [[docs:seo:serp|Search Engine Result Pages]]
       * [[docs:social:social|Social network Cards]]
   * helps [[docs:seo:seo|Search Crawler]] to detect duplicate pages
+  * is used in [[docs:router:redirection|every redirection]]
+
+
+===== Permanent =====
+
+When you choose a permanent [[#type|url type]], ComboStrap will add a short page identifier based on the [[docs:page:page_id|page id]] at the end.
+
+Even if you change the type or content of the URL, the [[docs:router:url|router]] will always be able to find the page.
+
+The syntax is:
+  * With [[docs:router:nice|Nice Url]]
+<code javascript>
+https://domain.com/a-description/or-path-that-is-not-relevant/page-identifier
+</code>
+  * Without
+<code javascript>
+https://domain.com/doku.php?id=a-description:or-path-that-is-not-relevant:page-identifier
+</code>
+Example: 
+<webcode name="Default" frameborder="0">
+<code dw display="none">
+<template>
+This page has the path ''$path'' and has the permanent url: [[$path|$url]]
+</template>
+</code>
+</webcode>

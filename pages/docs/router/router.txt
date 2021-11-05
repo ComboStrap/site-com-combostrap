@@ -1,0 +1,40 @@
+---json
+{
+   "canonical":"router",
+   "name":"Router"
+}
+---
+====== ComboStrap - Request Router ======
+
+
+
+===== About =====
+The ''request router'' intercepts all requests against your [[docs:app:app|website]] and send them to the correct page.
+
+
+
+
+===== Features =====
+
+
+
+==== Permanent Url ====
+
+When you choose a [[docs:page:url#permanent|permanent url]] or you share your page with a [[docs:router:permalink|permalink]], the router will route this request to the correct page.
+
+==== Missing Page ====
+
+In case of [[docs:router:404|missing page]], the ''URL Manager'' can [[redirection|redirect]]:
+    * a reader (ie public or search engine) to the best page following an [[redirection|algorithm]].
+    * shows [[message|a message (with optionally a list of the pages with the same name)]]
+    * a [[docs:router:edit|writer to the edit mode]]
+
+==== Scanning Protection ====
+Bad actors are scanning your web server for vulnerability, when they do, we [[docs:router:ban|ban them]].
+
+
+===== Configuration =====
+==== enableUrlManager ====
+The [[docs:configuration|configuration]] ''enableUrlManager'' permits to disable/enable the router entirely.
+
+

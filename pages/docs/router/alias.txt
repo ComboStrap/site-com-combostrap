@@ -11,7 +11,7 @@
 ===== About =====
 A ''page alias'' is an extra [[docs:page:path|path]] value for a page.
 
-If a ''page'' has an alias that corresponds to the path of a [[docs:url:404|missing page]], a [[..:url:redirection|redirection]] is performed.
+If a ''page'' has an alias that corresponds to the path of a [[docs:router:404|missing page]], a [[redirection|redirection]] is performed.
 
 You can see them as symlink or shortcut for a file system.
 
@@ -21,10 +21,10 @@ You can see them as symlink or shortcut for a file system.
 ===== Type =====
 
 ==== Redirect ====
-A ''redirect'' alias is an alias that will perform a [[docs:url:permanent|permanent redirection]].
+A ''redirect'' alias is an alias that will perform a [[docs:router:permanent|permanent redirection]].
 
 This type of redirect are automatically created:
-  * when a page was matched with the [[docs:url:bestendpagename|best end page name redirection algorithm]] (with at minimal two path parts that match by default)
+  * when a page was matched with the [[docs:router:bestendpagename|best end page name redirection algorithm]] (with at minimal two path parts that match by default)
   * or when you [[docs:page:move|move a page]].
 
 For instance:
@@ -34,7 +34,7 @@ For instance:
 
 ==== Synonym ====
 
-A ''synonym'' alias is an alias that will perform a [[docs:url:transparent|transparent redirection]].
+A ''synonym'' alias is an alias that will perform a [[docs:router:transparent|transparent redirection]].
 The page will be served normally as if it was also existing to the synonym path.
 
 

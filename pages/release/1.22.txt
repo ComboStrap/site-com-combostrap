@@ -10,7 +10,10 @@
 ===== About =====
 
 
-If you want to have the ''canonical path'' reported in place of the ''page path'' in the [[docs:analytics:google_analytics|google analytics metrics]], you should [[docs:metadata:canonical#Google Analytics|enable it]].
+If you want to have the ''canonical path'' reported in place of the ''page path'' in the [[docs:analytics:google_analytics|google analytics metrics]], you should [[docs:page:canonical#Google Analytics|enable it]].
+
+
+Bug: The [[docs:locale:lang_ar|lang ar]] is not working if the url has not the [[docs:page:path|path]], create a function to get the page from the url id.
 ===== List of changes =====
 
 ==== New ====
@@ -19,20 +22,20 @@ If you want to have the ''canonical path'' reported in place of the ''page path'
   * [[docs:templating:sql|Page SQL]] can now return [[docs:navigation:backlink|backlink pages]]
   * ''references between pages'' (ie [[docs:content:link|link]] and [[docs:navigation:backlink|backlink]]) are now [[docs:analytics:replication|replicated]] in the [[docs:analytics:database|database]]
   * The [[docs:layout:component:grid|grid]] layout can now be used within an [[docs:templating:iterator|template iterator]]
-  * [[docs:metadata:description|description]] is now loaded into the [[docs:analytics:database|database]]
+  * [[docs:page:description|description]] is now loaded into the [[docs:analytics:database|database]]
   * Added microsoft ''codicon'', ibm ''carbon'' and ''logos'' as [[docs:content:icon|icon library]]
   * Added a page on the internal search engine. See [[docs:app:search]]
   * Lockfile protection for the [[support:plugin#move|move plugin]]. When a move goes wrong, a lock file may stay in the data directory. If the lock file age is bigger than 5 minutes.
       * We cancel any move 
       * We send a message
-  * A [[docs:metadata:lang|language region]] will be determined from the server if not set.
-  * Every page gets now a generated unique [[docs:metadata:page_id|page id]]
+  * A [[docs:locale:lang|language region]] will be determined from the server if not set.
+  * Every page gets now a generated unique [[docs:page:page_id|page id]]
   * The [[docs:metadata:viewer|metadata viewer window]]. A window that shows all raw metadata known by your installation for a specific page.
-  * The [[docs:metadata:alias|page alias]] have migrated into a table with the [[docs:metadata:page_id|page_id]] as foreign key.
-  * The [[docs:url:permalink|permalink component]] permits to add a permalink to a page.
-  * The [[docs:metadata:page_id|page id]] is now the real [[docs:url:permalink|permalink]] that performs a [[docs:url:permanent|permanent redirection]].
-  * [[docs:url:ban|Bat Bot Scanning protection]] with shadow banning against well-known path.
-  * The [[docs:metadata:canonical|canonical path]] can be used instead of the [[docs:metadata:path|page path]] for [[support:plugin#google Analytics|Google Analytics]]
+  * The [[docs:router:alias|page alias]] have migrated into a table with the [[docs:page:page_id|page_id]] as foreign key.
+  * The [[docs:router:permalink|permalink component]] permits to add a permalink to a page.
+  * The [[docs:page:page_id|page id]] is now the real [[docs:router:permalink|permalink]] that performs a [[docs:router:permanent|permanent redirection]].
+  * [[docs:router:ban|Bat Bot Scanning protection]] with shadow banning against well-known path.
+  * The [[docs:page:canonical|canonical path]] can be used instead of the [[docs:page:path|page path]] for [[support:plugin#google Analytics|Google Analytics]]
   * We have created a dedicated page for the [[docs:app:name|app name]]
 
 ==== Deprecated ====
@@ -44,32 +47,33 @@ If you want to have the ''canonical path'' reported in place of the ''page path'
       * the special [[docs:type:organization|organization field]] has been deprecated. You should use now the [[docs:social:google#json-ld|json-ld field instead]]
 
 ==== Improvement ====
-  * The [[docs:analytics:replication|data synchronization process]] is now treated as a real replication and got a ''date_synchronization'' and a [[docs:metadata:page_id|universal id]]. The synchronization is now also based on the database version file.
+  * The [[docs:analytics:replication|data synchronization process]] is now treated as a real replication and got a ''date_synchronization'' and a [[docs:page:page_id|universal id]]. The synchronization is now also based on the database version file.
   * the [[docs:analytics:replication|replication table]] ''ANALYTICS_TO_REFRESH'' has been renamed to ''PAGES_TO_REPLICATE'' to get more accurate
   * the [[docs:metadata:frontmatter|frontmatter]] metadata are [[docs:analytics:replication|replicated]] directly to avoid inconsistency with [[docs:templating:sql|page sql]]
   * The [[docs:social:google#json-ld|google json-ld]] supports now a full json-ld value. It's easier to valid it with the playground for the user.
   * The lock file created by the [[support:plugin#move|move plugin]] is now checked for every parse. It was only checked for page move and was purging page automatically each time making the site really slow.
   * The [[docs:cache:sideslots|side slots cache management]] removes the cache only when one of the description attributes is updated (ie name, title, h1, description)
-  * The [[docs:metadata:title|page title]] for a web page has been enhanced with the [[docs:type:home|namespace name]] and [[docs:app:name|website name]]
+  * The [[docs:page:title|page title]] for a web page has been enhanced with the [[docs:type:home|namespace name]] and [[docs:app:name|website name]]
 
 ==== Changes ====
   * The acronym / name of  a [[docs:content:icon|icon library]] follows the library name of the [[https://icon-sets.iconify.design/|iconify search engine]]. Therefore:
       * for bootstrap, ''bs'' is now ''bi''
       * for material design, ''md'' is now ''mdi''
   * To support the old icon library, the icons are not moved to the new directory.
-  * The ''country'' metadata is now known as the [[docs:metadata:region|language region]] to be more accurate as the region is often but not always a country.
+  * The ''country'' metadata is now known as the [[docs:locale:region|language region]] to be more accurate as the region is often but not always a country.
   * The ''buster'' key has been changed to ''tseed'' to be in line with dokuwiki.
-  * The [[docs:url:bestendpagename|best end page name]] redirection algorithm will create an [[docs:metadata:alias#|redirect alias]] if the score is bigger than 2. This behavior can be disabled with the [[docs:url:bestendpagename#configuration|BestEndPageMinimalScoreForAliasCreation configuration]].
+  * The [[docs:router:bestendpagename|best end page name]] redirection algorithm will create an [[docs:router:alias|redirect alias]] if the score is bigger than 2. This behavior can be disabled with the [[docs:router:bestendpagename#configuration|BestEndPageMinimalScoreForAliasCreation configuration]].
+  * The url manager is now known as the [[docs:router:router|router]] to reflect the fact that it routes request to the correct page. This is due to the new [[docs:page:url#permanent|permanent url]] and [[docs:router:ban|ban]] features.
 
 ==== Bug ====
   * After a change in the [[docs:performance:svg_optimization|svg optimization]], the svg shown will not refresh. Cause: The [[docs:cache:static|static cache]] ''buster'' was using the time of the original SVG file and not from the optimized file.
   * Not able to navigate to an heading from a link fragment for a [[docs:content:link#internal|internal link]]. Bug: the fragment was not qualified as fully section id (letting spaces in it)
   * The first rendering of a [[docs:content:svg|SVG]] would be empty. The cause root was that the buster calculation of the [[docs:cache:static|static cache]] would close the rendering of the svg and the src would set not be added. Resolution: we make a difference between request and response attribute and we have added an error message when the tag attributes are finalized twice.
   * The ''svg'' cache was not dependent on its [[docs:performance:svg_optimization|optimization configuration]].
-  * The new [[docs:semantic:date|date format]] was not applied on the [[docs:metadata:published|published date]] causing a not valid date error message.
+  * The new [[docs:semantic:date|date format]] was not applied on the [[docs:page:published|published date]] causing a not valid date error message.
   * A page move would create two pages in the [[docs:analytics:database|database]]. The move  is now automatically [[docs:analytics:replication|replicated]] making it consistent.
   * Bug: The [[docs:content:image|media]] statistics was crashing the page because it was asking the image and not the media file on third media such as video, pdf, ...
   * [[docs:performance:lazy|lazy load]] on small [[docs:content:raster|raster image]] was showing a broken image at page load because the placeholder was not set.
   * bug: [[docs:navigation:outline|outline numbering]] was not reset for the heading level 3
-  * [[docs:social:facebook|facebook]]: the mime type of the [[docs:metadata:image|image]] was returning only the first letter of the mime (A refactoring has modified the mime type to a string in place of an array and as php allows to take the first element of string (ie a letter), no error was reported) - A test has been added.
-  * The [[docs:url:message|redirection message]] was not shown when the [[docs:url:search_engine|redirect to search engine]] was performed.
+  * [[docs:social:facebook|facebook]]: the mime type of the [[docs:page:image|image]] was returning only the first letter of the mime (A refactoring has modified the mime type to a string in place of an array and as php allows to take the first element of string (ie a letter), no error was reported) - A test has been added.
+  * The [[docs:router:message|redirection message]] was not shown when the [[docs:router:search_engine|redirect to search engine]] was performed.

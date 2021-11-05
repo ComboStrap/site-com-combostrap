@@ -30,15 +30,15 @@ When a user request a [[404|missing page]] (ie ''species:bird:sparrow''), the al
       * ''1'' point for ''europe:sparrow''
   * it will then select the page with the highest score. 
   * if the page has a score that is higher or equal to the [[#configuration|BestEndPageMinimalScoreForAlias configuration]]:
-      * a [[docs:metadata:alias|alias redirect]] is created and a [[permanent|permanent redirect]] is performed.
+      * a [[docs:router:alias|alias redirect]] is created and a [[permanent|permanent redirect]] is performed.
       * otherwise an [[notfound|not found redirect]] is executed
 
 ===== Configuration =====
 
 ==== BestEndPageMinimalScoreForAliasCreation ====
 
-This [[:configuration|configuration]] permits to:
-  * create a [[docs:metadata:alias#redirect|alias redirect]] 
+This [[docs:configuration|configuration]] permits to:
+  * create a [[docs:router:alias#redirect|alias redirect]] 
   * and executes a [[permanent|permanent redirect]] 
 when the number of parts in the found path that matches the missing page is higher or equal.
 
@@ -50,4 +50,4 @@ By default, this value is 2 but you can disable it by setting a value of 0.
 ==== Action Order ====
 You can set the importance of this rule in the [[action#configuration|redirection action configuration]].
 
-{{docs:url:best_end_page_name_configuration.png|}}
+{{docs:router:best_end_page_name_configuration.png|}}

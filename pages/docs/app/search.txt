@@ -29,4 +29,4 @@ The internal search engine is advertised to the Google Search Engine via the [[d
 
 ==== Redirection ====
 
-Internally, if a URL is not found, the user is [[docs:url:search_engine|redirected to the search engine]].
+Internally, if a URL is not found, the user is [[docs:router:search_engine|redirected to the search engine]].

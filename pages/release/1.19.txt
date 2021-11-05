@@ -25,9 +25,9 @@ The toolbar:
 ===== List =====
 
 ==== New ====
-  * The [[docs:metadata:name|page name]] can now be used in a [[docs:templating:template|template]]
+  * The [[docs:page:name|page name]] can now be used in a [[docs:templating:template|template]]
   * A [[docs:templating:pipeline|pipeline]] can use the ''capitalize'' function to capitalize the first letter of each word
-  * New Configuration [[docs:url:url#enableUrlManager|enableUrlManager]] that permits to disable entirely the [[docs:url:url|URL manager]]. This can be useful in case of conflicting URL management plugin.
+  * New Configuration [[docs:router:url#enableUrlManager|enableUrlManager]] that permits to disable entirely the [[docs:router:url|URL manager]]. This can be useful in case of conflicting URL management plugin.
   * [[docs:analytics:statistics|page statistics]] got now [[docs:analytics:statistics#media|count statistics on media]].
   * [[docs:quality:broken_link|broken link]] takes now into account broken link to media (ie resource)
 
@@ -55,7 +55,7 @@ After:
   * [[docs:navigation:page-explorer|page-explorer]]: the home page is now the first element in a tree. It was after the child namespaces making it difficult to spot.
 ==== Bug ====
 
-  * semi-bug: Page request with the [[doku>config:send404]] config enabled would return a 404 even if a page with a [[docs:metadata:canonical|canonical]] was found. Because the http status is set at the beginning, we can't change it, we send therefore an error message
+  * semi-bug: Page request with the [[doku>config:send404]] config enabled would return a 404 even if a page with a [[docs:page:canonical|canonical]] was found. Because the http status is set at the beginning, we can't change it, we send therefore an error message
   * bug: the toolbar editor for a blockquote was closed not with a blockquote tag.
   * bug: the [[:security#content_security_policy|http header content security policy]] were send after output causing the below warning. They are now send when dokuwiki starts.
 <file>

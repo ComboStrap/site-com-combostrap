@@ -20,7 +20,7 @@ $page_id
 ===== Usage =====
 
   * It is used to create:
-      * a [[docs:url:permalink|permalink]]
+      * a [[docs:router:permalink|permalink]]
       * a [[docs:page:url|permanent url]]
 
 The [[docs:analytics:replication|data replication process]] uses it in order to replicate data from the file system to the database

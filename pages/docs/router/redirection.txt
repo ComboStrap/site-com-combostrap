@@ -1,0 +1,40 @@
+====== ComboStrap URL Management - Redirection ======
+
+===== About =====
+A redirection occurs when a [[404|missing/non-existing page]] is requested.
+
+The [[#processing|processing]] and the [[#type|type of redirections]] executed are explained below.
+
+
+===== Type =====
+
+''ComboStrap'' performs four kind of redirection:
+    * a [[transparent|transparent redirection]] when:
+        * the requested url is the [[docs:page:url|page url]]
+        * the page has [[docs:router:alias#synonym|synonym alias]]
+        * the path is [[docs:router:ban|banned]]
+    * a [[permanent|permanent redirection]]  (visible by the user and search engine) when:
+        * the requested url is a [[docs:router:permalink#generated|generated permalink]]
+        * the page has a [[docs:router:alias#redirect|redirect alias]]
+        * the requested url is a [[docs:page:url#permanent|permanent url]] but does not match the current page url.
+    * a [[notfound|not found redirection]] when the redirected destination was determined by the [[action|redirection algorithms]]
+    * a [[edit|editor redirection]] when the user is a writer.
+
+===== Processing =====
+
+The redirection procedure / processing is explained below.
+
+If the requested page [[404|does not exist]]:
+  - if this is a [[ban|banned path]], redirect [[docs:router:transparent|transparently]] to the home page
+  - if this is a [[docs:page:url|valid page url]], redirect [[docs:router:transparent|transparently]]
+  - if this is a [[docs:page:url#permanent|permanent url]] that does not match the [[docs:page:url|page url]], redirect with a [[docs:router:permanent|permanent redirection]]
+  - if this is a [[docs:router:permalink|permalink]], redirect with a [[docs:router:permanent|permanent redirection]]
+  - if an existing page with an [[docs:router:alias|alias]] is found, redirect to this page 
+      - with a [[permanent|permanent redirection]] if the alias type is ''redirect''
+      - with a [[docs:router:transparent|transparent redirection]] if the alias type is ''synonym''
+  - if a [[page_rules|page rules redirect]] applies, redirect to the calculated page with a [[docs:router:permanent|permanent redirection]].
+  - if the user has a write permission, [[edit|redirect the writer to the editor]]
+  - if the user has only read permission, follow the [[action|redirect actions]] in order
+
+===== History =====
+You can query the redirection via the [[log|log]].

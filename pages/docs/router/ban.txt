@@ -11,9 +11,9 @@
 
 
 ===== About =====
-''combostrap'' will ban well-known [[docs:metadata:path|path]] that bots are using to scan your server.
+''combostrap'' will ban well-known [[docs:page:path|path]] that bots are using to scan your server.
 
-We enforce a [[wp>Shadow_banning|shadow ban]] by performing a [[docs:url:transparent|transparent redirect]] to the website home page.
+We enforce a [[wp>Shadow_banning|shadow ban]] by performing a [[docs:router:transparent|transparent redirect]] to the website home page.
 
 For example, clicking on this well-known wordpress link [[this>wp-admin]] will send you to the home page if you are not logged in.
 

@@ -28,6 +28,6 @@ A [[message|message]] can also be shown with the pages that have the same name.
 
 
 
-You can set ''on'' and ''off'' this feature with the ''GoToEditMode'' [[:configuration|configuration]]
+You can set ''on'' and ''off'' this feature with the ''GoToEditMode'' [[docs:configuration|configuration]]
 
-{{docs:url:edit_mode_redirection_configuration.png|}}
+{{docs:router:edit_mode_redirection_configuration.png|}}

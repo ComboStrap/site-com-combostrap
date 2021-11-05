@@ -9,8 +9,8 @@
 ===== About =====
 The ''redirection actions'' takes place in the [[redirection|redirection processing]] when:
   * the missing page:
-      * is not a [[docs:metadata:canonical|canonical]]
-      * is not a [[docs:metadata:alias|alias]]
+      * is not a [[docs:page:canonical|canonical]]
+      * is not a [[docs:router:alias|alias]]
       * does not have any [[page_rules|page rules]] that applies for redirection
   * the user is:
       * a writer and is not redirected to the [[edit|edit mode]]
@@ -28,6 +28,6 @@ If an action does not find a page, the next action will try to find a page until
 
 ===== Configuration =====
 
-You can set the actions order in the [[:configuration|configuration]].
+You can set the actions order in the [[docs:configuration|configuration]].
 
-{{docs:url:redirection_actions.png|}}
+{{docs:router:redirection_actions.png|}}

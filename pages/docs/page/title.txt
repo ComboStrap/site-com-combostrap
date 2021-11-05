@@ -48,7 +48,7 @@ Example for this page with ''Page title (Set by Combostrap)''
 
 By default, the title of a page is in order of precedence:
    * the [[docs:app:tagline|tagline]] if this is the [[docs:type:home#root|root home page]]
-   * the [[docs:metadata:h1|the first heading]] if not empty
+   * the [[docs:page:h1|the first heading]] if not empty
    * the [[docs:page:name|page name]]
 
 <note>

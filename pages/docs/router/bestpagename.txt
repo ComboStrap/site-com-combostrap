@@ -12,12 +12,12 @@
 ''Best Page Name'' is a [[action#scoring|scoring algorithm]] that is used to choose the target page to redirect to in case of [[404|missing page]].
 
 
-This redirection algorithm performs always a [[docs:url:notfound|not found redirection]].
+This redirection algorithm performs always a [[docs:router:notfound|not found redirection]].
 
 <note>
 This algorithm should be in a low priority order because:
-  * it does not execute any [[docs:url:permanent|permanent redirection]]
-  * it performs less well than the [[docs:url:bestendpagename|best end page name]] 
+  * it does not execute any [[docs:router:permanent|permanent redirection]]
+  * it performs less well than the [[docs:router:bestendpagename|best end page name]] 
 </note>
 ===== Articles Related =====
 {{backlinks>.}}
@@ -33,13 +33,13 @@ It calculate a score for two kinds of page :
 
 ===== Configuration =====
 
-A [[#weight factor]] [[:configuration|configuration]] is applied and in this way, you can influence the redirection :
+A [[#weight factor]] [[docs:configuration|configuration]] is applied and in this way, you can influence the redirection :
 
   * When a page have the same name (by default 4)
   * When a page is a start page of a namespace (by default 3)
   * When a namespace match (by default 5)
 
-{{docs:url:best_page_name_weight_factor_conf.png|}}
+{{docs:router:best_page_name_weight_factor_conf.png|}}
 
 ===== Example =====
 

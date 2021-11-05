@@ -10,12 +10,12 @@
 ====== ComboStrap - Permanent Redirect ======
 
 ===== About =====
-An ''permanent redirect'' is a [[redirection|redirection method]] used by the [[url|URL manager]] that redirects [[#permanently|permanently]] a page to another page .
+An ''permanent redirect'' is a [[redirection|redirection method]] used by the [[router|URL manager]] that redirects [[#permanently|permanently]] a page to another page .
 
 
 They are executed when:
-  * when the [[docs:metadata:alias#redirect|alias type is redirect]].
-  * when the requested url is a [[docs:url:permalink#generated|generated permalink]].
+  * when the [[docs:router:alias#redirect|alias type is redirect]].
+  * when the requested url is a [[docs:router:permalink#generated|generated permalink]].
   * if the [[page_rules|page rules redirection]] leads to an existing page.
 
 

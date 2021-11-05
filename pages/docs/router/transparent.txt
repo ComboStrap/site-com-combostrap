@@ -1,0 +1,42 @@
+---json
+{
+    "canonical":"transparent:redirect",
+    "name":"Transparent Redirect",
+    "alias":[":redirection:transparent"]
+}
+---
+====== ComboStrap URL Management - Transparent Redirect ======
+
+
+===== About =====
+A ''transparent redirect'' is a [[redirection|redirection]] that shows the content of another page transparently (A visitor or a search engine bot will not see the redirection).
+
+It happens when the requested URL matches:
+  * the [[docs:page:url|page url (the canonical url)]]
+  * a [[docs:router:alias#synonym|synonym alias]] of a page
+  * a [[ban|banned path (bad behavior protection)]]
+
+
+
+===== Demo =====
+
+This page has a [[docs:router:alias#synonym|synonym]] of  '':redirection:transparent'' and is therefore accessible also from the below link.
+
+Click on the below button to test a transparent redirect:
+
+<webcode name="Default" frameborder="0">
+<btn>
+[[:redirection:transparent]]
+</btn>
+</webcode>
+
+
+
+
+
+
+
+
+===== Message =====
+A ''transparent redirect'' is silent and shows no message.
+
