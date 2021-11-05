@@ -10,9 +10,12 @@
 
 
 ===== About =====
-''WebSite'' is a [[type|page type]] that shows information to search engine over the whole website.
+''WebSite'' is a [[type|page type]] that shows information to [[docs:seo:seo|search engine]] over the whole website.
 
-Generally, you would have only one page of this type and it would be your [[docs:type:home#root|root home page]]. ''ComboStrap'' sets automatically a ''website'' [[type|type]] page on the [[#root|root home page]] if not set.
+Generally, you would have only one page of this type and it would be your [[docs:type:home#website|website home page]].
+
+
+<note>''ComboStrap'' sets automatically a ''website'' [[type|type]] page on the [[docs:type:home#website|website home page]] if not set.</note>
 
 
 The exact definition of a ''website'' from [[https://schema.org/WebSite|semantic.org]] is a set of related web pages that are served from a single web domain.
@@ -22,7 +25,7 @@ The exact definition of a ''website'' from [[https://schema.org/WebSite|semantic
 ===== Metadata =====
 The following metadata are automatically added to a ''website'' page:
   * ''url'', the base url
-  * ''name'', the website [[doku>config:title|title]]
+  * ''name'', the [[docs:app:name|website name]]
   * ''description'', the [[docs:app:tagline|tagline]]
   * ''image'', the [[docs:app:logo|logo]] (as png)
 

@@ -43,5 +43,5 @@ In the same way, you can also create a [[docs:layout:page:footer_slot|footer slo
 
 Then you can:
   * Check the [[docs:component|UI Components]]
-  * Learn about [[docs:router:url|URL Management and redirections]]
+  * Learn about [[docs:router:router|URL Management and redirections]]
   * Have a look at the [[docs:seo:seo|SEO page]]

@@ -12,7 +12,7 @@ A tagline is a short and appealing marketing description for your website.
 
 It's used:
   * in the ''description'' field of the [[docs:app:manifest|manifest]]
-  * in the [[docs:type:home#root|root home page]] [[docs:metadata:title|title]].
+  * in the [[docs:type:home#root|root home page]] [[docs:page:title|title]].
   * in the home page [[..:type:website|website metadata]] as site description.
 
 
@@ -20,5 +20,5 @@ It's used:
 
 ===== Enable =====
 
-To enable it, you just need to set the [[doku>config:tagline|tagline]] [[:configuration|configuration]] with a value.
+To enable it, you just need to set the [[doku>config:tagline|tagline]] [[docs:configuration|configuration]] with a value.
 
