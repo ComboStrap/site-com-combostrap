@@ -24,16 +24,11 @@ The image should be relevant to the page. For example, if you define an image fo
 
 
 
-===== Definition =====
 
-The image of a page is searched in this order:
-  - the first conform ''page image'' property defined 
-  - the first conform ''image'' in the page if not [[#disableFirstImageAsPageImage|disabled]]
-  - the first conform [[docs:app:logo|logo]]
 
 
 <note>
-For a [[docs:social:social|social image]] ([[docs:social:twitter#image|twitter]], [[docs:social:google#image|google]] and [[docs:social:facebook#image|facebook]]) have all differents image specifications, if the images found in a step is not conform (low resolution, bad type), the next step is taken.
+Because  [[docs:social:social|social image]] ([[docs:social:twitter#image|twitter]], [[docs:social:google#image|google]] and [[docs:social:facebook#image|facebook]]) have all differents image specifications, if the images found are not conform (low resolution, bad type), they are not used.
 </note>
 ===== How to set page images ? =====
 
@@ -41,8 +36,10 @@ The recommended images are:
    * high-resolution (minimum of 300,000 pixels when multiplying ''width'' and ''height'', to avoid blurry, unclear images)
    * with the following aspect ratios: ''16x9'', ''4x3'', and ''1x1'' (to avoid [[docs:content:image#cropping|cropping]])
 
-You can set the path of your image in the [[docs:metadata:manager|metadata manager]]. Note that you can't upload the images with the metadata manager for now, therefore:
-  * you need to upload your image while editing first.
+You can set the path of your image in the [[docs:metadata:manager|metadata manager]]. 
+
+Note that you can't upload the images with the metadata manager for now, therefore:
+  * you need to upload your image while editing first (note that the first image in your page is by default the page image).
   * or you can edit the [[docs:metadata:frontmatter|frontmatter]] directly.
 
 **Frontmatter example:**
@@ -57,7 +54,7 @@ You can set the path of your image in the [[docs:metadata:manager|metadata manag
 </code>
 
 <note>
-Moving image path with the [[support:plugin#move|move plugin]] will update the value in the [[docs:metadata:frontmatter|frontmatter]].
+Moving image path with the [[support:plugin#move|move plugin]] will update their path.
 </note>
 
 ===== Configuration =====
