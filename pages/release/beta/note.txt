@@ -201,6 +201,17 @@ Example:
 <code dw>
 <heading visible="none">Cache heading</heading>
 </code>
+
+
+==== Graph ====
+A graph view with:
+  * filtering on node
+  * on link direction:
+      * outgoing
+      * incoming
+  * depth: 1, 2 ...5
+
+See [[https://help.obsidian.md/Plugins/Graph+view|graph component]] of obsidian 
 ===== Cookie banner =====
 Good example at: https://groningen.nl/en/
 
@@ -286,8 +297,30 @@ https://new.nvsw.nl/
 ===== Alias =====
 
 
-  * Alias: php/switch and php/case
-  * Reverse / Permalink: html:svg = svg:html
+  * Alias example: 
+      * php/switch 
+      * and php/case
+  * Reverse / Permalink ? html:svg = svg:html
+
+===== Parser =====
+
+
+Features:
+  * support for:
+      * lookback 
+      * and lookahead patterns -  lookahead pattern to check for the closing markup first
+  * Lexical mode 
+  * Position in the file
+  * token type - When parsing it is sometimes useful to match a terminal against a set of Token Types
+  * Multiple Start Rules (([[https://chevrotain.io/docs/features/multiple_start_rules.html]])) - any subset of a language can be parsed without being wrapped in other constructs. Usage:
+     * Implementing "debugger watch expressions" and "evaluate expression" in an IDE.
+     * Parsing only modified text in an IDE for performance.
+     * Easy unit testing for small language snippets.
+
+
+
+
+https://chevrotain.io to parse on the server and on the browser !
 
 ===== Landing Page =====
   * [[https://twitter.com/maiale/status/1419687196311752704|Thread]]
