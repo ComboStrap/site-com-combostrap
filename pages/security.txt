@@ -32,6 +32,10 @@ We apply the [[https://w3c.github.io/webappsec-csp/|Content Security Policy fram
 By default, we disallow:
     * the framing of the website to prevent clickjacking.
     * the use of ''http'' and ''https'' at the same time
+
+==== No leak ====
+
+We set the ''Referrer-Policy'' to not send private URL to external domain.
 ===== Dokuwiki =====
 ''Dokuwiki'' follows also this rules (see [[doku>devel:security]]). We are making use of the CSRF token functionality.
 
