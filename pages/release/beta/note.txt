@@ -304,23 +304,68 @@ https://new.nvsw.nl/
 
 ===== Parser =====
 
+Javascript parser should be chosen to parse on the server and on the browser !
 
 Features:
   * support for:
       * lookback 
-      * and lookahead patterns -  lookahead pattern to check for the closing markup first
+      * and lookahead patterns -  lookahead pattern to check for the closing markup first (known also as validation mode)
   * Lexical mode 
   * Position in the file
-  * token type - When parsing it is sometimes useful to match a terminal against a set of Token Types
+  * token type:
+      * a block of block (layout) - does not open a logical p
+      * a block of inline (content) - open a logical p
+          * For instance: in commonmark, a block_quote block create an open paragraph block as child.
+      * an inline node - does not live outside a logical p
   * Multiple Start Rules (([[https://chevrotain.io/docs/features/multiple_start_rules.html]])) - any subset of a language can be parsed without being wrapped in other constructs. Usage:
      * Implementing "debugger watch expressions" and "evaluate expression" in an IDE.
      * Parsing only modified text in an IDE for performance.
      * Easy unit testing for small language snippets.
+  * Not two type of block such as inline and block. Ie a block just starts at a new line not inline.
+  * Soft wrap support: Paragraph are not closed in case of [[https://spec.commonmark.org/0.30/#lazy-continuation-line|lazy continuation line]] 
+  * A block may asks to subscribe to its children (tokenizer or rendering)
+      * For instance, a paragraph block is rendered in HTML
+            * by default with a p
+            * but a block may render it with another tag or not at all ([[https://getbootstrap.com/docs/4.0/components/card/#body|body card in bootstrap for instance does not have any p if there is no other children]])
+        * Advantage: No lookback on the tree at tag closure - Better Speed
+  * A block may impose a condition that the next line must satisfy if the block is to remain open. (([[https://spec.commonmark.org/0.30/#phase-1-block-structure]]))
+     * For example:
+      * A block quote requires a > character. 
+      * A paragraph requires a non-blank line. 
+  * Sibling / Parent node may be replaced. ie In Common Mark: [[https://spec.commonmark.org/0.30/#setext-heading-underline|Setext headings]] are formed when we see a line of a paragraph that is a setext heading underline.
+  * Node type:
+      * opening
+      * self-closing
+      * closing
+  * A mode may accept or refuse a token
+  * An env can be used alongside:
+      * tokens 
+      * lexer
+  * Mode Order / Override.
+    * If a mode is applied twice, it comes in a stack. The last one is called and if it returns false, the previous mode is chosen in the stack ((See [[https://marked.js.org/using_pro|Example: Overriding default codespan tokenizer to include LaTeX]]))
+  * Error reporting. If a mode was not closed properly (ie a mark or a link mode for instance)
+  * Sanitize by default
+  * Regexp attack test ? ie [[https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS#|Regular_expression_Denial_of_Service]]
 
 
 
 
-https://chevrotain.io to parse on the server and on the browser !
+FYI:
+<code javascript>
+const blockHtml = marked.parse('**strong** _em_');
+console.log(blockHtml); // '<p><strong>strong</strong> <em>em</em></p>'
+
+const inlineHtml = marked.parseInline('**strong** _em_');
+console.log(inlineHtml); // '<strong>strong</strong> <em>em</em>'
+</code>
+
+
+
+
+
+
+[[https://marked.js.org/using_advanced#workers|Workers or Server when too long]]
+
 
 ===== Landing Page =====
   * [[https://twitter.com/maiale/status/1419687196311752704|Thread]]
