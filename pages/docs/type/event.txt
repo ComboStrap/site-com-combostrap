@@ -13,10 +13,10 @@ An ''event page'' is a page that is advertising an event.
 
 To tag your page has a ''event'', you need to have:
   * the [[type|type of page]] set to ''event''
-  * a ''date_start'' set to the ''start'' [[docs:semantic:date|date]] of the event in the local timezone
-  * a ''date_end'' set to the ''end'' [[docs:semantic:date|date]] of the event
-  * [[docs:metadata:name|name]] - the name of the event
-  * [[docs:metadata:description|a description]] - the description of the event
+  * a ''date_start'' set to the ''start'' [[docs:metadata:date|date]] of the event in the local timezone
+  * a ''date_end'' set to the ''end'' [[docs:metadata:date|date]] of the event
+  * [[docs:page:name|name]] - the name of the event
+  * [[docs:page:description|a description]] - the description of the event
 
 
 

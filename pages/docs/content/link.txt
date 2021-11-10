@@ -35,7 +35,8 @@ Internal Links can also be [[?color=#495057|styled]]
 </webcode>
 
 <note>
-The default description if not set is the [[docs:page:name|page name]].
+  * The default description if not set is the [[docs:page:name|page name]].
+  * The URL may be made [[docs:page:url|permanent by adding the page identifier]]
 </note>
 
 

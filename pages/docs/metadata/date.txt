@@ -9,7 +9,11 @@
 ====== Metadata - Date ======
 
 ===== About =====
-When you add a date such as the [[docs:metadata:published|published date]], [[..:type:event|start/end date]] in the [[docs:metadata:frontmatter|frontmatter]], ComboStrap accepts a specific format.
+This page is about the date format found in the [[docs:metadata:frontmatter|frontmatter]].
+
+You normally will change the date with the [[docs:metadata:manager|metadata manager]] but if you want to define an advanced date format, you may do it manually.
+
+When you modify a date such as the [[docs:page:published|published date]], [[..:type:event|start/end date]] in the [[docs:metadata:frontmatter|frontmatter]], ComboStrap accepts a specific format.
 
 
 

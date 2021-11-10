@@ -23,21 +23,21 @@ This url:
       * [[docs:seo:serp|Search Engine Result Pages]]
       * [[docs:social:social|Social network Cards]]
   * helps [[docs:seo:seo|Search Crawler]] to detect duplicate pages
-  * is used in [[docs:router:redirection|every redirection]]
+  * is the target url of [[docs:router:redirection|every redirection]]
 
 
 ===== Permanent =====
 
 When you choose a permanent [[#type|url type]], ComboStrap will add a short page identifier based on the [[docs:page:page_id|page id]] at the end.
 
-Even if you change the type or content of the URL, the [[docs:router:url|router]] will always be able to find the page.
+Even if you change the type or content of the URL, the [[docs:router:router|router]] will always be able to find the page.
 
 The syntax is:
-  * With [[docs:router:nice|Nice Url]]
+  * With a [[docs:router:nice|Nice Url]]:
 <code javascript>
 https://domain.com/a-description/or-path-that-is-not-relevant/page-identifier
 </code>
-  * Without
+  * Otherwise:
 <code javascript>
 https://domain.com/doku.php?id=a-description:or-path-that-is-not-relevant:page-identifier
 </code>
@@ -49,3 +49,34 @@ This page has the path ''$path'' and has the permanent url: [[$path|$url]]
 </template>
 </code>
 </webcode>
+
+
+===== Type =====
+
+The page URL may get the following format:
+
+^ Type  ^ URL Path ^ Permanent ^ Default ^
+| ''page path'' | the [[docs:page:path|page path]] | No | Na |
+| ''permanent page path'' | the [[docs:page:path|page path]] and the short page identifier | Yes | Na |
+| ''canonical path'' | the [[docs:page:canonical|canonical path]] | No | ''page path'' |
+| ''permanent canonical path'' | the [[docs:page:canonical|canonical path]] and the short page identifier | Yes | ''permanent page path'' |
+| ''slug'' | the [[slug|slug path]] and the short page identifier | Yes | [[docs:page:title|page title]] in slug format |
+| ''hierarchical slug'' | the [[docs:page:name|page name]] of **all** [[docs:type:home|parent home pages]], the [[slug|slug path]] and the short page identifier | Yes | Na |
+| ''parent slug'' | the [[docs:page:name|page name]] of the [[docs:type:home|parent home page]], the [[slug|slug path]] and and the short page identifier | Yes | Na |
+
+You may choose the format with the [[#pageUrlType|page url type configuration]]
+
+
+===== Configuration =====
+
+==== pageUrlType ====
+The [[#type|page URL type]] may be chosen with the ''pageUrlType'' [[docs:configuration|configuration]].
+
+
+<note important>
+If you choose a permanent URL, the [[docs:page:page_id|page id]] becomes the only identifier and should therefore be in a backup.
+
+If:
+  * you have enabled the [[docs:metadata:frontmatter|frontmatter]], you may only backup your page
+  * otherwise you need to backup the page metadata directory
+</note>
