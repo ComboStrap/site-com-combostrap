@@ -15,8 +15,6 @@
 
 
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== The goal =====
 
@@ -41,7 +39,7 @@ This option will not delete the backend stylesheet but will reduce the size of t
 
 By default, this optimization is disabled.
 
-You can enable it by changing the ''enableMinimalFrontEndCss'' [[:configuration|configuration]]
+You can enable it by changing the ''enableMinimalFrontEndCss'' [[docs:configuration|configuration]]
 
 
 
@@ -51,8 +49,12 @@ You can even go a step further, if your front-end is completely based on ''Combo
 
 By default, this optimization is disabled.
 
-You can enable it by changing the ''disableDokuwikiStylesheet'' [[:configuration|configuration]]
+You can enable it by changing the ''disableDokuwikiStylesheet'' [[docs:configuration|configuration]]
 
+
+<note important>
+If you disable the backend stylesheet, the [[doku>interwiki#configuring_interwiki_shortcut_icons|interwiki icons]] will not show up anymore.
+</note>
 === Enable Preload ===
 
 <note warning>
@@ -70,7 +72,7 @@ If your front-end is completely based on ''ComboStrap'', you don't need to inclu
 This configuration goes even further with [[docs:utility:bootstrap|bootstrap version 5]] and delete [[docs:utility:jquery|Jquery]].
 
 <note important>
-If you use any analytics plugin such as the Google Analytics that relies on Javascript, you should not use/check this option.
+If you use any analytics plugin such as the [[docs:analytics:google_analytics|Google Analytics]] that relies on Javascript, you should not use/check this option.
 </note>
 
 If the configuration ''disableBackendJavascript'' is checked, the following javascript script will not be included in your pages:

@@ -35,7 +35,7 @@ Internal Links can also be [[?color=#495057|styled]]
 </webcode>
 
 <note>
-The default description if not set is the [[docs:metadata:name|page name]].
+The default description if not set is the [[docs:page:name|page name]].
 </note>
 
 
@@ -156,8 +156,8 @@ You can also stretch a link and make the whole parent clickable with the [[docs:
 ==== Preview ====
 
 By adding the ''preview'' attribute, you can create automatically a [[docs:content:tooltip|tooltip]] ''preview'' of the [[#internal|internal target page]] with:
-  * the [[docs:metadata:name|page name]]
-  * and the [[docs:metadata:description|description]]
+  * the [[docs:page:name|page name]]
+  * and the [[docs:page:description|description]]
 
 {{:docs:content:combostrap_link_preview.jpg|}}
 
@@ -201,11 +201,11 @@ You can't use the form ''s[]'' to highlight words.  Why ? See [[#Square bracket 
 
 To resolve this issue, we have set other class name by link type that a web designer can use to style the links.
 
-If you wish to get the Dokuwiki class name on your links, you can get them by enabling the [[:configuration|useDokuwikiLinkClassName configuration]].
+If you wish to get the Dokuwiki class name on your links, you can get them by enabling the [[docs:configuration|useDokuwikiLinkClassName configuration]].
 
 
 ==== disableLink ====
-If you don't want that ''Combostrap'' changes the default link behavior, you can disable it with the ''disableLink'' [[:configuration|configuration]].
+If you don't want that ''Combostrap'' changes the default link behavior, you can disable it with the ''disableLink'' [[docs:configuration|configuration]].
 
 Note that the link component enhances the [[doku>wiki:syntax#links|link]] syntax.
   * It allows any content inside. Dokuwiki allows only text and media. If you disable it, you can't style your link or add any icon in it.
@@ -217,7 +217,7 @@ If you enable this configuration, the [[#preview|preview]] attribute will be set
 
 ==== enableEnhancedLinkWizard ====
 
-In the  [[doku>toolbar|editor]], ComboStrap will make the ''link wizard'' also search for pattern in [[docs:metadata:path|path]], [[docs:metadata:title|title]], [[docs:metadata:h1|heading 1]] and [[docs:metadata:name|name]]
+In the  [[doku>toolbar|editor]], ComboStrap will make the ''link wizard'' also search for pattern in [[docs:page:path|path]], [[docs:page:title|title]], [[docs:page:h1|heading 1]] and [[docs:page:name|name]]
 
 {{:docs:content:link_wizard.png|}}
 

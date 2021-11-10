@@ -3,7 +3,7 @@
     "canonical":"transparent:redirect",
     "name":"Transparent Redirect",
     "alias":{
-       ":redirection:transparent":{ "type":"transparent" }
+       ":redirection:transparent":{ "type":"synonym" }
      }
 }
 ---
@@ -25,11 +25,11 @@ This page has a [[docs:router:alias#synonym|synonym]] of  '':redirection:transpa
 
 Click on the below button to test a transparent redirect:
 
-<webcode name="Default" frameborder="0">
+
 <btn>
-[[:redirection:transparent]]
+[[this>redirection/transparent#demo]]
 </btn>
-</webcode>
+
 
 
 
