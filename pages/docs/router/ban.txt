@@ -15,7 +15,7 @@
 
 We enforce a [[wp>Shadow_banning|shadow ban]] by performing a [[docs:router:transparent|transparent redirect]] to the website home page.
 
-For example, clicking on this well-known wordpress link [[this>wp-admin]] will send you to the home page if you are not logged in.
+For example, clicking on this well-known wordpress link [[this>wp-admin]] will send you to the home page (if you are not logged in).
 
 It has the benefits:
   * to preserve the resources of your server.
