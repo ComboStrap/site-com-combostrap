@@ -11,3 +11,13 @@
 ===== About =====
 The ''metadata manager'' permits to see and modify [[metadata|page metadatas]].
 
+
+===== Access =====
+
+You can access it via the [[docs:layout:page:railbar|railbar]]
+
+{{:docs:metadata:metadata_manager_railbar.png?200|}}
+
+By clicking on the railbar, the metadata manager will appear.
+
+{{:docs:metadata:metadata_manager.png?500|}}
