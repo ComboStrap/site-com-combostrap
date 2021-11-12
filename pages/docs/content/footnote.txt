@@ -28,12 +28,13 @@ A footnote ((A [[this>footnote|footnote]] about a footnote)) permits to add a re
   * The result:
 </webcode>
 
+\\
+\\
+\\
+
 <note>
 The formatting in the demo is broken because it runs in a ''iframe'' 
-but it should not be in your installation. The proof is that we have added a footnote in this page.
+but it should not be in your installation. The proof is that we have added a footnote in this page and the formatting is correct.
 </note>
 
-\\
-\\
-\\
 ===== Reference =====
