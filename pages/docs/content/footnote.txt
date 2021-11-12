@@ -10,9 +10,9 @@ A ''footnote'' (([[wp>Note_(typography)]])) is a syntax component that permits t
 
 ===== Syntax =====
 
-
+A footnote is delimited with two parenthesis.
 <code dw>
-(( footnote content ))
+(( your footnote content goes here and you can add a [[https://example.com/ref|reference link]] ))
 </code>
 
 
