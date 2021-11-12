@@ -1,0 +1,39 @@
+====== ComboStrap - Footnotes (Reference) ======
+
+
+
+
+===== About =====
+A ''footnote'' (([[wp>Note_(typography)]])) is a syntax component that permits to add reference that will be added at the foot of the page.
+
+
+
+===== Syntax =====
+
+
+<code dw>
+(( footnote content ))
+</code>
+
+
+===== Demo =====
+
+  * The footnote
+<webcode name="Footnote" iframe frameborder=1>
+<code dw>
+A footnote ((A [[this>footnote|footnote]] about a footnote)) permits to add a reference in the footer of the page.
+
+=== Reference ===
+</code>
+  * The result:
+</webcode>
+
+<note>
+The formatting in the demo is broken because it runs in a ''iframe'' 
+but it should not be in your installation. The proof is that we have added a footnote in this page.
+</note>
+
+\\
+\\
+\\
+===== Reference =====
