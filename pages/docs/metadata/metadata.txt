@@ -1,6 +1,6 @@
 ---json
 {
-   "canonical":"metadata",
+   "canonical":"page:metadata",
    "name":"Page Metadata"
 }
 ---
