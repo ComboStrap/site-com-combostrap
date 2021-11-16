@@ -51,7 +51,7 @@ Output without the [[docs:navigation:toc|table of contents]] and the ''user'' pr
 ===== Configuration =====
 
 ==== metadataViewerDefaultAttributes ====
-This [[:configuration|configuration]] set the default attributes of all metadata box.
+This [[docs:configuration|configuration]] set the default attributes of all metadata box.
 
 By default, the value filters the [[docs:navigation:toc|table of contents]].
 <code html>

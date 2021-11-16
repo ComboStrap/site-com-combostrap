@@ -16,7 +16,7 @@ The release ''1.20'' introduces a full template system based on the [[docs:templ
 === Breaking ===
   * With the advent of the [[docs:templating:iterator|iterator]], we have standardized the analytics name. If you have queries running on the [[docs:analytics:data|analytical data]], you should change them.
       * ''words_count'' is now ''word_count''
-      * ''id'' has been deleted and has become [[docs:metadata:path|path]]
+      * ''id'' has been deleted and has become [[docs:page:path|path]]
   * Php 5.6 is [[support:requirement|no more supported]]
 </note>
 
@@ -26,7 +26,7 @@ The release ''1.20'' introduces a full template system based on the [[docs:templ
 
   * The [[docs:templating:iterator|iterator]] to iterate over [[docs:templating:template|template]]
   * The [[docs:cache:page|cache]] component to set the validity of a page at interval to avoid [[https://forum.dokuwiki.org/d/19495-caching-problem-with-a-plugin/11|caching problem with iterator]]
-  * The [[docs:metadata:image|page image metadata]] set in the [[docs:metadata:frontmatter|frontmatter]]:
+  * The [[docs:page:image|page image metadata]] set in the [[docs:metadata:frontmatter|frontmatter]]:
       * are now updated when the [[docs:content:image|image]] is moved via the [[docs:getting_started:4_plugin#move|move plugin]]
       * are taken into account into the [[docs:analytics:statistics#media|media statistics]] and reported if they don't exist as [[docs:quality:broken_link|broken links]]
   * A [[support:plugin|page dedicated to the support of third party plugin]] to enhance our support.
@@ -37,7 +37,7 @@ The release ''1.20'' introduces a full template system based on the [[docs:templ
 
 
 ==== Improvement ====
-  * The [[docs:metadata:image|image metadata]] handles now two levels of image definitions allowing to group image.
+  * The [[docs:page:image|image metadata]] handles now two levels of image definitions allowing to group image.
   * The callstack manager can handle bad/old handler to prevent a fatal error such as ''Uncaught Error: Cannot access private property ImageMap_Handler::$calls''
   * [[support:plugin#imagemapping|imagemapping]] supports added (links should still not be on list) and we don't take over with our [[docs:content:link|link component]]
   * The [[docs:layout:component:masonry|masonry layout]] is now working with the [[docs:templating:iterator|iterator]] (The card and blockquote were searching themselves the context and got the iterator in place of masonry)
@@ -45,17 +45,17 @@ The release ''1.20'' introduces a full template system based on the [[docs:templ
 ==== Modification ====
   * ''card-columns'' has been rename to [[docs:layout:component:masonry|masonry]] to give a better description of what the layout is doing.
 ==== Deprecation ====
-  * The ''id'' is no more reported as in the [[docs:analytics:data|data metadata]] and was replaced by the [[docs:metadata:path|path]]
+  * The ''id'' is no more reported as in the [[docs:analytics:data|data metadata]] and was replaced by the [[docs:page:path|path]]
   * ''age_creation'' and ''age_modification'' have been deleted
   * The [[docs:analytics:data|data metadata]] have been enhanced to show [[docs:metadata:metadata|metadatas]] as they will appear in a [[docs:templating:template|template]].
 
 ==== Bug ====
   * Snippets of code could be missing (such as [[docs:utility:prism|prism]] to highlight the code) on certain page due to the new [[docs:navigation:historical_breadcrumb|historical breadcrumb]] that created snippets scoped to the previous page because of the link that can be [[docs:quality:protection|protected]]. The snippets are now merged to prevent any scope related problem.
-  * The format saved for the [[docs:metadata:published|published date]] was actually not IS08601 compliant because [[https://www.php.net/manual/en/class.datetimeinterface.php#datetime.constants.iso8601|the DATE_ISO8601 constant in PHP]] is actually not compliant but was kept for backward compatibility. The new constant format used in php is the one pointed in the documentation, namely ''DATE_ATOM''.
+  * The format saved for the [[docs:page:published|published date]] was actually not IS08601 compliant because [[https://www.php.net/manual/en/class.datetimeinterface.php#datetime.constants.iso8601|the DATE_ISO8601 constant in PHP]] is actually not compliant but was kept for backward compatibility. The new constant format used in php is the one pointed in the documentation, namely ''DATE_ATOM''.
   * Setting an ''id'' on a [[docs:content:heading#marki|marki heading]] is overwritten by the id generator making it useless. [[https://forum.dokuwiki.org/d/19523-dw-creates-broken-links-when-using-date-yyyy-mm-dd-as-section/28|Solution to Broken link discussion]]
   * Bad Svg were not tested and could then crash the rendering of a page. The [[docs:content:icon|icon]], the [[docs:content:svg|svg]] and [[docs:performance:svg_optimization|svg optimization]] has been corrected
   * Bug: [[docs:content:svg|svg]] was only visible for admin/manager when there was no cache (There was no mime due to security reason, we have added svg as supported format only for rendering).
 
 ==== Temporary warning ====
 
-The [[docs:metadata:published|Published]] format has changed that can cause temporary warning until the [[docs:analytics:process|data is refreshed]].
+The [[docs:page:published|Published]] format has changed that can cause temporary warning until the [[docs:analytics:process|data is refreshed]].
