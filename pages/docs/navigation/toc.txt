@@ -7,15 +7,28 @@
 ====== ComboStrap UI - Table of Content (TOC) ======
 
 ===== About =====
-The ''toc (table of content)'' is actually a feature of the [[docs:utility:renderer|combo renderer]]. 
+The ''toc (table of content)'' gives to the reader an overview of your page.
 
-It will be actually printed below the first [[docs:navigation:outline|outline heading]] ang gives to the reader an overview of your document.
+The ''toc'' is composed of the [[docs:navigation:outline|outline headings]].
+
+
+===== Features =====
+
+If you uses the [[docs:utility:renderer|combo renderer]], the TOC is printed below the [[docs:page:h1|first heading]].
 
 
 
-===== Articles Related =====
-{{backlinks>.}}
+
+
+
 
 ===== Configuration =====
-The TOC component supports the following native configuration:
-  * [[doku>config:tocminheads]]
+The TOC component supports: 
+  * all [[doku>toc#configuration|native configuration]] such as:
+      *  [[doku>config:tocminheads]]
+      * [[doku>config:maxtoclevel]]
+      * [[doku>config:toptoclevel]]
+  * the ''No toc'' tag to disable the [[doku>toc]] rendering
+<code dw>
+~~NOTOC~~
+</code>

@@ -2,7 +2,7 @@
 {
    "canonical":"navigation",
    "title":"All Navigational components",
-   "description":"how to improve the navigation of your website with the navigational component"
+   "description":"How to improve the navigation of your website with the navigational components"
 }
 ---
 
@@ -27,7 +27,7 @@
   * [[docs:layout:component:tabs]] : A tab when activated that shows its related [[docs:layout:component:panel|panel]]
   * [[docs:layout:component:accordion]] : A list of rows that when activated shows its related [[docs:layout:component:panel|panel]]
 
-==== Leaf Component ====
+==== Text Component ====
 
   * [[docs:menubar:search|Search]] - A search form
   * [[docs:content:button|Button]] - A button

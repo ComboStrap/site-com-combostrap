@@ -67,6 +67,7 @@ Bug: The [[docs:locale:lang_ar|lang ar]] is not working if the url has not the [
   * The ''buster'' key has been changed to ''tseed'' to be in line with dokuwiki.
   * The [[docs:router:bestendpagename|best end page name]] redirection algorithm will create an [[docs:router:alias|redirect alias]] if the score is bigger than 2. This behavior can be disabled with the [[docs:router:bestendpagename#configuration|BestEndPageMinimalScoreForAliasCreation configuration]].
   * The url manager is now known as the [[docs:router:router|router]] to reflect the fact that it routes request to the correct page. This is due to the new [[docs:page:url#permanent|permanent url]] and [[docs:router:ban|ban]] features.
+  * The [[docs:navigation:hierarchical_breadcrumb|hierarchical breadcrumb]] uses now the [[docs:page:name|page name]] in place of the [[docs:page:title|title]] (Sort of bug)
 
 ==== Bug ====
   * After a change in the [[docs:performance:svg_optimization|svg optimization]], the svg shown will not refresh. Cause: The [[docs:cache:static|static cache]] ''buster'' was using the time of the original SVG file and not from the optimized file.
