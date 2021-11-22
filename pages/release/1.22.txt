@@ -58,6 +58,7 @@ Bug: The [[docs:locale:lang_ar|lang ar]] is not working if the url has not the [
   * The lock file created by the [[support:plugin#move|move plugin]] is now checked for every parse. It was only checked for page move and was purging page automatically each time making the site really slow.
   * The [[docs:cache:sideslots|side slots cache management]] removes the cache only when one of the description attributes is updated (ie name, title, h1, description)
   * The [[docs:page:title|page title]] for a web page has been enhanced with the [[docs:type:home|namespace name]] and [[docs:app:name|website name]]
+  * The [[docs:utility:disqus|disqus identifier]] is now the [[docs:page:page_id|page id]] by default.
 
 ==== Changes ====
   * The acronym / name of  a [[docs:content:icon|icon library]] follows the library name of the [[https://icon-sets.iconify.design/|iconify search engine]]. Therefore:

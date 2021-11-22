@@ -8,11 +8,15 @@
 
 
 ===== About =====
-The ''disqus'' component will add a disqus forum.
-
-Since [[release:release|version 1.1]]
+The ''disqus'' component will add a disqus forum to your page.
 
 
+
+===== Example =====
+At the end of your page:
+<code dw>
+<disqus />
+</code>
 ===== Syntax =====
 
 <code dw>
@@ -20,7 +24,7 @@ Since [[release:release|version 1.1]]
     shortName="forumShortName"
     id="disqusIdentifier" 
     categoryId="categoryIdentifier"
-    url="urlIdentifier''
+    url="urlIdentifier"
 />
 </code>
 
@@ -28,14 +32,16 @@ Since [[release:release|version 1.1]]
 
 ^ Attributes  ^ Default to ^ Description ^
 | ''shortname'' | the [[#disqusDefaultAttributes]] configuration | It's the forum's shortname. It's the unique identifier for your website as registered on Disqus. |
-| ''id'' | The [[docs:metadata:canonical|canonical value]] and if not set to the [[doku>pagename|Dokuwiki Id]] | The chosen discussion ''identifier'' (ie the page) is persisted in in  the [[#disqus_identifier]] meta. |
-| ''url'' | the [[docs:metadata:canonical|canonical URL]] if set | The ''Url'' disqus configuration is used to come back from Disqus to your page |
+| ''id'' | The [[docs:page:page_id|page id]] | The chosen discussion ''identifier'' |
+| ''url'' | the [[docs:page:canonical|canonical URL]] if set | The ''Url'' disqus configuration is used to come back from Disqus to your page |
 | ''category'' | Not set | It's the category id number to be used for the current page |
-| ''title'' | the [[docs:metadata:title|title]] of the page | The title of the thread |
+| ''title'' | the [[docs:page:title|title]] of the page | The title of the thread |
 
 
 
-
+<note important>
+If you choose a specific id over the page id, don't change it otherwise if you have any comments, you will lose them.
+</note>
 
 
 
@@ -45,7 +51,7 @@ Since [[release:release|version 1.1]]
 ===== Configuration =====
 ==== disqusDefaultAttributes====
 
-''disqusDefaultAttributes'' is a [[:configuration|configuration]] that defines the default [[#syntax|attributes]] of the ''Disqus'' component. 
+''disqusDefaultAttributes'' is a [[docs:configuration|configuration]] that defines the default [[#syntax|attributes]] of the ''Disqus'' component. 
 
 It should at minimum have the ''forumShortName''
 
@@ -54,19 +60,9 @@ Example:
 shortName="yourRegisteredDisqusShortName"
 </code>
 
-==== disqus_identifier ====
-''disqus_identifier'' is a [[docs:metadata:metadata|meta]] that persist the chosen ''id''  over time.
 
-<note important>
-Don't change it if you have any comments, otherwise you will create a new discussion and lose them.
-</note>
 
 ===== Documentation / Reference =====
   * [[https://help.disqus.com/en/articles/1717084-javascript-configuration-variables|Disqus variable]]
   * A link to the [[https://disqus.com/admin/|admin panel]] to manage your comments
 
-===== Example =====
-
-<code dw>
-<disqus />
-</code>
