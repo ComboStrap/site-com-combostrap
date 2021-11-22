@@ -1,7 +1,8 @@
 ---json
 {
     "name":"Page Url",
-    "canonical":"page:url"
+    "canonical":"page:url",
+    "slug":"page-canonical-url"
 }
 ---
 
@@ -9,7 +10,7 @@
 
 
 ===== About =====
-The ''page url'' is the unique official url of a page known also as the ''canonical url''.
+The ''page url'' is the unique official URL of a page and is also known as the ''canonical url''.
 
 
 
@@ -41,11 +42,12 @@ https://domain.com/a-description/or-path-that-is-not-relevant/page-identifier
 <code javascript>
 https://domain.com/doku.php?id=a-description:or-path-that-is-not-relevant:page-identifier
 </code>
-Example: 
+===== Example =====
+
 <webcode name="Default" frameborder="0">
 <code dw display="none">
 <template>
-This page has the path ''$path'' and has the permanent url: [[$path|$url]]
+This page has the slug ''$slug'' and has the permanent url: [[$path|$url]]
 </template>
 </code>
 </webcode>
@@ -74,9 +76,9 @@ The [[#type|page URL type]] may be chosen with the ''pageUrlType'' [[docs:config
 
 
 <note important>
-If you choose a permanent URL, the [[docs:page:page_id|page id]] becomes the only identifier and should therefore be in a backup.
+If you choose a permanent URL, the [[docs:page:page_id|page id]] becomes the only identifier.
 
-If:
-  * you have enabled the [[docs:metadata:frontmatter|frontmatter]], you may only backup your page
-  * otherwise you need to backup the page metadata directory
+The metadata should then be backed up.
+  * if you have enabled the [[docs:metadata:frontmatter|frontmatter]], you may only backup your page
+  * otherwise you need to backup also the page metadata directory
 </note>

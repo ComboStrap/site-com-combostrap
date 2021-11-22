@@ -1,0 +1,33 @@
+---json
+{
+    "name":"Slug Path"
+}
+---
+
+====== Page - Slug Path ======
+
+
+===== About =====
+The ''slug'' is a custom page path that permits to customize at will your [[url|page url]] (if you choose to).
+
+
+===== Example =====
+
+With the slug value 
+<code>
+the:slug:that:you-have-chosen
+</code>
+and a [[url#configuration|page url configuration]] of ''slug'', the url of your page will be:
+<code html>
+http://example/com/the/slug/that/you-have-chosen-pageid
+</code>
+where ''pageid'' is a [[docs:page:page_id|short page id encoded]]
+===== Management =====
+
+==== Modification ====
+You can modify it via the [[docs:metadata:manager|metadata manager]]
+
+==== Configuration ====
+To be used, the [[url#configuration|page url configuration]] should be on one of the available ''slug'' configurations
+
+
