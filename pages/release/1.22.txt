@@ -39,6 +39,7 @@ Bug: The [[docs:locale:lang_ar|lang ar]] is not working if the url has not the [
   * We have created a dedicated page for the [[docs:app:name|app name]]
   * The [[docs:page:url|page url]] may be now permanent
   * The ''url manager'' is now known as the [[docs:router:router|router]] and performs now better [[docs:router:redirection|SEO redirection]].
+  * The [[docs:page:slug|slug metadata]] that can be used to create custom [[docs:page:url|page url]]
 
 ==== Deprecated ====
 

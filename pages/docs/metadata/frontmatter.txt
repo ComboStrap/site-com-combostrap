@@ -1,8 +1,8 @@
 ---json
 {
     "canonical":"frontmatter",
-    "title":"Frontmatter - (Set your page metadata)",
-    "description":"The metadata such as title and description will show up in the Search Engine Result Pages but also helps create Search Snippet."
+    "title":"How to add Frontmatter to your pages",
+    "description":"A frontmatter can be added to your pages to store your metadata. This page shows you how to enable this functionality."
 }
 ---
 
