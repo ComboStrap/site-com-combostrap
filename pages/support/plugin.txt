@@ -108,3 +108,13 @@ To be more detailed, the imagemapping plugin has created php file with HTML cont
 <file>
 Cannot modify header information - headers already sent by (output started at /home/travis/build/doku/lib/plugins/imagemapping/_test/jstests/ImageMapTest.php:1)
 </file>
+
+
+==== Plugin description ====
+
+
+If a [[docs:page:description|description]] was set with the [[doku>plugin:description|description plugin]] and that ComboStrap does not have any description set, we use it as the description.
+
+<note>
+Note that any changes made to the description via the [[docs:metadata:manager|metadata manager]] will update the standard description field, not the description of the [[doku>plugin:description|description plugin]].
+</note>
