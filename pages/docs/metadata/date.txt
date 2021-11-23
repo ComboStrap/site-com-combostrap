@@ -1,9 +1,13 @@
 ---json
 {
-    "canonical":"date",
-    "title":"ComboStrap - Date value and format",
-    "name":"Date format",
-    "description":"How to write a date in the frontmatter to be valid"
+    "alias": [
+        { "path": ":docs:semantic:date", "type": "redirect" }
+    ],
+    "canonical": ":date",
+    "description": "How to write a date in the frontmatter to be valid",
+    "name": "Date format",
+    "page_id": "lslbc2ojagbnher18956n",
+    "title": "Which date format are supported"
 }
 ---
 ====== Metadata - Date ======
