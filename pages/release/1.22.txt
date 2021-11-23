@@ -85,3 +85,4 @@ Bug: The [[docs:locale:lang_ar|lang ar]] is not working if the url has not the [
   * [[docs:social:facebook|facebook]]: the mime type of the [[docs:page:image|image]] was returning only the first letter of the mime (A refactoring has modified the mime type to a string in place of an array and as php allows to take the first element of string (ie a letter), no error was reported) - A test has been added.
   * The [[docs:router:message|redirection message]] was not shown when the [[docs:router:search_engine|redirect to search engine]] was performed.
   * [[docs:content:footnote|footnotes]] styling were missing
+  * The ''diff'' panel had no styling.
