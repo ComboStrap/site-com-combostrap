@@ -1,7 +1,10 @@
 ---json
 {
-    "name":"Metadata Manager",
-    "canonical":"metadata:manager"
+    "canonical": ":metadata:manager",
+    "description": "With the metadata manager, you can modify the metadata of a page via a form.",
+    "name": "Metadata Manager",
+    "page_id": "hn7rz2b1qtmeq728t40na",
+    "title": "How to set your metadata with the Metadata Manager"
 }
 ---
 
