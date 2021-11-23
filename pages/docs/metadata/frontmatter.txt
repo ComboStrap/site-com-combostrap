@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"frontmatter",
-    "title":"How to add Frontmatter to your pages",
-    "description":"A frontmatter can be added to your pages to store your metadata. This page shows you how to enable this functionality."
+    "canonical": ":frontmatter",
+    "description": "A frontmatter can be added to your pages to store your metadata. This page shows you how to enable this functionality.",
+    "page_id": "rgq4v5g81jbzju7rld2r7",
+    "title": "How to add Frontmatter to your pages"
 }
 ---
 
@@ -18,7 +19,9 @@ This functionality is used when you want to:
 
 It borrows its name from the [[kb>markup:front-matter|front matter book]]
 
-
+<note>
+The frontmatter is the [[wp>Single_source_of_truth|source of truth]] for ComboStrap. Any value in the frontmatter will take precedence over the [[docs:metadata:viewer|raw metadata]] or [[docs:analytics:database|internal database]] metadata.
+</note>
 
 
 
