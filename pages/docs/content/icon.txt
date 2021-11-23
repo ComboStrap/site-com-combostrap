@@ -209,7 +209,7 @@ On the server, the namespace is a location from the media directory: ''DOKUWIKI_
 
 ==== Default Library ====
 
-You can change the default library with the ''defaultIconLibrary'' [[:configuration|configuration]].
+You can change the default library with the ''defaultIconLibrary'' [[docs:configuration|configuration]].
 
 At installation time, the default library is [[#material design|material design]].
 

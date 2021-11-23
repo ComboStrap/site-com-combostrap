@@ -1,10 +1,11 @@
 ---json
 {
-    "canonical":"metadata:viewer",
-    "title":"The ComboStrap Metadata Viewer",
-    "description":"The ComboStrap Metadata Viewer is showing you the page metadata while editing it",
-    "keywords":"web,metadata,data structure",
-    "name":"Metadata Viewer"
+    "canonical": ":metadata:viewer",
+    "description": "The ComboStrap Metadata Viewer is showing you the page metadata while editing it.",
+    "keywords": "web,metadata,data structure",
+    "name": "Metadata Viewer",
+    "page_id": "onyh0nm03xkqnuq7ul29h",
+    "title": "The ComboStrap Metadata Viewer"
 }
 ---
 

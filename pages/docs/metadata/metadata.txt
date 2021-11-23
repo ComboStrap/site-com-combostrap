@@ -1,19 +1,16 @@
 ---json
 {
-   "canonical":"page:metadata",
-   "name":"Page Metadata"
+    "canonical": ":page:metadata",
+    "name": "Page Metadata",
+    "page_id": "g3ybk2voget4lnvle49la"
 }
 ---
-
 ====== ComboStrap - Metadata ======
-
 
 ===== About =====
 ''Page Metadata'' are data about pages. 
 
 The metadata can be seen and modified via the [[manager|Metadata Manager]].
-
-
 
 
 ===== Type =====
