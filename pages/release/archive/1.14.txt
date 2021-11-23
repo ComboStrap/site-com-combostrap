@@ -70,8 +70,8 @@ The [[docs:content:heading|heading component]] supports also the ATX markdown he
 You can now analyse the syntax used in your page with the [[docs:analytics:statistics#syntax_count|syntax count]] analytics.
 
 ==== RTL and Component Language support ====
-  * New: support for RTL language at the page level, through the [[docs:metadata:lang|lang metadata of frontmatter]], we apply now the right language and direction in the [[:strap|strap template]]. Example: [[docs:metadata:lang_ar]]
-  * New: [[docs:metadata:lang|Lang attribute]] to mix languages on the same page. Demo with English and Arabic languages: [[docs:metadata:lang_ar]]
+  * New: support for RTL language at the page level, through the [[docs:locale:lang|lang metadata of frontmatter]], we apply now the right language and direction in the [[:strap|strap template]]. Example: [[docs:locale:lang_ar]]
+  * New: [[docs:locale:lang|Lang attribute]] to mix languages on the same page. Demo with English and Arabic languages: [[docs:locale:lang_ar]]
 
 ==== Credits page added  ====
   * Added the [[:credits|credits page]]

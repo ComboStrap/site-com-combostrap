@@ -1,15 +1,16 @@
 ---json
 {
-    "canonical":"quality:dynamic_monitoring",
-    "title":"Dynamic Page Quality Monitoring Feature - Improve your page quality while writing",
-    "description":"Dynamic Page Quality Monitoring is a ComboStrap feature that encourages the writer to improve the quality score of the page. A message is shown that indicates the quality rules that can be improved and how."
+    "canonical": ":dynamic-quality-monitoring",
+    "description": "Dynamic Page Quality Monitoring is a ComboStrap feature that encourages the writer to improve the quality score of the page. A message is shown that indicates the quality rules that can be improved and how.",
+    "page_id": "oyjb9dw2wi82m26vg1pr9",
+    "title": "Improve your page quality with dynamic quality monitoring"
 }
 ---
 ====== ComboStrap Quality - Dynamic Page Monitoring ======
 
 
 ===== About =====
-''Dynamic Quality Page Monitoring'' is a feature that encourages the ''writer'' (users with edit permission) to improve the [[score|quality score]] of its page. 
+''Dynamic Quality Page Monitoring'' is a feature that encourages the ''writer'' (users with edit permission) to improve the [[score|quality score]] of its page.
 
 A message is shown for [[rule|quality rules]] that don't pass, indicating how they can be improved.
 
@@ -31,19 +32,19 @@ The message is shown when:
   * the [[low_quality_page|low quality page indicator]] has not been [[low_quality_page#manuall|set manually to false]]
 ===== Configuration =====
 ==== Excluded Quality Rules ====
-The [[:configuration|configuration]] ''excludedQualityRulesFromDynamicMonitoring'' lists the [[rule|quality rules]] that should not be monitored.
+The [[docs:configuration|configuration]] ''excludedQualityRulesFromDynamicMonitoring'' lists the [[rule|quality rules]] that should not be monitored.
 
 If you had a [[rule|quality rule]] in this list, it will not show up in the message.
 
 
-==== Disable for a page====
+==== Disable for a page ====
 
 You can disable the ''dynamic quality monitoring'' feature by setting the property ''dynamic_quality_monitoring'' in the [[docs:metadata:manager|metadata manager]] to ''false''.
 
- 
+
 ==== Disable totally ====
 
-You can disable totally the ''dynamic quality monitoring'' feature by selecting the [[:configuration|configuration disableDynamicQualityMonitoring]].
+You can disable totally the ''dynamic quality monitoring'' feature by selecting the [[docs:configuration|configuration disableDynamicQualityMonitoring]].
 
 
 
