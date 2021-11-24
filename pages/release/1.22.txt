@@ -41,7 +41,8 @@ Bug: The [[docs:locale:lang_ar|lang ar]] is not working if the url has not the [
   * The ''url manager'' is now known as the [[docs:router:router|router]] and performs now better [[docs:router:redirection|SEO redirection]].
   * The [[docs:page:slug|slug metadata]] that can be used to create custom [[docs:page:url|page url]]
   * We support now a migration from the [[support:plugin#plugin_description|plugin description]]. (ie the description is read but not written back)
-  * [[docs:page:keywords|Keywords]] because this is asked.
+  * You can set [[docs:page:keywords|Keywords]] (because this was asked gently)
+  * The [[docs:cache:page|page cache expiration frequency]] can be managed in the [[docs:metadata:manager|metadata manager]]
 
 ==== Deprecated ====
 
@@ -51,6 +52,7 @@ Bug: The [[docs:locale:lang_ar|lang ar]] is not working if the url has not the [
       * the metadata does not need to be show in the editor and therefore the ''enableMetadataViewerWhenEditing'' configuration became obsolete and was deprecated.
       * the special [[docs:type:organization|organization field]] has been deprecated. You should use now the [[docs:social:google#json-ld|json-ld field instead]]
   * The dokuwiki [[docs:content:link|link class syntax]] has been dropped. The styling follows completely bootstrap except for Interwiki that requires a background styling for the icons.
+  * The [[release:deprecated:cache|cache syntax component]] has been deprecated for the [[docs:cache:page|cache page expiration frequency metadata]]
 
 ==== Improvement ====
   * The [[docs:analytics:replication|data synchronization process]] is now treated as a real replication and got a ''date_synchronization'' and a [[docs:page:page_id|universal id]]. The synchronization is now also based on the database version file.

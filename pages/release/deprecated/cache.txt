@@ -1,0 +1,55 @@
+---json
+{
+    "canonical": ":page:cache:deprecated",
+    "description": "With the cache component, you can manage disable the cache of a page at interval",
+    "name": "Page Cache",
+    "title": "Set the cache expiration date of a page with the cache component"
+}
+---
+
+<cache expiration="@monthly"/>
+
+====== ComboStap Performance - Deprecated Page Cache component ======
+
+
+===== About =====
+
+<note important>
+The ''cache'' syntax component has been deprecated for the [[:docs:cache:page|page expiration frequency metadata]].
+
+This page has been preserved for general documentation.
+</note>
+
+
+With the ''page cache'' [[docs:component|component]], you can manage the [[docs:cache:cache|cache]] of a page and expires it at interval. 
+
+
+===== Example =====
+
+To delete your cache:
+  * daily at midnight:
+<code dw>
+<cache expiration="@daily"/>
+</code>
+  * At 12:02 on Monday
+<code dw>
+<cache expiration="02 12 * * 1"/>
+</code>
+
+
+
+===== Syntax =====
+
+<code dw>
+<cache expiration="cronExpression"/>
+</code>
+where ''cronExpression'' is a ''cron'' expression.
+
+<note>
+To create a ''cron'' expression easily, we recommend you the  [[https://crontab.guru/|crontab.guru wizard]]
+</note>
+
+===== How to check the next expiration date =====
+
+The expiration date can be seen in the cache tab of the [[docs:metadata:manager|metadata manager]]
+

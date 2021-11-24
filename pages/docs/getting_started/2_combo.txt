@@ -67,7 +67,7 @@ The ''combo'' term was chosen for this reason. It's just a ''combo''
 
 ''ComboStrap'' is tested against [[docs:getting_started:4_plugin|third party plugins]] but we can't test them all.
 
-This application has a large code base going from [[docs:cache:page|cache]] to [[docs:router:router|url]] and [[docs:component|user interface]] management.
+This application has a large code base going from [[:docs:cache:cache|cache]] to [[docs:router:router|routing]] and [[docs:component|user interface]] management.
 
 Plugins that are too old or does not respect the DokuWiki Interfaces may not work well with ''ComboStrap''.
 

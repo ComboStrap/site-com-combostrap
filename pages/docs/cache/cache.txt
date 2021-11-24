@@ -18,10 +18,10 @@
 ===== Type =====
 ==== Page ====
 
-All pages are cached until their content or any [[:configuration|global configuration]] is changed.
+All pages are cached until their content or any [[docs:configuration|app configuration]] is changed.
 
 <note>
-If you need to delete the page cache at interval because your page contains time-based data, you can use the [[docs:cache:page|page cache component]].
+If you need to delete the page cache at interval because your page contains time-based data, you can use the [[:docs:cache:page|page cache expiration frequency]].
 </note>
 
 ==== Side Slots ====

@@ -1,60 +1,80 @@
 ---json
 {
     "canonical": ":page:cache",
-    "description": "With the cache component, you can manage disable the cache of a page at interval",
+    "description": "With the page cache expiration frequency, you can schedule the expiration of a page cache at interval.",
     "name": "Page Cache",
-    "title": "Set the cache expiration date of a page with the cache component"
+    "page_id": "umot7hn7mn66hxmchai75",
+    "title": "How to manage the cache of a page with the cache expiration frequency"
 }
 ---
 
-<cache expiration="@monthly"/>
 
-====== ComboStap Performance - Page Cache component ======
+====== ComboStrap Cache - Page Cache Expiration Frequency ======
 
 
 ===== About =====
-With the ''page cache'' [[docs:component|component]], you can manage the [[..:cache:cache|cache]] of a page and expires it at interval. 
 
+The ''page cache expiration frequency'' is a [[docs:metadata:metadata|metadata]] that permits to set the [[cache|cache]] refresh interval of a page.
+
+A page is cached until:
+  * its content has changed
+  * the [[docs:app:configuration|app configuration]] [[doku>config:cachetime|cache time]] is not due.
+
+With this metadata, you can:
+  * schedule the expiration time
+  * for only one page
 
 ===== Example =====
 
-To delete your cache:
-  * daily at midnight:
-<code dw>
-<cache expiration="@daily"/>
+To refresh the cache of your page:
+  * at midnight daily:
+<code cron>
+@daily
 </code>
-  * At 12:02 on Monday
-<code dw>
-<cache expiration="02 12 * * 1"/>
+  * at 12:02 on Monday
+<code cron>
+02 12 * * 1
+</code>
+  * at midnight monthly:
+<code cron>
+@monthly
 </code>
 
+
+More examples can be seen on this [[https://crontab.guru/examples.html|page]].
 
 
 ===== Syntax =====
 
-<code dw>
-<cache expiration="cronExpression"/>
+The value is a ''cron'' expression
+  * named (''@daily'')
+  * or in the full format
+
+<code>
+┌───────────── minute (0 - 59)
+│ ┌───────────── hour (0 - 23)
+│ │ ┌───────────── day of the month (1 - 31)
+│ │ │ ┌───────────── month (1 - 12)
+│ │ │ │ ┌───────────── day of the week (0 - 6) (Sunday to Saturday;
+│ │ │ │ │
+│ │ │ │ │
+│ │ │ │ │
+* * * * *
 </code>
-where ''cronExpression'' is a ''cron'' expression.
 
 <note>
-To create a ''cron'' expression easily, we recommend you the  [[https://crontab.guru/|crontab.guru wizard]]
+We recommend the excellent [[https://crontab.guru/|crontab.guru wizard]] to create and validate your ''cron'' value
 </note>
 
+
+
+===== How to set the cache expiration frequency =====
+
+
+You can set it in the ''cache'' tab of the the [[docs:metadata:manager|metadata manager]]
+
+{{:docs:cache:combostrap_cache_expiration_frequency.png|}}
 ===== How to check the next expiration date =====
 
-The expiration date can be seen in the ''date_cache_expiration'' field of the [[docs:metadata:metadata|metadata]].
+The expiration date can be seen in the ''cache'' tab of the [[docs:metadata:manager|metadata manager]].
 
-
-
- 
-For instance, this page has a ''monthly'' expiration, check the ''date_cache_expiration'' in the ''metadata'' field of its analytical data. 
-
-<btn>[[?do=export_combo_analytics|View the analytical data for this page]]</btn>
-
-Example of output:
-<code javascript>
-"metadata": {
-        "date_cache_expiration": "YYYY-MM-DDT00:00:00+00:00"
-}
-</code>

@@ -9,7 +9,13 @@
 ====== Step by step: How to set a configuration value======
 
 ===== About =====
-This page shows you how to set a configuration value.
+This page shows you how to set a configuration value that is valid for your [[app|whole application]]
+
+
+<note tip>
+The configurations that are only valid for a page are called [[docs:metadata:metadata|metadata]]
+and can be changed via the [[docs:metadata:manager|metadata manager]].
+</note>
 
 ===== Steps =====
 
@@ -48,4 +54,4 @@ To set a configuration value, go to the [[doku>admin_window|Admin Window]]
 
 
 ===== Documentation / Reference =====
-  * [[doku>plugin:config]]
+This configuration interface is the [[doku>plugin:config|Dokuwiki Configuration Manager Plugin]].

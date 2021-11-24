@@ -72,6 +72,6 @@ where:
 
 
 <note>
-  * If your iteration is time-based, you may need to set a cache expiration on your page with the [[docs:cache:page|cache]] component
+  * If your iteration is time-based, you may need to set a [[:docs:cache:page|page cache expiration frequency]].
   * If the data does not return any rows, the iterator content is not printed (ie header and footer included)
 </note>

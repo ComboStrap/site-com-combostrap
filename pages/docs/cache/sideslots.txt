@@ -10,7 +10,7 @@
 
 
 ===== About =====
-The ''side slots'' (ie [[docs:layout:page:side_slot|side]] and [[docs:layout:page:sidekick_slot|sidekick]] slots) content are always up-to-date and does not require to disable the [[page|page cache]], increasing [[docs:performance:performance|performance]].
+The ''side slots'' (ie [[docs:layout:page:side_slot|side]] and [[docs:layout:page:sidekick_slot|sidekick]] slots) content are always up-to-date and does not require to disable the [[:docs:cache:page|page cache]], increasing [[docs:performance:performance|performance]].
 
 
 <note>
@@ -33,7 +33,7 @@ The cache:
   * is automatically deleted when:
       * a sub-pages of its namespace is added or deleted
       * one of the following attributes is updated:
-          * [[docs:metadata:name|page name]]
-          * [[docs:metadata:title|page title]]
-          * [[docs:metadata:h1|page h1]]
-          * [[docs:metadata:description|page description]]
+          * [[docs:page:name|page name]]
+          * [[docs:page:title|page title]]
+          * [[docs:page:h1|page h1]]
+          * [[docs:page:description|page description]]
