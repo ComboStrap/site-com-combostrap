@@ -2,13 +2,14 @@
 {
     "canonical": ":page:metadata",
     "name": "Page Metadata",
-    "page_id": "g3ybk2voget4lnvle49la"
+    "page_id": "g3ybk2voget4lnvle49la",
+    "title": "All the metadatas that you can set for your pages"
 }
 ---
 ====== ComboStrap - Metadata ======
 
 ===== About =====
-''Page Metadata'' are data about pages.
+''Page Metadata'' are structured data about pages. They are also known as semantic data.
 
 The metadata can be seen and modified via the [[manager|Metadata Manager]].
 
@@ -16,8 +17,8 @@ The metadata can be seen and modified via the [[manager|Metadata Manager]].
 ===== Type =====
 
 There is two groups of metadata:
-  * [[#managed]]: the properties that can be modified
-  * [[#protected]]: the properties that cannot be modified
+  * [[#managed]]: the user properties that can be modified via the [[docs:metadata:manager|metadata manager]]
+  * [[#protected]]: the properties that cannot be modified (internal or identifier)
 
 ==== Managed ====
 
@@ -44,6 +45,7 @@ The below properties are protected and cannot be changed:
   * ''date_modified'' - the modification date
   * ''user'', ''creator'', ''contributor''
   * [[docs:cache:page|date_cache_expiration]] - the expiration date of the cache if any
+  * [[docs:analytics:replication|date_replication]] - the last database replication date
   * [[..:page:page_id|page id]] - an universal unique identification
 
 

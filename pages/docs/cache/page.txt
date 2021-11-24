@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"page:cache",
-    "title":"Set the cache expiration date of a page with the cache component",
-    "description":"With the cache component, you can manage disable the cache of a page at interval"
+    "canonical": ":page:cache",
+    "description": "With the cache component, you can manage disable the cache of a page at interval",
+    "name": "Page Cache",
+    "title": "Set the cache expiration date of a page with the cache component"
 }
 ---
 
@@ -12,7 +13,7 @@
 
 
 ===== About =====
-With the ''page cache'' [[docs:component|component]], you can manage the [[..:cache:cache|cache]] of a page and expire it at interval. 
+With the ''page cache'' [[docs:component|component]], you can manage the [[..:cache:cache|cache]] of a page and expires it at interval. 
 
 
 ===== Example =====
@@ -49,7 +50,7 @@ The expiration date can be seen in the ''date_cache_expiration'' field of the [[
  
 For instance, this page has a ''monthly'' expiration, check the ''date_cache_expiration'' in the ''metadata'' field of its analytical data. 
 
-<btn>[[start?do=export_combo_analytics|View the analytical data for this page]]</btn>
+<btn>[[?do=export_combo_analytics|View the analytical data for this page]]</btn>
 
 Example of output:
 <code javascript>
