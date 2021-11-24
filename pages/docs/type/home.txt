@@ -39,13 +39,9 @@ On this website, this SQL will select the following pages.
 </iterator>
 
 ===== WebSite =====
-The website home page is the web page shown when a URL to your [[docs:app:app|website (domain)]] does have any path. For instance: https://yourdomain.com
+The website home page is a special home page that has its own page: [[docs:app:root]]
 
-This is also known as the top or root page and is generally the most viewed page.
 
-The website home page gets the [[docs:type:website|website type]] in order to add information on your website such as:
-  * [[docs:app:name|name]], [[docs:app:logo|logo]]
-  * and your [[docs:app:search|internal search engine]].
 
 ===== Configuration =====
 

@@ -14,6 +14,6 @@ It's a [[docs:navigation:navigation|navigational component]] that reflects the h
 ==== Enable ====
 The ''hierarchical breadcrumb'' is shown when:
   * the [[docs:utility:renderer|renderer is the combo renderer]]. 
-  * the [[doku>conf:youarehere|youarehere]] [[:configuration|configuration]] is set to ''on''
+  * the [[doku>conf:youarehere|youarehere]] [[docs:configuration|configuration]] is set to ''on''
 
 {{docs:block:youarehere.png?600|}}

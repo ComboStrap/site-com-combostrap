@@ -1,0 +1,24 @@
+---json
+{
+    "canonical": ":root",
+    "name": "WebSite Home Page",
+    "page_id": "35wdn29potxfo9bltfb5d"
+}
+---
+====== App - WebSite Home Page ======
+
+
+===== About =====
+The website home page is the web page shown when a URL to your [[docs:app:app|website (domain)]] does not have any path. For instance: https://yourdomain.com
+
+This is also known as the top or root [[docs:type:home|home page]] and is generally the most viewed page.
+
+
+===== Type =====
+
+The website home page gets the [[docs:type:website|website type]] in order to add information on your website such as:
+  * [[docs:app:name|name]], [[docs:app:logo|logo]]
+  * and your [[docs:app:search|internal search engine]].
+
+
+

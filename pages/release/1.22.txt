@@ -41,6 +41,7 @@ Bug: The [[docs:locale:lang_ar|lang ar]] is not working if the url has not the [
   * The ''url manager'' is now known as the [[docs:router:router|router]] and performs now better [[docs:router:redirection|SEO redirection]].
   * The [[docs:page:slug|slug metadata]] that can be used to create custom [[docs:page:url|page url]]
   * We support now a migration from the [[support:plugin#plugin_description|plugin description]]. (ie the description is read but not written back)
+  * [[docs:page:keywords|Keywords]] because this is asked.
 
 ==== Deprecated ====
 

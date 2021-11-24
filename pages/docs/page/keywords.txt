@@ -1,0 +1,17 @@
+====== Page KeyWords ======
+
+===== About =====
+''keywords'' are a couple of words that are relevant to the content of your page.
+
+They are added to the generated HTML page.
+
+
+It was requested for [[docs:seo:seo|SEO purpose]] but they have really little effect as they were used to cheat. [[https://developers.google.com/search/blog/2009/09/google-does-not-use-keywords-meta-tag|Google does not look at them at all]].
+
+===== How to update the page keywords ? =====
+
+You can update them with the [[docs:metadata:manager|metadata manager]].
+
+===== Default =====
+
+By default, ComboStrap will add all the words  found in the [[docs:page:name|name]] of the page and if its parent expected the [[docs:app:root|website home page]].
