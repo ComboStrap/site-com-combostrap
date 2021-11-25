@@ -18,7 +18,8 @@ The ''page cache expiration frequency'' is a [[docs:metadata:metadata|metadata]]
 
 A page is cached until:
   * its content has changed
-  * the [[docs:app:configuration|app configuration]] [[doku>config:cachetime|cache time]] is not due.
+  * any [[docs:app:configuration|app configuration]] is changed.
+  * the [[doku>config:cachetime|cache time]] is not due.
 
 With this metadata, you can:
   * schedule the expiration time
