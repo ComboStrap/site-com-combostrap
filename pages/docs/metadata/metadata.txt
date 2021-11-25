@@ -9,9 +9,16 @@
 ====== ComboStrap - Metadata ======
 
 ===== About =====
-''Page Metadata'' are structured data about pages. They are also known as semantic data.
+''Page Metadata'' are page configuration.
+
+They are also known as:
+  * semantic data.
+  * or structured data
 
 The metadata can be seen and modified via the [[manager|Metadata Manager]].
+
+
+
 
 
 ===== Type =====
@@ -85,6 +92,6 @@ The metadata are also available in the [[docs:analytics:data|analytics data]]
 
 ===== Replication =====
 
-If you want them in your page, you should enable the [[frontmatter|frontmatter]].
+If you want them in your file page, you should enable the [[frontmatter|frontmatter]].
 
 They will then be taken into account if your move your pages between different ComboStrap server installation.
