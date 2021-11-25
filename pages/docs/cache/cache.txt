@@ -19,9 +19,9 @@
 ==== Page ====
 
 
-If you need to delete the page cache at interval because your page contains time-based data, 
-you can use the [[:docs:cache:page|page cache expiration frequency]].
+The parsing and rendering of a page in different format is cached until some rules are met.
 
+Learn them in this page: [[page]]
 
 
 

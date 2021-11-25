@@ -16,7 +16,7 @@
 ===== About =====
 
 <note important>
-The ''cache'' syntax component has been deprecated for the [[:docs:cache:page|page expiration frequency metadata]].
+The ''cache'' syntax component has been deprecated for the [[docs:cache:pahe_expiration_frequency|page expiration frequency metadata]].
 
 This page has been preserved for general documentation.
 </note>

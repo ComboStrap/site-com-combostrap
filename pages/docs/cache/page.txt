@@ -1,81 +1,69 @@
 ---json
 {
-    "canonical": ":page:cache",
-    "description": "With the page cache expiration frequency, you can schedule the expiration of a page cache at interval.",
     "name": "Page Cache",
-    "page_id": "umot7hn7mn66hxmchai75",
-    "title": "How to manage the cache of a page with the cache expiration frequency"
+    "page_id": "p46nws4v027jel84v4a9m"
 }
 ---
+====== How the page cache is working ?======
 
-
-====== ComboStrap Cache - Page Cache Expiration Frequency ======
 
 
 ===== About =====
+This page is talking about the cache management of a page.
 
-The ''page cache expiration frequency'' is a [[docs:metadata:metadata|metadata]] that permits to set the [[cache|cache]] refresh interval of a page.
-
-A page is cached until:
+A page is composed of [[docs:layout:page:slot|slot]] (main, side) and each slot rendering goes into the cache until:
   * its content has changed
+  * its [[docs:metadata:metadata|metadata]] has changed
   * any [[docs:app:configuration|app configuration]] is changed.
-  * the [[doku>config:cachetime|cache time]] is not due.
+  * the [[#expiration date|expiration date]] is not due.
 
-With this metadata, you can:
-  * schedule the expiration time
-  * for only one page
-
-===== Example =====
-
-To refresh the cache of your page:
-  * at midnight daily:
-<code cron>
-@daily
-</code>
-  * at 12:02 on Monday
-<code cron>
-02 12 * * 1
-</code>
-  * at midnight monthly:
-<code cron>
-@monthly
-</code>
-
-
-More examples can be seen on this [[https://crontab.guru/examples.html|page]].
-
-
-===== Syntax =====
-
-The value is a ''cron'' expression
-  * named (''@daily'')
-  * or in the full format
-
-<code>
-┌───────────── minute (0 - 59)
-│ ┌───────────── hour (0 - 23)
-│ │ ┌───────────── day of the month (1 - 31)
-│ │ │ ┌───────────── month (1 - 12)
-│ │ │ │ ┌───────────── day of the week (0 - 6) (Sunday to Saturday;
-│ │ │ │ │
-│ │ │ │ │
-│ │ │ │ │
-* * * * *
-</code>
 
 <note>
-We recommend the excellent [[https://crontab.guru/|crontab.guru wizard]] to create and validate your ''cron'' value
+The [[docs:cache:sideslots|sideslot cache]] expires also when the name, h1, title or description metadata of the main slot changes. See the dedicated page about automatic side slot cache management: [[docs:cache:sideslots]]
 </note>
 
 
+===== Expiration Date =====
 
-===== How to set the cache expiration frequency =====
+You can set the expiration date of a page with two methods:
+  * by page: the [[#expiration frequency]]
+  * globally: the [[#cache time interval]]
+==== Expiration Frequency ====
+
+If you need to delete the page cache at interval because your page contains time-based data, 
+you can use the [[docs:cache:page_expiration_frequency|page cache expiration frequency]].
+
+==== Cache time interval ====
+The ''cache time'' interval is a standard dokuwiki [[docs:app:configuration|application configuration]] that sets a time interval.
+
+If the interval has expired since the last creation date of the cache, the cache has expired and there is a cache miss.
+
+You can read more on the [[doku>config:cachetime|Dokuwiki dedicated page]].
 
 
-You can set it in the ''cache'' tab of the the [[docs:metadata:manager|metadata manager]]
 
-{{:docs:cache:combostrap_cache_expiration_frequency.png|}}
-===== How to check the next expiration date =====
+===== Monitoring =====
 
-The expiration date can be seen in the ''cache'' tab of the [[docs:metadata:manager|metadata manager]].
+In the ''cache'' tab of the [[docs:metadata:manager|metadata manager]], you can see all cache hit or miss for the [[docs:layout:page:slot|slots]].
+
+
+For each slot, you can see the cache:
+  * for the parsing instructions (the parse tree)
+  * for the html page
+  * for the [[docs:metadata:metadata|metadata]]
+
+After 3 rendering, you should see only cache hits.
+  * the first rendering will do the initial work
+  * the second one will be partial  because we set a [[docs:analytics:replication|database replication date]] in the metadata
+  * the third one should be only cache hit.
+
+
+{{:docs:cache:combostrap_cache_hit.png|}}
+
+
+
+<note>
+When you hover on the cache hit link, you can see the individual date time of each cache file
+</note>
+
 

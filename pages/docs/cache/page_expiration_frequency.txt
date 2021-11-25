@@ -1,0 +1,74 @@
+---json
+{
+    "canonical": ":page-cache-expiration-frequency",
+    "description": "With the page cache expiration frequency, you can schedule the expiration of a page cache at interval.",
+    "page_id": "umot7hn7mn66hxmchai75",
+    "title": "How to manage the cache of a page with the cache expiration frequency"
+}
+---
+
+
+====== ComboStrap Cache - Page Cache Expiration Frequency ======
+
+
+===== About =====
+
+The ''page cache expiration frequency'' is a [[docs:metadata:metadata|metadata]] that permits to
+  * schedule the [[page|page cache]] expiration time
+  * for only one page
+  * based on a cron expression
+
+===== Example =====
+
+To refresh the cache of your page:
+  * at midnight daily:
+<code cron>
+@daily
+</code>
+  * at 12:02 on Monday
+<code cron>
+02 12 * * 1
+</code>
+  * at midnight monthly:
+<code cron>
+@monthly
+</code>
+
+
+More examples can be seen on this [[https://crontab.guru/examples.html|page]].
+
+
+===== Syntax =====
+
+The value is a ''cron'' expression
+  * named (''@daily'')
+  * or in the full format
+
+<code>
+┌───────────── minute (0 - 59)
+│ ┌───────────── hour (0 - 23)
+│ │ ┌───────────── day of the month (1 - 31)
+│ │ │ ┌───────────── month (1 - 12)
+│ │ │ │ ┌───────────── day of the week (0 - 6) (Sunday to Saturday;
+│ │ │ │ │
+│ │ │ │ │
+│ │ │ │ │
+* * * * *
+</code>
+
+<note>
+We recommend the excellent [[https://crontab.guru/|crontab.guru wizard]] to create and validate your ''cron'' value
+</note>
+
+
+
+===== How to set the cache expiration frequency =====
+
+
+You can set it in the ''cache'' tab of the the [[docs:metadata:manager|metadata manager]]
+
+{{:docs:cache:combostrap_cache_expiration_frequency.png|}}
+===== How to check the next expiration date =====
+
+The expiration date can be seen in the ''cache'' tab of the [[docs:metadata:manager|metadata manager]].
+
