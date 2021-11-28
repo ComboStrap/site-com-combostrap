@@ -1,51 +1,78 @@
 ---json
 {
-    "canonical":"support",
-    "title":"How to get help with ComboStrap",
-    "description":"We are here to help, don't hesitate to mail us. This page shows you also all other support channel on how to build a great website.",
-    "low_quality_page":"false",
-    "layout":"median"
+    "canonical": ":support",
+    "description": "We are here to help, don't hesitate to mail us. This page shows you also all other support channel on how to build a great website.",
+    "layout": "median",
+    "page_id": "zqtp19gqha03gfcbc63ya",
+    "title": "How to get help with ComboStrap"
 }
 ---
 
-====== ComboStrap - Where To Get Help ======
+====== Where To Get Information / Help ======
 
-
-<note spacing="my-3">
-''Feedback'' and ''Questions'' are always welcome. 
 
 \\
+\\
 
-[[:combostrap|ComboStrap]] comes from a custom product that was tailored to specific wishes and is migrating to a product that accommodates broader use cases. 
+You will find below [[docs:layout:component:tabs|tabs]] with all communication channels that you can use to get in-touch. Takes the one that suits you.
 
-Even if we think heel hard about it, real experience is the best feedback and we can't wait to hear what you have to say.
-</note>
 
 <tabs enclosed-tabs>
+
 <panel selected="true">
+<label>Announcement <icon name="bullhorn-variant" /></label>
+
+
+To get information about the new release, new features or new tutorials, you can subscribe to our newsletters by:
+  * [[support@combostrap.com?subject=subscribe|clicking on this link to create an email]] 
+  * and send it.
+
+</panel>
+<panel>
+<label>Discussions <icon name="github" /></label>
+You can start a discussion on Github.
+
+<btn spacing="mt-3">[[https://github.com/ComboStrap/combo/discussions|Discussions]]</btn> 
+</panel>
+
+<panel>
 <label>Easy as an Email <icon name="email"/></label>
 Feel free to contact us 
 
 <button spacing="mt-3" elevation="true">[[support@combostrap.com]]</button>
 </panel>
 
-<panel >
-<label>Twitter <icon name="twitter"/></label>
-=== For the latest news about ComboStrap ===
-
-<btn spacing="mt-3">
-[[https://twitter.com/combostrapweb|Follow us on Twitter ]]
-</btn>
-</panel>
 
 <panel >
-<label>Github <icon name="github" /></label>
+<label>Issues <icon name="github" /></label>
 The development happens on Github
 where you can open issues or asks questions.
 
-<btn spacing="mt-3">[[https://github.com/ComboStrap/combo/issues|ComboStrap Issues]]</btn> 
+<btn spacing="mt-3">[[https://github.com/ComboStrap/combo/issues|ComboStrap Issues]]</btn>
+
+If you are not sure, you can even start a [[#tabs2|discussion]]
+</panel>
+
+<panel >
+<label>Social <icon name="twitter" /></label>
+
+We are also present on [[https://twitter.com/combostrapweb|Twitter]]	 
+
 </panel>
 
 </tabs>
+
+
+
+\\
+\\
+
+<blockquote width="400" align="center" text-align="center">
+Your feedback is our real experience
+<cite>Dev</cite>
+</blockquote>
+
+\\
+\\
 
 
