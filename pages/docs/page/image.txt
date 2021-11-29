@@ -6,7 +6,8 @@
         { "path": ":docs:semantic:facebook_card.png" }
     ],
     "name": "Page Image",
-    "page_id": "ma3pma1fgig4oye93n2c8"
+    "page_id": "ma3pma1fgig4oye93n2c8",
+    "slug": ":image"
 }
 ---
 ====== Page Image ======
@@ -44,6 +45,13 @@ Note that you can't upload the images with the metadata manager for now, therefo
   * or you can edit the [[docs:metadata:frontmatter|frontmatter]] directly.
 
 **Frontmatter example:**
+  * Single Image
+<code json>
+{
+    "image": ":photos:1x1:photo.jpg"
+}
+</code>
+  * Multiple:
 <code json>
 {
     "image": [
@@ -60,5 +68,5 @@ Moving image path with the [[support:plugin#move|move plugin]] will update their
 
 ===== Configuration =====
 ==== disableFirstImageAsPageImage====
-The ''disableFirstImageAsPageImage'' is a [[docs:configuration|configuration]] that permits to disable the use of the first image of page as the image of a page.
+The ''disableFirstImageAsPageImage'' is a [[docs:app:configuration|configuration]] that permits to disable the use of the first image of page as the image of a page.
 

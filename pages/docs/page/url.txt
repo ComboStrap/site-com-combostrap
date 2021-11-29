@@ -3,7 +3,7 @@
     "canonical": ":page:url",
     "name": "Page Url",
     "page_id": "kxbb9fdvvqm6mm8sjw5oi",
-    "slug": ":page-canonical-url"
+    "slug": ":canonical-url"
 }
 ---
 
@@ -82,4 +82,21 @@ If you choose a permanent URL, the [[docs:page:page_id|page id]] becomes the onl
 The metadata should then be backed up.
   * if you have enabled the [[docs:metadata:frontmatter|frontmatter]], you may only backup your page
   * otherwise you need to backup also the page metadata directory
+</note>
+
+==== Relative / Absolute ====
+
+When using a [[#type|page path URL]], you can change the URL path via the [[doku>config:canonical|canonical]] [[docs:app:configuration|configuration]] between:
+  * relative (default):
+<code>
+./docs/page/url
+</code>
+  * or absolute (the domain is added)
+<code>
+https://example.com/docs/page/url
+</code>
+
+
+<note>
+For all other [[#type]], the URL is absolute.
 </note>
