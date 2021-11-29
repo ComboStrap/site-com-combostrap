@@ -1,6 +1,7 @@
 ---json
 {
-   "canonical":"cdn"
+    "canonical": ":cdn",
+    "page_id": "55ukl58fltrncw55zqiis"
 }
 ---
 
@@ -16,7 +17,7 @@
 
 ===== Configuration =====
 ==== useCDN ====
-The ''useCDN'' [[:configuration|configuration]] is on by default and can be switch off.
+The ''useCDN'' [[docs:app:configuration|configuration]] is on by default and can be switch off.
 
 
 

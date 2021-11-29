@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"itext",
-    "title":"itext: applies typographic effect to characters or words",
-    "description":"itext is a component that applies typographic effect to characters or words such as boldness, font-size and more"
+    "canonical": ":itext",
+    "description": "itext is a component that applies typographic effect to characters or words such as boldness, font-size and more",
+    "page_id": "2ykx98a7cyrdr4kbe0d04",
+    "title": "itext: applies typographic effect to characters or words"
 }
 ---
 ====== ComboStrap UI - Itext ======

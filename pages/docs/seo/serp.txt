@@ -1,7 +1,8 @@
 ---json
 {
-    "name":"Search Engine Result Pages",
-    "canonical":"serp"
+    "canonical": ":serp",
+    "name": "Search Engine Result Pages",
+    "page_id": "ywca2uu471phej8s6cqy9"
 }
 ---
 

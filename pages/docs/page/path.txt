@@ -1,9 +1,10 @@
 ---json
 {
-    "canonical":"page:path",
-    "name":"Page Path",
-    "title":"The page path metadata",
-    "description":"The page path metadata is the full qualified path of a page that can be used in link"
+    "canonical": ":page:path",
+    "description": "The page path metadata is the full qualified path of a page that can be used in link",
+    "name": "Page Path",
+    "page_id": "hpdh5ouge3pjl41r7mwmz",
+    "title": "The page path metadata"
 }
 ---
 ====== ComboStrap Metadata - Page Path ======

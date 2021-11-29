@@ -1,10 +1,10 @@
 ---json
 {
-    "canonical":"changes",
-    "title":"Release - A log of all ComboStrap changes and release",
-     "description":"This page logs the release history",
-     "layout":"median",
-     "low_quality_page":"false"
+    "canonical": ":changes",
+    "description": "This page logs the release history",
+    "layout": "median",
+    "page_id": "g2si7zbbvfjkv2ynvlpxl",
+    "title": "Release - A log of all ComboStrap changes and release"
 }
 ---
 

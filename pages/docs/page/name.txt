@@ -1,9 +1,10 @@
 ---json
 {
-    "canonical":"page:name",
-    "name":"Page Name",
-    "title":"The page name metadata",
-    "description":"The page name metadata is the shortest description of a page"
+    "canonical": ":page:name",
+    "description": "The page name metadata is the shortest description of a page",
+    "name": "Page Name",
+    "page_id": "19h11jh7vmltu12lpj2ly",
+    "title": "The page name metadata"
 }
 ---
 ====== ComboStrap Metadata - Page Name ======

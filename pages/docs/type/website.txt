@@ -1,9 +1,10 @@
 ---json
 {
-    "canonical":"semantic:site",
-    "title":"How to advertise your website information to be harvested by Search Engine",
-    "description":"This article describe the site metadata that are added to the home page",
-    "name":"Website (Home) page"
+    "canonical": ":semantic:site",
+    "description": "This article describe the site metadata that are added to the home page",
+    "name": "Website (Home) page",
+    "page_id": "lsdb6yi83twxv5qd3p3c1",
+    "title": "How to advertise your website information to be harvested by Search Engine"
 }
 ---
 ====== ComboStrap Metadata - Website (Home Page) ======

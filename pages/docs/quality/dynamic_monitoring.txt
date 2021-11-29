@@ -32,7 +32,7 @@ The message is shown when:
   * the [[low_quality_page|low quality page indicator]] has not been [[low_quality_page#manuall|set manually to false]]
 ===== Configuration =====
 ==== Excluded Quality Rules ====
-The [[docs:configuration|configuration]] ''excludedQualityRulesFromDynamicMonitoring'' lists the [[rule|quality rules]] that should not be monitored.
+The [[docs:app:configuration|configuration]] ''excludedQualityRulesFromDynamicMonitoring'' lists the [[rule|quality rules]] that should not be monitored.
 
 If you had a [[rule|quality rule]] in this list, it will not show up in the message.
 
@@ -44,7 +44,7 @@ You can disable the ''dynamic quality monitoring'' feature by setting the proper
 
 ==== Disable totally ====
 
-You can disable totally the ''dynamic quality monitoring'' feature by selecting the [[docs:configuration|configuration disableDynamicQualityMonitoring]].
+You can disable totally the ''dynamic quality monitoring'' feature by selecting the [[docs:app:configuration|configuration disableDynamicQualityMonitoring]].
 
 
 

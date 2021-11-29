@@ -1,6 +1,7 @@
 ---json
 {
-   "canonical":"toolbar"
+    "canonical": ":toolbar",
+    "page_id": "yyyzdmbcprk3nctup7sbq"
 }
 ---
 
@@ -21,7 +22,7 @@ The ''railbar'' is a navigation rail with all [[doku>devel:menus|menus actions]]
 
 ===== Features =====
 
-  * It's located at the end side of the template (ie right for a LTR language, left for a RTL [[docs:metadata:lang|language]]).
+  * It's located at the end side of the template (ie right for a LTR language, left for a RTL [[docs:locale:lang|language]]).
   * It follows the scrolling of the page 
   * It is available in two layouts:
       * ''offcanvas''
@@ -31,7 +32,7 @@ The ''railbar'' is a navigation rail with all [[doku>devel:menus|menus actions]]
 ===== Configuration =====
 ==== privateRailbar ====
 
-You can cache the ''railbar'' from anonymous users with the  ''privateRailbar'' [[:configuration|configuration]].
+You can cache the ''railbar'' from anonymous users with the  ''privateRailbar'' [[docs:app:configuration|configuration]].
 
 When this configuration is on, you can log in again at: https://yourdomain.com/?do=login
 

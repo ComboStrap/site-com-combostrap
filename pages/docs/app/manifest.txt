@@ -1,3 +1,9 @@
+---json
+{
+    "canonical": ":manifest",
+    "page_id": "rg4jl5d7y2hqdcjohka3i"
+}
+---
 ====== Strap - Web App Manifest ======
 
 ===== About =====

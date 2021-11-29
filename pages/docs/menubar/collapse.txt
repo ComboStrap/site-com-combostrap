@@ -1,6 +1,7 @@
 ---json
 {
-    "canonical":"collapse"
+    "canonical": ":collapse",
+    "page_id": "zn599akkboj3i3dcmp9mv"
 }
 ---
 

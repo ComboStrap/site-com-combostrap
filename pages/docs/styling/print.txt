@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"print",
-    "title":"ComboStrap - Print",
-    "description":"How to handle component on print"
+    "canonical": ":print",
+    "description": "How to handle component on print",
+    "page_id": "zopyq1vogclrzzonbezoq",
+    "title": "ComboStrap - Print"
 }
 ---
 ====== ComboStrap Styling - Print ======

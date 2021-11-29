@@ -1,6 +1,7 @@
 ---json
 {
-    "canonical":"content-list"
+    "canonical": ":content-list",
+    "page_id": "8zwf12iajo22wwwyxzi41"
 }
 ---
 

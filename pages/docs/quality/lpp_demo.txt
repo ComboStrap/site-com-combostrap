@@ -1,9 +1,10 @@
 ---json
 {
-    "canonical":"late_publication_example",
-    "name":"Late Publication Page",
-    "title":"Late Publication Demo Page",
-    "published":"2999-01-01"
+    "canonical": ":late_publication_example",
+    "date_published": "2999-01-01T00:00:00+00:00",
+    "name": "Late Publication Page",
+    "page_id": "tt8p64vnh3ijix2yf6qrc",
+    "title": "Late Publication Demo Page"
 }
 ---
 ====== Late Publication Page Demo ======

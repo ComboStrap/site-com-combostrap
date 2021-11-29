@@ -1,8 +1,8 @@
 ---json
 {
-    "canonical":"release:archive",
-    "title":"ComboStrap - Archive of the release documentation",
-    "low_quality_page":"false"
+    "canonical": ":release:archive",
+    "page_id": "r09e8vizk2mfpxkh7n05a",
+    "title": "ComboStrap - Archive of the release documentation"
 }
 ---
 ====== ComboStrap - Release Archive ======

@@ -1,9 +1,8 @@
 ---json
 {
-    "canonical":"deprecated",
-    "title":"ComboStrap - Deprecated features",
-    "description":"This page regroups all ComboStrap deprecated features",
-    "low_quality_page":"false"
+    "canonical": ":deprecated",
+    "description": "This page regroups all ComboStrap deprecated features",
+    "page_id": "9uis7n7dklfycm00ooyxg"
 }
 ---
 ====== ComboStrap - Deprecated features ======

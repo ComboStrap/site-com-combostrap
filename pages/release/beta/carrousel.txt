@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"carrousel",
-    "title":"How to create a carrousel layout",
-    "description":"The carrousel component permits to layout and to scroll components horizontally."
+    "canonical": ":carrousel",
+    "description": "The carrousel component permits to layout and to scroll components horizontally.",
+    "page_id": "jp4qhbhgdeg3pxkzvzry3",
+    "title": "How to create a carrousel layout"
 }
 ---
 ====== ComboStrap - Carrousel Layout ======

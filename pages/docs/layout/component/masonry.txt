@@ -1,3 +1,9 @@
+---json
+{
+    "canonical": ":masonry",
+    "page_id": "d2afbygfvqzs2j53y723u"
+}
+---
 ====== ComboStrap UI - Masonry ======
 
 

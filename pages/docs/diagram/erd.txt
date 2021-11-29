@@ -1,9 +1,10 @@
 ---json
 {
-    "canonical":"erd",
-    "name":"Entity RelationShip Diagram",
-    "title":"How to create a Entity RelationShip Diagram with ComboStrap",
-     "description":"This article shows you how to create a Entity RelationShip Diagram."
+    "canonical": ":erd",
+    "description": "This article shows you how to create a Entity RelationShip Diagram.",
+    "name": "Entity RelationShip Diagram",
+    "page_id": "psggvh7pif191ft1dzczn",
+    "title": "How to create a Entity RelationShip Diagram with ComboStrap"
 }
 ---
 ====== ComboStrap Diagram - Entity RelationShip Diagram (ERD) ======

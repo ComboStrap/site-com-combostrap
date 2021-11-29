@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"text",
-    "title":"ComboStrap - Text component - Apply text typographic effects",
-     "description":"The text component lets you apply text typographic effects on one ore more paragraph."
+    "canonical": ":text",
+    "description": "The text component lets you apply text typographic effects on one ore more paragraph.",
+    "page_id": "n0r56wieo6820sjbdrnmk",
+    "title": "ComboStrap - Text component - Apply text typographic effects"
 }
 ---
 

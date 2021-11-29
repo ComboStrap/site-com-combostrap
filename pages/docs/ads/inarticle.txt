@@ -1,6 +1,7 @@
 ---json
 {
-   "canonical":"automatic/in-article/ad"
+    "canonical": ":automatic:in-article:ad",
+    "page_id": "i2hsw74p8wz4jh985iui5"
 }
 ---
 
@@ -24,9 +25,9 @@ This placement conforms to most of the Ads network rules.
 ==== Enable the Renderer ====
 
 
-The [[docs:utility:renderer|Combo Renderer]] is responsible to inject the ad in the page. 
+The [[docs:utility:renderer|Combo Renderer]] is responsible to inject the ad in the page.
 
-You need to [[:configuration|configure]] it as your renderer.
+You need to [[docs:app:configuration|configure]] it as your renderer.
 
 {{docs:block:combo_renderer_setting.png?500|}}
 
@@ -35,7 +36,7 @@ You need to [[:configuration|configure]] it as your renderer.
 
 Because the ''ads'' are stored as page, they are by default added to the index.
 
-You need to set a configuration to prevent it. 
+You need to set a configuration to prevent it.
 
 See [[conf]]
 
@@ -57,6 +58,6 @@ For instance:
 
 
 ==== AdsInArticleShowPlaceholder ====
-''AdsInArticleShowPlaceholder '' is a [[:configuration|configuration]] that will show a placeholder when a ''in-article'' [[page|ads page]] is not found.
+''AdsInArticleShowPlaceholder '' is a [[docs:app:configuration|configuration]] that will show a placeholder when a ''in-article'' [[page|ads page]] is not found.
 
 This is a debugging configuration and is therefore by default ''off''.

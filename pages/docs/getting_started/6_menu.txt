@@ -1,3 +1,9 @@
+---json
+{
+    "canonical": ":6_menu",
+    "page_id": "rtc8cfn4cafxhrojpog8m"
+}
+---
 ====== ComboStrap Getting Started - Creation of a top menu bar======
 
 

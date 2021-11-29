@@ -1,8 +1,8 @@
 ---json
 {
-    "canonical":"position",
-    "title":"ComboStrap Styling - Position",
-    "description":"How to position an element"
+    "canonical": ":position",
+    "description": "How to position an element",
+    "page_id": "3xys1fd9t77ecptazv5h5"
 }
 ---
 ====== ComboStrap Styling - Position ======

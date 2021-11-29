@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"clickable",
-    "title":"ComboStrap Styling - Make a whole component clickable",
-    "description":"When a component contains a link, you can make the whole surface clickable with the clickable attribute"
+    "canonical": ":clickable",
+    "description": "When a component contains a link, you can make the whole surface clickable with the clickable attribute",
+    "page_id": "omoptgrdx7fi1vw7yh0zw",
+    "title": "ComboStrap Styling - Make a whole component clickable"
 }
 ---
 ====== ComboStrap Styling - Clickable (Stretched link) ======

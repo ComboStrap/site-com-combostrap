@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"page:event",
-    "title":"Event Page",
-    "description":"An event page is a page that is describing an event"
+    "canonical": ":page:event",
+    "description": "An event page is a page that is describing an event",
+    "page_id": "wy1qlu5qhctf3ztp7jhdw",
+    "title": "Event Page"
 }
 ---
 ====== ComboStrap Semantic - Event ======

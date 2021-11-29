@@ -1,10 +1,12 @@
 ---json
 {
-    "canonical": "page-image",
-    "name": "Page Image",
-    "title": "Page-image Component: Renders the illustrative image of your page",
+    "canonical": ":page-image",
     "description": "Page-image is a component that renders the illustrative image of the page and is generally used in a template.",
-    "image": ":docs:content:surfer600.png"
+    "image": [
+        { "path": ":docs:content:surfer600.png" }
+    ],
+    "page_id": "q488r8aajeb36b3jz8z92",
+    "title": "Page-image Component: Renders the illustrative image of your page"
 }
 ---
 ====== ComboStrap UI - Page Image Component ======

@@ -1,8 +1,8 @@
 ---json
 {
-    "name":"Configuration",
-    "canonical":"configuration",
-    "layout":"median"
+    "canonical": ":configuration",
+    "layout": "median",
+    "page_id": "ej724rlcllpz96c4ici2d"
 }
 ---
 

@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"opacity",
-    "title":"How to set the Opacity / Alpha or Transparency",
-    "description":"The opacity attribute permits to set the opacity (alpha/transparency) of any component."
+    "canonical": ":opacity",
+    "description": "The opacity attribute permits to set the opacity (alpha\/transparency) of any component.",
+    "page_id": "63xpitmcite9wbwpvxwhf",
+    "title": "How to set the Opacity \/ Alpha or Transparency"
 }
 ---
 ====== ComboStrap Styling - Opacity (Transparency) ======

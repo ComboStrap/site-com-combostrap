@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"broken:link",
-    "title":"A broken link is a link that points to a non-existing page or media",
-    "description":"This page will show you how to monitor the list of broken links for your ComboStrap website"
+    "canonical": ":broken:link",
+    "description": "This page will show you how to monitor the list of broken links for your ComboStrap website",
+    "page_id": "1s427m6x9gndvb7rvy0ex",
+    "title": "A broken link is a link that points to a non-existing page or media"
 }
 ---
 

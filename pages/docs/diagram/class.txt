@@ -1,9 +1,10 @@
 ---json
 {
-    "canonical":"class-diagram",
-    "name":"Class Diagram",
-    "title":"How to create a class diagram with ComboStrap",
-     "description":"This article shows you how to create a class diagram."
+    "canonical": ":class-diagram",
+    "description": "This article shows you how to create a class diagram.",
+    "name": "Class Diagram",
+    "page_id": "sbqkdk8yu75saexdaxq0c",
+    "title": "How to create a class diagram with ComboStrap"
 }
 ---
 ====== ComboStrap Diagram - Class Diagram ======

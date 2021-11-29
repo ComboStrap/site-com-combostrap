@@ -1,3 +1,9 @@
+---json
+{
+    "canonical": ":side_slot",
+    "page_id": "xhixvt6md9ryujvs1r4l7"
+}
+---
 ====== Strap - Side Slot ======
 
 ===== About =====
@@ -15,4 +21,4 @@ See [[docs:cache:sideslots]]
 ===== Configuration =====
 ==== sidebar ====
 
-In Dokuwiki, the ''side slot'' is known as the sidebar. You can change the name of the side slot page with the [[doku>config:sidebar|dokuwiki sidebar]] [[:configuration|configuration]]
+In Dokuwiki, the ''side slot'' is known as the sidebar. You can change the name of the side slot page with the [[doku>config:sidebar|dokuwiki sidebar]] [[docs:app:configuration|configuration]]

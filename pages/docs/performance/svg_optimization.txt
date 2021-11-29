@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"svg:optimization",
-    "title":"Svg Optimization included",
-    "description":"ComboStrap optimizes by default all SVG making them smaller without losing any quality."
+    "canonical": ":svg:optimization",
+    "description": "ComboStrap optimizes by default all SVG making them smaller without losing any quality.",
+    "page_id": "5xr4dw0aerrcc5rbfobif",
+    "title": "Svg Optimization included"
 }
 ---
 ====== ComboStrap - Svg Optimization ======

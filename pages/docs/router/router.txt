@@ -1,7 +1,7 @@
 ---json
 {
-   "canonical":"router",
-   "name":"Router"
+    "canonical": ":router",
+    "page_id": "enrychc14u1or1tt14u52"
 }
 ---
 ====== ComboStrap - Request Router ======
@@ -37,6 +37,6 @@ Bad actors are scanning your web server for vulnerability, when they do, we [[do
 
 ===== Configuration =====
 ==== enableUrlManager ====
-The [[docs:configuration|configuration]] ''enableUrlManager'' permits to disable/enable the router entirely.
+The [[docs:app:configuration|configuration]] ''enableUrlManager'' permits to disable/enable the router entirely.
 
 

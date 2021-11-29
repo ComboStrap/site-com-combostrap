@@ -1,6 +1,7 @@
 ---json
 {
-    "canonical":"box"
+    "canonical": ":box",
+    "page_id": "ysv3xg4lznop91kyllgjs"
 }
 ---
 ====== ComboStrap UI - Box ======

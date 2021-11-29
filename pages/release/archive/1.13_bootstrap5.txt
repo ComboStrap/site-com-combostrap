@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"boostrap5",
-    "title":"ComboStrap - Release 1.13 - BootStrap 4 to 5 Migration Changes",
-    "layout":"median"
+    "canonical": ":boostrap5",
+    "layout": "median",
+    "page_id": "fk6mcn7x7aqkxihd1nd59",
+    "title": "ComboStrap - Release 1.13 - BootStrap 4 to 5 Migration Changes"
 }
 ---
 ====== ComboStrap - Release 1.13 - BootStrap 4 to 5 ======
@@ -27,7 +28,7 @@ If you got any problem on this migration, don;'t hesitate to [[:support|open a t
   * [[https://getbootstrap.com/docs/5.0/utilities/position/|Position]] more position utility class already supported (in Bootstrap version 4) via the [[release:beta:position|position attribute]].
   * [[docs:utility:jquery|JQuery]] is no more needed and Popper is included in one bundle.
   * [[docs:styling:text-align|Text-align]] can now be applied conditionally by screen size
-  * Supports for [[docs:metadata:lang|RTL language]]. Example: Check this arabic page: [[docs:metadata:lang_ar]]
+  * Supports for [[docs:locale:lang|RTL language]]. Example: Check this arabic page: [[docs:locale:lang_ar]]
   * The two new [[docs:content:heading|heading display style]] `d5` and `d6`
 
 

@@ -1,7 +1,9 @@
 ---json
 {
-    "canonical":"canonical",
-    "name":"Canonical Path"
+    "canonical": ":canonical",
+    "h1": "ComboStrap Page Metadata - Canonical URL",
+    "name": "Canonical Path",
+    "page_id": "zm4f9kcot500cdy704ky2"
 }
 ---
 ====== Page - Canonical Path ======

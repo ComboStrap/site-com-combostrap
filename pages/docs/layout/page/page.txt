@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"layout",
-    "title":"Dynamic Layout",
-    "description":"This article talks about layout management and how it can be defined by page"
+    "canonical": ":layout",
+    "description": "This article talks about layout management and how it can be defined by page",
+    "page_id": "9tl87hg8coopjktg8chkh",
+    "title": "Dynamic Layout"
 }
 ---
 ====== Strap - Page Layout ======

@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"ui:underline",
-    "title":"How to underline words in ComboStrap",
-    "description":"This article shows you the underline syntax"
+    "canonical": ":ui:underline",
+    "description": "This article shows you the underline syntax",
+    "page_id": "d96jzej63pwacea0k64xb",
+    "title": "How to underline words in ComboStrap"
 }
 ---
 ====== ComboStrap Styling - Text Underlining  ======

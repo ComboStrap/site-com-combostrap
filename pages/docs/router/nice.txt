@@ -1,7 +1,8 @@
 ---json
 {
-    "canonical":"nice:url",
-    "name":"Nice URL"
+    "canonical": ":nice:url",
+    "name": "Nice URL",
+    "page_id": "oln5keoyf6cfrswut2clz"
 }
 ---
 

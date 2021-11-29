@@ -1,8 +1,8 @@
 ---json
 {
-    "canonical":"release:1.17",
-    "title":"ComboStrap - Release 1.17",
-    "description":"The details of the release 1.17"
+    "canonical": ":release:1.17",
+    "description": "The details of the release 1.17",
+    "page_id": "bs55gakm9p9b6r2jf9nzk"
 }
 ---
 ====== ComboStrap - Release 1.17 ======

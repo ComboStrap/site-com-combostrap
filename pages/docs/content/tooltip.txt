@@ -1,8 +1,9 @@
 ---json
 {
-   "canonical":"tooltip",
-   "name":"tooltip",
-   "description":"A Tooltip displays informative text when users hover over, focus on, or tap an element."
+    "canonical": ":tooltip",
+    "description": "A Tooltip displays informative text when users hover over, focus on, or tap an element.",
+    "name": "tooltip",
+    "page_id": "utozdh69xx3mvdhhrq31k"
 }
 ---
 

@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"semantic:lang",
-    "title":"How to set the language of a page",
-    "name":"Language"
+    "canonical": ":semantic:lang",
+    "name": "Language",
+    "page_id": "7w8jba3xbxyjl8r6jaujx",
+    "title": "How to set the language of a page"
 }
 ---
 ====== ComboStrap Page Metadata - Lang (Language) ======
@@ -14,8 +15,8 @@ The ''lang'' [[..:metadata:metadata|metadata]] is an language identifier that se
 
 The format supported is the [[https://www.loc.gov/standards/iso639-2/php/English_list.php|ISO 639-2]] 2 letters code.
 
-Example: 
-  * ''en'' (English), 
+Example:
+  * ''en'' (English),
   * ''fr'' (French)
   * ''nl'' (Dutch)
   * ''ar'' (Arabic). (See [[#rtlright_to_left_language|Right-to-left language support]])
@@ -50,7 +51,7 @@ The default value is set in the [[doku>config:lang]] configuration.
 
 ==== RTL: Right to left language ====
 
-As ''bootswatch'' does not support yet RTL languages, you need to set your [[docs:utility:bootstrap|Bootstrap version at minimal to 5 with the bootstrap theme]]. 
+As ''bootswatch'' does not support yet RTL languages, you need to set your [[docs:utility:bootstrap|Bootstrap version at minimal to 5 with the bootstrap theme]].
 
 Example with the version ''5.01 - bootstrap'':
 

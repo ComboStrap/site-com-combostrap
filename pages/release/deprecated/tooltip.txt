@@ -1,6 +1,8 @@
 ---json
 {
-    "canonical":"deprecated:tooltip"
+    "canonical": ":deprecated:tooltip",
+    "h1": "Deprecated Tooltip Syntax",
+    "page_id": "2hc3vekti7egovpkqr7n6"
 }
 ---
 ====== Deprecated Tooltip Syntax ======

@@ -1,8 +1,8 @@
 ---json
 {
-    "canonical":"docs",
-    "low_quality_page":"false",
-    "description":"This section regroups all documentation of ComboStrap in one place."
+    "canonical": ":docs",
+    "description": "This section regroups all documentation of ComboStrap in one place.",
+    "page_id": "qltri278a619phdigoici"
 }
 ---
 ====== ComboStrap - Documentation ======

@@ -1,9 +1,10 @@
 ---json
 {
-    "canonical":"journey",
-    "name":"User Journey Diagram",
-    "title":"How to create a user-journey diagram with ComboStrap",
-     "description":"This article shows you how to create a user-journey diagram."
+    "canonical": ":journey",
+    "description": "This article shows you how to create a user-journey diagram.",
+    "name": "User Journey Diagram",
+    "page_id": "90qnftj73w0kvjkb2vodw",
+    "title": "How to create a user-journey diagram with ComboStrap"
 }
 ---
 ====== ComboStrap Diagram - User Journey Diagram ======

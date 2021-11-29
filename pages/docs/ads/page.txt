@@ -1,3 +1,9 @@
+---json
+{
+    "canonical": ":page",
+    "page_id": "8a7aj28gfb4dbd4a7wrx7"
+}
+---
 ====== ComboStrap Ads - Ad Page ======
 
 

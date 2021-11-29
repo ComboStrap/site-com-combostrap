@@ -1,5 +1,6 @@
 ---json
 {
+    "cache_expiration_frequency": "@monthly",
     "canonical": ":page-cache-expiration-frequency",
     "description": "With the page cache expiration frequency, you can schedule the expiration of a page cache at interval.",
     "page_id": "umot7hn7mn66hxmchai75",

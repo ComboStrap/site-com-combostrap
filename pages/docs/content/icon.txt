@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"icon",
-    "title":"ComboStrap - Icon Component",
-     "description":"An icon component that makes it easy to add icon to your pages"
+    "canonical": ":icon",
+    "description": "An icon component that makes it easy to add icon to your pages",
+    "page_id": "vzs3sp5vzvfw0wnaz1dnc",
+    "title": "ComboStrap - Icon Component"
 }
 ---
 
@@ -209,7 +210,7 @@ On the server, the namespace is a location from the media directory: ''DOKUWIKI_
 
 ==== Default Library ====
 
-You can change the default library with the ''defaultIconLibrary'' [[docs:configuration|configuration]].
+You can change the default library with the ''defaultIconLibrary'' [[docs:app:configuration|configuration]].
 
 At installation time, the default library is [[#material design|material design]].
 

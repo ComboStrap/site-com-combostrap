@@ -42,13 +42,31 @@ Example:
 ---
 </code>
 
+===== Replication =====
+The frontmatter replication happens by default page by page when you [[docs:metadata:manager|submit the metadata manager form]].
+
+  * If you have just enabled the frontmatter in the configuration 
+  * And that you want to replicate the [[docs:metadata:metadata|managed metadata]] for all pages
+  * You can call the ''metadata-to-frontmatter'' command of the [[docs:admin:cli|cli]].
+
+<code bash>
+cd $DOKUWIKI_HOME
+# optional (for farm)
+animal=animal-directory-name
+# command
+php ./bin/plugin.php combo metadata-to-frontmatter
+</code>
+
+
+
+
 ===== Configuration =====
 
 
 ==== enableFrontMatterOnSubmit ====
 
 
-When the ''enableFrontMatterOnSubmit'' [[docs:configuration|configuration]], you will create a frontmatter when you submit the [[docs:metadata:manager|metadata manager form]].
+When the ''enableFrontMatterOnSubmit'' [[docs:app:configuration|configuration]], you will create a frontmatter when you submit the [[docs:metadata:manager|metadata manager form]].
 
 By default, this functionality is disabled if the page does not have already a frontmatter.
 

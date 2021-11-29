@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"blockquote",
-    "title":"What is a blockquote widget and how to use it",
-     "description":"A blockquote is a extract from another source and is set appart with a citation."
+    "canonical": ":blockquote",
+    "description": "A blockquote is a extract from another source and is set appart with a citation.",
+    "page_id": "c5zscwne2jt7tsue45gyi",
+    "title": "What is a blockquote widget and how to use it"
 }
 ---
 

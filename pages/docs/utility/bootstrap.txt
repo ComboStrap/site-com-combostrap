@@ -1,6 +1,7 @@
 ---json
 {
-   "canonical":"bootstrap"
+    "canonical": ":bootstrap",
+    "page_id": "ewwtc62meb4e8hyqdunpm"
 }
 ---
 
@@ -34,7 +35,7 @@ See [[docs:styling:stylesheet]]
 ===== Configuration =====
 ==== version and stylesheet====
 
-You may change the BootStrap ''version'' and a corresponding [[docs:styling:stylesheet|stylesheet]] with the ''bootstrapVersionStylesheet'' [[docs:configuration|configuration]]
+You may change the BootStrap ''version'' and a corresponding [[docs:styling:stylesheet|stylesheet]] with the ''bootstrapVersionStylesheet'' [[docs:app:configuration|configuration]]
 
 {{:strap:bootstrapversionstylesheet.png|}}
 

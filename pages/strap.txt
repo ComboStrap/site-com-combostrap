@@ -1,7 +1,8 @@
 ---json
 {
-   "canonical":"strap",
-   "layout":"median"
+    "canonical": ":strap",
+    "layout": "median",
+    "page_id": "mbggvdi89860ssqoy9gki"
 }
 ---
 

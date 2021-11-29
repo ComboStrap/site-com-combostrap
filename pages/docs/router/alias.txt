@@ -1,7 +1,8 @@
 ---json
 {
-    "name":"Page Aliases",
-    "canonical":"page:alias"
+    "canonical": ":page:alias",
+    "name": "Page Aliases",
+    "page_id": "d2h6cfzo99shgv2g0xduu"
 }
 ---
 

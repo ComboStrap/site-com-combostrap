@@ -1,6 +1,7 @@
 ---json
 {
-    "canonical":"styling:align-text"
+    "canonical": ":styling:align-text",
+    "page_id": "palt8v935k72aohnbbyea"
 }
 ---
 ====== ComboStrap Styling - Text Align Attribute ======

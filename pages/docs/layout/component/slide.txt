@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"slide",
-    "title":"A slide is a UI component that divide a page in horizontal region",
-    "description":"Slide are used mainly in landing page where they separate and add contrast between section"
+    "canonical": ":slide",
+    "description": "Slide are used mainly in landing page where they separate and add contrast between section",
+    "page_id": "82qnz9h7tpo6n7w4sz66d",
+    "title": "A slide is a UI component that divide a page in horizontal region"
 }
 ---
 ====== ComboStrap UI - Slide ======

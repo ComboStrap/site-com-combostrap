@@ -1,8 +1,9 @@
 ---json
 {
-   "canonical":"low_quality_page",
-   "title":"What is a low quality web page ?",
-   "description":"This page shows you how ComboStrap defines a low quality page and you can use this definition to improve your SEO score"
+    "canonical": ":low_quality_page",
+    "description": "This page shows you how ComboStrap defines a low quality page and you can use this definition to improve your SEO score",
+    "page_id": "t219b70chlm82n0r5ntbo",
+    "title": "What is a low quality web page ?"
 }
 ---
 
@@ -84,7 +85,7 @@ group by
 
 If one of the ''mandatory'' [[rule|rules]] does not pass, the page will be considered a ''low quality page''.
 
-You can set mandatory rules in the ''mandatoryQualityRules'' [[:configuration|configuration]].
+You can set mandatory rules in the ''mandatoryQualityRules'' [[docs:app:configuration|configuration]].
 
 The default values are:
   * ''words_min'',

@@ -1,7 +1,8 @@
 ---json
 {
-   "name":"Automatic Canonical Path",
-    "canonical":"automatic:canonical"
+    "canonical": ":automatic:canonical",
+    "name": "Automatic Canonical Path",
+    "page_id": "0g5ex3ct5vuzof4zo3f71"
 }
 ---
 
@@ -28,7 +29,7 @@ This feature will:
       * ''seo:backlink'' if the [[#configuration|minimal number of name configuration]] is 2
 
 ===== Configuration =====
-If the [[docs:configuration|configuration]] ''MinimalNamesCountForAutomaticCanonical'' has a value of:
+If the [[docs:app:configuration|configuration]] ''MinimalNamesCountForAutomaticCanonical'' has a value of:
   * ''0'' disable this feature
   * ''1'' will create a [[..:page:canonical|canonical]] with the first last name part
   * ''2'' will create a [[..:page:canonical|canonical]] with the last two name parts

@@ -1,6 +1,7 @@
 ---json
 {
-    "canonical":"ComboStrap Styling - Bold (Font weight)"
+    "canonical": ":combostrap styling - bold (font weight)",
+    "page_id": "dd0i74454dynry3c00imf"
 }
 ---
 ====== ComboStrap Styling - Boldness (Font Weight) ======

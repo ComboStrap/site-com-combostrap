@@ -1,9 +1,10 @@
 ---json
 {
-    "canonical":"support:plugin",
-    "title":"The plugin supported and/or tested against combostrap",
-    "description":"The plugins supported and tested to work with ComboStrap",
-    "layout":"median"
+    "canonical": ":support:plugin",
+    "description": "The plugins supported and tested to work with ComboStrap",
+    "layout": "median",
+    "page_id": "o8tl1mqp0eytv6zbbj5d1",
+    "title": "The plugin supported and\/or tested against combostrap"
 }
 ---
 ====== ComboStrap - Third Party Plugin ======

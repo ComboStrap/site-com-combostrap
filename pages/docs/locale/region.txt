@@ -1,7 +1,8 @@
 ---json
 {
-    "canonical":"region",
-    "name":"Language Region"
+    "canonical": ":region",
+    "name": "Language Region",
+    "page_id": "hy7ac84uaipzv9z7rky3t"
 }
 ---
 ====== ComboStrap Page Metadata - Language Region ======
@@ -41,4 +42,4 @@ If there is no value, the locale server country is retrieved (if the [[support:r
 
 ==== siteLanguageRegion ====
 
-A page is by default localized to the region set in the ''siteLanguageRegion'' [[docs:configuration|configuration]]
+A page is by default localized to the region set in the ''siteLanguageRegion'' [[docs:app:configuration|configuration]]

@@ -1,6 +1,7 @@
 ---json
 {
-    "canonical":"border"
+    "canonical": ":border",
+    "page_id": "f5xfx9icyvlhsjjrqle8j"
 }
 ---
 ====== ComboStrap Styling - Border ======

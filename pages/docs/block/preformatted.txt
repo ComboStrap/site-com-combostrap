@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"preformatted",
-    "title":"Preformatted (indented code block) - ComboStrap",
-     "description":"How to create a code block with indentation"
+    "canonical": ":preformatted",
+    "description": "How to create a code block with indentation",
+    "page_id": "sn155ly18463a077jbfkq",
+    "title": "Preformatted (indented code block) - ComboStrap"
 }
 ---
 
@@ -61,9 +62,9 @@ You can disable this feature with the [[#preformattedEmptyContentNotPrintedEnabl
 
 ==== preformattedEnable ====
 
-The [[:configuration|configuration]] ''preformattedEnable'' permits to enable or disable this feature.
+The [[docs:app:configuration|configuration]] ''preformattedEnable'' permits to enable or disable this feature.
 
 ==== preformattedEmptyContentNotPrintedEnable ====
 
-If this [[:configuration|configuration]] is not check, a block of code will be printed even if there is no content.
+If this [[docs:app:configuration|configuration]] is not check, a block of code will be printed even if there is no content.
 

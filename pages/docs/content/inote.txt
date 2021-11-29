@@ -1,3 +1,9 @@
+---json
+{
+    "canonical": ":inote",
+    "page_id": "xzqo3ptskleher3zxj8a5"
+}
+---
 ====== ComboStrap UI - Inote (inline note) ======
 
 

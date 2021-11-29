@@ -1,9 +1,10 @@
 ---json
 {
-    "canonical":"credits",
-    "title":"ComboStrap Library Credits",
-    "description":"Credits to all library and framework that makes ComboStrap a reality",
-    "layout":"median"
+    "canonical": ":credits",
+    "description": "Credits to all library and framework that makes ComboStrap a reality",
+    "layout": "median",
+    "page_id": "mytry5lj0yohabkj63k55",
+    "title": "ComboStrap Library Credits"
 }
 ---
 ====== ComboStrap - Credits ======

@@ -1,3 +1,9 @@
+---json
+{
+    "canonical": ":slot",
+    "page_id": "rxvr5513sglm9cjiy6sj8"
+}
+---
 ====== Strap Template - Slot ======
 
 

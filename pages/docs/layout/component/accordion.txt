@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"accordion",
-    "title":"How to create a accordion in combostrap",
-    "description":"The accordion component is a widget that layouts it children component in an accordion fashion. This article shows you how to do it."
+    "canonical": ":accordion",
+    "description": "The accordion component is a widget that layouts it children component in an accordion fashion. This article shows you how to do it.",
+    "page_id": "ur9bo8pa19x06lve2n5pa",
+    "title": "How to create a accordion in combostrap"
 }
 ---
 

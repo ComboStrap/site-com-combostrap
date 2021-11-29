@@ -1,3 +1,9 @@
+---json
+{
+    "canonical": ":search",
+    "page_id": "hzeir583slanj4cbyx7cj"
+}
+---
 ====== Internal Search Engine ======
 
 

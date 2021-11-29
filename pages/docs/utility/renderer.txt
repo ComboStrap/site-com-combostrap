@@ -1,6 +1,7 @@
 ---json
 {
-   "canonical":"renderer"
+    "canonical": ":renderer",
+    "page_id": "aov28lrzs3fezm1k2ynyy"
 }
 ---
 
@@ -26,6 +27,6 @@ The ''combo renderer'' is the component that renders each page.
 
 ===== How to enable the Combo Renderer ? =====
 
-You need to set the [[doku>config:renderer_xhtml|renderer_xhtml]] [[:configuration|configuration]]
+You need to set the [[doku>config:renderer_xhtml|renderer_xhtml]] [[docs:app:configuration|configuration]]
 
 {{docs:block:combo_renderer_setting.png?600|}}

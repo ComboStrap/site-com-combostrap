@@ -1,6 +1,7 @@
 ---json
 {
-    "canonical":"beta:markdown"
+    "canonical": ":beta:markdown",
+    "page_id": "8ogpjczen4u99yp6xaurh"
 }
 ---
 ====== Markdown Page ======

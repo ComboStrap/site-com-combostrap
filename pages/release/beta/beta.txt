@@ -1,8 +1,8 @@
 ---json
 {
-    "canonical":"beta",
-    "title":"ComboStrap - Beta",
-    "description":"Beta release"
+    "canonical": ":beta",
+    "description": "Beta release",
+    "page_id": "qcmyonoyun6b91jpgy4vi"
 }
 ---
 ====== ComboStrap - Beta ======

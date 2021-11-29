@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"side_slots",
-    "name":"Sideslot cache",
-    "title":"Automatic Sidebar Content Management"
+    "canonical": ":side_slots",
+    "name": "Sideslot cache",
+    "page_id": "dhw5i9epsabpddg6ycz8c",
+    "title": "Automatic Sidebar Content Management"
 }
 ---
 

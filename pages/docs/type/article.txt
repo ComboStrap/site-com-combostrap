@@ -1,8 +1,8 @@
 ---json
 {
-    "canonical":"page:article",
-    "type":"article",
-    "name":"Article (Blog, News)"
+    "canonical": ":page:article",
+    "name": "Article (Blog, News)",
+    "page_id": "8nnpqqrm4j82ccja2tg72"
 }
 ---
 ====== ComboStrap Metadata - Article Page (News, Blog) ======

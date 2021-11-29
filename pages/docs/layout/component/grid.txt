@@ -1,6 +1,7 @@
 ---json
 {
-    "canonical":"grid"
+    "canonical": ":grid",
+    "page_id": "u7kl0ydtjgkaj9vy847wr"
 }
 ---
 

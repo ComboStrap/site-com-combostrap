@@ -1,9 +1,10 @@
 ---json
 {
-    "canonical":"quality:score",
-    "name":"Quality Score",
-    "title":"The calculated quality score",
-     "description":"The quality score metrics permits to measure the quality of your pages"
+    "canonical": ":quality:score",
+    "description": "The quality score metrics permits to measure the quality of your pages",
+    "name": "Quality Score",
+    "page_id": "f907nwlg5mhe4gxgs6x3e",
+    "title": "The calculated quality score"
 }
 ---
 
@@ -50,7 +51,7 @@ The calculation formula is based on:
    * and the [[docs:metadata:metadata|page metadata]]
 
 ^ Score ^ Points ^ Description ^
-| ''canonical_present'' | 5 | the [[docs:metadata:canonical|canonical]] should be present. |
+| ''canonical_present'' | 5 | the [[docs:page:canonical|canonical]] should be present. |
 | ''correct_content_length'' | 10 | When the page has a content length between a minimum and maximum of words |
 | ''correct_outline'' | 3 | when the outline (headers) of the page are in correct order |
 | ''correct_word_avg_by_section'' | 3 | when the average words by section is between a minimum and maximum of words |

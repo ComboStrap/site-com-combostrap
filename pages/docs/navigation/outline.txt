@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"outline",
-    "title":"Outline (Heading Hierarchy)",
-     "description":"Configuration and usage of the outline in Combostrap"
+    "canonical": ":outline",
+    "description": "Configuration and usage of the outline in Combostrap",
+    "page_id": "2i7yk4420aens3eo7l93f",
+    "title": "Outline (Heading Hierarchy)"
 }
 ---
 
@@ -103,13 +104,13 @@ More ... see [[docs:menubar:fixed-top|Fixed top menu bar]].
 
 ==== Numbering Enable ====
 
-The ''outlineNumberingEnable'' [[:configuration|configuration]] permits to enable or disable outline numbering.
+The ''outlineNumberingEnable'' [[docs:app:configuration|configuration]] permits to enable or disable outline numbering.
 
 ==== Numbering Styling ====
 
 The below configuration permits to style the numbering as you wish.
 
-^ [[:configuration|Configuration]] ^ Description ^ Default ^
+^ [[docs:app:configuration|Configuration]] ^ Description ^ Default ^
 | ''outlineNumberingCounterStyleLevel2'' | Level 2 [[#counter style]] | ''decimal'' |
 | ''outlineNumberingCounterStyleLevel3'' | Level 3 [[#counter style]] | ''decimal'' |
 | ''outlineNumberingCounterStyleLevel4'' | Level 4 [[#counter style]] | ''decimal'' |

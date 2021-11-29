@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"color:generator",
-    "title":"Attractive Color generator",
-    "description":"A attractive color generator to pimp your design"
+    "canonical": ":color:generator",
+    "description": "A attractive color generator to pimp your design",
+    "page_id": "aq2hq481vt52d737j80b4",
+    "title": "Attractive Color generator"
 }
 ---
 ====== ComboStrap Styling - Color Generator ======

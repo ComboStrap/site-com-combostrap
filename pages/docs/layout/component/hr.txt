@@ -1,3 +1,9 @@
+---json
+{
+    "canonical": ":hr",
+    "page_id": "q8dp6jiim2o0b2mgdx8nb"
+}
+---
 ====== ComboStrap UI - HR (Horizontal Rule) ======
 
 

@@ -1,6 +1,7 @@
 ---json
 {
-    "canonical":"favicon"
+    "canonical": ":favicon",
+    "page_id": "ii2jsjqkhkaunk58kt7bd"
 }
 ---
 

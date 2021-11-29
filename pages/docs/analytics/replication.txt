@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"replication",
-    "title":"How ComboStrap analyzes and replicates data ?",
-    "description":"The analysis and replication of a webpage is the corner stone of the quality and performance of a page. This page explains how this is done."
+    "canonical": ":replication",
+    "description": "The analysis and replication of a webpage is the corner stone of the quality and performance of a page. This page explains how this is done.",
+    "page_id": "670cgbvcwnweskpj0g3j5",
+    "title": "How ComboStrap analyzes and replicates data ?"
 }
 ---
 ====== ComboStrap - Analytics and database replication ======
@@ -28,17 +29,17 @@ If you want to update all pages in batch, you can do it with the [[#cli]] on the
 To purge the analytical cache, you can:
   * run the [[#cli|cli]]
   * do it manually for one page by adding the following query ''?do=export_combo_analytics&purge=true''. See [[doku>devel:caching#purging_the_cache|the dokuwiki doc]]
-  * modifying a [[:configuration|configuration]] forth and back. The update of the configuration file purges the current cache.
+  * modifying a [[docs:app:configuration|configuration]] forth and back. The update of the configuration file purges the current cache.
 
 
 ===== Cli =====
-On the server, you can replicate the data to the database with the following command
+On the server, you can replicate the data to the database with the [[:docs:admin:cli|cli]] following command
 <code bash>
 cd $DOKUWIKI_HOME
 # optional (for farm)
-animal=foo
+animal=animal-directory-name
 # command
-php ./bin/plugin.php combo replicate
+php ./bin/plugin.php combo metadata-to-database
 </code>
 
 ===== Monitoring =====
@@ -46,6 +47,7 @@ php ./bin/plugin.php combo replicate
 ==== The replication date ====
 
 The replication date is stored in the ''date_replication'' metadata and can be seen via:
+  * the [[docs:metadata:manager|metadata manager]] (integration tab)
   * the [[docs:metadata:viewer|Metadata Viewer]].
   * or [[query|query]] .
 <code sql>

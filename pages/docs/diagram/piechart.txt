@@ -1,9 +1,10 @@
 ---json
 {
-    "canonical":"pie-chart",
-    "name":"Pie Chart",
-    "title":"How to create a Pie Chart with ComboStrap",
-     "description":"This article shows you how to create a Pie Chart."
+    "canonical": ":pie-chart",
+    "description": "This article shows you how to create a Pie Chart.",
+    "name": "Pie Chart",
+    "page_id": "780l5gcoxomy3demu7zcw",
+    "title": "How to create a Pie Chart with ComboStrap"
 }
 ---
 ====== ComboStrap Diagram - PieChart ======

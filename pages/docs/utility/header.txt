@@ -1,6 +1,7 @@
 ---json
 {
-    "canonical":"header"
+    "canonical": ":header",
+    "page_id": "bcdlqanpiyflqq4reo77x"
 }
 ---
 ====== ComboStrap UI - Header ======

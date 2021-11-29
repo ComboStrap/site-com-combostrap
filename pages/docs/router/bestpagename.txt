@@ -1,7 +1,9 @@
 ---json
 {
-    "canonical":"best:page:name",
-    "name":"Best Page Name Algo"
+    "canonical": ":best:page:name",
+    "h1": "ComboStrap URL Management - Best Page Name",
+    "name": "Best Page Name Algo",
+    "page_id": "dpgszvs08798pxd1uudap"
 }
 ---
 
@@ -33,7 +35,7 @@ It calculate a score for two kinds of page :
 
 ===== Configuration =====
 
-A [[#weight factor]] [[docs:configuration|configuration]] is applied and in this way, you can influence the redirection :
+A [[#weight factor]] [[docs:app:configuration|configuration]] is applied and in this way, you can influence the redirection :
 
   * When a page have the same name (by default 4)
   * When a page is a start page of a namespace (by default 3)

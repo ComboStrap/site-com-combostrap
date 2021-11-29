@@ -1,9 +1,11 @@
 ---json
 {
-    "name":"Editor Redirection",
-    "canonical":"editor:redirection",
-    "title":"How to redirect a writer directly to the editor",
-    "description":"This page shows you how to redirect an editor directly to the editor when a page does not exist"
+    "canonical": ":editor:redirection",
+    "description": "This page shows you how to redirect an editor directly to the editor when a page does not exist",
+    "h1": "ComboStrap URL Management - Edit Mode Redirection",
+    "name": "Editor Redirection",
+    "page_id": "zl9g7f44gflduc86kktyg",
+    "title": "How to redirect a writer directly to the editor"
 }
 ---
 
@@ -28,6 +30,6 @@ A [[message|message]] can also be shown with the pages that have the same name.
 
 
 
-You can set ''on'' and ''off'' this feature with the ''GoToEditMode'' [[docs:configuration|configuration]]
+You can set ''on'' and ''off'' this feature with the ''GoToEditMode'' [[docs:app:configuration|configuration]]
 
 {{docs:router:edit_mode_redirection_configuration.png|}}

@@ -1,3 +1,9 @@
+---json
+{
+    "canonical": ":database",
+    "page_id": "afesgbz3stzslqrz5jxxn"
+}
+---
 ====== ComboStrap Analytics - Database ======
 
 

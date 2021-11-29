@@ -1,6 +1,7 @@
 ---json
 {
-    "canonical":"redirection:message"
+    "canonical": ":redirection:message",
+    "page_id": "rmu40srlngqhj9v4slv16"
 }
 ---
 
@@ -22,7 +23,7 @@ By default, this components show also a listing of existing pages that have the 
 ===== Configuration =====
 
 
-The ''ShowPageNameIsNotUnique'' [[docs:configuration|configuration]] turns ''on'' and ''off'', the listing of existing pages with the same name.
+The ''ShowPageNameIsNotUnique'' [[docs:app:configuration|configuration]] turns ''on'' and ''off'', the listing of existing pages with the same name.
 
 {{docs:router:redirection_message_conf_page_name_not_unique.png|}}
 

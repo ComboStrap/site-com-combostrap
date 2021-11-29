@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"onview",
-    "title":"OnView - Animate UI ComboStrap Component when they become visible",
-    "description":"Improve component emphasis by animating component when they come on the screen"
+    "canonical": ":onview",
+    "description": "Improve component emphasis by animating component when they come on the screen",
+    "page_id": "6u292dmfbddzmfotpnd1u",
+    "title": "OnView - Animate UI ComboStrap Component when they become visible"
 }
 ---
 ====== ComboStrap Styling - OnVisible ======

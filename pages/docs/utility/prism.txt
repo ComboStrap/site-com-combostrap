@@ -1,6 +1,7 @@
 ---json
 {
-    "canonical":"prism"
+    "canonical": ":prism",
+    "page_id": "gu0x6gxoe28jqvv2q8hih"
 }
 ---
 
@@ -125,7 +126,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 ==== Theme ====
 
 
-The ''code_theme'' [[:configuration|configuration]] permits to choose the [[https://prismjs.com/|prism theme]].
+The ''code_theme'' [[docs:app:configuration|configuration]] permits to choose the [[https://prismjs.com/|prism theme]].
 
 The following themes are available:
   * ''prism'' - the default prism theme

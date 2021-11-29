@@ -1,6 +1,8 @@
 ---json
 {
-    "canonical":"1.6"
+    "canonical": ":1.6",
+    "h1": "ComboStrap - Release 1.6",
+    "page_id": "9cnthv2k19vhm0lajskxa"
 }
 ---
 ====== ComboStrap - Release 1.6 ======

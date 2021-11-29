@@ -1,9 +1,12 @@
 ---json
 {
-    "canonical":"card",
-    "title":"ComboStrap UI - Creating a card",
-     "description":"A card is a box composed of an image, a text and a call to action",
-     "image":":docs:block:card_illustration.png"
+    "canonical": ":card",
+    "description": "A card is a box composed of an image, a text and a call to action",
+    "image": [
+        { "path": ":docs:block:card_illustration.png" }
+    ],
+    "page_id": "9rhn4ii6b02f69tnwhoc6",
+    "title": "ComboStrap UI - Creating a card"
 }
 ---
 

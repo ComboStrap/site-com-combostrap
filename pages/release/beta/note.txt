@@ -1,8 +1,8 @@
 ---json
 {
-    "canonical":"beta:note",
-    "low_quality_page":"true",
-    "published":"1999-01-01"
+    "canonical": ":beta:note",
+    "date_published": "1999-01-01T00:00:00+00:00",
+    "page_id": "u41lj62e7b6jd1j7hzgi8"
 }
 ---
 ====== Beta - Note ======

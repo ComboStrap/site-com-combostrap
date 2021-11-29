@@ -1,9 +1,10 @@
 ---json
 {
-    "canonical":"semantic:organization",
-    "title":"How to define a page advertising your organization",
-    "description":"ComboStrap Semantic creates metadata that advertise your organization to search engine and crawler. This article shows you how to create an organization page",
-    "name":"Organization Page"
+    "canonical": ":semantic:organization",
+    "description": "ComboStrap Semantic creates metadata that advertise your organization to search engine and crawler. This article shows you how to create an organization page",
+    "name": "Organization Page",
+    "page_id": "k0z3smwoitfh2haqd8qxk",
+    "title": "How to define a page advertising your organization"
 }
 ---
 ====== ComboStrap Metadata - Organization Page ======
@@ -21,8 +22,8 @@ To create a page on your website that contains your organization  information su
 Combostrap will then add the following properties:
   * ''url'': the base url
   * ''logo'': the [[docs:app:logo|logo]]
-  * ''name'': the [[doku>config:title|site title]]
-  * ''slogan'': the [[docs:app:tagline|tagline]]
+  * ''name'': the [[docs:app:name|app name]]
+  * ''slogan'': the [[docs:app:tagline|slogan]]
   * the [[docs:social:twitter|twitter]] url if the handle is known
   * the [[docs:social:facebook|facebook]] url if the handle is known
 
@@ -34,20 +35,20 @@ You can also add extra properties such as the [[https://schema.org/Organization|
 For example, in our [[:about_us|About us]] page, we have set the following properties:
 <code json>
 {
-  "organization": {
-    "name": "ComboStrap",
-    "email": "support@combostrap.com",
-    "slogan": "Growing the world GDP of publishers and creators",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Oegstgeest, Netherlands",
-      "postalCode": "2343KE"
-    },
-    "parentOrganization": {
-      "@type": "organization",
-      "name": "Bytle",
-      "url": "https://bytle.net"
-    }
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "ComboStrap",
+  "email": "support@combostrap.com",
+  "slogan": "Growing the world GDP of publishers and creators",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Oegstgeest, Netherlands",
+    "postalCode": "2343KE"
+  },
+  "parentOrganization": {
+    "@type": "organization",
+    "name": "Bytle",
+    "url": "https://bytle.net"
   }
 }
 </code>

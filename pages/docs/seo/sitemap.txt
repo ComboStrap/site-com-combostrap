@@ -1,3 +1,9 @@
+---json
+{
+    "canonical": ":sitemap",
+    "page_id": "aio2v875k6jndobmetxtw"
+}
+---
 
 ====== ComboStrap SEO - Sitemap ======
 

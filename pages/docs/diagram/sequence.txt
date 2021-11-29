@@ -1,9 +1,10 @@
 ---json
 {
-    "canonical":"sequence-diagram",
-    "name":"Sequence Diagram",
-    "title":"How to create a sequence diagram with ComboStrap (UML)",
-     "description":"This article shows you how to create a UML sequence diagram."
+    "canonical": ":sequence-diagram",
+    "description": "This article shows you how to create a UML sequence diagram.",
+    "name": "Sequence Diagram",
+    "page_id": "ghv7tnuvn9blbbyqi7rsn",
+    "title": "How to create a sequence diagram with ComboStrap (UML)"
 }
 ---
 ====== ComboStrap Diagram - Sequence UML Diagram ======

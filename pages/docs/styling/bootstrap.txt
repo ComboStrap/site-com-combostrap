@@ -1,6 +1,7 @@
 ---json
 {
-    "canonical":"custom:bootstrap"
+    "canonical": ":custom:bootstrap",
+    "page_id": "0zxd4ai3p6z98m0i6xj9c"
 }
 ---
 

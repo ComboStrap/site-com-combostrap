@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"float",
-    "title":"Float an element in ComboStrap",
-    "description":"Float permits to print text along the side of a component"
+    "canonical": ":float",
+    "description": "Float permits to print text along the side of a component",
+    "page_id": "jjag0jfgf1tzrcz84hwls",
+    "title": "Float an element in ComboStrap"
 }
 ---
 ====== ComboStrap Styling - Float ======
@@ -61,7 +62,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas leo erat, aliq
 ===== Configuration =====
 ==== floatDefaultBreakpoint ====
 
-The [[:configuration|configuration]] ''floatDefaultBreakpoint'' defines the screen size that will be used for the floated value: ''left'', ''right'' and ''none''
+The [[docs:app:configuration|configuration]] ''floatDefaultBreakpoint'' defines the screen size that will be used for the floated value: ''left'', ''right'' and ''none''
 
 The installation value is [[breakpoint|sm (small) - ≥576px]]
 

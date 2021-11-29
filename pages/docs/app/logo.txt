@@ -1,6 +1,7 @@
 ---json
 {
-    "canonical":"logo"
+    "canonical": ":logo",
+    "page_id": "j4o3mrafz6xxwtmdibt3w"
 }
 ---
 ====== ComboStrap Site Metadata - Logo ======

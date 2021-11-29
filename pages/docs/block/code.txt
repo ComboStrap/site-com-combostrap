@@ -1,6 +1,7 @@
 ---json
 {
-    "canonical":"code"
+    "canonical": ":code",
+    "page_id": "m5qw7qkf01up32r0t2j39"
 }
 ---
 
@@ -77,7 +78,7 @@ Example of an HTML code block.
 
 
 ==== Enable / Disable HTML Super syntax ====
-The ''code_enable'' [[:configuration|configuration]] permits to enable / disable the [[#HTML super set|HTML super set syntax]] 
+The ''code_enable'' [[docs:app:configuration|configuration]] permits to enable / disable the [[#HTML super set|HTML super set syntax]] 
 and goes back to the default [[doku>wiki:syntax#code_blocks|dokuwiki code block]] output.
 
 

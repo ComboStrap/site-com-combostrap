@@ -1,6 +1,7 @@
 ---json
 {
-    "canonical":"teaser"
+    "canonical": ":teaser",
+    "page_id": "v93njlqpfgepzpf1ng21p"
 }
 ---
 

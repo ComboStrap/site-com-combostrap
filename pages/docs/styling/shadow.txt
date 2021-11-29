@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"shadow",
-    "title":"Shadow - This attribute will create a shadow, giving more emphasis",
-     "description":"Shadows are used mostly to add more emphasis to important component or to add a elevation effect. "
+    "canonical": ":shadow",
+    "description": "Shadows are used mostly to add more emphasis to important component or to add a elevation effect. ",
+    "page_id": "d1ed71dhvj2nv2b9wvsz9",
+    "title": "Shadow - This attribute will create a shadow, giving more emphasis"
 }
 ---
 
@@ -150,7 +151,7 @@ Example with a large shadow.
 ===== Configuration =====
 ==== default ====
 
-You can change the default level of shadow with the ''defaultShadowLevel'' [[:configuration|configuration]].
+You can change the default level of shadow with the ''defaultShadowLevel'' [[docs:app:configuration|configuration]].
 
 
 

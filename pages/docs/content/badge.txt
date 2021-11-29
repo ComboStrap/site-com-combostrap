@@ -1,6 +1,7 @@
 ---json
 {
-   "canonical":"badge"
+    "canonical": ":badge",
+    "page_id": "kk4jppbr858gkbpeqxo1p"
 }
 ---
 
@@ -53,7 +54,7 @@ A badge may have the following type:
 ===== Configuration =====
 
 ==== defaultBadgeAttributes ====
-''defaultBadgeAttributes'' is a [[:configuration|configuration]] that defines the default badge attributes
+''defaultBadgeAttributes'' is a [[docs:app:configuration|configuration]] that defines the default badge attributes
 
 Default value:
 <code html>

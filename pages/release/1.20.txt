@@ -1,10 +1,10 @@
 ---json
 {
-    "canonical":"release:1.20",
-    "title":"ComboStrap - Release 1.20",
-    "description":"Templating has been introduced with iteration and SQL",
-    "name":"1.20 - templating",
-    "date_published":"2021-09-16"
+    "canonical": ":release:1.20",
+    "date_published": "2021-09-16T00:00:00+00:00",
+    "description": "Templating has been introduced with iteration and SQL",
+    "name": "1.20 - templating",
+    "page_id": "qeoypmezq7bmb7u0lxwsa"
 }
 ---
 ====== ComboStrap - Release 1.20 ======
@@ -25,7 +25,7 @@ The release ''1.20'' introduces a full template system based on the [[docs:templ
 ==== New ====
 
   * The [[docs:templating:iterator|iterator]] to iterate over [[docs:templating:template|template]]
-  * The [[docs:cache:page|cache]] component to set the validity of a page at interval to avoid [[https://forum.dokuwiki.org/d/19495-caching-problem-with-a-plugin/11|caching problem with iterator]]
+  * The [[release:deprecated:cache|cache]] component to set the validity of a page at interval to avoid [[https://forum.dokuwiki.org/d/19495-caching-problem-with-a-plugin/11|caching problem with iterator]]
   * The [[docs:page:image|page image metadata]] set in the [[docs:metadata:frontmatter|frontmatter]]:
       * are now updated when the [[docs:content:image|image]] is moved via the [[docs:getting_started:4_plugin#move|move plugin]]
       * are taken into account into the [[docs:analytics:statistics#media|media statistics]] and reported if they don't exist as [[docs:quality:broken_link|broken links]]

@@ -1,10 +1,8 @@
 ---json
 {
-    "canonical":"transparent:redirect",
-    "name":"Transparent Redirect",
-    "alias":{
-       ":redirection:transparent":{ "type":"synonym" }
-     }
+    "canonical": ":transparent:redirect",
+    "name": "Transparent Redirect",
+    "page_id": "v5s3d33gl425fy2rc3xll"
 }
 ---
 ====== ComboStrap Routing - Transparent Redirect ======

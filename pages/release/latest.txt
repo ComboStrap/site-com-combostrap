@@ -1,9 +1,9 @@
 ---json
 {
-    "canonical":"release:latest",
-    "title":"ComboStap - Latest release",
-    "description":"A synonym page to redirect to the latest release",
-    "low_quality_page":"false"
+    "canonical": ":release:latest",
+    "description": "A synonym page to redirect to the latest release",
+    "page_id": "1nss1jipej573ddcpxfce",
+    "title": "ComboStap - Latest release"
 }
 ---
 ====== ComboStrap - Latest release ======

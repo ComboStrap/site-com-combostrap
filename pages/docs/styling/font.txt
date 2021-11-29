@@ -1,7 +1,8 @@
 ---json
 {
-    "canonical":"font",
-    "title":"ComboStrap - Font"
+    "canonical": ":font",
+    "page_id": "whqn1nlf6v7gshvpqf0y8",
+    "title": "ComboStrap - Font"
 }
 ---
 ====== ComboStrap Styling - Font ======

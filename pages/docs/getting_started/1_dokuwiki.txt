@@ -1,3 +1,9 @@
+---json
+{
+    "canonical": ":1_dokuwiki",
+    "page_id": "52gxusbx7sb0v76bgvn9v"
+}
+---
 ====== ComboStrap Getting Started - Dokuwiki Installation ======
 
 ===== About =====

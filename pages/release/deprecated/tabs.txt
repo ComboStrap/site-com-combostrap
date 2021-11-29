@@ -1,6 +1,8 @@
 ---json
 {
-    "canonical":"deprecated:tabs"
+    "canonical": ":deprecated:tabs",
+    "h1": "Tabs and TabPanels (Deprecated for panels)",
+    "page_id": "g30wohgupvvtz37nhdfny"
 }
 ---
 

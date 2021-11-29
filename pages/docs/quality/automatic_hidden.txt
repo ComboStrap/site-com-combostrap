@@ -1,3 +1,9 @@
+---json
+{
+    "canonical": ":automatic_hidden",
+    "page_id": "qzd32hux8dasln7eflj4z"
+}
+---
 ====== ComboStrap Quality - Automatic Hidden Artifactory ======
 
 
@@ -17,7 +23,7 @@ This is a component of the [[docs:quality:quality|quality seo module]].
 ===== Explanation =====
 
 
-This functionality adds automatically to the [[doku>config:hidepages]] [[:configuration|configuration]], the following pattern
+This functionality adds automatically to the [[doku>config:hidepages]] [[docs:app:configuration|configuration]], the following pattern
 <file>
 (slot_header|slot_footer|slot_sidekick|sidebar|combostrap)
 </file>

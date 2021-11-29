@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"type",
-    "title":"ComboStrap - Component Type",
-    "description":"The component type attribute explained"
+    "canonical": ":type",
+    "description": "The component type attribute explained",
+    "page_id": "v0jvagvfe2aiuq3m2um7u",
+    "title": "ComboStrap - Component Type"
 }
 ---
 ====== ComboStrap Styling - Type Attribute ======

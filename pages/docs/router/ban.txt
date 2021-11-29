@@ -1,9 +1,10 @@
 ---json
 {
-    "name":"Bad Bot Ban",
-    "canonical":"ban",
-    "title":"How ComboStrap protects from bad bot scanning",
-    "description":"This article describes when and how ComboStrap bans bad requests performed by bots"
+    "canonical": ":ban",
+    "description": "This article describes when and how ComboStrap bans bad requests performed by bots",
+    "name": "Bad Bot Ban",
+    "page_id": "cq900uui79ur2pr72a6za",
+    "title": "How ComboStrap protects from bad bot scanning"
 }
 ---
 

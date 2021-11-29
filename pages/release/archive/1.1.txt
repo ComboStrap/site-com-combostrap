@@ -1,7 +1,7 @@
 ---json
 {
-    "canonical":"1.1",
-    "low_quality_page":"false"
+    "canonical": ":1.1",
+    "page_id": "4d02m0a9ozkzln2mn8d2g"
 }
 ---
 ====== ComboStrap - Release 1.1 ======
@@ -12,7 +12,7 @@
 ===== Changes List =====
 
   * The [[docs:metadata:viewer|metadata viewer]] shows now all metadatas and can apply a filter
-  * The [[docs:metadata:title|web page title]] is now managed.
+  * The [[docs:page:title|web page title]] is now managed.
   * The [[docs:block:math|math component]] is no more template dependent.
   * The [[docs:utility:disqus|disqus component]] was finalized
   * The [[docs:content:badge|badge component]] was added

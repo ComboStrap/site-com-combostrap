@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"ui:inline",
-    "title":"ComboStrap UI Inline components ",
-    "description":"Inline components are used inside a paragraph (ie in a line)."
+    "canonical": ":ui:inline",
+    "description": "Inline components are used inside a paragraph (ie in a line).",
+    "page_id": "6uook5ocjqxxzfdwrvzlb",
+    "title": "ComboStrap UI Inline components "
 }
 ---
 ====== ComboStrap UI - Content ======

@@ -1,6 +1,7 @@
 ---json
 {
-    "canonical":"header_slot"
+    "canonical": ":header_slot",
+    "page_id": "p699rcpva3jcxth3wxbii"
 }
 ---
 
@@ -24,5 +25,5 @@ The ''page header'' is rendered at the top of the page and contains generally a 
 {{backlinks>.}}
 
 ===== Configuration =====
-You can configure the name of the ''header slot'' with the ''tpl»strap»headerslot'' [[:configuration|configuration]]
+You can configure the name of the ''header slot'' with the ''tpl»strap»headerslot'' [[docs:app:configuration|configuration]]
 

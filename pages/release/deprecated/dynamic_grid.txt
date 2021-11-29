@@ -1,6 +1,8 @@
 ---json
 {
-    "canonical":"dynamic:grid"
+    "canonical": ":dynamic:grid",
+    "h1": "Strap Template - Dynamic Grid System",
+    "page_id": "3alfs88i3fkg9vwxl4ftl"
 }
 ---
 
@@ -31,7 +33,7 @@ The default grid system of [[docs:utility:bootstrap|bootstrap]] is based on ''12
 
 ''strap'' supports a ''16 columns'' grid.
 
-To change the grid size, set the following [[:configuration|configuration]]:
+To change the grid size, set the following [[docs:app:configuration|configuration]]:
   * The ''gridColumns'' number to ''16''.
   * The [[docs:styling:stylesheet|Stylesheet]] to ''bootstrap.16col.min.css''
 

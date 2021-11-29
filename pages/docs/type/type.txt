@@ -1,7 +1,8 @@
 ---json
 {
-    "canonical":"page:type",
-    "name":"Page Type"
+    "canonical": ":page:type",
+    "name": "Page Type",
+    "page_id": "zvg4ledspi18q5c2or8cy"
 }
 ---
 ====== ComboStrap - Type of Page ======
@@ -39,7 +40,7 @@ The table below maps the ''type'' value with the value supported of the schema u
 ===== Configuration =====
 
 ==== defaultPageType ====
-The ''defaultPageType'' [[docs:configuration|configuration]] permits to set the default ''type'' value of a page except for the home page that has a default value of [[docs:type:website|website]].
+The ''defaultPageType'' [[docs:app:configuration|configuration]] permits to set the default ''type'' value of a page except for the home page that has a default value of [[docs:type:website|website]].
 
 By default, the value is [[docs:type:article|article]].
 

@@ -1,3 +1,9 @@
+---json
+{
+    "canonical": ":diagram",
+    "page_id": "ejriy9mdismnd90zpwpze"
+}
+---
 ====== ComboStrap Diagram ======
 
 

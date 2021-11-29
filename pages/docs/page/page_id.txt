@@ -1,3 +1,10 @@
+---json
+{
+    "canonical": ":uuid",
+    "h1": "UUID (Universally Unique IDentifier)",
+    "page_id": "vuyrji92f5jtc8enj7v6k"
+}
+---
 ====== Page Id ======
 
 
@@ -26,4 +33,4 @@ $page_id
 The [[docs:analytics:replication|data replication process]] uses it in order to replicate data from the file system to the database
 
 It's also useful if you move page files between ComboStrap installation such as a release from development to production
-     
+

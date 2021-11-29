@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"ui:highlight",
-    "title":"How to highlight words in ComboStrap",
-    "description":"This article shows you the highlighting syntax"
+    "canonical": ":ui:highlight",
+    "description": "This article shows you the highlighting syntax",
+    "page_id": "mce761veg65hnrcel0k22",
+    "title": "How to highlight words in ComboStrap"
 }
 ---
 ====== ComboStrap UI - Highlighting (mark) ======

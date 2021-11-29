@@ -1,6 +1,7 @@
 ---json
 {
-    "canonical":"pipeline"
+    "canonical": ":pipeline",
+    "page_id": "x8speed0rna8y7lqsocge"
 }
 ---
 

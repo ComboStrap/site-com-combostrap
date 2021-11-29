@@ -1,3 +1,9 @@
+---json
+{
+    "canonical": ":seo",
+    "page_id": "5kycre4bgxlof2wk2c8so"
+}
+---
 
 ====== ComboStrap - SEO ======
 

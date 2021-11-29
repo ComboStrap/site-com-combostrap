@@ -1,25 +1,28 @@
 ---json
 {
-	"canonical": "about",
-	"title": "The ComboStrap Organization - About us",
-	"description": "A page about the combostrap organization that also demonstrates how you can create an organization page",
-        "layout":"median",
-	"type": "organization",
-	"organization": {
-		"name": "ComboStrap",
-		"email": "support@combostrap.com",
-		"slogan": "Growing the world GDP of publishers and creators",
-		"address": {
-			"@type": "PostalAddress",
-			"addressLocality": "Oegstgeest, Netherlands",
-			"postalCode": "2343KE"
-		},
-		"parentOrganization": {
-			"@type": "organization",
-			"name": "Bytle",
-			"url": "https://bytle.net"
-		}
-	}
+    "canonical": ":about",
+    "description": "A page about the combostrap organization that also demonstrates how you can create an organization page",
+    "json-ld": {
+        "@context": "https:\/\/schema.org",
+        "@type": "Organization",
+        "name": "ComboStrap",
+        "email": "support@combostrap.com",
+        "slogan": "Growing the world GDP of publishers and creators",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Oegstgeest, Netherlands",
+            "postalCode": "2343KE"
+        },
+        "parentOrganization": {
+            "@type": "organization",
+            "name": "Bytle",
+            "url": "https:\/\/bytle.net"
+        }
+    },
+    "layout": "median",
+    "page_id": "fsojp0ad4439gkcqtdi23",
+    "title": "The ComboStrap Organization - About us",
+    "type": "organization"
 }
 ---
 

@@ -1,6 +1,8 @@
 ---json
 {
-    "layout":"median"
+    "canonical": ":style",
+    "layout": "median",
+    "page_id": "1lc8krjo7xpcinjmy2svw"
 }
 ---
 ====== Release Beta - Style Component ======

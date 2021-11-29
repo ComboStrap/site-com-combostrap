@@ -1,9 +1,10 @@
 ---json
 {
-    "canonical":"getting_started",
-    "name":"Get Started",
-     "description":"This page helps you to get started with ComboStrap",
-     "title":"How to configure and get started with a ComboStrap website"
+    "canonical": ":getting_started",
+    "description": "This page helps you to get started with ComboStrap",
+    "name": "Get Started",
+    "page_id": "3i8vga8fcduorja8f1sn4",
+    "title": "How to configure and get started with a ComboStrap website"
 }
 ---
 

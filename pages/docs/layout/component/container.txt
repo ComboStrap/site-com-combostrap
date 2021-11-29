@@ -1,3 +1,9 @@
+---json
+{
+    "canonical": ":container",
+    "page_id": "kr4wzg3iw47ybp5d2os52"
+}
+---
 ====== ComboStrap UI - Container ======
 
 ===== About =====

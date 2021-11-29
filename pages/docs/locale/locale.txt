@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"semantic:locale",
-    "title":"How the locale meta is calculated",
-    "description":"The locale is the concatenation of a language and country identifier. This page explains how ComboStrap handles it."
+    "canonical": ":semantic:locale",
+    "description": "The locale is the concatenation of a language and country identifier. This page explains how ComboStrap handles it.",
+    "page_id": "uxdl14836zysein8pfdko",
+    "title": "How the locale meta is calculated"
 }
 ---
 ====== ComboStrap Page Metadata - Locale ======

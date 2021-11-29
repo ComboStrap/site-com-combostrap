@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"facebook",
-    "title":"Facebook Graph Enabled",
-    "description":"Sharing a link from a ComboStrap page will show on every facebook post a card thanks to the facebook social graph metadata"
+    "canonical": ":facebook",
+    "description": "Sharing a link from a ComboStrap page will show on every facebook post a card thanks to the facebook social graph metadata",
+    "page_id": "nccxr0t7kgtuec17e1cnf",
+    "title": "Facebook Graph Enabled"
 }
 ---
 ====== ComboStrap Page Metadata - Facebook Card ======
@@ -42,7 +43,7 @@ If the page is of the [[..:type:article|article type]], we add also the [[..:typ
 </note>
 ===== Configuration =====
 
-You can set the following [[docs:configuration|configuration]]:
+You can set the following [[docs:app:configuration|configuration]]:
 
 ^ Name ^ Description ^ Default value ^
 | ''facebookDefautImage'' | the default image if no [[..:page:image|page image]] was found | :logo-facebook.png |

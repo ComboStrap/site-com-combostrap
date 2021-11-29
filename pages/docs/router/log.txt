@@ -1,3 +1,9 @@
+---json
+{
+    "canonical": ":log",
+    "page_id": "7kdfauhb7rnhe92xkkdmh"
+}
+---
 ====== ComboStrap Routing - Log redirections History ======
 
 

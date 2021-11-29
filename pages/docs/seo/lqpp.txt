@@ -1,7 +1,8 @@
 ---json
 {
-    "canonical":"lqpp",
-    "name":"Low Quality Page Protection"
+    "canonical": ":lqpp",
+    "name": "Low Quality Page Protection",
+    "page_id": "0p70275gzr9f35jv24vyc"
 }
 ---
 
@@ -42,7 +43,7 @@ We have created a low page demo to show you the protection in action.
 
 ===== Configuration =====
 ==== Enable ====
-This protection is disabled by default. If you want to enable it, you need to check the ''lowQualityPageProtectionEnable'' checkbox [[:configuration|configuration]].
+This protection is disabled by default. If you want to enable it, you need to check the ''lowQualityPageProtectionEnable'' checkbox [[docs:app:configuration|configuration]].
 
 
 <note>

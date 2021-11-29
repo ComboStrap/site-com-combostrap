@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"mermaid",
-    "title":"Create diagram with mermaid",
-    "description":"This component will render mermaid diagram"
+    "canonical": ":mermaid",
+    "description": "This component will render mermaid diagram",
+    "page_id": "h3ab9yj0nd5qkx90708zg",
+    "title": "Create diagram with mermaid"
 }
 ---
 ====== ComboStrap - Mermaid diagrams ======

@@ -1,6 +1,7 @@
 ---json
 {
-   "canonical":"disqus"
+    "canonical": ":disqus",
+    "page_id": "4pgtxg4nh4w4q1md65hgq"
 }
 ---
 
@@ -51,7 +52,7 @@ If you choose a specific id over the page id, don't change it otherwise if you h
 ===== Configuration =====
 ==== disqusDefaultAttributes====
 
-''disqusDefaultAttributes'' is a [[docs:configuration|configuration]] that defines the default [[#syntax|attributes]] of the ''Disqus'' component. 
+''disqusDefaultAttributes'' is a [[docs:app:configuration|configuration]] that defines the default [[#syntax|attributes]] of the ''Disqus'' component. 
 
 It should at minimum have the ''forumShortName''
 

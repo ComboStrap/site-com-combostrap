@@ -1,9 +1,10 @@
 ---json
 {
-    "canonical":"lazy:load",
-    "title":"Lazy loading in ComboStrap",
-    "description":"ComboStrap loads all images by default in a lazy mode meaning that they are loaded only when they are going to enter the screen.",
-    "layout":"median"
+    "canonical": ":lazy:load",
+    "description": "ComboStrap loads all images by default in a lazy mode meaning that they are loaded only when they are going to enter the screen.",
+    "layout": "median",
+    "page_id": "e632636hw0ys0dreyctbt",
+    "title": "Lazy loading in ComboStrap"
 }
 ---
 ====== ComboStrap - Lazy Loading ======
@@ -44,7 +45,7 @@ Example with a ''dark color''.
 
 If the media loaded is heavy, the user sees a box with a background color that fades gracefully.
 
-With this [[:configuration|configuration]], you can change the placeholder background color.
+With this [[docs:app:configuration|configuration]], you can change the placeholder background color.
 
 By default, the value is: ''#cbf1ea''
 

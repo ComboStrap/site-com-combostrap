@@ -1,9 +1,9 @@
 ---json
 {
-    "canonical":"gantt",
-    "name":"Gantt",
-    "title":"How to create a gantt diagram with ComboStrap",
-     "description":"This article shows you how to create a Gantt diagram."
+    "canonical": ":gantt",
+    "description": "This article shows you how to create a Gantt diagram.",
+    "page_id": "8a8sc5119u91pe0s9t53u",
+    "title": "How to create a gantt diagram with ComboStrap"
 }
 ---
 ====== ComboStrap Diagram - Gantt ======

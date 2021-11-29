@@ -1,11 +1,12 @@
 ---json
 {
-    "canonical": "page:image",
-    "name":"Page Image",
+    "canonical": ":page:image",
     "image": [
-        ":docs:block:stock_image_surfer_in_the_see.png",
-        ":docs:semantic:facebook_card.png"
-    ]
+        { "path": ":docs:block:stock_image_surfer_in_the_see.png" },
+        { "path": ":docs:semantic:facebook_card.png" }
+    ],
+    "name": "Page Image",
+    "page_id": "ma3pma1fgig4oye93n2c8"
 }
 ---
 ====== Page Image ======

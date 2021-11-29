@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"backlink",
-    "title":"Backlinks management in ComboStrap",
-     "description":"Backlinks are important because they give extra-navigation possibilities and gives also more weight to pages. This article tell you everything about backlinks in ComboStrap"
+    "canonical": ":backlink",
+    "description": "Backlinks are important because they give extra-navigation possibilities and gives also more weight to pages. This article tell you everything about backlinks in ComboStrap",
+    "page_id": "p2ow8zmhqg2sva3t74uqb",
+    "title": "Backlinks management in ComboStrap"
 }
 ---
 ====== ComboStrap - Backlink Page ======

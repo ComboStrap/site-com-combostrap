@@ -1,9 +1,10 @@
 ---json
 {
-    "canonical":"quality:rule",
-    "title":"The content quality rule of a page that ComboStrap applies",
-    "description":"Learn about how to use the quality rule feature to improve the quality of your website",
-    "name":"Quality Rule"
+    "canonical": ":quality:rule",
+    "description": "Learn about how to use the quality rule feature to improve the quality of your website",
+    "name": "Quality Rule",
+    "page_id": "2ggt7n0a2eqipznxn7h89",
+    "title": "The content quality rule of a page that ComboStrap applies"
 }
 ---
 
@@ -59,14 +60,14 @@ The threshold are actually fixed, you can't change them.
 </note>
 
 ^ Name ^ Description ^
-| ''canonical_present'' | A [[docs:metadata:canonical|canonical]] should be present in the [[docs:metadata:frontmatter|frontmatter]] |
-| ''description_present'' | A [[docs:metadata:description|description]] should be present in the [[docs:metadata:frontmatter|frontmatter]] |
+| ''canonical_present'' | A [[docs:page:canonical|canonical]] should be present in the [[docs:metadata:frontmatter|frontmatter]] |
+| ''description_present'' | A [[docs:page:description|description]] should be present in the [[docs:metadata:frontmatter|frontmatter]] |
 | ''fixme_min'' | A page should have no fixme |
 | ''internal_backlinks_min'' | A page should have at minimum one link from another page (internal backlink) |
 | ''internal_links_broken_max'' | A page should not have a link to a non-existing page (broken link) |
 | ''internal_links_min'' | A page should have at minimal a link to another page (internal link) |
 | ''outline_structure'' | The headers should have a tree structure (outline, toc) |
-| ''title_present'' | A [[docs:metadata:title|title]] should be present in the [[docs:metadata:frontmatter|frontmatter]] |
+| ''title_present'' | A [[docs:page:title|title]] should be present in the [[docs:metadata:frontmatter|frontmatter]] |
 | ''words_by_section_avg_max'' | A page should have at maximal a average of 300 words by section |
 | ''words_by_section_avg_min'' | A page should have at minimal a average of 20 words by section |
 | ''words_max'' | A page should have at maximal 1500 words |

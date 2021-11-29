@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"template:variable",
-    "title":"All variables that can be used in a template text",
-    "description":"This page describes which variables you can use in a template text"
+    "canonical": ":template:variable",
+    "description": "This page describes which variables you can use in a template text",
+    "page_id": "fr74w67bja6teikjevzlc",
+    "title": "All variables that can be used in a template text"
 }
 ---
 ====== Templating - Variables ======

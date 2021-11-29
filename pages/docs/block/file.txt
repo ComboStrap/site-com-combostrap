@@ -1,6 +1,7 @@
 ---json
 {
-    "canonical":"file"
+    "canonical": ":file",
+    "page_id": "wtzzzxv9l0cj43vpg9lsy"
 }
 ---
 
@@ -46,7 +47,7 @@ This is a [[docs:utility:prism|Prism component]] and follows the [[docs:utility:
 ===== Configuration =====
 
 ==== Enable / Disable ====
-The ''file_enable'' [[:configuration|configuration]] permits to enable / disable this component.
+The ''file_enable'' [[docs:app:configuration|configuration]] permits to enable / disable this component.
 
 If the component is disable, the [[doku>wiki:syntax#code_blocks|dokuwiki file block]] is applied.
 ==== Theme ====

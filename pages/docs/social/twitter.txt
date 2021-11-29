@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"twitter",
-    "title":"Twitter card enabled",
-    "description":"Sharing a link from a ComboStrap page will show on every twitter a card thanks to the social metadata"
+    "canonical": ":twitter",
+    "description": "Sharing a link from a ComboStrap page will show on every twitter a card thanks to the social metadata",
+    "page_id": "oew9mriffn0e3i9fjczms",
+    "title": "Twitter card enabled"
 }
 ---
 ====== ComboStrap Page Metadata - Twitter Card ======
@@ -53,7 +54,7 @@ Example of ''twitter'' [[..:page:image|image]] definition in [[docs:metadata:fro
 </code>
 ===== Configuration =====
 
-You can set the following [[docs:configuration|configuration]]:
+You can set the following [[docs:app:configuration|configuration]]:
 
 ^ Name ^ Description ^ Default value ^
 | ''twitterSiteHandle'' | the handle name of your twitter account (Example: @combostraweb) | None |

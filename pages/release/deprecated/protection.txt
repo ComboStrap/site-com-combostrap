@@ -1,6 +1,8 @@
 ---json
 {
-    "canonical":"deprecated:protection"
+    "canonical": ":deprecated:protection",
+    "h1": "Deprecation - Protection Mode",
+    "page_id": "kbb63xima71mj8pvcrkyh"
 }
 ---
 ====== Deprecation - Protection Mode ======

@@ -1,8 +1,9 @@
 ---json
 {
-    "name":"Page Url",
-    "canonical":"page:url",
-    "slug":"page-canonical-url"
+    "canonical": ":page:url",
+    "name": "Page Url",
+    "page_id": "kxbb9fdvvqm6mm8sjw5oi",
+    "slug": ":page-canonical-url"
 }
 ---
 
@@ -72,7 +73,7 @@ You may choose the format with the [[#pageUrlType|page url type configuration]]
 ===== Configuration =====
 
 ==== pageUrlType ====
-The [[#type|page URL type]] may be chosen with the ''pageUrlType'' [[docs:configuration|configuration]].
+The [[#type|page URL type]] may be chosen with the ''pageUrlType'' [[docs:app:configuration|configuration]].
 
 
 <note important>

@@ -1,8 +1,8 @@
 ---json
 {
-    "canonical":"release:1.16",
-    "title":"ComboStrap - Release 1.16",
-    "description":"The changes of the release 1.16"
+    "canonical": ":release:1.16",
+    "description": "The changes of the release 1.16",
+    "page_id": "5dcrfflgk64fttmg4dckh"
 }
 ---
 ====== ComboStrap - Release 1.16 ======
@@ -46,7 +46,7 @@ This release has brought a old request. ie styling to the [[docs:app:identity|id
 
 {{:release:layout_shift_bug.png|}}
 
-  * Bug: SEO, the page queried by the [[docs:metadata:canonical|canonical]] were not added to the search index. Why ? Because they got a meta robots value of ''noindex,follow'' via the ''tpl_metaheaders'' function of Dokuwiki that check the ''$INFO['exists']'' value.
+  * Bug: SEO, the page queried by the [[docs:page:canonical|canonical]] were not added to the search index. Why ? Because they got a meta robots value of ''noindex,follow'' via the ''tpl_metaheaders'' function of Dokuwiki that check the ''$INFO['exists']'' value.
 
 ==== Renaming ====
 

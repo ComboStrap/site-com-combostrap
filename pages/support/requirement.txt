@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"requirement",
-    "layout":"median",
-    "low_quality_page":"false"
+    "canonical": ":requirement",
+    "h1": "ComboStrap - Platform Requirements",
+    "layout": "median",
+    "page_id": "56axulcdjivoxnns79ss1"
 }
 ---
 ====== ComboStrap - Platform Requirements ======
@@ -30,9 +31,9 @@ ComboStrap is dependent on the following php extensions
 
 ^ Extension ^ Mandatory ^ Definition ^
 | ''pdo_sqlite'' | Yes | Sqlite is the [[docs:analytics:database|database]] |
-| ''mbstring'' | Yes | Multi-byte string permits to manage all [[docs:metadata:lang|language]] |
+| ''mbstring'' | Yes | Multi-byte string permits to manage all [[docs:locale:lang|language]] |
 | ''openssl'' | Yes | SSL for security reason and message digest |
-| ''intl'' | No | the [[https://www.php.net/manual/en/book.intl.php|international module]] is used to retrieve the [[docs:metadata:region|country]] of the server if not set. |
+| ''intl'' | No | the [[https://www.php.net/manual/en/book.intl.php|international module]] is used to retrieve the [[docs:locale:region|country]] of the server if not set. |
 | ''gd2'' | Yes | for [[docs:content:raster|raster image]] manipulation and features |
 
 They should be available on standard php installation, if this is not the case, you can install/configure them

@@ -1,7 +1,8 @@
 ---json
 {
-   "canonical":"installation:plugins",
-   "name":"4 Third plugins"
+    "canonical": ":installation:plugins",
+    "name": "4 Third plugins",
+    "page_id": "uf5ymxql03zbox8jzrizu"
 }
 ---
 

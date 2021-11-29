@@ -1,9 +1,10 @@
 ---json
 {
-    "canonical":"cache:static",
-    "name":"Infinite Static Cache",
-    "title":"Infinite Static Cache: Cache Image, Javascript and Stylesheet for an infinite amount of time",
-    "description":"With the Infinite Static Cache feature, ComboStrap will cache images, javascript and stylesheet infinitely."
+    "canonical": ":cache:static",
+    "description": "With the Infinite Static Cache feature, ComboStrap will cache images, javascript and stylesheet infinitely.",
+    "name": "Infinite Static Cache",
+    "page_id": "x489pmccj4099adn3hg1g",
+    "title": "Infinite Static Cache: Cache Image, Javascript and Stylesheet for an infinite amount of time"
 }
 ---
 ====== ComboStrap - Infinite Static Cache ======
@@ -30,7 +31,7 @@ We support static cache on:
 
 ==== staticCacheEnabled ====
 
-If you want to disable this feature, you can turn it off with the ''staticCacheEnabled'' [[:configuration|configuration]].
+If you want to disable this feature, you can turn it off with the ''staticCacheEnabled'' [[docs:app:configuration|configuration]].
 
 
 

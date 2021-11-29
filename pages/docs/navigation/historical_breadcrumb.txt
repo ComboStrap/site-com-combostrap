@@ -1,9 +1,10 @@
 ---json
 {
-    "canonical":"historical:breadcrumb",
-    "title":"Recent Page Visited",
-     "description":"A component to list the pages recently visited",
-     "h1":"Recent Pages Visited"
+    "canonical": ":historical:breadcrumb",
+    "description": "A component to list the pages recently visited",
+    "h1": "Recent Pages Visited",
+    "page_id": "y3czp2h49rvint16gtz7n",
+    "title": "Recent Page Visited"
 }
 ---
 
@@ -24,6 +25,6 @@ It's accessible via the [[docs:layout:page:railbar|railbar]] if in the [[#config
 
 {{:docs:navigation:historical_breadcrumb.png|}}
 ===== Configuration =====
-To show the ''trace'' breadcrumb, you need to set the [[doku>config:breadcrumbs|breadcrumbs]] [[:configuration|configuration]] to a number above 0.
+To show the ''trace'' breadcrumb, you need to set the [[doku>config:breadcrumbs|breadcrumbs]] [[docs:app:configuration|configuration]] to a number above 0.
 
 {{docs:block:trace_breadcrumb_configuration.png?500|}}

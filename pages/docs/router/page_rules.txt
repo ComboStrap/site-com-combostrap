@@ -1,6 +1,7 @@
 ---json
 {
-   "canonical":"page:rules"
+    "canonical": ":page:rules",
+    "page_id": "wx9h8eco3avtvqozkwy4h"
 }
 ---
 

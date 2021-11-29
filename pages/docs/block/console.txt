@@ -1,6 +1,7 @@
 ---json
 {
-    "canonical":"console"
+    "canonical": ":console",
+    "page_id": "bt673870d6acrepyn7qr4"
 }
 ---
 

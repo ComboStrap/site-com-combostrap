@@ -1,3 +1,9 @@
+---json
+{
+    "canonical": ":dropdown",
+    "page_id": "l5zqx172jszwz3bhwln9t"
+}
+---
 ====== ComboStrap UI - Dropdown ======
 
 ===== About =====

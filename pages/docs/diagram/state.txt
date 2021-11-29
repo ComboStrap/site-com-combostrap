@@ -1,9 +1,10 @@
 ---json
 {
-    "canonical":"state-diagram",
-    "name":"State Diagram",
-    "title":"How to create a state diagram with ComboStrap",
-     "description":"This article shows you how to create a state diagram."
+    "canonical": ":state-diagram",
+    "description": "This article shows you how to create a state diagram.",
+    "name": "State Diagram",
+    "page_id": "99nb86cidzf65nzwsja29",
+    "title": "How to create a state diagram with ComboStrap"
 }
 ---
 ====== ComboStrap Diagram - State Diagram ======

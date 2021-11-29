@@ -1,6 +1,7 @@
 ---json
 {
-    "canonical":"list"
+    "canonical": ":list",
+    "page_id": "p51mgzi2x3v2m5emcvstq"
 }
 ---
 ====== ComboStrap - List ======

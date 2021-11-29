@@ -1,6 +1,7 @@
 ---json
 {
-   "canonical":"sidekick_slot"
+    "canonical": ":sidekick_slot",
+    "page_id": "yf3ajsqn8emcphcq4wgd3"
 }
 ---
 
@@ -27,4 +28,4 @@ See [[docs:cache:sideslots]]
 ===== Configuration =====
 ==== Name ====
 
-You can configure the name of the ''sidekickslot'' with the ''tpl»strap»sidekickslot'' [[:configuration|configuration]]
+You can configure the name of the ''sidekickslot'' with the ''tpl»strap»sidekickslot'' [[docs:app:configuration|configuration]]

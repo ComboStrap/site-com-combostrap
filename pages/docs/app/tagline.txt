@@ -1,10 +1,11 @@
 ---json
 {
-   "canonical":"tagline"
+    "canonical": ":tagline",
+    "page_id": "3pkfwh33zqw8mff9u2w47"
 }
 ---
 
-====== ComboStrap App - Tagline ======
+====== ComboStrap App - Tagline / Slogan ======
 
 
 ===== About =====
@@ -14,11 +15,12 @@ It's used:
   * in the ''description'' field of the [[docs:app:manifest|manifest]]
   * in the [[docs:type:home#root|root home page]] [[docs:page:title|title]].
   * in the home page [[..:type:website|website metadata]] as site description.
+  * in a [[docs:type:organization|organisation page]]
 
 
 
 
 ===== Enable =====
 
-To enable it, you just need to set the [[doku>config:tagline|tagline]] [[docs:configuration|configuration]] with a value.
+To enable it, you just need to set the [[doku>config:tagline|tagline]] [[docs:app:configuration|configuration]] with a value.
 

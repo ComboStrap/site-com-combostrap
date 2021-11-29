@@ -1,7 +1,9 @@
 ---json
 {
-   "canonical":"best:end:page:name",
-   "name":"Best end page name algo"
+    "canonical": ":best:end:page:name",
+    "h1": "ComboStrap URL Management - Best End Page Name Scoring",
+    "name": "Best end page name algo",
+    "page_id": "8krn9ufhknyscs432sd72"
 }
 ---
 
@@ -37,7 +39,7 @@ When a user request a [[404|missing page]] (ie ''species:bird:sparrow''), the al
 
 ==== BestEndPageMinimalScoreForAliasCreation ====
 
-This [[docs:configuration|configuration]] permits to:
+This [[docs:app:configuration|configuration]] permits to:
   * create a [[docs:router:alias#redirect|alias redirect]]
   * and executes a [[permanent|permanent redirect]]
 when the number of parts in the found path that matches the missing page is higher or equal.

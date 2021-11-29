@@ -1,3 +1,9 @@
+---json
+{
+    "canonical": ":template",
+    "page_id": "pm4q4w56odmfb5aqnqujv"
+}
+---
 ====== ComboStrap UI - Template ======
 
 

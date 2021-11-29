@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"tweet",
-    "title":"How to embed a tweet in your ComboStrap pages",
-    "description":"This article shows you the tweet web component and how you can use it to embed a tweet in your pages"
+    "canonical": ":tweet",
+    "description": "This article shows you the tweet web component and how you can use it to embed a tweet in your pages",
+    "page_id": "81p1elltpj25lt806ieat",
+    "title": "How to embed a tweet in your ComboStrap pages"
 }
 ---
 ====== ComboStrap UI - Embedded Tweet ======
@@ -35,7 +36,7 @@ The content is optional and is used:
 The parameters that you can set as attribute of the [[..:block:blockquote|blockquote tag]]  are listed in the below table.
 
 ^ Parameter ^ Possible Values ^ Default ^ Description ^ 
-| lang | Two letters | [[docs:metadata:lang|See lang]] | Language interface (if in the [[https://developer.twitter.com/en/docs/twitter-for-websites/supported-languages|supported language]] otherwise ''en'') |
+| lang | Two letters | [[docs:locale:lang|See lang]] | Language interface (if in the [[https://developer.twitter.com/en/docs/twitter-for-websites/supported-languages|supported language]] otherwise ''en'') |
 | cards | hidden | | links in a Tweet are not expanded to photo, video, or link previews |
 | conversation | none | | if set, only the cited Tweet will be displayed even if it is in reply to another Tweet |
 | theme | light/dark | [[#theme|light]] | Displays Tweet in their [[#theme]] |
@@ -92,17 +93,17 @@ and without any content.
 
 ==== Theme ====
 
-The ''twitter:widgets:theme'' is a [[:configuration|configuration]] that sets the default theme value for the website.
+The ''twitter:widgets:theme'' is a [[docs:app:configuration|configuration]] that sets the default theme value for the website.
 
 Possible values:
     * light: Default
     * dark: Displays Tweet with light text over a dark background.
 
 ==== Border-color ====
-The ''twitter:widgets:border-color'' is a [[:configuration|configuration]] that sets the default value of the border. Value: ''#55acee''
+The ''twitter:widgets:border-color'' is a [[docs:app:configuration|configuration]] that sets the default value of the border. Value: ''#55acee''
 
 ==== Do Not Track ====
-The ''twitter:dnt'' (''Do Not Track - dnt'') is a [[:configuration|configuration]] that sets the [[https://developer.twitter.com/en/docs/twitter-for-websites/webpage-properties|privacy policy]]. 
+The ''twitter:dnt'' (''Do Not Track - dnt'') is a [[docs:app:configuration|configuration]] that sets the [[https://developer.twitter.com/en/docs/twitter-for-websites/webpage-properties|privacy policy]]. 
 
 Values:
   * ''on'' (default)

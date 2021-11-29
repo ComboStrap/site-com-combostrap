@@ -1,6 +1,7 @@
 ---json
 {
-   "canonical":"redirection:action"
+    "canonical": ":redirection:action",
+    "page_id": "1thufjcispb7qcw33tb6z"
 }
 ---
 
@@ -28,6 +29,6 @@ If an action does not find a page, the next action will try to find a page until
 
 ===== Configuration =====
 
-You can set the actions order in the [[docs:configuration|configuration]].
+You can set the actions order in the [[docs:app:configuration|configuration]].
 
 {{docs:router:redirection_actions.png|}}

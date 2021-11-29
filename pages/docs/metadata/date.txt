@@ -1,8 +1,5 @@
 ---json
 {
-    "alias": [
-        { "path": ":docs:semantic:date", "type": "redirect" }
-    ],
     "canonical": ":date",
     "description": "How to write a date in the frontmatter to be valid",
     "name": "Date format",

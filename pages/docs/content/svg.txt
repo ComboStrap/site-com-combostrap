@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"svg",
-    "title":"How to use a SVG in ComboStrap",
-    "description":"ComboStrap supports natively SVG and allows you to use them as image, illustration and background"
+    "canonical": ":svg",
+    "description": "ComboStrap supports natively SVG and allows you to use them as image, illustration and background",
+    "page_id": "0bzvu0uc1ba2p9m6mfbm6",
+    "title": "How to use a SVG in ComboStrap"
 }
 ---
 ====== ComboStrap UI - SVG ======
@@ -129,7 +130,7 @@ The ''on'' event attribute such as ''onClick'' are not.
 ===== Configuration =====
 
 ==== svgMaxInlineSize ====
-The ''svgMaxInlineSize'' [[:configuration|configuration]] is the maximum file size until a SVG file is included directly in the web page.
+The ''svgMaxInlineSize'' [[docs:app:configuration|configuration]] is the maximum file size until a SVG file is included directly in the web page.
 
 With a default of ''2Kb'', all small SVG file such as [[docs:content:icon|icon]] are automatically included. The browser does not need to download them.
 
@@ -150,7 +151,7 @@ If this configuration is on, the SVG files that have a size bigger than the [[#s
 This configuration permits to disable / enable this feature.
 
 ==== svgUploadGroupName ====
-This [[:configuration|configuration]] sets the group that is allowed to upload a SVG file.
+This [[docs:app:configuration|configuration]] sets the group that is allowed to upload a SVG file.
 
 SVG file can contain code and this by default not allowed to upload a SVG.
 

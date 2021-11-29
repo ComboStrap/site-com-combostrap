@@ -1,9 +1,10 @@
 ---json
 {
-    "canonical":"link",
-    "name":"links",
-    "title":"ComboStrap UI - Link",
-    "description":"The link component permits to create hyperlinks between pages."
+    "canonical": ":link",
+    "description": "The link component permits to create hyperlinks between pages.",
+    "name": "links",
+    "page_id": "0oocdu2rx6z4pyfb3un4w",
+    "title": "ComboStrap UI - Link"
 }
 ---
 ====== ComboStrap UI - Link ======
@@ -202,11 +203,11 @@ You can't use the form ''s[]'' to highlight words.  Why ? See [[#Square bracket 
 
 To resolve this issue, we have set other class name by link type that a web designer can use to style the links.
 
-If you wish to get the Dokuwiki class name on your links, you can get them by enabling the [[docs:configuration|useDokuwikiLinkClassName configuration]].
+If you wish to get the Dokuwiki class name on your links, you can get them by enabling the [[docs:app:configuration|useDokuwikiLinkClassName configuration]].
 
 
 ==== disableLink ====
-If you don't want that ''Combostrap'' changes the default link behavior, you can disable it with the ''disableLink'' [[docs:configuration|configuration]].
+If you don't want that ''Combostrap'' changes the default link behavior, you can disable it with the ''disableLink'' [[docs:app:configuration|configuration]].
 
 Note that the link component enhances the [[doku>wiki:syntax#links|link]] syntax.
   * It allows any content inside. Dokuwiki allows only text and media. If you disable it, you can't style your link or add any icon in it.

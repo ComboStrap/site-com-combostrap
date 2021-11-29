@@ -1,9 +1,10 @@
 ---json
 {
-    "name":"Page H1",
-    "canonical":"h1",
-    "title":"H1 - A shorter version of the title ",
-    "description":"The H1 is the text of the first header and can be used in template within a list of link. "
+    "canonical": ":h1",
+    "description": "The H1 is the text of the first header and can be used in template within a list of link. ",
+    "name": "Page H1",
+    "page_id": "1rs9rlnbgrq0e5rhfpn8w",
+    "title": "H1 - A shorter version of the title "
 }
 ---
 ====== Page Heading 1 (h1) ======

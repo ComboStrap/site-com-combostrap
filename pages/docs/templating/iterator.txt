@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"iterator",
-    "title":"The iterator: Template iteration made easy",
-    "description":"With the template iterator, you can loop over a template to create any list of page components such as the list of the last blog or recent pages"
+    "canonical": ":iterator",
+    "description": "With the template iterator, you can loop over a template to create any list of page components such as the list of the last blog or recent pages",
+    "page_id": "5acenddpfdkik3h087892",
+    "title": "The iterator: Template iteration made easy"
 }
 ---
 ====== ComboStrap - Template Iterator ======
@@ -72,6 +73,6 @@ where:
 
 
 <note>
-  * If your iteration is time-based, you may need to set a [[:docs:cache:page|page cache expiration frequency]].
+  * If your iteration is time-based, you may need to set a [[docs:cache:page_expiration_frequency|page cache expiration frequency]].
   * If the data does not return any rows, the iterator content is not printed (ie header and footer included)
 </note>

@@ -1,7 +1,8 @@
 ---json
 {
-    "name":"Page Move",
-    "canonical":"page:move"
+    "canonical": ":page:move",
+    "name": "Page Move",
+    "page_id": "rtal432nlmv8itpvvpp67"
 }
 ---
 

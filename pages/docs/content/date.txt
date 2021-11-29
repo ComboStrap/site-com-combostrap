@@ -1,9 +1,10 @@
 ---json
 {
-    "canonical":"content:date",
-    "title":"Date Component: display a date in any format you wish",
-     "description":"With the date component, you can print a date in any format (from today's date to page date)",
-     "date_published":"2021-09-26"
+    "canonical": ":content:date",
+    "date_published": "2021-09-26T00:00:00+00:00",
+    "description": "With the date component, you can print a date in any format (from today's date to page date)",
+    "page_id": "59rkmdj9buce6ud5bvwzb",
+    "title": "Date Component: display a date in any format you wish"
 }
 ---
 
@@ -12,10 +13,10 @@
 ===== About =====
 With the date component, you can format any date:
   * the today's date
-  * any [[docs:semantic:date|string date]]
+  * any [[docs:metadata:date|string date]]
   * or any [[docs:templating:variable|page date attribute]] such as:
       * ''date_created'' or ''date_modified''  of a page
-      * ''date_published'' (if specified, see [[docs:metadata:published]])
+      * ''date_published'' (if specified, see [[docs:page:published]])
       * ''date_start'' or ''date_end'' of an [[docs:type:event|event]]
 
 
@@ -55,7 +56,7 @@ To have it refresh every day, we expire the [[docs:cache:cache|cache date daily]
 
 
 <webcode name="Default" frameborder="0">
-  * The markup with the [[docs:metadata:lang|lang]] attribute
+  * The markup with the [[docs:locale:lang|lang]] attribute
 <code dw>
 <date lang="fr"/>
 </code>
@@ -66,7 +67,7 @@ To have it refresh every day, we expire the [[docs:cache:cache|cache date daily]
 
 
 <webcode name="Default" frameborder="0">
-  * When you specify a date, you need to write it in a [[docs:semantic:date|accepted date format]]
+  * When you specify a date, you need to write it in a [[docs:metadata:date|accepted date format]]
 <code dw>
 <date format="%A">2021-09-27</date>
 </code>
@@ -77,7 +78,7 @@ To have it refresh every day, we expire the [[docs:cache:cache|cache date daily]
 
 With a [[docs:templating:template|template component]], you can even print a date metadata of a page.
 <webcode name="Default" frameborder="0">
-  * For instance, for the [[docs:metadata:published|published date]] of this article
+  * For instance, for the [[docs:page:published|published date]] of this article
 <code dw>
 <template>
     <date>$date_published</date>
@@ -98,7 +99,7 @@ With a [[docs:templating:template|template component]], you can even print a dat
 </code>
 where:
   * ''format'' is any [[https://www.php.net/manual/en/function.strftime.php|format accepted by the strftime function]]
-  * ''lang'' is a [[docs:metadata:lang|lang]] value
+  * ''lang'' is a [[docs:locale:lang|lang]] value
   * ''dateValue'' is:
-      * one of the [[docs:semantic:date|accepted date format]]
+      * one of the [[docs:metadata:date|accepted date format]]
       * or any [[docs:templating:variable|page date metadata]].

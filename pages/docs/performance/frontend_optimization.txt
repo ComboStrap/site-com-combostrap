@@ -1,7 +1,8 @@
 ---json
 {
-   "canonical":"frontend:optimization",
-   "layout":"median"
+    "canonical": ":frontend:optimization",
+    "layout": "median",
+    "page_id": "2gsk2rdbl9owghvrbhmz3"
 }
 ---
 
@@ -39,7 +40,7 @@ This option will not delete the backend stylesheet but will reduce the size of t
 
 By default, this optimization is disabled.
 
-You can enable it by changing the ''enableMinimalFrontEndCss'' [[docs:configuration|configuration]]
+You can enable it by changing the ''enableMinimalFrontEndCss'' [[docs:app:configuration|configuration]]
 
 
 
@@ -49,7 +50,7 @@ You can even go a step further, if your front-end is completely based on ''Combo
 
 By default, this optimization is disabled.
 
-You can enable it by changing the ''disableDokuwikiStylesheet'' [[docs:configuration|configuration]]
+You can enable it by changing the ''disableDokuwikiStylesheet'' [[docs:app:configuration|configuration]]
 
 
 <note important>

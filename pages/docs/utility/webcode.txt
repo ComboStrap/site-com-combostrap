@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"webcode",
-    "title":"A ComboStrap Component to render web code in a web page (javascript, html, ...)",
-    "description":"With the `web code` component, you can embedded snippet of Javascript, Html and Css script and render their output."
+    "canonical": ":webcode",
+    "description": "With the `web code` component, you can embedded snippet of Javascript, Html and Css script and render their output.",
+    "page_id": "8fe6ahwh2hf8ikqs7m12j",
+    "title": "A ComboStrap Component to render web code in a web page (javascript, html, ...)"
 }
 ---
 

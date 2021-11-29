@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"raster",
-    "title":"Raster Image in ComboStrap (jpg, png, ...)",
-    "description":"From lazy loading to automatic resizing, this page tells you how ComboStrap manages raster image"
+    "canonical": ":raster",
+    "description": "From lazy loading to automatic resizing, this page tells you how ComboStrap manages raster image",
+    "page_id": "mhk4w1oe5d7qs190k7bip",
+    "title": "Raster Image in ComboStrap (jpg, png, ...)"
 }
 ---
 ====== ComboStrap UI - Raster Images ======
@@ -109,7 +110,7 @@ By default, the images are all loaded:
   * on time: ie just before they will enter the screen (while the user is scrolling)
   * with the lower resolution: the loaded image resolution is based on the screen size.
 
-If you don't want this feature, you can disable it with the ''rasterImageLazyLoadingEnable'' [[:configuration|configuration]].
+If you don't want this feature, you can disable it with the ''rasterImageLazyLoadingEnable'' [[docs:app:configuration|configuration]].
 
 
 
@@ -126,12 +127,12 @@ By default, responsives images takes this into account and will download for a m
 
 To avoid confusion and spare bandwidth, we have disabled this behavior.
 
-If you want to go back to the default behavior, you can do it by unchecking the ''retinaRasterImageEnable '' [[:configuration|configuration]].
+If you want to go back to the default behavior, you can do it by unchecking the ''retinaRasterImageEnable '' [[docs:app:configuration|configuration]].
 
 
 ==== responsiveImageMargin ====
 
-Below the responsive breakpoints, we extract a margin. The default value is 20px but you may change it with the ''responsiveImageMargin'' [[:configuration|configuration]].
+Below the responsive breakpoints, we extract a margin. The default value is 20px but you may change it with the ''responsiveImageMargin'' [[docs:app:configuration|configuration]].
 
 ===== Support =====
 ==== Resizing is not working from my big raster image ====

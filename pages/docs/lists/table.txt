@@ -1,3 +1,9 @@
+---json
+{
+    "canonical": ":table",
+    "page_id": "zdxqast7xkdltj6wkw081"
+}
+---
 ====== ComboStrap UI - Table ======
 
 

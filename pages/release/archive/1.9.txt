@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"1.9",
-    "title":"ComboStrap 1.9 Release",
-    "description":"ComboStrap 1.9 Release changes"
+    "canonical": ":1.9",
+    "description": "ComboStrap 1.9 Release changes",
+    "page_id": "0jm18aqu94yxly25die17",
+    "title": "ComboStrap 1.9 Release"
 }
 ---
 ====== ComboStrap - Release 1.9 ======

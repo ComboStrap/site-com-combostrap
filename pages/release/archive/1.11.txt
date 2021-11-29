@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"1.11",
-    "title":"ComboStrap Release - 1.11",
-    "description":"The changes of the 1.11 release"
+    "canonical": ":1.11",
+    "description": "The changes of the 1.11 release",
+    "page_id": "zlu45w637z6b2cnwpocqh",
+    "title": "ComboStrap Release - 1.11"
 }
 ---
 ====== ComboStrap - Release 1.11  ======
@@ -26,5 +27,5 @@
   * New: [[docs:analytics:analytics|analytics module]] that adds [[docs:analytics:data|analytical data]] on [[docs:analytics:statistics|page statistics]] and [[docs:quality:quality|quality]] (with automatic refresh when backlinks are created or deleted).
   * New: [[docs:quality:quality|quality  module]] with [[docs:seo:lqpp|low quality page protection]], [[docs:quality:score|quality score]] and [[docs:quality:rule|quality rules]]
   * New ''auto frontmatter'' feature  - a [[docs:metadata:frontmatter|frontmatter]] is created for a new page
-  * New ''h1'': The [[docs:metadata:h1|h1 metadata]] has been added in order to have the notion of a short [[docs:metadata:title|title page]].
+  * New ''h1'': The [[docs:page:h1|h1 metadata]] has been added in order to have the notion of a short [[docs:page:title|title page]].
 

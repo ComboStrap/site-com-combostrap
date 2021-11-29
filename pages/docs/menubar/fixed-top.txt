@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"top_menubar",
-    "description":"A top menubar is just two steps",
-    "title":"Top navigation bar made simple"
+    "canonical": ":top_menubar",
+    "description": "A top menubar is just two steps",
+    "page_id": "z69x3fbp11kk2vkzitzig",
+    "title": "Top navigation bar made simple"
 }
 ---
 

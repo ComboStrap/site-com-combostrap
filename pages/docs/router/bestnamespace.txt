@@ -1,7 +1,8 @@
 ---json
 {
-    "name":"Best Namespace Algo",
-    "canonical":"best:namespace"
+    "canonical": ":best:namespace",
+    "name": "Best Namespace Algo",
+    "page_id": "5g7b1dkm67lza8r07iaem"
 }
 ---
 

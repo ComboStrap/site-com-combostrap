@@ -1,8 +1,9 @@
 ---json
 {
-    "canonical":"styling:size",
-    "title":"The size attribute defines how a component will become big",
-    "description":"The size attributes determines the background surface, the higher the more surface, it will take"
+    "canonical": ":styling:size",
+    "description": "The size attributes determines the background surface, the higher the more surface, it will take",
+    "page_id": "znksli4ropnggp27p1peu",
+    "title": "The size attribute defines how a component will become big"
 }
 ---
 ====== ComboStrap Styling - Size ======
