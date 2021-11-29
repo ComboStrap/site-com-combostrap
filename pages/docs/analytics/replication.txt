@@ -10,7 +10,7 @@
 
 
 ===== About =====
-The ''replication process'' is the process that creates the [[data|analytical data]] if needed and replicates the data with the [[docs:analytics:database|database]].
+The ''database replication process'' is the process that creates the [[data|analytical data]] if needed and replicates the data with the [[docs:analytics:database|database]].
 
 
 
@@ -33,7 +33,7 @@ To purge the analytical cache, you can:
 
 
 ===== Cli =====
-On the server, you can replicate the data to the database with the [[:docs:admin:cli|cli]] following command
+On the server, you can [[docs:admin:replication|replicate the data]] to the database with the [[:docs:admin:cli|cli]] following command
 <code bash>
 cd $DOKUWIKI_HOME
 # optional (for farm)

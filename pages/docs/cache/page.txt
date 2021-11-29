@@ -27,14 +27,14 @@ The [[docs:cache:sideslots|sideslot cache]] expires also when the name, h1, titl
 
 You can set the expiration date of a page with two methods:
   * by page: the [[#expiration frequency]]
-  * globally: the [[#cache time interval]]
+  * globally: the [[#cache time interval]] (maximum age)
 ==== Expiration Frequency ====
 
 If you need to delete the page cache at interval because your page contains time-based data, 
 you can use the [[docs:cache:page_expiration_frequency|page cache expiration frequency]].
 
 ==== Cache time interval ====
-The ''cache time'' interval is a standard dokuwiki [[docs:app:configuration|application configuration]] that sets a time interval.
+The ''cache time'' interval is a standard dokuwiki [[docs:app:configuration|application configuration]] that sets a maximum age for the cache file.
 
 If the interval has expired since the last creation date of the cache, the cache has expired and there is a cache miss.
 

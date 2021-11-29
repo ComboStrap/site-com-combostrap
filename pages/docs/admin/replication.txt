@@ -1,0 +1,16 @@
+======  Replication ======
+
+
+===== About =====
+Combostrap replicates data from pages:
+  * into the [[docs:analytics:replication|database]] for different functionality such as:
+      * index 
+      * [[docs:router:router|Routing]]
+      * [[docs:templating:sql|Page sql]]
+  * into the [[docs:metadata:frontmatter|frontmatter (if enabled)]]
+
+
+The replication process is by default done on a page by page basis but you can start the replication for all pages with the [[cli|cli]] in case of administrative task such as a migration. For more information on the replication, see the dedicated replication page:
+  * [[docs:analytics:replication]]
+  * [[docs:metadata:frontmatter]]
+

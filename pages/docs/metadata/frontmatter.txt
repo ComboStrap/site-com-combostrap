@@ -10,7 +10,7 @@
 ====== ComboStrap Page Metadata - Front Matter ======
 
 ===== About =====
-''Front Matter'' is a component that permit to [[docs:analytics:replication|replicate]] the [[..:metadata:metadata|metadata]] into your page.
+''Front Matter'' is a component that permits to [[docs:admin:replication|replicate]] the [[..:metadata:metadata|metadata]] into your page.
 
 This functionality is used when you want to:
   * move your pages and get the metadata in sync in other ComboStrap installation
