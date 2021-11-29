@@ -35,7 +35,7 @@ When you choose a permanent [[#type|url type]], ComboStrap will add a short page
 Even if you change the type or content of the URL, the [[docs:router:router|router]] will always be able to find the page.
 
 The syntax is:
-  * With a [[docs:router:nice|Nice Url]]:
+  * With a [[docs:page:nice-url|Nice Url]]:
 <code javascript>
 https://domain.com/a-description/or-path-that-is-not-relevant/page-identifier
 </code>
@@ -100,3 +100,6 @@ https://example.com/docs/page/url
 <note>
 For all other [[#type]], the URL is absolute.
 </note>
+
+==== Nice ====
+You can configure your installation to show nice page URL: [[docs:page:nice-url]]
