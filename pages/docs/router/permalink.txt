@@ -1,7 +1,8 @@
 ---json
 {
-    "canonical": ":permalink",
-    "page_id": "g957ppa77acns18gpgxx8"
+    "description": "Permalink are short links that will be permanently accessible even if the page is moved.",
+    "page_id": "g957ppa77acns18gpgxx8",
+    "title": "How to create a Permalink ?"
 }
 ---
 
@@ -51,9 +52,15 @@ Note that a [[docs:page:canonical|canonical]] is not a true permalink as it may 
 </webcode>
 
 
+\\
+\\
 
+A named permalink performs a [[docs:router:permanent|permanent redirection]] to the [[docs:page:url|page url]].
 
-A named permalink performs a [[docs:router:transparent|transparent redirection]].
+<note tip>
+For the named permalink, you can set a default canonical value with the [[docs:page:canonical_automatic|autocanonical feature]].
+It allows to use this feature without setting the [[docs:page:canonical|canonical value]] for each page.
+</note>
 
 
 
