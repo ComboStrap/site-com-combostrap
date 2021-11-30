@@ -35,7 +35,7 @@ Dokuwiki has an article about this topic: More see [[doku>rewrite]]
 
 but it can [[docs:router:transparent|show page at different paths]].
 
-**Example:** because this page has the ''nice:url'' canonical value, the page is available at:
+**Example:** because this page has the ''nice:url'' [[docs:page:canonical|canonical value]], the page is also available at:
 
 https://combostrap.com/nice/url
 
