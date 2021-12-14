@@ -1,6 +1,7 @@
 ---json
 {
-    "page_id": "r3q4cwgsfcozmq6vfn6lu"
+    "page_id": "r3q4cwgsfcozmq6vfn6lu",
+    "canonical": "keywords"
 }
 ---
 ====== Page KeyWords ======
