@@ -4,7 +4,7 @@
     "page_id": "afesgbz3stzslqrz5jxxn"
 }
 ---
-====== ComboStrap Analytics - Database ======
+====== ComboStrap Analytics - Sqlite Database ======
 
 
 ===== About =====
@@ -15,7 +15,7 @@ All ''ComboStrap'' data are stored in a Sqlite Database.
 ===== Tables =====
 The database schema has the following tables:
   * ''pages'' - [[data|data on pages]]:
-      * ''id'': the page id
+      * ''page_id'': the page id
       * ''canonical'': the [[docs:page:canonical|canonical]]
       * ''analytics'': the [[data|json analytics data]]
   * ''page_aliases'' - the [[docs:router:alias|page aliases]]
@@ -33,4 +33,28 @@ Depending on your history with our plugins, its name may be:
   * ''webcomponent.sqlite3'' (older)
   * ''404manager.sqlite3'' (older)
 
+===== Configuration =====
 
+If you have a high traffic, we recommend to use the [[https://sqlite.org/wal.html|write-ahead log]] to reduce blocking.
+By default, Sqlite uses the old traditional journal.
+
+Steps:
+
+  * [[query#Go to the Sqlite Interface|Go to the sqlite interface]]
+  * Check the Sqlite version (above 3.7 - 2010)
+
+```sql
+select sqlite_version();
+```
+
+  * Modify the journal to `write-ahead log` (WAL)
+
+```sql
+PRAGMA journal_mode=WAL;
+```
+
+  * Verify the new journal mode
+
+```sql
+PRAGMA journal_mode;
+```
