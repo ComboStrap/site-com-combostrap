@@ -11,7 +11,7 @@
 
 
 ===== About =====
-The ''page url'' is the unique official URL of a page and is also known as the ''canonical url''.
+The ''page url'' is the unique official URL of a page and is also known in the [[docs:seo:seo|SEO world]] as the ''canonical url''.
 
 
 
@@ -35,13 +35,13 @@ When you choose a permanent [[#type|url type]], ComboStrap will add a short page
 Even if you change the type or content of the URL, the [[docs:router:router|router]] will always be able to find the page.
 
 The syntax is:
-  * With a [[docs:page:nice-url|Nice Url]]:
+  * With a [[docs:admin:nice-url|Nice Url]]:
 <code javascript>
-https://domain.com/a-description/or-path-that-is-not-relevant/page-identifier
+https://domain.com/a-description/or-path-that-is-not-relevant-pageIdentifier
 </code>
   * Otherwise:
 <code javascript>
-https://domain.com/doku.php?id=a-description:or-path-that-is-not-relevant:page-identifier
+https://domain.com/doku.php?id=a-description:or-path-that-is-not-relevant-pageIdentifier
 </code>
 ===== Example =====
 
@@ -65,7 +65,7 @@ The page URL may get the following format:
 | ''permanent canonical path'' | the [[docs:page:canonical|canonical path]] and the short page identifier | Yes | ''permanent page path'' |
 | ''slug'' | the [[slug|slug path]] and the short page identifier | Yes | [[docs:page:title|page title]] in slug format |
 | ''hierarchical slug'' | the [[docs:page:name|page name]] of **all** [[docs:type:home|parent home pages]], the [[slug|slug path]] and the short page identifier | Yes | Na |
-| ''parent slug'' | the [[docs:page:name|page name]] of the [[docs:type:home|parent home page]], the [[slug|slug path]] and and the short page identifier | Yes | Na |
+| ''homed slug'' | the [[docs:page:name|page name]] of the [[docs:type:home|parent home page]], the [[slug|slug path]] and and the short page identifier | Yes | Na |
 
 You may choose the format with the [[#pageUrlType|page url type configuration]]
 
@@ -102,4 +102,4 @@ For all other [[#type]], the URL is absolute.
 </note>
 
 ==== Nice ====
-You can configure your installation to show nice page URL: [[docs:page:nice-url]]
+You can configure your installation to show nice page URL: [[docs:admin:nice-url]]
