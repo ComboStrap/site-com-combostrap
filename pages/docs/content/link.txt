@@ -23,7 +23,9 @@
 
 ==== Internal ====
 
-An ''internal'' link is a link to another page. If the target page does not exist, the link is shown in ''red''. You can even use the [[docs:styling:styling|styling attributes]]
+An ''internal'' link is a link from a page of your [[docs:app:app|website]] to another page of your [[docs:app:app|website]].
+
+If the target page does not exist, the link is shown in ''red''. You can even use the [[docs:styling:styling|styling attributes]]
 
   * Example:
 <webcode name="Default" frameborder=0>
@@ -37,7 +39,7 @@ Internal Links can also be [[?color=#495057|styled]]
 
 <note>
   * The default description if not set is the [[docs:page:name|page name]].
-  * The URL may be made [[docs:page:url|permanent by adding the page identifier]]
+  * The URL may be made [[docs:page:url|permanent by adding the page identifier]].
 </note>
 
 
