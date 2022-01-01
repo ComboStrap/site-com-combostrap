@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":class",
     "page_id": "amwo76bu39giwykxgqz1d"
 }
 ---

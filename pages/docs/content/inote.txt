@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":inote",
     "page_id": "xzqo3ptskleher3zxj8a5"
 }
 ---

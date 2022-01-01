@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":disqus",
     "page_id": "4pgtxg4nh4w4q1md65hgq"
 }
 ---

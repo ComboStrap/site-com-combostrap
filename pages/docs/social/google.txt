@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":google",
     "page_id": "os9d45q6uylzdaqpkf6s3"
 }
 ---

@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":root",
     "name": "WebSite Home Page",
     "page_id": "35wdn29potxfo9bltfb5d"
 }

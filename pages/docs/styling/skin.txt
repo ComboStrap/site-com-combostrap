@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":skin",
     "page_id": "vtolj4xia392o6fi0mhsl"
 }
 ---

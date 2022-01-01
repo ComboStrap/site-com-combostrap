@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":header_slot",
     "page_id": "p699rcpva3jcxth3wxbii"
 }
 ---

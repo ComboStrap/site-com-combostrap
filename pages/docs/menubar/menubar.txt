@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":menubar",
     "page_id": "yvrmmu2djwquczyqpykuo"
 }
 ---

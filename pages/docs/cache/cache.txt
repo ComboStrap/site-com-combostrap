@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":cache",
     "description": "All the caches are explained in this page, from pages to images",
     "page_id": "4mipb56789urecr5m614r",
     "title": "Cache Management"

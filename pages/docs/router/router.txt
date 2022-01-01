@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":router",
     "page_id": "enrychc14u1or1tt14u52"
 }
 ---

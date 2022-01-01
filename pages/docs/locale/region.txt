@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":region",
     "name": "Language Region",
     "page_id": "hy7ac84uaipzv9z7rky3t"
 }

@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":navigation",
     "description": "How to improve the navigation of your website with the navigational components",
     "page_id": "cp14pvfbyrwc6h4tuxfit",
     "title": "All Navigational components"

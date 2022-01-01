@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":social",
     "description": "This page explains all social module of Combostrap and how they helps spread the words",
     "page_id": "7a57f7eqr4ujxl3ycro7z",
     "title": "ComboStrap makes your pages Social"

@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":preformatted",
     "description": "How to create a code block with indentation",
     "page_id": "sn155ly18463a077jbfkq",
     "title": "Preformatted (indented code block) - ComboStrap"

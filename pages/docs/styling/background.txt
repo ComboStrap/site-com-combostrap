@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":background",
     "description": "The background element permits to add any background to your ComboStrap component in a easy and declarative way.",
     "page_id": "vz4upjyihwsqne30iv31e",
     "title": "Background styling - Add any background to your ComboStrap component"

@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":facebook",
     "description": "Sharing a link from a ComboStrap page will show on every facebook post a card thanks to the facebook social graph metadata",
     "page_id": "nccxr0t7kgtuec17e1cnf",
     "title": "Facebook Graph Enabled"

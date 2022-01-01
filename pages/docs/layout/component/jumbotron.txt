@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":jumbotron",
     "page_id": "vz34k4zow6oth4ntw217d"
 }
 ---

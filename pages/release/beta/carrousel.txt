@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":carrousel",
     "description": "The carrousel component permits to layout and to scroll components horizontally.",
     "page_id": "jp4qhbhgdeg3pxkzvzry3",
     "title": "How to create a carrousel layout"

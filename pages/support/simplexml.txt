@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":simplexml",
     "layout": "median",
     "page_id": "1opeml2235tep1x1ivccw"
 }

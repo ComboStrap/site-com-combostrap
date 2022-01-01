@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":emphasis",
     "description": "This article shows you how you can add emphasis on component in your page",
     "page_id": "7w4jlhw884tqy37oa10kw",
     "title": "How to add emphasis in your website (ComboStrap)"

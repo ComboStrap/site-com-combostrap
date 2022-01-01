@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":cite",
     "page_id": "40iwyaj3aq2b7qjsf2ysc"
 }
 ---

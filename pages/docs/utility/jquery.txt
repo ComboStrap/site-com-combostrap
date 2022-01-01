@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":jquery",
     "page_id": "xz1gmolfkqrlwm42i4iyx"
 }
 ---

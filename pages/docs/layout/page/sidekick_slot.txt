@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":sidekick_slot",
     "page_id": "yf3ajsqn8emcphcq4wgd3"
 }
 ---

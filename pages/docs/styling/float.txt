@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":float",
     "description": "Float permits to print text along the side of a component",
     "page_id": "jjag0jfgf1tzrcz84hwls",
     "title": "Float an element in ComboStrap"

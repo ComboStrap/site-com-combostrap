@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":identity",
     "description": "This page is about the identify forms and styling documentation",
     "layout": "median",
     "page_id": "wgacv7c4cfcsz1vlhvr9q",

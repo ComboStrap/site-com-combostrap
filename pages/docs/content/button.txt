@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":button",
     "page_id": "pks7oxoyl8e18mftzlaw9"
 }
 ---

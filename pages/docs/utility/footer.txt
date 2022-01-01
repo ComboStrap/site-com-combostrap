@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":footer",
     "page_id": "mgflz2s4yi0505w207j38"
 }
 ---

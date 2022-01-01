@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":published",
     "description": "The published date is a field that permits late publication by modifying the published date of a page.",
     "name": "Published Date",
     "page_id": "usqt7vjhzyict39zlimxg",

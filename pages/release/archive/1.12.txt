@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":1.12",
     "description": "A [[https:\/\/combostrap.com\/frontmatter|frontmatter]] description shown on the Search Engine Result Pages",
     "page_id": "c4b7cdzshxwics4dgtez7",
     "title": "The ComboStrap 1.12 release"

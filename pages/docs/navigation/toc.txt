@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":toc",
     "page_id": "n27tketaedr5lng6fv4se"
 }
 ---

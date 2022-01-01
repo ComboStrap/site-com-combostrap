@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":lpp",
     "description": "With late publication protection, the article that are not yet published will not be advertised to the world until the date is due",
     "name": "Late Publication Protection",
     "page_id": "6mac0n3o2o5tdfltmigis",

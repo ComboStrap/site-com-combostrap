@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":query",
     "h1": "ComboStrap Analytics - How to query the analytics database",
     "page_id": "db5uh8pkizcn68hf8nyht"
 }

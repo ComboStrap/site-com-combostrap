@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":font-size",
     "description": "How to set the font-size with the font-size attribute",
     "page_id": "z0k0wfs8j52ldujk2dc62",
     "title": "ComboStrap - Font Size Typographic Attribute "

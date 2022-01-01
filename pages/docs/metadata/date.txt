@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":date",
     "description": "How to write a date in the frontmatter to be valid",
     "name": "Date format",
     "page_id": "lslbc2ojagbnher18956n",

@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":unit",
     "page_id": "te56trito1m4yz87nu60w"
 }
 ---

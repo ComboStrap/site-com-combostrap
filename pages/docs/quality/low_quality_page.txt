@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":low_quality_page",
     "description": "This page shows you how ComboStrap defines a low quality page and you can use this definition to improve your SEO score",
     "page_id": "t219b70chlm82n0r5ntbo",
     "title": "What is a low quality web page ?"

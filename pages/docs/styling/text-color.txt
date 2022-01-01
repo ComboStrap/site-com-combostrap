@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":text-color",
     "description": "How to change the color of a text with the text-color attribue",
     "page_id": "bftltloa69fy75prmwhug",
     "title": "ComboStrap - Text color"

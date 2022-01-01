@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":renderer",
     "page_id": "aov28lrzs3fezm1k2ynyy"
 }
 ---

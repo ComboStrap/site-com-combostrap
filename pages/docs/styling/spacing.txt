@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":spacing",
     "page_id": "0qtqv8lgs1ygj9rax9vck"
 }
 ---

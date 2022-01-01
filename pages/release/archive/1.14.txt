@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":1.14",
     "description": "ComboStrap - Release 1.14",
     "page_id": "xtimf4zj17wp0q4kbxqb5"
 }

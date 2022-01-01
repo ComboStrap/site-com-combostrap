@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":line-spacing",
     "description": "The line spacing attribute lets you set the space between each line in a paragraph",
     "page_id": "o8tpni2zvj6h16u749dvf",
     "title": "ComboStrap - Line Spacing (Line height)"

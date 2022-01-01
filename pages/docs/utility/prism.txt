@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":prism",
     "page_id": "gu0x6gxoe28jqvv2q8hih"
 }
 ---

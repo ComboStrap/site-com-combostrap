@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":border",
     "page_id": "f5xfx9icyvlhsjjrqle8j"
 }
 ---

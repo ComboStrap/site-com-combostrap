@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":related",
     "description": "The related component will add backlinks into the content of your page",
     "page_id": "yho2dxgef45mhxp3krsh6",
     "title": "Related Component - Add backlinks into your page"

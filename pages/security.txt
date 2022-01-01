@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":security",
     "description": "At combostrap, we take the security of your website seriously. This articles shows you what we do about it.",
     "layout": "median",
     "page_id": "luuua1fabsxm8rkj0qvth",

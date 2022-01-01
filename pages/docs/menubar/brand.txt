@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":brand",
     "page_id": "lhmhhzg4kz18lomziq5ae"
 }
 ---

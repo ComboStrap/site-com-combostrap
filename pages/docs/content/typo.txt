@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":typo",
     "description": "How to add typographic effect to your text",
     "page_id": "wy9gnqk5k25wul3vdx7t8",
     "title": "Typographic effect and attributes in ComboStrap"

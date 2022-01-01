@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":breadcrumb",
     "page_id": "13dflf9w2f3x2kvx5mtqw"
 }
 ---

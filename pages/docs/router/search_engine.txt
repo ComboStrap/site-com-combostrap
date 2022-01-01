@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":search_engine",
     "page_id": "lfyv6ubxw5dybe7fp4fqo"
 }
 ---

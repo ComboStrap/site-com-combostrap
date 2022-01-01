@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":badge",
     "page_id": "kk4jppbr858gkbpeqxo1p"
 }
 ---

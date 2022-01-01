@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":code",
     "page_id": "m5qw7qkf01up32r0t2j39"
 }
 ---

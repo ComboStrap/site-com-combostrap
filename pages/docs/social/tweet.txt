@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":tweet",
     "description": "This article shows you the tweet web component and how you can use it to embed a tweet in your pages",
     "page_id": "81p1elltpj25lt806ieat",
     "title": "How to embed a tweet in your ComboStrap pages"

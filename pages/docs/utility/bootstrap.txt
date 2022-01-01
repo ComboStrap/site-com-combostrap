@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":bootstrap",
     "page_id": "ewwtc62meb4e8hyqdunpm"
 }
 ---

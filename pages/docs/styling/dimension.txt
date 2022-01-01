@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":dimension",
     "page_id": "kxnhr9r0nfjkiiyj9kih2"
 }
 ---

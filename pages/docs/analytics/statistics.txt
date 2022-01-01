@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":statistics",
     "description": "The statistics feature allows you to query your page statistics such as word count, internal, backlinks and get insight on your whole website at once.",
     "page_id": "d1wzdcun3pe2dgx4c8xxj"
 }

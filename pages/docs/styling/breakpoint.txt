@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":breakpoint",
     "description": "A breakpoint allows to created conditional styling \/ design",
     "page_id": "kqvyo8zrfp1rdlqe9gokp",
     "title": "Breakpoint - Responsive Design"

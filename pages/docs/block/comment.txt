@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":comment",
     "description": "This page describes how to add a comment in ComboStrap",
     "page_id": "dsgk4sfn4wi2c7ovkwwob",
     "title": "How to add a comment to ComboStrap"

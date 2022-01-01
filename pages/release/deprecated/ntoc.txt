@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":ntoc",
     "description": "Ntoc component has been deprecated",
     "h1": "ComboStrap UI - Ntoc",
     "page_id": "s8q2ysauofhhzic2nkaau",

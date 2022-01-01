@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":navbar",
     "description": "The navbar component has been renamed to menubar",
     "h1": "ComboStrap - Navbar has been renamed to Menubar",
     "page_id": "t8v0ca8aewzja0igpl8ju",

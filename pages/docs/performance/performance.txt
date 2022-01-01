@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":performance",
     "description": "This article explains the secret sauce of the ComboStrap performance and what you should avoid in order to not degrade it.",
     "layout": "median",
     "page_id": "7eywsucy734a11mcyhuav",

@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":position",
     "description": "How to position an element",
     "page_id": "3xys1fd9t77ecptazv5h5"
 }

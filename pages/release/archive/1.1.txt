@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":1.1",
     "page_id": "4d02m0a9ozkzln2mn8d2g"
 }
 ---

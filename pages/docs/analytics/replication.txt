@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":replication",
     "description": "The analysis and replication of a webpage is the corner stone of the quality and performance of a page. This page explains how this is done.",
     "page_id": "670cgbvcwnweskpj0g3j5",
     "title": "How ComboStrap analyzes and replicates data ?"

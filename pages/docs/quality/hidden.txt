@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":hidden",
     "page_id": "nbs024pngudryrt161x18"
 }
 ---

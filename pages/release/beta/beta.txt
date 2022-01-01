@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":beta",
     "description": "Beta release",
     "page_id": "qcmyonoyun6b91jpgy4vi"
 }

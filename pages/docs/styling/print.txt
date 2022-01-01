@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":print",
     "description": "How to handle component on print",
     "page_id": "zopyq1vogclrzzonbezoq",
     "title": "ComboStrap - Print"

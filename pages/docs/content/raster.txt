@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":raster",
     "description": "From lazy loading to automatic resizing, this page tells you how ComboStrap manages raster image",
     "page_id": "mhk4w1oe5d7qs190k7bip",
     "title": "Raster Image in ComboStrap (jpg, png, ...)"

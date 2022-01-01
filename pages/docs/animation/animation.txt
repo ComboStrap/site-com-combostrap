@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":animation",
     "description": "ComboStrap offers animation such as on scroll and on hover. This article list them all.",
     "page_id": "22excp6n97h6gx7s0mu2t",
     "title": "How to animate your component in ComboStrap"

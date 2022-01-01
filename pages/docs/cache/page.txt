@@ -1,5 +1,6 @@
 ---json
 {
+    "canonical": ":page:cache",
     "name": "Page Cache",
     "page_id": "p46nws4v027jel84v4a9m"
 }
@@ -30,7 +31,7 @@ You can set the expiration date of a page with two methods:
   * globally: the [[#cache time interval]] (maximum age)
 ==== Expiration Frequency ====
 
-If you need to delete the page cache at interval because your page contains time-based data, 
+If you need to delete the page cache at interval because your page contains time-based data,
 you can use the [[docs:cache:page_expiration_frequency|page cache expiration frequency]].
 
 ==== Cache time interval ====

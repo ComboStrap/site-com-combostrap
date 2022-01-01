@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":heading",
     "description": "A description for the search page result engine",
     "page_id": "ehow19jms037wxbiv8yuc",
     "title": "ComboStrap Heading"

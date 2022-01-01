@@ -1,8 +1,6 @@
 ---json
 {
-    "canonical": ":title",
     "description": "How to manage the title of a web page with ComboStrap ?",
-    "h1": "ComboStrap Page Metadata - Title",
     "name": "Page Tile",
     "page_id": "2dytnmsqtb96yn66xc18b",
     "title": "Page title (Set by Combostrap)"

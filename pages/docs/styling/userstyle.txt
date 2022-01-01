@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":userstyle",
     "page_id": "fs33w5fjwmxkbioie5f49"
 }
 ---

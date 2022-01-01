@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":toggle",
     "description": "The toggleTargetId is an attribute that transform a link or a button in a toggle element",
     "page_id": "h2s4f10a7nweoygtr9obw",
     "title": "Collapse or expand any component with the toggle effect"

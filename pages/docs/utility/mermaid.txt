@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":mermaid",
     "description": "This component will render mermaid diagram",
     "page_id": "h3ab9yj0nd5qkx90708zg",
     "title": "Create diagram with mermaid"

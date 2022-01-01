@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":automatic_hidden",
     "page_id": "qzd32hux8dasln7eflj4z"
 }
 ---

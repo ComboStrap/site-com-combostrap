@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":align",
     "page_id": "1gzrs9c6wwea6rgior78r"
 }
 ---

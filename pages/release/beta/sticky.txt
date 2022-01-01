@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":sticky",
     "description": "Sticky is an attribute that lets your component stick at the same position when scrolling down",
     "page_id": "h7iwuva5fd94ms5n5yao9",
     "title": "Sticky: Stick component at the top of your side bar"

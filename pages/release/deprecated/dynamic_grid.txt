@@ -1,7 +1,6 @@
 ---json
 {
     "canonical": ":dynamic:grid",
-    "h1": "Strap Template - Dynamic Grid System",
     "page_id": "3alfs88i3fkg9vwxl4ftl"
 }
 ---

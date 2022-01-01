@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":tabs",
     "description": "A tabs is an layout, interactive and navigational element that is composed of a a serie of tab that, when activated, displays their associated panel.",
     "page_id": "q7ikx4zuhrr801v83dnu8",
     "title": "Tabs: layout panels in tab"

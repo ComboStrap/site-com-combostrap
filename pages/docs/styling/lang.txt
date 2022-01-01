@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":lang",
     "description": "The language permits to set the language at a words level and to write multi-language pages.",
     "page_id": "xkj0kbmkov9n5d6i5klcj",
     "title": "The language attribute: How to set the language for a text"

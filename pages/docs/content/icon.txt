@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":icon",
     "description": "An icon component that makes it easy to add icon to your pages",
     "page_id": "vzs3sp5vzvfw0wnaz1dnc",
     "title": "ComboStrap - Icon Component"

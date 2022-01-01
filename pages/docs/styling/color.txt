@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":color",
     "description": "Color management in ComboStrap",
     "page_id": "3nkx84kkwic12xxffjl5h",
     "title": "Color - How to specify a Color Value on ComboStrap Component"

@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":markdown",
     "description": "This page lists all markdown syntax supported in ComboStrap ",
     "page_id": "8b6x98dwo3su5akqwmwoy",
     "title": "Markdown syntax supported in ComboStrap"

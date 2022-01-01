@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":erd",
     "description": "This article shows you how to create a Entity RelationShip Diagram.",
     "name": "Entity RelationShip Diagram",
     "page_id": "psggvh7pif191ft1dzczn",

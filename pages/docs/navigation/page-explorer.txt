@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":page-explorer",
     "description": "With the page-explorer component, you can add an explorer like panel that will list your pages in a list or collapsible tree fashion",
     "name": "Page explorer",
     "page_id": "6zpgpwnhbfqk69sjlio95",

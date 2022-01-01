@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":marki",
     "page_id": "1meei51mjm83femowsehx"
 }
 ---

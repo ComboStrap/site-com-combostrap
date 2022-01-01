@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":footer_slot",
     "page_id": "yxm40tovuntj16ix5r7rx"
 }
 ---

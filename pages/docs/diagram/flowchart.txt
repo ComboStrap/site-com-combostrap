@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":flowchart",
     "description": "This article shows you how to create a flowchart diagram.",
     "page_id": "3qelvfw9g39pszfrad7ye",
     "title": "How to create a flowchart diagram with ComboStrap"

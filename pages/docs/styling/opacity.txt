@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":opacity",
     "description": "The opacity attribute permits to set the opacity (alpha\/transparency) of any component.",
     "page_id": "63xpitmcite9wbwpvxwhf",
     "title": "How to set the Opacity \/ Alpha or Transparency"

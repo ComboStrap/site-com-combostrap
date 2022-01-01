@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":note",
     "page_id": "556r8mcrr9wxryqsmzo0m"
 }
 ---

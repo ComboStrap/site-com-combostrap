@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":hover",
     "description": "Improve the emphasis of your component by adding onHover animation",
     "page_id": "jjtvm4r62zdl4dconm731",
     "title": "Hover animation"

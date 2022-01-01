@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":group",
     "page_id": "sziecf66v6eewob34swxf"
 }
 ---

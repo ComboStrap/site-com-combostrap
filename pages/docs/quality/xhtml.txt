@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":xhtml",
     "page_id": "cdftia7btq0z2szkpw3rn"
 }
 ---

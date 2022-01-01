@@ -1,6 +1,5 @@
 ---json
 {
-    "canonical": ":404",
     "description": "This article is about missing page that are asked due to broken link and how combostrap solve them.",
     "name": "Missing Page",
     "page_id": "3ke5oq0ytfu8x9jve7cxy",
