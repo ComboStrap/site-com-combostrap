@@ -1,6 +1,7 @@
 ---json
 {
     "canonical": ":redirection:message",
+    "h1": "ComboStrap URL Management - Redirection Message",
     "page_id": "rmu40srlngqhj9v4slv16"
 }
 ---

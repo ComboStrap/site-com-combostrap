@@ -1,6 +1,7 @@
 ---json
 {
     "canonical": ":page:rules",
+    "h1": "ComboStrap URL Management - Pages Rules",
     "page_id": "wx9h8eco3avtvqozkwy4h"
 }
 ---

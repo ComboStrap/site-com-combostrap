@@ -1,6 +1,7 @@
 ---json
 {
     "canonical": ":best:namespace",
+    "h1": "ComboStrap URL Management - Redirection by best namespace",
     "name": "Best Namespace Algo",
     "page_id": "5g7b1dkm67lza8r07iaem"
 }

@@ -1,5 +1,6 @@
 ---json
 {
+    "h1": "ComboStrap URL Management - Log redirections History",
     "page_id": "7kdfauhb7rnhe92xkkdmh"
 }
 ---

@@ -1,5 +1,6 @@
 ---json
 {
+    "h1": "ComboStrap Analytics - Database",
     "page_id": "afesgbz3stzslqrz5jxxn"
 }
 ---

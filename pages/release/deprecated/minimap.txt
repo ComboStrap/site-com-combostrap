@@ -1,7 +1,6 @@
 ---json
 {
     "description": "Minimap has been superseeded by the ntoc component.",
-    "h1": "ComboStrap UI - Minimap",
     "page_id": "hi9jqidw2opllk5wce4cg",
     "title": "Minimap - A navigational component for a sidebar"
 }

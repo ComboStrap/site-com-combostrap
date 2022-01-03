@@ -1,5 +1,6 @@
 ---json
 {
+    "cache_expiration_frequency": "@daily",
     "canonical": ":content:date",
     "date_published": "2021-09-26T00:00:00+00:00",
     "description": "With the date component, you can print a date in any format (from today's date to page date)",

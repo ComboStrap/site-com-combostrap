@@ -1,8 +1,7 @@
 ---json
 {
-    "canonical": ":image",
     "description": "Combostrap supports raster and vector images. This page shows you how to add an image with syntax and examples.",
-    "image": [
+    "images": [
         { "path": ":docs:block:stock_image_surfer_in_the_see.png" }
     ],
     "page_id": "y0sap72kyohtclmlce7xt",

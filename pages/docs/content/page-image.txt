@@ -1,8 +1,7 @@
 ---json
 {
-    "canonical": ":page-image",
     "description": "Page-image is a component that renders the illustrative image of the page and is generally used in a template.",
-    "image": [
+    "images": [
         { "path": ":docs:content:surfer600.png" }
     ],
     "page_id": "q488r8aajeb36b3jz8z92",

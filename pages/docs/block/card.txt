@@ -1,8 +1,7 @@
 ---json
 {
-    "canonical": ":card",
     "description": "A card is a box composed of an image, a text and a call to action",
-    "image": [
+    "images": [
         { "path": ":docs:block:card_illustration.png" }
     ],
     "page_id": "9rhn4ii6b02f69tnwhoc6",
