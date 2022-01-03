@@ -1,6 +1,7 @@
 ---json
 {
     "canonical": ":nice:url",
+    "description": "This article shows you how to configure your installation to show nice url to your users.",
     "name": "Nice URL",
     "page_id": "oln5keoyf6cfrswut2clz",
     "slug": ":nice-url",
