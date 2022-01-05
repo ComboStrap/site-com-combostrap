@@ -15,14 +15,11 @@
 This kind of page have this characteristics:
   * ''thin content'' - the number of words is really low
   * ''no internal link'' - they don't link to other page
-  * ''no internal backlink'' - no other page links back to them
+  * ''no internal backlink'' - no other page links [[docs:navigation:backlink|back to them]]
   * ''few edits'' - the content of the page has not been improved
 
 
 
-
-===== Articles Related =====
-{{backlinks>.}}
 
 
 ===== SEO impact and Protection =====

@@ -9,7 +9,15 @@
 
 
 ===== About =====
-A ''backlink'' is a page that [[docs:content:link|links]] to the rendered page.
+A ''backlink'' is a page that [[docs:content:link|links]] to the actual page seen in the browser.
+
+<note>
+In [[docs:seo:seo|SEO]], they are called ''internal backlinks'' to make the difference with ''external backlink'' (ie link that comes from another website than yours).
+
+In Combostrap, if not specified, a backlink is an ''internal backlink''
+</note>
+
+
 
 
 
