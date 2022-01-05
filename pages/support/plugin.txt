@@ -69,7 +69,7 @@ If you want to use [[doku>plugin:imagemapping]] with ComboStrap, you should not 
 **Not Allowed**
 The below example on the documentation will not work.
 <code dw>
-{{map>imagemap.png|Alternate Text}}
+{{map>support:imagemap.png|Alternate Text}}
 Type normal wiki markup here. Links will be automatically
 detected and used in the image map.
   * [[imagemap#Syntax|Description @ 10,12,40,30]]
@@ -83,10 +83,10 @@ detected and used in the image map.
 You need to put the links / image at the beginning of a new line
 <webcode name="Default" frameborder="0">
 <code dw>
-{{map>imagemap.png|Alternate Text}}
+{{map>support:imagemap.png|Alternate Text}}
 Type normal wiki markup here. Links will be automatically
 detected and used in the image map.
-[[imagemap#Syntax|Description @ 10,12,40,30]]
+[[support:imagemap#Syntax|Description @ 10,12,40,30]]
 [[wp>Image_map|An interwiki link @ 110,50,40]]
 [[http://w3.org/|{{w3c-logo.png|Even image links work @10,115,80,95,150,115,80,135}}]]
 {{w3c-logo.png|Direct link to a media file @155,90,244,142}}
@@ -119,3 +119,9 @@ If a [[docs:page:description|description]] was set with the [[doku>plugin:descri
 <note>
 Note that any changes made to the description via the [[docs:metadata:manager|metadata manager]] will update the standard description field, not the description of the [[doku>plugin:description|description plugin]].
 </note>
+
+==== Include ====
+
+The [[include|include plugin]] does not work out of the box, you need to disable the heading functionality.
+
+For more information, we invite you to go to the dedicated page. [[include]].

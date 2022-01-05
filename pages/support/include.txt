@@ -1,0 +1,29 @@
+---json
+{
+    "layout": "median",
+    "name": "Include Plugin",
+    "page_id": "eq9uyeq70hv0wis6o8g0i"
+}
+---
+====== Support  - Include Plugin ======
+
+
+===== About =====
+The ''include plugin'' is a [[plugin|external plugin]] that permits to compose a page with the content of another page.
+
+
+===== Section Syntax =====
+The [[doku>plugin:include|include plugin]] permits to add the content of a section with the following syntax.
+
+<code>
+{{section>reference#section}}
+</code>
+
+By default, the section syntax will not work with ComboStrap, you need to disable the [[docs:content:heading#headingWikiEnable|combo wiki heading component]].
+
+<note>
+It does not work because the ''include plugin'' uses the standard dokuwiki heading to be able to extract the content.
+</note>
+
+
+

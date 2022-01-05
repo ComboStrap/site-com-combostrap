@@ -8,30 +8,39 @@
 
 
 ===== About =====
-All ''ComboStrap'' data are stored in a Sqlite Database.
+All ''ComboStrap'' data are stored in a Sqlite Database that you can [[query|query online]]
+===== Databases =====
 
-
-
-===== Tables =====
+==== Combo  ====
 The database schema has the following tables:
   * ''pages'' - [[data|data on pages]]:
       * ''page_id'': the page id
       * ''canonical'': the [[docs:page:canonical|canonical]]
       * ''analytics'': the [[data|json analytics data]]
+      * ... and more
   * ''page_aliases'' - the [[docs:router:alias|page aliases]]
   * ''page_rules'' - the [[docs:router:page_rules|page_rules]]
-  * ''redirections_log'' - the [[docs:router:log|log redirection history]]
+  * ''page_references'' - the [[docs:content:link#internal|internal link (known as reference)]] of a page.
   * ''opts'' - an internal table that manage the database version <inote important>don't delete</inote>
 
-You can [[query|query the database online]]
-
-===== File Location =====
-The database is stored at ''DOKUWIKI_HOME/data/meta/''.
 
 Depending on your history with our plugins, its name may be:
   * ''combo.sqlite3''
   * ''webcomponent.sqlite3'' (older)
   * ''404manager.sqlite3'' (older)
+==== Combo Secondary ====
+The secondary database contains data that can be lost without loss of service such as:
+  * runtime data
+  * and log
+
+The secondary database contains the following tables:
+  * ''redirections_log'' - the [[docs:router:log|log redirection history]]
+  * ''events_queue'' - a event queue table used to execute tasks in the background.
+  * ''opts'' - an internal table that manage the database version <inote important>don't delete</inote>
+===== File Location =====
+The database are stored at ''DOKUWIKI_HOME/data/meta/''.
+
+
 
 ===== Configuration =====
 

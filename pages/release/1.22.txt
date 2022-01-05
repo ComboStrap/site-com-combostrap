@@ -92,3 +92,5 @@ Bug: The [[docs:locale:lang_ar|lang ar]] is not working if the url has not the [
   * The [[docs:router:message|redirection message]] was not shown when the [[docs:router:search_engine|redirect to search engine]] was performed.
   * [[docs:content:footnote|footnotes]] styling were missing
   * The ''diff'' panel had no styling.
+  * If there was a point in a [[docs:page:path|page path]], the default [[docs:page:name|page name]] was deleting all character after this point thinking that it was an extension.
+  * The configuration [[docs:content:heading#headingWikiEnable|headingWikiEnable]] was not in the configuration panel.

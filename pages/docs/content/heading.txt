@@ -22,10 +22,6 @@ If you search the ''title'' of a ''page'', see the page [[docs:page:title]]
 </note>
 
 
-===== Articles Related =====
-{{backlinks>.}}
-
-
 
 ===== Syntax =====
 To define an heading, you can use the following ''heading'' syntax.
@@ -116,5 +112,14 @@ Example:
 <heading d4>Heading 4</heading>
 </code>
 </webcode>
+
+
+===== Configuration =====
+==== headingWikiEnable ====
+You can disable the [[#wiki|combo wiki heading]] and uses the standard dokuwiki syntax.
+
+It's used mainly if you use the [[support:include|include plugin]] to include section.
+
+
 
 
