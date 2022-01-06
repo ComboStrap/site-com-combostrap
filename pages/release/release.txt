@@ -2,7 +2,9 @@
 {
     "canonical": ":changes",
     "description": "This page logs the release history",
+    "dynamic_quality_monitoring": "false",
     "layout": "median",
+    "low_quality_page": "false",
     "page_id": "g2si7zbbvfjkv2ynvlpxl",
     "title": "Release - A log of all ComboStrap changes and release"
 }

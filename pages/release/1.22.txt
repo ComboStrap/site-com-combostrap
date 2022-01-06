@@ -2,7 +2,8 @@
 {
     "canonical": ":release:1.22",
     "description": "A description for the search page result engine",
-    "page_id": "r0lxbwsdlptyufsgsamiv"
+    "page_id": "r0lxbwsdlptyufsgsamiv",
+    "title": "ComboStrap - Release 1.22"
 }
 ---
 
@@ -46,6 +47,7 @@ Bug: The [[docs:locale:lang_ar|lang ar]] is not working if the url has not the [
   * You can set [[docs:page:keywords|Keywords]] (because this was asked gently)
   * The [[docs:cache:page_expiration_frequency|page cache expiration frequency]] can be managed in the [[docs:metadata:manager|metadata manager]]
   * In the [[docs:metadata:manager|cache tab of the metadata manager]], you can see now the [[docs:cache:page|cache hits of the slot of a page]].
+  * The [[docs:quality:dynamic_monitoring|dynamic quality monitoring]] is now a rail action. The writer will not see them at the top of the editor but in the railbar.
 
 ==== Deprecated ====
 
