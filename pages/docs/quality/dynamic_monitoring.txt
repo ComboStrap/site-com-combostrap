@@ -12,9 +12,11 @@
 ===== About =====
 ''Dynamic Quality Page Monitoring'' is a feature that encourages the ''writer'' (users with edit permission) to improve the [[score|quality score]] of its page.
 
-A message is shown for [[rule|quality rules]] that don't pass, indicating how they can be improved.
+The writer sees in the [[docs:layout:page:railbar|railbar]] an alert icon <icon name="alert" color="#ccc"/> in place of the normal quality icon <icon name="seal" color="#ccc"/>  that indicates that the page is of low quality.
 
-For a page that is not an article such as home page or landing page, you can also [[##disable_for_a_page|disable it]].
+If you click on the action, the writer will see the [[rule|quality rules]] that don't pass.
+
+For a page that is not an article such as home page or landing page, you can also [[#disable_for_a_page|disable it]].
 
 
 
@@ -23,13 +25,11 @@ For a page that is not an article such as home page or landing page, you can als
 
 For the low quality page demo ([[low_quality_example|low quality demo page]]), you would get the below note if you had the ''edit'' authorization.
 
-<quality page-id="low_quality_example"/>
+<note>
+<quality page-id="docs:quality:low_quality_example"/>
+</note>
 
-===== When the message shows up =====
 
-The message is shown when:
-  * [[rule|quality rules]] (that were not [[#excluded rules]]) don't pass
-  * the [[low_quality_page|low quality page indicator]] has not been [[low_quality_page#manuall|set manually to false]]
 ===== Configuration =====
 ==== Excluded Quality Rules ====
 The [[docs:app:configuration|configuration]] ''excludedQualityRulesFromDynamicMonitoring'' lists the [[rule|quality rules]] that should not be monitored.
