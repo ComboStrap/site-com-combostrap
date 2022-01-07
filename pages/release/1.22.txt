@@ -48,6 +48,7 @@ Bug: The [[docs:locale:lang_ar|lang ar]] is not working if the url has not the [
   * The [[docs:cache:page_expiration_frequency|page cache expiration frequency]] can be managed in the [[docs:metadata:manager|metadata manager]]
   * In the [[docs:metadata:manager|cache tab of the metadata manager]], you can see now the [[docs:cache:page|cache hits of the slot of a page]].
   * The [[docs:quality:dynamic_monitoring|dynamic quality monitoring]] is now a rail action. The writer will not see them at the top of the editor but in the railbar.
+  * The [[docs:menubar:search|search box]] is now based on Bootstrap DropDown and Popper for the placement. No need of the Dokuwiki Javascript bundle
 
 ==== Deprecated ====
 
@@ -79,6 +80,7 @@ Bug: The [[docs:locale:lang_ar|lang ar]] is not working if the url has not the [
   * The [[docs:router:bestendpagename|best end page name]] redirection algorithm will create an [[docs:router:alias|redirect alias]] if the score is bigger than 2. This behavior can be disabled with the [[docs:router:bestendpagename#configuration|BestEndPageMinimalScoreForAliasCreation configuration]].
   * The url manager is now known as the [[docs:router:router|router]] to reflect the fact that it routes request to the correct page. This is due to the new [[docs:page:url#permanent|permanent url]] and [[docs:router:ban|ban]] features.
   * The [[docs:navigation:hierarchical_breadcrumb|hierarchical breadcrumb]] uses now the [[docs:page:name|page name]] in place of the [[docs:page:title|title]] (Sort of bug)
+  * Because of the [[docs:menubar:search|autocompletion for the search box]], Popper was needed and strap template now does not use the Bootstrap bundle but includes bootstrap and popper. No changes should be seen expected the fact that popper is now available in the global scope
 
 ==== Bug ====
   * After a change in the [[docs:performance:svg_optimization|svg optimization]], the svg shown will not refresh. Cause: The [[docs:cache:static|static cache]] ''buster'' was using the time of the original SVG file and not from the optimized file.
