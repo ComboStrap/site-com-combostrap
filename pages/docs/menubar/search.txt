@@ -1,11 +1,13 @@
 ---json
 {
-    "canonical": ":menubar:search",
+    "canonical": ":searchbox",
+    "h1": "ComboStrap UI - Search",
+    "name": "Search Box",
     "page_id": "mqzdbften68kg0axgz4oe"
 }
 ---
 
-====== ComboStrap UI - Search ======
+====== ComboStrap UI - Search Box ======
 
 
 ===== About =====

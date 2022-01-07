@@ -7,13 +7,23 @@
 
 
 ===== About =====
-The ''internal search engine'' permits to search a page via search term.
-
-The basic way to add it is to add the [[docs:menubar:search|search component]] in the menubar.
+The ''internal search engine'' permits to search a page via search terms.
 
 
-===== Integration =====
+===== Feature =====
+ComboStrap supports the following search engine features.
 
+==== Search Box ====
+You can add a [[docs:menubar:search|search box]] (generally in the [[docs:menubar:menubar|menubar]]).
+
+==== Redirection ====
+
+Internally, if a URL is not found, the user is [[docs:router:search_engine|redirected to the search engine]] in last ressort.
+
+===== Third party application Integration =====
+The search engine is also advertised to third party application such as:
+  * the [[#browser]]
+  * the [[#search engine]]
 ==== Browser ====
 
 The internal search engine is advertised to the browser
@@ -28,10 +38,7 @@ Demo:
 
 <note>The user doesn't need to go to a page and uses the [[docs:menubar:search|search box]]</note>
 
-==== Google ====
+==== Search Engine ====
 
 The internal search engine is advertised to the Google Search Engine via the [[docs:type:website|website page type]].
 
-==== Redirection ====
-
-Internally, if a URL is not found, the user is [[docs:router:search_engine|redirected to the search engine]].
