@@ -11,13 +11,31 @@
 
 
 ===== About =====
-''search'' is a [[docs:app:search|search]] box that can be placed in a [[docs:menubar:menubar|menubar component]].
+''search'' is a markup component that will output the search box of the [[docs:app:search|internal search engine]] 
 
-===== Quick Access =====
+It can be placed in a [[docs:menubar:menubar|menubar component]].
+
+
+===== Feature =====
+
+==== Quick Access ====
 
 The search component has:
   * the ''f'' accesskey. In chrome, ''Alt+shift+f'' will bring you in the search box.
   * a tabindex of 1. Which means, if you do on Windows ''Alt+D'' + ''Tab'', you comes directly in the search bar.
+
+==== Page List Suggestion ====
+
+When typing in the box, an auto-completion feature will show a list of pages that match the search term against the following metadata:
+  * the [[docs:page:path|path]]
+  * the [[docs:page:name|name]]
+  * the [[docs:page:title|title]]
+  * the [[docs:page:h1|heading 1]]
+
+
+Example when you type the search term ''Search'' on this website:
+
+{{:docs:menubar:pagelist-search-box-combostrap.png|}}
 
 
 ===== Syntax =====
