@@ -49,6 +49,7 @@ Bug: The [[docs:locale:lang_ar|lang ar]] is not working if the url has not the [
   * In the [[docs:metadata:manager|cache tab of the metadata manager]], you can see now the [[docs:cache:page|cache hits of the slot of a page]].
   * The [[docs:quality:dynamic_monitoring|dynamic quality monitoring]] is now a rail action. The writer will not see them at the top of the editor but in the railbar.
   * The [[docs:menubar:search|search box]] is now based on Bootstrap DropDown and Popper for the placement. No need of the Dokuwiki Javascript bundle
+  * The [[docs:navigation:backlink#action|backlink action]] item is now a modal. You don't need to change of context and you stay on the actual page.
 
 ==== Deprecated ====
 
