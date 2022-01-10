@@ -13,8 +13,7 @@ They are supported:
   * in its own [[#syntax|template component]] (to print information of the requested page)
   * in the [[docs:navigation:page-explorer|page explorer component]] (to print information of the page on the file system)
   * in the [[docs:templating:iterator|iterator component]] (to print information of selected pages)
-===== Articles Related =====
-{{backlinks>.}}
+
 
 ===== Example =====
 

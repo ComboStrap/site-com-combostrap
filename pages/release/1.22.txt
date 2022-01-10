@@ -11,12 +11,27 @@
 
 
 ===== About =====
+This is one of the biggest release of ComboStrap so far.
+  * we have introduced an [[docs:page:page_id|unique id for each page]] that permits:
+      * a better integration with the database and external application
+      * to offer [[docs:page:url|permanent page url]]
+  * the ''url manager'' has been renamed to ''router'' because it's what it does:
+      * it will route the request of your website or even [[docs:router:ban|deny them if]]
+      * it will now redirect all requests to the unique [[docs:page:url|page url]]
+  * the [[docs:metadata:manager|new metamanager]] permits to change the metadata via a form, no need to update manually the [[docs:metadata:frontmatter|frontmatter]]
+  * the [[docs:quality:dynamic_monitoring|quality monitoring  message]] has moved to the railbar
+  * and on the top of cherry cake as we don't want to move the focus from the current page, we have put the [[docs:navigation:backlink|backlinks action]] in a modal.
+
+And a lot of more. See below for the whole details.
 
 
-If you want to have the ''canonical path'' reported in place of the ''page path'' in the [[docs:analytics:google_analytics|google analytics metrics]], you should [[docs:page:canonical#Google Analytics|enable it]].
+===== Action =====
+
+  * You need to update the index with the [[support:plugin#search_index_manager|search index manager]]
+  * If you want to have the ''canonical path'' reported in place of the ''page path'' in the [[docs:analytics:google_analytics|google analytics metrics]], you should [[docs:page:canonical#Google Analytics|enable it]].
 
 
-Bug: The [[docs:locale:lang_ar|lang ar]] is not working if the url has not the [[docs:page:path|path]], create a function to get the page from the url id.
+
 ===== List of changes =====
 
 ==== New ====
