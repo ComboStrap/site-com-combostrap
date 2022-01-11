@@ -38,7 +38,7 @@ The recommended images are:
    * high-resolution (minimum of 300,000 pixels when multiplying ''width'' and ''height'', to avoid blurry, unclear images)
    * with the following aspect ratios: ''16x9'', ''4x3'', and ''1x1'' (to avoid [[docs:content:image#cropping|cropping]])
 
-You can set the path of your image in the [[docs:metadata:manager|metadata manager]]. 
+You can set the path of your image in the [[docs:metadata:manager|metadata manager]].
 
 Note that you can't upload the images with the metadata manager for now, therefore:
   * you need to upload your image while editing first (note that the first image in your page is by default the page image).
