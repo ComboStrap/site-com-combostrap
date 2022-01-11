@@ -22,9 +22,12 @@ This is one of the biggest release of ComboStrap so far.
   * the [[docs:quality:dynamic_monitoring|quality monitoring  message]] has moved to the railbar
   * and on the top of cherry cake as we don't want to move the focus from the current page, we have put the [[docs:navigation:backlink|backlinks action]] in a modal.
 
-And a lot of more. See below for the whole details.
+And a lot more. See below for the whole details.
 
 
+<note>
+The last version is the 1.22.1 that corrects some bug found during the production phase test.
+</note>
 ===== Action =====
 
   * You need to update the index with the [[support:plugin#search_index_manager|search index manager]]
@@ -78,7 +81,7 @@ And a lot of more. See below for the whole details.
 
 ==== Improvement ====
   * The [[docs:analytics:replication|data synchronization process]] is now treated as a real replication and got a ''date_synchronization'' and a [[docs:page:page_id|universal id]]. The synchronization is now also based on the database version file.
-  * the [[docs:analytics:replication|replication table]] ''ANALYTICS_TO_REFRESH'' has been renamed to ''PAGES_TO_REPLICATE'' to get more accurate
+  * the [[docs:analytics:replication|replication table]] ''ANALYTICS_TO_REFRESH'' has been renamed to ''EVENTS_QUEUE'' and an introduce asynchronous event functionality.
   * the [[docs:metadata:frontmatter|frontmatter]] metadata are [[docs:analytics:replication|replicated]] directly to avoid inconsistency with [[docs:templating:sql|page sql]]
   * The [[docs:social:google#json-ld|google json-ld]] supports now a full json-ld value. It's easier to valid it with the playground for the user.
   * The lock file created by the [[support:plugin#move|move plugin]] is now checked for every parse. It was only checked for page move and was purging page automatically each time making the site really slow.
