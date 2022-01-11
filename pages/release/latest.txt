@@ -2,6 +2,7 @@
 {
     "canonical": ":release:latest",
     "description": "A synonym page to redirect to the latest release",
+    "low_quality_page": "false",
     "page_id": "1nss1jipej573ddcpxfce",
     "title": "ComboStap - Latest release"
 }
@@ -10,6 +11,15 @@
 
 
 ===== About =====
-The latest release is the release [[1.22|1.22]]
+The latest release is the release [[1.23|1.23]]
 
-For all news and modifications, you should go to the release page [[1.22]].
+For all news and modifications, you should go to the release page [[1.23]].
+
+
+
+===== Steps =====
+
+For each new release, we recommend the following steps:
+  * update strap
+  * update combo
+  * refresh the index with the [[support:plugin#search_index_manager|Search Index Manager]].

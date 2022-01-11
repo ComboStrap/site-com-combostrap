@@ -1,0 +1,8 @@
+====== ComboStrap - Release 1.23 ======
+
+
+
+
+===== List =====
+==== New ====
+  * The [[docs:content:svg|Svg]] and [[docs:content:icon|Icon]] are now taken into account as first image and becomes therefore available as [[docs:page:image|illustrative page image]]
