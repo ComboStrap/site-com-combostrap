@@ -25,8 +25,17 @@ This is one of the biggest release of ComboStrap so far.
 And a lot more. See below for the whole details.
 
 
-<note>
-The last version is the 1.22.1 that corrects some bug found during the production phase test.
+<note warning>
+==== Update ====
+
+We don't publish new release when they have not been tested by our key clients. Unfortunately, some users have seen it and have published it on Dokuwiki on their own.
+We are sorry for the inconvenience.
+
+The last version is the 1.22.1 that corrects bug found during the production phase test.
+
+The most well severe bug are:
+  * crash when a page is created because of a missing page id (null error because sqlite returns an empty string and not null)
+  * the page image was deleted from the frontmatter if enabled when the meta manager was used.
 </note>
 ===== Action =====
 
