@@ -10,7 +10,7 @@
 The ''cli'' is a command line client that permits to perform the following administrative tasks:
   * [[docs:analytics:replication|replicate the file content to the database]]
   * [[docs:metadata:frontmatter|replicate the metadata to the frontmatter]]
-  * delete non-existing page from the database
+  * delete non-existing page from the database (''sync'')
   * check if there is any [[support:plugin|plugin]] with a new version
 
 ===== How to execute it =====
@@ -20,9 +20,15 @@ The ''cli'' is a command line client that permits to perform the following admin
 cd $DOKUWIKI_HOME
 </code>
   * [Optional] In a farm environment, set the directory name of your animal
-<code bash>
+<code dos>
+REM Windows
 set animal=animal-directory-name
 </code>
+<code bash>
+# linux
+export animal=animal-directory-name
+</code>
+
   * Execute the cli
 <code bash>
 php ./bin/plugin.php combo
