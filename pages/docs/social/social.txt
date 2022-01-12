@@ -29,6 +29,7 @@ All three majors social platform have been implemented:
   * [[docs:social:twitter|<icon name="twitter"/> Twitter Meta]]
   * [[docs:social:twitter|<icon name="facebook"/> Facebook Meta]]
   * [[docs:social:google|<icon name="google"/> Google Meta]]
+  * [[docs:social:telegram|<icon name="logos:telegram"/> Telegram]]
 
 
 <note>

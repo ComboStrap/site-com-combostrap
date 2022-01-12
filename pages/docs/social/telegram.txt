@@ -1,0 +1,33 @@
+---json
+{
+    "page_id": "s9q9mc5xvtdq3um52xi8c",
+    "title": "How your pages are looking on telegram"
+}
+---
+====== Social - Telegram ======
+
+
+
+===== About =====
+<icon name="logos:telegram"/> ''telegram'' is a [[social|social application]] that will show [[social|social card]].
+
+
+
+===== What to do if the social card does not work ? =====
+
+==== Update with WebPageBot ====
+
+If the social card on telegram does not work, you can go to the [[https://t.me/WebpageBot|WebpageBot]] and asks for a refresh with the command ''updatepreview''
+<code>
+/updatepreview https://your-url.com 
+</code>
+
+Example:
+
+{{:docs:social:telegram_webpage_bot.png|}}
+
+
+==== Check the facebook graph  ====
+There is no explicit documentation but it seems that they use the [[docs:social:facebook|facebook graph]].
+
+You can check that the image/data is present with the [[docs:social:facebook#test|facebook graph debug tool]]
