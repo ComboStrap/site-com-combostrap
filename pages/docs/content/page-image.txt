@@ -47,7 +47,7 @@ Note that the image has an intrinsic ratio of ''16:9'', we can change it to a ra
 ===== Syntax =====
 
 <code dw>
-<page-image path="path" ratio="ratio"/>
+<page-image path="path" ratio="ratio" color="color"/>
 </code>
 where:
   * ''path'' is the [[docs:page:path|path]] of a page
@@ -55,16 +55,31 @@ where:
       * ''16:9''
       * ''4:3''
       * ''1:1''
+  * ''color'' is a [[docs:styling:color|color name]]. This attribute applies only on [[docs:content:svg|svg]] page image, particularly on [[docs:content:icon|icon]].
 
 When the ''ratio'' is set, the algorithm will:
   * select the image in the set of [[docs:page:image|page image]] with the most equivalent ratio
   * [[docs:content:image#cropping|crop]] the image to fit the ratio
 
 <note>
-The ratio is important in a [[docs:templating:iterator|template iteration]] because it permits to get the same height for all images. This way the layout will get a consistent and peaceful visual.
+  * The ratio is important in a [[docs:templating:iterator|template iteration]] because it permits to get the same height for all images. This way the layout will get a consistent and peaceful visual.
+  * For icon page image, you should be able to use all [[docs:content:icon|icon parameters]]
 </note>
 
-===== Card Support =====
+===== Support =====
+
+==== Icon Support ====
+
+When the image is an [[docs:content:icon|icon]], the icon is zoomed out to 3 times and centered.
+
+<webcode name="Default" frameborder="0">
+<code dw>
+<page-image path="docs:templating:sql" ratio="16:9" color="pink" width="96px"/>
+</code>
+</webcode>
+
+
+==== Card Support ====
 
 
 A page-image is supported as illustrative image for a [[docs:block:card|card]]

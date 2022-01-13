@@ -223,3 +223,8 @@ This component uses the [[support:requirement|DOM module]]. This module is enabl
 
 
 
+==== Why downloading the image and not using a library ====
+
+We are not using a library and have decided to download the [[docs:content:svg|svg]] file for the following reasons:
+  * the icon can then be used as [[docs:page:image|illustrative page image]]
+  * even if the library does not exist anymore, your page will still show the icon.

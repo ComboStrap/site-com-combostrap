@@ -11,7 +11,7 @@
 
 
 ===== About =====
-''page sql'' is a ''SELECT'' sql syntax that permits to select pages and return [[docs:templating:variable|page attribute]] used in a [[docs:templating:iterator|template iterator]].
+''page sql'' is a ''SELECT'' <icon name="carbon:SQL"/> sql syntax that permits to select pages and return [[docs:templating:variable|page attribute]] used in a [[docs:templating:iterator|template iterator]].
 
 
 
