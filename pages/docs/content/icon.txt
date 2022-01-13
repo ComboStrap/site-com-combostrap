@@ -43,11 +43,13 @@ The ''name'' or ''acronym'' can be used as library name. It follows the [[https:
 
 ^ Name ^ Acronym ^ Location ^
 | ''bootstrap'' | ''bi'' | [[https://icons.getbootstrap.com/|Bootstrap icon]] |
-| ''material-design'' | ''mdi'' | [[https://materialdesignicons.com/|Material design icon]] |
-| ''feather'' | ''fe'' | [[https://feathericons.com/|Feather]] |
-| ''codicon'' | ''codicon'' | [[https://microsoft.github.io/vscode-codicons/|Microsoft Code Icon]] |
-| ''logos'' | ''logos'' | [[https://svgporn.com/|SvgPorn]] |
 | ''carbon'' | ''carbon'' | [[https://www.carbondesignsystem.com/guidelines/icons/library/|Carbon (IBM)]] |
+| ''codicon'' | ''codicon'' | [[https://microsoft.github.io/vscode-codicons/|Microsoft Code Icon]] |
+| ''feather'' | ''fe'' | [[https://feathericons.com/|Feather]] |
+| ''logos'' | ''logos'' | [[https://svgporn.com/|SvgPorn]] |
+| ''material-design'' | ''mdi'' | [[https://materialdesignicons.com/|Material design icon]] |
+| ''twemoji'' | ''twemoji'' | [[https://twemoji.twitter.com/|Twitter Emoji]] |
+
 
 The default library is ''material-design'' but you can [[#configuration|change this configuration]].
 
@@ -116,7 +118,7 @@ Example with a [[https://feathericons.com/?query=box|''box'' icon]]
 You can also easily embedded icons from other icon banks.
 
 You just need to follow this steps:
-  * go to your icon repository
+  * go to your icon repository or the [[https://icon-sets.iconify.design/|iconify search engine]]
   * download your icon
   * upload it to your [[doku>images|media library]] (preferably under the directory ''combostrap:icons'')
   * use it:

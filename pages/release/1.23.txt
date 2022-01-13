@@ -9,7 +9,13 @@
   * The ratio and therefore the crop of a [[docs:page:image|illustrative page image]] is now supported for [[docs:content:svg|Svg]] and [[docs:content:icon|Icon]].
   * If a [[docs:page:image|illustrative page image]] is an icon (less than 30px), there is zoom of 3 that's applied to get a more pleasant visual.
   * The [[docs:social:telegram|telegram]] documentation on social graph
+  * Added twitter emoji as [[docs:content:icon|icon library]]
+
 
 ==== Improvement ====
 
   * The [[docs:admin:cli|cli]] documentation has been improved with Linux example and add the animal information in the output.
+
+==== Bug ====
+
+  * Svg loading error such as web server error 500 for [[docs:content:icon|icon]] sends now an error and does not crash the page
