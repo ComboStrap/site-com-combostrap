@@ -25,7 +25,7 @@ The social and search engine network uses this data to:
   * style your page (ie create cards while sharing a link to your page)
   * index your pages to their search engine or in category pages.
 
-All three majors social platform have been implemented:
+All social platform should work. The below social networks have their own documentation.:
   * [[docs:social:twitter|<icon name="twitter"/> Twitter Meta]]
   * [[docs:social:facebook|<icon name="facebook"/> Facebook Meta]]
   * [[docs:social:google|<icon name="google"/> Google Meta]]
