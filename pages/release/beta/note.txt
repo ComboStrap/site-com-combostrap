@@ -1,7 +1,7 @@
 ---json
 {
     "canonical": ":beta:note",
-    "date_published": "1999-01-01T00:00:00+00:00",
+    "date_published": "2028-10-01T00:00:00+00:00",
     "page_id": "u41lj62e7b6jd1j7hzgi8"
 }
 ---
@@ -14,7 +14,6 @@
 <code>
 === -c/--cookie-jar <file name> ===
 </code>
-  * Bad logo test: Error Logo Svg ComboStrap
   * mode nest is unknown
 <file>
  The display of the call with the mode nest is unknown - 162.158.94.3 - code:design:reusable
@@ -28,31 +27,34 @@
 </code>
 
 ===== Improvement =====
-  * The message area should be a toaster.
-  * Name of a start page should be the namespace name
+==== Release / Deployment ====
+
+  * The deployment of the configuration file is done manually.
   * Working on website release via git
+  * export ([[https://github.com/i-net-software/dokuwiki-plugin-siteexport/issues/116|siteexport issue]]), note the configuration should be change from ''wiki:export.zip'' to ''export.zip'' to get it working, log file is the full path)
+
+==== GUI ====
+  * The basic message area should be a toaster to see them always
+  * slot improvement
+      * slot explorer - to see where they are (we got it in the [[docs:cache:cache|cache data]])
+      * [[docs:ads:conf]] could be automated
+  * monospace /tanle in the renderer should be a component
+  * add a previous page, next page. (Example at the bottom: https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/downloads-list.html)
+  * add an edit page button (example: https://kotlinlang.org/docs/control-flow.html)
+  * multiple background to add a black layer to add more contrast
+==== Devops ====
+
   * in `/var/log/php-fpm/error.log`
 <file>
 [01-Sep-2021 23:28:12] WARNING: [pool www] server reached pm.max_children setting (50), consider raising it
 </file>
-  * slot improvement
-      * slot explorer - to see where they are
-      * [[docs:ads:conf]] could be automated
-  * unique real id
-  * monospace /tanle in the renderer should be a component
-  * add an edit page button (example: https://kotlinlang.org/docs/control-flow.html)
-  * add a previous page, next page. (Example at the bottom: https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/downloads-list.html)
-  * multiple background to add a black layer to add more contrast
-  * no jquery - search, ...
-  * self-managed vs hosted documentation
-  * reference system where link would be given weight
-  * The tag test have now their own test class.
-  * The tag syntax is no more needed.
-  * Page deleted / moved should be deleted /renamed into the database
   * [[docs:layout:component:masonry|card-columns]] as a real [[https://masonry.desandro.com/layout.html#responsive-layouts|responsive masonry]] ?
+==== Documentation ====
   * namespace documentation ? https://help.fandom.com/wiki/Namespaces
-  * export ([[https://github.com/i-net-software/dokuwiki-plugin-siteexport/issues/116|siteexport issue]]), note the configuration should be change from ''wiki:export.zip'' to ''export.zip'' to get it working, log file is the full path)
+  * Landing page: self-managed vs hosted documentation
 
+
+==== Analytics ====
 
 Download Tracking
  * [[https://github.com/googleanalytics/autotrack/blob/master/docs/plugins/event-tracker.md|tracking download]] ([[https://www.datadrivenu.com/track-downloads-google-analytics/|blog]])
@@ -119,9 +121,7 @@ markdown
 [[URL]] ([[Special:Permalink/1048495552|this version]])
 </code>
 
-==== Permalink ====
 
-Permalink should be done with [[docs:page:page_id|uuid]] 
 ==== Data definition for page-explorer ====
 
 See [[https://forum.dokuwiki.org/d/19593-nspages]]
@@ -236,6 +236,9 @@ x Marketing cookies: These cookies are used to measure how visitors interact wit
       * The runtime is a [node module runtime](https://github.com/vercel/vercel/blob/main/DEVELOPING_A_RUNTIME.md)
       * php runtime implements it [here](https://github.com/juicyfx/vercel-php/blob/master/src/index.ts)
       * The [[https://vercel.com/docs/runtimes#advanced-usage/developing-your-own-runtime|documentation]]
+
+
+Cloudflare has also workers for php
 ===== Seo =====
 
 ==== Step by step ====
