@@ -46,6 +46,7 @@ The ''name'' or ''acronym'' can be used as library name. It follows the [[https:
 | ''bootstrap'' | ''bi'' | [[https://icons.getbootstrap.com/|Bootstrap icon]] |
 | ''carbon'' | ''carbon'' | [[https://www.carbondesignsystem.com/guidelines/icons/library/|Carbon (IBM)]] |
 | ''codicon'' | ''codicon'' | [[https://microsoft.github.io/vscode-codicons/|Microsoft Code Icon]] |
+| ''fad'' | ''fad'' | [[https://github.com/fefanto/fontaudio/|Fad (Font Audio Icons)]] |
 | ''feather'' | ''fe'' | [[https://feathericons.com/|Feather]] |
 | ''logos'' | ''logos'' | [[https://svgporn.com/|SvgPorn]] |
 | ''material-design'' | ''mdi'' | [[https://materialdesignicons.com/|Material design icon]] |

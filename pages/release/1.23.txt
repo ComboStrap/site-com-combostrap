@@ -12,6 +12,7 @@
   * The [[docs:social:telegram|telegram]] documentation on social graph
   * Added [[https://twemoji.twitter.com/|twitter emoji]] as [[docs:content:icon|icon library]]
   * Added [[https://ant.design/components/icon/|ant design]] as [[docs:content:icon|icon library]]
+  * Added [[https://github.com/fefanto/fontaudio/|fad]] icon as [[docs:content:icon|icon library]]
 
 
 
@@ -19,7 +20,9 @@
 
   * The [[docs:admin:cli|cli]] documentation has been improved with Linux example and add the animal information in the output.
   * The ''carbon'' [[docs:content:icon|icon library]] is case sensitive. We follow the iconify standard and have added a mapping between lowercase name and physical name. For instance, [[https://icon-sets.iconify.design/carbon/csv/|csv]] is known in carbon as ''CSV''.
+  * If an [[docs:content:icon|icon]] does not have a ''viewBox'', we create it to make it scalable. For instance, the [[https://raw.githubusercontent.com/fefanto/fontaudio/master/svgs/fad-random-1dice.svg|fad random dice]] is not scalable.
 
 ==== Bug ====
 
   * Svg loading error such as web server error 500 for [[docs:content:icon|icon]] sends now an error and does not crash the page
+  * Icon without viewBox where not rendering correctly. In a [[docs:content:svg|svg]], if the viewBox is not present, we check now also the width and height of svg to determine the dimension.
