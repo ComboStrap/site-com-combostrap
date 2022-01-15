@@ -10,7 +10,8 @@
   * The [[docs:page:image#ratio|ratio]] is now first class citizen and can be used on all image, all syntax.
   * If a [[docs:page:image|illustrative page image]] is an icon (less than 30px), there is zoom of 3 that's applied to get a more pleasant visual.
   * The [[docs:social:telegram|telegram]] documentation on social graph
-  * Added twitter emoji as [[docs:content:icon|icon library]]
+  * Added [[https://twemoji.twitter.com/|twitter emoji]] as [[docs:content:icon|icon library]]
+  * Added [[https://ant.design/components/icon/|ant design]] as [[docs:content:icon|icon library]]
 
 
 ==== Improvement ====

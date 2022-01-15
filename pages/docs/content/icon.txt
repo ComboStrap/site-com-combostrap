@@ -42,6 +42,7 @@ The ''name'' or ''acronym'' can be used as library name. It follows the [[https:
 
 
 ^ Name ^ Acronym ^ Location ^
+| ''ant-design'' | ''ant-design'' | [[https://ant.design/components/icon/|Ant design]] |
 | ''bootstrap'' | ''bi'' | [[https://icons.getbootstrap.com/|Bootstrap icon]] |
 | ''carbon'' | ''carbon'' | [[https://www.carbondesignsystem.com/guidelines/icons/library/|Carbon (IBM)]] |
 | ''codicon'' | ''codicon'' | [[https://microsoft.github.io/vscode-codicons/|Microsoft Code Icon]] |
