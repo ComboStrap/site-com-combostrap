@@ -45,6 +45,7 @@ The ''name'' or ''acronym'' can be used as library name. It follows the [[https:
 | ''ant-design'' | ''ant-design'' | [[https://ant.design/components/icon/|Ant design]] |
 | ''bootstrap'' | ''bi'' | [[https://icons.getbootstrap.com/|Bootstrap icon]] |
 | ''carbon'' | ''carbon'' | [[https://www.carbondesignsystem.com/guidelines/icons/library/|Carbon (IBM)]] |
+| ''clarity'' | ''clarity'' | [[https://clarity.design/foundation/icons/|Clarity icon (essential)]] |
 | ''codicon'' | ''codicon'' | [[https://microsoft.github.io/vscode-codicons/|Microsoft Code Icon]] |
 | ''fad'' | ''fad'' | [[https://github.com/fefanto/fontaudio/|Fad (Font Audio Icons)]] |
 | ''feather'' | ''fe'' | [[https://feathericons.com/|Feather]] |

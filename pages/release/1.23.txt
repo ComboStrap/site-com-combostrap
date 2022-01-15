@@ -13,6 +13,7 @@
   * Added [[https://twemoji.twitter.com/|twitter emoji]] as [[docs:content:icon|icon library]]
   * Added [[https://ant.design/components/icon/|ant design]] as [[docs:content:icon|icon library]]
   * Added [[https://github.com/fefanto/fontaudio/|fad]] icon as [[docs:content:icon|icon library]]
+  * Added [[https://clarity.design/foundation/icons/|Clairty icon]] as [[docs:content:icon|icon library]]
 
 
 
