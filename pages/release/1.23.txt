@@ -7,6 +7,7 @@
 ==== New ====
   * The [[docs:content:svg|Svg]] and [[docs:content:icon|Icon]] are now taken into account as first image and becomes therefore available as [[docs:page:image|illustrative page image]]
   * The ratio and therefore the crop of a [[docs:page:image|illustrative page image]] is now supported for [[docs:content:svg|Svg]] and [[docs:content:icon|Icon]].
+  * The [[docs:page:image#ratio|ratio]] is now first class citizen and can be used on all image, all syntax.
   * If a [[docs:page:image|illustrative page image]] is an icon (less than 30px), there is zoom of 3 that's applied to get a more pleasant visual.
   * The [[docs:social:telegram|telegram]] documentation on social graph
   * Added twitter emoji as [[docs:content:icon|icon library]]

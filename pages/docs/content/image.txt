@@ -37,17 +37,19 @@ All images:
 
 ComboStrap uses:
   * the same syntax than [[doku>wiki:syntax#media_files|Dokuwiki]]
+  * extended with the possibility to define a ''ratio''
   * extended with the [[docs:styling:styling|styling attributes]]
 
 <code dw>
-{{[ ]path?WxH&nolink&att=value[ ]}}
+{{[ ]path?WxH&ratio=w:h&nolink&att=value[ ]}}
 </code>
 where:
   * ''path'' is:
       * for an internal image: the internal path of the dokuwiki
       * for an external image: the URL.
-  * ''W'' is the width (0 if you want to set only the height)
+  * ''W'' is the width  (Optional, 0 if you want to set only the height)
   * ''H'' is the height (Optional)
+  * ''ratio'' is the image ratio (''16:9'', ''4:3'', ''1:1'' or any other custom ratio).
   * ''[ ]'' are optional spaces that indicates the alignement of the image (left, center, or right [[docs:styling:float|float]])
   * ''nolink'' will not add a [[#imagedefaultlinking|link to the image itself]].
   * ''att=value'' is one or more [[docs:styling:styling|styling attributes]]
@@ -89,16 +91,43 @@ Example of an image resized to ''250px'' height
 ==== Cropping ====
 
 
-''cropping'' happens when you set a width and an height. First, the image is scaled down by height and is then cropped on the width towards the center.
+''cropping'' can be defined by setting the following properties:
+  * a width and an height
+  * a ratio and a width 
+  * a ratio and a height
+  * a ratio
 
-Example of a squared image with a ''1:1'' ratio cropped to ''200x200px''
+''cropping'' works on:
+  * [[docs:content:svg|svg]] ([[docs:content:icon|icon]] included)
+  * and [[docs:content:raster|raster image]]
+
+First, the image is scaled down by height and is then cropped on the width towards the center.
+
+Example: 
+  * [[docs:content:raster|raster image]] cropped to ''200x200px'' with the definition of a ''200'' width and ''200'' height 
 <webcode name="Default" frameborder="0">
 <code dw>
 {{:docs:block:stock_image_surfer_in_the_see.png?200x200|}}
 </code>
 </webcode>
-
-
+  * [[docs:content:raster|raster image]] cropped to ''200x200px'' with the definition of the ratio ''1:1'' and a ''200'' width
+<webcode name="Default" frameborder="0">
+<code dw>
+{{:docs:block:stock_image_surfer_in_the_see.png?200&ratio=1:1|}}
+</code>
+</webcode>
+  * [[docs:content:raster|raster image]] cropped to ''4:3'' with the definition of the ratio at the natural width
+<webcode name="Default" frameborder="0">
+<code dw>
+{{:docs:block:stock_image_surfer_in_the_see.png?ratio=4:3|}}
+</code>
+</webcode>
+  * [[docs:content:svg|svg image]] cropped to ''16:9'' with ''200'' height <inote>We have added an height because [[docs:content:svg|svg]] expands to the available space and will take the whole page width, while a raster image expands only to its intrinsic width</inote>
+<webcode name="Default" frameborder="0">
+<code dw>
+{{:undraw_content_creator.svg?0x200&ratio=16:9|}}
+</code>
+</webcode>
 ==== Position ====
 
   * To position the image to the left, let no space, this is the default

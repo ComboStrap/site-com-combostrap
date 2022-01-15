@@ -74,7 +74,7 @@ When the image is an [[docs:content:icon|icon]], the icon is zoomed out to 3 tim
 
 <webcode name="Default" frameborder="0">
 <code dw>
-<page-image path="docs:templating:sql" ratio="16:9" color="pink" width="198px"/>
+<page-image path="docs:templating:sql" ratio="16:9" color="pink" width="198" border-color="pink"/>
 </code>
 </webcode>
 
