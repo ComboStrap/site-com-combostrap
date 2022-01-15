@@ -14,9 +14,11 @@
   * Added [[https://ant.design/components/icon/|ant design]] as [[docs:content:icon|icon library]]
 
 
+
 ==== Improvement ====
 
   * The [[docs:admin:cli|cli]] documentation has been improved with Linux example and add the animal information in the output.
+  * The ''carbon'' [[docs:content:icon|icon library]] is case sensitive. We follow the iconify standard and have added a mapping between lowercase name and physical name. For instance, [[https://icon-sets.iconify.design/carbon/csv/|csv]] is known in carbon as ''CSV''.
 
 ==== Bug ====
 
