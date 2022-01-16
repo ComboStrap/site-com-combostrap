@@ -15,10 +15,7 @@
 By enclosing [[docs:block:code|code blocks]] by a ''webcode'' block, the plugin will add the result at the end (after the last ''webcode'' tag).
 
 
-<badge>Integrated since [[release:release#version_112|version 1.12]]</badge>
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Example=====
 
