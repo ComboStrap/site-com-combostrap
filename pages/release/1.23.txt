@@ -29,3 +29,4 @@
   * Svg loading error such as web server error 500 for [[docs:content:icon|icon]] sends now an error and does not crash the page
   * Icon without viewBox where not rendering correctly. In a [[docs:content:svg|svg]], if the viewBox is not present, we check now also the width and height of svg to determine the dimension.
   * ''Too many redirects'' caused by a ''point'' in the [[docs:page:url|page url]]. A url validation function was not validating the url, if it has a point in it. The separators characters are now excluded from any [[docs:page:slug|slug]] and we double check if the url is an internal url by comrparing it with the base url.
+  * [[docs:templating:iterator|iterator]] rendering was not working if there was just before a complex syntax such as table or list. The algorithm was parsing the whole tree and not only the iterator to detect complex mode. This is corrected.
