@@ -19,8 +19,6 @@ If you want to apply custom styling, you can also create you own rules using the
 
 
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Example =====
 

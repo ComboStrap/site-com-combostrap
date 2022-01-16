@@ -1,7 +1,20 @@
+---json
+{
+    "page_id": "whppmtjlva472nmnfac8c"
+}
+---
 ====== ComboStrap - Release 1.23 ======
 
 
 
+===== About =====
+The release 1.23 brings:
+  * cropping to svg
+  * and the [[docs:page:image#cropping|ratio property]] to all [[docs:page:image|image]]
+
+The icon are also seen as [[docs:page:image|page image]] making them available as illustration for any [[docs:templating:iterator|iteration]].
+
+And more, see below for all details.
 
 ===== List =====
 ==== New ====

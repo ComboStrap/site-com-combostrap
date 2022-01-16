@@ -17,7 +17,7 @@ Create web sites, publish landing pages, write articles, how-to's, documentation
          <cell>
 **Product** \\
 [[combostrap?color=#495057|ComboStrap]] \\
-[[release:release?color=#495057|Release (Changes)]] \\
+[[release:latest?color=#495057|Release (Changes)]] \\
 [[credits?color=#495057|Credits]] \\
 		</cell>
 		<cell>
