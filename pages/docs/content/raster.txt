@@ -11,12 +11,16 @@
 ===== About =====
 ''raster images'' are [[docs:content:image|images]] that are defined as a matrix of pixel (as opposed to [[docs:content:svg|vectorial image such as svg that are defined as geometric shape]]).
 
-
+''jpeg'', ''png'', ''bmp'', ''gif'' are all examples of raster images.
 ===== Syntax =====
 ComboStrap follows the general [[docs:content:image#syntax|image syntax]] where you can set:
-  * the dimension (width and height)
+  * the dimension (width, height, ratio)
   * the alignement (left, center, right float)
   * and all [[docs:styling:styling|styling attributes]]
+
+Rules:
+  * By default, we don't allow a raster image to expand beyond its dimensions. For instance, if an image is 300px wide, and that you asks to render it with a 400px width, we will send a warning message that this is not possible. 
+  * For illustrative purpose, such as in a [[docs:block:card|card image]] or [[docs:styling:background|background]], the image will expand.
 
 
 
