@@ -231,7 +231,7 @@ The platform is open source, guarantee of sustainability and
    </cell>
    <cell>
        <icon name="bs:file-richtext-fill" color="info" width="3rem"/>
-       <text h3 color="info">250+</text>
+       <text h3 color="info">300+</text>
        <text>Documentation pages</text>
    </cell>
 </row>
