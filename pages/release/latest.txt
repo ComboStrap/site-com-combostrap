@@ -30,4 +30,4 @@ For each new release, we recommend the following steps:
 
 ===== Current =====
 
-The current development branch is the 1.24.
+The current development branch is the [[1.24|1.24]].

@@ -12,13 +12,22 @@ A ''Hierarchical Breadcrumb'' is a [[docs:navigation:breadcrumb|breadcrumb]] tha
 It's a [[docs:navigation:navigation|navigational component]] that reflects the hierarchy of the URL and gives the reader the possibility to navigate to the parent (ie the start page).
 
 {{docs:block:combostrap_hierarchical_breadcrumb.png?400|}}
-===== Articles Related =====
-{{backlinks>.}}
 
-===== Configuration =====
-==== Enable ====
-The ''hierarchical breadcrumb'' is shown when:
-  * the [[docs:utility:renderer|renderer is the combo renderer]]. 
-  * the [[doku>conf:youarehere|youarehere]] [[docs:app:configuration|configuration]] is set to ''on''
+
+===== Usage =====
+
+==== Component ====
+You can add a breadcrumb in your page with the following syntax.
+<webcode name="Default" frameborder="0">
+<code dw>
+<breadcrumb/>
+</code>
+The output for this page is:
+</webcode>
+
+
+==== All pages ====
+
+You can add a breadcrumb below the first heading in all your pages if the [[docs:utility:renderer|renderer is the combo renderer]] and the [[doku>conf:youarehere|youarehere]] [[docs:app:configuration|configuration]] is set to ''on''
 
 {{docs:block:youarehere.png?600|}}

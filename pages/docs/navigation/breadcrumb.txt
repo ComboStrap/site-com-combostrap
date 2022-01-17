@@ -12,8 +12,6 @@ A ''breadcrumb'' is a [[docs:navigation:navigation|navigational component]] that
 
 
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Type =====
 

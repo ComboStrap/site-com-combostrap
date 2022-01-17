@@ -1,0 +1,7 @@
+====== ComboStrap - Release 1.24 ======
+
+
+
+===== List =====
+==== New ====
+  * The [[docs:navigation:hierarchical_breadcrumb|hiearchical breadcrumb]] has now its own syntax component.
