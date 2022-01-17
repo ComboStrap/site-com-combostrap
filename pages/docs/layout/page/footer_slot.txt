@@ -1,19 +1,17 @@
 ---json
 {
+    "name": "Page Footer Slot",
     "page_id": "yxm40tovuntj16ix5r7rx"
 }
 ---
 
-====== Strap - Footer Slot ======
+====== ComboStrap - Page Footer Slot ======
 
 ===== About =====
-The ''footer slot'' is a [[docs:layout:page:slot|slot]] that is located at the bottom of a page that contains the footer of the page.
+The ''page footer slot'' is the [[docs:layout:page:slot|slot]] that is located at the bottom of a page that contains the footer of the [[page|page]].
 
-It's also known as a ''fat footer'' and contains information about the web site.
+It's also known as a ''fat footer'' and contains generally information about the [[docs:app:app|web site]].
 
-
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Example =====
 With:

@@ -1,0 +1,36 @@
+---json
+{
+    "name": "Page Main Slot",
+    "page_id": "fhw0mvchtii8ot65pvyin"
+}
+---
+====== ComboStrap - Main Slot ======
+
+
+===== About =====
+In the [[page|page layout]], the ''page main slot'' is a [[docs:layout:page:slot|slot]]  where the content of your page is rendered. 
+
+
+
+===== Main Header and Footer =====
+
+The ''main slot'' supports also two sub-slots:
+  * the ''main header slot'', located at the top of the main slot
+  * and the ''main footer slot'', located at the bottom of the main slot
+
+This slots are mostly used for templating.
+
+For instance, you could add for each page:
+  * the [[docs:navigation:hierarchical_breadcrumb|hierarchical breadcrumb]] in the ''main header''
+  * a [[docs:router:permalink|permalink]] in the ''main footer''
+  * or any other component.
+
+The ''main header and footer slot'' are named respectively:
+  * ''slot_main_header''
+  * ''slot_main_footer''
+
+If you create pages with this name:
+  * at the root directory, all pages will include them
+  * in a namespace (directory), only the subpages will get them
+
+

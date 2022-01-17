@@ -28,6 +28,13 @@ The output for this page is:
 
 ==== All pages ====
 
-You can add a breadcrumb below the first heading in all your pages if the [[docs:utility:renderer|renderer is the combo renderer]] and the [[doku>conf:youarehere|youarehere]] [[docs:app:configuration|configuration]] is set to ''on''
+You can add a breadcrumb below the first heading in all your pages if the [[docs:utility:renderer|renderer is the combo renderer]] 
+
+
+
+===== Configuration =====
+==== Enable/Disable ====
+
+The ''hierarchical breadcrumb'' is following the dokuwiki configuration and renders only when the [[doku>conf:youarehere|youarehere]] [[docs:app:configuration|configuration]] is set to ''on''
 
 {{docs:block:youarehere.png?600|}}

@@ -30,12 +30,12 @@ ComboStrap supports actually, three page layouts:
 ==== Holy ====
 
 The default layout is a fully responsive layout (known also as the ''holy grail'') with:
-  * a [[docs:layout:page:header_slot|header slot]]
-  * a [[docs:layout:page:footer_slot|footer slot]]
+  * a [[docs:layout:page:header_slot|page header slot]]
+  * a [[docs:layout:page:footer_slot|page footer slot]]
   * and three columns:
       * [[docs:layout:page:side_slot|left slot]]
       * [[docs:layout:page:sidekick_slot|right slot]]
-      * main slot (ie content)
+      * [[main|main slot (ie content)]] (main header and footer slot)
 
 They are all [[docs:layout:component:container|contained]] in a page that is:
   * centered 
