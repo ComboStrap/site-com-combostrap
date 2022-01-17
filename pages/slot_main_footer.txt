@@ -1,3 +1,6 @@
 
-
-<permalink named/>
+<template>
+<btn>
+<permalink named strict="false">$canonical</permalink>
+</btn>
+</template>
