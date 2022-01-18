@@ -16,77 +16,6 @@
 
 
 
-
-
-===== Syntax =====
-An icon can be seen as a character and is therefore a component that can be used in a [[docs:content:content|line]].
-
-The syntax is:
-<code dw>
-<icon name="[library:]name" />
-</code>
-where:
-  * ''name'' is the name of the icon
-  * ''library'' is the optional name of the icon library (if not set, the [[#default library|default]] is used)
-
-
-To show a icon:
-  * Go to a [[#library]]
-  * Select your icon and remember its name
-  * If you are not using the [[#default library|default library]], add the library name as prefix
-==== Library ====
-
-We supports the below libraries.
-
-The ''name'' or ''acronym'' can be used as library name. It follows the [[https://icon-sets.iconify.design/|acronyn found in the iconify search engine]]
-
-
-^ Name ^ Acronym ^ Location ^
-| ''ant-design'' | ''ant-design'' | [[https://ant.design/components/icon/|Ant design]] |
-| ''bootstrap'' | ''bi'' | [[https://icons.getbootstrap.com/|Bootstrap icon]] |
-| ''carbon'' | ''carbon'' | [[https://www.carbondesignsystem.com/guidelines/icons/library/|Carbon (IBM)]] |
-| ''clarity'' | ''clarity'' | [[https://clarity.design/foundation/icons/|Clarity icon (essential)]] |
-| ''codicon'' | ''codicon'' | [[https://microsoft.github.io/vscode-codicons/|Microsoft Code Icon]] |
-| ''fad'' | ''fad'' | [[https://github.com/fefanto/fontaudio/|Fad (Font Audio Icons)]] |
-| ''feather'' | ''fe'' | [[https://feathericons.com/|Feather]] |
-| ''logos'' | ''logos'' | [[https://svgporn.com/|SvgPorn]] |
-| ''material-design'' | ''mdi'' | [[https://materialdesignicons.com/|Material design icon]] |
-| ''octicon'' | ''octicon'' | [[https://primer.style/octicons/|Github Octicons]] |
-| ''twemoji'' | ''twemoji'' | [[https://twemoji.twitter.com/|Twitter Emoji]] |
-
-
-The default library is ''material-design'' but you can [[#configuration|change this configuration]].
-
-<note >
-=== Other library ===
-
-You can also download an icon from your preferred icon library and use it directly.
-
-[[#other_library_such_as_google_icon|How to use an other icon library such as Google Icon]].
-</note>
-
-==== Icon Vs Svg ====
-
-An ''icon'' is just a [[docs:content:svg|svg]] that is seen as a character.
-
-
-ComboStrap sets the following properties on a icon by default:
-  * ''width'' and ''height'' have the same value (default to ''24px'')
-  * [[docs:styling:color|color]]: ''currentColor'' by default
-  * not responsive (no ''preserveAspectRatio'' and no max length CSS properties)
-  * no [[docs:content:image#align|alignment]] (ie no left, center or right)
-
-
-<note tip>
-As an icon is just a svg, you can also use the [[docs:content:svg|svg syntax]] directly against a custom svg to embed it as an icon.
-
-Example:
-<code dw>
-{{:custom-icon.svg?16&type=icon|}}
-</code>
-</note>
-
-
 ===== Example =====
 ==== Material Design Icon ====
 
@@ -117,17 +46,39 @@ Example with a [[https://feathericons.com/?query=box|''box'' icon]]
 </code>
 </webcode>
 
-==== Other library such as google icon ====
 
-You can also easily embedded icons from other icon banks.
+
+===== Syntax =====
+An icon can be seen as a character and is therefore a component that can be used in a [[docs:content:content|line]].
+
+The syntax is:
+<code dw>
+<icon name="[library:]name" />
+</code>
+We follow the [[https://icon-sets.iconify.design/|Iconify search engine naming]] where:
+  * ''name'' is the name of the icon 
+  * ''library'' is the optional name of a [[#library|supported icon library]] (if not set, the [[#default library|default]] is used)
+
+===== How to show an icon ? =====
+
+To show a icon:
+  * Go to the [[https://icon-sets.iconify.design/|Iconify search engine]],
+  * Search an icon
+  * Verify that we support the [[#library]] (if the library is not supported, see the
+  * Copy the Iconify full qualified name
+  * And use it with the icon syntax.
+
+===== How to show any icons ?  =====
+
+If the [[#library]] is not yet supported, you can also easily embedded it.
 
 You just need to follow this steps:
-  * go to your icon repository or the [[https://icon-sets.iconify.design/|iconify search engine]]
+  * go to your icon repository 
   * download your icon
   * upload it to your [[doku>images|media library]] (preferably under the directory ''combostrap:icons'')
   * use it:
+      * with the [[#syntax|icon syntax]] (if saved under the directory ''combostrap:icons'')
       * with the [[docs:content:svg|svg]] syntax with a value of ''icon'' for the ''type'' attribute
-      * or with the [[#syntax|icon syntax]] (if saved under the directory ''combostrap:icons'')
 
 
 Example with [[https://fonts.google.com/icons|Google icon]] and the ''favorite'' icon saved in the media library in the namespace ''combostrap:icons:google''
@@ -143,6 +94,7 @@ Example with [[https://fonts.google.com/icons|Google icon]] and the ''favorite''
 <icon name="google:favorite_black_24dp" width="36" color="purple"/>
 </code>
 </webcode>
+
 
 
 
@@ -198,6 +150,38 @@ Example:
 </code>
 </webcode>
 
+===== Library =====
+
+The icon component supports the below libraries natively.
+
+The ''name'' or ''acronym'' can be used as library name. It follows the [[https://icon-sets.iconify.design/|acronyn found in the iconify search engine]]
+
+
+^ Name ^ Acronym ^ Location ^
+| ''ant-design'' | ''ant-design'' | [[https://ant.design/components/icon/|Ant design]] |
+| ''bootstrap'' | ''bi'' | [[https://icons.getbootstrap.com/|Bootstrap icon]] |
+| ''carbon'' | ''carbon'' | [[https://www.carbondesignsystem.com/guidelines/icons/library/|Carbon (IBM)]] |
+| ''clarity'' | ''clarity'' | [[https://clarity.design/foundation/icons/|Clarity icon (essential)]] |
+| ''codicon'' | ''codicon'' | [[https://microsoft.github.io/vscode-codicons/|Microsoft Code Icon]] |
+| ''elegant theme'' | ''et'' | [[https://github.com/pprince/etlinefont-bower|Elegant Themes]] |
+| ''fad'' | ''fad'' | [[https://github.com/fefanto/fontaudio/|Fad (Font Audio Icons)]] |
+| ''feather'' | ''fe'' | [[https://feathericons.com/|Feather]] |
+| ''iconscout'' | ''uit'' | [[https://iconscout.com/unicons/explore/line|Iconscout (Line only]] |
+| ''logos'' | ''logos'' | [[https://svgporn.com/|SvgPorn]] |
+| ''material-design'' | ''mdi'' | [[https://materialdesignicons.com/|Material design icon]] |
+| ''octicon'' | ''octicon'' | [[https://primer.style/octicons/|Github Octicons]] |
+| ''twemoji'' | ''twemoji'' | [[https://twemoji.twitter.com/|Twitter Emoji]] |
+
+
+The default library is ''material-design'' but you can [[#configuration|change this configuration]].
+
+<note >
+=== Other library ===
+
+You can also download an icon from your preferred icon library and use it directly.
+
+[[#other_library_such_as_google_icon|How to use an other icon library such as Google Icon]].
+</note>
 
 
 
@@ -219,8 +203,32 @@ You can change the default library with the ''defaultIconLibrary'' [[docs:app:co
 
 At installation time, the default library is [[#material design|material design]].
 
+===== Icon Vs Svg =====
+
+An ''icon'' is just a [[docs:content:svg|svg]] that is seen as a character.
+
+
+ComboStrap sets the following properties on a icon by default:
+  * ''width'' and ''height'' have the same value (default to ''24px'')
+  * [[docs:styling:color|color]]: ''currentColor'' by default
+  * not responsive (no ''preserveAspectRatio'' and no max length CSS properties)
+  * no [[docs:content:image#align|alignment]] (ie no left, center or right)
+
+
+<note tip>
+As an icon is just a svg, you can also use the [[docs:content:svg|svg syntax]] directly against a custom svg to embed it as an icon.
+
+Example:
+<code dw>
+{{:custom-icon.svg?16&type=icon|}}
+</code>
+</note>
+
+
 
 ===== Support =====
+
+
 ==== Prerequisite ====
 
 This component uses the [[support:requirement|DOM module]]. This module is enabled by default on all hosting platform. It should be then no problem for most of your installation.

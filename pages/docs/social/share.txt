@@ -27,16 +27,25 @@ To create a [[twitter|twitter]] social button, you would use this syntax:
 ===== Syntax =====
 
 <code dw>
-<share channel  url="type" />
+<share 
+    channel  
+    url="urlType" 
+    out="button|link"
+/>
 </code>
 
 where:
   * ''channel'' is one of the [[#supported channels|supported channel]]
-  * ''url'' is:
+  * ''url'' is: (default to the first permanent link)
       * ''page'' for the [[docs:page:url|page url]]
       * ''permalink'' for the [[docs:router:permalink|identifier permalink]]
-If no url option is given, the [[docs:page:url|page url]] is chosen if permanent, otherwise the [[docs:router:permalink|identifier permalink]] takes over
+  * ''out'' permits to choose the kind of output:
+      * ''button'' (default): a styled button with icon
+      * ''link'' (just the link)
 
+<note>
+If no url option is given, the [[docs:page:url|page url]] is chosen if permanent, otherwise the [[docs:router:permalink|identifier permalink]] takes over
+</note>
 ==== Supported Channels ====
   * Baidu
   * Blogger
@@ -63,3 +72,14 @@ If no url option is given, the [[docs:page:url|page url]] is chosen if permanent
   * Weibo
   * Whatsapp
   * Xing
+
+==== How to custom it ? ====
+
+Example:
+<webcode name="Default" frameborder="0">
+<code dw>
+<btn background-color="#55acee" border-color="#55acee">
+   <icon name="twitter" /> Twitter
+</btn>
+</code>
+</webcode>
