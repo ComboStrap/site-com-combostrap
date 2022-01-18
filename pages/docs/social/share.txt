@@ -22,3 +22,44 @@ To create a [[twitter|twitter]] social button, you would use this syntax:
 <share twitter />
 </code>
 <share twitter />
+
+
+===== Syntax =====
+
+<code dw>
+<share channel  url="type" />
+</code>
+
+where:
+  * ''channel'' is one of the [[#supported channels|supported channel]]
+  * ''url'' is:
+      * ''page'' for the [[docs:page:url|page url]]
+      * ''permalink'' for the [[docs:router:permalink|identifier permalink]]
+If no url option is given, the [[docs:page:url|page url]] is chosen if permanent, otherwise the [[docs:router:permalink|identifier permalink]] takes over
+
+==== Supported Channels ====
+  * Baidu
+  * Blogger
+  * Buffer
+  * Email
+  * Evernote
+  * [[facebook|Facebook]]
+  * Flipboard
+  * Hackernews
+  * Instapaper
+  * Line
+  * Linkedin
+  * Ok.ru
+  * Pinterest
+  * Pocket
+  * Reddit
+  * Skype
+  * [[telegram|Telegram]]
+  * Trello
+  * Tumblr
+  * [[twitter|Twitter]]
+  * Viber
+  * VK.com
+  * Weibo
+  * Whatsapp
+  * Xing

@@ -14,7 +14,7 @@
 [[combostrap|Combostrap]] is built on the shoulders of amazing pieces of software and illustrations. This page gives them credits.
 </cell>
 <cell>
-{{::undraw_create.svg|}}
+{{:undraw_create.svg|}}
 </cell>
 </row>
 
@@ -24,7 +24,7 @@
 | [[https://dokuwiki.org|Dokuwiki]] | This is the wiki engine that powers the creation and parsing of the page |
 | [[https://bootstrap.com|Bootstrap]] | This is the styling platform where you can choose from several [[docs:styling:stylesheet|theme]] or create your [[docs:styling:stylesheet|own]] |
 | [[https://bootswatch.com/|Bootswatch]] | The pre-created [[docs:styling:stylesheet|Bootstrap themes]] |
-| [[https://materialdesignicons.com/|Material Design]], [[https://icons.getbootstrap.com/|Bootstrap]], [[https://feathericons.com/|Feather]] | This icons libraries that powers the [[docs:content:icon|Icon Component]] |
+| Icon libraries | See the [[docs:content:icon|Icon Component]] to see them all |
 | [[https://undraw.co/illustrations|Undraw]] and [[https://unsplash.com/|Unsplash]] | This image libraries are used for the illustrations of this website |
 | [[https://apoorv.pro/lozad.js/|Lozad]] | This is the [[docs:performance:lazy|lazy load engine]] delaying the download of image when they are going to enter in the screen |
 | [[https://prismjs.com/|Prism]] | This is the code highlighting engine that powers the [[docs:utility:prism|prism base component]] such as code, file, console and indented block |
@@ -36,3 +36,4 @@
 | [[https://github.com/iconic/SVGInjector|Svg Injector]] | The library that injects the [[docs:content:svg|svg]] in the page |
 | [[https://masonry.desandro.com/|Masonry]] | The library that drives the [[docs:layout:component:masonry|masonry layout]] |
 | [[https://github.com/Chrriis/rrdiagram-js|RRDiagram]] | The library that drives the [[docs:diagram:railroad|railroad component]] |
+| [[https://ellisonleao.github.io/sharer.js/|Sharer]] | The library that drives the [[docs:social:share|share links]] |
