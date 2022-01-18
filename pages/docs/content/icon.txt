@@ -154,7 +154,7 @@ Example:
 
 The icon component supports the below libraries natively.
 
-The ''name'' or ''acronym'' can be used as library name. It follows the [[https://icon-sets.iconify.design/|acronyn found in the iconify search engine]]
+The ''acronym'' should be used as library name. It follows the [[https://icon-sets.iconify.design/|acronyn found in the iconify search engine]]
 
 
 ^ Name ^ Acronym ^ Location ^
@@ -167,10 +167,12 @@ The ''name'' or ''acronym'' can be used as library name. It follows the [[https:
 | ''eva'' | ''eva'' | [[https://akveo.github.io/eva-icons/#/|Eva Icons]] |
 | ''fad'' | ''fad'' | [[https://github.com/fefanto/fontaudio/|Fad (Font Audio Icons)]] |
 | ''feather'' | ''fe'' | [[https://feathericons.com/|Feather]] |
-| ''iconscout'' | ''uit'' | [[https://iconscout.com/unicons/explore/line|Iconscout (Line only]] |
+| ''icomoon'' | ''icomoon-free'' | [[https://icomoon.io/|Icomoon]] | 
+| ''iconscout'' | ''uit'' | [[https://iconscout.com/unicons/explore/line|Iconscout (Line only)]] |
 | ''logos'' | ''logos'' | [[https://svgporn.com/|SvgPorn]] |
 | ''material-design'' | ''mdi'' | [[https://materialdesignicons.com/|Material design icon]] |
 | ''octicon'' | ''octicon'' | [[https://primer.style/octicons/|Github Octicons]] |
+| ''simple line'' | ''simple-line-icons'' | [[https://thesabbir.github.io/simple-line-icons|Simple Line Icons]] |
 | ''twemoji'' | ''twemoji'' | [[https://twemoji.twitter.com/|Twitter Emoji]] |
 
 
