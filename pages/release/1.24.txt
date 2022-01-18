@@ -5,3 +5,6 @@
 ===== List =====
 ==== New ====
   * The [[docs:navigation:hierarchical_breadcrumb|hiearchical breadcrumb]] has now its own syntax component.
+
+==== Improvement ====
+  * The linkwizard used in the [[docs:menubar:search|search box]] performs a search on each term and is now case insensitive.
