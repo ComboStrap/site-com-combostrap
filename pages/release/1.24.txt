@@ -5,8 +5,9 @@
 ===== List =====
 ==== New ====
   * The [[docs:navigation:hierarchical_breadcrumb|hiearchical breadcrumb]] has now its own syntax component.
-  * Added IconScout to the [[docs:content:icon#library|Icon Library]]
-  * Added elegant theme icon to the [[docs:content:icon#library|Icon Library]]
+  * Added IconScout to the [[docs:content:icon#library|Icon Libraries]]
+  * Added elegant theme icon to the [[docs:content:icon#library|Icon Libraries]]
+  * Added eva icons to the [[docs:content:icon#library|Icon Libraries]]
 
 ==== Improvement ====
   * The linkwizard used in the [[docs:menubar:search|search box]] performs a search on each term and is now case insensitive.

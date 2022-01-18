@@ -164,6 +164,7 @@ The ''name'' or ''acronym'' can be used as library name. It follows the [[https:
 | ''clarity'' | ''clarity'' | [[https://clarity.design/foundation/icons/|Clarity icon (essential)]] |
 | ''codicon'' | ''codicon'' | [[https://microsoft.github.io/vscode-codicons/|Microsoft Code Icon]] |
 | ''elegant theme'' | ''et'' | [[https://github.com/pprince/etlinefont-bower|Elegant Themes]] |
+| ''eva'' | ''eva'' | [[https://akveo.github.io/eva-icons/#/|Eva Icons]] |
 | ''fad'' | ''fad'' | [[https://github.com/fefanto/fontaudio/|Fad (Font Audio Icons)]] |
 | ''feather'' | ''fe'' | [[https://feathericons.com/|Feather]] |
 | ''iconscout'' | ''uit'' | [[https://iconscout.com/unicons/explore/line|Iconscout (Line only]] |
