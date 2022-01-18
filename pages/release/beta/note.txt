@@ -78,24 +78,9 @@ Add an export button for the main page. Example
 
 ==== Footnote ====
 
-Footnotes are used most commonly to provide:
-  * references (bibliographic citations) to reliable sources,
-  * explanatory information or
-  * source information for tables and other elements.
+Adding a [[docs:content:footnote|footnote]] rendering syntax, to add or not the footnotes at the foot of the page.
 
-Footnotes allow you to add:
-  * notes, 
-  * citations 
-  * and references 
-without cluttering the body of the document. 
-
-When you create a footnote, a superscript number with a link appears where you added the footnote reference. Readers can click the link to jump to the content of the footnote at the bottom of the page.
-
-  * Dokuwiki: [[https://www.dokuwiki.org/wiki:syntax#footnotes|dokuwiki footnote syntax]] and [[docs:content:cite|cite]] for citation (see also [[doku>plugin:refnotes:refdb]])
-<code dw>
-((<cite></cite>))
-</code>
-
+  * See also [[doku>plugin:refnotes:refdb]]
   * Implemented as ref as in [[https://en.wikipedia.org/wiki/Help:Footnotes|Wikipedia solution]]. Add a name attribute when creating a footnote <ref name="name">citation text</ref>. Thereafter, the footnote may be referenced by just using the following expression <ref name="name" />.
 <code dw>
 <ref name="Smith">citation</ref>
@@ -123,6 +108,8 @@ markdown
 
 
 ==== Data definition for page-explorer ====
+
+As of today, the data is taken from the file system but we could also get it from sql or tabular data
 
 See [[https://forum.dokuwiki.org/d/19593-nspages]]
 ==== Template - of a page (footer and header) ====

@@ -11,15 +11,31 @@
 ===== About =====
 A ''footnote'' (([[wp>Note_(typography)]])) is a syntax component that permits to add reference that will be added at the foot of the page.
 
+Footnotes are used most commonly to provide:
+  * references (bibliographic citations) to reliable sources,
+  * explanatory information or
+  * source information for tables and other elements.
+
+Without cluttering the body of the document, footnotes allow you to add:
+  * notes, 
+  * citations 
+  * and references.
+
+When you create a footnote, a superscript number with a link appears where you added the footnote reference. Readers can click the link to jump to the content of the footnote at the bottom of the page.
+
 
 
 ===== Syntax =====
 
-A footnote is delimited with two parenthesis.
+  * A footnote (([[https://www.dokuwiki.org/wiki:syntax#footnotes|dokuwiki footnote syntax]] )) is delimited with two parenthesis.
 <code dw>
 (( your footnote content goes here and you can add a [[https://example.com/ref|reference link]] ))
 </code>
 
+  * You can also use [[docs:content:cite|cite]] for citation 
+<code dw>
+((<cite></cite>))
+</code>
 
 ===== Demo =====
 

@@ -1,0 +1,24 @@
+====== Social - Share Button ======
+
+
+===== About =====
+''Share button'' or ''social button'' are button aimed to facilitate the sharing of the actual page.
+
+When a user clicks on them, the chosen social application opens with a message that the user can send.
+
+The channel supported are [[social|social network]] but also basic email.
+
+<note>
+  * A social button is just a link styled by default as a button
+  * The URL shared is the [[docs:page:url|page url]] and can make it permanent. For more information, see the [[docs:page:url|dedicated page]]
+</note>
+
+
+===== Example =====
+
+==== Twitter ====
+To create a [[twitter|twitter]] social button, you would use this syntax:
+<code dw>
+<share twitter />
+</code>
+<share twitter />
