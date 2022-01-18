@@ -157,12 +157,13 @@ The icon component supports the below libraries natively.
 The ''acronym'' should be used as library name. It follows the [[https://icon-sets.iconify.design/|acronyn found in the iconify search engine]]
 
 
-^ Name ^ Acronym ^ Location ^
+^ Name ^ Acronym ^ WebSite^
 | ''ant-design'' | ''ant-design'' | [[https://ant.design/components/icon/|Ant design]] |
 | ''bootstrap'' | ''bi'' | [[https://icons.getbootstrap.com/|Bootstrap icon]] |
 | ''carbon'' | ''carbon'' | [[https://www.carbondesignsystem.com/guidelines/icons/library/|Carbon (IBM)]] |
 | ''clarity'' | ''clarity'' | [[https://clarity.design/foundation/icons/|Clarity icon (essential)]] |
 | ''codicon'' | ''codicon'' | [[https://microsoft.github.io/vscode-codicons/|Microsoft Code Icon]] |
+| ''dashicons'' | ''dashicons'' | [[https://developer.wordpress.org/resource/dashicons/|Wordpress dashicons]] | 
 | ''elegant theme'' | ''et'' | [[https://github.com/pprince/etlinefont-bower|Elegant Themes]] |
 | ''eva'' | ''eva'' | [[https://akveo.github.io/eva-icons/#/|Eva Icons]] |
 | ''fad'' | ''fad'' | [[https://github.com/fefanto/fontaudio/|Fad (Font Audio Icons)]] |
