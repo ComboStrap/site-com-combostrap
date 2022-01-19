@@ -1,6 +1,7 @@
 ====== Social - Share Button ======
 
 
+
 ===== About =====
 ''Share button'' or ''social button'' are buttons aimed to facilitate the sharing of the page.
 
@@ -12,6 +13,7 @@ The channels supported are [[social|social network]] but also basic email.
   * A social button is just a link styled by default as a button
   * The URL shared is the [[docs:page:url|page url]] and can make it permanent. For more information, see the [[docs:page:url|dedicated page]]
 </note>
+
 
 ===== Example =====
 ==== Twitter ====
@@ -45,6 +47,7 @@ where:
 <note>
 If no url option is given, the [[docs:page:url|page url]] is chosen if permanent, otherwise the [[docs:router:permalink|identifier permalink]] takes over
 </note>
+
 ==== Supported Channels ====
   * Baidu
   * Blogger
