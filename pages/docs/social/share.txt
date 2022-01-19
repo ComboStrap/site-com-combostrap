@@ -21,7 +21,7 @@ To create a [[twitter|twitter]] social button, you would use this syntax:
 <code dw>
 <share twitter />
 </code>
-<share twitter />
+**SHARE** <share twitter />
 
 
 ===== Syntax =====
