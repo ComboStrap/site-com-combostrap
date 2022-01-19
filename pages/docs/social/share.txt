@@ -13,9 +13,7 @@ The channels supported are [[social|social network]] but also basic email.
   * The URL shared is the [[docs:page:url|page url]] and can make it permanent. For more information, see the [[docs:page:url|dedicated page]]
 </note>
 
-
 ===== Example =====
-
 ==== Twitter ====
 To create a [[twitter|twitter]] social button, you would use this syntax:
 <code dw>
