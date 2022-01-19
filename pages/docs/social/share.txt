@@ -2,11 +2,11 @@
 
 
 ===== About =====
-''Share button'' or ''social button'' are button aimed to facilitate the sharing of the actual page.
+''Share button'' or ''social button'' are buttons aimed to facilitate the sharing of the page.
 
 When a user clicks on them, the chosen social application opens with a message that the user can send.
 
-The channel supported are [[social|social network]] but also basic email.
+The channels supported are [[social|social network]] but also basic email.
 
 <note>
   * A social button is just a link styled by default as a button
@@ -27,11 +27,12 @@ To create a [[twitter|twitter]] social button, you would use this syntax:
 ===== Syntax =====
 
 <code dw>
-<share 
+<share-button 
     channel  
-    url="urlType" 
-    out="button|link"
+    url="urlType",
+    icon-type="solid|solid-circle|outline|outline-circle"
 />
+<share-link channel  url="urlType" style="button|link">Description</sharelink>
 </code>
 
 where:
@@ -78,8 +79,8 @@ If no url option is given, the [[docs:page:url|page url]] is chosen if permanent
 Example:
 <webcode name="Default" frameborder="0">
 <code dw>
-<btn background-color="#55acee" border-color="#55acee">
-   <icon name="twitter" /> Twitter
-</btn>
+
+<icon name="ant-design:twitter-circle-filled" width="64" color="#55acee" /> 
+
 </code>
 </webcode>
