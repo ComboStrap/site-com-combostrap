@@ -1,3 +1,9 @@
+---json
+{
+    "name": "Share Buttons",
+    "page_id": "f7ezynnq31zbp6ea2c50i"
+}
+---
 ====== Social - Share Button ======
 
 
@@ -14,7 +20,6 @@ The channels supported are [[social|social network]] but also basic email.
   * The URL shared is the [[docs:page:url|page url]] and can make it permanent. For more information, see the [[docs:page:url|dedicated page]]
 </note>
 
-
 ===== Example =====
 ==== Twitter ====
 To create a [[twitter|twitter]] social button, you would use this syntax:
@@ -22,7 +27,6 @@ To create a [[twitter|twitter]] social button, you would use this syntax:
 <share twitter />
 </code>
 **SHARE** <share twitter />
-
 
 ===== Syntax =====
 
