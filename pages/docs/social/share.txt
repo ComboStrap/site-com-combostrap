@@ -28,13 +28,21 @@ To create a [[twitter|twitter]] social button, you would use this syntax:
 </code>
 **SHARE** <share twitter />
 
+==== Facebook ====
+To create a [[facebook|Facebook]] social button, you would use this syntax:
+<code dw>
+<share facebook />
+</code>
+**SHARE** <share facebook />
+
 ===== Syntax =====
 
 <code dw>
 <share-button 
     channel  
     url="urlType",
-    icon-type="solid|solid-circle|outline|outline-circle"
+    icon="solid|solid-circle|outline|outline-circle"
+    style="button|link"
 />
 <share-link channel  url="urlType" style="button|link">Description</sharelink>
 </code>
