@@ -7,6 +7,7 @@
   * The [[docs:navigation:hierarchical_breadcrumb|hiearchical breadcrumb]] has now its own syntax component.
   * Added a lot of [[docs:content:icon#library|Icon Libraries]] from elegant theme, IconScout  to eva icons 
   * The [[docs:social:share|Share Buttons]]
+  * We have added a [[support:svg|preserve]] attribute to overwrite the [[docs:performance:svg_optimization|default svg optimization]] on style. More ... see [[support:svg]]
 
 ==== Improvement ====
   * The linkwizard used in the [[docs:menubar:search|search box]] performs a search on each term and is now case insensitive.

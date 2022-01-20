@@ -37,7 +37,9 @@ Svg is just an image and follows therefore the same syntax than a [[docs:content
 {{[ ]svg_path?WxH&att=value[ ]}}
 </code>
 
-A ''svg'' accepts all [[docs:styling:styling|styling attributes]].
+A ''svg'' accepts:
+  * all [[docs:styling:styling|styling attributes]]
+  * and the special [[support:preserve|preserve attribute]]
 
 You can change the svg type with one of the below ''type'' attribute.
 
@@ -167,6 +169,14 @@ Other options with the [[https://www.w3.org/TR/SVG11/coords.html#PreserveAspectR
 
 {{ docs:block:preserveaspectratio.svg?600 |}}
 
-===== Reference =====
+
+===== Support =====
+
+==== What to do if my SVG does not render correctly ? ====
+
+
+If your svg does not render correctly, see this [[support:preserve|answer and solution]] document. [[support:preserve]]
+
+==== Practice ====
 We follow the [[https://developers.google.com/web/fundamentals/design-and-ux/responsive/images#svg|Google Best Practice]]
 

@@ -24,7 +24,7 @@ The implemented rules are:
   * Remove editors and empty namespace
   * Remove title
   * Remove desc
-  * Remove Style element and class attributes
+  * Remove Style element and class attributes (You may disable it with the [[support:preserve|preserve]] attribute)
   * Remove Script element (no script injection)
   * Remove Attribute with default value (for instance ''%%version="1.1"%%'' or ''%%preserveAspectRatio="xMidYMid meet"%%''
   * Remove width and height if they have the same value than the viewBox
@@ -101,6 +101,6 @@ By default, we delete the following elements:
   * [[https://developer.mozilla.org/en-US/docs/Web/SVG/Element/script|script]] (No script can be injected via ''SVG'')
   * [[https://developer.mozilla.org/en-US/docs/Web/SVG/Element/title|title]]
   * [[https://developer.mozilla.org/en-US/docs/Web/SVG/Element/desc|desc]]
-  * [[https://developer.mozilla.org/en-US/docs/Web/SVG/Element/style|style]] (To know more why style is removed, see [[docs:content:icon#what_to_do_if_my_icon_does_not_render_correctly|Why my icon is not rendering correctly ?]])
+  * [[https://developer.mozilla.org/en-US/docs/Web/SVG/Element/style|style]] (To know more why style is removed, see [[support:preserve|Why my icon is not rendering correctly ?]])
 
 
