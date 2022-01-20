@@ -20,27 +20,50 @@ The channels supported are [[social|social network]] but also basic email.
 </note>
 
 ===== Example =====
-==== Twitter ====
-To create a [[twitter|twitter]] social button, you would use this syntax:
+<webcode name="Default" frameborder="0">
 <code dw>
 <share twitter />
+<share facebook />
 </code>
-**SHARE** <share twitter />
+
+</webcode>
+
+==== Twitter ====
+To create a [[twitter|twitter]] social button, you would use this syntax:
+<webcode name="Default" frameborder="0">
+<code dw>
+<!-- Share Button (Default) -->
+<share twitter />
+<!-- Share Link -->
+<share twitter widget="link" />
+</code>
+</webcode>
+
+
 
 ==== Facebook ====
 To create a [[facebook|Facebook]] social button, you would use this syntax:
+
+<webcode name="Default" frameborder="0">
 <code dw>
+<!-- Share Button (Default) -->
 <share facebook />
+<!-- Share Link -->
+<share facebook widget="link" />
 </code>
-**SHARE** <share facebook />
+
+</webcode>
 
 
 ==== Tumblr ====
 To create a ''Tumblr'' social button, you would use this syntax:
+<webcode name="Default" frameborder="0">
 <code dw>
 <share tumblr />
+<share tumblr widget="link"/>
 </code>
-**SHARE** <share tumblr />
+</webcode>
+
 
 
 

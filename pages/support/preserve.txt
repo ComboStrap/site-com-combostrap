@@ -31,7 +31,7 @@ Below, you can see examples of such icon:
       * [[https://raw.githubusercontent.com/carbon-design-system/carbon/main/packages/icons/src/svg/32/SQL.svg|Carbon SQL]]
 
 If you put this two icon on a page, the second will be a blank square  (([[https://github.com/carbon-design-system/carbon/issues/5568|Carbon Issue]])) because:
-  * the share the same class ''cls-1''
+  * the share the same class ''cls-1'' (photoshop generated class)
   * and the first one has a transparency attribute.
 
 
@@ -43,8 +43,8 @@ We allows a user to change the color for any [[docs:content:icon|icon]]. If ther
 
 ===== Solution =====
 
-==== Modification ====
-You could replace/inline the style attribute or element by the svg painting attribute instead. ie you could use this two attributes instead:
+==== Modify your file ====
+The first solution is to change your svg file by replacing any style attribute or element by the corresponding svg painting attribute that are:
   * ''fill''
   * ''stroke''
 
