@@ -5,10 +5,10 @@
 ===== List =====
 ==== New ====
   * The [[docs:navigation:hierarchical_breadcrumb|hiearchical breadcrumb]] has now its own syntax component.
-  * Added IconScout to the [[docs:content:icon#library|Icon Libraries]]
-  * Added elegant theme icon to the [[docs:content:icon#library|Icon Libraries]]
-  * Added eva icons to the [[docs:content:icon#library|Icon Libraries]]
+  * Added a lot of [[docs:content:icon#library|Icon Libraries]] from elegant theme, IconScout  to eva icons 
+  * The [[docs:social:share|Share Buttons]]
 
 ==== Improvement ====
   * The linkwizard used in the [[docs:menubar:search|search box]] performs a search on each term and is now case insensitive.
   * [[docs:performance:svg_optimization|Svg/Icon optimization]]: when a path has a fill attribute of none on icon we delete it
+  * For a solid [[docs:content:icon|icon]], if the color is set, we delete all ''fill'' attribute in style node.

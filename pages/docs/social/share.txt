@@ -7,7 +7,6 @@
 ====== Social - Share Button ======
 
 
-
 ===== About =====
 ''Share button'' or ''social button'' are buttons aimed to facilitate the sharing of the page.
 
@@ -34,6 +33,16 @@ To create a [[facebook|Facebook]] social button, you would use this syntax:
 <share facebook />
 </code>
 **SHARE** <share facebook />
+
+
+==== Tumblr ====
+To create a ''Tumblr'' social button, you would use this syntax:
+<code dw>
+<share tumblr />
+</code>
+**SHARE** <share tumblr />
+
+
 
 ===== Syntax =====
 
