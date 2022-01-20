@@ -12,4 +12,3 @@ ComboStrap
 <search/>
 </collapse>
 </menubar>
-

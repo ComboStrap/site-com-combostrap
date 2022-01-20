@@ -1,6 +1,3 @@
 
-<template>
-<btn>
-<permalink named strict="false">$canonical</permalink>
-</btn>
-</template>
+<share twitter />
+<share facebook />

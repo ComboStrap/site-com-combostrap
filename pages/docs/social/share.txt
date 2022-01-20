@@ -34,12 +34,27 @@ To create a [[twitter|twitter]] social button, you would use this syntax:
 <code dw>
 <!-- Share Button (Default) -->
 <share twitter />
-<!-- Share Link -->
-<share twitter widget="link" />
+<!-- Share Button Solid Circle -->
+<share twitter icon="solid-circle"/>
+<!-- Share Button Outline -->
+<share twitter icon="outline"/>
+<!-- Share Button Outline Circle -->
+<share twitter icon="outline-circle"/>
 </code>
 </webcode>
-
-
+  * Share link
+<webcode name="Default" frameborder="0">
+<code dw>
+<!-- Share Link -->
+<share twitter widget="link" />
+<!-- Share Link Solid Circle -->
+<share twitter widget="link" icon="solid-circle"/>
+<!-- Share Link Outline -->
+<share twitter widget="link" icon="outline"/>
+<!-- Share Link Outline Circle -->
+<share twitter widget="link" icon="outline-circle"/>
+</code>
+</webcode>
 
 ==== Facebook ====
 To create a [[facebook|Facebook]] social button, you would use this syntax:
@@ -70,13 +85,13 @@ To create a ''Tumblr'' social button, you would use this syntax:
 ===== Syntax =====
 
 <code dw>
-<share-button 
+<share 
     channel  
     url="urlType",
-    icon="solid|solid-circle|outline|outline-circle"
-    style="button|link"
+    icon="solid|solid-circle|outline|outline-circle|none"
+    widget="button|link"
 />
-<share-link channel  url="urlType" style="button|link">Description</sharelink>
+<share channel>Description</share>
 </code>
 
 where:
@@ -84,9 +99,9 @@ where:
   * ''url'' is: (default to the first permanent link)
       * ''page'' for the [[docs:page:url|page url]]
       * ''permalink'' for the [[docs:router:permalink|identifier permalink]]
-  * ''out'' permits to choose the kind of output:
-      * ''button'' (default): a styled button with icon
-      * ''link'' (just the link)
+  * ''widget'' permits to choose the type of output:
+      * ''button'' (default): a button
+      * ''link'': a link
 
 <note>
 If no url option is given, the [[docs:page:url|page url]] is chosen if permanent, otherwise the [[docs:router:permalink|identifier permalink]] takes over
