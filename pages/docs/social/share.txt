@@ -9,11 +9,13 @@
 
 
 ===== About =====
-''Share button'' or ''social button'' are buttons aimed to facilitate the <icon name="fa-solid:share"/> sharing of the page.
+''Share button'' or ''social button'' are buttons aimed to facilitate the <icon name="fa-solid:share" width="16"/> sharing of the page.
 
 When a user clicks on them, the chosen social application opens with a message that the user can send.
 
-The channels supported are [[social|social network]] but also basic email.
+The channels supported are:
+  * [[social|social network]]
+  * and messaging application (such as email, whatsapp, telegram, ...)
 
 <note>
   * A social button is just a link styled by default as a button
@@ -24,8 +26,9 @@ The channels supported are [[social|social network]] but also basic email.
 <webcode name="Default" frameborder="0">
 <code dw>
 <share twitter />
-<share facebook widget="link" />
-<share tumblr widget="link" icon="solid-circle" />
+<share twitter widget="link" />
+<share twitter widget="link" icon="solid-circle" />
+<share twitter widget="link" icon="outline" width="60"/>
 </code>
 
 </webcode>
@@ -39,7 +42,7 @@ for all supported channel.
 
 ^ Widget  -> ^  Button  ^^^^  Link  ^^^^
 ^ Icon -> ^ Solid ^ Solid \\ Circle ^ Outline ^ Outline \\ Circle ^ Solid ^ Solid \\ Circle ^ Outline ^ Outline \\ Circle ^
-| Facebook |  <share facebook />  |  <share facebook icon="solid-circle"/>  |  <share facebook icon="outline"/>  |  <share facebook icon="outline-circle"/>  | <share facebook widget="link" /> |  <share facebook widget="link" icon="solid-circle"/>  | <share facebook widget="link" icon="outline"/> | <share facebook widget="link" icon="outline-circle"/> |
+| [[facebook|Facebook]] |  <share facebook />  |  <share facebook icon="solid-circle"/>  |  <share facebook icon="outline"/>  |  <share facebook icon="outline-circle"/>  | <share facebook widget="link" /> |  <share facebook widget="link" icon="solid-circle"/>  | <share facebook widget="link" icon="outline"/> | <share facebook widget="link" icon="outline-circle"/> |
 | Hn \\ (HackerNews) |  <share hn />  |  <share hn icon="solid-circle"/>  |  <share hn icon="outline"/>  |  <share hn icon="outline-circle"/>  | <share hn widget="link" /> |  <share hn widget="link" icon="solid-circle"/>  | <share hn widget="link" icon="outline"/> | <share hn widget="link" icon="outline-circle"/> |
 | Linkedin |  <share linkedin />  |  <share linkedin icon="solid-circle"/>  |  <share linkedin icon="outline"/>  |  <share linkedin icon="outline-circle"/>  | <share linkedin widget="link" /> |  <share linkedin widget="link" icon="solid-circle"/>  | <share linkedin widget="link" icon="outline"/> | <share linkedin widget="link" icon="outline-circle"/> |
 | Mail |  <share mail />  |  <share mail icon="solid-circle"/>  |  <share mail icon="outline"/>  |  <share mail icon="outline-circle"/>  | <share mail widget="link" /> |  <share mail widget="link" icon="solid-circle"/>  | <share mail widget="link" icon="outline"/> | <share mail widget="link" icon="outline-circle"/> |
@@ -48,10 +51,12 @@ for all supported channel.
 | Reddit |  <share reddit />  |  <share reddit icon="solid-circle"/>  |  <share reddit icon="outline"/>  |  <share reddit icon="outline-circle"/>  | <share reddit widget="link" /> |  <share reddit widget="link" icon="solid-circle"/>  | <share reddit widget="link" icon="outline"/> | <share reddit widget="link" icon="outline-circle"/> |
 | Telegram |  <share telegram />  |  <share telegram icon="solid-circle"/>  |  <share telegram icon="outline"/>  |  <share telegram icon="outline-circle"/>  | <share telegram widget="link" /> |  <share telegram widget="link" icon="solid-circle"/>  | <share telegram widget="link" icon="outline"/> | <share telegram widget="link" icon="outline-circle"/> |
 | Tumblr |  <share tumblr />  |  <share tumblr icon="solid-circle"/>  |  <share tumblr icon="outline"/>  |  <share tumblr icon="outline-circle"/>  | <share tumblr widget="link" /> |  <share tumblr widget="link" icon="solid-circle"/>  | <share tumblr widget="link" icon="outline"/> | <share tumblr widget="link" icon="outline-circle"/> |
-| Twitter |   <share twitter />   |  <share twitter icon="solid-circle"/>  |  <share twitter icon="outline"/>  |  <share twitter icon="outline-circle"/>  | <share twitter widget="link" /> |  <share twitter widget="link" icon="solid-circle"/>  |  <share twitter widget="link" icon="outline"/>  | <share twitter widget="link" icon="outline-circle"/> |
+| [[twitter|Twitter]] |   <share twitter />   |  <share twitter icon="solid-circle"/>  |  <share twitter icon="outline"/>  |  <share twitter icon="outline-circle"/>  | <share twitter widget="link" /> |  <share twitter widget="link" icon="solid-circle"/>  |  <share twitter widget="link" icon="outline"/>  |  <share twitter widget="link" icon="outline-circle"/>  |
 | Vk |  <share vk />  |  <share vk icon="solid-circle"/>  |  <share vk icon="outline"/>  |  <share vk icon="outline-circle"/>  | <share vk widget="link" /> |  <share vk widget="link" icon="solid-circle"/>  | <share vk widget="link" icon="outline"/> | <share vk widget="link" icon="outline-circle"/> |
 | Whatsapp |  <share whatsapp />  |  <share whatsapp icon="solid-circle"/>  |  <share whatsapp icon="outline"/>  |  <share whatsapp icon="outline-circle"/>  | <share whatsapp widget="link" /> |  <share whatsapp widget="link" icon="solid-circle"/>  | <share whatsapp widget="link" icon="outline"/> | <share whatsapp widget="link" icon="outline-circle"/> |
 | Xing |  <share xing />  |  <share xing icon="solid-circle"/>  |  <share xing icon="outline"/>  |  <share xing icon="outline-circle"/>  | <share xing widget="link" /> |  <share xing widget="link" icon="solid-circle"/>  | <share xing widget="link" icon="outline"/> | <share xing widget="link" icon="outline-circle"/> |
+
+
 
 
 
@@ -64,31 +69,50 @@ for all supported channel.
     url="urlType",
     icon="solid|solid-circle|outline|outline-circle|none"
     widget="button|link"
+    width="integer"
 />
-<share channel>Description</share>
+<share channel ...>Label</share>
 </code>
 
 where:
-  * ''channel'' is one of the [[#supported channels|supported channel]]
+  * ''channel'' is one of the [[#map|supported channel]]
   * ''url'' is: (default to the first permanent link)
       * ''page'' for the [[docs:page:url|page url]]
       * ''permalink'' for the [[docs:router:permalink|identifier permalink]]
   * ''widget'' permits to choose the type of output:
       * ''button'' (default): a button
       * ''link'': a link
+  * ''icon'' is the type of icon or no icon with ''none''
+  * ''width'' is the width of the [[docs:content:icon|icon]].
 
 <note>
 If no url option is given, the [[docs:page:url|page url]] is chosen if permanent, otherwise the [[docs:router:permalink|identifier permalink]] takes over
 </note>
 
 
-==== How to custom it ? ====
+===== How to customize the Share button ? =====
+
+==== How to add a label ? ====
+
+
+<webcode name="Default" frameborder="0">
+To add your own label, you need to use the element container form.
 
 Example:
-<webcode name="Default" frameborder="0">
+  * To add the label ''Twitter'', you would use this syntax:
 <code dw>
-
-<icon name="ant-design:twitter-circle-filled" width="64" color="#55acee" /> 
-
+<share twitter> Twitter</share>
 </code>
+  * The output is:
+</webcode>
+
+==== How to use your own icon ? ====
+
+The ''icon'' option permits to disable the icon with the value ''none'', you can then choose your own [[docs:content:icon|icon]]
+<webcode name="Default" frameborder="0">
+  * For instance with the [[https://developer.wordpress.org/resource/dashicons/#twitter-alt|dashicons:twitter-alt]]
+<code dw>
+<share twitter icon="none"><icon name="dashicons:twitter-alt"/> Share on Twitter</share>
+</code>
+  * The output would be:
 </webcode>

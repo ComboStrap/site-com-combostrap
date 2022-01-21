@@ -63,7 +63,7 @@ We follow the [[https://icon-sets.iconify.design/|Iconify search engine naming]]
 To show a icon:
   * Go to the [[https://icon-sets.iconify.design/|Iconify search engine]],
   * Search an icon
-  * Verify that we support the [[#library]] (if the library is not supported, see the
+  * Verify that we support the [[#library]] (if the library is not supported, see the [[#how_to_show_any_icons|next paragraph]])
   * Copy the Iconify full qualified name
   * And use it with the icon syntax.
 
@@ -180,6 +180,7 @@ The ''acronym'' should be used as library name. It follows the [[https://icon-se
 | ''octicon'' | ''octicon'' | [[https://primer.style/octicons/|Github Octicons]] |
 | ''simple line'' | ''simple-line-icons'' | [[https://thesabbir.github.io/simple-line-icons|Simple Line Icons]] |
 | ''twemoji'' | ''twemoji'' | [[https://twemoji.twitter.com/|Twitter Emoji]] |
+| ''vaadin'' | ''vaadin'' | [[https://vaadin.com/icons|Vaadin Icons]] |
 
 
 The default library is ''material-design'' but you can [[#configuration|change this configuration]].
