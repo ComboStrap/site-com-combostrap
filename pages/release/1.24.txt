@@ -5,11 +5,12 @@
 ===== List =====
 ==== New ====
   * The [[docs:navigation:hierarchical_breadcrumb|hiearchical breadcrumb]] has now its own syntax component.
-  * Added a lot of [[docs:content:icon#library|Icon Libraries]] from elegant theme, IconScout  to eva icons 
+  * Added a lot of [[docs:content:icon#library|Icon Libraries]] from elegant theme, IconScout, Iconoir to eva icons 
   * The [[docs:social:share|Share Buttons]]
-  * We have added a [[support:svg|preserve]] attribute to overwrite the [[docs:performance:svg_optimization|default svg optimization]] on style. More ... see [[support:svg]]
+  * We have added a [[support:preserve|preserve]] attribute to overwrite the [[docs:performance:svg_optimization|default svg optimization]] on style. More ... see [[support:preserve]]
 
 ==== Improvement ====
   * The linkwizard used in the [[docs:menubar:search|search box]] performs a search on each term and is now case insensitive.
-  * [[docs:performance:svg_optimization|Svg/Icon optimization]]: when a path has a fill attribute of none on icon we delete it
-  * For a solid [[docs:content:icon|icon]], if the color is set, we delete all ''fill'' attribute in style node.
+  * [[docs:performance:svg_optimization|Svg/Icon optimization]]: when a path has a fill attribute of none on icon we delete it (See new support article: [[support:preserve]])
+  * For a solid [[docs:content:icon|icon]], if the color is set, we delete all ''fill'' attribute in path element.
+  * For a outline [[docs:content:icon|icon]], if the color is set, we delete all ''stroke'' attribute in path element

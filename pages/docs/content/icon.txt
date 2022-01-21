@@ -168,6 +168,7 @@ The ''acronym'' should be used as library name. It follows the [[https://icon-se
 | ''fad'' | ''fad'' | [[https://github.com/fefanto/fontaudio/|Fad (Font Audio Icons)]] |
 | ''feather'' | ''fe'' | [[https://feathericons.com/|Feather]] |
 | ''icomoon'' | ''icomoon-free'' | [[https://icomoon.io/|Icomoon]] | 
+| ''iconoir'' | ''iconoir'' | [[https://iconoir.com/|Iconoir]] | 
 | ''iconscout'' | ''uit'' | [[https://iconscout.com/unicons/explore/line|Iconscout (Line only)]] |
 | ''logos'' | ''logos'' | [[https://svgporn.com/|SvgPorn]] |
 | ''material-design'' | ''mdi'' | [[https://materialdesignicons.com/|Material design icon]] |
