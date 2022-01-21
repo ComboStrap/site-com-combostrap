@@ -171,6 +171,7 @@ The ''acronym'' should be used as library name. It follows the [[https://icon-se
 | ''icomoon'' | ''icomoon-free'' | [[https://icomoon.io/|Icomoon]] | 
 | ''iconoir'' | ''iconoir'' | [[https://iconoir.com/|Iconoir]] | 
 | ''iconscout'' | ''uit'' | [[https://iconscout.com/unicons/explore/line|Iconscout (Line only)]] |
+| ''line awesome'' | ''la'' | [[https://icons8.com/line-awesome|Line Awesome]] (MIT) | 
 | ''logos'' | ''logos'' | [[https://svgporn.com/|SvgPorn]] |
 | ''material-design'' | ''mdi'' | [[https://materialdesignicons.com/|Material design icon]] |
 | ''octicon'' | ''octicon'' | [[https://primer.style/octicons/|Github Octicons]] |
