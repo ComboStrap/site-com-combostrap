@@ -46,7 +46,7 @@ for all supported channel.
 | Whatsapp |  <share whatsapp />  |  <share whatsapp icon="solid-circle"/>  |  <share whatsapp icon="outline"/>  |  <share whatsapp icon="outline-circle"/>  | <share whatsapp widget="link" /> |  <share whatsapp widget="link" icon="solid-circle"/>  | <share whatsapp widget="link" icon="outline"/> | <share whatsapp widget="link" icon="outline-circle"/> |
 | HackerNews |  <share hn />  |  <share hn icon="solid-circle"/>  |  <share hn icon="outline"/>  |  <share hn icon="outline-circle"/>  | <share hn widget="link" /> |  <share hn widget="link" icon="solid-circle"/>  | <share hn widget="link" icon="outline"/> | <share hn widget="link" icon="outline-circle"/> |
 | Telegram |  <share telegram />  |  <share telegram icon="solid-circle"/>  |  <share telegram icon="outline"/>  |  <share telegram icon="outline-circle"/>  | <share telegram widget="link" /> |  <share telegram widget="link" icon="solid-circle"/>  | <share telegram widget="link" icon="outline"/> | <share telegram widget="link" icon="outline-circle"/> |
-
+| Vk |  <share vk />  |  <share vk icon="solid-circle"/>  |  <share vk icon="outline"/>  |  <share vk icon="outline-circle"/>  | <share vk widget="link" /> |  <share vk widget="link" icon="solid-circle"/>  | <share vk widget="link" icon="outline"/> | <share vk widget="link" icon="outline-circle"/> |
 
 
 
