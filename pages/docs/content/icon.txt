@@ -167,6 +167,9 @@ The ''acronym'' should be used as library name. It follows the [[https://icon-se
 | ''elegant theme'' | ''et'' | [[https://github.com/pprince/etlinefont-bower|Elegant Themes]] |
 | ''eva'' | ''eva'' | [[https://akveo.github.io/eva-icons/#/|Eva Icons]] |
 | ''fad'' | ''fad'' | [[https://github.com/fefanto/fontaudio/|Fad (Font Audio Icons)]] |
+| ''font awesome brands'' | ''fa-brands'' | [[https://fontawesome.com/|Font Awesome]] (CC BY 4.0) |
+| ''font awesome regular'' | ''fa-regular'' | [[https://fontawesome.com/|Font Awesome]] (CC BY 4.0) |
+| ''font awesome solid'' | ''fa-solid'' | [[https://fontawesome.com/|Font Awesome]] (CC BY 4.0) |
 | ''feather'' | ''fe'' | [[https://feathericons.com/|Feather]] |
 | ''icomoon'' | ''icomoon-free'' | [[https://icomoon.io/|Icomoon]] | 
 | ''iconoir'' | ''iconoir'' | [[https://iconoir.com/|Iconoir]] | 
