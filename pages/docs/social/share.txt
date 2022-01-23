@@ -7,7 +7,6 @@
 ---
 ====== Social - Share Button ======
 
-
 ===== About =====
 ''Share button'' or ''social button'' are buttons aimed to facilitate the <icon name="fa-solid:share" width="16"/> sharing of the page.
 
@@ -34,11 +33,11 @@ The channels supported are:
 </webcode>
 
 ===== Map =====
+
 Below, you can see a map of the share component with the parameters:
   * ''widget'': button (default) or link
   * ''icon'': Solid, Solid Circle, Outline, Outline Circle
 for all supported channel.
-
 
 ^ Widget  -> ^  Button  ^^^^  Link  ^^^^
 ^ Icon -> ^ Solid ^ Solid \\ Circle ^ Outline ^ Outline \\ Circle ^ Solid ^ Solid \\ Circle ^ Outline ^ Outline \\ Circle ^
