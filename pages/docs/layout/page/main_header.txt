@@ -1,0 +1,36 @@
+====== Main Header Slot ======
+
+
+===== About =====
+The ''main header slot'' is a [[slot|slot]] located at the top of the [[main|main content]].
+
+
+
+
+
+
+
+A main header slot applies to all pages except the [[docs:app:root|root page]].
+
+===== How to create a main header slot ? =====
+
+The name of the main header slot is ''slot_main_header''.
+
+To add a main header slot to all your page:
+  * go to ''https://yourdomain.com/slot_main_header''
+  * the page should open in ''edit'' mode, ready to receive its content. You can use all syntax.
+
+===== Example of main header slot =====
+Below is an example of main header.
+
+<code dw>
+<breadcrumb/>
+<template>
+<heading 1>$title</heading>
+<page-image path="$path" ratio="16:9" />
+</template>
+</code>
+where:
+  * ''breadcrumb'' is the [[docs:navigation:hierarchical_breadcrumb|hiearchical breadcrumb]]
+  * [[docs:templating:template|template]] is a template with [[docs:content:heading|heading]] that contains the [[docs:page:title|page title]]
+  * and a [[docs:content:page-image|illustrative page image]]
