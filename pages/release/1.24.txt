@@ -14,3 +14,7 @@
   * [[docs:performance:svg_optimization|Svg/Icon optimization]]: when a path has a fill attribute of none on icon we delete it (See new support article: [[support:preserve]])
   * For a solid [[docs:content:icon|icon]], if the color is set, we delete all ''fill'' attribute in path element.
   * For a outline [[docs:content:icon|icon]], if the color is set, we delete all ''stroke'' attribute in path element
+  * Internal: Added the notion of ''markup ref'' in the [[docs:content:link|link]] in order to be able to call the link component to add link that comes not from the content, (ie [[docs:social:share|share link]])
+==== Bug ====
+
+  * The snippets could be missing randomly. The snippets are now saved at the same time than the slot html output, making it less likely to miss if the rendering is stop inadvertently.

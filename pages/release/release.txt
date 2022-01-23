@@ -12,7 +12,6 @@
 
 ====== Change Logs  / Release ======
 
-
 ===== About =====
 This is a page that lists all releases with their respective changes for [[:combostrap|ComboStrap]].
 
