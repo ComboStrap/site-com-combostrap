@@ -33,6 +33,7 @@ The channels supported are:
 
 </webcode>
 
+
 ===== Map =====
 Below, you can see a map of the share component with the parameters:
   * ''widget'': button (default) or link

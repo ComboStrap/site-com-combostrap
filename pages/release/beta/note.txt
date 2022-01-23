@@ -413,11 +413,10 @@ https://github.com/giterlizzi/dokuwiki-template-bootstrap3/tree/master/.github
 
 
 
-===== Social =====
+===== Chat: Mail to and sms to =====
 
-  * See sharing button at the end of https://how-to.vertx.io/aws-native-image-lambda-howto/
   * Mail opener and Call opener Wrapper: https://mailgo.dev/
-  * https://ellisonleao.github.io/sharer.js/
+
 
 ===== Miscellaneous =====
   * [[https://www.dokuwiki.org/include_hooks|include-Hooks]] (meta)

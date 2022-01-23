@@ -36,4 +36,4 @@
 | [[https://github.com/iconic/SVGInjector|Svg Injector]] | The library that injects the [[docs:content:svg|svg]] in the page |
 | [[https://masonry.desandro.com/|Masonry]] | The library that drives the [[docs:layout:component:masonry|masonry layout]] |
 | [[https://github.com/Chrriis/rrdiagram-js|RRDiagram]] | The library that drives the [[docs:diagram:railroad|railroad component]] |
-| [[https://ellisonleao.github.io/sharer.js/|Sharer]] | The library that drives the [[docs:social:share|share links]] |
+| [[https://ellisonleao.github.io/sharer.js/|Sharer]] and [[http://sharingbuttons.io|sharingbuttons]]  | The library that drives / inspired the [[docs:social:share|share buttons]] |
