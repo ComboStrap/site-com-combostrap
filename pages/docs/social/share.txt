@@ -19,6 +19,7 @@ The channels supported are:
 <note>
   * A social button is just a link styled by default as a button
   * The URL shared is the [[docs:page:url|page url]] and can make it permanent. For more information, see the [[docs:page:url|dedicated page]]
+  * We support also [[docs:social:follow|follow buttons]]
 </note>
 
 ===== Example =====

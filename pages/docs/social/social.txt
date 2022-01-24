@@ -14,8 +14,9 @@
   * the [[#discoverability|discoverability]]
   * and the [[#interaction|interaction]] with your users.
 
+===== Features =====
 
-===== Discoverability =====
+==== Discoverability ====
 
 The discoverability module is based on data that are added to your page such as:
   * the type of page
@@ -37,8 +38,19 @@ As a general rule of thumb, all social images should be at least 640×320px (128
 
 To be sure that nothing gets cropped, you could create a 40pt white margin around your image.
 </note>
-===== Interaction =====
+
+==== Social Buttons ====
+
+ComboStrap supports:
+  * [[share|Share buttons]]
+  * and [[follow|Follow buttons]]
+
+
+==== Embed ====
 Interaction happens through widgets embedded in your pages.
 
 Actually, only the [[docs:social:tweet|embedded tweet]] has been implemented.
+
+
+
 

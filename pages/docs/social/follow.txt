@@ -1,14 +1,90 @@
+---json
+{
+    "name": "Follow Buttons",
+    "page_id": "nc63fbino7rer61s2bi6w"
+}
+---
 ====== Follow Button ======
 
 
 
 ===== About =====
-The Follow button is a small button displayed on your websites to help users easily follow you.
+The ''Follow'' button is a button displayed on your websites to help users easily follow you.
 
 
+<note>
+We support also [[share|share buttons]]
+</note>
 ===== Example =====
+
+====  With a follow request ====
+
+With a social handle name, social channel supports a follow request.
+You need to give your handle, ie your name identifier.
+
+
+<webcode name="Default" frameborder="0">
+  * For instance, for twitter:
+<code dw>
+<follow twitter handle="combostrapweb"/>
+</code>
+  * The output would be:
+</webcode>
+
+
+If the user clicks on the link, it will be presented with a ''follow'' request choice.
+
+{{:docs:social:social_channel_follow_request.png|}}
+
+
+
+==== With an URL ====
+
+You can also give your URL directly.
+<webcode name="Default" frameborder="0">
+  * For example, for twitter:
+<code dw>
+<follow twitter url="https://twitter.com/combostrapweb"/>
+</code>
+  * The output would be:
+</webcode>
+
+===== Map =====
+
+Below, you can see a map of the share component with the parameters:
+  * ''widget'': button (default) or link
+  * ''icon'': Solid, Solid Circle, Outline, Outline Circle
+for all supported channel.
+
+^ Widget  -> ^  Button  ^^^^  Link  ^^^^
+^ Icon -> ^ Solid ^ Solid \\ Circle ^ Outline ^ Outline \\ Circle ^ Solid ^ Solid \\ Circle ^ Outline ^ Outline \\ Circle ^
+| [[facebook|Facebook]] |  <follow facebook />  |  <follow facebook icon="solid-circle"/>  |  <follow facebook icon="outline"/>  |  <follow facebook icon="outline-circle"/>  | <follow facebook widget="link" /> |  <follow facebook widget="link" icon="solid-circle"/>  | <follow facebook widget="link" icon="outline"/> | <follow facebook widget="link" icon="outline-circle"/> |
+| Linkedin |  <follow linkedin />  |  <follow linkedin icon="solid-circle"/>  |  <follow linkedin icon="outline"/>  |  <follow linkedin icon="outline-circle"/>  | <follow linkedin widget="link" /> |  <follow linkedin widget="link" icon="solid-circle"/>  | <follow linkedin widget="link" icon="outline"/> | <follow linkedin widget="link" icon="outline-circle"/> |
+| [[twitter|Twitter]] |   <follow twitter />   |  <follow twitter icon="solid-circle"/>  |  <follow twitter icon="outline"/>  |  <follow twitter icon="outline-circle"/>  | <follow twitter widget="link" /> |  <follow twitter widget="link" icon="solid-circle"/>  |  <follow twitter widget="link" icon="outline"/>  |  <follow twitter widget="link" icon="outline-circle"/>  |
+
+===== Syntax =====
 
 
 <code dw>
-<follow twitter handle="@combostrapweb"/>
+<follow 
+    channel 
+    url="url"
+    handle="userEntityName"
+    icon="solid|solid-circle|outline|outline-circle|none"
+    widget="button|link"
+    width="integer"
+    />
 </code>
+where:
+  * ''channel'' is one of the [[#map|supported channel]]
+  * ''url'': the url where the user should go
+  * ''handle'': the entity name on the social channel
+  * ''widget'' permits to choose the type of output:
+      * ''button'' (default): a button
+      * ''link'': a link
+  * ''icon'' is the type of icon or no icon with ''none''
+  * ''width'' is the width of the [[docs:content:icon|icon]].
+
+
+
+
