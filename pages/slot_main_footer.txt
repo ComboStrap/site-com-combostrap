@@ -1,4 +1,18 @@
 
-<share twitter />
-<share facebook />
+<hr/>
+\\
+\\
 
+<row class="align-items-center">
+<cell class="col-12 col-sm-3" color="muted" text-align="center">Share this page:</cell>
+<cell><share twitter /> <share facebook /> <share hn /> <share mail /> <share Whatsapp /> <share telegram /></cell>
+</row>
+<row class="align-items-center">
+<cell class="col-12 col-sm-3" color="muted" text-align="center">Follow us:</cell>
+<cell><follow twitter  handle="combostrapweb"/> <follow facebook handle="combostrap"/></cell>
+</row>
+
+<row class="align-items-center">
+<cell class="col-12 col-sm-3" color="muted" text-align="center">Improve this page:</cell>
+<cell><brand github url="https://github.com/ComboStrap/website/edit/master/$relativepath"/></cell>
+</row>
