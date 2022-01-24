@@ -12,9 +12,7 @@
 The ''Follow'' button is a button displayed on your websites to help users easily follow you.
 
 
-<note>
-We support also [[share|share buttons]]
-</note>
+
 ===== Example =====
 
 ====  With a follow request ====
@@ -58,9 +56,9 @@ for all supported channel.
 
 ^ Widget  -> ^  Button  ^^^^  Link  ^^^^
 ^ Icon -> ^ Solid ^ Solid \\ Circle ^ Outline ^ Outline \\ Circle ^ Solid ^ Solid \\ Circle ^ Outline ^ Outline \\ Circle ^
-| [[facebook|Facebook]] |  <follow facebook />  |  <follow facebook icon="solid-circle"/>  |  <follow facebook icon="outline"/>  |  <follow facebook icon="outline-circle"/>  | <follow facebook widget="link" /> |  <follow facebook widget="link" icon="solid-circle"/>  | <follow facebook widget="link" icon="outline"/> | <follow facebook widget="link" icon="outline-circle"/> |
+| [[facebook|Facebook]] |  <follow facebook handle="combostrap"/>  |  <follow facebook icon="solid-circle" handle="combostrap"/>  |  <follow facebook icon="outline" handle="combostrap"/>  |  <follow facebook icon="outline-circle" handle="combostrap"/>  | <follow facebook widget="link" handle="combostrap"/> |  <follow facebook widget="link" icon="solid-circle" handle="combostrap"/>  | <follow facebook widget="link" icon="outline" handle="combostrap"/> | <follow facebook widget="link" icon="outline-circle" handle="combostrap"/> |
 | Linkedin |  <follow linkedin />  |  <follow linkedin icon="solid-circle"/>  |  <follow linkedin icon="outline"/>  |  <follow linkedin icon="outline-circle"/>  | <follow linkedin widget="link" /> |  <follow linkedin widget="link" icon="solid-circle"/>  | <follow linkedin widget="link" icon="outline"/> | <follow linkedin widget="link" icon="outline-circle"/> |
-| [[twitter|Twitter]] |   <follow twitter />   |  <follow twitter icon="solid-circle"/>  |  <follow twitter icon="outline"/>  |  <follow twitter icon="outline-circle"/>  | <follow twitter widget="link" /> |  <follow twitter widget="link" icon="solid-circle"/>  |  <follow twitter widget="link" icon="outline"/>  |  <follow twitter widget="link" icon="outline-circle"/>  |
+| [[twitter|Twitter]] |   <follow twitter handle="combostrapweb" />   |  <follow twitter icon="solid-circle" handle="combostrapweb"/>  |  <follow twitter icon="outline" handle="combostrapweb"/>  |  <follow twitter icon="outline-circle" handle="combostrapweb"/>  | <follow twitter widget="link" handle="combostrapweb"/> |  <follow twitter widget="link" icon="solid-circle" handle="combostrapweb"/>  |  <follow twitter widget="link" icon="outline" handle="combostrapweb"/>  |  <follow twitter widget="link" icon="outline-circle" handle="combostrapweb"/>  |
 
 ===== Syntax =====
 
@@ -76,15 +74,20 @@ for all supported channel.
     />
 </code>
 where:
-  * ''channel'' is one of the [[#map|supported channel]]
-  * ''url'': the url where the user should go
-  * ''handle'': the entity name on the social channel
-  * ''widget'' permits to choose the type of output:
-      * ''button'' (default): a button
-      * ''link'': a link
+  * the mandatory attributes are:
+      * ''channel'' is one of the [[#map|supported channel]]
+      * and a identifier:
+          * ''handle'': the entity name on the social channel
+          * or an ''url'': the url where the user should go
+  * the styling attributes are:
+      * ''widget'' permits to choose the type of output:
+          * ''button'' (default): a button
+          * ''link'': a link
   * ''icon'' is the type of icon or no icon with ''none''
   * ''width'' is the width of the [[docs:content:icon|icon]].
 
-
+<note>
+We support also [[share|share buttons]]
+</note>
 
 

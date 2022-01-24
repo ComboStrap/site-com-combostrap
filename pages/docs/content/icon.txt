@@ -7,7 +7,6 @@
 ---
 ====== ComboStrap UI - Icon Component ======
 
-
 ===== About =====
 ''icon'' is a [[docs:component|component]] that permits to add easily an [[docs:content:svg|svg]] icon such as this one: <icon name="bs:emoji-wink" color="steelblue" width="22px"/> :
   * from an [[#library|icon library]]
