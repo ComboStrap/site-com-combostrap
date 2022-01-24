@@ -18,7 +18,7 @@
 ==== Material Design Icon ====
 
 
-Example with the [[https://materialdesignicons.com/icon/arrow-down-circle|arrow-down-circle]]
+Example with the [[https://materialdesignicons.com/icon/arrow-down-circle|arrow-down-circle]] and a ''danger'' [[docs:styling:color|color]].
 
 <webcode name="Material-Design">
 <code dw>
@@ -37,7 +37,7 @@ Example with the [[https://icons.getbootstrap.com/icons/arrow-down-circle-fill/|
 </webcode>
 
 ==== Feather ====
-Example with a [[https://feathericons.com/?query=box|''box'' icon]]
+Example with a [[https://feathericons.com/?query=box|''box'' icon]] and a [[docs:styling:color|color]]
 <webcode name="Feather">
 <code dw>
 <icon name="fe:box" color="blue" width="48px" height="48px" />

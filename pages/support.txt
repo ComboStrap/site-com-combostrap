@@ -56,8 +56,11 @@ If you are not sure, you can even start a [[#tabs2|discussion]]
 <panel >
 <label>Social <icon name="twitter" /></label>
 
-We are also present on [[https://twitter.com/combostrapweb|Twitter]]	 
+We are present on the following social medias:
 
+<follow twitter handle="combostrapweb">Twitter</follow>  <follow facebook handle="facebook">Facebook</follow>
+
+Where you can follow us for the last update.
 </panel>
 
 </tabs>
