@@ -1,0 +1,14 @@
+====== Follow Button ======
+
+
+
+===== About =====
+The Follow button is a small button displayed on your websites to help users easily follow you.
+
+
+===== Example =====
+
+
+<code dw>
+<follow twitter handle="@combostrapweb"/>
+</code>
