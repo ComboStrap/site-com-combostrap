@@ -4,9 +4,13 @@
 
 ===== List =====
 ==== New ====
+  * New documentation for the [[docs:layout:page:main|main slot]] (content)
+  * Two new slots:
+      * the [[docs:layout:page:main_header|main header slot]] at the top of the main slot
+      * the [[docs:layout:page:main_footer|main footer slot]] at the bottom of the main slot
   * The [[docs:navigation:hierarchical_breadcrumb|hiearchical breadcrumb]] has now its own syntax component.
   * Added a lot of [[docs:content:icon#library|Icon Libraries]] from elegant theme, IconScout, Iconoir to eva icons 
-  * The [[docs:social:share|Share Buttons]]
+  * You can now add more than [[docs:social:share|Share Buttons]] for instance in the [[docs:layout:page:footer_slot|footer slot]]
   * We have added a [[support:preserve|preserve]] attribute to overwrite the [[docs:performance:svg_optimization|default svg optimization]] on style. More ... see [[support:preserve]]
 
 ==== Improvement ====
