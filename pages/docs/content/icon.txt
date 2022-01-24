@@ -162,10 +162,12 @@ The ''acronym'' should be used as library name. It follows the [[https://icon-se
 | ''carbon'' | ''carbon'' | [[https://www.carbondesignsystem.com/guidelines/icons/library/|Carbon (IBM)]] |
 | ''clarity'' | ''clarity'' | [[https://clarity.design/foundation/icons/|Clarity icon (essential)]] |
 | ''codicon'' | ''codicon'' | [[https://microsoft.github.io/vscode-codicons/|Microsoft Code Icon]] |
+| ''core ui brand'' | ''cib'' | [[https://coreui.io/icons/|Core Ui Icons]] |
 | ''dashicons'' | ''dashicons'' | [[https://developer.wordpress.org/resource/dashicons/|Wordpress dashicons]] | 
 | ''elegant theme'' | ''et'' | [[https://github.com/pprince/etlinefont-bower|Elegant Themes]] |
 | ''eva'' | ''eva'' | [[https://akveo.github.io/eva-icons/#/|Eva Icons]] |
 | ''fad'' | ''fad'' | [[https://github.com/fefanto/fontaudio/|Fad (Font Audio Icons)]] |
+| ''flat color button'' | ''flat-color-icons'' | [[https://icons8.com/icons/color|Icons8]] (MIT) |
 | ''font awesome brands'' | ''fa-brands'' | [[https://fontawesome.com/|Font Awesome]] (CC BY 4.0) |
 | ''font awesome regular'' | ''fa-regular'' | [[https://fontawesome.com/|Font Awesome]] (CC BY 4.0) |
 | ''font awesome solid'' | ''fa-solid'' | [[https://fontawesome.com/|Font Awesome]] (CC BY 4.0) |
@@ -177,6 +179,7 @@ The ''acronym'' should be used as library name. It follows the [[https://icon-se
 | ''logos'' | ''logos'' | [[https://svgporn.com/|SvgPorn]] |
 | ''material-design'' | ''mdi'' | [[https://materialdesignicons.com/|Material design icon]] |
 | ''octicon'' | ''octicon'' | [[https://primer.style/octicons/|Github Octicons]] |
+| ''phosphor icon'' | ''ph'' | [[https://phosphoricons.com/|Phosphor Icons]] | 
 | ''simple line'' | ''simple-line-icons'' | [[https://thesabbir.github.io/simple-line-icons|Simple Line Icons]] |
 | ''twemoji'' | ''twemoji'' | [[https://twemoji.twitter.com/|Twitter Emoji]] |
 | ''vaadin'' | ''vaadin'' | [[https://vaadin.com/icons|Vaadin Icons]] |

@@ -17,7 +17,8 @@ This page describes all attribute that can be used:
 ===== List =====
 
 The supported attribute can be used:
-  * ''path'' is the [[docs:page:path|full qualified path of a page]] that can be used in a [[docs:content:link|page link]]
+  * ''path'' is the [[docs:page:path|full qualified path of a page]] that can be used in a [[docs:content:link|page link]] as reference
+  * ''relativepath'' is the [[docs:page:path|path]] in a url relative form that can be added to an url in a [[docs:content:link|link]]
   * ''title'' - the [[docs:page:title|title]] of the page - if empty, the ''h1''
   * ''name'' - the [[docs:page:name|name]] of the page - if empty, the last part of the id
   * ''h1'' - the [[docs:page:h1|h1 title]] (the first header text of the page) - if empty, the ''title''.
@@ -45,8 +46,9 @@ The below ''template text'' inside a ''template component'' will print:
 <webcode name="list">
 <code dw>
 <template>
-  * Title: $title
-  * Path: $path 
+  * Title: ''$title''
+  * Path: ''$path''
+  * Relative Path: ''$relativepath''
 </template>
 </code>
 <hr/>
