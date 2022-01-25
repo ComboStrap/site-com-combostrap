@@ -6,26 +6,27 @@
 ====== ComboStrap Site Metadata - Logo ======
 
 ===== About =====
-A ''logo'' is an [[docs:content:icon|icon]] that illustrates your [[docs:app:app|website]].
+A ''logo'' is an [[docs:content:icon|icon]] that illustrates your [[docs:app:app|website]] and is part of what's called [[branding|branding]]
 ===== Usage =====
 
 ==== Metadata ====
-Your logo is used as default illustration:
+Your logo is used as default [[docs:page:image|page image illustration]]:
   * for social card such as [[..:social:facebook|facebook]] and [[..:social:twitter|twitter]]
   * for search engine such as [[..:social:google|google]]
 
 
 ==== Navbar Brand ====
 
-You can use your logo in the [[docs:menubar:brand|brand component]] of the [[docs:menubar:menubar|top navigation bar]] with the [[docs:content:icon|icon component]]
+You can use your logo in the [[docs:menubar:brand|brand component]] of the [[docs:menubar:menubar|top navigation bar]].
 
 Example:
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode  iframe>
 <code dw>
-<brand class="pt-0" title="ComboStrap Home" style="color:#075EBB">
-<icon name="logo.svg" />
-ComboStrap Beta
-</brand>
+<menubar>
+    <brand title="ComboStrap Home" color="#075EBB" width="30">
+    ComboStrap
+    </brand>
+</menubar>
 </code>
   * Result:
 </webcode>
