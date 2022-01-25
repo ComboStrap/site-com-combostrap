@@ -9,9 +9,6 @@
 A ''Web App Manifest'' is a JSON file that permits to install your [[app|application (website)]] in a mobile or computer's homescreen without an app store.
 
 
-===== Articles Related =====
-{{backlinks>.}}
-
 
 ===== How to see the manifest =====
 

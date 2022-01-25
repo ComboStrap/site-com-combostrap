@@ -1,6 +1,5 @@
 <menubar breakpoint="md" position="top">
-<brand title="ComboStrap Home" color="#7611F7" boldness="bold">
-<icon name="logo.svg" color="#7611F7" width="30"/>
+<brand color="#7611F7" boldness="bold" width="30">
 ComboStrap
 </brand>
 <collapse>
