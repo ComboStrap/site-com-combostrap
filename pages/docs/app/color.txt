@@ -1,0 +1,20 @@
+====== Branding/App - Color ======
+
+
+
+===== About =====
+''branding colors'' are a set of principal [[docs:styling:color|colors]] that determines your [[branding|brand]] visually.
+
+They should be the most used colors in your [[docs:styling:stylesheet|theme]].
+
+In ComboStrap, they are called:
+  * ''primary''
+  * ''secondary''
+
+
+===== Usage =====
+
+They are:
+  * used in the [[docs:menubar:brand|brand button]] by default
+  * advertised in the [[docs:app:manifest|app manifest]].
+

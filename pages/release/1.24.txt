@@ -19,6 +19,8 @@
   * For a solid [[docs:content:icon|icon]], if the color is set, we delete all ''fill'' attribute in path element.
   * For a outline [[docs:content:icon|icon]], if the color is set, we delete all ''stroke'' attribute in path element
   * Internal: Added the notion of ''markup ref'' in the [[docs:content:link|link]] in order to be able to call the link component to add link that comes not from the content, (ie [[docs:social:share|share link]])
+  * The [[docs:menubar:brand|brand component]] has been improved and supports all brand icon included the brand of the actual app. It can be seen as a super interwiki that follows the branding.
+  * The [[docs:app:manifest|manifest]] got an automatic test and the [[docs:app:color|branding color]].
 ==== Bug ====
 
   * The snippets could be missing randomly. The snippets are now saved at the same time than the slot html output, making it less likely to miss if the rendering is stop inadvertently.
