@@ -12,6 +12,7 @@
   * Added a lot of [[docs:content:icon#library|Icon Libraries]] from elegant theme, IconScout, Iconoir, Core Ui Brand, ... to eva icons 
   * You can now add more than [[docs:social:share|Share Buttons]] for instance in the [[docs:layout:page:footer_slot|footer slot]]
   * We have added a [[support:preserve|preserve]] attribute to overwrite the [[docs:performance:svg_optimization|default svg optimization]] on style. More ... see [[support:preserve]]
+  * You can now set your [[docs:app:color|branding colors (primary and secondary)]] that brings a more cohesive styling on all solid component (filled)
 
 ==== Improvement ====
   * The linkwizard used in the [[docs:menubar:search|search box]] performs a search on each term and is now case insensitive.

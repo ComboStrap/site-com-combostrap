@@ -10,16 +10,19 @@
 ''Button'' is a [[docs:component|ComboStrap UI component]] that implements a ''button'' style.
 
 
-The only action attached is to navigate to another page.
-===== Articles Related =====
-{{backlinks>.}}
 
+The only action attached is to navigate to another page.
 
 ===== Example =====
 
 ====  Internal link ====
 
-<webcode name="Button" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<note>
+The ''button'' used by default the [[docs:app:color|primary color]] configuration.
+</note>
+
+
+<webcode >
 <code dw>
 <btn>[[:start|Go to ComboStrap]]</btn>
 </code>
@@ -118,6 +121,10 @@ The type of the button defines its styling:
 </code>
 </webcode>
 
+
+<note>
+''primary'' and ''secondary'' colors are [[docs:app:color|branding colors]] and can be configured: [[docs:app:color]]
+</note>
 ==== Size ====
 
 ''Button'' is a component that responds to the [[docs:styling:size|size attribute]]
@@ -182,9 +189,4 @@ Example:
 
 
 
-===== For the Geek =====
-This is not the [[https://www.w3.org/TR/wai-aria-practices/#button|Button as describe by the Web Specification]] but a styling over a [[https://www.w3.org/TR/wai-aria-practices/#link|link ]]
 
-===== Documentation / Reference =====
-  * https://material.io/components/buttons
-  * https://getbootstrap.com/docs/4.5/components/buttons/

@@ -1,3 +1,11 @@
+---json
+{
+    "canonical": ":branding-colors",
+    "description": "The branding colors are the most dominant colors of your theme. They bring a connection to your brand.",
+    "name": "Branding Colors",
+    "page_id": "dekm076qg7x0sbn89uelp"
+}
+---
 ====== Branding/App - Color ======
 
 
@@ -16,5 +24,20 @@ In ComboStrap, they are called:
 
 They are:
   * used in the [[docs:menubar:brand|brand button]] by default
-  * advertised in the [[docs:app:manifest|app manifest]].
+  * advertised in the [[docs:app:manifest|app manifest]]
+  * the default color of all solid component such as [[docs:content:button|button]], [[docs:content:icon|icon]], ...
 
+
+
+
+<webcode >
+Example:
+  * A default button will take the ''primary'' color of this installation (ie ''#7611F7'')
+<code dw>
+<btn>[[#|A button with the default primary color]]</btn>
+</code>
+  * Output:
+</webcode>
+===== Configuration =====
+
+You can set the brand colors in the [[docs:app:configuration|configuration]] with the ''primary-color'' and ''secondary-color''  property.

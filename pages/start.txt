@@ -40,7 +40,7 @@ Create website, publish landing pages, articles, how-to's, documentations or bui
 <row>
 
 <cell>
-<icon name="bs:markdown-fill" color="#7611F7" spacing="my-3" width="2.75rem"/>
+<icon name="bs:markdown-fill" spacing="my-3" width="2.75rem"/>
 <text h5>Extended Markdown</text>
 No Code. Just declare what you want in markdown or wiki format
 and watch the magic happen.
