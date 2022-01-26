@@ -183,6 +183,7 @@ The ''acronym'' should be used as library name. It follows the [[https://icon-se
 | ''simple line'' | ''simple-line-icons'' | [[https://thesabbir.github.io/simple-line-icons|Simple Line Icons]] |
 | ''twemoji'' | ''twemoji'' | [[https://twemoji.twitter.com/|Twitter Emoji]] |
 | ''vaadin'' | ''vaadin'' | [[https://vaadin.com/icons|Vaadin Icons]] |
+| ''vscode'' | ''vscode-icons'' | [[https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons|VsCode Icons]] (MIT) |
 
 
 The default library is ''material-design'' but you can [[#configuration|change this configuration]].

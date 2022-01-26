@@ -42,7 +42,7 @@ The JSON file contains several information
     "theme_color": "#dee7ec",
     "icons": [{
             "src": "http://localhost:81/_media/logo.svg",
-            "sizes": "17x17 512x512",
+            "sizes": "any",
             "type": "image/svg+xml"
         }, {
             "src": "http://localhost:81/_media/android-chrome-192x192.png",
