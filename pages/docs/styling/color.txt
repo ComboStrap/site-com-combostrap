@@ -99,27 +99,3 @@ Colored text with a [[?color=reset&underline|reset link]]
 
 
 
-===== FYI  =====
-==== Bootstrap Color Set ====
-
-<note important>
-Just for your information, Bootstrap does not assign the same color set by name for a component.
-</note>
-
-For instance, you got this colors for a [[docs:content:button#primary|Primary button]]
-<code css>
-.btn-primary {
-    color: #fff;
-    background-color: #075ebb;
-    border-color: #075ebb;
-}
-</code>
-and this one for a [[docs:block:note#primary|primary note]]
-<code css>
-.alert-primary {
-    color: #004085;
-    background-color: #cce5ff;
-    border-color: #b8daff;
-}
-</code>
-

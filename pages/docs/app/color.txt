@@ -16,8 +16,8 @@
 They should be the most used colors in your [[docs:styling:stylesheet|theme]].
 
 In ComboStrap, they are called:
-  * ''primary''
-  * ''secondary''
+  * ''primary'': the color displayed most frequently with the most importance
+  * ''secondary'': the color used on component that should have less [[docs:styling:emphasis|emphasis]] than primary element but are still important.
 
 
 ===== Usage =====
