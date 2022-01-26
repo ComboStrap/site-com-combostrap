@@ -123,10 +123,3 @@ and this one for a [[docs:block:note#primary|primary note]]
 }
 </code>
 
-==== Primary Secondary ====
-
-The image below shows as example a list of primary/secondary colors that are the basic block for a [[docs:styling:stylesheet|theme]].
-
-This list of colors is used by Chrome to choose your theme for your profile (''%%chrome://settings/manageProfile%%'')
-
-{{:docs:styling:primary_secondary_color.png|}}

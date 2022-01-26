@@ -14,7 +14,7 @@
     <background opacity="0.4">{{ :combostrap:background:object-multicolor.svg |}}</background>
     <container>
         <row>
-            <cell spacing="ps-lg-5">
+            <cell spacing="ps-lg-5" >
 <heading d3 class="text-capitalize">Web Publication Platform Since 2010</heading>
 <text h3 class="text-capitalize" boldness="light">The leading web markup publication platform</text>
 <text lead>
@@ -199,10 +199,10 @@ The platform is open source, guarantee of sustainability and
 <slide size="lg" height="60vh" vertical="center">
 <background opacity="0.7">{{:woman-yoga-sunset.jpg|}}</background>
 <container>
-<cell width="300px" text-align="center" color="#5b5965">
+<cell width="300px" text-align="center" color="secondary">
        <heading h1>Ready for the journey?</heading>
        <text lead>Become a publisher today</text>
-       [[docs:getting_started:getting_started?preview=false|<icon name="bs:play-circle-fill" width="3.75rem" color="#5b5965"/>]]
+       [[docs:getting_started:getting_started?preview=false|<icon name="bs:play-circle-fill" width="3.75rem" color="secondary"/>]]
 </cell>
 </container>
 </slide>
@@ -217,22 +217,22 @@ The platform is open source, guarantee of sustainability and
    <cell>
        <icon name="heart" color="danger" width="3rem"/>
        <text h3 color="danger">97%</text>
-       <text>Happy clients</text>
+       <text color="secondary">Happy clients</text>
    </cell>
    <cell>
        <icon name="bs:clock-fill" color="primary" width="3rem"/>
        <text h3 color="primary">365x7</text>
-       <text>Customer support</text>
+       <text color="secondary">Customer support</text>
    </cell>
    <cell>
        <icon name="bs:stack" color="warning" width="3rem"/>
        <text h3 color="warning">100+</text>
-       <text>Fresh components</text>
+       <text color="secondary">Fresh components</text>
    </cell>
    <cell>
        <icon name="bs:file-richtext-fill" color="info" width="3rem"/>
        <text h3 color="info">300+</text>
-       <text>Documentation pages</text>
+       <text color="secondary">Documentation pages</text>
    </cell>
 </row>
 \\
@@ -241,6 +241,7 @@ The platform is open source, guarantee of sustainability and
 \\
 </container>
 </slide>
+
 
 
 

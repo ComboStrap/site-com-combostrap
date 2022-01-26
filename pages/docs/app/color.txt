@@ -6,7 +6,7 @@
     "page_id": "dekm076qg7x0sbn89uelp"
 }
 ---
-====== Branding/App - Color ======
+====== Branding Colors ======
 
 
 
@@ -41,3 +41,12 @@ Example:
 ===== Configuration =====
 
 You can set the brand colors in the [[docs:app:configuration|configuration]] with the ''primary-color'' and ''secondary-color''  property.
+
+
+===== Example =====
+
+The image below shows as example a list of primary/secondary colors that are the basic block for a [[docs:styling:stylesheet|theme]].
+
+This list of colors is used by Chrome to choose your theme for your profile (''%%chrome://settings/manageProfile%%'')
+
+{{:docs:styling:primary_secondary_color.png|}}
