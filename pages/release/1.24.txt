@@ -14,6 +14,10 @@
   * We have added a [[support:preserve|preserve]] attribute to overwrite the [[docs:performance:svg_optimization|default svg optimization]] on style. More ... see [[support:preserve]]
   * You can now set your [[docs:app:color|branding colors (primary and secondary)]] that brings a more cohesive styling on all solid component (filled)
 
+
+==== Change ====
+  * The default color of [[docs:content:icon|icon]], [[docs:content:button|button]] is the [[docs:app:color|primary branding color]]
+  * The primary and secondary color of bootstrap are overwritten by the [[docs:app:color|branding colors]] if set up.
 ==== Improvement ====
   * The linkwizard used in the [[docs:menubar:search|search box]] performs a search on each term and is now case insensitive.
   * [[docs:performance:svg_optimization|Svg/Icon optimization]]: when a path has a fill attribute of none on icon we delete it (See new support article: [[support:preserve]])
@@ -28,4 +32,4 @@
       * ''any'' sizes on svg to bug fix the value set by dokuwiki (17x17, 512x512)
 ==== Bug ====
 
-  * The snippets could be missing randomly. The snippets are now saved at the same time than the slot html output, making it less likely to miss if the rendering is stop inadvertently.
+  * The snippets could be missing randomly. The snippets are now saved at the same time than the slot html output, making it less likely to miss if the rendering is stopped inadvertently.

@@ -1,10 +1,10 @@
 
-<footer spacing="p-3" background-color="gradient-light" color="#495057">
+<footer spacing="p-3" background-color="gradient-light" color="secondary">
 <container >
 	<row>
 <cell spacing="ms-md-3">
 
-<text h4 ><icon name="logo.svg"/ spacing="mr-1" color="#495057"/>ComboStrap</text>
+<text h4 ><icon name="logo.svg"/ spacing="mr-1" color="secondary"/>ComboStrap</text>
 <text lead>The leading web markup platform</text>
 
 <text width="350px">
@@ -16,16 +16,16 @@ Create web sites, publish landing pages, write articles, how-to's, documentation
     <row>
          <cell>
 **Product** \\
-[[combostrap?color=#495057|ComboStrap]] \\
-[[release:latest?color=#495057|Release (Changes)]] \\
-[[credits?color=#495057|Credits]] \\
+[[combostrap?color=secondary|ComboStrap]] \\
+[[release:latest?color=secondary|Release (Changes)]] \\
+[[credits?color=secondary|Credits]] \\
 		</cell>
 		<cell>
 **Contact** \\
-[[support@combostrap.com?subject=Contact via WebSite&color=#495057|Mail]] \\
-[[:support?color=#495057|Support]] \\
-[[:about_us?color=#495057|About Us]] \\
-[[:security?color=#495057|Security]] \\
+[[support@combostrap.com?subject=Contact via WebSite&color=secondary|Mail]] \\
+[[:support?color=secondary|Support]] \\
+[[:about_us?color=secondary|About Us]] \\
+[[:security?color=secondary|Security]] \\
 		</cell>
     </row>
 </cell>

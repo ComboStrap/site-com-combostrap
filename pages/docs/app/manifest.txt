@@ -6,7 +6,7 @@
 ====== Strap - Web App Manifest ======
 
 ===== About =====
-A ''Web App Manifest'' is a JSON file that permits to install your [[app|application (website)]] in a mobile or computer's homescreen without an app store.
+A ''Web App Manifest'' is a <icon name="vscode-icons:file-type-manifest" color="secondary"/> file that permits to install your [[app|application (website)]] in a mobile or computer's homescreen without an app store.
 
 
 
