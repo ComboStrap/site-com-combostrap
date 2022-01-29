@@ -109,7 +109,7 @@ The ''icon'' option permits to disable the icon with the value ''none'', you can
 <webcode name="Default" frameborder="0">
   * For instance with the [[https://developer.wordpress.org/resource/dashicons/#twitter-alt|dashicons:twitter-alt]]
 <code dw>
-<share twitter icon="none"><icon name="dashicons:twitter-alt"/> Share on Twitter</share>
+<share twitter icon="none"><icon name="dashicons:twitter-alt" color="white"/> Share on Twitter</share>
 </code>
   * The output would be:
 </webcode>

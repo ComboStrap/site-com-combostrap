@@ -6,7 +6,7 @@
     "page_id": "dekm076qg7x0sbn89uelp"
 }
 ---
-====== Branding Colors ======
+====== Branding Colors (primary, secondary) ======
 
 
 
@@ -16,16 +16,35 @@
 They should be the most used colors in your [[docs:styling:stylesheet|theme]].
 
 In ComboStrap, they are called:
-  * ''primary'': the color displayed most frequently with the most importance
-  * ''secondary'': the color used on component that should have less [[docs:styling:emphasis|emphasis]] than primary element but are still important.
+  * ''primary''
+  * ''secondary''
 
+The ''primary'' color is the color 
+  * displayed most frequently with the most importance
+  * that should have more lightness and saturation
+
+The ''secondary'' color is the color that:
+  * has:
+      * less [[docs:styling:emphasis|emphasis]] (importance) than the primary color
+      * more [[docs:styling:emphasis|emphasis]] than the text
+  * is:
+      * darker than the primary color 
+      * lighter than the text
+  * is used as default for:
+      * [[docs:content:icon|icon character]] 
+      * all second elements such as a second button.
 
 ===== Usage =====
 
 They are:
   * used in the [[docs:menubar:brand|brand button]] by default
   * advertised in the [[docs:app:manifest|app manifest]]
-  * the default color of all solid component such as [[docs:content:button|button]], [[docs:content:icon|icon]], ...
+  * the default color of:
+      * [[docs:content:button|button]], 
+      * [[docs:content:icon|icon]]
+      * [[docs:content:highlight|highlight]]
+      * [[docs:block:note|note]]
+      * [[docs:content:link|link]]
 
 
 

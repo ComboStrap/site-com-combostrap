@@ -1,9 +1,11 @@
 ---json
 {
     "description": "What to do when you get this error: PHP Fatal error:  Uncaught Error: Call to undefined function mb_substr().",
+    "dynamic_quality_monitoring": "false",
     "layout": "median",
+    "low_quality_page": "false",
     "page_id": "xbwtk7anppg8qsunl5hdx",
-    "title": "undefined function mb_substr()"
+    "title": "undefined function mb_substr(): what to do when you get this error ?"
 }
 ---
 ====== ComboStrap - undefined function mb_substr()  ======
@@ -31,4 +33,4 @@ Stack trace:
 ===== Solution =====
 The ''mb_substr'' function is part of the ''mbstring'' extension   and should be [[support:requirement#moduleextension|installed]].
 
-This extension is installed on all hosted php server. If you are installing yourself your server, you should install all the extensions listed in the [[support:requirement#moduleextension|requirment page]].
+This extension is installed on all hosted php server. If you are installing yourself your server, you should install all the extensions listed in the [[support:requirement#moduleextension|requirement page]].
