@@ -15,8 +15,6 @@
 
 ''Highlighting'' permits to add [[docs:styling:emphasis|emphasis]] on a couple of words.
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Syntax and Example =====
 You needs to wrap your words with two quote characters ''%%''%%''.
