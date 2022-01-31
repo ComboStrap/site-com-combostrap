@@ -45,6 +45,7 @@ They are:
       * [[docs:content:highlight|highlight]]
       * [[docs:block:note|note]]
       * [[docs:content:link|link]]
+      * the admin page (icon, link)
 
 
 
