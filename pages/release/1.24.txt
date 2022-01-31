@@ -16,6 +16,7 @@
   * The [[docs:content:icon|icon]] is now [[docs:app:color|branding color aware]]. It will take by default the color:
       * the [[docs:app:color|primary color]] if the width is bigger than 36 pixel
       * the [[docs:app:color|secondary color]] otherwise.
+  * The media manager got its style from the snippet manager. Tabs were styled.
 
 
 
