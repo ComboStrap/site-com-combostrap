@@ -17,6 +17,7 @@
       * the [[docs:app:color|primary color]] if the width is bigger than 36 pixel
       * the [[docs:app:color|secondary color]] otherwise.
   * do page style. The admin and media manager got their style from the snippet manager. (Tabs were styled, bullet were deleted, icon got the primary value)
+  * The [[docs:app:color|branding color]] are now inherited by default.
 
 
 

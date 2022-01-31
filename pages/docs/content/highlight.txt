@@ -15,7 +15,6 @@
 
 ''Highlighting'' permits to add [[docs:styling:emphasis|emphasis]] on a couple of words.
 
-
 ===== Syntax and Example =====
 
 ==== Wiki ====
@@ -30,6 +29,7 @@ This text is not highlighted while ''this one is''.
 </webcode>
 
 
+
 ==== Markdown ====
 We supports also the ''backtick'' [[docs:utility:markdown|markdown syntax]]
 
@@ -40,13 +40,10 @@ This text is not highlighted while `this one is`.
 </code>
   * Output:
 </webcode>
-
 ===== Configuration =====
+==== Background color ====
+By default, the background color is based on the [[docs:app:color|primary branding color]] if set (98% lightness).
+
 ==== Disable ====
 
-You can disable the wiki syntax with the ''highlightWikiEnable'' [[docs:app:configuration|configuration]]. In this case, the 
-
-===== Support =====
-
-
-The standard markdown and dokuwiki syntax calls it [[doku>wiki:syntax#basic_text_formatting|monospaced]] and use the ''code'' html but this syntax replaces it with the ''mark'' element.
+You can disable the wiki syntax with the ''highlightWikiEnable'' [[docs:app:configuration|configuration]] to get back the [[doku>wiki:syntax#basic_text_formatting|dokuwiki monospace]] output. (No background color, no mark element)

@@ -39,13 +39,13 @@ The ''secondary'' color is the color that:
 They are:
   * used in the [[docs:menubar:brand|brand button]] by default
   * advertised in the [[docs:app:manifest|app manifest]]
-  * the default color of:
-      * [[docs:content:button|button]], 
-      * [[docs:content:icon|icon]]
-      * [[docs:content:highlight|highlight]]
-      * [[docs:block:note|note]]
-      * [[docs:content:link|link]]
-      * the admin page (icon, link)
+  * the admin page (icon, link)
+
+They are also inherited by default on the following components:
+  * [[docs:content:button|button]], 
+  * [[docs:content:icon|icon]]
+  * [[docs:content:highlight|highlight]]
+  * [[docs:content:link|link]]
 
 
 
@@ -60,8 +60,13 @@ Example:
 </webcode>
 ===== Configuration =====
 
+==== Colors ====
+
 You can set the brand colors in the [[docs:app:configuration|configuration]] with the ''primary-color'' and ''secondary-color''  property.
 
+==== Disable the branding color inheritance ====
+
+You can disable the inheritance of the branding colors with the ''brandingColorInheritanceEnable'' [[docs:app:configuration|configuration]]. The [[docs:styling:stylesheet|color of the bootstrap stylesheet]] will then take over.
 
 ===== Example =====
 
