@@ -2,12 +2,16 @@
 
 
 
+{{ :docs:app:undraw_logo_design.svg?0x200&ratio=16:9 |}}
+
 ===== About =====
-''branding'' is the process of creating a coherent design that is linked to your company in a eyesight by your customer.
+''branding'' is the process of creating a coherent design that is linked to your company.
+
+Through color palette and graphic design, your are passing a message of meaning, emotion and symbolism of what your company is.
 
 
 ComboStrap supports the following ''branding'' component:
   * your [[logo|logo]]
-  * your [[color|primary and secondary colors]]
+  * your [[color|primary and secondary colors]] and its inheritance feature.
 
 

@@ -21,18 +21,11 @@ In ComboStrap, they are called:
 
 The ''primary'' color is the color 
   * displayed most frequently with the most importance
-  * that should have more lightness and saturation
+  * that should have the most lightness and saturation
 
-The ''secondary'' color is the color that:
-  * has:
-      * less [[docs:styling:emphasis|emphasis]] (importance) than the primary color
-      * more [[docs:styling:emphasis|emphasis]] than the text
-  * is:
-      * darker than the primary color 
-      * lighter than the text
-  * is used as default for:
-      * [[docs:content:icon|icon character]] 
-      * all second elements such as a second button.
+The ''secondary'' color is the second color in importance and is used to give another color accent if your theme is dual tone.
+
+
 
 ===== Usage =====
 
@@ -41,14 +34,15 @@ They are:
   * advertised in the [[docs:app:manifest|app manifest]]
   * the admin page (icon, link)
 
-They are also inherited by default on the following components:
+===== Branding Color Inheritance =====
+
+The branding color inheritance is a feature that will apply automatically the primary color to the following component.
   * [[docs:content:button|button]], 
-  * [[docs:content:icon|icon]]
-  * [[docs:content:highlight|highlight]]
-  * [[docs:content:link|link]]
+  * [[docs:content:icon|icon]] (with a size above two 2rem)
+  * [[docs:content:highlight|highlight]] (light based)
+  * [[docs:content:link|link]] (gray based only in main content)
 
-
-
+You can [[#disable_the_branding_color_inheritance|disable this feature in the configuration]].
 
 <webcode >
 Example:

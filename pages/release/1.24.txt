@@ -36,6 +36,7 @@
       * the [[docs:app:color|primary branding color]]
       * an [[https://developer.chrome.com/blog/pwa-manifest-id/|id]] (now required)
       * ''any'' sizes on svg to bug fix the value set by dokuwiki (17x17, 512x512)
+  * The svg illustration were shrinking on a table with the css property ''width: auto !important;'': we have added the width attribute in this case.
 ==== Bug ====
 
   * The snippets could be missing randomly. The snippets are now saved at the same time than the slot html output, making it less likely to miss if the rendering is stopped inadvertently.
