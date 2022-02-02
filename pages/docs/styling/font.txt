@@ -10,7 +10,7 @@
 ===== About =====
 The fonts used are the default system font of the target system. They are designed specifically with today’ screen in mind. 
 
-They are known as  ''native font stack'' or ''system font stack''.
+They are known as  ''native font stack'' or ''system font stack'' (([[https://getbootstrap.com/docs/5.0/content/reboot/#native-font-stack|Bootstrap Native Font]]))
 
 The following attributes permits to change the font rendering:
   * [[docs:styling:font-size]]
@@ -35,8 +35,6 @@ The font used is chosen in the following order:
 
 
 
-===== Documentation / Reference =====
-  * [[https://getbootstrap.com/docs/5.0/content/reboot/#native-font-stack|Bootstrap Native Font]]
 
 
 

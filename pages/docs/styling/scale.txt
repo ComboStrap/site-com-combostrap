@@ -24,8 +24,6 @@ The alphabetical scale is going:
   * from ''xs'' (''extra-small'') for a length value of ''1rem''
   * to ''lg'' (''large'') for a length value of ''2rem''
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Configuration =====
 Every browser sets a value of ''16px'' for one ''rem'' by default but you can increase it with the ''remSize'' configuration.
