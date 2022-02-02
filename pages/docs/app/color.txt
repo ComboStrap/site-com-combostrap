@@ -52,6 +52,10 @@ Example:
 </code>
   * Output:
 </webcode>
+
+<note>
+For [[docs:seo:seo|SEO purpose]], we make sure that the contrast ratio is enough for best readability (if not, we change it to go above the minimum of 4.5 (([[https://web.dev/color-contrast/|Contrast ratio minimum]] ))
+</note>
 ===== Configuration =====
 
 ==== Colors ====
