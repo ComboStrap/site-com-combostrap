@@ -11,7 +11,7 @@
 
 
 ===== About =====
-''branding colors'' are a set of principal [[docs:styling:color|colors]] that determines your [[branding|brand]] visually.
+''branding colors'' are a set of principal <icon name="bi:palette-fill" width="16"/> [[docs:styling:color|colors]] that determines your [[branding|brand]] visually.
 
 They should be the most used colors in your [[docs:styling:stylesheet|theme]].
 

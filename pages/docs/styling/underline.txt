@@ -16,8 +16,6 @@
 ''Underlining'' permits to add [[docs:styling:emphasis|emphasis]] on a couple of words but clashes with the conventional rendering of [[docs:content:link|link]]. Use it when it couldn't be confused for a hyperlink.
 </note>
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Syntax and Example =====
 ==== Markup ====
