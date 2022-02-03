@@ -211,7 +211,7 @@ The platform is open source, guarantee of sustainability and
 \\
 \\
 \\
-\\
+
 <row text-align="center" vertical="center">
    <cell>
        <icon name="heart" color="danger" width="3rem"/>
