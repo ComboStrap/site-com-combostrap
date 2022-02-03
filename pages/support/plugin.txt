@@ -125,3 +125,14 @@ Note that any changes made to the description via the [[docs:metadata:manager|me
 The [[include|include plugin]] does not work out of the box, you need to disable the heading functionality.
 
 For more information, we invite you to go to the dedicated page. [[include]].
+
+==== Typography ====
+
+
+We have a conflict with the old text syntax ''typo'' that is also used by the [[doku>plugin:typography|typography plugin]].
+We have resolve it by taking over with our equivalent component: [[docs:block:text|text]]
+
+The easy fix is to switch over.
+
+If you can't and that this is a problem for you, [[:support|contact us]].
+
