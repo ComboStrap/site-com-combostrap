@@ -1,6 +1,8 @@
 ---json
 {
-    "page_id": "13dflf9w2f3x2kvx5mtqw"
+    "description": "A breadcrumb is a navigational component that shows a list of pages.",
+    "page_id": "13dflf9w2f3x2kvx5mtqw",
+    "title": "Breadcrumbs support by Combostrap"
 }
 ---
 
@@ -11,10 +13,9 @@ A ''breadcrumb'' is a [[docs:navigation:navigation|navigational component]] that
 
 
 
-
-
 ===== Type =====
 
-A ''breadcrumb'' may have the following type:
-  * [[docs:navigation:hierarchical_breadcrumb|Hierarchical]]:  A ''hierarchical breadcrumb'' shows where the page is located in the web site category structure
-  * [[docs:navigation:historical_breadcrumb|Historical]]: A ''historical breadcrumb'' shows the navigation history (the last pages that were visited)
+We supports two type of ''breadcrumb''.
+
+  * The classic [[docs:navigation:hierarchical_breadcrumb|Hierarchical breadcrumb]] that helps the reader to find their place within a website and shows where the page is located in the category structure.
+  * and a [[docs:navigation:historical_breadcrumb|Historical breadcrumb]] that shows the navigation history (the last pages that were visited)

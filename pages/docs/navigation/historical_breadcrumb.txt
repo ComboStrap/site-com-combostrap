@@ -16,8 +16,6 @@ A ''historical breadcrumb'' is a [[docs:navigation:navigation|navigational compo
 
 
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Illustration =====
 
