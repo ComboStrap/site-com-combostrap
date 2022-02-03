@@ -7,17 +7,24 @@
 
 
 ===== About =====
-A ''Hierarchical Breadcrumb'' is a [[docs:navigation:breadcrumb|breadcrumb]] that shows where the page is located in the web site tree. 
+A ''Hierarchical Breadcrumb'' is a [[docs:navigation:breadcrumb|breadcrumb]] that shows where the page is located in the web site tree in hierarchical order.
 
-It's a [[docs:navigation:navigation|navigational component]] that reflects the hierarchy of the URL and gives the reader the possibility to navigate to the parent (ie the start page).
+
+
+  * It's a [[docs:navigation:navigation|navigational component]] that reflects the hierarchy of the URL
+  * It gives the reader  the possibility to navigate to the parent (ie up to the [[docs:app:root|website home page]])
+  * It helps the reader to find their place within a website or web application. 
+
 
 {{docs:block:combostrap_hierarchical_breadcrumb.png?400|}}
 
 
 ===== Usage =====
 
-==== Component ====
-You can add a breadcrumb in your page with the following syntax.
+
+Breadcrumbs are often placed horizontally [[:slot_main_header|before a page's main content (in the main header)]] .
+
+You can add a breadcrumb with the following syntax.
 <webcode name="Default" frameborder="0">
 <code dw>
 <breadcrumb/>
@@ -26,15 +33,8 @@ The output for this page is:
 </webcode>
 
 
-==== All pages ====
-
-You can add a breadcrumb below the first heading in all your pages if the [[docs:utility:renderer|renderer is the combo renderer]] 
 
 
 
-===== Configuration =====
-==== Enable/Disable ====
 
-The ''hierarchical breadcrumb'' is following the dokuwiki configuration and renders only when the [[doku>conf:youarehere|youarehere]] [[docs:app:configuration|configuration]] is set to ''on''
 
-{{docs:block:youarehere.png?600|}}

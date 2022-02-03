@@ -1,7 +1,13 @@
 ====== ComboStrap - Release 1.24 ======
 
 
+===== About =====
 
+
+
+===== Actions =====
+
+  * The old [[release:deprecated:hierarchical_breadcrumb|renderer hierachical breadcrumb]] has been deleted. You should add the new [[docs:navigation:hierarchical_breadcrumb|hierarchical breadcrumb component]] in the new [[:slot_main_header|slot main header]]
 ===== List =====
 ==== New ====
   * New documentation for the [[docs:layout:page:main|main slot]] (content)
@@ -9,6 +15,7 @@
       * the [[docs:layout:page:main_header|main header slot]] at the top of the main slot
       * the [[docs:layout:page:main_footer|main footer slot]] at the bottom of the main slot
   * The [[docs:navigation:hierarchical_breadcrumb|hiearchical breadcrumb]] has now its own syntax component.
+  * The [[release:deprecated:hierarchical_breadcrumb|hierachical breadcrumb in the renderer]] is deprecated.
   * Added a lot of [[docs:content:icon#library|Icon Libraries]] from elegant theme, IconScout, Iconoir, Core Ui Brand, ... to eva icons 
   * You can now add more than [[docs:social:share|Share Buttons]] for instance in the [[docs:layout:page:footer_slot|footer slot]]
   * We have added a [[support:preserve|preserve]] attribute to overwrite the [[docs:performance:svg_optimization|default svg optimization]] on style. More ... see [[support:preserve]]

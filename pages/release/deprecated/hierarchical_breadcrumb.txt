@@ -1,0 +1,23 @@
+====== Deprecated - Hierarchical Breadcrumb in renderer ======
+
+<note warning>
+=== Deprecation Notice ===
+With the advent of the [[:slot_main_header|main slot header]], the user can choose to add or not the breadcrumb in it.
+Therefore, the breadcrumb via the [[docs:utility:renderer|renderer]] is deprecated.
+
+See the new  [[docs:navigation:hierarchical_breadcrumb|Hierarchical Breadcrumb]].
+</note>
+
+
+===== About =====
+
+You can add a breadcrumb below the first heading in all your pages if the [[docs:utility:renderer|renderer is the combo renderer]] 
+
+===== Configuration =====
+
+
+==== Enable/Disable ====
+
+The ''hierarchical breadcrumb'' is following the dokuwiki configuration and renders only when the [[doku>conf:youarehere|youarehere]] [[docs:app:configuration|configuration]] is set to ''on''
+
+{{docs:block:youarehere.png?600|}}
