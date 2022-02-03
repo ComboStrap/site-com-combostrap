@@ -19,8 +19,6 @@ As [[color|color]], it helps prioritizing the components on your page in order t
 
 It's mostly used on a ''call-to-action'' component such as a [[docs:content:button|button]].
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Syntax =====
 

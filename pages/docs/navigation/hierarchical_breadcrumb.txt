@@ -16,7 +16,9 @@ A ''Hierarchical Breadcrumb'' is a [[docs:navigation:breadcrumb|breadcrumb]] tha
   * It helps the reader to find their place within a website or web application. 
 
 
-{{docs:block:combostrap_hierarchical_breadcrumb.png?400|}}
+Illustration: You will find it on this page at this location:
+
+{{docs:block:combostrap_hierarchical_breadcrumb.png?shadow=lg|}}
 
 
 ===== Usage =====
