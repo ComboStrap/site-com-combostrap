@@ -23,8 +23,6 @@ You can create ''cover'' or ''tile'' background with:
 
 The ''background area'' is defined as being the content plus the [[docs:styling:spacing|padding]]
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Syntax =====
 
