@@ -34,24 +34,33 @@ They are:
   * advertised in the [[docs:app:manifest|app manifest]]
   * the admin page (icon, link)
 
+
+===== Color Name Precedence =====
+
+When the color are set, they will take precedence:
+  * as [[docs:styling:color|color name]]
+  * and as color type.
+
+For instance, a [[docs:content:button|button]]:
+  * that has the ''primary'' type has default 
+  * will take the ''primary'' color of this installation (ie ''#7611F7'')
+
+<webcode >
+<code dw>
+<btn>[[#|A button with the default primary color]]</btn>
+</code>
+  * Output:
+</webcode>
+
 ===== Branding Color Inheritance =====
 
 The branding color inheritance is a feature that will apply automatically the primary color to the following component.
-  * [[docs:content:button|button]], 
   * [[docs:content:icon|icon]] (with a size above two [[docs:styling:scale|2rem]])
   * [[docs:content:highlight|highlight]] (light based)
   * [[docs:content:link|link]] (gray based only in main content)
 
 You can [[#disable_the_branding_color_inheritance|disable this feature in the configuration]].
 
-<webcode >
-Example:
-  * A default button will take the ''primary'' color of this installation (ie ''#7611F7'')
-<code dw>
-<btn>[[#|A button with the default primary color]]</btn>
-</code>
-  * Output:
-</webcode>
 
 <note>
 For [[docs:seo:seo|SEO purpose]], we make sure that the contrast ratio is enough for best readability (if not, we change it to go above the minimum of 4.5 (([[https://web.dev/color-contrast/|Contrast ratio minimum]] ))
