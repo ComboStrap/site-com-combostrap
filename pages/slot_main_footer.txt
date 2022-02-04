@@ -14,5 +14,5 @@
 
 <row class="align-items-center">
 <cell class="col-12 col-sm-3" color="muted" text-align="center">Improve this page:</cell>
-<cell><template><brand github url="https://github.com/ComboStrap/website/edit/master/$relativepath"/></template></cell>
+<cell><template><brand github url="https://github.com/ComboStrap/website/edit/master/pages/$relativepath.txt"/></template></cell>
 </row>
