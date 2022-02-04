@@ -25,6 +25,7 @@
       * the [[docs:app:color|secondary color]] otherwise.
   * do page style. The admin and media manager got their style from the snippet manager. (Tabs were styled, bullet were deleted, icon got the primary value)
   * The [[docs:app:color|branding color]] are now inherited by default.
+  * Added the edit button for the slots and styled them.
 
 
 
