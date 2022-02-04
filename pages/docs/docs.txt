@@ -8,6 +8,11 @@
 ====== ComboStrap - Documentation ======
 
 
+\\
+\\
+
+{{ :docs:undraw_my_documents.svg?500&ratio=16:9 |}}
+
 ===== About =====
 This section regroups all documentation of ComboStrap in one place. 
 
@@ -19,3 +24,9 @@ From [[docs:seo:seo|SEO]] to [[docs:component|UI Component]], ComboStrap support
 If you don't have any knowledge of ComboStrap, we recommend to start first with our [[docs:getting_started:getting_started|getting started guide]].
 </note>
 
+\\
+\\
+\\
+\\
+\\
+\\
