@@ -46,7 +46,7 @@ Example:
 <webcode name="icon" >
   * Input:
 <code dw>
-<brand mybrand primary="#dc3545"  boldness="semi-bold" url="https://combstrap.com/brand">
+<brand mybrand primary="#dc3545"  secondary="#339966" boldness="semi-bold" url="https://combstrap.com/brand">
     <icon name="si-glyph:motobike" width="36" />
     The best brand !
 </brand>
@@ -56,7 +56,7 @@ Example:
 
 ===== List =====
 
+<brand-list/>
 
-  * Github: <brand github/>
-  * Wikipedia: <brand wikipedia/>
+
 
