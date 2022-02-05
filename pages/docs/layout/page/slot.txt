@@ -14,13 +14,13 @@ The Strap template supports the following slot:
   * [[docs:layout:page:header_slot|header slot]] (at the top of a page)
   * [[docs:layout:page:footer_slot|footer slot]] (at the bottom of a page)
   * [[docs:layout:page:sidekick_slot|sidekick slot]] (at the right of the content)
+  * [[main_header_slot|main header slot]] (at the top of the main content)
+  * [[main_footer_slot|main footer slot]] (at the bottom of the main content)
 
 
 For instance:
   * if you want to fill the [[docs:layout:page:side_slot|side slot]] for the whole website, you would create the ''side slot'' page (by default the ''sidebar'' page)
   * if you want to fill the [[docs:layout:page:side_slot|side slot]] only  for a specific ''namespace'', you would create the  ''side slot'' page under this namespace (for instance: ''namespace:sidebar'')
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Features =====
 

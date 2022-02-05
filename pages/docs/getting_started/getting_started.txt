@@ -9,24 +9,26 @@
 
 ====== ComboStrap UI - Getting Started ======
 
+\\
+\\
+
+{{ :docs:getting_started:undraw_stepping_up.svg?300 |}}
 
 ===== About =====
 How to have a professional website up and running with [[:start|combostrap]].
 
 This ''how-to'' guide regroups a serie of article to get you started.
 
-  * [[1_dokuwiki|DokuWiki Installation]]
-  * [[2_combo|Combo Installation]]
-  * [[3_strap|Strap Installation]]
-  * [[4_plugin|Third Plugins]]
-  * [[5_favicon|Installation of a favicon]]
-  * [[6_menu|Creation of the top bar]]
-
-
+  - [[1_dokuwiki]]
+  - [[2_combo]]
+  - [[3_strap]]
+  - [[4_plugin]]
+  - [[5_favicon]]
+  - [[6_menu]]
 
 ===== Start =====
-<btn color="white">
-[[docs:getting_started:1_dokuwiki|Step 1 - Dokuwiki Installation]]
+<btn>
+[[docs:getting_started:1_dokuwiki]]
 </btn>
 
 

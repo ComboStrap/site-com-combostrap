@@ -1,0 +1,30 @@
+
+====== Main Footer Slot ======
+
+
+===== About =====
+The ''main footer slot'' is a [[slot|slot]] located at the top of the [[main|main content]].
+
+
+A main footer slot applies to all pages except the [[docs:app:root|root page]].
+
+===== How to create a main footer slot ? =====
+
+The name of the main header slot is ''slot_main_footer''.
+
+To add a main header slot to all your pages:
+  * go to ''https://yourdomain.com/slot_main_footer''
+  * the page should open in ''edit'' mode, ready to receive its content. You can use all syntax.
+
+===== Example of main footer slot =====
+Below is an example of main footer.
+
+<code dw>
+Share Page: <share twitter /> <share mail /> <share Whatsapp /> <share telegram /> \\
+Follow us: <follow twitter  handle="combostrapweb"/> \\
+Edit / Improve this page: <brand github url="https://github.com/ComboStrap/website/edit/master/pages/$path.txt"/> \\
+</code>
+where:
+  * the [[docs:social:share|share syntax]] permits to add social buttons
+  * the [[docs:social:follow|follow syntax]] permits to add follow buttons
+  * the [[docs:menubar:brand|brand syntax]] permits to add brand buttons.

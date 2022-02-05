@@ -14,12 +14,12 @@
 ''Strap'' is the template part and this page shows you how to install it.
 
 <note>
-This is not mandatory to install the ''strap'' template if you want to use the [[:combostrap|combo components]] as ''Combo'' will add the last [[docs:utility:bootstrap|Bootstrap version 5]] if not found. 
+This is not mandatory to install the ''strap'' template if you want to use the [[:combostrap|combo components]]
 
 Be aware that:
   * this features will not work:
       * no [[docs:layout:page:page|page layout]] (holy, median, landing, ..)
-      * no [[docs:layout:page:slot|slot]] (no dynamic ''header'', ''footer'' and ''sidekick bar'') 
+      * no [[docs:layout:page:slot|slot]] (no dynamic ''header'', ''footer'', ''main header'', ''main footer'' and ''sidekick bar'') 
       * the setting of the [[docs:page:title|title]].
       * no canonical for [[docs:layout:page:slot|slots]]
       * no [[docs:styling:scale|size scale setting]]
@@ -28,6 +28,7 @@ Be aware that:
       * the auto head snippet (The component snippets (css, js) will not be in the head).
       * the [[docs:locale:lang|right-to-left language]] at the page level
   * you may also get stylesheet conflicts between the template stylesheet and the bootstrap stylesheet. 
+  * ''combo'' will add the last [[docs:utility:bootstrap|Bootstrap version 5]] if not found. 
 
 
 </note>

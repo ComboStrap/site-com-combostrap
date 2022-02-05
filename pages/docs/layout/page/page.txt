@@ -48,12 +48,6 @@ The main content width expands to the width of the page if the sidebars are not 
 If there is no sidebars, the median layout centers the main content with a fix width, making the length of a line shorter and therefore more readable.
 
 
-You can defined it with the following [[docs:metadata:frontmatter|frontmatter]]
-<code json>
-{
-   "layout":"median"
-}
-</code>
 
 
 ==== Landing ====
@@ -63,12 +57,7 @@ In a landing page layout, the main content is not [[docs:layout:component:contai
 You can then create section of page with the [[docs:layout:component:slide|slide component]] where the [[docs:styling:background|background]] will take the whole width of the page.
 
 
-You can defined it with the following [[docs:metadata:frontmatter|frontmatter]]
-<code json>
-{
-   "layout":"landing"
-}
-</code>
+
 
 Then in your [[docs:layout:component:slide|slide]] component, you can still center the content by adding a [[docs:layout:component:container|container]].
 <code dw>
@@ -80,6 +69,9 @@ Then in your [[docs:layout:component:slide|slide]] component, you can still cent
 </slide>
 </code>
 
+===== How to set the page layout ? =====
+
+You can set the page layout via the [[docs:metadata:manager|metadata manager]].
 
 
-
+{{:docs:layout:page:page_layout_metadata_manager.png|}}

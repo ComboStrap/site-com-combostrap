@@ -1,12 +1,16 @@
 ---json
 {
-    "page_id": "52gxusbx7sb0v76bgvn9v"
+    "name": "Dokuwiki Installation",
+    "page_id": "52gxusbx7sb0v76bgvn9v",
+    "title": "How to install Dokuwiki ?"
 }
 ---
 ====== ComboStrap Getting Started - Dokuwiki Installation ======
 
 ===== About =====
-[[:combostrap|ComboStrap]] is based on the [[doku>|Dokuwiki Engine]]. 
+Because [[:combostrap|ComboStrap]] is build on the [[doku>|Dokuwiki Engine]], the first step is get it.
+
+This page steps you through this phase and how to install Dokuwiki.
 
 
 ===== Steps =====

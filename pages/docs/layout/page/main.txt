@@ -15,13 +15,13 @@ In the [[page|page layout]], the ''page main slot'' is a [[docs:layout:page:slot
 ===== Main Header and Footer =====
 
 The ''main slot'' supports also two sub-slots:
-  * the [[main_header|main header slot]], located at its top 
-  * and the [[main footer|main footer slot]], located at its bottom 
+  * the [[main_header_slot|main header slot]], located at its top 
+  * and the [[main_footer_slot|main footer slot]], located at its bottom 
 
-This slots are mostly used for templating.
+This slots are mostly used for [[docs:templating:templating|templating]].
 
 For instance, you could add for each page:
   * the [[docs:navigation:hierarchical_breadcrumb|hierarchical breadcrumb]] in the ''main header''
-  * a [[docs:router:permalink|permalink]] in the ''main footer''
+  * a [[docs:social:share|share button]] in the ''main footer''
   * or any other component.
 

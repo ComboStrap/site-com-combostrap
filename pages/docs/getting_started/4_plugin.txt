@@ -12,16 +12,15 @@
 ===== About =====
 This page is an optional and informative step that highlights important information that you should now about third party plugins.
 
-[[:combostrap|ComboStrap]] supports [[:support:plugin|third party plugins]] and you can see them all on their  [[:support:plugin|dedicated page]]
+[[:combostrap|ComboStrap]] supports [[:support:plugin|third party plugins]] and you can see them all on their  [[:support:plugin|dedicated page]].
 
 
 You can install any plugin the same way than [[docs:getting_started:2_combo|Combo]] and [[docs:getting_started:3_strap|Strap]] with the [[doku>plugin:extension|extension manager]].
 
 
 
-===== List =====
 
-==== Move ====
+===== Move =====
 
 We support the [[docs:page:move|move plugin]]
 
@@ -35,10 +34,15 @@ If you move page on the server via the file system (for instance in case of a ne
 </note>
 
 
+===== Support =====
+We support all plugins that are working with a standard dokuwiki installation. 
 
-==== Image Mapping ====
+If you have any problems with a third party plugin:
+  * check the [[support:plugin|plugin page]] to see if there is already a solution.
+  * if not, [[:support|contact us or open a ticket]]
 
-The [[support:plugin#imagemapping|image mapping]] is working with ComboStrap but you should put your link or media on a new line (not in a list). In the third party plugin support page, you can see a [[support:plugin#imagemapping|working example]].
+
+
 
 
 

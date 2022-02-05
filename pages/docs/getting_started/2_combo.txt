@@ -1,7 +1,10 @@
 ---json
 {
     "canonical": ":combo",
-    "page_id": "zjmtimy9bvfdsnptsvvy7"
+    "description": "Combo is the bundle of components that complements the strap template.\nThis step shows you how to install it.",
+    "name": "Combo Installation",
+    "page_id": "zjmtimy9bvfdsnptsvvy7",
+    "title": "How to install Combo ?"
 }
 ---
 
@@ -17,8 +20,6 @@ It contains:
   * the [[docs:seo:seo|SEO module]]
   * and many more.
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Steps =====
 
