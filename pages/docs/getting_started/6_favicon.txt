@@ -1,7 +1,12 @@
 ---json
 {
+    "aliases": [
+        { "path": ":docs:getting_started:5_favicon" }
+    ],
     "canonical": ":favicon",
-    "page_id": "ii2jsjqkhkaunk58kt7bd"
+    "name": "Favicon Installation",
+    "page_id": "ii2jsjqkhkaunk58kt7bd",
+    "title": "How to configure the Favicons - ComboStrap Getting Started"
 }
 ---
 
@@ -80,5 +85,5 @@ The [[docs:social:facebook|facebook page]] will tell your more about the specifi
 ==== Next Step ====
 
 <btn color="white">
-[[6_menu|Create a menu]]
+[[7_menu|Create a menu]]
 </btn>

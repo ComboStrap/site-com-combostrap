@@ -1,8 +1,10 @@
 ---json
 {
     "canonical": ":installation:plugins",
-    "name": "4 Third plugins",
-    "page_id": "uf5ymxql03zbox8jzrizu"
+    "description": "This page is an optional and informative step that highlights important information that you should now about third party plugins.",
+    "name": "Third Party Plugins",
+    "page_id": "uf5ymxql03zbox8jzrizu",
+    "title": "Third Plugins - ComboStrap Getting Started"
 }
 ---
 
@@ -50,5 +52,5 @@ If you have any problems with a third party plugin:
 
 
 <btn color="white">
-[[docs:getting_started:5_favicon|Install a favicon]]
+[[docs:getting_started:6_favicon|Install a favicon]]
 </btn>
