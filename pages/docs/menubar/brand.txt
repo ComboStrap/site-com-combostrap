@@ -6,20 +6,25 @@
 ====== ComboStrap UI - Brand Button or Link ======
 
 ===== About =====
-''brand'' is a [[docs:component|component]] that creates a [[docs:content:button|button]] or [[docs:content:link|link]] with the corresponding logo [[docs:content:icon|icon]].
+''brand'' is a [[docs:component|component]] that creates a ''company'' / ''brand''  [[docs:content:button|button]] or [[docs:content:link|link]] with the corresponding:
+  * logo [[docs:content:icon|icon]]
+  * and colors
+
 
 ===== Example =====
 
 ==== Brand of the website app ====
 
-By default, the ''brand'' component will show:
-  * the [[docs:app:root|root home page link]] 
-  * with your [[docs:app:logo|]]
+By default, the ''brand'' component will show your brand. Ie a button with:
+  * your [[docs:app:logo|logo]]
+  * a [[docs:app:root|link to your main website home page]] 
+  * styled with your [[docs:app:color|brand colors]]
 
+Example:
 <webcode name="Text only">
   * Input:
 <code dw>
-<brand>ComboStrap</brand>
+<brand> ComboStrap</brand>
 </code>
   * Output:
 </webcode>
@@ -27,7 +32,7 @@ By default, the ''brand'' component will show:
 
 <note>
   * You put it generally in the left side of the [[docs:menubar:menubar|menubar]]. 
-  * It highlights and helps styling the ''brand'' depicted as text and/or [[docs:content:icon|icon]] and adds a [[docs:content:link|link]] to your home page.
+  * It highlights and helps styling the [[docs:app:branding|brand]] depicted as text and/or [[docs:content:icon|icon]] and adds a [[docs:content:link|link]] to your home page.
 </note>
 
 ===== Other brand =====
@@ -39,17 +44,16 @@ By default, the ''brand'' component will show:
 
 ==== Icon ====
 With an embbedded [[docs:content:icon|icon]] and some [[docs:styling:styling|styling]]
-<webcode name="icon" >
+<webcode name="icon"  iframe>
   * Input:
 <code dw>
-<brand color="#dc3545" boldness="semi-bold">
-    <icon name="alpha-d-box" width="36"/>
+<brand primary="#dc3545"  boldness="semi-bold">
+    <icon name="alpha-d-box" width="36" />
     The best brand !
 </brand>
 </code>
   * Output:
 </webcode>
-
 
 ===== List =====
 
