@@ -1,13 +1,14 @@
 ---json
 {
-    "page_id": "pm4q4w56odmfb5aqnqujv"
+    "description": "Template are text that may contains variables that are replaced at runtime.",
+    "page_id": "pm4q4w56odmfb5aqnqujv",
+    "title": "Template"
 }
 ---
 ====== ComboStrap UI - Template ======
 
-
 ===== About =====
-''template'' are text that may contains [[#variable|variables]] that will be replaced at runtime.
+''template'' are text that may contains [[#variable|variables]] that are replaced at runtime.
 
 They are supported:
   * in its own [[#syntax|template component]] (to print information of the requested page)

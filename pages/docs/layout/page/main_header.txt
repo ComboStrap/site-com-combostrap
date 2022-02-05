@@ -22,7 +22,7 @@ A main header slot applies to all pages except the [[docs:app:root|root page]].
 
 The name of the main header slot is ''slot_main_header''.
 
-To add a main header slot to all your page:
+To add a main header slot to all your pages:
   * go to ''https://yourdomain.com/slot_main_header''
   * the page should open in ''edit'' mode, ready to receive its content. You can use all syntax.
 

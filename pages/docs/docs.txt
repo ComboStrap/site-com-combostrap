@@ -11,7 +11,7 @@
 \\
 \\
 
-{{ :docs:undraw_my_documents.svg?500&ratio=16:9 |}}
+{{ :docs:undraw_my_documents.svg?400&ratio=16:9 |}}
 
 ===== About =====
 This section regroups all documentation of ComboStrap in one place. 

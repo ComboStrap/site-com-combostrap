@@ -13,7 +13,7 @@
 </row>
 
 <row class="align-items-center">
-<cell class="col-12 col-sm-3" color="muted" text-align="center">Improve this page:</cell>
+<cell class="col-12 col-sm-3" color="muted" text-align="center">Edit / Improve this page:</cell>
 <cell><brand github url="https://github.com/ComboStrap/website/edit/master/pages/$path.txt"/></cell>
 </row>
 
