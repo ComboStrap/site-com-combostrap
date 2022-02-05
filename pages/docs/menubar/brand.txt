@@ -35,19 +35,18 @@ Example:
   * It highlights and helps styling the [[docs:app:branding|brand]] depicted as text and/or [[docs:content:icon|icon]] and adds a [[docs:content:link|link]] to your home page.
 </note>
 
-===== Other brand =====
 
+==== Custom Brand ====
+You can create a custom brand button by giving a brand name.
 
-
-
-
-
-==== Icon ====
-With an embbedded [[docs:content:icon|icon]] and some [[docs:styling:styling|styling]]
-<webcode name="icon"  iframe>
+Example: 
+  * With the name ''mybrand''
+  * an embbedded [[docs:content:icon|icon]]
+  * and some [[docs:styling:styling|styling]]
+<webcode name="icon" >
   * Input:
 <code dw>
-<brand primary="#dc3545"  boldness="semi-bold">
+<brand mybrand primary="#dc3545"  boldness="semi-bold" url="https://combstrap.com/brand">
     <icon name="si-glyph:motobike" width="36" />
     The best brand !
 </brand>
@@ -60,3 +59,4 @@ With an embbedded [[docs:content:icon|icon]] and some [[docs:styling:styling|sty
 
   * Github: <brand github/>
   * Wikipedia: <brand wikipedia/>
+
