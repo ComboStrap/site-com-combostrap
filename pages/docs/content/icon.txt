@@ -193,6 +193,7 @@ The ''acronym'' should be used as library name. It follows the [[https://icon-se
 | ''octicon'' | ''octicon'' | [[https://primer.style/octicons/|Github Octicons]] |
 | ''phosphor icon'' | ''ph'' | [[https://phosphoricons.com/|Phosphor Icons]] | 
 | ''simple line'' | ''simple-line-icons'' | [[https://thesabbir.github.io/simple-line-icons|Simple Line Icons]] |
+| ''si glyph'' | ''si-glyph'' | [[https://glyph.smarticons.co/|Si Glyph by Smarticons]] (CC BY SA 4.0) |
 | ''twemoji'' | ''twemoji'' | [[https://twemoji.twitter.com/|Twitter Emoji]] |
 | ''vaadin'' | ''vaadin'' | [[https://vaadin.com/icons|Vaadin Icons]] |
 | ''vscode'' | ''vscode-icons'' | [[https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons|VsCode Icons]] (MIT) |

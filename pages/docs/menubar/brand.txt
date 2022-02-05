@@ -48,7 +48,7 @@ With an embbedded [[docs:content:icon|icon]] and some [[docs:styling:styling|sty
   * Input:
 <code dw>
 <brand primary="#dc3545"  boldness="semi-bold">
-    <icon name="alpha-d-box" width="36" />
+    <icon name="si-glyph:motobike" width="36" />
     The best brand !
 </brand>
 </code>
