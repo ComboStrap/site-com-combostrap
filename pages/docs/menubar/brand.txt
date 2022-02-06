@@ -56,7 +56,16 @@ Example:
 
 ===== List =====
 
+Below is the list of all known brand and their style.
+
+<note>
+If you wish to add a brand,[[:support|contact us / create a ticket]], with:
+  * the name of the brand
+  * the two dominants color of the brand
+  * their icon (that you can search at [[https://icon-sets.iconify.design/|iconify]]
+</note>
+
+Full list of all known brands:
+
 <brand-list/>
-
-
 

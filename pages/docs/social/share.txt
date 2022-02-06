@@ -39,25 +39,7 @@ Below, you can see a map of the share component with the parameters:
   * ''icon'': Solid, Solid Circle, Outline, Outline Circle
 for all supported channel.
 
-^ Widget  -> ^  Button  ^^^^  Link  ^^^^
-^ Icon -> ^ Solid ^ Solid \\ Circle ^ Outline ^ Outline \\ Circle ^ Solid ^ Solid \\ Circle ^ Outline ^ Outline \\ Circle ^
-| [[facebook|Facebook]] |  <share facebook />  |  <share facebook icon="solid-circle"/>  |  <share facebook icon="outline"/>  |  <share facebook icon="outline-circle"/>  | <share facebook widget="link" /> |  <share facebook widget="link" icon="solid-circle"/>  | <share facebook widget="link" icon="outline"/> | <share facebook widget="link" icon="outline-circle"/> |
-| Hn \\ (HackerNews) |  <share hn />  |  <share hn icon="solid-circle"/>  |  <share hn icon="outline"/>  |  <share hn icon="outline-circle"/>  | <share hn widget="link" /> |  <share hn widget="link" icon="solid-circle"/>  | <share hn widget="link" icon="outline"/> | <share hn widget="link" icon="outline-circle"/> |
-| Linkedin |  <share linkedin />  |  <share linkedin icon="solid-circle"/>  |  <share linkedin icon="outline"/>  |  <share linkedin icon="outline-circle"/>  | <share linkedin widget="link" /> |  <share linkedin widget="link" icon="solid-circle"/>  | <share linkedin widget="link" icon="outline"/> | <share linkedin widget="link" icon="outline-circle"/> |
-| Mail |  <share mail />  |  <share mail icon="solid-circle"/>  |  <share mail icon="outline"/>  |  <share mail icon="outline-circle"/>  | <share mail widget="link" /> |  <share mail widget="link" icon="solid-circle"/>  | <share mail widget="link" icon="outline"/> | <share mail widget="link" icon="outline-circle"/> |
-| Pinterest |  <share pinterest />  |  <share pinterest icon="solid-circle"/>  |  <share pinterest icon="outline"/>  |  <share pinterest icon="outline-circle"/>  | <share pinterest widget="link" /> |  <share pinterest widget="link" icon="solid-circle"/>  | <share pinterest widget="link" icon="outline"/> | <share pinterest widget="link" icon="outline-circle"/> |
-| Pocket |  <share pocket />  |  <share pocket icon="solid-circle"/>  |  <share pocket icon="outline"/>  |  <share pocket icon="outline-circle"/>  | <share pocket widget="link" /> |  <share pocket widget="link" icon="solid-circle"/>  | <share pocket widget="link" icon="outline"/> | <share pocket widget="link" icon="outline-circle"/> |
-| Reddit |  <share reddit />  |  <share reddit icon="solid-circle"/>  |  <share reddit icon="outline"/>  |  <share reddit icon="outline-circle"/>  | <share reddit widget="link" /> |  <share reddit widget="link" icon="solid-circle"/>  | <share reddit widget="link" icon="outline"/> | <share reddit widget="link" icon="outline-circle"/> |
-| Telegram |  <share telegram />  |  <share telegram icon="solid-circle"/>  |  <share telegram icon="outline"/>  |  <share telegram icon="outline-circle"/>  | <share telegram widget="link" /> |  <share telegram widget="link" icon="solid-circle"/>  | <share telegram widget="link" icon="outline"/> | <share telegram widget="link" icon="outline-circle"/> |
-| Tumblr |  <share tumblr />  |  <share tumblr icon="solid-circle"/>  |  <share tumblr icon="outline"/>  |  <share tumblr icon="outline-circle"/>  | <share tumblr widget="link" /> |  <share tumblr widget="link" icon="solid-circle"/>  | <share tumblr widget="link" icon="outline"/> | <share tumblr widget="link" icon="outline-circle"/> |
-| [[twitter|Twitter]] |   <share twitter />   |  <share twitter icon="solid-circle"/>  |  <share twitter icon="outline"/>  |  <share twitter icon="outline-circle"/>  | <share twitter widget="link" /> |  <share twitter widget="link" icon="solid-circle"/>  |  <share twitter widget="link" icon="outline"/>  |  <share twitter widget="link" icon="outline-circle"/>  |
-| Vk |  <share vk />  |  <share vk icon="solid-circle"/>  |  <share vk icon="outline"/>  |  <share vk icon="outline-circle"/>  | <share vk widget="link" /> |  <share vk widget="link" icon="solid-circle"/>  | <share vk widget="link" icon="outline"/> | <share vk widget="link" icon="outline-circle"/> |
-| Whatsapp |  <share whatsapp />  |  <share whatsapp icon="solid-circle"/>  |  <share whatsapp icon="outline"/>  |  <share whatsapp icon="outline-circle"/>  | <share whatsapp widget="link" /> |  <share whatsapp widget="link" icon="solid-circle"/>  | <share whatsapp widget="link" icon="outline"/> | <share whatsapp widget="link" icon="outline-circle"/> |
-| Xing |  <share xing />  |  <share xing icon="solid-circle"/>  |  <share xing icon="outline"/>  |  <share xing icon="outline-circle"/>  | <share xing widget="link" /> |  <share xing widget="link" icon="solid-circle"/>  | <share xing widget="link" icon="outline"/> | <share xing widget="link" icon="outline-circle"/> |
-
-
-
-
+<brand-list type="share"/>
 ===== Syntax =====
 
 <code dw>
