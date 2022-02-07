@@ -17,9 +17,6 @@ Each breakpoints defines the maximum width of the screen for a property to be ap
 
 
 
-===== Articles Related =====
-{{backlinks>.}}
-
 
 ===== List =====
 

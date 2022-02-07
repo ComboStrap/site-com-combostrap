@@ -17,4 +17,3 @@
 <cell><brand name="github" url="https://github.com/ComboStrap/website/edit/master/pages/$path.txt"/></cell>
 </row>
 
-

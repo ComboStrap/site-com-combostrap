@@ -8,7 +8,6 @@
 ====== ComboStrap - Carrousel Layout ======
 
 
-
 ===== About =====
 This is a [[release:beta:beta|beta]] feature, meaning that we are still working on it.
 
@@ -64,4 +63,6 @@ exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 </carrousel>
 </code>
 </webcode>
+
+
 
