@@ -7,6 +7,7 @@
 ---
 ====== Social - Share Button ======
 
+
 ===== About =====
 ''Share button'' or ''social button'' are buttons aimed to facilitate the <icon name="fa-solid:share" width="16"/> sharing of the page.
 
@@ -25,10 +26,10 @@ The channels supported are:
 ===== Example =====
 <webcode name="Default" frameborder="0">
 <code dw>
-<share twitter />
-<share twitter widget="link" />
-<share twitter widget="link" icon="solid-circle" />
-<share twitter widget="link" icon="outline" width="60"/>
+<share name="twitter" />
+<share link name="twitter"/>
+<share link name="twitter" icon="solid-circle" />
+<share link name="twitter" icon="outline" width="60"/>
 </code>
 
 </webcode>

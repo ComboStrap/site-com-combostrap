@@ -5,16 +5,16 @@
 
 <row class="align-items-center">
 <cell class="col-12 col-sm-3" color="muted" text-align="center">Share this page:</cell>
-<cell><share twitter /> <share facebook /> <share hn /> <share mail /> <share Whatsapp /> <share telegram /></cell>
+<cell><share name="twitter,facebook,hn,mail,Whatsapp,telegram" /></cell>
 </row>
 <row class="align-items-center">
 <cell class="col-12 col-sm-3" color="muted" text-align="center">Follow us:</cell>
-<cell><follow twitter  handle="combostrapweb"/> <follow facebook handle="combostrap"/></cell>
+<cell><follow name="twitter"  handle="combostrapweb"/> <follow name="facebook" handle="combostrap"/></cell>
 </row>
 
 <row class="align-items-center">
 <cell class="col-12 col-sm-3" color="muted" text-align="center">Edit / Improve this page:</cell>
-<cell><brand github url="https://github.com/ComboStrap/website/edit/master/pages/$path.txt"/></cell>
+<cell><brand name="github" url="https://github.com/ComboStrap/website/edit/master/pages/$path.txt"/></cell>
 </row>
 
 
