@@ -45,23 +45,23 @@ for all supported channel.
 
 <code dw>
 <share 
-    channel  
+    widget="button|link"
+    name="name"
     url="urlType",
     icon="solid|solid-circle|outline|outline-circle|none"
-    widget="button|link"
     width="integer"
 />
 <share channel ...>Label</share>
 </code>
 
 where:
-  * ''channel'' is one of the [[#map|supported channel]]
-  * ''url'' is: (default to the first permanent link)
-      * ''page'' for the [[docs:page:url|page url]]
-      * ''permalink'' for the [[docs:router:permalink|identifier permalink]]
   * ''widget'' permits to choose the type of output:
       * ''button'' (default): a button
       * ''link'': a link
+  * ''name'' is one of the [[#map|supported social channel name]]
+  * ''url'' is: (default to the first permanent link)
+      * ''page'' for the [[docs:page:url|page url]]
+      * ''permalink'' for the [[docs:router:permalink|identifier permalink]]
   * ''icon'' is the type of icon or no icon with ''none''
   * ''width'' is the width of the [[docs:content:icon|icon]].
 
@@ -81,7 +81,7 @@ To add your own label, you need to use the element container form.
 Example:
   * To add the label ''Twitter'', you would use this syntax:
 <code dw>
-<share twitter> Twitter</share>
+<share name="twitter"> Twitter</share>
 </code>
   * The output is:
 </webcode>
@@ -92,7 +92,7 @@ The ''icon'' option permits to disable the icon with the value ''none'', you can
 <webcode name="Default" frameborder="0">
   * For instance with the [[https://developer.wordpress.org/resource/dashicons/#twitter-alt|dashicons:twitter-alt]]
 <code dw>
-<share twitter icon="none"><icon name="dashicons:twitter-alt" color="white"/> Share on Twitter</share>
+<share name="twitter" icon="none"><icon name="dashicons:twitter-alt" color="white"/> Share on Twitter</share>
 </code>
   * The output would be:
 </webcode>

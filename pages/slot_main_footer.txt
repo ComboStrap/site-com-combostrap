@@ -5,7 +5,7 @@
 
 <row class="align-items-center">
 <cell class="col-12 col-sm-3" color="muted" text-align="center">Share this page:</cell>
-<cell><share name="twitter,facebook,hn,mail,Whatsapp,telegram" /></cell>
+<cell><share name="twitter"/> <share name="facebook"/> <share name="hn"/> <share name="mail"/> <share name="Whatsapp"/> <share name="telegram" /></cell>
 </row>
 <row class="align-items-center">
 <cell class="col-12 col-sm-3" color="muted" text-align="center">Follow us:</cell>
