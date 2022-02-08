@@ -63,6 +63,9 @@ A example taken from [[https://getbootstrap.com/docs/4.3/components/card/#exampl
 </webcode>
 
 
+<note>
+Note that the [[docs:content:image|images]] by default stretch into the whole available card space. The image above is too small for the card and is therefore scaled up.
+</note>
 ==== A card may include other dokuwiki syntax ====
 
 ''Card'' may include other [[docs:component|component]]. Example with [[docs:navigation:related|related]]
