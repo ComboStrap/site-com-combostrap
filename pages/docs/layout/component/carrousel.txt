@@ -14,7 +14,7 @@ This is a [[release:beta:beta|beta]] feature, meaning that we are still working 
 
 ===== Example =====
 
-==== With cards ====
+==== Manually with cards ====
 With [[docs:block:card|cards]]
 <webcode name="Default" frameborder="0" >
 <code dw height="400px" scroll="toggle">
@@ -36,13 +36,6 @@ exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 <card>
 {{:logo.svg|}}
 === Third Card ===
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-</card>
-<card>
-{{:logo.svg?ratio=16:9|}}
-=== Fourth Card ===
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -74,3 +67,27 @@ exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   * Output:
 </webcode>
 
+=== With an template iterator ===
+
+With a [[docs:templating:iterator|template iterator]]
+
+<webcode name="Default" frameborder="0">
+<code dw>
+<iterator>
+    <data>select where path like "%layout%" order by title asc limit 10</data>
+
+    <heading d3 text-align="center" spacing="mb-3"> The pages talking about layout </heading>
+    <carrousel>
+        <template>
+            <card clickable>
+            <page-image path="$path" ratio="16:9"/>
+            === $title ===
+            <itext color="muted"><date format="%h %d - %H:%M">$date_modified</date></itext>
+
+            $description [[$path| ]]
+            </card>
+        </template>
+    </carrousel>
+</iterator>
+</code>
+</webcode>

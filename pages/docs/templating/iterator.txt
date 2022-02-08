@@ -12,7 +12,7 @@
 
 You may apply the following layout:
   * [[docs:layout:component:masonry|masonry]]
-  * [[release:beta:carrousel|carrousel]]
+  * [[docs:layout:component:carrousel|carrousel]]
   * [[docs:lists:list|simple list]]
   * [[docs:lists:table|table]]
   * [[docs:lists:content-list|content list]]
