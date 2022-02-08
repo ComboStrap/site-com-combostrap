@@ -17,8 +17,6 @@ If you use the [[:strap|strap template]], you can
   * or even [[docs:styling:bootstrap|create and bring your own]]
 
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Management =====
 ==== Use all Bootstrap utilities with the class attributes ====

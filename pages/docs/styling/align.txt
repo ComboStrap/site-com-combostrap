@@ -15,8 +15,6 @@ It permits to align a [[#block|block]] on the horizontal axis.
 If you want more control on the position, you may also use a [[docs:layout:component:grid|grid]]
 </note>
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Syntax =====
 

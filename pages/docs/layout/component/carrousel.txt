@@ -9,14 +9,20 @@
 
 
 ===== About =====
-This is a [[release:beta:beta|beta]] feature, meaning that we are still working on it.
+A carrousel is a layout component where the user can cycle through its children in a horizontal way.
 
 
+
+To cycle through the children, you can use:
+  * on a mobile, the swipe hand gesture
+  * on a desktop, the mouse or the arrow and bullet control elements.
 ===== Example =====
 
-==== Manually with cards ====
-With [[docs:block:card|cards]]
+==== Card carrousel ====
+
+This example shows you a carrousel from [[docs:block:card|cards]].
 <webcode name="Default" frameborder="0" >
+  * The cards:
 <code dw height="400px" scroll="toggle">
 <carrousel slide-width="200px">
 <card>
@@ -64,14 +70,17 @@ exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 </carrousel>
 </code>
-  * Output:
+  * The output:
 </webcode>
 
-=== With an template iterator ===
+==== Carrousel dynamically created with the iterator ====
 
-With a [[docs:templating:iterator|template iterator]]
+With the [[docs:templating:iterator|template iterator]], you can create dynamically the children that you want to show.
 
+Example with all pages that are in the layout path.
 <webcode name="Default" frameborder="0">
+
+  * The iterator with the data node that uses the [[docs:templating:sql|page sql]] to select the pages
 <code dw>
 <iterator>
     <data>select where path like "%layout%" order by title asc limit 10</data>
@@ -90,4 +99,5 @@ With a [[docs:templating:iterator|template iterator]]
     </carrousel>
 </iterator>
 </code>
+  * The output:
 </webcode>

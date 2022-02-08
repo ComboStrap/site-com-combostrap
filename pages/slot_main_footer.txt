@@ -3,6 +3,25 @@
 <hr/>
 \\
 
+<iterator>
+    <data>select from backlinks where path like ":docs%" order by title asc limit 10</data>
+
+    <heading h2 > Recommended Pages </heading>
+    <carrousel>
+        <template>
+            <card clickable>
+            <page-image path="$path" ratio="16:9"/>
+            <heading h3> $title </heading>
+            
+            $description [[$path| ]]
+            </card>
+        </template>
+    </carrousel>
+    <hr/>
+</iterator>
+
+
+
 <row class="align-items-center">
 <cell class="col-12 col-sm-3" color="muted" text-align="center">Share this page:</cell>
 <cell><share name="twitter"/> <share name="facebook"/> <share name="hn"/> <share name="mail"/> <share name="Whatsapp"/> <share name="telegram" /></cell>
