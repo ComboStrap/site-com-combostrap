@@ -32,6 +32,7 @@
 ==== Change ====
   * The default color of [[docs:content:icon|icon]], [[docs:content:button|button]] is the [[docs:app:color|primary branding color]]
   * The primary and secondary color of bootstrap are overwritten by the [[docs:app:color|branding colors]] if set up.
+  * The default ratio for a [[docs:block:card|card image]] is now ''16:9''.
 ==== Improvement ====
   * The linkwizard used in the [[docs:menubar:search|search box]] performs a search on each term and is now case insensitive.
   * [[docs:performance:svg_optimization|Svg/Icon optimization]]: when a path has a fill attribute of none on icon we delete it (See new support article: [[support:preserve]])

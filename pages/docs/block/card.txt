@@ -149,7 +149,7 @@ where:
   * ''attributes'' may be any [[docs:styling:styling|styling attributes]]
       * such as [[docs:styling:clickable|clickable]] to make the whole card clickable.
   * ''illustration'' may be:
-      * an [[docs:content:image|image link]]
+      * an [[docs:content:image|image link]] (by default, the [[docs:content:image#syntax|ratio]] is ''16:9'')
       * or a [[docs:content:page-image|page-image]] (used in a [[#a_card_in_a_template|template]])
   * ''header'' defines a label placed at the top of the card
 

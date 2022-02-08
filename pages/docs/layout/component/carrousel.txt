@@ -14,46 +14,55 @@ This is a [[release:beta:beta|beta]] feature, meaning that we are still working 
 
 ===== Example =====
 
-<webcode name="Default" frameborder="0">
-<code dw>
-<carrousel>
+==== With cards ====
+With [[docs:block:card|cards]]
+<webcode name="Default" frameborder="0" >
+<code dw height="400px" scroll="toggle">
+<carrousel slide-width="200px">
 <card>
+{{:logo.svg|}}
 === First Card ===
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 </card>
 <card>
+{{:logo.svg|}}
 === Second Card ===
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 </card>
 <card>
+{{:logo.svg|}}
 === Third Card ===
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 </card>
 <card>
+{{:logo.svg?ratio=16:9|}}
 === Fourth Card ===
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 </card>
 <card>
+{{:logo.svg|}}
 === Fourth Card ===
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 </card>
 <card>
+{{:logo.svg|}}
 === Fifth Card ===
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 </card>
 <card>
+{{:logo.svg|}}
 === Six Card ===
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
@@ -62,7 +71,6 @@ exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 </carrousel>
 </code>
+  * Output:
 </webcode>
-
-
 
