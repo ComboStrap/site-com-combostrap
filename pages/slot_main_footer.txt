@@ -2,7 +2,6 @@
 \\
 <hr/>
 \\
-
 <iterator>
     <data>select from backlinks where path like ":docs%" order by title asc limit 10</data>
 

@@ -12,7 +12,6 @@
 A carrousel is a layout component where the user can cycle through its children in a horizontal way.
 
 
-
 To cycle through the children, you can use:
   * on a mobile, the swipe hand gesture
   * on a desktop, the mouse or the arrow and bullet control elements.

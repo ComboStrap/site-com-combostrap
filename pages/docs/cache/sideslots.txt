@@ -18,8 +18,7 @@ The ''side slots'' (ie [[docs:layout:page:side_slot|side]] and [[docs:layout:pag
 If you have any [[https://www.dokuwiki.org/caching|%%~~NOCACHE~~%%]] instructions in your side slots, you can delete them to increase performance.
 </note>
 
-===== Articles Related =====
-{{backlinks>.}}
+
 ===== Why ? =====
 
 ''side slots'' contains generally [[docs:navigation:navigation|navigational component]] such as a [[docs:navigation:page-explorer|page-explorer navigation pane]]. Therefore, their content becomes generally stale when a page is modified, added or deleted. 

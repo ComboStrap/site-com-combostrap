@@ -20,9 +20,6 @@ A ''page-explorer'' is a [[docs:navigation:navigation|navigational component]] t
 This component is mostly used in a [[docs:layout:page:side_slot|side slot]] or [[docs:layout:page:sidekick_slot|sidekick slot]]
 
 
-===== Articles Related =====
-{{backlinks>.}}
-
 ===== Example =====
 
 ==== Default List ====
