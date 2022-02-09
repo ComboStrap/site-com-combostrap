@@ -12,7 +12,7 @@
             <page-image path="$path" ratio="16:9"/>
             <heading h3> $title </heading>
             
-            $description [[$path| ]]
+            <pipeline> "$description" | head(300) | rconcat("...") </pipeline> [[$path| ]]
             </card>
         </template>
     </carrousel>
