@@ -33,14 +33,14 @@ Example:
 
 ==== Browser ====
 
-The browser uses it as [[docs:getting_started:5_favicon|favicon]].
+The browser uses it as [[docs:getting_started:6_favicon|favicon]].
 
 {{strap:favicon_verification.png|}}
 
 ==== Identity page ====
 In the [[docs:app:identity|identity forms]] such as the login, profile or resend password page, the logo is used to reenforce branding.
 ===== How to create and install your logo =====
-To create and install your logo, you should follow the [[docs:getting_started:5_favicon|favicon getting started article.]]
+To create and install your logo, you should follow the [[docs:getting_started:6_favicon|favicon getting started article.]]
 
 ===== Order of precedence =====
 

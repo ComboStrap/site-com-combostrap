@@ -45,7 +45,7 @@ You can read more on the [[doku>config:cachetime|Dokuwiki dedicated page]].
 
 ===== Monitoring =====
 
-In the ''cache'' tab of the [[docs:metadata:manager|metadata manager]], you can see all cache hit or miss for the [[docs:layout:page:slot|slots]].
+In the [[viewer|cache viewer]], you can see all cache hit or miss for the [[docs:layout:page:slot|slots]].
 
 
 For each slot, you can see the cache:
@@ -62,9 +62,5 @@ After 3 rendering, you should see only cache hits.
 {{:docs:cache:combostrap_cache_hit.png|}}
 
 
-
-<note>
-When you hover on the cache hit link, you can see the individual date time of each cache file
-</note>
 
 

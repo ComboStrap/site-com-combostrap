@@ -24,8 +24,8 @@ For all news and modifications, you should go to the release page [[1.23]].
 ===== Steps =====
 
 For each new release, we recommend the following steps:
-  * update strap
-  * update combo
+  * [[docs:getting_started:3_strap|update strap]]
+  * [[docs:getting_started:2_combo|update combo]]
   * refresh the index with the [[support:plugin#search_index_manager|Search Index Manager]].
 
 ===== Current =====
