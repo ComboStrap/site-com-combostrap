@@ -1,0 +1,18 @@
+====== Lightbox ======
+
+
+
+===== About =====
+A ''lightbox'' is a pop-up window that shows an [[docs:content:image|image]] by filling the screen.
+
+
+===== Example =====
+
+If you click on this [[docs:content:image|image]] a pop-up will appear, showing the image in full  mode (ie its natural size up to the screen size)
+
+{{:docs:block:stock_image_surfer_in_the_see.png?200|}}
+
+To close the pop-up, you can click:
+  * on the close button located at the top right corner
+  * or on the dark background outside the image.
+

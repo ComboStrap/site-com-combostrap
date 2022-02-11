@@ -194,7 +194,7 @@ This [[docs:app:configuration|configuration]] permits to disable completely this
 This [[docs:app:configuration|configuration]] permits to set the link type to the image.
 
 ^ Value ^ Behavior ^
-| ''direct'' (default) | Direct link to the image |
+| ''direct'' (default) | Direct link to the image in a [[lightbox|lightbox]] |
 | ''detail'' | Link to a web page with image details |
 | ''linkonly'' | Only the link is displayed, not the image |
 | ''nolink'' | No link is added around the image |

@@ -27,7 +27,7 @@
   * The [[docs:app:color|branding color]] are now inherited by default.
   * Added the edit button for the slots and styled them.
   * New: the [[docs:cache:viewer|Cache viewer]] permits to see cache information of the slots.
-
+  * New: [[docs:content:lightbox|lightbox]]. When clicking on a image by default, a lightbox is showing up.
 
 
 ==== Change ====
