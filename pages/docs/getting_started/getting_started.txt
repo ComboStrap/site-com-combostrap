@@ -23,8 +23,8 @@ This ''how-to'' guide regroups a serie of article to get you started.
   - [[2_combo]]
   - [[3_strap]]
   - [[4_plugin]]
-  - [[5_favicon]]
-  - [[6_menu]]
+  - [[6_favicon]]
+  - [[7_menu]]
 
 ===== Start =====
 <btn>
