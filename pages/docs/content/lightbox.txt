@@ -3,12 +3,16 @@
 
 
 ===== About =====
-A ''lightbox'' is a pop-up window that shows an [[docs:content:image|image]] by filling the screen.
+A ''lightbox'' is a window that:
+  * appears when you click on [[docs:content:image|image]]
+  * showing the [[docs:content:image|image]] in full format 
+  * against a dark background (giving more contrast and therefore more light).
+
 
 
 ===== Example =====
 
-If you click on this [[docs:content:image|image]] a pop-up will appear, showing the image in full  mode (ie its natural size up to the screen size)
+If you click on this [[docs:content:image|image]] a window will appear, showing the image in full  mode (ie its natural size up to the screen size)
 
 {{:docs:block:stock_image_surfer_in_the_see.png?200|}}
 
