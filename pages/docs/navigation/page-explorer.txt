@@ -33,7 +33,6 @@ A default ''page-explorer list'' pane can be asked with this minimal markup (the
 and will look like this where the label for each page is the [[docs:page:name|page name]]
 </webcode>
 
-
 ==== Default Tree ====
 
 A ''page-explorer tree'' does not need any template definition. 
