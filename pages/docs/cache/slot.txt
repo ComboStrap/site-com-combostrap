@@ -1,0 +1,33 @@
+---json
+{
+    "canonical": ":cache:slot",
+    "description": "Thanks to the automatic slot cache management, the secondary slots cache is managed automatically and are re-rendered in the background",
+    "name": "Auto Slot Cache",
+    "page_id": "dhw5i9epsabpddg6ycz8c",
+    "title": "Automatic Slot Cache Management"
+}
+---
+
+====== Performance - Automatic Slot Cache Management ======
+
+
+===== About =====
+The ''secondary slots'' (ie [[docs:layout:page:side_slot|side]], [[docs:layout:page:sidekick_slot|sidekick]], [[:slot_main_footer|main footer]] slots, ...) content are always up-to-date and does not require to disable the [[docs:cache:page_expiration_frequency|page cache]], increasing [[docs:performance:performance|performance]].
+
+
+<note>
+If you have any [[https://www.dokuwiki.org/caching|%%~~NOCACHE~~%%]] instructions in your side slots, you can delete them to increase performance.
+</note>
+
+
+===== How it works =====
+
+The syntax components advertise cache dependencies to the cache system.
+
+For instance:
+  * if you have a [[docs:navigation:page-explorer|page-explorer list]] in the [[docs:layout:page:side_slot|side]]
+  * the cache system knows that if a page is added or deleted, it should re-render the side slot in the background.
+
+<note>
+You can see the dependencies, in the [[viewer|cache viewer]]
+</note>
