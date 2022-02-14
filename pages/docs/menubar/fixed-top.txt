@@ -37,7 +37,7 @@ ComboStrap (Beta)
 </menubar>
 </code>
 
-For a complete and detailed instruction, see [[docs:getting_started:6_menu]]
+For a complete and detailed instruction, see [[docs:getting_started:7_menu]]
 
 
 ===== Features =====
