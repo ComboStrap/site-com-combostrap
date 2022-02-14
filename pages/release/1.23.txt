@@ -1,6 +1,9 @@
 ---json
 {
-    "page_id": "whppmtjlva472nmnfac8c"
+    "description": "This page lists the changes for the combostrap release 1.23.",
+    "name": "Release 1.23",
+    "page_id": "whppmtjlva472nmnfac8c",
+    "title": "Release 1.23"
 }
 ---
 ====== ComboStrap - Release 1.23 ======

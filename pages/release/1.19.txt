@@ -1,6 +1,8 @@
 ---json
 {
     "canonical": ":release:1.19",
+    "description": "This page lists the changes for the combostrap release 1.19",
+    "name": "Release 1.19",
     "page_id": "dwjwx5orz54xjvnnwvkv0"
 }
 ---

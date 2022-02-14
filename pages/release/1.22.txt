@@ -1,9 +1,9 @@
 ---json
 {
     "canonical": ":release:1.22",
-    "description": "A description for the search page result engine",
-    "page_id": "r0lxbwsdlptyufsgsamiv",
-    "title": "ComboStrap - Release 1.22"
+    "description": "This page lists the changes for the combostrap release 1.22",
+    "name": "Release 1.22",
+    "page_id": "r0lxbwsdlptyufsgsamiv"
 }
 ---
 

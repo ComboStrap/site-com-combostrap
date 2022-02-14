@@ -1,3 +1,10 @@
+---json
+{
+    "description": "This page lists the changes for the combostrap release 1.24",
+    "name": "Release 1.24",
+    "page_id": "fqmxwn31zduq5ol9kkyiw"
+}
+---
 ====== ComboStrap - Release 1.24 ======
 
 

@@ -134,18 +134,18 @@ If a sub-element (''home'', ''parent'', ''namespace'') is defined without any te
 
   * if the ''page'' tag is is not defined, the below default ''page'' template is used 
 <code html>
-[[$path|<pipeline>"$name" | replace("_"," ") | capitalize()</pipeline>]]
+[[$path|$name]]
 </code>
   * if the ''namespace'' tag is not defined, a default namespace template is used
 <code html>
 <!-- For a list -->
-[[$path|<icon name="folder"/> <pipeline>"$name" | replace("_"," ") | capitalize()</pipeline>]]
+[[$path|<icon name="mdi:folder"/> $name]]
 <!-- For a tree -->
-<pipeline>"$name" | replace("_"," ") | capitalize()</pipeline>
+$name</pipeline>
 </code>
   * if the ''parent'' tag is not defined, a default parent template is used
 <code html>
-[[$path|<icon name="arrow-left-box"/> ... <pipeline>"$name" | replace("_"," ") | capitalize()</pipeline>]]
+[[$path|<icon name="mdi:arrow-left-box"/> ... $name]]
 </code>
   * if the ''home'' tag is is not defined, the ''page'' template is used  
 
