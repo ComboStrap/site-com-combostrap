@@ -2,16 +2,16 @@
 
 
 ===== About =====
-The ''cache viewer'' is a [[cache|cache]] tool located in the [[docs:layout:page:railbar|railbar]] that permits to check the [[page|page cache]] (the slot cache informations for the requested page).
+The ''cache viewer'' is a [[cache|cache]] tool that permits to check the [[page|page cache]] (the slot cache informations for the requested page).
 
 
-Check the following icon <icon width="28px" name="mdi:cached"/>
+Check the following icon <icon width="28px" name="mdi:cached"/> located in the [[docs:layout:page:railbar|railbar]]
 
 {{:docs:cache:cache_manager.png|}}
 
 You will find technical information such as:
   * cache hit, 
-  * cache dependencies
+  * [[slot|cache dependencies]]
   * and the time of the cache file.
 
 
