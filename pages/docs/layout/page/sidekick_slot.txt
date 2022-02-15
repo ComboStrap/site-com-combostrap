@@ -22,7 +22,7 @@ This is a standard [[docs:layout:page:slot|slot feature]]
 ===== Caching =====
 
 The cache of the side slots is automatically deleted when a page in the same namespace is created, added or deleted.
-See [[docs:cache:sideslots]]
+See [[docs:cache:slot]]
 
 ===== Configuration =====
 ==== Name ====

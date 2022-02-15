@@ -12,16 +12,14 @@
 ===== About =====
 This page is talking about the cache management of a page.
 
-A page is composed of [[docs:layout:page:slot|slot]] (main, side) and each slot rendering goes into the cache until:
+A page is composed of [[docs:layout:page:slot|slot]] (a primary and one or more secondary) and each slot rendering goes into the cache until:
   * its content has changed
   * its [[docs:metadata:metadata|metadata]] has changed
-  * any [[docs:app:configuration|app configuration]] is changed.
-  * the [[#expiration date|expiration date]] is not due.
+  * any [[docs:app:configuration|app configuration]] has changed
+  * a [[docs:cache:slot|cache dependency]] has occurred
+  * the [[#expiration date|expiration date]] is due.
 
 
-<note>
-The [[docs:cache:sideslots|sideslot cache]] expires also when the name, h1, title or description metadata of the main slot changes. See the dedicated page about automatic side slot cache management: [[docs:cache:sideslots]]
-</note>
 
 
 ===== Expiration Date =====
@@ -53,13 +51,17 @@ For each slot, you can see the cache:
   * for the html page
   * for the [[docs:metadata:metadata|metadata]]
 
-After 3 rendering, you should see only cache hits.
+After 2 rendering, you should see only cache hits.
   * the first rendering will do the initial work
-  * the second one will be partial  because we set a [[docs:analytics:replication|database replication date]] in the metadata
-  * the third one should be only cache hit.
+  * the second one should be only cache hit 
 
 
 {{:docs:cache:combostrap_cache_hit.png|}}
+
+
+<note>
+If the second request does not hit the cache, this is because a metadata may have been set by a third plugin.
+</note>
 
 
 
