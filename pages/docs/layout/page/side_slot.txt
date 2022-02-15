@@ -15,7 +15,7 @@ The ''side slot'' is a [[docs:layout:page:slot|slot]] that is located by default
 ===== Feature =====
 
 The cache of the side slot is automatically deleted when a page in the same namespace is created, added or deleted.
-See [[docs:cache:sideslots]]
+See [[docs:cache:slot]]
 
 ===== Configuration =====
 ==== sidebar ====

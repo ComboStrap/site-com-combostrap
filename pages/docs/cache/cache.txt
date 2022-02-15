@@ -25,18 +25,24 @@ Learn them in this page: [[page]]
 
 
 
-==== Side Slots ====
 
 
-[[docs:layout:page:side_slot|Side slots]] are special pages for the cache because they used heavily the index when they show [[docs:navigation:navigation|navigational components]] and have then a great impact on the web server rendering time.
+==== Secondary Slots ====
 
-With the [[docs:cache:sideslots|side slots automatic cache bursting]], the only user impacted is the editor that is recreating the sidebar when he saves the page. And your reader or visitor will always benefit from this cache.
+With the [[docs:cache:slot|auto slots cache bursting]], the slots are re-rendered in the background when they are stale.
+
+For instance, if a secondary slot becomes stale due to the creation of a page or the modification of a primary metadata such as name, title, the secondary slot is rendered in the background showing up in the next request
+
 
 <note>
-Action: If you have any [[https://www.dokuwiki.org/caching|%%~~NOCACHE~~%%]] instructions in your sidebar, just delete them.
+Action: If you have any [[https://www.dokuwiki.org/caching|%%~~NOCACHE~~%%]] instructions in your slots, just delete them.
 </note>
 
 
+==== Background rendering ====
+If a [[#secondary slots]] or a page becomes stale due to [[docs:cache:page_expiration_frequency|cache expiration frequency]], we re-render them in the background.
+
+The first render is then stale but not the next one.
 
 ==== Image ====
 For images, ''ComboStrap'' supports two caches:
