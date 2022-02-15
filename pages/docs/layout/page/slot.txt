@@ -1,9 +1,11 @@
 ---json
 {
-    "page_id": "rxvr5513sglm9cjiy6sj8"
+    "description": "A slot is a location in the page where a markup file is rendered.",
+    "page_id": "rxvr5513sglm9cjiy6sj8",
+    "title": "What is a slot ?"
 }
 ---
-====== Strap Template - Slot ======
+====== What is a Slot ? ======
 
 
 ===== About =====
