@@ -55,7 +55,7 @@ For instance, a [[docs:content:button|button]]:
 ===== Branding Color Inheritance =====
 
 The branding color inheritance is a feature that will apply automatically the primary color to the following component.
-  * [[docs:content:icon|icon]] (with a size above two [[docs:styling:scale|2rem]])
+  * [[docs:content:icon|icon]] (with a size above two [[docs:styling:scale|2rem]] or used as illustration)
   * [[docs:content:highlight|highlight]] (light based)
   * [[docs:content:link|link]] (gray based only in main content)
 

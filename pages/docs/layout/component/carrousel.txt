@@ -99,3 +99,9 @@ Example with all pages that are in the layout path.
 </code>
   * The output:
 </webcode>
+
+
+===== Support =====
+
+==== Lazy Loading ====
+[[docs:performance:lazy|Lazy loading]] is also supported on [[https://caniuse.com/?search=loading|modern browser]] even if the image is not visible.

@@ -33,7 +33,6 @@ This example shows the [[docs:page:image|page image]] of this page (path: ''<tem
 <page-image path=":docs:content:page-image" />
 </code>
 </webcode>
-
 ==== Page images with a 4:3 ratio and a height ====
 
 Note that the image has an intrinsic ratio of ''16:9'', we can change it to a ratio of ''4:3'' with the below markup and constraints the height 
@@ -54,18 +53,26 @@ In a [[docs:templating:iterator|template iteration]] where the width of each ele
 <code dw>
 <page-image 
     path="path"  
-    width="..." heigth="..." ratio="..." color=".." ...  <!-- Optional -->
+    width="..." heigth="..." ratio="..." color=".." 
+    default="imagePath|none"
 />
 </code>
 where the following attributes are:
   * mandatory: ''path'' is the [[docs:page:path|path]] of a page
-  * optional: the [[docs:content:image|image attributes]]: ''width'' / ''height'' / ''ratio'' and ''color'' (You should be able to use all image attributes)
+  * optional: 
+      * the [[docs:content:image|image attributes]]: ''width'' / ''height'' / ''ratio'' and ''color'' (You should be able to use all image attributes)
+      * ''default'': The [[docs:content:image|path of the default image]] shown if the page does not have any image. By default, the [[docs:app:logo|logo]] is chosen
+
 
 
 When the ''ratio'' is set, the algorithm will:
   * select the image in the set of [[docs:page:image|page image]] with the most equivalent ratio
   * [[docs:content:image#cropping|crop]] the image to fit the ratio
 
+
+<note>
+For an [[docs:content:icon|icon]], the default color is the [[docs:app:color|primary color]] if set
+</note>
 
 
 ===== Support =====
