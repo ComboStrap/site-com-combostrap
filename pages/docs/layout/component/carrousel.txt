@@ -78,7 +78,6 @@ With the [[docs:templating:iterator|template iterator]], you can create dynamica
 
 Example with all pages that are in the layout path.
 <webcode name="Default" frameborder="0">
-
   * The iterator with the data node that uses the [[docs:templating:sql|page sql]] to select the pages
 <code dw>
 <iterator>
