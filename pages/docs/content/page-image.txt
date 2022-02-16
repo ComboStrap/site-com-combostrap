@@ -34,9 +34,9 @@ This example shows the [[docs:page:image|page image]] of this page (path: ''<tem
 </code>
 </webcode>
 
-==== A page image with a 4:3 ratio ====
+==== Page images with a 4:3 ratio and a height ====
 
-Note that the image has an intrinsic ratio of ''16:9'', we can change it to a ratio of ''4:3'' with the below markup.
+Note that the image has an intrinsic ratio of ''16:9'', we can change it to a ratio of ''4:3'' with the below markup and constraints the height 
 
 <webcode name="Default" frameborder="0">
 <code dw>
@@ -44,27 +44,29 @@ Note that the image has an intrinsic ratio of ''16:9'', we can change it to a ra
 </code>
 </webcode>
 
+
+
+<note>
+In a [[docs:templating:iterator|template iteration]] where the width of each element is set, the ratio permits to get the same image aspect-ratio as well as the same dimension for all images. The visual rendering is therefore consistent and peaceful.
+</note>
 ===== Syntax =====
 
 <code dw>
-<page-image path="path" ratio="ratio" color="color"/>
+<page-image 
+    path="path"  
+    width="..." heigth="..." ratio="..." color=".." ...  <!-- Optional -->
+/>
 </code>
-where:
-  * ''path'' is the [[docs:page:path|path]] of a page
-  * ''ratio'' is the ratio of the image (default to original):
-      * ''16:9''
-      * ''4:3''
-      * ''1:1''
-  * ''color'' is a [[docs:styling:color|color name]]. This attribute applies only on [[docs:content:svg|svg]] page image, particularly on [[docs:content:icon|icon]].
+where the following attributes are:
+  * mandatory: ''path'' is the [[docs:page:path|path]] of a page
+  * optional: the [[docs:content:image|image attributes]]: ''width'' / ''height'' / ''ratio'' and ''color'' (You should be able to use all image attributes)
+
 
 When the ''ratio'' is set, the algorithm will:
   * select the image in the set of [[docs:page:image|page image]] with the most equivalent ratio
   * [[docs:content:image#cropping|crop]] the image to fit the ratio
 
-<note>
-  * The ratio is important in a [[docs:templating:iterator|template iteration]] because it permits to get the same height for all images. This way the layout will get a consistent and peaceful visual.
-  * For icon page image, you should be able to use all [[docs:content:icon|icon parameters]]
-</note>
+
 
 ===== Support =====
 

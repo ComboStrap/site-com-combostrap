@@ -56,6 +56,7 @@
   * The svg illustration were shrinking on a table with the css property ''width: auto !important;'': we have added the width attribute in this case.
   * The ''illustrative image'' in a [[docs:block:card|card]] will stretch to take the whole horizontal space  (if too small, we get a blur effect but not white space).
   * [[docs:cache:page_expiration_frequency|Cache expiration]] does not purge the cache of the actual requested page. It creates a request for a new rendering that is done in the background improving the [[docs:performance:performance|performance]].
+  * The eva and carbon [[docs:content:icon|icon library]] are now optimized. They got ''rectangle'' in their source that was appearing as completely black. The rectangle is now deleted.
 ==== Bug ====
 
   * The snippets could be missing randomly. The snippets are now saved at the same time than the slot html output, making it less likely to miss if the rendering is stopped inadvertently.
