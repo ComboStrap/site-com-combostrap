@@ -46,6 +46,7 @@ Visual:
   * <badge light>light</badge>
   * <badge dark>dark</badge>
 
+
 ===== Configuration =====
 
 ==== defaultBadgeAttributes ====
