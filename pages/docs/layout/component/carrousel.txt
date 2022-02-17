@@ -9,64 +9,28 @@
 
 
 ===== About =====
-A carrousel is a layout component where the user can cycle through the elements in a horizontal way.
+A carrousel is a layout component where the user can cycle through elements in a horizontal way.
 
 
 To cycle through the elements, you can use:
   * on a mobile, the swipe hand gesture
   * on a desktop, the mouse or the arrow and bullet control elements.
+
+
+Because a carrousel is also known as a slideshow, the elements of a carrousel are generally called ''slides''.
 ===== Example =====
 
-==== Card carrousel ====
+==== Image Gallery ====
 
-This example shows you a carrousel from [[docs:block:card|cards]].
+This example shows you a carrousel of [[docs:content:image|image]] known also as a image gallery.
+
 <webcode name="Default" frameborder="0" >
   * The cards:
-<code dw height="400px" scroll="toggle">
-<carrousel slide-width="200px">
-<card>
-{{:logo.svg|}}
-=== First Card ===
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-</card>
-<card>
-{{:logo.svg|}}
-=== Second Card ===
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-</card>
-<card>
-{{:logo.svg|}}
-=== Third Card ===
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-</card>
-<card>
-{{:logo.svg|}}
-=== Fourth Card ===
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-</card>
-<card>
-{{:logo.svg|}}
-=== Fifth Card ===
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-</card>
-<card>
-{{:logo.svg|}}
-=== Six Card ===
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-</card>
-
+<code dw>
+<carrousel>
+{{ :woman-yoga-sunset.jpg?0x600&ratio=16:9 |}}
+{{ :page_speed_performance.png?0x600&ratio=16:9 |}}
+{{ :undraw_content_creator.svg?0x600&ratio=16:9 |}}
 </carrousel>
 </code>
   * The output:
@@ -83,15 +47,15 @@ Example with all pages that are in the layout path.
 <iterator>
     <data>select where path like "%layout%" order by title asc limit 10</data>
 
-    <heading d3 text-align="center" spacing="mb-3"> The pages talking about layout </heading>
-    <carrousel>
+    <heading h4 text-align="center" spacing="mb-3"> The pages talking about layout in ComboStrap </heading>
+    <carrousel element-width="250px">
         <template>
             <card clickable>
             <page-image path="$path" ratio="16:9"/>
-            === $title ===
+            == $title ==
             <itext color="muted"><date format="%h %d - %H:%M">$date_modified</date></itext>
 
-            $description [[$path| ]]
+            <pipeline>"$description" | head(200,"...")</pipeline> [[$path| ]]
             </card>
         </template>
     </carrousel>
@@ -100,8 +64,16 @@ Example with all pages that are in the layout path.
   * The output:
 </webcode>
 
+===== Syntax =====
 
+<code dw>
+<carrousel element-width="..." control="all|none">
+</carrousel>
+</code>
+where:
+  * ''element-width'' is the minimum [[docs:styling:dimension|width]] of an element on the screen. By default, this is 100% (meaning that there is only one element)
+  * ''control'' manages the control elements. If ''none'', no arrow buttons or bullets are shown.
 ===== Support =====
 
 ==== Lazy Loading ====
-[[docs:performance:lazy|Lazy loading]] is also supported on [[https://caniuse.com/?search=loading|modern browser]] even if the image is not visible.
+[[docs:performance:lazy|Lazy loading]] works on modern browser where the [[https://caniuse.com/?search=loading|loading attribute is supported]].

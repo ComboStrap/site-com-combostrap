@@ -14,7 +14,7 @@
 
 ===== Actions =====
 
-  * The old [[release:deprecated:hierarchical_breadcrumb|renderer hierachical breadcrumb]] has been deleted. You should add the new [[docs:navigation:hierarchical_breadcrumb|hierarchical breadcrumb component]] in the new [[:slot_main_header|slot main header]]
+  * The old [[release:deprecated:hierarchical_breadcrumb|renderer hierachical breadcrumb]] has been deleted. If you want to have a hierarchical breadcrumb, you should add the new [[docs:navigation:hierarchical_breadcrumb|hierarchical breadcrumb component]] in the new [[:slot_main_header|slot main header]]
 ===== List =====
 ==== New ====
   * New documentation for the [[docs:layout:page:main|main slot]] (content)
@@ -35,6 +35,7 @@
   * Added the edit button for the slots and styled them.
   * New: the [[docs:cache:viewer|Cache viewer]] permits to see cache information of the slots.
   * New: [[docs:content:lightbox|lightbox]]. When clicking on a image by default, a lightbox is showing up.
+  * The [[docs:templating:pipeline#head|head pipeline function]] got a new parameter: the tail string. This string is added if the input string was cut.
 
 
 ==== Change ====

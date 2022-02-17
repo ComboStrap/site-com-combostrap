@@ -12,11 +12,29 @@ A ''lightbox'' is a window that:
 
 ===== Example =====
 
-If you click on this [[docs:content:image|image]] a window will appear, showing the image in full  mode (ie its natural size up to the screen size)
+==== Raster Image ====
 
+If you click on this [[docs:content:raster|raster image]] a window will appear, showing the image in full  mode (ie its natural size up to the screen size)
+<webcode name="Default" frameborder="0">
+<code dw>
 {{:docs:block:stock_image_surfer_in_the_see.png?200|}}
+</code>
+</webcode>
 
 To close the pop-up, you can click:
   * on the close button located at the top right corner
   * or on the dark background outside the image.
 
+
+
+==== Svg ====
+Because [[docs:content:svg|svg image]] may have a small intrinsic size, we have set it to be at minimal 75% of the windows size.
+
+Example:
+The below [[https://undraw.co/illustration/content_creator_re_pt5b|undraw svg image]] has a small intrinsic dimension of ''222x150'' but when clicking on it, you still get a zoom effect.
+
+<webcode name="Default" frameborder="0">
+<code dw>
+{{:undraw_content_creator.svg?200|}}
+</code>
+</webcode>

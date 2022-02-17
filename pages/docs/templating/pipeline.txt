@@ -15,8 +15,6 @@ A ''pipeline'' is a element that contains a list of function (called a ''pipelin
 ''Pipeline'' are used in [[docs:templating:template|template]] when you want to transform a variable such as a page title. 
 </note>
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Syntax =====
 
@@ -92,17 +90,20 @@ Output:
 
 
 ==== Head ====
-''head'' is a function that will take the fist N characters of a string
+''head'' is a function that will take the first N characters of a string.
 
 **Syntax**:
 <code>
-head($length)
+head($length, $tail)
 </code>
+where:
+  * ''length'' is the maximal length of the output string
+  * ''tail'' is an optional string that is added if the input string was cut
 
 For instance:
 <webcode name="rconcat" frameborder=0 >
 <code dw>
-<pipeline> "Long Title that we want to cut" | head(10) | rconcat("...") </pipeline>
+<pipeline> "Long Title that we want to cut" | head(10 , "...") </pipeline>
 </code>
 Output:
 </webcode>

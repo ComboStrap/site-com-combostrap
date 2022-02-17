@@ -176,7 +176,21 @@ You can also use the image as [[docs:styling:background|background]].
 </code>
 </webcode>
 
+==== Gallery ====
 
+With the [[docs:layout:component:carrousel|carroussel component]], you can create an image gallery
+
+<webcode name="Default" frameborder="0" >
+  * The cards:
+<code dw>
+<carrousel>
+{{ :woman-yoga-sunset.jpg?0x600&ratio=16:9 |}}
+{{ :page_speed_performance.png?0x600&ratio=16:9 |}}
+{{ :undraw_content_creator.svg?0x600&ratio=16:9 |}}
+</carrousel>
+</code>
+  * The output:
+</webcode>
 ===== Support =====
 
 
