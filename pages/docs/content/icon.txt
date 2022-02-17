@@ -51,13 +51,24 @@ Example with a [[https://feathericons.com/?query=box|''box'' icon]] and a [[docs
 </webcode>
 
 
+==== Zoom out - Illustrative Icon ====
+
+In case of an illustrative icon used for instance in a [[docs:block:card|card]] or as [[docs:content:page-image|page image]], the icon may be zoomed out (by default, the value is 4)
+
+Example of icon zoomed out by a factor of 3.
+<webcode name="Feather">
+<code dw>
+<icon name="fe:box" color="skyblue" width="200" height="200" zoom=-3 border-color="skyblue" />
+</code>
+</webcode>
+
 
 ===== Syntax =====
 An icon can be seen as a character and is therefore a component that can be used in a [[docs:content:content|line]].
 
 The syntax is:
 <code dw>
-<icon name="[library:]icon-name" color="color" width="width"/>
+<icon name="[library:]icon-name" color="color" width="width" zoom="factor"/>
 </code>
 where:
   * ''name'' is the [[https://icon-sets.iconify.design/|full qualified Iconify search engine name]] where:
@@ -67,6 +78,7 @@ where:
       * the [[docs:app:color|secondary color]] (if the icon width is less than 36 px)
       * the [[docs:app:color|primary color]] otherwise.
   * ''width'' is the [[docs:styling:dimension|width value]]
+  * ''zoom'' is a zoom factor (zoom in when the factor is positive, zoom out otherwise). A zoom is performed after a [[docs:content:image#crop|crop]].
 
 
 ===== How to show an icon ? =====

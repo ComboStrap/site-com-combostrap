@@ -36,6 +36,7 @@
   * New: the [[docs:cache:viewer|Cache viewer]] permits to see cache information of the slots.
   * New: [[docs:content:lightbox|lightbox]]. When clicking on a image by default, a lightbox is showing up.
   * The [[docs:templating:pipeline#head|head pipeline function]] got a new parameter: the tail string. This string is added if the input string was cut.
+  * Added the zoom factor on [[docs:content:svg|svg]]. This attribute is mostly used on [[docs:content:icon|icon]] to make them illustrative image.
 
 
 ==== Change ====

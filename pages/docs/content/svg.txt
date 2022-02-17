@@ -34,11 +34,12 @@ This features apply also to the following SVG:
 Svg is just an image and follows therefore the same syntax than a [[docs:content:image|Image]]
 
 <code dw>
-{{[ ]svg_path?WxH&att=value[ ]}}
+{{[ ]svg_path?WxH&type=value&zoom=x&att=value[ ]}}
 </code>
 
 A ''svg'' accepts:
   * all [[docs:styling:styling|styling attributes]]
+  * a ''zoom'' attribute (used mostly to zoom out to create illustrative [[docs:content:icon|icon]])
   * and the special [[support:preserve|preserve attribute]]
 
 You can change the svg type with one of the below ''type'' attribute.
