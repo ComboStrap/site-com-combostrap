@@ -9,7 +9,7 @@
     <carrousel element-width="250px">
         <template>
             <card clickable>
-            <page-image path="$path" ratio="16:9"/>
+            <page-image path="$path" ratio="21:9"/>
             <heading h5> $title </heading>
             
             <pipeline> "$description" | head(200, "...")</pipeline> [[$path| ]]

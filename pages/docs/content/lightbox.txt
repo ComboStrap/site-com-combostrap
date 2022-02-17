@@ -4,7 +4,7 @@
 
 ===== About =====
 A ''lightbox'' is a window that:
-  * appears when you click on [[docs:content:image|image]]
+  * appears when you click on a [[docs:content:image|image]]
   * showing the [[docs:content:image|image]] in full format 
   * against a dark background (giving more contrast and therefore more light).
 

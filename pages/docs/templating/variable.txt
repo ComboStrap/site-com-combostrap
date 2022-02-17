@@ -48,7 +48,6 @@ The below ''template text'' inside a ''template component'' will print:
 <template>
   * Title: ''$title''
   * Path: ''$path''
-  * Relative Path: ''$relativepath''
 </template>
 </code>
 <hr/>

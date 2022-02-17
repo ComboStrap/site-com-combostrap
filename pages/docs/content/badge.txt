@@ -13,11 +13,6 @@
   * or a label
 
 
-<badge>Since [[release:release|version 1.1]]</badge>
-===== Articles Related =====
-{{backlinks>.}}
-
-
 ===== Syntax =====
 ''badge'' follows the [[docs:marki|superset HTML syntax]] and can then be [[docs:styling:styling|customized]]
 
@@ -37,18 +32,19 @@ where:
 ===== Type =====
 
 A badge may have the following type:
-  * <badge primary>primary</badge>
-  * <badge secondary>secondary</badge>
+
+Functional:
   * <badge success>success</badge> 
   * <badge danger>danger</badge>
   * <badge warning>warning</badge>
   * <badge>info</badge> (Default)
   * <badge tip>tip</badge>
+
+Visual:
+  * <badge primary>primary</badge>
+  * <badge secondary>secondary</badge>
   * <badge light>light</badge>
   * <badge dark>dark</badge>
-
-
-
 
 ===== Configuration =====
 
@@ -60,6 +56,3 @@ Default value:
 type="info" rounded="true"
 </code>
 
-===== Support =====
-==== Background color ====
-We are not using the [[https://getbootstrap.com/docs/5.0/components/badge/#background-colors|background color]] because they are too dark. The contrast between this color and a link is not enough and make a link difficult to read. The actual colors are the [[https://getbootstrap.com/docs/5.0/components/alerts/|alerts colors]]
