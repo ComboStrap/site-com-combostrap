@@ -1,10 +1,11 @@
 ---json
 {
-    "page_id": "kk4jppbr858gkbpeqxo1p"
+    "page_id": "kk4jppbr858gkbpeqxo1p",
+    "title": "How to create a badge with Combo ?"
 }
 ---
 
-====== ComboStrap UI - Badge  ======
+====== How to create a badge ?  ======
 
 
 ===== About =====

@@ -29,8 +29,6 @@ The more backlinks has a page, the more important it is.
 ==== Maximum number of backlinks ====
 The max numbers of backlinks can be set. Default value: ''10''
 
-==== Link Content ====
-The link content follows the [[doku>config:useheading]] configuration.
 
 ==== Extra Pattern ====
 

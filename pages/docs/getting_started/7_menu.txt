@@ -1,6 +1,12 @@
 ---json
 {
-    "page_id": "rtc8cfn4cafxhrojpog8m"
+    "aliases": [
+        { "path": ":docs:getting_started:6_menu" }
+    ],
+    "canonical": ":6_menu",
+    "name": "Top menubar",
+    "page_id": "rtc8cfn4cafxhrojpog8m",
+    "title": "Creation of a top menu bar - ComboStrap Getting Started"
 }
 ---
 ====== ComboStrap Getting Started - Creation of a top menu bar======

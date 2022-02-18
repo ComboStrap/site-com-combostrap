@@ -61,7 +61,7 @@ You can set the following [[docs:app:configuration|configuration]]:
 | ''defaultTwitterImage'' | the image used if an [[..:page:image|page image]] was not found ([[https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup|svg is not supported, less than 5MB]]) | apple-touch-icon.png |
 
 <note>
-The default site image ''apple-touch-icon.png'' is already installed if you have followed the [[docs:getting_started:5_favicon|favicon installation guide]]
+The default site image ''apple-touch-icon.png'' is already installed if you have followed the [[docs:getting_started:6_favicon|favicon installation guide]]
 </note>
 
 

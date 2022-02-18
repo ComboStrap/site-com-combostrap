@@ -1,0 +1,38 @@
+---json
+{
+    "layout": "median",
+    "page_id": "e1fxq9icxquo2x0foy04e"
+}
+---
+====== useHeading Dokuwiki Configuration ======
+
+
+===== About =====
+''useHeading'' is a [[doku>config:useheading|dokuwiki Configuration]] that determines the default label of [[docs:content:link#internal|internal links]]
+
+With Combostrap, we recommand to set this configuration to ''0''.
+
+===== Why ? =====
+
+==== Internal link label ====
+ComboStrap does not need this configuration because it supports two labels for the [[docs:content:link#internal|links]]:
+
+They are:
+   * the [[docs:page:name|page name]], the short label for [[docs:navigation:navigation|navigational component]]
+   * the [[docs:page:title|page title]], the longer label otherwise
+
+==== Page Cache Management ====
+
+If you don't set ''useHeading'', there is fewer backlinks cache deletions.
+
+**Dokuwiki** deletes all [[docs:navigation:backlink|backlinks cache]] of a page (([[https://github.com/splitbrain/dokuwiki/blob/master/inc/common.php#L1277|Backlink deletion in the saveWikiText function line 1277]])) when:
+  * the page has been updated 
+  * the [[docs:app:configuration|configuration]] [[doku>config:useheading]] is ''on'' (ie when the value is ''content'' or ''1'')
+
+
+**ComboStrap** reacts:
+  * not to the change of content
+  * but only to the change of [[docs:metadata:metadata|metadata]] (title, name, h1, description) [[docs:cache:slot|(via the primary_meta dependency)]]
+
+
+

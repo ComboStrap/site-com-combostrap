@@ -94,7 +94,7 @@ The most well severe bug are:
   * the [[docs:metadata:frontmatter|frontmatter]] metadata are [[docs:analytics:replication|replicated]] directly to avoid inconsistency with [[docs:templating:sql|page sql]]
   * The [[docs:social:google#json-ld|google json-ld]] supports now a full json-ld value. It's easier to valid it with the playground for the user.
   * The lock file created by the [[support:plugin#move|move plugin]] is now checked for every parse. It was only checked for page move and was purging page automatically each time making the site really slow.
-  * The [[docs:cache:sideslots|side slots cache management]] removes the cache only when one of the description attributes is updated (ie name, title, h1, description)
+  * The [[docs:cache:slot|side slots cache management]] removes the cache only when one of the description attributes is updated (ie name, title, h1, description)
   * The [[docs:page:title|page title]] for a web page has been enhanced with the [[docs:type:home|namespace name]] and [[docs:app:name|website name]]
   * The [[docs:utility:disqus|disqus identifier]] is now the [[docs:page:page_id|page id]] by default.
   * The [[docs:diagram:railroad|railroad diagram library]] is now served as resource with the no-transform attribute and will then not be transformed by a proxy.
