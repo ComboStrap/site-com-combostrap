@@ -4,13 +4,13 @@
     "page_id": "e1fxq9icxquo2x0foy04e"
 }
 ---
-====== useHeading Dokuwiki Configuration ======
+====== Why you should disable the useHeading Configuration ======
 
 
 ===== About =====
 ''useHeading'' is a [[doku>config:useheading|dokuwiki Configuration]] that determines the default label of [[docs:content:link#internal|internal links]]
 
-With Combostrap, we recommand to set this configuration to ''0''.
+With Combostrap, we recommend to set this configuration to ''never'' (''0'').
 
 ===== Why ? =====
 
@@ -25,7 +25,7 @@ They are:
 
 If you don't set ''useHeading'', there is fewer backlinks cache deletions.
 
-**Dokuwiki** deletes all [[docs:navigation:backlink|backlinks cache]] of a page (([[https://github.com/splitbrain/dokuwiki/blob/master/inc/common.php#L1277|Backlink deletion in the saveWikiText function line 1277]])) when:
+**Dokuwiki** deletes all [[docs:navigation:backlink|backlinks]] [[docs:cache:page|cache of a page]] (([[https://github.com/splitbrain/dokuwiki/blob/master/inc/common.php#L1277|Backlink deletion in the saveWikiText function line 1277]])) when:
   * the page has been updated 
   * the [[docs:app:configuration|configuration]] [[doku>config:useheading]] is ''on'' (ie when the value is ''content'' or ''1'')
 

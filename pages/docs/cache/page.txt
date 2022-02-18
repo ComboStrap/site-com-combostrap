@@ -25,8 +25,8 @@ A page is composed of [[docs:layout:page:slot|slot]] (a primary and one or more 
 ===== Expiration Date =====
 
 You can set the expiration date of a page with two methods:
-  * by page: the [[#expiration frequency]]
-  * globally: the [[#cache time interval]] (maximum age)
+  * by page with the [[#expiration frequency]]
+  * globally with the [[#cache time interval]] (maximum age)
 ==== Expiration Frequency ====
 
 If you need to delete the page cache at interval because your page contains time-based data,
@@ -60,7 +60,7 @@ After 2 rendering, you should see only cache hits.
 
 
 <note>
-If the second request does not hit the cache, this is because a metadata may have been set by a third plugin.
+If the second request does not hit the cache, this is because a metadata may have been set by a third party plugin.
 </note>
 
 
@@ -68,7 +68,7 @@ If the second request does not hit the cache, this is because a metadata may hav
 ===== Support and Configuration =====
 
 ==== useHeading ====
-The [[doku>conf:useheading|useheading]] dokuwiki configuration has an impact on cache management, you should set disable it and set the value ''0''. More information on the [[support:useheading|dedicated page of this configuration]]
+The [[doku>conf:useheading|useheading]] dokuwiki configuration has an impact on cache management, you should set disable it and set the value ''never''. More information on the [[support:useheading|dedicated page of this configuration]]
 
 
 
