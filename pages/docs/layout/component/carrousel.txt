@@ -7,7 +7,6 @@
 ---
 ====== ComboStrap - Carrousel Layout ======
 
-
 ===== About =====
 A carrousel is a layout component where the user can cycle through elements in a horizontal way.
 
@@ -28,9 +27,9 @@ This example shows you a carrousel of [[docs:content:image|image]] known also as
   * The cards:
 <code dw>
 <carrousel>
-{{ :woman-yoga-sunset.jpg?0x600&ratio=16:9 |}}
-{{ :page_speed_performance.png?0x600&ratio=16:9 |}}
-{{ :undraw_content_creator.svg?0x600&ratio=16:9 |}}
+{{ :woman-yoga-sunset.jpg?0x600 |}}
+{{ :page_speed_performance.png?0x600 |}}
+{{ :undraw_content_creator.svg?0x600 |}}
 </carrousel>
 </code>
   * The output:
