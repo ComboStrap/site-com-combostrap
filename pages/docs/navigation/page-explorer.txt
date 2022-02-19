@@ -145,7 +145,7 @@ $name</pipeline>
 </code>
   * if the ''parent'' tag is not defined, a default parent template is used
 <code html>
-[[$path|<icon name="mdi:arrow-left-box"/> ... $name]]
+[[$path|<icon name="icons8:level-up"/> $name]]
 </code>
   * if the ''home'' tag is is not defined, the ''page'' template is used  
 
@@ -153,9 +153,13 @@ $name</pipeline>
 ===== Support =====
 
 ==== Performance consideration with the tree pane ====
-The [[#tree|page-explorer tree]] is recreated every time that a subpage is modified. If your tree has a lot of page, it may perform poorly:
-  * while editing 
-  * and for the first viewer
+The [[#tree|page-explorer tree]] is recreated when:
+  * a primary metadata (title, name, description) is modified ([[docs:cache:slot|primary meta dependency]])
+  * a page is added or deleted  ([[docs:cache:slot|page system dependency]])
+
+If your tree has a lot of pages, it may seems slow:
+  * while editing
+  * or for the first viewer
 
 
 
