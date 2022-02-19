@@ -72,8 +72,26 @@ Example with all pages that are in the layout path.
 </carrousel>
 </code>
 where:
-  * ''element-width'' is the minimum [[docs:styling:dimension|width]] of an element on the screen. By default, this is 100% (meaning that there is only one element)
+  * ''element-width'' is the minimum [[docs:styling:dimension|width]] of an element on the screen. By default, this is 100% (meaning that there is only one element, ie a gallery)
   * ''control'' manages the control elements. If ''none'', no arrow buttons or bullets are shown.
+
+\\
+\\
+
+<note>
+= Implicit difference between the gallery mode and other carrousels =
+
+A gallery for Combostrap is a carrousel that shows only one element at a time. This is the default mode (ie when the ''element-width'' attribute is unset).
+
+  * In this mode:
+      * the arrow buttons are the only controls visible on mobile
+      * there is always one element in view.
+  * In other mode (when there is more than one element on the screen)
+      * there is no control visible on mobile
+      * the number of elements shown is a plain number and a half (to show that this is serie of element)
+
+
+</note>
 ===== Support =====
 
 ==== Lazy Loading ====
