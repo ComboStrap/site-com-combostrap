@@ -34,6 +34,8 @@ This example shows you a carrousel of [[docs:content:image|image]] known also as
 </code>
   * The output:
 </webcode>
+
+
 ==== Carrousel dynamically created with the iterator ====
 
 With the [[docs:templating:iterator|template iterator]], you can create dynamically the children that you want to show.
