@@ -38,6 +38,8 @@ The [[doku>login#registration|Registration form]] will shows:
   * a real name 
   * and an email field
 
+
+The registration should not be [[doku>disableactions|in the disabled action]].
 ==== Resend Password ====
 
 The ''resend password'' will shows only one field, the username.
@@ -48,7 +50,9 @@ The ''profile'' page has two forms:
   * an ''update'' form to update the user information
   * a ''delete'' form to delete the account
 
-For the ''update'' form, with the [[doku>config:profileconfirm]] [[docs:app:configuration|configuration]], you can require that a user confirm their current password in order to update their profile.
+For the ''update'' form, with the [[doku>config:profileconfirm]] configuration, you can require that a user confirm their current password in order to update their profile.
+
+The profile should not be [[doku>disableactions|in the disabled action]].
 ===== Configuration =====
 
 ==== Logo ====
