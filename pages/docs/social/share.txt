@@ -26,10 +26,10 @@ The channels supported are:
 ===== Example =====
 <webcode name="Default" frameborder="0">
 <code dw>
-<share name="twitter" />
-<share link name="twitter"/>
-<share link name="twitter" icon="solid-circle" />
-<share link name="twitter" icon="outline" width="60"/>
+<share twitter />
+<share twitter widget="link" />
+<share twitter widget="link" icon="solid-circle" />
+<share twitter widget="link" icon="outline" width="60"/>
 </code>
 
 </webcode>

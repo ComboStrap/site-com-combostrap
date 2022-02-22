@@ -29,7 +29,7 @@ A ''blockquote'' has three type:
 <code dw>
 <blockquote type="card">
 <header>My Header</header>
-=== Title === or <title>Title</title>
+=== Title === or <heading>Title</heading>
 content
 <cite>The reference</cite>
 </blockquote>
