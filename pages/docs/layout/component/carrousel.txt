@@ -63,28 +63,26 @@ Example with all pages that are in the layout path.
 </code>
   * The output:
 </webcode>
-
-
 ==== Minimum Element ====
 
 If the number of elements is not enough to feel the screen, the default behavior of the carrousel is to repeat them.
 
-The ''element-min'' attribute permits to disable this feature and to replace the carrousel by a [[docs:layout:component:grid|grid]] if the minimum element count is not met. By default, the value is ''3''.
+The ''elements-min'' attribute permits to disable this feature and to replace the carrousel by a [[docs:layout:component:grid|grid]] if the minimum element count is not met. By default, the value is ''3''.
 
 This feature is most used with an [[docs:templating:iterator|iterator]] where the number of element is not known in advance but for the purpose if this demonstration we are using 2 fix [[docs:block:card|cards]].
 
 <webcode name="Default" frameborder="0" >
 <code dw>
-<carrousel element-width="250px" element-min="3">
+<carrousel element-width="250px" elements-min="3">
 <card>
-{{:logo.svg|}}
+{{:logo.svg?ratio=21:9|}}
 === First Card ===
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 </card>
 <card>
-{{:logo.svg|}}
+{{:logo.svg?ratio=21:9|}}
 === Second Card ===
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
@@ -92,7 +90,7 @@ exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 </card>
 </carrousel>
 </code>
-  * The output:
+  * The output is a centered [[docs:layout:component:grid|grid]].
 </webcode>
 
 ===== Syntax =====
@@ -100,14 +98,14 @@ exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 <code dw>
 <carrousel 
    element-width="..." 
-   element-min="..."
+   elements-min="..."
    control="all|none"
 >
 </carrousel>
 </code>
 where:
   * ''element-width'' is the minimum [[docs:styling:dimension|width]] of an element on the screen. By default, this is 100% (meaning that there is only one element, ie a gallery)
-  * ''element-min'' is the minimum of elements needed to show a carrousel. By default: ''3''. If this threshold is not met, a [[docs:layout:component:grid|grid]] is instead used.
+  * ''elements-min'' is the minimum of elements needed to show a carrousel. By default: ''3''. If this threshold is not met, a [[docs:layout:component:grid|grid]] is instead used.
   * ''control'' manages the control elements. If ''none'', no arrow buttons or bullets are shown.
 
 \\
