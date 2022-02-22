@@ -20,7 +20,7 @@ The channels supported are:
 <note>
   * A social button is just a link styled by default as a button
   * The URL shared is the [[docs:page:url|page url]] and can make it permanent. For more information, see the [[docs:page:url|dedicated page]]
-  * We support also [[docs:social:follow|follow buttons]]
+  * We support also [[docs:social:follow|follow buttons]] and [[docs:menubar:brand|brand buttons]].
 </note>
 
 ===== Example =====
@@ -45,6 +45,7 @@ for all supported channel.
 
 <code dw>
 <share 
+    channel
     widget="button|link"
     name="name"
     url="urlType",
@@ -55,10 +56,10 @@ for all supported channel.
 </code>
 
 where:
+  * ''channel'' is one of the [[#map|supported social channel name]]
   * ''widget'' permits to choose the type of output:
       * ''button'' (default): a button
       * ''link'': a link
-  * ''name'' is one of the [[#map|supported social channel name]]
   * ''url'' is: (default to the first permanent link)
       * ''page'' for the [[docs:page:url|page url]]
       * ''permalink'' for the [[docs:router:permalink|identifier permalink]]
