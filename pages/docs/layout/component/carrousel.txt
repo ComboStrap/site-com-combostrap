@@ -63,7 +63,11 @@ Example with all pages that are in the layout path.
 </code>
   * The output:
 </webcode>
-==== Minimum Element ====
+
+\\
+\\
+
+==== Minimum Elements Count ====
 
 If the number of elements is not enough to feel the screen, the default behavior of the carrousel is to repeat them.
 

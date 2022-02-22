@@ -5,7 +5,7 @@
 <iterator>
     <data>select from backlinks where path like ":docs%" order by title asc limit 10</data>
 
-    <heading h4 > Recommended Pages </heading>
+    <heading h4 spacing="mb-5"> Recommended Pages </heading>
     <carrousel element-width="250px">
         <template>
             <card clickable>
@@ -21,7 +21,7 @@
 
 
 
-<row class="align-items-center">
+<row class="align-items-center gy-3">
 <cell class="col-12 col-sm-3" color="muted" text-align="center">Share this page:</cell>
 <cell><share twitter/> <share facebook/> <share hn/> <share mail/> <share Whatsapp/> <share telegram /></cell>
 </row>

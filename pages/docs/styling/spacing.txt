@@ -23,8 +23,7 @@ where:
 <note>
 If you want to add space between lines, used the [[docs:block:text|text component]] and its ''line-spacing'' attribute
 </note>
-===== Articles Related =====
-{{backlinks>.}}
+
 ===== Example =====
 
 ==== Padding and Spacing on all sides ====
