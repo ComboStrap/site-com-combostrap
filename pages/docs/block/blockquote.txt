@@ -36,14 +36,14 @@ content
 </code>
 where:
   * ''header'' is an [[docs:utility:header|component header]]
-  * ''title'' is a [[release:deprecated:title|component title]]
+  * ''title'' is a [[docs:content:heading|heading]]
   * ''cite'' is a [[docs:content:cite|cite (citation)]]
 
 <note tip>
 A ''card'' blockquote is just a shortcut that wraps the typographic blockquote in a [[card|card]].
 </note>
 
-<badge>''header'' is only available since [[release:release|version 1.4]]</badge>
+
 
 
 
