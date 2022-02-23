@@ -63,6 +63,22 @@ Example of icon zoomed out by a factor of 3.
 </webcode>
 
 
+==== Multiple Colors ====
+
+
+We support multiple colors icons. 
+  * For instance, with the [[https://icon-sets.iconify.design/flat-color-icons/smartphone-tablet/|flat-color-icons:smartphone-tablet]] icon
+<webcode>
+<code dw>
+<icon name="flat-color-icons:smartphone-tablet" width="100" />
+</code>
+</webcode>
+  * If a color is set, we change the first color found.
+<webcode>
+<code dw>
+<icon name="flat-color-icons:smartphone-tablet" color="skyblue" width="200" zoom=-3 border-color="skyblue" />
+</code>
+</webcode>
 ===== Syntax =====
 An icon can be seen as a character and is therefore a component that can be used in a [[docs:content:content|line]].
 
