@@ -1,8 +1,8 @@
 ---json
 {
     "description": "A Tooltip displays informative text when users hover over, focus on, or tap an element.",
-    "name": "tooltip",
-    "page_id": "utozdh69xx3mvdhhrq31k"
+    "page_id": "utozdh69xx3mvdhhrq31k",
+    "title": "How to create a tooltip ?"
 }
 ---
 
@@ -12,17 +12,12 @@
 ===== About =====
 A ''Tooltip'' displays informative text when users hover over, focus on, or tap an element.
 
+{{:docs:content:tooltip_illustration.png|}}
 
-===== Syntax =====
-A ''tooltip'' is a [[docs:component?preview|UI component]] that adds a tooltip to its direct parent.
-<code dw>
-<tooltip position="top">
-The tooltip content
-</tooltip>
-</code>
-where:
-  * ''position'' is one of ''top'' (Default),''right'',''bottom'', ''left''
-  * the tooltip content can be any markup (heading, image, ..)
+By default, when hovering over [[docs:content:link|a link]], you get the default HTML tooltip with the page [[docs:page:description|description]] as content.
+
+
+With the tooltip component, you can attach any tooltip to any component.
 
 ===== Example =====
 
@@ -113,5 +108,17 @@ A surfer at the beach
 
 </webcode>
 
-
 <note>To see the tooltip immediately when hovering on the image the [[docs:styling:class|class]] ''d-inline-block'' on the ''itext'' component is mandatory. The ''itext'' component takes then the same size than the image)</note>
+
+===== Syntax =====
+A ''tooltip'' is a [[docs:component?preview|UI component]] that adds a tooltip to its direct parent.
+<code dw>
+<tooltip position="top">
+The tooltip content
+</tooltip>
+</code>
+where:
+  * ''position'' is one of ''top'' (Default),''right'',''bottom'', ''left''
+  * the tooltip content can be any markup (heading, image, ..)
+
+
