@@ -10,11 +10,25 @@
 
 ===== About =====
 
+This is the release documentation of the ComboStrap version 1.25.
 
 
+The main information is that this release brings:
+  * two new slots:
+      * the [[:slot_main_footer|main footer]] (below the main content slot)
+      * the [[docs:layout:page:main_header_slot|main header]] (above the main content slot)
+  * a [[docs:layout:component:carrousel|carrousel layout]] (with image gallery)
+  * [[docs:content:lightbox|a image Lightbox]]
+  * [[docs:social:share|social share]] and [[docs:social:follow|follow buttons]]
+  * [[docs:app:color|branding colors (primary, secondary)]]
+  * and much more...
 ===== Actions =====
 
-  * The old [[release:deprecated:hierarchical_breadcrumb|renderer hierachical breadcrumb]] has been deleted. If you want to have a hierarchical breadcrumb, you should add the new [[docs:navigation:hierarchical_breadcrumb|hierarchical breadcrumb component]] in the new [[:slot_main_header|slot main header]]
+This are the actions that you need to take:
+  * Follows the [[update|update steps]]
+  * Optional: The old [[release:deprecated:hierarchical_breadcrumb|renderer hierachical breadcrumb]] has been deleted. If you want to have a hierarchical breadcrumb, you should add the new [[docs:navigation:hierarchical_breadcrumb|hierarchical breadcrumb component]] in the new [[:slot_main_header|slot main header]]
+
+
 ===== List =====
 ==== New ====
   * New documentation for the [[docs:layout:page:main|main slot]] (content)

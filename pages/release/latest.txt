@@ -11,23 +11,19 @@
 
 
 ===== About =====
-The latest release is the release [[1.23|1.23]]
+The latest release is the release [[1.24|1.24]]
 
-For all news and modifications, you should go to the release page [[1.23]].
-
-
+For all news and modifications, you should go to the release page [[1.24]].
 
 
 
 
 
-===== Steps =====
 
-For each new release, we recommend the following steps:
-  * [[docs:getting_started:3_strap|update strap]]
-  * [[docs:getting_started:2_combo|update combo]]
-  * refresh the index with the [[support:plugin#search_index_manager|Search Index Manager]].
+
+The standard update steps can be found on this [[update|page]].
+
 
 ===== Current =====
 
-The current development branch is the [[1.24|1.24]].
+The current development branch is the 1.25.
