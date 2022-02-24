@@ -1,6 +1,5 @@
 ---json
 {
-    "name": "Main Header Slot",
     "page_id": "49u26njsyv79fxwn027aj"
 }
 ---
