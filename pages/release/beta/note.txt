@@ -84,6 +84,12 @@ Add an export button for the main page. Example
 <template target="main"/>
 </code>
 
+
+==== Admin CSS ====
+
+There is css:
+  * here: https://github.com/ComboStrap/combo/blob/4cadd4f8c541149bdda95f080e38a6d4e3a640ca/action/docss.php#L43
+  * and here: https://github.com/ComboStrap/dokuwiki-template-strap/blob/main/css/admin.css
 ==== Footnote ====
 
 Adding a [[docs:content:footnote|footnote]] rendering syntax, to add or not the footnotes at the foot of the page.
