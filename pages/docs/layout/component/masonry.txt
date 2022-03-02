@@ -13,8 +13,6 @@
 This layout is handy when you want to lay out a list of components that does not have an uniform height (Ie to mix small and big card for instance).
 
 A masonry layout is generally used with [[docs:block:card|cards]] or [[docs:block:blockquote|blockquotes]].
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Syntax =====
 <code dw>
@@ -26,6 +24,7 @@ A masonry layout is generally used with [[docs:block:card|cards]] or [[docs:bloc
 
 ===== Example =====
 
+==== With static element ====
 
 <webcode name="Default" frameborder=0>
 <code dw>
@@ -49,6 +48,28 @@ A masonry layout is generally used with [[docs:block:card|cards]] or [[docs:bloc
 </code>
 </webcode>
 
+==== With a dynamic list of pages ====
+
+Example of a list of ''Recent Articles Changed'' with an [[docs:templating:iterator|iterator]].
+<webcode name="Default" frameborder=0>
+<code dw>
+<iterator>
+    <data>select where path != ':start' and is_low_quality = 0 order by date_modified desc limit 8</data>
+    <heading d4 text-align="center" spacing="mb-3"> Recent Articles Changed </heading>
+    <masonry>
+        <template>
+            <card clickable>
+            <page-image path="$path" ratio="21:9" zoom=-6 />
+            === $title ===
+            <itext color="muted">//Modified <date format="%h %d - %H:%M">$date_modified</date>//</itext>
+
+            <pipeline>"$description" | head(100, "...")</pipeline>  [[$path| ]]
+            </card>
+        </template>
+    </masonry>
+</iterator>
+</code>
+</webcode>
 
 ===== Support =====
 
