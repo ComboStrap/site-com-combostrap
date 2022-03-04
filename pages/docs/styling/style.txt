@@ -16,8 +16,6 @@
 <note tip>
 The style attribute and component are low level access to [[docs:styling:styling|style your components]]. If you just need to change a property, check the [[docs:styling:styling|high level attribute]].
 </note>
-===== Articles Related =====
-{{backlinks>.}}
 
 
 
@@ -25,11 +23,11 @@ The style attribute and component are low level access to [[docs:styling:styling
 
 ==== Attribute ====
 
-Because every [[docs:component|ComboStrap UI component]] are a [[docs:marki|superset of HTML]], the ''CSS'' ''style'' attribute is also supported. 
-example with a [[docs:block:card|card]] 
+Because every [[docs:component|ComboStrap UI component]] are a [[docs:marki|superset of HTML]], the ''CSS'' ''style'' attribute is also supported.
+example with a [[docs:block:card|card]]
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
-<card 
+<card
     style="
         color:white;
         background-color:purple;
@@ -39,7 +37,7 @@ example with a [[docs:block:card|card]]
         font-size:1.2rem
         "
 >
-A centered card with a centered white text against a purple background 
+A centered card with a centered white text against a purple background
 </card>
 </code>
 </webcode>

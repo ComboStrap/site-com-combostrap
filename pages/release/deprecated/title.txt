@@ -15,6 +15,4 @@ The ''title'' component has been renamed and integrated to the [[docs:content:he
 
 
 
-===== Articles Related =====
-{{backlinks>.}}
 

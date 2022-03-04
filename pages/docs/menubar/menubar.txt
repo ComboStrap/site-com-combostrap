@@ -16,8 +16,6 @@ Inside a ''menu'' component, you can add:
   * a [[docs:menubar:collapse|collapse container]] to group the element that will collapse
   * a [[docs:menubar:search|search form]]
   * a [[docs:content:button|button]]
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Syntax =====
 <code dw>

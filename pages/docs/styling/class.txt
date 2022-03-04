@@ -13,20 +13,18 @@ The ''class'' attribute is used intensively by [[docs:utility:bootstrap|Bootstra
 
 ''ComboStrap'' already implements most of this utilities through the [[styling#standard attributes|standard attributes]] but in the case that you need something really advanced, you can always take the control over and apply them.
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Example =====
 
 
 
-Example: 
+Example:
   * Setting a [[https://getbootstrap.com/docs/5.0/utilities/visibility/|invisibility class]] on a [[docs:block:note|note]]
 
 <webcode>
   * The markup
 <code dw>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 <note class="invisible" >
 A note that is no more visible

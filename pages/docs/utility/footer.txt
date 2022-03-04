@@ -14,8 +14,6 @@ It's generally used in the [[docs:layout:page:footer_slot|footerbar]] of the [[:
 <note tip>A footer for a whole page is known as a fat footer.</note>
 
 <badge>Since [[release:release|version 1.2]]</badge>
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Syntax =====
 ''footer'' is a [[docs:marki|superser HTML element]] and takes therefore into account all [[docs:styling:styling|styling attributes such as class and style]].

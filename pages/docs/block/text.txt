@@ -13,8 +13,6 @@
 ''text'' is a [[docs:content:typo|typographic]] component that permits to style one or several paragraph at once.
 
 <badge>Since [[release:release|version 1.4]]</badge>
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Syntax =====
 

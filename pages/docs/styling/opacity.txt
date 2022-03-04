@@ -10,8 +10,6 @@
 ===== About =====
 ''opacity'' (ie alpha or transparency) is a [[color|color]] effect that renders a component more or less transparent.
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Syntax =====
 

@@ -17,13 +17,11 @@ This gives the possibility to tune any component.
 
 More see [[doku>devel:css#user_styles]]
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Class =====
 
 
-Every component got two generated [[docs:styling:class|class]] 
+Every component got two generated [[docs:styling:class|class]]
 
 <code>
 element-combo

@@ -14,8 +14,6 @@ The size attributes determines the background surface of a [[docs:component|comp
 Technically, it sets the ''padding'' (the external zone of a box).
 
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Example: A large button =====
 A large [[docs:content:button|button]]

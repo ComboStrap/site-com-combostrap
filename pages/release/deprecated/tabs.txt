@@ -16,8 +16,6 @@ Why?
   * It has a simpler interface (no needs for two block tabs and tabpanels)
   * A panel can also be laid out as accordion
 </note>
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Syntax =====
 

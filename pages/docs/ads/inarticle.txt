@@ -18,8 +18,6 @@ This is an automatic placement which means that they follows a set of rule that:
   * does not break the reading experience by placing them before a heading and not between paragraph.
 This placement conforms to most of the Ads network rules.
 </note>
-===== Articles Related =====
-{{backlinks>.}}
 ===== How to enable automatic in-article ads ? =====
 
 ==== Enable the Renderer ====

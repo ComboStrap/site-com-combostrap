@@ -12,15 +12,13 @@
 ''float'' is a [[styling|styling attribute]] that allows content along the side of the ''floated'' component whereas an [[align|aligned component]] does not.
 
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Syntax =====
 
 <code dw>
 <component float="value">
 </code>
-where value is a composition of one of the below floated value separated by a space. 
+where value is a composition of one of the below floated value separated by a space.
 
 A value of:
   * ''start'' means on the ''left'' for a RTL language or on the ''right'' for LTR language
@@ -30,7 +28,7 @@ A value of:
 | ''xs'' | ''xs-start'' | ''xs-end'' | ''xs-none'' | ''xs-none'' |
 | ''sm'' | ''sm-start'' | ''sm-end'' | ''sm-none'' | - |
 | ''md'' | ''md-start'' | ''md-end'' | ''md-none'' | - |
-| ''lg'' | ''lg-start'' | ''lg-end'' | ''lg-none'' | - | 
+| ''lg'' | ''lg-start'' | ''lg-end'' | ''lg-none'' | - |
 | ''xl'' | ''xl-start'' | ''xl-end'' | ''xl-none'' | - |
 | [[#floatDefaultBreakpoint|default breakpoint]] | ''start'' | ''end'' | ''none'' | - |
 

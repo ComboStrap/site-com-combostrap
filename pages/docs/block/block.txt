@@ -9,11 +9,9 @@
 ===== About =====
 A ''block component'' is a [[docs:component|component]] that wraps/encapsulate:
    * [[docs:content:content|content such as text, image,... ]]
-   * other block component 
+   * other block component
 
 If the component should start at a new line or expand on multiple line and you can draw some border around it, that's a block.
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== List of block component =====
 
@@ -32,8 +30,8 @@ If the component should start at a new line or expand on multiple line and you c
   * [[docs:layout:component:slide|Slide]] - A slide used to create landing page or hero content
   * [[docs:block:text|Text]] - Create one or more paragraph with the same styling
   * [[docs:utility:webcode|Webcode]] - Output the result of web code (HTML, Javascript, CSS)
-  
- 
- 
+
+
+
 
 

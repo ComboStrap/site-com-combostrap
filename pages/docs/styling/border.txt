@@ -11,8 +11,6 @@
 ===== About =====
 The ''border'' is the line that delimits the [[docs:block:block|block components]].
 
-===== Articles Related =====
-{{backlinks>.}}
 
 
 ===== Attribute =====
@@ -35,13 +33,13 @@ A box with a blue border
 
 ==== Default Border Attributes applied with color ====
 If you set a ''border-color'' attributes, by default ''ComboStrap'' will set the following properties if they are not present.
-  * a width of 1px 
+  * a width of 1px
   * a style of solid (ie a continue line)
   * a radius of 0.25rem (round corner)
 
 
 This is :
-  * to avoid the confusion to see nothing appearing on the screen 
+  * to avoid the confusion to see nothing appearing on the screen
   * and to have a consistent styling with [[docs:utility:bootstrap|bootstrap]].
 
 

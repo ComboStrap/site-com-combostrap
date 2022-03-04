@@ -7,14 +7,12 @@
 
 
 ===== About =====
-The ''inote'' is a [[docs:block:note|note]] that can be added along side a text (ie inline). It gives [[docs:styling:emphasis|emphasis]] on an ancillary text that adds context to the primary text. 
+The ''inote'' is a [[docs:block:note|note]] that can be added along side a text (ie inline). It gives [[docs:styling:emphasis|emphasis]] on an ancillary text that adds context to the primary text.
 
 As a replacement, you could also use:
   * a [[docs:content:tooltip|tooltip]]
   * or a [[doku>wiki:syntax#footnotes|footnote]].
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Syntax =====
 <code dw>

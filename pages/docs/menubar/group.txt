@@ -10,8 +10,6 @@
 ''group'' permit to groups navigation elements to the left or right side of a [[docs:menubar:menubar|menubar]].
 
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Syntax =====
 

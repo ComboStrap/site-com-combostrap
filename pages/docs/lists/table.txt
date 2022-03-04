@@ -17,8 +17,6 @@ The table is responsive and adapts to all screen sizes.
 <note>
 If you want to use a table for layout purpose, you should use a [[docs:layout:component:grid|grid]]
 </note>
-===== Articles Related =====
-{{backlinks>.}}
 
 
 
@@ -40,4 +38,4 @@ If you want to use a table for layout purpose, you should use a [[docs:layout:co
 
 ===== Configuration =====
 ==== Enable renderer ====
-The table rendering is a feature of the [[docs:utility:renderer|renderer]] and should be then selected. See [[docs:utility:renderer#configuration|renderer configuration]]. 
+The table rendering is a feature of the [[docs:utility:renderer|renderer]] and should be then selected. See [[docs:utility:renderer#configuration|renderer configuration]].

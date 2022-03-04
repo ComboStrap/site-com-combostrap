@@ -23,8 +23,6 @@ A [[message|message]] can also be shown with the pages that have the same name.
 </note>
 
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Configuration =====
 

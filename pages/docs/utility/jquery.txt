@@ -10,8 +10,6 @@
 ===== About =====
 ''jquery'' is available in the [[:strap|strap template]].
 
-===== Articles Related =====
-{{backlinks>.}}
 
 
 ===== Version =====

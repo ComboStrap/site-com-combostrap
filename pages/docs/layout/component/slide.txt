@@ -15,8 +15,6 @@ They are mainly used in landing page where they separate and add contrast betwee
 <badge>[[#changes|Since version 1.13]]</badge>
 
 
-===== Articles Related =====
-{{backlinks>.}}
 
 
 ===== Syntax =====

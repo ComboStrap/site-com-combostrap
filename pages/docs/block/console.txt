@@ -26,8 +26,6 @@ drwxrwx---  4 www-user www-user   30 Jun 10  2020 authmysql
 </console>
 
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Syntax =====
 This is a [[docs:utility:prism|Prism component]] and follows its [[docs:utility:prism#syntax]]

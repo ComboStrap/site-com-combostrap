@@ -16,8 +16,6 @@ The [[:combostrap|combo plugin]] automatically [[docs:quality:hidden|hides]]:
 This page resource are still accessible but should not be advertised to the outside world because they are just component and have a [[docs:quality:low_quality_page|low value]].
 
 This is a component of the [[docs:quality:quality|quality seo module]].
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Explanation =====
 

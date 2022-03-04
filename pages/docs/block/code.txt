@@ -14,8 +14,6 @@ The ''code'' component permits to format ''block of code'' and add features such
       * line numbering
 
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Example =====
 
@@ -33,7 +31,7 @@ If you want to shows the output of web language such as HTML, Css or Javascript,
 
 ==== HTML Super Set ====
 
-A ''code block'' can be expressed as a [[docs:marki|HTML super set component]] 
+A ''code block'' can be expressed as a [[docs:marki|HTML super set component]]
 
 Example:
 <file html>
@@ -77,7 +75,7 @@ Example of an HTML code block.
 
 
 ==== Enable / Disable HTML Super syntax ====
-The ''code_enable'' [[docs:app:configuration|configuration]] permits to enable / disable the [[#HTML super set|HTML super set syntax]] 
+The ''code_enable'' [[docs:app:configuration|configuration]] permits to enable / disable the [[#HTML super set|HTML super set syntax]]
 and goes back to the default [[doku>wiki:syntax#code_blocks|dokuwiki code block]] output.
 
 

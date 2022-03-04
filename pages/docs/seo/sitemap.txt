@@ -14,8 +14,6 @@ A ''sitemap'' is a file that [[kb>search:engine|search engine]] will read in ord
 The following pages are not included in the ''sitemap'':
   * [[docs:quality:hidden|hidden pages]]
   * private pages
-===== Articles Related =====
-{{backlinks>.}}
 
 
 

@@ -19,8 +19,6 @@ A ''hidden'' resource (page, image, file, ...) is a resource that is:
 In short, the page is still accessible directly (with its URL) but is no more visible.
 </note>
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Features =====
   * ''ComboStrap'' [[docs:quality:automatic_hidden|hide automatically artifactory]] (components used to create page but are not page themselves)

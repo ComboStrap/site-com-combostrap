@@ -10,8 +10,6 @@
 The ''sidekick slot'' is a [[docs:layout:page:slot|slot]] that is shown at the right side of the content.
 
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== How it works =====
 This is a standard [[docs:layout:page:slot|slot feature]]

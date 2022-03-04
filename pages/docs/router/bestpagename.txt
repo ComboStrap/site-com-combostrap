@@ -21,8 +21,6 @@ This algorithm should be in a low priority order because:
   * it does not execute any [[docs:router:permanent|permanent redirection]]
   * it performs less well than the [[docs:router:bestendpagename|best end page name]]
 </note>
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Algorithm =====
 

@@ -15,8 +15,6 @@ A ''tabs'' is an [[docs:layout:component:component|layout]], [[docs:navigation:n
 You can also choose an [[docs:layout:component:accordion|accordion]] as another navigational collapsible layout for panels.
 </note>
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Syntax =====
 A ''tabs'' component is composed of:

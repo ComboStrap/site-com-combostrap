@@ -14,8 +14,6 @@ You can insert an ''ad page'' (ie an ad) via:
   * a [[ad|ad tag]]
   * or via the [[inarticle|auto in-article module]]
 
-===== Articles Related =====
-{{backlinks>.}}
 
 <note warning>
 Because the ''ads'' are stored as page, they are by default added to the index.

@@ -9,11 +9,9 @@
 
 ===== About =====
 Every [[docs:block:block|Box components]] and even the whole main page dimension may be resized with the [[docs:styling:styling|styling attributes]]:
-  * [[#width]] 
+  * [[#width]]
   * and [[#height]].
 
-===== Articles Related =====
-{{backlinks>.}}
 
 
 ===== Dimension =====

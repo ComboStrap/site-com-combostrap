@@ -9,8 +9,6 @@
 The ''side slot'' is a [[docs:layout:page:slot|slot]] that is located by default at the left side of the content.
 
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Feature =====
 

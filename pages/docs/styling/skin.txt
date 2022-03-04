@@ -15,8 +15,6 @@
 <badge>Since [[release:archive:1.4|version 1.4]]</badge>
 
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Syntax =====
 
@@ -39,7 +37,7 @@ This attribute is used mostly with the [[docs:content:button|button]] but it wor
 | Contained | High | 🗸 | 🗸 | 🗸 | 🗸 |
 | Filled (Default) | Medium | 🗸 | 🗸 | 🗸 | |
 | Outline | Low | 🗸 | | 🗸 | |
-| Text | Normal | 🗸 | | | 
+| Text | Normal | 🗸 | | |
 
 ===== Example =====
 

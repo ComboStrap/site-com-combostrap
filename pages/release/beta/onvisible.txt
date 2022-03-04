@@ -19,8 +19,6 @@
 
 
 
-===== Articles Related =====
-{{backlinks>.}}
 ===== Example =====
 
 ==== Animation 1 ====

@@ -15,8 +15,6 @@ It's a [[docs:utility:prism|prism]] component that add:
       * and clipboard copy
 
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Example =====
 

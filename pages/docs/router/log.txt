@@ -13,8 +13,6 @@
 This page shows you how you can [[docs:analytics:query|query]] the  [[redirection|redirection]] history table  stored in the [[docs:analytics:database|secondary database]]
 
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Example =====
 

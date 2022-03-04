@@ -16,8 +16,6 @@
       * [[#standard|standard]] - a set of the most important attributes to quickly style any components.
       * and [[#advanced|advanced]] which let's you use the full power of HTML and CSS.
 
-===== Articles Related =====
-{{backlinks>.}}
 
 
 ===== Levels =====

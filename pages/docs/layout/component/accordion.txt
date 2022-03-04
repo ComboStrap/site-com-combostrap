@@ -17,8 +17,6 @@
 You can also choose [[docs:layout:component:tabs|tabs]] as other navigational collapsible layout for panels.
 </note>
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Example =====
 

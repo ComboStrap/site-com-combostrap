@@ -14,8 +14,6 @@
 
 A visitor should not be signed in to be able to see or to follow a link to the ''late publication page''.
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Demo =====
 

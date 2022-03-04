@@ -23,5 +23,3 @@ A layout component is a component that laid out other components.
 
 
 See also [[docs:layout:page:page]]
-===== Articles Related =====
-{{backlinks>.}}

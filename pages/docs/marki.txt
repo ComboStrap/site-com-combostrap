@@ -12,8 +12,6 @@ Below, we describe the [[#syntax]], they all have in common.
 
 
 
-===== Articles Related =====
-{{backlinks>.}}
 
 
 ===== Syntax =====
@@ -42,7 +40,7 @@ where:
 ==== Styling ====
 Every component implements also a set of [[.styling:styling|styling attributes]]
 
-Example: 
+Example:
   * The tree [[docs:styling:color|colors attributes]] can be passed natively. You can write:
 <code dw>
 <component color="blue">

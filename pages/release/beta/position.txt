@@ -10,8 +10,6 @@
 ===== About =====
 
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Syntax =====
 

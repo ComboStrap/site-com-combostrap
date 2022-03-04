@@ -16,8 +16,6 @@ It represents:
   * or a separator between a groups of items.
 
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Syntax =====
 ''hr'' supports both syntax:
@@ -48,22 +46,22 @@ We supports also the horizontal rule in a [[docs:marki|super set HTML syntax]].
 You can [[docs:styling:styling|style]] them then as you wish.
 ===== Example =====
 ====  Wiki /  Markdown ====
- 
+
 <webcode name="markdown" frameborder=0 >
 <code dw>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 </code>
 </webcode>
 ==== Super HTML ====
- 
+
 As ''hr'' is a [[docs:marki|superset HTML component]], you can use all [[docs:styling:styling|styling attributes]] such as [[docs:styling:spacing|spacing]]
 <webcode name="Default" >
 <code dw>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 <hr spacing="my-5"/>
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 </code>
 </webcode>
 

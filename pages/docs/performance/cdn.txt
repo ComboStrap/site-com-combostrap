@@ -11,8 +11,6 @@
 ''cdn'' is a feature that permits to serve the static library files for anonymous users from a ''CDN''.
 
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Configuration =====
 ==== useCDN ====

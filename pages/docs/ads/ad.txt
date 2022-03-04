@@ -10,8 +10,6 @@
 The ''ad tag'' is a syntax component of the [[ads|ads module]] that will insert a [[page|ad (ie ad page)]].
 
 
-===== Articles Related =====
-{{backlinks>.}}
 ===== Example =====
 
 For instance, if you want to add a ''Ad'' in the top of the [[docs:layout:page:side_slot|side slot]], you would:

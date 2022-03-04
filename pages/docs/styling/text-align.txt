@@ -10,8 +10,6 @@
 ===== About =====
 ''text-align'' is a [[docs:content:typo|typographic attribute]] that sets the alignment of the lines of text inside a [[docs:block:block|block component]].
 
-===== Articles Related =====
-{{backlinks>.}}
 ===== Syntax =====
 
 <code dw>

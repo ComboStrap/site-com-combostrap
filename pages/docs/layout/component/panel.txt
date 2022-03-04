@@ -15,5 +15,3 @@ A ''panel'' is a widget that is used in a ''collapsible'' layout component.
 For further information, on the usage of a ''panel'', you need to refer to the layout documentation:
   * [[docs:layout:component:tabs|tabs]] where the panels are laid out as ''tabs''
   * or [[docs:layout:component:accordion|accordion]] where the panel are laid out in an accordion fashion.
-===== Articles Related =====
-{{backlinks>.}}

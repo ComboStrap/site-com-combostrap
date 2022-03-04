@@ -15,8 +15,6 @@ Combostrap supports:
       * [[docs:block:card]]
       * [[docs:block:blockquote]]
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Example =====
 

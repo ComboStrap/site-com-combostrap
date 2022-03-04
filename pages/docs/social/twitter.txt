@@ -20,8 +20,6 @@ You can optionally add your twitter handle in the cards if [[#configuration|conf
 This is page is about the integration of your page as card in twitter. If you want the inverse and embed a tweet in your page, see the [[docs:social:tweet|tweet page]]
 </note>
 
-===== Articles Related =====
-{{backlinks>.}}
 ===== Preview =====
 
 You can preview a card page before tweeting it at: https://cards-dev.twitter.com/validator
@@ -38,8 +36,8 @@ The list of metadata that are used in the card are:
   * for the heading: [[..:page:title|title]] if present otherwise [[..:page:h1|h1]], otherwise the page id.
   * for the description: [[..:page:description|description]]
   * for the image:
-      * the ''twitter'' [[..:page:image|image]] 
-      * otherwise any other conforming [[..:page:image|image]], 
+      * the ''twitter'' [[..:page:image|image]]
+      * otherwise any other conforming [[..:page:image|image]],
       * otherwise the [[#configuration|default one]]
       * otherwise any conforming [[docs:app:logo|logo image]]
 

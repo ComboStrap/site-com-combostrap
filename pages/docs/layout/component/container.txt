@@ -20,8 +20,6 @@ It's used in [[docs:layout:component:component|layout component]] such as:
 <note>
 The [[docs:layout:page:page|page layout]] ''holy'' and ''median'' have their main content by default contained.
 </note>
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Syntax and example =====
 

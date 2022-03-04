@@ -15,8 +15,6 @@
 
 If two home pages have the same score, the smallest home page path is chosen.
 
-===== Articles Related =====
-{{backlinks>.}}
 
 ===== Example =====
 

@@ -20,8 +20,6 @@ This article shows you how to create and install your own custom [[stylesheet|Bo
 If you want to modify the styling once, you can also do it via [[styling#attributes|attributes]]
 </note>
 
-===== Articles Related =====
-{{backlinks>.}}
 
 
 ===== Prerequisites =====
