@@ -198,6 +198,7 @@ The ''acronym'' should be used as library name. It follows the [[https://icon-se
 ^ Name ^ Acronym ^ WebSite^
 | ''ant-design'' | ''ant-design'' | [[https://ant.design/components/icon/|Ant design]] |
 | ''akar-icons''  | ''akar-icons'' | [[https://akaricons.com/|akaricons]] (MIT) |
+| ''arcticons'' | ''arcticons'' | [[https://arcticons.com/]] (CC BY-SA 4.0) |
 | ''bootstrap'' | ''bi'' | [[https://icons.getbootstrap.com/|Bootstrap icon]] |
 | ''boxicons'' | ''bx'' | [[https://boxicons.com/|Boxicons]] (CC BY 4.0) |
 | ''carbon'' | ''carbon'' | [[https://www.carbondesignsystem.com/guidelines/icons/library/|Carbon (IBM)]] |
