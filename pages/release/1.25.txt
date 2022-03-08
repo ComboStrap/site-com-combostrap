@@ -10,3 +10,4 @@ The release 1.25 is the last development branch of Combostrap
 
 ==== Bug ====
   * Template version was not checked when the class was already loaded via php-fpm. When [[release:update|upgrading]] combostrap, due to version conflict, the upgrade would crash. The documentation was change and there is know a check each time.
+  * The [[docs:templating:sql|page sql backlink]] did not add a dependency on the requested page.
