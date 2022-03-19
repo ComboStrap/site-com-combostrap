@@ -7,7 +7,27 @@
 
 
 ===== About =====
-''ComboStrap'' is able to create and render diagrams.
+''ComboStrap'' is able to create and render diagrams <icon name="bi:diagram-3"/>.
+
+
+
+Example with a [[sequence|sequence Diagram]].
+
+<mermaid width="400px">
+<code mermaid display="none">
+sequenceDiagram
+    participant Editor
+    participant ComboStrap
+    Editor->>ComboStrap: Hello Combo ! <br/> Can you generate diagrams?
+    ComboStrap-->>Editor: <br/>Sure!
+    Editor->>ComboStrap: <br/>Great ! Which one ?
+    ComboStrap-->>Editor:  <br/>Quite a lot <br/> Such as Class, Erd, Flowchart <br/> and also Railroad. <br/> Check the links above
+</code>
+</mermaid>
+
+
+
+===== List =====
 
 If your diagrams are in a ''svg'' format, you can just render them with the [[docs:content:svg|svg component]].
 
@@ -24,18 +44,8 @@ Otherwise, you can use the following components to create and render diagrams.
 
 
 
-Example with a [[sequence|sequence Diagram]].
 
-<mermaid width="500px">
-<code mermaid display="none">
-sequenceDiagram
-    participant Editor
-    participant ComboStrap
-    Editor->>ComboStrap: Hello Combo ! <br/> Can you generate diagrams?
-    ComboStrap-->>Editor: <br/>Sure!
-    Editor->>ComboStrap: <br/><a href="#bouh">Great ! Which one ?</a>
-    ComboStrap-->>Editor:  <br/>Quite a lot <br/> Such as Class, Erd, Flowchart <br/> and also Railroad. <br/> Check the links above
-</code>
-</mermaid>
+
+
 
 

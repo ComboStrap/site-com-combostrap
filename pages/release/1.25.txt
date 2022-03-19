@@ -10,6 +10,8 @@ The release 1.25 is the last development branch of Combostrap
 
 ==== New ====
   * Added the https://arcticons.com/ [[docs:content:icon|icon library]]
+  * The [[docs:content:page-image|page image]] is taking the image of the parent page if the page does not have any image
+  * The ''txt'' mime is now authorized by default.
 
 ==== Improvement ====
 
