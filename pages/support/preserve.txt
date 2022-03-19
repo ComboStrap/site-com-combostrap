@@ -64,6 +64,10 @@ Example:
 
 If you are sure that the style will not leak and that you want to preserve them, you can add the ''preserve'' attribute.
 
+It will:
+  * preserve the style
+  * and serve the svg as image (to not leak the style)
+
 Example:
   * [[docs:content:icon|Icon]]
 <webcode name="Default" frameborder="0">

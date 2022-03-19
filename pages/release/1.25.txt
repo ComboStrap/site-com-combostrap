@@ -8,8 +8,13 @@ The release 1.25 is the last development branch of Combostrap
 
 ===== Changes =====
 
-===== New =====
+==== New ====
   * Added the https://arcticons.com/ [[docs:content:icon|icon library]]
+
+==== Improvement ====
+
+  * TODO: Sqlite Index - When the router found a page that exists but is not in the index, it will add it.
+  * When [[support:preserve|preserve style]] is set on svg, the svg is shown as an img to avoid style conflict.
 
 ==== Bug ====
   * Template version was not checked when the class was already loaded via php-fpm. When [[release:update|upgrading]] combostrap, due to version conflict, the upgrade would crash. The documentation was change and there is know a check each time.

@@ -10,6 +10,7 @@
 
 
 ===== Bug =====
+  * TOC miss the heading with a %%((title description))%% as description See example at https://datacadamia.com/lang/bash/compound
   * Bug: file is parsed here
 <code>
 === -c/--cookie-jar <file name> ===
@@ -51,12 +52,7 @@
   * [[docs:layout:component:masonry|card-columns]] as a real [[https://masonry.desandro.com/layout.html#responsive-layouts|responsive masonry]] ?
 
 
-==== Svg to Png to WebP ?====
 
-  * [[https://github.com/meyfa/php-svg|Php svg]]
-  * ImageMagic (command line)
-  * [[https://xmlgraphics.apache.org/batik/|Batik]] (svg java)
-  * from [[https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/drawImage|canva drawImage]] can use svg as source
 ==== Documentation ====
   * namespace documentation ? https://help.fandom.com/wiki/Namespaces
   * Landing page: self-managed vs hosted documentation
@@ -163,17 +159,23 @@ An intuitive Git-based workflow and powerful serverless platform to build, deplo
 
 Create tag page as image in frontmatter
 
-==== Snapshot as illustration ====
+==== Illustration ====
 
+=== Snapshot ===
+ 
   * https://github.com/carbon-app/carbon - Create and share beautiful images of your source code. ([[https://github.com/mixn/carbon-now-cli#installation|cli]])
-  * Just text to image: https://github.com/ttodua/useful-php-scripts/blob/master/text-to-image.php
+
 
 Example: https://threadreaderapp.com/images/screenshots/thread/1440247034187968519.jpg for the [[https://threadreaderapp.com/thread/1440247034187968519.html|page]]
   * Image: 1200 x 628
   * Resolution 72,00
 
 
+=== Text ===
 
+See also: 
+  * https://github.com/libvips/php-vips/blob/master/examples/watermark-text.php with libvps
+  * Just text to image: https://github.com/ttodua/useful-php-scripts/blob/master/text-to-image.php
 ==== Page Move bug ====
   * in [[docs:content:page-image|Page-image Component: Renders the illustrative image of your page]]
 <code dw>
@@ -231,7 +233,7 @@ x Marketing cookies: These cookies are used to measure how visitors interact wit
 <btn>Accept All</btn><btn>Save Preferences</btn>
 </file>
 
-==== Serverless / Vercel ====
+===== Serverless =====
   * https://github.com/juicyfx/vercel-examples/blob/master/php-wordpress
   * Runtime:
       * The runtime is a [node module runtime](https://github.com/vercel/vercel/blob/main/DEVELOPING_A_RUNTIME.md)
@@ -240,6 +242,61 @@ x Marketing cookies: These cookies are used to measure how visitors interact wit
 
 
 Cloudflare has also workers for php
+
+
+https://vercel.com/docs/concepts/deployments/build-step#build-image
+How do I install PHP on the build image?
+To make php available in your Build Step, add the following [[https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/amazon-linux-ami-basics.html#extras-library|linux extras]] to your [[https://vercel.com/docs/concepts/deployments/build-step#build-command|Build Command]]:
+<code bash>
+amazon-linux-extras install php7.4
+</code>
+
+Fly.io: 
+  * We run on our own hardware deployed in secure data centers like Equinix.
+  * flyctl deploy builds and deploys a fly.toml file, a Dockerfile, and source code from the current working directory. 
+
+
+===== Image processing Service from Github =====
+
+==== Raw GitHub ====
+
+  * With [[#image proxy]] imageinary 
+<code bash>
+curl -O "http://flyimaginary.fly.dev/crop?width=500&height=400&url=https://raw.githubusercontent.com/h2non/imaginary/master/testdata/large.jpg"
+</code>
+
+
+Unauthenticated requests are limited to 60 requests per hour. Authenticated requests are limited at 5000 requests an hour. GitHub “Pro” users get 15000 ?
+
+==== Bunny Optimizer ====
+
+https://bunny.net/optimizer/
+
+https://support.bunny.net/hc/en-us/articles/360027448392-Bunny-Optimizer-Engine-Documentation
+==== Image Proxy ====
+offload image resizing not to some foreign cloud, but to a microservice under your full control
+only those that were requested would be transformed on the fly and cached by a CDN for further requests.
+
+  * https://github.com/h2non/imaginary
+      * Go based on [[https://github.com/libvips/libvips|libvips]]) 
+      * See installation: https://fly.io/docs/app-guides/run-a-global-image-service/
+  * [[https://github.com/imgproxy/imgproxy|ImgProxy]]:  (based on [[https://github.com/libvips/libvips|libvips]])  - written in Go (darthsim/imgproxy:v2.13)
+      * doc: https://evilmartians.com/chronicles/introducing-imgproxy
+      * https://fly.io/launch/github/imgproxy/imgproxy
+  * https://github.com/lovell/sharp - Javascript based on [[https://github.com/libvips/libvips|libvips]]
+  * https://github.com/libvips/php-vips
+  * https://github.com/criteo/JVips
+  * https://github.com/thumbor/thumbor (Docker container is 300 times bigger than imgproxy’s, GraphicsMagick as an underlying library, which is considerably slower than vips)
+  * https://github.com/thoas/picfit (Picfit uses storage to keep track of transformations)
+  * http://agschwender.github.io/pilbox/ - Pilbox does not use libvips, does not support 12factor and relies on Tornado web server, that you might not need. 
+
+==== Svg to Png to WebP ?====
+
+  * [[https://github.com/meyfa/php-svg|Php svg]]
+  * ImageMagic (command line)
+  * [[https://xmlgraphics.apache.org/batik/|Batik]] (svg java)
+  * from [[https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/drawImage|canva drawImage]] can use svg as source
+
 ===== Seo =====
 
 ==== Step by step ====

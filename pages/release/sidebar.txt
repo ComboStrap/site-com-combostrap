@@ -1,8 +1,3 @@
 
 
-<ntoc>
-<index>[[$id?underline=false|$h1]]</index>
-<ns-item>[[$path?underline=false|<icon name="folder"/> $name]]</ns-item>
-<page-item>[[$path?underline=false|$name]]</page-item>
-<parent>[[$path?underline=false|<icon name="arrow-left-box"/> ... $name]]</parent>
-</ntoc>
+<page-explorer list></page-explorer>
