@@ -49,6 +49,30 @@ A grid layout makes also all cells readable from the start from a mobile device.
 The dimension of the the cells are not uniform, this is why a [[docs:styling:background|background]] should never be used inside a grid.
 </note>
 
+==== A grid ====
+
+<webcode>
+<code dw>
+<iterator>
+    <data>select from descendants where depth = 0 order by path asc limit 6 </data>
+    <row>
+        <template>
+            <cell clickable>
+                <page-image path="$path" width="8rem"/>
+                == $title ==
+               <pipeline> "$description" | head(100,"...") </pipeline>
+               [[$path| ]]
+            </cell>
+       </template>
+    </row>
+</iterator>
+</code>
+  * Output:
+</webcode>
+
+
+
+
 
 ===== Syntax =====
 <code dw>

@@ -21,7 +21,7 @@ Create website, publish landing pages, articles, how-to's, documentations or bui
 </text>
             </cell>
             <cell vertical="center" align="center">
-{{ ::undraw_content_creator.svg?500&nolink |}}
+{{ :undraw_content_creator.svg?500&nolink |}}
             </cell>
 </row>
 </container>
