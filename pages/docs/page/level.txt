@@ -7,7 +7,7 @@
 
 
 ===== About =====
-The ''page level'' is a [[docs:metadata:metadata|page metadata]] that gives back the level of the page on the file system tree.
+The ''page level'' is a [[docs:metadata:metadata|page metadata]] that gives back the level of the page in the [[system|page system tree]].
 
 ===== Example =====
 
@@ -17,4 +17,4 @@ The ''page level'' is a [[docs:metadata:metadata|page metadata]] that gives back
 ===== How to see the page level ? =====
 You can see the level of a page with the [[docs:metadata:manager|metadata manager]].
 
-{{:docs:page:page_level.png|}}
+{{:docs:page:page_level.png?300|}}

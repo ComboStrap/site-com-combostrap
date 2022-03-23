@@ -43,7 +43,7 @@ The ''from'' clause permits to set where the page data comes from.
 where:
   * ''pages'' is the default table (ie all pages of the website)
   * ''backlinks'' are the [[docs:navigation:backlink|backlink pages]]. Pages that points to the actual requested page with a link.
-  * ''descendants'' are the pages that have the same or a higher [[docs:page:level|level]] of the current page.
+  * ''descendants'' are the [[docs:page:descendants|descendants page]]. Pages that have the same or a higher [[docs:page:level|level]] than the current page.
 
 The ''from'' clause is is facultative. The selection will use the ''pages'' table if the from clause is not found.
 ==== Attribute ====
