@@ -12,13 +12,12 @@
 ===== About =====
 This page describes all attribute that can be used:
   * in a [[docs:templating:template|template text]] 
-  * or in [[docs:templating:sql|page sql]] 
+  * or in a [[docs:templating:sql|page sql]] 
 
 ===== List =====
 
 The supported attribute can be used:
   * ''path'' is the [[docs:page:path|full qualified path of a page]] that can be used in a [[docs:content:link|page link]] as reference
-  * ''relativepath'' is the [[docs:page:path|path]] in a url relative form that can be added to an url in a [[docs:content:link|link]]
   * ''title'' - the [[docs:page:title|title]] of the page - if empty, the ''h1''
   * ''name'' - the [[docs:page:name|name]] of the page - if empty, the last part of the id
   * ''h1'' - the [[docs:page:h1|h1 title]] (the first header text of the page) - if empty, the ''title''.
@@ -36,6 +35,7 @@ The supported attribute can be used:
   * ''is_home'' - a boolean that is set to 1 if the page is a [[docs:type:home|home page]]
   * ''slug'' - the [[docs:page:slug|slug]] of the page
   * ''level'' - the [[docs:page:level|level]] of the page in the file system tree
+  * ''depth'' - the maximum difference between the [[docs:page:level|level]] of the current page and the selected page ([[docs:templating:sql|page sql only attribute]])
 
 And all [[docs:metadata:frontmatter|frontmatter metadatas]] that are scalar (ie no array). Basically, all metadata that can be seen in the [[docs:analytics:data|scalar metadata node of the analytics data]] can be used as attribute.
 
