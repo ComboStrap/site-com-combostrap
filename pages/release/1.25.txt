@@ -16,6 +16,7 @@ The release 1.25 is the last development branch of Combostrap
 ==== Improvement ====
 
   * TODO: Sqlite Index - When the router found a page that exists but is not in the index, it will add it.
+  * TODO: https://bitwarden.com/help/website-icons/
   * When [[support:preserve|preserve style]] is set on svg, the svg is shown as an img to avoid style conflict.
 
 ==== Bug ====

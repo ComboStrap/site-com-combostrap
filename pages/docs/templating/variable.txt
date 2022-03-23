@@ -35,6 +35,7 @@ The supported attribute can be used:
   * ''lang'' - the [[docs:styling:lang|lang]] of a page
   * ''is_home'' - a boolean that is set to 1 if the page is a [[docs:type:home|home page]]
   * ''slug'' - the [[docs:page:slug|slug]] of the page
+  * ''level'' - the [[docs:page:level|level]] of the page in the file system tree
 
 And all [[docs:metadata:frontmatter|frontmatter metadatas]] that are scalar (ie no array). Basically, all metadata that can be seen in the [[docs:analytics:data|scalar metadata node of the analytics data]] can be used as attribute.
 

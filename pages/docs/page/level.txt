@@ -1,0 +1,20 @@
+---json
+{
+    "page_id": "jqpbqdr87d059s18o89qj"
+}
+---
+====== Page Level ======
+
+
+===== About =====
+The ''page level'' is a [[docs:metadata:metadata|page metadata]] that gives back the level of the page on the file system tree.
+
+===== Example =====
+
+  * The below [[docs:app:root|WebSite Home Page]] with the path '':start'' is at the level ''0'' 
+  * This page with the <template>path ''$path'' is at the level ''$level''</template>
+
+===== How to see the page level ? =====
+You can see the level of a page with the [[docs:metadata:manager|metadata manager]].
+
+{{:docs:page:page_level.png|}}

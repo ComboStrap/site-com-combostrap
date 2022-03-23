@@ -43,7 +43,7 @@ There is two groups of metadata:
   * [[..:locale:lang|lang]] - the language of the page
   * [[docs:quality:low_quality_page#low_quality_page_indicator|low quality page indicator]] - the quality page indicator
   * [[docs:quality:dynamic_monitoring#disable for a page|dynamic quality message]] - the dynamic quality message indicator
-  * [[docs:page:keywords|yeywords]] - Words relevant to the content of your page
+  * [[docs:page:keywords|keywords]] - Words relevant to the content of your page
   * [[docs:cache:page_expiration_frequency|page cache expiration frequency]] - Refresh the cache of your page at interval
 
 ==== Protected ====
@@ -54,6 +54,7 @@ The below properties are protected and cannot be changed:
   * ''user'', ''creator'', ''contributor''
   * [[docs:analytics:replication|date_replication]] - the last database replication date
   * [[..:page:page_id|page id]] - an universal unique identification
+  * [[docs:page:level|level]] - The level of the page in the file system tree
 
 
 
