@@ -3,14 +3,12 @@
     "page_id": "enrychc14u1or1tt14u52"
 }
 ---
+
+{{ :docs:router:undraw_through_the_park.svg?0x280&spacing=m-3 |}}
+
 ====== ComboStrap - Request Router ======
 
 
-\\
-
-{{ :docs:router:undraw_through_the_park.svg?0x300 |}}
-
-\\
 ===== About =====
 The ''request router'' is the entry point of all requests made on your [[docs:app:app|website]].
 

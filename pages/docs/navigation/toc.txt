@@ -9,26 +9,33 @@
 ===== About =====
 The ''toc (table of content)'' gives to the reader an overview of your page.
 
-The ''toc'' is composed of the [[docs:navigation:outline|outline headings]].
-
-
-===== Features =====
-
-If you uses the [[docs:utility:renderer|combo renderer]], the TOC is printed below the [[docs:page:h1|first heading]].
+The ''toc'' is composed of the [[docs:navigation:outline|outline headings]] 
 
 
 
+===== Location =====
 
 
+By default, the ''table of content'' is printed below the [[docs:page:h1|first heading]] but you can define your own placement
+in the page with the ''toc'' component.
+
+Example:
+<code dw>
+<toc/>
+</code>
 
 
-===== Configuration =====
-The TOC component supports: 
-  * all [[doku>toc#configuration|native configuration]] such as:
-      *  [[doku>config:tocminheads]]
-      * [[doku>config:maxtoclevel]]
-      * [[doku>config:toptoclevel]]
-  * the ''No toc'' tag to disable the [[doku>toc]] rendering
+===== Disable =====
+
+You can disable the rendering of a ''TOC'' by including the ''No toc'' tag (([[doku>toc]])) in your document:
 <code dw>
 ~~NOTOC~~
 </code>
+
+===== Configuration =====
+The TOC component supports all DokuWiki Configuration (([[doku>toc#configuration|TOC configuration]])) such as:
+      *  [[doku>config:tocminheads]] - the minimum number of heading 
+      * [[doku>config:maxtoclevel]] - the maximum level to print
+      * [[doku>config:toptoclevel]] - the start level:
+          * ''1'' = print the first heading 
+          * ''2'' = don't print the first heading
