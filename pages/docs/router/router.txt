@@ -6,7 +6,11 @@
 ====== ComboStrap - Request Router ======
 
 
+\\
 
+{{ :docs:router:undraw_through_the_park.svg?0x300 |}}
+
+\\
 ===== About =====
 The ''request router'' is the entry point of all requests made on your [[docs:app:app|website]].
 
