@@ -23,6 +23,14 @@ The ''sitemap'' file is available:
   * via URL at [[http://combostrap.com/doku.php?do=sitemap]]
   * or locally ''dokuwiki/data/cache/sitemap.xml.gz''
 
+
+===== Search Engine Console =====
+
+If you want that Search Engine crawl your website quickly, you need to add your domain to their registry and set it.
+
+For instance, in [[https://search.google.com/search-console/about|Google Search Console]].
+
+{{:docs:seo:sitemap_google_console.png?600|}}
 ===== Configuration =====
 
 ==== Enable ====

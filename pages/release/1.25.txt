@@ -12,12 +12,15 @@ The release 1.25 is the last development branch of Combostrap
   * Added the https://arcticons.com/ [[docs:content:icon|icon library]]
   * The [[docs:content:page-image|page image]] is taking the image of the parent page if the page does not have any image
   * The ''txt'' mime is now authorized by default.
+  * In a [[docs:layout:component:grid|grid]], a ''cell'' now supports the [[docs:styling:clickable|clickable attribute]]
+  * A ''grid'' is now supported in a [[docs:templating:iterator|iterator]].
 
 ==== Improvement ====
 
   * TODO: Sqlite Index - When the router found a page that exists but is not in the index, it will add it.
   * TODO: https://bitwarden.com/help/website-icons/
   * When [[support:preserve|preserve style]] is set on svg, the svg is shown as an img to avoid style conflict.
+  * The [[docs:content:svg|big svg image]] served via an image tag can now be defined in other unit than ''px''.
 
 ==== Bug ====
   * The [[docs:app:search|Internal Search Engine]] result was not going away if the escape click reaches no element.
@@ -25,3 +28,4 @@ The release 1.25 is the last development branch of Combostrap
   * Template version was not checked when the class was already loaded via php-fpm. When [[release:update|upgrading]] combostrap, due to version conflict, the upgrade would crash. The documentation was change and there is know a check each time.
   * The [[docs:templating:sql|page sql backlink]] did not add a dependency on the requested page.
   * When used in a slot, the snippet of the carrousel could be missing. The bug was that the snippets were stored by slot and not by rendered page. As a carrousel can show a grid or a carrousel that depends on the number of items, the last page rendered was overwriting the snippets. If a page rendered add few backlinks, the carrousel was a grid and the carrousel glide javascript was no more present for the other page from the cache. The snippets cache now should have the same key cache than the rendered slot.
+  * The [[docs:router:redirection|redirection message]] was printed at the end of the page. We test now that it's the first child of the main content.

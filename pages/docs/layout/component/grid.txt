@@ -51,14 +51,15 @@ The dimension of the the cells are not uniform, this is why a [[docs:styling:bac
 
 ==== A grid ====
 
+
 <webcode>
 <code dw>
 <iterator>
-    <data>select from descendants where depth = 0 order by path asc limit 6 </data>
+    <data>select from descendants where depth = 0 order by path asc limit 5 </data>
     <row>
         <template>
             <cell clickable>
-                <page-image path="$path" width="8rem"/>
+                <page-image path="$path" width="8rem" align="center" />
                 == $title ==
                <pipeline> "$description" | head(100,"...") </pipeline>
                [[$path| ]]
