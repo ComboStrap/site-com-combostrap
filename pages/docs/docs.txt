@@ -5,15 +5,16 @@
     "title": "ComboStrap Documentation"
 }
 ---
-====== ComboStrap - Documentation ======
+<row spacing="m-5">
+<cell><heading h1>ComboStrap - Documentation </heading></cell>
+<cell>{{ :docs:undraw_my_documents.svg?0x250&ratio=16:9|}}</cell>
+</row>
 
 
-\\
-\\
-
-{{ :docs:undraw_my_documents.svg?400&ratio=16:9 |}}
 
 ===== About =====
+
+
 This section regroups all documentation of ComboStrap in one place. 
 
 On the left side in the tree navigation pane, you can explore all features and components that are available to create stunning web pages.
