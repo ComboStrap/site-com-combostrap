@@ -5,11 +5,6 @@
     "title": "ComboStrap Documentation"
 }
 ---
-<row spacing="m-5">
-<cell><heading h1>ComboStrap - Documentation </heading></cell>
-<cell>{{ :docs:undraw_my_documents.svg?0x250&ratio=16:9|}}</cell>
-</row>
-
 
 
 ===== About =====
