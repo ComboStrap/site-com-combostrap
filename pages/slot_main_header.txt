@@ -1,7 +1,9 @@
 <breadcrumb/>
 
 
-<row spacing="m-5">
+<slide size="md">
+<row>
 <cell><template><heading h1>$title</heading></template></cell>
 <cell><template><page-image path="$path" height="250"/></template></cell>
 </row>
+</slide>

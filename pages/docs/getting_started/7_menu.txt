@@ -9,7 +9,6 @@
     "title": "Creation of a top menu bar - ComboStrap Getting Started"
 }
 ---
-====== ComboStrap Getting Started - Creation of a top menu bar======
 
 
 ===== About =====
