@@ -24,7 +24,7 @@ The [[:strap|strap template]] supports the creation of a slot page called [[docs
 
 If you have uploaded a icon in the [[6_favicon|Favicon step]], a minimal ''header slot'' with a [[docs:menubar:menubar|menu bar]] would look like:
 
-<webcode name="Default">
+<webcode name="Default" iframe>
 <code dw>
 <menubar breakpoint="md" align="center">
 <brand title="My Brand">
