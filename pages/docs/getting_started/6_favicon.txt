@@ -21,17 +21,18 @@ You can design your own logo but you can also be inspired by [[docs:app:logo#col
 
 In our case we have chosen an icon directly from https://materialdesignicons.com/
   * Choose an icon
-{{::material_design_choose_icon.png|}}
+{{:material_design_choose_icon.png|}}
   * Download the Svg file and rename it to ''logo.svg''
-{{::material_design_download_icon_svg.png?500|}}
+{{:material_design_download_icon_svg.png?500|}}
   * Go back in the Advanced Export and create a PNG with the biggest size
-{{::material_design_download_icon_png_big.png?500|}}
+{{:material_design_download_icon_png_big.png?500|}}
 
 ==== Generate the favicons ====
 
   * Go to the [[https://realfavicongenerator.net/|realfavicongenerator generator]]
   * Upload your PNG image
   * Answer the forms, follows the steps and download the package icon
+
 
 ==== Upload the favicons ====
 
@@ -46,7 +47,6 @@ In our case we have chosen an icon directly from https://materialdesignicons.com
 Example:
 
 {{::mediamanager_favicon.png|}}
-
 
 
 To see where and how you can use your logo, see the [[docs:app:logo|logo page]].
