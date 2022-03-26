@@ -1,13 +1,12 @@
 ---json
 {
     "canonical": ":release:1.21",
-    "description": "This page lists the changes that have been brought by the release 1.21",
+    "description": "This page lists the changes of the release 1.21.",
     "name": "Release 1.21",
     "page_id": "74id80xoiauccnjh7hhvy",
     "title": "Release 1.21"
 }
 ---
-====== ComboStrap - Release 1.21 ======
 
 
 ===== About =====

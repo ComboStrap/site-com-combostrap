@@ -6,11 +6,10 @@
     "layout": "median",
     "low_quality_page": "false",
     "page_id": "g2si7zbbvfjkv2ynvlpxl",
-    "title": "Release - A log of all ComboStrap changes and release"
+    "title": "A log of all changes and release"
 }
 ---
 
-====== Change Logs  / Release ======
 
 ===== About =====
 This is a page that lists all releases with their respective changes for [[:combostrap|ComboStrap]].
