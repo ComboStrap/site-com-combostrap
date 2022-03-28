@@ -28,7 +28,7 @@ The release ''1.20'' introduces a full template system based on the [[docs:templ
   * The [[docs:templating:iterator|iterator]] to iterate over [[docs:templating:template|template]]
   * The [[release:deprecated:cache|cache]] component to set the validity of a page at interval to avoid [[https://forum.dokuwiki.org/d/19495-caching-problem-with-a-plugin/11|caching problem with iterator]]
   * The [[docs:page:image|page image metadata]] set in the [[docs:metadata:frontmatter|frontmatter]]:
-      * are now updated when the [[docs:content:image|image]] is moved via the [[docs:getting_started:4_plugin#move|move plugin]]
+      * are now updated when the [[docs:content:image|image]] is moved via the [[howto:getting_started:4_plugin#move|move plugin]]
       * are taken into account into the [[docs:analytics:statistics#media|media statistics]] and reported if they don't exist as [[docs:quality:broken_link|broken links]]
   * A [[support:plugin|page dedicated to the support of third party plugin]] to enhance our support.
   * The [[docs:templating:template|standalone template component]]: You can now print/replace metadata information of the actual page.

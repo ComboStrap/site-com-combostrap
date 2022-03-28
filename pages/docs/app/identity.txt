@@ -56,7 +56,7 @@ The profile should not be [[doku>disableactions|in the disabled action]].
 ===== Configuration =====
 
 ==== Logo ====
-The ''enableLogoOnIdentityForms'' permits to enable or disable the rendering of the [[docs:getting_started:6_favicon|logo]] to render on the page.
+The ''enableLogoOnIdentityForms'' permits to enable or disable the rendering of the [[howto:getting_started:6_favicon|logo]] to render on the page.
 
 ==== Enable / Disable Forms ====
 All forms are disabled, if the [[doku>acl|acl module]] is disabled.

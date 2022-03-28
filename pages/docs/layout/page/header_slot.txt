@@ -17,7 +17,7 @@ The ''page header'' is rendered at the top of the page and contains generally a 
 
 
 <note>
-  * The ''how-to'' getting started guide explains how to create a header navigational bar: [[docs:getting_started:7_menu]].
+  * The ''how-to'' getting started guide explains how to create a header navigational bar: [[howto:getting_started:7_menu]].
   * It defines a header for the page. If you want to define a header for a component, see the [[docs:utility:header|header component]]
 </note>
 

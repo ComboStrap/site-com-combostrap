@@ -24,12 +24,12 @@ The ''strap'' template supports the following features:
   * [[docs:layout:page:railbar|Railbar Menu (Page, User Site) with a private option]]
   * Support [[docs:app:tagline|tagline]]
   * [[docs:styling:scale|Size Scale configuration (font and spacing)]]
-  * [[docs:getting_started:6_favicon|Favicon]]: Recognized the [[docs:getting_started:6_favicon|favicons]]  (included ''android-chrome-192x192.png'')
+  * [[howto:getting_started:6_favicon|Favicon]]: Recognized the [[howto:getting_started:6_favicon|favicons]]  (included ''android-chrome-192x192.png'')
   * [[docs:utility:shortcut]]
 
 
 
 
 <btn class="mb-5">
-[[docs:getting_started:getting_started|Love it ? Try it !]]
+[[howto:getting_started:getting_started|Love it ? Try it !]]
 </btn>

@@ -24,7 +24,7 @@ For each page move, we:
 
 You can quickly move a page with the ''rename'' action in the [[docs:layout:page:railbar|railbar]].
 
-{{:docs:getting_started:move_plugin_rename.png|}}
+{{howto:getting_started:move_plugin_rename.png|}}
 
 ===== Support =====
 

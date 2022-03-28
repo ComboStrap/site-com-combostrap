@@ -24,7 +24,7 @@ It contains:
 ===== Steps =====
 
 ==== DokuWiki Pre-requisites ====
-In case, you have not followed the [[docs:getting_started:1_dokuwiki|dokuwiki step]], you should install ''ComboStrap'' on the last dokuwiki version.
+In case, you have not followed the [[howto:getting_started:1_dokuwiki|dokuwiki step]], you should install ''ComboStrap'' on the last dokuwiki version.
 
 If you don't know the version of your installation, the [[1_dokuwiki#dokuwiki_version_check|dokuwiki version check]] will help you.
 ==== Go to the Extension Manager ====
@@ -44,7 +44,7 @@ To install the ''Combo'' plugin:
   * Search for the term ''sqlite''
   * Click on the ''install'' button.
 
-{{docs:getting_started:sqlite_install_via_extension_manager.png|}}
+{{howto:getting_started:sqlite_install_via_extension_manager.png|}}
 
 ==== Disable the already included extensions ====
 <note warning>
@@ -58,7 +58,7 @@ Steps:
   * Search the extension in the ''extension manager''
   * And click the disable button (or uninstall)
 
-{{docs:getting_started:dokuwiki_disable_button_extension.png|}}
+{{howto:getting_started:dokuwiki_disable_button_extension.png|}}
 
 
 <note tip>
@@ -67,7 +67,7 @@ The ''combo'' term was chosen for this reason. It's just a ''combo''
 
 ==== Do you have any other plugins ? ====
 
-''ComboStrap'' is tested against [[docs:getting_started:4_plugin|third party plugins]] but we can't test them all.
+''ComboStrap'' is tested against [[howto:getting_started:4_plugin|third party plugins]] but we can't test them all.
 
 This application has a large code base going from [[:docs:cache:cache|cache]] to [[docs:router:router|routing]] and [[docs:component|user interface]] management.
 
@@ -83,7 +83,7 @@ And to [[:support|send us the log of your webserver]] if you want us to take a l
   * Search for the term ''Combo''
   * Click on the ''install'' button.
 
-{{docs:getting_started:combo_install_via_extension_manager.png|}}
+{{howto:getting_started:combo_install_via_extension_manager.png|}}
 
 
 ===== Next Step =====

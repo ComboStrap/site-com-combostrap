@@ -61,5 +61,5 @@ To install the [[:strap|Strap template]]:
 
 ===== Next Step =====
 <btn>
-[[docs:getting_started:4_plugin|Install extra utility plugins]]
+[[howto:getting_started:4_plugin|Install extra utility plugins]]
 </btn>

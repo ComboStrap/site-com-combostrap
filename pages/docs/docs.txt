@@ -17,7 +17,7 @@ On the left side in the tree navigation pane, you can explore all features and c
 From [[docs:seo:seo|SEO]] to [[docs:component|UI Component]], ComboStrap supports a lot of features.
 
 <note>
-If you don't have any knowledge of ComboStrap, we recommend to start first with our [[docs:getting_started:getting_started|getting started guide]].
+If you don't have any knowledge of ComboStrap, we recommend to start first with our [[howto:getting_started:getting_started|getting started guide]].
 </note>
 
 \\

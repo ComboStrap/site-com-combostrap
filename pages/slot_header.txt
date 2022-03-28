@@ -7,7 +7,7 @@ ComboStrap
 [[:docs:docs?preview&color=secondary|Docs]]
 [[support?preview&color=secondary|Contact]]
 </group>
-<btn elevation="true">[[docs:getting_started:getting_started?preview|Get Started <icon name="arrow-right-drop-circle-outline" width="1.5rem"/>]]</btn>
+<btn elevation="true">[[howto:getting_started:getting_started?preview|Get Started <icon name="arrow-right-drop-circle-outline" width="1.5rem"/>]]</btn>
 <search/>
 </collapse>
 </menubar>

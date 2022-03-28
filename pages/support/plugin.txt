@@ -43,14 +43,14 @@ If you don't want to create [[docs:quality:broken_link|broken links]] don't forg
 
 You access it on the admin page via the ''admin'' action of the [[docs:layout:page:railbar|railbar]]
 
-{{:docs:getting_started:admin_railbar.png|}}
+{{howto:getting_started:admin_railbar.png|}}
 
 ==== Cache ====
 If you have an inconsistent page, you may have a cache issue. The [[doku>plugin:stale]] permits to make the whole cache stale in one click.
 
 You access it as action in the [[docs:layout:page:railbar|railbar]]
 
-{{:docs:getting_started:stale_plugin_rail_action.png|}}
+{{howto:getting_started:stale_plugin_rail_action.png|}}
 ==== Google Analytics ====
 
 If you want some analytics information on your page, you can use the following Google plugin:
@@ -59,7 +59,7 @@ If you want some analytics information on your page, you can use the following G
 
 You can configure your tag id via the [[doku>plugin:config|configuration manager]] available via the ''admin'' action of the [[docs:layout:page:railbar|railbar]]
 
-{{:docs:getting_started:admin_railbar.png|}}
+{{howto:getting_started:admin_railbar.png|}}
 
 
 ==== ImageMapping ====

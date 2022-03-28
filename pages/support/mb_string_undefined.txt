@@ -12,7 +12,7 @@
 
 
 ===== Problem =====
-When [[docs:getting_started:1_dokuwiki|installing combostrap on the server]], the below error may occurs.
+When [[howto:getting_started:1_dokuwiki|installing combostrap on the server]], the below error may occurs.
 
 <console>
 [Sat Jan 29 15:27:04.904342 2022] [php7:error] [pid 68063] [client 127.0.0.1:58960] PHP Fatal error:  Uncaught Error: Call to undefined function mb_substr() in /var/www/html/dokuwiki/lib/plugins/combo/ComboStrap/DokuPath.php:167

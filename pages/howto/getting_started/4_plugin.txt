@@ -17,7 +17,7 @@ This page is an optional and informative step that highlights important informat
 [[:combostrap|ComboStrap]] supports [[:support:plugin|third party plugins]] and you can see them all on their  [[:support:plugin|dedicated page]].
 
 
-You can install any plugin the same way than [[docs:getting_started:2_combo|Combo]] and [[docs:getting_started:3_strap|Strap]] with the [[doku>plugin:extension|extension manager]].
+You can install any plugin the same way than [[howto:getting_started:2_combo|Combo]] and [[howto:getting_started:3_strap|Strap]] with the [[doku>plugin:extension|extension manager]].
 
 
 
@@ -28,7 +28,7 @@ We support the [[docs:page:move|move plugin]]
 
 You can quickly move a page with the ''rename'' action in the [[docs:layout:page:railbar|railbar]].
 
-{{:docs:getting_started:move_plugin_rename.png|}}
+{{howto:getting_started:move_plugin_rename.png|}}
 
 
 <note warning>
@@ -52,5 +52,5 @@ If you have any problems with a third party plugin:
 
 
 <btn color="white">
-[[docs:getting_started:6_favicon|Install a favicon]]
+[[howto:getting_started:6_favicon|Install a favicon]]
 </btn>
