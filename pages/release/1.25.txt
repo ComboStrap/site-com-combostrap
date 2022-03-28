@@ -15,6 +15,7 @@ The release 1.25 is the last development branch of Combostrap
   * In a [[docs:layout:component:grid|grid]], a ''cell'' now supports the [[docs:styling:clickable|clickable attribute]]
   * A ''grid'' is now supported in a [[docs:templating:iterator|iterator]].
   * The [[docs:navigation:toc|Table Of Content]] is no more attached to the [[docs:utility:renderer|renderer]] and can now be placed inside the page via the toc component.
+  * The slot manager was added in the [[docs:layout:page:railbar|railbar]] to help create and localize [[docs:layout:page:slot|slots]].
 
 ==== Improvement ====
 
