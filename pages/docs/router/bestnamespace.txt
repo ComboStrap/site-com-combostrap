@@ -11,7 +11,7 @@
 
 
 ===== About =====
-''Redirection by best namespace'' is a [[action|redirection action]]  that performs the same algorithm than the [[bestpagename|redirection by best page name]] but only for the [[docs:type:home|home pages of namespace]].
+''Redirection by best namespace'' is a [[action|redirection action]]  that performs the same algorithm than the [[bestpagename|redirection by best page name]] but only for the [[docs:type:index|home pages of namespace]].
 
 If two home pages have the same score, the smallest home page path is chosen.
 

@@ -17,7 +17,7 @@
 
 By default, the ''brand'' component will show your brand. Ie a button with:
   * your [[docs:app:logo|logo]]
-  * a [[docs:app:root|link to your main website home page]] 
+  * a [[docs:app:home|link to your main website home page]] 
   * styled with your [[docs:app:color|brand colors]]
 
 Example:

@@ -1,0 +1,22 @@
+---json
+{
+    "description": "The namespace of a page is the equivalent of a directory in the page system.",
+    "page_id": "yok3em4px0fugqlsjo3pg",
+    "title": "What is the namespace of a page ?"
+}
+---
+
+
+===== About =====
+The ''namespace'' of a page is the equivalent of a directory in the [[system|page system]].
+
+
+===== Example =====
+
+  * If the [[docs:page:path|path]] of your page is ''group:category:page-name''
+  * It's namespace is ''group:category''
+
+<note>
+  * A namespace may have a namespace. In the example above: the ''category'' namespace belongs to the namespace ''group''
+  * They all materialize in a directory in a directory (ie the directory ''group'' has the child directory ''category'')
+</note>

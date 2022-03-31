@@ -19,4 +19,4 @@ You can update them with the [[docs:metadata:manager|metadata manager]].
 
 ===== Default =====
 
-By default, ComboStrap will add all the words  found in the [[docs:page:name|name]] of the page and if its parent expected the [[docs:app:root|website home page]].
+By default, ComboStrap will add all the words  found in the [[docs:page:name|name]] of the page and if its parent expected the [[docs:app:home|website home page]].

@@ -10,8 +10,8 @@ The ''page system'' is a system that organize the [[docs:layout:page:page|pages]
 
 With the [[docs:page:path|page path]] '':foo:bar:hallo''
   * the [[docs:page:name|page name]] is ''hallo''
-  * the namespace is '':foo:bar:''
-  * the [[docs:type:home|parent/home page]] is '':foo:bar:start'' ('':foo:bar:bar'' if the start page does not exist)
+  * the [[namespace|namespace]] is '':foo:bar:''
+  * the [[docs:type:index|parent page (index)]] is '':foo:bar:start'' ('':foo:bar:bar'' if the start page does not exist)
 
 ===== Usage =====
 The following components are based on the page system:
@@ -24,7 +24,7 @@ The following components are based on the page system:
 The characteristics of the ''page system'' are:
   * every page has a hierarchical [[docs:page:path|path]] (composed of names separated by semi-colon '':'').
   * the namespace of a page is the path of the page without the last name.
-  * the parent of a page is the [[docs:type:home|home page]] of the namespace.
+  * the parent of a page is the [[docs:type:index|index page]] of the namespace.
 
 On the file system:
   * a page is a text file

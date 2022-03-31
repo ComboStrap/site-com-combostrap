@@ -13,7 +13,7 @@ A tagline is a short and appealing marketing description for your website.
 
 It's used:
   * in the ''description'' field of the [[docs:app:manifest|manifest]]
-  * in the [[docs:type:home#root|root home page]] [[docs:page:title|title]].
+  * in the [[docs:type:index#root|root home page]] [[docs:page:title|title]].
   * in the home page [[..:type:website|website metadata]] as site description.
   * in a [[docs:type:organization|organisation page]]
 

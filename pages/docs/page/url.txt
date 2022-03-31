@@ -64,8 +64,8 @@ The page URL may get the following format:
 | ''canonical path'' | the [[docs:page:canonical|canonical path]] | No | ''page path'' |
 | ''permanent canonical path'' | the [[docs:page:canonical|canonical path]] and the short page identifier | Yes | ''permanent page path'' |
 | ''slug'' | the [[slug|slug path]] and the short page identifier | Yes | [[docs:page:title|page title]] in slug format |
-| ''hierarchical slug'' | the [[docs:page:name|page name]] of **all** [[docs:type:home|parent home pages]], the [[slug|slug path]] and the short page identifier | Yes | Na |
-| ''homed slug'' | the [[docs:page:name|page name]] of the [[docs:type:home|parent home page]], the [[slug|slug path]] and and the short page identifier | Yes | Na |
+| ''hierarchical slug'' | the [[docs:page:name|page name]] of **all** [[docs:type:index|parent home pages]], the [[slug|slug path]] and the short page identifier | Yes | Na |
+| ''homed slug'' | the [[docs:page:name|page name]] of the [[docs:type:index|parent home page]], the [[slug|slug path]] and and the short page identifier | Yes | Na |
 
 You may choose the format with the [[#pageUrlType|page url type configuration]]
 

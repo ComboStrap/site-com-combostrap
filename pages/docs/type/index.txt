@@ -1,12 +1,17 @@
 ---json
 {
-    "page_id": "5ni2cs3g6pvlrl1bnjfdm"
+    "aliases": [
+        { "path": ":docs:type:home" }
+    ],
+    "canonical": ":home",
+    "description": "An index page is the page shown when a namespace is asked in the URL or link path.",
+    "page_id": "5ni2cs3g6pvlrl1bnjfdm",
+    "title": "What is a index page ?"
 }
 ---
-====== Home Page ======
 
 ===== About =====
-An ''home'' page is the page shown when a namespace is asked in the [[docs:page:url|URL]] or [[docs:content:link|link]] path.
+An ''index'' page is the page shown when a [[docs:page:namespace|namespace]] is asked in the [[docs:page:url|URL]] or [[docs:content:link|link]] path.
 
 ===== Example =====
 
@@ -27,16 +32,16 @@ https://foo.com/bar/bar
 
 
 ===== Sql Templating =====
-In a [[docs:templating:sql|Page Sql]], you can select all home pages with the attribute ''is_home''
+In a [[docs:templating:sql|Page Sql]], you can select all home pages with the attribute ''is_index''
 
 Example:
 <code sql>
-select where is_home = 1 order by path desc limit 4
+select where is_index = 1 order by path desc limit 4
 </code>
 
 On this website, this SQL will select the following pages.
 <iterator>
-    <data>select where is_home = 1 order by path asc limit 4</data>
+    <data>select where is_index = 1 order by path asc limit 4</data>
 ^ Path ^
 <template>
 | [[$path|$path]] |
@@ -44,7 +49,7 @@ On this website, this SQL will select the following pages.
 </iterator>
 
 ===== WebSite =====
-The website home page is a special home page that has its own page: [[docs:app:root]]
+The website home page is a special index page that has its own documentation : [[docs:app:home]]
 
 
 

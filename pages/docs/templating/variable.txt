@@ -32,7 +32,7 @@ The supported attribute can be used:
   * ''type'' - the [[docs:type:type|type of page]]
   * ''is_low_quality'' - a boolean that is set to 1 if the page is of [[docs:quality:low_quality_page|low quality]]
   * ''lang'' - the [[docs:styling:lang|lang]] of a page
-  * ''is_home'' - a boolean that is set to 1 if the page is a [[docs:type:home|home page]]
+  * ''is_index'' - a boolean that is set to 1 if the page is a [[docs:type:index|index page]]
   * ''slug'' - the [[docs:page:slug|slug]] of the page
   * ''level'' - the [[docs:page:level|level]] of the page in the file system tree
   * ''depth'' - the maximum difference between the [[docs:page:level|level]] of the current page and the selected page ([[docs:templating:sql|page sql only attribute]])

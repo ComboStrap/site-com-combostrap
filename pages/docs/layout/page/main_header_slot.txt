@@ -15,7 +15,7 @@ The ''main header slot'' is a [[slot|slot]] located at the top of the [[main|mai
 
 
 
-A main header slot applies to all pages except the [[docs:app:root|root page]].
+A main header slot applies to all pages except the [[docs:app:home|root page]].
 
 ===== How to create a main header slot ? =====
 

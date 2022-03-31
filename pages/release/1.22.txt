@@ -47,7 +47,7 @@ The most well severe bug are:
 ===== List of changes =====
 
 ==== New ====
-  * The [[docs:type:home|home]] page attribute ''is_home'' in order to be able to select the home pages within [[docs:templating:sql|page sql]]
+  * The [[docs:type:index|home]] page attribute ''is_home'' in order to be able to select the home pages within [[docs:templating:sql|page sql]]
   * The [[docs:content:link#enableenhancedlinkwizard|enhanced link wizard]] to search also on path, title, heading and name of a page.
   * [[docs:templating:sql|Page SQL]] can now return [[docs:navigation:backlink|backlink pages]]
   * ''references between pages'' (ie [[docs:content:link|link]] and [[docs:navigation:backlink|backlink]]) are now [[docs:analytics:replication|replicated]] in the [[docs:analytics:database|database]]
@@ -95,7 +95,7 @@ The most well severe bug are:
   * The [[docs:social:google#json-ld|google json-ld]] supports now a full json-ld value. It's easier to valid it with the playground for the user.
   * The lock file created by the [[support:plugin#move|move plugin]] is now checked for every parse. It was only checked for page move and was purging page automatically each time making the site really slow.
   * The [[docs:cache:slot|side slots cache management]] removes the cache only when one of the description attributes is updated (ie name, title, h1, description)
-  * The [[docs:page:title|page title]] for a web page has been enhanced with the [[docs:type:home|namespace name]] and [[docs:app:name|website name]]
+  * The [[docs:page:title|page title]] for a web page has been enhanced with the [[docs:type:index|namespace name]] and [[docs:app:name|website name]]
   * The [[docs:utility:disqus|disqus identifier]] is now the [[docs:page:page_id|page id]] by default.
   * The [[docs:diagram:railroad|railroad diagram library]] is now served as resource with the no-transform attribute and will then not be transformed by a proxy.
 

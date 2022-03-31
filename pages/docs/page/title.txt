@@ -47,11 +47,11 @@ Example for this page with ''Page title (Set by Combostrap)''
 ===== Default  =====
 
 By default, the title of a page is in order of precedence:
-   * the [[docs:app:tagline|tagline]] if this is the [[docs:type:home#root|root home page]]
+   * the [[docs:app:tagline|tagline]] if this is the [[docs:type:index#root|root home page]]
    * the [[docs:page:h1|the first heading]] if not empty
    * the [[docs:page:name|page name]]
 
 <note>
-The  [[docs:type:home|namespace name]] and the [[docs:app:name|app name]] are added to the web browser title.
+The  [[docs:type:index|namespace name]] and the [[docs:app:name|app name]] are added to the web browser title.
 </note>
 

@@ -13,10 +13,10 @@
 ===== About =====
 ''WebSite'' is a [[type|page type]] that shows information to [[docs:seo:seo|search engine]] over the whole website.
 
-Generally, you would have only one page of this type and it would be your [[docs:type:home#website|website home page]].
+Generally, you would have only one page of this type and it would be your [[docs:type:index#website|website home page]].
 
 
-<note>''ComboStrap'' sets automatically a ''website'' [[type|type]] page on the [[docs:type:home#website|website home page]] if not set.</note>
+<note>''ComboStrap'' sets automatically a ''website'' [[type|type]] page on the [[docs:type:index#website|website home page]] if not set.</note>
 
 
 The exact definition of a ''website'' from [[https://schema.org/WebSite|semantic.org]] is a set of related web pages that are served from a single web domain.

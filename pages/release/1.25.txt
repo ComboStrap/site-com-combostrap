@@ -15,8 +15,12 @@ The release 1.25 is the last development branch of Combostrap
   * In a [[docs:layout:component:grid|grid]], a ''cell'' now supports the [[docs:styling:clickable|clickable attribute]]
   * A ''grid'' is now supported in a [[docs:templating:iterator|iterator]].
   * The [[docs:navigation:toc|Table Of Content]] is no more attached to the [[docs:utility:renderer|renderer]] and can now be placed inside the page via the toc component.
-  * The slot manager was added in the [[docs:layout:page:railbar|railbar]] to help create and localize [[docs:layout:page:slot|slots]].
+  * The [[docs:layout:page:slot_manager|slot manager]] was added in the [[docs:layout:page:railbar|railbar]] to help create and localize [[docs:layout:page:slot|slots]].
 
+==== Modification ====
+Because of too much confusion, the following name has been renamed:
+  * The ''home page'' is now known as the [[docs:type:index|index page]]
+  * The ''root page'' is now known as the [[docs:app:home|home page]] 
 ==== Improvement ====
 
   * TODO: Sqlite Index - When the router found a page that exists but is not in the index, it will add it.
@@ -24,11 +28,12 @@ The release 1.25 is the last development branch of Combostrap
   * When [[support:preserve|preserve style]] is set on svg, the svg is shown as an img to avoid style conflict.
   * The [[docs:content:svg|big svg image]] served via an image tag can now be defined in other unit than ''px''.
   * [[docs:router:bestendpagename|Best end page name]]: when two pages with the same score are found, the page with the highest number of backlinks is returned.
+  * In a [[docs:menubar:brand|brand]] with icon, label and link widget, the icon does not participate in the link to not have a visual line caused by the underline style between the text and the icon.
 
 ==== Bug ====
   * The [[docs:app:search|Internal Search Engine]] result was not going away if the escape click reaches no element.
   * When the [[docs:performance:frontend_optimization|Front End Optimization]] was on, the [[docs:app:search|Internal Search Engine]] was no more working because ''DOKU_BASE'' was no more present.
-  * Template version was not checked when the class was already loaded via php-fpm. When [[release:update|upgrading]] combostrap, due to version conflict, the upgrade would crash. The documentation was change and there is know a check each time.
+  * Template version was not checked when the class was already loaded via php-fpm. When [[release:update|upgrading]] combostrap, due to version conflict, the upgrade would crash. The documentation was change and there is now a check each time.
   * The [[docs:templating:sql|page sql backlink]] did not add a dependency on the requested page.
   * When used in a slot, the snippet of the carrousel could be missing. The bug was that the snippets were stored by slot and not by rendered page. As a carrousel can show a grid or a carrousel that depends on the number of items, the last page rendered was overwriting the snippets. If a page rendered add few backlinks, the carrousel was a grid and the carrousel glide javascript was no more present for the other page from the cache. The snippets cache now should have the same key cache than the rendered slot.
   * The [[docs:router:message|redirection message]] was printed at the end of the page. We test now that it's the first child of the main content.

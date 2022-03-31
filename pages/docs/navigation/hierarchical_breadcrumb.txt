@@ -12,7 +12,7 @@ A ''Hierarchical Breadcrumb'' is a [[docs:navigation:breadcrumb|breadcrumb]] tha
 
 
   * It's a [[docs:navigation:navigation|navigational component]] that reflects the hierarchy of the URL
-  * It gives the reader  the possibility to navigate to the parent (ie up to the [[docs:app:root|website home page]])
+  * It gives the reader  the possibility to navigate to the parent (ie up to the [[docs:app:home|website home page]])
   * It helps the reader to find their place within a website or web application. 
 
 

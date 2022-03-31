@@ -4,6 +4,6 @@
 <slide size="md">
 <row>
 <cell><template><heading h1>$title</heading></template></cell>
-<cell><template><page-image path="$path" height="250"/></template></cell>
+<cell><template><page-image path="$path" height="250" default="parent"/></template></cell>
 </row>
 </slide>
