@@ -23,6 +23,7 @@ The release 1.25 is the last development branch of Combostrap
   * TODO: https://bitwarden.com/help/website-icons/
   * When [[support:preserve|preserve style]] is set on svg, the svg is shown as an img to avoid style conflict.
   * The [[docs:content:svg|big svg image]] served via an image tag can now be defined in other unit than ''px''.
+  * [[docs:router:bestendpagename|Best end page name]]: when two pages with the same score are found, the page with the highest number of backlinks is returned.
 
 ==== Bug ====
   * The [[docs:app:search|Internal Search Engine]] result was not going away if the escape click reaches no element.
@@ -33,3 +34,4 @@ The release 1.25 is the last development branch of Combostrap
   * The [[docs:router:message|redirection message]] was printed at the end of the page. We test now that it's the first child of the main content.
   * The first image was not updated correctly. A bad condition mades the first image to stay for the first [[docs:content:svg|svg]] found.
   * Two [[docs:content:highlight|markdown highlights]] on the same line would highlight also the content in-between.
+  * The [[docs:router:bestendpagename|Best End Page Name Algorithm]] was not returning the best page but the first one with a score of 1. There was therefore no permanent redirect.
