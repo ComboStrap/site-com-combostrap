@@ -31,6 +31,6 @@
 </row>
 
 <row class="align-items-center">
-<cell class="col-12 col-sm-3" color="muted" text-align="center">Edit / Improve this page:</cell>
-<cell><brand github url="https://github.com/ComboStrap/website/edit/master/pages/$path.txt"/></cell>
+<cell class="col-12 col-sm-3" color="muted" text-align="center">Page Improvement:</cell>
+<cell><brand github widget="link" url="https://github.com/ComboStrap/website/edit/master/pages/$path.txt" width="26"> Edit it yourself</brand> or <brand github url="https://github.com/ComboStrap/website/issues/new?title=Docs%20feedback:%20$path" width="26" widget="link"> Request a modification</brand></cell>
 </row>
