@@ -6,7 +6,7 @@
 ---
 
 ===== About =====
-The ''slot manager'' is a [[docs:layout:page:railbar|railbar actions]] that permits to manage [[docs:layout:page:slot|secondary slot]].
+The ''slot manager'' is a [[docs:layout:page:railbar|railbar actions]] that permits to manage [[docs:layout:page:slot|secondary slots]].
 
 You can
   * see
@@ -16,9 +16,9 @@ The slot manager will shows all [[docs:layout:page:slot|secondary slot]].
   * The blue link are the markup slot that exists in the [[docs:page:system|page system]]
   * The gray link are the markup slot that you can create
 
-The markup slots used for the page are the slot with the highest [[docs:page:level|level]] (the first in each list)
+The markup slots used for the page are the slots with the highest [[docs:page:level|level]] (the first in each list)
 
-The ''slot manager'' appears when you click on the following icon <icon name="combo:images:entypo-text-document-inverted"/> in the [[docs:layout:page:railbar|railbar]].
+The ''slot manager'' appears when you click on the following icon <icon name="entypo:text-document-inverted"/> in the [[docs:layout:page:railbar|railbar]].
 
 {{:docs:layout:page:slot_manager.jpg?500|}}
 
