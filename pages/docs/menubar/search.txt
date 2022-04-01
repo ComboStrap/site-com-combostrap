@@ -37,6 +37,26 @@ Example when you type the search term ''Search'' on this website:
 
 {{:docs:menubar:pagelist-search-box-combostrap.png|}}
 
+==== Search expression ====
+
+You can enter the following expressions in the search box to refine your search for a term (known below as the search term):
+
+  * ''starts with''
+<code>
+*searchterm
+</code>
+  * ''ends with''
+<code>
+searchterm*
+</code>
+  * ''contains''
+<code>
+*searchterm*
+</code>
+  * Search only in specific [[docs:page:namespace|namespace]] 
+<code>
+*searchterm* @mynamespace
+</code>
 
 ===== Syntax =====
 
