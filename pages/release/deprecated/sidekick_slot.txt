@@ -1,0 +1,18 @@
+---json
+{
+    "page_id": "yf3ajsqn8emcphcq4wgd3"
+}
+---
+
+====== Strap Template - Sidekick Slot ======
+
+===== About =====
+The ''sidekick slot'' has been deprecated for the [[docs:layout:page:main_side_slot|main side slot]].
+
+
+
+
+===== Configuration =====
+==== Name ====
+
+You can configure the name of the ''sidekickslot'' with the ''tpl»strap»sidekickslot'' [[docs:app:configuration|configuration]]

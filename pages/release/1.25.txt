@@ -29,6 +29,7 @@ Because of too much confusion, the following name has been renamed:
   * The [[docs:content:svg|big svg image]] served via an image tag can now be defined in other unit than ''px''.
   * [[docs:router:bestendpagename|Best end page name]]: when two pages with the same score are found, the page with the highest number of backlinks is returned.
   * In a [[docs:menubar:brand|brand]] with icon, label and link widget, the icon does not participate in the link to not have a visual line caused by the underline style between the text and the icon.
+  * The linkwizard was modified to show only pages. It will not group pages by namespace as dokuwiki does by default. 
 
 ==== Bug ====
   * The [[docs:app:search|Internal Search Engine]] result was not going away if the escape click reaches no element.

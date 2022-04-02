@@ -1,0 +1,12 @@
+====== Main Side Slot ======
+
+
+===== About =====
+The ''main side slot'' is a [[slot|slot]] that is located at the right side of the [[docs:layout:page:main|main slot]].
+
+===== How it works =====
+This is a standard [[docs:layout:page:slot|slot feature]]
+
+  * Create a page called ''slot_main_side'' with the help of the [[docs:layout:page:slot_manager|slot manager]]
+  * And you will see its content appears at the right side of the main content.
+
