@@ -26,7 +26,7 @@ We missed it in the test case, sorry.
 The bar configurations were changed and renamed to [[docs:layout:page:slot|slot]]. The new release should take care of the migration but if
 there is any problem during the migration, you may not see your header, footer or sidebar. If this is the case, you should just set the value in your [[docs:layout:page:slot|slot configuration]]
   * [[docs:layout:page:side_slot|side slot]]
-  * [[docs:layout:page:sidekick_slot|sidekick slot]]
+  * [[release:deprecated:sidekick_slot|sidekick slot]]
   * [[docs:layout:page:header_slot|header slot]]
   * [[docs:layout:page:footer_slot|footer slot]]
 </note>

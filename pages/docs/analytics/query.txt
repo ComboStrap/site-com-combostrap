@@ -104,7 +104,9 @@ select sqlite_version();
 </file>
    * The json module should be present when executing the below SQL.
 <code sql>
-PRAGMA compile_options;
+PRAGMA compile_options; 
+-- or
+select * from pragma_compile_options() where compile_options = 'ENABLE_JSON1';
 </code>
 <file>
 ^ compile_options ^

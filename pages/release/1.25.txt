@@ -30,6 +30,7 @@ Because of too much confusion, the following name has been renamed:
   * [[docs:router:bestendpagename|Best end page name]]: when two pages with the same score are found, the page with the highest number of backlinks is returned.
   * In a [[docs:menubar:brand|brand]] with icon, label and link widget, the icon does not participate in the link to not have a visual line caused by the underline style between the text and the icon.
   * The linkwizard was modified to show only pages. It will not group pages by namespace as dokuwiki does by default. 
+  * The [[:docs:utility:prism|prism components]] (console, file, code) load their stylesheet with the page and no more via javascript leading to the suppression of a layout shift.
 
 ==== Bug ====
   * The [[docs:app:search|Internal Search Engine]] result was not going away if the escape click reaches no element.
@@ -41,3 +42,4 @@ Because of too much confusion, the following name has been renamed:
   * The first image was not updated correctly. A bad condition mades the first image to stay for the first [[docs:content:svg|svg]] found.
   * Two [[docs:content:highlight|markdown highlights]] on the same line would highlight also the content in-between.
   * The [[docs:router:bestendpagename|Best End Page Name Algorithm]] was not returning the best page but the first one with a score of 1. There was therefore no permanent redirect.
+  * The [[:docs:utility:prism|prism component]] (code, console, file) didn't have the ''copy'' button. The migration to a new version has forgotten the copy plugin and there was a version mismatch between the plugin and prism. This is corrected.

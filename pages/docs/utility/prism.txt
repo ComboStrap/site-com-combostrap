@@ -19,7 +19,7 @@ The following ''component'' are ''prism component'':
   * [[docs:block:console|console]] - to show the output of a command at the terminal
   * [[docs:block:preformatted|preformatted]] - to quote and show unformatted text based on simple text indentation 
 
-<badge>[[release:release|since 1.11]]</badge>
+
 
 
 
@@ -53,8 +53,6 @@ where:
 ```
 You will get this output:
 </webcode>
-
-
 ==== Prompt ====
 
 ''HTML'' code in a [[docs:block:code|code component]] with the following syntax,
