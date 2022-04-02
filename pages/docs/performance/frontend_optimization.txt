@@ -15,8 +15,6 @@
 
 
 
-
-
 ===== The goal =====
 
 ''ComboStrap'' is build only around:
