@@ -297,6 +297,29 @@ only those that were requested would be transformed on the fly and cached by a C
   * [[https://xmlgraphics.apache.org/batik/|Batik]] (svg java)
   * from [[https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/drawImage|canva drawImage]] can use svg as source
 
+
+===== Sqlite =====
+
+How to ship a sqlite version ?
+
+sqlite is part of the php instance. See [[https://datacadamia.com/lang/php/sqlite#locate_the_shared_library_that_your_php_installation_use|datacadamia]]
+
+Library:
+  * In Linux: ''libsqlite3.so.0.8.6''
+  * In Windows: ''libsqlite3.dll''  
+
+The lib can be found 
+  * in the ''php-VERSION-nts-XXX-vs16-x64.zips'' zip file (not in [[https://sqlite.org/download.html|download package]] only command line or windows)
+  * or at [[https://github.com/xerial/sqlite-jdbc/tree/master/src/main/resources/org/sqlite/native|org/sqlite/native]]
+
+It should be ((https://www.php.net/manual/en/ref.pdo-sqlite.php)):
+  * in the PATH 
+  * or in the ''LD_LIBRARY_PATH'' env (php-fpm)
+
+
+
+
+
 ===== Seo =====
 
 ==== Step by step ====
