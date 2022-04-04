@@ -1,0 +1,32 @@
+====== Search Index Manager ======
+
+
+===== About =====
+The [[doku>plugin:searchindex|search index manager]] is a [[:support:plugin|supported plugin]] that will recreate the [[#search index]]
+
+If you change a lot of page or after a [[release:update|release]], the ''search index manager'' should be run to update/rebuild the index.
+
+===== Search Index =====
+
+The ''search index'' is an index of your page that powers:
+  * the [[docs:menubar:search|search component]] 
+  * the [[:docs:navigation:backlink|backlinks]]
+  * the [[:docs:templating:sql|page sql]]
+  * the [[:docs:page:move|page move]]
+  * and every component that makes a query.
+
+The index is updated (([[doku>search|search index update]])) incrementally page by page when a visitor see a page.
+
+
+<note important>
+The [[:docs:page:move|move plugin]] depends on it to retrieve the backlinks and make the corresponding rewrite
+
+If you don't want to create [[docs:quality:broken_link|broken links]] don't forget to rebuild your index if you have added pages externally (ie moved from an other installation via the file system, not via the web interface)
+</note>
+
+===== Install and Access =====
+
+  * You can install it with the [[doku>plugin:extension|extension manager]].
+  * You access it on the admin page via the ''admin'' action of the [[docs:layout:page:railbar|railbar]]
+
+{{howto:getting_started:admin_railbar.png|}}

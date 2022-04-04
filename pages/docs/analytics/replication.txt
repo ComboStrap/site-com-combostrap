@@ -10,29 +10,35 @@
 
 
 ===== About =====
-The ''database replication process'' is the process that creates the [[data|analytical data]] if needed and replicates the data with the [[docs:analytics:database|database]].
+The ''database replication process'' is the process that:
+  * creates the [[data|analytical data]] if needed 
+  * replicates the data into the [[docs:analytics:database|database]].
 
 
 
 
-===== Update =====
+
+
+
+
+===== Sync =====
 Because this is a intensive process, it happens slowly:
   * for every page visited 
   * or for every page that gains or lost backlinks.
 And the output is [[#cache|cached]].
 
-If you want to update all pages in batch, you can do it with the [[#cli]] on the server.
 
-
-===== Cache =====
-
-To purge the analytical cache, you can:
+If you want to sync the database completely, you can:
   * run the [[#cli|cli]]
-  * do it manually for one page by adding the following query ''?do=export_combo_analytics&purge=true''. See [[doku>devel:caching#purging_the_cache|the dokuwiki doc]]
-  * modifying a [[docs:app:configuration|configuration]] forth and back. The update of the configuration file purges the current cache.
+  * run the [[#search index manager|Search Index Manager]]
 
 
-===== Cli =====
+
+==== Search Index Manager ====
+
+The ''search index manager'' is a plugin that will replicate the page data. See how to install it and run it on this page. [[:docs:utility:search_index_ manager]]
+
+==== Cli ====
 On the server, you can [[docs:admin:replication|replicate the data]] to the database with the [[:docs:admin:cli|cli]] following command
 <code bash>
 cd $DOKUWIKI_HOME

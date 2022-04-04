@@ -18,6 +18,7 @@ The page ''name'' is a short text composed of a couple of words (one or two) tha
 This ''name'' will show up:
   * in all [[docs:navigation:navigation|navigational component]] as default page description.
   * in the [[docs:content:link?preview#preview|link preview as title]].
+  * in the label of the link created via [[docs:content:link#wizard|the link wizard]]
   * in the [[docs:page:url#slug|slug url]] as default value for the parent page.
   * as default name for a [[docs:content:link#internal|internal link]]
 

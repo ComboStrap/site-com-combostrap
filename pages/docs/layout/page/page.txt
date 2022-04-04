@@ -1,9 +1,9 @@
 ---json
 {
     "canonical": ":layout",
-    "description": "This article talks about layout management and how it can be defined by page",
+    "description": "This article talks about layout management and how it can be defined by page.",
     "page_id": "9tl87hg8coopjktg8chkh",
-    "title": "Dynamic Layout"
+    "title": "What is a page layout ?"
 }
 ---
 ====== Strap - Page Layout ======
@@ -34,7 +34,7 @@ The default layout is a fully responsive layout (known also as the ''holy grail'
   * a [[docs:layout:page:footer_slot|page footer slot]]
   * and three columns:
       * [[docs:layout:page:side_slot|left slot]]
-      * [[docs:layout:page:sidekick_slot|right slot]]
+      * [[release:deprecated:sidekick_slot|right slot]]
       * [[main|main slot (ie content)]] (main header and footer slot)
 
 They are all [[docs:layout:component:container|contained]] in a page that is:

@@ -1,12 +1,14 @@
 ---json
 {
-    "page_id": "xhixvt6md9ryujvs1r4l7"
+    "h1": "Sidebar",
+    "page_id": "xhixvt6md9ryujvs1r4l7",
+    "title": "What is a side slot ? "
 }
 ---
 ====== Strap - Side Slot ======
 
 ===== About =====
-The ''side slot'' is a [[docs:layout:page:slot|slot]] that is located by default at the left side of the content.
+The ''side slot'' is a [[docs:layout:page:slot|slot]] that is located by default at the left side of the [[docs:layout:page:main|content]].
 
 
 

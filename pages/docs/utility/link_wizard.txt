@@ -1,0 +1,40 @@
+====== Link Wizard ======
+
+
+
+===== About =====
+To insert a link into your page, you can use the ''link wizard'' in the  [[doku>toolbar|editor]].
+
+
+{{:docs:content:link_wizard.png|}}
+
+
+===== Features =====
+
+  * The search occurs in the page [[docs:page:name|name]], [[docs:page:title|title]] and [[docs:page:h1|heading 1]]
+  * The link created uses as label the [[docs:page:name|page name]]
+  * The text match (title or h1) can be seen when hovering above the label.
+  * With the keyboard, you can:
+      * open the wizard shortcut ''Shift+Alt+L''
+      * loop through the result with the ''Tab''
+      * and select the link with ''Enter''
+
+
+
+
+
+
+
+===== Configuration =====
+==== enableEnhancedLinkWizard ====
+
+This configuration is on by default but you can disable it by unchecking the ''enableEnhancedLinkWizard'' [[:docs:app:configuration|configuration]]
+
+
+===== Support =====
+==== No Data ====
+This functionality depends on the [[docs:analytics:replication|data replication process]]. If you don't get the pages that you expect, you can perform a full replication manually. See [[docs:analytics:replication]]
+
+==== It does not work on the first opening ====
+
+The first opening shows the standard list of pages in the actual namespace. This view is not customized because dokuwiki does not allow it.

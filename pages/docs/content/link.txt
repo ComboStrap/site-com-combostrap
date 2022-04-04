@@ -2,7 +2,8 @@
 {
     "description": "The link component permits to create hyperlinks between pages.",
     "name": "links",
-    "page_id": "0oocdu2rx6z4pyfb3un4w"
+    "page_id": "0oocdu2rx6z4pyfb3un4w",
+    "title": "The link component"
 }
 ---
 ====== ComboStrap UI - Link ======
@@ -191,6 +192,12 @@ Example:
 <note important>
 You can't use the form ''s[]'' to highlight words.  Why ? See [[#Square bracket not allowed]]
 </note>
+
+===== Wizard =====
+
+To insert a link into your page, you can use the [[docs:utility:link_wizard]] in the editor.
+
+
 ===== Configuration =====
 
 ==== useDokuwikiLinkClassName ====
@@ -212,17 +219,7 @@ Note that the link component enhances the [[doku>wiki:syntax#links|link]] syntax
 ==== previewLink ====
 If you enable this configuration, the [[#preview|preview]] attribute will be set on all internal link.
 
-==== enableEnhancedLinkWizard ====
 
-In the  [[doku>toolbar|editor]], ComboStrap will make the ''link wizard'' also search for pattern in [[docs:page:path|path]], [[docs:page:title|title]], [[docs:page:h1|heading 1]] and [[docs:page:name|name]]
-
-{{:docs:content:link_wizard.png|}}
-
-This configuration is on by default but you can disable it by unchecking the ''enableEnhancedLinkWizard '' configuration.
-
-<note>
-This functionality depends on the [[docs:analytics:replication|data replication process]]. If you don't get the pages that you expect, you can perform a full replication manually. See [[docs:analytics:replication]]
-</note>
 
 
 
