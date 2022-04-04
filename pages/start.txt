@@ -2,6 +2,7 @@
 {
     "description": "Advertise yourself, your documentation or your company with a product that makes a qualitive website design, creation and management, unique, easy and fun",
     "dynamic_quality_monitoring": "false",
+    "keywords": "bootstrap,dokuwiki,documentation,website,frontend,landing page",
     "layout": "landing",
     "name": "Home",
     "page_id": "i9tisp0vsttpkjs46av1o",
