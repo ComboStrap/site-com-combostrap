@@ -18,12 +18,13 @@ This effect is also already automatically added:
 
 ===== Example =====
 
+
 ==== Block ====
 <webcode name="Default" frameborder="0">
 <code dw>
-<toggle target-id="boxId" toggle-state="expanded">
-    <expand>></expand>
-    <collapse><</collapse>
+<toggle light target-id="boxId" toggle-state="expanded">
+    <expand><icon name="bi:arrows-expand"/> Expand</expand>
+    <collapse><icon name="bi:arrows-collapse"/> Collapse</collapse>
 </toggle>
 <box id="boxId" toggle-state="expanded">
 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
@@ -31,18 +32,6 @@ Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richa
 </code>
 </webcode>
 
-==== Block With Icon ====
-<webcode name="Default" frameborder="0">
-<code dw>
-<toggle target-id="boxId" toggle-state="expanded">
-    <expand><icon name="bi:arrows-collapse"/></expand>
-    <collapse><icon name="bi:arrows-expand"/></collapse>
-</toggle>
-<box id="boxId" toggle-state="expanded">
-Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-</box>
-</code>
-</webcode>
 ==== Text Toggle ====
 
 <webcode name="Collapse" frameborder=0 >
@@ -50,8 +39,47 @@ Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richa
 <text>Lorem Ipsum
 <itext id="collapsableTextId" toggle-state="collapsed">
 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-</itext>  <toggle target-id="collapsableTextId">Toggle</toggle>
+</itext><toggle link target-id="collapsableTextId" toggle-state="collapsed"><expand>More ...</expand><collapse>< Less</collapse></toggle>
 </text>
 </code>
 </webcode>
 
+===== Syntax =====
+This animation needs to set attributes:
+  * on the target component to toggle (ie collapse or expand)
+  * and the control (link or button).
+
+
+==== Control ====
+
+On the control component (link or button), you give the component id to toggle via the ''toggleTargetId''
+<code dw>
+<toggle 
+    type="primary|secondary|success|danger|warning|info|light|dark|link"
+    target-id="component-id-to-toggle" 
+    toggle-state="collapsed|expanded"
+>
+    <collapse>Collapse</collapse>
+    <expand>Expand</expand>
+</toggle>
+</code>
+where:
+  * [[:docs:styling:type|type]] is the [[:docs:content:button|button]] type (Default is no styling to be able to use a icon).
+  * ''target-id'' is the ''id'' of the [[#target|target]]
+  * ''toggle-state'' is the initial state of the toggle. Possible values: 
+      * ''collapsed'': the target is hidden (default)
+      * ''expanded'': the target is visible
+
+
+
+==== Target ====
+On the component to toggle
+   * you need to identify it by giving an unique value with the ''id'' attribute
+   * and its initial state.
+<code dw>
+<component id="componentId"  toggle-state="collapsed|expanded"></component>
+</code>
+  * ''target-id'' is the ''id'' of the [[#target|target]]
+  * ''toggle-state'' is the initial state of the component. (This value should be the same than on the [[#toggle]]) Possible values: 
+      * ''collapsed'': the component is hidden
+      * ''expanded'': the component is visible

@@ -118,6 +118,7 @@ The type of the button defines its styling:
 <btn info>Info</btn>
 <btn light>Light</btn>
 <btn dark>Dark</btn>
+<btn link>Link</btn>
 </code>
 </webcode>
 
