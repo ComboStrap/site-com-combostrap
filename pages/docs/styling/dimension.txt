@@ -65,7 +65,7 @@ I'm a note being constraint in a box with a maximum height of 100 pixel.
 === Toggle Scroll ===
 
 
-The default scroll mechanism is a lift but you can also set it to a [[docs:animation:toggle|toggle]]
+The default scroll mechanism is a lift but you can also set it to a [[:docs:animation:toggle|Toggle]]
 
 <webcode name="Height" >
 <code dw>

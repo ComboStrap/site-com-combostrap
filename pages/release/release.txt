@@ -16,6 +16,8 @@ This is a page that lists all releases with their respective changes for [[:comb
 
 ===== Releases =====
   * [[release:latest]]
+  * [[release:1.25]]
+  * [[release:1.24]]
   * [[release:1.23]]
   * [[release:1.22]]
   * [[release:1.21]]

@@ -16,6 +16,7 @@ The release 1.25 is the last development branch of Combostrap
   * A ''grid'' is now supported in a [[docs:templating:iterator|iterator]].
   * The [[docs:navigation:toc|Table Of Content]] is no more attached to the [[docs:utility:renderer|renderer]] and can now be placed inside the page via the toc component.
   * The [[docs:layout:page:slot_manager|slot manager]] was added in the [[docs:layout:page:railbar|railbar]] to help create and localize [[docs:layout:page:slot|slots]].
+  * The [[:docs:animation:toggle|toggle element]]
 
 ==== Modification ====
 Because of too much confusion, the following name has been renamed:
@@ -23,15 +24,17 @@ Because of too much confusion, the following name has been renamed:
   * The ''root page'' is now known as the [[docs:app:home|home page]] 
 ==== Improvement ====
 
-  * TODO: Sqlite Index - When the router found a page that exists but is not in the index, it will add it.
-  * TODO: https://bitwarden.com/help/website-icons/
   * When [[support:preserve|preserve style]] is set on svg, the svg is shown as an img to avoid style conflict.
   * The [[docs:content:svg|big svg image]] served via an image tag can now be defined in other unit than ''px''.
   * [[docs:router:bestendpagename|Best end page name]]: when two pages with the same score are found, the page with the highest number of backlinks is returned.
   * In a [[docs:menubar:brand|brand]] with icon, label and link widget, the icon does not participate in the link to not have a visual line caused by the underline style between the text and the icon.
   * The [[:docs:utility:link_wizard|Link Wizard]] was modified to show only pages. It will not group pages by namespace as dokuwiki does by default. 
   * The [[:docs:utility:prism|prism components]] (console, file, code) load their stylesheet with the page and no more via javascript leading to the suppression of a layout shift.
+  * Added dependatbot. [[https://github.com/ComboStrap/combo/issues/28|issues 28]]
+  * The media manager styling has been improved (the ''select file'' is now a button and the file has been renamed from file uploader to media manager)
 
+==== Deprecated ====
+The [[:release:deprecated:toggle|toggleTargetId]] has been deprecated for the [[:docs:animation:toggle|Toggle element]].
 ==== Bug ====
   * The [[docs:app:search|Internal Search Engine]] result was not going away if the escape click reaches no element.
   * When the [[docs:performance:frontend_optimization|Front End Optimization]] was on, the [[docs:app:search|Internal Search Engine]] was no more working because ''DOKU_BASE'' was no more present.

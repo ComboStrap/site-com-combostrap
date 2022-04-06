@@ -1,0 +1,66 @@
+---json
+{
+    "aliases": [
+        { "path": ":docs:animation:toggle" }
+    ],
+    "description": "The toggleTargetId is an attribute that transform a link or a button in a toggle element",
+    "h1": "ComboStrap - Toggle Effect",
+    "page_id": "h2s4f10a7nweoygtr9obw",
+    "title": "Deprecated - toggleTargetId "
+}
+---
+====== Deprecated - toggleTargetId ======
+
+
+===== About =====
+The ''toggleTargetId'' is deprecated for the [[docs:animation:toggle|toggle component]] that allows to define a custom control for the toggle state.
+
+===== Example =====
+
+==== Toggle from a button ====
+
+A [[docs:content:button|button]] that will expand and collapse a [[docs:block:card|card]] with the help of ''collapse'' attribute.
+<webcode name="Collapse" frameborder=0 >
+<code dw>
+<button toggleTargetId="cardId">
+Click Me to Expand and re-click me to Collapse
+</button>
+<card id="cardId" collapsed>
+Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+</card>
+</code>
+where the following attributes are mandatory:
+  * on the control element (the element to click)
+      * ''toggleTargetId="cardId"'' defines the ''id'' of the element to collapse. In this case, ''cardId''
+  * on the target element (the element to collapse)
+      * ''collapsed'' will collapse the block
+      * ''id="cardId"'' is the id of the card component and is the same value than the ''toggleTargetId'' value of the button.
+</webcode>
+
+==== Toggle from a link ====
+
+<webcode name="Collapse" frameborder=0 >
+<code dw>
+<text>Lorem Ipsum
+<itext id="collapsableTextId" collapsed>
+Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+</itext> [[?toggleTargetId=collapsableTextId#|More/Less...]]
+</text>
+</code>
+</webcode>
+
+===== Syntax =====
+This animation needs to set attributes on the component to toggle and the control (link or button).
+
+
+  * On the component to toggle
+      * you need to identify it by giving an unique value with the ''id'' attribute
+      * and optionally its initial state to ''collapsed''. (Without this attribute, a component is visible)
+<code dw>
+id="componentId" collapsed
+</code>
+  * On the control component (link or button), you give the component id to toggle via the ''toggleTargetId''
+<code dw>
+toggleTargetId="componentIdToToggle"
+</code>
+

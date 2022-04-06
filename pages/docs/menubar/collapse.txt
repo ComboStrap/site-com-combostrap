@@ -12,7 +12,7 @@
 
 <note>
 Other component have collapsible behavior such as:
-  * the [[docs:animation:toggle|toggle effect]]
+  * the [[:docs:animation:toggle|toggle]]
   * the [[docs:layout:component:accordion|accordion]]
 </note>
 

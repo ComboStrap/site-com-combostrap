@@ -215,6 +215,12 @@ A graph view with:
   * depth: 1, 2 ...5
 
 See [[https://help.obsidian.md/Plugins/Graph+view|graph component]] of obsidian 
+
+
+==== Link Icon ====
+
+Bitwaarden has collection of icon for all websites that we could use to add before external link
+  * https://bitwarden.com/help/website-icons/
 ===== Cookie banner =====
 Good example at: https://groningen.nl/en/
 

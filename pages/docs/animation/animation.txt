@@ -18,5 +18,3 @@ All [[docs:block:block|block component]] can be animated:
 
 The animations are different by type of event and you need then to refer to the animation event page to have the full documentation and example.
 
-===== Articles Related =====
-{{backlinks>.}}
