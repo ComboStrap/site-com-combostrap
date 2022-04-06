@@ -18,15 +18,40 @@ This effect is also already automatically added:
 
 ===== Example =====
 
-
+==== Block ====
 <webcode name="Default" frameborder="0">
 <code dw>
-<toggle target-id="boxId">
-Toggle it !
+<toggle target-id="boxId" toggle-state="expanded">
+    <expand>></expand>
+    <collapse><</collapse>
 </toggle>
 <box id="boxId" toggle-state="expanded">
 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
 </box>
+</code>
+</webcode>
+
+==== Block With Icon ====
+<webcode name="Default" frameborder="0">
+<code dw>
+<toggle target-id="boxId" toggle-state="expanded">
+    <expand><icon name="bi:arrows-collapse"/></expand>
+    <collapse><icon name="bi:arrows-expand"/></collapse>
+</toggle>
+<box id="boxId" toggle-state="expanded">
+Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+</box>
+</code>
+</webcode>
+==== Text Toggle ====
+
+<webcode name="Collapse" frameborder=0 >
+<code dw>
+<text>Lorem Ipsum
+<itext id="collapsableTextId" toggle-state="collapsed">
+Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+</itext>  <toggle target-id="collapsableTextId">Toggle</toggle>
+</text>
 </code>
 </webcode>
 
