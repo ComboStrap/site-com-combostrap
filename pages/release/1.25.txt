@@ -18,7 +18,9 @@ The release 1.25 is the last development branch of Combostrap
   * The [[docs:layout:page:slot_manager|slot manager]] was added in the [[docs:layout:page:railbar|railbar]] to help create and localize [[docs:layout:page:slot|slots]].
   * The toggle functionality has been rewritten. The [[:docs:animation:toggle|toggle element]] is new and allows to set the a different control if the target is expanded or collapsed.
   * The [[:docs:app:identity|Identity form code]] is now ready for the new [[https://github.com/ComboStrap/combo/issues/14|DokuWiki version]].
-
+  * A [[:docs:layout:component:container#defaultLayoutContainer|default layout container]] is now used to set:
+      * the whole template layout horizontal alignement
+      * the default value of container aware component such as [[:docs:menubar:menubar|Menubar]]
 ==== Modification ====
 Because of too much confusion, the following name has been renamed:
   * The ''home page'' is now known as the [[docs:type:index|index page]]
@@ -35,7 +37,8 @@ Because of too much confusion, the following name has been renamed:
   * The media manager styling has been improved (the ''select file'' is now a button and the file has been renamed from file uploader to media manager)
 
 ==== Deprecated ====
-The [[:release:deprecated:toggle|toggleTargetId]] has been deprecated for the [[:docs:animation:toggle|Toggle element]].
+  * The [[:release:deprecated:toggle|toggleTargetId]] has been deprecated for the [[:docs:animation:toggle|Toggle element]].
+  * The ''align'' attribute in the [[:docs:menubar:menubar|menubar]] has been replaced by a [[:docs:layout:component:container|container attribute value]]
 ==== Bug ====
   * The [[docs:app:search|Internal Search Engine]] result was not going away if the escape click reaches no element.
   * When the [[docs:performance:frontend_optimization|Front End Optimization]] was on, the [[docs:app:search|Internal Search Engine]] was no more working because ''DOKU_BASE'' was no more present.

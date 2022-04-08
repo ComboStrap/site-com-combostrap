@@ -1,6 +1,5 @@
 
-<footer spacing="p-3" background-color="gradient-light" color="secondary">
-<container >
+<box spacing="p-3" background-color="gradient-light" color="secondary">
 	<row>
 <cell spacing="ms-md-3">
 
@@ -30,5 +29,4 @@ Create web sites, publish landing pages, write articles, how-to's, documentation
     </row>
 </cell>
 </row>
-</container>
-</footer>
+</box>

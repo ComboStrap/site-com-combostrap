@@ -7,38 +7,56 @@
 
 ===== About =====
 A ''container'':
-  * positions the content in the center
-  * and limits the horizontal width (adjusted by [[docs:styling:breakpoint|screen sizes]])
+  * may position its content at the center
+  * limits the horizontal width (adjusted by [[docs:styling:breakpoint|screen sizes]])
+  * add a marge on the horizontal axis ([[:docs:styling:spacing|padding]])
 
 
 
-It's used in [[docs:layout:component:component|layout component]] such as:
-  * [[docs:layout:page:header_slot|page header]]
-  * [[docs:layout:page:footer_slot|page footer]]
-  * and [[docs:layout:component:slide|slide]]
+It may be used to center content in a [[docs:layout:component:slide|slide]]
 
 <note>
 The [[docs:layout:page:page|page layout]] ''holy'' and ''median'' have their main content by default contained.
 </note>
 
-===== Syntax and example =====
+===== Example =====
 
 
-A container with a [[docs:styling:color|light background color]] and a little bit of [[docs:styling:spacing|padding]]
+A container:
+  * that centers its content from the medium breakpoint ''md''
+  * with a [[docs:styling:color|light background color]] 
+  * and a little bit of [[docs:styling:spacing|padding]]
 
+<webcode name="Default" frameborder="0">
 <code dw>
-<container background-color="light" class="p-3">
+<container md background-color="light" spacing="p-3">
 Oh my Container !
 </container>
 </code>
+</webcode>
 
 
-\\
-\\
-\\
+===== Syntax =====
 
+<code dw>
+<container type>
+Content
+</container>
+</code>
+where the [[:docs:styling:type|type]] is ''fluid'' or any [[:docs:styling:breakpoint|breakpoint value]].
 
+^ Value ^ Definition ^
+| ''fluid'' | don't center at all |
+| ''sm'' | center |
+| ''md'' | fluid then center from the medium breakpoint |
+| ''lg'' | fluid then center from the large breakpoint |
+| ''xl'' | fluid then center from the extra-large breakpoint |
+| ''xxl'' | fluid then center from the extra-extra-large breakpoint |
 
-<note important>
-A container has an automatic margin that centers it. You should then not set the margin, otherwise it will be located to the left
-</note>
+===== Configuration =====
+
+==== defaultLayoutContainer ====
+This [[:docs:app:configuration|configuration]] sets the default value for the layout container. The default value is ''sm''.
+
+It's used by layout and component (such as the [[:docs:menubar:menubar|Menubar]]) as default value to center or not the complete layout.
+

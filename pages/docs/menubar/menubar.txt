@@ -10,26 +10,7 @@
 A ''menubar'' is an horizontal [[docs:navigation:navigation|navigational bar]] with links and dropdown menu that should be used in the [[docs:layout:page:header_slot|page header]].
 
 
-Inside a ''menu'' component, you can add:
-  * a [[docs:menubar:brand|brand]] with an optional [[docs:content:icon|icon]]
-  * a [[docs:menubar:group|group]] to group navigational element such as a [[docs:menubar:dropdown|dropdown menu]]
-  * a [[docs:menubar:collapse|collapse container]] to group the element that will collapse
-  * a [[docs:menubar:search|search form]]
-  * a [[docs:content:button|button]]
 
-===== Syntax =====
-<code dw>
-<menubar breakpoint="lg" position="normal" align="left" theme="light">
-</code>
-where:
-  * ''breakpoint'' is one of the [[docs:styling:breakpoint|breakpoint code]] (''xs'','''sm'', ''md'', ''lg'' (Default), ''xl'') when the menu bar will collapse.
-  * ''position'' is one of ''normal'' (default),  [[#fixed-top|top]] (''bottom'' is not yet supported)
-  * ''align'' defines the horizontal placement. Possible values: ''left''(Default) or ''center''
-  * ''theme'' defines the luminance of the text. You can specify ''light'' (default) or ''dark''
-
-<note info>
-The default [[docs:styling:color|background-color]] is a ''light'' background.
-</note>
 
 ===== Example =====
 
@@ -105,3 +86,23 @@ Menubar text with an inline element
 </webcode>
 
 
+===== Syntax =====
+<code dw>
+<menubar breakpoint="lg" position="normal" container="sm" theme="light">
+</code>
+where:
+  * ''breakpoint'' is one of the [[docs:styling:breakpoint|breakpoint code]] (''xs'','''sm'', ''md'', ''lg'' (Default), ''xl'') when the menu bar will [[:docs:menubar:collapse|collapse]].
+  * ''position'' is one of ''normal'' (default),  [[#fixed-top|top]] (''bottom'' is not yet supported)
+  * ''theme'' defines the luminance of the text. You can specify ''light'' (default) or ''dark''
+  * ''container'' is a [[:docs:layout:component:container|container]] value that defines the horizontal layout. It defaults to the [[:docs:layout:component:container#defaultLayoutContainer|default layout container value]]
+
+<note info>
+  * The default [[docs:styling:color|background-color]] is a ''light'' background. 
+</note>
+
+Inside a ''menu'' component, you can add:
+  * a [[docs:menubar:brand|brand]] with an optional [[docs:content:icon|icon]]
+  * a [[docs:menubar:group|group]] to group navigational element such as a [[docs:menubar:dropdown|dropdown menu]]
+  * a [[docs:menubar:collapse|collapse container]] to group the element that will collapse
+  * a [[docs:menubar:search|search form]]
+  * a [[docs:content:button|button]]
