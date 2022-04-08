@@ -90,7 +90,7 @@ where:
           * ''e'': end (right for LTR or left for RTL language)
           * ''t'': top
           * ''b'': bottom
-  * ''breakpoint'' (optional, default to xs) is the [[docs:styling:breakpoint|Breakpoint (Toggle size)]] : xs, sm, md, lg
+  * ''breakpoint'' (optional, default to xs) is the [[docs:styling:breakpoint|Breakpoint (Toggle size)]] : xs, sm, md, lg, xl
   * ''size'' (mandatory) is 0,1,2,3,4 or 5 (based on [[docs:styling:scale|size scale]])
 
 

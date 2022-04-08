@@ -71,7 +71,6 @@ where:
       * ''expanded'': the target is visible
 
 
-
 ==== Target ====
 On the component to toggle
    * you need to identify it by giving an unique value with the ''id'' attribute
@@ -83,3 +82,15 @@ On the component to toggle
   * ''toggle-state'' is the initial state of the component. (This value should be the same than on the [[#toggle]]) Possible values: 
       * ''collapsed'': the component is hidden
       * ''expanded'': the component is visible
+
+
+===== Toggle Based on Screen Size  =====
+
+''toggle-state'' allows [[:docs:styling:breakpoint|breakpoint prefix]] such as
+<code>
+toggle-state="collapsed md-expanded"
+</code>
+The target component will then be: 
+  * ''collapsed'' on small device
+  * and ''expanded'' in medium device. (You can't collapse it anymore)
+

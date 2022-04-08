@@ -9,37 +9,36 @@
 
 
 ===== About =====
-''breakpoints'' allows to create different designs based on the screen size of the browser.  You can apply styling attribute conditionally.
-
-Each breakpoints defines the maximum width of the screen for a property to be applied.
-
-''combostrap'' follows the breakpoints of [[docs:utility:bootstrap|bootstrap]] (even if you have created your [[bootstrap|own custom bootstrap]])
+''breakpoints prefix'' allows to apply value conditionally based on the screen size of the browser.  
 
 
 
+
+
+===== Example =====
+
+By adding the breakpoint as prefix, you create a value that will vary based on the screen size.
+
+The below [[:docs:styling:spacing|spacing value]] is conditional and applies:
+  * for small screen: a padding of 3 (ie ''xs-p-3'' or ''p-3'', ''xs'' being the default)
+  * for medium screen ''md'' and above: a padding of 5 (ie ''md-p-5'')
+<code html>
+<component spacing="p-3 md-p-5" />
+</code>
 
 ===== List =====
 
-==== Bootstrap 5 ====
+Each breakpoints defines the maximum width of the screen for a value to be applied.
 
-^ Breakpoint ^ Prefix ^ Apply to browser size ^
-| X-Small | xs | <576px |
-| Small | sm | ≥576px |
-| Medium | md | ≥768px |
-| Large | lg | ≥992px |
-| Extra large | xl | ≥1200px |
-| Extra extra large \\ (new with [[docs:utility:bootstrap#version|bootstrap 5]]) | xxl | ≥1400px  |
-
-
-==== Bootstrap 4 ====
-
-^ Code ^ Name ^ Device ^ Default \\ Value for a 12 grid columns  ^ Value for a [[release:deprecated:dynamic_grid|16 grid columns]] ^
-| xs (Default) | Extra Small | Mobile Phone | 0 | 0 |
-| sm | Small | Ipad | 576px | 576px |
-| md | Medium | Ipad Pro | 768px | 768px |
-| lg | Large | Desktop | 992px | 992px |
-| xl | Extra Large | Large Desktop | 1200px | 1280px |
+^ Breakpoint ^ Prefix ^ Apply to browser size ^ Device Targeted ^ 
+| X-Small (default) | xs | <576px | Mobile Phone |
+| Small | sm | ≥576px | Ipad |
+| Medium | md | ≥768px | Ipad Pro |
+| Large | lg | ≥992px | Desktop Screen |
+| Extra large | xl | ≥1200px | Large Desktop Screen |
+| Extra extra large \\ (new with [[docs:utility:bootstrap#version|bootstrap 5]]) | xxl | ≥1400px  | Extra Large Desktop Screen |
 
 
-===== Documentation / Reference =====
-  * https://getbootstrap.com/docs/5.0/layout/breakpoints/
+<note>
+''combostrap'' follows the breakpoints of [[docs:utility:bootstrap|bootstrap]] (even if you have created your [[bootstrap|own custom bootstrap]])
+</note>
