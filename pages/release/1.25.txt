@@ -21,6 +21,7 @@ The release 1.25 is the last development branch of Combostrap
   * A [[:docs:layout:component:container#defaultLayoutContainer|default layout container]] is now used to set:
       * the whole template layout horizontal alignement
       * the default value of container aware component such as [[:docs:menubar:menubar|Menubar]]
+  * The [[:docs:navigation:page-explorer|Page explorer]] component will collapse on small device due to the default [[:docs:animation:toggle|toggle-state]] value.
 ==== Modification ====
 Because of too much confusion, the following name has been renamed:
   * The ''home page'' is now known as the [[docs:type:index|index page]]

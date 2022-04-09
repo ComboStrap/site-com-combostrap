@@ -17,7 +17,7 @@ A ''page-explorer'' is a [[docs:navigation:navigation|navigational component]] t
   * or a collapsible ''tree'' (ie clickable levels of folder hierarchy)
 
 
-This component is mostly used in a [[docs:layout:page:side_slot|side slot]] or [[docs:layout:page:sidekick_slot|sidekick slot]]
+This component is mostly used in a [[docs:layout:page:side_slot|side slot]] or [[release:deprecated:sidekick_slot|sidekick slot]]
 
 
 ===== Example =====
@@ -98,17 +98,18 @@ It produces:
 </page-explorer>
 </code>
 where:
-  * the attributes are:
-      * [[docs:styling:type|type]] that defines the layout and may be one of this two value:
-          * [[#list|list]] to create a list navigation pane (the default)
-          * [[#tree|tree]] to create a tree navigation pane
-      * ''ns'' that defines the ''namespace''. The default  value is the namespace of:
-          * the rendered page for a [[#list]]
-          * the physical page for a [[#tree]].
   * the sub-elements ''page'',''namespace'', ''home'' and ''parent'' define [[#template|templates]] for each ''page-explorer'' node.
+  * the page-explorer attributes are:
+
+^ Attribute ^ Default ^ Possible Values ^ Description ^
+| [[docs:styling:type|type]] | [[#list|list]] | [[#list|list]] or [[#tree|tree]] | It defines the layout |
+| ''ns'' | the rendered page for a [[#list]] \\ the physical page for a [[#tree]] | | It defines the [[:docs:page:namespace|namespace]] that should be rendered |
+| ''toggle-state'' | ''collapsed md-expanded'' | A [[:docs:animation:toggle|toggle-state]] value | The page-explorer is collapsed in small device (mobile) |
 
 
+<note>
 ''page-explorer'', ''home'', ''page'', ''parent'' and ''namespace'' are all [[docs:marki|superset HTML component]].
+</note>
 ==== Templates ====
 
 The templates define the output of each node in the ''list'' or ''tree'' layout:

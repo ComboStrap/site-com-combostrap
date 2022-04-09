@@ -24,7 +24,7 @@ A ''menubar'' is an horizontal [[docs:navigation:navigation|navigational bar]] w
 </code>
   * The [[docs:menubar:brand|brand]]. You can also put your logo [[docs:content:icon|icon]]
 <code dw>
-<brand class="pt-0" title="Brand">
+<brand title="Brand">
 <icon name="desktop-mac-dashboard" /> Brandly
 </brand>
 </code>
@@ -91,14 +91,13 @@ Menubar text with an inline element
 <menubar breakpoint="lg" position="normal" container="sm" theme="light">
 </code>
 where:
-  * ''breakpoint'' is one of the [[docs:styling:breakpoint|breakpoint code]] (''xs'','''sm'', ''md'', ''lg'' (Default), ''xl'') when the menu bar will [[:docs:menubar:collapse|collapse]].
-  * ''position'' is one of ''normal'' (default),  [[#fixed-top|top]] (''bottom'' is not yet supported)
-  * ''theme'' defines the luminance of the text. You can specify ''light'' (default) or ''dark''
-  * ''container'' is a [[:docs:layout:component:container|container]] value that defines the horizontal layout. It defaults to the [[:docs:layout:component:container#defaultLayoutContainer|default layout container value]]
 
-<note info>
-  * The default [[docs:styling:color|background-color]] is a ''light'' background. 
-</note>
+^ Attribute ^ Default ^ Possible Values ^ Description ^
+| ''breakpoint'' | ''xl'' | [[docs:styling:breakpoint|breakpoint code]] (''xs'','''sm'', ''md'', ''lg'' , ''xl'')  | Define the width of the screen when the menu bar will [[:docs:menubar:collapse|collapse]] |
+| ''position'' | ''normal'' | [[#fixed-top|top]] | Position of the bar (''bottom'' is not yet supported) |
+| ''theme'' | ''light'' | ''light'' (default) or ''dark'' | It defines the luminance of the text |
+| ''container'' | [[:docs:layout:component:container#defaultLayoutContainer|default layout container value]] | A [[:docs:layout:component:container|container type ]] value | It defines the horizontal layout |
+| [[docs:styling:color|background-color]] | ''light'' | any [[:docs:styling:color|color]] | The background color |
 
 Inside a ''menu'' component, you can add:
   * a [[docs:menubar:brand|brand]] with an optional [[docs:content:icon|icon]]
