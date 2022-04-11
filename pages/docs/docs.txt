@@ -1,7 +1,6 @@
 ---json
 {
     "description": "This section regroups all documentation of ComboStrap in one place.",
-    "layout": "index",
     "page_id": "qltri278a619phdigoici",
     "title": "ComboStrap Documentation"
 }
