@@ -36,6 +36,7 @@ Because of too much confusion, the following name has been renamed:
   * The [[:docs:utility:prism|prism components]] (console, file, code) load their stylesheet with the page and no more via javascript leading to the suppression of a layout shift.
   * Added dependatbot. [[https://github.com/ComboStrap/combo/issues/28|issues 28]]
   * The media manager styling has been improved (the ''select file'' is now a button and the file has been renamed from file uploader to media manager)
+  * The [[:docs:menubar:fixed-top|Fixed Top Menubar]] was causing a small layout shift that has been corrected.
 
 ==== Deprecated ====
   * The [[:release:deprecated:toggle|toggleTargetId]] has been deprecated for the [[:docs:animation:toggle|Toggle element]].
