@@ -53,3 +53,4 @@ Because of too much confusion, the following name has been renamed:
   * Two [[docs:content:highlight|markdown highlights]] on the same line would highlight also the content in-between.
   * The [[docs:router:bestendpagename|Best End Page Name Algorithm]] was not returning the best page but the first one with a score of 1. There was therefore no permanent redirect.
   * The [[:docs:utility:prism|prism component]] (code, console, file) didn't have the ''copy'' button. The migration to a new version has forgotten the copy plugin and there was a version mismatch between the plugin and prism. This is corrected.
+  * The [[:docs:content:inote|Inote]] was not wrapping, making the width of windows overflowing.
