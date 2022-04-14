@@ -119,18 +119,18 @@ If you underline problems, you can also [[#custom|add your own]].
 If the animation name is not found, the name is applied as a class. You can then used all Bootstrap utility class to create an hover effect.
 
 
-Example from an [[docs:styling:skin|outlined button to a contained one]] with the [[https://getbootstrap.com/docs/5.0/components/buttons/|Bootstrap button class]] where:
-  * ''btn-lg'' means a ''larger button''
-  * ''btn-primary'' means with a ''color background''
+Example from an [[:docs:content:button|normal button]] to a bigger one with the ''btn-lg'' [[https://getbootstrap.com/docs/5.0/components/buttons/|Bootstrap button class]] where ''lg'' means a ''larger button''
 <webcode name="Custom" frameborder="0">
 <code dw>
-<button skin="outline" onHover="btn-lg btn-primary" align="center">
+<button info onHover="btn-lg" align="center">
 A button animated with default Bootstrap class
 </button>
 </code>
 </webcode>
 
-
+\\
+\\
+\\
 ==== Custom: Bring it to Combostrap ====
 
 The ''hover animation'' applies the name of the animation as a class to the component when the mouse is hover it.
