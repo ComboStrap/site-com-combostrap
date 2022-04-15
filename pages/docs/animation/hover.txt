@@ -95,10 +95,10 @@ You can also use [[https://ianlunn.github.io/Hover/|Hover.css]] animation.
 
 We support the ''hover.css''naming standard.
 
-Example:
+Example: a [[:docs:content:button|button]] with an underline animated from left
 <webcode name="Default" frameborder="0">
 <code dw>
-<button onHover="underline-from-left" skin="text">A hover underline from left animated button</button>
+<button link onHover="underline-from-left" >A hover underline from left animated button</button>
 </code>
 </webcode>
 
