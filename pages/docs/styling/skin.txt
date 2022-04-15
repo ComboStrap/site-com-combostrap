@@ -12,7 +12,7 @@
   * [[shadow|elevation (shadow)]]
   * and [[border|border]]
 
-<badge>Since [[release:archive:1.4|version 1.4]]</badge>
+
 
 
 
