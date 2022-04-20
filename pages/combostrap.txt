@@ -75,7 +75,7 @@ It contains most of the UI and functional components such as:
   * [[docs:performance:cdn|Serve the Bootstrap files by default from a CDN]]
   * Supports [[docs:layout:page:slot|4 slots]] layout
       * [[docs:layout:page:side_slot|Side slot]] (left)
-      * [[docs:layout:page:sidekick_slot|Sidekick slot]] (right)
+      * [[release:deprecated:sidekick_slot|Sidekick slot]] (right)
       * [[docs:layout:page:header_slot|Header slot]] (top)
       * [[docs:layout:page:footer_slot|Footer slot]] (bottom)
   * [[docs:layout:page:railbar|Aggregate toolbar (Page, User Site) with a private option]]
