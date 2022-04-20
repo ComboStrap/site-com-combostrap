@@ -1,9 +1,9 @@
-
 <box spacing="p-3" background-color="gradient-light" color="secondary">
+<container >
 	<row>
 <cell spacing="ms-md-3">
 
-<text h4 ><icon name="logo.svg"/ spacing="mr-1" color="secondary"/>ComboStrap</text>
+<text h4 ><icon name="logo.svg" spacing="mr-1" color="secondary"/>ComboStrap</text>
 <text lead>The leading web markup platform</text>
 
 <text width="350px">
@@ -29,4 +29,5 @@ Create web sites, publish landing pages, write articles, how-to's, documentation
     </row>
 </cell>
 </row>
+</container>
 </box>

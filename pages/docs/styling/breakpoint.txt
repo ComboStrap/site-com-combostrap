@@ -23,7 +23,7 @@ The below [[:docs:styling:spacing|spacing value]] is conditional and applies:
   * for small screen: a padding of 3 (ie ''xs-p-3'' or ''p-3'', ''xs'' being the default)
   * for medium screen ''md'' and above: a padding of 5 (ie ''md-p-5'')
 <code html>
-<component spacing="p-3 md-p-5" />
+<component spacing="p-3 p-5-md" />
 </code>
 
 ===== List =====

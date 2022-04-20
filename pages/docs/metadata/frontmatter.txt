@@ -14,7 +14,7 @@
 This functionality is used when you want to:
   * move your pages and get the metadata in sync in other ComboStrap installation
   * get an history of the metadata modification
-  * want to kept your short page id close to your page when using  [[docs:page:url#permanent|permant url]]
+  * want to kept your short [[:docs:page:page_id|page id]] close to your page when using  [[docs:page:url#permanent|permant url]]
 
 It borrows its name from the [[kb>markup:front-matter|front matter book]]
 
