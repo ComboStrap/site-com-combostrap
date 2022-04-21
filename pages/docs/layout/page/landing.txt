@@ -1,0 +1,32 @@
+====== Landing Page ======
+
+
+
+===== About =====
+A ''landing page'' is a page with big horizontal sections that shows off your product or services.
+
+
+===== How to create a landing page ? =====
+
+Within Combostrap, you can create a landing page by adding one or more [[:docs:layout:component:bar|bar component]] in your [[:docs:layout:page:main|main slot]].
+
+
+Each bar will then create a section of page where you may add:
+  * separator 
+  * or [[docs:styling:background|background color]] to distinguish them
+
+
+
+
+Example:
+<code dw>
+<bar size="lg">
+    <background color="light"/>
+    Section 1
+</bar>
+<bar size="lg">
+    <background color="blue"/>
+    Section 2
+</bar>
+</code>
+

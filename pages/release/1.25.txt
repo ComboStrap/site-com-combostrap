@@ -40,11 +40,13 @@ Because of too much confusion, the following name has been renamed:
   * The [[:docs:menubar:fixed-top|Fixed Top Menubar]]:
       * was causing a small layout shift that has been corrected.
       * uses another method (scroll-margin-top) to shift the location of the heading text when navigating/scrolling
+  * The railbar when overflowing was not giving the possibility to scroll the items.
 
 ==== Deprecated ====
   * The [[:release:deprecated:toggle|toggleTargetId]] has been deprecated for the [[:docs:animation:toggle|Toggle element]].
   * The ''align'' attribute in the [[:docs:menubar:menubar|menubar]] has been replaced by a [[:docs:layout:component:container|container attribute value]]
   * The [[:release:deprecated:footer|footer component]] and the [[release:deprecated:slide|slide component]] are deprecated and replaced by the [[:docs:layout:component:bar|bar component]].
+  * Edit Button for slot has been deprecated for the [[:docs:layout:page:slot_manager|Slot Manager]]
 ==== Bug ====
   * The [[docs:app:search|Internal Search Engine]] result was not going away if the escape click reaches no element.
   * When the [[docs:performance:frontend_optimization|Front End Optimization]] was on, the [[docs:app:search|Internal Search Engine]] was no more working because ''DOKU_BASE'' was no more present.
