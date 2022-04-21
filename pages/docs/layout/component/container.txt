@@ -13,7 +13,7 @@ A ''container'':
 
 
 
-It may be used to center content in a [[docs:layout:component:slide|slide]]
+It may be used to center content in a [[release:deprecated:slide|slide]]
 
 <note>
 The [[docs:layout:page:page|page layout]] ''holy'' and ''median'' have their main content by default contained.

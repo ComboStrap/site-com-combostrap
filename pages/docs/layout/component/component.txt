@@ -19,7 +19,7 @@ A layout component is a component that laid out other components.
   * [[docs:layout:component:container|Container]] - A container restraints the horizontal width.
   * [[docs:layout:component:accordion|Accordion]] - An accordion layout where panels are shown in collapsible section
   * [[docs:layout:component:tabs|Tabs]] - An tabs layout where panels are shown in tab.
-  * [[docs:layout:component:slide|Slide]] - Create horizontal section of your page
+  * [[release:deprecated:slide|Slide]] - Create horizontal section of your page
 
 
 See also [[docs:layout:page:page]]

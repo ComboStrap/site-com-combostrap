@@ -54,12 +54,12 @@ If there is no sidebars, the median layout centers the main content with a fix w
 
 In a landing page layout, the main content is not [[docs:layout:component:container|contained]].
 
-You can then create section of page with the [[docs:layout:component:slide|slide component]] where the [[docs:styling:background|background]] will take the whole width of the page.
+You can then create section of page with the [[release:deprecated:slide|slide component]] where the [[docs:styling:background|background]] will take the whole width of the page.
 
 
 
 
-Then in your [[docs:layout:component:slide|slide]] component, you can still center the content by adding a [[docs:layout:component:container|container]].
+Then in your [[release:deprecated:slide|slide]] component, you can still center the content by adding a [[docs:layout:component:container|container]].
 <code dw>
 <slide size="lg">
     <background color="light"></background>

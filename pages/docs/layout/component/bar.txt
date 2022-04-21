@@ -1,0 +1,85 @@
+---json
+{
+    "description": "They are use to slice a page into section",
+    "page_id": "82qnz9h7tpo6n7w4sz66e",
+    "title": "A bar is a horizontal region of a page"
+}
+---
+====== ComboStrap UI - Bar component ======
+
+===== About =====
+A ''bar'' is an [[docs:component|ui component]] that divides a page in horizontal region.
+
+ through the use of [[docs:styling:background|background]] (and therefore without any [[docs:styling:spacing|margin]]).
+
+''bar'' are used:
+  * in the [[:slot_footer|page footer]] 
+  * or in [[:docs:layout:page:landing|landing page]].
+
+
+
+
+===== Syntax =====
+
+<code dw>
+<bar size="md|sm|lg|xl">
+   <background></background>
+   <backgrounds>
+       <background></background>
+       ...
+       <background></background>
+   </backgrounds>
+   <separator></separator>
+   My horizontal bar
+</bar>
+</code>
+where:
+  * ''size'' defines the space around the text (''padding'') and is one of:
+      * ''sm'' : ''small''
+      * ''md'' : ''medium'' (default)
+      * ''lg'' : ''large''
+      * ''xl'' : ''extra-large''
+  * ''background'' is the optional [[docs:styling:background|background definition]]
+
+<note>
+This is also an [[docs:marki|super HTML component]] and accepts therefore all [[docs:styling:styling|styling attributes]]
+</note>
+===== Example =====
+
+
+==== Bar with a blue background ====
+
+<webcode name="Default" frameborder="0">
+<code dw>
+<bar color="white" text-align="center" background-color="blue">
+    <title 2>A blue slide</title>
+    <text lead>
+**A unique collection of UI elements that are all flexible, modular and composable.  \\
+A complete solution to building a professional website.**
+     </text>
+</bar>
+
+</code>
+</webcode>
+
+==== Slide with a background image ====
+
+<webcode name="Default" frameborder="0">
+<code dw>
+<bar color="steelblue" text-align="center" >
+   <background>{{:docs:block:stock_image_surfer_in_the_see.png|}}</background>
+    <title 2>A blue slide</title>
+    <text lead>
+**A unique collection of UI elements that are all flexible, modular and composable.  \\
+A complete solution to building a professional website.**
+     </text>
+</bar>
+</code>
+</webcode>
+
+
+
+
+===== Separator =====
+
+  * https://getwaves.io/

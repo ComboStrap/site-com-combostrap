@@ -10,7 +10,7 @@
 A ''jumbotron'' is a simple [[docs:block:block|box component]] that emphase prominently its content.
 
 <note>
-For a hero unit style content, you can also use a [[docs:layout:component:slide|slide]].
+For a hero unit style content, you can also use a [[release:deprecated:slide|slide]].
 </note>
 
 

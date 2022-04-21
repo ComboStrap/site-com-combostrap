@@ -50,7 +50,7 @@ there is any problem during the migration, you may not see your header, footer o
 
 
 ==== Page Layout: Landing Page ====
-  * New [[docs:layout:page:page|page layout]]: ''landing'' in order to create landing page with section of page created with the [[docs:layout:component:slide|slide component]]
+  * New [[docs:layout:page:page|page layout]]: ''landing'' in order to create landing page with section of page created with the [[release:deprecated:slide|slide component]]
 
 ==== Markdown Code Syntax ====
   * new: The [[docs:block:code|code]] component supports also the [[docs:block:code#markdown|markdown github code syntax]]
@@ -86,7 +86,7 @@ You can now style the content of your [[docs:content:heading|heading]] (adding i
 ==== Link ====
 The [[docs:content:link|link attribute]] can now be used with the [[docs:styling:styling|styling attributes]]
 ==== Slide ====
-The [[docs:layout:component:slide|slide component]] gets responsive x margin. Using more left and right margins, the bigger the screen is.
+The [[release:deprecated:slide|slide component]] gets responsive x margin. Using more left and right margins, the bigger the screen is.
 ==== Icon ====
   * The [[docs:content:icon|icon component]] accepts any length unit (such as rem) and [[docs:styling:spacing|padding]] was disabled because it makes the icon invisible.
   * The icon attached to the configuration is no more downloaded but included to the page and cached leading to a big performance gain.

@@ -27,8 +27,8 @@ New: [[release:archive:1.13_bootstrap5|Bootstrap 5]] is now the default. Read mo
   * New: added the [[docs:animation:hover|hover animation]] to improve emphasis
 
 ==== Landing page ====
-  * New: The [[docs:layout:component:slide|slide component]] to create landing page with sections of a page or hero section with alternated background
-  * New: added the [[docs:styling:background|background component]] to manage the background of a component (at first for a [[docs:layout:component:slide|slide]])
+  * New: The [[release:deprecated:slide|slide component]] to create landing page with sections of a page or hero section with alternated background
+  * New: added the [[docs:styling:background|background component]] to manage the background of a component (at first for a [[release:deprecated:slide|slide]])
   * New : [[docs:styling:clickable|clickable attribute]]: make a whole surface containing a link, clickable.
 
 
@@ -78,7 +78,7 @@ New: [[release:archive:1.13_bootstrap5|Bootstrap 5]] is now the default. Read mo
 Markup perfect means that there is no need to tweak the output via styling.
 
   * Improvement: Placing a [[docs:content:button|button]] in a [[docs:menubar:menubar|navbar]] does not require any [[docs:styling:spacing|spacing]] attribute. The [[docs:content:button|button]] spacing is automatically created.
-  * New: ''Edit'' button have been added for [[docs:block:card|card]], [[docs:layout:component:panel|panel]] and [[docs:layout:component:slide|slide]] making it easier to edit them.
+  * New: ''Edit'' button have been added for [[docs:block:card|card]], [[docs:layout:component:panel|panel]] and [[release:deprecated:slide|slide]] making it easier to edit them.
   * New: [[docs:block:text|Typo]] - the title styling class ''display-1'' to ''display-6'' are now responsive on Bootstrap 4
   * Update: The test are testing now that the HTML generation is ''XHMTL'' compliant. This is no more done with the hand.
   * New: ''Bootstrap perfect'': We generate exactly the same markup than [[docs:utility:bootstrap|bootstrap]]. [[docs:block:card|card]] and [[docs:block:blockquote|blockquote]] have now bootstrap paragraph with the ''text'' class making them easier to read.

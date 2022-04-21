@@ -22,7 +22,7 @@ This release has brought a old request. ie styling to the [[docs:app:identity|id
 
 === Toggle ===
 
-  * New: [[docs:animation:toggle|toggle]] allows [[docs:content:link|link]] as control element.
+  * New: [[release:deprecated:toggle|toggle]] allows [[docs:content:link|link]] as control element.
   * New: You can set the scroll mechanism to [[docs:styling:dimension##toggle_scroll|toggle]] on a [[docs:styling:dimension#height|constrained height box]]. It works also with any [[docs:utility:prism#constrained by height|prism component]] such as [[docs:block:code|code]], [[docs:block:file|file]], [[docs:block:console|console]]
 
 === Styling ===
@@ -39,7 +39,7 @@ This release has brought a old request. ie styling to the [[docs:app:identity|id
 ==== Bug Solved ====
 
   * Bug: A [[docs:content:link|link]] not closed (without '']]'') followed by a closed link was making the parse tree not even and caused parsing issue on [[docs:content:heading|heading]] and other traversal.
-  * Bug: [[docs:layout:component:slide|slide]] had no padding on small screen
+  * Bug: [[release:deprecated:slide|slide]] had no padding on small screen
   * Bug: A Layout Shift was occuring because
     * their was no ''width'' and ''height'' attribute on a [[docs:content:svg|svg]] that added via the ''img'' 
     * the styling of the svg returned was set to ''height"100%'' in place of ''height:auto''
@@ -50,8 +50,8 @@ This release has brought a old request. ie styling to the [[docs:app:identity|id
 
 ==== Renaming ====
 
-  * rename: ''collapse'' has been renamed to [[docs:animation:toggle|toggle]]
+  * rename: ''collapse'' has been renamed to [[release:deprecated:toggle|toggle]]
 
 ==== Minor Modification ====
 
-  * Minor Modification: Due to the [[docs:animation:toggle|toggle]], the [[docs:utility:prism|prism class styling]] have been renamed from ''code-combo-pre'' to ''code-container-combo''
+  * Minor Modification: Due to the [[release:deprecated:toggle|toggle]], the [[docs:utility:prism|prism class styling]] have been renamed from ''code-combo-pre'' to ''code-container-combo''
