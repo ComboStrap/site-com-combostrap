@@ -27,7 +27,7 @@ If the component should start at a new line or expand on multiple line and you c
   * [[docs:block:math|Math]]: Writing math formulas
   * [[docs:block:note|Note]]: An ancillary text that needs attention.
   * [[docs:navigation:related|Related]]: A component showing the backlinks
-  * [[docs:layout:component:slide|Slide]] - A slide used to create landing page or hero content
+  * [[release:deprecated:slide|Slide]] - A slide used to create landing page or hero content
   * [[docs:block:text|Text]] - Create one or more paragraph with the same styling
   * [[docs:utility:webcode|Webcode]] - Output the result of web code (HTML, Javascript, CSS)
 

@@ -42,6 +42,7 @@ Because of too much confusion, the following name has been renamed:
 ==== Deprecated ====
   * The [[:release:deprecated:toggle|toggleTargetId]] has been deprecated for the [[:docs:animation:toggle|Toggle element]].
   * The ''align'' attribute in the [[:docs:menubar:menubar|menubar]] has been replaced by a [[:docs:layout:component:container|container attribute value]]
+  * The [[:release:deprecated:footer|footer component]] and the [[release:deprecated:slide|slide component]] are deprecated and replaced by the [[:docs:layout:component:bar|bar component]].
 ==== Bug ====
   * The [[docs:app:search|Internal Search Engine]] result was not going away if the escape click reaches no element.
   * When the [[docs:performance:frontend_optimization|Front End Optimization]] was on, the [[docs:app:search|Internal Search Engine]] was no more working because ''DOKU_BASE'' was no more present.
@@ -54,3 +55,4 @@ Because of too much confusion, the following name has been renamed:
   * The [[docs:router:bestendpagename|Best End Page Name Algorithm]] was not returning the best page but the first one with a score of 1. There was therefore no permanent redirect.
   * The [[:docs:utility:prism|prism component]] (code, console, file) didn't have the ''copy'' button. The migration to a new version has forgotten the copy plugin and there was a version mismatch between the plugin and prism. This is corrected.
   * The [[:docs:content:inote|Inote]] was not wrapping, making the width of windows overflowing.
+  * The requested path was not always correct when a [[:docs:page:url|permanent page url]] was used because the first event of dokuwiki (load lang) was checking the last name of the url path and not the last part of the name
