@@ -1,7 +1,7 @@
 ---json
 {
     "description": "They are use to slice a page into section",
-    "page_id": "82qnz9h7tpo6n7w4sz66e",
+    "page_id" : "b2kmejezc3p4cu4n9c51m",
     "title": "A bar is a horizontal region of a page"
 }
 ---
@@ -13,7 +13,7 @@ A ''bar'' is an [[docs:component|ui component]] that divides a page in horizonta
  through the use of [[docs:styling:background|background]] (and therefore without any [[docs:styling:spacing|margin]]).
 
 ''bar'' are used:
-  * in the [[:slot_footer|page footer]] 
+  * in the [[:slot_footer|page footer]]
   * or in [[:docs:layout:page:landing|landing page]].
 
 
