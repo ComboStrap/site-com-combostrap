@@ -8,7 +8,12 @@
 ====== ComboStrap Styling - Emphasis ======
 
 ===== About =====
-You can add emphasis:
+In UX design, ''Emphasis'' means bringing extra attention to certain components.
+
+
+===== Emphasis Styling =====
+
+ComboStrap supports the following styling to help you bring extra emphasis:
   * by making text:
       * [[boldness|bold]]
       * [[docs:content:typo#italic|italic]]
@@ -20,6 +25,5 @@ You can add emphasis:
   * by using  [[color|color]] 
       * that have a meaning (rod)
       * that brings more contrast (between the background and the foreground).
+  * by creating a [[:docs:styling:hero|hero unit]]
 
-===== Articles Related =====
-{{backlinks>.}}

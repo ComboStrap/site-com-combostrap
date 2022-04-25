@@ -109,13 +109,14 @@ If you want to have a gradient on your color, just add the ''gradient-'' prefix 
 Example with a ''light gradient'' background.
 <webcode name="Default" frameborder="0">
 <code dw>
-<slide background-color="gradient-light">
+<bar background-color="gradient-light" hero-spacing="md">
 === A gradient light slide ===
-</slide>
+</bar>
 </code>
 </webcode>
 
-
+\\
+\\
 
 If you want to have full gradient customization, you can add a gradient css style in the [[docs:styling:userstyle|userstyle]]
 
@@ -258,7 +259,7 @@ Example:
 <code dw>
 <bar>
    <background pattern="vertical-lines" color="#FACB0E" pattern-color="#FDE482" />
-   <heading 1>A slide with verticale line Css Pattern</heading>
+   <heading 1 text-align="center">A slide with verticale line Css Pattern</heading>
 </bar>
 </code>
 </webcode>

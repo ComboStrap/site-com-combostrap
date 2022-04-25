@@ -1,0 +1,35 @@
+====== Hero ======
+
+
+===== About =====
+''hero'' is a [[docs:styling:style|styling attribute]] for showcasing ''hero'' unit style content.
+
+
+An hero is just a UX design term that refers to an oversized component such as:
+  * the section of a [[:docs:layout:page:landing|landing page]]
+  * a page content header
+
+They adds extra [[:docs:styling:emphasis|emphasis (attention)]] to their content.
+
+
+===== Syntax =====
+
+
+<code dw>
+<component hero="sm|md|lg|xl" />
+</code>
+where the value is one of:
+      * ''sm'' : ''small''
+      * ''md'' : ''medium''
+      * ''lg'' : ''large''
+      * ''xl'' : ''extra-large''
+
+
+The ''hero'' attribute sets:
+  * automatically [[:docs:styling:spacing|a padding]] (space around the text)
+  * that is [[:docs:styling:breakpoint|responsive]]
+
+===== Component Support =====
+The component that naturally will accept the hero attribute are:
+  * the [[:docs:layout:component:jumbotron|jumbotron]]
+  * the [[:docs:layout:component:bar|bar]]

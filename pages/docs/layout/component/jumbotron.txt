@@ -7,21 +7,7 @@
 
 
 ===== About =====
-A ''jumbotron'' is a simple [[docs:block:block|box component]] that emphase prominently its content.
-
-<note>
-For a hero unit style content, you can also use a [[release:deprecated:slide|slide]].
-</note>
-
-
-
-===== Syntax =====
-<code dw>
-<jumbotron>
-=== Title ===
-Content
-</jumbotron>
-</code>
+A ''jumbotron'' is a default [[:docs:styling:hero|Hero unit]] that emphase prominently its content.
 
 
 
@@ -29,9 +15,9 @@ Content
 
 <webcode name="Default" >
 <code dw>
-<jumbotron>
+<jumbotron hero="md">
 ====== Jumbotron ======
-<text lead>A jumbotron-style component to call extra attention to featured content or information.</typo>
+<text lead>A jumbotron-style component to call extra attention to featured content or information.</text>
 <hr spacing="my-4"/>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -45,4 +31,21 @@ with a [[docs:content:button|button]], a ''lead'' [[docs:block:text|text]] and a
 
 Output:
 </webcode>
+
+
+
+
+===== Syntax =====
+
+A jumbotron is a [[:docs:styling:hero|hero unit style content]] with a ''medium'' value by default
+<code dw>
+<jumbotron hero="md">
+=== Title ===
+Content
+</jumbotron>
+</code>
+
+
+
+
 
