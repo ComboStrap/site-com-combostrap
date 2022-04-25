@@ -12,13 +12,14 @@
 ===== About =====
 
 In ComboStrap, you can define a language:
-  * for the [[:docs:app:lang|whole application]] (the default value for all pages)
-  * or for each [[:docs:page:lang|page]]
+  * for the application: [[:docs:app:lang]] (the default value for all pages)
+  * for a page: [[:docs:page:lang]]
+  * for a component: [[:docs:styling:lang]]
 
 
 ===== Value =====
 
-The language is identified by language identifier known as the ''lang'' [[..:metadata:metadata|metadata]].
+The language is identified by a language identifier value known as the ''lang'' [[..:metadata:metadata|metadata]].
 
 
 It is a 2 letters code that follows the [[https://www.loc.gov/standards/iso639-2/php/English_list.php|ISO 639-2 specification]] .
@@ -32,25 +33,21 @@ Example:
 ===== Usage =====
 
 The language identifier is used:
-  * in the [[..:locale:locale|locale]] to localize the page for external [[:docs:social:social|social thrid party]]
-  * by the [[:strap|strap template]] to set the lang and direction of the HTML document
+  * in the [[..:locale:locale|locale]] to localize the page for external [[:docs:social:social|social third party]]
+  * by the rendering engine to set the language and layout direction.
 
 ===== Direction =====
-Each language has an intrinsic value that is known as the direction:
-  * ''LTR'' or ''left to right'', you read the text from left to right
-  * ''RTL'' or ''right to left'', you read the text from right to left
-  * ''TTB'' or ''top-to-bottom'', you read the text from top to bottom
+Each language has an intrinsic value that is known as the direction.
 
-ComboStraps supports
-  * ''LTR''
-  * ''RTL'' with the default bootstrap theme. We have created a page in ''arabic'' that has a language direction from [[#rtlright_to_left_language|right-to-left (''rtl'')]] See the demo page: [[lang_ar]]
+^ Direction Value ^ Direction Name ^Description ^ Supported ^
+| ''LTR'' | ''left to right'' | You read the text from left to right (Example: English) | Yes |
+| ''RTL'' | ''right to left'' | You read the text from right to left (Example: Arabic) | Yes with the default bootstrap theme |
+| ''TTB'' | ''top-to-bottom'' | You read the text from top to bottom (Example: Chinese) | No | 
 
 
-===== Support =====
+==== RTL ====
 
-
-
-==== RTL: Right to left language ====
+We have created a page in ''arabic'' that has a language direction from [[#rtlright_to_left_language|right-to-left (''rtl'')]] See the demo page: [[lang_ar]]
 
 As ''bootswatch'' does not support yet RTL languages, you need to set your [[docs:utility:bootstrap|Bootstrap version at minimal to 5 with the bootstrap theme]].
 

@@ -10,7 +10,9 @@
 ===== About =====
 A ''bar'' is an [[docs:component|ui component]] that divides a page in horizontal region.
 
- through the use of [[docs:styling:background|background]] (and therefore without any [[docs:styling:spacing|margin]]).
+Visually, the division can be done through the use of a:
+  * [[docs:styling:background|background]].
+  * or a separator
 
 ''bar'' are used:
   * in the [[:slot_footer|page footer]]

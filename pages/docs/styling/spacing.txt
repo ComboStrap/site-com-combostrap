@@ -43,8 +43,8 @@ A note with a padding and a margin
 
 <note>
 The start side is:
-  * left for LTR language.
-  * right for RTL language
+  * left for [[:docs:locale:lang|LTR language]].
+  * right for [[:docs:locale:lang|RTL language]]
 </note>
 
 A [[docs:block:note|note]] with:
