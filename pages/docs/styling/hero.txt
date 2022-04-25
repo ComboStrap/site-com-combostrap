@@ -16,13 +16,14 @@ They adds extra [[:docs:styling:emphasis|emphasis (attention)]] to their content
 
 
 <code dw>
-<component hero="sm|md|lg|xl" />
+<component hero="sm|md|lg|xl|none" />
 </code>
 where the value is one of:
       * ''sm'' : ''small''
       * ''md'' : ''medium''
       * ''lg'' : ''large''
       * ''xl'' : ''extra-large''
+      * ''none'': to disable it
 
 
 The ''hero'' attribute sets:

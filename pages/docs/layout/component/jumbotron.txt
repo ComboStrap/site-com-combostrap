@@ -10,12 +10,11 @@
 A ''jumbotron'' is a default [[:docs:styling:hero|Hero unit]] that emphase prominently its content.
 
 
-
 ===== Example =====
 
 <webcode name="Default" >
 <code dw>
-<jumbotron hero="md">
+<jumbotron>
 ====== Jumbotron ======
 <text lead>A jumbotron-style component to call extra attention to featured content or information.</text>
 <hr spacing="my-4"/>
@@ -44,6 +43,10 @@ A jumbotron is a [[:docs:styling:hero|hero unit style content]] with a ''medium'
 Content
 </jumbotron>
 </code>
+where:
+  * the [[:docs:styling:hero|Hero]] value default to ''md''
+  * the [[:docs:styling:background#color|background-color]] defaults to gray (''#e9ecef'' to be bootstrap 4 compatible)
+  * the [[:docs:styling:spacing|spacing]] value adds a margin of 2.
 
 
 
