@@ -11,7 +11,7 @@
 ===== About =====
 The ''background'' element defines and adds a background.
 
-It's mostly used with [[release:deprecated:slide|slide component]] to create compelling landing page.
+It's mostly used with [[:docs:layout:component:bar|bar component]] to create compelling [[:docs:layout:page:landing|landing page]].
 
 You can create ''cover'' or ''tile'' background with:
   * [[#raster image|raster image]]
@@ -137,15 +137,14 @@ This sections shows you how to use a [[docs:content:raster|raster image]] as bac
 
 <webcode name="Default" frameborder="0">
 <code dw>
-<slide color="steelblue" text-align="center" >
+<bar color="steelblue" text-align="center" >
    <background opacity="0.3">{{:docs:block:stock_image_surfer_in_the_see.png|}}</background>
-    <title 2>A blue slide</title>
-    <typo lead>
+    <heading 2>A blue slide</heading>
+    <text lead>
 **A blue slide with a little bit of opacity on the background image to increase contrast with the heading.  \\
 A complete solution to building great landing pages.**
-     </typo>
-</slide>
-
+     </text>
+</bar>
 </code>
 </webcode>
 
@@ -161,19 +160,19 @@ Create a tile background based on a [[docs:content:raster|raster image]] that re
   * [[https://patternico.com/|Patterns icon]]
 <webcode name="Default" frameborder="0">
 <code dw>
-<slide text-align="center" height="20vh">
+<bar text-align="center" height="20vh">
 <background fill="tile" opacity="0.5">{{:docs:styling:patternico.png|}}</background>
 <title 3>**A tile background based on icons**</title>
-</slide>
+</bar>
 </code>
 </webcode>
   * [[http://thepatternlibrary.com/#subway-lines|The pattern library subway lines]]
 <webcode name="Default" frameborder="0">
 <code dw>
-<slide text-align="center" height="25vh">
+<bar text-align="center" height="30vh">
 <background fill="tile" opacity="0.1">{{:docs:styling:subway-lines.png}}</background>
-<title 2 color="#3669b3">A tile background based on subway lines</title>
-</slide>
+<heading 2 color="#3669b3">A tile background based on subway lines</heading>
+</bar>
 </code>
 </webcode>
 
@@ -194,10 +193,10 @@ Example with a [[https://bgjar.com/stacked-wave.html|stacked wave]] where the co
 
 <webcode name="Default" frameborder="0">
 <code dw>
-<slide>
+<bar text-align="center">
 <background>{{:docs:styling:stacked_wave.svg|}}</background>
-<title 1>A svg background cover</title>
-</slide>
+<heading 1>A svg background cover</heading>
+</bar>
 </code>
 
 </webcode>
@@ -213,10 +212,10 @@ Below is an example on how to use a [[docs:content:svg|svg]] as a ''tile'' backg
   * the ''size'' was adjusted to ''50px''
 <webcode name="Default" frameborder="0">
 <code dw>
-<slide text-align="center">
-<background fill="tile" color="#DFDBE5" opacity="0.3">{{:docs:styling:jigsaw.svg?50&color=#9C92AC|}}</background>
-<title 1>An Svg Tile Based on Hero Pattern</title>
-</slide>
+<bar text-align="center">
+    <background fill="tile" color="#DFDBE5" opacity="0.3">{{:docs:styling:jigsaw.svg?50&color=#9C92AC|}}</background>
+    <heading 1>An Svg Tile Based on Hero Pattern</heading>
+</bar>
 </code>
 </webcode>
 
@@ -257,10 +256,10 @@ where:
 Example:
 <webcode name="Default" frameborder="0">
 <code dw>
-<slide>
+<bar>
    <background pattern="vertical-lines" color="#FACB0E" pattern-color="#FDE482" />
-   <title 1>A slide with verticale line Css Pattern</title>
-</slide>
+   <heading 1>A slide with verticale line Css Pattern</heading>
+</bar>
 </code>
 </webcode>
 

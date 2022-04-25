@@ -40,7 +40,7 @@ This [[..:release|release]] brings a new page [[docs:navigation:navigation|navig
   * As [[docs:content:image|image]] crop is not supported, a warning message was shown and we didn't let the original code take over. Crop are now supported via the original code.
   * [[docs:content:heading|heading]] in [[docs:utility:webcode|webcode]] were seen as component heading and not as outline heading.
   * Bug: [[docs:content:link|link]] with [[docs:templating:template|a path template variable]] were wrongly rewritten and added to the index.
-  * Bug: [[docs:layout:page:sidekick_slot|sidekick slot]] has not its cached deleted in the [[docs:cache:slot|auto cache bursting functionality]] (due to a hard written configuration)
+  * Bug: [[release:deprecated:sidekick_slot|sidekick slot]] has not its cached deleted in the [[docs:cache:slot|auto cache bursting functionality]] (due to a hard written configuration)
 
 ==== Deprecation ====
   * The navigational component [[release:deprecated:ntoc|ntoc]] has been replaced by the [[docs:navigation:page-explorer|page-explorer]]

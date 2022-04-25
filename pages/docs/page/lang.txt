@@ -1,0 +1,18 @@
+---json
+{
+    "low_quality_page": "false",
+    "page_id": "8b58i0e0jws74b7ojbhfc"
+}
+---
+====== The Page Language ======
+
+
+===== About =====
+You can set the [[:docs:locale:lang|language]] of a specific page with the [[..:metadata:manager|page metadata manager]]
+
+{{:docs:page:page_language_metadata_manager.jpg?400|}}
+
+===== Default =====
+The default value is the [[:docs:app:lang|application language]].
+
+This is also the default language for all [[:docs:styling:lang|language component]].

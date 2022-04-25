@@ -1,0 +1,12 @@
+====== The application Language ======
+
+
+===== About =====
+You can set the [[:docs:locale:lang|language]] for your whole [[app|application]] with the [[doku>config:lang]] [[docs:app:configuration|configuration]]. 
+
+{{:docs:app:interface_language.jpg|}}
+
+This is the default language for all text of your application:
+  * for the language page
+  * for the [[:docs:styling:lang|language component]]
+

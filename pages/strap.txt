@@ -18,7 +18,7 @@ The ''strap'' template supports the following features:
   * [[docs:performance:cdn|Serve the Bootstrap files by default from a CDN]]
   * Supports several [[docs:layout:page:page|page layout]] and 4 [[docs:layout:page:slot|slots]]:
       * [[docs:layout:page:side_slot|Sidebar]] (left)
-      * [[docs:layout:page:sidekick_slot|Sidekickbar]] (right)
+      * [[release:deprecated:sidekick_slot|Sidekickbar]] (right)
       * [[docs:layout:page:header_slot|Headerbar]] (top)
       * [[docs:layout:page:footer_slot|Footerbar]] (bottom)
   * [[docs:layout:page:railbar|Railbar Menu (Page, User Site) with a private option]]

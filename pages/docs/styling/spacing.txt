@@ -39,7 +39,13 @@ A note with a padding and a margin
 </code>
 </webcode>
 
-==== Padding and Spacing on the start (old left) side ====
+==== Padding and Spacing on the start side ====
+
+<note>
+The start side is:
+  * left for LTR language.
+  * right for RTL language
+</note>
 
 A [[docs:block:note|note]] with:
   * ''ps-3'' means:
@@ -108,9 +114,6 @@ The old notation ''l'' and ''r'' are still supported therefore ''pl-3 ml-5'' is 
 </code>
 </webcode>
 
-
-=== For the geek ===
-The ''margin'' properties can utilize negative values but ''padding'' cannot and that's how the top of the page is defined in a  [[docs:menubar:fixed-top|fixed-top menubar]]
 
 
 
