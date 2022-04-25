@@ -1,0 +1,43 @@
+---json
+{
+    "aliases": [
+        { "path": ":docs:layout:component:container" }
+    ],
+    "page_id": "kr4wzg3iw47ybp5d2os52",
+    "title": "Layout Containment"
+}
+---
+====== ComboStrap UI - Container Aware Component ======
+
+===== About =====
+The ''containment'' configuration choose if the [[#component|container-aware components]] will:
+  * position their content at the center
+  * limit their horizontal width (adjusted by [[docs:styling:breakpoint|screen sizes]])
+  * and add a marge on the horizontal axis ([[:docs:styling:spacing|padding]])
+
+
+===== Components =====
+
+The following components are ''container aware'' component:
+  * the [[:docs:menubar:menubar|Menubar]]
+  * the [[:docs:layout:component:bar|Bar]]
+and will apply the configuration.
+
+===== Layout =====
+
+The [[docs:layout:page:page|page layout]] ''holy'' and ''median'' have their main content by default contained whereas a [[:docs:layout:page:landing|landing page layout]] does not.
+
+
+===== Configuration Value =====
+
+This ''defaultLayoutContainer'' [[:docs:app:configuration|configuration]] sets the container value for each layout component. 
+
+The value may be ''fluid'' or any [[:docs:styling:breakpoint|breakpoint value]].
+
+^ Value ^ Definition ^
+| ''fluid'' | don't center at all |
+| ''sm'' | center (default) |
+| ''md'' | fluid then center from the medium breakpoint |
+| ''lg'' | fluid then center from the large breakpoint |
+| ''xl'' | fluid then center from the extra-large breakpoint |
+| ''xxl'' | fluid then center from the extra-extra-large breakpoint |

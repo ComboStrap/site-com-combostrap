@@ -48,6 +48,7 @@ Because of too much confusion, the following name has been renamed:
   * The ''align'' attribute in the [[:docs:menubar:menubar|menubar]] has been replaced by a [[:docs:layout:component:container|container attribute value]]
   * The [[:release:deprecated:footer|footer component]] and the [[release:deprecated:slide|slide component]] are deprecated and replaced by the [[:docs:layout:component:bar|bar component]].
   * Edit Button for slot has been deprecated for the [[:docs:layout:page:slot_manager|Slot Manager]]
+  * The [[:release:deprecated:container|container syntax component]] has been deprecated for [[:docs:layout:component:container|container aware components]]
 ==== Bug ====
   * The [[docs:app:search|Internal Search Engine]] result was not going away if the escape click reaches no element.
   * When the [[docs:performance:frontend_optimization|Front End Optimization]] was on, the [[docs:app:search|Internal Search Engine]] was no more working because ''DOKU_BASE'' was no more present.

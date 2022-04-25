@@ -45,8 +45,9 @@ Content
 </code>
 where:
   * the [[:docs:styling:hero|Hero]] value default to ''md''
-  * the [[:docs:styling:background#color|background-color]] defaults to gray (''#e9ecef'' to be bootstrap 4 compatible)
-  * the [[:docs:styling:spacing|spacing]] value adds a margin of 2.
+  * and to be bootstrap 4 compatible:
+      * the [[:docs:styling:background#color|background-color]] defaults to gray (''#e9ecef'' )
+      * the [[:docs:styling:spacing|spacing]] value adds a margin of 2.
 
 
 

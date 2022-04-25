@@ -1,4 +1,4 @@
-<slide spacing="p-3" background-color="gradient-light" color="secondary">
+<bar background-color="gradient-light" color="secondary">
 <row>
 <cell spacing="ms-md-3">
 
@@ -28,4 +28,6 @@ Create web sites, publish landing pages, write articles, how-to's, documentation
     </row>
 </cell>
 </row>
-</slide>
+</bar>
+
+

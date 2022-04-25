@@ -1,0 +1,41 @@
+---json
+{
+    "canonical": ":container:deprecated",
+    "page_id": "yq3401ondo0la3yy571j4"
+}
+---
+====== Container Component ======
+
+
+===== About =====
+The ''container'' component has been deprecated for [[docs:layout:page:container|container aware component]].
+
+
+
+===== Old =====
+
+==== Example ====
+
+
+A container:
+  * that centers its content from the medium breakpoint ''md''
+  * with a [[docs:styling:color|light background color]] 
+  * and a little bit of [[docs:styling:spacing|padding]]
+
+<webcode name="Default" frameborder="0">
+<code dw>
+<container md background-color="light" spacing="p-3">
+Oh my Container !
+</container>
+</code>
+</webcode>
+
+
+==== Syntax ====
+
+<code dw>
+<container type>
+Content
+</container>
+</code>
+where the type was the [[docs:layout:page:container|Container configuration value]].

@@ -20,28 +20,6 @@ Visually, the division can be done through the use of a:
 
 
 
-
-===== Syntax =====
-
-<code dw>
-<bar hero="md|sm|lg|xl">
-   <background></background>
-   <backgrounds>
-       <background></background>
-       ...
-       <background></background>
-   </backgrounds>
-   <separator></separator>
-   My horizontal bar
-</bar>
-</code>
-where:
-  * ''hero'' defines the [[:docs:styling:hero|hero space]]
-  * ''background'' is the optional [[docs:styling:background|background definition]]
-
-<note>
-This is also an [[docs:marki|super HTML component]] and accepts therefore all [[docs:styling:styling|styling attributes]]
-</note>
 ===== Example =====
 
 
@@ -60,7 +38,7 @@ A complete solution to building a professional website.**
 </code>
 </webcode>
 
-==== Slide with a background image ====
+==== Bar with a background image ====
 
 <webcode name="Default" frameborder="0">
 <code dw>
@@ -78,6 +56,25 @@ A complete solution to building a professional website.**
 
 
 
-===== Separator =====
+===== Syntax =====
 
-  * https://getwaves.io/
+<code dw>
+<bar hero="md|sm|lg|xl">
+   <background></background>
+   <backgrounds>
+       <background></background>
+       ...
+       <background></background>
+   </backgrounds>
+   My horizontal bar
+</bar>
+</code>
+where:
+  * ''hero'' defines the [[:docs:styling:hero|hero space]] (default value of ''sm'')
+  * ''background'' is the optional [[docs:styling:background|background definition]]
+
+<note>
+  * ''bar'' is a container component and will follow the [[:docs:layout:component:container|layout container configuration]]
+  * This is also an [[docs:marki|super HTML component]] and accepts therefore all [[docs:styling:styling|styling attributes]]
+</note>
+
