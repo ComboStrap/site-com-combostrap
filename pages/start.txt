@@ -30,15 +30,14 @@ Create website, publish landing pages, articles, how-to's, documentations or bui
 
 
 
-<slide size="lg"  background-color="light">
-<container>
+<bar hero="lg"  background-color="light">
 <box text-align="center">
    <heading h2>Really useful features</heading>
    <text lead width="400px" align="center">You get all components fully customized out of the box and ready to use.</text>
 </box>
 
-<row>
 
+<row>
 <cell>
 <icon name="bs:markdown-fill" spacing="my-3" width="2.75rem"/>
 <text h5>Extended Markdown</text>
@@ -190,11 +189,9 @@ The platform is open source, guarantee of sustainability and
  supporting your investment. You can even fork it and makes it your own.
 </cell>
 
-
 </row>
 
-</container>
-</slide>
+</bar>
 
 <slide size="lg" height="60vh" vertical="center">
 <background opacity="0.7">{{:woman-yoga-sunset.jpg|}}</background>

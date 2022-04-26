@@ -49,7 +49,7 @@ A row layout makes also all cells readable from the start from a mobile device.
 
 
 
-==== A 3 cells rows with percentage ====
+==== A 3 cells row with percentage ====
 
 <webcode>
 <code dw>
@@ -73,6 +73,35 @@ A row layout makes also all cells readable from the start from a mobile device.
 </code>
   * Output:
 </webcode>
+
+
+==== A 3 cells rows with fraction ====
+
+<webcode>
+<code dw>
+<row>
+    <cell width="1fr">
+        <icon name="bs:inboxes-fill" width="3rem"/>
+        == 1 fraction ==
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+    </cell>
+    <cell width="3fr">
+        <icon name="bs:inboxes-fill" width="3rem"/>
+        == 3 fractions ==
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+    </cell>
+    <cell >
+        <icon name="bs:inboxes-fill" width="3rem"/>
+        == 1 fraction ==
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+    </cell>
+</row>
+</code>
+  * Output:
+</webcode>
+
+
+
 
 
 
