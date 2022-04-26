@@ -75,7 +75,7 @@ A row layout makes also all cells readable from the start from a mobile device.
 </webcode>
 
 
-==== A 3 cells rows with fraction ====
+==== A 3 cells row with fraction ====
 
 <webcode>
 <code dw>
@@ -100,14 +100,7 @@ A row layout makes also all cells readable from the start from a mobile device.
   * Output:
 </webcode>
 
-
-
-
-
-
-
-
-==== Generated via the iterator ====
+==== A row generated with iterator ====
 
 You can use the ''row'' component in a [[:docs:templating:iterator|Iterator]] to generate a list of cells.
 
@@ -115,7 +108,7 @@ You can use the ''row'' component in a [[:docs:templating:iterator|Iterator]] to
 <code dw>
 <iterator>
     <data>select from descendants where depth = 0 order by path asc limit 5 </data>
-    <row>
+    <row max-cells="2">
         <template>
             <cell clickable>
                 <page-image path="$path" width="8rem" align="center" />
@@ -132,22 +125,24 @@ You can use the ''row'' component in a [[:docs:templating:iterator|Iterator]] to
 
 ===== Syntax =====
 <code dw>
-<row type>
+<row type max-cells="numberValue">
    <cell width="ratioValue"></cell>
-   <cell></cell>
+   <cell width="ratioValue"></cell>
 </row>
 </code>
 where:
-  * ''type'' may be the value:
-  * ''width'' may be a rationale value. ie a number with one of the following unit
-      * a percentage: ''%''
-      * or a fraction: ''fr''
+  * ''max-cells'' (optional) define the maximum number of cells on a horizontal axis
+  * ''width'' (optional) is a rationale value that defines the space that a cell takes on the horizontal axis. ie a number with one of the following unit
+      * a percentage: ''%'': a number between 0 to 100. The total may go over 100. In this case, cells with a cumulative percentage above 100% goes to a new line.
+      * or a fraction: ''fr'': a cell with ''2fr'' takes two more space than a cell with ''1fr''
+  * ''type'' is generally derived but you may overwrite it with one of the below value:
 
 ^ Type ^ Description ^ Default for ^
 | ''auto'' | each cell width will automatically calculated to be greater than the minimum width of ''300'' | loss grid | 
 | ''fit'' | each cell will takes their natural width . Note that for cells with text and without width, we set a width of ''300'' (because the natural width of text is the whole line until the end of the paragraph) | contained grid |
 | ''none'' | the content will just shrink without overflow | |
 | ''width'' | the width is defined explicitly on the cells | cell with width |
+| ''cells'' | the number of cells by row is defined | row with max-cells |
 
 
 <note>
