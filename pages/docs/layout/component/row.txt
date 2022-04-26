@@ -14,7 +14,7 @@
 
 
 ===== About =====
-''row'' is a component that permits to layout ''cells'' on the horizontal axis.
+''row'' is a component that permits to distribute space in ''cells'' on the horizontal axis.
 
 If a cell does not pass horizontally, it goes to a new line in a centered position.
 
@@ -28,19 +28,25 @@ A row layout makes also all cells readable from the start from a mobile device.
 <code dw>
 <row>
     <cell>
-        <icon name="bs:inboxes-fill" width="3rem"/>
-        == Lorem Ipsum 1 ==
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        <box>
+            <icon name="bs:inboxes-fill" width="3rem"/>
+            == Lorem Ipsum 1 ==
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        </box>   
     </cell>
     <cell>
-        <icon name="bs:inboxes-fill" width="3rem"/>
-        == Lorem Ipsum 2 ==
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        <box>
+            <icon name="bs:inboxes-fill" width="3rem"/>
+            == Lorem Ipsum 2 ==
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+         </box>  
     </cell>
         <cell>
-        <icon name="bs:inboxes-fill" width="3rem"/>
-        == Lorem Ipsum 3 ==
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            <box>
+                <icon name="bs:inboxes-fill" width="3rem"/>
+                == Lorem Ipsum 3 ==
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+             </box>   
     </cell>
 </row>
 </code>
@@ -55,19 +61,25 @@ A row layout makes also all cells readable from the start from a mobile device.
 <code dw>
 <row>
     <cell width="50%">
-        <icon name="bs:inboxes-fill" width="3rem"/>
-        == 50% cell ==
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        <box width="250">
+            <icon name="bs:inboxes-fill" width="3rem"/>
+            == A 250 width box in a 50% cell ==
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+         </box>
     </cell>
     <cell width="25%">
-        <icon name="bs:inboxes-fill" width="3rem"/>
-        == 25% cell ==
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+        <box>
+           <icon name="bs:inboxes-fill" width="3rem"/>
+            == 25% cell ==
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+        </box>
     </cell>
     <cell width="25%">
-        <icon name="bs:inboxes-fill" width="3rem"/>
-        == 25% cell ==
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+        <box>
+            <icon name="bs:inboxes-fill" width="3rem"/>
+            == 25% cell ==
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+         </box>
     </cell>
 </row>
 </code>
@@ -81,28 +93,34 @@ A row layout makes also all cells readable from the start from a mobile device.
 <code dw>
 <row>
     <cell width="1fr">
-        <icon name="bs:inboxes-fill" width="3rem"/>
-        == 1 fraction ==
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+        <box>
+            <icon name="bs:inboxes-fill" width="3rem"/>
+            == 1 fraction ==
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+        </box>
     </cell>
     <cell width="3fr">
-        <icon name="bs:inboxes-fill" width="3rem"/>
-        == 3 fractions ==
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        <box width="300px">
+            <icon name="bs:inboxes-fill" width="3rem"/>
+            == A 300px box in a 3 fractions cell ==
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+         </box>
     </cell>
-    <cell >
-        <icon name="bs:inboxes-fill" width="3rem"/>
-        == 1 fraction ==
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+    <cell>
+        <box>
+            <icon name="bs:inboxes-fill" width="3rem"/>
+            == 1 fraction ==
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+         </box>   
     </cell>
 </row>
 </code>
   * Output:
 </webcode>
 
-==== A row generated with iterator ====
+==== A row generated with an iterator ====
 
-You can use the ''row'' component in a [[:docs:templating:iterator|Iterator]] to generate a list of cells.
+You can use the ''row'' component in a [[:docs:templating:iterator|iterator]] to generate a list of cells.
 
 <webcode>
 <code dw>
@@ -110,11 +128,13 @@ You can use the ''row'' component in a [[:docs:templating:iterator|Iterator]] to
     <data>select from descendants where depth = 0 order by path asc limit 5 </data>
     <row max-cells="2">
         <template>
-            <cell clickable>
-                <page-image path="$path" width="8rem" align="center" />
-                == $title ==
-               <pipeline> "$description" | head(100,"...") </pipeline>
-               [[$path| ]]
+            <cell >
+               <box width="200px" clickable>
+                   <page-image path="$path" width="8rem" align="center" />
+                   == $title ==
+                   <pipeline> "$description" | head(100,"...") </pipeline>
+                   [[$path| ]]
+               </box>    
             </cell>
        </template>
     </row>

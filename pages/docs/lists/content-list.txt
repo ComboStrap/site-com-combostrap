@@ -13,7 +13,7 @@ A ''content-list'' is a [[docs:component|component]] that lays out component as 
 
 
 ===== Syntax =====
-''content-list'' is a [[docs:marki|HTML superset component]] that layouts a serie of [[docs:layout:component:grid|row]]
+''content-list'' is a [[docs:marki|HTML superset component]] that layouts a serie of [[docs:layout:component:row|row]]
 
 <code dw>
 <content-list type>
@@ -55,7 +55,7 @@ This example shows a ''content-list'' component with an:
 
 ==== List of row  ====
 
-If you want to create more complex list of content, you can add the [[docs:layout:component:grid|cells]] that will lay out the content automatically.
+If you want to create more complex list of content, you can add the [[docs:layout:component:row|cells]] that will lay out the content automatically.
 <webcode name="media-list" >
 <code dw>
 <content-list width="fit">
