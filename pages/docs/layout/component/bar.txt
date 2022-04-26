@@ -74,7 +74,7 @@ where:
   * ''background'' is the optional [[docs:styling:background|background definition]]
 
 <note>
-  * ''bar'' is a container component and will follow the [[:docs:layout:component:container|layout container configuration]]
+  * ''bar'' is a container component and will follow the [[docs:layout:page:container|layout container configuration]]
   * This is also an [[docs:marki|super HTML component]] and accepts therefore all [[docs:styling:styling|styling attributes]]
 </note>
 

@@ -18,16 +18,20 @@ The release 1.25 is the last development branch of Combostrap
   * The [[docs:layout:page:slot_manager|slot manager]] was added in the [[docs:layout:page:railbar|railbar]] to help create and localize [[docs:layout:page:slot|slots]].
   * The toggle functionality has been rewritten. The [[:docs:animation:toggle|toggle element]] is new and allows to set the a different control if the target is expanded or collapsed.
   * The [[:docs:app:identity|Identity form code]] is now ready for the new [[https://github.com/ComboStrap/combo/issues/14|DokuWiki version]].
-  * A [[:docs:layout:component:container#defaultLayoutContainer|default layout container]] is now used to set:
+  * A [[docs:layout:page:container#defaultLayoutContainer|default layout container]] is now used to set:
       * the whole template layout horizontal alignement
       * the default value of container aware component such as [[:docs:menubar:menubar|Menubar]]
   * The [[:docs:navigation:page-explorer|Page explorer]] component will collapse on small device due to the default [[:docs:animation:toggle|toggle-state]] value.
   * The informational messages are now toast located in the center of the page.
   * The [[:docs:styling:hero|Hero]] attribute that permits to create easily an hero unit style content.
+  * The [[:docs:layout:component:grid|row component]] accepts the ratio unit (percentage and fraction) as width length on its cells.
 ==== Modification ====
 Because of too much confusion, the following name has been renamed:
   * The ''home page'' is now known as the [[docs:type:index|index page]]
   * The ''root page'' is now known as the [[docs:app:home|home page]] 
+
+
+The [[:docs:layout:component:grid|row component]] is no more called a grid in the documentation because this is a layout component that works only on one axis and not two. It was just renamed to row.
 ==== Improvement ====
 
   * When [[support:preserve|preserve style]] is set on svg, the svg is shown as an img to avoid style conflict.
@@ -45,10 +49,10 @@ Because of too much confusion, the following name has been renamed:
   * If a page was copied with a frontmatter without deleting the page id, the page would have become a duplicate in the database.
 ==== Deprecated ====
   * The [[:release:deprecated:toggle|toggleTargetId]] has been deprecated for the [[:docs:animation:toggle|Toggle element]].
-  * The ''align'' attribute in the [[:docs:menubar:menubar|menubar]] has been replaced by a [[:docs:layout:component:container|container attribute value]]
+  * The ''align'' attribute in the [[:docs:menubar:menubar|menubar]] has been replaced by a [[docs:layout:page:container|container attribute value]]
   * The [[:release:deprecated:footer|footer component]] and the [[release:deprecated:slide|slide component]] are deprecated and replaced by the [[:docs:layout:component:bar|bar component]].
   * Edit Button for slot has been deprecated for the [[:docs:layout:page:slot_manager|Slot Manager]]
-  * The [[:release:deprecated:container|container syntax component]] has been deprecated for [[:docs:layout:component:container|container aware components]]
+  * The [[:release:deprecated:container|container syntax component]] has been deprecated for [[docs:layout:page:container|container aware components]]
 ==== Bug ====
   * The [[docs:app:search|Internal Search Engine]] result was not going away if the escape click reaches no element.
   * When the [[docs:performance:frontend_optimization|Front End Optimization]] was on, the [[docs:app:search|Internal Search Engine]] was no more working because ''DOKU_BASE'' was no more present.

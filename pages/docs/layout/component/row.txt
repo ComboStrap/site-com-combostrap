@@ -1,5 +1,10 @@
 ---json
 {
+    "aliases": [
+        { "path": ":docs:layout:component:grid" },
+        { "path": ":grid" }
+    ],
+    "name": "Row Layout",
     "page_id": "u7kl0ydtjgkaj9vy847wr"
 }
 ---
@@ -9,17 +14,15 @@
 
 
 ===== About =====
-The ''grid'' component permits to create a grid layout based on ''cells''  inside a ''row''.
-
-It will layout the  cells uniformly on the horizontal axis.  
+''row'' is a component that permits to layout ''cells'' on the horizontal axis.
 
 If a cell does not pass horizontally, it goes to a new line in a centered position.
 
-A grid layout makes also all cells readable from the start from a mobile device. 
+A row layout makes also all cells readable from the start from a mobile device. 
 
 ===== Example =====
 
-==== A 3 cells grid ====
+==== A basic row with 3 cells  ====
 
 <webcode>
 <code dw>
@@ -45,12 +48,39 @@ A grid layout makes also all cells readable from the start from a mobile device.
 </webcode>
 
 
-<note tip>
-The dimension of the the cells are not uniform, this is why a [[docs:styling:background|background]] should never be used inside a grid.
-</note>
 
-==== A grid ====
+==== A 3 cells rows with percentage ====
 
+<webcode>
+<code dw>
+<row>
+    <cell width="50%">
+        <icon name="bs:inboxes-fill" width="3rem"/>
+        == 50% cell ==
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+    </cell>
+    <cell width="25%">
+        <icon name="bs:inboxes-fill" width="3rem"/>
+        == 25% cell ==
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+    </cell>
+    <cell width="25%">
+        <icon name="bs:inboxes-fill" width="3rem"/>
+        == 25% cell ==
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+    </cell>
+</row>
+</code>
+  * Output:
+</webcode>
+
+
+
+
+
+==== Generated via the iterator ====
+
+You can use the ''row'' component in a [[:docs:templating:iterator|Iterator]] to generate a list of cells.
 
 <webcode>
 <code dw>
@@ -71,27 +101,28 @@ The dimension of the the cells are not uniform, this is why a [[docs:styling:bac
   * Output:
 </webcode>
 
-
-
-
-
 ===== Syntax =====
 <code dw>
 <row type>
-   <cell></cell>
+   <cell width="ratioValue"></cell>
    <cell></cell>
 </row>
 </code>
 where:
   * ''type'' may be the value:
+  * ''width'' may be a rationale value. ie a number with one of the following unit
+      * a percentage: ''%''
+      * or a fraction: ''fr''
 
 ^ Type ^ Description ^ Default for ^
 | ''auto'' | each cell width will automatically calculated to be greater than the minimum width of ''300'' | loss grid | 
 | ''fit'' | each cell will takes their natural width . Note that for cells with text and without width, we set a width of ''300'' (because the natural width of text is the whole line until the end of the paragraph) | contained grid |
 | ''none'' | the content will just shrink without overflow | |
+| ''width'' | the width is defined explicitly on the cells | cell with width |
 
 
 <note>
-You can use all [[docs:styling:styling|styling attributes]].
+  * You can use all [[docs:styling:styling|styling attributes]].
+  * The dimension of the the cells are not uniform, this is why a [[docs:styling:background|background]] cannot be used inside a row.
 </note>
 

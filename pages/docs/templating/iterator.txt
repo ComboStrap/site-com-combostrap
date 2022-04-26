@@ -16,7 +16,7 @@ You may apply the following layout:
   * [[docs:lists:list|simple list]]
   * [[docs:lists:table|table]]
   * [[docs:lists:content-list|content list]]
-  * [[docs:layout:component:grid|grid]]
+  * [[docs:layout:component:row|grid]]
 
 
 
