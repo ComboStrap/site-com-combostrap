@@ -14,15 +14,15 @@
 
 
 ===== About =====
-''row'' is a component that permits to distribute space in ''cells'' on the horizontal axis.
+''row'' is a component that permits to distribute [[cell|cells]] on the horizontal axis.
 
-If a cell does not pass horizontally, it goes to a new line in a centered position.
+If a cell does not pass in the available horizontal space, it goes to a new line in a centered position (by default).
 
-A row layout makes also all cells readable from the start from a mobile device. 
 
 ===== Example =====
 
-==== A basic row with 3 cells  ====
+==== A row with 3 cells  ====
+
 
 <webcode>
 <code dw>
@@ -143,26 +143,36 @@ You can use the ''row'' component in a [[:docs:templating:iterator|iterator]] to
   * Output:
 </webcode>
 
+==== Row versus Cell ====
+
+You can also create simple distribution with the [[:docs:styling:distribution|distribute attribute]] on a [[cell|cell]].
+
+The difference is that a row permits to specify the space allocated (via a ratio, ..)  while the distribution attribute cannot.
+
+
+
+
 ===== Syntax =====
 <code dw>
-<row type max-cells="numberValue">
-   <cell width="ratioValue"></cell>
-   <cell width="ratioValue"></cell>
+<row type max-cells="numberValue" vertical="top" horizontal="center">
+   <cell width="ratioValue" vertical="top" horizontal="center"></cell>
+   <cell width="ratioValue" vertical="top" horizontal="center"></cell>
 </row>
 </code>
 where:
-  * ''max-cells'' (optional) define the maximum number of cells on a horizontal axis
+  * ''max-cells'' (optional) define the maximum number of cells on a horizontal axis. The [[:docs:styling:breakpoint|values by breakpoint]] are ''1-xs 2-sm 3-md 4-lg''. A value without breakpoint got the ''lg'' breakpoint.
   * ''width'' (optional) is a rationale value that defines the space that a cell takes on the horizontal axis. ie a number with one of the following unit
       * a percentage: ''%'': a number between 0 to 100. The total may go over 100. In this case, cells with a cumulative percentage above 100% goes to a new line.
       * or a fraction: ''fr'': a cell with ''2fr'' takes two more space than a cell with ''1fr''
+  * ''vertical'' and ''horizontal'' are known as the [[:docs:styling:distribution|distribution attribute]] and permits to distribute the children.
   * ''type'' is generally derived but you may overwrite it with one of the below value:
 
 ^ Type ^ Description ^ Default for ^
-| ''auto'' | each cell width will automatically calculated to be greater than the minimum width of ''300'' | loss grid | 
+| ''cells'' | the number of cells by row is defined | default / row with max-cells |
+| ''width'' | the width is defined explicitly on the cells | cell with width |
 | ''fit'' | each cell will takes their natural width . Note that for cells with text and without width, we set a width of ''300'' (because the natural width of text is the whole line until the end of the paragraph) | contained grid |
 | ''none'' | the content will just shrink without overflow | |
-| ''width'' | the width is defined explicitly on the cells | cell with width |
-| ''cells'' | the number of cells by row is defined | row with max-cells |
+
 
 
 <note>

@@ -2,39 +2,43 @@
 {
     "description": "A breakpoint allows to created conditional styling \/ design",
     "page_id": "kqvyo8zrfp1rdlqe9gokp",
-    "title": "Breakpoint - Responsive Design"
+    "title": "How to create conditional values with Breakpoint ?"
 }
 ---
 ====== ComboStrap Styling - Breakpoint ======
 
 
 ===== About =====
-''breakpoints prefix'' allows to apply value conditionally based on the screen size of the browser.  
+''breakpoints'' allows to apply a [[docs:styling:styling|styling]] value conditionally based on the screen size of the browser.  
 
 
 
-
+By adding the breakpoint name as a suffix, you create a value that will vary based on the screen size.
 
 ===== Example =====
 
-By adding the breakpoint as prefix, you create a value that will vary based on the screen size.
-
 The below [[:docs:styling:spacing|spacing value]] is conditional and applies:
-  * for small screen: a padding of 3 (ie ''xs-p-3'' or ''p-3'', ''xs'' being the default)
-  * for medium screen ''md'' and above: a padding of 5 (ie ''md-p-5'')
+  * for small screen: a padding of 3 (ie ''p-3-xs'')
+  * for medium screen ''md'' and above: a padding of 5 (ie ''p-5-md'')
 <code html>
-<component spacing="p-3 p-5-md" />
+<component spacing="p-3-xs p-5-md" />
 </code>
 
-===== List =====
+===== Syntax =====
 
+<code html>
+<component attribute="value-breakpoint" />
+</code>
+where:
+  * ''breakpoint'' is the breakpoint short name.
+ 
 Each breakpoints defines the maximum width of the screen for a value to be applied.
 
-^ Breakpoint ^ Prefix ^ Apply to browser size ^ Device Targeted ^ 
-| X-Small (default) | xs | <576px | Mobile Phone |
+^ Breakpoint ^ Short name ^ Apply to browser size ^ Device Targeted ^ 
+| X-Small | xs | <576px | Mobile Phone |
 | Small | sm | ≥576px | Ipad |
 | Medium | md | ≥768px | Ipad Pro |
-| Large | lg | ≥992px | Desktop Screen |
+| Large (default) | lg | ≥992px | Desktop Screen |
 | Extra large | xl | ≥1200px | Large Desktop Screen |
 | Extra extra large \\ (new with [[docs:utility:bootstrap#version|bootstrap 5]]) | xxl | ≥1400px  | Extra Large Desktop Screen |
 
@@ -42,3 +46,7 @@ Each breakpoints defines the maximum width of the screen for a value to be appli
 <note>
 ''combostrap'' follows the breakpoints of [[docs:utility:bootstrap|bootstrap]] (even if you have created your [[bootstrap|own custom bootstrap]])
 </note>
+
+===== Default =====
+  * The default breakpoint (screen size) if not specified is ''large'' because writer designs always with a desktop screen before their eyes.
+  * For the smaller breakpoints, ComboStrap applies default values that you need to overwrite. 

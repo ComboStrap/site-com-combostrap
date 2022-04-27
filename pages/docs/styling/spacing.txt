@@ -75,12 +75,12 @@ A note with a padding and a margin only at the start of the line (ie ''left'' in
 ===== Syntax =====
 
 <code dw>
-spacing="value"
+<component spacing="value" />
 </code>
 
 where value is:
 <code>
-{spaceType}[sides][-{breakpoint}]-{size}
+{spaceType}[sides]-{size}
 </code>
 
 where:
@@ -92,12 +92,20 @@ where:
           * ''x'' (Left and right)
           * ''y'' (top & bottom)
       * position:
-          * ''s'': start (left for LTR or right for RTL language)
+          * ''s'': start (left for LTR or right for RTL [[:docs:locale:lang|language]])
           * ''e'': end (right for LTR or left for RTL language)
           * ''t'': top
           * ''b'': bottom
-  * ''breakpoint'' (optional, default to xs) is the [[docs:styling:breakpoint|Breakpoint (Toggle size)]] : xs, sm, md, lg, xl
   * ''size'' (mandatory) is 0,1,2,3,4 or 5 (based on [[docs:styling:scale|size scale]])
+
+<note>
+This value may be conditioned to the screen size by adding a [[:docs:styling:breakpoint|breakpoint as prefix]]
+
+Example: a padding of 3 applied from a medium screen size
+<code html>
+<component spacing="p-3-md" />
+</code>
+</note>
 
 
 

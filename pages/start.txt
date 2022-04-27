@@ -243,8 +243,7 @@ The platform is open source, guarantee of sustainability and
 </box>
 </bar>
 
-<slide size="lg" >
-<container>
+<bar hero="lg" >
 \\
 \\
 \\
@@ -283,8 +282,7 @@ The platform is open source, guarantee of sustainability and
 \\
 \\
 \\
-</container>
-</slide>
+</bar>
 
 
 
