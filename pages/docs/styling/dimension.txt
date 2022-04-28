@@ -20,6 +20,7 @@ Every [[docs:block:block|Box components]] and even the whole main page dimension
 
 The ''width'' attributes supports the following values:
   * ''length'' - a length (in pixel, percentage, or other length unit)
+  * a [[docs:styling:breakpoint|conditional length]] in percentage
   * ''fit-content'' - the width of the text.
 
 <note info width="fit-content">If you want to center the box, use the [[docs:styling:align|align attributes]]</note>
@@ -31,6 +32,12 @@ The ''width'' attributes supports the following values:
 <note warning width="200px" align="center">
 === A constrained warning note ===
 I'm a note being constraint in a box with a maximum width of 200 pixels.
+</note>
+<note warning width="100%-xs 50%-sm" align="center">
+=== A Note with a conditional width ===
+This note will take:
+  * 100% space on a mobile screen (xs) 
+  * 50% on a small screen (sm) and above
 </note>
 </code>
 </webcode>

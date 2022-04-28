@@ -6,6 +6,7 @@
 ====== ComboStrap Styling - Align Attribute ======
 
 
+
 ===== About =====
 ''align'' is an [[docs:styling:styling|styling attribute]] of the [[docs:marki|HTML superset component]]
 
