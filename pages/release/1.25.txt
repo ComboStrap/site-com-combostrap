@@ -24,7 +24,9 @@ The release 1.25 is the last development branch of Combostrap
   * The [[:docs:navigation:page-explorer|Page explorer]] component will collapse on small device due to the default [[:docs:animation:toggle|toggle-state]] value.
   * The informational messages are now toast located in the center of the page.
   * The [[:docs:styling:hero|Hero]] attribute that permits to create easily an hero unit style content.
-  * The [[docs:layout:component:row|row component]] accepts the ratio unit (percentage and fraction) as width length on its cells.
+  * The [[docs:layout:component:row|row component]] accepts:
+      * conditional ratio unit (percentage and fraction) as width length on its cells.
+      * conditional number of cells by line
   * The [[:docs:styling:dimension|width]] can now be defined conditionally based on the screen size.
 ==== Modification ====
 Because of too much confusion, the following name has been renamed:

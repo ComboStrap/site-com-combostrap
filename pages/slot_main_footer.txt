@@ -23,14 +23,9 @@
 
 <row>
 <cell width="25%" color="muted" text-align="center">Share this page:</cell>
-<cell text-align="left"><share twitter/> <share facebook/> <share hn/> <share mail/> <share Whatsapp/> <share telegram /></cell>
-</row>
-<row>
+<cell width="75%" text-align="left"><share twitter/> <share facebook/> <share hn/> <share mail/> <share Whatsapp/> <share telegram /></cell>
 <cell width="25%" color="muted" text-align="center">Follow us:</cell>
-<cell text-align="left"><follow twitter  handle="combostrapweb"/> <follow facebook handle="combostrap"/></cell>
-</row>
-
-<row>
-<cell width="25%" color="muted" text-align="x-center-xs">Page Improvement:</cell>
-<cell align="x-center-xs x-left-md"><brand github widget="link" url="https://github.com/ComboStrap/website/edit/master/pages/$path.txt" width="26"> Edit it yourself</brand> or <brand github url="https://github.com/ComboStrap/website/issues/new?title=Docs%20feedback:%20$path" width="26" widget="link"> Request a modification</brand></cell>
+<cell width="75%" text-align="left"><follow twitter  handle="combostrapweb"/> <follow facebook handle="combostrap"/></cell>
+<cell width="25%" color="muted" text-align="center">Page Improvement:</cell>
+<cell width="75%" align="x-center-xs x-left-md"><brand github widget="link" url="https://github.com/ComboStrap/website/edit/master/pages/$path.txt" width="26"> Edit it yourself</brand> or <brand github url="https://github.com/ComboStrap/website/issues/new?title=Docs%20feedback:%20$path" width="26" widget="link"> Request a modification</brand></cell>
 </row>
