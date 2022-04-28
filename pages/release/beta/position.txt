@@ -26,19 +26,19 @@ Inside a [[docs:block:block|block component]], you can position your component u
 
 <webcode name="Default" frameborder="0">
 <code dw>
-<box width="400px" height="200px" border-color="black" spacing="m-5" class="position-relative">
-    <icon position="top-left" name="logo.svg" background-color="white" />
+<box width="400px" height="200px" border-color="black" spacing="m-5" class="position-relative overflow-visible">
+    <icon position="top-left" name="logo.svg" />
     <badge position="top-quartile-1">top-25</badge>
-    <icon position="top-center" name="logo.svg" background-color="white"/>
-    <icon position="top-quartile-3" name="logo.svg" background-color="white"/>
-    <icon position="top-right" name="logo.svg" background-color="white"/>
-    <typo position="left-quartile-1" background-color="white">left-75</typo>
-    <icon position="left-center" name="logo.svg" background-color="white"/>
-    <icon position="center" name="logo.svg" background-color="white"/>
-    <icon position="right-center" name="logo.svg" background-color="white" />
-    <icon position="bottom-left" name="logo.svg" background-color="white" />
-    <icon position="bottom-center" name="logo.svg" background-color="white"/>
-    <icon position="bottom-right" name="logo.svg" background-color="white" />
+    <icon position="top-center" name="logo.svg"/>
+    <icon position="top-quartile-3" name="logo.svg" />
+    <icon position="top-right" name="logo.svg" />
+    <text position="left-quartile-1">left-75</text>
+    <icon position="left-center" name="logo.svg" />
+    <icon position="center" name="logo.svg" />
+    <icon position="right-center" name="logo.svg" />
+    <icon position="bottom-left" name="logo.svg" />
+    <icon position="bottom-center" name="logo.svg" />
+    <icon position="bottom-right" name="logo.svg" />
 </box>
 </code>
 </webcode>

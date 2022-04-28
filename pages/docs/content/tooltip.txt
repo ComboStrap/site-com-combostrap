@@ -14,8 +14,6 @@ A ''Tooltip'' displays informative text when users hover over, focus on, or tap 
 
 {{:docs:content:tooltip_illustration.png|}}
 
-By default, when hovering over [[docs:content:link|a link]], you get the default HTML tooltip with the page [[docs:page:description|description]] as content.
-
 
 With the tooltip component, you can attach any tooltip to any component.
 
@@ -32,6 +30,16 @@ Example:
 </code>
   * Output:
 </webcode>
+
+\\
+\\
+\\
+<note>
+By default, when hovering over [[docs:content:link|a link]], you get already the default HTML tooltip with the page [[docs:page:description|description]] as content.
+
+{{:docs:content:link_title_tooltip.png|}}
+</note>
+
 
 ==== A link with the preview tooltip ====
 
@@ -80,14 +88,16 @@ You can also add a tooltip on a [[docs:content:icon?preview|icon]].
   * Markup
 <code dw>
 <icon name="information-outline">
-<tooltip>
-=== Icon tooltip ===
-A tooltip on a icon can also be added
-</tooltip></icon>
+    <tooltip>
+    === Icon tooltip ===
+   A tooltip on a icon can also be added
+   </tooltip>
+</icon>
 </code>
   * Output:
 
 </webcode>
+
 
 ==== Image ====
 Adding a tooltip on a [[docs:content:image?preview|image]] is not directly supported but if you see your image as text and wrap it up inside a [[docs:content:itext?preview|itext]], you get the same effect.
