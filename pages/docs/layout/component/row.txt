@@ -21,33 +21,27 @@ If a cell does not pass in the available horizontal space, it goes to a new line
 
 ===== Example =====
 
-==== A row with 3 cells  ====
+==== A row of 3 elements  ====
 
 
 <webcode>
 <code dw>
 <row>
-    <cell>
         <box>
             <icon name="bs:inboxes-fill" width="3rem"/>
             == Lorem Ipsum 1 ==
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
         </box>   
-    </cell>
-    <cell>
         <box>
             <icon name="bs:inboxes-fill" width="3rem"/>
             == Lorem Ipsum 2 ==
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
          </box>  
-    </cell>
-        <cell>
-            <box>
+         <box>
                 <icon name="bs:inboxes-fill" width="3rem"/>
                 == Lorem Ipsum 3 ==
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-             </box>   
-    </cell>
+         </box>
 </row>
 </code>
   * Output:
@@ -55,68 +49,79 @@ If a cell does not pass in the available horizontal space, it goes to a new line
 
 
 
-==== A 3 cells row with percentage ====
+==== A 3 boxes row with percentage ====
 
 <webcode>
 <code dw>
 <row>
-    <cell width="50%">
+    <box width="50%">
         <box width="250">
             <icon name="bs:inboxes-fill" width="3rem"/>
-            == A 250 width box in a 50% cell ==
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            == A 250 width box in 50% of the available line space ==
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. 
          </box>
-    </cell>
-    <cell width="25%">
-        <box>
-           <icon name="bs:inboxes-fill" width="3rem"/>
-            == 25% cell ==
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-        </box>
-    </cell>
-    <cell width="25%">
-        <box>
-            <icon name="bs:inboxes-fill" width="3rem"/>
-            == 25% cell ==
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-         </box>
-    </cell>
+    </box>
+    <box width="25%">
+        <icon name="bs:inboxes-fill" width="3rem"/>
+        == 25% cell ==
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+    </box>
+    <box width="25%">
+        <icon name="bs:inboxes-fill" width="3rem"/>
+        == 25% cell ==
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+    </box>
 </row>
 </code>
   * Output:
 </webcode>
 
+\\
+\\
+<note>
+The default  [[:docs:styling:breakpoint|breakpoint]] is the ''small'' breakpoint 
 
-==== A 3 cells row with fraction ====
+A width value of ''25%'' is then equivalent to ''100%-xs 25%-sm''. It means than on mobile screen (''xs'' breakpoint) each box takes the whole available line space and are therefore stacked.
+</note>
+
+==== A 3 boxes row with ratio ====
+
 
 <webcode>
 <code dw>
 <row>
-    <cell width="1fr">
-        <box>
+    <box width="1:4">
             <icon name="bs:inboxes-fill" width="3rem"/>
-            == 1 fraction ==
+            == 1/4 line space ==
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-        </box>
-    </cell>
-    <cell width="3fr">
+    </box>
+    <box width="1:2">
         <box width="300px">
             <icon name="bs:inboxes-fill" width="3rem"/>
-            == A 300px box in a 3 fractions cell ==
+            == A 300px box in a half line space ==
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
          </box>
-    </cell>
-    <cell>
-        <box>
+    </box>
+    <box width="1:4">
             <icon name="bs:inboxes-fill" width="3rem"/>
-            == 1 fraction ==
+            == 1/4 line space ==
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-         </box>   
-    </cell>
+    </box>
 </row>
 </code>
   * Output:
 </webcode>
+
+
+
+\\
+\\
+
+<note>
+The default  [[:docs:styling:breakpoint|breakpoint]] is the ''small'' breakpoint 
+
+A width value of ''1:3'' is then equivalent to ''1-xs 1:3-sm''. It means than on mobile screen (''xs'' breakpoint) each cell takes the whole available line space and are therefore stacked.
+</note>
 
 ==== A row generated with an iterator ====
 
@@ -126,7 +131,7 @@ You can use the ''row'' component in a [[:docs:templating:iterator|iterator]] to
 <code dw>
 <iterator>
     <data>select from descendants where depth = 0 order by path asc limit 5 </data>
-    <row max-cells="2">
+    <row max-cells="2-sm 3-md">
         <template>
             <cell >
                <box width="200px" clickable>
@@ -143,28 +148,23 @@ You can use the ''row'' component in a [[:docs:templating:iterator|iterator]] to
   * Output:
 </webcode>
 
-==== Row versus Cell ====
 
-You can also create simple distribution with the [[:docs:styling:distribution|distribute attribute]] on a [[cell|cell]].
-
-The difference is that a row permits to specify the space allocated (via a ratio, ..)  while the distribution attribute cannot.
 
 
 
 
 ===== Syntax =====
 <code dw>
-<row type max-cells="numberValue" vertical="top" horizontal="center">
-   <cell width="ratioValue" vertical="top" horizontal="center"></cell>
-   <cell width="ratioValue" vertical="top" horizontal="center"></cell>
+<row type max-cells="numberValue" >
+   <cell width="ratioValue" ></cell>
+   <cell width="ratioValue" ></cell>
 </row>
 </code>
 where:
   * ''max-cells'' (optional) define the maximum number of cells on a horizontal axis. The [[:docs:styling:breakpoint|values by breakpoint]] are ''1-xs 2-sm 3-md 4-lg''. A value without breakpoint got the ''lg'' breakpoint.
-  * ''width'' (optional) is a rationale value that defines the space that a cell takes on the horizontal axis. ie a number with one of the following unit
-      * a percentage: ''%'': a number between 0 to 100. The total may go over 100. In this case, cells with a cumulative percentage above 100% goes to a new line.
-      * or a fraction: ''fr'': a cell with ''2fr'' takes two more space than a cell with ''1fr''
-  * ''vertical'' and ''horizontal'' are known as the [[:docs:styling:distribution|distribution attribute]] and permits to distribute the children.
+  * ''width'' (optional) is a rationale [[:docs:styling:breakpoint|conditional value]] that defines the space that a cell takes on the horizontal axis. ie:
+      * a percentage: ''%'': a number between 0 to 100 with the percentage symbol. The total may go over 100. In this case, cells with a cumulative percentage above 100% goes to a new line.
+      * or a number or ratio from 0 to 1. A cell with ''1:3'' will take one third of the available line space.
   * ''type'' is generally derived but you may overwrite it with one of the below value:
 
 ^ Type ^ Description ^ Default for ^
