@@ -36,18 +36,18 @@ This example shows a ''content-list'' component with an:
 <webcode name="List" >
 <code dw>
 <content-list flush color="info" width="300px">
-    <row>
+    <box align="x-between-children y-center-children">
         <itext><icon name="folder"/> [[docs:content:icon|Icon]]</itext>
         <badge align="right">info</badge>
-    </row>
-    <row>
+    </box>
+    <box align="x-between-children y-center-children">
         <itext><icon name="folder"/> [[docs:content:badge|Badge]]</itext>
         <badge align="right">info</badge>
-    </row>
-    <row>
+    </box>
+    <box align="x-between-children y-center-children">
         <itext><icon name="folder"/> [[docs:content:badge|Badge]]</itext>
         <badge align="right">info</badge>
-    </row>
+    </box>
 </content-list>
 </code>
 </webcode>
