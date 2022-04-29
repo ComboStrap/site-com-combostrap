@@ -150,9 +150,6 @@ You can use the ''row'' component in a [[:docs:templating:iterator|iterator]] to
 
 
 
-
-
-
 ===== Syntax =====
 <code dw>
 <row type max-line="numberValue" align="x-center-children">
