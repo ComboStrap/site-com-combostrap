@@ -1,9 +1,8 @@
 <bar background-color="gradient-light" color="secondary">
 
 <row>
-<cell spacing="ms-md-3" width="50%">
+<box spacing="ms-md-3" width="50%">
 
-<box>
 <text h4 ><icon name="logo.svg" spacing="mr-1" color="secondary"/>ComboStrap</text>
 <text lead>The leading web markup platform</text>
 
@@ -12,24 +11,19 @@ Create web sites, publish landing pages, write articles, how-to's, documentation
 </text>
 </box>
 
-</cell>
-<cell width="25%">
-<box>
+<box width="25%">
 **Product** \\
 [[combostrap?color=secondary|ComboStrap]] \\
 [[release:latest?color=secondary|Release (Changes)]] \\
 [[credits?color=secondary|Credits]] \\
 </box>
-</cell>
-<cell with="25%">
-<box>
+<box with="25%">
 **Contact** \\
 [[support@combostrap.com?subject=Contact via WebSite&color=secondary|Mail]] \\
 [[:support?color=secondary|Support]] \\
 [[:about_us?color=secondary|About Us]] \\
 [[:security?color=secondary|Security]] \\
 </box>
-</cell>
 </row>
 </bar>
 

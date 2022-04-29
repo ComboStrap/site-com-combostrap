@@ -1,27 +1,27 @@
 ---json
 {
     "aliases": [
-        { "path": ":docs:layout:component:grid" },
-        { "path": ":grid" }
+        { "path": ":docs:layout:component:grid" }
     ],
     "name": "Row Layout",
-    "page_id": "u7kl0ydtjgkaj9vy847wr"
+    "page_id": "u7kl0ydtjgkaj9vy847wr",
+    "title": "Row Layout: How to create a responsive space distribution of children on the horizontal axis"
 }
 ---
 
 
-====== ComboStrap UI - Grid (Row and Cell) ======
+====== Row Layout: Distribute children on the horizontal space ======
 
 
 ===== About =====
-''row'' is a component that permits to distribute [[cell|cells]] on the horizontal axis.
+''row'' is a component that permits to distribute children component on the horizontal axis in a [[:docs:styling:breakpoint|responsive way]].
 
-If a cell does not pass in the available horizontal space, it goes to a new line in a centered position (by default).
+If a child does not pass in the available horizontal space, it goes to a new line in a centered position (by default).
 
 
 ===== Example =====
 
-==== A row of 3 elements  ====
+==== A row of 3 children elements  ====
 
 
 <webcode>
@@ -63,12 +63,12 @@ If a cell does not pass in the available horizontal space, it goes to a new line
     </box>
     <box width="25%">
         <icon name="bs:inboxes-fill" width="3rem"/>
-        == 25% cell ==
+        == 25% box ==
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
     </box>
     <box width="25%">
         <icon name="bs:inboxes-fill" width="3rem"/>
-        == 25% cell ==
+        == 25% box ==
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
     </box>
 </row>
@@ -95,7 +95,7 @@ A width value of ''25%'' is then equivalent to ''100%-xs 25%-sm''. It means than
             == 1/4 line space ==
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
     </box>
-    <box width="1:2">
+    <box width="1:2" align="center-children">
         <box width="300px">
             <icon name="bs:inboxes-fill" width="3rem"/>
             == A 300px box in a half line space ==
@@ -131,16 +131,16 @@ You can use the ''row'' component in a [[:docs:templating:iterator|iterator]] to
 <code dw>
 <iterator>
     <data>select from descendants where depth = 0 order by path asc limit 5 </data>
-    <row max-cells="2-sm 3-md">
+    <row max-line="2-sm 3-md">
         <template>
-            <cell >
+            <box align="center-children">
                <box width="200px" clickable>
                    <page-image path="$path" width="8rem" align="center" />
                    == $title ==
                    <pipeline> "$description" | head(100,"...") </pipeline>
                    [[$path| ]]
                </box>    
-            </cell>
+            </box>
        </template>
     </row>
 </iterator>
@@ -155,28 +155,29 @@ You can use the ''row'' component in a [[:docs:templating:iterator|iterator]] to
 
 ===== Syntax =====
 <code dw>
-<row type max-cells="numberValue" >
-   <cell width="ratioValue" ></cell>
-   <cell width="ratioValue" ></cell>
+<row type max-line="numberValue" align="x-center-children">
+   <component width="ratioValue" ></component>
+   <component width="ratioValue" ></component>
+   ....
 </row>
 </code>
 where:
-  * ''max-cells'' (optional) define the maximum number of cells on a horizontal axis. The [[:docs:styling:breakpoint|values by breakpoint]] are ''1-xs 2-sm 3-md 4-lg''. A value without breakpoint got the ''lg'' breakpoint.
+  * ''max-line'' (optional) define the maximum number of children by line. The [[:docs:styling:breakpoint|values by breakpoint]] are ''1-xs 2-sm 3-md 4-lg''. A value without breakpoint got the ''lg'' breakpoint.
   * ''width'' (optional) is a rationale [[:docs:styling:breakpoint|conditional value]] that defines the space that a cell takes on the horizontal axis. ie:
       * a percentage: ''%'': a number between 0 to 100 with the percentage symbol. The total may go over 100. In this case, cells with a cumulative percentage above 100% goes to a new line.
       * or a number or ratio from 0 to 1. A cell with ''1:3'' will take one third of the available line space.
+  * ''align'' is the [[:docs:styling:align|align attribute]] and centers by default the children. (ie ''x-center-children'')
   * ''type'' is generally derived but you may overwrite it with one of the below value:
 
 ^ Type ^ Description ^ Default for ^
-| ''cells'' | the number of cells by row is defined | default / row with max-cells |
-| ''width'' | the width is defined explicitly on the cells | cell with width |
-| ''fit'' | each cell will takes their natural width . Note that for cells with text and without width, we set a width of ''300'' (because the natural width of text is the whole line until the end of the paragraph) | contained grid |
+| ''max'' | the number of children by line is defined on the row element | default / row with max-line attribute |
+| ''width'' | the width is defined explicitly on the children | children with width |
+| ''fit'' | each child will takes their natural width . Note that for child with text and without width, we set a width of ''300'' (because the natural width of text is the whole line until the end of the paragraph) | contained grid |
 | ''none'' | the content will just shrink without overflow | |
-
 
 
 <note>
   * You can use all [[docs:styling:styling|styling attributes]].
-  * The dimension of the the cells are not uniform, this is why a [[docs:styling:background|background]] cannot be used inside a row.
+  * The dimension of the children are not uniform, this is why a [[docs:styling:background|background]] cannot be used inside a row.
 </note>
 
