@@ -145,7 +145,7 @@ Example: position the image to the right with:
 </webcode>
 
 <note>
-If you want more control on position, we advise you to use the [[docs:layout:component:row|grid]] and its cells.
+If you want more control on position, we advise you to use the [[docs:layout:component:grid|grid]] and its cells.
 </note>
 
 

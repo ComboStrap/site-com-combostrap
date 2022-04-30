@@ -13,7 +13,7 @@
 It permits to align a [[#block|block]] on the horizontal axis.
 
 <note tip align="center" width="fit-content">
-If you want more control on the position, you may also use a [[docs:layout:component:row|grid]]
+If you want more control on the position, you may also use a [[docs:layout:component:grid|grid]]
 </note>
 
 

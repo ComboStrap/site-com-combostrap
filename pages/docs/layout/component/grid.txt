@@ -3,30 +3,34 @@
     "aliases": [
         { "path": ":docs:layout:component:grid" }
     ],
-    "name": "Row Layout",
+    "name": "Grid Layout",
     "page_id": "u7kl0ydtjgkaj9vy847wr",
-    "title": "Row Layout: How to create a responsive space distribution of children on the horizontal axis"
+    "title": "Grid Layout: How to create a responsive space distribution of children on the horizontal axis"
 }
 ---
 
 
-====== Row Layout: Distribute children on the horizontal space ======
+====== Grid Layout: Distribute children on the horizontal space ======
 
 
 ===== About =====
-''row'' is a component that permits to distribute children component on the horizontal axis in a [[:docs:styling:breakpoint|responsive way]].
+''grid'' is a component that permits to distribute the horizontal space across children in a responsive way.
 
-If a child does not pass in the available horizontal space, it goes to a new line in a centered position (by default).
+The children:
+  * will go to a new line in a centered position (by default) if there is not enough horizontal space (creating a grid)
+  * width may be defined for different [[:docs:styling:breakpoint|screen size]]
+
 
 
 ===== Example =====
 
-==== A row of 3 children elements  ====
+==== A grid of 3 children elements  ====
+
 
 
 <webcode>
 <code dw>
-<row>
+<grid>
         <box>
             <icon name="bs:inboxes-fill" width="3rem"/>
             == Lorem Ipsum 1 ==
@@ -42,20 +46,30 @@ If a child does not pass in the available horizontal space, it goes to a new lin
                 == Lorem Ipsum 3 ==
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
          </box>
-</row>
+</grid>
 </code>
   * Output:
 </webcode>
 
 
+**Explanation:** 
 
-==== A 3 boxes row with percentage ====
+By default, a grid will create by line:
+  * 4 slots in a large screen
+  * 3 slots in a medium screen
+  * 2 slots in a small screen
+  * 1 slot in a mobile screen
+
+If you see this page on a laptop screen (4 slots), you should see one line with:
+  * 3 slots: taken by the 3 children
+  * 1 slot: distributed on the left and right side to center the children (center is the default alignment)
+==== A grid created with percentage on the children ====
 
 <webcode>
 <code dw>
-<row>
+<grid>
     <box width="50%">
-        <box width="250">
+        <box width="250" align="center">
             <icon name="bs:inboxes-fill" width="3rem"/>
             == A 250 width box in 50% of the available line space ==
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. 
@@ -71,7 +85,7 @@ If a child does not pass in the available horizontal space, it goes to a new lin
         == 25% box ==
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
     </box>
-</row>
+</grid>
 </code>
   * Output:
 </webcode>
@@ -84,12 +98,12 @@ The default  [[:docs:styling:breakpoint|breakpoint]] is the ''small'' breakpoint
 A width value of ''25%'' is then equivalent to ''100%-xs 25%-sm''. It means than on mobile screen (''xs'' breakpoint) each box takes the whole available line space and are therefore stacked.
 </note>
 
-==== A 3 boxes row with ratio ====
+==== A grid with ratio space definition ====
 
 
 <webcode>
 <code dw>
-<row>
+<grid>
     <box width="1:4">
             <icon name="bs:inboxes-fill" width="3rem"/>
             == 1/4 line space ==
@@ -107,7 +121,7 @@ A width value of ''25%'' is then equivalent to ''100%-xs 25%-sm''. It means than
             == 1/4 line space ==
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
     </box>
-</row>
+</grid>
 </code>
   * Output:
 </webcode>
@@ -123,18 +137,18 @@ The default  [[:docs:styling:breakpoint|breakpoint]] is the ''small'' breakpoint
 A width value of ''1:3'' is then equivalent to ''1-xs 1:3-sm''. It means than on mobile screen (''xs'' breakpoint) each cell takes the whole available line space and are therefore stacked.
 </note>
 
-==== A row generated with an iterator ====
+==== A grid generated via an iterator ====
 
-You can use the ''row'' component in a [[:docs:templating:iterator|iterator]] to generate a list of cells.
+You can generate a ''grid'' component with the [[:docs:templating:iterator|iterator]].
 
 <webcode>
 <code dw>
 <iterator>
     <data>select from descendants where depth = 0 order by path asc limit 5 </data>
-    <row max-line="2-sm 3-md">
+    <grid max-line="3">
         <template>
-            <box align="center-children">
-               <box width="200px" clickable>
+            <box>
+               <box width="200px" align="center" clickable>
                    <page-image path="$path" width="8rem" align="center" />
                    == $title ==
                    <pipeline> "$description" | head(100,"...") </pipeline>
@@ -142,7 +156,7 @@ You can use the ''row'' component in a [[:docs:templating:iterator|iterator]] to
                </box>    
             </box>
        </template>
-    </row>
+    </grid>
 </iterator>
 </code>
   * Output:
@@ -152,11 +166,11 @@ You can use the ''row'' component in a [[:docs:templating:iterator|iterator]] to
 
 ===== Syntax =====
 <code dw>
-<row type max-line="numberValue" align="x-center-children">
+<grid max-line="numberValue" align="x-center-children" gutter="y-5">
    <component width="ratioValue" ></component>
    <component width="ratioValue" ></component>
    ....
-</row>
+</grid>
 </code>
 where:
   * ''max-line'' (optional) define the maximum number of children by line. The [[:docs:styling:breakpoint|values by breakpoint]] are ''1-xs 2-sm 3-md 4-lg''. A value without breakpoint got the ''lg'' breakpoint.
@@ -164,17 +178,14 @@ where:
       * a percentage: ''%'': a number between 0 to 100 with the percentage symbol. The total may go over 100. In this case, cells with a cumulative percentage above 100% goes to a new line.
       * or a number or ratio from 0 to 1. A cell with ''1:3'' will take one third of the available line space.
   * ''align'' is the [[:docs:styling:align|align attribute]] and centers by default the children. (ie ''x-center-children'')
-  * ''type'' is generally derived but you may overwrite it with one of the below value:
+  * ''gutter'' is the gaps between the children. The accepted values are a [[:docs:styling:scale|scale number (from 1 to 5)]] with the axis. ie 
+      * ''x-1'' to ''x-5'' for the horizontal gutter
+      * ''y-1'' to ''y-5'' for the vertical gutter
 
-^ Type ^ Description ^ Default for ^
-| ''max'' | the number of children by line is defined on the row element | default / row with max-line attribute |
-| ''width'' | the width is defined explicitly on the children | children with width |
-| ''fit'' | each child will takes their natural width . Note that for child with text and without width, we set a width of ''300'' (because the natural width of text is the whole line until the end of the paragraph) | contained grid |
-| ''none'' | the content will just shrink without overflow | |
 
 
 <note>
   * You can use all [[docs:styling:styling|styling attributes]].
-  * The dimension of the children are not uniform, this is why a [[docs:styling:background|background]] cannot be used inside a row.
+  * The dimension of the children are not uniform, this is why a [[docs:styling:background|background]] cannot be used inside a grid.
 </note>
 
