@@ -13,7 +13,7 @@ A ''content-list'' is a [[docs:component|component]] that lays out component as 
 
 
 ===== Syntax =====
-''content-list'' is a [[docs:marki|HTML superset component]] that layouts a serie of [[docs:layout:component:row|row]]
+''content-list'' is a [[docs:marki|HTML superset component]] that layouts a serie of [[docs:layout:component:grid|row]]
 
 <code dw>
 <content-list type>
@@ -36,52 +36,44 @@ This example shows a ''content-list'' component with an:
 <webcode name="List" >
 <code dw>
 <content-list flush color="info" width="300px">
-    <box align="x-between-children y-center-children">
+    <row align="x-between-children y-center-children">
         <itext><icon name="folder"/> [[docs:content:icon|Icon]]</itext>
         <badge align="right">info</badge>
-    </box>
-    <box align="x-between-children y-center-children">
+    </row>
+    <row align="x-between-children y-center-children">
         <itext><icon name="folder"/> [[docs:content:badge|Badge]]</itext>
         <badge align="right">info</badge>
-    </box>
-    <box align="x-between-children y-center-children">
+    </row>
+    <row align="x-between-children y-center-children">
         <itext><icon name="folder"/> [[docs:content:badge|Badge]]</itext>
         <badge align="right">info</badge>
-    </box>
+    </row>
 </content-list>
 </code>
 </webcode>
 
 
-==== List of row  ====
+==== Complex List  ====
 
-If you want to create more complex list of content, you can add the [[docs:layout:component:row|cells]] that will lay out the content automatically.
+If you want to create more complex list of content, you can combine it with [[:docs:block:box|boxes]]
 <webcode name="media-list" >
 <code dw>
-<content-list width="fit">
+<content-list>
     <row>
-        <cell>
-        {{:placeholder-rect-img.svg?100|}}
-        </cell>
-        <cell>
-            <text>
-                <icon name="folder" color="info"/> [[docs:content:icon|Icon]] <badge align="right">info</badge>
-
+        <box spacing="me-3" align="y-center-children">{{:placeholder-rect-img.svg?100|}}</box>
+        <box width="400px">
+                <text align="between-children y-center-children"><itext><icon name="folder" color="info"/> [[docs:content:icon|Icon]]</itext> <badge>info</badge></text>
+                
                 This is some content from a media component. You can replace this with any content and adjust it as needed.
-            </text>
-         </cell>
+        </box>
     </row>
     <row>
-        <cell>
-        {{:placeholder-rect-img.svg?100|}}
-        </cell>
-        <cell>
-            <text>
-                <icon name="folder" color="info"/> [[docs:content:icon|Icon]] <badge align="right">info</badge>
-
+        <box spacing="me-3" align="y-center-children">{{:placeholder-rect-img.svg?100|}}</box>
+        <box width="400px">
+                <text align="between-children y-center-children"><itext><icon name="folder" color="info"/> [[docs:content:icon|Icon]]</itext> <badge>info</badge></text>
+                
                 This is some content from a media component. You can replace this with any content and adjust it as needed.
-            </text>
-         </cell>
+        </box>
     </row>
 </content-list>
 </code>
