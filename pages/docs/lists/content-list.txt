@@ -33,20 +33,22 @@ where the [[docs:styling:type|type]] may be:
 This example shows a ''content-list'' component with an:
   * [[docs:content:icon|icon]] as visual and a [[docs:content:link|link]] in a [[docs:content:itext|itext]]
   * [[docs:content:badge|badge]] as meta
+
+
 <webcode name="List" >
 <code dw>
 <content-list flush color="info" width="300px">
-    <row align="x-between-children y-center-children">
+    <row align="x-between-children">
         <itext><icon name="folder"/> [[docs:content:icon|Icon]]</itext>
-        <badge align="right">info</badge>
+        <badge>info</badge>
     </row>
-    <row align="x-between-children y-center-children">
+    <row align="x-between-children">
         <itext><icon name="folder"/> [[docs:content:badge|Badge]]</itext>
-        <badge align="right">info</badge>
+        <badge>info</badge>
     </row>
-    <row align="x-between-children y-center-children">
+    <row align="x-between-children">
         <itext><icon name="folder"/> [[docs:content:badge|Badge]]</itext>
-        <badge align="right">info</badge>
+        <badge>info</badge>
     </row>
 </content-list>
 </code>
@@ -55,22 +57,23 @@ This example shows a ''content-list'' component with an:
 
 ==== Complex List  ====
 
+
 If you want to create more complex list of content, you can combine it with [[:docs:block:box|boxes]]
 <webcode name="media-list" >
 <code dw>
 <content-list>
-    <row>
-        <box spacing="me-3" align="y-center-children">{{:placeholder-rect-img.svg?100|}}</box>
+    <grid class="d-flex" gutter="y-1">
+        <box width="fit">{{:placeholder-rect-img.svg?100|}}</box>
         <box width="400px">
-                <text align="between-children y-center-children"><itext><icon name="folder" color="info"/> [[docs:content:icon|Icon]]</itext> <badge>info</badge></text>
+                <text align="between-children"><itext><icon name="folder" color="info"/> [[docs:content:icon|Icon]]</itext> <badge>info</badge></text>
                 
                 This is some content from a media component. You can replace this with any content and adjust it as needed.
         </box>
-    </row>
+    </grid>
     <row>
-        <box spacing="me-3" align="y-center-children">{{:placeholder-rect-img.svg?100|}}</box>
+        <box spacing="me-3" width="fit">{{:placeholder-rect-img.svg?100|}}</box>
         <box width="400px">
-                <text align="between-children y-center-children"><itext><icon name="folder" color="info"/> [[docs:content:icon|Icon]]</itext> <badge>info</badge></text>
+                <text align="between-children"><itext><icon name="folder" color="info"/> [[docs:content:icon|Icon]]</itext> <badge>info</badge></text>
                 
                 This is some content from a media component. You can replace this with any content and adjust it as needed.
         </box>
