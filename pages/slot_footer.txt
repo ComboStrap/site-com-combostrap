@@ -1,6 +1,6 @@
 <bar background-color="gradient-light" color="secondary">
 
-<row>
+<grid>
 <box spacing="ms-md-3" width="50%">
 
 <text h4 ><icon name="logo.svg" spacing="mr-1" color="secondary"/>ComboStrap</text>
@@ -24,7 +24,7 @@ Create web sites, publish landing pages, write articles, how-to's, documentation
 [[:about_us?color=secondary|About Us]] \\
 [[:security?color=secondary|Security]] \\
 </box>
-</row>
+</grid>
 </bar>
 
 

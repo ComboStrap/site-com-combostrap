@@ -12,7 +12,7 @@ The release 1.25 is the last development branch of Combostrap
   * Added the https://arcticons.com/ [[docs:content:icon|icon library]]
   * The [[docs:content:page-image|page image]] is taking the image of the parent page if the page does not have any image
   * The ''txt'' mime is now authorized by default.
-  * In a [[docs:layout:component:row|grid]], a ''cell'' now supports the [[docs:styling:clickable|clickable attribute]]
+  * In a [[docs:layout:component:grid|grid]], a ''cell'' now supports the [[docs:styling:clickable|clickable attribute]]
   * A ''grid'' is now supported in a [[docs:templating:iterator|iterator]].
   * The [[docs:navigation:toc|Table Of Content]] is no more attached to the [[docs:utility:renderer|renderer]] and can now be placed inside the page via the toc component.
   * The [[docs:layout:page:slot_manager|slot manager]] was added in the [[docs:layout:page:railbar|railbar]] to help create and localize [[docs:layout:page:slot|slots]].
@@ -24,7 +24,7 @@ The release 1.25 is the last development branch of Combostrap
   * The [[:docs:navigation:page-explorer|Page explorer]] component will collapse on small device due to the default [[:docs:animation:toggle|toggle-state]] value.
   * The informational messages are now toast located in the center of the page.
   * The [[:docs:styling:hero|Hero]] attribute that permits to create easily an hero unit style content.
-  * The [[docs:layout:component:row|row component]] accepts:
+  * The [[docs:layout:component:grid|row component]] accepts:
       * conditional ratio unit (percentage and fraction) as width length on its cells.
       * conditional number of cells by line
   * The [[:docs:styling:dimension|width]] can now be defined conditionally based on the screen size.
@@ -34,7 +34,10 @@ Because of too much confusion, the following name has been renamed:
   * The ''root page'' is now known as the [[docs:app:home|home page]] 
 
 
-The [[docs:layout:component:row|row component]] is no more called a grid in the documentation because this is a layout component that works only on one axis and not two. It was just renamed to row.
+The [[docs:layout:component:grid|Row component]] is now called a grid because:
+  * the children may be laid out on more than one line
+  * you can define gutter between the children
+
 ==== Improvement ====
 
   * When [[support:preserve|preserve style]] is set on svg, the svg is shown as an img to avoid style conflict.
@@ -56,10 +59,11 @@ The [[docs:layout:component:row|row component]] is no more called a grid in the 
   * The [[:release:deprecated:footer|footer component]] and the [[release:deprecated:slide|slide component]] are deprecated and replaced by the [[:docs:layout:component:bar|bar component]].
   * Edit Button for slot has been deprecated for the [[:docs:layout:page:slot_manager|Slot Manager]]
   * The [[:release:deprecated:container|container syntax component]] has been deprecated for [[docs:layout:page:container|container aware components]]
-  * The ''auto'' [[:docs:layout:component:row|Row Layout]] has been deprecated for ''max-line''
-  * The ''cell'' component in a [[:docs:layout:component:row|Row Layout]] has been deprecated. 
-      * A row layout accepts now any children
-      * The flex layout component is also now applied via the [[:docs:styling:align|Align attribute]]
+  * The ''auto'' [[docs:layout:component:grid|Grid Layout]] has been deprecated for ''max-line''
+  * The ''fit'' [[:docs:layout:component:grid|Grid Layout]] has been deprecated for [[:docs:styling:dimension|width grow/shrink]]
+  * The ''cell'' component in a [[docs:layout:component:grid|Row Layout]] has been deprecated. 
+      * A grid layout accepts now any children
+      * The css flex system is now applied via the [[:docs:styling:align|Align attribute]] / [[:docs:styling:dimension|width grow/shrink]]
 ==== Bug ====
   * The [[docs:app:search|Internal Search Engine]] result was not going away if the escape click reaches no element.
   * When the [[docs:performance:frontend_optimization|Front End Optimization]] was on, the [[docs:app:search|Internal Search Engine]] was no more working because ''DOKU_BASE'' was no more present.
