@@ -7,7 +7,7 @@
 ====== ComboStrap UI - Content List ======
 
 ===== About =====
-A ''content-list'' is a [[docs:lists:lists|lists component]]:
+A ''content-list'' is a [[docs:lists:lists|list component]]:
   * where the children may show rich content (multiple line, image, ...)
   * that has two styles:
       * card like style (default)
@@ -15,7 +15,6 @@ A ''content-list'' is a [[docs:lists:lists|lists component]]:
 
 ===== Example =====
 ==== Numbered ====
-
 Example of a multiple line content with [[:docs:block:box|boxes]] as list items.
 
 <webcode name="List" >
