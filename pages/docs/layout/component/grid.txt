@@ -14,17 +14,26 @@
 
 
 ===== About =====
-''grid'' is a component that permits to distribute the horizontal space across children in a responsive way.
+''grid'' is a component that permits to layout its children in a advanced grid fashion. 
+
+It will distribute the horizontal space across children:
+  * in a responsive way from one line grid to multiple lines
+  * with adaptive children size from 0 to 100% of the line space.
 
 The children:
   * will go to a new line in a centered position (by default) if there is not enough horizontal space (creating a grid)
   * width may be defined for different [[:docs:styling:breakpoint|screen size]]
 
 
+<note>
+Grid does not mean table. The children are not laid out at the intersection of rows and columns.
+</note>
+
+
 
 ===== Example =====
 
-==== A grid of 3 children elements  ====
+==== A grid of 2 children elements  ====
 
 
 
@@ -41,28 +50,22 @@ The children:
             == Lorem Ipsum 2 ==
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
          </box>  
-         <box>
-                <icon name="bs:inboxes-fill" width="3rem"/>
-                == Lorem Ipsum 3 ==
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-         </box>
 </grid>
 </code>
   * Output:
 </webcode>
 
 
-**Explanation:** 
+\\
+\\
 
-By default, a grid will create by line:
-  * 4 slots in a large screen
-  * 3 slots in a medium screen
-  * 2 slots in a small screen
-  * 1 slot in a mobile screen
-
-If you see this page on a laptop screen (4 slots), you should see one line with:
-  * 3 slots: taken by the 3 children
-  * 1 slot: distributed on the left and right side to center the children (center is the default alignment)
+<note>
+By default, a grid will allow at maximum by line:
+  * 4 children in a large screen
+  * 3 children in a medium screen
+  * 2 children in a small screen
+  * 1 children in a mobile screen
+</note>
 ==== A grid created with percentage on the children ====
 
 <webcode>
@@ -173,7 +176,7 @@ You can generate a ''grid'' component with the [[:docs:templating:iterator|itera
 </grid>
 </code>
 where:
-  * ''max-line'' (optional) define the maximum number of children by line. The [[:docs:styling:breakpoint|values by breakpoint]] are ''1-xs 2-sm 3-md 4-lg''. A value without breakpoint got the ''lg'' breakpoint.
+  * ''max-line'' (optional) define the maximum number of children by line. The [[:docs:styling:breakpoint|values by breakpoint]] are ''1-xs 2-sm 3-md 4-lg'' up to the number of children. A value without breakpoint got the ''sm'' breakpoint.
   * ''width'' (optional) is a rationale [[:docs:styling:breakpoint|conditional value]] that defines the space that a cell takes on the horizontal axis. ie:
       * a percentage: ''%'': a number between 0 to 100 with the percentage symbol. The total may go over 100. In this case, cells with a cumulative percentage above 100% goes to a new line.
       * or a number or ratio from 0 to 1. A cell with ''1:3'' will take one third of the available line space.
@@ -185,7 +188,35 @@ where:
 
 
 <note>
-  * You can use all [[docs:styling:styling|styling attributes]].
-  * The dimension of the children are not uniform, this is why a [[docs:styling:background|background]] cannot be used inside a grid.
+You can use all [[docs:styling:styling|styling attributes]].
 </note>
+
+===== Support =====
+
+==== Background not centered ====
+
+Due to the gutter feature using [[:docs:styling:spacing|margin]], the dimension of the background are not uniform in a grid.
+
+If you want a background with you content grid centered, you should wrap your grid in a [[:docs:block:box|box]].
+
+<webcode>
+<code dw>
+<box spacing="p-5">
+  <background opacity="0.3">{{:docs:block:stock_image_surfer_in_the_see.png|}}</background>
+  <grid>
+     <box>
+         <icon name="bs:inboxes-fill" width="3rem"/>
+         == 1/2 line space ==
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+     </box>
+     <box>
+         <icon name="bs:inboxes-fill" width="3rem"/>
+         == 1/2 line space ==
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+     </box>
+  </grid>
+</box>
+</code>
+  * Output:
+</webcode>
 

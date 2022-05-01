@@ -1,0 +1,13 @@
+====== Row ======
+
+
+===== About =====
+A ''row'' is a layout component that will lay out [[:docs:block:block|block component]] in a line.
+
+This component is:
+  * used as child component to create more sophisticated internal content layout.
+  * is not responsive (the children will not wrap)
+
+
+
+
