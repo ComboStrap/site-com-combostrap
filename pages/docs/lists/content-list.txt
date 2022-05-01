@@ -7,49 +7,57 @@
 ====== ComboStrap UI - Content List ======
 
 ===== About =====
-A ''content-list'' is a [[docs:component|component]] that lays out component as continuous, vertical lines.
-
-
-
-
-===== Syntax =====
-''content-list'' is a [[docs:marki|HTML superset component]] that layouts a serie of [[docs:layout:component:row|row]]
-
-<code dw>
-<content-list type>
-    <row>
-        Text
-    </row>
-</list>
-</code>
-where the [[docs:styling:type|type]] may be:
-  * ''box'' (Default)
-  * ''flush'' - to get a cleaner separation by removing borders and rounded corners
-
-
+A ''content-list'' is a [[docs:lists:lists|lists component]]:
+  * where the children may show rich content (multiple line, image, ...)
+  * that has two styles:
+      * card like style (default)
+      * or minimal style with the ''flush'' theme.
 
 ===== Example =====
-==== Basic - List of row with Icon and badge ====
+==== Numbered ====
+
+Example of a multiple line content with [[:docs:block:box|boxes]] as list items.
+
+<webcode name="List" >
+<code dw>
+<content-list numbered width="300px">
+    <box>
+         **Lorem Ipsum** \\
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+    </box>
+    <box>
+         **Lorem Ipsum** \\
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+   </box>
+    <box>
+         **Lorem Ipsum** \\
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+    </box>   
+</content-list>
+</code>
+</webcode>
+
+
+==== List items with Icon and badge ====
 This example shows a ''content-list'' component with an:
   * [[docs:content:icon|icon]] as visual and a [[docs:content:link|link]] in a [[docs:content:itext|itext]]
   * [[docs:content:badge|badge]] as meta
 
-
 <webcode name="List" >
 <code dw>
 <content-list flush color="info" width="300px">
-    <row align="x-between-children">
+    <box align="x-between-children">
         <itext><icon name="folder"/> [[docs:content:icon|Icon]]</itext>
         <badge>info</badge>
-    </row>
-    <row align="x-between-children">
+    </box>
+    <box align="x-between-children">
         <itext><icon name="folder"/> [[docs:content:badge|Badge]]</itext>
         <badge>info</badge>
-    </row>
-    <row align="x-between-children">
+    </box>
+    <box align="x-between-children">
         <itext><icon name="folder"/> [[docs:content:badge|Badge]]</itext>
         <badge>info</badge>
-    </row>
+    </box>
 </content-list>
 </code>
 </webcode>
@@ -57,22 +65,21 @@ This example shows a ''content-list'' component with an:
 
 ==== Complex List  ====
 
-
-If you want to create more complex list of content, you can combine it with [[:docs:block:box|boxes]]
+If you want to create more complex list of content, you can a combination of [[:docs:layout:component:row|row]] and [[:docs:block:box|boxes]]
 <webcode name="media-list" >
 <code dw>
-<content-list>
-    <grid class="d-flex" gutter="y-1">
-        <box width="fit">{{:placeholder-rect-img.svg?100|}}</box>
-        <box width="400px">
+<content-list width="500px">
+    <row>
+        <box>{{:placeholder-rect-img.svg?100|}}</box>
+        <box>
                 <text align="between-children"><itext><icon name="folder" color="info"/> [[docs:content:icon|Icon]]</itext> <badge>info</badge></text>
                 
                 This is some content from a media component. You can replace this with any content and adjust it as needed.
         </box>
-    </grid>
+    </row>
     <row>
-        <box spacing="me-3" width="fit">{{:placeholder-rect-img.svg?100|}}</box>
-        <box width="400px">
+        <box>{{:placeholder-rect-img.svg?100|}}</box>
+        <box>
                 <text align="between-children"><itext><icon name="folder" color="info"/> [[docs:content:icon|Icon]]</itext> <badge>info</badge></text>
                 
                 This is some content from a media component. You can replace this with any content and adjust it as needed.
@@ -83,3 +90,18 @@ If you want to create more complex list of content, you can combine it with [[:d
   * Output:
 </webcode>
 
+===== Syntax =====
+
+
+<code dw>
+<content-list type numbered>
+    <component>
+        ...
+    </component>
+</list>
+</code>
+where:
+  * the [[docs:styling:type|type]] may be:
+      * ''empty'' (Default)
+      * ''flush'' - to get a cleaner separation by removing borders and rounded corners
+   * ''numbered'' will add number to the children elements

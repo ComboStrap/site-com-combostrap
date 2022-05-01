@@ -28,6 +28,7 @@ The release 1.25 is the last development branch of Combostrap
       * conditional ratio unit (percentage and fraction) as width length on its cells.
       * conditional number of cells by line
   * The [[:docs:styling:dimension|width]] can now be defined conditionally based on the screen size.
+  * The [[:docs:lists:content-list|Content List]] component allows now to be numbered.
 ==== Modification ====
 Because of too much confusion, the following name has been renamed:
   * The ''home page'' is now known as the [[docs:type:index|index page]]
@@ -53,6 +54,7 @@ The [[docs:layout:component:grid|Row component]] is now called a grid because:
       * uses another method (scroll-margin-top) to shift the location of the heading text when navigating/scrolling
   * The railbar when overflowing was not giving the possibility to scroll the items.
   * If a page was copied with a frontmatter without deleting the page id, the page would have become a duplicate in the database.
+  * The [[:docs:lists:content-list|Content List]] component allows now any component as child.
 ==== Deprecated ====
   * The [[:release:deprecated:toggle|toggleTargetId]] has been deprecated for the [[:docs:animation:toggle|Toggle element]].
   * The ''align'' attribute in the [[:docs:menubar:menubar|menubar]] has been replaced by a [[docs:layout:page:container|container attribute value]]
