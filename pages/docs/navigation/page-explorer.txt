@@ -12,26 +12,29 @@
 
 
 ===== About =====
-A ''page-explorer'' is a [[docs:navigation:navigation|navigational component]] that creates a navigation pane in the form of:
+A ''page-explorer'' is a [[docs:navigation:navigation|navigational component]] that creates a navigation bar in the form of:
   * a ''list'' 
   * or a collapsible ''tree'' (ie clickable levels of folder hierarchy)
 
 
-This component is mostly used in a [[docs:layout:page:side_slot|side slot]] or [[release:deprecated:sidekick_slot|sidekick slot]]
+This component is mostly used in a [[docs:layout:page:side_slot|side slot]].
 
 
 ===== Example =====
 
 ==== Default List ====
 
-A default ''page-explorer list'' pane can be asked with this minimal markup (the ''ns'' ([[doku>namespaces|namespace]]) and [[docs:styling:dimension|width]] options are just cosmetic and could be deleted)
+A default ''page-explorer list'' pane can be asked with this minimal markup (the [[docs:styling:dimension|width]] options is cosmetic and can be deleted)
+
+By default, the list will show the pages of the  [[:docs:page:namespace|namespace]] from the requested page.
 
 <webcode name="DefaultList" >
 <code dw>
-<page-explorer ns=":release" width="300px"></page-explorer>
+<page-explorer width="300px"></page-explorer>
 </code>
 and will look like this where the label for each page is the [[docs:page:name|page name]]
 </webcode>
+
 
 
 
@@ -41,7 +44,7 @@ A ''page-explorer tree'' does not need any template definition.
 
 
 <webcode name="DefaultTree" >
-  * with a minimal markup (The ''ns'' option is a cosmetic and can be deleted)
+  * with a minimal markup (The ''ns'' option is cosmetic and can be deleted, it permits to show two [[:docs:page:level|levels]])
 <code dw>
 <page-explorer tree ns=":docs:layout"></page-explorer>
 </code>
