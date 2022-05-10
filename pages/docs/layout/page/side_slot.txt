@@ -14,8 +14,15 @@ The ''side slot'' is a [[docs:layout:page:slot|slot]] that is located by default
 
 ===== Feature =====
 
+==== Cache ====
+
 The cache of the side slot is automatically deleted when a page in the same namespace is created, added or deleted.
 See [[docs:cache:slot]]
+
+==== Collapsed components by default on small screen ====
+
+
+The components are by default collapsed until the medium screen by setting the [[:docs:animation:toggle|toggle attribute]] to ''collapsed expanded-md''
 
 ===== Configuration =====
 ==== sidebar ====

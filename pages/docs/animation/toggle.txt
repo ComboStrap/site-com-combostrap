@@ -31,7 +31,6 @@ Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richa
 </box>
 </code>
 </webcode>
-
 ==== Text Toggle ====
 
 <webcode name="Collapse" frameborder=0 >
@@ -87,10 +86,16 @@ On the component to toggle
 ===== Toggle Based on Screen Size  =====
 
 ''toggle-state'' allows [[:docs:styling:breakpoint|breakpoint prefix]] such as
-<code>
-toggle-state="collapsed md-expanded"
+<code dw>
+<component toggle-state="collapsed md-expanded" />
 </code>
 The target component will then be: 
   * ''collapsed'' on small device
   * and ''expanded'' in medium device. (You can't collapse it anymore)
 
+===== Automatic Side Slot Toggle =====
+By default all components include in a [[:docs:layout:page:side_slot|side slot]] are collapsed on small screen size. They get the following default toggle value.
+
+<code dw>
+<component toggle-state="collapsed md-expanded" />
+</code>
