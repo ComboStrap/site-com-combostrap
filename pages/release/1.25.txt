@@ -79,3 +79,4 @@ The [[docs:layout:component:grid|Row component]] is now called a grid because:
   * The [[:docs:utility:prism|prism component]] (code, console, file) didn't have the ''copy'' button. The migration to a new version has forgotten the copy plugin and there was a version mismatch between the plugin and prism. This is corrected.
   * The [[:docs:content:inote|Inote]] was not wrapping, making the width of windows overflowing.
   * The requested path was not always correct when a [[:docs:page:url|permanent page url]] was used because the first event of dokuwiki (load lang) was checking the last name of the url path and not the last part of the name
+  * admin page were having no toc. Why ? because the admin page may have a toc defined by the plugin. Strap template uses now the default dokuwiki function to render admin page being completely compatible. 
