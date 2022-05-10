@@ -57,8 +57,8 @@ A ''page-explorer tree'' does not need any template definition.
 <webcode name="Default" frameborder=0 >
 <code dw>
 <page-explorer color="blue" height="250px" width="400" scroll="toggle">
-    <parent>[[$path|<icon name="arrow-left-box"/> ... <pipeline>"$h1" | cut("-","2-") | trim()</pipeline>]]</parent>
-    <page>[[$path|<icon name="file"/> <pipeline>"$h1" | cut("-","2-") | trim()</pipeline>]]</page>
+    <parent>[[$path|<icon name="arrow-left-box"/> ... ${h1 | cut("-","2-") | trim()} ]]</parent>
+    <page>[[$path|<icon name="file"/> ${h1 | cut("-","2-") | trim()} ]]</page>
 </page-explorer>
 </code>
 where the ''page'' template is composed of:
@@ -76,8 +76,8 @@ Example:
 <code dw>
 <page-explorer tree ns=":docs:layout">
     <home>[[$path|<icon name="home" color="#0000004d" width="20"/> Overview]]</home>
-    <ns><pipeline>"$h1" | cut("-","2-") | trim() </pipeline></ns>
-    <page>[[$path|<icon name="file" color="#0000004d" width="20"/>  <pipeline>"$h1" | cut("-","2-") | trim() </pipeline>]]</page>
+    <ns>${h1 | cut("-","2-") | trim()}</ns>
+    <page>[[$path|<icon name="file" color="#0000004d" width="20"/>  ${h1 | cut("-","2-") | trim()}</page>
 </page-explorer>
 </code>
 where the ''page'' template is composed of:
@@ -90,7 +90,9 @@ It produces:
 
 
 
-===== Syntax =====
+===== Syntax and Templates =====
+
+==== Syntax ====
 
 <code dw>
 <page-explorer type ns="namespacePath">
@@ -107,12 +109,14 @@ where:
 ^ Attribute ^ Default ^ Possible Values ^ Description ^
 | [[docs:styling:type|type]] | [[#list|list]] | [[#list|list]] or [[#tree|tree]] | It defines the layout |
 | ''ns'' | the rendered page for a [[#list]] \\ the physical page for a [[#tree]] | | It defines the [[:docs:page:namespace|namespace]] that should be rendered |
-| ''toggle-state'' | ''collapsed md-expanded'' | A [[:docs:animation:toggle|toggle-state]] value | The page-explorer is collapsed in small device (mobile) |
 
 
 <note>
-''page-explorer'', ''home'', ''page'', ''parent'' and ''namespace'' are all [[docs:marki|superset HTML component]].
+  * ''page-explorer'', ''home'', ''page'', ''parent'' and ''namespace'' are all [[docs:marki|superset HTML component]].
+  * In a [[:docs:layout:page:side_slot|Side Slot]], the [[:docs:animation:toggle|toggle-state]] value is collapsed in small device (mobile) via the default value "collapsed expanded-md"
+
 </note>
+
 ==== Templates ====
 
 The templates define the output of each node in the ''list'' or ''tree'' layout:
