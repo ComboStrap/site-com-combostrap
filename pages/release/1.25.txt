@@ -55,6 +55,10 @@ The [[docs:layout:component:grid|Row component]] is now called a grid because:
   * The railbar when overflowing was not giving the possibility to scroll the items.
   * If a page was copied with a frontmatter without deleting the page id, the page would have become a duplicate in the database.
   * The [[:docs:lists:content-list|Content List]] component allows now any component as child.
+  * The edit/preview styling has been revamped
+      * the textarea was not a [[https://datacadamia.com/data/type/text/font_monospace|fixed pitch font]] making the calculation of space difficult to spot.
+      * button have been made bootstrap flat style
+      * bottom margin has been added between the line of component
 ==== Deprecated ====
   * The [[:release:deprecated:toggle|toggleTargetId]] has been deprecated for the [[:docs:animation:toggle|Toggle element]].
   * The ''align'' attribute in the [[:docs:menubar:menubar|menubar]] has been replaced by a [[docs:layout:page:container|container attribute value]]
