@@ -1,0 +1,18 @@
+====== Template component ======
+
+
+
+===== About =====
+The template component was a component that was turning [[:docs:templating:variable|variable]] into value.
+
+Because combostrap supports now variable anywhere this component has been deprecated.
+
+
+===== Syntax =====
+
+The old syntax was:
+<code dw>
+<template>
+A template with a ${variable}
+</template>
+</code>

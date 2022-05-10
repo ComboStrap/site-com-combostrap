@@ -29,6 +29,7 @@ The release 1.25 is the last development branch of Combostrap
       * conditional number of cells by line
   * The [[:docs:styling:dimension|width]] can now be defined conditionally based on the screen size.
   * The [[:docs:lists:content-list|Content List]] component allows now to be numbered.
+  * [[:docs:templating:variable|Variable]] can now be used directly. The [[:release:deprecated:template|template component]] has been deprecated.
 ==== Modification ====
 Because of too much confusion, the following name has been renamed:
   * The ''home page'' is now known as the [[docs:type:index|index page]]

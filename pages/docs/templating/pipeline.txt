@@ -1,6 +1,8 @@
 ---json
 {
-    "page_id": "x8speed0rna8y7lqsocge"
+    "description": "A pipeline permits to transform a variable value with a succession of transformation function.",
+    "page_id": "x8speed0rna8y7lqsocge",
+    "title": "ComboStrap Pipeline"
 }
 ---
 
@@ -8,21 +10,18 @@
 
 
 ===== About =====
-A ''pipeline'' is a element that contains a list of function (called a ''pipeline'') that transforms successively a string.
+A ''pipeline'' is a serie of function that may transform a [[docs:templating:variable|variable value]]
 
 
-<note>
-''Pipeline'' are used in [[docs:templating:template|template]] when you want to transform a variable such as a page title. 
-</note>
 
 
 ===== Syntax =====
 
 <code dw>
-<pipeline> value | function | function | ... </pipeline>
+${variable | function | function | ... }
 </code>
 where:
-  * ''value'' is the string to transform or a [[docs:templating:template#variable|template variable]]
+  * ''variable'' is a [[:docs:templating:variable|variable]]
   * ''function'' is one of:
       * [[#capitalize]] - make the first letter of each word a capital letter (ie uppercase letter)
       * [[#cut]] - cut the string in parts and return one
@@ -45,7 +44,7 @@ capitalize()
 Example:
 <webcode name="capitalize" frameborder=0 >
 <code dw>
-<pipeline> "hello foo  bar" | capitalize() </pipeline>
+${description | capitalize()}
 </code>
 Output:
 </webcode>
@@ -66,24 +65,24 @@ where:
       * ''y'' is the last token to select (optional, by default, the last one)
 
 Example:
-  * Range Token Selection. Select all token from the second
+  * Range Token Selection. Select all token after the number 10
 <webcode name="cut" frameborder=0 >
 <code dw>
-<pipeline> "Hello - Foo - Bar" | cut("-","2-") </pipeline>
+${description | cut(" ","10-")}
 </code>
 Output:
 </webcode>
   * Single Token Selection. Select only the second token
 <webcode name="cut" frameborder=0 >
 <code dw>
-<pipeline> "Hello - Foo - Bar" | cut("-",2) </pipeline>
+${description | cut(" ",2)}
 </code>
 Output:
 </webcode>
   * If the separator is not found, the function has not effect on the given string.
 <webcode name="cut" frameborder=0 >
 <code dw>
-<pipeline> "Hello World" | cut("-",2) </pipeline>
+${title | cut("-",2)}
 </code>
 Output:
 </webcode>
@@ -103,7 +102,7 @@ where:
 For instance:
 <webcode name="rconcat" frameborder=0 >
 <code dw>
-<pipeline> "Long Title that we want to cut" | head(10 , "...") </pipeline>
+${description | head(10 , "...")}
 </code>
 Output:
 </webcode>
@@ -111,7 +110,7 @@ Output:
 
 
 ==== Rconcat ====
-''rconcat'' is a function that will concatenate a string to the right
+''rconcat'' is a function that will concatenate a string to the right. It's deprecated for the tail argument of the [[#head]] function.
 
 **Syntax**:
 <code>
@@ -121,7 +120,7 @@ rconcat($string)
 For instance:
 <webcode name="rconcat" frameborder=0 >
 <code dw>
-<pipeline> "Title" | rconcat("...") </pipeline>
+${description | head(20) | rconcat("...")}
 </code>
 Output:
 </webcode>
@@ -137,11 +136,10 @@ replace($search, $replace)
 For instance:
 <webcode name="Replace" frameborder=0 >
 <code dw>
-<pipeline> "Prefix - Title" | replace("Prefix - ","") </pipeline>
+${title | replace("Pipeline","Pipe-line")}
 </code>
 Output:
 </webcode>
-
 
 ==== Trim ====
 ''trim'' is a function that strip whitespace from the beginning and end of a string
@@ -154,7 +152,7 @@ trim()
 For instance:
 <webcode name="cut" frameborder=0 >
 <code dw>
-<pipeline> "Hello World   " | trim() </pipeline>
+${title | trim()}
 </code>
 Output:
 </webcode>

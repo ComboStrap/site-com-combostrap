@@ -6,9 +6,9 @@
 <breadcrumb/>
 
 
-<slide size="md">
-<row>
-<cell><template><heading h1>$title</heading></template></cell>
-<cell><template><page-image path="$path" height="250" default="parent"/></template></cell>
-</row>
-</slide>
+
+<grid>
+  <heading h1>$title</heading>
+  <page-image path="$path" height="250" default="parent"/>
+</grid>
+

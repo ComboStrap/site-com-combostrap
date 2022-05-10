@@ -10,13 +10,51 @@
 
 
 ===== About =====
-This page describes all attribute that can be used:
-  * in a [[docs:templating:template|template text]] 
-  * or in a [[docs:templating:sql|page sql]] 
+''Variable'' in Combostap are first-class citizen meaning that they can be used anywhere.
 
-===== List =====
 
-The supported attribute can be used:
+You can use them:
+  * in any [[:docs:content:content|page content]]
+  * or in a [[docs:templating:sql|page sql]] in order to select a list of pages.
+
+===== Example =====
+
+==== Without Transformation ====
+
+The below markup will print:
+  * a [[docs:lists:list|bullet list]] 
+  * with the variables: [[docs:page:title|title]] and [[docs:page:path|path]] of the actual page.
+<webcode name="list">
+<code dw>
+  * Title: ''$title''
+  * Path: ''$path''
+</code>
+<hr/>
+**Output**
+</webcode>
+
+==== With pipeline transformation ====
+
+You can transform the variable by using the [[:docs:templating:pipeline|pipeline syntax]]
+
+It will create:
+  * a [[docs:content:link|link]] 
+  * with a [[docs:templating:pipeline|pipeline]] 
+  * that separate the [[docs:page:h1|h1]] with the minus ''-'' 
+  * and used the second part as link description
+
+<webcode name="pipeline" frameborder="0">
+<code dw>
+The [[$path| ${h1" | cut("-","2-") | trim()} page]].
+</code>
+<hr/>
+**Result:**
+</webcode>
+
+
+===== Variable List =====
+
+The supported variable are:
   * ''path'' is the [[docs:page:path|full qualified path of a page]] that can be used in a [[docs:content:link|page link]] as reference
   * ''title'' - the [[docs:page:title|title]] of the page - if empty, the ''h1''
   * ''name'' - the [[docs:page:name|name]] of the page - if empty, the last part of the id
@@ -39,18 +77,3 @@ The supported attribute can be used:
 
 And all [[docs:metadata:frontmatter|frontmatter metadatas]] that are scalar (ie no array). Basically, all metadata that can be seen in the [[docs:analytics:data|scalar metadata node of the analytics data]] can be used as attribute.
 
-===== Example =====
-
-The below ''template text'' inside a ''template component'' will print:
-  * a [[docs:lists:list|bullet list]] 
-  * with the variables: [[docs:page:title|title]] and [[docs:page:path|path]] of the actual page.
-<webcode name="list">
-<code dw>
-<template>
-  * Title: ''$title''
-  * Path: ''$path''
-</template>
-</code>
-<hr/>
-**Output**
-</webcode>
