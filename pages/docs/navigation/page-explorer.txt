@@ -75,7 +75,7 @@ Example:
 <webcode name="Default">
 <code dw>
 <page-explorer tree ns=":docs:layout">
-    <home>[[$path|<icon name="home" color="#0000004d" width="20"/> Overview]]</home>
+    <index>[[$path|<icon name="home" color="#0000004d" width="20"/> Overview]]</index>
     <ns>${h1 | cut("-","2-") | trim()}</ns>
     <page>[[$path|<icon name="file" color="#0000004d" width="20"/>  ${h1 | cut("-","2-") | trim()}</page>
 </page-explorer>
@@ -97,12 +97,16 @@ It produces:
 <page-explorer type ns="namespacePath">
   <page>template</page>
   <namespace>template</namespace>
-  <home>template</home>
+  <index>template</index>
   <parent>template</parent>
 </page-explorer>
 </code>
 where:
-  * the sub-elements ''page'',''namespace'', ''home'' and ''parent'' define [[#template|templates]] for each ''page-explorer'' node.
+  * the sub-elements define [[#template|templates]] for:
+      * ''page'' - a page,
+      * ''namespace'' - for a [[:docs:page:namespace|namespace]], 
+      * ''index'' for a [[:docs:type:index|index page]]
+      * ''parent'' - for the parent [[:docs:page:namespace|namespace]]
   * the page-explorer attributes are:
 
 ^ Attribute ^ Default ^ Possible Values ^ Description ^
@@ -111,7 +115,7 @@ where:
 
 
 <note>
-  * ''page-explorer'', ''home'', ''page'', ''parent'' and ''namespace'' are all [[docs:marki|superset HTML component]].
+  * ''page-explorer'', ''index'', ''page'', ''parent'' and ''namespace'' are all [[docs:marki|superset HTML component]].
   * In a [[:docs:layout:page:side_slot|Side Slot]], the [[:docs:animation:toggle|toggle-state]] value is collapsed in small device (mobile) via the default value "collapsed expanded-md"
 
 </note>
