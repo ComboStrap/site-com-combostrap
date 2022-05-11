@@ -12,13 +12,12 @@
             <page-image path="$path" ratio="21:9" zoom="-6"/>
             <heading h5> $title </heading>
             
-            <pipeline> "$description" | head(200, "...")</pipeline> [[$path| ]]
+            ${description | head(200, "...")} [[$path| ]]
             </card>
         </template>
     </carrousel>
     <hr/>
 </iterator>
-
 
 
 <grid>

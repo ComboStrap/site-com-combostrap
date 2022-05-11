@@ -32,7 +32,7 @@ https://foo.com/bar/bar
 
 
 ===== Sql Templating =====
-In a [[docs:templating:sql|Page Sql]], you can select all home pages with the attribute ''is_index''
+In a [[docs:templating:sql|Page Sql]], you can select all index pages with the attribute ''is_index''
 
 Example:
 <code sql>
@@ -48,7 +48,7 @@ On this website, this SQL will select the following pages.
 </template>
 </iterator>
 
-===== WebSite =====
+===== WebSite Home Page =====
 The website home page is a special index page that has its own documentation : [[docs:app:home]]
 
 
@@ -56,4 +56,4 @@ The website home page is a special index page that has its own documentation : [
 ===== Configuration =====
 
 ==== startpage ====
-The dokuwiki configuration [[doku>config:startpage]] permits to set the name of the home page. By default, this is ''start'' but other known name are ''index'' or ''home''
+The dokuwiki configuration [[doku>config:startpage]] permits to set the name of the index page. By default, this is ''start'' but an other known name is ''index''.
