@@ -124,9 +124,9 @@ where:
 
 The templates define the output of each node in the ''list'' or ''tree'' layout:
     * ''page'' defines a [[docs:templating:template|template]] for each page in the namespace
-    * ''home'' defines a [[docs:templating:template|template]] for the [[docs:type:index|home page of the namespace]]
+    * ''index'' defines a [[docs:templating:template|template]] for the [[docs:type:index|index page of the namespace]]
     * ''namespace'' defines a [[docs:templating:template|template]] for each child namespace of the actual namespace 
-    *  ''parent'' defines a [[docs:templating:template|template]] for the parent namespace of the actual namespace (used only in the [[#list|list layout]])
+    *  ''parent'' defines a [[docs:templating:template|template]] for the [[docs:type:index|index page]] of the parent namespace of the actual namespace (used only in the [[#list|list layout]])
   
 
 The below image shows you the mapping between the tag and their location in a ''list''  layout.
@@ -138,7 +138,7 @@ The below image shows you the mapping between the tag and their location in a ''
 {{docs:block:page-explorer-tree-name-to-ui-region.png|}}
 
 <note>
-If a sub-element (''home'', ''parent'', ''namespace'') is defined without any template (ie empty content), they are not shown.
+If a sub-element (''index'', ''parent'', ''namespace'') is defined without any template (ie empty content), they are not shown.
 </note>
 
 ==== Default template ====
