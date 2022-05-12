@@ -41,6 +41,7 @@ This example shows you a carrousel of [[docs:content:image|image]] known also as
 
 ==== Carrousel dynamically created with the iterator ====
 
+
 With the [[docs:templating:iterator|template iterator]], you can create dynamically the children that you want to show.
 
 Example with all pages that are in the layout path.
@@ -99,7 +100,6 @@ exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 </code>
   * The output is a centered [[docs:layout:component:grid|grid]].
 </webcode>
-
 ===== Syntax =====
 
 <code dw>

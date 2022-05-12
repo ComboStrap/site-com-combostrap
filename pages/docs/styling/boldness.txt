@@ -1,6 +1,8 @@
 ---json
 {
-    "page_id": "dd0i74454dynry3c00imf"
+    "description": "boldness is a typographic effect that sets the font weight. It defines the width of a character outlines relative to its height. It's also known as strongness.",
+    "page_id": "dd0i74454dynry3c00imf",
+    "title": "How to set the Boldness (Font Weight \/ Strong)"
 }
 ---
 ====== ComboStrap Styling - Boldness (Font Weight) ======
@@ -23,6 +25,11 @@ This text is a **bold text**.
 </webcode>
 
 
+\\
+\\
+<note warning>
+You cannot use this syntax with only space before it on a line because it will be seen as a [[:docs:lists:list|list element]].
+</note>
 ==== Name or numerical Value ====
 You can also set a precise value with the [[docs:content:typo|typographic attribute]] ''boldness'' that accepts a name or a numerical value.
 
