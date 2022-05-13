@@ -61,6 +61,9 @@ The [[docs:layout:component:grid|Row component]] is now called a grid because:
       * the textarea was not a [[https://datacadamia.com/data/type/text/font_monospace|fixed pitch font]] making the calculation of space difficult to spot.
       * button have been made bootstrap flat style
       * bottom margin has been added between the line of component
+  * Javascript improvement:
+      * browser test have been added
+      * the package version range allows now the minor upgrade to get the security update
 ==== Deprecated ====
   * The [[:release:deprecated:toggle|toggleTargetId]] has been deprecated for the [[:docs:animation:toggle|Toggle element]].
   * The ''align'' attribute in the [[:docs:menubar:menubar|menubar]] has been replaced by a [[docs:layout:page:container|container attribute value]]
