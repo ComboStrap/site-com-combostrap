@@ -5,9 +5,17 @@
 ---
 
 ===== About =====
-''toggle'' is an [[docs:animation:animation|animation]] that will hide or display (collapse/expand) a component when clicking:
-  * on a [[docs:content:link|link]] 
-  * or [[docs:content:button|button]].
+''toggle'' is an [[docs:animation:animation|animation]] that can:
+  * hide (collapse) a component from a screen size or by click
+  * display (expand) a component by click
+
+
+The available control components (where the user can click) are:
+  * a [[docs:content:link|link]] 
+  * a [[docs:content:button|button]]
+  * styled as:
+      * any image (such as an [[:docs:content:icon|icon]]) 
+      * or any text
 
 <note>
 This effect is also already automatically added:
@@ -68,6 +76,7 @@ where:
   * ''toggle-state'' is the initial state of the toggle. Possible values: 
       * ''collapsed'': the target is hidden (default)
       * ''expanded'': the target is visible
+      * ''none'': the element will never collapse (used to cancel the [[#Automatic Side Slot Toggle]])
 
 
 ==== Target ====
