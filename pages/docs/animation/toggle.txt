@@ -6,8 +6,11 @@
 
 ===== About =====
 ''toggle'' is an [[docs:animation:animation|animation]] that can:
-  * hide (collapse) a component from a screen size or by click
-  * display (expand) a component by click
+  * hide (collapse) a component
+      * automatically from a certain screen size 
+      * or with a click action
+  * display (expand) a component 
+      * with a click action
 
 
 The available control components (where the user can click) are:
