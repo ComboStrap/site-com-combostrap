@@ -41,35 +41,60 @@ Output:
 </webcode>
 
 ==== Javascript ====
-A ''webcode'' with Javascript code.
+''webcode'' supports javascript and captures the console call (log (([[https://developer.mozilla.org/en-US/docs/Web/API/Console/log|console.log function]])) and table (([[https://developer.mozilla.org/en-US/docs/Web/API/Console/table|console.table function]]))) to print them on the web page in a console area (Gray box).
+
+Example:
 <file html>
 <webcode>
-  * The javascript
+  * in a javascript code block
 <code javascript>
-var colors = [ "blue", "green" ];
-for (const [index, value] of colors.entries()) {
-  console.log(index+", "+value+"\n");
-}
+console.log("Javascript Code block");
 </code>
-  * Output:
+  * and also in html code block
+<code html>
+<script>console.log("Html code block");</script>
+</code>
+  * The output of the console is also printed on the page.
 </webcode>
 </file>
 
 \\
 \\ 
 The result is:
+<box border-color="gray" spacing="pt-3">
 <webcode>
-  * The javascript
+  * in a javascript code block
 <code javascript>
-var colors = [ "blue", "green" ];
-for (const [index, value] of colors.entries()) {
-  console.log(index+", "+value+"\n");
-}
+console.log("Javascript Code block");
 </code>
-  * Output:
+  * and also in html code block
+<code html>
+<script>console.log("Html code block");</script>
+</code>
+  * The output of the console is also printed on the page.
 </webcode>
+</box>
+
+==== Console.table ====
+
+''console.table'' (([[https://developer.mozilla.org/en-US/docs/Web/API/Console/table|console.table function]])) is supported with an array of objects or primitives. There is no second argument.
 
 
+Example:
+<webcode>
+```dw
+<webcode>
+    <code javascript>
+        let tabularData = [
+            {name: "foo", short: "f"}, 
+            {name: "bar", short: "b"}
+        ];
+        console.table(tabularData);
+    </code>
+</webcode>
+```
+  * This markup will output:
+</webcode>
 ==== Across section ====
 
 You can use webcode across section (ie with [[docs:content:heading|heading]])
@@ -97,11 +122,13 @@ for (const [index, value] of colors.entries()) {
 
 ===== Syntax =====
 
+==== Webcode Syntax ====
+
 <file html>
-<webcode name="A Name" width=100% frameborder=0 height=250px externalResources="//d3js.org/d3.v3.min.js,https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<webcode name="A Name" width=100% frameborder=0 height=250px>
 
     <!-- wiki syntax with css or html block code. -->
-    Full dokuwiki syntax are permitted between blocks
+    All syntax are permitted between blocks
 
     <!-- css code block -->
     <code css>
@@ -111,15 +138,11 @@ for (const [index, value] of colors.entries()) {
     <code html>
     </code>
 
-    <!-- An xml block may be use in place of an html one -->
-    <code xml>
-    </code>
-
     <!-- javascript or babel code block -->
     <code javascript> <!-- or <code babel> -->
     </code>
     
-    <!-- Dokuwiki Code -->
+    <!-- Wiki Markup -->
     <code dw> 
     
     <!-- Code Block not displayed-->
@@ -140,12 +163,23 @@ The allowed webcode attributes are:
       * width (default to 100%)
       * height (<inote>The height is automatically adjusted if not set</inote>)
       * scrolling
-   * ''externalResources'': a comma separated list of external resources. (Ie an URL of a Css or Js file, generally a CDN)
    * ''renderingMode'': 
       * ''story'' (default): The rendering will output the content inside the ''webcode'' elements and add the result after the closing ''webcode'' code.
       * ''onlyResult'': The rendering will **suppress** the content inside the ''webcode'' elements and will show only the result after the closing ''webcode'' code.
 
+=== External resources ===
 
+For external resources such as Css or Js file, this is recommended to put them in a hidden HTML code block.
+
+Example with Bootstrap:
+```html
+<code html display="none">
+<!-- CSS  -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!-- JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</code>
+```
 === code attributes ===
 
 
@@ -165,16 +199,9 @@ where:
       * dw (for dokuwiki)
   * ''display="none"'' will not display the code block (in this case file name and other attributes should not be used)
 
-
-
-
 ==== Language Support ====
 
-=== Javascript Console ===
 
-
-  * The [[https://developer.mozilla.org/en-US/docs/Web/API/Console/log|console.log function]] will be rendered and therefore visible in a console area (Gray box).
-  * The [[https://developer.mozilla.org/en-US/docs/Web/API/Console/table|console.table function]] is supported only for a collection of objects or primitives. There is no second argument.
 
 === Babel ===
 
@@ -182,4 +209,4 @@ where:
 When a code block use [[https://babeljs.io/|Babel]] as language, the plugin will add the 
 [[https://unpkg.com/babel-standalone@6/babel.min.js|babel.min.js]] version 6 to the external resources.
 
-You cannot have a Babel and a Javascript Block.
+You cannot have a Babel and a Javascript Block in the same webcode block.

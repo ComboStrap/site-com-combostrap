@@ -234,13 +234,13 @@ The platform is open source, guarantee of sustainability and
 
 </bar>
 
-<bar hero="lg" height="60vh" vertical="center">
-<background opacity="0.7">{{:woman-yoga-sunset.jpg|}}</background>
-<box width="300px" text-align="center" color="secondary">
+<bar hero="lg" height="60vh">
+   <background opacity="0.7">{{:woman-yoga-sunset.jpg|}}</background>
+   <box width="300px" text-align="center" color="secondary">
        <heading h1>Ready for the journey?</heading>
        <text lead>Become a publisher today</text>
        [[howto:getting_started:getting_started?preview=false|<icon name="bs:play-circle-fill" width="3.75rem" color="secondary"/>]]
-</box>
+   </box>
 </bar>
 
 <bar hero="lg" >
