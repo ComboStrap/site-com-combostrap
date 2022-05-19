@@ -13,7 +13,7 @@
 
 Writing a page consists of:
   * writing a text 
-  * that is styled and laid out with components.
+  * that is styled and laid out with markup components.
 
 ComboStrap groups them in categories.
 
@@ -23,4 +23,3 @@ ComboStrap groups them in categories.
 | [[docs:navigation:navigation|Navigational]] | Page Explorer, Toc, tabs, ... |
 | [[docs:layout:component:component|Layout]] | Tabs, panel, grid, ... |
 | [[docs:lists:lists|Lists]] | List of line, records or content |
-| Metadata | [[docs:metadata:frontmatter|frontmatter]] |
