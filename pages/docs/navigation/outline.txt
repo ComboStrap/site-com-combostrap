@@ -10,10 +10,12 @@
 
 
 ===== About =====
-''Sectioning heading'' are [[docs:content:heading|headings]] that cuts the page into different hierarchical sections and creates an outline.
+''Outline headings'' are [[docs:content:heading|headings]] that cuts the page into different hierarchical sections and creates an outline.
+
+All headings that are not inside a component are ''outline headings''.
 
 <note>
-The outline is used to create the [[docs:navigation:toc|TOC]]
+The outline headings are used to create the [[docs:navigation:toc|TOC]]
 </note>
 ===== Features =====
 
