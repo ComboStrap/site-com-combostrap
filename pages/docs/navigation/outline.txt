@@ -15,7 +15,6 @@
 <note>
 The outline is used to create the [[docs:navigation:toc|TOC]]
 </note>
-
 ===== Features =====
 
 ==== Numbering ====

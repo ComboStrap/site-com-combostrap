@@ -2,7 +2,7 @@
 {
     "description": "With the `web code` component, you can embedded snippet of Javascript, Html and Css script and render their output.",
     "page_id": "8fe6ahwh2hf8ikqs7m12j",
-    "title": "A ComboStrap Component to render web code in a web page (javascript, html, ...)"
+    "title": "Render web code in a your page (javascript, html, ...)"
 }
 ---
 
@@ -13,10 +13,6 @@
 ''webcode'' is a component that permits to render the output of code such as HTML, Javascript or CSS.
 
 By enclosing [[docs:block:code|code blocks]] by a ''webcode'' block, the plugin will add the result at the end (after the last ''webcode'' tag).
-
-
-
-
 ===== Example=====
 
 ==== HTML ====
