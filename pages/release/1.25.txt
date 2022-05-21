@@ -66,6 +66,7 @@ The [[docs:layout:component:grid|Row component]] is now called a grid because:
       * the package version range allows now the minor upgrade to get the security update
   * The [[:docs:utility:webcode|webcode]] component loads now its javascript and stylesheet with the [[:docs:cache:static|Infinite Static Cache]].
   * The [[:docs:utility:webcode|Webcode]] component overwrites the console in the head, overwriting also the console script in the HTML content.
+  * The [[:docs:content:link#external|external links]] in a [[:docs:menubar:menubar|Menubar]] are styled correctly now.
 ==== Deprecated ====
   * The [[:release:deprecated:toggle|toggleTargetId]] has been deprecated for the [[:docs:animation:toggle|Toggle element]].
   * The ''align'' attribute in the [[:docs:menubar:menubar|menubar]] has been replaced by a [[docs:layout:page:container|container attribute value]]

@@ -8,10 +8,14 @@ The ''page system'' is a system that organize the [[docs:layout:page:page|pages]
 
 ===== Example =====
 
-With the [[docs:page:path|page path]] '':foo:bar:hallo''
-  * the [[docs:page:name|page name]] is ''hallo''
-  * the [[namespace|namespace]] is '':foo:bar:''
-  * the [[docs:type:index|parent page (index)]] is '':foo:bar:start'' ('':foo:bar:bar'' if the start page does not exist)
+With the [[docs:page:path|page path]] '':foo:bar:world''
+
+| its ''name'' | is the default [[docs:page:name|page name]] | ''world'' |
+| its ''container'' | is the [[namespace|namespace]] | '':foo:bar:'' |
+| its ''parent page'' | is the [[docs:type:index|index page]] | '':foo:bar:start'' or ''foo:bar:bar'' |
+| its ''grand parent page'' | is the [[docs:type:index|index page]] | '':foo:start'' or '':foo:foo'' |
+| its ''grand grand parent page'' | is the [[:docs:app:home|home page]] | '':start'' |
+
 
 ===== Usage =====
 The following components are based on the page system:

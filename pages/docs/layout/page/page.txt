@@ -37,7 +37,7 @@ The default layout is a fully responsive layout (known also as the ''holy grail'
       * [[release:deprecated:sidekick_slot|right slot]]
       * [[main|main slot (ie content)]] (main header and footer slot)
 
-They are all [[docs:layout:component:container|contained]] in a page that is:
+They are all [[docs:layout:page:container|contained]] in a page that is:
   * centered 
   * with a width adjusted by screen size (by breakpoint)
 
@@ -52,7 +52,7 @@ If there is no sidebars, the median layout centers the main content with a fix w
 
 ==== Landing ====
 
-In a landing page layout, the main content is not [[docs:layout:component:container|contained]].
+In a landing page layout, the main content is not [[docs:layout:page:container|contained]].
 
 To know more about landing page, see the dedicated page: [[landing]]
 ===== How to set the page layout ? =====
