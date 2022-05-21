@@ -185,6 +185,9 @@ where:
       * ''x-1'' to ''x-5'' for the horizontal gutter
       * ''y-1'' to ''y-5'' for the vertical gutter
 
+The default values are:
+  * for gutter: ''y-5''
+  * for [[:docs:styling:spacing|spacing]]: ''mb-3''
 
 
 <note>

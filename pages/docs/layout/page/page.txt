@@ -18,10 +18,15 @@
 {{:strap:layout_funny.png?300|}}
 </blockquote>
 
-ComboStrap supports actually, three page layouts:
-  * [[#holy]] - the default
-  * [[#median]] - the main content is centered and does not take the space of the sidebar if not present.
-  * [[#landing]] - the main content is not centered and takes the full page width
+ComboStrap supports the following layouts
+
+^ Layout ^ Description ^
+| [[#holy]] | The holy-grail layout |
+| [[#median]] | A layout that improves readability by constraining and centering the content |
+| [[#landing]] | A layout to create a landing page for the [[:docs:app:home|home page]] |
+| [[#index]] | A layout to create a semi-landing page for the [[:docs:type:index|index pages]] |
+| [[#hamburger]] | The default layout of admin pages (without sides)|
+
 
 
 ===== List =====
@@ -33,28 +38,69 @@ The default layout is a fully responsive layout (known also as the ''holy grail'
   * a [[docs:layout:page:header_slot|page header slot]]
   * a [[docs:layout:page:footer_slot|page footer slot]]
   * and three columns:
-      * [[docs:layout:page:side_slot|left slot]]
-      * [[release:deprecated:sidekick_slot|right slot]]
+      * [[docs:layout:page:side_slot|left slot (page side)]]
+      * [[release:deprecated:sidekick_slot|right slot (page sidekick)]]
       * [[main|main slot (ie content)]] (main header and footer slot)
 
 They are all [[docs:layout:page:container|contained]] in a page that is:
   * centered 
   * with a width adjusted by screen size (by breakpoint)
 
-The main content width expands to the width of the page if the sidebars are not present.
+The main content width expands to the width of the page if the page sides are not present.
 
 ==== Median ====
 
-If there is no sidebars, the median layout centers the main content with a fix width, making the length of a line shorter and therefore more readable.
+The median is a layout that emphasizes readability by:
+  * centering the main content
+  * with a fix width (making the length of a line shorter).
+
+It's the default layout for all root pages (ie pages without [[:docs:page:namespace|namespace]])
+
+The page side is not shown.
+
+
+
 
 
 
 
 ==== Landing ====
 
-In a landing page layout, the main content is not [[docs:layout:page:container|contained]].
+The landing layout is the default layout of the [[:docs:app:home|home page]].
+
+In a landing page layout:
+  * the main content is not [[docs:layout:page:container|contained]]
+  * the page header, the page footer, the main content are shown
+  * the page sides, the main sides, the main header and the main footer are not shown
 
 To know more about landing page, see the dedicated page: [[landing]]
+
+
+==== Hamburger ====
+
+The hamburger is the default layout for any admin page.
+
+A hamburger will show only three layers:
+  * the page header
+  * the main (header, content and footer)
+  * the page footer
+
+There is no page side.
+
+
+==== Index ====
+
+An ''index'' is a landing page for a [[:docs:page:namespace|Namespace]].
+
+It shows:
+  * the page header and footer
+  * the main header and content
+  * the page side
+
+It does not show:
+  * the [[:docs:navigation:toc|table of content]]
+  * the page footer
+  * the sidekick
 ===== How to set the page layout ? =====
 
 You can set the page layout via the [[docs:metadata:manager|metadata manager]].
