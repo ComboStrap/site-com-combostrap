@@ -4,7 +4,7 @@
     </brand>
     <collapse>
         <group expand="true">
-            [[https://combostrap.com/combostrap-documentation-mqltri27|Docs]]
+            [[:docs:docs?preview|Docs]]
             [[support?preview&color=secondary|Contact]]
         </group>
         <btn elevation="true">[[howto:getting_started:getting_started?preview|Get Started <icon name="arrow-right-drop-circle-outline" width="1.5rem"/>]]</btn>
