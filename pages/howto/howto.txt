@@ -1,0 +1,27 @@
+---json
+{
+    "canonical": ":howtos",
+    "description": "This section regroups all HowTo that show you how to do step by step",
+    "low_quality_page": "false",
+    "page_id": "oqwozv8l2vhi5otajvukr",
+    "title": "How to use the ComboStrap platform"
+}
+---
+====== HowTo ======
+
+
+===== About =====
+This section regroups all ''howto'' documentation.
+
+Bear with us while we add more and more of them.
+
+
+
+===== List =====
+
+<iterator>
+    <data>select from descendants where (depth = 0 and is_index = 0)  order by path asc limit 10 </data>
+    <template>
+  * [[$path|$title]]
+    </template>
+</iterator>

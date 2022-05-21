@@ -1,0 +1,40 @@
+====== How to center a link or a button ? ======
+
+
+===== About =====
+This [[howto:howto|how to]] will show you how to center a [[docs:content:link|link]].
+
+
+A link can be styled via its properties and because a link is a also a type of [[:docs:content:button|button]], this page shows you the two possibilities.
+===== Aligned Link =====
+
+A link is a phrase component but you may want to [[:docs:styling:emphasis|emphase]] it as a call to action by centering it.
+
+You can center a [[:docs:content:link|link]] with the [[:docs:styling:align|align]] attribute.
+
+
+Example:
+<webcode name="Default" frameborder="0">
+<code dw>
+[[:docs:content:link?align=center|Go to the link page]]
+</code>
+</webcode>
+
+
+===== Link as button =====
+
+A link is also a [[:docs:content:button|button]] type
+
+Example:
+  * Button as link
+<webcode name="Default" frameborder="0">
+<code dw>
+<btn link align="center">[[:docs:content:link|Go to the link page]]</btn>
+</code>
+</webcode>
+  * Or as a plain button
+<webcode name="Default" frameborder="0">
+<code dw>
+<btn align="center">[[:docs:content:link|Go to the link page]]</btn>
+</code>
+</webcode>

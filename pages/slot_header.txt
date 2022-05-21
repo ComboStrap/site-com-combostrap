@@ -6,6 +6,7 @@
         <group expand="true">
             [[:docs:docs?preview|Docs]]
             [[support?preview&color=secondary|Contact]]
+            [[howto:howto|HowTo]]
         </group>
         <btn elevation="true">[[howto:getting_started:getting_started?preview|Get Started <icon name="arrow-right-drop-circle-outline" width="1.5rem"/>]]</btn>
         <search/>

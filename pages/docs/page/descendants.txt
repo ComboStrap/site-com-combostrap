@@ -13,11 +13,11 @@ The descendants pages can be queried to create illustrative list in [[docs:type:
 You can query them by using the ''descendants'' table of the [[docs:templating:sql|page sql]].
 
 Example:
-  * All descendants [[docs:type:index|home page]] (''is_home = 1'') 
+  * All descendants [[docs:type:index|index page]] (''is_index = 1'') 
   * in the next [[docs:page:level|level]] (''depth = 1'') than the [[:docs:docs|root home page for the documentation]]
   * ordered by [[docs:page:name|page name]] ascendant
 <code sql>
-select from descendants where is_home = 1  and depth = 1 order by name asc 
+select from descendants where is_index = 1  and depth = 1 order by name asc 
 </code>
 
 
@@ -27,11 +27,11 @@ If you take this query and uses it:
 <webcode name="Default" frameborder="0">
 <code dw>
 <iterator>
-    <data path=":docs:docs">select from descendants where is_home = 1  and depth = 1 order by path asc limit 10 </data>
+    <data path=":docs:docs">select from descendants where is_index = 1  and depth = 1 order by path asc limit 10 </data>
     <template>
   * [[$path|$name]] (Level: $level)
     </template>
 </iterator>
 </code>
-you would get the second level [[docs:type:index|home page]] (we have limited to 10 with the ''limit 10'' clause).
+you would get the second level [[docs:type:index|index page]] (we have limited to 10 with the ''limit 10'' clause).
 </webcode>
