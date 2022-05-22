@@ -156,3 +156,7 @@ ${title | trim()}
 </code>
 Output:
 </webcode>
+
+==== Date ====
+
+See [[:docs:content:date|Date]]

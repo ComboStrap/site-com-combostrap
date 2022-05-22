@@ -57,9 +57,9 @@ To have it refresh every day, we expire the [[docs:cache:cache|cache date daily]
 
 
 <webcode name="Default" frameborder="0">
-  * The markup with the [[docs:locale:lang|lang]] attribute
+  * The markup with the [[docs:locale:locale|locale]] attribute with just the region (ie country) as value.
 <code dw>
-<date lang="fr"/>
+<date locale="fr"/>
 </code>
   * The output is a date formatted with French word.
 </webcode>
@@ -77,13 +77,11 @@ To have it refresh every day, we expire the [[docs:cache:cache|cache date daily]
 
 ==== Date of a page ====
 
-With a [[docs:templating:template|template component]], you can even print a date metadata of a page.
+You can even print a date metadata of a page.
 <webcode name="Default" frameborder="0">
   * For instance, for the [[docs:page:published|published date]] of this article
 <code dw>
-<template>
-    <date>$date_published</date>
-</template>
+<date>$date_published</date>
 </code>
   * The output will be:
 </webcode>
@@ -92,15 +90,15 @@ With a [[docs:templating:template|template component]], you can even print a dat
 
   * For the today's date
 <code dw>
-<date format="formatValue" lang="langValue"/>
+<date format="formatValue" locale="localeValue"/>
 </code>
   * When specifying a date value
 <code dw>
-<date format="formatValue" lang="langValue">dateValue</date>
+<date format="formatValue" locale="localeValue">dateValue</date>
 </code>
 where:
   * ''format'' is any [[https://www.php.net/manual/en/function.strftime.php|format accepted by the strftime function]]
-  * ''lang'' is a [[docs:locale:lang|lang]] value
+  * ''locale'' is a [[docs:locale:locale|locale]] value. <inote>You can also just use the [[:docs:locale:region|country value]] (for instance, the value ''us'' is valid).</inote>
   * ''dateValue'' is:
       * one of the [[docs:metadata:date|accepted date format]]
       * or any [[docs:templating:variable|page date metadata]].
