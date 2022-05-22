@@ -17,11 +17,21 @@ Bear with us while we add more and more of them.
 
 
 
-===== List =====
+
+
 
 <iterator>
-    <data>select from descendants where (depth = 0 and is_index = 0)  order by path asc limit 10 </data>
-    <template>
-  * [[$path|$title]]
-    </template>
+    <data>select from descendants where (depth = 0 and is_index = 0) or (depth = 1 and is_index = 1)  order by path asc limit 10 </data>
+    <grid max-line="3">
+        <template>
+            <box>
+               <box width="200px" align="center" clickable>
+                   <page-image path="$path" width="8rem" spacing="mb-3" align="center" />
+                   == $title ==
+                   ${description | head(100,"...")}
+                   [[$path| ]]
+               </box>
+            </box>
+       </template>
+    </grid>
 </iterator>

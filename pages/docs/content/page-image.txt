@@ -15,39 +15,36 @@
 ''page-image'' is a [[content|content component]] that chooses and renders one of the [[docs:page:image|page images]] (illustration, thumbnail) defined for a page.
 
 
-<note>
-This component is generally used in a [[docs:templating:iterator|template iteration]] to create illustrative image for [[docs:block:block|block component]] (mainly for [[docs:block:card|cards]])
-</note>
 
-
-The generated image inherits all [[docs:content:image|images features]] such as lazy loading and responsiveness.
 
 ===== Example =====
 
 ==== The original page image ====
 
-This example shows the [[docs:page:image|page image]] of this page (path: ''<template>$path</template>'') - We have set it to the image of the surfer below.
+This example shows the [[docs:page:image|page image]] of this page. We have set it to the image of the surfer below.
 
 <webcode name="Default" frameborder="0">
 <code dw>
-<page-image path=":docs:content:page-image" />
+<page-image/>
 </code>
 </webcode>
-==== Page images with a 4:3 ratio and a height ====
-
-Note that the image has an intrinsic ratio of ''16:9'', we can change it to a ratio of ''4:3'' with the below markup and constraints the height 
-
-<webcode name="Default" frameborder="0">
-<code dw>
-<page-image path=":docs:content:page-image" ratio="4:3"/>
-</code>
-</webcode>
+==== How to get a serie of images with the same dimension  ? ====
 
 
-
-<note>
 In a [[docs:templating:iterator|template iteration]] where the width of each element is set, the ratio permits to get the same image aspect-ratio as well as the same dimension for all images. The visual rendering is therefore consistent and peaceful.
-</note>
+
+
+For instance, the page image has an intrinsic ratio of ''16:9'', we can change it to a ratio of ''4:3'' with the below markup and constraints the height 
+
+<webcode name="Default" frameborder="0">
+<code dw>
+<page-image ratio="4:3" height="200"/>
+</code>
+</webcode>
+
+
+
+
 ===== Syntax =====
 
 <code dw>
@@ -58,21 +55,20 @@ In a [[docs:templating:iterator|template iteration]] where the width of each ele
 />
 </code>
 where the following attributes are:
-  * mandatory: ''path'' is the [[docs:page:path|path]] of a page
-  * optional: 
-      * the [[docs:content:image|image attributes]]: ''width'' / ''height'' / ''ratio'' and ''color'' (You should be able to use all image attributes)
-      * ''default'': The [[docs:content:image|path of the default image]] shown if the page does not have any image. By default, the [[docs:app:logo|logo]] is chosen
-
-
-
-When the ''ratio'' is set, the algorithm will:
-  * select the image in the set of [[docs:page:image|page image]] with the most equivalent ratio
-  * [[docs:content:image#cropping|crop]] the image to fit the ratio
+  * ''path'' is the [[docs:page:path|path]] of a page (by default, the requested page)
+  * the [[docs:content:image|image attributes]]: ''width'' / ''height'' / ''ratio'' and ''color'' (You should be able to use all image attributes)
+  * ''default'': The [[docs:content:image|path of the default image]] shown if the page does not have any image. By default, the [[docs:app:logo|logo]] is chosen
 
 
 <note>
 For an [[docs:content:icon|icon]], the default color is the [[docs:app:color|primary color]] if set
 </note>
+
+===== Image selection =====
+
+When the ''ratio'' is set, the algorithm will:
+  * select the image in the set of [[docs:page:image|page image]] with the most equivalent ratio
+  * [[docs:content:image#cropping|crop]] the image to fit the ratio
 
 
 ===== Support =====
@@ -93,15 +89,13 @@ When the image is an [[docs:content:icon|icon]], the icon is zoomed out to 3 tim
 
 A page-image is supported as illustrative image for a [[docs:block:card|card]]
 
-Example a card with data of this page (thanks to the [[docs:templating:template|template component]])
+Example a card with data of this page with [[:docs:templating:variable|variable]]
 <webcode name="Default" frameborder="0">
 <code dw>
-<template>
-    <card clickable width="300">
-        <page-image path="$path" ratio="16:9"/>
-        === $h1 ===
-        $description [[$path| ]]
-    </card>
-</template>
+<card clickable width="300">
+    <page-image ratio="16:9"/>
+    === $h1 ===
+    $description [[$path| ]]
+</card>
 </code>
 </webcode>

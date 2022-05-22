@@ -12,7 +12,7 @@
 \\
 \\
 
-{{howto:getting_started:undraw_stepping_up.svg}}
+{{ howto:getting_started:undraw_stepping_up.svg?0x300 }}
 
 ===== About =====
 How to have a professional website up and running with [[:start|combostrap]].
