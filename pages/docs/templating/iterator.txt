@@ -46,7 +46,7 @@ select order by date_modified desc limit 4
     <masonry>
         <template>
             <card clickable>
-            <page-image path="$path" ratio="16:9"/>
+            <page-image ratio="16:9"/>
             === $title ===
             <itext color="muted"><date format="%h %d - %H:%M">$date_modified</date></itext>
             
@@ -58,7 +58,6 @@ select order by date_modified desc limit 4
 </code>
 **The Result:**
 </webcode>
-
 ===== Syntax =====
 <code dw>
 <iterator>

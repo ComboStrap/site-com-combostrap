@@ -55,7 +55,7 @@ For instance, the page image has an intrinsic ratio of ''16:9'', we can change i
 />
 </code>
 where the following attributes are:
-  * ''path'' is the [[docs:page:path|path]] of a page (by default, the requested page)
+  * ''path'' is the [[docs:page:path|path]] of a page (by default, the actual page or the [[:docs:templating:iterator|iterator page]])
   * the [[docs:content:image|image attributes]]: ''width'' / ''height'' / ''ratio'' and ''color'' (You should be able to use all image attributes)
   * ''default'': The [[docs:content:image|path of the default image]] shown if the page does not have any image. By default, the [[docs:app:logo|logo]] is chosen
 
