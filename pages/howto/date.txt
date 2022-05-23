@@ -12,7 +12,8 @@
 ====== How to format a date variable as you wish ? ======
 
 ===== About =====
-This [[howto:howto|how to]] will show you how to format a date with the [[:docs:templating:pipeline#format|Pipeline format function]].
+This [[howto:howto|how to]] will show you how to format a date <icon name="healthicons:i-schedule-school-date-time"/> with the [[:docs:templating:pipeline#format|pipeline format function]].
+
 
 
 You can apply it to any [[:docs:templating:variable|date variable]] such as:
@@ -70,17 +71,34 @@ ${now | format( "MMM dd" )}
 </webcode>
 
 
-==== Today's date in French ====
+==== Formatting a date content  ====
+
+Because a pipeline is an expression, you can even format a date written in your content.
+
+<webcode name="Default" frameborder="0">
+<code dw>
+${"2022-05-05" | format()}
+</code>
+  * The output:
+</webcode>
+==== Formatting a date in an other language  ====
 
 
 <webcode name="Default" frameborder="0">
-  * The markup with the [[docs:locale:locale|locale]] attribute with just the region (ie country) as value.
+  * A date formatted in French with the default pattern (The markup with the [[docs:locale:locale|locale]] attribute with just the region (ie country) as value)
 <code dw>
-${now | format( "MMM dd", "fr" )}
+${now | format( "", "fr" )}
 </code>
-  * The output is a date formatted in French.
 </webcode>
 
+\\
+\\
+<webcode name="Default" frameborder="0">
+  * Compare it with the US date
+<code dw>
+${now | format( "", "us" )}
+</code>
+</webcode>
 
 ==== Date of a page ====
 

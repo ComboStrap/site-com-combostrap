@@ -214,6 +214,7 @@ The ''acronym'' should be used as library name. It follows the [[https://icon-se
 | ''font awesome regular'' | ''fa-regular'' | [[https://fontawesome.com/|Font Awesome]] (CC BY 4.0) |
 | ''font awesome solid'' | ''fa-solid'' | [[https://fontawesome.com/|Font Awesome]] (CC BY 4.0) |
 | ''feather'' | ''fe'' | [[https://feathericons.com/|Feather]] |
+| ''healthicons'' | ''healthicons'' | [[https://healthicons.org/|Healthicons (MIT)]] |
 | ''icomoon'' | ''icomoon-free'' | [[https://icomoon.io/|Icomoon]] | 
 | ''iconoir'' | ''iconoir'' | [[https://iconoir.com/|Iconoir]] | 
 | ''iconscout'' | ''uit'' | [[https://iconscout.com/unicons/explore/line|Iconscout (Line only)]] |

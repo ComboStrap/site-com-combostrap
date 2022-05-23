@@ -7,16 +7,17 @@
     "title": "How to use the ComboStrap platform"
 }
 ---
+
+<box align="center text-center">
 ====== HowTo ======
+This section regroups ''howto'' documentations.
 
+\\
 
-===== About =====
-This section regroups all ''howto'' documentation.
+{{ :howto:undraw_animating.svg?0x300 |}}
 
-Bear with us while we add more and more of them.
-
-
-
+\\
+</box>
 
 
 
