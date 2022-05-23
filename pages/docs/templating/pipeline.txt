@@ -26,9 +26,10 @@ where:
       * [[#capitalize]] - make the first letter of each word a capital letter (ie uppercase letter)
       * [[#cut]] - cut the string in parts and return one
       * [[#head]] - return the first characters
-      * [[#replace]] -  replace a string
+      * [[#replace]] - replace a string
       * [[#rconcat]] - add a string at the right side
       * [[#trim]] - delete any space before and after
+      * [[#format]] - format a date
 
 ===== Functions =====
 
@@ -157,6 +158,25 @@ ${title | trim()}
 Output:
 </webcode>
 
-==== Date ====
+==== Format ====
 
-See [[:docs:content:date|Date]]
+The format function permits to format a date.
+
+**Syntax**:
+<code bash>
+format(pattern, locale)
+</code>
+where:
+  * ''pattern'' is a [[https://unicode-org.github.io/icu/userguide/format_parse/datetime/#datetime-format-syntax|ISO date pattern]]
+  * ''locale'' is a [[:docs:locale:locale|locale]]
+
+For instance:
+<webcode name="format" frameborder=0 >
+<code dw>
+${now | format()}
+</code>
+Output:
+</webcode>
+
+
+For more example, see [[howto:date|the dedicated date page]]

@@ -74,6 +74,7 @@ The supported variable are:
   * ''slug'' - the [[docs:page:slug|slug]] of the page
   * ''level'' - the [[docs:page:level|level]] of the page in the file system tree
   * ''depth'' - the maximum difference between the [[docs:page:level|level]] of the current page and the selected page ([[docs:templating:sql|page sql only attribute]])
+  * ''now'' - the actual date (note that if the page is [[:docs:cache:page|cached]], the ''now'' date will be the date of the rendering)
 
 And all [[docs:metadata:frontmatter|frontmatter metadatas]] that are scalar (ie no array). Basically, all metadata that can be seen in the [[docs:analytics:data|scalar metadata node of the analytics data]] can be used as attribute.
 

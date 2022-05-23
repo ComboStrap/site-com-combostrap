@@ -1,0 +1,98 @@
+---json
+{
+    "cache_expiration_frequency": "@daily",
+    "canonical": ":variable:date",
+    "date_published": "2021-09-26T00:00:00+00:00",
+    "description": "This page shows you how to format a date variable",
+    "page_id": "59rkmdj9buce6ud5bvwzb",
+    "title": "How to format a date as you wish"
+}
+---
+
+====== How to format a date variable as you wish ? ======
+
+===== About =====
+This [[howto:howto|how to]] will show you how to format a date with the [[:docs:templating:pipeline#format|Pipeline format function]].
+
+
+You can apply it to any [[:docs:templating:variable|date variable]] such as:
+  * the today's date ''now''
+  * or any [[docs:templating:variable|page date attribute]] such as:
+      * ''date_created'' or ''date_modified''  of a page
+      * ''date_published'' (if specified, see [[docs:page:published]])
+      * ''date_start'' or ''date_end'' of an [[docs:type:event|event]]
+
+
+
+
+===== Example =====
+
+==== Today's date ====
+
+<webcode name="Default" frameborder="0">
+Without any formatting, the date is given in [[:docs:metadata:date|the iso date format]]
+<code dw>
+${now}
+</code>
+</webcode>
+
+\\
+\\
+
+To apply a formatting, you need to use the [[:docs:templating:pipeline#format|format function]]
+<webcode name="Default" frameborder="0">
+<code dw>
+${now | format()}
+</code>
+The output is a date formatted to the default format of your [[:docs:locale:locale|locale (ie country and language)]]
+</webcode>
+
+
+\\
+<note tip>
+To have it refresh every day, we expire the [[docs:cache:cache|page cache date daily]]
+<code dw>
+<cache expiration="@daily"/>
+</code>
+</note>
+<cache expiration="@daily"/>
+
+==== Today's date with a pattern ====
+
+<webcode name="Default" frameborder="0">
+Today's date with a [[https://unicode-org.github.io/icu/userguide/format_parse/datetime/#datetime-format-syntax|date pattern]] where:
+      * ''MMM'' is the short month description 
+      * ''dd'' is the day number on two digits
+<code dw>
+${now | format( "MMM dd" )}
+</code>
+  * The output:
+</webcode>
+
+
+==== Today's date in French ====
+
+
+<webcode name="Default" frameborder="0">
+  * The markup with the [[docs:locale:locale|locale]] attribute with just the region (ie country) as value.
+<code dw>
+${now | format( "MMM dd", "fr" )}
+</code>
+  * The output is a date formatted in French.
+</webcode>
+
+
+==== Date of a page ====
+
+You can also print the date metadata of a page.
+
+<webcode name="Default" frameborder="0">
+For instance, for the date of this article
+<code dw>
+  * ${date_created | format()}
+  * ${date_modified | format()}
+  * ${date_published | format()}
+</code>
+The output will be:
+</webcode>
+

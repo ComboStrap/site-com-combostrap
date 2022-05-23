@@ -2,9 +2,14 @@
 
 
 <note warning>
-The date component was deprecated for the [[:docs:content:date|date variable]].
+The date component was deprecated for the [[howto:date|date variable]].
 
 This article has been saved for historical purpose.
+
+Why ?
+  * The function [[https://www.php.net/manual/en/function.strftime.php|strftime]] was deprecated and will be no more available from php version 8
+  * The date format is not the standard.
+  * The [[:docs:templating:pipeline#format|pipeline format function]] can be enhanced to format also number.
 </note>
 ===== About =====
 

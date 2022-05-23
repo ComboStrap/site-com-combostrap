@@ -78,6 +78,10 @@ The [[docs:layout:component:grid|Row component]] is now called a grid because:
   * The ''cell'' component in a [[docs:layout:component:grid|Row Layout]] has been deprecated. 
       * A grid layout accepts now any children
       * The css flex system is now applied via the [[:docs:styling:align|Align attribute]] / [[:docs:styling:dimension|width grow/shrink]]
+  * The [[:release:deprecated:date|date component]] has been deprecated for the [[:docs:templating:pipeline#format|Pipeline Format function]].
+
+==== Regression ====
+  * With the deprecation of the [[:release:deprecated:date|date component]], the possibility to format a literal date is for now lost.
 ==== Bug ====
   * The [[docs:app:search|Internal Search Engine]] result was not going away if the escape click reaches no element.
   * When the [[docs:performance:frontend_optimization|Front End Optimization]] was on, the [[docs:app:search|Internal Search Engine]] was no more working because ''DOKU_BASE'' was no more present.
