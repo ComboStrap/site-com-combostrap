@@ -8,10 +8,10 @@
 ====== ComboStrap - Fragement Iterator ======
 
 ===== About =====
-''iterator'' permits to loop over a content fragment in order to create a list of pages.
+''iterator'' permits to loop over a content ''fragment'' in order to create a list of pages.
 
 
-You may use it to generate any [[:docs:layout:component:layout|layout]]. 
+You may use it to generate any [[docs:layout:component:start|layout]]. 
 
 
 In particular, you may use it to generate the following layouts:

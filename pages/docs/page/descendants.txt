@@ -23,7 +23,7 @@ select from descendants where is_index = 1  and depth = 1 order by name asc
 
 If you take this query and uses it:
   * in a [[docs:templating:iterator|iterator]] 
-  * with a [[docs:templating:template|template]]
+  * with a [[howto:template|template]]
 <webcode name="Default" frameborder="0">
 <code dw>
 <iterator>

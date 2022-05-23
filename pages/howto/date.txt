@@ -1,15 +1,19 @@
 ---json
 {
+    "aliases": [
+        { "path": ":docs:content:date" }
+    ],
     "cache_expiration_frequency": "@daily",
     "canonical": ":variable:date",
     "date_published": "2021-09-26T00:00:00+00:00",
-    "description": "This page shows you how to format a date variable",
+    "description": "This page shows you how to format a date.",
+    "h1": "ComboStrap - Date Component",
     "page_id": "59rkmdj9buce6ud5bvwzb",
-    "title": "How to format a date as you wish"
+    "title": "How to format a date ?"
 }
 ---
 
-====== How to format a date variable as you wish ? ======
+====== How to format a date ? ======
 
 ===== About =====
 This [[howto:howto|how to]] will show you how to format a date <icon name="healthicons:i-schedule-school-date-time"/> with the [[:docs:templating:pipeline#format|pipeline format function]].
@@ -52,11 +56,8 @@ The output is a date formatted to the default format of your [[:docs:locale:loca
 \\
 <note tip>
 To have it refresh every day, we expire the [[docs:cache:cache|page cache date daily]]
-<code dw>
-<cache expiration="@daily"/>
-</code>
 </note>
-<cache expiration="@daily"/>
+
 
 ==== Today's date with a pattern ====
 
@@ -111,6 +112,6 @@ For instance, for the date of this article
   * ${date_modified | format()}
   * ${date_published | format()}
 </code>
-The output will be:
+The output is:
 </webcode>
 

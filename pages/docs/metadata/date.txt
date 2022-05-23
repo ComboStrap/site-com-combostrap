@@ -1,12 +1,12 @@
 ---json
 {
-    "description": "How to write a date in the frontmatter to be valid",
+    "description": "This article describes the string date format that understands Combostrap.",
     "name": "Date format",
     "page_id": "lslbc2ojagbnher18956n",
-    "title": "Which date format are supported"
+    "title": "Which string date format are supported by Combostrap"
 }
 ---
-====== Metadata - Date ======
+====== String Date Format ======
 
 
 <note important>
@@ -15,16 +15,18 @@ You normally will change the date with the [[docs:metadata:manager|metadata mana
 
 
 ===== About =====
-This page is about the string date format accepted by ComboStrap.
+This page describes the date string formats supported by ComboStrap.
 
 
-All date as the [[docs:page:published|published date]], [[..:type:event|start/end date]] are written in this format as string. You will then find them back in this format in the [[docs:metadata:frontmatter|frontmatter]].
 
 
 
 ===== Syntax =====
 
-Combostrap understand all the following format as date:
+==== Reading ====
+
+Combostrap understands all the following string format as date:
+
 
 <code>
 YYYY-MM-DDTHH:MM:SS+hh:mm // iso 8601 format
@@ -41,6 +43,29 @@ where:
   * ''+hh:mm'' is a positive or negative time offsets from the UTC timezone (ie London). For instance, ''Europe/Paris'' (one hour timezone from London) ''+01:00''
 
 
+\\
+\\
+
+You can use any of this format in a [[:docs:templating:pipeline|pipeline]] to format a literal date
+
+Example:
+<webcode name="Default" frameborder="0">
+<code dw>
+${"2022-05-23" | format()}
+</code>
+</webcode>
+==== Writing ====
+When combostrap stores a date, it writes it in the below iso 8601 format.
+
+<code>
+YYYY-MM-DDTHH:MM:SS+hh:mm
+</code>
+
+All date (created, modified, [[docs:page:published|published]], [[..:type:event|start/end date]]) are written/stored in this format as string. 
+
+You will find them back in this format:
+  * in the [[docs:metadata:frontmatter|frontmatter]]
+  * and in the [[:docs:analytics:database|database]]
 
 ==== Time ====
 
