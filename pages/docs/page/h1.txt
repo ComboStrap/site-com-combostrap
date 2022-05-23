@@ -15,7 +15,7 @@
 
 ===== Usage =====
 
-It's the default value for the [[..:page:title|title]] and can be used in [[docs:templating:template|template]].
+It's the default value for the [[..:page:title|title]] and can be used in [[howto:template|template]].
 
 
 For instance:

@@ -31,7 +31,7 @@ This example shows the [[docs:page:image|page image]] of this page. We have set 
 ==== How to get a serie of images with the same dimension  ? ====
 
 
-In a [[docs:templating:iterator|template iteration]] where the width of each element is set, the ratio permits to get the same image aspect-ratio as well as the same dimension for all images. The visual rendering is therefore consistent and peaceful.
+In a [[docs:templating:iterator|fragment iteration]] where the width of each element is set, the ratio permits to get the same image aspect-ratio as well as the same dimension for all images. The visual rendering is therefore consistent and peaceful.
 
 
 For instance, the page image has an intrinsic ratio of ''16:9'', we can change it to a ratio of ''4:3'' with the below markup and constraints the height 
@@ -49,19 +49,21 @@ For instance, the page image has an intrinsic ratio of ''16:9'', we can change i
 
 <code dw>
 <page-image 
+    default="firstImage|parentImage|none"
     path="path"  
     width="..." heigth="..." ratio="..." color=".." 
-    default="imagePath|none"
 />
 </code>
-where the following attributes are:
-  * ''path'' is the [[docs:page:path|path]] of a page (by default, the actual page or the [[:docs:templating:iterator|iterator page]])
-  * the [[docs:content:image|image attributes]]: ''width'' / ''height'' / ''ratio'' and ''color'' (You should be able to use all image attributes)
-  * ''default'': The [[docs:content:image|path of the default image]] shown if the page does not have any image. By default, the [[docs:app:logo|logo]] is chosen
+where the possible attributes are:
+
+^ Attributes ^ Default ^ Value ^ Description ^
+| ''default'' | ''firstImage'' | ''firstImage'': the first image in the page \\ ''parentImage'': the first image of the [[:docs:page:system|parent page]] | The image shown if the page does not \\ have any [[:docs:page:image|page image]]. |
+| ''path'' | The actual page path \\ or the [[:docs:templating:iterator|path given by the iterator]] | A [[docs:page:path|page path]] | This attribute defines the page \\ where the image should be searched |
 
 
 <note>
-For an [[docs:content:icon|icon]], the default color is the [[docs:app:color|primary color]] if set
+  * All [[docs:content:image|image attributes]] such ''width'' / ''height'' / ''ratio'' and ''color'' and more can be applied.
+  * For an [[docs:content:icon|icon]], the default color is the [[docs:app:color|primary color]] if set
 </note>
 
 ===== Image selection =====

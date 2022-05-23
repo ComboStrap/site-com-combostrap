@@ -123,10 +123,10 @@ where:
 ==== Templates ====
 
 The templates define the output of each node in the ''list'' or ''tree'' layout:
-    * ''page'' defines a [[docs:templating:template|template]] for each page in the namespace
-    * ''index'' defines a [[docs:templating:template|template]] for the [[docs:type:index|index page of the namespace]]
-    * ''namespace'' defines a [[docs:templating:template|template]] for each child namespace of the actual namespace 
-    *  ''parent'' defines a [[docs:templating:template|template]] for the [[docs:type:index|index page]] of the parent namespace of the actual namespace (used only in the [[#list|list layout]])
+    * ''page'' defines a [[howto:template|template]] for each page in the namespace
+    * ''index'' defines a [[howto:template|template]] for the [[docs:type:index|index page of the namespace]]
+    * ''namespace'' defines a [[howto:template|template]] for each child namespace of the actual namespace 
+    *  ''parent'' defines a [[howto:template|template]] for the [[docs:type:index|index page]] of the parent namespace of the actual namespace (used only in the [[#list|list layout]])
   
 
 The below image shows you the mapping between the tag and their location in a ''list''  layout.

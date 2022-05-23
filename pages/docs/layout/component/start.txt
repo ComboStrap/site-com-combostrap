@@ -1,0 +1,36 @@
+---json
+{
+    "aliases": [
+        { "path": ":docs:layout:component:layout" }
+    ],
+    "page_id": "fm2s79zjoxky5u4z7npgi"
+}
+---
+
+<box align="centext text-center">
+====== Component Layouts ======
+
+
+''components layout'' permits to layout their child components.
+</box>
+
+
+
+
+
+
+<iterator>
+    <data>select from descendants where (depth = 0 and is_index = 0) order by title</data>
+    <grid max-line="3">
+        <fragment>
+            <box>
+               <box width="200px" align="center" clickable>
+                   <page-image path="$path" width="8rem" spacing="mb-3" align="center" />
+                   == $title ==
+                   ${description | head(100,"...")}
+                   [[$path| ]]
+               </box>
+            </box>
+       </fragment>
+    </grid>
+</iterator>

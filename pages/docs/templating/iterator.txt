@@ -1,26 +1,28 @@
 ---json
 {
-    "description": "With the template iterator, you can loop over a template to create any list of page components such as the list of the last blog or recent pages",
+    "description": "With the fragment iterator, you can loop over a content fragment to create any list of page components such as the list of the last blog or recent pages",
     "page_id": "5acenddpfdkik3h087892",
-    "title": "The iterator: Template iteration made easy"
+    "title": "The iterator: fragment iteration made easy"
 }
 ---
-====== ComboStrap - Template Iterator ======
+====== ComboStrap - Fragement Iterator ======
 
 ===== About =====
-''iterator'' permits to loop and applies a [[docs:templating:template|template]] in order to create a list of pages.
-
-You may apply the following layout:
-  * [[docs:layout:component:masonry|masonry]]
-  * [[docs:layout:component:carrousel|carrousel]]
-  * [[docs:lists:list|simple list]]
-  * [[docs:lists:table|table]]
-  * [[docs:lists:content-list|content list]]
-  * [[docs:layout:component:grid|grid]]
+''iterator'' permits to loop over a content fragment in order to create a list of pages.
 
 
+You may use it to generate any [[:docs:layout:component:layout|layout]]. 
 
 
+In particular, you may use it to generate the following layouts:
+
+^ Layout ^ Description ^
+| [[docs:layout:component:grid|grid]] | a grid of cells that adapt to the screen size |
+| [[docs:layout:component:carrousel|carrousel]] | horizontal list navigation with control |
+| [[docs:lists:list|simple list]] | a vertical list with bullet points |
+| [[docs:lists:content-list|content list]] | a list of content that may span on more than one line |
+| [[docs:lists:table|table]] | a table |
+| [[docs:layout:component:masonry|masonry]] | bricks that fill the wall |
 ===== Example =====
 ==== Masonry ====
 
@@ -29,7 +31,7 @@ The below ''iterator'' example:
 <code sql>
 select order by date_modified desc limit 4
 </code>
-  * as a list of [[docs:block:card|card]] (defined in the [[docs:templating:template|template]] node)
+  * as a list of [[docs:block:card|card]] (defined in the fragment node)
   * laid out in a [[docs:layout:component:masonry|masonry layout]]
   * with a [[docs:content:heading|display heading]] (ie ''heading d3'')
   * and the [[docs:content:page-image|illustrative image of the page]] (ie ''page-image'')
@@ -44,15 +46,15 @@ select order by date_modified desc limit 4
 
     <heading d3 align="center"> The last 6 Changes </heading>
     <masonry>
-        <template>
+        <fragment>
             <card clickable>
             <page-image ratio="16:9"/>
             === $title ===
-            <itext color="muted"><date format="%h %d - %H:%M">$date_modified</date></itext>
+            <itext color="muted">${date_modified | format('MMM dd HH:mm')}</itext>
             
             ${description | head(100,'...')} [[$path| ]]
             </card>
-        </template>
+        </fragment>
     </masonry>
 </iterator>
 </code>
@@ -64,13 +66,13 @@ select order by date_modified desc limit 4
 <iterator>
    <data>select where variable = 'xxx'</data>
    ... header  markup...
-   <template>$variable1 ... $variable2</template>
+   <fragment>Fragment markup with $variable1 ... $variable2</fragment>
    ... footer  markup...
 </iterator>
 </code>
 where:
   * ''data'' contains a [[sql|page sql]]
-  * ''template'' is a [[docs:templating:template|template]] that will be repeated for each data row.
+  * ''fragment'' is a content fragment that will be repeated for each data row.
 
 
 <note>

@@ -1,21 +1,19 @@
 ---json
 {
     "canonical": ":template:variable",
-    "description": "This page describes which variables you can use in a template text",
+    "description": "This page describes which variables you can use in your content.",
     "page_id": "fr74w67bja6teikjevzlc",
-    "title": "All variables that can be used in a template text"
+    "title": "The variables that can be used anywhere"
 }
 ---
 ====== Templating - Variables ======
 
 
 ===== About =====
-''Variable'' in Combostap are first-class citizen meaning that they can be used anywhere.
+''Variable'' in Combostap are first-class citizen meaning that you can use them anywhere.
 
 
-You can use them:
-  * in any [[:docs:content:content|page content]]
-  * or in a [[docs:templating:sql|page sql]] in order to select a list of pages.
+
 
 ===== Example =====
 
@@ -78,3 +76,7 @@ The supported variable are:
 
 And all [[docs:metadata:frontmatter|frontmatter metadatas]] that are scalar (ie no array). Basically, all metadata that can be seen in the [[docs:analytics:data|scalar metadata node of the analytics data]] can be used as attribute.
 
+===== Value =====
+By default all variables are filled with the value of the requested page. 
+
+When used inside a [[docs:templating:iterator|iterator fragment]], they get the values of the selected page.

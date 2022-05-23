@@ -30,7 +30,7 @@ By default, the value of the name is the last part of the [[docs:page:path|path]
 
 ===== Template =====
 
-You can use the ''$name'' [[docs:templating:variable|variable]] in a [[docs:templating:template|template]].
+You can use the ''$name'' [[docs:templating:variable|variable]] in a [[howto:template|template]].
 
 Example:
 <webcode name="Default" frameborder="0">

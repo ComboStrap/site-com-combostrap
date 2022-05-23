@@ -122,7 +122,7 @@ Lorem ipsum
 
 ==== A card in a template ====
 
-A card can be used in a [[docs:templating:template|template]] with the [[docs:content:page-image|page-image]] component as illustration.
+A card can be used in a [[howto:template|template]] with the [[docs:content:page-image|page-image]] component as illustration.
 
 
 Example for the actual page
