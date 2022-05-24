@@ -1,0 +1,52 @@
+====== How to center a box component ? ======
+
+
+===== About =====
+This [[howto:howto|howto]] shows you how to center a [[:docs:block:block|box component]].
+
+
+===== Steps =====
+
+
+==== Align Attribute ====
+When you want to lay out a component in combostrap, you use the [[:docs:styling:align|align attribute]].
+
+
+When you want to center it, you would use the ''center'' value.
+
+Example with a [[:docs:block:note|note]]
+<webcode name="Centered" >
+<code dw>
+<note align="center">
+=== Centered Note ===
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+</note>
+</code>
+  * Output:
+</webcode>
+
+
+
+==== Why does the box takes the whole space ? ====
+
+As you can see, the box takes the whole space because every [[:docs:content:content|text component]] by default will expand and take the whole available [[:docs:styling:dimension|width]].
+
+If you want to create a visual centered effect on a box that contains a lot of text, you need to add a [[:docs:styling:dimension|width attribute]] to constrained the box width.
+
+
+Example:
+<webcode name="Centered" >
+<code dw>
+<note align="center" width="300px">
+=== Centered Note ===
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+</note>
+</code>
+  * Output:
+</webcode>
+
+Beter !

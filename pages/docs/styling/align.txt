@@ -10,17 +10,29 @@
 ===== About =====
 ''align'' is an [[docs:styling:styling|styling attribute]] of the [[docs:marki|HTML superset component]]
 
-It permits to align a [[#block|block]] on the horizontal axis.
+It permits to align:
+  * the content of a component
+  * the component itself
+  * its children
 
-<note tip align="center" width="fit-content">
-If you want more control on the position, you may also use a [[docs:layout:component:grid|grid]]
+<note tip align="center">
+If you want more control on the position and space given, you need to use a [[docs:layout:component:grid|grid]]
 </note>
 
 
 ===== Syntax =====
 
+The ''align'' attribute values may applies:
+  * to the text inside
+  * to the component itself
+  * to the alignment of its children
 
-The ''align'' attribute on a box, supports the values:
+==== Text ====
+For [[:docs:content:content|text/inline/content]]
+
+==== Box itself ====
+
+
   * ''left'' or ''start'' (by default, the block is aligned to the left)
   * ''center'',
   * ''right'' or ''end''
@@ -28,42 +40,14 @@ The ''align'' attribute on a box, supports the values:
 <note>
 The content will not flow along the box, if you want this behavior, you need to use the [[docs:styling:float|float attribute]]
 </note>
-===== Example =====
 
-==== With a container component ====
+==== Children ====
 
+<note warning>
+The ''children'' align values should be used only against [[:docs:block:block|block]] children.
 
-
-<webcode name="Centered" >
-  * Example:
-<code dw>
-A little bit of  content that shows that the text will not flow along the aligned box. The ''aligned'' box will then be located after this text.
-<note tip align="end"  width="300px" text-align="center">
-=== Block to the right ===
-
-As every block by default takes the whole available [[dimension|width]], you need to add a [[dimension|width attribute]] when you want to align it.
-
-</note>
-</code>
-  * Output:
-</webcode>
-
-
-<note>
-=== Text ===
-
-To align the text inside a [[docs:block:block|block component]], you use the [[docs:styling:text-align|text-align attribute]].
-
+If you use them against [[:docs:content:content|text/inline/content]], the result will collapse all space.
 </note>
 
-==== Image ====
-
-With a [[docs:content:image|image]], if you want to align it to the ''center'', you would let a space after ''%%{{%%'' and before ''%%}}%%''. More information, see the [[docs:content:image#position|image position section]].
-
-<webcode name="Default" frameborder=0>
-<code dw>
-{{ :docs:block:stock_image_surfer_in_the_see.png?400 |}}
-</code>
-</webcode>
 
 

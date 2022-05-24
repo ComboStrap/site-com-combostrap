@@ -1,0 +1,38 @@
+====== How to center an image ? ======
+
+
+
+===== About =====
+This [[howto|howto]] show you how to center an [[:docs:content:image|image]].
+
+
+===== Syntax =====
+
+To center an [[docs:content:image|image]] there is two possibilities:
+  * with the [[#space syntax]]
+  * and with the [[#align attribute]]
+
+==== Space Syntax ====
+
+With the space syntax, to center an image, you add a space after ''%%{{%%'' and before ''%%}}%%''. 
+<webcode name="Default" frameborder="0">
+<code dw>
+{{ :docs:block:stock_image_surfer_in_the_see.png?400 |}}
+</code>
+
+</webcode>
+
+More information on the space syntax can be found in the [[docs:content:image#position|image position section]].
+
+
+==== Align Attribute ====
+
+The [[:docs:styling:align|align attribute]] permits to align in a various ways your components.
+
+
+If you want to center your image with the align attribute, you would add it to the reference with the ''center'' value.
+<webcode name="Default" frameborder=0>
+<code dw>
+{{:docs:block:stock_image_surfer_in_the_see.png?400&align=center|}}
+</code>
+</webcode>
