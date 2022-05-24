@@ -1,7 +1,7 @@
 ---json
 {
     "canonical": ":page:image",
-    "image": [
+    "images": [
         { "path": ":docs:block:stock_image_surfer_in_the_see.png" },
         { "path": ":docs:semantic:facebook_card.png" }
     ],
@@ -16,23 +16,46 @@
 ===== About =====
 ''image'' is a [[docs:metadata:metadata|page metadata]] that defines an illustrative [[docs:content:image|image]] for the page.
 
-The image:
-  * can be rendered with the [[docs:content:page-image|pageimage component]] in [[docs:templating:template|template]]
-  * and will be added into [[docs:social:social|social]] cards such as [[docs:social:twitter|twitter]], [[docs:social:google|google]] or [[docs:social:facebook|facebook]].
 
 The image should be relevant to the page. For example, if you define an image for a news article, the image must be relevant to that news article.
 
 
+===== Usage =====
+
+==== Page Image ====
+
+The image can be rendered with the [[docs:content:page-image|page-image component]] in:
+      * a [[:slot_main_header|main content header]]
+      * or [[:docs:templating:iterator|iterator]]
+
+Example for this page:
+<webcode name="Default" frameborder="0">
+  * The markup
+<code dw>
+<page-image width="300px"/>
+</code>
+  * The output:
+</webcode>
+
+==== Social ====
+The image is added into [[docs:social:social|social]] cards such as [[docs:social:twitter|twitter]], [[docs:social:google|google]] or [[docs:social:facebook|facebook]].
+
 <note>
 Because  [[docs:social:social|social image]] ([[docs:social:twitter#image|twitter]], [[docs:social:google#image|google]] and [[docs:social:facebook#image|facebook]]) have all differents image specifications, if the images found are not conform (low resolution, bad type), they are not used.
 </note>
-===== How to set page images ? =====
+===== How to set the images from the page ? =====
 
 The recommended images are:
    * high-resolution (minimum of 300,000 pixels when multiplying ''width'' and ''height'', to avoid blurry, unclear images)
    * with the following aspect ratios: ''16x9'', ''4x3'', and ''1x1'' (to avoid [[docs:content:image#cropping|cropping]])
 
+==== Metadata Manager ====
+
 You can set the path of your image in the [[docs:metadata:manager|metadata manager]].
+
+{{:docs:page:page_image_metadata_manager.png?0x400|}}
+
+==== You can't upload from the metadata manager ====
 
 Note that you can't upload the images with the metadata manager for now, therefore:
   * you need to upload your image while editing first (note that the first image in your page is by default the page image).
@@ -60,6 +83,8 @@ Note that you can't upload the images with the metadata manager for now, therefo
 Moving image path with the [[support:plugin#move|move plugin]] will update their path.
 </note>
 
+===== Default =====
+The default page image is the first image found in the page except for the [[:docs:app:home|home page]] where it's the [[:docs:app:logo|logo]].
 ===== Configuration =====
 ==== disableFirstImageAsPageImage====
 The ''disableFirstImageAsPageImage'' is a [[docs:app:configuration|configuration]] that permits to disable the use of the first image of page as the image of a page.

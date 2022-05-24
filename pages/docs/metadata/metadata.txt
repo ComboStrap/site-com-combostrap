@@ -72,7 +72,7 @@ They allows internally:
   * [[..:page:canonical_automatic|Automatic Canonical]]
   * [[docs:router:permalink|Permalink]]
   * [[docs:quality:lpp|Late Publication Protection]]
-  * [[docs:templating:template|Templating]]
+  * [[howto:template|Templating]]
   * [[docs:cache:page_expiration_frequency|Page cache expiration]].
   * [[docs:analytics:replication|Database replication]]
 ==== External ====

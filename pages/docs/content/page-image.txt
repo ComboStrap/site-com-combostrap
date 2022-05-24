@@ -49,16 +49,13 @@ For instance, the page image has an intrinsic ratio of ''16:9'', we can change i
 
 <code dw>
 <page-image 
-    default="firstImage|parentImage|none"
-    path="path"  
-    width="..." heigth="..." ratio="..." color=".." 
+    default="fromParent"
+    path="path"
 />
 </code>
-where the possible attributes are:
-
-^ Attributes ^ Default ^ Value ^ Description ^
-| ''default'' | ''firstImage'' | ''firstImage'': the first image in the page \\ ''parentImage'': the first image of the [[:docs:page:system|parent page]] | The image shown if the page does not \\ have any [[:docs:page:image|page image]]. |
-| ''path'' | The actual page path \\ or the [[:docs:templating:iterator|path given by the iterator]] | A [[docs:page:path|page path]] | This attribute defines the page \\ where the image should be searched |
+where 
+  * ''path'' is the [[docs:page:path|page path]] to show the image for. Default to the actual page path or the [[:docs:templating:iterator|path given by the iterator]] 
+  * ''default'' determines where to start in the [[#default image search algorithm]]. ''fromParent'' will skip the first step and not select the first image of the page (used mostly in a [[:slot_main_header|main header]] to not show the same image twice).
 
 
 <note>
@@ -66,6 +63,13 @@ where the possible attributes are:
   * For an [[docs:content:icon|icon]], the default color is the [[docs:app:color|primary color]] if set
 </note>
 
+===== Default Image Search Algorithm =====
+
+When searching a default image, the algorithm searches:
+  * the first image in the actual page
+  * then if not found, a image in the [[:docs:page:system|parent pages]]
+  * until the [[:docs:app:home|home Page]] where the [[:docs:app:logo|logo]] is chosen as page image.
+ 
 ===== Image selection =====
 
 When the ''ratio'' is set, the algorithm will:

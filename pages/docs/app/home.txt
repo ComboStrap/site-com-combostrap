@@ -10,7 +10,9 @@
 ===== About =====
 The website home page is the web page shown when a URL to your [[docs:app:app|website (domain)]] does not have any path. For instance: https://yourdomain.com
 
-This is also known as the top or root [[docs:type:index|index page]] and is generally the most viewed page.
+This is also known as the top or root [[docs:type:index|index page]] of the [[:docs:page:system|page system]].
+
+It is generally the most viewed page.
 
 
 ===== Type =====
@@ -21,3 +23,5 @@ The website home page gets the [[docs:type:website|website type]] in order to ad
 
 
 
+===== Default Page Image =====
+The home page gets as default [[:docs:page:image#default|page image]] the [[:docs:app:logo|Logo]] 
