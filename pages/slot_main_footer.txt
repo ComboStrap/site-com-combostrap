@@ -7,23 +7,25 @@
 
     <heading h4 spacing="mb-5"> Recommended Pages </heading>
     <carrousel element-width="250px">
-        <template>
+        <fragment>
             <card clickable>
             <page-image path="$path" ratio="21:9" zoom="-6"/>
             <heading h5> $title </heading>
             
             ${description | head(200, "...")} [[$path| ]]
             </card>
-        </template>
+        </fragment>
     </carrousel>
     <hr/>
 </iterator>
 
-<grid>
+<grid align="x-center-children y-center-children">
 <box width="25%" color="muted" align="text-center">Share this page:</box>
-<box width="75%" align="text-left"><share twitter/> <share facebook/> <share hn/> <share mail/> <share Whatsapp/> <share telegram /></box>
+<box width="75%" align="text-center text-start-md"><share twitter/> <share facebook/> <share hn/> <share mail/> <share Whatsapp/> <share telegram /></box>
 <box width="25%" color="muted" align="text-center">Follow us:</box>
-<box width="75%" align="text-left"><follow twitter  handle="combostrapweb"/> <follow facebook handle="combostrap"/></box>
+<box width="75%" align="text-center text-start-md"><follow twitter  handle="combostrapweb"/> <follow facebook handle="combostrap"/></box>
 <box width="25%" color="muted" text-align="center">Page Improvement:</box>
-<box width="75%" align="x-center-xs x-left-md"><brand github widget="link" url="https://github.com/ComboStrap/website/edit/master/pages/$path.txt" width="26"> Edit it yourself</brand> or <brand github url="https://github.com/ComboStrap/website/issues/new?title=Docs%20feedback:%20$path" width="26" widget="link"> Request a modification</brand></box>
+<box width="75%" align="text-center text-left-md">
+<brand github widget="link" url="https://github.com/ComboStrap/website/edit/master/pages/$path.txt" width="26"> Edit it yourself</brand> or <brand github url="https://github.com/ComboStrap/website/issues/new?title=Docs%20feedback:%20$path" width="26" widget="link"> Request a modification</brand>
+</box>
 </grid>

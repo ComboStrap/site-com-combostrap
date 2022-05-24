@@ -13,10 +13,10 @@
 ===== Syntax =====
 
 <code dw>
-text-align=[breakpoint-]value
+align=text-value[-breakpoint]
 </code>
 where:
-  * ''breakpoint'' is optional and takes one of the [[docs:styling:breakpoint|breakpoint values]] (ie screen size) (only on [[docs:utility:bootstrap|Bootstrap 5]])
+  * ''breakpoint'' is optional and takes one of the [[docs:styling:breakpoint|breakpoint values]] (ie screen size) 
       * ''sm'': ''small''
       * ''md'': ''medium''
       * ''lg'': ''large''
@@ -25,31 +25,31 @@ where:
     * ''start'' - left for a LTR language and right for a RTL language - (default)
     * ''center''
     * ''end'' - right left for a LTR language and left for a RTL language
-    * ''justify'' (While, aesthetically, justified because the text might look more appealing, it does make word-spacing more random and therefore harder to read.)
 
 
-
+<note>
+''justify'' is not supported. While, aesthetically the text might look more appealing, it does make word-spacing more random and therefore harder to read.
+</note>
 ===== Demo =====
 
 ==== Basic ====
-This example uses the general [[docs:block:box|box component]] but it should work for all other [[docs:block:block|block components]].
+This example uses the [[docs:block:text|text component]] (to add a margin space between the lines) but it should work for all other [[docs:block:block|block components]].
 
 
 <webcode name="Default" frameborder="0">
 <code dw>
-<box text-align="start">
+<text align="text-start">
 This line of text is at the **start** of the block (left for a left-to-right language)
-</box>
-<box text-align="center">
+</text>
+<text align="text-center">
 This line of text is **centered** inside the block.
-</box>
-<box text-align="end">
+</text>
+<text align="text-end">
 This line of text is at the **end** of the block (right for a left-to-right language)
-</box>
+</text>
 </code>
   * Output:
 </webcode>
-
 ==== Centered text in a card ====
 
 A centered text in a [[docs:block:card|card]]:
@@ -72,10 +72,10 @@ This example was made with the [[docs:block:text|text component]] and shows a co
 
   * Input
 <code dw>
-<text text-align="sm-end">End aligned text on SM (small) screen or wider.</text>
-<text text-align="md-center">Default (Start) align on SM (small screen), then Center aligned from MD (medium) screen and wider.</text>
-<text text-align="md-center lg-end">Default (Start) align on SM (small screen), then Center aligned from MD (medium), then End aligned text on LG (large) screen and wider.</text>
-<text text-align="xl-center">Default (Start) align on SM (small screen), then Center aligned text on XL (extra-large) screen and wider.</text>
+<text align="text-end-sm">End aligned text from SM (small) screen and wider.</text>
+<text align="text-center-md">Default (Start) align on SM (small screen), then Center aligned from MD (medium) screen and wider.</text>
+<text align="text-center-md text-end-lg">Default (Start) align on SM (small screen), then Center aligned from MD (medium), then End aligned text on LG (large) screen and wider.</text>
+<text align="text-center-xl">Default (Start) align on SM (small screen), then Center aligned text on XL (extra-large) screen and wider.</text>
 </code>
   * Output:
 </webcode>
