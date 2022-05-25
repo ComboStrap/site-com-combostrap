@@ -116,32 +116,6 @@ The default  [[:docs:styling:breakpoint|breakpoint]] is the ''small'' breakpoint
 A width value of ''1:3'' is then equivalent to ''1-xs 1:3-sm''. It means than on mobile screen (''xs'' breakpoint) each cell takes the whole available line space and are therefore stacked.
 </note>
 
-==== A grid generated via an iterator ====
-
-You can generate a ''grid'' component with the [[:docs:templating:iterator|iterator]].
-
-<webcode>
-<code dw>
-<iterator>
-    <data>select from descendants where depth = 0 order by path asc limit 5 </data>
-    <grid max-line="3">
-        <fragment>
-            <box>
-               <box width="200px" align="center" clickable>
-                   <page-image path="$path" width="8rem" align="center" />
-                   == $title ==
-                   <pipeline> "$description" | head(100,"...") </pipeline>
-                   [[$path| ]]
-               </box>    
-            </box>
-       </fragment>
-    </grid>
-</iterator>
-</code>
-  * Output:
-</webcode>
-
-
 
 ===== Syntax =====
 <code dw>

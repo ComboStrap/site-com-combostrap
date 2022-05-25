@@ -1,0 +1,112 @@
+---json
+{
+    "description": "This howto shows you how to use the page sql, a fragment, the iterator and to generate a grid layout.",
+    "name": "Generated Grid",
+    "page_id": "sx2v3cpr26m6epej6j158"
+}
+---
+====== How to generate and layout a list of pages with a grid ? ======
+
+
+===== About =====
+This [[howto|howto]] will show you how to:
+  * [[:docs:templating:sql|select]] a list of pages
+  * and lay out them in a [[:docs:layout:component:grid|grid]].
+
+
+===== Steps =====
+
+==== Page Sql: How to select the pages ====
+
+With [[:docs:templating:sql|page sql]], you can select pages via a select statement.
+
+Page Sql permits to query pages in a lot of fashion.
+
+For this example, we will select the last 5 modified howto with the following sql.
+<code sql>
+select from pages where path like ':howto%' order by date_modified desc limit 5
+</code>
+
+This query returns for this website the following pages:
+<iterator>
+<data>select from pages where path like ':howto%' order by date_modified desc limit 5</data>
+^ Date ^ Page ^
+<fragment>
+| ${date_modified | format('short short')} | [[$path|$title]] |
+</fragment>
+</iterator>
+
+==== Fragment: The markup to generate ====
+
+When you generate content, you are looping over the same content over and over. This content part in ComboStrap is called a ''fragment''
+
+
+
+<webcode name="Default" frameborder="0">
+  * For this ''howto'', we will present our pages:
+      * in a [[:docs:block:card|card]] 
+      * with a [[:docs:content:page-image|page image]] as illustration
+      * with a [[:docs:styling:dimension|width]] of 200px
+      * that is [[:docs:styling:clickable|clickable]] and [[:docs:styling:align|centered]]
+      * with the ''title'', ''description'' and ''path'' [[:docs:templating:variable|variable]]
+      * where the ''description'' is cut with the [[:docs:templating:pipeline#head|head pipeline function]]
+
+<code dw>
+<card width="250px" align="center" clickable>
+   <page-image/>
+   == $title ==
+   ${description | head(100,"...")} [[$path| ]]
+</card>
+</code> 
+  * The output for the actual page is:
+</webcode>
+
+==== Iterator: Iterate over the fragment with the selected pages ====
+
+The [[:docs:templating:iterator|iterator]] is a component that
+  * takes the [[:docs:templating:sql|page sql]]
+  * and iterates over the fragment
+
+The below example generate a [[:docs:layout:component:grid|grid]] that splits the horizontal space in 3 (''max-line=3'')
+
+<webcode>
+<code dw>
+<iterator>
+    <data>select from pages where path like ':howto%' order by date_modified desc limit 5</data>
+    <grid max-line="3">
+        <fragment>
+            <box>
+               <card width="250px" align="center" clickable>
+                   <page-image/>
+                   == $title ==
+                   ${description | head(100,"...")}
+                   [[$path| ]]
+               </card>    
+            </box>
+       </fragment>
+    </grid>
+</iterator>
+</code>
+The output is:
+</webcode>
+
+
+
+\\
+\\
+<note>
+Note that in the fragment, we have wrapped the card in a box. Why ? Because:
+  * the grid splits the horizontal space inside the box 
+  * and in this space, in this box, the card takes a maximum with of 200 px.
+</note>
+
+==== Conclusion ====
+
+In this [[howto:howto|howto]], you learned about:
+  * the [[:docs:templating:sql|page sql]]
+  * the [[:docs:templating:iterator|iterator and its fragment]]
+  * the [[:docs:layout:component:grid|grid layout]]
+
+
+That's all, folks.
+
