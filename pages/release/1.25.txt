@@ -21,7 +21,7 @@ TODO:
   * The toggle functionality has been rewritten. The [[:docs:animation:toggle|toggle element]] is new and allows to set the a different control if the target is expanded or collapsed.
   * The [[:docs:app:identity|Identity form code]] is now ready for the new [[https://github.com/ComboStrap/combo/issues/14|DokuWiki version]].
   * A [[docs:layout:page:container#defaultLayoutContainer|default layout container]] is now used to set:
-      * the whole template layout horizontal alignement
+      * the whole template layout horizontal alignment
       * the default value of container aware component such as [[:docs:menubar:menubar|Menubar]]
   * The [[:docs:navigation:page-explorer|Page explorer]] component will collapse on small device due to the default [[:docs:animation:toggle|toggle-state]] value.
   * The informational messages are now toast located in the center of the page.
@@ -38,7 +38,7 @@ TODO:
 ==== Modification ====
 Because of too much confusion, the following name has been renamed:
   * The ''home page'' is now known as the [[docs:type:index|index page]]
-  * The ''root page'' is now known as the [[docs:app:home|home page]] 
+  * The ''root page'' is now known as the [[docs:app:home|home page]]
 
 
 The [[docs:layout:component:grid|Row component]] is now called a grid because:
@@ -51,7 +51,7 @@ The [[docs:layout:component:grid|Row component]] is now called a grid because:
   * The [[docs:content:svg|big svg image]] served via an image tag can now be defined in other unit than ''px''.
   * [[docs:router:bestendpagename|Best end page name]]: when two pages with the same score are found, the page with the highest number of backlinks is returned.
   * In a [[docs:menubar:brand|brand]] with icon, label and link widget, the icon does not participate in the link to not have a visual line caused by the underline style between the text and the icon.
-  * The [[:docs:utility:link_wizard|Link Wizard]] was modified to show only pages. It will not group pages by namespace as dokuwiki does by default. 
+  * The [[:docs:utility:link_wizard|Link Wizard]] was modified to show only pages. It will not group pages by namespace as dokuwiki does by default.
   * The [[:docs:utility:prism|prism components]] (console, file, code) load their stylesheet with the page and no more via javascript leading to the suppression of a layout shift and to a faster page load.
   * Added dependatbot. [[https://github.com/ComboStrap/combo/issues/28|issues 28]]
   * The media manager styling has been improved (the ''select file'' is now a button and the file has been renamed from file uploader to media manager)
@@ -79,7 +79,7 @@ The [[docs:layout:component:grid|Row component]] is now called a grid because:
   * The [[:release:deprecated:container|container syntax component]] has been deprecated for [[docs:layout:page:container|container aware components]]
   * The ''auto'' [[docs:layout:component:grid|Grid Layout]] has been deprecated for ''max-line''
   * The ''fit'' [[:docs:layout:component:grid|Grid Layout]] has been deprecated for [[:docs:styling:dimension|width grow/shrink]]
-  * The ''cell'' component in a [[docs:layout:component:grid|Row Layout]] has been deprecated. 
+  * The ''cell'' component in a [[docs:layout:component:grid|Row Layout]] has been deprecated.
       * A grid layout accepts now any children
       * The css flex system is now applied via the [[:docs:styling:align|Align attribute]] / [[:docs:styling:dimension|width grow/shrink]]
   * The [[:release:deprecated:date|date component]] has been deprecated for the [[:docs:templating:pipeline#format|Pipeline Format function]].
@@ -98,4 +98,4 @@ The [[docs:layout:component:grid|Row component]] is now called a grid because:
   * The [[:docs:utility:prism|prism component]] (code, console, file) didn't have the ''copy'' button. The migration to a new version has forgotten the copy plugin and there was a version mismatch between the plugin and prism. This is corrected.
   * The [[:docs:content:inote|Inote]] was not wrapping, making the width of windows overflowing.
   * The requested path was not always correct when a [[:docs:page:url|permanent page url]] was used because the first event of dokuwiki (load lang) was checking the last name of the url path and not the last part of the name
-  * admin page were having no toc. Why ? because the admin page may have a toc defined by the plugin. Strap template uses now the default dokuwiki function to render admin page being completely compatible. 
+  * admin page were having no toc. Why ? because the admin page may have a toc defined by the plugin. Strap template uses now the default dokuwiki function to render admin page being completely compatible.

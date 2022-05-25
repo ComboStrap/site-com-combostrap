@@ -5,38 +5,34 @@
     ],
     "name": "Grid Layout",
     "page_id": "u7kl0ydtjgkaj9vy847wr",
-    "title": "Grid Layout: How to create a responsive space distribution of children on the horizontal axis"
+    "title": "Grid Layout: How to create a responsive space distribution on the horizontal axis"
 }
 ---
 
 
-====== Grid Layout: Distribute children on the horizontal space ======
+====== Grid Layout: Responsive distribution of the horizontal space ======
 
 
 ===== About =====
-''grid'' is a component that permits to layout its children in a advanced grid fashion. 
-
-It will distribute the horizontal space across children:
-  * in a responsive way from one line grid to multiple lines
-  * with adaptive children size from 0 to 100% of the line space.
+''grid'' is a component that permits to distribute the horizontal space in a responsive fashion. 
 
 The children:
-  * will go to a new line in a centered position (by default) if there is not enough horizontal space (creating a grid)
+  * will go to a new line in a centered position (by default) if the previous sibling takes more than 100% space (creating a grid)
   * width may be defined for different [[:docs:styling:breakpoint|screen size]]
 
 
 <note>
-Grid does not mean table. The children are not laid out at the intersection of rows and columns.
+Grid does not mean table. The children are not laid out at the intersection of rows and columns but in a linear fashion from left to right.
 </note>
 
 
 
 ===== Example =====
 
-==== A grid of 2 children elements  ====
+==== How to split the space in two ?  ====
 
 
-
+This example shows you how the horizontal space is split in two with two child [[:docs:block:box|boxes]].
 <webcode>
 <code dw>
 <grid>
@@ -66,7 +62,13 @@ By default, a grid will allow at maximum by line:
   * 2 children in a small screen
   * 1 children in a mobile screen
 </note>
-==== A grid created with percentage on the children ====
+==== How to split the space non-evenly with percentage ? ====
+
+You can distribute the available space by giving a [[:docs:styling:dimension|width]] percentage on the children.
+
+This example splits the space in 3 children with:
+  * ''50%'' for the first child
+  * ''25%'' for the two others.
 
 <webcode>
 <code dw>
@@ -101,8 +103,14 @@ The default  [[:docs:styling:breakpoint|breakpoint]] is the ''small'' breakpoint
 A width value of ''25%'' is then equivalent to ''100%-xs 25%-sm''. It means than on mobile screen (''xs'' breakpoint) each box takes the whole available line space and are therefore stacked.
 </note>
 
-==== A grid with ratio space definition ====
+==== How to split the available space with a ratio ? ====
 
+You can even define the space distribution by giving a ratio on the [[:docs:styling:dimension|width]]
+
+This example splits the space in 3 via 3 children that have respectively the following space available:
+  * ''1:4'' (25%)
+  * ''1:2'' (50%)
+  * ''1:4'' (25%)
 
 <webcode>
 <code dw>
@@ -149,7 +157,7 @@ You can generate a ''grid'' component with the [[:docs:templating:iterator|itera
 <iterator>
     <data>select from descendants where depth = 0 order by path asc limit 5 </data>
     <grid max-line="3">
-        <template>
+        <fragment>
             <box>
                <box width="200px" align="center" clickable>
                    <page-image path="$path" width="8rem" align="center" />
@@ -158,7 +166,7 @@ You can generate a ''grid'' component with the [[:docs:templating:iterator|itera
                    [[$path| ]]
                </box>    
             </box>
-       </template>
+       </fragment>
     </grid>
 </iterator>
 </code>
@@ -196,23 +204,27 @@ You can use all [[docs:styling:styling|styling attributes]].
 
 ===== Support =====
 
-==== Background not centered ====
+==== Why a grid background is not centered ? ====
 
-Due to the gutter feature using [[:docs:styling:spacing|margin]], the dimension of the background are not uniform in a grid.
+The gutter feature uses the [[:docs:styling:spacing|padding]] and not margin. 
 
-If you want a background with you content grid centered, you should wrap your grid in a [[:docs:block:box|box]].
+Because the padding is painted by the background while the margin is not, the dimension of the [[:docs:styling:background|background]] are not uniform in a grid.
+
+If you want a background with you content grid centered, you should:
+  * wrap your grid in a [[:docs:block:box|box]] with a [[:docs:styling:spacing|padding]] (''p-5'' in the below example) 
+  * delete the default top and bottom margin on the grid (ie ''mt-0'' and ''mb-0'')
 
 <webcode>
 <code dw>
 <box spacing="p-5">
   <background opacity="0.3">{{:docs:block:stock_image_surfer_in_the_see.png|}}</background>
-  <grid>
-     <box>
+  <grid spacing="mt-0 mb-0">
+     <box spacing="mt-0">
          <icon name="bs:inboxes-fill" width="3rem"/>
          == 1/2 line space ==
          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
      </box>
-     <box>
+     <box spacing="mt-0">
          <icon name="bs:inboxes-fill" width="3rem"/>
          == 1/2 line space ==
          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
