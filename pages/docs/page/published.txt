@@ -10,18 +10,38 @@
 
 
 ===== About =====
-The ''date_published'' property is a page [[..:metadata:metadata|metadata]] that permits to modify the ''published date'' of an [[..:type:article|article]].
+The ''publication date'' is a [[docs:metadata:date|date]] that convey when your [[..:type:article|article]] was written and released to the public.
 
-By default, the ''published date'' is the ''creation date'' 
 
-<note>
-If the ''published date'' is set in the future, the article will be [[docs:quality:lpp|protected]].
-</note>
-
+This date is written in the ''date_published'' [[..:metadata:metadata|metadata]].
 
 ===== How to set a published date ? =====
 
 
+==== Metadata Manager ====
 
-You can set a published date with the [[docs:metadata:manager|metadata manager]].
+You can set the published date with the [[docs:metadata:manager|metadata manager]].
+
+==== Date Prefix ====
+
+The ''date prefix'' is a prefix of the last name of the [[:docs:page:path|page path]] that follows the [[docs:metadata:date_format|iso date pattern]] at the day level.
+
+Example: the page with the below path would have a published date of ''2022-05-25''.
+
+<code dw>
+:namespace:2022-05-25-path-name
+</code>
+
+
+===== Default =====
+
+By default, the ''published date'' is in order 
+  * the [[#date prefix]]
+  * the ''creation date'' 
+
+
+===== Page Protection for late publication date =====
+
+
+If the ''published date'' is set in the future, the article will not be visible by the public. See [[docs:quality:lpp]].
 

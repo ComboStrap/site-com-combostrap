@@ -1,3 +1,9 @@
+---json
+{
+    "description": "This howto shows you how to center a box component.",
+    "page_id": "b23xo33xzk4lg6yrcl2up"
+}
+---
 ====== How to center a box component ? ======
 
 

@@ -1,6 +1,7 @@
 ---json
 {
     "canonical": ":release:1.16",
+    "date_published": "2021-06-26T00:00:00+00:00",
     "description": "The changes of the release 1.16",
     "page_id": "5dcrfflgk64fttmg4dckh"
 }

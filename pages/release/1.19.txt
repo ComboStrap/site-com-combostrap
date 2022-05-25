@@ -1,6 +1,7 @@
 ---json
 {
     "canonical": ":release:1.19",
+    "date_published": "2021-09-03T00:00:00+00:00",
     "description": "This page lists the changes for the combostrap release 1.19",
     "name": "Release 1.19",
     "page_id": "dwjwx5orz54xjvnnwvkv0"
@@ -28,7 +29,7 @@ The toolbar:
 ===== List =====
 
 ==== New ====
-  * The [[docs:page:name|page name]] can now be used in a [[docs:templating:template|template]]
+  * The [[docs:page:name|page name]] can now be used in a [[:release:deprecated:template|template]]
   * A [[docs:templating:pipeline|pipeline]] can use the ''capitalize'' function to capitalize the first letter of each word
   * New Configuration [[docs:router:router#enableUrlManager|enableUrlManager]] that permits to disable entirely the [[docs:router:router|URL manager]]. This can be useful in case of conflicting Routing plugin.
   * [[docs:analytics:statistics|page statistics]] got now [[docs:analytics:statistics#media|count statistics on media]].

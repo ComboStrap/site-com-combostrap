@@ -36,3 +36,5 @@ This section regroups ''howto'' documentations.
        </template>
     </grid>
 </iterator>
+\\
+\\

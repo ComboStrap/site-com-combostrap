@@ -1,5 +1,6 @@
 ---json
 {
+    "date_published": "2022-03-15T00:00:00+00:00",
     "description": "This page lists the changes for the combostrap release 1.24",
     "name": "Release 1.24",
     "page_id": "fqmxwn31zduq5ol9kkyiw"

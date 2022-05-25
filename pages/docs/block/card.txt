@@ -56,8 +56,8 @@ At first, ''teaser'' was the first name of card and you may still [[teaser|use i
 === Teaser Title  ===
 A example taken from [[https://getbootstrap.com/docs/4.3/components/card/#example|the bootstrap quick example]] on how to build a card title in order to make up the bulk of the teaser content.
 
-<btn skin="text" spacing="pl-0">[[:docs:block:card|Card link]]</btn>
-<btn skin="text">[[#|Another link]]</btn>
+<btn link spacing="pl-0">[[:docs:block:card|Card link]]</btn>
+<btn link >[[#|Another link]]</btn>
 </teaser>
 </code>
 </webcode>
@@ -120,21 +120,28 @@ Lorem ipsum
 </webcode>
 
 
-==== A card in a template ====
+==== A card in a iterator fragment ====
 
-A card can be used in a [[howto:template|template]] with the [[docs:content:page-image|page-image]] component as illustration.
+A card can be used in a [[:docs:templating:iterator|iterator fragment]] with the [[docs:content:page-image|page-image]] component as illustration.
 
 
-Example for the actual page
+Example for the last 4 modified page
 <webcode name="Default" frameborder="0">
 <code dw>
-<template>
-    <card clickable width="300">
-        <page-image path="$path" ratio="16:9"/>
-        === $h1 ===
-        $description [[$path| ]]
-    </card>
-</template>
+<iterator>
+    <data>select order by date_modified desc limit 3</data>
+    <grid max-line=3 gutter="x-4">
+        <fragment>
+          <box>
+             <card clickable>
+                <page-image ratio="16:9"/>
+                === $h1 ===
+                ${description|head(100,'...')} [[$path| ]]
+             </card>
+          </box>
+        </fragment>
+    </grid>
+</iterator>
 </code>
 </webcode>
 

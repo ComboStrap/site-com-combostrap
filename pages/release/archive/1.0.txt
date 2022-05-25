@@ -1,12 +1,13 @@
 ---json
 {
+    "date_published": "2020-07-04T00:00:00+00:00",
     "page_id": "0wiaijp8wzixl33du5wrl"
 }
 ---
 ====== ComboStrap - Release 1.0 ======
 
 ===== About =====
-First [[..:release|release]] 1.0 from 2020-07-04
+First [[..:release|release]] 1.0 from ${date_published|format()}
 
 
 ===== Changes =====

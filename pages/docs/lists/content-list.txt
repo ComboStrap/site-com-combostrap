@@ -21,15 +21,15 @@ Example of a multiple line content with [[:docs:block:box|boxes]] as list items.
 <code dw>
 <content-list numbered width="300px">
     <box>
-         **Lorem Ipsum** \\
+         <heading h5>Lorem Ipsum</heading>
          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
     </box>
     <box>
-         **Lorem Ipsum** \\
+         <heading h5>Lorem Ipsum</heading>
          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
    </box>
     <box>
-         **Lorem Ipsum** \\
+         <heading h5>Lorem Ipsum</heading>
          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
     </box>   
 </content-list>

@@ -1,6 +1,7 @@
 ---json
 {
     "canonical": ":release:1.22",
+    "date_published": "2022-01-11T00:00:00+00:00",
     "description": "This page lists the changes for the combostrap release 1.22",
     "name": "Release 1.22",
     "page_id": "r0lxbwsdlptyufsgsamiv"
@@ -116,7 +117,7 @@ The most well severe bug are:
   * Not able to navigate to an heading from a link fragment for a [[docs:content:link#internal|internal link]]. Bug: the fragment was not qualified as fully section id (letting spaces in it)
   * The first rendering of a [[docs:content:svg|SVG]] would be empty. The cause root was that the buster calculation of the [[docs:cache:static|static cache]] would close the rendering of the svg and the src would set not be added. Resolution: we make a difference between request and response attribute and we have added an error message when the tag attributes are finalized twice.
   * The ''svg'' cache was not dependent on its [[docs:performance:svg_optimization|optimization configuration]].
-  * The new [[docs:metadata:date|date format]] was not applied on the [[docs:page:published|published date]] causing a not valid date error message.
+  * The new [[docs:metadata:date_format|date format]] was not applied on the [[docs:page:published|published date]] causing a not valid date error message.
   * A page move would create two pages in the [[docs:analytics:database|database]]. The move  is now automatically [[docs:analytics:replication|replicated]] making it consistent.
   * Bug: The [[docs:content:image|media]] statistics was crashing the page because it was asking the image and not the media file on third media such as video, pdf, ...
   * [[docs:performance:lazy|lazy load]] on small [[docs:content:raster|raster image]] was showing a broken image at page load because the placeholder was not set.

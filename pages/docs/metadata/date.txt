@@ -1,100 +1,20 @@
----json
-{
-    "description": "This article describes the string date format that understands Combostrap.",
-    "name": "Date format",
-    "page_id": "lslbc2ojagbnher18956n",
-    "title": "Which string date format are supported by Combostrap"
-}
----
-====== String Date Format ======
-
-
-<note important>
-You normally will change the date with the [[docs:metadata:manager|metadata manager]], this article is informational.
-</note>
+====== Date ======
 
 
 ===== About =====
-This page describes the date string formats supported by ComboStrap.
+This page describes ''date'' management in ComboStrap
 
 
+===== List =====
+ComboStrap supports the following date metadata:
+  * ''creation date''
+  * ''modification date''
+  * [[:docs:page:published|published date]]
 
+===== How to use a date ? =====
 
+All dates are available as [[:docs:templating:variable|variable]] that you can use in your markup. See [[:howto:date]]
 
-===== Syntax =====
+===== Format =====
 
-==== Reading ====
-
-Combostrap understands all the following string format as date:
-
-
-<code>
-YYYY-MM-DDTHH:MM:SS+hh:mm // iso 8601 format
-YYYY-MM-DD HH:MM:SS+hh:mm // timestamp format
-YYYY-MM-DD HH:MM:SS 
-YYYY-MM-DD HH:MM
-YYYY-MM-DD HH
-YYYY-MM-DD
-</code>
-where:
-  * ''YYY-MM-DD'' is the day part and is the only one mandatory. For instance for the first January of 2021: ''2021-01-01''
-  * ''T'' is a separator used in [[wp>ISO_8601|ISO8601 format]] between the day and time part (optional, handy when copying)
-  * ''HH:MM:SS'' is the time part. For instance, for 2 hour pm, 15 minutes and 20 seconds: ''14:15:20''
-  * ''+hh:mm'' is a positive or negative time offsets from the UTC timezone (ie London). For instance, ''Europe/Paris'' (one hour timezone from London) ''+01:00''
-
-
-\\
-\\
-
-You can use any of this format in a [[:docs:templating:pipeline|pipeline]] to format a literal date
-
-Example:
-<webcode name="Default" frameborder="0">
-<code dw>
-${"2022-05-23" | format()}
-</code>
-</webcode>
-==== Writing ====
-When combostrap stores a date, it writes it in the below iso 8601 format.
-
-<code>
-YYYY-MM-DDTHH:MM:SS+hh:mm
-</code>
-
-All date (created, modified, [[docs:page:published|published]], [[..:type:event|start/end date]]) are written/stored in this format as string. 
-
-You will find them back in this format:
-  * in the [[docs:metadata:frontmatter|frontmatter]]
-  * and in the [[:docs:analytics:database|database]]
-
-==== Time ====
-
-  * at the day level, the default time is midnight, ie ''2021-03-15 00:00:00+00:00''
-<code json>
-{
-   "date_published":"2021-03-15"
-}
-</code>
-  * at the hour level (10 hour), the default minute and second are null. ie ''2021-03-15 10:00:00''
-<code json>
-{
-   "date_published":"2021-03-15 10"
-}
-</code>
-
-
-
-==== Timezone ====
-
-The dates are all located in the [[doku>tips:timezone|timezone]] of your server 
-
-For instance, a date with the ''Europe/Paris'' timezone.
-<code json>
-{
-   "date_published":"2021-03-15 10:00:00+01:00"
-}
-</code>
-
-
-
- 
+When reading or writing, combostrap follows the [[:docs:metadata:date_format|iso and timestamp format]].

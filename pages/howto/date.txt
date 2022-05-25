@@ -35,7 +35,7 @@ You can apply it to any [[:docs:templating:variable|date variable]] such as:
 ==== Today's date ====
 
 <webcode name="Default" frameborder="0">
-Without any formatting, the date is given in [[:docs:metadata:date|the iso date format]]
+Without any formatting, the date is given in [[docs:metadata:date_format|the iso date format]]
 <code dw>
 ${now}
 </code>

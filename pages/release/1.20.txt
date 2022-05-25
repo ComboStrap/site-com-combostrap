@@ -1,7 +1,7 @@
 ---json
 {
     "canonical": ":release:1.20",
-    "date_published": "2021-09-16T00:00:00+00:00",
+    "date_published": "2021-09-17T00:00:00+00:00",
     "description": "This page lists the changes for the combostrap release 1.20.\nTemplating has been introduced with iteration and SQL",
     "name": "Release 1.20",
     "page_id": "qeoypmezq7bmb7u0lxwsa",
@@ -11,7 +11,7 @@
 ====== ComboStrap - Release 1.20 ======
 
 ===== About =====
-The release ''1.20'' introduces a full template system based on the [[docs:templating:iterator|iterator component]] where you can select pages data via [[docs:templating:sql|SQL]] and iterates over them to create powerful design layout.
+The release ''1.20'' (${date_published|format()}) introduces a full template system based on the [[docs:templating:iterator|iterator component]] where you can select pages data via [[docs:templating:sql|SQL]] and iterates over them to create powerful design layout.
 
 <note warning>
 === Breaking ===
@@ -25,13 +25,13 @@ The release ''1.20'' introduces a full template system based on the [[docs:templ
 
 ==== New ====
 
-  * The [[docs:templating:iterator|iterator]] to iterate over [[docs:templating:template|template]]
+  * The [[docs:templating:iterator|iterator]] to iterate over [[:release:deprecated:template|template]]
   * The [[release:deprecated:cache|cache]] component to set the validity of a page at interval to avoid [[https://forum.dokuwiki.org/d/19495-caching-problem-with-a-plugin/11|caching problem with iterator]]
   * The [[docs:page:image|page image metadata]] set in the [[docs:metadata:frontmatter|frontmatter]]:
       * are now updated when the [[docs:content:image|image]] is moved via the [[howto:getting_started:4_plugin#move|move plugin]]
       * are taken into account into the [[docs:analytics:statistics#media|media statistics]] and reported if they don't exist as [[docs:quality:broken_link|broken links]]
   * A [[support:plugin|page dedicated to the support of third party plugin]] to enhance our support.
-  * The [[docs:templating:template|standalone template component]]: You can now print/replace metadata information of the actual page.
+  * The [[release:deprecated:template|standalone template component]]: You can now print/replace metadata information of the actual page.
   * A new dedicated page for [[docs:templating:variable|variables]].
   * The [[docs:block:comment|comment component]] to add a comment
   * The [[docs:diagram:railroad|Railroad]] component permits to draw railroad from BNF grammar.
@@ -39,7 +39,7 @@ The release ''1.20'' introduces a full template system based on the [[docs:templ
 
 ==== Improvement ====
   * The [[docs:page:image|image metadata]] handles now two levels of image definitions allowing to group image.
-  * The callstack manager can handle bad/old handler to prevent a fatal error such as ''Uncaught Error: Cannot access private property ImageMap_Handler::$calls''
+  * The callstack manager can handle bad/old handler to prevent a fatal error such as ''Uncaught Error: Cannot access private property ImageMap_Handler::%%$calls%%''
   * [[support:plugin#imagemapping|imagemapping]] supports added (links should still not be on list) and we don't take over with our [[docs:content:link|link component]]
   * The [[docs:layout:component:masonry|masonry layout]] is now working with the [[docs:templating:iterator|iterator]] (The card and blockquote were searching themselves the context and got the iterator in place of masonry)
 
@@ -48,7 +48,7 @@ The release ''1.20'' introduces a full template system based on the [[docs:templ
 ==== Deprecation ====
   * The ''id'' is no more reported as in the [[docs:analytics:data|data metadata]] and was replaced by the [[docs:page:path|path]]
   * ''age_creation'' and ''age_modification'' have been deleted
-  * The [[docs:analytics:data|data metadata]] have been enhanced to show [[docs:metadata:metadata|metadatas]] as they will appear in a [[docs:templating:template|template]].
+  * The [[docs:analytics:data|data metadata]] have been enhanced to show [[docs:metadata:metadata|metadatas]] as they will appear in a [[:release:deprecated:template|template]].
 
 ==== Bug ====
   * Snippets of code could be missing (such as [[docs:utility:prism|prism]] to highlight the code) on certain page due to the new [[docs:navigation:historical_breadcrumb|historical breadcrumb]] that created snippets scoped to the previous page because of the link that can be [[docs:quality:protection|protected]]. The snippets are now merged to prevent any scope related problem.
@@ -59,4 +59,4 @@ The release ''1.20'' introduces a full template system based on the [[docs:templ
 
 ==== Temporary warning ====
 
-The [[docs:page:published|Published]] format has changed that can cause temporary warning until the [[docs:analytics:process|data is refreshed]].
+The [[docs:page:published|Published]] format has changed that can cause temporary warning until the [[:docs:analytics:replication|data is refreshed]].
