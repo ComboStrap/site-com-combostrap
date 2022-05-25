@@ -1,0 +1,42 @@
+====== How to split the horizontal space in two with the grid component ?  ======
+
+
+===== About =====
+This [[:howto:howto|howto]] shows you how to split the horizontal space in two with the [[:docs:layout:component:grid|grid component]].
+
+
+
+The grid component split the horizontal space across its children.
+
+By default, it will do it across:
+  * 4 children in a [[:docs:styling:breakpoint|large screen (lg)]]
+  * 3 children in a [[:docs:styling:breakpoint|medium screen (md)]]
+  * 2 children in a [[:docs:styling:breakpoint|small screen (sm)]]
+  * 1 children in a [[:docs:styling:breakpoint|mobile screen (xs)]]
+
+
+Using tow children [[:docs:block:box|box]], the grid will split the horizontal space:
+  * in two contingent box from a small screen and above
+  * in two stacked box for a mobile screen
+
+
+Example:
+<webcode>
+<code dw>
+<grid>
+        <box>
+            <icon name="bs:inboxes-fill" width="3rem"/>
+            == Lorem Ipsum 1 ==
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        </box>   
+        <box>
+            <icon name="bs:inboxes-fill" width="3rem"/>
+            == Lorem Ipsum 2 ==
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+         </box>  
+</grid>
+</code>
+  * Output:
+</webcode>
+
+

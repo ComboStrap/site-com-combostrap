@@ -29,39 +29,7 @@ Grid does not mean table. The children are not laid out at the intersection of r
 
 ===== Example =====
 
-==== How to split the space in two ?  ====
 
-
-This example shows you how the horizontal space is split in two with two child [[:docs:block:box|boxes]].
-<webcode>
-<code dw>
-<grid>
-        <box>
-            <icon name="bs:inboxes-fill" width="3rem"/>
-            == Lorem Ipsum 1 ==
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-        </box>   
-        <box>
-            <icon name="bs:inboxes-fill" width="3rem"/>
-            == Lorem Ipsum 2 ==
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-         </box>  
-</grid>
-</code>
-  * Output:
-</webcode>
-
-
-\\
-\\
-
-<note>
-By default, a grid will allow at maximum by line:
-  * 4 children in a large screen
-  * 3 children in a medium screen
-  * 2 children in a small screen
-  * 1 children in a mobile screen
-</note>
 ==== How to split the space non-evenly with percentage ? ====
 
 You can distribute the available space by giving a [[:docs:styling:dimension|width]] percentage on the children.
