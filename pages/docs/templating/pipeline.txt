@@ -167,15 +167,38 @@ The format function permits to format a date.
 format(pattern, locale)
 </code>
 where:
-  * ''pattern'' is a [[https://unicode-org.github.io/icu/userguide/format_parse/datetime/#datetime-format-syntax|ISO date pattern]]
-  * ''locale'' is a [[:docs:locale:locale|locale]]
+  * ''locale'' is a [[:docs:locale:locale|locale]] (region and language)
+  * ''pattern'' is an optional
+    * [[https://unicode-org.github.io/icu/userguide/format_parse/datetime/#datetime-format-syntax|ISO date pattern]]
+    * or two ''normal name'' separated by a space ''normalNameForDate normalNameForTime''
+
+The ''normal names'' produce a normal date format for the [[:docs:locale:region|country (region)]]. The supported ''normal names'' are:
+
+^ Name ^ Date ^ Time ^
+| ''short'' | 12/13/52 | 3:30pm |
+| ''medium'' | Jan. 12, 1952 | |
+| ''long'' | January 12, 1952 | 3:30:32pm |
+| ''full'' | Tuesday, April 12, 1952 | 3:30:42pm PST |
 
 For instance:
-<webcode name="format" frameborder=0 >
+
+  * Default
+<webcode>
 <code dw>
 ${now | format()}
 </code>
-Output:
+</webcode>
+  * With normal name format
+<webcode>
+<code dw>
+${now | format('full short')}
+</code>
+</webcode>
+  * With an iso pattern
+<webcode>
+<code dw>
+${now | format('mmm dd yyyy')}
+</code>
 </webcode>
 
 
