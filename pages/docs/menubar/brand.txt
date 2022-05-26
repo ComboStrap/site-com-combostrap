@@ -22,12 +22,24 @@ By default, the ''brand'' component will show your brand. Ie a button with:
 
 Example:
 <webcode name="Text only">
+**With Label:**
   * Input:
 <code dw>
 <brand> ComboStrap</brand>
 </code>
   * Output:
 </webcode>
+
+<webcode name="Text only">
+**Without Label:**
+  * Input:
+<code dw>
+<brand width="40"/>
+</code>
+  * Output:
+</webcode>
+
+
 
 
 <note>

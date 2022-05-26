@@ -90,7 +90,7 @@ Output:
 
 
 ==== Head ====
-''head'' is a function that will take the first N characters of a string.
+''head'' is a function that will extract the first words that are in the maximal length specified.
 
 **Syntax**:
 <code>
@@ -103,7 +103,7 @@ where:
 For instance:
 <webcode name="rconcat" frameborder=0 >
 <code dw>
-${description | head(10 , "...")}
+${description | head(20 , "...")}
 </code>
 Output:
 </webcode>

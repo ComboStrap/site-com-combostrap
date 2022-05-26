@@ -96,7 +96,7 @@ where:
 | ''breakpoint'' | ''xl'' | [[docs:styling:breakpoint|breakpoint code]] (''xs'','''sm'', ''md'', ''lg'' , ''xl'')  | Define the width of the screen when the menu bar will [[:docs:menubar:collapse|collapse]] |
 | ''position'' | ''normal'' | [[#fixed-top|top]] | Position of the bar (''bottom'' is not yet supported) |
 | ''theme'' | ''light'' | ''light'' (default) or ''dark'' | It defines the luminance of the text |
-| ''container'' | [[:docs:layout:component:container#defaultLayoutContainer|default layout container value]] | A [[:docs:layout:component:container|container type ]] value | It defines the horizontal layout |
+| ''container'' | [[docs:layout:page:container#defaultLayoutContainer|default layout container value]] | A [[docs:layout:page:container|container type ]] value | It defines the horizontal layout |
 | [[docs:styling:color|background-color]] | ''light'' | any [[:docs:styling:color|color]] | The background color |
 
 Inside a ''menu'' component, you can add:

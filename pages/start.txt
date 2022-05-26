@@ -10,7 +10,6 @@
 }
 ---
 
-
 <bar hero="lg"  >
     <background opacity="0.4">{{ :combostrap:background:object-multicolor.svg |}}</background>
     <row>
