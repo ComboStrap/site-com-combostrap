@@ -71,6 +71,7 @@ The [[docs:layout:component:grid|Row component]] is now called a grid because:
   * The [[:docs:utility:webcode|webcode]] component loads now its javascript and stylesheet with the [[:docs:cache:static|Infinite Static Cache]].
   * The [[:docs:utility:webcode|Webcode]] component overwrites the console in the head, overwriting also the console script in the HTML content.
   * The [[:docs:content:link#external|external links]] in a [[:docs:menubar:menubar|Menubar]] are styled correctly now.
+  * The class loader now uses the autoloader features of composer.
 ==== Deprecated ====
   * The [[:release:deprecated:toggle|toggleTargetId]] has been deprecated for the [[:docs:animation:toggle|Toggle element]].
   * The ''align'' attribute in the [[:docs:menubar:menubar|menubar]] has been replaced by a [[docs:layout:page:container|container attribute value]]
@@ -99,3 +100,4 @@ The [[docs:layout:component:grid|Row component]] is now called a grid because:
   * The [[:docs:content:inote|Inote]] was not wrapping, making the width of windows overflowing.
   * The requested path was not always correct when a [[:docs:page:url|permanent page url]] was used because the first event of dokuwiki (load lang) was checking the last name of the url path and not the last part of the name
   * admin page were having no toc. Why ? because the admin page may have a toc defined by the plugin. Strap template uses now the default dokuwiki function to render admin page being completely compatible.
+  * the [[:docs:menubar:dropdown|dropdown]] component was broken in Bootstrap 5 because it didn't had the bootstrap prefix. Error was the here doc was using the javascript notation and not the php notation.

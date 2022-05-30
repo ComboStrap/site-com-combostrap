@@ -29,7 +29,6 @@ This component accepts as entry a series of link. If the linked page does not ex
   * Output:
 </webcode>
 
-
 ===== How to hide a dropdown conditionally =====
 
 If you want to hide a dropdown if the size of the screen is too low, you can use the [[https://getbootstrap.com/docs/4.1/utilities/display/|Bootstrap conditional display class]]
