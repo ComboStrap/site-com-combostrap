@@ -15,7 +15,7 @@ This page regroups all [[docs:content:typo|typographic]] component of ComboStrap
 ===== Attributes =====
 
 ''Typographic Attribute'' are [[docs:styling:styling|styling attribute]]
-  * [[docs:styling:text-align]]
+  * [[release:deprecated:text-align]]
   * [[docs:styling:font-size]]
   * [[docs:styling:text-color]]
   * [[docs:styling:boldness]]

@@ -1,0 +1,18 @@
+---json
+{
+    "canonical": ":styling:align-text",
+    "page_id": "palt8v935k72aohnbbyea"
+}
+---
+====== ComboStrap Styling - Text Align Attribute ======
+
+
+===== About =====
+''text-align'' has been deprecated for the [[:docs:styling:align|align attribute]].
+
+===== Why ? =====
+Because it permits to have a central attribute where all alignments possibility are defined.
+
+It was unclear for user to set a ''align=center'' and to see no effect while they were asking for a ''text-center''.
+
+

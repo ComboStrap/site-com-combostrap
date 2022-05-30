@@ -1,0 +1,57 @@
+====== How to align a text based on screen size ? ======
+
+
+===== About =====
+This [[howto:howto|howto]] shows you how to apply a [[:howto:text-align|text alignment]] that depends on the screen size.
+
+
+In the [[:howto:text-align|text align howto]], you have learned to apply one of the tree possible text alignment.
+
+In this howto, you will see how you can apply this alignment based on the [[:docs:styling:breakpoint|screen size]] (mobile, desktop, ...)
+
+All text alignment are done via the [[:docs:styling:align|align attribute]]. This attribute supports what we called [[:docs:styling:conditional|conditional value]]. By adding a [[:docs:styling:breakpoint|breakpoint value]] as suffix, you will enable this value from this screen size.
+
+===== Example =====
+
+
+This example was made with the [[docs:block:text|text component]] and shows a conditional value based on [[docs:styling:breakpoint|screen size]].
+
+To see them in action, you should resize your browser windows.
+
+==== End aligned text from small screen and wider ====
+
+<webcode>
+  * Input
+<code dw>
+<text align="text-end-sm">End aligned text from SM (small) screen and wider, start for mobile phone</text>
+</code>
+  * output
+</webcode>
+
+==== Center aligned from medium screen and wider ====
+<webcode>
+  * Input
+<code dw>
+<text align="text-center-md">Default (Start) align on SM (small screen), then Center aligned from MD (medium) screen and wider.</text>
+</code>
+  * output
+</webcode>
+
+==== Start on small screen, center from medium, then End on large screen and wider ====
+<webcode>
+  * Input
+<code dw>
+<text align="text-center-md text-end-lg">Default (Start) align on SM (small screen), then Center aligned from MD (medium), then End aligned text on LG (large) screen and wider.</text>
+</code>
+  * output
+</webcode>
+
+==== Start on small screen, center aligned text on extra-large screen and wider ====
+<webcode>
+  * Input
+<code dw>
+<text align="text-center-xl">Default (Start) align on SM (small screen), then Center aligned text on XL (extra-large) screen and wider.</text>
+</code>
+  * Output:
+</webcode>
+

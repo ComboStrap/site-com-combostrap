@@ -1,0 +1,75 @@
+====== How to align a text ? ======
+
+
+===== About =====
+This [[howto:howto|howto]] will show you how you can align your text.
+
+===== Use align =====
+
+With ComboStrap, text alignment is only defined via the [[:docs:styling:align|align attribute]].
+
+There is three possible alignement:
+  * [[#start]], ie 
+    * ''left'' for a [[:docs:locale:lang|left-to-right language]] 
+    * ''right'' for a right-to-left language
+  * [[#end]], ie:
+    * ''right'' for a left-to-right language
+    * ''left'' for a right-to-left language
+  * [[#center]]
+
+
+
+
+This example uses the [[docs:block:text|text component]] (to add a margin space between the lines) but it should work for all other [[docs:block:block|block components]].
+
+==== Start ====
+
+
+
+<webcode name="Default" frameborder="0">
+<code dw>
+<text align="text-start">
+This line of text is at the **start** of the block (left for a left-to-right language)
+</text>
+</code>
+  * Output:
+</webcode>
+
+==== Center ====
+<webcode name="Default" frameborder="0">
+<code dw>
+<text align="text-center">
+This line of text is **centered** inside the block.
+</text>
+</code>
+  * Output:
+</webcode>
+
+
+
+==== Centered text in a card ====
+
+A centered text in a [[docs:block:card|card]]:
+<webcode name="Text Align" >
+<code dw>
+<card text-align="center" width="300px">
+==== Centered Text in a Card  ====
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+</card>
+</code>
+</webcode>
+==== End ====
+<webcode name="Default" frameborder="0">
+<code dw>
+<text align="text-end">
+This line of text is at the **end** of the block (right for a left-to-right language)
+</text>
+</code>
+  * Output:
+</webcode>
+
+
+===== Next =====
+Learn how to apply a text alignment conditionally. [[text-align-breakpoint]]

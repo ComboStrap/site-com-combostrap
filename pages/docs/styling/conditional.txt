@@ -1,0 +1,35 @@
+---json
+{
+    "description": "A breakpoint allows to created conditional styling \/ design",
+    "title": "How to create conditional values with Breakpoint ?"
+}
+---
+====== What is a conditional value ? ======
+
+
+===== About =====
+A ''conditional value'' is a value that is applied only from a certain screen size (and above).
+
+
+By adding the [[docs:styling:breakpoint|breakpoint name]] as a suffix, you define the minimal screen size to which the value will be applied.
+
+===== Example =====
+
+The below [[:docs:styling:spacing|spacing value]] is conditional and applies:
+  * for small screen: a padding of 3 (ie ''p-3-xs'')
+  * for medium screen ''md'' and above: a padding of 5 (ie ''p-5-md'')
+<code html>
+<component spacing="p-3-xs p-5-md" />
+</code>
+
+===== Syntax =====
+
+<code html>
+<component attribute="value-breakpoint" />
+</code>
+where:
+  * ''breakpoint'' is the [[docs:styling:breakpoint|breakpoint short name]].
+ 
+===== Default =====
+  * The default breakpoint (screen size) if not specified is ''small''.
+  * For the smaller breakpoints, ComboStrap applies default values that you need to overwrite. 

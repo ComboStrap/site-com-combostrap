@@ -30,6 +30,22 @@ The ''align'' attribute values may applies:
 ==== Text ====
 For [[:docs:content:content|text/inline/content]]
 
+''text-align'' is a [[docs:content:typo|typographic attribute]] that sets the alignment of the lines of text.
+
+
+<code dw>
+<component align=text-value[-breakpoint] />
+</code>
+where:
+  * the value may be:
+    * ''start'' - left for a LTR language and right for a RTL language - (default)
+    * ''center''
+    * ''end'' - right left for a LTR language and left for a RTL language
+  * ''breakpoint'' defines a [[:docs:styling:conditional|conditional value]].
+
+<note>
+''justify'' is not supported. While, aesthetically the text might look more appealing, it does make word-spacing more random and therefore harder to read.
+</note>
 ==== Box itself ====
 
 

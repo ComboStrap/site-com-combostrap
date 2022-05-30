@@ -84,6 +84,7 @@ The [[docs:layout:component:grid|Row component]] is now called a grid because:
       * A grid layout accepts now any children
       * The css flex system is now applied via the [[:docs:styling:align|Align attribute]] / [[:docs:styling:dimension|width grow/shrink]]
   * The [[:release:deprecated:date|date component]] has been deprecated for the [[:docs:templating:pipeline#format|Pipeline Format function]].
+  * The [[:release:deprecated:text-align|text-align attribute]] has been deprecated for the [[:docs:styling:align|align attribute]]
 
 
 ==== Bug ====
