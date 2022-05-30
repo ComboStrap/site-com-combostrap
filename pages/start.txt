@@ -12,8 +12,8 @@
 
 <bar hero="lg"  >
     <background opacity="0.4">{{ :combostrap:background:object-multicolor.svg |}}</background>
-    <row>
-            <cell spacing="ps-lg-5">
+    <grid>
+            <box spacing="ps-lg-5">
                <box>
 <heading d3 class="text-capitalize">Web Publication Platform Since 2010</heading>
 <text h3 class="text-capitalize" boldness="light">The leading web markup publication platform</text>
@@ -21,11 +21,11 @@
 Create website, publish landing pages, articles, how-to's, documentations or build your knowledge base with the power of the web and the simplicity of a markup language. 
 </text>
                </box>
-            </cell>
-            <cell vertical="center" align="center">
+            </box>
+            <box align="x-center y-center">
 {{ :undraw_content_creator.svg?500&nolink |}}
-            </cell>
-</row>
+            </box>
+</grid>
 </bar>
 
 
@@ -37,72 +37,55 @@ Create website, publish landing pages, articles, how-to's, documentations or bui
 </box>
 
 
-<row max-cells="4">
-<cell>
+<grid max-cells="4">
 <box>
     <icon name="bs:markdown-fill" spacing="my-3" width="2.75rem"/>
     <text h5>Extended Markdown</text>
     No Code. Just declare what you want in markdown or wiki format and watch the magic happen.
 </box>
-</cell>
 
-<cell>
 <box>
     <icon name="palette" spacing="my-3" width="2.75rem"/>
     <text h5>Themes loaded</text>
     Choose any theme you want. You got a new design in second, not month.
 </box>
-</cell>
 
-<cell>
 <box>
     <icon name="bs:inboxes-fill" spacing="my-3" width="2.75rem"/>
     <text h5>100+ Components</text>
     Nicely customized components that can be reused anytime and anywhere in your project.
 </box>
-</cell>
 
-<cell>
 <box>
     <icon name="puzzle" spacing="my-3" width="2.75rem"/>
     <text h5>Everything is modular</text>
     All components can be reused and composed to create the design of your dream
 </box>
-</cell>
 
-<cell>
 <box>
     <icon name="bs:arrows-collapse" spacing="my-3" width="2.75rem"/>
     <text h5>Team ready</text>
     Collaborate on your pages, apply your changes immediately, see the history and even come back to a revision
 </box>
-</cell>
 
-<cell>
 <box>
 <icon name="twitter" spacing="my-3" width="2.75rem"/>
 <text h5>Social from the start</text>
 Advertise automatically with a a professional look your pages to social network such as  Twitter,  Facebook,  Google.
 </box>
-</cell>
 
-<cell>
 <box>
 <icon name="bs:card-image" spacing="my-3" width="2.75rem"/>
 <text h5>Illustrations</text>
 Incorporate vivid illustrations to emphase and make your message stronger
 </box>
-</cell>
 
-<cell>
 <box>
 <icon name="asterisk" spacing="my-3" width="2.75rem"/>
 <text h5>Icons included</text>
 More than 1500 icons to your fingertip to add more intuitive and playful touch to your website.
 </box>
-</cell>
 
-<cell>
 <box>
 <icon name="rocket-launch" spacing="my-3" width="2.75rem"/>
 <text h5>Fast as hell</text>
@@ -110,46 +93,35 @@ Fast pages means a better user experience, a better place in Google Search
 and more visitors.
 Your pages will reach the top score of the Google Lighthouse Performance Index.
 </box>
-</cell>
 
-<cell>
 <box>
 <icon name="bs:geo-alt-fill" spacing="my-3" width="2.75rem"/>
 <text h5>SEO ready</text>
 Be visible from the start. \\ Increase your Domain Authority (DA)
 with the SEO module.
 </box>
-</cell>
 
-<cell>
 <box>
 <icon name="coffee" spacing="my-3" width="2.75rem"/>
 <text h5>Own your work</text>
 Based on text files and an open syntax, your pages are not ours but yours.
 Copy them on your computer, render them with any third open engine.
 </box>
-</cell>
 
-<cell>
 <box>
 <icon name="seal" spacing="my-3" width="2.75rem"/>
 <text h5>Page Quality</text>
 Get a feedback on the quality of your pages and
 even block them from publishing if they don't reach your standard
 </box>
-</cell>
 
-<cell>
 <box>
 <icon name="bs:bar-chart-fill" spacing="my-3" width="2.75rem"/>
 <text h5>Page Analytics Powered</text>
 Answer all your questions and get great insight on your pages.
 (Words count, intra-links, broken links, ...)
 </box>
-</cell>
 
-
-<cell>
 <box>
 <icon name="bs:card-heading" spacing="my-3" width="2.75rem"/>
 <text h5>Ad System Ready</text>
@@ -157,26 +129,20 @@ Monetize your content and place ads
 between reading section to balance between user experience
 and increase traffic.
 </box>
-</cell>
 
-<cell>
 <box>
 <icon name="semantic-web" spacing="my-3" width="2.75rem"/>
 <text h5>Semantic Web</text>
 Control the rendering of your pages on external website. \\
 Create permalink and even publish your company location.
 </box>
-</cell>
 
-<cell>
 <box>
 <icon name="translate" spacing="my-3" width="2.75rem"/>
 <text h5>International</text>
 The pages support natively language and templating localization. You are Right-To-Left language ready from the start.
 </box>
-</cell>
 
-<cell>
 <box>
 <icon name="bs:shield-shaded" spacing="my-3" width="2.75rem"/>
 <text h5>Security by design</text>
@@ -184,53 +150,41 @@ No database, no Sql injection. \\
 Easy backup with plaintext files and
 file history.
 </box>
-</cell>
 
-<cell>
 <box>
 <icon name="bs:phone-fill" spacing="my-3" width="2.75rem"/>
 <text h5>Mobile-first</text>
 Beautiful on all screens from the start.
 All components have been build responsive and mobile-first.
 </box>
-</cell>
 
-<cell>
 <box>
 <icon name="bootstrap5" spacing="my-3" width="2.75rem"/>
 <text h5>Latest Bootstrap 5</text>
 Built with and extends the world's most popular styling library.
 </box>
-</cell>
 
-<cell>
 <box>
 <icon name="material-design" spacing="my-3" width="2.75rem"/>
 <text h5>Material Design</text>
 All components follows the Material Design guidelines to bring more clarity.
 </box>
-</cell>
 
-
-<cell>
 <box>
 <icon name="git" spacing="my-3" width="2.75rem"/>
 <text h5>Publish when ready</text>
 Based on simple text files, you can develop on Git, create revision
 and publish your web publication when ready.
 </box>
-</cell>
 
-<cell>
 <box>
 <icon name="github" spacing="my-3" width="2.75rem"/>
 <text h5>Open Source Philosophy</text>
 The platform is open source, guarantee of sustainability and
  supporting your investment. You can even fork it and makes it your own.
 </box>
-</cell>
 
-</row>
+</grid>
 
 </bar>
 
@@ -248,36 +202,28 @@ The platform is open source, guarantee of sustainability and
 \\
 \\
 
-<row text-align="center" vertical="center">
-   <cell>
+<grid align="text-center y-center">
        <box>
            <icon name="heart" color="danger" width="3rem"/>
            <text h3 color="danger">97%</text>
            <text color="secondary">Happy clients</text>
        </box>   
-   </cell>
-   <cell>
        <box>
            <icon name="bs:clock-fill" color="primary" width="3rem"/>
            <text h3 color="primary">365x7</text>
            <text color="secondary">Customer support</text>
         </box>   
-   </cell>
-   <cell>
        <box>
            <icon name="bs:stack" color="warning" width="3rem"/>
            <text h3 color="warning">100+</text>
            <text color="secondary">Fresh components</text>
         </box>   
-   </cell>
-   <cell>
        <box>
            <icon name="bs:file-richtext-fill" color="info" width="3rem"/>
            <text h3 color="info">300+</text>
            <text color="secondary">Documentation pages</text>
         </box>   
-   </cell>
-</row>
+</grid>
 \\
 \\
 \\
