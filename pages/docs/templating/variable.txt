@@ -73,13 +73,15 @@ The supported variable are:
   * ''level'' - the [[docs:page:level|level]] of the page in the file system tree
   * ''depth'' - the maximum difference between the [[docs:page:level|level]] of the current page and the selected page ([[docs:templating:sql|page sql only attribute]])
   * ''now'' - the actual date (note that if the page is [[:docs:cache:page|cached]], the ''now'' date will be the date of the rendering)
-  * ''parent_title'' - the title of the parent page
-  * ''parent_name'' - the name of the parent page
-  * ''parent_path'' - the path of the parent page
 
 And all [[docs:metadata:frontmatter|frontmatter metadatas]] that are scalar (ie no array). Basically, all metadata that can be seen in the [[docs:analytics:data|scalar metadata node of the analytics data]] can be used as attribute.
+
 
 ===== Value =====
 By default all variables are filled with the value of the requested page. 
 
 When used inside a [[docs:templating:iterator|iterator fragment]], they get the values of the selected page.
+
+===== Parent Variable =====
+
+You can retrieve parent page data with the [[:docs:navigation:hierarchical_breadcrumb|hierarchical breadcrumb]].

@@ -35,6 +35,7 @@ TODO:
   * The [[:docs:layout:page:side_slot|Side Slot]] component are by default collapsed until the medium screen by setting the [[:docs:animation:toggle|toggle attribute]] to ''collapsed expanded-md''
   * Added the [[https://healthicons.org/|HealthICons]] library in the [[:docs:content:icon|Icon component]]
   * The [[:docs:page:published|publication date]] default value is also searched in the prefix of the path last name.
+  * The [[:docs:navigation:hierarchical_breadcrumb|hierarchical breadcrumb]] has now a new type: ''typography''. It permits to output the page category in a [[:docs:templating:iterator|iterator fragment]] for instance.
 ==== Modification ====
 Because of too much confusion, the following name has been renamed:
   * The ''home page'' is now known as the [[docs:type:index|index page]]
