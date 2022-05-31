@@ -24,16 +24,17 @@ This section regroups ''howto'' documentations.
 <iterator>
     <data>select from descendants where (depth = 0 and is_index = 0) or (depth = 1 and is_index = 1)  order by path asc limit 10 </data>
     <grid max-line="3">
-        <template>
+        <fragment>
             <box>
                <box width="200px" align="center" clickable>
                    <page-image path="$path" width="8rem" spacing="mb-3" align="center" />
                    == $title ==
+                   <breadcrumb depth="1" color="muted"/>
                    ${description | head(100,"...")}
                    [[$path| ]]
                </box>
             </box>
-       </template>
+       </fragment>
     </grid>
 </iterator>
 \\
