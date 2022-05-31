@@ -13,7 +13,7 @@ A ''Hierarchical Breadcrumb'' is a [[docs:navigation:breadcrumb|breadcrumb]] tha
 
 Combostrap offers two type of hierarchical breadcrumb:
   * ''navigation'': the full breadcrumb that should appear once in a page
-  * ''typographical'': a breadcrumb that can be used in a [[:docs:templating:iterator|iterator fragment]] to show the page categories 
+  * ''typographical'': a text that can be used in a [[:docs:templating:iterator|iterator fragment]] to show the page categories 
 
 ===== Type =====
 
@@ -44,11 +44,11 @@ The output for this page is:
 
 ==== Typography ====
 
-A typographical hierarchical breadcrumb permits to print the parents pages.
+A typographical hierarchical breadcrumb permits to print the parents pages as text.
 
 This breadcrumb type can be used in a [[:docs:templating:iterator|iterator fragment]] to print the page category as subtitle.
 
-To use it, you just need to defined the ''depth'' attribute that represents the number of levels that should be printed backward
+The ''depth'' attribute represents the number of levels that should be printed backward
 
 Example:
 
@@ -56,7 +56,7 @@ Depth of 1 will print the parent page
   * Markup
 <webcode name="Default" frameborder="0">
 <code dw>
-<breadcrumb depth=1/>
+<ibreadcrumb depth=1 color="muted"/>
 </code>
   * Output
 </webcode>
@@ -67,7 +67,7 @@ Depth of 2 will print the parent and grand parent page
   * Markup
 <webcode name="Default" frameborder="0">
 <code dw>
-<breadcrumb depth=2/>
+<ibreadcrumb depth=2 color="muted"/>
 </code>
   * Output:
 </webcode>
