@@ -22,7 +22,7 @@ This section regroups ''howto'' documentations.
 
 
 <iterator>
-    <data>select from descendants where (depth = 0 and is_index = 0) or (depth = 1 and is_index = 1)  order by path asc limit 10 </data>
+    <data>select from descendants where (depth = 0 and is_index = 0) or (depth = 1 and is_index = 1)  order by path asc </data>
     <grid max-line="3">
         <fragment>
             <box>
