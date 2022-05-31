@@ -17,7 +17,7 @@ If the component should start at a new line or expand on multiple line and you c
 ===== List of block component =====
 
   * [[docs:block:blockquote|Blockquote]]: A block of text with a citation.
-  * [[docs:block:box|Box]] - a generic box for advanced styling
+  * [[docs:layout:component:box|Box]] - a generic box for advanced styling
   * [[docs:block:card|Card (teaser)]]: Do you want to put a text in a box with optionally an image and a button, that's a card
   * [[docs:block:code|Code]] - a block of code
   * [[docs:block:comment|Comment]] - a comment
