@@ -27,7 +27,7 @@ The font used is chosen in the following order:
 | Segoe UI | Windows |
 | Roboto | Android |
 | Helvetica Neue, Arial | Basic web fallback |
-| Noto Sans, Liberation Sans | Linux |
+| Noto Sans, [[wp>Liberation_fonts|Liberation Sans]] (([[https://github.com/liberationfonts|Liberation Fonts Repo]])) | Linux |
 | sans-serif | Sans serif fallback |
 | Apple Color Emoji, \\ Segoe UI Emoji, \\ Segoe UI Symbol, \\ Noto Color Emoji | Emoji fonts |
 
