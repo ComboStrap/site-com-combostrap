@@ -1,0 +1,37 @@
+---json
+{
+    "page_id": "ysv3xg4lznop91kyllgjs"
+}
+---
+====== ComboStrap UI - Box ======
+
+
+===== About =====
+A ''box'' is a component that permits to contain other [[docs:component|components]].
+
+This is useful to:
+  * define the elements that should [[docs:menubar:collapse|collapse]]
+  * or create a [[docs:styling:styling|styled box]].
+
+<note important>
+Because a box is a general [[:docs:layout:component:start|layout component]], there is no automatic paragraph creation on a new line, you should use the [[:docs:block:text|text component]] to layout your text in a box.
+</note>
+
+
+===== Example =====
+
+
+<webcode>
+<code dw>
+<box background-color="#e6b594" width="150px" align="center text-center" spacing="p-4 m-5">
+A brown rectangle
+</box>
+</code>
+where:
+  * [[docs:styling:align|Align]]
+  * [[docs:styling:color|Background-Color]]
+  * [[docs:styling:dimension|Dimension (Width and Height)]]
+  * [[docs:styling:spacing|Spacing]]
+
+Output:
+</webcode>

@@ -97,7 +97,7 @@ If you want to add space between component, you should use the [[docs:styling:sp
 </note>
 
 ==== Text-Align ====
-[[docs:styling:text-align|text-align]] lets you define where the line of text will be located inside the paragraph. <inote>A paragraph is a [[docs:block:block|block]] and takes by default all the available width</inote>
+[[release:deprecated:text-align|text-align]] lets you define where the line of text will be located inside the paragraph. <inote>A paragraph is a [[docs:block:block|block]] and takes by default all the available width</inote>
 
 
 
@@ -120,7 +120,7 @@ This line of text is at the **end** of a paragraph (right for a left-to-right la
 <note>
 Text alignment can also be **screen conditional**.
 
-For all information about this attribute, see the dedicated page: [[docs:styling:text-align]]
+For all information about this attribute, see the dedicated page: [[release:deprecated:text-align]]
 </note>
 
 ==== Color ====

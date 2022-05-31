@@ -7,7 +7,7 @@
 }
 ---
 
-<box align="centext text-center">
+<box align="text-center">
 ====== Component Layouts ======
 
 

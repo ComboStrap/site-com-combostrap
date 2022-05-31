@@ -49,7 +49,7 @@ The ''standard'' attributes are:
 | [[lang|Lang]] | Set the language and direction of your text |
 | [[release:beta:position|Position]] | Position a component inside a container |
 | [[clickable|Clickable]] | Make a whole component such as a card clickable |
-| [[text-align|Text align]] | Align the lines inside a block |
+| [[release:deprecated:text-align|Text align]] | Align the lines inside a block |
 | [[line-spacing|Line Spacing]] | Set the height between lines of text |
 | [[opacity|Opacity]] | Renders a component more or less opaque / transparent|
 | [[boldness|Boldness]] | Set the weight of a font (from thin to bold) |

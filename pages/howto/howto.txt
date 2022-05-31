@@ -28,10 +28,9 @@ This section regroups ''howto'' documentations.
             <box>
                <box width="200px" align="center" clickable>
                    <page-image path="$path" width="8rem" spacing="mb-3" align="center" />
-                   == $title ==
-                   <breadcrumb depth="1" color="muted"/>
-                   ${description | head(100,"...")}
-                   [[$path| ]]
+                   <heading h4 spacing="mb-1">$title</heading>
+                   <text><ibreadcrumb depth="1" color="muted"/></text>
+                   <text>${description | head(100,"...")}[[$path| ]]</text>
                </box>
             </box>
        </fragment>
