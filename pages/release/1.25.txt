@@ -73,6 +73,8 @@ The [[docs:layout:component:grid|Row component]] is now called a grid because:
   * The [[:docs:utility:webcode|Webcode]] component overwrites the console in the head, overwriting also the console script in the HTML content.
   * The [[:docs:content:link#external|external links]] in a [[:docs:menubar:menubar|Menubar]] are styled correctly now.
   * The class loader now uses the autoloader features of composer.
+  * The [[:docs:menubar:search|search box]] suggestion list is now cleared when the search box or a suggestion list items loose focus. The code is 
+ modular and tested.
 ==== Deprecated ====
   * The [[:release:deprecated:toggle|toggleTargetId]] has been deprecated for the [[:docs:animation:toggle|Toggle element]].
   * The ''align'' attribute in the [[:docs:menubar:menubar|menubar]] has been replaced by a [[docs:layout:page:container|container attribute value]]
