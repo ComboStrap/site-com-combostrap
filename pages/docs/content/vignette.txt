@@ -2,8 +2,8 @@
 
 
 ===== About =====
-A ''vignette'' is an illustrative image that is generated from:
-  * the [[:docs:page:title|page tile]], 
+A ''vignette'' is an [[:docs:content:page-image|illustrative image]] that is generated from:
+  * the [[:docs:page:title|page title]], 
   * the [[:docs:page:category|page category]]
   * the [[:docs:metadata:date|modified date]]
   * the [[:docs:app:logo|logo]] (if a raster logo is available)
@@ -16,7 +16,15 @@ You can render a vignette with the [[:docs:content:page-image|page image compone
 
 Example:
 <webcode name="Default" frameborder="0">
+  * Markup
 <code dw>
-<page-image vignette />
+<page-image vignette width="600" shadow="xl"/>
 </code>
+  * Output:
 </webcode>
+
+
+===== Usage =====
+
+  * You can use it with the [[:docs:content:page-image|page image]] as illustratif image in a [[:docs:templating:iterator|list of pages]]
+  * If there is no image, this is the default [[:docs:social:social|social image]]

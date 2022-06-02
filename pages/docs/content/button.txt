@@ -173,7 +173,7 @@ All [[docs:styling:styling|styling attribute]] are available but you may want to
 ==== Center two buttons ====
 Buttons are [[docs:content:content|inline elements]] which means that they can be added in a line and are therefore not a [[docs:block:block|block]].
 
-If you want to center two buttons, you need to wrap them in a [[docs:block:box|box]] element and center it.
+If you want to center two buttons, you need to wrap them in a [[docs:layout:component:box|box]] element and center it.
 
 Example:
 
