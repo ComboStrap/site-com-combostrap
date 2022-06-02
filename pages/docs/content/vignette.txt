@@ -1,0 +1,22 @@
+====== What is a Vignette ? ======
+
+
+===== About =====
+A ''vignette'' is an illustrative image that is generated from:
+  * the [[:docs:page:title|page tile]], 
+  * the [[:docs:page:category|page category]]
+  * the [[:docs:metadata:date|modified date]]
+  * the [[:docs:app:logo|logo]] (if a raster logo is available)
+
+
+===== How to render a vignette ? =====
+
+
+You can render a vignette with the [[:docs:content:page-image|page image component]]
+
+Example:
+<webcode name="Default" frameborder="0">
+<code dw>
+<page-image vignette />
+</code>
+</webcode>

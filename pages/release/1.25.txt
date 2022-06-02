@@ -36,6 +36,7 @@ TODO:
   * Added the [[https://healthicons.org/|HealthICons]] library in the [[:docs:content:icon|Icon component]]
   * The [[:docs:page:published|publication date]] default value is also searched in the prefix of the path last name.
   * The [[:docs:navigation:hierarchical_breadcrumb|hierarchical breadcrumb]] has now a new type: ''typography''. It permits to output the page category in a [[:docs:templating:iterator|iterator fragment]] for instance.
+  * The [[:docs:page:category|page category]] can now be printed with the help of the [[:docs:navigation:hierarchical_breadcrumb|typographical breadcrumb]]
 ==== Modification ====
 Because of too much confusion, the following name has been renamed:
   * The ''home page'' is now known as the [[docs:type:index|index page]]

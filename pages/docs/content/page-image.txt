@@ -1,6 +1,6 @@
 ---json
 {
-    "description": "Page-image is a component that renders the illustrative image of the page and is generally used in a template.",
+    "description": "Page-image is a component that renders the illustrative image of the page and is generally used in a fragment.",
     "images": [
         { "path": ":docs:content:surfer600.png" }
     ],
@@ -8,7 +8,7 @@
     "title": "Page-image Component: Renders the illustrative image of your page"
 }
 ---
-====== ComboStrap UI - Page Image Component ======
+====== Page-image Component: Renders the illustrative image of your page ======
 
 
 ===== About =====
@@ -17,11 +17,9 @@
 
 
 
-===== Example =====
 
-==== The original page image ====
 
-This example shows the [[docs:page:image|page image]] of this page. We have set it to the image of the surfer below.
+**Example:** This example shows the [[docs:page:image|page image]] of this page. We have set it to the image of the surfer below.
 
 <webcode name="Default" frameborder="0">
 <code dw>
@@ -37,13 +35,20 @@ This example shows the [[docs:page:image|page image]] of this page. We have set 
 
 <code dw>
 <page-image 
-    default="fromParent"
-    path="path"
+   type="type"
+   default="meta|first|descendant|vignette|logo"
+   path="path"
 />
 </code>
 where 
   * ''path'' is the [[docs:page:path|page path]] to show the image for. Default to the actual page path or the [[:docs:templating:iterator|path given by the iterator]] 
-  * ''default'' determines where to start in the [[#default image search algorithm]]. ''fromParent'' will skip the first step and not select the first image of the page (used mostly in a [[:slot_main_header|main header]] to not show the same image twice).
+  * [[:docs:styling:type|type]] is one of:
+      * ''meta'' is the [[:docs:content:page-image|page image meta]] (default)
+      * ''first'' is the first image of the page
+      * ''vignette'' is the [[vignette|vignette]]
+      * ''descendant'' is the first image found in the [[:docs:page:system|descendant page]] (parent and grand parent)
+      * ''logo'' is the [[:docs:app:logo|logo]]
+  * ''default'' determines the default image type chosen in order of precedence (default to ''meta|first|descendant|vignette|logo'')
 
 
 <note>
@@ -51,12 +56,7 @@ where
   * For an [[docs:content:icon|icon]], the default color is the [[docs:app:color|primary color]] if set
 </note>
 
-===== Default Image Search Algorithm =====
 
-When searching a default image, the algorithm searches:
-  * the first image in the actual page
-  * then if not found, a image in the [[:docs:page:system|parent pages]]
-  * until the [[:docs:app:home|home Page]] where the [[:docs:app:logo|logo]] is chosen as page image.
  
 ===== Image selection =====
 
@@ -69,11 +69,11 @@ When the ''ratio'' is set, the algorithm will:
 
 ==== Icon Support ====
 
-When the image is an [[docs:content:icon|icon]], the icon is zoomed out to 3 times and centered.
+When the image is an [[docs:content:icon|icon]], the icon is zoomed out 3 times and centered.
 
 <webcode name="Default" frameborder="0">
 <code dw>
-<page-image path="docs:templating:sql" ratio="16:9" color="pink" width="198" border-color="pink"/>
+<page-image path=":docs:content:icon" ratio="16:9" color="pink" width="198" border-color="pink"/>
 </code>
 </webcode>
 
