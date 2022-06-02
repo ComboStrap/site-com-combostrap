@@ -18,8 +18,11 @@
 
 
 
+===== Example =====
 
-**Example:** This example shows the [[docs:page:image|page image]] of this page. We have set it to the image of the surfer below.
+==== Meta Image ====
+
+This example shows the [[docs:page:image|page image]] of this page. We have set it to the image of the surfer below.
 
 <webcode name="Default" frameborder="0">
 <code dw>
@@ -27,6 +30,15 @@
 </code>
 </webcode>
 
+==== Vignette ====
+
+You may also choose a [[:docs:content:vignette|vignette]] as illustrative image
+
+<webcode name="Default" frameborder="0">
+<code dw>
+<page-image vignette width="600" shadow="md"/>
+</code>
+</webcode>
 
 
 
@@ -46,9 +58,10 @@ where
       * ''meta'' is the [[:docs:content:page-image|page image meta]] (default)
       * ''first'' is the first image of the page
       * ''vignette'' is the [[vignette|vignette]]
-      * ''descendant'' is the first image found in the [[:docs:page:system|descendant page]] (parent and grand parent)
+      * ''descendant'' is the image found in the [[:docs:page:category|parent]] or any [[:docs:page:system|grand parent]] 
       * ''logo'' is the [[:docs:app:logo|logo]]
-  * ''default'' determines the default image type chosen in order of precedence (default to ''meta|first|descendant|vignette|logo'')
+      * ''none'' will not print any image (to use in the default sequence)
+  * ''default'' determines the default image type chosen in order of precedence (default to ''meta|first|descendant|vignette|logo|none'')
 
 
 <note>
@@ -58,11 +71,9 @@ where
 
 
  
-===== Image selection =====
+===== Multiple Meta Image selection =====
 
-When the ''ratio'' is set, the algorithm will:
-  * select the image in the set of [[docs:page:image|page image]] with the most equivalent ratio
-  * [[docs:content:image#cropping|crop]] the image to fit the ratio
+When the ''ratio'' is set, if there is more than one [[docs:page:image|page image metadata]] the algorithm will select the image with the most equivalent ratio.
 
 
 ===== Support =====

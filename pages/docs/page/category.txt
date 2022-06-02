@@ -5,18 +5,20 @@
     "page_id": "etnl6np4h6vzkvdhcy1gp"
 }
 ---
-====== What is the Page Category ? ======
+====== What is the Category of a Page ? ======
 
 
 ===== About =====
-In Combostrap, the ''page category'' is the name of the [[:docs:page:system|parent page of the page system]].
+In Combostrap, the ''category'' of a page is the [[:docs:page:system|parent page of the page system]].
+
+
 
 
 ===== How to print  ? =====
 ==== the label ====
 
 
-The page category can be printed with the [[:docs:navigation:hierarchical_breadcrumb|typographical breadcrumb]]
+The parent page name can be printed with the [[:docs:navigation:hierarchical_breadcrumb|typographical breadcrumb]]
 
 Example:
 <webcode name="Default" frameborder="0">

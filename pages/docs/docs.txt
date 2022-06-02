@@ -7,6 +7,9 @@
 ---
 
 
+
+{{ :docs:undraw_my_documents.svg?0x300 |}}
+
 ===== About =====
 
 This section regroups all documentation of ComboStrap in one place. 
