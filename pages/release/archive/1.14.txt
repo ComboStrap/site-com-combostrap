@@ -38,7 +38,7 @@ there is any problem during the migration, you may not see your header, footer o
   * New: the [[docs:block:text|text component]] accepts to style several paragraph at once
   * New: the [[docs:content:itext|itext component]] accepts to style several characters / words at once (i for [[docs:content:content|inline]])
   * New: the [[docs:block:text|text component]] accepts to a [[docs:block:text#line-spacing|line-spacing attribute]] to set the height between each line of a paragraph
-  * New: the [[docs:styling:text-align|text-align]] attribute can now be conditional and takes the start and end notation
+  * New: the [[release:deprecated:text-align|text-align]] attribute can now be conditional and takes the start and end notation
   * New: the [[docs:styling:opacity|opacity attribute]] has its own page and can be applied to all component (not only to [[docs:styling:background|background]])
   * New: the [[docs:styling:boldness|boldness attribute]] to set the font-weight from extra-light to extra-dark.
   * New: the [[docs:styling:line-spacing|line spacing attribute]] to set the space between line
@@ -151,7 +151,7 @@ Bug: [[doku>config:target|target]] configuration was not taken into account for 
 
 ==== Box ====
 
-  * [[docs:block:box|box]] does not delete paragraphs anymore (ie has become a stack component)
+  * [[docs:layout:component:box|box]] does not delete paragraphs anymore (ie has become a stack component)
 
 ==== Link ====
 

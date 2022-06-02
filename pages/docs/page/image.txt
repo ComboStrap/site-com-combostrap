@@ -83,9 +83,4 @@ Note that you can't upload the images with the metadata manager for now, therefo
 Moving image path with the [[support:plugin#move|move plugin]] will update their path.
 </note>
 
-===== Default =====
-The default page image is the first image found in the page except for the [[:docs:app:home|home page]] where it's the [[:docs:app:logo|logo]].
-===== Configuration =====
-==== disableFirstImageAsPageImage====
-The ''disableFirstImageAsPageImage'' is a [[docs:app:configuration|configuration]] that permits to disable the use of the first image of page as the image of a page.
 

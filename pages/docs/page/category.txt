@@ -12,7 +12,8 @@
 In Combostrap, the ''page category'' is the name of the [[:docs:page:system|parent page of the page system]].
 
 
-===== How to print the page category ? =====
+===== How to print  ? =====
+==== the label ====
 
 
 The page category can be printed with the [[:docs:navigation:hierarchical_breadcrumb|typographical breadcrumb]]
@@ -22,6 +23,20 @@ Example:
   * Markup
 <code dw>
 This page is in the category: <ibreadcrumb/>
+</code>
+  * Output:
+</webcode>
+
+==== the image ? ====
+
+
+The image can be printed with the ''descendant'' option of the [[:docs:content:page-image|page image]].
+
+Example:
+<webcode name="Default" frameborder="0">
+  * Markup
+<code dw>
+<page-image descendant/>
 </code>
   * Output:
 </webcode>
