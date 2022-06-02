@@ -8,7 +8,7 @@
     "title": "How to use the image tag in ComboStrap"
 }
 ---
-====== ComboStrap UI - Images ======
+====== ComboStrap UI - Image Link ======
 
 ===== About =====
 ''image'' is a [[docs:content:content|inline component]] that permits to show [[docs:content:raster|raster]] or [[docs:content:svg|svg]] images from your media library in your pages.

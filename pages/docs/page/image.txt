@@ -2,12 +2,12 @@
 {
     "canonical": ":page:image",
     "images": [
-        { "path": ":docs:block:stock_image_surfer_in_the_see.png" },
-        { "path": ":docs:semantic:facebook_card.png" }
+        { "path": ":docs:block:stock_image_surfer_in_the_see.png" }
     ],
     "name": "Page Image",
     "page_id": "ma3pma1fgig4oye93n2c8",
-    "slug": ":image"
+    "slug": ":image",
+    "title": "The page image metadata"
 }
 ---
 ====== Page Image ======

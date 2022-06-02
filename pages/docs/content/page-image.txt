@@ -28,19 +28,7 @@ This example shows the [[docs:page:image|page image]] of this page. We have set 
 <page-image/>
 </code>
 </webcode>
-==== How to get a serie of images with the same dimension  ? ====
 
-
-In a [[docs:templating:iterator|fragment iteration]] where the width of each element is set, the ratio permits to get the same image aspect-ratio as well as the same dimension for all images. The visual rendering is therefore consistent and peaceful.
-
-
-For instance, the page image has an intrinsic ratio of ''16:9'', we can change it to a ratio of ''4:3'' with the below markup and constraints the height 
-
-<webcode name="Default" frameborder="0">
-<code dw>
-<page-image ratio="4:3" height="200"/>
-</code>
-</webcode>
 
 
 

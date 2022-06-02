@@ -121,7 +121,7 @@ Guide on how to elevate
 </webcode>
 
 ==== Image ====
-With a [[docs:content:image|image]] and a [[docs:block:box|box]]
+With a [[docs:content:image|image]] and a [[docs:layout:component:box|box]]
 
 <webcode name="imgElevation" >
 <code dw>

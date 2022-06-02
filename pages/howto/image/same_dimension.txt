@@ -1,0 +1,61 @@
+====== How to get a serie of images with the same dimension (Width and Height) ? ======
+
+
+===== About =====
+When rendering a serie of images, you may want them to have the same [[:docs:styling:dimension|dimension (width and height)]] in order to get a consistent and peaceful visual.
+
+To achieve it, you need to use the combine the ''ratio'' attribute with a dimension (width or height). It permits to get the same image aspect-ratio as well as the same dimension for all images. 
+
+
+This howto shows you how to do it:
+  * with an [[#image link|image link]]
+  * with a [[#page image|page image]]
+
+===== Examples =====
+
+==== Image Link ====
+With an [[:docs:content:image|image link]], you can use the ratio attribute inline.
+
+
+
+<webcode>
+<code dw>
+{{:undraw_content_creator.svg?0x200&ratio=16:9|}}
+{{:docs:block:stock_image_surfer_in_the_see.png?0x200&ratio=16:9|}}
+</code>
+where:
+  * ''0x200'' sets the ''width'' to ''0'' (auto) and the ''height'' to ''200''
+  * ''ratio=16:9'' sets the aspect-ratio to ''16:9''
+
+Output:
+</webcode>
+
+
+\\
+\\
+<note>
+Note that it works for [[:docs:content:svg|svg]] as [[:docs:content:raster|raster]] images
+</note>
+==== Page Image ====
+
+The [[:docs:content:page-image|page image]] component is used in a [[docs:templating:iterator|fragment iteration]] to show an illustrative page of an image.
+
+
+For instance, the page image has an intrinsic ratio of ''16:9'', we can change it to a ratio of ''4:3'' with the below markup and constraints the height 
+
+<webcode name="Default" frameborder="0">
+<code dw>
+<iterator>
+   <data>select where path like '%page-image' or path like '%howto'</data>
+   <grid max-line=2>
+   <fragment>
+      <box align="center-children">
+        <page-image ratio="4:3" height="200"/>
+      </box>
+   </fragment>
+   </grid>
+</iterator>
+</code>
+</webcode>
+
+

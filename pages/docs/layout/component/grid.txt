@@ -153,7 +153,7 @@ The gutter feature uses the [[:docs:styling:spacing|padding]] and not margin.
 Because the padding is painted by the background while the margin is not, the dimension of the [[:docs:styling:background|background]] are not uniform in a grid.
 
 If you want a background with you content grid centered, you should:
-  * wrap your grid in a [[:docs:block:box|box]] with a [[:docs:styling:spacing|padding]] (''p-5'' in the below example) 
+  * wrap your grid in a [[docs:layout:component:box|box]] with a [[:docs:styling:spacing|padding]] (''p-5'' in the below example) 
   * delete the default top and bottom margin on the grid (ie ''mt-0'' and ''mb-0'')
 
 <webcode>
