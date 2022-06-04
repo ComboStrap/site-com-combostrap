@@ -12,8 +12,6 @@
 In Combostrap, the ''category'' of a page is the [[:docs:page:system|parent page of the page system]].
 
 
-
-
 ===== How to print  ? =====
 ==== the label ====
 
