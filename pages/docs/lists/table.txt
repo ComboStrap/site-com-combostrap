@@ -12,11 +12,8 @@
 
 
 
-The table is responsive and adapts to all screen sizes.
+The table is responsive and adapts to all [[:docs:styling:breakpoint|screen sizes]] but does not wrap. If you want to use a table for layout purpose, you should use a [[docs:layout:component:grid|grid]]
 
-<note>
-If you want to use a table for layout purpose, you should use a [[docs:layout:component:grid|grid]]
-</note>
 
 
 
