@@ -121,3 +121,8 @@ The easy fix is to switch over.
 
 If you can't and that this is a problem for you, [[:support|contact us]].
 
+==== Edittable ====
+
+The [[doku>plugin:edittable|edittable plugin]] permits to edit table graphically.
+
+Combostrap supports it.

@@ -99,7 +99,7 @@ Example:
 <heading h3>Heading 3</heading>
 <heading h4>Heading 4</heading>
 <heading h5>Heading 5</heading>
-<heading h6>Heading 5</heading>
+<heading h6>Heading 6</heading>
 </code>
 </webcode>
 
