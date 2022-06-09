@@ -126,3 +126,5 @@ If you can't and that this is a problem for you, [[:support|contact us]].
 The [[doku>plugin:edittable|edittable plugin]] permits to edit table graphically.
 
 Combostrap supports it.
+
+{{:support:edittable_illustration.png?600|}}

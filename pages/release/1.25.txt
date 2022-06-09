@@ -40,6 +40,11 @@ TODO:
       * the descendant image
       * the [[:docs:content:vignette|vignette]]
   * The [[:support:plugin#edittable|edittable plugin]] is now supported
+  * The [[:docs:navigation:outline|outline]] follows the section / header HTML convention. 
+      * The styling is then:
+          * compatible with css grid for [[:docs:layout:page:page|page layout]] .
+          * easier for the edit button because they are inside a section and not after.
+      * The page are easier to scan by [[:docs:seo:seo|search engine]] to discover the outline
 
 ==== Modification ====
 Because of too much confusion, the following name has been renamed:
@@ -51,6 +56,8 @@ The [[docs:layout:component:grid|Row component]] is now called a grid because:
   * the children may be laid out on more than one line
   * you can define gutter between the children
 
+==== Breaking ====
+  * The suffix for the class is now ''cs'' for combostrap. It's smaller than ''combo'' and uses the same convention than bootstrap with ''bs''.
 ==== Improvement ====
 
   * When [[support:preserve|preserve style]] is set on svg, the svg is shown as an img to avoid style conflict.

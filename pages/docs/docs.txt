@@ -6,16 +6,15 @@
 }
 ---
 
-
-
 {{ :docs:undraw_my_documents.svg?0x300 |}}
 
-===== About =====
 
-This section regroups all documentation of ComboStrap in one place. 
+\\
+\\
 
-On the left side in the tree navigation pane, you can explore all features and components that are available to create web pages.
+This section regroups all reference documentation. 
 
+On the left side in the [[:docs:navigation:page-explorer|tree navigation pane]], you can explore all features and components that are available to create web pages.
 
 <note>
 From [[docs:seo:seo|SEO]] to [[docs:component|UI Component]], ComboStrap supports a lot of features. If you don't have any knowledge of ComboStrap, we recommend to start first with our [[howto:getting_started:getting_started|getting started guide]].
