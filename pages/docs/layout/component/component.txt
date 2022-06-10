@@ -16,7 +16,7 @@ A layout component is a component that laid out other components.
 
   * [[docs:layout:component:masonry|Masonry]] - A masonry layout for cards, blockquote and box.
   * [[docs:layout:component:grid|Grid]] - A grid to layout every component as you wish
-  * [[docs:layout:component:container|Container]] - A container restraints the horizontal width.
+  * [[docs:layout:page:container|Container]] - A container restraints the horizontal width.
   * [[docs:layout:component:accordion|Accordion]] - An accordion layout where panels are shown in collapsible section
   * [[docs:layout:component:tabs|Tabs]] - An tabs layout where panels are shown in tab.
   * [[release:deprecated:slide|Slide]] - Create horizontal section of your page
