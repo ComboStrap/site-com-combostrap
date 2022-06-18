@@ -29,7 +29,6 @@ Create website, publish landing pages, articles, how-to's, documentations or bui
 </bar>
 
 
-
 <bar hero="lg"  background-color="light">
 <box text-align="center">
    <heading h2>Really useful features</heading>
