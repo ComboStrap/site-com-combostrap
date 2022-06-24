@@ -8,6 +8,16 @@ The release 1.25 is the last development branch of Combostrap
 
 TODO:
   * Answer this [[https://forum.dokuwiki.org/d/20194-manipulating-creation-times-to-make-dokuwiki-happy?near=1|ticket]]
+
+
+<note important>
+=== Breaking: We don't support php 7.2 and 7.3 ===
+
+Due to a bug in our dependencies, we have upgraded them and they are only available from 7.4.
+
+Because 7.2 and 7.3 are already end of life, we have taken the decision to upgrade.
+</note>
+
 ===== Changes =====
 
 ==== New ====
@@ -58,6 +68,7 @@ The [[docs:layout:component:grid|Row component]] is now called a grid because:
 
 ==== Breaking ====
   * The suffix for the class is now ''cs'' for combostrap. It's smaller than ''combo'' and uses the same convention than bootstrap with ''bs''.
+  * We support only php 7.4 (due to our dependencies), up to 8 (due to dokuwiki). More information, in the [[:support:requirement#php|requirement page]]
 ==== Improvement ====
 
   * When [[support:preserve|preserve style]] is set on svg, the svg is shown as an img to avoid style conflict.

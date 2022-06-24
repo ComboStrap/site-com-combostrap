@@ -40,12 +40,14 @@ If you don't have the last version, we recommend to install the [[https://www.do
 If you don't have a Dokuwiki Instance, you can install it as follow:
   * [[https://download.dokuwiki.org/|Download the last Dokuwiki]], 
   * Verify that your php server has the [[support:requirement|minimum requirements]]:
-      * [[support:requirement#php|php version supported]]: ''7.4'', ''7.3'', ''7.2'', ''7.1'' but not <inote warning>[[https://github.com/splitbrain/dokuwiki/issues/3399|8.0]]</inote>
+      * [[support:requirement#php|php version supported]]: ''7.4'' but not <inote warning>[[https://github.com/splitbrain/dokuwiki/issues/3399|8.0]]</inote>
       * and [[support:requirement#moduleextension|php extensions]]
   * Upload the zip file to your web server 
   * Unzip it to your web directory
   * Access the installer script at ''https://yourdomain.com/install.php''
-  * Answer the install form (Choose at minimal the [[doku>config:useacl|ACL option]], otherwise you get no access to the admin page)
+  * Answer the install form. Choose:
+     * at minimal the [[doku>config:useacl|ACL option]], otherwise you get no access to the admin page
+     * the `read` permission, otherwise the [[:docs:app:logo|logo]] and [[:howto:getting_started:6_favicon|favicon]] will not render
   * Done
 
 To know more:

@@ -14,6 +14,7 @@
 
 {{ howto:getting_started:undraw_stepping_up.svg?0x300 }}
 
+
 ===== About =====
 How to have a professional website up and running with [[:start|combostrap]].
 
@@ -28,7 +29,7 @@ This ''how-to'' guide regroups a serie of article to get you started.
 
 ===== Start =====
 <btn>
-[[howto:getting_started:1_dokuwiki]]
+[[1_dokuwiki]]
 </btn>
 
 

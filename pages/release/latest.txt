@@ -20,10 +20,10 @@ For all news and modifications, you should go to the release page [[1.24]].
 
 
 
-
 The standard update steps can be found on this [[update|page]].
 
 
 ===== Current =====
 
 The current development branch is the [[1.25|1.25]].
+
