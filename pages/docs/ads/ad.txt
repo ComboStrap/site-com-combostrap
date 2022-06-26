@@ -33,7 +33,7 @@ You need to set a configuration to prevent it. See [[conf]]
 </note>
 ===== Syntax =====
 
-<code syntax>
+<code dw>
 <ad name="adsFileName"/>
 </code>
 where ''adsFileName'' is the name of the [[page|ad page]].
