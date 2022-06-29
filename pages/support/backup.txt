@@ -1,0 +1,28 @@
+====== Backup ======
+
+
+===== About =====
+This article lists  data of interest that should go into a minimal backup
+of a DokuWiki Installation
+
+The complete list is available on the [[doku>faq:backup|backup documentation page]]
+
+===== Image Salt =====
+To avoid a DDOS with image processing, Dokuwiki adds a signature.
+
+The signature is the value of the `tok` Url property.
+
+This is:
+  * a md5 hash
+  * of length 6
+  * from the wiki id, the dimension (width and height)
+  * with a salt randomly generated and stored in one of this file:
+```
+data\meta\_htcookiesalt
+data\meta\_htcookiesalt2
+```
+
+If you are using a cache, don't forget to back up this file well
+otherwise the images will not show up.
+
+The detailed function is the `media_get_token` in `media.php`
