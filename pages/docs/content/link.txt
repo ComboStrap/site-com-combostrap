@@ -34,17 +34,18 @@ Internal Links can also be [[?color=#495057|styled]]
 <note>
   * The default description if not set is the [[docs:page:name|page name]] for [[docs:navigation:navigation|navigational component]], the [[docs:page:title|title]] otherwise.
   * The URL may be made [[docs:page:url|permanent by adding the page identifier]].
+  * The link path when relative (ie without `:`) is relative to the page fragment. Ie a link in a footer slot will be relative to the footer.
 </note>
 
 
 ==== External ====
 
-An ''external'' link is a link that begins with ''http'' or ''https''. 
+An ''external'' link is a link that begins with ''http'' or ''https''.
 
   * Example:
 <webcode name="Default" frameborder=0>
 <code dw>
-External link to our protected page [[https://combostrap.com/quality/low_quality_example|low quality page]] 
+External link to our protected page [[https://combostrap.com/quality/low_quality_example|low quality page]]
 </code>
   * Result:
 </webcode>
@@ -250,7 +251,7 @@ For instance, this link format is not allowed
 
 
 Why ?
-  * Because Dokuwiki does not accept any group in the regular expression pattern that capture the content of the link. 
-  * Hence, there is no way to create a logic that will capture all characters until the '']]'' or ''|'' character is found using a lazy regular expression. 
+  * Because Dokuwiki does not accept any group in the regular expression pattern that capture the content of the link.
+  * Hence, there is no way to create a logic that will capture all characters until the '']]'' or ''|'' character is found using a lazy regular expression.
   * Therefore, we use a greedy expression and the '']'' is denied to allow more than one link on a line.
 
