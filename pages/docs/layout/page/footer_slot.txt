@@ -16,8 +16,8 @@ It's also known as a ''fat footer'' and contains generally information about the
 ===== Example =====
 With:
   * two columns in one row of the [[docs:layout:component:grid|grid]]
-  * inside a [[docs:layout:component:container|container]] to limit the horizontal space
-  * inside a [[docs:utility:footer|footer]] to style the background with a [[docs:styling:color#gradient|gradient color]] and a little bit of [[docs:styling:spacing|spacing]]
+  * inside a [[docs:layout:page:container|container]] to limit the horizontal space
+  * inside a [[release:deprecated:footer|footer]] to style the background with a [[docs:styling:color#gradient|gradient color]] and a little bit of [[docs:styling:spacing|spacing]]
 
 
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >

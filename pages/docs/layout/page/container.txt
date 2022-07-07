@@ -15,7 +15,6 @@ The ''containment'' configuration choose if the [[#component|container-aware com
   * limit their horizontal width (adjusted by [[docs:styling:breakpoint|screen sizes]])
   * and add a marge on the horizontal axis ([[:docs:styling:spacing|padding]])
 
-
 ===== Components =====
 
 The following components are ''container aware'' component:
