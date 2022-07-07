@@ -104,3 +104,4 @@ where:
       * ''empty'' (Default)
       * ''flush'' - to get a cleaner separation by removing borders and rounded corners
    * ''numbered'' will add number to the children elements
+
