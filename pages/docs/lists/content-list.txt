@@ -15,7 +15,7 @@ A ''content-list'' is a [[docs:lists:lists|list component]]:
 
 ===== Example =====
 ==== Numbered ====
-Example of a multiple line content with [[:docs:block:box|boxes]] as list items.
+Example of a multiple line content with [[docs:layout:component:box|boxes]] as list items.
 
 <webcode name="List" >
 <code dw>
@@ -64,7 +64,7 @@ This example shows a ''content-list'' component with an:
 
 ==== Complex List  ====
 
-If you want to create more complex list of content, you can a combination of [[:docs:layout:component:row|row]] and [[:docs:block:box|boxes]]
+If you want to create more complex list of content, you can a combination of [[:docs:layout:component:row|row]] and [[docs:layout:component:box|boxes]]
 <webcode name="media-list" >
 <code dw>
 <content-list width="500px">
