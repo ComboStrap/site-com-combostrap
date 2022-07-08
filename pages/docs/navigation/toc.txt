@@ -11,7 +11,7 @@ The ''toc (table of content)'' gives to the reader an overview of your page by s
 
 
 
-===== Page Layout  =====
+===== Page Layout Element =====
 
 The ''toc'' is an element or not of the [[:docs:layout:page:page|page layout]].
 
