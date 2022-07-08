@@ -12,7 +12,6 @@ The ''page footer slot'' is the [[docs:layout:page:slot|slot]] that is located a
 
 It's also known as a ''fat footer'' and contains generally information about the [[docs:app:app|web site]].
 
-
 ===== Example =====
 With:
   * two columns in one row of the [[docs:layout:component:grid|grid]]

@@ -2,21 +2,25 @@
 {
     "canonical": ":layout",
     "description": "This article talks about layout management and how it can be defined by page.",
+    "name": "Page Layout",
     "page_id": "9tl87hg8coopjktg8chkh",
     "title": "What is a page layout ?"
 }
 ---
-====== Strap - Page Layout ======
+====== What are the possible page layouts ? ======
+
+
+<blockquote align="text-center center" width="fit-content" >
+**Layouts are important.**
+
+{{:strap:layout_funny.png?300|}}
+</blockquote>
+
 
 ===== About =====
 
 
 
-<blockquote float="right" text-align="center" >
-**Layouts are important.**
-
-{{:strap:layout_funny.png?300|}}
-</blockquote>
 
 ComboStrap supports the following layouts
 
@@ -26,7 +30,6 @@ ComboStrap supports the following layouts
 | [[#landing]] | A layout to create a landing page for the [[:docs:app:home|home page]] |
 | [[#index]] | A layout to create a semi-landing page for the [[:docs:type:index|index pages]] |
 | [[#hamburger]] | The default layout of admin pages (without sides)|
-
 
 
 ===== List =====
@@ -71,7 +74,7 @@ The landing layout is the default layout of the [[:docs:app:home|home page]].
 In a landing page layout:
   * the main content is not [[docs:layout:page:container|contained]]
   * the page header, the page footer, the main content are shown
-  * the page sides, the main sides, the main header and the main footer are not shown
+  * the sides page and main, the main header and footer, the [[:docs:navigation:toc|toc]] are not shown
 
 To know more about landing page, see the dedicated page: [[landing]]
 
@@ -90,16 +93,16 @@ There is no page side.
 
 ==== Index ====
 
-An ''index'' is a landing page for a [[:docs:page:namespace|Namespace]].
+An ''index'' is a landing page for a [[:docs:page:namespace|namespace]].
 
 It shows:
   * the page header and footer
-  * the main header and content
+  * the main content
   * the page side
 
 It does not show:
   * the [[:docs:navigation:toc|table of content]]
-  * the page footer
+  * the main header and footer
   * the sidekick
 ===== How to set the page layout ? =====
 

@@ -7,35 +7,44 @@
 
 
 ===== About =====
-The ''main header slot'' is a [[slot|slot]] located at the top of the [[main|main content]].
+The ''main header slot'' creates an ''header'' for your [[main|content]].
 
+It's also known as a [[:docs:styling:hero|hero]] header in design and is generally shown prominently.
 
-
-
-
-
-
-A main header slot applies to all pages except the [[docs:app:home|root page]].
-
-===== How to create a main header slot ? =====
-
-The name of the main header slot is ''slot_main_header''.
-
-To add a main header slot to all your pages:
-  * go to ''https://yourdomain.com/slot_main_header''
-  * the page should open in ''edit'' mode, ready to receive its content. You can use all syntax.
 
 ===== Example of main header slot =====
 Below is an example of main header.
 
 <code dw>
 <breadcrumb/>
-<template>
-<heading 1>$title</heading>
-<page-image path="$path" ratio="16:9" />
-</template>
+<box hero="md">
+    <heading 1>$title</heading>
+    <page-image ratio="16:9" />
+</box>
 </code>
 where:
   * ''breadcrumb'' is the [[docs:navigation:hierarchical_breadcrumb|hiearchical breadcrumb]]
-  * [[docs:templating:template|template]] is a template with [[docs:content:heading|heading]] that contains the [[docs:page:title|page title]]
-  * and a [[docs:content:page-image|illustrative page image]]
+  * ''box'' is a [[:docs:layout:component:box|box]] with a [[:docs:styling:hero|hero margin]]
+  * ''heading 1'' is a [[:docs:content:heading|heading 1]] with the [[:docs:page:title|page tile]]
+  * ''page-image'' is a [[docs:content:page-image|illustrative page image]]
+
+===== Usage =====
+  * A ''main header'' applies only to specific [[:docs:layout:page:page|page layout]].
+  * When a ''main header'' is applied, to not show duplicate [[:docs:content:heading|heading 1]], all content to [[:docs:content:heading|heading 2]] is deleted.
+  
+
+===== How to create a main header slot ? =====
+
+==== With the slot manager =====
+
+With the [[:docs:layout:page:slot_manager|slot manager]], you need to click on a ''create'' link
+
+{{:docs:layout:page:main_header_slot_manager.png|}}
+
+==== Manually ====
+
+The name of the main header slot is ''slot_main_header''.
+
+To add a main header slot to all your pages:
+  * go to ''https://yourdomain.com/slot_main_header''
+  * the page should open in ''edit'' mode, ready to receive its content. You can use all syntax.
