@@ -7,35 +7,42 @@
 ====== ComboStrap UI - Table of Content (TOC) ======
 
 ===== About =====
-The ''toc (table of content)'' gives to the reader an overview of your page.
-
-The ''toc'' is composed of the [[docs:navigation:outline|outline headings]] 
+The ''toc (table of content)'' gives to the reader an overview of your page by showing the [[docs:navigation:outline|outline headings label]] in a tree fashion.
 
 
 
-===== Location =====
+===== Page Layout  =====
+
+The ''toc'' is an element or not of the [[:docs:layout:page:page|page layout]].
+
+This sections discuss what you can do if the toc is part of not of the page layout.
 
 
-By default, the ''table of content'' is printed below the [[docs:page:h1|first heading]] but you can define your own placement
-in the page with the ''toc'' component.
+
+==== When the toc is part of the page layout ====
+
+When the ''toc'' is part of a [[:docs:layout:page:page|page layout]], it will be shown but you can't delete the TOC with the standard ''%%~~NOTOC~~%%'' token of [[doku>toc|Dokuwiki]]. 
+
+Why ? Because if the TOC is deleted, the layout will be broken.
+
+
+==== When the toc is not part of the page layout ====
+
+When the TOC is not part of a [[:docs:layout:page:page|page layout]], it will not be shown but you can still add it in your content with the ''toc'' component.
 
 Example:
+<webcode>
 <code dw>
 <toc/>
 </code>
+  * Output:
+</webcode>
 
-
-===== Disable =====
-
-You can disable the rendering of a ''TOC'' by including the ''No toc'' tag (([[doku>toc]])) in your document:
-<code dw>
-~~NOTOC~~
-</code>
 
 ===== Configuration =====
 The TOC component supports all DokuWiki Configuration (([[doku>toc#configuration|TOC configuration]])) such as:
-      *  [[doku>config:tocminheads]] - the minimum number of heading 
-      * [[doku>config:maxtoclevel]] - the maximum level to print
-      * [[doku>config:toptoclevel]] - the start level:
-          * ''1'' = print the first heading 
-          * ''2'' = don't print the first heading
+      *  [[doku>config:tocminheads|tocminheads]] - the minimum number of heading 
+      * [[doku>config:maxtoclevel|maxtoclevel]] - the maximum level to print
+      * [[doku>config:toptoclevel|toptoclevel]] - the start level:
+          * ''1'' = print the page title (the first heading)
+          * ''2'' = don't print the page title (the first heading)

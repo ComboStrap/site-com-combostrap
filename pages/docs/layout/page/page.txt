@@ -9,7 +9,6 @@
 ---
 ====== What are the possible page layouts ? ======
 
-
 <blockquote align="text-center center" width="fit-content" >
 **Layouts are important.**
 
