@@ -12,7 +12,6 @@
   * display (expand) a component 
       * with a click action
 
-
 The available control components (where the user can click) are:
   * a [[docs:content:link|link]] 
   * a [[docs:content:button|button]]
@@ -95,7 +94,7 @@ On the component to toggle
       * ''expanded'': the component is visible
 
 
-===== Toggle Based on Screen Size  =====
+===== How to toggle automatically based on screen size ? =====
 
 ''toggle-state'' allows [[:docs:styling:breakpoint|breakpoint prefix]] such as
 <code dw>
@@ -105,9 +104,3 @@ The target component will then be:
   * ''collapsed'' on small device
   * and ''expanded'' in medium device. (You can't collapse it anymore)
 
-===== Automatic Side Slot Toggle =====
-By default all components include in a [[:docs:layout:page:side_slot|side slot]] are collapsed on small screen size. They get the following default toggle value.
-
-<code dw>
-<component toggle-state="collapsed md-expanded" />
-</code>
