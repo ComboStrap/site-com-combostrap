@@ -55,7 +55,7 @@ console.log("Javascript Code block");
 </file>
 
 \\
-\\ 
+\\
 The result is:
 <box border-color="gray" spacing="pt-3">
 <webcode>
@@ -71,6 +71,27 @@ console.log("Javascript Code block");
 </webcode>
 </box>
 
+
+<note important>
+==== Parsing problem ? ====
+
+The characters <, >, ", ', \, and & should be escaped in string literals.
+
+Example:
+  * In the below literal, the character ''/'' should be escaped
+<javascript>
+let fragment = '</script>';
+</javascript>
+  * The write way is to write it:
+<javascript>
+let fragment = '<\/script>';
+</javascript>
+
+Why ? Because the code is executed in the HTML page, and they will
+interfere with the HTML parser.
+
+</note>
+
 ==== Console.table ====
 
 ''console.table'' (([[https://developer.mozilla.org/en-US/docs/Web/API/Console/table|console.table function]])) is supported with an array of objects or primitives. There is no second argument.
@@ -82,7 +103,7 @@ Example:
 <webcode>
     <code javascript>
         let tabularData = [
-            {name: "foo", short: "f"}, 
+            {name: "foo", short: "f"},
             {name: "bar", short: "b"}
         ];
         console.table(tabularData);
@@ -137,10 +158,10 @@ for (const [index, value] of colors.entries()) {
     <!-- javascript or babel code block -->
     <code javascript> <!-- or <code babel> -->
     </code>
-    
+
     <!-- Wiki Markup -->
-    <code dw> 
-    
+    <code dw>
+
     <!-- Code Block not displayed-->
     <code language [display="none"]>
     </code>
@@ -149,7 +170,7 @@ for (const [index, value] of colors.entries()) {
 </file>
 
 ====  Webcode attributes ====
- 
+
 
 The allowed webcode attributes are:
 
@@ -159,7 +180,7 @@ The allowed webcode attributes are:
       * width (default to 100%)
       * height (<inote>The height is automatically adjusted if not set</inote>)
       * scrolling
-   * ''renderingMode'': 
+   * ''renderingMode'':
       * ''story'' (default): The rendering will output the content inside the ''webcode'' elements and add the result after the closing ''webcode'' code.
       * ''onlyResult'': The rendering will **suppress** the content inside the ''webcode'' elements and will show only the result after the closing ''webcode'' code.
 
@@ -188,7 +209,7 @@ The supported [[docs:block:code|code]] block syntax is
 where:
 
   * ''lang'' can be:
-      * html 
+      * html
       * xml (will be seen as XHTML)
       * css
       * javascript or babel (but not both in a webcode)
@@ -202,7 +223,7 @@ where:
 === Babel ===
 
 
-When a code block use [[https://babeljs.io/|Babel]] as language, the plugin will add the 
+When a code block use [[https://babeljs.io/|Babel]] as language, the plugin will add the
 [[https://unpkg.com/babel-standalone@6/babel.min.js|babel.min.js]] version 6 to the external resources.
 
 You cannot have a Babel and a Javascript Block in the same webcode block.
