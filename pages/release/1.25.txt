@@ -1,4 +1,4 @@
-====== Release 1.25 ======
+====== Release 1.25 - Layout all the way ! ======
 
 
 
@@ -18,9 +18,15 @@ Due to a bug in our dependencies, we have upgraded them and they are only availa
 Because 7.2 and 7.3 are already end of life, we have taken the decision to upgrade.
 </note>
 
+===== Action =====
+
+  * If you had a custom stylesheet set up, you need to move it to the combo library location
+
+
 ===== Changes =====
 
 ==== New ====
+  * The strap template has been deprecated.
   * Added the https://arcticons.com/ [[docs:content:icon|icon library]]
   * The ''txt'' mime is now authorized by default.
   * In a [[docs:layout:component:grid|grid]], a ''cell'' now supports the [[docs:styling:clickable|clickable attribute]]
@@ -50,7 +56,7 @@ Because 7.2 and 7.3 are already end of life, we have taken the decision to upgra
       * the descendant image
       * the [[:docs:content:vignette|vignette]]
   * The [[:support:plugin#edittable|edittable plugin]] is now supported
-  * The [[:docs:navigation:outline|outline]] follows the section / header HTML convention. 
+  * The [[:docs:navigation:outline|outline]] follows the section / header HTML convention.
       * The styling is then:
           * compatible with css grid for [[:docs:layout:page:page|page layout]] .
           * easier for the edit button because they are inside a section and not after.
@@ -97,7 +103,7 @@ The [[docs:layout:component:grid|Row component]] is now called a grid because:
   * The [[:docs:content:link#external|external links]] in a [[:docs:menubar:menubar|Menubar]] are styled correctly now.
   * The class loader now uses the autoloader features of composer.
   * The [[:docs:menubar:search|search box]] suggestion list is now cleared when the search box or a suggestion list items loose focus. The code is modular and tested.
-  * The button of the edit toolbar in the edit form are now styled 
+  * The button of the edit toolbar in the edit form are now styled
 
 ==== Deprecated ====
   * The [[:release:deprecated:toggle|toggleTargetId]] has been deprecated for the [[:docs:animation:toggle|Toggle element]].
