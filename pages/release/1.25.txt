@@ -21,6 +21,7 @@ Because 7.2 and 7.3 are already end of life, we have taken the decision to upgra
 ===== Action =====
 
   * If you had a custom stylesheet set up, you need to move it to the combo library location
+  * If you had custom strap, configuration, you need to set them on combo
 
 
 ===== Changes =====

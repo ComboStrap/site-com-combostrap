@@ -10,6 +10,9 @@
 ===== About =====
 ''strap'' is the template plugin component of [[:combostrap|ComboStrap]]
 
+Deprecated for page without it:
+  * script in the page
+  * no partial cache information (dokuwiki create the html head before running all markup)
 
 The ''strap'' template supports the following features:
 
