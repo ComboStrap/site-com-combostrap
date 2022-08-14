@@ -21,7 +21,11 @@ By default, this components show also a listing of existing pages that have the 
 
 ===== Configuration =====
 
+==== ShowMessageClassic ===
 
+If this configuration is unset, a reader (public user) will not see any redirection message.
+
+==== ShowPageNameIsNotUnique ===
 The ''ShowPageNameIsNotUnique'' [[docs:app:configuration|configuration]] turns ''on'' and ''off'', the listing of existing pages with the same name.
 
 {{docs:router:redirection_message_conf_page_name_not_unique.png|}}
