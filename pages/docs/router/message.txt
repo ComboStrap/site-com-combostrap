@@ -23,7 +23,8 @@ By default, this components show also a listing of existing pages that have the 
 
 ==== ShowMessageClassic ===
 
-If this configuration is unset, a reader (public user) will not see any redirection message.
+If this configuration is unset, a reader (public user) will not see any message for a configured redirection
+(ie page rules or canonical).
 
 ==== ShowPageNameIsNotUnique ===
 The ''ShowPageNameIsNotUnique'' [[docs:app:configuration|configuration]] turns ''on'' and ''off'', the listing of existing pages with the same name.
