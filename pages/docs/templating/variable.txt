@@ -10,9 +10,7 @@
 
 
 ===== About =====
-''Variable'' in Combostap are first-class citizen meaning that you can use them anywhere.
-
-
+''Variable'' in Combostrap are first-class citizen meaning that you can use them anywhere.
 
 
 ===== Example =====

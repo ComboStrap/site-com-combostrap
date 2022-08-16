@@ -13,6 +13,8 @@ They are added to the generated HTML page.
 
 It was requested for [[docs:seo:seo|SEO purpose]] but they have really little effect as they were used to cheat. [[https://developers.google.com/search/blog/2009/09/google-does-not-use-keywords-meta-tag|Google does not look at them at all]].
 
+You can also use them as [[:docs:templating:variable|variable]] in your page.
+
 ===== How to update the page keywords ? =====
 
 You can update them with the [[docs:metadata:manager|metadata manager]].
