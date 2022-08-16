@@ -62,6 +62,7 @@ Because 7.2 and 7.3 are already end of life, we have taken the decision to upgra
           * compatible with css grid for [[:docs:layout:page:page|page layout]] .
           * easier for the edit button because they are inside a section and not after.
       * The page are easier to scan by [[:docs:seo:seo|search engine]] to discover the outline
+  * The [[:docs:page:keywords|page keywords]] has variables.
 
 ==== Modification ====
 Because of too much confusion, the following name has been renamed:

@@ -20,7 +20,7 @@
 ==== Without Transformation ====
 
 The below markup will print:
-  * a [[docs:lists:list|bullet list]] 
+  * a [[docs:lists:list|bullet list]]
   * with the variables: [[docs:page:title|title]] and [[docs:page:path|path]] of the actual page.
 <webcode name="list">
 <code dw>
@@ -36,9 +36,9 @@ The below markup will print:
 You can transform the variable by using the [[:docs:templating:pipeline|pipeline syntax]]
 
 It will create:
-  * a [[docs:content:link|link]] 
-  * with a [[docs:templating:pipeline|pipeline]] 
-  * that separate the [[docs:page:h1|h1]] with the minus ''-'' 
+  * a [[docs:content:link|link]]
+  * with a [[docs:templating:pipeline|pipeline]]
+  * that separate the [[docs:page:h1|h1]] with the minus ''-''
   * and used the second part as link description
 
 <webcode name="pipeline" frameborder="0">
@@ -58,6 +58,7 @@ The supported variable are:
   * ''name'' - the [[docs:page:name|name]] of the page - if empty, the last part of the id
   * ''h1'' - the [[docs:page:h1|h1 title]] (the first header text of the page) - if empty, the ''title''.
   * ''description'' - the [[docs:page:description|description]]
+  * ''keyword'' - the [[docs:page:keywords|page keywords]]
   * ''date_created'' - the creation date
   * ''date_modified'' - the modification date
   * ''date_published'' - the [[docs:page:published|publication date]]
@@ -78,7 +79,7 @@ And all [[docs:metadata:frontmatter|frontmatter metadatas]] that are scalar (ie 
 
 
 ===== Value =====
-By default all variables are filled with the value of the requested page. 
+By default all variables are filled with the value of the requested page.
 
 When used inside a [[docs:templating:iterator|iterator fragment]], they get the values of the selected page.
 
