@@ -57,6 +57,9 @@
   * namespace documentation ? https://help.fandom.com/wiki/Namespaces
   * Landing page: self-managed vs hosted documentation
 
+==== Form Multi Select =====
+
+Use https://tom-select.js.org/
 
 ==== Analytics ====
 
