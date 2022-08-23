@@ -11,19 +11,14 @@
 
 ===== About =====
 The ''database replication process'' is the process that:
-  * creates the [[data|analytical data]] if needed 
+  * creates the [[data|analytical data]] if needed
   * replicates the data into the [[docs:analytics:database|database]].
-
-
-
-
-
 
 
 
 ===== Sync =====
 Because this is a intensive process, it happens slowly:
-  * for every page visited 
+  * for every page visited
   * or for every page that gains or lost backlinks.
 And the output is [[#cache|cached]].
 

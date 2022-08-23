@@ -56,5 +56,19 @@ sudo yum install php-xml php-pdo-sqlite php-mbstring php-openssl php-intl php-gd
 </code>
 
 
- 
+==== Upload Limit ====
+
+Not a requirement but as the default size is only 2M by default,
+you may want to change the minimum upload size.
+
+
+Example:
+<code ini php.ini>
+upload_max_filesize = 15M
+post_max_size = 15M
+</code>
+where:
+  * [[http://php.net/upload-max-filesize|upload_max_filesize]] is the maximum allowed size for uploaded files
+  * [[http://php.net/post-max-size|post-max-size]] is the maximum size of POST data
+
 
