@@ -1,0 +1,38 @@
+---json
+{
+    "date_published": "2022-08-27T00:00:00+00:00",
+    "description": "This page lists the changes for the combostrap release 1.24.1",
+    "name": "Release 1.24.1",
+}
+---
+
+====== Release 1.24.1 Patch / Igor Compat ======
+
+
+===== About =====
+The release 1.24.1 is a patch release above the [[release:1.24|release 1.24]] that corrects bugs and adapt some code to avoid warning from Combostrap.
+
+
+
+
+===== List =====
+
+==== Compatibility ====
+
+  * [[https://github.com/ComboStrap/combo/commit/70994c2831d837be629cee453532a58707546b5f|Igor Compatibility]]
+
+==== Bugs ====
+
+  * [[https://github.com/ComboStrap/combo/issues/40|Default link attribute is passed even if the media is not an image]]
+  * [[https://forum.dokuwiki.org/d/20384-error-starting-wiki-with-combostrap|Metadata of a title was an array causing Combostrap to crash]]
+  * [[https://github.com/ComboStrap/combo/issues/36|Http Redirect on pages rules]] to avoid by passing ACL
+  * [[https://github.com/ComboStrap/combo/issues/36|PageRules (modify and delete) was broken]]
+  * [[https://github.com/ComboStrap/combo/commit/174d0e3228eabfb5fc396fe73e65cbdf0228930e|Cache bursting bug]]
+  * [[https://github.com/ComboStrap/combo/commit/a4e629a31f8dc943ca561fa7cd0bd996bb2ce50d|Template and masonry bug]]
+  * [[https://github.com/ComboStrap/combo/commit/eb76b75d7865f643f9312f7a4991c98153124d05|String can be null (if file does not exist and tooltip)]]
+
+==== New ====
+
+  * Added bat as the dos language
+  * [[https://github.com/ComboStrap/combo/issues/39|Added keywords as a variable]]
+  * [[https://github.com/ComboStrap/combo/issues/36|'ShowMessageClassic' was implemented]]
