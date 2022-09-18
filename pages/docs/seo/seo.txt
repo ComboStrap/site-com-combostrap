@@ -51,6 +51,23 @@ The Combostrap page renders automatically as card in:
   * [[docs:social:facebook|Facebook]]
   * [[docs:social:google|Google]]
 
+==== Web Core Vital ====
+
+The web core vitals are the most critical SEO metrics.
+
+You have:
+  * ''Largest Contentful Paint': that measures the time needed to paint what the user will see
+  * ''First Input Delay'': that measures the time when a user can interact with your page (after the execution of all scripts)
+  * ''Content Layout Shift'': that measures how the visual element shifts around.
+
+We got feedback that the ''Content Layout Shift'' was not satisyfing. After investigation,
+it boils down to the fact that javascript of third plugins may alter the page visual even if they are
+not needed for the page.
+
+If you want to increase your ''Content Layout Shift'' score, you can
+[[docs:performance:frontend_optimization|disable the javascript for public user]] (ie for the search engine).
+
+
 ==== XHTML compliant ====
 
 All the HTML page generated follows the internet standard and are generated to be easily crawlable and indexed by any search engine.
