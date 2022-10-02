@@ -35,22 +35,24 @@
   * export ([[https://github.com/i-net-software/dokuwiki-plugin-siteexport/issues/116|siteexport issue]]), note the configuration should be change from ''wiki:export.zip'' to ''export.zip'' to get it working, log file is the full path)
 
 <file>
-file cs-id
-file cs-blob
-file cs-meta
-file cs-type (markup, alias)
-file cs-name
+file cs-id / unique
+file cs-blob / content (text or image)
+file cs-meta / meta
+file cs-type / blob type (markup, alias, redirect, image)
+file cs-name / name unique in the directory (directory, name and type are unique)
 file cs-directory
 file git-hash
 file git-commit
-file git-path
+file git-path / path in the commit
 
 
 file cs-directory
 file cs-drive
-file cs-path
+file cs-path / path in the drive
 file cs-meta
-file git-path
+file git-path / path in the commit
+file git-hash
+file git-commit
 </file>
 
 ==== GUI ====
