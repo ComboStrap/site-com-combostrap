@@ -55,6 +55,28 @@ file git-hash
 file git-commit
 </file>
 
+
+[git-deploy](http://brunodebarros.github.io/git-deploy-php/) stores a file called REVISION on your server. This file contains the hash of the commit that you’ve deployed to that server. When you run git-deploy, it downloads that file and compares the commit reference in it with the commit you’re trying to deploy to find out which files to upload.
+[phploy](https://wplancer.com/phploy/)
+[git-ftp](https://github.com/git-ftp/git-ftp)
+
+The path of the binary
+```bash
+git --exec-path
+# C:/Git/mingw64/libexec/git-core
+```
+Copy the file git-world
+```bash
+#!/usr/bin/env bash
+
+echo Hallo world
+```
+The below command will call it
+```
+git world
+```
+
+
 ==== GUI ====
   * The basic message area should be a toaster to see them always
   * slot improvement
