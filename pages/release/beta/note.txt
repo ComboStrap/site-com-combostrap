@@ -34,6 +34,25 @@
   * Working on website release via git
   * export ([[https://github.com/i-net-software/dokuwiki-plugin-siteexport/issues/116|siteexport issue]]), note the configuration should be change from ''wiki:export.zip'' to ''export.zip'' to get it working, log file is the full path)
 
+<file>
+file cs-id
+file cs-blob
+file cs-meta
+file cs-type (markup, alias)
+file cs-name
+file cs-directory
+file git-hash
+file git-commit
+file git-path
+
+
+file cs-directory
+file cs-drive
+file cs-path
+file cs-meta
+file git-path
+</file>
+
 ==== GUI ====
   * The basic message area should be a toaster to see them always
   * slot improvement
