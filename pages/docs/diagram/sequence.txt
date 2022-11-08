@@ -42,9 +42,9 @@ sequenceDiagram
 The syntax is based on the  [[https://mermaid-js.github.io/mermaid/#/sequenceDiagram|mermaid sequenceDiagram definition]]
 
 <code dw>
-<gant>
+<sequence-diagram>
    ... Mermaid Sequence Diagram definition ...
-</gant>
+</sequence-diagram>
 </code>
 
 <note>
