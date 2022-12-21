@@ -27,7 +27,7 @@ A large [[docs:content:button|button]]
 ===== Components =====
 Only this component responds to this attribute:
   * [[docs:content:button]]
-  * [[docs:layout:component:slide]]]]
+  * [[release:deprecated:slide]]]]
 
 
 ===== Syntax =====
