@@ -1,0 +1,92 @@
+====== Parsing performance ======
+
+
+===== About =====
+
+When installing ''combo'', people may see a degradation in performance during the initial rendering of a page.
+
+This page explains why.
+
+===== Note of caution =====
+
+The measurements have been made on a development laptop with:
+  * Apache 2.4
+  * Without [[https://datacadamia.com/web/fastcgi|FastCGI]]
+  * On Windows
+  * With Php 7.2.4
+  * And Xdebug installed (debug instruction adds time)
+
+On a production Linux server, the latency measured is in the second range.
+
+===== Why ? =====
+
+Why do we get extra execution time after installing combo.
+
+==== Large Number of syntax components =====
+
+The one reason for the degradation is due to the [[https://www.dokuwiki.org/devel:parser|parser]].
+
+The execution time of the parser is a linear function of the number of [[https://www.dokuwiki.org/devel:syntax_plugins|syntax component]].
+
+Combo adds [[https://github.com/ComboStrap/combo/tree/main/syntax|95 components]].
+
+The more syntax, the more the parser takes time to build.
+
+In this snapshot, we can see that for a parsing (''get_instructions''), the process runs for 9 seconds where:
+  * the parser build takes 6 seconds (connect)
+  * the actual parse takes 2.5 second 
+
+{{:support:dokuwiki_parser_execution_time.jpg?700|}}
+
+==== No parse tree ====
+
+The second reason is that simple and still complex syntax components need to know where they are, in the page.
+
+For instance: the [[docs:content:heading|combo heading]] may be:
+  * a [[docs:navigation:outline|outline heading]] that will be found in the [[docs:navigation:toc|toc]]
+  * or just a component heading
+
+How does it know this fact?\\
+It checks if it is inside a component or not (in other words, if it has a parent)
+
+And unfortunately, this functionality is not embedded natively in DokuWiki. 
+  * The parse tree is not a tree but a list (an array)
+  * We can't jump to the parent, we need to read through the list
+  * When deleting, we delete in a list, we lost the internal array pointer, meaning we need to read the whole array back to position the pointer back.
+  * In the render function, we don't get the parse tree at all, we can't, therefore, adapt the output to the parent, we need to do that in the parse step (first request)
+
+The below snapshot shows that moving in the parse tree (called callstack in combo), takes up 1/3 of the execution time (3secs over 9)
+
+{{:support:dokuwiki_callstack_execution_time.jpg?580|}}
+==== Slot ====
+
+Combo offers [[docs:layout:page:slot|slot]] functionality that the user can modify on the fly (header, footer, ...).
+
+This functionality means that the parser needs to be used, adding execution time to the first request.
+
+===== Works in Progress and Solution =====
+
+To solve this problem, we are working on the ... ''parser''.
+
+By order of priority, we have:
+  * registering only one component that will dispatch to all [[docs:marki|marki components]] 
+  * creating a parser with a parse tree
+
+
+===== Data Profiling =====
+
+If you want to check, below are requests from the edit page that have been profiled.
+
+
+You can read them with any [[https://datacadamia.com/lang/php/profiler#analyze_with_a_xdebug_compatible_profiling_tool|Xdebug Profile Reader]]
+
+You can see that the more execution, the more time.
+
+^ Plugin ^ Configuration ^ Profile file ^ Server Time ^ Profile File Size (kb) ^
+| None | without cache | %%cachegrind.out.1671625103-D__dokuwiki_doku_php%% | 880ms | 5941 |
+| Combo | without cache, first request | %%cachegrind.out.1671625269-D__dokuwiki_doku_php%% | 7sec | 43734 |
+| Combo | with cache, second request | %%cachegrind.out.1671625714-D__dokuwiki_doku_php%% | 976 after upstart | 3543 |
+| Combo / strap | without cache, first request | %%cachegrind.out.1671625904-D__dokuwiki_doku_php%% | 10 second | 70652 |
+| Combo / strap | with cache, second request | %%cachegrind.out.1671626765-D__dokuwiki_doku_php%% | 822ms | 3974 |
+
+The files are available on this [[https://www.dropbox.com/s/w7c02mawvpw7csl/20221221-cachegrind.out.zip?dl=0|link]]

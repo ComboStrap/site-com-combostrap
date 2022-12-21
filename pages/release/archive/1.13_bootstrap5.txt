@@ -27,7 +27,7 @@ If you got any problem on this migration, don;'t hesitate to [[:support|open a t
   * [[https://getbootstrap.com/docs/5.0/layout/grid/#row-columns|Natural Auto Width for a grid column]] - we support it with the [[docs:layout:component:grid|row auto type]]
   * [[https://getbootstrap.com/docs/5.0/utilities/position/|Position]] more position utility class already supported (in Bootstrap version 4) via the [[release:beta:position|position attribute]].
   * [[docs:utility:jquery|JQuery]] is no more needed and Popper is included in one bundle.
-  * [[docs:styling:text-align|Text-align]] can now be applied conditionally by screen size
+  * [[release:deprecated:text-align|Text-align]] can now be applied conditionally by screen size
   * Supports for [[docs:locale:lang|RTL language]]. Example: Check this arabic page: [[docs:locale:lang_ar]]
   * The two new [[docs:content:heading|heading display style]] `d5` and `d6`
 
