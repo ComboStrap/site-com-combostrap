@@ -22,7 +22,7 @@ On a production Linux server, the latency measured is in the second range.
 
 Why do we get extra execution time after installing combo.
 
-==== Large Number of syntax components =====
+==== Large Number of syntax components ====
 
 The one reason for the degradation is due to the [[https://www.dokuwiki.org/devel:parser|parser]].
 
@@ -34,7 +34,7 @@ The more syntax, the more the parser takes time to build.
 
 In this snapshot, we can see that for a parsing (''get_instructions''), the process runs for 9 seconds where:
   * the parser build takes 6 seconds (connect)
-  * the actual parse takes 2.5 second 
+  * the actual parse takes 2.5 second
 
 {{:support:dokuwiki_parser_execution_time.jpg?700|}}
 
@@ -49,10 +49,10 @@ For instance: the [[docs:content:heading|combo heading]] may be:
 How does it know this fact?\\
 It checks if it is inside a component or not (in other words, if it has a parent)
 
-And unfortunately, this functionality is not embedded natively in DokuWiki. 
+And unfortunately, this functionality is not embedded natively in DokuWiki.
   * The parse tree is not a tree but a list (an array)
   * We can't jump to the parent, we need to read through the list
-  * When deleting, we delete in a list, we lost the internal array pointer, meaning we need to read the whole array back to position the pointer back.
+  * When deleting, we delete in a list, we lost the internal array pointer, meaning we need to read the whole array to position the pointer back.
   * In the render function, we don't get the parse tree at all, we can't, therefore, adapt the output to the parent, we need to do that in the parse step (first request)
 
 The below snapshot shows that moving in the parse tree (called callstack in combo), takes up 1/3 of the execution time (3secs over 9)
@@ -69,8 +69,9 @@ This functionality means that the parser needs to be used, adding execution time
 To solve this problem, we are working on the ... ''parser''.
 
 By order of priority, we have:
-  * registering only one component that will dispatch to all [[docs:marki|marki components]] 
+  * registering only one component that will dispatch to all [[docs:marki|marki components]]
   * creating a parser with a parse tree
+  * going to a language that is not a script (CGI), such as node so that the parser is created at start time and not each time.
 
 
 ===== Data Profiling =====
