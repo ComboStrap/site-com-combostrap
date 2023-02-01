@@ -13,20 +13,25 @@ TODO:
 <note important>
 === Breaking: We don't support php 7.2 and 7.3 ===
 
-Due to a bug in our dependencies, we have upgraded them and they are only available from 7.4.
+Due to a bug in our dependencies, we have upgraded them, and they are only available from 7.4.
 
-Because 7.2 and 7.3 are already end of life, we have taken the decision to upgrade.
+Because 7.2 and 7.3 are already end of life, we have taken the decision to upgrade and not support them anymore.
 </note>
 
 ===== Action =====
 
   * If you had a custom stylesheet set up, you need to move it to the combo library location
   * If you had custom strap, configuration, you need to set them on combo
-
+  * All empty tag should be closed.
+<code dw>
+<hr> should be written <hr/>
+<search> should be written <search/>
+</code>
 
 ===== Changes =====
 
 ==== New ====
+
   * The strap template has been deprecated.
   * Added the https://arcticons.com/ [[docs:content:icon|icon library]]
   * The ''txt'' mime is now authorized by default.
@@ -65,6 +70,7 @@ Because 7.2 and 7.3 are already end of life, we have taken the decision to upgra
   * The [[:docs:page:keywords|page keywords]] has variables.
 
 ==== Modification ====
+
 Because of too much confusion, the following name has been renamed:
   * The ''home page'' is now known as the [[docs:type:index|index page]]
   * The ''root page'' is now known as the [[docs:app:home|home page]]
@@ -75,8 +81,11 @@ The [[docs:layout:component:grid|Row component]] is now called a grid because:
   * you can define gutter between the children
 
 ==== Breaking ====
+
   * The suffix for the class is now ''cs'' for combostrap. It's smaller than ''combo'' and uses the same convention than bootstrap with ''bs''.
   * We support only php 7.4 (due to our dependencies), up to 8 (due to dokuwiki). More information, in the [[:support:requirement#php|requirement page]]
+  * The empty tag should be close (ie ''<hr>'' should be written ''<hr/>'', ie the HTML format has been deprecated for the XML format)
+
 ==== Improvement ====
 
   * When [[support:preserve|preserve style]] is set on svg, the svg is shown as an img to avoid style conflict.

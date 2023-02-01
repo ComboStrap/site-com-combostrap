@@ -34,16 +34,12 @@ You can add a horizontal rule with four or more dashes.
 ==== Super Set HTML ====
 We supports also the horizontal rule in a [[docs:marki|super set HTML syntax]].
 
-  * via the ''html''
-<code html>
-<hr>
-</code>
-  * and HTML- and XHTML-compatible  format
 <code html>
 <hr/>
 </code>
 
 You can [[docs:styling:styling|style]] them then as you wish.
+
 ===== Example =====
 ====  Wiki /  Markdown ====
 

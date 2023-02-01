@@ -9,8 +9,7 @@
             [[support?preview&color=secondary|Contact]]
             [[howto:howto?preview|HowTo]]
         </group>
-        <btn elevation="true">
-            <btn elevation="true">[[https://tower.combostrap.com/combo/app/list/registration?listGuid=lis-w8OZSK2|Subscribe]]</btn>
+        <btn elevation="true">[[https://tower.combostrap.com/combo/app/list/registration?listGuid=lis-w8OZSK2|Subscribe]]</btn>
         <search/>
     </collapse>
 </menubar>
