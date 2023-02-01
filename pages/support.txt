@@ -20,24 +20,28 @@ You will find below [[docs:layout:component:tabs|tabs]] with all communication c
 <tabs enclosed-tabs>
 
 <panel selected="true">
-<label>Announcement <icon name="bullhorn-variant" /></label>
+<label>Newsletter <icon name="bullhorn-variant" /></label>
 
+\\
 
-To get information about the new release, new features or new tutorials, you can subscribe to our newsletters by:
-  * [[support@combostrap.com?subject=subscribe|clicking on this link to create an email]] 
-  * and send it.
+Subscribe to our newsletters to get information about new releases, features, and tutorials.
 
+\\
+
+<button secondary>
+[[https://tower.combostrap.com/combo/app/list/registration?listGuid=lis-w8OZSK2|Subscribe]]
+</button>
 </panel>
 <panel>
 <label>Discussions <icon name="github" /></label>
 You can start a discussion on Github.
 
-<btn spacing="mt-3">[[https://github.com/ComboStrap/combo/discussions|Discussions]]</btn> 
+<btn spacing="mt-3">[[https://github.com/ComboStrap/combo/discussions|Discussions]]</btn>
 </panel>
 
 <panel>
 <label>Easy as an Email <icon name="email"/></label>
-Feel free to contact us 
+Feel free to contact us
 
 <button spacing="mt-3" elevation="true">[[support@combostrap.com]]</button>
 </panel>

@@ -55,3 +55,5 @@ Then you can:
   * Check the [[docs:component|UI Components]]
   * Learn about [[docs:router:router|Routing and redirections]]
   * Have a look at the [[docs:seo:seo|SEO page]]
+
+For more tips and tops, you can also [[https://tower.combostrap.com/combo/app/list/registration?listGuid=lis-w8OZSK2|subscribe]] to the newsletter.

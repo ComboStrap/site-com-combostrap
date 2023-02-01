@@ -4,11 +4,13 @@
     </brand>
     <collapse>
         <group expand="true">
+            [[docs:getting_started:getting_started?preview&color=secondary|Get Started]]
             [[:docs:docs?preview|Docs]]
             [[support?preview&color=secondary|Contact]]
             [[howto:howto?preview|HowTo]]
         </group>
-        <btn elevation="true">[[howto:getting_started:getting_started?preview|Get Started <icon name="arrow-right-drop-circle-outline" width="1.5rem"/>]]</btn>
+        <btn elevation="true">
+            <btn elevation="true">[[https://tower.combostrap.com/combo/app/list/registration?listGuid=lis-w8OZSK2|Subscribe]]</btn>
         <search/>
     </collapse>
 </menubar>

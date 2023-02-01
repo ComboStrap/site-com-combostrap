@@ -15,10 +15,10 @@
     <grid>
             <box spacing="ps-lg-5">
                <box>
-<heading d3 class="text-capitalize">Web Publication Platform Since 2010</heading>
-<text h3 class="text-capitalize" boldness="light">The leading web markup publication platform</text>
+<heading d3 class="text-capitalize">Create your professional website</heading>
+<text h3 class="text-capitalize" boldness="light">Web Publication Platform Since 2010</text>
 <text lead>
-Create website, publish landing pages, articles, how-to's, documentations or build your knowledge base with the power of the web and the simplicity of a markup language. 
+Create landing pages, articles, how-to's, documentation, or knowledge base with the power of the web and the simplicity of a markup language.
 </text>
                </box>
             </box>
@@ -205,22 +205,22 @@ The platform is open source, guarantee of sustainability and
            <icon name="heart" color="danger" width="3rem"/>
            <text h3 color="danger">97%</text>
            <text color="secondary">Happy clients</text>
-       </box>   
+       </box>
        <box>
            <icon name="bs:clock-fill" color="primary" width="3rem"/>
            <text h3 color="primary">365x7</text>
            <text color="secondary">Customer support</text>
-        </box>   
+        </box>
        <box>
            <icon name="bs:stack" color="warning" width="3rem"/>
            <text h3 color="warning">100+</text>
            <text color="secondary">Fresh components</text>
-        </box>   
+        </box>
        <box>
            <icon name="bs:file-richtext-fill" color="info" width="3rem"/>
            <text h3 color="info">300+</text>
            <text color="secondary">Documentation pages</text>
-        </box>   
+        </box>
 </grid>
 \\
 \\
