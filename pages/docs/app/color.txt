@@ -19,7 +19,7 @@ In ComboStrap, they are called:
   * ''primary''
   * ''secondary''
 
-The ''primary'' color is the color 
+The ''primary'' color is the color
   * displayed most frequently with the most importance
   * that should have the most lightness and saturation
 
@@ -42,7 +42,7 @@ When the color are set, they will take precedence:
   * and as color type.
 
 For instance, a [[docs:content:button|button]]:
-  * that has the ''primary'' type has default 
+  * that has the ''primary'' type has default
   * will take the ''primary'' color of this installation (ie ''#7611F7'')
 
 <webcode >
@@ -58,7 +58,7 @@ The branding color inheritance is a feature that will apply automatically the pr
   * [[docs:content:icon|icon]] (with a size above two [[docs:styling:scale|2rem]] or used as illustration)
   * [[docs:content:highlight|highlight]] (light based)
   * [[docs:content:link|link]] (gray based only in main content)
-  * [[docs:app:identity|identity forms button (login, register, resend, ...) ]]
+  * [[docs:app:identity|identity forms focus and button (login, register, resend, ...) ]]
 
 You can [[#disable_the_branding_color_inheritance|disable this feature in the configuration]].
 
