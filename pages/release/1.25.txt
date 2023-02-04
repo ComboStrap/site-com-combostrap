@@ -26,6 +26,7 @@ Because 7.2 and 7.3 are already end of life, we have taken the decision to upgra
 <code dw>
 <hr> should be written <hr/>
 <search> should be written <search/>
+<icon> should be written <icon/>
 </code>
 
 ===== Changes =====
