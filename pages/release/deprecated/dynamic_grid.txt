@@ -26,7 +26,7 @@ Deprecated in Bootstrap 5 because they have introduced a new [[docs:styling:brea
 This is a configuration that should be used only for Bootstrap 4. In Bootstrap 5, they have introduced a new [[docs:styling:breakpoint#bootstrap_5|bigger breakpoint called xxl]] that makes this configuration obsolete.
 </note>
 
-The default grid system of [[docs:utility:bootstrap|bootstrap]] is based on ''12 columns'' and does not really allow any space for a [[docs:layout:page:sidekick_slot|second sidebar]]
+The default grid system of [[docs:utility:bootstrap|bootstrap]] is based on ''12 columns'' and does not really allow any space for a [[release:deprecated:sidekick_slot|second sidebar]]
 
 ''strap'' supports a ''16 columns'' grid.
 
@@ -43,7 +43,7 @@ To change the grid size, set the following [[docs:app:configuration|configuratio
 === For the geek ===
 The 16 columns stylesheet set:
   *  the xl breakpoint from ''1200px'' to ''1280px''.
-  * the [[docs:layout:component:container|container]] max width for the xl breakpoint from ''1140px'' to ''1280px''.
+  * the [[docs:layout:page:container|container]] max width for the xl breakpoint from ''1140px'' to ''1280px''.
 See [[docs:styling:breakpoint]]
 </note>
 

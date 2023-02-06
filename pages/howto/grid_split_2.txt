@@ -15,7 +15,7 @@ By default, it will do it across:
   * 1 children in a [[:docs:styling:breakpoint|mobile screen (xs)]]
 
 
-Using tow children [[:docs:block:box|box]], the grid will split the horizontal space:
+Using tow children [[docs:layout:component:box|box]], the grid will split the horizontal space:
   * in two contingent box from a small screen and above
   * in two stacked box for a mobile screen
 
