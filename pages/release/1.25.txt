@@ -28,6 +28,7 @@ Because 7.2 and 7.3 are already end of life, we have taken the decision to upgra
 <search> should be written <search/>
 <icon> should be written <icon/>
 <breadcrumb> should be written <breadcrumb/>
+<page-image> should be written <page-image/>
 </code>
 
 ===== Changes =====
