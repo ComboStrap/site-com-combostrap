@@ -38,13 +38,14 @@ The channels supported are:
 Below, you can see a map of the share component with the parameters:
   * ''widget'': button (default) or link
   * ''icon'': Solid, Solid Circle, Outline, Outline Circle
-for all supported channel.
+for all supported channels.
 
 <brand-list type="share"/>
+
 ===== Syntax =====
 
 <code dw>
-<share 
+<share
     channel
     widget="button|link"
     name="name"
