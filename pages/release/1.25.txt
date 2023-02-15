@@ -30,6 +30,7 @@ Because 7.2 and 7.3 are already end of life, we have taken the decision to upgra
 <breadcrumb> should be written <breadcrumb/>
 <page-image> should be written <page-image/>
 </code>
+  * If you had a [[:docs:styling:scale|font size]] `Rem` configuration, you need to set it up again
 
 ===== Changes =====
 
