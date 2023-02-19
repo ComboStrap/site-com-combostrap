@@ -25,7 +25,7 @@ where:
   * ''function'' is one of:
       * [[#capitalize]] - make the first letter of each word a capital letter (ie uppercase letter)
       * [[#cut]] - cut the string in parts and return one
-      * [[#head]] - return the first characters
+      * [[#head]] - return the first words
       * [[#replace]] - replace a string
       * [[#rconcat]] - add a string at the right side
       * [[#trim]] - delete any space before and after
