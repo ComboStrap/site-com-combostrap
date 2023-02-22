@@ -1,8 +1,9 @@
 ---json
 {
-    "description": "Permalink are short links that will be permanently accessible even if the page is moved.",
+    "description": "Permalinks are short links that will be permanently accessible even if the page is moved.",
     "page_id": "g957ppa77acns18gpgxx8",
-    "title": "How to create a Permalink ?"
+    "title": "How to create a Permalink ?",
+    "canonical": "permalink"
 }
 ---
 
@@ -40,13 +41,13 @@ A generated permalink performs a [[docs:router:permanent|permanent redirection]]
 
 A named permalink is a link that uses the [[docs:page:canonical|canonical]] as [[docs:page:path|path]]
 
-Note that a [[docs:page:canonical|canonical]] is not a true permalink as it may be modified (It should not but you never know)
+Note that a [[docs:page:canonical|canonical]] is not a true permalink as it may be modified (It should not, but you never know)
 
 
 <webcode name="Default" frameborder="0">
   * You can add a named permalink in your page with the ''permalink'' component:
 <code dw>
-<permalink named/>
+<permalink named strict="false"/>
 </code>
   * The named permalink for this page is:
 </webcode>
@@ -58,8 +59,8 @@ Note that a [[docs:page:canonical|canonical]] is not a true permalink as it may 
 A named permalink performs a [[docs:router:permanent|permanent redirection]] to the [[docs:page:url|page url]].
 
 <note tip>
-For the named permalink, you can set a default canonical value with the [[docs:page:canonical_automatic|autocanonical feature]].
-It allows to use this feature without setting the [[docs:page:canonical|canonical value]] for each page.
+  * By adding ''strict=false'', no link is shown and no error is reported if a canonical is not present.
+  * For the named permalink, you can set a default canonical value with the [[docs:page:canonical_automatic|autocanonical feature]]. It allows to use this feature without setting the [[docs:page:canonical|canonical value]] for each page.
 </note>
 
 
