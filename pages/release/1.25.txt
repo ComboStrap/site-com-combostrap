@@ -74,6 +74,8 @@ Because 7.2 and 7.3 are already end of life, we have taken the decision to upgra
       * The page are easier to scan by [[:docs:seo:seo|search engine]] to discover the outline
   * The [[:docs:page:keywords|page keywords]] has variables.
   * The messages are shown via toaster.
+  * The event system deletes duplicate events.
+  * The meta mutation system is now on document level and takes into account backlink (ie reference mutation)
 
 ==== Modification ====
 
