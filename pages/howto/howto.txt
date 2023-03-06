@@ -29,12 +29,12 @@ This section regroups ''howto'' documentations.
     <grid max-line="3">
         <fragment>
             <box>
-               <box width="200px" align="center" clickable>
-                   <page-image path="$path" width="8rem" spacing="mb-3" align="center" />
+               <card width="200px" align="center" clickable>
+                   <page-image meta path="$path" width="8rem" spacing="mb-3" align="center" default="first|vignette|logo" />
                    <heading h4 spacing="mb-1">$title</heading>
                    <text><ibreadcrumb depth="1" color="muted"/></text>
                    <text>${description | head(100,"...")}[[$path| ]]</text>
-               </box>
+               </card>
             </box>
        </fragment>
     </grid>

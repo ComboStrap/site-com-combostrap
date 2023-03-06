@@ -4,10 +4,10 @@
     </brand>
     <collapse>
         <group expand="true">
-            [[docs:getting_started:getting_started?preview&color=secondary|Get Started]]
+            [[:howto:getting_started:getting_started?preview&color=secondary|Get Started]]
             [[:docs:docs?preview|Docs]]
-            [[support?preview&color=secondary|Contact]]
-            [[howto:howto?preview|HowTo]]
+            [[:support?preview&color=secondary|Contact]]
+            [[:howto:howto?preview|HowTo]]
         </group>
         <btn elevation="true">[[https://tower.combostrap.com/combo/app/list/registration?listGuid=lis-w8OZSK2|Subscribe]]</btn>
         <search/>
