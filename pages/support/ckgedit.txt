@@ -22,6 +22,14 @@ If you want to use ''CKGEdit'':
   * you need to [[docs:content:heading#headingWikiEnable|disable the dokuwiki heading]]
   * you can not use the [[docs:content:heading|combo heading syntax]]
 
+==== DokuWiki Image ====
+
+For the same reason, the [[:docs:content:image|image syntax]] will not work.
+
+If you want to use ''CKGEdit'':
+  * you need to [[docs:content:image#imageenable|disable the image tag]]
+  * you can not use any [[docs:content:heading|image syntax]]
+
 ==== Frontmatter ====
 ''CkgEdit'' is not compatible with the [[:docs:metadata:frontmatter|frontmatter]].
 It will see it as text and inject it into the HTML.
