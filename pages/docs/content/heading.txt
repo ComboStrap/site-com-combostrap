@@ -50,13 +50,13 @@ To facilitate the writing, you can use the following keyboard shortcuts:
       * ''alt+9'' for a level lower than the previous heading
       * ''alt+0'' for a level higher than the previous heading
 
-### Markdown 
+### Markdown
 
 
-The [[docs:utility:markdown|markdown]] atx heading start with 1 or more hashtag ''%%#%%'' characters. 
-  * The level 1 heading (the title) starts with #, 
-  * section headings with ##, 
-  * subheads with ###, 
+The [[docs:utility:markdown|markdown]] atx heading start with 1 or more hashtag ''%%#%%'' characters.
+  * The level 1 heading (the title) starts with #,
+  * section headings with ##,
+  * subheads with ###,
   * and so on.
 
 This is:
@@ -68,8 +68,8 @@ This is:
 # Headline Level 1 <icon name="bs:card-heading"/>
 ## Headline Level 2 <icon name="bs:card-heading"/>
 ### Headline Level 3
-#### Headline Level 4 
-##### Headline Level 5 
+#### Headline Level 4
+##### Headline Level 5
 ###### Headline Level 6
 </code>
 </webcode>
@@ -118,7 +118,10 @@ Example:
 ==== headingWikiEnable ====
 You can disable the [[#wiki|combo wiki heading]] and uses the standard dokuwiki syntax.
 
-It's used mainly if you use the [[support:include|include plugin]] to include section.
+It's used mainly if you want to use:
+  * the [[support:include|include plugin]] to include section.
+  * the [[support:ckgedit|ckgedit editor plugin]]
+
 
 
 

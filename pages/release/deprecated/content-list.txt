@@ -9,10 +9,9 @@
 
 ===== About =====
 The ''content-list'' component has been deprecated because it is a complex component
-that is almost never use except in a template where it needed a lot of customization.
+that is almost never used except in a template where it needed a lot of customization.
 
 If you need to do a complex list, you should implement it within a theme template.
-
 
 ===== Old information =====
 

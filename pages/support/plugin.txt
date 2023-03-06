@@ -111,6 +111,12 @@ The [[include|include plugin]] does not work out of the box, you need to disable
 
 For more information, we invite you to go to the dedicated page. [[include]].
 
+==== CkgEdit ====
+
+The [[ckdedit|ckdedit plugin]] works only with dokuwiki heading, you need then to disable the heading functionality.
+
+For more information, we invite you to go to the dedicated page. [[ckdedit]].
+
 ==== Typography ====
 
 

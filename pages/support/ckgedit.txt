@@ -1,0 +1,33 @@
+====== Support CKGEdit ======
+
+
+===== About =====
+The ''CKGEdit plugin'' is a [[plugin|external plugin]] that replaces the dokuwiki editor.
+
+
+===== Heading Syntax are not supported =====
+
+By default, the ''CKGEdit'' plugin returns the dokuwiki syntax
+for all plugins.
+
+Because we take over the dokuwiki heading, ''CKGEdit'' will then return:
+* %%====== Title ======%%
+* and not %%<h1>Title</h1>%%
+
+If you want to use ''CKGEdit'':
+  * you need to [[docs:content:heading#headingWikiEnable|disable the dokuwiki heading]]
+  * you can not use the [[docs:content:heading|combo heading syntax]]
+
+
+===== Code details =====
+
+The code responsible for this behavior is in [[https://github.com/turnermm/ckgedit/blob/master/action/edit.php#L1173|the action/edit.php file, line 1173]].
+<code php>
+foreach ( $instructions as $instruction ) {
+	 if ($instruction[0] == 'plugin') {
+		$Renderer->doc .= $instruction[1][3]; // here
+  } else {
+	   call_user_func_array(array(&$Renderer, $instruction[0]),$instruction[1]);
+  }
+}
+</code>
