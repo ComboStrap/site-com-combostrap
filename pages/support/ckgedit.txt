@@ -5,19 +5,26 @@
 The ''CKGEdit plugin'' is a [[plugin|external plugin]] that replaces the dokuwiki editor.
 
 
-===== Heading Syntax are not supported =====
+===== Not all syntaxes plugin are supported by CkgEdit =====
 
-By default, the ''CKGEdit'' plugin returns the dokuwiki syntax
-for all plugins.
+By default, the ''CKGEdit'' plugin does not handle plugins and returns the Dokuwiki syntax.
+This behavior unfortunately means that not all syntaxes are supported.
+
+Below, you can see the known effects but there may be more.
+
+==== DokuWiki Heading ====
 
 Because we take over the dokuwiki heading, ''CKGEdit'' will then return:
-* %%====== Title ======%%
-* and not %%<h1>Title</h1>%%
+  * ''%%====== Title ======%%''
+  * and not ''%%<h1>Title</h1>%%''
 
 If you want to use ''CKGEdit'':
   * you need to [[docs:content:heading#headingWikiEnable|disable the dokuwiki heading]]
   * you can not use the [[docs:content:heading|combo heading syntax]]
 
+==== Frontmatter ====
+''CkgEdit'' is not compatible with the [[:docs:metadata:frontmatter|frontmatter]].
+It will see it as text and inject it into the HTML.
 
 ===== Code details =====
 

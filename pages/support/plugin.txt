@@ -113,9 +113,9 @@ For more information, we invite you to go to the dedicated page. [[include]].
 
 ==== CkgEdit ====
 
-The [[ckdedit|ckdedit plugin]] works only with dokuwiki heading, you need then to disable the heading functionality.
+The [[ckgedit|ckdedit plugin]] does not work with all combo syntax.
 
-For more information, we invite you to go to the dedicated page. [[ckdedit]].
+For more information, we invite you to go to the dedicated page. [[ckgedit]].
 
 ==== Typography ====
 
