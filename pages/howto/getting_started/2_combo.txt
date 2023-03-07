@@ -11,9 +11,7 @@
 ====== ComboStrap Getting Started - Combo Installation ======
 
 ===== About =====
-''combo'' is a bundle of components that complements the [[:strap|strap template]].
-
-It contains:
+''combo'' contains all components:
   * the [[docs:component|collection of UI component]]
   * the [[docs:router:router|router]]
   * the [[docs:metadata:metadata|Page Metadata]]
@@ -46,24 +44,6 @@ To install the ''Combo'' plugin:
 
 {{howto:getting_started:sqlite_install_via_extension_manager.png|}}
 
-==== Disable the already included extensions ====
-<note warning>
-If you have already one of this extension:
-  * [[doku>plugin:404manager]]
-  * [[doku>plugin:webcomponent]]
-you need to disable them because they are already included in this installation.
-
-</note>
-Steps:
-  * Search the extension in the ''extension manager''
-  * And click the disable button (or uninstall)
-
-{{howto:getting_started:dokuwiki_disable_button_extension.png|}}
-
-
-<note tip>
-The ''combo'' term was chosen for this reason. It's just a ''combo''
-</note>
 
 ==== Do you have any other plugins ? ====
 
@@ -91,5 +71,5 @@ And to [[:support|send us the log of your webserver]] if you want us to take a l
 All good ? Well done, otherwise check the [[#do_you_have_any_other_plugins|other plugins section]] if you need to repair your installation.
 
 <btn>
-[[3_strap|Strap Installation]]
+[[4_plugin]]
 </btn>

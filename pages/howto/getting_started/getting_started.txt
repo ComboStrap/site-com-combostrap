@@ -22,7 +22,6 @@ This ''how-to'' guide regroups a serie of article to get you started.
 
   - [[1_dokuwiki]]
   - [[2_combo]]
-  - [[3_strap]]
   - [[4_plugin]]
   - [[6_favicon]]
   - [[7_menu]]
