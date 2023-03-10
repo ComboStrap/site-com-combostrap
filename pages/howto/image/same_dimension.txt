@@ -49,8 +49,11 @@ For instance, the page image has an intrinsic ratio of ''16:9'', we can change i
    <data>select where path like '%page-image' or path like '%howto'</data>
    <grid max-line=2>
    <fragment>
-      <box align="center-children">
-        <page-image ratio="4:3" height="200"/>
+      <box> <!-- Split the horizontal space in boxes -->
+        <box align="center text-center" width="200"> <!-- Create boxes of 200 in the split area and center them -->
+          <heading 3>${name}</heading>
+          <page-image ratio="4:3" height="200"/>
+        </box>
       </box>
    </fragment>
    </grid>

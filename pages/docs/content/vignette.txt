@@ -5,7 +5,6 @@
 ---
 ====== What is a Vignette ? ======
 
-
 ===== About =====
 A ''vignette'' is an [[:docs:content:page-image|illustrative image]] that is generated from:
   * the [[:docs:page:title|page title]], 
@@ -27,7 +26,6 @@ Example:
 </code>
   * Output:
 </webcode>
-
 
 ===== Usage =====
 

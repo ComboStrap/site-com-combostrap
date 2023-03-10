@@ -6,7 +6,7 @@ This [[:howto:howto|howto]] shows you how to split the horizontal space in two w
 
 
 
-The grid component split the horizontal space across its children.
+The [[:docs:layout:component:grid|grid component]] splits the horizontal space across its children.
 
 By default, it will do it across:
   * 4 children in a [[:docs:styling:breakpoint|large screen (lg)]]
@@ -15,7 +15,7 @@ By default, it will do it across:
   * 1 children in a [[:docs:styling:breakpoint|mobile screen (xs)]]
 
 
-Using tow children [[docs:layout:component:box|box]], the grid will split the horizontal space:
+Using two children [[docs:layout:component:box|box]], the grid will split the horizontal space:
   * in two contingent box from a small screen and above
   * in two stacked box for a mobile screen
 

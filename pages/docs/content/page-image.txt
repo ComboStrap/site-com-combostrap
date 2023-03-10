@@ -48,7 +48,7 @@ You may also choose a [[:docs:content:vignette|vignette]] as illustrative image
 <code dw>
 <page-image
    type="type"
-   default="meta|first|descendant|vignette|logo"
+   default="meta|first|ancestor|vignette|logo"
    path="path"
    linking="nolink|linkonly|direct|details"
 />
@@ -59,10 +59,10 @@ where
       * ''meta'' is the [[:docs:content:page-image|page image meta]] (default)
       * ''first'' is the first image of the page
       * ''vignette'' is the [[vignette|vignette]]
-      * ''descendant'' is the image found in the [[:docs:page:category|parent]] or any [[:docs:page:system|grand parent]]
+      * ''ancestor'' is the image found in the [[:docs:page:category|parent]] or any [[:docs:page:system|grand parent]]
       * ''logo'' is the [[:docs:app:logo|logo]]
       * ''none'' will not print any image (to use in the default sequence)
-  * ''default'' determines the default image type chosen in order of precedence (default to ''meta|first|descendant|vignette|logo|none'')
+  * ''default'' determines the default image type chosen in order of precedence (default to ''meta|first|ancestor|vignette|logo|none'')
   * ''linking'', see [[:docs:content:image#imagedefaultlinking|image linking]]
 
 

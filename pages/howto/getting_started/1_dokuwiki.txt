@@ -8,9 +8,9 @@
 ====== ComboStrap Getting Started - Dokuwiki Installation ======
 
 ===== About =====
-Because [[:combostrap|ComboStrap]] is build on the [[doku>|Dokuwiki Engine]], the first step is get it.
+Because [[:combostrap|ComboStrap]] is built on top of the [[doku>|Dokuwiki Engine]], the first step is to install it.
 
-This page steps you through this phase and how to install Dokuwiki.
+This page steps you through this phase of how to install Dokuwiki.
 
 
 ===== Steps =====

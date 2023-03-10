@@ -19,7 +19,6 @@ A ''page-explorer'' is a [[docs:navigation:navigation|navigational component]] t
 
 This component is mostly used in a [[docs:layout:page:side_slot|side slot]].
 
-
 ===== Example =====
 
 ==== Default List ====
@@ -123,10 +122,10 @@ where:
 ==== Templates ====
 
 The templates define the output of each node in the ''list'' or ''tree'' layout:
-    * ''page'' defines a [[howto:template|template]] for each page in the namespace
-    * ''index'' defines a [[howto:template|template]] for the [[docs:type:index|index page of the namespace]]
-    * ''namespace'' defines a [[howto:template|template]] for each child namespace of the actual namespace 
-    *  ''parent'' defines a [[howto:template|template]] for the [[docs:type:index|index page]] of the parent namespace of the actual namespace (used only in the [[#list|list layout]])
+    * ''page'' defines a  for each page in the namespace
+    * ''index'' defines a fragment for the [[docs:type:index|index page of the namespace]]
+    * ''namespace'' defines a fragment for each child namespace of the actual namespace 
+    *  ''parent'' defines a fragment for the [[docs:type:index|index page]] of the parent namespace of the actual namespace (used only in the [[#list|list layout]])
   
 
 The below image shows you the mapping between the tag and their location in a ''list''  layout.

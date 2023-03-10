@@ -20,7 +20,7 @@ Click on the ''Admin'' link to go to the [[doku>admin_window|Admin Window]]. ie 
 <tabs enclosed-tabs>
   <panel selected>
      <label>Strap Template</label>
-With the [[:strap|ComboStrap Template]]:
+With the [[release:deprecated:strap|ComboStrap Template]]:
 
 {{docs:analytics:admin_combo.png?150|}} 
   </panel>

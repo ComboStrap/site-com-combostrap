@@ -3,12 +3,12 @@
     "page_id": "lc8kidy1dpgubtwlwxjjk"
 }
 ---
+
+<heading h1>$title</heading>
 <breadcrumb/>
+<page-image height="250" default="parent"/>
 
 
 
-<grid>
-  <heading h1>$title</heading>
-  <page-image path="$path" height="250" default="parent"/>
-</grid>
+
 
