@@ -56,7 +56,7 @@ Because 7.2 and 7.3 are already end of life, we have taken the decision to upgra
       * conditional ratio unit (percentage and fraction) as width length on its cells.
       * conditional number of cells by line
   * The [[:docs:styling:dimension|width]] can now be defined conditionally based on the screen size.
-  * The [[:docs:lists:content-list|Content List]] component allows now to be numbered.
+  * The [[release:deprecated:content-list|Content List]] component allows now to be numbered.
   * [[:docs:templating:variable|Variable]] can now be used directly. The [[:release:deprecated:template|template component]] has been deprecated.
   * The [[:docs:layout:page:side_slot|Side Slot]] component are by default collapsed until the medium screen by setting the [[:docs:animation:toggle|toggle attribute]] to ''collapsed expanded-md''
   * Added the [[https://healthicons.org/|HealthICons]] library in the [[:docs:content:icon|Icon component]]
