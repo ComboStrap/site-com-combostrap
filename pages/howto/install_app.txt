@@ -1,0 +1,26 @@
+---json
+{
+    "name": "Install As Mobile App",
+    "page_id": "otgsbh3qj58lncro54yil"
+}
+---
+====== How a user can install your app on their home screen? ======
+
+===== About =====
+Combostrap applications are fully progressive [[:docs:app:app|web app]] and can therefore be installed on the home screen of any mobile or desktop.
+
+===== How to install on Mobile =====
+
+This section shows you how to add it to your home screen and use it as a native app. 
+
+On iOS:
+  * Open in Safari
+  * Navigate to your website Url
+  * Tap the share button, 
+  * Then tap ''Add to Home Screen.''
+
+On Android:
+  * Open Chrome,
+  * Navigate to your website Url 
+  * Tap the menu button 
+  * Then tap ''Add to Home Screen.''
