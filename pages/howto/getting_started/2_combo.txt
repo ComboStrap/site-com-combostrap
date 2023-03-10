@@ -12,10 +12,11 @@
 
 ===== About =====
 ''combo'' contains all components:
-  * the [[docs:component|collection of UI component]]
-  * the [[docs:router:router|router]]
-  * the [[docs:metadata:metadata|Page Metadata]]
-  * the [[docs:seo:seo|SEO module]]
+  * The [[docs:theme|theme]]
+  * The [[docs:component|collection of UI component]]
+  * The [[docs:router:router|router]]
+  * The [[docs:metadata:metadata|Page Metadata]]
+  * The [[docs:seo:seo|SEO module]]
   * and many more.
 
 

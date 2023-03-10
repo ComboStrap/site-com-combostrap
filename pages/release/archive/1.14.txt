@@ -70,7 +70,7 @@ The [[docs:content:heading|heading component]] supports also the ATX markdown he
 You can now analyse the syntax used in your page with the [[docs:analytics:statistics#syntax_count|syntax count]] analytics.
 
 ==== RTL and Component Language support ====
-  * New: support for RTL language at the page level, through the [[docs:locale:lang|lang metadata of frontmatter]], we apply now the right language and direction in the [[:strap|strap template]]. Example: [[docs:locale:lang_ar]]
+  * New: support for RTL language at the page level, through the [[docs:locale:lang|lang metadata of frontmatter]], we apply now the right language and direction in the [[release:deprecated:strap|strap template]]. Example: [[docs:locale:lang_ar]]
   * New: [[docs:locale:lang|Lang attribute]] to mix languages on the same page. Demo with English and Arabic languages: [[docs:locale:lang_ar]]
 
 ==== Credits page added  ====
@@ -108,7 +108,7 @@ To improve the glossary, the template ''bar'' has been renamed to [[docs:layout:
   * a bar (ie a GUI component) such as the menubar or toolbar
   * and a [[docs:layout:page:slot|slot]] (ie where content can be added in the template). 
 ==== A bootstrap template is no more mandatory ====
-Every template perfect: A bootstrap and [[:strap|strap]] template is no longer mandatory. If [[docs:utility:bootstrap|Bootstrap]] is not found, it will be added. The css of the template may conflict. This is the case for instance with the default Dokuwiki. In a button, this template sets the color of ''a:link'' and ''a:visited'' that takes precedence over the white text color and the text in the button is therefore not displayed. You need then to set the [[docs:styling:color|text color]] to ''white'' for each primary button.
+Every template perfect: A bootstrap and [[release:deprecated:strap|strap]] template is no longer mandatory. If [[docs:utility:bootstrap|Bootstrap]] is not found, it will be added. The css of the template may conflict. This is the case for instance with the default Dokuwiki. In a button, this template sets the color of ''a:link'' and ''a:visited'' that takes precedence over the white text color and the text in the button is therefore not displayed. You need then to set the [[docs:styling:color|text color]] to ''white'' for each primary button.
 
 ==== Brand ====
 [[docs:menubar:brand|brand]] is now a [[docs:marki|superset html component]] and allows all styling.

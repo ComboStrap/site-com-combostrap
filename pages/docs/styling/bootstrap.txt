@@ -23,7 +23,7 @@ If you want to modify the styling once, you can also do it via [[styling#attribu
 
 
 ===== Prerequisites =====
-  * [[:strap|Strap template]]
+  * [[release:deprecated:strap|Strap template]]
   * Install [[https://nodejs.org/en/download/|Node]]
   * Insatll [[https://git-scm.com/downloads|Git]]
 

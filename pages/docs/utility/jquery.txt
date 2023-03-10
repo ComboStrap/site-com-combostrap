@@ -8,7 +8,7 @@
 
 
 ===== About =====
-''jquery'' is available in the [[:strap|strap template]].
+''jquery'' is available in the [[release:deprecated:strap|strap template]].
 
 
 
