@@ -9,7 +9,7 @@
     <carrousel element-width="250px">
         <fragment>
             <card clickable>
-            <page-image path="$path" ratio="21:9" zoom="-6"/>
+            <page-image ratio="21:9"/>
             <heading h5> $title </heading>
             
             ${description | head(200, "...")} [[$path| ]]
@@ -27,7 +27,7 @@
     <carrousel element-width="250px">
         <fragment>
             <card clickable>
-            <page-image path="$path" ratio="21:9" zoom="-6"/>
+            <page-image ratio="21:9"/>
             <heading h5> $title </heading>
             
             ${description | head(200, "...")} [[$path| ]]
