@@ -27,18 +27,18 @@ If for any reason, you wanted to show up also the diagram definition, you can us
 
 ===== Syntax =====
 
-To render a mermaid diagram, you just need to enclose a [[docs:block:code|code block]] with [[https://mermaid-js.github.io/mermaid/#/|mermaid diagram definition language]] inside a ''mermaid'' block.
+To render a mermaid diagram, you just need to enclose a [[docs:block:code|code block]] with [[https://mermaid-js.github.io/mermaid/#/|mermaid diagram definition language]] inside a [[:docs:utility:webcode|webcode]] block.
 
 <note>
 Mermaid offers a [[https://mermaid-js.github.io/mermaid-live-editor|live editor]] that you can use to validate and develop your diagrams.
 </note>
 
 ```dw
-<mermaid>
+<webcode>
     <code mermaid display="none">
     ... mermaid diagram definition
     </code>
-</railroad>
+</webcode>
 ```
 
 <note>
@@ -47,11 +47,10 @@ Mermaid offers a [[https://mermaid-js.github.io/mermaid-live-editor|live editor]
 
 ===== Example =====
 
-
 <webcode name="State" frameborder="0">
   * With a [[docs:diagram:state|state diagram]]
 ```dw
-<mermaid>
+<webcode>
 <code mermaid>
 stateDiagram-v2
     Direction LR
@@ -62,7 +61,7 @@ stateDiagram-v2
     Moving --> Crash
     Crash --> [*]
 </code>
-</mermaid>
+</webcode>
 ```
   * Output:
 </webcode>
