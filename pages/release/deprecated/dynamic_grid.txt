@@ -5,7 +5,7 @@
 }
 ---
 
-====== Strap Template - Dynamic Grid System ======
+====== The Dynamic Grid System has been deprecated ======
 
 
 ===== About =====
