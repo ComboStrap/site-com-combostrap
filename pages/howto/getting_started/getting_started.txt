@@ -1,9 +1,13 @@
 ---json
 {
+    "aliases": [
+        { "path": ":docs:getting_started:getting_started" },
+        { "path": ":wiki:markup_docs:getting_started:getting_started" }
+    ],
     "description": "This page helps you to get started with ComboStrap",
     "name": "Get Started",
     "page_id": "3i8vga8fcduorja8f1sn4",
-    "title": "How to configure and get started with a ComboStrap website"
+    "title": "How to get started with ComboStrap ?"
 }
 ---
 
