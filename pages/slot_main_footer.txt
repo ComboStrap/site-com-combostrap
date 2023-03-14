@@ -47,3 +47,4 @@
 <brand github widget="link" url="https://github.com/ComboStrap/website/edit/master/pages/$path.txt" width="26"> Edit it yourself</brand> or <brand github url="https://github.com/ComboStrap/website/issues/new?title=Docs%20feedback:%20$path" width="26" widget="link"> Request a modification</brand>
 </box>
 </grid>
+
