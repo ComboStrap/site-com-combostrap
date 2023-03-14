@@ -2,7 +2,6 @@
 {
     "description": "We are here to help, don't hesitate to mail us. This page shows you also all other support channel on how to build a great website.",
     "h1": "ComboStrap - Where To Get Help",
-    "layout": "median",
     "page_id": "zqtp19gqha03gfcbc63ya",
     "title": "How to get help with ComboStrap"
 }
@@ -22,11 +21,8 @@ You will find below [[docs:layout:component:tabs|tabs]] with all communication c
 <panel selected="true">
 <label>Newsletter <icon name="bullhorn-variant" /></label>
 
-\\
 
 Subscribe to our newsletters to get information about new releases, features, and tutorials.
-
-\\
 
 <button secondary>
 [[https://tower.combostrap.com/combo/app/list/registration?listGuid=lis-w8OZSK2|Subscribe]]

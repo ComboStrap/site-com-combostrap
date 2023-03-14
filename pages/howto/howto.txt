@@ -5,6 +5,7 @@
     "images": [
         { "path": ":howto:undraw_animating.svg" }
     ],
+    "layout": "root-item",
     "low_quality_page": "false",
     "page_id": "oqwozv8l2vhi5otajvukr",
     "title": "How to use the ComboStrap platform"
