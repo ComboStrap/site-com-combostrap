@@ -1,7 +1,6 @@
 ---json
 {
     "description": "Credits to all library and framework that makes ComboStrap a reality",
-    "layout": "median",
     "page_id": "mytry5lj0yohabkj63k55",
     "title": "ComboStrap Library Credits"
 }
@@ -9,16 +8,12 @@
 ====== ComboStrap - Credits ======
 
 
-<row>
-<cell vertical="center" text-align="center">
+
 [[combostrap|Combostrap]] is built on the shoulders of amazing pieces of software and illustrations. This page gives them credits.
-</cell>
-<cell>
-{{:undraw_create.svg|}}
-</cell>
-</row>
 
+{{ :undraw_create.svg?600 |}}
 
+\\
 
 ^ Software / Library / Image ^ Usage ^
 | [[https://dokuwiki.org|Dokuwiki]] | This is the wiki engine that powers the creation and parsing of the page |

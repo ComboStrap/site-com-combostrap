@@ -6,9 +6,9 @@
 ====== ComboStrap UI - Hierarchical Breadcrumb ======
 
 
+
 ===== About =====
 A ''Hierarchical Breadcrumb'' is a [[docs:navigation:breadcrumb|breadcrumb]] that shows where the page is located in the [[:docs:page:system|page system tree]] in hierarchical order.
-
 
 
 Combostrap offers two type of hierarchical breadcrumb:
