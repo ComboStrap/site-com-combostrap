@@ -5,10 +5,10 @@
     "title": "What is a side slot ? "
 }
 ---
-====== Strap - Side Slot ======
+====== Sidebar ======
 
 ===== About =====
-The ''side slot'' is a [[docs:theme:slot:slot|slot]] that is located by default at the left side of the [[docs:theme:slot:main|content]].
+The ''sidebar'' is a [[docs:theme:slot:slot|slot]] that is located by default at the left side of the [[docs:theme:slot:main|content]].
 
 
 

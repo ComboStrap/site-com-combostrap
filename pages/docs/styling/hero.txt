@@ -6,7 +6,7 @@
 
 
 An hero is just a UX design term that refers to an oversized component such as:
-  * the section of a [[docs:theme:slot:landing|landing page]]
+  * the section of a [[howto:landing-page|landing page]]
   * a [[docs:theme:slot:main_header_slot|page content header]]
 
 They adds extra [[:docs:styling:emphasis|emphasis (attention)]] to their content by adding large [[:docs:styling:spacing#padding|padding space]] around it.

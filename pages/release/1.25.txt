@@ -89,6 +89,8 @@ The [[docs:layout:component:grid|Row component]] is now called a grid because:
   * the children may be laid out on more than one line
   * you can define gutter between the children
 
+The ''layout'' metadata has been renamed to ''template''.
+
 ==== Breaking ====
 
   * The suffix for the class is now ''cs'' for combostrap. It's smaller than ''combo'' and uses the same convention than bootstrap with ''bs''.

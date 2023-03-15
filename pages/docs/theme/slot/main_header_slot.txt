@@ -29,7 +29,7 @@ where:
   * ''page-image'' is a [[docs:content:page-image|illustrative page image]]
 
 ===== Usage =====
-  * A ''main header'' applies only to specific [[docs:theme:slot:page|page layout]].
+  * A ''main header'' applies only to specific [[docs:theme:template:template|page layout]].
   * When a ''main header'' is applied, to not show duplicate [[:docs:content:heading|heading 1]], all content to [[:docs:content:heading|heading 2]] is deleted.
   
 

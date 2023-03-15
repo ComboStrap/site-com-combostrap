@@ -8,7 +8,7 @@ The ''page system'' is a system that organize the [[docs:theme:template:template
 
 ===== Example =====
 
-With the [[docs:page:path|page path]] '':foo:bar:world''
+With the [[docs:page:system:path|page path]] '':foo:bar:world''
 
 | its ''name'' | is the default [[docs:page:name|page name]] | ''world'' |
 | its ''container'' | is the [[namespace|namespace]] | '':foo:bar:'' |
@@ -26,7 +26,7 @@ The following components are based on the page system:
 ===== Characteristics =====
 
 The characteristics of the ''page system'' are:
-  * every page has a hierarchical [[docs:page:path|path]] (composed of names separated by semi-colon '':'').
+  * every page has a hierarchical [[docs:page:system:path|path]] (composed of names separated by semi-colon '':'').
   * the namespace of a page is the path of the page without the last name.
   * the parent of a page is the [[docs:page:system:index|index page]] of the namespace.
 

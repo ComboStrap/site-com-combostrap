@@ -10,7 +10,7 @@
 The ''main footer slot'' is a [[slot|slot]] located at the top of the [[main|main content]].
 
 
-A main footer slot applies to all pages except the [[docs:app:home|root page]].
+A main footer slot applies to all pages except the [[docs:page:system:home|root page]].
 
 ===== How to create a main footer slot ? =====
 

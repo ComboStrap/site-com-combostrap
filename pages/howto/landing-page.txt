@@ -1,0 +1,93 @@
+---json
+{
+    "aliases": [
+        { "path": ":docs:layout:page:landing" },
+        { "path": ":docs:theme:slot:landing" }
+    ],
+    "dynamic_quality_monitoring": "false",
+    "low_quality_page": "false",
+    "page_id": "5bq069mko4jwthoktoo0h"
+}
+---
+====== How to create a landing page? ======
+
+
+
+===== About =====
+This article shows you how to create a landing page with the [[:docs:marki|markup component]]
+
+A ''landing page'' is a page with big horizontal sections that shows off your product or services.
+
+
+===== Steps =====
+
+
+==== Choosing the landing template ====
+For your page, you should first choose the [[:docs:theme:template:landing|landing value]] as [[:docs:theme:template:template|template]] for your page
+in the [[:docs:metadata:manager|metadata manager]].
+
+
+{{:howto:landing-template-value.jpg|}}
+
+
+
+
+
+==== Adding bar sections ====
+
+Within Combostrap, you can design a landing page by adding one or more [[:docs:layout:component:bar|bar component]].
+
+You can style them with:
+  * a [[:docs:styling:hero|hero spacing]]
+  * the [[:docs:styling:dimension|height attribute]]
+  * and a [[:docs:layout:component:grid|grid layout]] (to arrange the horizontal space)
+
+
+Each bar will then create a section of the page where you may add:
+  * separator 
+  * or [[docs:styling:background|background]] to distinguish them
+
+
+
+
+Example:
+<webcode name="Default" frameborder="0">
+<code dw>
+<bar hero="lg" height="60vh">
+    <background color="light"/>
+    <grid>
+            <box align="x-center y-center">
+{{ :undraw_content_creator.svg?500&nolink |}}
+            </box>
+            <box spacing="ps-lg-5">
+               <box>
+                 <heading d3 class="text-capitalize">Heading</heading>
+                 <text h3 class="text-capitalize" boldness="light">SubHeading</text>
+                 <text lead>
+                    Lead text
+                 </text>
+               </box>
+            </box>
+    </grid>
+</bar>
+
+<bar hero="lg" height="60vh">
+   <background opacity="0.7">{{:woman-yoga-sunset.jpg|}}</background>
+   <box width="300px" align="text-center" color="secondary">
+       <heading h1>Section 2</heading>
+       <text lead>Lead text </text>
+       [[howto:getting_started:getting_started?preview=false|<icon name="bs:play-circle-fill" width="3.75rem" color="secondary"/>]]
+   </box>
+</bar>
+</code>
+</webcode>
+
+==== More ====
+
+To get a more complete example, you can check the [[https://github.com/ComboStrap/website/blob/master/pages/start.txt|home page of this website]].
+
+
+===== Advanced Landing Page in HTML =====
+
+For the advanced user, you can also create a landing page with HTML by creating a [[:docs:theme:template:template|handlebars template]]
+

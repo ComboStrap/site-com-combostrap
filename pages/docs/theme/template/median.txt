@@ -1,0 +1,17 @@
+====== Median Template ======
+
+
+===== About =====
+''median'' is a [[docs:theme:template:template|template]] that implements a layout that emphasizes readability by:
+  * centering the main content
+  * with a fixed width (making the length of a line shorter).
+
+It's the default template for all home [[:docs:page:system:item|item pages]] (ie pages without [[docs:page:system:namespace|namespace]])
+
+===== Slot =====
+
+The [[:docs:theme:slot:side_slot|sidebar]] is not shown.
+
+
+
+

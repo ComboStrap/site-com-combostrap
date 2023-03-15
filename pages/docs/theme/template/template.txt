@@ -24,9 +24,9 @@
 ComboStrap supports the following layouts
 
 ^ Layout ^ Description ^
-| [[holy]] | The holy-grail layout |
-| [[#median]] | A layout that improves readability by constraining and centering the content |
-| [[#landing]] | A layout to create a landing page for the [[docs:page:system:home|home page]] |
+| [[holy|Holy]] | The holy-grail layout |
+| [[median|Median]] | A layout that improves readability by constraining and centering the content |
+| [[landing|Landing]] | A layout to create landing pages |
 | [[#index]] | A layout to create a semi-landing page for the [[docs:page:system:index|index pages]] |
 | [[#hamburger]] | The default layout of admin pages (without sides)|
 
@@ -35,32 +35,9 @@ ComboStrap supports the following layouts
 
 
 
-==== Median ====
-
-The median is a layout that emphasizes readability by:
-  * centering the main content
-  * with a fix width (making the length of a line shorter).
-
-It's the default layout for all root pages (ie pages without [[docs:page:system:namespace|namespace]])
-
-The page side is not shown.
 
 
 
-
-
-
-
-==== Landing ====
-
-The landing layout is the default layout of the [[docs:page:system:home|home page]].
-
-In a landing page layout:
-  * the main content is not [[docs:theme:slot:container|contained]]
-  * the page header, the page footer, the main content are shown
-  * the sides page and main, the main header and footer, the [[:docs:navigation:toc|toc]] are not shown
-
-To know more about landing page, see the dedicated page: [[..:slot:landing]]
 
 
 ==== Hamburger ====
