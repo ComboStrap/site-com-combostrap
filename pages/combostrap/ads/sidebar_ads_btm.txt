@@ -4,7 +4,7 @@
 An [[docs:ads:ad|ad tag]] is all what you need.
 
 It's a syntax component that insert an ''ad'' in
-your page or in a [[:docs:layout:page:slot|slot]].
+your page or in a [[docs:theme:slot:slot|slot]].
 
 This one was added in the [[:strap:sidebar|sidebar]]
 of the [[docs:ads:ads|Ads]] namespace.

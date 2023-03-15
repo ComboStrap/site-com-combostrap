@@ -1,0 +1,96 @@
+---json
+{
+    "canonical": ":template",
+    "description": "This article talks about template and layout management and how it can be defined by page.",
+    "name": "Template",
+    "page_id": "9tl87hg8coopjktg8chkh",
+    "title": "What is a template ?"
+}
+---
+====== What is a template and how to apply a layout? ======
+
+<blockquote align="text-center center" width="fit-content" >
+**Layouts are important.**
+
+{{:strap:layout_funny.png?300|}}
+</blockquote>
+
+
+===== About =====
+
+
+
+
+ComboStrap supports the following layouts
+
+^ Layout ^ Description ^
+| [[holy]] | The holy-grail layout |
+| [[#median]] | A layout that improves readability by constraining and centering the content |
+| [[#landing]] | A layout to create a landing page for the [[docs:page:system:home|home page]] |
+| [[#index]] | A layout to create a semi-landing page for the [[docs:page:system:index|index pages]] |
+| [[#hamburger]] | The default layout of admin pages (without sides)|
+
+
+===== List =====
+
+
+
+==== Median ====
+
+The median is a layout that emphasizes readability by:
+  * centering the main content
+  * with a fix width (making the length of a line shorter).
+
+It's the default layout for all root pages (ie pages without [[docs:page:system:namespace|namespace]])
+
+The page side is not shown.
+
+
+
+
+
+
+
+==== Landing ====
+
+The landing layout is the default layout of the [[docs:page:system:home|home page]].
+
+In a landing page layout:
+  * the main content is not [[docs:theme:slot:container|contained]]
+  * the page header, the page footer, the main content are shown
+  * the sides page and main, the main header and footer, the [[:docs:navigation:toc|toc]] are not shown
+
+To know more about landing page, see the dedicated page: [[..:slot:landing]]
+
+
+==== Hamburger ====
+
+The hamburger is the default layout for any admin page.
+
+A hamburger will show only three layers:
+  * the page header
+  * the main (header, content and footer)
+  * the page footer
+
+There is no page side.
+
+
+==== Index ====
+
+An ''index'' is a landing page for a [[docs:page:system:namespace|namespace]].
+
+It shows:
+  * the page header and footer
+  * the main content
+  * the page side
+
+It does not show:
+  * the [[:docs:navigation:toc|table of content]]
+  * the main header and footer
+  * the sidekick
+===== How to set the page layout ? =====
+
+You can set the page layout via the [[docs:metadata:manager|metadata manager]].
+
+
+{{docs:theme:slot:page_layout_metadata_manager.png|}}

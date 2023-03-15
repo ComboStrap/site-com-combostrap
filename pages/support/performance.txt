@@ -60,7 +60,7 @@ The below snapshot shows that moving in the parse tree (called callstack in comb
 {{:support:dokuwiki_callstack_execution_time.jpg?580|}}
 ==== Slot ====
 
-Combo offers [[docs:layout:page:slot|slot]] functionality that the user can modify on the fly (header, footer, ...).
+Combo offers [[docs:theme:slot:slot|slot]] functionality that the user can modify on the fly (header, footer, ...).
 
 This functionality means that the parser needs to be used, adding execution time to the first request.
 

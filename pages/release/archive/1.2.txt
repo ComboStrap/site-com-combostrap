@@ -11,19 +11,19 @@
 ===== Change list =====
 
 The version 1.2 is a big template improvement release:
-  * The [[docs:layout:page:footer_slot|footerbar]] is no longer constrained in width.
+  * The [[docs:theme:slot:footer_slot|footerbar]] is no longer constrained in width.
   * Implementation of the [[docs:layout:component:grid|grid component]]
-  * The [[docs:layout:page:container|container]] is now a [[docs:marki|superset HTML component]]
+  * The [[docs:theme:slot:container|container]] is now a [[docs:marki|superset HTML component]]
   * You can now set a [[docs:styling:color#gradient|background color gradient]].
   * The [[release:deprecated:footer|footer]] element was created.
-  * The [[:strap|strap template]] applies now a ''dokuwiki'' class on the whole page in order to be able to have [[doku>Dokuwiki]] styling such as [[doku>interwiki|interwiki icon]] in the footer.
+  * The [[release:deprecated:strap|strap template]] applies now a ''dokuwiki'' class on the whole page in order to be able to have [[doku>Dokuwiki]] styling such as [[doku>interwiki|interwiki icon]] in the footer.
   * The [[docs:performance:frontend_optimization|template CSS]] can now be [[docs:performance:frontend_optimization#preload|preloaded]]
   * The [[release:deprecated:dynamic_grid|dynamic grid]] was added with a 16 grid system
-  * A [[docs:styling:bootstrap|custom bootstrap theme]] can now be added
+  * A [[howto:bootstrap-custom|custom bootstrap theme]] can now be added
   * The [[release:deprecated:sidekick_slot|sidekickbar]] was added
-  * The [[docs:layout:page:railbar|toolbar]] can now be private
+  * The [[docs:theme:slot:railbar|toolbar]] can now be private
   * The [[docs:content:inote|inote component]] (inline note) was created.
   * The [[docs:performance:cdn|CDN feature]] has now its own page and is also tested
-  * A [[docs:utility:jquery|Jquery]] and [[docs:utility:bootstrap|Bootstrap]] page were added
+  * A [[docs:utility:jquery|Jquery]] and [[docs:theme:bootstrap|Bootstrap]] page were added
   * The [[docs:menubar:menubar|navbar]] now supports completely the ''Bootstrap'' options.
   * The [[docs:menubar:fixed-top|fixed-top navbar]] has now a page and is fully dynamically configurable.

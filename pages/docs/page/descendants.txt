@@ -2,7 +2,7 @@
 
 
 ===== About =====
-''Descendant pages'' are [[docs:layout:page:page|pages]] that have the same or a higher [[docs:page:level|level]] than the current page in the [[docs:page:system|page system]].
+''Descendant pages'' are [[docs:theme:slot:page|pages]] that have the same or a higher [[docs:page:level|level]] than the current page in the [[docs:page:system|page system]].
 
 
 

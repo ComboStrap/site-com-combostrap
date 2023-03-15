@@ -1,0 +1,54 @@
+---json
+{
+    "canonical": ":page:path",
+    "description": "The page path metadata is the full qualified path of a page that can be used in link",
+    "name": "Page Path",
+    "page_id": "hpdh5ouge3pjl41r7mwmz",
+    "title": "The page path metadata"
+}
+---
+====== ComboStrap Metadata - Page Path ======
+
+
+
+===== About =====
+The ''path'' is an identifier for a page in the [[system|page system]]. 
+
+It represents the fully qualified path in a wiki form (ie the path separator is a '':'' colon)
+
+You can't set a path, the path is protected [[docs:metadata:metadata|page metadata]].
+
+It can be seen in:
+  * the [[docs:analytics:data|analtyics data file]].
+  * the [[docs:metadata:manager|metadata manager]]
+
+This metadata is known as [[doku>pagename]] for Dokuwiki.
+
+===== Usage =====
+
+==== In a page content ====
+
+A path can be used as [[docs:templating:variable|variable]]:
+  * in the page itself 
+  * or in a [[:docs:templating:iterator|fragment]] 
+
+You can create [[docs:content:link|links]] for instance:
+
+<webcode name="Default" frameborder="0">
+<code dw>
+The path of this page is ''$path'' and you can use it in a link: [[$path|link to this page]]
+</code>
+  * Output:
+</webcode>
+
+==== In a template ====
+
+You can also use it in a [[:docs:theme:template:template|theme template]] as variable.
+
+<code handlebars>
+{{ path }}
+</code>
+
+===== Analytics =====
+
+By default, this is the value that is reported in a third analytics tool such as [[docs:analytics:google_analytics|Google Analytics]] but you can use the [[docs:page:canonical#google analytics|permanent canonical path]] instead.

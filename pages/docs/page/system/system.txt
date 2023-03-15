@@ -3,7 +3,7 @@
 
 
 ===== About =====
-The ''page system'' is a system that organize the [[docs:layout:page:page|pages]] in a hierarchical fashion.
+The ''page system'' is a system that organize the [[docs:theme:template:template|pages]] in a hierarchical fashion.
 
 
 ===== Example =====
@@ -12,9 +12,9 @@ With the [[docs:page:path|page path]] '':foo:bar:world''
 
 | its ''name'' | is the default [[docs:page:name|page name]] | ''world'' |
 | its ''container'' | is the [[namespace|namespace]] | '':foo:bar:'' |
-| its ''parent page'' | is the [[docs:type:index|index page]] | '':foo:bar:start'' or ''foo:bar:bar'' |
-| its ''grand parent page'' | is the [[docs:type:index|index page]] | '':foo:start'' or '':foo:foo'' |
-| its ''grand grand parent page'' | is the [[:docs:app:home|home page]] | '':start'' |
+| its ''parent page'' | is the [[docs:page:system:index|index page]] | '':foo:bar:start'' or ''foo:bar:bar'' |
+| its ''grand parent page'' | is the [[docs:page:system:index|index page]] | '':foo:start'' or '':foo:foo'' |
+| its ''grand grand parent page'' | is the [[docs:page:system:home|home page]] | '':start'' |
 
 
 ===== Usage =====
@@ -28,7 +28,7 @@ The following components are based on the page system:
 The characteristics of the ''page system'' are:
   * every page has a hierarchical [[docs:page:path|path]] (composed of names separated by semi-colon '':'').
   * the namespace of a page is the path of the page without the last name.
-  * the parent of a page is the [[docs:type:index|index page]] of the namespace.
+  * the parent of a page is the [[docs:page:system:index|index page]] of the namespace.
 
 On the file system:
   * a page is a text file

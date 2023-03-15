@@ -9,6 +9,6 @@
 ===== About =====
 ''strap'' was the template of [[:combostrap|ComboStrap]] and is no more used since the version [[release:1.25|Release 1.25]].
 
-  * It has been enhanced by the [[:docs:theme|theme feature]]. 
+  * It has been enhanced by the [[docs:theme:theme|theme feature]]. 
   * It's no more needed to install the [[doku>template:strap|strap template]] to get all template functionalities.
 

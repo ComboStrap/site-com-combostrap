@@ -12,7 +12,7 @@
 ===== About =====
 This page is talking about the cache management of a page.
 
-A page is composed of [[docs:layout:page:slot|slot]] (a primary and one or more secondary) and each slot rendering goes into the cache until:
+A page is composed of [[docs:theme:slot:slot|slot]] (a primary and one or more secondary) and each slot rendering goes into the cache until:
   * its content has changed
   * its [[docs:metadata:metadata|metadata]] has changed
   * any [[docs:app:configuration|app configuration]] has changed
@@ -43,7 +43,7 @@ You can read more on the [[doku>config:cachetime|Dokuwiki dedicated page]].
 
 ===== Monitoring =====
 
-In the [[viewer|cache viewer]], you can see all cache hit or miss for the [[docs:layout:page:slot|slots]].
+In the [[viewer|cache viewer]], you can see all cache hit or miss for the [[docs:theme:slot:slot|slots]].
 
 
 For each slot, you can see the cache:

@@ -12,9 +12,9 @@ The ''ad tag'' is a syntax component of the [[ads|ads module]] that will insert 
 
 ===== Example =====
 
-For instance, if you want to add a ''Ad'' in the top of the [[docs:layout:page:side_slot|side slot]], you would:
+For instance, if you want to add a ''Ad'' in the top of the [[docs:theme:slot:side_slot|side slot]], you would:
   * create a [[page|ad page]] called ''sideSlotTop''
-  * and add it in your [[docs:layout:page:side_slot|side slot]] with the following syntax
+  * and add it in your [[docs:theme:slot:side_slot|side slot]] with the following syntax
 <webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
 <code dw>
 <ad name="sideSlotTop"/>

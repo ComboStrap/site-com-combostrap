@@ -8,7 +8,7 @@
 ====== Strap - Side Slot ======
 
 ===== About =====
-The ''side slot'' is a [[docs:layout:page:slot|slot]] that is located by default at the left side of the [[docs:layout:page:main|content]].
+The ''side slot'' is a [[docs:theme:slot:slot|slot]] that is located by default at the left side of the [[docs:theme:slot:main|content]].
 
 
 

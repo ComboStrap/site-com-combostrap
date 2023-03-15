@@ -12,15 +12,15 @@
 ''slot'' are placeholders in the template that are filled with the content of a markup / wiki file.
 
 ComboStrap supports the following slots:
-  * the [[docs:layout:page:main|primary slot (known also as main)]], the slot that contains the main content of the page
+  * the [[docs:theme:slot:main|primary slot (known also as main)]], the slot that contains the main content of the page
   * the secondary slots, the slots that are optional to create a page.
 
 The table below lists all supported secondary slots and their type.
 
 ^ Name ^ Location ^ Slot Type ^
-| [[docs:layout:page:side_slot|side slot]] | at the left side of the primary slot | Page |
-| [[docs:layout:page:header_slot|header slot]] | at the top of a page | Page |
-| [[docs:layout:page:footer_slot|footer slot]] | at the bottom of a page | Page |
+| [[docs:theme:slot:side_slot|side slot]] | at the left side of the primary slot | Page |
+| [[docs:theme:slot:header_slot|header slot]] | at the top of a page | Page |
+| [[docs:theme:slot:footer_slot|footer slot]] | at the bottom of a page | Page |
 | [[release:deprecated:sidekick_slot|sidekick slot]] | at the right of the primary slot | Content |
 | [[main_header_slot|main header slot]] | at the top of the primary slot | Content |
 | [[main_footer_slot|main footer slot]] | at the bottom of the primary slot | Content |
@@ -30,13 +30,13 @@ The table below lists all supported secondary slots and their type.
 
 ===== Secondary Slots Usage =====
 
-You can list, edit or create secondary slots with the [[docs:layout:page:slot_manager|slot manager]].
+You can list, edit or create secondary slots with the [[docs:theme:slot:slot_manager|slot manager]].
 
 The secondary slot works like that:
-  * if you want to fill the [[docs:layout:page:side_slot|side slot]] for the whole website, you would create the ''side slot'' page at the root of the [[docs:page:system|page system]] (by default the ''sidebar'' page)
-  * if you want to fill the [[docs:layout:page:side_slot|side slot]] only  for a specific [[docs:page:namespace|namespace]], you would create the  ''side slot'' page under this namespace (for instance: ''namespace:sidebar'')
+  * if you want to fill the [[docs:theme:slot:side_slot|side slot]] for the whole website, you would create the ''side slot'' page at the root of the [[docs:page:system|page system]] (by default the ''sidebar'' page)
+  * if you want to fill the [[docs:theme:slot:side_slot|side slot]] only  for a specific [[docs:page:namespace|namespace]], you would create the  ''side slot'' page under this namespace (for instance: ''namespace:sidebar'')
 
-The [[docs:layout:page:slot_manager|slot manager]] shows you where you can create this slots.
+The [[docs:theme:slot:slot_manager|slot manager]] shows you where you can create this slots.
 
 
 Features:

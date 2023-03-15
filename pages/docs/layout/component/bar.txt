@@ -1,7 +1,7 @@
 ---json
 {
     "description": "They are use to slice a page into section",
-    "page_id" : "b2kmejezc3p4cu4n9c51m",
+    "page_id": "b2kmejezc3p4cu4n9c51m",
     "title": "A bar is a horizontal region of a page"
 }
 ---
@@ -16,7 +16,7 @@ Visually, the division can be done through the use of a:
 
 ''bar'' are used:
   * in the [[:slot_footer|page footer]]
-  * or in [[:docs:layout:page:landing|landing page]].
+  * or in [[docs:theme:slot:landing|landing page]].
 
 
 
@@ -74,7 +74,7 @@ where:
   * ''background'' is the optional [[docs:styling:background|background definition]]
 
 <note>
-  * ''bar'' is a container component and will follow the [[docs:layout:page:container|layout container configuration]]
+  * ''bar'' is a container component and will follow the [[docs:theme:slot:container|layout container configuration]]
   * This is also an [[docs:marki|super HTML component]] and accepts therefore all [[docs:styling:styling|styling attributes]]
 </note>
 

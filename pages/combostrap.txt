@@ -1,25 +1,25 @@
 ---json
 {
-    "canonical":"combostrap",
-    "title":"ComboStrap - The publishing platform",
-    "description":"ComboStrap is a publishing platform, with markdown like based syntax and the power of Bootstrap",
-    "layout":"median",
-    "type":"Product",
+    "canonical": "combostrap",
+    "description": "ComboStrap is a publishing platform, with markdown like based syntax and the power of Bootstrap",
     "json-ld": {
-    "name": "ComboStrap",
-        "image": "https://combostrap.com/_media/apple-touch-icon.png",
+        "name": "ComboStrap",
+        "image": "https:\/\/combostrap.com\/_media\/apple-touch-icon.png",
         "description": "ComboStrap is a publication platform that creates Bootstrap frontend website such a document, corporate or personal website with markdown like syntax",
         "brand": {
-          "@type": "Brand",
-          "name": "ComboStrap"
+            "@type": "Brand",
+            "name": "ComboStrap"
         },
-       "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "0",
-    "priceCurrency": "USD"
-  }
-      }
+        "offers": {
+            "@type": "Offer",
+            "availability": "https:\/\/schema.org\/InStock",
+            "price": "0",
+            "priceCurrency": "USD"
+        }
+    },
+    "layout": "median",
+    "title": "ComboStrap - The publishing platform",
+    "type": "Product"
 }
 ---
 
@@ -70,15 +70,15 @@ It contains most of the UI and functional components such as:
 
 ''strap'' is the template component that supports the following features:
 
-  * [[docs:utility:bootstrap|Last bootstrap version (4)]]
-  * [[docs:styling:bootstrap|Custom Bootstrap Styleshet (create and add your own)]]
+  * [[docs:theme:bootstrap|Last bootstrap version (4)]]
+  * [[howto:bootstrap-custom|Custom Bootstrap Styleshet (create and add your own)]]
   * [[docs:performance:cdn|Serve the Bootstrap files by default from a CDN]]
-  * Supports [[docs:layout:page:slot|4 slots]] layout
-      * [[docs:layout:page:side_slot|Side slot]] (left)
+  * Supports [[docs:theme:slot:slot|4 slots]] layout
+      * [[docs:theme:slot:side_slot|Side slot]] (left)
       * [[release:deprecated:sidekick_slot|Sidekick slot]] (right)
-      * [[docs:layout:page:header_slot|Header slot]] (top)
-      * [[docs:layout:page:footer_slot|Footer slot]] (bottom)
-  * [[docs:layout:page:railbar|Aggregate toolbar (Page, User Site) with a private option]]
+      * [[docs:theme:slot:header_slot|Header slot]] (top)
+      * [[docs:theme:slot:footer_slot|Footer slot]] (bottom)
+  * [[docs:theme:slot:railbar|Aggregate toolbar (Page, User Site) with a private option]]
   * Support [[docs:app:tagline|tagline]]
   * [[docs:menubar:fixed-top|Fixed-top menubar with automatic top page location correction]]
   * Support a [[docs:navigation:historical_breadcrumb|trailing breadcrumb]]

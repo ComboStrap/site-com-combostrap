@@ -17,7 +17,7 @@ This is the release documentation of the ComboStrap version 1.25.
 The main information is that this release brings:
   * two new slots:
       * the [[:slot_main_footer|main footer]] (below the main content slot)
-      * the [[docs:layout:page:main_header_slot|main header]] (above the main content slot)
+      * the [[docs:theme:slot:main_header_slot|main header]] (above the main content slot)
   * a [[docs:layout:component:carrousel|carrousel layout]] (with image gallery)
   * [[docs:content:lightbox|a image Lightbox]]
   * [[docs:social:share|social share]] and [[docs:social:follow|follow buttons]]
@@ -32,14 +32,14 @@ This are the actions that you need to take:
 
 ===== List =====
 ==== New ====
-  * New documentation for the [[docs:layout:page:main|main slot]] (content)
+  * New documentation for the [[docs:theme:slot:main|main slot]] (content)
   * Two new slots:
-      * the [[docs:layout:page:main_header_slot|main header slot]] at the top of the main slot
-      * the [[docs:layout:page:main_footer_slot|main footer slot]] at the bottom of the main slot
+      * the [[docs:theme:slot:main_header_slot|main header slot]] at the top of the main slot
+      * the [[docs:theme:slot:main_footer_slot|main footer slot]] at the bottom of the main slot
   * The [[docs:navigation:hierarchical_breadcrumb|hiearchical breadcrumb]] has now its own syntax component.
   * The [[release:deprecated:hierarchical_breadcrumb|hierachical breadcrumb in the renderer]] is deprecated.
   * Added a lot of [[docs:content:icon#library|Icon Libraries]] from elegant theme, IconScout, Iconoir, Core Ui Brand, ... to eva icons 
-  * You can now add more than [[docs:social:share|Share Buttons]] for instance in the [[docs:layout:page:footer_slot|footer slot]]
+  * You can now add more than [[docs:social:share|Share Buttons]] for instance in the [[docs:theme:slot:footer_slot|footer slot]]
   * We have added a [[support:preserve|preserve]] attribute to overwrite the [[docs:performance:svg_optimization|default svg optimization]] on style. More ... see [[support:preserve]]
   * You can now set your [[docs:app:color|branding colors (primary and secondary)]] that brings a more cohesive styling on all solid component (filled)
   * The [[docs:content:icon|icon]] is now [[docs:app:color|branding color aware]]. It will take by default the color:

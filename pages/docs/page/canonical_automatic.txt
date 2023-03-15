@@ -15,7 +15,7 @@ This feature provides a default value to the [[docs:router:router|router]] for t
 It allows therefore a [[docs:router:permalink#named|named permalink redirect based on the canonical]].
 
 <note info>
-There is no automatic canonical created for the [[docs:layout:page:slot|slots]] as they are not intended to be accessed directly.
+There is no automatic canonical created for the [[docs:theme:slot:slot|slots]] as they are not intended to be accessed directly.
 </note>
 
 

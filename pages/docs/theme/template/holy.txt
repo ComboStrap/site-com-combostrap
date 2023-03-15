@@ -1,0 +1,30 @@
+====== The Holy template ======
+
+
+===== About =====
+
+The holy [[docs:theme:template:template|template]] is the fully responsive layout known also as the ''holy grail'' with:
+  * a page header and footer
+  * a content header and footer
+  * a sidebar
+
+
+The main content width expands to the width of the page if the sidebar is not present.
+
+This is the default layout for a [[docs:page:system:item|page item]].
+
+===== Custom =====
+
+You can custom it with:
+  * a [[docs:theme:slot:header_slot|page header slot]]
+  * a [[docs:theme:slot:footer_slot|page footer slot]]
+  * and three columns:
+      * [[docs:theme:slot:side_slot|left slot (page side)]]
+      * [[..:slot:main|main slot (ie content)]] (main header and footer slot)
+
+===== Containment =====
+
+They are all [[docs:theme:slot:container|contained]] in a page that is:
+  * centered 
+  * with a width adjusted by screen size (by breakpoint)
+

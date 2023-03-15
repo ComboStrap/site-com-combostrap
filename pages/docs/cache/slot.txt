@@ -15,7 +15,7 @@
 
 
 ===== About =====
-The [[docs:layout:page:slot|slots]] (ie [[docs:layout:page:side_slot|side]] content are always up-to-date and does not require to disable the [[docs:cache:page_expiration_frequency|page cache]], increasing [[docs:performance:performance|performance]].
+The [[docs:theme:slot:slot|slots]] (ie [[docs:theme:slot:side_slot|side]] content are always up-to-date and does not require to disable the [[docs:cache:page_expiration_frequency|page cache]], increasing [[docs:performance:performance|performance]].
 
 
 <note>
@@ -28,7 +28,7 @@ If you have any [[https://www.dokuwiki.org/caching|%%~~NOCACHE~~%%]] instruction
 The syntax components advertise cache dependencies to the cache system.
 
 For instance:
-  * if you have a [[docs:navigation:page-explorer|page-explorer list]] in the [[docs:layout:page:side_slot|side]]
+  * if you have a [[docs:navigation:page-explorer|page-explorer list]] in the [[docs:theme:slot:side_slot|side]]
   * the cache system knows that if a page is added or deleted, it should re-render the side slot in the background.
 
 <note>

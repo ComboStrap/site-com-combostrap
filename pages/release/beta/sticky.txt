@@ -12,7 +12,7 @@
 ''sticky'' is a property of a [[docs:block:block|block component]] that will stick their position to the [[#page top|top of your page]].
 
 
-This component are generally in aside [[docs:layout:page:slot|bar]] such as the [[docs:layout:page:side_slot|sidebar]] or [[release:deprecated:sidekick_slot|sidekickbar]].
+This component are generally in aside [[docs:theme:slot:slot|bar]] such as the [[docs:theme:slot:side_slot|sidebar]] or [[release:deprecated:sidekick_slot|sidekickbar]].
 
 Sticky blocks are perceived much better by visitors than unfixed widgets and therefore they have a significantly higher click-through rate.
 

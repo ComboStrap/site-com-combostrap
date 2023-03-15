@@ -13,7 +13,7 @@ The [[..:release|release]] ''1.13'' was focus on the creation of ''landing page'
 
 
 <note important>
-Due to [[release:archive:1.13_bootstrap5|introduction of Bootstrap 5 in this release]], a configuration update is require. As the bootstrap version and the stylesheet are now in the same [[docs:utility:bootstrap#configuration|configuration]], you need after the update to set it back to your [[docs:styling:stylesheet|preferred stylesheet]] back.
+Due to [[release:archive:1.13_bootstrap5|introduction of Bootstrap 5 in this release]], a configuration update is require. As the bootstrap version and the stylesheet are now in the same [[docs:theme:bootstrap#configuration|configuration]], you need after the update to set it back to your [[docs:styling:stylesheet|preferred stylesheet]] back.
 
 
 {{:strap:bootstrapversionstylesheet.png|}}
@@ -60,8 +60,8 @@ New: [[release:archive:1.13_bootstrap5|Bootstrap 5]] is now the default. Read mo
 
 ==== Layout ====
   * New: ''auto'' layout is supported on a [[docs:layout:component:grid|grid]] where the columns takes the natural width of their content and never overflow.
-  * New: If there is no [[docs:layout:page:slot|bar]], the main content is centered with a  max length of 9 cols.
-  * New: A [[docs:layout:page:page|Layout]] by page can be specified. 
+  * New: If there is no [[docs:theme:slot:slot|bar]], the main content is centered with a  max length of 9 cols.
+  * New: A [[docs:theme:slot:page|Layout]] by page can be specified. 
 
 ==== Security ====
 
@@ -81,7 +81,7 @@ Markup perfect means that there is no need to tweak the output via styling.
   * New: ''Edit'' button have been added for [[docs:block:card|card]], [[docs:layout:component:panel|panel]] and [[release:deprecated:slide|slide]] making it easier to edit them.
   * New: [[docs:block:text|Typo]] - the title styling class ''display-1'' to ''display-6'' are now responsive on Bootstrap 4
   * Update: The test are testing now that the HTML generation is ''XHMTL'' compliant. This is no more done with the hand.
-  * New: ''Bootstrap perfect'': We generate exactly the same markup than [[docs:utility:bootstrap|bootstrap]]. [[docs:block:card|card]] and [[docs:block:blockquote|blockquote]] have now bootstrap paragraph with the ''text'' class making them easier to read.
+  * New: ''Bootstrap perfect'': We generate exactly the same markup than [[docs:theme:bootstrap|bootstrap]]. [[docs:block:card|card]] and [[docs:block:blockquote|blockquote]] have now bootstrap paragraph with the ''text'' class making them easier to read.
   * New: Template Protection: We empty the php buffer before printing and send a message to admin user. Otherwise, plugins that print directly may mess the page completely.
   * Improvement: For boolean attributes such as ''selected'' for a [[docs:layout:component:tabs|panel tab]], this is no more needed to specify the value. ie ''selected'' is equivalent to ''selected=true''
   * Improvement: A [[docs:block:note|note]] is now markup perfect (a stack) and accepts paragraph inside

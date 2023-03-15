@@ -1,27 +1,42 @@
 ====== Theme ======
 
 
+{{:docs:theme:undraw_dark_mode_2xam.svg?0x300|}}
+
 ===== About =====
 A ''theme'' designs your entire [[:docs:app:app|website app]].
 
 
+===== Template =====
 
-===== Default theme =====
+A theme is composed of several templates that design a layout.
 
-It supports the following features:
+===== Slot System for =====
 
-  * [[docs:utility:bootstrap|Last bootstrap version (5)]]
-  * [[docs:styling:bootstrap|Custom Bootstrap Stylesheet (create and add your own)]]
-  * [[docs:performance:cdn|Serve the Bootstrap files by default from a CDN]]
-  * Supports several [[docs:layout:page:page|page layout]] and 4 [[docs:layout:page:slot|slots]]:
-      * [[docs:layout:page:side_slot|Sidebar]] (left)
+  * Supports several [[docs:theme:slot:page|page layout]] and 4 [[docs:theme:slot:slot|slots]]:
+      * [[docs:theme:slot:side_slot|Sidebar]] (left)
       * [[release:deprecated:sidekick_slot|Sidekickbar]] (right)
-      * [[docs:layout:page:header_slot|Headerbar]] (top)
-      * [[docs:layout:page:footer_slot|Footerbar]] (bottom)
-  * [[docs:layout:page:railbar|Railbar Menu (Page, User Site) with a private option]]
+      * [[docs:theme:slot:header_slot|Headerbar]] (top)
+      * [[docs:theme:slot:footer_slot|Footerbar]] (bottom)
+
+===== Template System for advanced design =====
+
+===== Features =====
+
+All themes support the following features:
+
+  * [[docs:theme:bootstrap|Last bootstrap version (5)]]
+  * [[howto:bootstrap-custom|Custom Bootstrap Stylesheet (create and add your own)]]
+  * [[docs:performance:cdn|Serve the Bootstrap files by default from a CDN]]
   * Support [[docs:app:tagline|tagline]]
   * [[docs:styling:scale|Size Scale configuration (font and spacing)]]
   * [[howto:getting_started:6_favicon|Favicon]]: Recognized the [[howto:getting_started:6_favicon|favicons]]  (included ''android-chrome-192x192.png'')
   * [[docs:utility:shortcut]]
+  * [[docs:theme:slot:railbar|Railbar Menu (Page, User Site) with a private option]]
+
+
+
+
+
 
 

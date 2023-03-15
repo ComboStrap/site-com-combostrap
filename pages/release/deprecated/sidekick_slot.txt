@@ -7,7 +7,7 @@
 ====== Strap Template - Sidekick Slot ======
 
 ===== About =====
-The ''sidekick slot'' has been deprecated for the [[docs:layout:page:main_side_slot|main side slot]].
+The ''sidekick slot'' has been deprecated for the [[docs:theme:slot:main_side_slot|main side slot]].
 
 
 

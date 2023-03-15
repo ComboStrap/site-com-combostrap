@@ -8,7 +8,7 @@
 ===== About =====
 ''dropdown'' is a [[docs:component|component]] that shows a ''dropdown menu''.
 
-It must be placed inside a [[docs:menubar:group|group]] element of the [[docs:menubar:menubar|menubar]] that you will find at the top of your page in a [[docs:layout:page:header_slot|header slot]]
+It must be placed inside a [[docs:menubar:group|group]] element of the [[docs:menubar:menubar|menubar]] that you will find at the top of your page in a [[docs:theme:slot:header_slot|header slot]]
 
 This component accepts as entry a series of link. If the linked page does not exist, it will be rendered in red.
 ===== Example =====

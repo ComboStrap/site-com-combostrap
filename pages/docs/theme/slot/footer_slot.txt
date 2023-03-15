@@ -8,14 +8,14 @@
 ====== ComboStrap - Page Footer Slot ======
 
 ===== About =====
-The ''page footer slot'' is the [[docs:layout:page:slot|slot]] that is located at the bottom of a page that contains the footer of the [[page|page]].
+The ''page footer slot'' is the [[docs:theme:slot:slot|slot]] that is located at the bottom of a page that contains the footer of the [[page|page]].
 
 It's also known as a ''fat footer'' and contains generally information about the [[docs:app:app|web site]].
 
 ===== Example =====
 With:
   * two columns in one row of the [[docs:layout:component:grid|grid]]
-  * inside a [[docs:layout:page:container|container]] to limit the horizontal space
+  * inside a [[docs:theme:slot:container|container]] to limit the horizontal space
   * inside a [[release:deprecated:footer|footer]] to style the background with a [[docs:styling:color#gradient|gradient color]] and a little bit of [[docs:styling:spacing|spacing]]
 
 

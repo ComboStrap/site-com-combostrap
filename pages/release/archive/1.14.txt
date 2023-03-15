@@ -24,12 +24,12 @@ We missed it in the test case, sorry.
 <note important>
 #### Bar renamed to slot
 
-The bar configurations were changed and renamed to [[docs:layout:page:slot|slot]]. The new release should take care of the migration but if
-there is any problem during the migration, you may not see your header, footer or sidebar. If this is the case, you should just set the value in your [[docs:layout:page:slot|slot configuration]]
-  * [[docs:layout:page:side_slot|side slot]]
+The bar configurations were changed and renamed to [[docs:theme:slot:slot|slot]]. The new release should take care of the migration but if
+there is any problem during the migration, you may not see your header, footer or sidebar. If this is the case, you should just set the value in your [[docs:theme:slot:slot|slot configuration]]
+  * [[docs:theme:slot:side_slot|side slot]]
   * [[release:deprecated:sidekick_slot|sidekick slot]]
-  * [[docs:layout:page:header_slot|header slot]]
-  * [[docs:layout:page:footer_slot|footer slot]]
+  * [[docs:theme:slot:header_slot|header slot]]
+  * [[docs:theme:slot:footer_slot|footer slot]]
 </note>
 ===== New =====
 
@@ -51,7 +51,7 @@ there is any problem during the migration, you may not see your header, footer o
 
 
 ==== Page Layout: Landing Page ====
-  * New [[docs:layout:page:page|page layout]]: ''landing'' in order to create landing page with section of page created with the [[release:deprecated:slide|slide component]]
+  * New [[docs:theme:slot:page|page layout]]: ''landing'' in order to create landing page with section of page created with the [[release:deprecated:slide|slide component]]
 
 ==== Markdown Code Syntax ====
   * new: The [[docs:block:code|code]] component supports also the [[docs:block:code#markdown|markdown github code syntax]]
@@ -104,11 +104,11 @@ In [[docs:marki|html super set language]], this is no more needed for an attribu
 
 ==== The template Bar has been renamed slot ====
 
-To improve the glossary, the template ''bar'' has been renamed to [[docs:layout:page:slot|slot]]. This is to be abel to make the difference between:
+To improve the glossary, the template ''bar'' has been renamed to [[docs:theme:slot:slot|slot]]. This is to be abel to make the difference between:
   * a bar (ie a GUI component) such as the menubar or toolbar
-  * and a [[docs:layout:page:slot|slot]] (ie where content can be added in the template). 
+  * and a [[docs:theme:slot:slot|slot]] (ie where content can be added in the template). 
 ==== A bootstrap template is no more mandatory ====
-Every template perfect: A bootstrap and [[release:deprecated:strap|strap]] template is no longer mandatory. If [[docs:utility:bootstrap|Bootstrap]] is not found, it will be added. The css of the template may conflict. This is the case for instance with the default Dokuwiki. In a button, this template sets the color of ''a:link'' and ''a:visited'' that takes precedence over the white text color and the text in the button is therefore not displayed. You need then to set the [[docs:styling:color|text color]] to ''white'' for each primary button.
+Every template perfect: A bootstrap and [[release:deprecated:strap|strap]] template is no longer mandatory. If [[docs:theme:bootstrap|Bootstrap]] is not found, it will be added. The css of the template may conflict. This is the case for instance with the default Dokuwiki. In a button, this template sets the color of ''a:link'' and ''a:visited'' that takes precedence over the white text color and the text in the button is therefore not displayed. You need then to set the [[docs:styling:color|text color]] to ''white'' for each primary button.
 
 ==== Brand ====
 [[docs:menubar:brand|brand]] is now a [[docs:marki|superset html component]] and allows all styling.
@@ -126,7 +126,7 @@ Every template perfect: A bootstrap and [[release:deprecated:strap|strap]] templ
 ==== Grid ====
   * The ''col'' tag of the [[docs:layout:component:grid|grid]] is now known as ''cell'' which makes much more sense as you can have several cell that  on several line.
 ==== Bar becomes slot ====
-  * To not confound with the ''bar'' term as ui component, the ''bar'' of the strap template has been renamed to [[docs:layout:page:slot|slot]]
+  * To not confound with the ''bar'' term as ui component, the ''bar'' of the strap template has been renamed to [[docs:theme:slot:slot|slot]]
 
 ==== Navbar becomes menubar ====
 The ''navbar'' has also be renamed to [[docs:menubar:menubar|menu bar]] that convey much more it's functionality (being an horizontal bar with dropdown).

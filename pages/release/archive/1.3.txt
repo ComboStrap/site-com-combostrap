@@ -13,6 +13,6 @@
 
   * [[docs:styling:dimension|Component sizing on height]] gets now an ''overflow:auto'' which bootstrap didn't take into account.
   * [[:support|New support page]] with [[https://twitter.com/combostrapweb|twitter account]], stackoverflow and spectrum.
-  * A [[docs:layout:component:container|container]] can now contain a whole page and keeps the [[docs:navigation:toc|TOC intact]]
+  * A [[docs:theme:slot:container|container]] can now contain a whole page and keeps the [[docs:navigation:toc|TOC intact]]
   * Added a [[:support|support]] page
   * [[docs:navigation:breadcrumb|Breadcrumbs]] were made ''bootstrap'' aware and the documentation has improved.

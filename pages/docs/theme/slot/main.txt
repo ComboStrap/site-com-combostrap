@@ -8,7 +8,7 @@
 
 
 ===== About =====
-In the [[page|page layout]], the ''page main slot'' is a [[docs:layout:page:slot|slot]]  where the content of your page is rendered. 
+In the [[page|page layout]], the ''page main slot'' is a [[docs:theme:slot:slot|slot]]  where the content of your page is rendered. 
 
 
 

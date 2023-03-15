@@ -42,4 +42,4 @@ Example:
 </webcode>
 
 ===== Usage =====
-The category is printed on the [[:docs:content:vignette|vignette]] and can be used to create a [[:docs:layout:page:header_slot|page header]].
+The category is printed on the [[:docs:content:vignette|vignette]] and can be used to create a [[docs:theme:slot:header_slot|page header]].

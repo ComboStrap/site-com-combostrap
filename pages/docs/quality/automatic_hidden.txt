@@ -9,7 +9,7 @@
 ===== About =====
 
 The [[:combostrap|combo plugin]] automatically [[docs:quality:hidden|hides]]:
-  * the [[docs:layout:page:slot|slots]]
+  * the [[docs:theme:slot:slot|slots]]
   * the ''combostrap'' private namespace (where [[docs:content:icon|icons]] and other internal component are saved)
 
 

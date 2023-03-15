@@ -9,7 +9,7 @@
 
 
 ===== About =====
-This article shows you how to create and install your own custom [[stylesheet|Bootstrap Stylesheet (theme)]] to fit your [[styling|styling]] needs.
+This article shows you how to create and install your own custom [[docs:styling:stylesheet|Bootstrap Stylesheet (theme)]] to fit your [[docs:styling:styling|styling]] needs.
 
 <note info>
   * This article was written for Bootstrap 4 but the steps should be relatively the same for Bootstrap 5
@@ -17,7 +17,7 @@ This article shows you how to create and install your own custom [[stylesheet|Bo
 </note>
 
 <note tip>
-If you want to modify the styling once, you can also do it via [[styling#attributes|attributes]]
+If you want to modify the styling once, you can also do it via [[docs:styling:styling#attributes|attributes]]
 </note>
 
 
@@ -34,7 +34,7 @@ If you want to modify the styling once, you can also do it via [[styling#attribu
 <code bash>
 git clone https://github.com/twbs/bootstrap.git
 </code>
-  * Get the last [[docs:utility:bootstrap#version|Combostrap Bootstrap version]]. Example for Bootstrap version 4.5.0
+  * Get the last [[docs:theme:bootstrap#version|Combostrap Bootstrap version]]. Example for Bootstrap version 4.5.0
 <code bash>
 cd bootstrap
 git checkout -b version4.5.0 v4.5.0
@@ -165,7 +165,7 @@ Example:
 </code>
 
 === change the bootstrapStylesheet configuration ===
-The last step is to change the [[docs:utility:bootstrap#bootstrapStylesheet]] configuration.
+The last step is to change the [[docs:theme:bootstrap#bootstrapStylesheet]] configuration.
 
 
 ===== Documentation =====

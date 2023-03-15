@@ -11,7 +11,7 @@
 ---
 
 ===== About =====
-An ''index'' page is the page shown when a [[docs:page:namespace|namespace]] is asked in the [[docs:page:url|URL]] or [[docs:content:link|link]] path.
+An ''index'' page is the page shown when a [[docs:page:system:namespace|namespace]] is asked in the [[docs:page:url|URL]] or [[docs:content:link|link]] path.
 
 ===== Example =====
 
@@ -43,13 +43,13 @@ On this website, this SQL will select the following pages.
 <iterator>
     <data>select where is_index = 1 order by path asc limit 4</data>
 ^ Path ^
-<template>
+<fragment>
 | [[$path|$path]] |
-</template>
+</fragment>
 </iterator>
 
 ===== WebSite Home Page =====
-The website home page is a special index page that has its own documentation : [[docs:app:home]]
+The website home page is a special index page that has its own documentation : [[docs:page:system:home]]
 
 
 

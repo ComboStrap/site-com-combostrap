@@ -8,7 +8,7 @@ A ''landing page'' is a page with big horizontal sections that shows off your pr
 
 ===== How to create a landing page ? =====
 
-Within Combostrap, you can create a landing page by adding one or more [[:docs:layout:component:bar|bar component]] in your [[:docs:layout:page:main|main slot]].
+Within Combostrap, you can create a landing page by adding one or more [[:docs:layout:component:bar|bar component]] in your [[docs:theme:slot:main|main slot]].
 
 
 Each bar will then create a section of page where you may add:

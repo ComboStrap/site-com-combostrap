@@ -1,0 +1,12 @@
+====== Page Item ======
+
+
+===== About =====
+A ''page item'' in the [[system|page system]] is a page that is not an [[docs:page:system:index|index]].
+
+===== Default template =====
+
+The default [[docs:theme:template:template|template]] for a page item is:
+  * ''home-item'': for a page item located closed to the [[docs:page:system:home|home page]] (at the root)
+  * ''base-item'': for all other page items (implementing the [[:docs:theme:template:holy|holy template]])
+

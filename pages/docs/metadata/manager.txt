@@ -17,7 +17,7 @@ The ''metadata manager'' permits to see and modify [[metadata|page metadatas]].
 
 ===== Access =====
 
-You can access it via the [[docs:layout:page:railbar|railbar]]
+You can access it via the [[docs:theme:slot:railbar|railbar]]
 
 {{:docs:metadata:metadata_manager_railbar.png?200|}}
 

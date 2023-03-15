@@ -13,7 +13,7 @@ The ''toc (table of content)'' gives to the reader an overview of your page by s
 
 ===== Page Layout Element =====
 
-The ''toc'' is an element or not of the [[:docs:layout:page:page|page layout]].
+The ''toc'' is an element or not of the [[docs:theme:slot:page|page layout]].
 
 This sections discuss what you can do if the toc is part of not of the page layout.
 
@@ -21,14 +21,14 @@ This sections discuss what you can do if the toc is part of not of the page layo
 
 ==== When the toc is part of the page layout ====
 
-When the ''toc'' is part of a [[:docs:layout:page:page|page layout]], it will be shown but you can't delete the TOC with the standard ''%%~~NOTOC~~%%'' token of [[doku>toc|Dokuwiki]]. 
+When the ''toc'' is part of a [[docs:theme:slot:page|page layout]], it will be shown but you can't delete the TOC with the standard ''%%~~NOTOC~~%%'' token of [[doku>toc|Dokuwiki]]. 
 
 Why ? Because if the TOC is deleted, the layout will be broken.
 
 
 ==== When the toc is not part of the page layout ====
 
-When the TOC is not part of a [[:docs:layout:page:page|page layout]], it will not be shown but you can still add it in your content with the ''toc'' component.
+When the TOC is not part of a [[docs:theme:slot:page|page layout]], it will not be shown but you can still add it in your content with the ''toc'' component.
 
 Example:
 <webcode>
