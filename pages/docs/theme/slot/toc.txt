@@ -9,34 +9,29 @@
 ===== About =====
 The ''toc (table of content)'' gives to the reader an overview of your page by showing the [[docs:navigation:outline|outline headings label]] in a tree fashion.
 
+===== Example =====
 
+The Table of Content of this page is:
 
-===== Page Layout Element =====
-
-The ''toc'' is an element or not of the [[docs:theme:slot:page|page layout]].
-
-This sections discuss what you can do if the toc is part of not of the page layout.
-
-
-
-==== When the toc is part of the page layout ====
-
-When the ''toc'' is part of a [[docs:theme:slot:page|page layout]], it will be shown but you can't delete the TOC with the standard ''%%~~NOTOC~~%%'' token of [[doku>toc|Dokuwiki]]. 
-
-Why ? Because if the TOC is deleted, the layout will be broken.
-
-
-==== When the toc is not part of the page layout ====
-
-When the TOC is not part of a [[docs:theme:slot:page|page layout]], it will not be shown but you can still add it in your content with the ''toc'' component.
-
-Example:
 <webcode>
-<code dw>
+<code dw display="none">
 <toc/>
 </code>
-  * Output:
 </webcode>
+
+===== How to add or delete a TOC? =====
+
+The ''toc'' is an element or not of a [[docs:theme:template:template|template]].
+
+You can:
+  * add it by choosing a template that supports a TOC.
+  * delete it by choosing a template that does not support a TOC.
+
+
+By default, all templates support a toc with the exception of the following templates:
+  * [[:docs:theme:template:landing|landing]]
+  * [[:docs:theme:template:index|index]]
+
 
 
 ===== Configuration =====

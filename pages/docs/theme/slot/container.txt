@@ -24,7 +24,7 @@ and will apply the configuration.
 
 ===== Layout =====
 
-The [[docs:theme:slot:page|page layout]] ''holy'' and ''median'' have their main content by default contained whereas a [[docs:theme:slot:landing|landing page layout]] does not.
+The [[docs:theme:template:template|page layout]] ''holy'' and ''median'' have their main content by default contained whereas a [[howto:landing-page|landing page layout]] does not.
 
 
 ===== Configuration Value =====

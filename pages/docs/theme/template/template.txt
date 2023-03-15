@@ -52,19 +52,7 @@ A hamburger will show only three layers:
 There is no page side.
 
 
-==== Index ====
 
-An ''index'' is a landing page for a [[docs:page:system:namespace|namespace]].
-
-It shows:
-  * the page header and footer
-  * the main content
-  * the page side
-
-It does not show:
-  * the [[:docs:navigation:toc|table of content]]
-  * the main header and footer
-  * the sidekick
 ===== How to set the page layout ? =====
 
 You can set the page layout via the [[docs:metadata:manager|metadata manager]].

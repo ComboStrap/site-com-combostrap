@@ -20,7 +20,7 @@ The table below lists all supported secondary slots and their type.
 ^ Name ^ Location ^ Slot Type ^
 | [[docs:theme:slot:side_slot|side slot]] | at the left side of the primary slot | Page |
 | [[docs:theme:slot:header_slot|header slot]] | at the top of a page | Page |
-| [[docs:theme:slot:footer_slot|footer slot]] | at the bottom of a page | Page |
+| [[docs:theme:element:page-footer|footer slot]] | at the bottom of a page | Page |
 | [[release:deprecated:sidekick_slot|sidekick slot]] | at the right of the primary slot | Content |
 | [[main_header_slot|main header slot]] | at the top of the primary slot | Content |
 | [[main_footer_slot|main footer slot]] | at the bottom of the primary slot | Content |

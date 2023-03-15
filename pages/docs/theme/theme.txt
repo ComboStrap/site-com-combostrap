@@ -13,11 +13,11 @@ A theme is composed of several templates that design a layout.
 
 ===== Slot System for =====
 
-  * Supports several [[docs:theme:slot:page|page layout]] and 4 [[docs:theme:slot:slot|slots]]:
+  * Supports several [[docs:theme:template:template|page layout]] and 4 [[docs:theme:slot:slot|slots]]:
       * [[docs:theme:slot:side_slot|Sidebar]] (left)
       * [[release:deprecated:sidekick_slot|Sidekickbar]] (right)
       * [[docs:theme:slot:header_slot|Headerbar]] (top)
-      * [[docs:theme:slot:footer_slot|Footerbar]] (bottom)
+      * [[docs:theme:element:page-footer|Footerbar]] (bottom)
 
 ===== Template System for advanced design =====
 

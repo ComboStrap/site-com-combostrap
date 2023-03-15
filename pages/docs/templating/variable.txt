@@ -19,7 +19,7 @@
 
 The below markup will print:
   * a [[docs:lists:list|bullet list]]
-  * with the variables: [[docs:page:title|title]] and [[docs:page:path|path]] of the actual page.
+  * with the variables: [[docs:page:title|title]] and [[docs:page:system:path|path]] of the actual page.
 <webcode name="list">
 <code dw>
   * Title: ''$title''
@@ -51,7 +51,7 @@ The [[$path| ${h1" | cut("-","2-") | trim()} page]].
 ===== Variable List =====
 
 The supported variable are:
-  * ''path'' is the [[docs:page:path|full qualified path of a page]] that can be used in a [[docs:content:link|page link]] as reference
+  * ''path'' is the [[docs:page:system:path|full qualified path of a page]] that can be used in a [[docs:content:link|page link]] as reference
   * ''title'' - the [[docs:page:title|title]] of the page - if empty, the ''h1''
   * ''name'' - the [[docs:page:name|name]] of the page - if empty, the last part of the id
   * ''h1'' - the [[docs:page:h1|h1 title]] (the first header text of the page) - if empty, the ''title''.
@@ -67,7 +67,7 @@ The supported variable are:
   * ''type'' - the [[docs:type:type|type of page]]
   * ''is_low_quality'' - a boolean that is set to 1 if the page is of [[docs:quality:low_quality_page|low quality]]
   * ''lang'' - the [[docs:styling:lang|lang]] of a page
-  * ''is_index'' - a boolean that is set to 1 if the page is a [[docs:type:index|index page]]
+  * ''is_index'' - a boolean that is set to 1 if the page is a [[docs:page:system:index|index page]]
   * ''slug'' - the [[docs:page:slug|slug]] of the page
   * ''level'' - the [[docs:page:level|level]] of the page in the file system tree
   * ''depth'' - the maximum difference between the [[docs:page:level|level]] of the current page and the selected page ([[docs:templating:sql|page sql only attribute]])

@@ -4,19 +4,19 @@
     "page_id": "fhw0mvchtii8ot65pvyin"
 }
 ---
-====== ComboStrap - Main Slot ======
+====== ComboStrap - Main Template Element ======
 
 
 ===== About =====
-In the [[..:template:template|page layout]], the ''page main slot'' is a [[docs:theme:slot:slot|slot]]  where the content of your page is rendered. 
+In the [[..:template:template|page layout]], the ''main element'' is where the content of your page is rendered. 
 
 
 
 ===== Main Header and Footer =====
 
-The ''main slot'' supports also two sub-slots:
-  * the [[main_header_slot|main header slot]], located at its top 
-  * and the [[main_footer_slot|main footer slot]], located at its bottom 
+In a template, the ''main element'' may have a:
+  * [[..:slot:main_header_slot|header]], located at its top 
+  * and [[..:slot:main_footer_slot|footer]], located at its bottom 
 
 This slots are mostly used for [[docs:templating:templating|templating]].
 
