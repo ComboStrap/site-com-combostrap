@@ -7,5 +7,7 @@
 ====== ComboStrap - Deprecated features ======
 
 
+{{:release:deprecated:deprecated.png?300|}}
+
 ===== About =====
 This sections regroups all ComboStrap deprecated features.

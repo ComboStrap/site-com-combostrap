@@ -1,3 +1,10 @@
+---json
+{
+    "cache_expiration_frequency": "@daily",
+    "name": "Release 1.25",
+    "page_id": "17jxp17s3ehrtm0q3tu65"
+}
+---
 ====== Release 1.25 - Layout all the way ! ======
 
 
@@ -23,13 +30,13 @@ Because 7.2 and 7.3 are already end of life, we have taken the decision to upgra
   * If you had a custom stylesheet set up, you need to move it to the combo library location
   * If you had custom strap, configuration, you need to set them on combo
   * All empty tag should be closed.
-<code dw>
+```dw
 <hr> should be written <hr/>
 <search> should be written <search/>
 <icon> should be written <icon/>
 <breadcrumb> should be written <breadcrumb/>
 <page-image> should be written <page-image/>
-</code>
+```
   * If you had a [[:docs:styling:scale|font size]] `Rem` configuration, you need to set it up again
   * If you had changed the minimum size to embed svg inline, you need to set in the new configuration ''combo-conf-003'' that includes know all resources (ie svg but also Javascript, Css, Code)
   * If you used the `mermaid` tag, you should change if for `webcode`. A bug has been introduced with the `mermaid` release. The mermaid tag was never intended to be used.
@@ -43,7 +50,7 @@ Because 7.2 and 7.3 are already end of life, we have taken the decision to upgra
   * The ''txt'' mime is now authorized by default.
   * In a [[docs:layout:component:grid|grid]], a ''cell'' now supports the [[docs:styling:clickable|clickable attribute]]
   * A ''grid'' is now supported in a [[docs:templating:iterator|iterator]].
-  * The [[docs:navigation:toc|Table Of Content]] is no more attached to the [[docs:utility:renderer|renderer]] and can now be placed inside the page via the toc component.
+  * The [[docs:theme:slot:toc|Table Of Content]] is no more attached to the [[docs:utility:renderer|renderer]] and can now be placed inside the page via the toc component.
   * The [[docs:theme:slot:slot_manager|slot manager]] was added in the [[docs:theme:slot:railbar|railbar]] to help create and localize [[docs:theme:slot:slot|slots]].
   * The toggle functionality has been rewritten. The [[:docs:animation:toggle|toggle element]] is new and allows to set the a different control if the target is expanded or collapsed.
   * The [[:docs:app:identity|Identity form code]] is now ready for the new [[https://github.com/ComboStrap/combo/issues/14|DokuWiki version]].
@@ -57,7 +64,6 @@ Because 7.2 and 7.3 are already end of life, we have taken the decision to upgra
       * conditional ratio unit (percentage and fraction) as width length on its cells.
       * conditional number of cells by line
   * The [[:docs:styling:dimension|width]] can now be defined conditionally based on the screen size.
-  * The [[release:deprecated:content-list|Content List]] component allows now to be numbered.
   * [[:docs:templating:variable|Variable]] can now be used directly. The [[:release:deprecated:template|template component]] has been deprecated.
   * The [[docs:theme:slot:side_slot|Side Slot]] component are by default collapsed until the medium screen by setting the [[:docs:animation:toggle|toggle attribute]] to ''collapsed expanded-md''
   * Added the [[https://healthicons.org/|HealthICons]] library in the [[:docs:content:icon|Icon component]]
@@ -70,7 +76,7 @@ Because 7.2 and 7.3 are already end of life, we have taken the decision to upgra
   * The [[:support:plugin#edittable|edittable plugin]] is now supported
   * The [[:docs:navigation:outline|outline]] follows the section / header HTML convention.
       * The styling is then:
-          * compatible with css grid for [[docs:theme:slot:page|page layout]] .
+          * compatible with css grid for [[docs:theme:template:template|page layout]] .
           * easier for the edit button because they are inside a section and not after.
       * The page are easier to scan by [[:docs:seo:seo|search engine]] to discover the outline
   * The [[:docs:page:keywords|page keywords]] has variables.
@@ -81,8 +87,8 @@ Because 7.2 and 7.3 are already end of life, we have taken the decision to upgra
 ==== Modification ====
 
 Because of too much confusion, the following name has been renamed:
-  * The ''home page'' is now known as the [[docs:type:index|index page]]
-  * The ''root page'' is now known as the [[docs:app:home|home page]]
+  * The ''home page'' is now known as the [[docs:page:system:index|index page]]
+  * The ''root page'' is now known as the [[docs:page:system:home|home page]]
 
 
 The [[docs:layout:component:grid|Row component]] is now called a grid because:
@@ -95,7 +101,7 @@ The ''layout'' metadata has been renamed to ''template''.
 
   * The suffix for the class is now ''cs'' for combostrap. It's smaller than ''combo'' and uses the same convention than bootstrap with ''bs''.
   * We support only php 7.4 (due to our dependencies), up to 8 (due to dokuwiki). More information, in the [[:support:requirement#php|requirement page]]
-  * The empty tag should be close (ie ''<hr>'' should be written ''<hr/>'', ie the HTML format has been deprecated for the XML format)
+  * The empty tag should be close (ie ''%%<hr>%%'' should be written ''%%<hr/>%%'', ie the HTML format has been deprecated for the XML format)
 
 ==== Improvement ====
 
@@ -112,7 +118,6 @@ The ''layout'' metadata has been renamed to ''template''.
       * uses another method (scroll-margin-top) to shift the location of the heading text when navigating/scrolling
   * The railbar when overflowing was not giving the possibility to scroll the items.
   * If a page was copied with a frontmatter without deleting the page id, the page would have become a duplicate in the database.
-  * The [[:docs:lists:content-list|Content List]] component allows now any component as child.
   * The edit/preview styling has been revamped
       * the textarea was not a [[https://datacadamia.com/data/type/text/font_monospace|fixed pitch font]] making the calculation of space difficult to spot.
       * button have been made bootstrap flat style
@@ -140,7 +145,7 @@ The ''layout'' metadata has been renamed to ''template''.
       * The css flex system is now applied via the [[:docs:styling:align|Align attribute]] / [[:docs:styling:dimension|width grow/shrink]]
   * The [[:release:deprecated:date|date component]] has been deprecated for the [[:docs:templating:pipeline#format|Pipeline Format function]].
   * The [[:release:deprecated:text-align|text-align attribute]] has been deprecated for the [[:docs:styling:align|align attribute]]
-
+  * The [[release:deprecated:content-list|Content List]] is deprecated
 
 ==== Bug ====
   * The [[docs:app:search|Internal Search Engine]] result was not going away if the escape click reaches no element.

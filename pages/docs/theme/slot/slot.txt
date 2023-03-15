@@ -12,7 +12,7 @@
 ''slot'' are placeholders in the template that are filled with the content of a markup / wiki file.
 
 ComboStrap supports the following slots:
-  * the [[docs:theme:slot:main|primary slot (known also as main)]], the slot that contains the main content of the page
+  * the [[docs:theme:element:main|primary slot (known also as main)]], the slot that contains the main content of the page
   * the secondary slots, the slots that are optional to create a page.
 
 The table below lists all supported secondary slots and their type.

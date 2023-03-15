@@ -20,7 +20,6 @@ In particular, you may use it to generate the following layouts:
 | [[docs:layout:component:grid|grid]] | a grid of cells that adapt to the screen size |
 | [[docs:layout:component:carrousel|carrousel]] | horizontal list navigation with control |
 | [[docs:lists:list|simple list]] | a vertical list with bullet points |
-| [[release:deprecated:content-list|content list]] | a list of content that may span on more than one line |
 | [[docs:lists:table|table]] | a table |
 | [[docs:layout:component:masonry|masonry]] | bricks that fill the wall |
 ===== Example =====

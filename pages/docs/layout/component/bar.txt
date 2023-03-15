@@ -2,7 +2,7 @@
 {
     "description": "They are use to slice a page into section",
     "page_id": "b2kmejezc3p4cu4n9c51m",
-    "title": "A bar is a horizontal region of a page"
+    "title": "A bar - A horizontal region"
 }
 ---
 ====== ComboStrap UI - Bar component ======
@@ -15,8 +15,9 @@ Visually, the division can be done through the use of a:
   * or a separator
 
 ''bar'' are used:
-  * in the [[:slot_footer|page footer]]
-  * or in [[docs:theme:slot:landing|landing page]].
+  * in a [[:docs:theme:element:page-footer|fat footer]]
+  * in a [[:docs:theme:slot:header_slot|page header]]
+  * or in [[:howto:landing-page|landing page]].
 
 
 

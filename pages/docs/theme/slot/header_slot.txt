@@ -9,7 +9,7 @@
 
 
 ===== About =====
-The ''page header slot'' is a [[docs:theme:slot:slot|slot]] that contains the ''header'' of the [[page|page]].
+The ''page header slot'' is a [[docs:theme:slot:slot|slot]] that contains the ''header'' of the [[..:template:template|page]].
 
 The ''page header'' is rendered at the top of the page and contains generally a [[docs:menubar:menubar|menu bar]]. 
 

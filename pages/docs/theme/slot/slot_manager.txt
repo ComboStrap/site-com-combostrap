@@ -13,7 +13,7 @@ You can
   * and/or create them.
 
 The slot manager will shows all [[docs:theme:slot:slot|secondary slot]].
-  * The blue link are the markup slot that exists in the [[docs:page:system|page system]]
+  * The blue link are the markup slot that exists in the [[docs:page:system:system|page system]]
   * The gray link are the markup slot that you can create
 
 The markup slots used for the page are the slots with the highest [[docs:page:level|level]] (the first in each list)

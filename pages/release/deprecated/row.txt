@@ -1,7 +1,12 @@
-====== Row ======
+====== Deprecated Component - Row ======
 
 
 ===== About =====
+With the advent of [[:docs:theme:theme|theme]], complex layout inside the content is no more needed and the ''row'' component is deprecated.
+
+
+===== Old definition =====
+
 A ''row'' is a layout component that will lay out [[:docs:block:block|block component]] in a line.
 
 This component is:

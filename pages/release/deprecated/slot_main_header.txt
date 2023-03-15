@@ -1,0 +1,5 @@
+<heading 1>$title</heading>
+
+<breadcrumb/>
+
+{{:release:deprecated:deprecated.png?200|}}

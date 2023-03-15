@@ -7,7 +7,7 @@
 
 
 ===== About =====
-The ''main header slot'' creates an ''header'' for your [[main|content]].
+The ''main header slot'' creates an ''header'' for your [[..:element:main|content]].
 
 It's also known as a [[:docs:styling:hero|hero]] header in design and is generally shown prominently.
 

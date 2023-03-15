@@ -14,7 +14,7 @@ We use by default, the latest Bootstrap version supported.
 
 You can
   * change the version and stylesheet with the [[#bootstrapVersionStylesheet|bootstrap version stylesheet version]] (there is more than 30 different style) 
-  * or even [[docs:styling:bootstrap|create and bring your own]]
+  * or even [[howto:bootstrap-custom|create and bring your own]]
 
 
 
@@ -28,11 +28,11 @@ Check the [[docs:styling:class|class article]] to know more about it.
 
 ''ComboStrap'' comes with the standard Bootstrap stylesheet and several custom one. You can even create and install a custom one for your need.
 
-See [[howto:stylesheet]]
+See [[docs:styling:stylesheet]]
 ===== Configuration =====
 ==== version and stylesheet====
 
-You may change the BootStrap ''version'' and a corresponding [[howto:stylesheet|stylesheet]] with the ''bootstrapVersionStylesheet'' [[docs:app:configuration|configuration]]
+You may change the BootStrap ''version'' and a corresponding [[docs:styling:stylesheet|stylesheet]] with the ''bootstrapVersionStylesheet'' [[docs:app:configuration|configuration]]
 
 {{:strap:bootstrapversionstylesheet.png|}}
 
@@ -42,7 +42,7 @@ Actually, there is three Bootstrap versions supported:
   * the ''4.4.1''
 
 
-After the version, you will find the [[howto:stylesheet|stylesheet name]].
+After the version, you will find the [[docs:styling:stylesheet|stylesheet name]].
 
 <note>
 If you don't use the [[release:deprecated:strap|strap template]] and we don't found bootstrap on your template, the latest Bootstrap version will be added with the default stylesheet.

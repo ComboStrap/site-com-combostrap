@@ -3,16 +3,20 @@
     "aliases": [
         { "path": ":docs:layout:component:layout" }
     ],
+    "description": "components layout permits to layout child components.",
+    "dynamic_quality_monitoring": "false",
+    "low_quality_page": "false",
     "page_id": "fm2s79zjoxky5u4z7npgi"
 }
 ---
 
-<box align="text-center">
+
 ====== Component Layouts ======
 
+{{:docs:layout:component:undraw_website_builder_re_ii6e.png?0x300|}}
 
-''components layout'' permits to layout their child components.
-</box>
+''components layout'' permits to layout child components.
+
 
 
 
@@ -25,8 +29,8 @@
         <fragment>
             <box>
                <box width="200px" align="center" clickable>
-                   <page-image path="$path" width="8rem" spacing="mb-3" align="center" />
-                   == $title ==
+                   <page-image width="8rem" spacing="mb-3" align="center" />
+                   <heading 3> $title </heading>
                    ${description | head(100,"...")}
                    [[$path| ]]
                </box>
