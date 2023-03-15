@@ -5,6 +5,9 @@
 A ''theme'' designs your entire [[:docs:app:app|website app]].
 
 
+
+===== Default theme =====
+
 It supports the following features:
 
   * [[docs:utility:bootstrap|Last bootstrap version (5)]]

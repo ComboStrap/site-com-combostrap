@@ -4,7 +4,7 @@
 }
 ---
 
-====== ComboStrap Styling - StyleSheet (Theme) ======
+====== How can I choose the Bootstrap StyleSheet?  ======
 
 ===== A propos =====
 
