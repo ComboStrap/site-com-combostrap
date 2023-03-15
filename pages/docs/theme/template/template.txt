@@ -27,8 +27,8 @@ ComboStrap supports the following layouts
 | [[holy|Holy]] | The holy-grail layout |
 | [[median|Median]] | A layout that improves readability by constraining and centering the content |
 | [[landing|Landing]] | A layout to create landing pages |
-| [[#index]] | A layout to create a semi-landing page for the [[docs:page:system:index|index pages]] |
-| [[#hamburger]] | The default layout of admin pages (without sides)|
+| [[index]] | A layout to create a semi-landing page for the index pages |
+| [[hamburger]] | The default layout of admin pages (without sides)|
 
 
 ===== List =====

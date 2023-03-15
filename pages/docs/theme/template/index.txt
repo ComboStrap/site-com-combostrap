@@ -1,0 +1,25 @@
+====== Index template ======
+
+
+===== About =====
+An ''index'' [[docs:theme:template:template|template]] is the default template for the [[:docs:page:system:index|index pages]].
+
+
+===== Layout =====
+
+<grid>
+<box>
+Because [[:docs:page:system:index|index pages]] are landing pages for a [[:docs:page:system:namespace|namespace]], this template applies a layout that creates a sort of landing page layout.
+
+This layout is composed of the following [[:docs:theme:slot:slot|slots]]:
+  * [[:docs:theme:slot:header_slot|page header]]
+  * [[:docs:theme:slot:footer_slot|page footer]]
+  * [[:docs:theme:slot:side_slot|sidebar]]
+
+</box>
+<box>
+
+{{ :docs:theme:template:index_layout.svg?250&preserve=style |}}
+
+</box>
+</grid>
