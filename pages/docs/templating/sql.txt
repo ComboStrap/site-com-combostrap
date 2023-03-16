@@ -27,7 +27,7 @@ A page select should follow the following [[docs:diagram:railroad|railroad diagr
 <code bnf display="none">
 'SELECT'  [ from ] \
 [ 'WHERE' predicate {',' predicate } ] \
-[ 'ORDER BY' attribute ('ASC'|'DESC')? {',' attribute ('ASC'|'DESC')?} ] \
+[ ('ORDER BY' attribute ('ASC'|'DESC')? {',' attribute ('ASC'|'DESC')?}) | 'ORDER RANDOM' ] \
 [ limit 'Number' ] ;
 </code>
 </railroad>
@@ -73,7 +73,7 @@ If your [[docs:analytics:query##json_support|sqlite does not support Json]], you
        * any other characters match itself.
 Subpatterns are not supported by Sqlite (ie ''{sun,moon,stars}'' to match ''sun'', ''moon'', or ''stars'')
 
-**example:** the [[docs:page:path|path]] and [[docs:page:title|title]] of all pages that ends with 3 digits.
+**example:** the [[docs:page:system:path|path]] and [[docs:page:title|title]] of all pages that ends with 3 digits.
 
 <code sql>
 select where path glob '*[0-9][0-9][0-9]'
@@ -85,9 +85,9 @@ select where path glob '*[0-9][0-9][0-9]'
 select where path glob '*[0-9][0-9][0-9]'
 </data>
 ^ Page ^
-<template>
+<fragment>
 | [[$path|$path]] - $title |
-</template>
+</fragment>
 </iterator>
 </code>
 This sql returns the following data for this website.
@@ -105,8 +105,8 @@ The ''LIKE'' is not case sensitive and in the pattern expression:
 
 
 **example:** If you want to get:
-  * the [[docs:page:path|path]] and [[docs:page:title|title]] of all pages
-  * that have the terms ''image'', ''svg'' or ''raster'' in their [[docs:page:path|path]]
+  * the [[docs:page:system:path|path]] and [[docs:page:title|title]] of all pages
+  * that have the terms ''image'', ''svg'' or ''raster'' in their [[docs:page:system:path|path]]
 you would use the following page sql:
 <code sql>
 select where path like '%image%' or path like '%svg%' or path like '%raster%'
@@ -119,9 +119,9 @@ select where path like '%image%' or path like '%svg%' or path like '%raster%'
 select where path like '%image%' or path like '%svg%' or path like '%raster%'
 </data>
 ^ Pages ^ Title ^
-<template>
+<fragment>
 | [[$path|$path]] | $title |
-</template>
+</fragment>
 </iterator>
 </code>
 This page sql will return the following pages for this website.
@@ -132,7 +132,7 @@ This page sql will return the following pages for this website.
 The ''limit'' clause permits to return the first rows. It's mostly used in ''Recent'' statement such as the last pages recently modified or created.
 
 
-Example: If you want to get the last 4 pages along with the modification date and the [[docs:page:path|path]], you would execute this query:
+Example: If you want to get the last 4 pages along with the modification date and the [[docs:page:system:path|path]], you would execute this query:
 
 <code sql>
 select order by date_modified desc limit 4
@@ -145,9 +145,9 @@ select order by date_modified desc limit 4
 select order by date_modified desc limit 4
 </data>
 ^ Pages ^ Date Modified ^
-<template>
+<fragment>
 | [[$path|$path]] | ${date_modified|format()} |
-</template>
+</fragment>
 </iterator>
 </code>
 This sql returns the following pages for this website.
