@@ -1,0 +1,128 @@
+---json
+{
+    "aliases": [
+        { "path": ":howto:create-theme" }
+    ],
+    "page_id": "092ki81cch4a60u9jd4h6",
+    "template": "mytemplate"
+}
+---
+====== How to create your own theme? ======
+
+
+
+This page shows you how to create your own theme.
+
+You can then apply advanced design and logic.
+
+===== Theme introduction =====
+
+
+Combostrap uses a theme system:
+  * Each page has its own [[:docs:theme:template:template|template]]
+  * Each template is a [[https://github.com/salesforce/handlebars-php|Html Handlebars template]] that is rendered as HTML page.
+
+===== Steps =====
+
+==== Where is the default theme ?====
+
+The ''Combostrap'' default theme is located in this directory
+<code>
+dokuwiki_home/lib/plugins/combo/resources/theme/default
+</code>
+
+If you discover this theme, you will see two subdirectories:
+  * ''templates'' that contains:
+    * The handlebar templates (''hbs'' file)
+    * The template definition (''yml'' file).
+  * ''partials'' that contain the partials. They are chunks of handlebar templates that can be included in templates.
+
+=== What are handlebar templates? ===
+''Handlebar templates'' are files that are written in the following two languages:
+  * HTML
+  * and the [[https://github.com/salesforce/handlebars-php#expressions|handlebar templating language]].
+
+They get an array of data called a model and replace their value at runtime.
+
+To simplify, the model is:
+  * The [[:docs:templating:variable|variable data]]
+  * The content in HTML.
+If you want to get the whole model definition, [[:support|contact us]].
+
+For instance, the following handlebars expression would be replaced with the [[:docs:page:title|page tile]]
+<code handlebars>
+{{ title }}
+</code>
+
+=== What are partials? ===
+''Handelbar partial'' are handlebars syntax that can be included and therefore reused in templates.
+
+For instance, the below handlebars syntax will include the partial ''page-footer-partial.hbs'' that contains the [[:docs:theme:element:page-footer|footer]] of each template.
+<code handlebars>
+{{>page-footer-partial}}
+</code>
+
+
+==== Creation of your theme directory ====
+
+Combostrap looks at themes in the directory ''combo/theme'' located in the [[doku>config:savedir|data directory]]
+
+For a standard [[:howto:getting_started:1_dokuwiki|dokuwiki installation]], the directory is:
+<code>
+dokuwiki_home/data/combo/theme
+</code>
+
+If you name your theme, ''mytheme'', you should then create the following directories
+<code>
+dokuwiki_home/data/combo/theme/mytheme
+dokuwiki_home/data/combo/theme/mytheme/templates
+dokuwiki_home/data/combo/theme/mytheme/partials
+</code>
+
+==== Selecting your theme ====
+
+Now that you have created your theme directory, you can select it.
+
+  * Open the [[:docs:app:configuration|app configuration]]
+  * Search for the configuration ''combo-conf-005''
+  * And select your theme
+
+{{:howto:theme-configuration-value-choice.png|}}
+
+==== Creation of your first template ====
+
+  * In the templates directory, create the file ''mytemplate.hbs''
+<code>
+dokuwiki_home/data/combo/theme/mytheme/templates/mytemplate.hbs
+</code>
+  * You may copy an existing template or use the below example where we have added an ''h1''
+<code handlebars>
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+    <title>{{ title }}</title>
+    {{> head-partial }}
+</head>
+<body class="{{body-classes}}">
+{{>page-header-partial}}
+<div id="page-core" class="position-relative">
+    <main id="main-content">
+        <h1>My Template</h1>
+        {{{ main-content-html }}}
+    </main>
+    {{> railbar-partial }}
+</div>
+{{>page-footer-partial}}
+{{>body-beforeend-partial}}
+</body>
+</html>
+</code>
+
+==== Choose your new template for your page ====
+
+  * Open the page 
+  * Choose your [[:docs:theme:template:template|template]] in the [[:docs:metadata:manager|metadata manager]].
+
+{{:howto:template-selection-meta-manager.png|}}
+
+

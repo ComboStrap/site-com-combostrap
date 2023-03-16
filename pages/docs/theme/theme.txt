@@ -7,21 +7,7 @@
 A ''theme'' designs your entire [[:docs:app:app|website app]].
 
 
-===== Template =====
-
-A theme is composed of several templates that design a layout.
-
-===== Slot System for =====
-
-  * Supports several [[docs:theme:template:template|page layout]] and 4 [[docs:theme:slot:slot|slots]]:
-      * [[docs:theme:slot:side_slot|Sidebar]] (left)
-      * [[release:deprecated:sidekick_slot|Sidekickbar]] (right)
-      * [[docs:theme:slot:header_slot|Headerbar]] (top)
-      * [[docs:theme:element:page-footer|Footerbar]] (bottom)
-
-===== Template System for advanced design =====
-
-===== Features =====
+A theme is composed of several [[:docs:theme:template:template|templates]]. Each template applies to one page and designs a layout.
 
 All themes support the following features:
 
@@ -35,6 +21,24 @@ All themes support the following features:
   * [[docs:theme:slot:railbar|Railbar Menu (Page, User Site) with a private option]]
 
 
+===== Customization =====
+
+==== Via the Slot System =====
+
+Via the [[:docs:theme:slot:slot|slot system]], you can change the content of [[docs:theme:element:element|template region]] by creating a wiki page with a specific name called a slot.
+
+
+==== By creating your own templates ====
+
+For more advanced usage, you can create your own template and add your own templates.
+
+[[:howto:create-theme]]
+
+
+
+===== How can you choose your theme? =====
+
+You can choose your theme by modifying the ''theme'' value in the [[:docs:app:configuration|app configuration]].
 
 
 
