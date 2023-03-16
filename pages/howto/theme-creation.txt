@@ -36,6 +36,9 @@ If you discover this theme, you will see two subdirectories:
     * The template definition (''yml'' file).
   * ''partials'' that contain the partials. They are chunks of handlebar templates that can be included in templates.
 
+
+
+{{:howto:combostrap-default-theme-file-explorer.png|}}
 === What are handlebar templates (hbs)? ===
 ''Handlebar templates'' are files that are written in the following two languages:
   * HTML
