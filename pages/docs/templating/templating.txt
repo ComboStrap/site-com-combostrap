@@ -4,13 +4,13 @@
     "page_id": "9xj3dm62occz0g3mutyd8"
 }
 ---
-====== ComboStrap - Simple Templating markup ======
+====== Simple Templating markup ======
 
 {{:docs:templating:undraw_building_websites_i78t.png?0x300|}}
 
 
 
-''simple templating markup'' are markups that you can use inside the content of your page:
+''Simple templating markup'' are markups that you can use inside the content of your page:
   * to show information about your pages
   * or to show a list of pages
 

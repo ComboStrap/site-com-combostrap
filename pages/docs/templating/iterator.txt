@@ -2,7 +2,7 @@
 {
     "description": "With the fragment iterator, you can loop over a content fragment to create any list of page components such as the list of the last blog or recent pages",
     "page_id": "5acenddpfdkik3h087892",
-    "title": "The iterator: fragment iteration made easy"
+    "title": "The iterator: Data iteration made easy"
 }
 ---
 ====== ComboStrap - Fragement Iterator ======
