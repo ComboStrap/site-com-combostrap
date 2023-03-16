@@ -3,8 +3,7 @@
     "aliases": [
         { "path": ":howto:create-theme" }
     ],
-    "page_id": "092ki81cch4a60u9jd4h6",
-    "template": "mytemplate"
+    "page_id": "092ki81cch4a60u9jd4h6"
 }
 ---
 ====== How to create your own theme? ======
@@ -37,7 +36,7 @@ If you discover this theme, you will see two subdirectories:
     * The template definition (''yml'' file).
   * ''partials'' that contain the partials. They are chunks of handlebar templates that can be included in templates.
 
-=== What are handlebar templates? ===
+=== What are handlebar templates (hbs)? ===
 ''Handlebar templates'' are files that are written in the following two languages:
   * HTML
   * and the [[https://github.com/salesforce/handlebars-php#expressions|handlebar templating language]].
@@ -52,6 +51,21 @@ If you want to get the whole model definition, [[:support|contact us]].
 For instance, the following handlebars expression would be replaced with the [[:docs:page:title|page tile]]
 <code handlebars>
 {{ title }}
+</code>
+
+=== What are template definition files (yml)? ===
+
+The template definition files contain properties that apply to the template.
+
+For instance, if you want to use [[:docs:theme:slot:slot|slot]] in your template, you need to define them.
+
+The [[:docs:theme:template:median|median template]] for instance contains 4 slot elements.
+<code yml median.yml>
+slots:
+    - 'page-header'
+    - 'page-footer'
+    - 'main-header'
+    - 'main-footer'
 </code>
 
 === What are partials? ===
@@ -91,38 +105,39 @@ Now that you have created your theme directory, you can select it.
 
 ==== Creation of your first template ====
 
-  * In the templates directory, create the file ''mytemplate.hbs''
+  * Go to the default theme directory
+  * Copy the [[:docs:theme:template:median|median]] template by transferring into your custom template theme directory:
+    * the file ''median.hbs''
+    * the file ''median.yml''
+  * Rename them to
+    * ''custom-median.hbs''
+    * ''custom-median.yml''
+  * You should now have two files
 <code>
-dokuwiki_home/data/combo/theme/mytheme/templates/mytemplate.hbs
+dokuwiki_home/data/combo/theme/mytheme/templates/custom-median.hbs
+dokuwiki_home/data/combo/theme/mytheme/templates/custom-median.yml
 </code>
-  * You may copy an existing template or use the below example where we have added an ''h1''
+  * Open the file ''custom-median.hbs'' and add modify the html header. Below we take over the page heading
 <code handlebars>
-<!doctype html>
-<html lang="{{lang}}">
-<head>
-    <title>{{ title }}</title>
-    {{> head-partial }}
-</head>
-<body class="{{body-classes}}">
-{{>page-header-partial}}
-<div id="page-core" class="position-relative">
-    <main id="main-content">
-        <h1>My Template</h1>
-        {{{ main-content-html }}}
-    </main>
-    {{> railbar-partial }}
-</div>
-{{>page-footer-partial}}
-{{>body-beforeend-partial}}
-</body>
-</html>
+<header id="main-header">
+  <h1>Custom title: {{ title }}</h1>
+</header>
 </code>
 
 ==== Choose your new template for your page ====
 
   * Open the page 
-  * Choose your [[:docs:theme:template:template|template]] in the [[:docs:metadata:manager|metadata manager]].
+  * Choose your ''custom-median'' [[:docs:theme:template:template|template]] in the [[:docs:metadata:manager|metadata manager]].
 
 {{:howto:template-selection-meta-manager.png|}}
 
+  * And refresh your page by pressing ''F5''
+  * The custom title was applied.
+
+{{:howto:theme-creation-custom-title-result.png?600|}}
+
+
+==== Next ====
+
+From there, you can create any theme that suits your needs.
 

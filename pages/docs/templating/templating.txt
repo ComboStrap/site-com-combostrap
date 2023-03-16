@@ -25,4 +25,4 @@ Templating offers the following components:
 
 ===== Advanced / Complex =====
 
-For complex or advanced templating, you can [[:docs:theme:creation|create a theme]] with HTML templates.
+For complex or advanced templating, you can [[:howto:theme-creation|create a theme]] with HTML templates.

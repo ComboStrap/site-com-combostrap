@@ -54,7 +54,7 @@ This code will output the following:
 </webcode>
 
 ==== Template Customization ====
-You can also [[docs:theme:creation|create your own theme]] and apply complex HTML logic.
+You can also [[:howto:theme-creation|create your own theme]] and apply complex HTML logic.
 
 ===== Configuration =====
 By default, the name of the footer slot page is ''slot_footer''.
