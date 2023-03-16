@@ -8,18 +8,18 @@
 ---
 ====== How to create your own theme? ======
 
-
+===== About =====
 
 This page shows you how to create your own theme.
 
-You can then apply advanced design and logic.
+You can then apply advanced design and logic to your whole website application.
 
 ===== Theme introduction =====
 
 
-Combostrap uses a theme system:
-  * Each page has its own [[:docs:theme:template:template|template]]
-  * Each template is a [[https://github.com/salesforce/handlebars-php|Html Handlebars template]] that is rendered as HTML page.
+Combostrap uses a theme system where:
+  * each page has its own [[:docs:theme:template:template|template]]
+  * and each template is a [[https://github.com/salesforce/handlebars-php|Handlebars template]] that is rendered as HTML page.
 
 ===== Steps =====
 

@@ -105,7 +105,7 @@ Example: a [[:docs:content:button|button]] with an underline animated from left
 
 <note>
 The library is not primary supported because:
-  * there is some incompatibility with [[docs:utility:bootstrap|BootStrap]]
+  * there is some incompatibility with [[docs:theme:bootstrap|BootStrap]]
   * they require a commercial license if not for personal use.
 If you underline problems, you can also [[#custom|add your own]].
 </note>
