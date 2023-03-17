@@ -26,9 +26,9 @@ You can choose your stylesheet via  the [[docs:theme:bootstrap#configuration|Boo
 
 ===== Custom Bootstrap Theme ===== 
 
-You can even create and install your [[docs:styling:bootstrap|custom stylesheet]].
+You can even create and install your [[howto:bootstrap-custom|custom stylesheet]].
 
-This is an advanced configuration and requires some programming skills but this is not out of reach. See [[docs:styling:bootstrap]]
+This is an advanced configuration and requires some programming skills but this is not out of reach. See [[howto:bootstrap-custom]]
 
 
 
