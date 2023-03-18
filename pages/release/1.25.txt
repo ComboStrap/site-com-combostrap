@@ -103,6 +103,7 @@ The ''layout'' metadata has been renamed to ''template''.
   * The suffix for the class is now ''cs'' for combostrap. It's smaller than ''combo'' and uses the same convention than bootstrap with ''bs''.
   * We support only php 7.4 (due to our dependencies), up to 8 (due to dokuwiki). More information, in the [[:support:requirement#php|requirement page]]
   * The empty tag should be close (ie ''%%<hr>%%'' should be written ''%%<hr/>%%'', ie the HTML format has been deprecated for the XML format)
+  * [[https://www.php.net/manual/en/function.strftime.php|strftime]] has been deprecated. The only alternative with local is [[https://www.php.net/manual/en/intldateformatter.format.php|format]]
 
 ==== Improvement ====
 

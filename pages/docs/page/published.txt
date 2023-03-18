@@ -24,7 +24,7 @@ You can set the published date with the [[docs:metadata:manager|metadata manager
 
 ==== Date Prefix ====
 
-The ''date prefix'' is a prefix of the last name of the [[:docs:page:path|page path]] that follows the [[docs:metadata:date_format|iso date pattern]] at the day level.
+The ''date prefix'' is a prefix of the last name of the [[docs:page:system:path|page path]] that follows the [[docs:metadata:date_format|iso date pattern]] at the day level.
 
 Example: the page with the below path would have a published date of ''2022-05-25''.
 

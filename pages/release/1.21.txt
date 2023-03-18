@@ -63,7 +63,7 @@ With the advent of the [[docs:templating:iterator|iterator]], we have standardiz
 ==== Modified ====
 
   * The [[docs:metadata:frontmatter#configuration|auto-frontmatter]] configuration has been disabled. Users could just not see it and leave with the default value without changing them.
-  * The default description for [[docs:content:link#internal|internal link]] is now the [[docs:page:name|page name]]. It was the last part of the [[docs:page:path|path]].
+  * The default description for [[docs:content:link#internal|internal link]] is now the [[docs:page:name|page name]]. It was the last part of the [[docs:page:system:path|path]].
   * The [[docs:navigation:hierarchical_breadcrumb|hierachical breadcrumb]] gots also the [[docs:page:name|page name]] in the link description. 
 ==== Migration ====
   * The [[docs:utility:prism|prism]] component uses now the last version 1.25 with added language support for highligting (ie [[docs:utility:mermaid|mermaid]])

@@ -24,20 +24,18 @@ This section regroups ''howto'' documentations.
 </box>
 
 
-
 <iterator>
-    <data>select from descendants where (depth = 0 and is_index = 0) or (depth = 1 and is_index = 1)  order by path asc </data>
-    <grid max-line="3">
+    <data>select from descendants where (depth = 0 and is_index = 0) or (depth = 1 and is_index = 1)  order random limit 8 </data>
+    <heading 3>Featured HowTo's</heading>
+    <masonry>
         <fragment>
-            <box>
-               <card width="200px" align="center" clickable>
-                   <page-image meta path="$path" width="8rem" spacing="mb-3" align="center" default="first|vignette|logo" />
-                   <heading h4 spacing="mb-1">$title</heading>
-                   <text><ibreadcrumb depth="1" color="muted"/></text>
-                   <text>${description | head(100,"...")}[[$path| ]]</text>
-               </card>
-            </box>
+           <card width="250px" align="center" clickable>
+               <page-image featured ratio="16:9" default="first|logo" />
+               <heading h4 spacing="mb-1">$title</heading>
+               <text><ibreadcrumb depth="1" color="muted"/></text>
+               <text>${description | head(100,"...")}[[$path| ]]</text>
+           </card>
        </fragment>
-    </grid>
+    </masonry>
 </iterator>
 \\

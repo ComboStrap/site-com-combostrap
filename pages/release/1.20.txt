@@ -17,7 +17,7 @@ The release ''1.20'' (${date_published|format()}) introduces a full template sys
 === Breaking ===
   * With the advent of the [[docs:templating:iterator|iterator]], we have standardized the analytics name. If you have queries running on the [[docs:analytics:data|analytical data]], you should change them.
       * ''words_count'' is now ''word_count''
-      * ''id'' has been deleted and has become [[docs:page:path|path]]
+      * ''id'' has been deleted and has become [[docs:page:system:path|path]]
   * Php 5.6 is [[support:requirement|no more supported]]
 </note>
 
@@ -46,7 +46,7 @@ The release ''1.20'' (${date_published|format()}) introduces a full template sys
 ==== Modification ====
   * ''card-columns'' has been rename to [[docs:layout:component:masonry|masonry]] to give a better description of what the layout is doing.
 ==== Deprecation ====
-  * The ''id'' is no more reported as in the [[docs:analytics:data|data metadata]] and was replaced by the [[docs:page:path|path]]
+  * The ''id'' is no more reported as in the [[docs:analytics:data|data metadata]] and was replaced by the [[docs:page:system:path|path]]
   * ''age_creation'' and ''age_modification'' have been deleted
   * The [[docs:analytics:data|data metadata]] have been enhanced to show [[docs:metadata:metadata|metadatas]] as they will appear in a [[:release:deprecated:template|template]].
 

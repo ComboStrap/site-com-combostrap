@@ -17,7 +17,7 @@ Why ?
 
 With the date component, you could format any date:
   * the today's date
-  * any [[docs:metadata:date|string date]]
+  * any [[docs:metadata:date_format|string date]]
   * or any [[docs:templating:variable|page date attribute]] such as:
       * ''date_created'' or ''date_modified''  of a page
       * ''date_published'' (if specified, see [[docs:page:published]])
@@ -71,7 +71,7 @@ To have it refresh every day, we expire the [[docs:cache:cache|cache date daily]
 
 
 <webcode name="Default" frameborder="0">
-  * When you specify a date, you need to write it in a [[docs:metadata:date|accepted date format]]
+  * When you specify a date, you need to write it in a [[docs:metadata:date_format|accepted date format]]
 <code dw>
 <date format="%A">2021-09-27</date>
 </code>
@@ -103,5 +103,5 @@ where:
   * ''format'' is any [[https://www.php.net/manual/en/function.strftime.php|format accepted by the strftime function]]
   * ''language'' is a [[:docs:locale:lang|language]] value. <inote>You can also just use the [[:docs:locale:region|country value]] (for instance, the value ''us'' is valid).</inote>
   * ''dateValue'' is:
-      * one of the [[docs:metadata:date|accepted date format]]
+      * one of the [[docs:metadata:date_format|accepted date format]]
       * or any [[docs:templating:variable|page date metadata]].

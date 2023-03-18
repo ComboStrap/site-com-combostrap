@@ -1,3 +1,10 @@
+---json
+{
+    "dynamic_quality_monitoring": "false",
+    "low_quality_page": "false",
+    "page_id": "258z1sxemam9dlutrfxck"
+}
+---
 ====== How to get a serie of images with the same dimension (Width and Height) ? ======
 
 

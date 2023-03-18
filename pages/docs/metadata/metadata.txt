@@ -48,7 +48,7 @@ There is two groups of metadata:
 
 ==== Protected ====
 The below properties are protected and cannot be changed:
-  * [[docs:page:path|path]] - the path of the page with wiki separator (ie '':namespace:page'')
+  * [[docs:page:system:path|path]] - the path of the page with wiki separator (ie '':namespace:page'')
   * ''date_created'' - the creation date
   * ''date_modified'' - the modification date
   * ''user'', ''creator'', ''contributor''

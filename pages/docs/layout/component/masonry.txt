@@ -32,7 +32,7 @@ A masonry layout is generally used with [[docs:block:card|cards]] or [[docs:bloc
 
     <card>
         {{:teaser_image_1.png|}}
-        === Teaser Title  ===
+        <heading 3>Teaser Title</heading>
         A example taken from [[https://getbootstrap.com/docs/4.3/components/card/#example|the bootstrap quick example]] on how to build a card title in order to make up the bulk of the teaser content. 
         
         <btn>[[:start|Go to this page !]]</btn>
@@ -55,17 +55,17 @@ Example of a list of ''Recent Articles Changed'' with an [[docs:templating:itera
 <code dw>
 <iterator>
     <data>select where path != ':start' and is_low_quality = 0 order by date_modified desc limit 8</data>
-    <heading d4 text-align="center" spacing="mb-3"> Recent Articles Changed </heading>
+    <heading d4 align="text-center" spacing="mb-3"> Recent Articles Changed </heading>
     <masonry>
-        <template>
+        <fragment>
             <card clickable>
-            <page-image path="$path" ratio="21:9" zoom=-6 />
-            === $title ===
-            <itext color="muted">//Modified <date format="%h %d - %H:%M">$date_modified</date>//</itext>
+            <page-image featured ratio="21:9" default="first|ancestor|vignette|logo" />
+            <heading 3>$title</heading>
+            <itext color="muted">//Modified - ${date_modified | format('EEEE dd MMMM')}//</itext>
 
-            <pipeline>"$description" | head(100, "...")</pipeline>  [[$path| ]]
+            ${description | head(100, "...")}  [[$path| ]]
             </card>
-        </template>
+        </fragment>
     </masonry>
 </iterator>
 </code>

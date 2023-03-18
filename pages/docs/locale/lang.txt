@@ -3,7 +3,7 @@
     "canonical": ":semantic:lang",
     "name": "Language",
     "page_id": "7w8jba3xbxyjl8r6jaujx",
-    "title": "How to set the language (RTL/LTR) ?"
+    "title": "How to set the language (RTL\/LTR) ?"
 }
 ---
 ====== How to set the Language (Lang) ? ======
@@ -49,7 +49,7 @@ Each language has an intrinsic value that is known as the direction.
 
 We have created a page in ''arabic'' that has a language direction from [[#rtlright_to_left_language|right-to-left (''rtl'')]] See the demo page: [[lang_ar]]
 
-As ''bootswatch'' does not support yet RTL languages, you need to set your [[docs:utility:bootstrap|Bootstrap version at minimal to 5 with the bootstrap theme]].
+As ''bootswatch'' does not support yet RTL languages, you need to set your [[docs:theme:bootstrap|Bootstrap version at minimal to 5 with the bootstrap theme]].
 
 Example with the version ''5.01 - bootstrap'':
 

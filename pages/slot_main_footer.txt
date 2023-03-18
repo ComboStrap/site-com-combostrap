@@ -9,7 +9,7 @@
     <carrousel element-width="250px">
         <fragment>
             <card clickable>
-            <page-image ratio="21:9"/>
+            <page-image featured ratio="21:9" default="first|ancestor|logo"/>
             <heading h5> $title </heading>
             
             ${description | head(200, "...")} [[$path| ]]

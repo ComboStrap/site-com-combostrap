@@ -15,6 +15,7 @@
 
 ====== How to format a date ? ======
 
+
 ===== About =====
 This [[howto:howto|how to]] will show you how to format a date <icon name="healthicons:i-schedule-school-date-time"/> with the [[:docs:templating:pipeline#format|pipeline format function]].
 
