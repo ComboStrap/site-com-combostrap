@@ -11,7 +11,7 @@
 }
 ---
 
-<box align="center text-center">
+<box align="center text-center" spacing="mb-3">
 ====== HowTo ======
 This section regroups ''howto'' documentations.
 
@@ -20,12 +20,19 @@ This section regroups ''howto'' documentations.
 {{ :howto:undraw_animating.svg?0x300 |}}
 
 \\
+
+<heading 3>Featured HowTo's</heading>
+
+Below, you will find 9 featured ''howto''. 
+
+You can find the other by searching.
+
+If you don't find an ''howto'', [[:support|contact us]]. We will gladly add it.
 </box>
 
 
 <iterator>
     <data>select from descendants where (depth = 0 and is_index = 0) or (depth = 1 and is_index = 1)  order random limit 9 </data>
-    <heading 3>Featured HowTo's</heading>
     <masonry>
         <fragment>
            <card width="250px" align="center" clickable>
