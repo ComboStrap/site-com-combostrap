@@ -5,7 +5,6 @@
     "images": [
         { "path": ":howto:undraw_animating.svg" }
     ],
-    "layout": "root-item",
     "low_quality_page": "false",
     "page_id": "oqwozv8l2vhi5otajvukr",
     "title": "How to use the ComboStrap platform"
@@ -25,7 +24,7 @@ This section regroups ''howto'' documentations.
 
 
 <iterator>
-    <data>select from descendants where (depth = 0 and is_index = 0) or (depth = 1 and is_index = 1)  order random limit 8 </data>
+    <data>select from descendants where (depth = 0 and is_index = 0) or (depth = 1 and is_index = 1)  order random limit 9 </data>
     <heading 3>Featured HowTo's</heading>
     <masonry>
         <fragment>
