@@ -148,6 +148,7 @@ The ''layout'' metadata has been renamed to ''template''.
   * The [[:release:deprecated:date|date component]] has been deprecated for the [[:docs:templating:pipeline#format|Pipeline Format function]].
   * The [[:release:deprecated:text-align|text-align attribute]] has been deprecated for the [[:docs:styling:align|align attribute]]
   * The [[release:deprecated:content-list|Content List]] is deprecated
+  * The default twitter image is now the featured raster image. The default image configuration "defaultTwitterImage" is no more used
 
 ==== Bug ====
   * The [[docs:app:search|Internal Search Engine]] result was not going away if the escape click reaches no element.

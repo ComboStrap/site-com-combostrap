@@ -10,14 +10,28 @@
     "title": "The page image metadata"
 }
 ---
-====== Page Image ======
+====== Deprecated - Page Images Metadata ======
 
 
-===== About =====
+===== Replacement =====
+The ''images'' metadata has been replaced by:
+  * [[:docs:page:featured-image|featured image]]
+  * [[:docs:social:twitter|twitter image]]
+  * [[:docs:social:facebook|facebook image]]
+
+
+===== Why? =====
+  * It was too complicated for the user to get a grasp of which image would be used for which usage.
+  * It was not possible to see the default usage value.
+
+The first idea was to be able to upload a bunch of image with different ratio and to choose the best but it's not following the ''kiss'' principle.
+
+
+===== Old documentation =====
+
 ''image'' is a [[docs:metadata:metadata|page metadata]] that defines an illustrative [[docs:content:image|image]] for the page.
 
 
-The image should be relevant to the page. For example, if you define an image for a news article, the image must be relevant to that news article.
 
 
 ===== Usage =====
@@ -40,9 +54,7 @@ Example for this page:
 ==== Social ====
 The image is added into [[docs:social:social|social]] cards such as [[docs:social:twitter|twitter]], [[docs:social:google|google]] or [[docs:social:facebook|facebook]].
 
-<note>
-Because  [[docs:social:social|social image]] ([[docs:social:twitter#image|twitter]], [[docs:social:google#image|google]] and [[docs:social:facebook#image|facebook]]) have all differents image specifications, if the images found are not conform (low resolution, bad type), they are not used.
-</note>
+
 ===== How to set the images from the page ? =====
 
 The recommended images are:

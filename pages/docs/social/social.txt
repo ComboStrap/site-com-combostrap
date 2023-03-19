@@ -12,6 +12,7 @@
 ===== About =====
 ''social'' is a [[docs:seo:seo|SEO module]] that helps to improve:
   * the [[#discoverability|discoverability]]
+  * the [[#card|cards]]
   * and the [[#interaction|interaction]] with your users.
 
 ===== Features =====
@@ -19,24 +20,30 @@
 ==== Discoverability ====
 
 The discoverability module is based on data that are added to your page such as:
-  * the type of page
-  * an image
-  * your handle
+  * The type of page
+  * An image
+  * Your handle
+
 The social and search engine network uses this data to:
   * style your page (ie create cards while sharing a link to your page)
-  * index your pages to their search engine or in category pages.
+  * index your pages to their search engine or in-category pages.
 
-All social platform should work. The below social networks have their own documentation.:
+All social platforms should work. The below social networks have their own documentation.:
   * [[docs:social:twitter|<icon name="twitter"/> Twitter Meta]]
   * [[docs:social:facebook|<icon name="facebook"/> Facebook Meta]]
   * [[docs:social:google|<icon name="google"/> Google Meta]]
   * [[docs:social:telegram|<icon name="logos:telegram"/> Telegram]]
 
 
-<note>
-As a general rule of thumb, all social images should be at least 640×320px (1280×640px for best display).
+==== Card ====
 
-To be sure that nothing gets cropped, you could create a 40pt white margin around your image.
+We support all social cards.
+
+Because social images ([[docs:social:twitter#image|twitter]], [[docs:social:google#image|google]] and [[docs:social:facebook#image|facebook]]) have all different image specifications, if the images found are not conforming (low resolution, bad type), they are not used.
+
+<note tip>
+  * As a general rule of thumb, all social images should be at least 640×320px (1280×640px for best display).
+  * You could create a 40pt white margin around your image to ensure that nothing gets cropped.
 </note>
 
 ==== Social Buttons ====
