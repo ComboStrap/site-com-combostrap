@@ -1,6 +1,33 @@
+---json
+{
+    "page_id": "xb6tcf4fhhzf43j1fza13"
+}
+---
 ====== Featured Image ======
+{{:docs:page:featured_image.jpg|}}
 
 
 
+===== About =====
+A ''featured image'' is the main [[docs:page:image|illustrative image]] of a page.
 
-The default site image ''apple-touch-icon.png'' is already installed if you have followed the [[howto:getting_started:6_favicon|favicon installation guide]]
+The featured image is generally located below or above the [[:docs:page:title|page tile]].
+
+===== How to set a featured image? =====
+
+==== Via the content ====
+When scanning the content, we derived the ''featured image'' and we set the default value accordingly.
+
+  * for an [[:docs:page:system:index|index page]], the ''featured image'' is the first image found on the page.
+  * for an [[:docs:page:system:item|item page]], the ''featured image'' is the image found just after the [[:docs:page:h1|first heading]] if present.
+
+==== Via the metadata manager ====
+
+You can set a featured image via the [[:docs:metadata:manager|metadata manager]].
+
+
+===== Default =====
+
+If no featured image is found:
+  * the featured image of the [[:docs:page:system:system|parent until the root]] is used if any
+  * and if none is found, the [[:docs:app:logo|logo]] is used in last resort.

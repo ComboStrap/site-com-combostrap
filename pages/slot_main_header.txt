@@ -6,7 +6,7 @@
 
 <heading h1>$title</heading>
 <breadcrumb/>
-<page-image height="250" default="ancestor"/>
+<page-image featured height="250" default="ancestor"/>
 
 
 
