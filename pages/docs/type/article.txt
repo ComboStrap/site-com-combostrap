@@ -90,13 +90,13 @@ For instance, if you want to add a [[https://schema.org/Article|keywords propert
 
 
 ===== Image =====
-By default, ''ComboStap'' will set the [[docs:page:image|page image]].
+By default, ''ComboStap'' will set the [[release:deprecated:images-meta|page image]].
 
 Google recommends to provide multiple images with 
   * a high-resolution (minimum of 300,000 pixels when multiplying width and height) 
   * the following aspect ratios: 16x9, 4x3, and 1x1.
 
-You can create them and set them with the [[docs:page:image|image]] property even if the [[https://schema.org/image|standard does not allow it]].
+You can create them and set them with the [[release:deprecated:images-meta|image]] property even if the [[https://schema.org/image|standard does not allow it]].
 
 <code json>
 {

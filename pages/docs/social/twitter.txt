@@ -36,12 +36,12 @@ The list of metadata that are used in the card are:
   * for the heading: [[..:page:title|title]] if present otherwise [[..:page:h1|h1]], otherwise the page id.
   * for the description: [[..:page:description|description]]
   * for the image:
-      * the ''twitter'' [[..:page:image|image]]
-      * otherwise any other conforming [[..:page:image|image]],
+      * the ''twitter'' [[release:deprecated:images-meta|image]]
+      * otherwise any other conforming [[release:deprecated:images-meta|image]],
       * otherwise the [[#configuration|default one]]
       * otherwise any conforming [[docs:app:logo|logo image]]
 
-Example of ''twitter'' [[..:page:image|image]] definition in [[docs:metadata:frontmatter|frontmatter]]
+Example of ''twitter'' [[release:deprecated:images-meta|image]] definition in [[docs:metadata:frontmatter|frontmatter]]
 <code json>
 {
     "image": {
@@ -56,7 +56,7 @@ You can set the following [[docs:app:configuration|configuration]]:
 ^ Name ^ Description ^ Default value ^
 | ''twitterSiteHandle'' | the handle name of your twitter account (Example: @combostraweb) | None |
 | ''twitterSiteId'' | the twitter id of your twitter account ([[google>twitter id|Search on Google]]) | None |
-| ''defaultTwitterImage'' | the image used if an [[..:page:image|page image]] was not found ([[https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup|svg is not supported, less than 5MB]]) | apple-touch-icon.png |
+| ''defaultTwitterImage'' | the image used if an [[release:deprecated:images-meta|page image]] was not found ([[https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup|svg is not supported, less than 5MB]]) | apple-touch-icon.png |
 
 <note>
 The default site image ''apple-touch-icon.png'' is already installed if you have followed the [[howto:getting_started:6_favicon|favicon installation guide]]

@@ -1,0 +1,31 @@
+---json
+{
+    "canonical": ":page:image",
+    "description": "A page has one or more illustrative images.\n\n\n\n\n\n\t*  featured image: the image that is shown just above or below the title\n\t*  twitter image: the image shown in a Twitter card\n\t*  facebook \/ Open graph image: the image shown in a Facebook and any open graph social network such as Signal, ...\n\n\n\n\n\nThese images can be rendered with thepage imagmetadata manager",
+    "images": [
+        { "path": ":docs:block:stock_image_surfer_in_the_see.png" }
+    ],
+    "name": "Illustrative Images",
+    "page_id": "jr37pe9zxlrbtib44bly8",
+    "slug": ":image"
+}
+---
+====== What are the illustrative images for a page? ======
+
+===== About =====
+A page has one or more illustrative images.
+
+
+===== List =====
+
+  * [[:docs:page:featured-image|Featured image]]: the image that is shown just above or below the title
+  * [[:docs:social:twitter|Twitter image]]: the image shown in a Twitter card
+  * [[:docs:social:facebook|Facebook / Open graph image]]: the image is shown in a Facebook / Open Graph card
+
+===== Rendering =====
+
+These images can be rendered with the [[:docs:content:page-image|page image]] component.
+
+===== Set =====
+
+You can set these images with the [[:docs:metadata:manager|metadata manager]].

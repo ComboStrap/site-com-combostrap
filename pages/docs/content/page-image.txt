@@ -12,7 +12,7 @@
 
 
 ===== About =====
-''page-image'' is a [[content|content component]] that chooses and renders one of the [[docs:page:image|page images]] (illustration, thumbnail) defined for a page.
+''page-image'' is a [[content|content component]] that chooses and renders one of the [[:docs:page:image|page images]] (illustration, thumbnail) defined for a page.
 
 
 
@@ -20,13 +20,13 @@
 
 ===== Example =====
 
-==== Meta Image ====
+==== Featured Image ====
 
-This example shows the [[docs:page:image|page image]] of this page. We have set it to the image of the surfer below.
+This example shows the [[:docs:page:featured-image|featured image]] of this page. We have set it to the image of the surfer below.
 
 <webcode name="Default" frameborder="0">
 <code dw>
-<page-image/>
+<page-image featured/>
 </code>
 </webcode>
 
@@ -54,7 +54,7 @@ You may also choose a [[:docs:content:vignette|vignette]] as illustrative image
 />
 </code>
 where
-  * ''path'' is the [[docs:page:path|page path]] to show the image for. Default to the actual page path or the [[:docs:templating:iterator|path given by the iterator]]
+  * ''path'' is the [[:docs:page:system:path|page path]] to show the image for. Default to the actual page path or the [[:docs:templating:iterator|path given by the iterator]]
   * [[:docs:styling:type|type]] is one of:
       * ''meta'' is the [[:docs:content:page-image|page image meta]] (default)
       * ''first'' is the first image of the page
@@ -75,7 +75,7 @@ where
 
 ===== Multiple Meta Image selection =====
 
-When the ''ratio'' is set, if there is more than one [[docs:page:image|page image metadata]] the algorithm will select the image with the most equivalent ratio.
+When the ''ratio'' is set, if there is more than one [[release:deprecated:images-meta|page image metadata]] the algorithm will select the image with the most equivalent ratio.
 
 
 ===== Support =====

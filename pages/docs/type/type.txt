@@ -22,8 +22,8 @@ You can set the value in the [[docs:metadata:viewer|metadata manager]]
 
 
 If not set, the default value is:
-  * [[docs:type:website|website]] for the [[docs:type:index#root|root home page]]
-  * [[docs:type:index|home]] for other [[docs:type:index|home page]]
+  * [[docs:type:website|website]] for the [[docs:page:system:index#root|root home page]]
+  * [[docs:page:system:index|home]] for other [[docs:page:system:index|home page]]
   * and the value of the [[#configuration|default configuration]] for the others ([[docs:type:article|article]] at installation time)
  
 ===== Values and Schema Mapping =====
@@ -34,7 +34,7 @@ The table below maps the ''type'' value with the value supported of the schema u
 | [[docs:type:article|article]] \\ [[docs:type:article|news]] \\ [[docs:type:article|blog]] | [[https://ogp.me/#type_article|article]] \\ [[https://ogp.me/#type_article|article]] \\ [[https://ogp.me/#type_article|article]] | [[https://schema.org/Article|Article]] \\ [[https://schema.org/NewsArticle|NewsArticle]] \\ [[https://schema.org/BlogPosting|BlogPosting]] | A published page. The content is mostly text and it will change slowly after publication - blog, newspaper, .. |
 | [[docs:type:organization|organization]] | [[https://ogp.me/#type_website|website]] | [[https://schema.org/Organization|Organization]] | A page with your organization metadata |
 | [[docs:type:website|website]] | [[https://ogp.me/#type_website|website]] | [[https://schema.org/Website|Website]] | A page with metadata about website (and search box) |
-| [[docs:type:index|home]] | [[https://ogp.me/#type_website|website]] | [[https://schema.org/WebPage|WebPage]] | A web page |
+| [[docs:page:system:index|home]] | [[https://ogp.me/#type_website|website]] | [[https://schema.org/WebPage|WebPage]] | A web page |
 
 
 ===== Configuration =====

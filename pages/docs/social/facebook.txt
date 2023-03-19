@@ -30,7 +30,7 @@ You can check the generated card before posting with the [[https://developers.fa
 The following metadata's are used in the card:
   * for the ''og:title'': [[..:page:title|title]] if present otherwise [[..:page:h1|h1]], otherwise the page id.
   * for the ''og:description'': [[..:page:description|description]]
-  * for the ''og:image'': the [[..:page:image|image]]. The image must be at minimum 200px by 200px (The card rendering uses 524x274) More see the [[https://developers.facebook.com/docs/sharing/webmasters/images|Facebook Image documentation]]
+  * for the ''og:image'': the [[release:deprecated:images-meta|image]]. The image must be at minimum 200px by 200px (The card rendering uses 524x274) More see the [[https://developers.facebook.com/docs/sharing/webmasters/images|Facebook Image documentation]]
   * for the ''og:type'': the [[docs:type:type|page type]]
   * for the ''og:locale'': the [[..:locale:locale|locale]] - if the locale cannot be derived, we set the default Facebook value (''en_US'').
 
@@ -42,7 +42,7 @@ If the page is of the [[..:type:article|article type]], we add also the [[..:typ
 You can set the following [[docs:app:configuration|configuration]]:
 
 ^ Name ^ Description ^ Default value ^
-| ''facebookDefautImage'' | the default image if no [[..:page:image|page image]] was found | :logo-facebook.png |
+| ''facebookDefautImage'' | the default image if no [[release:deprecated:images-meta|page image]] was found | :logo-facebook.png |
 
 ===== Documentation / Reference =====
   * https://developers.facebook.com/docs/sharing/webmasters
