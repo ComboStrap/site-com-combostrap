@@ -1,2 +1,6 @@
 ====== Featured Image ======
 
+
+
+
+The default site image ''apple-touch-icon.png'' is already installed if you have followed the [[howto:getting_started:6_favicon|favicon installation guide]]

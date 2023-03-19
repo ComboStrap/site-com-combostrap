@@ -48,7 +48,7 @@ You may also choose a [[:docs:content:vignette|vignette]] as illustrative image
 <code dw>
 <page-image
    type="type"
-   default="meta|first|ancestor|vignette|logo"
+   default="featured|first|ancestor|vignette|logo"
    path="path"
    linking="nolink|linkonly|direct|details"
 />
@@ -56,13 +56,13 @@ You may also choose a [[:docs:content:vignette|vignette]] as illustrative image
 where
   * ''path'' is the [[:docs:page:system:path|page path]] to show the image for. Default to the actual page path or the [[:docs:templating:iterator|path given by the iterator]]
   * [[:docs:styling:type|type]] is one of:
-      * ''meta'' is the [[:docs:content:page-image|page image meta]] (default)
+      * ''featured'' is the [[:docs:page:featured-image|featured image]] (default)
       * ''first'' is the first image of the page
       * ''vignette'' is the [[vignette|vignette]]
-      * ''ancestor'' is the image found in the [[:docs:page:category|parent]] or any [[:docs:page:system|grand parent]]
-      * ''logo'' is the [[:docs:app:logo|logo]]
+      * ''ancestor'' is the featured image found in the [[:docs:page:category|parent]] or any [[:docs:page:system:system|grand parent]]
+      * ''logo'' is the [[:docs:app:logo|app logo]]
       * ''none'' will not print any image (to use in the default sequence)
-  * ''default'' determines the default image type chosen in order of precedence (default to ''meta|first|ancestor|vignette|logo|none'')
+  * ''default'' determines the default image type chosen in order of precedence (default to ''featured|ancestor|first|vignette|logo|none'')
   * ''linking'', see [[:docs:content:image#imagedefaultlinking|image linking]]
 
 
@@ -101,7 +101,7 @@ Example a card with data of this page with [[:docs:templating:variable|variable]
 <code dw>
 <card clickable width="300">
     <page-image ratio="16:9"/>
-    === $h1 ===
+    <heading 3>$h1</heading>
     $description [[$path| ]]
 </card>
 </code>
