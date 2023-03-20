@@ -146,24 +146,24 @@ ComboStrap detects automatically if the icon is a ''solid'' or ''outline'' one a
 
 Example with the [[https://icons.getbootstrap.com/|bootstrap alarm clock]]
 
-<row auto>
-  <cell>
+<grid>
+  <box>
 The ''outline'' icon
 <webcode name="outline" frameborder=0 >
 <code dw>
 <icon name="bs:alarm" color="pink" />
 </code>
 </webcode>
-</cell>
-<cell>
+  </box>
+  <box>
 Versus the ''solid'' (ie''fill'')  icon
 <webcode name="Solid">
 <code dw>
 <icon name="bs:alarm-fill" color="pink" />
 </code>
 </webcode>
-</cell>
-</row>
+  </box>
+</grid>
 
 ==== Sizing: Width and Height ====
 The ''width'' and ''height'' attributes have the same value and takes the default value of ''24px'' but you can overwrite it.
