@@ -205,14 +205,15 @@ This [[docs:app:configuration|configuration]] permits to disable completely this
 
 ==== imageDefaultLinking ====
 
-This [[docs:app:configuration|configuration]] permits to set the link type to the image.
+This [[docs:app:configuration|configuration]] permits setting the link type to the image.
 
 ^ Value ^ Behavior ^
-| ''direct'' (default) | Direct link to the image in a [[lightbox|lightbox]] |
+| ''default'' | The default value is ''direct'' |
+| ''direct'' | Direct link to the image in a [[lightbox|lightbox]] |
 | ''detail'' | Link to a web page with image details |
 | ''linkonly'' | Only the link is displayed, not the image |
 | ''nolink'' | No link is added around the image |
 
 
 ===== Metadata Image =====
-You can also add [[docs:page:image|image in the metadata]] in order to add/set illustrations for social cards or templates.
+You can also add [[release:deprecated:images-meta|image in the metadata]] in order to add/set illustrations for social cards or templates.

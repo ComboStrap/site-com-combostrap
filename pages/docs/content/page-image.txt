@@ -50,6 +50,7 @@ You may also choose a [[:docs:content:vignette|vignette]] as illustrative image
    type="type"
    default="featured|first|ancestor|vignette|logo"
    path="path"
+   zoom="int"
    linking="nolink|linkonly|direct|details"
 />
 </code>
@@ -57,14 +58,14 @@ where
   * ''path'' is the [[:docs:page:system:path|page path]] to show the image for. Default to the actual page path or the [[:docs:templating:iterator|path given by the iterator]]
   * [[:docs:styling:type|type]] is one of:
       * ''featured'' is the [[:docs:page:featured-image|featured image]] (default)
-      * ''first'' is the first image of the page
-      * ''icon'' is the featured icon or the first found icon.
+      * ''first'' is the [[:docs:page:first|first image of the page]]
+      * ''icon'' is the [[:docs:page:featured-icon|featured icon]].
       * ''vignette'' is the [[vignette|vignette]]
       * ''ancestor'' is the featured image found in the [[:docs:page:category|parent]] or any [[:docs:page:system:system|grand parent]]
       * ''logo'' is the [[:docs:app:logo|app logo]]
-      * ''none'' will not print any image (to use in the default sequence)
+  * ''zoom'' is the zoom factor and is applied only to the [[:docs:page:featured-icon|featured icon]]
   * ''default'' determines the default image type chosen in order of precedence (default to ''featured|ancestor|first|vignette|logo|none'')
-  * ''linking'', see [[:docs:content:image#imagedefaultlinking|image linking]]
+  * ''linking'', the default value is ''nolink''. See [[:docs:content:image#imagedefaultlinking|image linking]]
 
 
 <note>
@@ -83,11 +84,11 @@ When the ''ratio'' is set, if there is more than one [[release:deprecated:images
 
 ==== Icon Support ====
 
-When the image is an [[docs:content:icon|icon]], the icon is zoomed out 3 times and centered.
+When the image is an [[docs:content:icon|icon]], the icon is by default zoomed out 4 times and centered.
 
 <webcode name="Default" frameborder="0">
 <code dw>
-<page-image path=":docs:content:icon" ratio="16:9" color="pink" width="198" border-color="pink"/>
+<page-image icon path=":docs:content:icon" ratio="16:9" color="pink" width="198"/>
 </code>
 </webcode>
 

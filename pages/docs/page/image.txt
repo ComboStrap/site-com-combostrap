@@ -13,15 +13,15 @@
 ====== What are the illustrative images for a page? ======
 
 ===== About =====
-A page has one or more illustrative images.
+A page has one or more images that you can use in your design as illustrative images.
 
 
-===== List =====
+
 
   * [[:docs:page:featured-image|Featured image]]: the image that is shown just above or below the title
   * [[:docs:social:twitter|Twitter image]]: the image shown in a Twitter card
   * [[:docs:social:facebook|Facebook / Open graph image]]: the image is shown in a Facebook / Open Graph card
-  * Icon: the featured icon or the first icon of the page
+  * [[:docs:page:featured-icon|Featured Icon]]: the featured icon or the first icon of the page
 
 ===== Rendering =====
 
@@ -29,4 +29,4 @@ These images can be rendered with the [[:docs:content:page-image|page image]] co
 
 ===== Set =====
 
-You can set these images with the [[:docs:metadata:manager|metadata manager]].
+These images are derived from your page content by default or you can set them specifically with the [[:docs:metadata:manager|metadata manager]].

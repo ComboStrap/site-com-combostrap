@@ -18,7 +18,7 @@ The featured image is generally located below or above the [[:docs:page:title|pa
 ==== Via the content ====
 When scanning the content, we derived the ''featured image'' and we set the default value accordingly.
 
-  * for an [[:docs:page:system:index|index page]], the ''featured image'' is the first image found on the page.
+  * for an [[:docs:page:system:index|index page]], the ''featured image'' is the [[first|first image]] found on the page.
   * for an [[:docs:page:system:item|item page]], the ''featured image'' is the image found just after the [[:docs:page:h1|first heading]] if present.
 
 ==== Via the metadata manager ====

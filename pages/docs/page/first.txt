@@ -1,0 +1,35 @@
+====== First image ======
+
+
+===== About =====
+The ''first image'' is an [[image|illustrative image]] that you can render with the [[:docs:content:page-image|page-image tag]].
+
+As its name indicates, this is the first image found on your page.
+
+You would use it generally within an [[:docs:templating:iterator|iterator]].
+
+
+
+===== Example =====
+
+For the purpose of the demonstration, we have included this image to act as our first image
+
+{{:docs:content:surfer600.png?200|}}
+
+\\
+\\
+
+
+
+With the [[:docs:content:page-image|page image tag]], you can then show it with the following syntax
+
+<webcode>
+<code dw>
+<page-image first width="400" linking="default"/>
+</code>
+</webcode>
+
+
+===== How to see the value of the first image? =====
+
+In the ''image'' tab of the [[:docs:metadata:manager|metadata manager]], you can also see the value of the first image.

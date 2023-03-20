@@ -1,0 +1,37 @@
+====== Featured Icon ======
+
+
+===== About =====
+The ''featured icon'' <icon name="round-featured-video"/> is an [[:docs:page:image|illustrative image]] that you can render with the [[:docs:content:page-image|page-image tag]].
+
+This is an illustrative icon for the page.
+
+You would use it generally within an [[:docs:templating:iterator|iterator]].
+
+
+
+===== Example =====
+
+
+With the [[:docs:content:page-image|page image tag]], you can then show it with the following syntax
+
+<webcode>
+<code dw>
+<!-- A box to constraint on width as a svg page image does not have any dimension constraint  -->
+<box width="600">
+  <page-image icon height="300" ratio="16:9" zoom="-8"/>
+</box>
+</code>
+</webcode>
+
+
+===== How to see or set the value of the featured icon? =====
+
+In the ''image'' tab of the [[:docs:metadata:manager|metadata manager]], you can:
+  * set a value.
+  * and see the default value
+
+
+===== Default Value =====
+
+The default value is the first [[:docs:content:icon|icon]] found on the page.
