@@ -58,7 +58,7 @@ where
   * ''path'' is the [[:docs:page:system:path|page path]] to show the image for. Default to the actual page path or the [[:docs:templating:iterator|path given by the iterator]]
   * [[:docs:styling:type|type]] is one of:
       * ''featured'' is the [[:docs:page:featured-image|featured image]] (default)
-      * ''first'' is the [[:docs:page:first|first image of the page]]
+      * ''first'' is the [[docs:page:first-image|first image of the page]]
       * ''icon'' is the [[:docs:page:featured-icon|featured icon]].
       * ''vignette'' is the [[vignette|vignette]]
       * ''ancestor'' is the featured image found in the [[:docs:page:category|parent]] or any [[:docs:page:system:system|grand parent]]

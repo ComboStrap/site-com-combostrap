@@ -36,7 +36,7 @@ If you don't find an ''howto'', [[:support|contact us]]. We will gladly add it.
     <masonry>
         <fragment>
            <card width="250px" align="center" clickable>
-               <page-image featured ratio="16:9" default="first|logo" />
+               <page-image featured ratio="16:9" default="first|icon|ancestor|logo" />
                <heading h4 spacing="mb-1">$title</heading>
                <text><ibreadcrumb depth="1" color="muted"/></text>
                <text>${description | head(100,"...")}[[$path| ]]</text>

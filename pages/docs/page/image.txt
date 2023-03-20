@@ -22,6 +22,7 @@ A page has one or more images that you can use in your design as illustrative im
   * [[:docs:social:twitter|Twitter image]]: the image shown in a Twitter card
   * [[:docs:social:facebook|Facebook / Open graph image]]: the image is shown in a Facebook / Open Graph card
   * [[:docs:page:featured-icon|Featured Icon]]: the featured icon or the first icon of the page
+  * [[docs:page:first-image|First Image]]: the first image on your page.
 
 ===== Rendering =====
 
