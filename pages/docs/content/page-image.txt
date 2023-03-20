@@ -58,6 +58,7 @@ where
   * [[:docs:styling:type|type]] is one of:
       * ''featured'' is the [[:docs:page:featured-image|featured image]] (default)
       * ''first'' is the first image of the page
+      * ''icon'' is the featured icon or the first found icon.
       * ''vignette'' is the [[vignette|vignette]]
       * ''ancestor'' is the featured image found in the [[:docs:page:category|parent]] or any [[:docs:page:system:system|grand parent]]
       * ''logo'' is the [[:docs:app:logo|app logo]]

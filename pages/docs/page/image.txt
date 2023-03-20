@@ -21,6 +21,7 @@ A page has one or more illustrative images.
   * [[:docs:page:featured-image|Featured image]]: the image that is shown just above or below the title
   * [[:docs:social:twitter|Twitter image]]: the image shown in a Twitter card
   * [[:docs:social:facebook|Facebook / Open graph image]]: the image is shown in a Facebook / Open Graph card
+  * Icon: the featured icon or the first icon of the page
 
 ===== Rendering =====
 
