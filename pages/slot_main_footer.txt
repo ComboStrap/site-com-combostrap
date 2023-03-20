@@ -3,7 +3,7 @@
 <hr/>
 \\
 <iterator>
-    <data>select from backlinks where path like ":howto%" order by title asc limit 10</data>
+    <data>select from backlinks where path like ":howto:%" order by title asc limit 10</data>
 
     <heading h4 spacing="mb-5"> Related HowTo's </heading>
     <carrousel element-width="250px">

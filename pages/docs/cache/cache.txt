@@ -5,10 +5,18 @@
     "title": "Cache Management"
 }
 ---
-====== ComboStrap - Cache ======
 
+<box align="center text-center">
+====== Cache Management ======
 
+{{:docs:cache:cache.jpg?0x200|}}
+
+</box>
+
+\\
+\\
 ===== About =====
+
 ''cache'' is a simple and great feature that enhances [[docs:performance:performance|performance]]. 
 
 ''ComboStrap'' has two levels of cache:
