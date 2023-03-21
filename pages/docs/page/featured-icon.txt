@@ -19,7 +19,7 @@ With the [[:docs:content:page-image|page image tag]], you can then show it with 
 <code dw>
 <!-- A box to constraint on width as a svg page image does not have any dimension constraint  -->
 <box width="600">
-  <page-image icon height="300" ratio="16:9" zoom="-8"/>
+  <page-image icon height="300" ratio="16:9" zoom="-6"/>
 </box>
 </code>
 </webcode>
