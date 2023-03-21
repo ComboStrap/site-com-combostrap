@@ -25,6 +25,4 @@ The table is responsive and adapts to all [[:docs:styling:breakpoint|screen size
   * Output:
 </webcode>
 
-===== Configuration =====
-==== Enable renderer ====
-The table rendering is a feature of the [[docs:utility:renderer|renderer]] and should be then selected. See [[docs:utility:renderer#configuration|renderer configuration]].
+
