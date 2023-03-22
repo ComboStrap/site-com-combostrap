@@ -19,7 +19,7 @@ The main information is that this release brings:
       * the [[:slot_main_footer|main footer]] (below the main content slot)
       * the [[docs:theme:slot:main_header_slot|main header]] (above the main content slot)
   * a [[docs:layout:component:carrousel|carrousel layout]] (with image gallery)
-  * [[docs:content:lightbox|a image Lightbox]]
+  * [[docs:utility:lightbox|a image Lightbox]]
   * [[docs:social:share|social share]] and [[docs:social:follow|follow buttons]]
   * [[docs:app:color|branding colors (primary, secondary)]]
   * and much more...
@@ -49,7 +49,7 @@ This are the actions that you need to take:
   * The [[docs:app:color|branding color]] are now inherited by default.
   * Added the edit button for the slots and styled them.
   * New: the [[docs:cache:viewer|Cache viewer]] permits to see cache information of the slots.
-  * New: [[docs:content:lightbox|lightbox]]. When clicking on a image by default, a lightbox is showing up.
+  * New: [[docs:utility:lightbox|lightbox]]. When clicking on a image by default, a lightbox is showing up.
   * The [[docs:templating:pipeline#head|head pipeline function]] got a new parameter: the tail string. This string is added if the input string was cut.
   * Added the zoom factor on [[docs:content:svg|svg]]. This attribute is mostly used on [[docs:content:icon|icon]] to make them illustrative image.
   * We now supports [[docs:content:icon#multiple colors|multiple colors icons]]

@@ -40,6 +40,7 @@ Because 7.2 and 7.3 are already end of life, we have taken the decision to upgra
   * If you had a [[:docs:styling:scale|font size]] `Rem` configuration, you need to set it up again
   * If you had changed the minimum size to embed svg inline, you need to set in the new configuration ''combo-conf-003'' that includes know all resources (ie svg but also Javascript, Css, Code)
   * If you used the `mermaid` tag, you should change if for `webcode`. A bug has been introduced with the `mermaid` release. The mermaid tag was never intended to be used.
+  * The [[:release:deprecated:renderer|rplus renderer]] has been deprecated, you should set the renderer to the default renderer.
 
 ===== Changes =====
 
@@ -50,7 +51,7 @@ Because 7.2 and 7.3 are already end of life, we have taken the decision to upgra
   * The ''txt'' mime is now authorized by default.
   * In a [[docs:layout:component:grid|grid]], a ''cell'' now supports the [[docs:styling:clickable|clickable attribute]]
   * A ''grid'' is now supported in a [[docs:templating:iterator|iterator]].
-  * The [[docs:theme:slot:toc|Table Of Content]] is no more attached to the [[docs:utility:renderer|renderer]] and can now be placed inside the page via the toc component.
+  * The [[docs:theme:slot:toc|Table Of Content]] is no more attached to the [[release:deprecated:renderer|renderer]] and can now be placed inside the page via the toc component.
   * The [[docs:theme:slot:slot_manager|slot manager]] was added in the [[docs:theme:slot:railbar|railbar]] to help create and localize [[docs:theme:slot:slot|slots]].
   * The toggle functionality has been rewritten. The [[:docs:animation:toggle|toggle element]] is new and allows to set the a different control if the target is expanded or collapsed.
   * The [[:docs:app:identity|Identity form code]] is now ready for the new [[https://github.com/ComboStrap/combo/issues/14|DokuWiki version]].

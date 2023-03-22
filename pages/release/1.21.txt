@@ -12,7 +12,7 @@
 
 ===== About =====
 This release brought an improve templating system:
-  * this is possible to print the [[docs:page:image|image of a page]] with the [[docs:content:page-image|page-image]]
+  * this is possible to print the [[release:deprecated:images-meta|image of a page]] with the [[docs:content:page-image|page-image]]
   * the columns have been made optional in the [[docs:templating:sql|sql]]
   * the [[howto:date|date component]] permits to print a date in a supported format.
 

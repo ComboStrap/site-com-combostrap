@@ -15,7 +15,7 @@
 \\
 \\
 
-''Content'' are components that permit to fill of the content of a page. They are also known as visual and rich character text as you can use them in paragraphs.
+''Content'' are components that permit to fill of the content of a page. They are also known as visual or rich text.
 
 [[docs:component|ComboStrap UI]] gets the following content components in its library:
 
