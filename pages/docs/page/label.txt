@@ -1,0 +1,37 @@
+---json
+{
+    "label": "A short description"
+}
+---
+====== The label ======
+
+
+
+===== About =====
+The ''label'' is a short description of a page. 
+
+It's generally used in a [[:docs:lists:lists|listing]] such as a table cell.
+
+Its length should be a couple of words while the [[:docs:page:description|description]] may flow on several lines.
+
+
+
+
+
+===== How to set a label =====
+
+By default, the value of the label is the [[:docs:page:title|title]].
+
+You can overwrite it by setting a ''label'' property in the [[docs:metadata:manager|metadata manager]]
+
+===== Template =====
+
+You can use the ''%%$label%%'' [[docs:templating:variable|variable]] 
+
+Example:
+<webcode name="Default" frameborder="0">
+<code dw>
+The label of this page is: ''$label''
+</code>
+  * The result:
+</webcode>

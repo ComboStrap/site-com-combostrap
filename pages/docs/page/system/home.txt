@@ -26,4 +26,4 @@ The website home page gets the [[docs:type:website|website type]] in order to ad
 
 
 ===== Default Page Image =====
-The home page gets as default [[:docs:page:image#default|page image]] the [[:docs:app:logo|Logo]] 
+The home page gets as default [[release:deprecated:images-meta#default|page image]] the [[:docs:app:logo|Logo]] 

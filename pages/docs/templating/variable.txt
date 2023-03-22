@@ -51,11 +51,13 @@ The [[$path| ${h1" | cut("-","2-") | trim()} page]].
 ===== Variable List =====
 
 The supported variable are:
-  * ''path'' is the [[docs:page:system:path|full qualified path of a page]] that can be used in a [[docs:content:link|page link]] as reference
-  * ''title'' - the [[docs:page:title|title]] of the page - if empty, the ''h1''
-  * ''name'' - the [[docs:page:name|name]] of the page - if empty, the last part of the id
-  * ''h1'' - the [[docs:page:h1|h1 title]] (the first header text of the page) - if empty, the ''title''.
-  * ''description'' - the [[docs:page:description|description]]
+  * ''path'' is the [[:docs:page:system:path|full qualified path of a page]] that can be used in a [[docs:content:link|page link]] as reference
+  * ''title'' - the [[:docs:page:title|title]] of the page - if empty, the ''h1''
+  * ''lead'' - the [[:docs:page:lead|lead]] of the page (tagline)
+  * ''name'' - the [[:docs:page:name|name]] of the page - if empty, the last part of the id
+  * ''h1'' - the [[:docs:page:h1|h1 title]] (the first header text of the page) - if empty, the ''title''.
+  * ''description'' - the [[:docs:page:description|description]]
+  * ''label'' - the [[docs:page:label|label]] - a description of a couple of words
   * ''keyword'' - the [[docs:page:keywords|page keywords]]
   * ''date_created'' - the creation date
   * ''date_modified'' - the modification date

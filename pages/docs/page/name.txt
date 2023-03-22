@@ -7,7 +7,7 @@
     "title": "The page name metadata"
 }
 ---
-====== ComboStrap Metadata - Page Name ======
+====== The page name ======
 
 
 
@@ -26,19 +26,16 @@ This ''name'' will show up:
 
 ===== How to set a name =====
 
-By default, the value of the name is the last part of the [[docs:page:path|path]] but you can overwrite it by setting a ''name'' property in the [[docs:metadata:manager|metadata manager]]
+By default, the value of the name is the last part of the [[:docs:page:system:path|path]] but you can overwrite it by setting a ''name'' property in the [[docs:metadata:manager|metadata manager]]
 
 ===== Template =====
 
-You can use the ''$name'' [[docs:templating:variable|variable]] in a [[howto:template|template]].
+You can use the ''%%$name%%'' [[docs:templating:variable|variable]] 
 
 Example:
 <webcode name="Default" frameborder="0">
-  * The template
 <code dw>
-<template>
 The name of this page is: ''$name''
-</template>
 </code>
   * The result:
 </webcode>

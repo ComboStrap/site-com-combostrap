@@ -1,0 +1,36 @@
+---json
+{
+   "lead": "Grab the attention!"
+}
+---
+====== Lead ======
+
+
+
+===== About =====
+The ''lead'' is an appealing text that is generally used below the [[:docs:page:title|page title]].
+
+It's also known as the ''tagline''.
+
+
+===== How to set a Lead =====
+
+You can set it by setting a ''lead'' property in the [[docs:metadata:manager|metadata manager]]
+
+===== Default =====
+
+By default:
+  * the ''lead'' of the [[:docs:page:system:home|website home page]] is the [[doku>config:tagline|dokuwiki tagline]] [[docs:app:configuration|configuration]]
+  * otherwise, the ''lead'' is empty
+
+===== Template =====
+
+You can use the ''%%$lead%%'' [[docs:templating:variable|variable]] 
+
+Example:
+<webcode name="Default" frameborder="0">
+<code dw>
+The lead of this page is: ''$lead''
+</code>
+  * The result:
+</webcode>

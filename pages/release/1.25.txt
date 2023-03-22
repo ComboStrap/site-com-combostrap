@@ -84,7 +84,8 @@ Because 7.2 and 7.3 are already end of life, we have taken the decision to upgra
   * The messages are shown via toaster.
   * The event system deletes duplicate events.
   * The meta mutation system is now on document level and takes into account backlink (ie reference mutation)
-  * Page Sql allows now a random order.
+  * [[:docs:templating:sql|Page Sql]] allows now a random order.
+  * The [[:docs:page:lead|lead]] (tagline) and the [[:docs:page:label|label]] (short description) metadata have been added
 
 ==== Modification ====
 
