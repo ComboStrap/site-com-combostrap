@@ -15,23 +15,18 @@
 \\
 \\
 
-
-''Content'' are components that permit the creation of the content of a page and/or a [[docs:block:block|block component]]. 
+''Content'' are components that permit to fill of the content of a page. They are also known as visual and rich character text as you can use them in paragraphs.
 
 [[docs:component|ComboStrap UI]] gets the following content components in its library:
 
-  * [[docs:content:badge|Badge]]: A badge
-  * [[docs:content:button|Button (btn)]]: A button (they are generally set apart on their own line)
-  * [[docs:content:highlight|Highlight]]: Highlight a sequence of words
-  * [[docs:content:icon|Icon]]: All material design icons or your own
-  * [[docs:content:raster|Raster image]]: A Raster image 
-  * [[docs:content:svg|Svg image]]: A Vector Graphic image 
-  * [[docs:content:inote|Inote]]: An inline note
-  * [[docs:content:link|Link]]: A link with text, icon, image or what ever you need.
-  * [[docs:content:page-image|Page Image]]: Renders the illustrative image of a page
-  * [[docs:content:itext|Itext]]: format one or several words at once.
-  * [[docs:content:typo|Typography]]: Typography markup such as boldness, underline, ...
-  
+<iterator>
+  <data>select from descendants order by name</data>
+^ Name ^ Description ^
+<fragment>
+| [[$path|$name]] | $title |
+</fragment>
+</iterator>
   
 
-They are also known as ''inline component'' because they can be used in a line.
+They are known as content components because they add content to your page.
+The other big category of the component are [[:docs:layout:component:start|layout component]] which lay your content out.
