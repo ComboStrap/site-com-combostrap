@@ -10,7 +10,7 @@
 
 
 ===== About =====
-''Variable'' in Combostrap are first-class citizen meaning that you can use them anywhere.
+''Variables'' in Combostrap are first-class citizen meaning that you can use them anywhere.
 
 
 ===== Example =====
@@ -41,7 +41,7 @@ It will create:
 
 <webcode name="pipeline" frameborder="0">
 <code dw>
-The [[$path| ${h1" | cut("-","2-") | trim()} page]].
+The [[$path| ${h1 | cut("-","2-") | trim()} page]].
 </code>
 <hr/>
 **Result:**
@@ -56,8 +56,8 @@ The supported variable are:
   * ''lead'' - the [[:docs:page:lead|lead]] of the page (tagline)
   * ''name'' - the [[:docs:page:name|name]] of the page - if empty, the last part of the id
   * ''h1'' - the [[:docs:page:h1|h1 title]] (the first header text of the page) - if empty, the ''title''.
-  * ''description'' - the [[:docs:page:description|description]]
-  * ''label'' - the [[docs:page:label|label]] - a description of a couple of words
+  * ''description'' - the [[:docs:page:description|description]] - a long description
+  * ''label'' - the [[docs:page:label|label]] - a short description
   * ''keyword'' - the [[docs:page:keywords|page keywords]]
   * ''date_created'' - the creation date
   * ''date_modified'' - the modification date
