@@ -32,7 +32,7 @@ Via the [[:docs:theme:slot:slot|slot system]], you can change the content of [[d
 
 For more advanced usage, you can create your own template and add your own templates.
 
-[[:howto:create-theme]]
+[[howto:theme-creation]]
 
 
 

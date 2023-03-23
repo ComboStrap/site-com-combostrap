@@ -8,7 +8,7 @@
 
 
 ===== About =====
-In the [[..:template:template|page layout]], the ''main element'' is where the content of your page is rendered. 
+In a [[..:template:template|template layout]], the ''main element'' is where the content of your page is rendered. 
 
 
 

@@ -9,25 +9,35 @@
 
 
 ===== About =====
-A ''featured image'' is the main [[docs:page:image|illustrative image]] of a page.
+A ''featured image'' is a page's main [[docs:page:image|illustrative image]].
 
 The featured image is generally located below or above the [[:docs:page:title|page tile]].
 
-===== How to set a featured image? =====
 
-==== Via the content ====
-When scanning the content, we derived the ''featured image'' and we set the default value accordingly.
+===== Type =====
 
-  * for an [[:docs:page:system:index|index page]], the ''featured image'' is the [[first|first image]] found on the page.
-  * for an [[:docs:page:system:item|item page]], the ''featured image'' is the image found just after the [[:docs:page:h1|first heading]] if present.
-
-==== Via the metadata manager ====
-
-You can set a featured image via the [[:docs:metadata:manager|metadata manager]].
+We support two types of featured images:
+  * [[:docs:content:raster|raster]] that are suitable for [[:docs:social:social|social network]]
+  * [[:docs:content:svg|svg]] that are suitable for design where you can apply your own style
 
 
 ===== Default =====
 
+When scanning the content, we derived the ''featured images'' and we set the default value accordingly.
+
+
+^ [[docs:theme:template:template|Template]] \\ with [[:docs:theme:slot:main_header_slot|main header]] ^ Applied generally \\ to the following pages ^ Default Value ^
+| Yes | [[:docs:page:system:item|Item pages]] | the direct children images found just after the [[:docs:page:h1|first heading]] |
+| No | [[docs:page:system:index|Index pages]] | the [[first-image|first image]] found on the page |
+
+
 If no featured image is found:
   * the featured image of the [[:docs:page:system:system|parent until the root]] is used if any
   * and if none is found, the [[:docs:app:logo|logo]] is used in last resort.
+
+
+===== How to set your featured images? =====
+
+If you are not happy with the [[#default|default value]], you can set your featured images via the [[:docs:metadata:manager|metadata manager]].
+
+
