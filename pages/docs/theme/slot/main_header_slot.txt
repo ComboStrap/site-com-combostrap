@@ -7,9 +7,8 @@
 
 
 ===== About =====
-The ''main header slot'' creates an ''header'' for your [[..:element:main|content]].
+The ''main header slot'' is a [[slot|slot]] that will replace the default [[..:element:main-header|main header]] of your [[:docs:theme:template:template|template]].
 
-It's also known as a [[:docs:styling:hero|hero]] header in design and is generally shown prominently.
 
 
 ===== Example of main header slot =====

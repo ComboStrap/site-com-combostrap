@@ -1,0 +1,25 @@
+====== Main Header Element / Hero ======
+
+
+===== About =====
+The ''main header'' is a [[docs:theme:element:element|template element]] that is located on top of your [[main|content (main element)]].
+
+It's also known as a [[:docs:styling:hero|hero]] header in design.
+
+It is generally shown prominently to grab the attention of you reader.
+
+You will find in this area:
+  * the [[:docs:page:title|page title]]
+  * the [[:docs:page:lead|lead]]
+  * a [[:docs:page:featured-image|featured image]]
+  * the [[:docs:navigation:breadcrumb|breadcrumb]]
+
+
+===== Design =====
+
+By default, the ''main header'' design is implemented by the [[:docs:theme:template:template|template]].
+
+Note that not all template supports a ''main header''.
+
+You can overwrite this design by creating a [[:docs:theme:slot:main_header_slot|main header slot]].
+

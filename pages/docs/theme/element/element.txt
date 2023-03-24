@@ -1,0 +1,26 @@
+---json
+{
+    "aliases": [
+        { "path": ":docs:theme:element:docs:theme:element:element" }
+    ],
+    "name": "Elements",
+    "page_id": "ifvw8jwovcnrkth0di8h2"
+}
+---
+====== Template Elements ======
+
+
+===== About =====
+Every [[:docs:theme:template:template|template]] is composed of elements that creates a ''layout'' design.
+
+This page lists all elements that you may find on a page (ie on a template).
+
+===== List =====
+
+  * [[:docs:theme:element:main|main]] - the main element is where the content of the page is rendered
+  * [[:docs:theme:element:main-header|main header]] - the header of the [[main|main element]]
+  * [[:docs:theme:element:main-footer|main footer]] - the footer of the [[main|main element]]
+  * [[:docs:theme:element:page-side|page side (or sidebar)]] - the sidebar is located at the side of the ''main area'' (all main elements)
+  * [[:docs:theme:element:page-header|page header]] - the page header (known as a fat header) located at the top of your page
+  * [[:docs:theme:element:page-footer|page footer]] - the page footer (known as a fat footer) located at the bottom of your page
+  * [[:docs:theme:slot:railbar|railbar]] - the action menu located at the start/left side of your page
