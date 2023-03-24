@@ -1,6 +1,11 @@
 ---json
 {
-    "name": "Page Main Slot",
+    "aliases": [
+        { "path": ":docs:layout:page:main" },
+        { "path": ":docs:theme:slot:main" }
+    ],
+    "description": "In a template layout, main is the element where the content of your page is rendered. \n\n\n\n\n\n\n\nIn a template, the main element may have a:\n\n\t*  header, located at its top \n\t*  and footer, located at its bottom \n\nFor instance, you could add for each page:\n\n\t*  the hierarchical breadcrumb in the main header\n\t*  a share button in the main footer\n\t*  or any other component.",
+    "name": "Main Element",
     "page_id": "fhw0mvchtii8ot65pvyin"
 }
 ---
@@ -8,20 +13,19 @@
 
 
 ===== About =====
-In a [[..:template:template|template layout]], the ''main element'' is where the content of your page is rendered. 
+In a [[element|template layout]], ''main'' is the [[element|element]] where the content of your page is rendered. 
 
 
-
+{{:docs:theme:element:layout_element.svg?0x250}}
 ===== Main Header and Footer =====
 
-In a template, the ''main element'' may have a:
-  * [[..:slot:main_header_slot|header]], located at its top 
-  * and [[..:slot:main_footer_slot|footer]], located at its bottom 
+In a [[:docs:theme:template:template|template]], the ''main element'' may have a:
+  * [[main_header|header]], located at its top 
+  * and [[main_footer|footer]], located at its bottom 
 
-This slots are mostly used for [[docs:templating:templating|templating]].
 
 For instance, you could add for each page:
-  * the [[docs:navigation:hierarchical_breadcrumb|hierarchical breadcrumb]] in the ''main header''
-  * a [[docs:social:share|share button]] in the ''main footer''
+  * the [[:docs:navigation:hierarchical_breadcrumb|hierarchical breadcrumb]] in the ''main header''
+  * a [[:docs:social:share|share button]] in the ''main footer''
   * or any other component.
 

@@ -3,6 +3,7 @@
     "aliases": [
         { "path": ":docs:theme:element:docs:theme:element:element" }
     ],
+    "featured-raster-image": ":docs:layout:component:undraw_website_builder_re_ii6e.png",
     "name": "Elements",
     "page_id": "ifvw8jwovcnrkth0di8h2",
     "template": "index-median"
@@ -14,7 +15,7 @@
 ====== Template Elements ======
 <text lead>The beauty's design</text>
 
-{{:docs:theme:element:layout_element.svg?0x250&ratio=21:9|}}
+{{docs:layout:component:undraw_website_builder_re_ii6e.png?0x250&ratio=21:9}}
 
 
 Every [[:docs:theme:template:template|template]] is composed of elements that create a ''layout'' design.

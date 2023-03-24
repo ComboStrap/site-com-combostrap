@@ -209,7 +209,7 @@ This [[docs:app:configuration|configuration]] permits setting the link type to t
 
 ^ Value ^ Behavior ^
 | ''default'' | The default value is ''direct'' |
-| ''direct'' | Direct link to the image in a [[lightbox|lightbox]] |
+| ''direct'' | Direct link to the image in a [[..:utility:lightbox|lightbox]] |
 | ''detail'' | Link to a web page with image details |
 | ''linkonly'' | Only the link is displayed, not the image |
 | ''nolink'' | No link is added around the image |
