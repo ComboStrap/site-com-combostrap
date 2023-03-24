@@ -1,22 +1,26 @@
 ---json
 {
-    "canonical": ":toolbar",
+    "aliases": [
+        { "path": ":docs:layout:page:railbar" },
+        { "path": ":docs:theme:slot:railbar" }
+    ],
+    "canonical": ":railbar",
     "page_id": "yyyzdmbcprk3nctup7sbq"
 }
 ---
 
 ====== ComboStrap - Railbar ======
 
-{{ :strap:strap_toolbar.png|}}
+
 
 ===== About =====
-The ''railbar'' is a navigation rail with all [[doku>devel:menus|menus actions]]:
+The ''railbar'' is a [[element|layout element]] that shows a navigation rail with all [[doku>devel:menus|menus actions]]:
   * the page actions (Create / Edit / Show / Backlinks / Old Revisions / BackToTop)
   * the user actions (Login / Logout / Update Profile)
   * and the website actions (Admin, Media Manager, Recent Changes, Sitemap)
 
 
-
+{{:strap:strap_toolbar.png|}}
 
 ===== Features =====
 
@@ -33,6 +37,7 @@ The ''railbar'' is a navigation rail with all [[doku>devel:menus|menus actions]]
 You can cache the ''railbar'' from anonymous users with the  ''privateRailbar'' [[docs:app:configuration|configuration]].
 
 When this configuration is on, you can log in again at: https://yourdomain.com/?do=login
+
 
 ==== breakpointRailbar ====
 

@@ -1,0 +1,45 @@
+====== Page Footer Slot ======
+
+
+===== About =====
+The ''page footer slot'' is a [[slot|slot]] that replaces the default [[:docs:theme:element:page-footer|fat footer]] of the template.
+
+===== How to =====
+
+To create this slot, you need to create a markup document/page with the name ''slot_footer''
+
+Example: with:
+  * two cells in a [[docs:layout:component:grid|grid]] that will show them:
+    * on 1 row on a large screen 
+    * on 2 rows on mobile 
+  * inside a [[:docs:layout:component:bar|bar]] to style the background with a [[docs:styling:color#gradient|gradient color]] and a little bit of [[docs:styling:spacing|spacing]]
+
+
+<webcode name="Default" frameborder=0 width=100% renderingMode=story >
+<code dw>
+<bar class="p-3" background-color="gradient-light">
+
+<grid>
+
+<box>
+**First Cell** \\
+Powered by [[:start|ComboStrap]] \\
+[[support@combostrap.com?subject=Contact via WebSite|support@combostrap.com]] \\
+</box>
+
+<box>
+**Second Cell** \\
+[[#|Security]]\\
+[[#|Release (Changes)]]\\
+</box>
+</grid>
+</bar>
+</code>
+
+This code will output the following:
+</webcode>
+
+===== Configuration =====
+By default, the name of the footer slot page is ''slot_footer''.
+
+But you can change it with the ''footerSlotPageName'' [[docs:app:configuration|configuration]]

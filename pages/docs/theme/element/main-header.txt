@@ -6,7 +6,10 @@ The ''main header'' is a [[docs:theme:element:element|template element]] that is
 
 It's also known as a [[:docs:styling:hero|hero]] header in design.
 
-It is generally shown prominently to grab the attention of you reader.
+{{:docs:theme:element:layout_element.svg?0x250|}}
+
+===== Design and Component =====
+It is generally shown prominently to grab the attention of your reader.
 
 You will find in this area:
   * the [[:docs:page:title|page title]]
@@ -15,11 +18,11 @@ You will find in this area:
   * the [[:docs:navigation:breadcrumb|breadcrumb]]
 
 
-===== Design =====
+===== How to change it? =====
 
 By default, the ''main header'' design is implemented by the [[:docs:theme:template:template|template]].
+Power users can overwrite it by creating a [[:docs:theme:slot:main_header_slot|main header slot]].
 
-Note that not all template supports a ''main header''.
+Note that not all templates support a ''main header''. 
 
-You can overwrite this design by creating a [[:docs:theme:slot:main_header_slot|main header slot]].
-
+By default, all templates that are **not** for a [[:docs:theme:template:index|index page]] such as the [[:docs:theme:template:index|index template]] should support it. You should refer to the documentation of the template to confirm it.

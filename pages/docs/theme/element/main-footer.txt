@@ -2,3 +2,31 @@
 
 
 
+
+===== About =====
+The ''main footer'' is a [[docs:theme:element:element|template element]] that is located at the bottom top of your [[main|content (main element)]].
+
+
+
+{{:docs:theme:element:layout_element.svg?0x250|}}
+
+
+===== Component =====
+
+
+You will find generally in this area:
+  * an [[:docs:templating:iterator|list of related pages]] content such as 
+      * [[:docs:navigation:backlink|backlinks]]
+      * sibling
+      * and the like
+  * [[:docs:social:share|share buttons]]
+
+
+===== How to change it? =====
+
+By default, the ''main footer'' design is implemented by the [[:docs:theme:template:template|template]].
+Power users can overwrite it by creating a [[:docs:theme:slot:main_footer_slot|main footer slot]].
+
+Note that not all templates support a ''main footer''. 
+
+By default, all templates that are **not** for a [[:docs:theme:template:index|index page]] such as the [[:docs:theme:template:index|index template]] should support it. You should refer to the documentation of the template to confirm it.

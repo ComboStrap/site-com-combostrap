@@ -29,27 +29,8 @@ ComboStrap supports the following layouts
 | [[landing|Landing]] | A layout to create landing pages |
 | [[index]] | A layout to create a semi-landing page for the index pages |
 | [[hamburger]] | The default layout of admin pages (without sides)|
+| [[blank|blank]] | A template with only the content |
 
-
-===== List =====
-
-
-
-
-
-
-
-
-==== Hamburger ====
-
-The hamburger is the default layout for any admin page.
-
-A hamburger will show only three layers:
-  * the page header
-  * the main (header, content and footer)
-  * the page footer
-
-There is no page side.
 
 
 

@@ -18,7 +18,7 @@ All themes support the following features:
   * [[docs:styling:scale|Size Scale configuration (font and spacing)]]
   * [[howto:getting_started:6_favicon|Favicon]]: Recognized the [[howto:getting_started:6_favicon|favicons]]  (included ''android-chrome-192x192.png'')
   * [[docs:utility:shortcut]]
-  * [[docs:theme:slot:railbar|Railbar Menu (Page, User Site) with a private option]]
+  * [[docs:theme:element:railbar|Railbar Menu (Page, User Site) with a private option]]
 
 
 ===== Customization =====

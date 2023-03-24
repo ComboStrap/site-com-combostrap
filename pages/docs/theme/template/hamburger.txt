@@ -1,0 +1,17 @@
+====== Hamburger Template ======
+
+
+
+===== About =====
+''hamburger'' {{:combostrap:icons:hamburger.svg|}} is a [[template|template]] that show only these three layers:
+  * the [[:docs:theme:element:page-header|page header]]
+  * the [[docs:theme:element:main|main (header, content and footer)]]
+  * the [[:docs:theme:element:page-footer|page footer]]
+
+
+The hamburger is the default layout for any admin page.
+
+
+There is no [[:docs:theme:element:page-side|page side (sidebar)]].
+
+

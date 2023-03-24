@@ -13,7 +13,7 @@ The ''namespace'' of a page is the equivalent of a directory in the [[system|pag
 
 ===== Example =====
 
-  * If the [[docs:page:path|path]] of your page is ''group:category:page-name''
+  * If the [[docs:page:system:path|path]] of your page is ''group:category:page-name''
   * It's namespace is ''group:category''
 
 <note>

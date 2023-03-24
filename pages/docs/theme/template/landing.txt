@@ -12,10 +12,10 @@ You generally will use it to create layout a [[:howto:landing-page|landing pages
 ===== Layout =====
 
 In a landing page layout:
-  * the main content is not [[docs:theme:slot:container|contained]]
+  * the main content is not [[docs:theme:element:container|contained]]
   * the page header, the page footer, the main content are shown
-  * the sidebar, the main header and footer, the [[docs:theme:slot:toc|toc]] are not shown
-  * the [[:docs:theme:slot:railbar|railbar]] is in a off-canvas at the right side.
+  * the sidebar, the main header and footer, the [[docs:theme:element:toc|toc]] are not shown
+  * the [[docs:theme:element:railbar|railbar]] is in a off-canvas at the right side.
 
 ===== How to create a landing page? =====
  

@@ -15,11 +15,11 @@ Because [[:docs:page:system:index|index pages]] are landing pages for a [[:docs:
 <box>
 
 This layout is composed of the following [[:docs:theme:slot:slot|slots]]:
-  * [[:docs:theme:slot:header_slot|page header]] and [[:docs:theme:slot:footer_slot|page footer]]
+  * [[:docs:theme:slot:header_slot|page header]] and [[docs:theme:element:page-footer|page footer]]
   * [[:docs:theme:slot:side_slot|sidebar]]
 
 It does not show:
-  * the [[docs:theme:slot:toc|table of content]]
+  * the [[docs:theme:element:toc|table of content]]
   * the [[:docs:theme:slot:main_header_slot|main header]] and [[:docs:theme:slot:main_footer_slot|footer]]
 
 </box>

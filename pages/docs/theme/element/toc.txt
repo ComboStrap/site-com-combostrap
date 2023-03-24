@@ -28,9 +28,7 @@ You can:
   * delete it by choosing a template that does not support a TOC.
 
 
-By default, all templates support a toc with the exception of the following templates:
-  * [[:docs:theme:template:landing|landing]]
-  * [[:docs:theme:template:index|index]]
+By default, all templates support a toc with the exception of the templates created for [[:docs:page:system:index|index pages]].
 
 
 

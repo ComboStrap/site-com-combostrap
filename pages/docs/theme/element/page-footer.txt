@@ -3,60 +3,30 @@
     "aliases": [
         { "path": ":docs:layout:page:footer_slot" }
     ],
-    "description": "The page footer template element is located at the bottom of a page that contains the footer of the page.\n\nIt's also known as a fat footer and contains generally information about the web site.\n\n\n\n\n\n\n\n\n\nWith the slot system, you can create a document with the name slot_footer (by default) to create your owngribagradient colospacincreate your own themeslot_footertpl\u00bbstrap\u00bbfooterSlotPageNamconfiguration",
+    "description": "The page footer template element is located at the bottom of a page that contains the footer of the page.\n\nIt's also known as a fat footer and contains general information about the web site.\nWith the slot system, you can create a document with the name slot_footer (by default) to create your owngribagradient colospacincreate your own themeslot_footertpl\u00bbstrap\u00bbfooterSlotPageNamconfiguration",
     "name": "Fat Footer",
     "page_id": "yxm40tovuntj16ix5r7rx"
 }
 ---
 
-====== ComboStrap - Page Footer Template Element ======
+====== Page Footer Template Element ======
 
 ===== About =====
-The ''page footer'' template element is located at the bottom of a page that contains the footer of the [[..:template:template|page]].
+The ''page footer'' is a [[element|template layout element]] that is located at the bottom of your page.
 
-It's also known as a ''fat footer'' and contains generally information about the [[docs:app:app|web site]].
+It's also known as a ''fat footer'' and contains general information about the [[docs:app:app|web site]].
 
-===== Customization =====
-
-==== Slot System ====
-
-With the [[docs:theme:slot:slot|slot system]], you can create a document with the name ''slot_footer'' (by default) to create your own.
-
-Example: with:
-  * two cells in a [[docs:layout:component:grid|grid]] that will show them:
-    * on 1 row on a large screen 
-    * on 2 rows on mobile 
-  * inside a [[:docs:layout:component:bar|bar]] to style the background with a [[docs:styling:color#gradient|gradient color]] and a little bit of [[docs:styling:spacing|spacing]]
+{{:docs:theme:element:layout_element.svg?0x250|}}
 
 
-<webcode name="Default" frameborder=0 width=100% renderingMode=story >
-<code dw>
-<bar class="p-3" background-color="gradient-light">
+===== How to change it? =====
 
-<grid>
+By default, the ''page-footer'' design is implemented by the [[:docs:theme:template:template|template]].
 
-<box>
-**First Cell** \\
-Powered by [[:start|ComboStrap]] \\
-[[support@combostrap.com?subject=Contact via WebSite|support@combostrap.com]] \\
-</box>
+  * Designers can [[:howto:theme-creation|create a custom theme]] and apply complex HTML logic.
+  * Power users can overwrite it by creating a [[:docs:theme:slot:page_footer_slot|page footer slot]].
 
-<box>
-**Second Cell** \\
-[[#|Security]]\\
-[[#|Release (Changes)]]\\
-</box>
-</grid>
-</bar>
-</code>
 
-This code will output the following:
-</webcode>
+Most of the templates should support it except the [[:docs:theme:template:blank|blank layout]]. You should refer to the documentation of the template to confirm it.
 
-==== Template Customization ====
-You can also [[:howto:theme-creation|create your own theme]] and apply complex HTML logic.
 
-===== Configuration =====
-By default, the name of the footer slot page is ''slot_footer''.
-
-But you can change it with the ''tpl»strap»footerSlotPageName'' [[docs:app:configuration|configuration]]

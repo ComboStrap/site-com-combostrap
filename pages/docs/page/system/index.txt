@@ -53,6 +53,22 @@ The website home page is a special index page that has its own documentation : [
 
 
 
+
+===== Template =====
+
+The following [[:docs:theme:template:template|template]] have been created for ''index pages'':
+
+  * [[:docs:theme:template:landing|landing]]
+  * [[:docs:theme:template:index|index]]
+  * [[:docs:theme:template:index-median|index-median]]
+
+
+These templates don't have the following layout elements:
+  * [[:docs:theme:element:main-header|main header]]
+  * [[:docs:theme:element:main-footer|main footer]]
+  * [[:docs:theme:element:toc|table of content (toc)]]
+
+
 ===== Configuration =====
 
 ==== startpage ====
