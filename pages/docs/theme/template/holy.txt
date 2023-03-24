@@ -17,10 +17,10 @@ This is the default layout for a [[docs:page:system:item|page item]].
 
 You can custom it with:
   * a [[docs:theme:slot:header_slot|page header slot]]
-  * a [[docs:theme:slot:footer_slot|page footer slot]]
+  * a [[docs:theme:element:page-footer|page footer slot]]
   * and three columns:
       * [[docs:theme:slot:side_slot|left slot (page side)]]
-      * [[..:slot:main|main slot (ie content)]] (main header and footer slot)
+      * [[..:element:main|main slot (ie content)]] (main header and footer slot)
 
 ===== Containment =====
 

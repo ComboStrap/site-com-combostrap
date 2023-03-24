@@ -59,10 +59,31 @@ The content will not flow along the box, if you want this behavior, you need to 
 
 ==== Children ====
 
-<note warning>
-The ''children'' align values should be used only against [[:docs:block:block|block]] children.
+This value aligns the children.
 
-If you use them against [[:docs:content:content|text/inline/content]], the result will collapse all space.
+<code dw>
+<component align={value}-children[-breakpoint] />
+</code>
+where:
+  * the values may be:
+    * ''x-center''  or ''center'' 
+    * ''x-between'' or ''between''
+    * ''x-end'' or ''end'' (right side for LTR or left side for RTL language)
+    * ''x-start'' or ''start''  (left side for LTR or right side for RTL language)
+    * ''x-end'' or ''end'' - right left for a LTR language and left for a RTL language
+    * ''y-center'' 
+    * ''y-top'' 
+    * ''y-bottom'' 
+  * ''breakpoint'' defines a [[:docs:styling:conditional|conditional value]].
+
+<note warning>
+The result may collapse all space.
+
+If this is the case, it means that the component does not support children alignement.
+
+Why?
+Technically, the ''children'' align values should be used only against [[:docs:block:block|block]] children. 
+If you use them against [[:docs:content:content|text/inline/content]], the content just collpase.
 </note>
 
 
