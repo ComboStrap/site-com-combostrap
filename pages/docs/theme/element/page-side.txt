@@ -8,3 +8,24 @@
 
 
 
+
+===== About =====
+The ''page side'' or ''sidebar'' is a [[docs:theme:element:element|layout element]] that is located along the side of the [[main|main area (ie content with header and footer)]].
+
+
+{{:docs:theme:element:layout_element.svg?0x250|}}
+
+===== Design and Component =====
+
+In this area, you will find generally [[:docs:navigation:navigation|navigational component]] such as the [[:docs:navigation:page-explorer|page explorer]] (a list of sibling or descendants pages)
+
+===== How to change it? =====
+
+By default, the ''page side'' design is implemented by the [[:docs:theme:template:template|template]].
+
+  * Designers can [[:howto:theme-creation|create a custom theme]] and apply complex HTML logic.
+  * Power users can overwrite it by creating a [[:docs:theme:slot:side_slot|page side slot]].
+
+Note that not all templates support a ''page side''. 
+
+By default, all templates that are **not** for a [[:docs:theme:template:index|index page]] should support it. You should refer to the documentation of the template to confirm it.

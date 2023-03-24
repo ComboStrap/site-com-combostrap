@@ -1,5 +1,12 @@
 ---json
 {
+    "aliases": [
+        { "path": ":docs:layout:page:header_slot" }
+    ],
+    "canonical": ":header_slot",
+    "description": "The page header slot is a slot that replaces the page header.\n\n\n\n\n\n\n\nThe how-to getting started guide explains how to create a header navigational bar: .\n\n\n\n\n\nYou can configure the name of the header slot with the tpl\u00bbstrap\u00bbheaderslot configuration",
+    "dynamic_quality_monitoring": "false",
+    "low_quality_page": "false",
     "name": "Page Header Slot",
     "page_id": "p699rcpva3jcxth3wxbii"
 }
@@ -9,17 +16,17 @@
 
 
 ===== About =====
-The ''page header slot'' is a [[docs:theme:slot:slot|slot]] that contains the ''header'' of the [[..:template:template|page]].
-
-The ''page header'' is rendered at the top of the page and contains generally a [[docs:menubar:menubar|menu bar]]. 
+The ''page header slot'' is a [[docs:theme:slot:slot|slot]] that replaces the [[:docs:theme:element:page-header|page header]] in a [[docs:theme:template:template|template]].
 
 
+{{:docs:theme:element:layout_element.svg?0x250|}}
+
+===== Usage =====
 
 
-<note>
-  * The ''how-to'' getting started guide explains how to create a header navigational bar: [[howto:getting_started:7_menu]].
-  * It defines a header for the page. If you want to define a header for a component, see the [[docs:utility:header|header component]]
-</note>
+
+The ''how-to'' getting started guide explains how to create a header navigational bar: [[howto:getting_started:7_menu]].
+
 
 
 ===== Configuration =====

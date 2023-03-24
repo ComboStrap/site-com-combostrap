@@ -1,1 +1,18 @@
 ====== Blank Template ======
+
+
+===== About =====
+A ''blank'' template is the simplest layout of all because it does not support any [[:docs:theme:element:element|layout elements]].
+
+It will just print the [[:docs:theme:element:main|page content]] [[:docs:theme:element:container|contained]].
+===== Usage =====
+
+This layout is mainly used:
+  * to export/print the content.
+  * to integrate the page into another website.
+
+
+===== Example =====
+
+
+[[?template=blank|Click on this link to see the blank template in action]]

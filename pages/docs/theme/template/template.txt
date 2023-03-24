@@ -27,16 +27,17 @@ ComboStrap supports the following layouts
 | [[holy|Holy]] | The holy-grail layout |
 | [[median|Median]] | A layout that improves readability by constraining and centering the content |
 | [[landing|Landing]] | A layout to create landing pages |
-| [[index]] | A layout to create a semi-landing page for the index pages |
-| [[hamburger]] | The default layout of admin pages (without sides)|
-| [[blank|blank]] | A template with only the content |
+| [[index|Index]] | A layout to create a semi-landing page for the index pages |
+| [[hamburger|Hamburger]] | The default layout of admin pages (without sides)|
+| [[blank|Blank]] | A template with only the content |
 
 
 
 
-===== How to set the page layout ? =====
+===== How to set the template for a page? =====
 
-You can set the page layout via the [[docs:metadata:manager|metadata manager]].
+You can set the template via the [[docs:metadata:manager|metadata manager]].
 
 
 {{docs:theme:slot:page_layout_metadata_manager.png|}}
+

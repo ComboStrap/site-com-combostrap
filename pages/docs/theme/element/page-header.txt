@@ -2,3 +2,28 @@
 
 
 
+
+===== About =====
+The ''page header'' is a [[element|template layout element]] that is located at the top of your page.
+
+
+{{:docs:theme:element:layout_element.svg?0x250|}}
+
+===== Design and Component =====
+
+It contains the  [[:docs:menubar:menubar|menubar]] that:
+  * shows links or dropdown
+  * contains a [[:docs:menubar:search|search box]] or [[:docs:content:button|button]]
+  * controls the visibility and collapse of [[:docs:theme:element:element|layout elements]] such as the [[:docs:theme:element:page-side|sidebar]] for small screen.
+
+===== How to change it? =====
+
+By default, the ''page-header'' design is implemented by the [[:docs:theme:template:template|template]].
+
+  * Designers can [[:howto:theme-creation|create a custom theme]] and apply complex HTML logic.
+  * Power users can overwrite it by creating a [[:docs:theme:slot:header_slot|page header slot]].
+
+
+Most of the templates should support it except the [[:docs:theme:template:blank|blank layout]]. You should refer to the documentation of the template to confirm it.
+
+

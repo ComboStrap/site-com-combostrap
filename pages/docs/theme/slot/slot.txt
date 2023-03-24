@@ -1,46 +1,51 @@
 ---json
 {
+    "aliases": [
+        { "path": ":docs:layout:page:slot" }
+    ],
+    "canonical": ":slot",
     "description": "A slot is a location in the page where a markup file is rendered.",
+    "featured-raster-image": ":docs:layout:component:undraw_website_builder_re_ii6e.png",
     "page_id": "rxvr5513sglm9cjiy6sj8",
-    "title": "What is a slot ?"
+    "template": "holy",
+    "title": "What is the slot system ?"
 }
 ---
 ====== Slot System ======
 
 
-
 ===== About =====
-''slot'' are normal pages that replaces the content of [[docs:theme:element:element|elements]] if found.
+''slots'' are normal pages that replaces the content of [[docs:theme:element:element|layout elements]] if found.
 
 ComboStrap supports the following slots.
 
-The table below lists all supported secondary slots and their type.
 
-^ Name ^ Location ^ Slot Type ^
-| [[docs:theme:slot:side_slot|side slot]] | at the left side of the primary slot | Page |
-| [[docs:theme:slot:header_slot|header slot]] | at the top of a page | Page |
-| [[page_footer_slot|footer slot]] | at the bottom of a page | Page |
-| [[main_header_slot|main header slot]] | at the top of the primary slot | Content |
-| [[main_footer_slot|main footer slot]] | at the bottom of the primary slot | Content |
-
+^ Name ^ Location ^
+| [[docs:theme:slot:side_slot|Sidebar slot]] | at the left side of the content |
+| [[docs:theme:slot:header_slot|Page header slot]] | at the top of a page |
+| [[page_footer_slot|Page footer slot]] | at the bottom of a page |
+| [[main_header_slot|Main header slot]] | at the top of the content |
+| [[main_footer_slot|Main footer slot]] | at the bottom of the content |
 
 
 
+{{:docs:theme:element:layout_element.svg?0x250|}}
 ===== Usage =====
 
 You can list, edit or create secondary slots with the [[docs:theme:slot:slot_manager|slot manager]].
 
-The secondary slot works like that:
-  * if you want to fill the [[docs:theme:slot:side_slot|side slot]] for the whole website, you would create the ''side slot'' page at the root of the [[docs:page:system:system|page system]] (by default the ''sidebar'' page)
-  * if you want to fill the [[docs:theme:slot:side_slot|side slot]] only  for a specific [[docs:page:system:namespace|namespace]], you would create the  ''side slot'' page under this namespace (for instance: ''namespace:sidebar'')
+The slots work like that:
+  * if you want to replace the [[:docs:theme:element:page-side|sidebar element]] for the whole website, you would create the [[:docs:theme:slot:side_slot|sidebar slot]] page at the root of the [[docs:page:system:system|page system]] (by default the ''sidebar'' page)
+  * if you want to replace the [[:docs:theme:element:page-side|sidebar element]] only  for a specific [[docs:page:system:namespace|namespace]], you would create the [[:docs:theme:slot:side_slot|sidebar slot]] page under this namespace (for instance: '':namespace:sidebar'')
 
 The [[docs:theme:slot:slot_manager|slot manager]] shows you where you can create these slots.
 
 
-Features:
-  * A ''secondary slot'' can be defined for every namespace (directory). If there is no ''slot'' page for a namespace, a  ''slot'' page is searched in the ascendant namespace (parent, grand parent,...)
-  * A ''secondary slot'' is automatically [[docs:quality:automatic_hidden|hidden]] and not searchable.
-  * [[docs:cache:slot|Side slots (side and sidekick slots)]] are rendered for every namespace and regenerated for each namespace changes (page creation, modification, deletion)
+===== Features =====
+
+  * A ''slot'' can be defined for every namespace (directory). If there is no ''slot'' page for a namespace, a  ''slot'' page is searched in the ascendant namespace (parent, grandparent,...)
+  * A ''slot'' is automatically [[docs:quality:automatic_hidden|hidden]] and not searchable.
+  * [[docs:cache:slot|Side slots (side slots)]] are rendered for every namespace and regenerated for each namespace change (page creation, modification, deletion)
 
 
 ===== Glossary =====

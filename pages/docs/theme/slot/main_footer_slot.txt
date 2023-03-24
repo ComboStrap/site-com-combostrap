@@ -7,21 +7,20 @@
 
 
 ===== About =====
-The ''main footer slot'' is a [[slot|slot]] located at the top of the [[..:element:main|main content]].
+The ''main footer slot'' is a [[slot|slot]] that replaces the content of the [[:docs:theme:element:main-footer|main footer]]
 
 
-A main footer slot applies to all pages except the [[docs:page:system:home|root page]].
-
+{{:docs:theme:element:layout_element.svg?0x250|}}
 ===== How to create a main footer slot ? =====
 
 The name of the main header slot is ''slot_main_footer''.
 
-To add a main header slot to all your pages:
+To add a main footer slot to all your pages:
   * go to ''https://yourdomain.com/slot_main_footer''
   * the page should open in ''edit'' mode, ready to receive its content. You can use all syntax.
 
 ===== Example of main footer slot =====
-Below is an example of main footer.
+Below is an example of ''main footer''.
 
 <code dw>
 Share Page: <share twitter /> <share mail /> <share Whatsapp /> <share telegram /> \\

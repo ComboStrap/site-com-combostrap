@@ -11,7 +11,7 @@
 ===== About =====
 The ''background'' element defines and adds a background.
 
-It's mostly used with [[:docs:layout:component:bar|bar component]] to create compelling [[docs:theme:slot:landing|landing page]].
+It's mostly used with [[:docs:layout:component:bar|bar component]] to create compelling [[howto:landing-page|landing page]].
 
 You can create ''cover'' or ''tile'' background with:
   * [[#raster image|raster image]]

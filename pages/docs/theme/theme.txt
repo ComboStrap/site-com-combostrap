@@ -7,7 +7,7 @@
 A ''theme'' designs your entire [[:docs:app:app|website app]].
 
 
-A theme is composed of several [[:docs:theme:template:template|templates]]. Each template applies to one page and designs a layout.
+A theme is composed of several [[:docs:theme:template:template|templates]]. Each template applies to one page and [[docs:theme:element:element|designs a layout]].
 
 All themes support the following features:
 

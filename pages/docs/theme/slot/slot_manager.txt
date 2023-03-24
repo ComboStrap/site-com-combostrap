@@ -1,26 +1,33 @@
 ---json
 {
-    "description": "The slot manager is a railbar actions that permits to list, create or edit the slots of a page.",
+    "description": "The slot manager is a Railbar action that permits to list, create or edit the slots.",
     "page_id": "shvvnodons73ihuw9aj2o"
 }
 ---
 
 ===== About =====
-The ''slot manager'' is a [[docs:theme:slot:railbar|railbar actions]] that permits to manage [[docs:theme:slot:slot|secondary slots]].
+The ''slot manager'' is a [[docs:theme:element:railbar|railbar item]] that permits to manage [[docs:theme:slot:slot|slots]].
 
 You can
   * see
   * and/or create them.
 
-The slot manager will shows all [[docs:theme:slot:slot|secondary slot]].
-  * The blue link are the markup slot that exists in the [[docs:page:system:system|page system]]
-  * The gray link are the markup slot that you can create
+The ''slot manager'' appears when you click on the following icon <icon name="entypo:text-document-inverted"/> in the [[docs:theme:element:railbar|railbar]].
+
+{{docs:theme:slot:slot_manager.jpg?500|}}
+
+===== Links =====
+
+The slot manager will show all [[docs:theme:slot:slot|slots]].
+  * The blue links are the slots that exist in the [[docs:page:system:system|page system]]
+  * The gray links are the slots that you can create
+
+===== Level =====
 
 The markup slots used for the page are the slots with the highest [[docs:page:level|level]] (the first in each list)
 
-The ''slot manager'' appears when you click on the following icon <icon name="entypo:text-document-inverted"/> in the [[docs:theme:slot:railbar|railbar]].
 
-{{docs:theme:slot:slot_manager.jpg?500|}}
+
 
 
 

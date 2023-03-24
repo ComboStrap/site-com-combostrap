@@ -1,6 +1,11 @@
 ---json
 {
-    "h1": "Sidebar",
+    "aliases": [
+        { "path": ":docs:layout:page:side_slot" }
+    ],
+    "canonical": ":side_slot",
+    "description": "The sidebar is a slot that replaces the content of the sidebar.\n\n\n\n\n\n\n\n\n\nThe cache of the side slot is automatically deleted when a page in the same namespace is created, added or deleted.\nSee \n\n\n\n\n\nThe components are by default collapsed until the medium screen by setting thetoggle attributecollapsed expanded-mdside slotdokuwiki sidebaconfiguration",
+    "name": "Sidebar Slot",
     "page_id": "xhixvt6md9ryujvs1r4l7",
     "title": "What is a side slot ? "
 }
@@ -8,9 +13,9 @@
 ====== Sidebar ======
 
 ===== About =====
-The ''sidebar'' is a [[docs:theme:slot:slot|slot]] that is located by default at the left side of the [[docs:theme:slot:main|content]].
+The ''sidebar slot'' is a [[docs:theme:slot:slot|slot]] that replaces the [[:docs:theme:element:page-side|sidebar element]].
 
-
+{{:docs:theme:element:layout_element.svg?0x250|}}
 
 ===== Feature =====
 
@@ -18,6 +23,7 @@ The ''sidebar'' is a [[docs:theme:slot:slot|slot]] that is located by default at
 
 The cache of the side slot is automatically deleted when a page in the same namespace is created, added or deleted.
 See [[docs:cache:slot]]
+
 
 ==== Collapsed components by default on small screen ====
 

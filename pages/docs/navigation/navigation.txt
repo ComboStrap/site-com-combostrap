@@ -22,7 +22,7 @@
 
   * [[docs:navigation:breadcrumb]] : A list of pages shown in a [[docs:navigation:hierarchical_breadcrumb|hierarchical]] or [[docs:navigation:historical_breadcrumb|historical]]  way.
   * [[docs:menubar:menubar]] : The top navigation bar
-  * [[docs:theme:slot:toc]] : The table of content
+  * [[docs:theme:element:toc]] : The table of content
   * [[docs:navigation:page-explorer]] : A page navigation component that shows a list or a tree of pages
   * [[docs:layout:component:tabs]] : A tab when activated that shows its related [[docs:layout:component:panel|panel]]
   * [[docs:layout:component:accordion]] : A list of rows that when activated shows its related [[docs:layout:component:panel|panel]]

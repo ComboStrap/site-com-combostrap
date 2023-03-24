@@ -21,7 +21,9 @@ You will find in this area:
 ===== How to change it? =====
 
 By default, the ''main header'' design is implemented by the [[:docs:theme:template:template|template]].
-Power users can overwrite it by creating a [[:docs:theme:slot:main_header_slot|main header slot]].
+
+  * Designers can [[:howto:theme-creation|create a custom theme]] and apply complex HTML logic.
+  * Power users can overwrite it by creating a [[:docs:theme:slot:main_header_slot|main header slot]].
 
 Note that not all templates support a ''main header''. 
 

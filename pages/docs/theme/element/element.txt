@@ -36,11 +36,12 @@ They can use:
 
 
 ^ Element ^ Description ^
-| [[:docs:theme:element:main|main]] | the main element is where the content of the page is rendered |
-| [[:docs:theme:element:main-header|main header]] | the header of the [[main|main element]] |
-| [[:docs:theme:element:main-footer|main footer]] | the footer of the [[main|main element]] |
-| [[:docs:theme:element:page-side|page side (or sidebar)]] | the sidebar is located at the side of the ''main area'' (all main elements) |
-| [[:docs:theme:element:page-header|page header]] | the page header (known as a fat header) is located at the top of your page |
-| [[:docs:theme:element:page-footer|page footer]] | the page footer (known as a fat footer) is located at the bottom of your page |
-| [[:docs:theme:slot:railbar|railbar]] | the action menu is located at the end/right side of your page |
+| [[:docs:theme:element:main|Main Content]] | The main content element is where the content of the page is rendered |
+| [[:docs:theme:element:main-header|Main header]] | The [[main|content]] header |
+| [[:docs:theme:element:main-footer|Main footer]] | The [[main|content]] footer |
+| [[:docs:theme:element:page-side|Page side (or sidebar)]] | The sidebar is located at the side of the ''main area'' (all main elements) |
+| [[:docs:theme:element:page-header|Page header]] | The page header (known as a fat header) is located at the top of your page |
+| [[:docs:theme:element:page-footer|Page footer]] | The page footer (known as a fat footer) is located at the bottom of your page |
+| [[docs:theme:element:railbar|Railbar]] | The action menu is located at the end/right side of your page |
+| [[docs:theme:element:toc|Table of content]] | The Table of Content |
 
