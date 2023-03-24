@@ -20,8 +20,8 @@ In a [[element|template layout]], ''main'' is the [[element|element]] where the 
 ===== Main Header and Footer =====
 
 In a [[:docs:theme:template:template|template]], the ''main element'' may have a:
-  * [[main_header|header]], located at its top 
-  * and [[main_footer|footer]], located at its bottom 
+  * [[main-header|header]], located at its top 
+  * and [[main-footer|footer]], located at its bottom 
 
 
 For instance, you could add for each page:

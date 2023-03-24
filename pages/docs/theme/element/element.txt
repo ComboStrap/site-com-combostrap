@@ -4,7 +4,7 @@
         { "path": ":docs:theme:element:docs:theme:element:element" }
     ],
     "featured-raster-image": ":docs:layout:component:undraw_website_builder_re_ii6e.png",
-    "name": "Elements",
+    "name": "Layout Elements",
     "page_id": "ifvw8jwovcnrkth0di8h2",
     "template": "index-median"
 }
@@ -12,7 +12,7 @@
 
 
 <box align="text-center">
-====== Template Elements ======
+====== Template Layout Elements ======
 <text lead>The beauty's design</text>
 
 {{docs:layout:component:undraw_website_builder_re_ii6e.png?0x250&ratio=21:9}}
