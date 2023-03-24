@@ -10,7 +10,7 @@
 
 
 ===== About =====
-A ''page alias'' is an extra [[docs:page:path|path]] value for a page.
+A ''page alias'' is an extra [[docs:page:system:path|path]] value for a page.
 
 If a ''page'' has an alias that corresponds to the path of a [[docs:router:404|missing page]], a [[redirection|redirection]] is performed.
 
@@ -18,6 +18,18 @@ You can see them as symlink or shortcut for a file system.
 
 
 
+
+
+<note warning>
+With the [[:docs:page:url#permanent|permanent page url]], this feature is in a deprecation state.
+
+Why? 
+
+Because when moving heavily the files, you end up with a lot of aliases and it becomes really difficult to manage them.
+The introduction of the [[:docs:page:url#permanent|permanent page url]] permits moving the file easily from location 
+without this burden because it's identified by the unique [[:docs:page:page_id|page id]]
+
+</note>
 
 ===== Type =====
 
@@ -29,9 +41,11 @@ This type of redirect are automatically created:
   * or when you [[docs:page:move|move a page]].
 
 For instance:
-  * if you have a page at the [[docs:page:path|path]] ''fruit:pear''. 
+  * if you have a page at the [[docs:page:system:path|path]] ''fruit:pear''. 
   * if you move the page to another location such as ''fruit:tree:pear''
   * the page ''fruit:tree:pear'' will get the alias ''fruit:pear'' with the type ''redirect''
+
+
 
 ==== Synonym ====
 

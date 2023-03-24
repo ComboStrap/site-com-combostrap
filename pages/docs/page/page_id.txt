@@ -17,13 +17,9 @@ It's a random generated string of length 12.
 
 ===== Example =====
 
-The ''page_id'' of this page is:
+The ''page_id'' of this page is: ''$page_id''
 
-<template>
-<code uuid>
-$page_id
-</code>
-</template>
+
 ===== Usage =====
 
   * It is used to create:
