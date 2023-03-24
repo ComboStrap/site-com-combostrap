@@ -30,12 +30,14 @@ where:
 
 ===== Usage =====
   * A ''main header'' applies only to specific [[docs:theme:template:template|template]].
-  * When a ''main header'' is applied, to not show duplicate [[:docs:content:heading|heading 1]], all content to [[:docs:content:heading|heading 2]] is deleted.
+  * When a ''main header'' is applied, the following contents are not shown:
+    * The [[:docs:content:heading|heading 1]] 
+    * The direct children images that are seen as [[:docs:page:featured-image|featured images]]
   
 
 ===== How to create a main header slot ? =====
 
-==== With the slot manager =====
+==== With the slot manager ====
 
 With the [[docs:theme:slot:slot_manager|slot manager]], you need to click on a ''create'' link
 
