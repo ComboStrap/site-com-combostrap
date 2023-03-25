@@ -2,7 +2,7 @@
 
 
 ===== About =====
-A ''blank'' template is the simplest layout of them all as its prints only the content. 
+A ''blank'' template is the simplest layout of them all, as its prints only the content. 
 
 
 

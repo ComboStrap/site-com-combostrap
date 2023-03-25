@@ -1,13 +1,26 @@
+---json
+{
+    "aliases": [
+        { "path": ":docs:theme:theme" }
+    ],
+    "page_id": "4h63iu5bv3rvsullssr4j",
+    "template": "holy"
+}
+---
 ====== Theme ======
 
 
 {{:docs:theme:undraw_dark_mode_2xam.svg?0x300|}}
+
 
 ===== About =====
 A ''theme'' designs your entire [[:docs:app:app|website app]].
 
 
 A theme is composed of several [[:docs:theme:template:template|templates]]. Each template applies to one page and [[docs:theme:element:element|designs a layout]].
+
+
+===== Features =====
 
 All themes support the following features:
 
@@ -23,14 +36,17 @@ All themes support the following features:
 
 ===== Customization =====
 
-==== Via the Slot System =====
+==== Via the Slot System ====
 
 Via the [[:docs:theme:slot:slot|slot system]], you can change the content of [[docs:theme:element:element|template region]] by creating a wiki page with a specific name called a slot.
 
 
 ==== By creating your own templates ====
 
-For more advanced usage, you can create your own template and add your own templates.
+For more advanced usage, you can:
+  * create your own theme,
+  * add your own templates,
+  * customize existing templates.
 
 [[howto:theme-creation]]
 

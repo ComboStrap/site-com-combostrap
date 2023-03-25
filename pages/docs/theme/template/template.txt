@@ -50,7 +50,7 @@ ComboStrap comes with ''built-in'' templates that you can use to change the layo
 
 <card width="250px" clickable>
 {{:docs:theme:template:blank_layout.svg|}}
-[[blank|Blank]], the print layout
+[[blank|Blank]], the minimal printable layout
 </card>
 
 </masonry>
@@ -90,5 +90,5 @@ Example: to see this page with the [[docs:theme:template:blank|blank template]],
 
 It's possible to customize a template.
 
-  * For Power users, you can create [[:docs:theme:slot:slot|slot]] to replace the content of the layout element.
+  * For Power users, you can create a [[:docs:theme:slot:slot|slot]] to replace the content of a [[:docs:theme:element:element|layout element]].
   * For HTML designers, it's possible to create or override an existing template to fit your needs. You can learn about this subject in this article: [[:howto:theme-creation|How to create a theme and customize templates?]]
