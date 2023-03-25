@@ -67,10 +67,23 @@ ComboStrap comes with ''built-in'' templates that you can use to change the layo
 
 ===== How to set the template for a page? =====
 
-You can set the template via the [[docs:metadata:manager|metadata manager]].
+You can set the template:
+  * via the [[docs:metadata:manager|metadata manager]].
 
 
 {{docs:theme:slot:page_layout_metadata_manager.png|}}
+
+  * via the ''template'' URL property. 
+
+<code uri>
+?template=value
+</code>
+
+Example: to see this page with the [[docs:theme:template:blank|blank template]], [[?template=blank|click on this link]].
+
+
+
+
 
 ===== How to customize or create a template? =====
 
