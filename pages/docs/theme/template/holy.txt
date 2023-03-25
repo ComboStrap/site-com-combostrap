@@ -24,7 +24,7 @@ You can custom it with:
 
 ===== Containment =====
 
-They are all [[docs:theme:slot:container|contained]] in a page that is:
+They are all [[docs:theme:element:container|contained]] in a page that is:
   * centered 
   * with a width adjusted by screen size (by breakpoint)
 

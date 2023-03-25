@@ -1,38 +1,70 @@
 ---json
 {
+    "aliases": [
+        { "path": ":docs:layout:page:page" },
+        { "path": ":docs:theme:slot:page" }
+    ],
     "canonical": ":template",
     "description": "This article talks about template and layout management and how it can be defined by page.",
-    "name": "Template",
+    "h1": "What are the possible page layouts ?",
     "page_id": "9tl87hg8coopjktg8chkh",
+    "template": "holy",
     "title": "What is a template ?"
 }
 ---
 ====== What is a template and how to apply a layout? ======
 
+
+{{:docs:templating:undraw_building_websites_i78t.png?600|}}
+
+
+===== About =====
+A ''template'' applies a layout to a page.
+
+
+
+ComboStrap comes with ''built-in'' templates that you can use to change the layout on the fly for a particular page.
+
+<masonry>
+
+<card width="250px">
+{{:docs:theme:element:layout_element.svg|}}
+[[holy|Holy]], the holy-grail layout
+</card>
+
+<card>
+{{:docs:theme:template:median_layout.svg|}}
+[[median|Median]], a layout to enhance readability
+</card>
+
+<card>
+{{:docs:theme:template:landing_layout.svg|}}
+[[landing|Landing]], a layout for landing pages
+</card>
+
+<card>
+[[index|Index]], the layout for index pages
+</card>
+
+<card>
+[[hamburger|Hamburger]], a three layers layout
+</card>
+
+<card>
+[[blank|Blank]], the print layout
+</card>
+
+</masonry>
+
+
+
+
 <blockquote align="text-center center" width="fit-content" >
+
 **Layouts are important.**
 
 {{:strap:layout_funny.png?300|}}
 </blockquote>
-
-
-===== About =====
-
-
-
-
-ComboStrap supports the following layouts
-
-^ Layout ^ Description ^
-| [[holy|Holy]] | The holy-grail layout |
-| [[median|Median]] | A layout that improves readability by constraining and centering the content |
-| [[landing|Landing]] | A layout to create landing pages |
-| [[index|Index]] | A layout to create a semi-landing page for the index pages |
-| [[hamburger|Hamburger]] | The default layout of admin pages (without sides)|
-| [[blank|Blank]] | A template with only the content |
-
-
-
 
 ===== How to set the template for a page? =====
 
@@ -41,3 +73,10 @@ You can set the template via the [[docs:metadata:manager|metadata manager]].
 
 {{docs:theme:slot:page_layout_metadata_manager.png|}}
 
+===== How to customize or create a template? =====
+
+
+It's possible to customize a template.
+
+  * For Power users, you can create [[:docs:theme:slot:slot|slot]] to replace the content of the layout element.
+  * For HTML designers, it's possible to create or override an existing template to fit your needs. You can learn about this subject in this article: [[:howto:theme-creation|How to create a theme and customize templates?]]

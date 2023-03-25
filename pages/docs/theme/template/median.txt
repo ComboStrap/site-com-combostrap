@@ -6,12 +6,22 @@
   * centering the main content
   * with a fixed width (making the length of a line shorter).
 
-It's the default template for all home [[:docs:page:system:item|item pages]] (ie pages without [[docs:page:system:namespace|namespace]])
+It's the default template for all ''home'' [[:docs:page:system:item|item pages]] (ie pages without [[docs:page:system:namespace|namespace]])
 
-===== Slot =====
 
-The [[:docs:theme:slot:side_slot|sidebar]] is not shown.
+{{ :docs:theme:template:median_layout.svg?0x250 |}}
+===== Elements  =====
 
+This template does not support:
+  * The [[:docs:theme:element:page-side|sidebar element]]
+
+
+This template does supports:
+  * The [[:docs:theme:element:page-header|page header]]
+  * The [[:docs:theme:element:main-header|main header]]
+  * The [[:docs:theme:element:toc|table of content]]
+  * The [[:docs:theme:element:main-footer|main footer]]
+  * The [[:docs:theme:element:page-footer|fat footer]]
 
 
 

@@ -5,18 +5,23 @@
 
 ''landing'' is a [[docs:theme:template:template|template]] that permits to create [[:howto:landing-page|landing pages]].
 
-===== Usage =====
 
-You generally will use it to create layout a [[:howto:landing-page|landing pages]] in your [[docs:page:system:home|home page]].
+===== Layout and Elements =====
 
-===== Layout =====
+{{:docs:theme:template:landing_layout.svg?0x250|}}
 
 In a landing page layout:
-  * the main content is not [[docs:theme:element:container|contained]]
-  * the page header, the page footer, the main content are shown
-  * the sidebar, the main header and footer, the [[docs:theme:element:toc|toc]] are not shown
+  * The main content is not [[docs:theme:element:container|contained]] (You need to use [[:docs:layout:component:bar|bar components]] to create the purple area)
+  * The [[:docs:theme:element:page-header|page header]], [[:docs:theme:element:page-footer|page footer]] are shown
+  * The [[:docs:theme:element:page-side|sidebar]], [[:docs:theme:element:main-header|main header]], [[:docs:theme:element:main-footer|main footer]], and  [[docs:theme:element:toc|toc]] are not shown
   * the [[docs:theme:element:railbar|railbar]] is in a off-canvas at the right side.
+
+===== Usage =====
+
+You generally will use it to create a layout a [[:howto:landing-page|landing pages]] in your [[docs:page:system:home|home page]].
+
 
 ===== How to create a landing page? =====
  
 To know how to create a landing page, we have created a dedicated page: [[howto:landing-page]]
+
