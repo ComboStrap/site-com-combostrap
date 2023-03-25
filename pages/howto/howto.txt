@@ -2,9 +2,7 @@
 {
     "canonical": ":howtos",
     "description": "This section regroups all HowTo that show you how to do step by step",
-    "images": [
-        { "path": ":howto:undraw_animating.svg" }
-    ],
+    "featured-svg-image": ":howto:undraw_animating.svg",
     "low_quality_page": "false",
     "page_id": "oqwozv8l2vhi5otajvukr",
     "title": "How to use the ComboStrap platform"
@@ -21,13 +19,19 @@ This section regroups ''howto'' documentations.
 
 \\
 
+
 <heading 3>Featured HowTo's</heading>
 
 Below, you will find 9 featured ''howto''. 
 
-You can find the other by searching.
+You can find the other via the search box.
 
 If you don't find an ''howto'', [[:support|contact us]]. We will gladly add it.
+
+\\
+\\
+\\
+
 </box>
 
 
@@ -38,7 +42,7 @@ If you don't find an ''howto'', [[:support|contact us]]. We will gladly add it.
            <card width="250px" align="center" clickable>
                <page-image featured ratio="16:9" default="first|icon|ancestor|logo" />
                <heading h4 spacing="mb-1">$title</heading>
-               <text><ibreadcrumb depth="1" color="muted"/></text>
+               <text><breadcrumb typo depth="1" color="muted"/></text>
                <text>${description | head(100,"...")}[[$path| ]]</text>
            </card>
        </fragment>
