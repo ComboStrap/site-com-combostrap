@@ -32,3 +32,5 @@ This layout is mainly used:
 
 
 [[?template=blank|Click on this link to see the blank template in action]]
+
+

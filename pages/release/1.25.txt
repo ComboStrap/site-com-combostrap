@@ -51,11 +51,11 @@ Because 7.2 and 7.3 are already end of life, we have taken the decision to upgra
   * The ''txt'' mime is now authorized by default.
   * In a [[docs:layout:component:grid|grid]], a ''cell'' now supports the [[docs:styling:clickable|clickable attribute]]
   * A ''grid'' is now supported in a [[docs:templating:iterator|iterator]].
-  * The [[docs:theme:slot:toc|Table Of Content]] is no more attached to the [[release:deprecated:renderer|renderer]] and can now be placed inside the page via the toc component.
-  * The [[docs:theme:slot:slot_manager|slot manager]] was added in the [[docs:theme:slot:railbar|railbar]] to help create and localize [[docs:theme:slot:slot|slots]].
+  * The [[docs:theme:element:toc|Table Of Content]] is no more attached to the [[release:deprecated:renderer|renderer]] and can now be placed inside the page via the toc component.
+  * The [[docs:theme:slot:slot_manager|slot manager]] was added in the [[docs:theme:element:railbar|railbar]] to help create and localize [[docs:theme:slot:slot|slots]].
   * The toggle functionality has been rewritten. The [[:docs:animation:toggle|toggle element]] is new and allows to set the a different control if the target is expanded or collapsed.
   * The [[:docs:app:identity|Identity form code]] is now ready for the new [[https://github.com/ComboStrap/combo/issues/14|DokuWiki version]].
-  * A [[docs:theme:slot:container#defaultLayoutContainer|default layout container]] is now used to set:
+  * A [[docs:theme:element:container#defaultLayoutContainer|default layout container]] is now used to set:
       * the whole template layout horizontal alignment
       * the default value of container aware component such as [[:docs:menubar:menubar|Menubar]]
   * The [[:docs:navigation:page-explorer|Page explorer]] component will collapse on small device due to the default [[:docs:animation:toggle|toggle-state]] value.
@@ -138,10 +138,10 @@ The ''layout'' metadata has been renamed to ''template''.
 
 ==== Deprecated ====
   * The [[:release:deprecated:toggle|toggleTargetId]] has been deprecated for the [[:docs:animation:toggle|Toggle element]].
-  * The ''align'' attribute in the [[:docs:menubar:menubar|menubar]] has been replaced by a [[docs:theme:slot:container|container attribute value]]
+  * The ''align'' attribute in the [[:docs:menubar:menubar|menubar]] has been replaced by a [[docs:theme:element:container|container attribute value]]
   * The [[:release:deprecated:footer|footer component]] and the [[release:deprecated:slide|slide component]] are deprecated and replaced by the [[:docs:layout:component:bar|bar component]].
   * Edit Button for slot has been deprecated for the [[docs:theme:slot:slot_manager|Slot Manager]]
-  * The [[:release:deprecated:container|container syntax component]] has been deprecated for [[docs:theme:slot:container|container aware components]]
+  * The [[:release:deprecated:container|container syntax component]] has been deprecated for [[docs:theme:element:container|container aware components]]
   * The ''auto'' [[docs:layout:component:grid|Grid Layout]] has been deprecated for ''max-line''
   * The ''fit'' [[:docs:layout:component:grid|Grid Layout]] has been deprecated for [[:docs:styling:dimension|width grow/shrink]]
   * The ''cell'' component in a [[docs:layout:component:grid|Row Layout]] has been deprecated.

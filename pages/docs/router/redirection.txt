@@ -31,7 +31,7 @@ The [[#processing|processing]] and the [[#type|type of redirections]] executed a
 The redirection procedure / processing is explained below.
 
 If the requested page [[404|does not exist]]:
-  - if this is a [[ban|banned path]], redirect [[docs:router:transparent|transparently]] to the [[docs:type:index#website|website home page]]
+  - if this is a [[ban|banned path]], redirect [[docs:router:transparent|transparently]] to the [[docs:page:system:index#website|website home page]]
   - if this is a [[docs:page:url|valid page url]], redirect [[docs:router:transparent|transparently]]
   - if this is a [[docs:page:url#permanent|permanent url]] that does not match the [[docs:page:url|page url]], redirect with a [[docs:router:permanent|permanent redirection]]
   - if this is a [[docs:router:permalink|permalink]], redirect with a [[docs:router:permanent|permanent redirection]]
