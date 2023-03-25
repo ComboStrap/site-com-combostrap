@@ -27,30 +27,29 @@ ComboStrap comes with ''built-in'' templates that you can use to change the layo
 
 <masonry>
 
-<card width="250px">
+<card width="250px" clickable>
 {{:docs:theme:element:layout_element.svg|}}
 [[holy|Holy]], the holy-grail layout
 </card>
 
-<card>
+<card width="250px" clickable>
 {{:docs:theme:template:median_layout.svg|}}
 [[median|Median]], a layout to enhance readability
 </card>
 
-<card>
+<card width="250px" clickable>
 {{:docs:theme:template:landing_layout.svg|}}
 [[landing|Landing]], a layout for landing pages
 </card>
 
-<card>
+<card width="250px" clickable>
+{{:docs:theme:template:index_layout.svg?preserve=style|}}
 [[index|Index]], the layout for index pages
 </card>
 
-<card>
-[[hamburger|Hamburger]], a three layers layout
-</card>
 
-<card>
+<card width="250px" clickable>
+{{:docs:theme:template:blank_layout.svg|}}
 [[blank|Blank]], the print layout
 </card>
 

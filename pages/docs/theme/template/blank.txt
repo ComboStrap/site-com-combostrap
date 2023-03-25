@@ -2,9 +2,25 @@
 
 
 ===== About =====
-A ''blank'' template is the simplest layout of all because it does not support any [[:docs:theme:element:element|layout elements]].
+A ''blank'' template is the simplest layout of them all as its prints only the content. 
 
-It will just print the [[:docs:theme:element:main|page content]] [[:docs:theme:element:container|contained]].
+
+
+
+
+{{:docs:theme:template:blank_layout.svg?0x250|}}
+
+===== Layout Elements =====
+
+The ''blank'' template supports:
+  * the [[:docs:theme:element:main-header|main header]]
+  * the [[:docs:theme:element:toc|toc]]
+
+All other [[docs:theme:element:element|elements]] are not supported.
+
+The [[:docs:theme:element:main|page content]] is [[:docs:theme:element:container|contained]].
+
+
 ===== Usage =====
 
 This layout is mainly used:

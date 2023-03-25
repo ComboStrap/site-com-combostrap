@@ -3,15 +3,29 @@
 
 
 ===== About =====
-''hamburger'' {{:combostrap:icons:hamburger.svg|}} is a [[template|template]] that show only these three layers:
-  * the [[:docs:theme:element:page-header|page header]]
-  * the [[docs:theme:element:main|main (header, content and footer)]]
-  * the [[:docs:theme:element:page-footer|page footer]]
-
+''hamburger'' {{:combostrap:icons:hamburger.svg|}} is a [[template|template]] that show only three layers.
+  * The [[:docs:theme:element:page-header|page header]]
+  * The [[docs:theme:element:main|main (header, content and footer)]]
+  * The [[:docs:theme:element:page-footer|page footer]]
 
 The hamburger is the default layout for any admin page.
 
+===== Layout Elements =====
 
-There is no [[:docs:theme:element:page-side|page side (sidebar)]].
+The ''hamburger'' supports the following elements:
+  * The [[:docs:theme:element:page-header|page header]]
+  * The [[docs:theme:element:main-header|main header]]
+  * The [[docs:theme:element:toc|main toc]]
+  * The [[docs:theme:element:main-footer|main footer]]
+  * The [[:docs:theme:element:page-footer|page footer]]
+
+The ''hamburger'' does not support a [[:docs:theme:element:page-side|page side (sidebar)]].
+
+The main elements are [[:docs:theme:element:container|contained]]. If you search the same template but where the content is contained, you should use
+the [[:docs:theme:template:median|median template]].
+
+
+
+
 
 
