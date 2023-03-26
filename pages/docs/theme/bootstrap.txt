@@ -43,7 +43,3 @@ Actually, there is three Bootstrap versions supported:
 
 
 After the version, you will find the [[docs:styling:stylesheet|stylesheet name]].
-
-<note>
-If you don't use the [[release:deprecated:strap|strap template]] and we don't found bootstrap on your template, the latest Bootstrap version will be added with the default stylesheet.
-</note>

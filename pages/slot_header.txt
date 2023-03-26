@@ -8,6 +8,7 @@
             [[:docs:docs?preview|Docs]]
             [[:support?preview&color=secondary|Contact]]
             [[:howto:howto?preview|HowTo]]
+            [[:themes?preview|Themes]]
         </group>
         <btn elevation="true">[[https://tower.combostrap.com/combo/app/list/registration?listGuid=lis-w8OZSK2|Subscribe]]</btn>
         <search/>
