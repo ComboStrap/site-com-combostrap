@@ -34,7 +34,8 @@ If you discover this theme, you will see two subdirectories:
   * ''templates'' that contains:
     * The handlebar templates (''hbs'' file)
     * The template definition (''yml'' file).
-  * ''partials'' that contain the partials. They are chunks of handlebar templates that can be included in templates.
+  * ''partials'' that contains the partials. They are chunks of handlebar templates that can be included in templates.
+  * ''components'' that contains the stylesheet for each component.
 
 
 
@@ -79,7 +80,11 @@ For instance, the below handlebars syntax will include the partial ''page-footer
 {{>page-footer-partial}}
 </code>
 
+=== What are components stylesheet? ===
 
+A [[:docs:theme:component|component stylesheet]] is a tiny CSS stylesheet that is applied when a component is used on your page.
+
+It will overwrite the default styling of your [[:docs:theme:bootstrap|bootstrap stylesheet]].
 ==== Creation of your theme directory ====
 
 Combostrap looks at themes in the directory ''combo/theme'' located in the [[doku>config:savedir|data directory]]

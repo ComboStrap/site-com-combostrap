@@ -1,0 +1,67 @@
+====== Component Stylesheet ======
+
+
+
+===== About =====
+This functionality gives you the possibility to customize the style of components.
+
+By default, the style applied is the style of the [[:docs:theme:bootstrap|bootstrap stylesheet]].
+
+
+
+===== How it works? =====
+
+
+If a stylesheet with the name of a component is found in the ''components'' directory of a [[docs:theme:theme|theme]], it will be applied to your page.
+
+Example for the [[:docs:content:badge|badge]] component
+  * If there is a file name ''badge.css'',
+  * If you are using the ''badge'' component on your page
+  * This stylesheet will be applied to that page
+
+{{:docs:theme:default-component-stylesheet-file-explorer.png|}}
+===== Component Styling Class =====
+
+
+To ease the selection of components in order to apply a style, every component got two generated [[:docs:styling:class|classes]]
+
+<code>
+name-cs
+name-type-cs
+</code>
+where:
+  * ''name'' is the component name
+  * the suffix ''cs'' is a namespace that stands for Combostrap
+  * ''type'' is the [[:docs:styling:type|component type]]
+
+For instance, for a [[docs:content:badge|badge]] with the [[docs:styling:type|type]] ''primary'', you will get the [[docs:styling:class|class]]:
+<code>
+badge-cs
+badge-primary-cs
+</code>
+
+This [[docs:styling:class|classes]] permits selecting the component by type and applying the style accordingly.
+
+
+===== Example =====
+
+
+
+  * on [[docs:content:badge|primary badge]] to change the text color:
+<file css badge.css>
+badge-primary-cs{
+    color: #333 !important;
+}
+</file>
+  * on the [[docs:block:file|file component]]
+<file css file.css>
+code.file-cs{
+    color: #333 !important;
+}
+pre.file-cs{
+    background-color: #e9ecef !important;
+}
+</file>
+
+
+

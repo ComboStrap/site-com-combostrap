@@ -51,7 +51,7 @@ If the component is disable, the [[doku>wiki:syntax#code_blocks|dokuwiki file bl
 
 This component gets the [[docs:utility:prism|theme]]  chosen
 
-For [[docs:styling:userstyle#class|custom css style]], there is also an extra [[docs:styling:userstyle#class|userstyle class]] created on the ''pre'' element with the ''pref'' suffix. This element contains the code and the button.
+For [[release:deprecated:userstyle#class|custom css style]], there is also an extra [[release:deprecated:userstyle#class|userstyle class]] created on the ''pre'' element with the ''pref'' suffix. This element contains the code and the button.
 
 Example:
   * Change the background color of file.

@@ -17,7 +17,9 @@
 A ''theme'' designs your entire [[:docs:app:app|website app]].
 
 
-A theme is composed of several [[:docs:theme:template:template|templates]]. Each template applies to one page and [[docs:theme:element:element|designs a layout]].
+A theme is composed of:
+  * [[:docs:theme:template:template|templates]]. Each template applies to one page and [[docs:theme:element:element|designs a layout]].
+  * [[docs:theme:component|component styling]]
 
 
 ===== Features =====
@@ -41,12 +43,11 @@ All themes support the following features:
 Via the [[:docs:theme:slot:slot|slot system]], you can change the content of [[docs:theme:element:element|template region]] by creating a wiki page with a specific name called a slot.
 
 
-==== By creating your own templates ====
+==== By creating your own theme ====
 
 For more advanced usage, you can:
   * create your own theme,
-  * add your own templates,
-  * customize existing templates.
+  * add or customize templates and [[docs:theme:component|components stylesheet]]
 
 [[howto:theme-creation]]
 
