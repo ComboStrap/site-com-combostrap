@@ -9,6 +9,7 @@
     "title": "A log of all changes and release"
 }
 ---
+====== ChangeLog ======
 
 {{:release:release.jpg|}}
 

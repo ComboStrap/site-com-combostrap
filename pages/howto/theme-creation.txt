@@ -82,7 +82,7 @@ For instance, the below handlebars syntax will include the partial ''page-footer
 
 === What are components stylesheet? ===
 
-A [[:docs:theme:component|component stylesheet]] is a tiny CSS stylesheet that is applied when a component is used on your page.
+A [[docs:theme:component-stylesheet|component stylesheet]] is a tiny CSS stylesheet that is applied when a component is used on your page.
 
 It will overwrite the default styling of your [[:docs:theme:bootstrap|bootstrap stylesheet]].
 ==== Creation of your theme directory ====
