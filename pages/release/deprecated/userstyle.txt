@@ -8,7 +8,7 @@
 ===== About =====
 Prior to the version [[release:1.25|release 15]], the way to custom component was through the [[doku>devel:css#user_styles|Dokuwiki UserStyle stylesshet]].
 
-With the advent of the [[:docs:theme:component|custom theme component]], this feature is no more the preferred way because it adds css rules for every page
+With the advent of the [[docs:theme:component-stylesheet|custom theme component]], this feature is no more the preferred way because it adds css rules for every page
 even if the component is not used.
 
 

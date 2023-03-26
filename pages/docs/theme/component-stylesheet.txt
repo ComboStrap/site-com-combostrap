@@ -3,10 +3,14 @@
 
 
 ===== About =====
-This functionality gives you the possibility to customize the style of components.
+This functionality gives you the possibility for Web Designers to customize the style of components.
 
-By default, the style applied is the style of the [[:docs:theme:bootstrap|bootstrap stylesheet]].
+By default, the style applied is the style of the [[:docs:theme:bootstrap|bootstrap stylesheet]] (customized or not).
 
+
+<note info>
+Note that Bootstrap permits to set style parameters dynamically via [[https://getbootstrap.com/docs/5.3/customize/css-variables/|Css Variable]] since version ''5.3''. This is in our roadmap to take full advantage of this feature in order to reduce the number of custom component Stylesheets needed.
+</note>
 
 
 ===== How it works? =====
@@ -45,15 +49,17 @@ This [[docs:styling:class|classes]] permits selecting the component by type and 
 
 ===== Example =====
 
+You should first [[howto:theme-creation|create your theme]]
 
+Then in the ''components'' directory
 
-  * on [[docs:content:badge|primary badge]] to change the text color:
+  * you can create the below file ''badge.css'' to change the text color of [[docs:content:badge|primary badge]]:
 <file css badge.css>
 badge-primary-cs{
     color: #333 !important;
 }
 </file>
-  * on the [[docs:block:file|file component]]
+  * You can create the below file ''file.css'' to customize the [[docs:block:file|file component]].
 <file css file.css>
 code.file-cs{
     color: #333 !important;
