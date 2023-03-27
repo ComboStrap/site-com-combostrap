@@ -8,7 +8,9 @@
   * The [[docs:theme:element:main|main (header, content and footer)]]
   * The [[:docs:theme:element:page-footer|page footer]]
 
-The hamburger is the default layout for any admin page.
+<note>
+The ''hamburger'' is the default layout for the [[:docs:page:system:home|website home page]] until you make it a [[:howto:landing-page|landing page]].
+</note>
 
 ===== Layout Elements =====
 
@@ -21,8 +23,10 @@ The ''hamburger'' supports the following elements:
 
 The ''hamburger'' does not support a [[:docs:theme:element:page-side|page side (sidebar)]].
 
-The main elements are [[:docs:theme:element:container|contained]]. If you search the same template but where the content is contained, you should use
-the [[:docs:theme:template:median|median template]].
+The main elements are [[:docs:theme:element:container|contained]].
+
+If you search the same template but where the content is contained in a smaller width, you should use
+a [[:docs:theme:template:medium|medium template]].
 
 
 

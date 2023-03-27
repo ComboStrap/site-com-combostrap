@@ -2,6 +2,7 @@
 {
     "canonical": ":about",
     "description": "A page about the combostrap organization that also demonstrates how you can create an organization page",
+    "featured-raster-image": ":undraw_about_us_page_re_2jfm.png",
     "json-ld": {
         "@context": "https:\/\/schema.org",
         "@type": "Organization",
@@ -19,8 +20,9 @@
             "url": "https:\/\/bytle.net"
         }
     },
-    "layout": "median",
+    "lead": "Growing the world GDP of publishers and creators",
     "page_id": "fsojp0ad4439gkcqtdi23",
+    "template": "medium",
     "title": "The ComboStrap Organization - About us",
     "type": "organization"
 }
@@ -29,29 +31,30 @@
 ====== ComboStrap - About Us ======
 
 
-<typo lead>
-Growing the world GDP of publishers and creators
-</typo>
-===== About =====
-''ComboStrap'' is an organization that is dedicated to grow the world GDP of publishers and creators.
+\\
+{{:undraw_about_us_page_re_2jfm.svg?500|}}
+\\
+\\
 
-We are an organization localized in the Netherlands that have started in the publishing world 10 years ago.
+''ComboStrap'' is an organization of the Bytle company that is dedicated to growing the world GDP of publishers and creators.
 
-''ComboStrap'' is the application that powers all the website of our company such as:
+We are located in the Netherlands and started in the publishing world 10 years ago.
+
+''ComboStrap'' is the application that powers all the websites of our company such as:
   * https://datacadamia.com
   * https://tabulify.com
 
-During the years, we found ourself in a position where we needed to add features to our [[doku>Dokuwiki]] platform and ''ComboStrap'' is the result.
+During the years, we found ourselves in a position where we needed to add features to our [[doku>Dokuwiki]] platform, and ''ComboStrap'' is the result.
 
-We find it awesome to see that our product is living outside our own world and is helping people all over the world publishing on the internet.
+We find it awesome to see that our product is living outside our own world and is helping people all over the world publish on the internet.
 
-If you need to contact us, you can [[support|email us, create an issue or more]]. 
+If you need to contact us, you can [[support|email us, create an issue, or more]]. 
 
 
 
 
 <note tip>
-This page was created  with ''ComboStrap'' itself and showcase a [[docs:type:organization|organization page]] used by Google to create their knowledge panel and advertise your organization.
+This page was created with ''ComboStrap'' itself and showcase a [[docs:type:organization|organization page]] used by Google to create their knowledge panel and advertise your organization.
 </note>
 
 

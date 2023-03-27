@@ -63,7 +63,7 @@ The template definition files contain properties that apply to the template.
 
 For instance, if you want to use [[:docs:theme:slot:slot|slot]] in your template, you need to define them.
 
-The [[:docs:theme:template:median|median template]] for instance contains 4 slot elements.
+The [[docs:theme:template:medium|median template]] for instance contains 4 slot elements.
 <code yml median.yml>
 slots:
     - 'page-header'
@@ -114,7 +114,7 @@ Now that you have created your theme directory, you can select it.
 ==== Creation of your first template ====
 
   * Go to the default theme directory
-  * Copy the [[:docs:theme:template:median|median]] template by transferring into your custom template theme directory:
+  * Copy the [[docs:theme:template:medium|median]] template by transferring into your custom template theme directory:
     * the file ''median.hbs''
     * the file ''median.yml''
   * Rename them to

@@ -1,8 +1,8 @@
-====== Median Template ======
+====== Medium Template ======
 
 
 ===== About =====
-''median'' is a [[docs:theme:template:template|template]] that implements a layout that emphasizes readability by:
+''medium'' is a [[docs:theme:template:template|template]] that implements a layout that emphasizes readability by:
   * centering the main content
   * with a fixed width (making the length of a line shorter).
 
@@ -24,4 +24,8 @@ This template does supports:
   * The [[:docs:theme:element:page-footer|fat footer]]
 
 
+===== Other medium template =====
 
+The following template supports also a ''medium'' version (ie where the content is centered) without any [[:docs:theme:element:page-side|sidebar]]
+  * the [[:docs:theme:template:holy|holy-medium]]
+  * the [[:docs:theme:template:index|index-medium]]

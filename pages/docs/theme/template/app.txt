@@ -1,0 +1,30 @@
+====== App Templates ======
+
+
+
+===== About =====
+''app templates'' are templates for the ''app pages''. 
+
+The ''app pages'' are the pages that are functional page (ie that does not render a content document).
+
+
+===== List =====
+
+These templates start with the prefix ''app''
+
+^ Template Name ^ Page ^
+| ''app-login'' | [[:docs:app:identity|Login]] |
+| ''app-profile'' | [[:docs:app:identity|Profile]] |
+| ''app-registration'' | [[:docs:app:identity|Registration]] |
+| ''app-resend-pwd'' | [[:docs:app:identity|Forgotten Password]] |
+| ''app-edit'' | ''Edit'' |
+| ''app-search'' | [[:docs:app:search|Search]] |
+
+===== Visibility =====
+
+
+They are not visible to the user 
+
+===== Customization =====
+
+The layout [[howto:theme-creation|can be customized by creating a theme]].

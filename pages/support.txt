@@ -10,8 +10,10 @@
 ====== Where To Get Information / Help ======
 
 
+{{ :combostrap:icons:bullhorn-variant.svg?0x250&ratio=21:9&zoom=-4 |}}
 \\
 \\
+
 
 You will find below [[docs:layout:component:tabs|tabs]] with all communication channels that you can use to get in-touch. Takes the one that suits you.
 
@@ -70,7 +72,7 @@ Where you can follow us for the last update.
 \\
 \\
 
-<blockquote width="400" align="center" text-align="center">
+<blockquote width="400" align="center text-center">
 Your feedback is our real experience
 <cite>Dev</cite>
 </blockquote>

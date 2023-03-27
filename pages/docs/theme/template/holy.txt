@@ -28,3 +28,7 @@ They are all [[docs:theme:element:container|contained]] in a page that is:
   * centered 
   * with a width adjusted by screen size (by breakpoint)
 
+
+===== The medium version without the sidebar =====
+
+There is also a [[:docs:theme:template:medium|medium]] version known as the ''holy-medium'' without the [[:docs:theme:element:page-side|sidebar]]

@@ -21,6 +21,15 @@
   * [[#profile|Profile (update and delete)]]
 
 
+===== Layout and design =====
+
+You can customize the layout by customizing the [[:docs:theme:template:app|app templates]].
+
+
+  * The [[howto:getting_started:6_favicon|logo installed]] will render on the page.
+  * The [[:docs:app:color|branding colors]] are also applied
+
+
 ===== Forms =====
 
 ==== Login ====
@@ -55,8 +64,6 @@ For the ''update'' form, with the [[doku>config:profileconfirm]] configuration, 
 The profile should not be [[doku>disableactions|in the disabled action]].
 ===== Configuration =====
 
-==== Logo ====
-The ''enableLogoOnIdentityForms'' permits to enable or disable the rendering of the [[howto:getting_started:6_favicon|logo]] to render on the page.
 
 ==== Enable / Disable Forms ====
 All forms are disabled, if the [[doku>acl|acl module]] is disabled.

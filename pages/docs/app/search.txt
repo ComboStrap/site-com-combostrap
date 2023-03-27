@@ -18,8 +18,12 @@ You can add a [[docs:menubar:search|search box]] (generally in the [[docs:menuba
 
 ==== Redirection ====
 
-Internally, if a URL is not found, the user is [[docs:router:search_engine|redirected to the search engine]] in last ressort.
+Internally, if a URL is not found, the user is [[docs:router:search_engine|redirected to the search engine]] in the last resort.
 
+==== Layout customization ====
+
+
+You can customize the layout via the ''app-search'' [[:docs:theme:template:app|app template]].
 ===== Third party application Integration =====
 The search engine is also advertised to third party application such as:
   * the [[#browser]]

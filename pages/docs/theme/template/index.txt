@@ -24,9 +24,6 @@ It does not show:
   * the [[docs:theme:element:toc|table of content]]
   * the [[:docs:theme:slot:main_header_slot|main header]] and [[:docs:theme:slot:main_footer_slot|footer]]
 
-<note tip>
-If you don't want the sidebar, you can choose the [[docs:theme:template:index-median|index median template]]
-</note>
 
 </box>
 <box>
@@ -35,4 +32,9 @@ If you don't want the sidebar, you can choose the [[docs:theme:template:index-me
 
 </box>
 </grid>
+
+===== Medium Version =====
+
+
+If you don't want a sidebar, you can choose the ''index-medium'' version.
 
