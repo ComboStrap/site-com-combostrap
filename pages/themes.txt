@@ -1,5 +1,44 @@
-====== Themes ======
+---json
+{
+    "page_id": "34y24cwi7tpscpija42n6",
+    "template": "landing"
+}
+---
+<bar hero="md">
+<grid>
+<box>
+<box width="500" align="center">
+<heading d1>Theme ready</heading>
+<text lead>Show off your brand identity</text>
 
+<text>
+  * Always one [[:docs:theme:template:template|layouts]] that fits your needs
+  * Create your own [[:docs:theme:theme|theme]] 
+  * Get always a [[:docs:content:page-image|featured image]] on your pages
+  * Adapt automatically to mobile phone
+  * Create powerful layout with the [[:docs:templating:templating|simple templating markup]] 
+  * Apply a custom HTML page for advanced usage
+</text>
+</box>
+</box>
+<box align="y-center">
+{{::theme.png|}}
+</box>
+</grid>
+</bar>
 
-
-{{https://bootswatch.com/cerulean/thumbnail.png?350&nolink}}
+<bar hero="md">
+<box align="text-center" spacing="mb-5">
+  <heading 1>Stylesheets variation loaded</heading>
+  <text lead>Just select your style</text>
+  <text>Apply quickly a style variation through [[:howto:stylesheet-bootstrap|a list of more than 25 bootstrap stylesheet]]</text>
+</box>
+<grid>
+<box>{{:cerulean.png?300&shadow=lg|}}</box>
+<box>{{:cosmo.png?300&shadow=lg|}}</box>
+<box>{{:cyborg.png?300&shadow=lg|}}</box>
+<box>{{:darkly.png?300&shadow=lg|}}</box>
+<box>{{::flatly.png?300&shadow=lg|}}</box>
+<box>{{::journal.png?300&shadow=lg|}}</box>
+</grid>
+</bar>

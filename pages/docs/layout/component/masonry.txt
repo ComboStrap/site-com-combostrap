@@ -8,9 +8,9 @@
 
 
 ===== About =====
-''masonry'' is a layout component. Its children are laid out like a mason fitting stones in a wall (placing elements based on available vertical space).
+''masonry'' is a [[docs:layout:component:component|layout component]]. Its children are laid out like a mason-fitting stones in a wall (placing elements based on available vertical space).
 
-This layout is handy when you want to lay out a list of components that does not have an uniform height (Ie to mix small and big card for instance).
+This layout is handy when you want to lay out a list of components that do not have a uniform height (Ie to mix small and big cards for instance).
 
 A masonry layout is generally used with [[docs:block:card|cards]] or [[docs:block:blockquote|blockquotes]].
 

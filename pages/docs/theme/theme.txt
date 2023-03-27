@@ -22,12 +22,14 @@ A theme is composed of:
   * [[docs:theme:component-stylesheet|component styling]]
 
 
+You can apply:
+  * a [[docs:theme:bootstrap|bootstrap stylesheet]] or create [[howto:bootstrap-custom|create and add your own]].
+  * and [[:docs:app:color|branding colors (primary/secondary)]]
+
 ===== Features =====
 
 All themes support the following features:
 
-  * [[docs:theme:bootstrap|Last bootstrap version (5)]]
-  * [[howto:bootstrap-custom|Custom Bootstrap Stylesheet (create and add your own)]]
   * [[docs:performance:cdn|Serve the Bootstrap files by default from a CDN]]
   * Support [[docs:app:tagline|tagline]]
   * [[docs:styling:scale|Size Scale configuration (font and spacing)]]
