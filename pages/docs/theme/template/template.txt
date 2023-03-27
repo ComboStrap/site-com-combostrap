@@ -22,8 +22,12 @@
 A ''template'' applies a layout to a page.
 
 
+''ComboStrap'' comes with ''built-in'' templates that you can use to change the layout on the fly for a particular page.
 
-ComboStrap comes with ''built-in'' templates that you can use to change the layout on the fly for a particular page.
+Choose the template that is the right fit for your content.
+
+\\
+\\
 
 <masonry>
 
