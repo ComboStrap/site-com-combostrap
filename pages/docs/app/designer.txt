@@ -1,0 +1,23 @@
+====== Designer ======
+
+
+===== About =====
+A ''designer'' is a person that has elevated privilege in order to be able to use HTML and Javascript.
+
+
+
+===== Extra Privileges =====
+
+A designer may:
+  * inject HTML with the [[:docs:utility:webcode|webcode]]
+  * upload [[:docs:content:svg|svg]]
+
+
+===== Group =====
+
+To be a designer, the user should be a member of the ''designer'' group.
+
+===== How to set the name of the group? =====
+
+The [[docs:app:configuration|app configuration]] ''combo-conf-006'' defines the name of the designer group.
+

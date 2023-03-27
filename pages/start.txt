@@ -20,6 +20,11 @@
 <text lead>
 Create landing pages, articles, how-to's, documentation, or knowledge base with the power of the web and the simplicity of a markup language.
 </text>
+<webcode inject>
+<code html>
+<p>Hallo</p>
+</code>
+</webcode>
                </box>
             </box>
             <box align="x-center y-center">

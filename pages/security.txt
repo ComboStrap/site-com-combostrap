@@ -1,16 +1,16 @@
 ---json
 {
+    "canonical": ":security",
     "description": "At combostrap, we take the security of your website seriously. This articles shows you what we do about it.",
-    "layout": "median",
     "page_id": "luuua1fabsxm8rkj0qvth",
-    "title": "Security is important"
+    "template": "holy-medium"
 }
 ---
 
-====== Security ======
+====== What are the security measures that we take? ======
 
 ===== About =====
-In [[start|combostrap]], we are taking security very seriously.
+At [[:about_us|Combostrap]], we are taking security very seriously and take the following measures to prevent any attack.
 
 ===== Prevention =====
 Below are the steps that we have taken to prevent the following attack.

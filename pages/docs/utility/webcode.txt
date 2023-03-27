@@ -72,25 +72,10 @@ console.log("Javascript Code block");
 </box>
 
 
-<note important>
-==== Parsing problem ? ====
 
-The characters <, >, ", ', \, and & should be escaped in string literals.
 
-Example:
-  * In the below literal, the character ''/'' should be escaped
-<javascript>
-let fragment = '</script>';
-</javascript>
-  * The write way is to write it:
-<javascript>
-let fragment = '<\/script>';
-</javascript>
 
-Why ? Because the code is executed in the HTML page, and they will
-interfere with the HTML parser.
 
-</note>
 
 ==== Console.table ====
 
@@ -118,17 +103,17 @@ You can use webcode across section (ie with [[docs:content:heading|heading]])
 
 Example:
   * the following markup
-<webcode iframe width="600">
+<webcode iframe>
 <code dw iframe>
 <webcode>
-=== Javascript ===
+===== Javascript =====
 ```javascript
 var colors = [ "blue", "green" ];
 for (const [index, value] of colors.entries()) {
   console.log(index+", "+value+"\n");
 }
 ```
-=== Result ===
+===== Result =====
 </webcode>
 </code>
   * will output:
@@ -172,17 +157,18 @@ for (const [index, value] of colors.entries()) {
 ====  Webcode attributes ====
 
 
-The allowed webcode attributes are:
-
+The allowed ''webcode'' attributes are:
+   * [[:docs:styling:type|type]]:
+      * ''story'' (default): The rendering will output the content inside the ''webcode'' elements and add the result after the closing ''webcode'' code.
+      * ''result'': The rendering will **suppress** the content inside the ''webcode'' elements and will show only the result after the closing ''webcode'' code.
+      * ''inject'': The HTML and Javascript will be injected on the page
    * the following attributes of the [[https://docs.webplatform.org/wiki/html/elements/iframe|iframe element]]
       * name. It will be added as a suffix
       * frameborder (default to 0)
       * width (default to 100%)
       * height (<inote>The height is automatically adjusted if not set</inote>)
       * scrolling
-   * ''renderingMode'':
-      * ''story'' (default): The rendering will output the content inside the ''webcode'' elements and add the result after the closing ''webcode'' code.
-      * ''onlyResult'': The rendering will **suppress** the content inside the ''webcode'' elements and will show only the result after the closing ''webcode'' code.
+
 
 === External resources ===
 
@@ -220,7 +206,7 @@ where:
 
 To save this syntax, you need to be:
   * an ''admin''
-  * or a member of the [[docs:content:svg#svgUploadGroupName|svgUploadGroupName]]
+  * or a [[:docs:app:designer|Designer]]
 
 ==== Language Support ====
 
@@ -233,3 +219,23 @@ When a code block use [[https://babeljs.io/|Babel]] as language, the plugin will
 [[https://unpkg.com/babel-standalone@6/babel.min.js|babel.min.js]] version 6 to the external resources.
 
 You cannot have a Babel and a Javascript Block in the same webcode block.
+
+
+===== Support ======
+
+==== Parsing problem? ====
+
+The characters %%''<, >, ", ', \, and &''%% should be escaped in string literals.
+
+Example:
+  * In the below literal, the character ''/'' should be escaped
+<code javascript>
+let fragment = '</script>';
+</code>
+  * The right way is to write it:
+<code javascript>
+let fragment = '<\/script>';
+</code>
+
+Why? Because the code is executed on the HTML page, they will
+interfere with the HTML parser.

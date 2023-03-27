@@ -1,0 +1,51 @@
+---json
+{
+    "description": "This article shows you how you can add HTML, CSS, or Javascript to the content of your markup page.",
+    "dynamic_quality_monitoring": "false",
+    "low_quality_page": "false",
+    "page_id": "w9mn97f3z1wse1l2kulhp"
+}
+---
+====== How to add HTML, Css, and Javascript directly to the content of your pages? ======
+
+
+
+===== About =====
+This article shows you how you can add ''HTML'', ''CSS'', or ''Javascript'' to the content of your markup page.
+
+
+
+===== Steps =====
+
+==== Give permissions ====
+
+By default and for [[:security|security reason]], only ''admin'' user can write ''HTML'' and ''Javascript'' on the page.
+
+If you want to allow a user to write ''HTML'' and ''Javascript'', you need to add it to the [[:docs:app:designer|designer group]].
+
+==== Use the Webcode component  ====
+
+The [[:docs:utility:webcode|webcode component]] is a component that shows by default the output of [[:docs:block:code|code block]] that it encapsulates.
+
+By using the ''inject'' type, you can write the content of these ''HTML'', ''Css'', or ''Javascript'' block codes into your page.
+
+==== Example ====
+
+  * The markup
+<webcode>
+```dw
+<webcode inject>
+    <code html>
+<p class="webcode-injected lead mb-4">Quickly design and customize responsive mobile-first sites with ComboStrap, 
+a front-end toolkit, based on text markup files with responsive design, and powerful components.</p>
+    </code>
+    <code css>
+.webcode-injected {
+   font-weight: bold;
+}
+    </code>
+</webcode>
+```
+
+  * The Output:
+</webcode>

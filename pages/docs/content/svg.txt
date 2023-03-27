@@ -118,11 +118,9 @@ Svg Optimization is the reduction of the file size by deleting unneeded informat
 
 ==== Upload permission ====
 
-By default, the svg files cannot be uploaded because they can contain code. Only the ''admin'' user can upload a SVG.
+By default, the SVG files cannot be uploaded because they can contain code. Only the ''admin'' user can upload an SVG by default.
 
-If you want to allow users to upload a SVG, you need to:
-  * set the group that is allowed to upload a SVG in the [[#svgUploadGroupName|svgUploadGroupName]] configuration.
-  * add the user to this group.
+If you want to allow users to upload an SVG, you need to put them in the [[:docs:app:designer|designer group]]
 
 ==== Script deleted ====
 
@@ -152,12 +150,7 @@ If this configuration is on, the SVG files that have a size bigger than the [[#s
 
 This configuration permits to disable / enable this feature.
 
-==== svgUploadGroupName ====
-This [[docs:app:configuration|configuration]] define a super developers group.
 
-They are allowed to upload:
-  * a SVG file (SVG file can contain code and this by default not allowed to upload a SVG)
-  * or use the [[docs:utility:webcode|webcode component]] to add code in the page
 
 
 ==== svgPreserveAspectRatioDefault ====
