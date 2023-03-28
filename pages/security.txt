@@ -13,7 +13,7 @@
 At [[:about_us|Combostrap]], we are taking security very seriously and take the following measures to prevent any attack.
 
 ===== Prevention =====
-Below are the steps that we have taken to prevent the following attack.
+Below are the steps that we have taken to prevent the following attacks.
 ==== Cross-site request attack ====
 
 Every form uses a token to prevent a [[kb>csrf|cross-site request attack (CSRF)]])
