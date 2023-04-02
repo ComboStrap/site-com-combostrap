@@ -9,6 +9,7 @@
 ====== ComboStrap UI - WebCode ======
 
 
+
 ===== About =====
 ''webcode'' is a component that permits to render the output of code such as HTML, Javascript or CSS.
 
@@ -202,7 +203,7 @@ where:
       * dw (for dokuwiki)
   * ''display="none"'' will not display the code block (in this case file name and other attributes should not be used)
 
-==== Security =====
+==== Security ====
 
 To save this syntax, you need to be:
   * an ''admin''
@@ -221,7 +222,7 @@ When a code block use [[https://babeljs.io/|Babel]] as language, the plugin will
 You cannot have a Babel and a Javascript Block in the same webcode block.
 
 
-===== Support ======
+===== Support =====
 
 ==== Parsing problem? ====
 

@@ -27,6 +27,8 @@
 </grid>
 </bar>
 
+
+
 <bar hero="md">
 <box align="text-center" spacing="mb-5">
   <heading 1>Stylesheets variation loaded</heading>
