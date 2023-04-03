@@ -1,4 +1,12 @@
 \\
+<hr/>
+\\
+<box width="400" align="center">
+<heading h4>Like what you read?</heading>
+
+Get news, tips, and tricks right into your inbox.
+<subscribe list-id="lis-w8OZSK2"/>
+</box>
 \\
 <hr/>
 \\

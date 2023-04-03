@@ -10,7 +10,7 @@
 The ''cache viewer'' is a [[cache|cache]] tool that permits to check the [[page|page cache]] (the slot cache informations for the requested page).
 
 
-Check the following icon <icon width="28px" name="mdi:cached"/> located in the [[docs:theme:slot:railbar|railbar]]
+Check the following icon <icon width="28px" name="mdi:cached"/> located in the [[docs:theme:element:railbar|railbar]]
 
 {{:docs:cache:cache_manager.png|}}
 

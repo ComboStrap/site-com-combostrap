@@ -1,12 +1,17 @@
 ---json
 {
-    "description": "This page explains all social module of Combostrap and how they helps spread the words",
+    "canonical": ":social",
+    "description": "This page explains all social modules of Combostrap and how they help spread the words",
+    "featured-raster-image": ":docs:social:undraw_social_strategy_re_mk87.png",
+    "featured-svg-image": ":docs:social:undraw_social_strategy_re_mk87.svg",
     "page_id": "7a57f7eqr4ujxl3ycro7z",
     "title": "ComboStrap makes your pages Social"
 }
 ---
 
 ====== ComboStrap - Social ======
+
+{{:docs:social:undraw_social_strategy_re_mk87.svg?0x250|}}
 
 
 ===== About =====
@@ -52,7 +57,9 @@ ComboStrap supports:
   * [[share|Share buttons]]
   * and [[follow|Follow buttons]]
 
+==== Subscribe ====
 
+With the [[subscribe|subscribe component]], you can let the users register to your lists.
 ==== Embed ====
 Interaction happens through widgets embedded in your pages.
 

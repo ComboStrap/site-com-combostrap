@@ -9,13 +9,24 @@
 
 
 ===== About =====
-<icon name="logos:telegram"/> ''telegram'' is a [[social|social application]] that will show [[social|social card]].
+<icon name="logos:telegram"/> ''telegram'' is a [[social|social application]]
+
+===== Social Card =====
+
+It will show [[social|social card]] based on the same data as [[:docs:social:facebook|facebook (ie open graph data)]].
+
+If you want to set an image for Telegram, you should set the ''Open Graph image'' in the [[:docs:metadata:manager|metadata manager]]
+
+{{:docs:social:facebook_opengraph_metadata.jpg|}}
 
 
 
-===== What to do if the social card does not work ? =====
 
-==== Update with WebPageBot ====
+===== Support =====
+
+==== What to do if the social card does not work? ====
+
+=== Update with WebPageBot ===
 
 If the social card on telegram does not work, you can go to the [[https://t.me/WebpageBot|WebpageBot]] and asks for a refresh with the command ''updatepreview''
 <code>
@@ -27,7 +38,7 @@ Example:
 {{:docs:social:telegram_webpage_bot.png|}}
 
 
-==== Check the facebook graph  ====
-There is no explicit documentation but it seems that they use the [[docs:social:facebook|facebook graph]].
+=== Check the Facebook graph  ===
+There is no explicit documentation, but it seems that they use the [[docs:social:facebook|facebook graph]].
 
-You can check that the image/data is present with the [[docs:social:facebook#test|facebook graph debug tool]]
+You can check that the image/data is present with the [[docs:social:facebook#test|facebook graph debug tool]].

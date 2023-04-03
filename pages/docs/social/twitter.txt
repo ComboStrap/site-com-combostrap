@@ -35,9 +35,29 @@ You can preview a card page before tweeting it at: https://cards-dev.twitter.com
 The list of metadata that are used in the card are:
   * for the heading: [[..:page:title|title]] if present otherwise [[..:page:h1|h1]], otherwise the page id.
   * for the description: [[..:page:description|description]]
-  * for the image:
-      * the ''twitter image'' sets in the [[:docs:metadata:manager|metadata manager]]
-      * otherwise, the [[:docs:page:featured-image|featured image]] (the raster image because [[https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup|svg is not supported, less than 5MB]])
+  * for the ''twitter image'' sets in the [[:docs:metadata:manager|metadata manager]]
+      
+===== Image =====
+
+You can see the Twitter image used via the [[:docs:metadata:manager|metadata manager]].
+
+{{:docs:social:twitter_image_metadata_manager.png|}}
+
+If the value is gray, this is the [[#default image|default image value]].
+
+Twitter supports raster images with a size of less than 5MB and SVG are not supported (([[https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup|Card Twitter Reference Documentation]]
+
+===== Default Image =====
+
+The default image is chosen via this algorithm:
+  * The Twitter image of the page if set
+  * The [[:docs:page:featured-image|featured raster image]] if found
+  * The [[:docs:page:first-image|first image]] of the page if set
+  * The Twitter image of the [[:docs:page:system:system|parent page]] if found
+  * The [[:docs:page:featured-image|featured raster image]] of the [[:docs:page:system:system|parent page]] if found
+  * The [[:docs:page:first-image|first image]] of the [[:docs:page:system:system|parent page]] if found
+  * until the [[:docs:page:system:home|website home page]]
+
 
 
 ===== Configuration =====

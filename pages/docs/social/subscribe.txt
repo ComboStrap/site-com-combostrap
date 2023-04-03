@@ -1,0 +1,40 @@
+====== Subscribe ======
+
+
+
+===== About =====
+The ''subscribe'' component shows a form where the users can enter their email to subscribe to your lists.
+
+<note important>
+This component requires a ''Combostrap'' account.
+</note>
+
+
+===== Syntax =====
+
+<code dw>
+<subscribe list-id="xxxx"/>
+</code>
+where ''list-id'' is the GUID of your Combostrap list.
+===== Example =====
+
+<webcode>
+  * With this syntax:
+<code dw>
+<subscribe list-id="lis-w8OZSK2" width="400px"/>
+</code>
+  * You would get this output:
+</webcode>
+
+\\
+\\
+
+
+
+===== Customization =====
+
+In your [[:docs:theme:theme|theme]], you can customize:
+  * The form (''subscribe-form.hbs'')
+  * The success message (''subscribe-success.hbs'')
+
+
