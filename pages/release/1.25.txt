@@ -96,6 +96,7 @@ Because of too much confusion, the following name has been renamed:
   * The ''home page'' is now known as the [[docs:page:system:index|index page]]
   * The ''root page'' is now known as the [[docs:page:system:home|home page]]
 
+The lazy method is now `html` and no more `lozad` because scripts are not automatically taken into account in template
 
 The [[docs:layout:component:grid|Row component]] is now called a grid because:
   * the children may be laid out on more than one line
