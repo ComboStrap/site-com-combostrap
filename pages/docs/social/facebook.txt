@@ -1,6 +1,8 @@
 ---json
 {
+    "canonical": ":facebook",
     "description": "Sharing a link from a ComboStrap page will show on every facebook post a card thanks to the facebook social graph metadata",
+    "featured-svg-image": ":combostrap:icons:mdi:facebook.svg",
     "page_id": "nccxr0t7kgtuec17e1cnf",
     "title": "Facebook Graph Enabled"
 }
@@ -9,7 +11,7 @@
 
 
 ===== About =====
-Sharing a link will show on every facebook post a card thanks to the facebook social graph metadata added to each ComboStrap page.
+Sharing a link will show on every Facebook <icon name="mdi:facebook"/> post a card thanks to the Facebook social graph metadata added to each ComboStrap page.
 
 
 

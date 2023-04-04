@@ -12,8 +12,6 @@
   * the standard [[docs:theme:bootstrap|Bootstrap]] stylesheet 
   * and the [[https://bootswatch.com/|bootswatch themes]]
 
-
-
 ===== Configuration =====
 
 You can choose your stylesheet via  the [[docs:theme:bootstrap#configuration|Bootstrap Stylesheet Version configuration]].
@@ -26,13 +24,16 @@ You can choose your stylesheet via  the [[docs:theme:bootstrap#configuration|Boo
 
 ===== Custom Bootstrap Theme ===== 
 
+==== By creating your own Stylesheet ====
+
 You can even create and install your [[howto:bootstrap-custom|custom stylesheet]].
 
 This is an advanced configuration and requires some programming skills but this is not out of reach. See [[howto:bootstrap-custom]]
 
 
+==== By using your own CSS variables ====
 
-
+You can make use of [[:docs:theme:css-variable|bootstrap CSS variables]] to customize your stylesheet.
 
 
 

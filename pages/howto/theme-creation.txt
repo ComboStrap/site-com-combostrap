@@ -30,13 +30,16 @@ The ''Combostrap'' default theme is located in this directory
 dokuwiki_home/lib/plugins/combo/resources/theme/default
 </code>
 
-If you discover this theme, you will see two subdirectories:
-  * ''templates'' that contains:
-    * The handlebar templates (''hbs'' file)
-    * The template definition (''yml'' file).
-  * ''partials'' that contains the partials. They are chunks of handlebar templates that can be included in templates.
-  * ''components'' that contains the stylesheet for each component.
-
+If you discover this theme, you will this layout directory:
+  * the directory ''pages'' that contains:
+      * the ''templates'' directory that contains:
+         * The handlebar templates (''hbs'' file)
+         * The template definition (''yml'' file).
+      * the ''partials'' directory that contains the partials. They are chunks of handlebar templates that can be included in templates.
+  * the ''components'' that contains:
+      * the ''css'' directory that contains the stylesheet of each component
+      * the ''html'' directory that contains the HTML templates of component
+  
 
 
 {{:howto:combostrap-default-theme-file-explorer.png|}}

@@ -14,7 +14,8 @@ We use by default, the latest Bootstrap version supported.
 
 You can
   * change the version and stylesheet with the [[#bootstrapVersionStylesheet|bootstrap version stylesheet version]] (there is more than 30 different style) 
-  * or even [[howto:bootstrap-custom|create and bring your own]]
+  * [[howto:bootstrap-custom|create and bring your own]]
+  * customize it via [[docs:theme:css-variable|CSS Variables]]
 
 
 

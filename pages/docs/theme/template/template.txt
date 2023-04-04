@@ -54,7 +54,7 @@ Choose the template that is the right fit for your content.
 
 <card width="250px" clickable>
 {{:docs:theme:template:blank_layout.svg|}}
-[[blank|Blank]], the minimal printable layout
+[[minimal|Minimal]], the minimal printable layout
 </card>
 
 <card width="250px" clickable>
@@ -87,7 +87,7 @@ You can set the template:
 ?template=value
 </code>
 
-Example: to see this page with the [[docs:theme:template:blank|blank template]], [[start?template=blank|click on this link]].
+Example: to see this page with the [[docs:theme:template:minimal|blank template]], [[start?template=blank|click on this link]].
 
 
 

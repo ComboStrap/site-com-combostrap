@@ -6,4 +6,7 @@
 
 <heading h1>$title</heading>
 <breadcrumb/>
+
 <page-image featured height="250" ratio="21:9" linking="default" default="icon|ancestor|logo" zoom="-10"/>
+
+

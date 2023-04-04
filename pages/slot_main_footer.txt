@@ -2,9 +2,10 @@
 <hr/>
 \\
 <box width="400" align="center">
-<heading h4>Like what you read?</heading>
+<heading h4>Showcase yourself and your brand</heading>
 
-Get news, tips, and tricks right into your inbox.
+Get **free** news, tips, and tricks\\
+to create a **remarkable** experience for your readers. \\
 <subscribe list-id="lis-w8OZSK2"/>
 </box>
 \\

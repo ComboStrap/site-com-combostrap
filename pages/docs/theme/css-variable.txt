@@ -1,0 +1,33 @@
+====== CSS Variable ======
+
+
+===== About =====
+This is an advanced CSS topic that you can use while [[:howto:theme-creation|creating your theme]].
+
+You can set CSS variables:
+  * to have a global set of CSS values
+  * to customize the [[docs:theme:bootstrap|bootstrap stylesheet]]
+
+
+===== Bootstrap CSS Variables =====
+
+Bootstrap allows customizing its stylesheet via [[https://getbootstrap.com/docs/5.1/customize/css-variables/|css variables]].
+
+Combostap uses them to apply the [[:docs:app:color|branding colors]].
+
+If you want to customize or add your own, they are in the [[howto:theme-creation#what_are_partials|partial]] ''head-partials.hbs''.
+
+Example:
+<code handlebars>
+{{#if primary-color}}
+    <style>
+        :root {
+            --bs-primary: {{primary-color}};
+        }
+        .btn-primary {
+            --bs-btn-bg: {{primary-color}};
+            --bs-btn-border-color: {{primary-color}};
+        }
+    </style>
+{{/if}}
+</code>

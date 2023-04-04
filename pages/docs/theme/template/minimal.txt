@@ -1,10 +1,8 @@
-====== Blank Template ======
+====== Minimal Template ======
 
 
 ===== About =====
-A ''blank'' template is the simplest layout of them all, as its prints only the content. 
-
-
+A ''minimal'' template is the simplest layout of them all, as its prints only the content. 
 
 
 
@@ -12,7 +10,7 @@ A ''blank'' template is the simplest layout of them all, as its prints only the 
 
 ===== Layout Elements =====
 
-The ''blank'' template supports:
+The ''minimal'' template supports:
   * the [[:docs:theme:element:main-header|main header]]
   * the [[:docs:theme:element:toc|toc]]
 
@@ -31,6 +29,6 @@ This layout is mainly used:
 ===== Example =====
 
 
-[[?template=blank|Click on this link to see the blank template in action]]
+[[start?template=minimal|Click on this link to see the minimal template in action]]
 
 
