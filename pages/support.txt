@@ -20,13 +20,23 @@ You will find below [[docs:layout:component:tabs|tabs]] with all communication c
 
 <tabs enclosed-tabs>
 
-<panel selected="true">
+<panel selected="true" >
 <label>Newsletter <icon name="bullhorn-variant" /></label>
 
 
+
+<box align="text-center">
+\\
+
 Subscribe to our newsletters to get information about new releases, features, and tutorials.
 
-<subscribe list-id="lis-w8OZSK2" width="400px"/>
+\\
+
+<subscribe list-id="lis-w8OZSK2" width="400px" align="center"/>
+
+\\
+</box>
+
 </panel>
 <panel>
 <label>Discussions <icon name="github" /></label>

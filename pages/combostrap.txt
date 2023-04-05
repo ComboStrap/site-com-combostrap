@@ -27,9 +27,9 @@
 ====== ComboStrap ======
 
 ===== About =====
-''ComboStrap'' is a publishing platform based on the [[doku>|DokuWiki framework]] that focus on creating frontend website such as:
+''ComboStrap'' is a publishing platform  that focus on creating frontend website such as:
   * corporate / marketing / personal website
-  * knowledge and documentation
+  * knowledge base and documentation
 
 All the pages and configurations are stored in files written in a ''markdown-like'' based syntax.
 
@@ -40,24 +40,18 @@ The website can then be versioned:
 
 
 
-''ComboStrap'' is composed of:
-  * [[#Combo]] - Dokuwiki plugins
-  * and [[#strap|Strap]] - Dokuwiki template
 
 
 ===== Components =====
 
 
-==== Combo ====
+==== Component List ====
 
 
 
-''combo'' is the powerhouse of the ''ComboStrap'' product.
 
-
-It contains most of the UI and functional components such as:
   * the [[docs:component|UI Components]]
-  * the [[docs:router:url|router]]
+  * the [[:docs:router:router|router]]
   * the [[docs:metadata:metadata|Web Structured Data and Social Sharing]]
   * the [[docs:performance:frontend_optimization|frontend optimizer]]
   * the [[docs:quality:quality|quality module]]
@@ -66,24 +60,24 @@ It contains most of the UI and functional components such as:
 
 
 
-==== Strap ====
+==== Theme  and Templating ====
 
-''strap'' is the template component that supports the following features:
+The theme supports the following features:
 
-  * [[docs:theme:bootstrap|Last bootstrap version (4)]]
+  * [[docs:theme:bootstrap|Last bootstrap version (5)]]
   * [[howto:bootstrap-custom|Custom Bootstrap Styleshet (create and add your own)]]
   * [[docs:performance:cdn|Serve the Bootstrap files by default from a CDN]]
-  * Supports [[docs:theme:slot:slot|4 slots]] layout
+  * Supports [[docs:theme:slot:slot|5 slots]] layout
       * [[docs:theme:slot:side_slot|Side slot]] (left)
       * [[release:deprecated:sidekick_slot|Sidekick slot]] (right)
       * [[docs:theme:slot:header_slot|Header slot]] (top)
-      * [[docs:theme:slot:footer_slot|Footer slot]] (bottom)
-  * [[docs:theme:slot:railbar|Aggregate toolbar (Page, User Site) with a private option]]
+      * [[docs:theme:element:page-footer|Footer slot]] (bottom)
+  * [[docs:theme:element:railbar|Aggregate toolbar (Page, User Site) with a private option]]
   * Support [[docs:app:tagline|tagline]]
   * [[docs:menubar:fixed-top|Fixed-top menubar with automatic top page location correction]]
   * Support a [[docs:navigation:historical_breadcrumb|trailing breadcrumb]]
   * [[docs:styling:scale|Size Scale configuration (font and spacing)]]
-  * [[howto:getting_started:5_favicon|Favicon]]: Recognized the [[howto:getting_started:5_favicon|favicons]]  (included ''android-chrome-192x192.png'')
+  * [[:howto:getting_started:6_favicon|favicon installation]]: Recognized the [[:howto:getting_started:6_favicon|favicons]]  (included ''android-chrome-192x192.png'')
   * [[docs:utility:shortcut]]
 
 
