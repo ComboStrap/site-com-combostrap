@@ -37,11 +37,12 @@ For instance:
   * an [[docs:styling:opacity|opacity]] of ''0.5''
   * ''centered'' (one space at the beginning, one space at the end)
   * with a width of ''600'' pixel
+  * with ''rounded borders'' thanks to the [[https://getbootstrap.com/docs/5.0/utilities/borders/#border-radius|rounded class of Bootstrap]]
   * ''responsive'' and ''mobile ready''  (below ''600'', the image scales down).
 
 <webcode name="Default" frameborder=0>
 <code dw>
-{{ :docs:block:stock_image_surfer_in_the_see.png?600&shadow=md&onhover=float&opacity=0.5 |}}
+{{ :docs:block:stock_image_surfer_in_the_see.png?600&shadow=md&onhover=float&opacity=0.5&class=rounded |}}
 </code>
 </webcode>
 
@@ -58,6 +59,18 @@ A raster image can also be used as icon {{:docs:block:code-square.png?16&nolink|
 <note>
 The [[docs:content:icon|icon]] component creates [[docs:content:svg|svg]] icons
 </note>
+
+
+==== Avatar ====
+
+Thanks to the utility class of bootstrap, your can apply the [[https://getbootstrap.com/docs/5.0/utilities/borders/#border-radius|borders class]] to create an avatar image.
+
+Example:
+<webcode>
+<code dw>
+{{:nico_gravatar.jpeg?70&class=rounded-circle|}}
+</code>
+</webcode>
 
 
 ===== Features =====

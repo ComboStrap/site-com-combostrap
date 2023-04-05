@@ -11,6 +11,7 @@
     <box align="text-center"> 
        <heading 1>ComboStrap Newsletters</heading>
        <text lead>Showcase yourself and your brand</text>
+           {{:nico_gravatar.jpeg?90&class=rounded-circle|}}
     </box>
     <text>Hy !</text>
     <text>Thanks for stopping by.</text>
