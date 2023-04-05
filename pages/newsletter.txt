@@ -1,0 +1,22 @@
+---json
+{
+    "low_quality_page": "false",
+    "page_id": "pmtxf7229udd3ocfyriwf"
+}
+---
+\\
+\\
+
+<box width="400px" align="center">
+    <box align="text-center"> 
+       <heading 1>ComboStrap Newsletters</heading>
+       <text lead>Showcase yourself and your brand</text>
+    </box>
+    <text>Hy !</text>
+    <text>Thanks for stopping by.</text>
+    <text>In this newsletter, you get **free** news, tips, and tricks\\ to create a **remarkable** experience for your readers.</text>
+    <text>Have a nice day, \\ Nico</text>
+    <subscribe list-id="lis-w8OZSK2"/>
+</code>
+\\
+\\

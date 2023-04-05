@@ -27,7 +27,7 @@ We recommend to install the two below plugins.
 
 We support the [[docs:page:move|move plugin]]
 
-You can quickly move a page with the ''rename'' action in the [[docs:theme:slot:railbar|railbar]].
+You can quickly move a page with the ''rename'' action in the [[docs:theme:element:railbar|railbar]].
 
 {{howto:getting_started:move_plugin_rename.png|}}
 

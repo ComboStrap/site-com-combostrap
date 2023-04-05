@@ -27,6 +27,6 @@ By default, the ''page-footer'' design is implemented by the [[:docs:theme:templ
   * Power users can overwrite it by creating a [[:docs:theme:slot:page_footer_slot|page footer slot]].
 
 
-Most of the templates should support it except the [[:docs:theme:template:blank|blank layout]]. You should refer to the documentation of the template to confirm it.
+Most of the templates should support it except the [[docs:theme:template:minimal|blank layout]]. You should refer to the documentation of the template to confirm it.
 
 

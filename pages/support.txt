@@ -26,9 +26,7 @@ You will find below [[docs:layout:component:tabs|tabs]] with all communication c
 
 Subscribe to our newsletters to get information about new releases, features, and tutorials.
 
-<button secondary>
-[[https://tower.combostrap.com/combo/app/list/registration?listGuid=lis-w8OZSK2|Subscribe]]
-</button>
+<subscribe list-id="lis-w8OZSK2" width="400px"/>
 </panel>
 <panel>
 <label>Discussions <icon name="github" /></label>

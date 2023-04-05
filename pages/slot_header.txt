@@ -10,7 +10,7 @@
             [[:howto:howto?preview|HowTo]]
             [[:themes?preview|Themes]]
         </group>
-        <btn elevation="true">[[https://tower.combostrap.com/combo/app/list/registration?listGuid=lis-w8OZSK2|Subscribe]]</btn>
+        <btn elevation="true">[[:newsletter|Subscribe]]</btn>
         <search/>
     </collapse>
 </menubar>

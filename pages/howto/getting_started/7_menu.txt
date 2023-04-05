@@ -13,7 +13,11 @@
 
 
 ===== About =====
-The [[release:deprecated:strap|strap template]] supports the creation of a slot page called [[docs:theme:slot:header_slot|header slot]] in order to create a [[docs:menubar:menubar|menu bar]] at the top location of the page.
+The [[:docs:theme:template:template|templates]] support the creation of a [[:docs:theme:slot:slot|slot page]] in order to modify a page layout.
+
+For instance, most of them support a [[docs:theme:slot:header_slot|page header slot]] in order to modify the [[:docs:theme:element:page-header|page header]] (the top location of your pages)
+
+This is where we will create a [[docs:menubar:menubar|menu bar]].
 
 
 ===== Steps=====
@@ -50,11 +54,11 @@ My Brand name
 More ... see the [[docs:menubar:menubar|menu bar page]]
 
 ===== Next Steps =====
-In the same way, you can also create a [[docs:theme:element:page-footer|footer slot]].
+In the same way, you can also modify the [[docs:theme:element:page-footer|page footer]].
 
 Then you can:
   * Check the [[docs:component|UI Components]]
   * Learn about [[docs:router:router|Routing and redirections]]
   * Have a look at the [[docs:seo:seo|SEO page]]
 
-For more tips and tops, you can also [[https://tower.combostrap.com/combo/app/list/registration?listGuid=lis-w8OZSK2|subscribe]] to the newsletter.
+For more tips and tops, you can also [[:newsletter|subscribe to the newsletter]].

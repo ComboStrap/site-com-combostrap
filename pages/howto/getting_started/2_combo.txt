@@ -12,7 +12,7 @@
 
 ===== About =====
 ''combo'' contains all components:
-  * The [[docs:theme|theme]]
+  * The [[docs:theme:theme|theme]]
   * The [[docs:component|collection of UI component]]
   * The [[docs:router:router|router]]
   * The [[docs:metadata:metadata|Page Metadata]]
