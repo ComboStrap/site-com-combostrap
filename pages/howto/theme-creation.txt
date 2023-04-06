@@ -36,7 +36,7 @@ If you discover this theme, you will this layout directory:
          * The handlebar templates (''hbs'' file)
          * The template definition (''yml'' file).
       * the ''partials'' directory that contains the partials. They are chunks of handlebar templates that can be included in templates.
-  * the ''components'' that contains:
+  * the directory ''components'' that contains:
       * the ''css'' directory that contains the stylesheet of each component
       * the ''html'' directory that contains the HTML templates of component
   
@@ -100,8 +100,10 @@ dokuwiki_home/data/combo/theme
 If you name your theme, ''mytheme'', you should then create the following directories
 <code>
 dokuwiki_home/data/combo/theme/mytheme
-dokuwiki_home/data/combo/theme/mytheme/templates
-dokuwiki_home/data/combo/theme/mytheme/partials
+dokuwiki_home/data/combo/theme/mytheme/components/css
+dokuwiki_home/data/combo/theme/mytheme/components/html
+dokuwiki_home/data/combo/theme/mytheme/pages/templates
+dokuwiki_home/data/combo/theme/mytheme/pages/partials
 </code>
 
 ==== Selecting your theme ====
@@ -117,7 +119,7 @@ Now that you have created your theme directory, you can select it.
 ==== Creation of your first template ====
 
   * Go to the default theme directory
-  * Copy the [[docs:theme:template:medium|median]] template by transferring into your custom template theme directory:
+  * Copy the [[docs:theme:template:medium|median]] template by transferring it into your custom template theme directory:
     * the file ''median.hbs''
     * the file ''median.yml''
   * Rename them to
@@ -125,8 +127,8 @@ Now that you have created your theme directory, you can select it.
     * ''custom-median.yml''
   * You should now have two files
 <code>
-dokuwiki_home/data/combo/theme/mytheme/templates/custom-median.hbs
-dokuwiki_home/data/combo/theme/mytheme/templates/custom-median.yml
+dokuwiki_home/data/combo/theme/mytheme/pages/templates/custom-median.hbs
+dokuwiki_home/data/combo/theme/mytheme/pages/templates/custom-median.yml
 </code>
   * Open the file ''custom-median.hbs'' and add modify the html header. Below we take over the page heading
 <code handlebars>
