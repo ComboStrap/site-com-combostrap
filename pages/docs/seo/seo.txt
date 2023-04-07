@@ -3,35 +3,66 @@
     "canonical": ":seo",
     "featured-raster-image": ":docs:seo:undraw_growth_chart_r99m.png",
     "featured-svg-image": ":docs:seo:undraw_growth_chart_r99m.svg",
-    "page_id": "5kycre4bgxlof2wk2c8so"
+    "lead": "Focus on your content, we focus on SEO",
+    "page_id": "5kycre4bgxlof2wk2c8so",
+    "template": "holy"
 }
 ---
 
-====== ComboStrap - SEO ======
+====== How ComboStrap tackles SEO to bring you more visitors? ======
 
 {{:docs:seo:undraw_growth_chart_r99m.svg?0x250|}}
 
 
 ===== About =====
-[[kb>seo|Search engine optimization (or SEO)]] is the process of making your website optimized for [[kb>search/engine|search engine]] such as as Google or Bing.
+[[kb>seo|Search engine optimization (or SEO)]] is the process of making your website optimized for [[kb>search/engine|search engine]] (Google, Bing, ...) to get to the top of their result.
+
+
+
 
 On a website level, it means:
   * [[#quality|Good quality content]]
+  * [[#illustration|Good illustration]]
   * [[#page metadata|Good semantic (page metadata / web structure)]]
   * [[#performance|Good page speed]]
   * [[#discoverability|Discoverability]]
 
+===== Don't believe us? =====
 
+Check our own reward:
 
+{{:docs:seo:seo_google_search_impact.png?200|}}
 
 
 ===== SEO Subject =====
 
 ==== Page Metadata ====
-The following data are used heavily by Search Engine and may be set specifically for a page:
+
+
+{{:docs:seo:search-result-page-with-metadata-explained.png|}}
+
+The following data are used heavily by Search Engine in their algorithm. They are set by default and can be changed to meet your needs:
   * [[docs:page:url|Canonical Url]]
   * [[docs:page:title|Title]]
   * [[docs:page:description|Description]]
+  * [[:docs:app:logo|Application Logo]]
+  * [[:docs:app:name|Application Name]]
+
+==== Illustration ====
+
+Image illustrations are attention catchers for your readers, search engines, and social media.
+
+That's why all pages get:
+  * an illustrative image that is relevant to their content 
+  * a social image for [[:docs:social:twitter|twitter]], [[:docs:social:facebook|facebook]] and other social network.
+
+''ComboStrap'' does not let a page without any illustrative image. If a [[:docs:page:featured-image|featured image]] or [[:docs:page:featured-icon|featured icon]] is not set, it will use the [[:docs:page:first-image|the first image]] or an ancestor image.
+
+Thanks to the [[:docs:content:page-image|page image component]], you can choose the image that you want to use:
+  * as ''hero'' image in your [[:docs:theme:element:main-header|content header]]
+  * or as ''page image'' in a [[:docs:layout:component:carrousel|carrousel]] or any [[:docs:templating:iterator|iterator component]]
+
+
 
 ==== Performance ====
 
@@ -56,6 +87,7 @@ The Combostrap page renders automatically as card in:
   * [[docs:social:twitter|Twitter]]
   * [[docs:social:facebook|Facebook]]
   * [[docs:social:google|Google]]
+  * and any open graph network such as [[docs:social:telegram|telegram]], signal, ...
 
 ==== Web Core Vital ====
 
