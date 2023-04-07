@@ -27,9 +27,7 @@ On a website level, it means:
   * [[#performance|Good page speed]]
   * [[#discoverability|Discoverability]]
 
-===== Don't believe us? =====
 
-Check our own reward:
 
 {{:docs:seo:seo_google_search_impact.png?200|}}
 
