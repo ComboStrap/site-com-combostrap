@@ -111,6 +111,10 @@ The ''layout'' metadata has been renamed to ''template''.
   * The empty tag should be close (ie ''%%<hr>%%'' should be written ''%%<hr/>%%'', ie the HTML format has been deprecated for the XML format)
   * [[https://www.php.net/manual/en/function.strftime.php|strftime]] has been deprecated. The only alternative with local is [[https://www.php.net/manual/en/intldateformatter.format.php|format]]
 
+==== Deprecation removed ====
+
+   * The old deprecated ''organization'' LdJson tag has been removed.
+
 ==== Improvement ====
 
   * When [[support:preserve|preserve style]] is set on svg, the svg is shown as an img to avoid style conflict.
