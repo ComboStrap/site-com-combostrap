@@ -7,31 +7,31 @@
 ====== ComboStrap Styling - Dimension (Width and Height) ======
 
 
+
 ===== About =====
 Every [[docs:block:block|Box components]] and even the whole main page dimension may be resized with the [[docs:styling:styling|styling attributes]]:
   * [[#width]]
   * and [[#height]].
 
 
-
 ===== Dimension =====
 
 ==== Width ====
 
-The ''width'' attributes supports the following values:
+The ''width'' attributes support the following values:
   * ''length'' - a length (in pixel, percentage, or other length unit)
   * a [[docs:styling:breakpoint|conditional length]] in percentage
   * ''fit-content'' - the width of the text.
 
 <note info width="fit-content">If you want to center the box, use the [[docs:styling:align|align attributes]]</note>
 
-**Example**: a [[docs:block:note|note]] will take all the space by default, if you want to constraint the box to a lower size, apply the ''width'' attributes.
+**Example**: a [[docs:block:note|note]] will take all the space by default, if you want to constrain the box to a lower size, apply the ''width'' attributes.
 
-<webcode name="Width" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode story name="Width" >
 <code dw>
 <note warning width="200px" align="center">
 === A constrained warning note ===
-I'm a note being constraint in a box with a maximum width of 200 pixels.
+I'm a note being constrained in a box with a maximum width of 200 pixels.
 </note>
 <note warning width="100%-xs 50%-sm" align="center">
 === A Note with a conditional width ===
@@ -53,7 +53,6 @@ On a [[docs:block:block|box]], the ''width'' attribute will apply a ''maximum-wi
 
 
 
-
 ==== Height ====
 The ''height'' attribute is also a [[docs:styling:style|style shortcut]] that will apply a maximum height.
 
@@ -69,10 +68,10 @@ I'm a note being constraint in a box with a maximum height of 100 pixel.
 </code>
 </webcode>
 
-=== Toggle Scroll ===
+==== Horizontal Scroll ====
 
 
-The default scroll mechanism is a lift but you can also set it to a [[:docs:animation:toggle|Toggle]]
+The default scroll mechanism is the ''lift'' but you can also set it to a [[:docs:animation:toggle|Toggle animation]]
 
 <webcode name="Height" >
 <code dw>
@@ -84,6 +83,7 @@ In case, you wish to show the whole content at once.
 </note>
 </code>
 </webcode>
+
 
 
 
