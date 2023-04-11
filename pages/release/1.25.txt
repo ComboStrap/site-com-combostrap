@@ -43,6 +43,7 @@ Because 7.2 and 7.3 are already end of life, we have taken the decision to upgra
   * If you used the `mermaid` tag, you should change if for `webcode`. A bug has been introduced with the `mermaid` release. The mermaid tag was never intended to be used.
   * The [[:release:deprecated:renderer|rplus renderer]] has been deprecated, you should set the renderer to the default renderer.
   * The ''svgUploadGroupName'' configuration has been replaced by a [[:docs:app:designer|designer group]]. You should migrate the name of the group of your privileged users in the configuration ''combo-conf-006''.
+  * If you were using in-article Ads, they have now a configuration to enable or disable them. You need to enable them specifically.
 
 ===== Changes =====
 
