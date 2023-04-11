@@ -26,6 +26,6 @@
 
 
 <note>
-''combostrap'' follows the breakpoints of [[docs:utility:bootstrap|bootstrap]] (even if you have created your [[bootstrap|own custom bootstrap]])
+''combostrap'' follows the breakpoints of [[docs:theme:bootstrap|bootstrap]] (even if you have created your [[howto:bootstrap-custom|own custom bootstrap]])
 </note>
 

@@ -12,7 +12,7 @@
 ===== About =====
 ''Dynamic Quality Page Monitoring'' is a feature that encourages the ''writer'' (users with edit permission) to improve the [[score|quality score]] of its page.
 
-The writer sees in the [[docs:theme:slot:railbar|railbar]] an alert icon <icon name="alert" color="#ffc107"/> in place of the normal quality icon <icon name="seal" color="#ccc"/>  that indicates that the page is of [[docs:quality:low_quality_page|low quality]].
+The writer sees in the [[docs:theme:element:railbar|railbar]] an alert icon <icon name="alert" color="#ffc107"/> in place of the normal quality icon <icon name="seal" color="#ccc"/>  that indicates that the page is of [[docs:quality:low_quality_page|low quality]].
 
 If you click on the action, the writer will see the [[rule|quality rules]] that don't pass.
 

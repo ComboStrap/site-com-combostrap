@@ -19,7 +19,7 @@ A ''historical breadcrumb'' is a [[docs:navigation:navigation|navigational compo
 
 ===== Illustration =====
 
-It's accessible via the [[docs:theme:slot:railbar|railbar]] if in the [[#configuration]], the number of pages (to show) is greater than 0.
+It's accessible via the [[docs:theme:element:railbar|railbar]] if in the [[#configuration]], the number of pages (to show) is greater than 0.
 
 {{:docs:navigation:historical_breadcrumb.png|}}
 ===== Configuration =====

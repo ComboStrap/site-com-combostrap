@@ -24,7 +24,7 @@ Every [[:docs:theme:template:template|template]] is composed of elements that cr
 They can use:
 <box width="fit-content" align="text-start center">
   * All elements (ie the [[:docs:theme:template:holy|holy template]])
-  * to no element at all (ie the [[:docs:theme:template:blank|blank template]])
+  * to no element at all (ie the [[docs:theme:template:minimal|blank template]])
 </box>
 \\
 \\

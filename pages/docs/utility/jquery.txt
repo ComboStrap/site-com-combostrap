@@ -32,13 +32,13 @@ Example:
 ===== jQuery Conflict with Bootstrap 4  =====
 
 <note>
-If you use [[docs:utility:bootstrap|bootstrap version 5]], there is no conflict, only the Jquery of Dokuwiki is used.
+If you use [[docs:theme:bootstrap|bootstrap version 5]], there is no conflict, only the Jquery of Dokuwiki is used.
 </note>
 
 Bootstrap 4 is packaged with a Jquery and therefore we have a conflict with the jQuery of DokuWiki and we need to choose.
 
 By default, the jquery version is:
-  * for an anonymous user, the Jquery version of [[docs:utility:bootstrap#bootstrapversion|Bootstrap]] <inote warning>Bootstrap does not use Jquery-ui</inote>
+  * for an anonymous user, the Jquery version of [[docs:theme:bootstrap#bootstrapversion|Bootstrap]] <inote warning>Bootstrap does not use Jquery-ui</inote>
   * for a logged-in user, the [[doku>devel:jqueryfaq|Jquery version of Dokuwiki]].
 
 You can change this behavior with the [[#JqueryDoku|JqueryDoku configuration]] in order to use only the Jquery bundle of DokuWiki.

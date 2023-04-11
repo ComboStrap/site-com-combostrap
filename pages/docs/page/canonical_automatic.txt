@@ -10,7 +10,7 @@
 
 
 ===== About =====
-This feature provides a default value to the [[docs:router:router|router]] for the [[..:page:canonical|canonical path]] based on the last parts of the [[docs:page:path|page path]].
+This feature provides a default value to the [[docs:router:router|router]] for the [[..:page:canonical|canonical path]] based on the last parts of the [[docs:page:system:path|page path]].
 
 It allows therefore a [[docs:router:permalink#named|named permalink redirect based on the canonical]].
 
@@ -20,7 +20,7 @@ There is no automatic canonical created for the [[docs:theme:slot:slot|slots]] a
 
 
 ===== Example =====
-For example, if you have a [[docs:page:path|page path]] with the value
+For example, if you have a [[docs:page:system:path|page path]] with the value
 <file>
 :seo:backlink
 </file>

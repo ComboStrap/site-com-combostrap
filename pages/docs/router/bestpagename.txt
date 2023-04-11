@@ -28,7 +28,7 @@ The redirection by best name page is an simple algorithm which occurs to find th
 
 It calculate a score for two kinds of page :
 
-  * the [[docs:type:index|home pages of a namespace]]
+  * the [[docs:page:system:index|home pages of a namespace]]
   * the pages with the same name
 
 ===== Configuration =====

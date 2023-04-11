@@ -16,10 +16,10 @@
      * The [[docs:block:file|file component]] -  a file
      * The [[docs:block:code|code component]] - a code
      * The [[docs:block:console|console component]] - a console
-  * Added documentation over the [[docs:styling:userstyle|userstyle]] or how to bring its own css rules.
+  * Added documentation over the [[release:deprecated:userstyle|userstyle]] or how to bring its own css rules.
   * Regression fixed: the section ''highlighting'' change of the previous release has removed the default header style.
   * [[docs:quality:automatic_hidden|New automatic hidden page]]: the internal page such as the bars and namespace are now automatically hidden. No configuration is needed.
-  * New: a new [[docs:block:box|Box]] component was introduced to group other component and allows for instance to define a [[docs:menubar:collapse|collapse]] target.
+  * New: a new [[docs:layout:component:box|Box]] component was introduced to group other component and allows for instance to define a [[docs:menubar:collapse|collapse]] target.
   * New: the [[docs:block:preformatted|preformatted mode]] of dokuwiki is disabled by default in order to be able to write hierarchical block.
   * New: the [[docs:menubar:collapse#attribute|collapse attribute]]: a control element such as a [[docs:content:button|button]] with this attribute can collapse a target component.
   * Fix:  Deleted the clearfix ''group'' class css style of dokuwiki that was giving a line break on the [[docs:utility:prism#regex_language|prism regex language]].

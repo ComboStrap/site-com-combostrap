@@ -43,7 +43,7 @@ In this snapshot, we can see that for a parsing (''get_instructions''), the proc
 The second reason is that simple and still complex syntax components need to know where they are, in the page.
 
 For instance: the [[docs:content:heading|combo heading]] may be:
-  * a [[docs:navigation:outline|outline heading]] that will be found in the [[docs:navigation:toc|toc]]
+  * a [[docs:navigation:outline|outline heading]] that will be found in the [[docs:theme:element:toc|toc]]
   * or just a component heading
 
 How does it know this fact?\\

@@ -60,7 +60,7 @@ The following [[:docs:theme:template:template|template]] have been created for '
 
   * [[:docs:theme:template:landing|landing]]
   * [[:docs:theme:template:index|index]]
-  * [[:docs:theme:template:index-median|index-median]]
+  * [[docs:theme:template:index-medium|index-median]]
 
 
 These templates don't have the following layout elements:

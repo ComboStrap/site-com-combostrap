@@ -44,7 +44,7 @@ New: [[release:archive:1.13_bootstrap5|Bootstrap 5]] is now the default. Read mo
   * New: The [[docs:styling:stylesheet|Bootswatch stylesheet]] are now also served from the CDN (by default)
   * New: The [[docs:lists:table|table]] component does not take 100% width to reduce the visual space and allow floating element to the right.
   * New: [[docs:styling:float|float]] - the float styling attribute has been added.
-  * New: added [[docs:styling:userstyle|styling class]] to all component. It permits to take over the whole styling and create its own via the [[docs:styling:userstyle|userstyle stylesheet]].
+  * New: added [[release:deprecated:userstyle|styling class]] to all component. It permits to take over the whole styling and create its own via the [[release:deprecated:userstyle|userstyle stylesheet]].
 
 ==== Performance ====
   * New: [[docs:performance:lazy|Lazy loading]] is now part of Combostrap and the default
@@ -61,7 +61,7 @@ New: [[release:archive:1.13_bootstrap5|Bootstrap 5]] is now the default. Read mo
 ==== Layout ====
   * New: ''auto'' layout is supported on a [[docs:layout:component:grid|grid]] where the columns takes the natural width of their content and never overflow.
   * New: If there is no [[docs:theme:slot:slot|bar]], the main content is centered with a  max length of 9 cols.
-  * New: A [[docs:theme:slot:page|Layout]] by page can be specified. 
+  * New: A [[docs:theme:template:template|Layout]] by page can be specified. 
 
 ==== Security ====
 

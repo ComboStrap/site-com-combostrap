@@ -45,7 +45,7 @@ See [[docs:utility:prism#syntax|prism syntax]]
 
 This component:
   * gets the [[docs:utility:prism|theme]]  chosen
-  * and all [[docs:styling:userstyle|userstyle]] applied to the elements ''pre'' and ''code'' with the class ''combo_console''
+  * and all [[release:deprecated:userstyle|userstyle]] applied to the elements ''pre'' and ''code'' with the class ''combo_console''
 
 
 Example:

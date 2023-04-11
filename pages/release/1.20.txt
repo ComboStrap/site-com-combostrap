@@ -27,7 +27,7 @@ The release ''1.20'' (${date_published|format()}) introduces a full template sys
 
   * The [[docs:templating:iterator|iterator]] to iterate over [[:release:deprecated:template|template]]
   * The [[release:deprecated:cache|cache]] component to set the validity of a page at interval to avoid [[https://forum.dokuwiki.org/d/19495-caching-problem-with-a-plugin/11|caching problem with iterator]]
-  * The [[docs:page:image|page image metadata]] set in the [[docs:metadata:frontmatter|frontmatter]]:
+  * The [[release:deprecated:images-meta|page image metadata]] set in the [[docs:metadata:frontmatter|frontmatter]]:
       * are now updated when the [[docs:content:image|image]] is moved via the [[howto:getting_started:4_plugin#move|move plugin]]
       * are taken into account into the [[docs:analytics:statistics#media|media statistics]] and reported if they don't exist as [[docs:quality:broken_link|broken links]]
   * A [[support:plugin|page dedicated to the support of third party plugin]] to enhance our support.
@@ -38,7 +38,7 @@ The release ''1.20'' (${date_published|format()}) introduces a full template sys
 
 
 ==== Improvement ====
-  * The [[docs:page:image|image metadata]] handles now two levels of image definitions allowing to group image.
+  * The [[release:deprecated:images-meta|image metadata]] handles now two levels of image definitions allowing to group image.
   * The callstack manager can handle bad/old handler to prevent a fatal error such as ''Uncaught Error: Cannot access private property ImageMap_Handler::%%$calls%%''
   * [[support:plugin#imagemapping|imagemapping]] supports added (links should still not be on list) and we don't take over with our [[docs:content:link|link component]]
   * The [[docs:layout:component:masonry|masonry layout]] is now working with the [[docs:templating:iterator|iterator]] (The card and blockquote were searching themselves the context and got the iterator in place of masonry)

@@ -14,10 +14,10 @@
 
 <note warning>
   * Php version 5.6 is no [[support:requirement|more supported]] because the SQlite Plugin does [[https://github.com/cosmocode/sqlite/blob/master/.github/workflows/phpTestLinux.yml#L13|not support it anymore]] (and the ''AbstractTest'' is failing on [[https://github.com/cosmocode/sqlite/blob/master/_test/AbstractTest.php#L14|line 14]] due to the '': void'')
-  * If you had your private toolbar, you need to [[docs:theme:slot:railbar#configuration|reconfigure it]] due to a change of name from ''toolbar'' to ''railbar''
+  * If you had your private toolbar, you need to [[docs:theme:element:railbar#configuration|reconfigure it]] due to a change of name from ''toolbar'' to ''railbar''
 </note>
 
-This is a minor improvement release with bug fixes. The most improvement has been made on the [[docs:theme:slot:railbar|toolbar]].
+This is a minor improvement release with bug fixes. The most improvement has been made on the [[docs:theme:element:railbar|toolbar]].
 
 The toolbar:
   * has been renamed to ''railbar'' to not confound with the [[doku>toolbar|toolbar of the editor]]
@@ -37,7 +37,7 @@ The toolbar:
 
 ==== Change ====
 
-  * The ''trail breadcrumb'' was renamed to [[docs:navigation:historical_breadcrumb|historical breadcrumb]] to reflect more the content (''Trail'' being a design term) and it has moved from the [[release:deprecated:strap|strap template]] to the [[docs:theme:slot:railbar|railbar]] because it has a lower importance than the page content.
+  * The ''trail breadcrumb'' was renamed to [[docs:navigation:historical_breadcrumb|historical breadcrumb]] to reflect more the content (''Trail'' being a design term) and it has moved from the [[release:deprecated:strap|strap template]] to the [[docs:theme:element:railbar|railbar]] because it has a lower importance than the page content.
 
 Before:
 
@@ -50,12 +50,12 @@ After:
   * Due to the new [[docs:navigation:historical_breadcrumb|historical breadcrumb]], the [[docs:menubar:fixed-top|fixed-top menu margin]] was too small, we have added ''1 rem''.
   * The [[docs:navigation:page-explorer#list|page-explorer list]] panel does not underline any link to be conform with the style of the tree layout.
 ==== Improvement ====
-  * The sidekick [[docs:theme:slot:railbar|railbar]] icons have been grouped by type of tool (ie user, page, website)
-  * The sidekick [[docs:theme:slot:railbar|railbar]] is available on all screen size and goes now in an offcanvas from a configured breakpoint (default to md)
+  * The sidekick [[docs:theme:element:railbar|railbar]] icons have been grouped by type of tool (ie user, page, website)
+  * The sidekick [[docs:theme:element:railbar|railbar]] is available on all screen size and goes now in an offcanvas from a configured breakpoint (default to md)
   * [[docs:templating:pipeline#cut|pipeline cut function]] allows a ''range'' selection. (ie all token after the first separator for instance)
   * [[docs:navigation:page-explorer|page-explorer]]: all templates got default value and have then been made optional.
   * In [[docs:navigation:page-explorer|page-explorer]], the ''home'' template follows the ''page'' template if not present. If the ''home'' tag is present but empty, the ''home'' section is not shown.
-  * [[docs:navigation:page-explorer|page-explorer]] got the [[docs:styling:userstyle#class|custom generated class]] for custom styling
+  * [[docs:navigation:page-explorer|page-explorer]] got the [[release:deprecated:userstyle#class|custom generated class]] for custom styling
   * [[docs:navigation:page-explorer|page-explorer]]: the home page is now the first element in a tree. It was after the child namespaces making it difficult to spot.
 ==== Bug ====
 
@@ -71,4 +71,4 @@ in C:\DokuWikiStick\dokuwiki\lib\plugins\combo\action\metacsp.php on line 82
   * Bug: [[docs:quality:protection|Page protection]] was returning an authorization code in place of a filtered list of result causing an error when searching.
   * Bug: [[docs:content:tooltip|tooltip]] was not working with [[docs:utility:jquery|Jquery alone]] because of a case error (ie ''jQuery.fn.tooltip.Constructor'' in place of ''jQuery.fn.tooltip.constructor'')
   * Bug: [[docs:navigation:page-explorer|page-explorer]] javascript would throw an error when the current page was not in the created tree because it would try to open the directory or set the link as active.
-  * Bug: The [[docs:menubar:fixed-top|fixed-top menu]] height correction was not applied on the image detail page, leading to the heading and a part of the image to be cached under the page header. The [[docs:theme:slot:railbar|railbar]] was also missing and has been added.
+  * Bug: The [[docs:menubar:fixed-top|fixed-top menu]] height correction was not applied on the image detail page, leading to the heading and a part of the image to be cached under the page header. The [[docs:theme:element:railbar|railbar]] was also missing and has been added.

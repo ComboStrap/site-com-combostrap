@@ -15,14 +15,14 @@
 
 For each page move, we:
   * rename the [[docs:content:link|page link]]
-  * rename the [[docs:content:image|image link]] and [[docs:page:image|page image]]
+  * rename the [[docs:content:image|image link]] and [[release:deprecated:images-meta|page image]]
   * take into account the [[docs:navigation:backlink|backlink]]
   * and [[docs:analytics:replication|replicate]] the change in the database
 
 
 ===== How to move a page =====
 
-You can quickly move a page with the ''rename'' action in the [[docs:theme:slot:railbar|railbar]].
+You can quickly move a page with the ''rename'' action in the [[docs:theme:element:railbar|railbar]].
 
 {{howto:getting_started:move_plugin_rename.png|}}
 

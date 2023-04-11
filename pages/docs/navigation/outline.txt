@@ -15,7 +15,7 @@
 All headings that are not inside a component are ''outline headings''.
 
 <note>
-The outline headings are used to create the [[docs:navigation:toc|TOC]]
+The outline headings are used to create the [[docs:theme:element:toc|TOC]]
 </note>
 ===== Features =====
 

@@ -36,7 +36,7 @@ There is two groups of metadata:
   * [[..:page:h1|h1]] - the first heading of the page
   * [[..:page:description|description]] - a summary of the page
   * [[docs:page:published|date_published]]
-  * [[docs:page:image|image]] - the page illustrations
+  * [[release:deprecated:images-meta|image]] - the page illustrations
   * [[docs:type:type|page type]] - the type of page (article, ...)
   * [[..:page:published|date_published]] - the publication date
   * [[..:locale:region|country]] - the localized country

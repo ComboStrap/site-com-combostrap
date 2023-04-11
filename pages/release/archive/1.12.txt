@@ -40,7 +40,7 @@ Check the below changes to know more about all of them:
   * Twitter aware: ComboStrap pages are now [[docs:social:twitter|twitter aware and renders in tweet as cards]].
   * Facebook aware: ComboStrap pages are now [[docs:social:facebook|facebook]].
   * New: [[docs:social:social|social page]] to concentrate on one page all the social features.
-  * New Page Metadata - the [[docs:page:image|page of an image]] used in card social illustration.
+  * New Page Metadata - the [[release:deprecated:images-meta|page of an image]] used in card social illustration.
   * Improved: the [[docs:metadata:frontmatter|frontmatter]] creates a link to debug quickly the json if there is any errors.
   * New: You can advertise your organization by creating an [[docs:type:organization|organization page]].
   * New: [[docs:social:google|Google Rich Result]] aware. The below ''rich results'' are created automatically if you set the [[docs:semantic:type|type]] of page.

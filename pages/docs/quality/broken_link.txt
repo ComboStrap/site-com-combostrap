@@ -22,7 +22,7 @@ You can [[dynamic_monitoring|monitor them]] and you can even [[#list|list them]]
 
 
 ===== List =====
-You can [[docs:analytics:query|query the database]] against the [[docs:analytics:statistics|page statistics data]] with the below Analytics SQL to list the page with broken links and their count along with the [[docs:page:path|path of the page]]
+You can [[docs:analytics:query|query the database]] against the [[docs:analytics:statistics|page statistics data]] with the below Analytics SQL to list the page with broken links and their count along with the [[docs:page:system:path|path of the page]]
 <code sql>
 select
 	path,

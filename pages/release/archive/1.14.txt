@@ -29,7 +29,7 @@ there is any problem during the migration, you may not see your header, footer o
   * [[docs:theme:slot:side_slot|side slot]]
   * [[release:deprecated:sidekick_slot|sidekick slot]]
   * [[docs:theme:slot:header_slot|header slot]]
-  * [[docs:theme:slot:footer_slot|footer slot]]
+  * [[docs:theme:element:page-footer|footer slot]]
 </note>
 ===== New =====
 
@@ -51,7 +51,7 @@ there is any problem during the migration, you may not see your header, footer o
 
 
 ==== Page Layout: Landing Page ====
-  * New [[docs:theme:slot:page|page layout]]: ''landing'' in order to create landing page with section of page created with the [[release:deprecated:slide|slide component]]
+  * New [[docs:theme:template:template|page layout]]: ''landing'' in order to create landing page with section of page created with the [[release:deprecated:slide|slide component]]
 
 ==== Markdown Code Syntax ====
   * new: The [[docs:block:code|code]] component supports also the [[docs:block:code#markdown|markdown github code syntax]]
@@ -64,7 +64,7 @@ The [[docs:content:heading|heading component]] supports also the ATX markdown he
 ==== Print ====
 [[docs:styling:print|print]]. The lazy loaded image are downloaded before print and the bars are cached to be able to print a page.
 ==== Outline Numbering ====
-[[docs:navigation:outline#numbering|Outline Numbering]] is now fully customizable from decimal to latin-upper. Due to this change, the anchor are now located to the right and this is no more mandatory to use the [[docs:utility:renderer|renderer]]
+[[docs:navigation:outline#numbering|Outline Numbering]] is now fully customizable from decimal to latin-upper. Due to this change, the anchor are now located to the right and this is no more mandatory to use the [[release:deprecated:renderer|renderer]]
 
 ==== New Statistics on component usage ====
 You can now analyse the syntax used in your page with the [[docs:analytics:statistics#syntax_count|syntax count]] analytics.
@@ -81,7 +81,7 @@ You can now analyse the syntax used in your page with the [[docs:analytics:stati
 ==== Heading can be styled - Easy <icon name="coffee"/> ====
 You can now style the content of your [[docs:content:heading|heading]] (adding icon, boldness, ...)
 ==== Note ====
-  * The [[docs:block:note|note component]] got also the [[docs:styling:userstyle#class|userstyle class]].
+  * The [[docs:block:note|note component]] got also the [[release:deprecated:userstyle#class|userstyle class]].
   * A [[docs:block:note|note]] does not have any extra bottom margin. Due to the last paragraph of a [[docs:block:note|note]] and the default stylesheet of the browser, the content was not centered vertically.
 
 ==== Link ====

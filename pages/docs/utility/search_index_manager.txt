@@ -27,6 +27,6 @@ If you don't want to create [[docs:quality:broken_link|broken links]] don't forg
 ===== Install and Access =====
 
   * You can install it with the [[doku>plugin:extension|extension manager]].
-  * You access it on the admin page via the ''admin'' action of the [[docs:theme:slot:railbar|railbar]]
+  * You access it on the admin page via the ''admin'' action of the [[docs:theme:element:railbar|railbar]]
 
 {{howto:getting_started:admin_railbar.png|}}

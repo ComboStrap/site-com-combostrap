@@ -11,6 +11,6 @@
 ===== Change list =====
 
 The version 1.8 was a bug fix release.
-  * Bug: [[docs:layout:page:sidekick_slot|sidekickbar]] configuration was missspeld to ''sideckickbar'' in place of ''sidekickbar''
+  * Bug: [[release:deprecated:sidekick_slot|sidekickbar]] configuration was missspeld to ''sideckickbar'' in place of ''sidekickbar''
   * Bug: Check if the php sqlite extension is installed. When it was not installed, the SQLite Plugin returns a null value.
   * Bug: [[docs:navigation:page-explorer|Navigational Toc]] was not rendering correctly sub-namespace due to a bad predicate, index page was not filtered due to a semi-colon, the directory were rendering as a page if there was no template and as it was cached, the result was not accurate if the namespace was showing a parent sidebar

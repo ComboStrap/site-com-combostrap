@@ -43,7 +43,7 @@ To change the grid size, set the following [[docs:app:configuration|configuratio
 === For the geek ===
 The 16 columns stylesheet set:
   *  the xl breakpoint from ''1200px'' to ''1280px''.
-  * the [[docs:theme:slot:container|container]] max width for the xl breakpoint from ''1140px'' to ''1280px''.
+  * the [[docs:theme:element:container|container]] max width for the xl breakpoint from ''1140px'' to ''1280px''.
 See [[docs:styling:breakpoint]]
 </note>
 
