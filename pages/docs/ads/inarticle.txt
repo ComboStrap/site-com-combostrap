@@ -20,14 +20,14 @@ This placement conforms to most of the Ads network rules.
 </note>
 ===== How to enable automatic in-article ads ? =====
 
-==== Enable the Renderer ====
+==== Enable  ====
 
 
-The [[docs:utility:renderer|Combo Renderer]] is responsible to inject the ad in the page.
+By default, in-article ads are not enabled.
 
-You need to [[docs:app:configuration|configure]] it as your renderer.
+You need to set the ''combo-conf-007'' [[:docs:app:configuration|configuration]] to on.
 
-{{docs:block:combo_renderer_setting.png?500|}}
+
 
 
 ==== Exclude the ads page from the index ====

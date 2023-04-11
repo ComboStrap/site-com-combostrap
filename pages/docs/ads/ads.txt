@@ -1,10 +1,14 @@
 ---json
 {
+    "canonical": ":ads",
+    "featured-raster-image": ":docs:ads:undraw_design_objectives_re_94pd.png",
+    "featured-svg-image": ":docs:ads:undraw_design_objectives_re_94pd.svg",
     "page_id": "09z3bzwhz2ptf26pom4s8"
 }
 ---
 ====== ComboStrap - Ads ======
 
+{{ :docs:ads:undraw_design_objectives_re_94pd.png?0x300&ratio=21:9 |}}
 
 ===== About =====
 ''Ads'' is a module that permits to add ''Ads snippet'' (known as ''Ad Unit'') in your website.

@@ -4,11 +4,11 @@
     "page_id": "8a7aj28gfb4dbd4a7wrx7"
 }
 ---
-====== ComboStrap Ads - Ad Page ======
+====== What is an ad Page? ======
 
 
 ===== About =====
-An ''ad page'' is a page that contains the ''ad snippet'' (ie a bit of code that define the ad).
+An ''ad page'' is a page that contains the ''ad snippet'' (ie a bit of code that defines the content of the ''ad'').
 
 You can insert an ''ad page'' (ie an ad) via:
   * a [[ad|ad tag]]

@@ -1,9 +1,10 @@
 ---json
 {
+    "canonical": ":ad",
     "page_id": "jqkpl7m30ja4a3hc2sb1k"
 }
 ---
-====== ComboStrap Ads - Ad Tag ======
+====== How to add an Ad with the ''Ad Tag''? ======
 
 
 ===== About =====
@@ -13,9 +14,9 @@ The ''ad tag'' is a syntax component of the [[ads|ads module]] that will insert 
 ===== Example =====
 
 For instance, if you want to add a ''Ad'' in the top of the [[docs:theme:slot:side_slot|side slot]], you would:
-  * create a [[page|ad page]] called ''sideSlotTop''
-  * and add it in your [[docs:theme:slot:side_slot|side slot]] with the following syntax
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+  * Create a [[page|ad page]] called ''sideSlotTop''
+  * And add it in your [[docs:theme:slot:side_slot|side slot]] with the following syntax
+<webcode >
 <code dw>
 <ad name="sideSlotTop"/>
 </code>
@@ -27,7 +28,7 @@ For instance, if you want to add a ''Ad'' in the top of the [[docs:theme:slot:si
 
 
 <note warning>
-Because the ''ads'' are stored as page, they are by default added to the index.
+Because the ''ads'' are stored as pages, they are by default added to the index.
 
 You need to set a configuration to prevent it. See [[conf]]
 </note>
