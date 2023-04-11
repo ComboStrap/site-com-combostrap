@@ -202,20 +202,20 @@ To insert a link into your page, you can use the [[docs:utility:link_wizard]] in
 ===== Configuration =====
 
 ==== useDokuwikiLinkClassName ====
-[[doku>|Dokuwiki]] sets class names (''wikilink1'',''wikilink2'',''urlextern'',...) on the link to differentiate them. Unfortunately, this class names have styling rules that are in conflict with [[docs:styling:bootstrap|Bootstrap]].
+[[doku>|Dokuwiki]] sets class names (''wikilink1'',''wikilink2'',''urlextern'',...) on the link to differentiate them. Unfortunately, these class names have styling rules that are in conflict with [[:docs:theme:bootstrap|bootstrap]].
 
-To resolve this issue, we have set other class name by link type that a web designer can use to style the links.
+To resolve this issue, we have set other class names by link type that a web designer can use to style the links.
 
-If you wish to get the Dokuwiki class name on your links, you can get them by enabling the [[docs:app:configuration|useDokuwikiLinkClassName configuration]].
+If you wish to get the DokuWiki class name on your links, you can get them by enabling the [[docs:app:configuration|useDokuwikiLinkClassName configuration]].
 
 
 ==== disableLink ====
 If you don't want that ''Combostrap'' changes the default link behavior, you can disable it with the ''disableLink'' [[docs:app:configuration|configuration]].
 
 Note that the link component enhances the [[doku>wiki:syntax#links|link]] syntax.
-  * It allows any content inside. Dokuwiki allows only text and media. If you disable it, you can't style your link or add any icon in it.
+  * It allows any content inside. DokuWiki allows only text and media. If you disable it, you can't style your link or add any icon in it.
   * It allows advanced styling
-  * It applies the [[docs:utility:bootstrap|bootstrap styling by default]]
+  * It applies the [[:docs:theme:bootstrap|bootstrap styling by default]]
 
 ==== previewLink ====
 If you enable this configuration, the [[#preview|preview]] attribute will be set on all internal link.

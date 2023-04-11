@@ -31,7 +31,7 @@ If you want to add space between lines, used the [[docs:block:text|text componen
 A [[docs:block:note|note]] with:
   * ''p-3'': a ''padding''  with a [[docs:styling:scale|scale value of 3]] (blue color)
   * ''m-5'': a ''margin'' with a [[docs:styling:scale|scale value of 5]] (no color)
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="Default">
 <code dw>
 <note spacing="p-3 m-5">
 A note with a padding and a margin
@@ -56,7 +56,7 @@ A [[docs:block:note|note]] with:
       * ''m'': a ''margin'' (no color - transparent)
       * ''s'': at the ''start'' of the line  (ie ''left'' in english)
       * ''-5'' with a [[docs:styling:scale|scale value of 5]]
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="Default">
 <code dw>
 <note spacing="ps-3 ms-5">
 A note with a padding and a margin only at the start of the line (ie ''left'' in english) - not at the right

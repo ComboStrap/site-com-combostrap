@@ -1,0 +1,51 @@
+====== How can I generate a list of pages? ======
+
+
+===== About =====
+This [[howto:howto|howto]] shows you how you can generate a [[:docs:lists:list|list]] of pages with the [[:docs:templating:iterator|iterator components]].
+
+
+
+===== Steps =====
+
+<webcode>
+==== Open your tag iterator component ====
+In your document, begin by opening your tag compeonent:
+<code dw>
+<iterator>
+</code>
+
+==== Select your pages ====
+ 
+Then add your page selection with the [[:docs:templating:sql|page sql]]. 
+
+We select the last 6 pages that have been modified.
+<code dw>
+<data>select from pages order by date_modified desc limit 6</data>
+</code>
+
+==== Define your fragment ====
+
+Then define your fragment as being:
+  * a [[:docs:lists:list|list element]]
+  * with a [[:docs:content:link|link]] created from:
+      * the [[:docs:page:system:path|path]] 
+      * and the [[:docs:page:title|title]] [[:docs:templating:variable|variables]]
+<code dw>
+<fragment>
+  * [[$path|$title]]
+</fragment>
+</code>
+
+==== Close your iterator component and save ====
+
+Write the closing tag and save your page.
+<code dw>
+</iterator>
+</code>
+
+==== The result ====
+
+You obtain this result on this website.
+
+</webcode>

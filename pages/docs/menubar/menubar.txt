@@ -66,7 +66,7 @@ A ''menubar'' is an horizontal [[docs:navigation:navigation|navigational bar]] w
 
 ==== A dark menubar ====
 
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="Default">
 <code dw>
 <menubar theme="dark" background-color="dark" breakpoint="xs">
 <brand title="ComboStrap Home">

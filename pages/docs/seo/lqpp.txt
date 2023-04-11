@@ -46,7 +46,7 @@ This protection is disabled by default. If you want to enable it, you need to ch
 
 
 <note>
-A protection becomes active for a page when [[docs:analytics:process|it was analyzed]].
+A protection becomes active for a page when [[:docs:analytics:replication|it was analyzed]].
 </note>
 ==== Protection Mode ====
 The ''lowQualityProtectionMode'' configuration holds a [[..:quality:protection|protection mode]] value that determines how a [[..:quality:low_quality_page|low quality page]] is protected.
@@ -64,25 +64,25 @@ The possible values are:
 
 
 
-<row>
-<cell text-align="center">
+<grid>
+<box align="text-center">
 === Normal link ===
 {{:docs:seo:lqpp_normal_link.png|}}
-</cell>
-<cell text-align="center">
+</box>
+<box align="text-center">
 === Warning Link ===
 {{:docs:seo:lqpp_warning_link.png|}}
-</cell>
-<cell text-align="center">
+</box>
+<box align="text-center">
 === Login Link ===
 {{:docs:seo:lqpp_login_link.png|}}
-</cell>
-</row>
+</box>
+</grid>
 
 ===== Support =====
-==== The link does not appear as a low quality page protected link ====
+==== The link does not appear as a low-quality page-protected link ====
 
-This module uses the [[docs:analytics:process|analytical process]] that ''cache'' the data by default. If you want to see the links, you should [[docs:analytics:process#cache|clear the cache]].
+This module uses the [[:docs:analytics:replication|analytical process]] that ''caches'' the data by default. If you want to see the links, you should [[:docs:cache:cache|clear the cache]].
 
 ===== Google Guidelines=====
 To know more about thin and generated content, you can refer to the google documentation.

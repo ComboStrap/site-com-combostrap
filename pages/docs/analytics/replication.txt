@@ -17,10 +17,10 @@ The ''database replication process'' is the process that:
 
 
 ===== Sync =====
-Because this is a intensive process, it happens slowly:
+Because this is an intensive process, it happens slowly:
   * for every page visited
   * or for every page that gains or lost backlinks.
-And the output is [[#cache|cached]].
+And the output is [[:docs:cache:cache|cached]].
 
 
 If you want to sync the database completely, you can:

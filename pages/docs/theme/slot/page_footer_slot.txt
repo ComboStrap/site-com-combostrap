@@ -15,7 +15,7 @@ Example: with:
   * inside a [[:docs:layout:component:bar|bar]] to style the background with a [[docs:styling:color#gradient|gradient color]] and a little bit of [[docs:styling:spacing|spacing]]
 
 
-<webcode name="Default" frameborder=0 width=100% renderingMode=story >
+<webcode name="Default">
 <code dw>
 <bar class="p-3" background-color="gradient-light">
 

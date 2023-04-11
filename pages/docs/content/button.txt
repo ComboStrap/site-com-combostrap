@@ -30,7 +30,7 @@ The ''button'' used by default the [[docs:app:color|primary color]] configuratio
 ==== External Link and secondary type ====
 
   * External [[docs:content:link|Link]] and a [[#type|secondary type]]
-<webcode name="Button" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="Button">
 <code dw>
 <btn secondary color="yellow">[[https://combostrap.com/button|Go to this page via an external link]]</btn>
 </code>
@@ -38,7 +38,7 @@ The ''button'' used by default the [[docs:app:color|primary color]] configuratio
 ==== Spacing ====
 
   * With [[docs:styling:spacing|spacing]]
-<webcode name="Button" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="Button">
 <code dw>
 <btn class="p-3">[[:start|Go to ComboStrap]]</btn>
 </code>
@@ -46,7 +46,7 @@ The ''button'' used by default the [[docs:app:color|primary color]] configuratio
 ==== Large button ====
 
   * With the [[#size|size attribute]]
-<webcode name="Button" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="Button">
 <code dw>
 <btn size="large">[[:start|Go to ComboStrap]]</btn>
 </code>
@@ -54,7 +54,7 @@ The ''button'' used by default the [[docs:app:color|primary color]] configuratio
 ==== Colors ====
 
   * With [[docs:styling:color|colors]]
-<webcode name="Button" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="Button">
 <code dw>
 <btn color="black" background-color="teal">[[:start|Go to ComboStrap]]</btn>
 </code>
@@ -108,7 +108,7 @@ A ''button'' can be used:
 
 ==== Type ====
 The type of the button defines its styling:
-<webcode name="ButtonType" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="ButtonType">
 <code dw>
 <btn>Primary (Default)</btn>
 <btn secondary>Secondary</btn>
@@ -135,7 +135,7 @@ The type of the button defines its styling:
 
 
 
-<webcode name="ButtonSize" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="ButtonSize">
 <code dw>
 <btn size="large" >Large</btn>
 <btn >Medium</btn>
@@ -148,7 +148,7 @@ The type of the button defines its styling:
 
 Control the more emphasis of your button by using the [[docs:styling:skin|skin attribute]]
 
-<webcode name="ButtonSize" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="ButtonSize">
 <code dw>
 <btn skin="contained" >Extra High emphasis</btn>
 <btn skin="filled">High emphasis</btn>
@@ -162,7 +162,7 @@ Control the more emphasis of your button by using the [[docs:styling:skin|skin a
 
 All [[docs:styling:styling|styling attribute]] are available but you may want to give more emphasis by adding a big shadow around the [[docs:block:block|box]] with the [[docs:styling:shadow|elevation attribute]]
 
-<webcode name="ButtonSize" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="ButtonSize">
 <code dw>
 <btn shadow="lg" >Large Elevated button</btn>
 </code>
@@ -177,7 +177,7 @@ If you want to center two buttons, you need to wrap them in a [[docs:layout:comp
 
 Example:
 
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="Default">
 <code dw>
 <box align="center" width="fit-content">
     <btn>[[#|Button 1]]</btn> <btn skin="outline">[[#|Button 2]]</btn>

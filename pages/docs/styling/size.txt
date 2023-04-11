@@ -17,7 +17,7 @@ Technically, it sets the ''padding'' (the external zone of a box).
 
 ===== Example: A large button =====
 A large [[docs:content:button|button]]
-<webcode name="Button" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="Button">
 <code dw>
 <btn size="large">[[:start|Go to ComboStrap]]</btn>
 </code>

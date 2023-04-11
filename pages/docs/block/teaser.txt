@@ -20,7 +20,7 @@ Every component with a ''call to action'' could be called a ''teaser''.
 
 ===== Example =====
 
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="Default">
   * Syntax
 <code dw>
 <card width="300px">

@@ -66,18 +66,19 @@ The below properties are protected and cannot be changed:
 
 ==== Internal ====
 
-They allows internally:
+They allow internal:
 
   * [[docs:router:redirection|URL redirection processing]]
   * [[..:page:canonical_automatic|Automatic Canonical]]
   * [[docs:router:permalink|Permalink]]
   * [[docs:quality:lpp|Late Publication Protection]]
-  * [[howto:template|Templating]]
+  * [[:docs:templating:templating|Templating markup]]
   * [[docs:cache:page_expiration_frequency|Page cache expiration]].
   * [[docs:analytics:replication|Database replication]]
+
 ==== External ====
 
-They allows:
+They allow:
       * a better [[docs:seo:seo|SEO]] with:
           * [[..:page:title|title]]
           * [[..:page:description|description]]
@@ -93,6 +94,6 @@ The metadata are also available in the [[docs:analytics:data|analytics data]]
 
 ===== Replication =====
 
-If you want them in your file page, you should enable the [[frontmatter|frontmatter]].
+If you want them on your file page, you should enable the [[frontmatter|frontmatter]].
 
-They will then be taken into account if your move your pages between different ComboStrap server installation.
+They will then be taken into account if your move your pages between different ComboStrap server installations.

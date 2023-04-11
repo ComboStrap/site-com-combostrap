@@ -43,7 +43,7 @@ For a note inside a paragraph, see the [[docs:content:inote|inote component]]
 
 ==== Info ====
 
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="Default">
 <code dw>
 <note>
 <title 4> Informative note </title>
@@ -90,7 +90,7 @@ Too much sport is not good for your health
 
 ==== Style ====
 With the [[docs:styling:style|style attribute]]:
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="Default">
 <code dw>
 <note type="warning" style="width:60%">
 <title 4 > Warning note </title>
@@ -102,7 +102,7 @@ Too little sport is not good for your health
 ==== Horizontal Centering====
 
 With the [[docs:styling:align|align attribute]]
-<webcode name="Default" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="Default">
 <code dw>
 <note type="info" align="center" width="200px">
 ===== Info note =====
@@ -114,7 +114,7 @@ Too much sport is not good for your health
 ===== Inline =====
 If you want to have a inline note, use a [[docs:content:inote|inote]] instead.
 
-<webcode name="InlineNote" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="InlineNote">
 <code dw>
 When you go to this castel takes the round about <inote tip>Don't forget to enjoy the view !</inote>
 </code>

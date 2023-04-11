@@ -15,16 +15,14 @@
 
 ===== Usage =====
 
-It's the default value for the [[..:page:title|title]] and can be used in [[howto:template|template]].
+It's the default value for the [[..:page:title|title]] and can be used as [[:docs:templating:variable|variable]].
 
 
 For instance:
-<webcode name="Default" frameborder="0">
-  * The template
+<webcode>
+  * The fragment
 <code dw>
-<template>
 The ''h1'' for this page is: ''$h1''
-</template>
 </code>
   * Result:
 </webcode>

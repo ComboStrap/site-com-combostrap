@@ -13,9 +13,7 @@ There  are two type of classic list:
 ===== Syntax =====
 The list syntax expects you to put each item in a single line.
 
-<note>
-If you want a more complex list, you can use the [[docs:lists:content-list|content-list component]]
-</note>
+
 
 ==== Unordered ====
 
@@ -59,3 +57,7 @@ Demo:
 </code>
 **Output:**
 </webcode>
+
+===== How can I generate a list of pages? =====
+
+Check this page: [[:howto:iterator-list]].

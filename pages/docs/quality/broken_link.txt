@@ -24,13 +24,14 @@ You can [[dynamic_monitoring|monitor them]] and you can even [[#list|list them]]
 ===== List =====
 You can [[docs:analytics:query|query the database]] against the [[docs:analytics:statistics|page statistics data]] with the below Analytics SQL to list the page with broken links and their count along with the [[docs:page:system:path|path of the page]]
 <code sql>
-select
-	path,
-	json_extract(analytics, '$.statistics.internal_broken_links_count') as broken_link,
-	json_extract(analytics, '$.statistics.media.internal_broken_count') as broken_media
-from
-	pages
-where
-	json_extract(analytics, '$.statistics.internal_broken_links_count') is not null
-	or json_extract(analytics, '$.statistics.media.internal_broken_count') != 0
+with validPages as (select path, analytics
+                     from pages
+                     where json_valid(analytics) = 1)
+select path,
+       json_extract(analytics, '$.statistics.internal_broken_link_count') as broken_link,
+       json_extract(analytics, '$.statistics.media.internal_broken_count') as broken_media
+from validPages
+where json_extract(analytics, '$.statistics.internal_broken_link_count') is not null
+   or json_extract(analytics, '$.statistics.media.internal_broken_count') != 0
+
 </code>

@@ -35,7 +35,7 @@ It doesn't render and is used to create [[kb>unit:test|unit tests]] in documenta
 ===== Example =====
 ==== Default ====
 
-<webcode name="Render" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="Render">
 <code dw>
 <unit>
     <file txt nico.txt>
@@ -59,7 +59,7 @@ The unit node may got the ''display="none"'' property to not display the whole b
 
 The below code should not render.
 
-<webcode name="No render" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="No render">
 <code dw>
 <unit display="none">
     <file>

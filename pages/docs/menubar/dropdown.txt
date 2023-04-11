@@ -14,7 +14,7 @@ This component accepts as entry a series of link. If the linked page does not ex
 ===== Example =====
 
   * Markup:
-<webcode name="dropdown" frameborder=0 width=100% scrolling=yes externalResources="," renderingMode=story >
+<webcode name="dropdown">
 <code dw>
 <menubar>
     <group>

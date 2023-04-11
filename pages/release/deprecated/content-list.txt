@@ -72,7 +72,7 @@ This example shows a ''content-list'' component with an:
 
 ==== Complex List  ====
 
-If you want to create more complex list of content, you can a combination of [[:docs:layout:component:row|row]] and [[docs:layout:component:box|boxes]]
+If you want to create more complex list of content, you can a combination of [[:docs:layout:component:grid|row]] and [[docs:layout:component:box|boxes]]
 <webcode name="media-list" >
 <code dw>
 <content-list width="500px">
