@@ -1,6 +1,8 @@
 ---json
 {
-    "page_id": "yvrmmu2djwquczyqpykuo"
+    "canonical": ":menubar",
+    "page_id": "yvrmmu2djwquczyqpykuo",
+    "template": "holy"
 }
 ---
 
@@ -14,7 +16,7 @@ A ''menubar'' is an horizontal [[docs:navigation:navigation|navigational bar]] w
 
 ===== Example =====
 
-==== A menubar with two dropdown menu and the search box at the right ====
+==== A menubar with two dropdown menus and the search box at the right ====
 
 <webcode name="MenubarDropDownSearchBox" frameborder=0>
 
@@ -96,7 +98,7 @@ where:
 | ''breakpoint'' | ''xl'' | [[docs:styling:breakpoint|breakpoint code]] (''xs'','''sm'', ''md'', ''lg'' , ''xl'')  | Define the width of the screen when the menu bar will [[:docs:menubar:collapse|collapse]] |
 | ''position'' | ''normal'' | [[docs:menubar:fixed-top|top]] | Position of the bar (''bottom'' is not yet supported) |
 | ''theme'' | ''light'' | ''light'' (default) or ''dark'' | It defines the luminance of the text |
-| ''container'' | [[docs:theme:slot:container#defaultLayoutContainer|default layout container value]] | A [[docs:theme:slot:container|container type ]] value | It defines the horizontal layout |
+| ''container'' | [[:docs:theme:element:container|default layout container value]] | A [[:docs:theme:element:container|container type]] value | It defines the horizontal layout |
 | [[docs:styling:color|background-color]] | ''light'' | any [[:docs:styling:color|color]] | The background color |
 
 Inside a ''menu'' component, you can add:

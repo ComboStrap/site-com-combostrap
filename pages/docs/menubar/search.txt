@@ -27,7 +27,7 @@ The search component has:
 ==== Page List Suggestion ====
 
 When typing in the box, an auto-completion feature will show a list of pages that match the search term against the following metadata:
-  * the [[docs:page:path|path]]
+  * the [[:docs:page:system:path|path]]
   * the [[docs:page:name|name]]
   * the [[docs:page:title|title]]
   * the [[docs:page:h1|heading 1]]
@@ -53,7 +53,7 @@ searchterm*
 <code>
 *searchterm*
 </code>
-  * Search only in specific [[docs:page:namespace|namespace]] 
+  * Search only in specific [[:docs:page:system:namespace|namespace]]
 <code>
 *searchterm* @mynamespace
 </code>
@@ -68,7 +68,7 @@ searchterm*
 <webcode name="Default">
 <code dw>
 <menubar>
-<search>
+<search/>
 </menubar>
 </code>
 

@@ -46,7 +46,7 @@ where:
   * ''title'' is the title of the box
   * ''exclude'' is an attribute with a regular expression pattern that permits to exclude metadata from rendering.
 
-Output without the [[docs:navigation:toc|table of contents]] and the ''user'' properties
+Output without the [[:docs:theme:element:toc|table of contents]] and the ''user'' properties
 </webcode>
 
 ===== Configuration =====
@@ -54,7 +54,7 @@ Output without the [[docs:navigation:toc|table of contents]] and the ''user'' pr
 ==== metadataViewerDefaultAttributes ====
 This [[docs:app:configuration|configuration]] set the default attributes of all metadata box.
 
-By default, the value filters the [[docs:navigation:toc|table of contents]].
+By default, the value filters the [[:docs:theme:element:toc|table of contents]].
 <code html>
 title="Metadata" exclude="tableofcontents"
 </code>

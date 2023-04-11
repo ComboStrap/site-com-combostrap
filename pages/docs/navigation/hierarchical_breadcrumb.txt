@@ -8,11 +8,11 @@
 
 
 ===== About =====
-A ''Hierarchical Breadcrumb'' is a [[docs:navigation:breadcrumb|breadcrumb]] that shows where the page is located in the [[:docs:page:system|page system tree]] in hierarchical order.
+A ''Hierarchical Breadcrumb'' is a [[docs:navigation:breadcrumb|breadcrumb]] that shows where the page is located in the [[:docs:page:system:system|page system tree]] in hierarchical order.
 
 
-Combostrap offers two type of hierarchical breadcrumb:
-  * ''navigation'': the full breadcrumb that should appear once in a page
+Combostrap offers two types of hierarchical breadcrumbs:
+  * ''navigation'': the full breadcrumb that should appear once on a page
   * ''typographical'': a text that can be used in a [[:docs:templating:iterator|iterator fragment]] to show the page categories 
 
 ===== Type =====
@@ -20,12 +20,12 @@ Combostrap offers two type of hierarchical breadcrumb:
 ==== Navigation ====
 
 A navigational hierarchical breadcrumb:
-  * is a [[docs:navigation:navigation|navigational component]] that reflects the hierarchy of the URL to the [[:docs:app:home|website home page]]
-  * gives the reader  the possibility to navigate to the parent (ie up to the [[docs:app:home|website home page]])
+  * is a [[docs:navigation:navigation|navigational component]] that reflects the hierarchy of the URL to the [[:docs:page:system:home|website home page]]
+  * gives the reader  the possibility to navigate to the parent (ie up to the [[:docs:page:system:home|website home page]])
   * helps the reader to find their place within a website or web application.
 
 
-Illustration: Breadcrumbs are often placed horizontally [[:slot_main_header|before a page's main content (in the main header)]].
+Illustration: Breadcrumbs are often placed horizontally [[:docs:theme:element:main-header|before a page's main content (in the main header)]].
 You will find it on this page at this location:
 
 {{docs:block:combostrap_hierarchical_breadcrumb.png?shadow=lg|}}
@@ -44,9 +44,9 @@ The output for this page is:
 
 ==== Typography ====
 
-A typographical hierarchical breadcrumb permits to print the parents pages as text.
+A typographical hierarchical breadcrumb permits to print the parent's pages as text.
 
-This breadcrumb type can be used in a [[:docs:templating:iterator|iterator fragment]] to print the page category as subtitle.
+This breadcrumb type can be used in a [[:docs:templating:iterator|iterator fragment]] to print the page category as a subtitle.
 
 The ''depth'' attribute represents the number of levels that should be printed backward
 
@@ -56,18 +56,18 @@ Depth of 1 will print the parent page
   * Markup
 <webcode name="Default" frameborder="0">
 <code dw>
-<ibreadcrumb depth=1 color="muted"/>
+<breadcrumb typo depth=1 color="muted"/>
 </code>
   * Output
 </webcode>
 
 <hr/>
 
-Depth of 2 will print the parent and grand parent page
+Depth of 2 will print the parent and grandparent page
   * Markup
 <webcode name="Default" frameborder="0">
 <code dw>
-<ibreadcrumb depth=2 color="muted"/>
+<breadcrumb typo depth=2 color="muted"/>
 </code>
   * Output:
 </webcode>
