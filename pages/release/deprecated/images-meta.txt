@@ -18,13 +18,15 @@ The ''images'' metadata has been replaced by:
   * [[:docs:page:featured-image|featured image]]
   * [[:docs:social:twitter|twitter image]]
   * [[:docs:social:facebook|facebook image]]
+  * [[:docs:page:featured-icon|featured icon]]
 
 
 ===== Why? =====
   * It was too complicated for the user to get a grasp of which image would be used for which usage.
   * It was not possible to see the default usage value.
 
-The first idea was to be able to upload a bunch of image with different ratio and to choose the best but it's not following the ''kiss'' principle.
+The first idea was to be able to upload a bunch of images with different ratios and to choose the best but it's not following the ''kiss'' principle.
+The development direction is to upload one image and to be able to transform it as wanted.
 
 
 ===== Old documentation =====
@@ -39,7 +41,7 @@ The first idea was to be able to upload a bunch of image with different ratio an
 ==== Page Image ====
 
 The image can be rendered with the [[docs:content:page-image|page-image component]] in:
-      * a [[:slot_main_header|main content header]]
+      * a [[:docs:theme:slot:main_header_slot|main content header]]
       * or [[:docs:templating:iterator|iterator]]
 
 Example for this page:

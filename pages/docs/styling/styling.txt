@@ -22,18 +22,17 @@
 
 ==== Bootstrap Stylesheet ====
 
-''ComboStrap'' is based on ''Bootstrap'' and comes with pre-packaged stylesheets. You can even create and install your own bootstrap stylesheet.
+''ComboStrap'' is based on ''Bootstrap'' and comes with pre-packaged stylesheets. 
+You can even create and install your own bootstrap stylesheet.
 
 
 <btn>
-[[stylesheet]]
+[[:docs:theme:bootstrap|Bootstrap]]
 </btn>
 
-==== User Stylesheet ====
+==== Theme ====
 
-This functionality gives the possibility to the web designer to create their own CSS rules in a custom stylesheet in order to tune the theme exactly to their needs.
-
-More see [[release:deprecated:userstyle]]
+This functionality gives the possibility to the web designer to [[:docs:theme:theme|create their own theme]] and to customize every possible [[:docs:theme:template:template|layout template]].
 ==== Attributes ====
 
 === Standard  ===
@@ -68,7 +67,7 @@ Every component is a [[docs:marki|html superset]] and you can therefore use the 
   * and [[style|style]]
 for advanced styling.
 
-You can also create your own rule in the [[release:deprecated:userstyle|userstyle.css stylesheet]] if you have CSS knowledge.
+
 
 
 

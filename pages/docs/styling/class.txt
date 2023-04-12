@@ -9,9 +9,9 @@
 ===== About =====
 Because all [[docs:component|ComboStrap UI component]] are implemented as [[..:marki|super set HTML element]], you can apply the ''class attributes''.
 
-The ''class'' attribute is used intensively by [[docs:utility:bootstrap|Bootstrap]] to apply the [[https://getbootstrap.com/docs/4.0/utilities/|Bootstrap Utilities]].
+The ''class'' attribute is used intensively by [[:docs:theme:bootstrap|Bootstrap]] to apply the [[https://getbootstrap.com/docs/5.2/layout/utilities/|Bootstrap Layout Utilities]].
 
-''ComboStrap'' already implements most of this utilities through the [[styling#standard attributes|standard attributes]] but in the case that you need something really advanced, you can always take the control over and apply them.
+''ComboStrap'' already implements most of these utilities through the [[styling#standard attributes|standard attributes]] but in the case that you need something really advanced, you can always take control over and apply them.
 
 
 ===== Example =====
@@ -36,8 +36,8 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 </webcode>
 
 ===== Generated =====
-To be able to style as you wish, combostrap add a [[userstyle#class|generated class]] for each element of a component.
+To be able to style as you wish, Combostrap adds a [[:docs:theme:component-stylesheet|generated class]] for each element of a component.
 
-More ? See [[docs:styling:userstyle]]
+More ? See [[:docs:theme:component-stylesheet|component stylesheet in theming]]
 
 

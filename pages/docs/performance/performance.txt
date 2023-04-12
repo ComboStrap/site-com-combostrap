@@ -26,11 +26,11 @@ Below is a run of the home page of this website with the [[https://developers.go
 
 === Critical Path ===
 
-All [[docs:styling:stylesheet|published stylesheet (bootstrap and bootswatch)]] are served by defaut from a [[docs:performance:cdn|CDN]]
+All [[:howto:stylesheet-bootstrap|published stylesheet (bootstrap and bootswatch)]] are served by default from a [[docs:performance:cdn|CDN]]
 
-If you are using only ComboStrap, you can even disable the Dokuwiki Stylesheet for public user with the [[docs:performance:frontend_optimization#disableDokuwikiStylesheet|disableDokuwikiStylesheet configuration]]
+If you are using only ComboStrap, you can even disable the DokuWiki Stylesheet for a public user with the [[docs:performance:frontend_optimization#disableDokuwikiStylesheet|disableDokuwikiStylesheet configuration]]
 
-The size of a web page served to the public (user not logged in) can be optimized with the [[docs:performance:frontend_optimization|CSS optimization module]]
+The size of a web page served to the public (user not logged in) can be optimized with the [[docs:performance:frontend_optimization|CSS optimization module]].
 
 === Stylesheet Preload ===
 We preload stylesheet that are non critical for rendering. For instance, the stylesheet used for [[docs:animation:animation|animation]] are preloaded and added to the page at the end.

@@ -9,7 +9,7 @@
 
 
 ===== About =====
-This article shows you how to create and install your own custom [[docs:styling:stylesheet|Bootstrap Stylesheet (theme)]] to fit your [[docs:styling:styling|styling]] needs.
+This article shows you how to create and install your own custom [[:docs:theme:bootstrap|Bootstrap Stylesheet]] to fit your [[docs:styling:styling|styling]] needs.
 
 <note info>
   * This article was written for Bootstrap 4 but the steps should be relatively the same for Bootstrap 5
@@ -17,13 +17,13 @@ This article shows you how to create and install your own custom [[docs:styling:
 </note>
 
 <note tip>
-If you want to modify the styling once, you can also do it via [[docs:styling:styling#attributes|attributes]]
+  * If you want to modify the styling once, you can also do it via [[docs:styling:styling#attributes|attributes]]
+  * You can also customize since Bootstrap 5, the style via [[:docs:theme:css-variable|css variable]]
 </note>
 
 
 
 ===== Prerequisites =====
-  * [[release:deprecated:strap|Strap template]]
   * Install [[https://nodejs.org/en/download/|Node]]
   * Insatll [[https://git-scm.com/downloads|Git]]
 
@@ -123,37 +123,37 @@ sha384-6YMUsimvBMWMU6VPmQwCKP28RrKPSaSaD48Hfabk1yxb5zQZ21XDRL/vljin9SZ3
 ==== Install your new stylesheet ====
 
 To install your new stylesheet, you need to:
-  * copy the [[#Grab the stylesheet|custom style sheet and its map file]] to the bootstrap folder of ''strap''
+  * copy the [[#Grab the stylesheet|custom style sheet and its map file]] to the bootstrap folder
   * [[#define the custom stylesheet|define it]]
   * and [[#change the bootstrapStylesheet configuration]]
 
 === Copy the custom style sheet ===
 
-The bootstrap folder of strap are organised by ''bootstrap versions''
+The bootstrap folders are organised by ''bootstrap versions''
 
 <file>
-dokuwiki/lib/tpl/strap/bootstrap/${version}
+dokuwiki/lib/combo/resources/library/bootstrap/${version}
 </file>
 
 Example:
-  * ''dokuwiki/lib/tpl/strap/bootstrap/4.5.0'' for the version ''4.5.0''
-  * ''dokuwiki/lib/tpl/strap/bootstrap/4.4.1'' for the version ''4.4.1''
+  * ''dokuwiki/lib/combo/resources/library/bootstrap/4.5.0'' for the version ''4.5.0''
+  * ''dokuwiki/lib/combo/resources/library/bootstrap/4.4.1'' for the version ''4.4.1''
 
-[[#Grab the stylesheet|Take the custom stylesheet ''bootstrap.min.cs'' created]] an copy it to the ''strap'' bootstrap folder. In this example in ''dokuwiki/lib/tpl/strap/bootstrap/4.5.0''
+[[#Grab the stylesheet|Take the custom stylesheet ''bootstrap.min.cs'' created]] an copy it to the bootstrap folder. In this example in ''dokuwiki/lib/combo/resources/library/bootstrap/4.5.0''
 
 === Define the custom stylesheet ===
 
-''strap'' uses a json file system to manage the stylesheet available.
+''combo'' uses a json file system to manage the stylesheet available.
 
-  * create the file ''bootstrapLocalCss.json'' in the bootstrap folder of Strap. <inote tip>You can also copy the ''bootstrapCustomCss.json''</inote>
+  * Create the file ''bootstrapLocalCss.json'' in the bootstrap folder. <inote tip>You can also copy the ''bootstrapCustomCss.json''</inote>
 
 <note important>
-The ''bootstrapLocalCss.json'' is a file that is not part of the strap distribution and will not be overwritten between upgrade. This is why you need to create a new file. It would have possible to modify the file  ''bootstrapCustomCss.json'' but as this file is overwritten for each upgrade, you would have lose your custom configuration
+The ''bootstrapLocalCss.json'' is a file that is not part of the strap distribution and will not be overwritten between upgrade. This is why you need to create a new file. It would have been possible to modify the file  ''bootstrapCustomCss.json'' but as this file is overwritten for each upgrade, you would have lost your custom configuration
 </note>
 
 Example:
 
-<code javascript dokuwiki/lib/tpl/strap/bootstrap/bootstrapbootstrapLocalCss.json>
+<code javascript dokuwiki/lib/combo/resources/library/bootstrap/bootstrapLocalCss.json>
 {
     "4.5.0": {
         "my-custom-bootstrap": {
@@ -164,8 +164,8 @@ Example:
 }
 </code>
 
-=== change the bootstrapStylesheet configuration ===
-The last step is to change the [[docs:theme:bootstrap#bootstrapStylesheet]] configuration.
+=== Change the bootstrapStylesheet configuration ===
+The last step is to [[:howto:stylesheet-bootstrap|change the stylesheet configuration]].
 
 
 ===== Documentation =====
