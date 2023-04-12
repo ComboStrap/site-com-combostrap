@@ -1,9 +1,11 @@
 ---json
 {
+    "canonical": ":performance",
     "description": "This article explains the secret sauce of the ComboStrap performance and what you should avoid in order to not degrade it.",
-    "layout": "median",
+    "lead": "Bring your users the best experience",
     "page_id": "7eywsucy734a11mcyhuav",
-    "title": "What makes the ComboStrap performance so fast"
+    "template": "medium",
+    "title": "What makes the ComboStrap performance so fast?"
 }
 ---
 ====== ComboStrap - Perfomance ======
@@ -38,7 +40,7 @@ We preload stylesheet that are non critical for rendering. For instance, the sty
 All Javascript file are served from a [[docs:performance:cdn|CDN]] and are deferred (loaded at the end) because they are not needed for the first rendering.
 
 
-If you only depend on the ''ComboStrap'' plugins, you can even [[docs:performance:frontend_optimization#javascriptdisable_backend|disable the backend javascript]].
+If you only depend on the ''ComboStrap'' plugins, you can even [[docs:performance:frontend_optimization#javascriptdisable_backend|disable the backend javascript for public pages]].
 
 
 
@@ -53,9 +55,22 @@ For more information, see the page: [[..:cache:cache]]
 We follow the [[https://developers.google.com/search/docs/advanced/guidelines/google-images|Google best practices on image]]
 === Lazy load ===
 
-All [[docs:content:image|images]] are [[docs:performance:lazy|lazy loaded]] by default. It means that they are loaded only when:
+All [[docs:content:image|images]] are [[docs:performance:lazy|lazy loaded]] if possible.
+
+Lazy loaded means that they are loaded only when:
   * they are on the screen
-  * they are going to enter in the screen.
+  * they are going to enter on the screen.
+
+=== Above the fold images ===
+
+We don't lazy load images in the [[:docs:theme:slot:main_header_slot|main header]] because they are directly visible to the user. 
+The user does not need to scroll to see them. The official term is ''Above-the-fold'' image.
+
+If these images are lazily loaded, they delay the ''largest contentful paint'' performance metrics.
+
+If you put ''Above-the-fold'' image, the writer should set the [[:docs:performance:lazy|lazy attribute]] to ''none''.
+
+
 
 === Automatic Responsive Sizing ===
 

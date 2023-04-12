@@ -8,7 +8,7 @@
     "title": "How to use the image tag in ComboStrap"
 }
 ---
-====== ComboStrap UI - Image Link ======
+====== Image Link ======
 
 ===== About =====
 ''image'' is a [[docs:content:content|inline component]] that permits to show [[docs:content:raster|raster]] or [[docs:content:svg|svg]] images from your media library in your pages.
@@ -52,6 +52,7 @@ where:
   * ''ratio'' is the image ratio (''21:9'', ''16:9'', ''4:3'', ''1:1'' or any other custom ratio).
   * ''[ ]'' are optional spaces that indicates the alignement of the image (left, center, or right [[docs:styling:float|float]])
   * ''nolink'' will not add a [[#imagedefaultlinking|link to the image itself]].
+  * ''lazy=(none|html|lozad)'' controls the [[:docs:performance:lazy|lazy method]]
   * ''att=value'' is one or more [[docs:styling:styling|styling attributes]]
 
 
@@ -168,10 +169,10 @@ For instance, to elevate this photography with a surfer, you could use this synt
 You can also use the image as [[docs:styling:background|background]].
 <webcode name="Default" frameborder="0">
 <code dw>
-<slide color="steelblue" text-align="center" >
+<slide color="steelblue" align="text-center" >
    <background opacity="0.3">{{:docs:block:stock_image_surfer_in_the_see.png|}}</background>
     <heading d2>A background image</heading>
-    <text lead font-size="h3">A background image will emphase a short message.</text>
+    <text lead font-size="h3">A background image will emphasise a short message.</text>
 </slide>
 </code>
 </webcode>
