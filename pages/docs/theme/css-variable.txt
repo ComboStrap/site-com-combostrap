@@ -13,7 +13,7 @@ You can set CSS variables:
 
 If you want to customize [[#bootstrap_css_variables|Bootstrap CSS Variables]] or add your own, they are in the [[howto:theme-creation#what_are_partials|partial]] ''head-partials.hbs''.
 
-Combostap uses them when you change the [[:docs:app:color|branding colors]].
+Combostap uses them when you change the [[docs:theme:branding-colors|branding colors]].
 
 Example:
 <code handlebars>

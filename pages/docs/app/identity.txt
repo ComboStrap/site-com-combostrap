@@ -27,7 +27,7 @@ You can customize the layout by customizing the [[:docs:theme:template:app|app t
 
 
   * The [[howto:getting_started:6_favicon|logo installed]] will render on the page.
-  * The [[:docs:app:color|branding colors]] are also applied
+  * The [[docs:theme:branding-colors|branding colors]] are also applied
 
 
 ===== Forms =====

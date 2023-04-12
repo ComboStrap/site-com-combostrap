@@ -21,7 +21,7 @@ The main information is that this release brings:
   * a [[docs:layout:component:carrousel|carrousel layout]] (with image gallery)
   * [[docs:utility:lightbox|a image Lightbox]]
   * [[docs:social:share|social share]] and [[docs:social:follow|follow buttons]]
-  * [[docs:app:color|branding colors (primary, secondary)]]
+  * [[docs:theme:branding-colors|branding colors (primary, secondary)]]
   * and much more...
 ===== Actions =====
 
@@ -41,12 +41,12 @@ This are the actions that you need to take:
   * Added a lot of [[docs:content:icon#library|Icon Libraries]] from elegant theme, IconScout, Iconoir, Core Ui Brand, ... to eva icons 
   * You can now add more than [[docs:social:share|Share Buttons]] for instance in the [[docs:theme:element:page-footer|footer slot]]
   * We have added a [[support:preserve|preserve]] attribute to overwrite the [[docs:performance:svg_optimization|default svg optimization]] on style. More ... see [[support:preserve]]
-  * You can now set your [[docs:app:color|branding colors (primary and secondary)]] that brings a more cohesive styling on all solid component (filled)
-  * The [[docs:content:icon|icon]] is now [[docs:app:color|branding color aware]]. It will take by default the color:
-      * the [[docs:app:color|primary color]] if the width is bigger than 36 pixel
-      * the [[docs:app:color|secondary color]] otherwise.
+  * You can now set your [[docs:theme:branding-colors|branding colors (primary and secondary)]] that brings a more cohesive styling on all solid component (filled)
+  * The [[docs:content:icon|icon]] is now [[docs:theme:branding-colors|branding color aware]]. It will take by default the color:
+      * the [[docs:theme:branding-colors|primary color]] if the width is bigger than 36 pixel
+      * the [[docs:theme:branding-colors|secondary color]] otherwise.
   * do page style. The admin and media manager got their style from the snippet manager. (Tabs were styled, bullet were deleted, icon got the primary value)
-  * The [[docs:app:color|branding color]] are now inherited by default.
+  * The [[docs:theme:branding-colors|branding color]] are now inherited by default.
   * Added the edit button for the slots and styled them.
   * New: the [[docs:cache:viewer|Cache viewer]] permits to see cache information of the slots.
   * New: [[docs:utility:lightbox|lightbox]]. When clicking on a image by default, a lightbox is showing up.
@@ -56,8 +56,8 @@ This are the actions that you need to take:
 
 
 ==== Change ====
-  * The default color of [[docs:content:icon|icon]], [[docs:content:button|button]] is the [[docs:app:color|primary branding color]]
-  * The primary and secondary color of bootstrap are overwritten by the [[docs:app:color|branding colors]] if set up.
+  * The default color of [[docs:content:icon|icon]], [[docs:content:button|button]] is the [[docs:theme:branding-colors|primary branding color]]
+  * The primary and secondary color of bootstrap are overwritten by the [[docs:theme:branding-colors|branding colors]] if set up.
   * The default ratio for a [[docs:block:card|card image]] is now ''16:9''.
   * The dokuwiki configuration ''useHeading'' is no more taken into account. See [[support:useheading|the dedicated support page]]
 ==== Improvement ====
@@ -69,7 +69,7 @@ This are the actions that you need to take:
   * The [[docs:menubar:brand|brand component]] has been improved and supports all brand icon included the brand of the actual app. It can be seen as a super interwiki that follows the branding.
   * The [[docs:app:manifest|manifest]] got:
       * an automatic test 
-      * the [[docs:app:color|primary branding color]]
+      * the [[docs:theme:branding-colors|primary branding color]]
       * an [[https://developer.chrome.com/blog/pwa-manifest-id/|id]] (now required)
       * ''any'' sizes on svg to bug fix the value set by dokuwiki (17x17, 512x512)
   * The svg illustration were shrinking on a table with the css property ''width: auto !important;'': we have added the width attribute in this case.

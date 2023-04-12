@@ -24,7 +24,7 @@ A theme is composed of:
 
 You can apply:
   * a [[docs:theme:bootstrap|bootstrap stylesheet]] or create [[howto:bootstrap-custom|create and add your own]].
-  * and [[:docs:app:color|branding colors (primary/secondary)]]
+  * and [[docs:theme:branding-colors|branding colors (primary/secondary)]]
 
 ===== Features =====
 
