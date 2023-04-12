@@ -43,7 +43,7 @@ Check the below changes to know more about all of them:
   * New Page Metadata - the [[release:deprecated:images-meta|page of an image]] used in card social illustration.
   * Improved: the [[docs:metadata:frontmatter|frontmatter]] creates a link to debug quickly the json if there is any errors.
   * New: You can advertise your organization by creating an [[docs:type:organization|organization page]].
-  * New: [[docs:social:google|Google Rich Result]] aware. The below ''rich results'' are created automatically if you set the [[docs:semantic:type|type]] of page.
+  * New: [[docs:social:google|Google Rich Result]] aware. The below ''rich results'' are created automatically if you set the [[:docs:type:type|page type]].
       * [[docs:type:website|Search Box]],
       * [[docs:type:organization|Logo (Organization)]]
       * [[docs:type:article|Article Card]]

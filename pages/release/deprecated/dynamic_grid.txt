@@ -32,7 +32,7 @@ The default grid system of [[docs:theme:bootstrap|bootstrap]] is based on ''12 c
 
 To change the grid size, set the following [[docs:app:configuration|configuration]]:
   * The ''gridColumns'' number to ''16''.
-  * The [[docs:styling:stylesheet|Stylesheet]] to ''bootstrap.16col.min.css''
+  * The [[:howto:stylesheet-bootstrap|Stylesheet]] to ''bootstrap.16col.min.css''
 
 <note important>
 === Be careful ===

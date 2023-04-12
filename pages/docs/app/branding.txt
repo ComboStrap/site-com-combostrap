@@ -17,6 +17,6 @@ Through color palette and graphic design, your are passing a message of meaning,
 
 ComboStrap supports the following ''branding'' component:
   * your [[logo|logo]]
-  * your [[color|primary and secondary colors]] and its inheritance feature.
+  * your [[..:theme:branding-colors|primary and secondary colors]] and its inheritance feature.
 
 

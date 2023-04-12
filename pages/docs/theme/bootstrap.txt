@@ -29,18 +29,18 @@ Check the [[docs:styling:class|class article]] to know more about it.
 
 ''ComboStrap'' comes with the standard Bootstrap stylesheet and several custom one. You can even create and install a custom one for your need.
 
-See [[docs:styling:stylesheet]]
+See [[:howto:stylesheet-bootstrap|stylesheet bootstrap]]
 ===== Configuration =====
 ==== version and stylesheet====
 
-You may change the BootStrap ''version'' and a corresponding [[docs:styling:stylesheet|stylesheet]] with the ''bootstrapVersionStylesheet'' [[docs:app:configuration|configuration]]
+You may change the BootStrap ''version'' and a corresponding See [[:howto:stylesheet-bootstrap|stylesheet]] with the ''bootstrapVersionStylesheet'' [[docs:app:configuration|configuration]]
 
 {{:strap:bootstrapversionstylesheet.png|}}
 
-Actually, there is three Bootstrap versions supported:
+Actually, there are three Bootstrap versions supported:
   * the ''5.0.1'' (See more info on the [[release:archive:1.13_bootstrap5|bootstrap 5 migration page]])
   * the ''4.5.0''
   * the ''4.4.1''
 
 
-After the version, you will find the [[docs:styling:stylesheet|stylesheet name]].
+After the version, you will find the [[:howto:stylesheet-bootstrap|stylesheet name]].

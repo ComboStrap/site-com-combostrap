@@ -48,7 +48,7 @@ The left and right spacing utility have been renamed to support text direction.
 
 ==== Theme ====
 <note>
-The below change is only valid for the default bootstrap theme, not for [[docs:styling:stylesheet|third theme stylesheet such as bootswatch]]
+The below change is only valid for the default bootstrap theme, not for [[:howto:stylesheet-bootstrap|third theme stylesheet such as bootswatch]]
 </note>
 
 The [[https://getbootstrap.com/docs/5.0/migration/#color-system|colors have changed]] in the default Bootstrap them to add more contrast. Unfortunately, it means that the default colors are more bright.

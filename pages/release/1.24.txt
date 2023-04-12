@@ -27,7 +27,7 @@ The main information is that this release brings:
 
 This are the actions that you need to take:
   * Follows the [[update|update steps]]
-  * Optional: The old [[release:deprecated:hierarchical_breadcrumb|renderer hierachical breadcrumb]] has been deleted. If you want to have a hierarchical breadcrumb, you should add the new [[docs:navigation:hierarchical_breadcrumb|hierarchical breadcrumb component]] in the new [[:slot_main_header|slot main header]]
+  * Optional: The old [[release:deprecated:hierarchical_breadcrumb|renderer hierachical breadcrumb]] has been deleted. If you want to have a hierarchical breadcrumb, you should add the new [[docs:navigation:hierarchical_breadcrumb|hierarchical breadcrumb component]] in the new [[:docs:theme:slot:main_header_slot|slot main header]]
 
 
 ===== List =====

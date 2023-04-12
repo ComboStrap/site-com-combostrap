@@ -13,7 +13,7 @@ The [[..:release|release]] ''1.13'' was focus on the creation of ''landing page'
 
 
 <note important>
-Due to [[release:archive:1.13_bootstrap5|introduction of Bootstrap 5 in this release]], a configuration update is require. As the bootstrap version and the stylesheet are now in the same [[docs:theme:bootstrap#configuration|configuration]], you need after the update to set it back to your [[docs:styling:stylesheet|preferred stylesheet]] back.
+Due to [[release:archive:1.13_bootstrap5|introduction of Bootstrap 5 in this release]], a configuration update is require. As the bootstrap version and the stylesheet are now in the same [[docs:theme:bootstrap#configuration|configuration]], you need after the update to set it back to your [[:howto:stylesheet-bootstrap|preferred stylesheet]] back.
 
 
 {{:strap:bootstrapversionstylesheet.png|}}
@@ -41,7 +41,7 @@ New: [[release:archive:1.13_bootstrap5|Bootstrap 5]] is now the default. Read mo
 
 ==== Styling / Theme ====
   * New: [[docs:styling:shadow|Elevation]] is also now known as the [[docs:styling:shadow|shadow attribute]] and has gain 2 levels.
-  * New: The [[docs:styling:stylesheet|Bootswatch stylesheet]] are now also served from the CDN (by default)
+  * New: The [[:howto:stylesheet-bootstrap|Bootswatch stylesheet]] are now also served from the CDN (by default)
   * New: The [[docs:lists:table|table]] component does not take 100% width to reduce the visual space and allow floating element to the right.
   * New: [[docs:styling:float|float]] - the float styling attribute has been added.
   * New: added [[release:deprecated:userstyle|styling class]] to all component. It permits to take over the whole styling and create its own via the [[release:deprecated:userstyle|userstyle stylesheet]].

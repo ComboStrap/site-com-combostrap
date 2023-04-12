@@ -20,13 +20,13 @@
 
 ==== Generated ====
 
-A generated permalink is a link that uses the [[docs:page:page_id|page id]] as [[docs:page:path|path]].
+A generated permalink is a link that uses the [[docs:page:page_id|page id]] as [[:docs:page:system:path|page path]]
 
-As the id is guaranteed to never change, it's the real / true permalink.
+As the id is guaranteed to never change, it's the real/true permalink.
 
 
 <webcode name="Default" frameborder="0">
-  * You can add a permalink in your page with the ''permalink'' component.
+  * You can add a permalink to your page with the ''permalink'' component.
 <code dw>
 <permalink/>
 </code>
@@ -39,7 +39,7 @@ A generated permalink performs a [[docs:router:permanent|permanent redirection]]
 
 ==== Named ====
 
-A named permalink is a link that uses the [[docs:page:canonical|canonical]] as [[docs:page:path|path]]
+A named permalink is a link that uses the [[docs:page:canonical|canonical]] as [[:docs:page:system:path|page path]]
 
 Note that a [[docs:page:canonical|canonical]] is not a true permalink as it may be modified (It should not, but you never know)
 
@@ -60,7 +60,7 @@ A named permalink performs a [[docs:router:permanent|permanent redirection]] to 
 
 <note tip>
   * By adding ''strict=false'', no link is shown and no error is reported if a canonical is not present.
-  * For the named permalink, you can set a default canonical value with the [[docs:page:canonical_automatic|autocanonical feature]]. It allows to use this feature without setting the [[docs:page:canonical|canonical value]] for each page.
+  * For the named permalink, you can set a default canonical value with the [[docs:page:canonical_automatic|autocanonical feature]]. It allows using this feature without setting the [[docs:page:canonical|canonical value]] for each page.
 </note>
 
 

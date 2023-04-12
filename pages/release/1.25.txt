@@ -10,7 +10,11 @@
 
 
 ===== About =====
-The release 1.25 is the last development branch of Combostrap
+The release 1.25 is the last development branch of Combostrap.
+
+Steps:
+  * Follow the actions
+  * Perform the [[release:update|update step]] (ie index refresh)
 
 
 TODO:
@@ -28,9 +32,9 @@ Because 7.2 and 7.3 are already end of life, we have taken the decision to upgra
 
 ===== Action =====
 
-  * If you had a custom stylesheet set up, you need to move it to the combo library location
-  * If you had custom strap, configuration, you need to set them on combo
-  * All empty tag should be closed.
+  * If you had a [[:howto:bootstrap-custom|custom stylesheet]] set up, you need to move it to the combo library location
+  * If you had a custom strap configuration, you need to set them on combo
+  * All empty tags should be closed.
 ```dw
 <hr> should be written <hr/>
 <search> should be written <search/>
@@ -39,11 +43,11 @@ Because 7.2 and 7.3 are already end of life, we have taken the decision to upgra
 <page-image> should be written <page-image/>
 ```
   * If you had a [[:docs:styling:scale|font size]] `Rem` configuration, you need to set it up again
-  * If you had changed the minimum size to embed svg inline, you need to set in the new configuration ''combo-conf-003'' that includes know all resources (ie svg but also Javascript, Css, Code)
-  * If you used the `mermaid` tag, you should change if for `webcode`. A bug has been introduced with the `mermaid` release. The mermaid tag was never intended to be used.
-  * The [[:release:deprecated:renderer|rplus renderer]] has been deprecated, you should set the renderer to the default renderer.
+  * If you had changed the minimum size to embed svg inline, you need to set in the new configuration ''combo-conf-003'' that includes knowing all resources (ie svg but also Javascript, Css, Code)
+  * If you used the `mermaid` tag, you should change replace it by [[:docs:utility:webcode|webcode]]. A bug has been introduced with the `mermaid` release. The mermaid tag was never intended to be used.
+  * The [[:release:deprecated:renderer|rplus renderer]] has been deprecated, you should set the renderer to the default DokuWiki renderer.
   * The ''svgUploadGroupName'' configuration has been replaced by a [[:docs:app:designer|designer group]]. You should migrate the name of the group of your privileged users in the configuration ''combo-conf-006''.
-  * If you were using in-article Ads, they have now a configuration to enable or disable them. You need to enable them specifically.
+  * If you were using [[:docs:ads:inarticle|in-article Ads]], they have now a configuration to enable or disable them. You need to enable them specifically.
 
 ===== Changes =====
 
@@ -110,7 +114,7 @@ The ''layout'' metadata has been renamed to ''template''.
   * The suffix for the class is now ''cs'' for combostrap. It's smaller than ''combo'' and uses the same convention than bootstrap with ''bs''.
   * We support only php 7.4 (due to our dependencies), up to 8 (due to dokuwiki). More information, in the [[:support:requirement#php|requirement page]]
   * The empty tag should be close (ie ''%%<hr>%%'' should be written ''%%<hr/>%%'', ie the HTML format has been deprecated for the XML format)
-  * [[https://www.php.net/manual/en/function.strftime.php|strftime]] has been deprecated. The only alternative with local is [[https://www.php.net/manual/en/intldateformatter.format.php|format]]
+  * [[https://www.php.net/manual/en/function.strftime.php|strftime]] has been deprecated by ''php'' (not our decision). The only alternative with local is [[https://www.php.net/manual/en/intldateformatter.format.php|format]]
 
 ==== Deprecation removed ====
 

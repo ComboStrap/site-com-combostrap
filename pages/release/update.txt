@@ -11,6 +11,5 @@ This page lists the standard steps that need to be taken in order to update your
 
 
 For each new release, we recommend the following steps:
-  * [[howto:getting_started:3_strap|update strap]] (This step should be executed first if you use php-fpm because the classes stay in memory and combo uses them)
   * [[howto:getting_started:2_combo|update combo]]
   * refresh the index with the [[support:plugin#search_index_manager|Search Index Manager]].
