@@ -62,10 +62,7 @@ The ''standard'' attributes are:
   * [[docs:animation:hover|OnHover]] - Add an animation when the mouse is over a component
 
 === Advanced ===
-Every component is a [[docs:marki|html superset]] and you can therefore use the HTML attributes:
-  * [[class|class]]
-  * and [[style|style]]
-for advanced styling.
+Every component is a [[docs:marki|html superset]] and you can therefore use the [[class|class]] for advanced styling.
 
 
 

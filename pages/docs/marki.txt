@@ -53,8 +53,8 @@ Example:
 
 ==== HTML ====
 
-All HTML attributes are supported on every component and in particularly, you may use the:
-  * [[.styling:class|class]]
-  * [[docs:styling:style|style]]
-for [[.styling:styling#advanced|advanced styling]]
+Due to [[:security|security concerns]], the HTML attributes are by default not supported.
+
+You may use the [[.styling:class|class]] but not the others such as the ''style'' because it allows attacks such as ClickJacking.
+
 

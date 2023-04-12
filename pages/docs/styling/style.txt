@@ -3,28 +3,24 @@
     "page_id": "dotc7qh5j4tlo30g2q585"
 }
 ---
-====== ComboStrap Styling - Style attribute ======
+====== Security - Style attribute ======
 
 
 ===== About =====
-''ComboStrap'' supports the low level styling of its [[docs:component|component]] via pure CSS:
-  * in a [[#attribute|attribute]]
-  * or in a [[#style|style component]]
+''ComboStrap'' does not supports the style attribute for [[:security|security]] concerns.
 
 
+The style attribute is deleted if found.
 
-<note tip>
-The style attribute and component are low level access to [[docs:styling:styling|style your components]]. If you just need to change a property, check the [[docs:styling:styling|high level attribute]].
-</note>
+===== Why? =====
+Via the style attribute, you can inject code. 
+
+For instance, you can make from a link, an invisible box that takes the whole screen. If a user click on the page, it will then click on this link and be redirected. This kind of attack is known as [[kb>ClikJacking]].
 
 
+===== Demo =====
 
-===== Type =====
-
-==== Attribute ====
-
-Because every [[docs:component|ComboStrap UI component]] are a [[docs:marki|superset of HTML]], the ''CSS'' ''style'' attribute is also supported.
-example with a [[docs:block:card|card]]
+Even if you try to style your component with the style attribute, they would have no effect.
 <webcode name="Default">
 <code dw>
 <card
@@ -37,7 +33,7 @@ example with a [[docs:block:card|card]]
         font-size:1.2rem
         "
 >
-A centered card with a centered white text against a purple background
+A card without any style applied.
 </card>
 </code>
 </webcode>

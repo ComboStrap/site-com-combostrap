@@ -19,10 +19,11 @@ Below are the steps that we have taken to prevent the following attacks.
 Every form uses a token to prevent a [[kb>csrf|cross-site request attack (CSRF)]])
 
 ==== Injection Attack ====
-To prevent an [[kb>injection/attack|injection attack]]
+To prevent an [[kb>injection/attack|injection attack]]:
   * every HTML output is escaped to prevent HTML/Javascript injection.
   * every SQL input is passed through parameters to prevent [[kb>sql/injection|SQL injection]]
   * every [[docs:content:svg|SVG]] got the ''script'' node deleted.
+  * No HTML attribute is allowed with the exception of the [[:docs:styling:class|class]]. Why? They allow code injections such as [[kb>ClickJacking]]
 
 ==== Content Security Policy ====
 
@@ -35,6 +36,9 @@ By default, we disallow:
 ==== No leak ====
 
 We set the ''Referrer-Policy'' to not send private URL to external domain.
+
+
+
 ===== Dokuwiki =====
 ''Dokuwiki'' follows also this rules (see [[doku>devel:security]]). We are making use of the CSRF token functionality.
 
