@@ -44,6 +44,11 @@ If the interval has expired since the last creation date of the cache, the cache
 You can read more on the [[doku>config:cachetime|Dokuwiki dedicated page]].
 
 
+===== Purge Manually =====
+
+By adding the ''purge'' property to a page URL, you will purge the cache for this particular page.
+
+Example for this page: [[${path}?purge|${url}?purge]]
 
 ===== Monitoring =====
 
