@@ -10,9 +10,9 @@
 
 
 ===== About =====
-''text'' is a [[docs:content:typo|typographic]] component that permits to style one or several paragraph at once.
+''text'' is a [[docs:content:typo|typographic]] component that permits styling one or several paragraphs at once.
 
-<badge>Since [[release:release|version 1.4]]</badge>
+
 
 ===== Syntax =====
 
@@ -27,7 +27,7 @@ where:
   * [[docs:styling:type|type]] can take the values:
       * ''lead'': It makes a paragraph stand out by setting a bigger font-size and weight
       * ''h1 to h6'': when you want to match the font styling of a [[docs:content:heading|heading]].
-      * ''custom class'' that you have created in the [[docs:styling:userstyle|userstyle stylesheet]].
+      * ''custom class'' that you have created in your [[:docs:theme:theme|theme]].
   * [[#line-spacing]] sets the space between the lines of a paragraph.
   * [[docs:styling:text-color|color]] can take all [[docs:styling:color|color values]] and the [[#color|specific text colors]]:
       * ''body'': the color of the body
@@ -97,20 +97,20 @@ If you want to add space between component, you should use the [[docs:styling:sp
 </note>
 
 ==== Text-Align ====
-[[release:deprecated:text-align|text-align]] lets you define where the line of text will be located inside the paragraph. <inote>A paragraph is a [[docs:block:block|block]] and takes by default all the available width</inote>
+[[:docs:styling:align|text alignment]] lets you define where the line of text will be located inside the paragraph. <inote>A paragraph is a [[docs:block:block|block]] and takes by default all the available width</inote>
 
 
 
 Example:
 <webcode name="Default" frameborder="0">
 <code dw>
-<text text-align="start">
+<text align="text-start">
 This line of text is at the **start** of a paragraph (left for a left-to-right language)
 </text>
-<text text-align="center">
+<text align="text-center">
 This line of text is **centered** inside the paragraph block.
 </text>
-<text text-align="end">
+<text align="text-end">
 This line of text is at the **end** of a paragraph (right for a left-to-right language)
 </text>
 </code>
@@ -120,7 +120,6 @@ This line of text is at the **end** of a paragraph (right for a left-to-right la
 <note>
 Text alignment can also be **screen conditional**.
 
-For all information about this attribute, see the dedicated page: [[release:deprecated:text-align]]
 </note>
 
 ==== Color ====

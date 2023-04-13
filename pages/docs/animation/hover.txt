@@ -151,13 +151,13 @@ git clone https://github.com/ComboStrap/combo
 
 ==== Custom: UserStyle ====
 
-If you want to create an animation for yourself, add the CSS class rules in the [[docs:styling:userstyle|userstyles stylesheet]].
+If you want to create an animation for yourself, add the CSS class rules in the ''onhover'' [[:docs:theme:component-stylesheet|component stylesheet]]
 
 
 
 Example with the ''fade'' like background transition of [[https://ianlunn.github.io/Hover/|hover.css]].
-<webcode name="Fade" frameborder="0">
-  * The css in the [[docs:styling:userstyle|userstyle stylesheet]]
+<webcode name="Fade">
+  * The CSS 
 <code css userstyle.css>
 button.animated:hover {
     background-color: #FFF;

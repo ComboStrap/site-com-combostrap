@@ -18,7 +18,7 @@ The only action attached is to navigate to another page.
 ====  Internal link ====
 
 <note>
-The ''button'' used by default the [[docs:app:color|primary color]] configuration.
+The ''button'' used by default is the [[:docs:theme:branding-colors|primary color]] configuration.
 </note>
 
 
@@ -67,13 +67,13 @@ You can also add [[docs:animation:hover|hover animation]].
   * Float
 <webcode name="Button" frameborder="0" >
 <code dw>
-<btn hover="float">[[:start|Go to ComboStrap]]</btn>
+<btn onhover="float">[[:start|Go to ComboStrap]]</btn>
 </code>
 </webcode>
   * Zoom
 <webcode name="Button" frameborder="0" >
 <code dw>
-<btn hover="zoom">[[:start|Go to ComboStrap]]</btn>
+<btn onhover="grow">[[:start|Go to ComboStrap]]</btn>
 </code>
 </webcode>
 
@@ -96,7 +96,7 @@ where:
 
 
 <note tip>
-The ''button'' component is a fully [[docs:marki|super set HTML component]] and can therefore by [[docs:styling:styling|styled]] as you wish
+The ''button'' component is a fully [[docs:marki|super set HTML component]]
 </note>
 
 
@@ -124,7 +124,7 @@ The type of the button defines its styling:
 
 
 <note>
-''primary'' and ''secondary'' colors are [[docs:app:color|branding colors]] and can be configured: [[docs:app:color]]
+''primary'' and ''secondary'' colors are [[:docs:theme:branding-colors|branding colors]] and can be configured: [[:docs:theme:branding-colors]]
 </note>
 ==== Size ====
 
