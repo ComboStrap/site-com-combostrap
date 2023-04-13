@@ -14,6 +14,6 @@ even if the component is not used.
 
 ===== Note =====
 
-Combostrap still adds this stylesheet if it was not [[:docs:performance:frontend_optimization#disable_backend_stylesheet|disabled]]
+Combostrap still adds this stylesheet if it was not [[howto:frontend_optimization#disable_backend_stylesheet|disabled]]
 
 

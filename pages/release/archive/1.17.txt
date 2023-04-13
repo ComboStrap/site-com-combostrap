@@ -24,7 +24,7 @@ This [[..:release|release]] brings a new page [[docs:navigation:navigation|navig
 
   * [[docs:styling:align|Align]] understand now ''start'' and ''end'' to make page [[docs:locale:lang##rtlright_to_left_language|LTR or RTL language ready]].
   * Added the a link to the page where a error message has occured. Why ? Because The error messages may be created in the background and are then not always relevant to the actual page visited.
-  * [[docs:performance:frontend_optimization|FrontEnd Optimization]]:
+  * [[howto:frontend_optimization|FrontEnd Optimization]]:
       * ComboStrap begins to be no more dependent on Jquery
       * New: Disable backend Javascript
   * new [[docs:templating:pipeline|Pipeline function]]: ''cut'' and ''trim''

@@ -1,0 +1,14 @@
+====== What is the Public Page Cache? ======
+
+
+===== About =====
+For a ''anonymous'' user or a [[:docs:seo:seo|search engine]], a page may be served from the public cache:
+  * [[:docs:performance:performance|speeding the rendering of the page]]
+  * and therefore improving the [[:docs:seo:seo|seo performance score]]
+
+
+===== How to enable? =====
+
+The ''public cache'' is enabled when:
+  * the [[:docs:theme:element:railbar|railbar]] is public private.
+  * there is no message during the rendering.

@@ -101,7 +101,7 @@ it boils down to the fact that javascript of third plugins may alter the page vi
 not needed for the page.
 
 If you want to increase your ''Content Layout Shift'' score, you can
-[[docs:performance:frontend_optimization|disable the javascript for public user]] (ie for the search engine).
+[[howto:frontend_optimization|disable the javascript for public user]] (ie for the search engine).
 
 
 ==== XHTML compliant ====

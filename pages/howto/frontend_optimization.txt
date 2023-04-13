@@ -1,0 +1,85 @@
+---json
+{
+    "canonical": ":frontend:optimization",
+    "layout": "median",
+    "page_id": "2gsk2rdbl9owghvrbhmz3"
+}
+---
+
+
+====== How to speed up your page performance for search engines?======
+
+
+===== About =====
+''public front end optimization'' is a [[:start|ComboStrap]] module that reduces the page overhead when a ''public'' / ''anonymous'' / ''search engine'' user is navigating your website in order to speed [[docs:performance:performance|performance]] and increase [[:docs:seo:seo|the seo score]].
+
+
+
+===== The goal =====
+
+''ComboStrap'' is build only around:
+  * [[docs:theme:bootstrap|BootStrap]].
+  * and web components (ie the CSS is embedded in the page only when the component is used).
+
+As the [[docs:theme:bootstrap|BootStrap file]] is distributed worldwide thanks to the Content delivery network, it reaches the computer user really really fast worldwide. 
+
+Because we embrace the web component technology, we add to the page only the CSS and Javascript needed for each page to render. The page speed is then completely dependent on your server location and speed.
+
+
+===== Steps =====
+
+==== Enable the Public Page Cache ====
+
+You should enable [[:docs:cache:public|the public page cache]].
+
+Pages are served quicker from this cache to anonymous users and [[:docs:seo:seo|search engines]].
+
+
+
+
+
+
+
+==== Disable or Optimize the DokuWiki Stylesheet ====
+
+The DokuWiki stylesheet can be:
+  * minimized with the ''enableMinimalFrontEndCss'' [[docs:app:configuration|configuration]]
+  * disabled with the ''disableDokuwikiStylesheet'' [[docs:app:configuration|configuration]]
+
+If you don't use any other syntax plugin, you should disable it.
+
+
+''Minimize'' will not delete the backend stylesheet but will reduce the size of the Dokuwiki CSS file by removing the styling of the backend plugin.
+
+
+
+==== Disable the DokuWiki Javascript ====
+
+If your front end is completely based on ''ComboStrap'', you don't need to include third Javascript files that are used only for the backend. 
+
+This configuration goes even further with [[docs:theme:bootstrap|bootstrap version 5]] and delete [[docs:utility:jquery|Jquery]].
+
+<note important>
+If you use any analytics plugin such as the [[docs:analytics:google_analytics|Google Analytics]] that relies on Javascript, you should not use/check this option.
+</note>
+
+If the [[:docs:app:configuration|configuration]] ''disableBackendJavascript'' is checked, the following javascript script will not be included in your pages:
+  * ''js.php''
+  * ''jquery.php'' (only for Bootstrap 5)
+
+The gain on a slow mobile network given by the lighthouse analyzer is in seconds.
+
+{{:docs:performance:reduce-unused-javascript-dokuwiki-lightouse.png|}}
+===== Works but not recommended =====
+
+==== Enable Preload ====
+
+<note warning>
+We don't recommend to enable css preload because even if the rendering of your page will be faster, the page rendering will [[wp>Flash_of_unstyled_content|flikker]] if the network is slow leading to a bad user experience.
+</note>
+
+''preloadCss'' is a [[:docs:app:configuration|configuration]] that enables [[https://developers.google.com/web/fundamentals/performance/resource-prioritization#preload|Css preloading]].
+
+
+
+

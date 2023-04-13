@@ -12,7 +12,7 @@ First [[..:release|release]] 1.0 from ${date_published|format()}
 
 ===== Changes =====
 
-  * The [[docs:performance:frontend_optimization|CSS optimizer]] was added
+  * The [[howto:frontend_optimization|CSS optimizer]] was added
   * The [[docs:content:button|button link]] takes now into account the [[docs:styling:color|color attributes]] of its button parent.
   * All [[docs:component|UI components]] support now the [[docs:styling:styling|styling attributes]]
   * The [[docs:block:note|note component]] was created

@@ -24,12 +24,16 @@
   * [[#Image]]
 
 ===== Type =====
-==== Page ====
+==== Anonymous Page Cache ====
+
+When a page is visited anonymously, an anonymous page is served from the [[public|public cache]]
+
+==== Page Fragment ====
 
 
-The parsing and rendering of a page in different format is cached until some rules are met.
+The parsing and rendering of a page in a different format are cached until some rules are met.
 
-Learn them in this page: [[page]]
+Learn them on this page: [[page]]
 
 
 

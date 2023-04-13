@@ -22,7 +22,14 @@ Below is a run of the home page of this website with the [[https://developers.go
 
 
 
-===== Steps =====
+===== Public Performance =====
+
+If you want to speed up the performance of your application for [[:docs:seo:seo|search engine]], you should follow the [[howto:frontend_optimization|steps of this article]]
+I
+
+===== Elements of performance =====
+
+This section highlights the elements of page performance and what we do about it. 
 
 ==== Stylesheet ====
 
@@ -30,9 +37,9 @@ Below is a run of the home page of this website with the [[https://developers.go
 
 All [[:howto:stylesheet-bootstrap|published stylesheet (bootstrap and bootswatch)]] are served by default from a [[docs:performance:cdn|CDN]]
 
-If you are using only ComboStrap, you can even disable the DokuWiki Stylesheet for a public user with the [[docs:performance:frontend_optimization#disableDokuwikiStylesheet|disableDokuwikiStylesheet configuration]]
+If you are using only ComboStrap, you can even disable the DokuWiki Stylesheet for a public user with the [[howto:frontend_optimization#disableDokuwikiStylesheet|disableDokuwikiStylesheet configuration]]
 
-The size of a web page served to the public (user not logged in) can be optimized with the [[docs:performance:frontend_optimization|CSS optimization module]].
+The size of a web page served to the public (user not logged in) can be optimized with the [[howto:frontend_optimization|CSS optimization module]].
 
 === Stylesheet Preload ===
 We preload stylesheet that are non critical for rendering. For instance, the stylesheet used for [[docs:animation:animation|animation]] are preloaded and added to the page at the end.
@@ -40,15 +47,23 @@ We preload stylesheet that are non critical for rendering. For instance, the sty
 All Javascript file are served from a [[docs:performance:cdn|CDN]] and are deferred (loaded at the end) because they are not needed for the first rendering.
 
 
-If you only depend on the ''ComboStrap'' plugins, you can even [[docs:performance:frontend_optimization#javascriptdisable_backend|disable the backend javascript for public pages]].
+If you only depend on the ''ComboStrap'' plugins, you can even [[howto:frontend_optimization#javascriptdisable_backend|disable the backend javascript for public pages]].
+
 
 
 
 
 ==== Cache ====
-Caching is done by default for all content based process (from page to image). 
 
-For more information, see the page: [[..:cache:cache]]
+The cache is the most important part of any performance system.
+
+  * For public pages, we cache them entirely in the [[:docs:cache:public|public page cache]]
+  * For other pages, we cache the [[docs:cache:page|page and slot rendering]]
+  * For resources such as images, scripts, and stylesheets, they are served from the [[:docs:cache:static|infinite static cache]]
+
+
+
+
 
 ==== Image ====
 
