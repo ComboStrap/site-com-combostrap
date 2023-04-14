@@ -13,11 +13,12 @@
        <text lead>Showcase yourself and your brand</text>
            {{:nico_gravatar.jpeg?90&class=rounded-circle|}}
     </box>
-    <text>Hy !</text>
+    <text>Hy,</text>
     <text>Thanks for stopping by.</text>
     <text>In this newsletter, you get **free** news, tips, and tricks\\ to create a **remarkable** experience for your readers.</text>
-    <text>Have a nice day, \\ Nico</text>
+    <text>Best, \\ Nico</text>
     <subscribe list-id="lis-w8OZSK2"/>
-</code>
+</box>
 \\
 \\
+

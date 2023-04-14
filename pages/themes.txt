@@ -17,7 +17,7 @@
   * Get always a [[:docs:content:page-image|featured image]] on your pages
   * Adapt automatically to mobile phone
   * Create powerful layout with the [[:docs:templating:templating|simple templating markup]] 
-  * Apply a custom HTML page for advanced usage
+  * Apply custom HTML for advanced usage
 </text>
 </box>
 </box>

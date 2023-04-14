@@ -54,10 +54,10 @@ to create a **remarkable** experience for your readers. \\
 <box width="75%" align="text-center text-start-md"><share twitter/> <share facebook/> <share hn/> <share mail/> <share Whatsapp/> <share telegram /></box>
 <box width="25%" color="muted" align="text-center">Follow us:</box>
 <box width="75%" align="text-center text-start-md"><follow twitter  handle="combostrapweb"/> <follow facebook handle="combostrap"/></box>
-<box width="25%" color="muted" align="text-center">Documentation Improvement:</box>
+<box width="25%" color="muted" align="text-center">Documentation:</box>
 <box width="75%" align="text-center text-left-md">
-   <brand github url="https://github.com/ComboStrap/website/issues/new?title=Docs%20feedback:%20$path" width="26" widget="link"> You can request an explanation if the documentation is not clear.</brand>\\
-   <brand github url="https://github.com/ComboStrap/website/edit/master/pages/${path}.txt" width="26" widget="link"/> You can edit and correct us if there is an error</brand>
+   <brand github url="https://github.com/ComboStrap/website/issues/new?title=Docs%20feedback:%20$path" width="26" widget="link"> Request an explanation if the documentation is not clear.</brand>\\
+   <brand github url="https://github.com/ComboStrap/website/edit/master/pages/${path}.txt" width="26" widget="link"/> Edit and correct this page.</brand>
 </grid>
 \\
 \\
