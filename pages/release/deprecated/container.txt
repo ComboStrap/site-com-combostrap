@@ -8,7 +8,7 @@
 
 
 ===== About =====
-The ''container'' component has been deprecated for [[docs:theme:slot:container|container aware component]].
+The ''container'' component has been deprecated for [[:docs:theme:element:container|container aware component]].
 
 
 
@@ -38,4 +38,4 @@ Oh my Container !
 Content
 </container>
 </code>
-where the type was the [[docs:theme:slot:container|Container configuration value]].
+where the type was the Container configuration value.

@@ -33,7 +33,7 @@ We support support the ''search index manager'' plugin. For more information, yo
 ==== Cache ====
 If you have an inconsistent page, you may have a cache issue. The [[doku>plugin:stale]] permits to make the whole cache stale in one click.
 
-You access it as action in the [[docs:theme:slot:railbar|railbar]]
+You access it as action in the [[:docs:theme:element:railbar|railbar]]
 
 {{howto:getting_started:stale_plugin_rail_action.png|}}
 ==== Google Analytics ====
@@ -42,7 +42,7 @@ If you want some analytics information on your page, you can use the following G
   * [[docs:analytics:google_analytics|Google Analytics]]
   * [[doku>plugin:googletagmanager|Google Tag Manager]]
 
-You can configure your tag id via the [[doku>plugin:config|configuration manager]] available via the ''admin'' action of the [[docs:theme:slot:railbar|railbar]]
+You can configure your tag id via the [[doku>plugin:config|configuration manager]] available via the ''admin'' action of the [[:docs:theme:element:railbar|railbar]]
 
 {{howto:getting_started:admin_railbar.png|}}
 

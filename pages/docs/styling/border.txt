@@ -19,10 +19,10 @@ The ''border'' is the line that delimits the [[docs:block:block|block components
 Every [[docs:block:block|block component]] will react to the [[docs:styling:styling|styling attribute]] ''border-color'' that sets the [[color|color]] of their border.
 
 
-Example with the generic [[docs:block:box|box]]
+Example with the generic [[:docs:layout:component:box|box]]
 <webcode name="Default" frameborder="0">
 <code dw>
-<box border-color="blue" spacing="p-5" text-align="center" width="20rem">
+<box border-color="blue" spacing="p-5" align="text-center" width="20rem">
 A box with a blue border
 </box>
 </code>
@@ -40,7 +40,7 @@ If you set a ''border-color'' attributes, by default ''ComboStrap'' will set the
 
 This is :
   * to avoid the confusion to see nothing appearing on the screen
-  * and to have a consistent styling with [[docs:utility:bootstrap|bootstrap]].
+  * and to have a consistent styling with [[:docs:theme:bootstrap|bootstrap]].
 
 
 

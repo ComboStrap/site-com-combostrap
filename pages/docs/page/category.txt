@@ -9,7 +9,7 @@
 
 
 ===== About =====
-In Combostrap, the ''category'' of a page is the [[:docs:page:system|parent page of the page system]].
+In Combostrap, the ''category'' of a page is the [[:docs:page:system:system|parent page of the page system]].
 
 
 ===== How to print  ? =====
@@ -22,21 +22,21 @@ Example:
 <webcode name="Default" frameborder="0">
   * Markup
 <code dw>
-This page is in the category: <ibreadcrumb/>
+This page is in the category: <breadcrumb typo/>
 </code>
   * Output:
 </webcode>
 
-==== the image ? ====
+==== the image? ====
 
 
-The image can be printed with the ''descendant'' option of the [[:docs:content:page-image|page image]].
+The image can be printed with the ''ancestor'' option of the [[:docs:content:page-image|page image]].
 
 Example:
-<webcode name="Default" frameborder="0">
+<webcode>
   * Markup
 <code dw>
-<page-image descendant/>
+<page-image ancestor height="250"/>
 </code>
   * Output:
 </webcode>

@@ -61,6 +61,14 @@ Thanks to the [[:docs:content:page-image|page image component]], you can choose 
   * or as ''page image'' in a [[:docs:layout:component:carrousel|carrousel]] or any [[:docs:templating:iterator|iterator component]]
 
 
+==== Readibility ====
+
+We make sure that there is enough contrast ratio for [[:docs:styling:color|color]] in the text.
+
+It's used in:
+  * The [[:docs:styling:text-color|text-color attribute]]
+  * The [[:docs:theme:branding-colors|branding colors]]
+  * The [[:docs:content:icon|icon]]
 
 ==== Performance ====
 

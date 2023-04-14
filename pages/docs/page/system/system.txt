@@ -34,3 +34,6 @@ On the file system:
   * a page is a text file
   * a namespace is a directory
 
+===== Parent Page =====
+
+The parent page is also known as the [[:docs:page:category|page category]].

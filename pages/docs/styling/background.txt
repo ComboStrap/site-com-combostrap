@@ -1,6 +1,6 @@
 ---json
 {
-    "description": "The background element permits to add any background to your ComboStrap component in a easy and declarative way.",
+    "description": "The background element permits you to add any background to your ComboStrap component in an easy and declarative way.",
     "page_id": "vz4upjyihwsqne30iv31e",
     "title": "Background styling - Add any background to your ComboStrap component"
 }
@@ -109,7 +109,7 @@ If you want to have a gradient on your color, just add the ''gradient-'' prefix 
 Example with a ''light gradient'' background.
 <webcode name="Default" frameborder="0">
 <code dw>
-<bar background-color="gradient-light" hero-spacing="md">
+<bar background-color="gradient-light" hero="md">
 === A gradient light slide ===
 </bar>
 </code>
@@ -118,9 +118,9 @@ Example with a ''light gradient'' background.
 \\
 \\
 
-If you want to have full gradient customization, you can add a gradient css style in the [[docs:styling:userstyle|userstyle]]
+If you want to have full gradient customization, you can add a gradient css style in your [[:howto:theme-creation|theme]]
 
-The below css style gradient generator may help you in this task.
+The below CSS style gradient generator may help you in this task.
   * https://gradienta.io/
   * https://www.gradientmagic.com/
 
@@ -138,7 +138,7 @@ This sections shows you how to use a [[docs:content:raster|raster image]] as bac
 
 <webcode name="Default" frameborder="0">
 <code dw>
-<bar color="steelblue" text-align="center" >
+<bar color="steelblue" align="text-center" >
    <background opacity="0.3">{{:docs:block:stock_image_surfer_in_the_see.png|}}</background>
     <heading 2>A blue slide</heading>
     <text lead>
@@ -161,7 +161,7 @@ Create a tile background based on a [[docs:content:raster|raster image]] that re
   * [[https://patternico.com/|Patterns icon]]
 <webcode name="Default" frameborder="0">
 <code dw>
-<bar text-align="center" height="20vh">
+<bar align="text-center" height="20vh">
 <background fill="tile" opacity="0.5">{{:docs:styling:patternico.png|}}</background>
 <title 3>**A tile background based on icons**</title>
 </bar>
@@ -170,7 +170,7 @@ Create a tile background based on a [[docs:content:raster|raster image]] that re
   * [[http://thepatternlibrary.com/#subway-lines|The pattern library subway lines]]
 <webcode name="Default" frameborder="0">
 <code dw>
-<bar text-align="center" height="30vh">
+<bar align="text-center" height="30vh">
 <background fill="tile" opacity="0.1">{{:docs:styling:subway-lines.png}}</background>
 <heading 2 color="#3669b3">A tile background based on subway lines</heading>
 </bar>
@@ -194,7 +194,7 @@ Example with a [[https://bgjar.com/stacked-wave.html|stacked wave]] where the co
 
 <webcode name="Default" frameborder="0">
 <code dw>
-<bar text-align="center">
+<bar align="text-center">
 <background>{{:docs:styling:stacked_wave.svg|}}</background>
 <heading 1>A svg background cover</heading>
 </bar>
@@ -213,7 +213,7 @@ Below is an example on how to use a [[docs:content:svg|svg]] as a ''tile'' backg
   * the ''size'' was adjusted to ''50px''
 <webcode name="Default" frameborder="0">
 <code dw>
-<bar text-align="center">
+<bar align="text-center">
     <background fill="tile" color="#DFDBE5" opacity="0.3">{{:docs:styling:jigsaw.svg?50&color=#9C92AC|}}</background>
     <heading 1>An Svg Tile Based on Hero Pattern</heading>
 </bar>
@@ -259,7 +259,7 @@ Example:
 <code dw>
 <bar>
    <background pattern="vertical-lines" color="#FACB0E" pattern-color="#FDE482" />
-   <heading 1 text-align="center">A slide with verticale line Css Pattern</heading>
+   <heading 1 align="text-center">A slide with vertical line Css Pattern</heading>
 </bar>
 </code>
 </webcode>

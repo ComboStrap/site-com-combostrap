@@ -56,7 +56,7 @@ Generating or choosing attractive color is not easy. The [[color_generator|color
 [[:start|ComboStrap]] follows the [[https://getbootstrap.com/docs/4.0/utilities/colors/|Bootstrap color naming]] and you may then use the following color names.
 
 <note>
-You can set the [[docs:app:color|branding colors]] ''primary'' and ''secondary'' in the configuration.
+You can set the [[:docs:theme:branding-colors|branding colors]] ''primary'' and ''secondary'' in the configuration.
 </note>
 
 The default Bootstrap colors are:

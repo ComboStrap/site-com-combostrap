@@ -19,13 +19,13 @@
 
 
 Example with the [[https://materialdesignicons.com/icon/arrow-down-circle|arrow-down-circle]] 
-  * the default [[docs:app:color|secondary color]] is used by default
+  * The default [[:docs:theme:branding-colors|secondary color]] is used by default
 <webcode name="Material-Design">
 <code dw>
 <icon name="arrow-down-circle" />
 </code>
 </webcode>
-  * the default [[docs:app:color|primary color]] is used for icon bigger than 36
+  * The default [[:docs:theme:branding-colors|primary color]] is used for icon bigger than 36
 <webcode name="Material-Design">
 <code dw>
 <icon name="arrow-down-circle" width="60"/>
@@ -91,8 +91,8 @@ where:
       * ''library'' is the optional name of a [[#library|supported icon library]] (if not set, the [[#default library|default]] is used)
       * ''icon-name'' is the name of the icon 
   * ''color'' is the [[docs:styling:color|color value]]. By default:
-      * the [[docs:app:color|secondary color]] (if the icon width is less than 36 px)
-      * the [[docs:app:color|primary color]] otherwise.
+      * the [[:docs:theme:branding-colors|secondary color]] (if the icon width is less than 36 px)
+      * the [[:docs:theme:branding-colors||primary color]] otherwise.
   * ''width'' is the [[docs:styling:dimension|width value]]
   * ''zoom'' is a zoom factor (zoom in when the factor is positive, zoom out otherwise). A zoom is performed after a [[docs:content:image#crop|crop]].
 

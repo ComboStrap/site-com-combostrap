@@ -11,11 +11,11 @@
 ===== About =====
 Before ''printing'', ''ComboStrap'' will:
   * hide the [[docs:navigation:related|related component]] and section if any
-  * hide all [[docs:theme:slot:slot|slots]] ([[docs:theme:slot:header_slot|header slot]], [[docs:theme:slot:footer_slot|footer slot]], [[docs:theme:slot:side_slot|side slot]] and [[release:deprecated:sidekick_slot|sidekick slot]])
+  * hide all [[docs:theme:slot:slot|slots]] ([[docs:theme:slot:header_slot|page header slot]], [[docs:theme:slot:page_footer_slot|footer slot]], [[docs:theme:slot:side_slot|side slot]])
   * download [[docs:performance:lazy|all lazy images]]
 
 
-If you want more control on your elements when printing, you can inject the [[https://getbootstrap.com/docs/5.0/utilities/display/#display-in-print|bootstrap class]] with the [[docs:styling:class|class attribute]]
+If you want more control over your elements when printing, you can inject the [[https://getbootstrap.com/docs/5.0/utilities/display/#display-in-print|bootstrap class]] with the [[docs:styling:class|class attribute]]
 
 ===== Example =====
 
@@ -30,4 +30,12 @@ This note will not appear if you print this page
 </note>
 </code>
 </webcode>
+
+==== How to use the minimal template for printing? ====
+
+The [[:docs:theme:template:minimal|minimal template]] is also perfect for printing.
+
+You can all it before printing by adding the ''template'' property.
+
+Example for this page: [[${url}?template=minimal|${url}?template=minimal]]
 

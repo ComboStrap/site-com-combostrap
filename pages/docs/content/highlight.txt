@@ -42,7 +42,7 @@ This text is not highlighted while `this one is`.
 </webcode>
 ===== Configuration =====
 ==== Background color ====
-By default, the background color is based on the [[docs:app:color|primary branding color]] if set (98% lightness).
+By default, the background color is based on the [[:docs:theme:branding-colors|primary branding color]] if set (98% lightness).
 
 ==== Disable ====
 

@@ -17,8 +17,8 @@
 
 ^ Software / Library / Image ^ Usage ^
 | [[https://dokuwiki.org|Dokuwiki]] | This is the wiki engine that powers the creation and parsing of the page |
-| [[https://bootstrap.com|Bootstrap]] | This is the styling platform where you can choose from several [[docs:styling:stylesheet|theme]] or create your [[docs:styling:stylesheet|own]] |
-| [[https://bootswatch.com/|Bootswatch]] | The pre-created [[docs:styling:stylesheet|Bootstrap themes]] |
+| [[https://bootstrap.com|Bootstrap]] | This is the styling platform where you can choose from several [[:howto:stylesheet-bootstrap|stylesheet bootstrap]] or create your [[:howto:bootstrap-custom|own]] |
+| [[https://bootswatch.com/|Bootswatch]] | The pre-created [[:howto:stylesheet-bootstrap|Bootstrap themes]] |
 | Icon libraries | See the [[docs:content:icon|Icon Component]] to see them all |
 | [[https://undraw.co/illustrations|Undraw]] and [[https://unsplash.com/|Unsplash]] | This image libraries are used for the illustrations of this website |
 | [[https://apoorv.pro/lozad.js/|Lozad]] | This is the [[docs:performance:lazy|lazy load engine]] delaying the download of image when they are going to enter in the screen |

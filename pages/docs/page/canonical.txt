@@ -17,7 +17,7 @@ A ''canonical'' is a short unique path identifier for a page on your website.
 
 ==== Named permalink ====
 
-The canonical is used to create a [[docs:router:permalink|named permalink]] in order to get quickly to a page without knowing its [[docs:page:path|full path]]
+The canonical is used to create a [[docs:router:permalink|named permalink]] in order to get quickly to a page without knowing its [[:docs:page:system:path|full path]]
 
 Example:
 <code url>
@@ -48,7 +48,7 @@ The canonical path should have a meaning and be understandable by humans.
 The ''canonical'' value:
   * should be unique for all pages of your website (ie domain).
   * should be written as wiki path (ie with a '':'' semi-colon as path separator)
-  * does not need to be the [[docs:page:path|page path]]
+  * does not need to be the [[:docs:page:system:path|page path]]
   * is always lowercase
 
 ===== Demo =====
@@ -81,7 +81,7 @@ my:path
 
 ==== Automatically ====
 
-You can also create a canonical value based on the last parts of a [[..:page:path|page path]]. See [[canonical_automatic]]
+You can also create a canonical value based on the last parts of a [[:docs:page:system:path|page path]]. See [[canonical_automatic]]
 
 
 ===== Javascript Example =====

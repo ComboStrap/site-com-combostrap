@@ -70,7 +70,7 @@ where
 
 <note>
   * All [[docs:content:image|image attributes]] such ''width'' / ''height'' / ''ratio'' and ''color'' and more can be applied.
-  * For an [[docs:content:icon|icon]], the default color is the [[docs:app:color|primary color]] if set
+  * For an [[docs:content:icon|icon]], the default color is the [[:docs:theme:branding-colors|primary color]] if set
 </note>
 
 

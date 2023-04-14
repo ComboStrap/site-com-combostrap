@@ -24,7 +24,7 @@ In Combostrap, if not specified, a backlink is an ''internal backlink''
 ===== List =====
 
 
-You can see them with the ''backlinks'' action of the [[docs:theme:slot:railbar|railbar]]
+You can see them with the ''backlinks'' action of the [[:docs:theme:element:railbar|railbar]]
 
 {{:docs:navigation:backlink_action.png|}}
 

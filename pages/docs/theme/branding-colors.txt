@@ -23,16 +23,23 @@ The ''primary'' color is the color
   * displayed most frequently with the most importance
   * that should have the most lightness and saturation
 
-The ''secondary'' color is the second color in importance and is used to give another color accent if your theme is dual tone.
+The ''secondary'' color :
+  * is the second color in importance 
+  * is used to give another color accent if your theme is dual-tone.
+  * is darker and mostly used in the text (This is the default color of [[:docs:content:icon|icon]] for instance)
 
 
 
 ===== Usage =====
 
 They are:
-  * used in the [[docs:menubar:brand|brand button]] by default
+  * used as the default colors in the following components:
+      * [[docs:menubar:brand|brand button]], 
+      * [[:docs:content:icon|icon]], 
+      * [[:docs:content:svg|svg]]
+      * [[:docs:content:highlight|highlight]]
+      * [[:docs:content:link|links]]
   * advertised in the [[docs:app:manifest|app manifest]]
-  * the admin page (icon, link)
 
 
 ===== Color Name Precedence =====
