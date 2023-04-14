@@ -47,14 +47,17 @@ to create a **remarkable** experience for your readers. \\
     <hr/>
 </iterator>
 
+\\
+\\
 <grid align="x-center-children y-center-children">
 <box width="25%" color="muted" align="text-center">Share this page:</box>
 <box width="75%" align="text-center text-start-md"><share twitter/> <share facebook/> <share hn/> <share mail/> <share Whatsapp/> <share telegram /></box>
 <box width="25%" color="muted" align="text-center">Follow us:</box>
 <box width="75%" align="text-center text-start-md"><follow twitter  handle="combostrapweb"/> <follow facebook handle="combostrap"/></box>
-<box width="25%" color="muted" align="text-center">Page Improvement:</box>
+<box width="25%" color="muted" align="text-center">Documentation Improvement:</box>
 <box width="75%" align="text-center text-left-md">
-<brand github widget="link" url="https://github.com/ComboStrap/website/edit/master/pages/$path.txt" width="26"> Edit it yourself</brand> or <brand github url="https://github.com/ComboStrap/website/issues/new?title=Docs%20feedback:%20$path" width="26" widget="link"> Request a modification</brand>
-</box>
+   <brand github url="https://github.com/ComboStrap/website/issues/new?title=Docs%20feedback:%20$path" width="26" widget="link"> You can request an explanation if the documentation is not clear.</brand>\\
+   <brand github url="https://github.com/ComboStrap/website/edit/master/pages/${path}.txt" width="26" widget="link"/> You can edit and correct us if there is an error</brand>
 </grid>
-
+\\
+\\

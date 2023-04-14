@@ -68,7 +68,7 @@ If you are not sure, you can even start a [[#tabs2|discussion]]
 
 We are present on the following social medias:
 
-<follow twitter handle="combostrapweb">Twitter</follow>  <follow facebook handle="facebook">Facebook</follow>
+<follow twitter handle="combostrapweb">Twitter</follow>  <follow facebook handle="combostrap">Facebook</follow>
 
 Where you can follow us for the last update.
 </panel>
