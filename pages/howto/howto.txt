@@ -1,5 +1,6 @@
 ---json
 {
+    "cache_expiration_frequency": "@daily",
     "canonical": ":howtos",
     "description": "This section regroups all HowTo that show you how to do step by step",
     "featured-svg-image": ":howto:undraw_animating.svg",
@@ -22,13 +23,12 @@ This section regroups ''howto'' documentations.
 
 <heading 3>Featured HowTo's</heading>
 
-Below, you will find 9 featured ''howto''. 
+Below, you will find our 9 daily featured ''howto''. 
 
-You can find the other via the search box.
+You can find the other via the [[:docs:menubar:search|search box]] by asking a question with the term ''how to''
 
 If you don't find an ''howto'', [[:support|contact us]]. We will gladly add it.
 
-\\
 \\
 \\
 
@@ -48,4 +48,17 @@ If you don't find an ''howto'', [[:support|contact us]]. We will gladly add it.
        </fragment>
     </masonry>
 </iterator>
+\\
+\\
+
+<box width="400" align="center">
+<heading h4>Showcase yourself and your brand</heading>
+
+Receive **free** news, tips, and tricks\\
+to create a **remarkable** experience for your readers. \\
+right into your inbox.\\
+<subscribe list-id="lis-w8OZSK2"/>
+</box>
+
+\\
 \\
