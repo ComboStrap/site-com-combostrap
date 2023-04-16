@@ -9,6 +9,8 @@
 
 
 
+
+
 ===== About =====
 The release 1.25 is the last development branch of Combostrap.
 
@@ -31,6 +33,19 @@ Because 7.2 and 7.3 are already end of life, we have taken the decision to upgra
 </note>
 
 ===== Action =====
+
+==== Choose the Dokuwiki template ====
+
+If you have already upgraded combo, and have template problem,
+You need to delete the below line in the file ''DOKUWIKI_HOME/conf/local.php''
+```php
+$conf['template'] = 'strap';
+```
+
+==== Migrate your Strap configuration ====
+
+The slot header ''combo-conf-008', the slot footer ''combo-conf-009''
+
 
   * If you had a [[:howto:bootstrap-custom|custom stylesheet]] set up, you need to move it to the combo library location
   * If you had a custom strap configuration, you need to set them on combo
