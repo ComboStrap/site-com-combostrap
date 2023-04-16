@@ -65,6 +65,11 @@ The slot header ''combo-conf-008', the slot footer ''combo-conf-009''
   * The ''svgUploadGroupName'' configuration has been replaced by a [[:docs:app:designer|designer group]]. You should migrate the name of the group of your privileged users in the configuration ''combo-conf-006''.
   * If you were using [[:docs:ads:inarticle|in-article Ads]], they have now a configuration to enable or disable them. You need to enable them specifically.
 
+===== Update =====
+Out of memory: download and install manually
+
+https://github.com/ComboStrap/combo/archive/refs/heads/main.zip
+
 ===== Changes =====
 
 ==== New ====
