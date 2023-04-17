@@ -70,6 +70,12 @@ Out of memory: download and install manually
 
 https://github.com/ComboStrap/combo/archive/refs/heads/main.zip
 
+===== Important =====
+
+If you don't want to see error, in your log you should escape the following:
+  * all xml/html tag: for performance reason, we capture them all.
+  * the ''%%$%%'' sign as a page is now a whole template we capture all ''%%$name%%'' or ''%%${name}%%'' variables.
+
 ===== Changes =====
 
 ==== New ====
