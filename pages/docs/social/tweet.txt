@@ -12,7 +12,6 @@
 A ''tweet'' is a [[..:component|component]] that renders a tweet (called also embedded tweet) in your pages.
 
 
-<badge>Since [[release:release#version_112|version 1.12]]</badge>
 ===== Syntax =====
 
 A ''tweet'' is a [[..:block:blockquote|blockquote]]:
@@ -77,7 +76,7 @@ and without any content.
 
 <webcode name="Default" frameborder="0" >
 <code dw>
-<blockquote tweet lang="fr" width="300px" cards="hidden" align="center" theme="dark">
+<blockquote lang="fr" width="300px" cards="hidden" align="center" theme="dark">
 <cite>[[https://twitter.com/combostrapweb/status/1357699797541601286]]</cite>
 </blockquote>
 </code>
@@ -113,7 +112,7 @@ Values:
 
 ===== HTML =====
 
-If you accepts [[doku>config:htmlok|HTML]] in your page, you can embedded them directly.
+If you accepts HTML in your page via a HTMLOk Plugin, you can embedded them directly.
 
 <note>
 This is not the recommended way because:

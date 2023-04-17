@@ -79,10 +79,10 @@ The true work does not reveal itself until you get into.
 </webcode>
 
 ==== With a class ====
-As a [[docs:marki|superset HTML element]], you can add your own [[docs:styling:class|class]] or [[docs:styling:style|style]]
+As a [[docs:marki|superset HTML element]], you can add your own [[docs:styling:class|class]].
 <webcode name="Default">
 <code dw>
-<blockquote class="p-4 m-4 mx-auto" style="border-color:blue;max-width:400px">
+<blockquote class="p-4 m-4 mx-auto" border-color=blue width=400px>
 The true work does not reveal itself until you get into.
 <cite>Nico</cite>
 </blockquote>
@@ -145,7 +145,7 @@ A Blockquote is wrapped by default in a [[card|card]]
 </blockquote>
 
 <blockquote>
-A Blockquote without [[cite|citation]].
+A Blockquote without [[:docs:content:cite|citation]].
 
 {{::teaser_image_2.jpg}}
 </blockquote>
