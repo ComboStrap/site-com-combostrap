@@ -142,6 +142,12 @@ The ''layout'' metadata has been renamed to ''template''.
   * We support only php 7.4 (due to our dependencies), up to 8 (due to dokuwiki). More information, in the [[:support:requirement#php|requirement page]]
   * The empty tag should be close (ie ''%%<hr>%%'' should be written ''%%<hr/>%%'', ie the HTML format has been deprecated for the XML format)
   * [[https://www.php.net/manual/en/function.strftime.php|strftime]] has been deprecated by ''php'' (not our decision). The only alternative with local is [[https://www.php.net/manual/en/intldateformatter.format.php|format]]
+  * If you have a xml like syntax in a list, it will break. We can't really do anything about it because the list is a dokuwiki component. what you can do is list them with the following bash.
+```bash
+grep 'The display of the call with the mode (list' /dokuwiki_home/data/cache/debug.log | awk '{print $NF}' | awk '!a[$0]++' | sort
+```
+
+
 
 ==== Deprecation removed ====
 
