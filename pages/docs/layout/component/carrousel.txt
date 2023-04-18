@@ -44,24 +44,25 @@ This example shows you a carrousel of [[docs:content:image|image]] known also as
 
 With the [[docs:templating:iterator|template iterator]], you can create dynamically the children that you want to show.
 
+
 Example with all pages that are in the layout path.
-<webcode name="Default" frameborder="0">
+<webcode name="Default">
   * The iterator with the data node that uses the [[docs:templating:sql|page sql]] to select the pages
 <code dw>
 <iterator>
     <data>select where path like "%layout%" order by title asc limit 10</data>
 
-    <heading h4 text-align="center" spacing="mb-3"> The pages talking about layout in ComboStrap </heading>
+    <heading h4 align="text-center" spacing="mb-3"> The pages talking about layout in ComboStrap </heading>
     <carrousel element-width="250px">
-        <template>
+        <fragment>
             <card clickable>
             <page-image path="$path" ratio="16:9"/>
             == $title ==
-            <itext color="muted"><date format="%h %d - %H:%M">$date_modified</date></itext>
+            <itext color="muted">${date_modified | format("eeee dd-MM KK:mm")}</itext>
 
-            <pipeline>"$description" | head(200,"...")</pipeline> [[$path| ]]
+            ${description" | head(200,"...")} [[$path| ]]
             </card>
-        </template>
+        </fragment>
     </carrousel>
 </iterator>
 </code>

@@ -10,6 +10,21 @@
 This page lists the standard steps that need to be taken in order to update your ComboStrap installation
 
 
-For each new release, we recommend the following steps:
-  * [[howto:getting_started:2_combo|update combo]]
-  * refresh the index with the [[support:plugin#search_index_manager|Search Index Manager]].
+For each new release, there are two steps to perform:
+  * Updating the combo plugin
+  * Refreshing the index
+
+===== Steps =====
+==== How to update the combo plugin? ====
+
+Because of the [[:support:update|memory error]], the Combo plugin needs to be updated manually via the ''manual install'' tab.
+
+  * In the [[doku>plugin:extension|extension manager]], click on the ''manual install'' tab
+  * Enter the Github Url: ''https://github.com/ComboStrap/combo/archive/main.zip''
+  * Check the box ''Overwrite existing files''
+  * And click the ''install'' button.
+
+{{:support:extension-manager-dokuwiki-manual-install.png|}}
+==== How to refresh the index? ====
+
+To refresh the index, you should install and use the [[support:plugin#search_index_manager|Search Index Manager]].

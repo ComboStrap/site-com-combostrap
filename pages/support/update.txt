@@ -26,14 +26,7 @@ More info has been written to the DokuWiki error log.
 
 To resolve this error, you need to update the Combo plugin manually via the ''manual install'' tab.
 
-  * in the [[doku>plugin:extension|extension manager]], click on the ''manual install'' tab
-  * Enter the Github Url: https://github.com/ComboStrap/combo/archive/refs/heads/main.zip
-  * Check the box ''Overwrite existing files''
-  * And click the ''install'' button.
-
-{{:support:extension-manager-dokuwiki-manual-install.png|}}
-
-
+This step is explained in the [[:release:update|update documentation]].
 ==== Why do we get this error? ====
 
 The update script of DokuWiki scan the directories and update file by file. You even need to list the [[doku>install:unused_files|unused/deleted file]] otherwise they are not deleted.

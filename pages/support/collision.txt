@@ -1,0 +1,30 @@
+====== How to resolve a Page Collision on the page id?  ======
+
+
+
+===== Problem =====
+When replicating pages between Combostrap applications, you may encounter this error.
+<console>
+The page (xxxx) and the page (xxxx) have the same page id value (xxx)
+</console>
+
+===== Resolution =====
+To resolve this error, you need to synchronize the database with the file system.
+
+On the server where Combostrap is installed, you should run this command:
+  * for a single installation
+<code bash>
+cd $DOKUWIKI_HOME
+php ./bin/plugin.php combo sync
+</code>
+  * for a farm
+<code bash>
+cd $DOKUWIKI_HOME
+animal=example.com php ./bin/plugin.php combo sync
+</code>
+
+
+
+If this solution does not work, we are really sorry. You can [[:support|open a ticket]] if you want us to help you.
+
+

@@ -11,19 +11,11 @@
 
 
 ===== About =====
-The latest release is the release [[1.24|1.24]]
+The latest release is the release [[1.25|1.25]]
 
-For all news and modifications, you should go to the release page [[1.24]].
-
-
+For all news and modifications, you should go to the release page [[1.25]].
 
 
 
 
 The standard update steps can be found on this [[update|page]].
-
-
-===== Current =====
-
-The current development branch is the [[1.25|1.25]].
-
