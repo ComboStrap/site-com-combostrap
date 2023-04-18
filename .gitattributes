@@ -1,13 +1,10 @@
-## GITATTRIBUTES FOR WEB PROJECTS
+##
+# Image may be impacted for image when they are seen as text
+# because of an EOL dfference between Windows and Linux
 #
-# These settings are for any web project.
-#
-# Details per file setting:
-#   text    These files should be normalized (i.e. convert CRLF to LF).
-#   binary  These files are binary and should be left untouched.
-#
-# Note that binary is a macro for -text -diff.
-######################################################################
+# This file defines the extensions that are binary
+# so that Git does not see them as text file
+##
 
 # Auto detect
 ##   Handle line endings automatically for files detected as
@@ -34,10 +31,7 @@
 *.psb             binary
 *.psd             binary
 # SVG treated as an asset (binary) by default.
-*.svg             text
-# If you want to treat it as binary,
-# use the following line instead.
-# *.svg           binary
+*.svg             text eol=lf
 *.svgz            binary
 *.tif             binary
 *.tiff            binary
