@@ -97,7 +97,24 @@ Example
 
   * If you used the `mermaid` tag, you should change replace it by [[:docs:utility:webcode|webcode]]. A bug has been introduced with the `mermaid` release. The mermaid tag was never intended to be used.
 
+==== Content Header Slot ====
 
+With the [[:docs:theme:theme|theme feature]], the [[:docs:theme:slot:main_header_slot|content header slot]] is now responsible for the [[:docs:content:heading|heading]]. 
+
+If you add set only the [[:docs:navigation:hierarchical_breadcrumb|breadcrumb]].
+<code dw>
+<breadcrumb/>
+</code>
+you should now change it to add at minimum your [[:docs:content:heading|heading]].
+
+Example:
+<code dw>
+<heading h1>$title</heading>
+<text lead display="none-if-empty">$lead</text>
+<page-image featured height="250" ratio="21:9" linking="default" default="icon|ancestor|logo" lazy="none"/>
+</code>
+
+Click on the [[:docs:theme:slot:slot_manager|slot manager]], choose the content header, and modify it.
 ==== Follow the default update procedure ====
 
 From there, you should follow the default [[release:update|update procedure]]. 
