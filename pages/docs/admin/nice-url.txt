@@ -27,21 +27,22 @@ This URL has technical information (ie the name of the script ''doku.php'') that
 
 https://combostrap.com/url/nice
 
-===== How to get nice URL =====
-Dokuwiki has an article about this topic: More see [[doku>rewrite]]
+===== How to get Nice URL? =====
 
-<note>
-''ComboStrap'' can't  rewrite the URL to use the script ''doku.php''
+You should select the ''htaccess'' [[doku>rewrite|rewrite Dokuwiki]] option.
 
-
-but it can [[docs:router:transparent|show page at different paths]].
-
-**Example:** because this page has the ''nice:url'' [[docs:page:canonical|canonical value]], the page is also available at:
-
-https://combostrap.com/nice/url
+''htaccess'' is a misleading option name as it just means that the web server is configured to do the rewrite. We personally use Nginx.
 
 
-</note>
+===== What Combostrap can do with URL? =====
+
+''ComboStrap'' can't  rewrite the URL to use the script ''doku.php'' as it depends on it.
+
+But Combostrap can [[docs:router:transparent|show page at different URL]] 
+
+**Example:** because this page has the ''nice:url'' [[docs:page:canonical|canonical value]], the page is also available at: https://combostrap.com/nice/url
+
+
 
 
 ===== Important Configuration =====

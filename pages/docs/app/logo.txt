@@ -74,3 +74,5 @@ To create and install your logo, you should follow the [[howto:getting_started:6
 | slices | Recognizable even when only seeing a small part of it |
 | app icon | Render as icon app on a mobile device. |
 | attention | Attention comparison with other logo |
+
+

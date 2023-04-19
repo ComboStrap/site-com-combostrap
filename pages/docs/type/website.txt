@@ -41,3 +41,18 @@ You can set more metadata yourself:
 
 We add also the [[docs:app:search|internal search engine]] that implements the [[https://developers.google.com/search/docs/data-types/sitelinks-searchbox|links searchbox]] in [[docs:social:google|google rich result]]. 
 
+Example of [[docs:social:google|google rich result]] that goes into your page to advertise your [[docs:app:search|internal search engine]]
+<code json>
+{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "url": "http://example.com/",
+    "name": "My Application Name",
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": "http://example.com/doku.php?do=search&amp;id={search_term_string}",
+        "query-input": "required name=search_term_string"
+    },
+    "image": "http://example.com/lib/exe/fetch.php?media=logo.png",
+}
+</code>

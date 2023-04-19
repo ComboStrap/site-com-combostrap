@@ -80,6 +80,13 @@ The [[docs:social:facebook|facebook page]] will tell your more about the specifi
 {{strap:favicon_verification.png|}}
 
 
+==== OpenSearch Favicon ====
+
+In the [[docs:app:search|open search]], unfortunately, the icon is the icon of the template and is [[https://github.com/dokuwiki/dokuwiki/blob/master/lib/exe/opensearch.php#L17|hardcoded]], there is nothing we can do to change it at this place.
+We still advertise it via [[:docs:type:website#internal_search_engine|sitelinks]] to search engines.
+
+If you want it also at this place, you need to put it manually on the server at ''%%$DOKUWIKI_HOME/lib/tpl/dokuwiki/images/favicon.ico%%''.
+
 ==== Next Step ====
 
 <btn color="white">
