@@ -15,7 +15,7 @@
     <grid>
             <box spacing="ps-lg-5" width=60%>
                <box>
-<heading d4 spacing="mb-3">Overcome your **Fear** of Writing and **Increase** your **Visibility**</heading>
+<heading d4 spacing="mb-3">Overcome your **Fear** of Writing and **Become** a **Leader** in your field</heading>
 <text h3 boldness="light">We create Knowledge Bases that are easy to Publish</text>
 <text lead>
 Create landing pages, articles, how-to's, documentation, or knowledge base with the power of the web and the simplicity of a markup language.
