@@ -15,7 +15,7 @@
     </box>
     <text>Hy,</text>
     <text>Thanks for stopping by.</text>
-    <text>In this newsletter, you get **free** news, tips, and tricks\\ to create a **remarkable** experience for your readers.</text>
+    <text>Receive news, tips, and tricks on ComboStrap \\ to create a **professional** and **remarkable** experience.</text>
     <text>Best, \\ Nico</text>
     <subscribe list-id="lis-w8OZSK2"/>
 </box>

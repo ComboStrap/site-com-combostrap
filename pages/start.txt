@@ -13,10 +13,10 @@
 <bar hero="lg"  >
     <background opacity="0.4">{{ :combostrap:background:object-multicolor.svg |}}</background>
     <grid>
-            <box spacing="ps-lg-5">
+            <box spacing="ps-lg-5" width=60%>
                <box>
-<heading d3 class="text-capitalize">Create your professional website</heading>
-<text h3 class="text-capitalize" boldness="light">Web Publication Platform Since 2010</text>
+<heading d4 spacing="mb-3">Overcome your **Fear** of Writing and **Increase** your **Visibility**</heading>
+<text h3 boldness="light">We create Knowledge Bases that are easy to Publish</text>
 <text lead>
 Create landing pages, articles, how-to's, documentation, or knowledge base with the power of the web and the simplicity of a markup language.
 </text>
