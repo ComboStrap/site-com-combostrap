@@ -25,8 +25,14 @@
 ==== Pre-requisites and options not supported ====
 
 
-  * **Last Dokuwiki Version**: In case, you have not followed the [[howto:getting_started:1_dokuwiki|dokuwiki step]], you should install ''ComboStrap'' on the last DokuWiki version. If you don't know the version of your installation, the [[1_dokuwiki#dokuwiki_version_check|dokuwiki version check]] will help you.
-  * **DokuWiki Internal rewriting**: Combostrap does not the [[doku>rewrite#option_1web_server|URL DokuWiki Internal rewriting]] because of the [[:docs:page:url|permanent url functionality]] but supports [[https://combostrap.com/admin/nice-url-noln5keo|nice url via the web server]]
+**Last Dokuwiki Version**: \\
+In case, you have not followed the [[howto:getting_started:1_dokuwiki|dokuwiki step]], you should install ''ComboStrap'' on the last DokuWiki version. \\
+If you don't know the version of your installation, the [[1_dokuwiki#dokuwiki_version_check|dokuwiki version check]] will help you.
+
+**DokuWiki Internal rewriting**: \\
+Because of the [[:docs:page:url|permanent url functionality]], Combostrap:
+      * does not support the [[doku>rewrite#option_1web_server|URL DokuWiki Internal rewriting]] 
+      * but supports [[https://combostrap.com/admin/nice-url-noln5keo|nice url via the web server]]
 
 ==== Go to the Extension Manager ====
 
