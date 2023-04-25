@@ -15,10 +15,10 @@
     <grid>
             <box spacing="ps-lg-5" width=60%>
                <box>
-<heading d4 spacing="mb-3">Overcome your **Fear** of Writing and Increase your **Visiblity** with Publishing</heading>
+<heading d4 spacing="mb-3">Hackers, Don't stay **Behind**, gain **Visibility** and **Opportunities** from your **Writings**</heading>
 <text h3 boldness="light">The next generation writing platform </text>
 <text lead width="500">
-ComboStrap supports you along the way from information gathering to proper publication.
+ComboStrap supports you along the way, from information gathering to proper publication.
 </text>
                </box>
             </box>
@@ -27,6 +27,7 @@ ComboStrap supports you along the way from information gathering to proper publi
             </box>
 </grid>
 </bar>
+
 
 
 <bar hero="lg"  background-color="light">

@@ -22,10 +22,12 @@
 
 ===== Steps =====
 
-==== DokuWiki Pre-requisites ====
-In case, you have not followed the [[howto:getting_started:1_dokuwiki|dokuwiki step]], you should install ''ComboStrap'' on the last dokuwiki version.
+==== Pre-requisites and options not supported ====
 
-If you don't know the version of your installation, the [[1_dokuwiki#dokuwiki_version_check|dokuwiki version check]] will help you.
+
+  * **Last Dokuwiki Version**: In case, you have not followed the [[howto:getting_started:1_dokuwiki|dokuwiki step]], you should install ''ComboStrap'' on the last DokuWiki version. If you don't know the version of your installation, the [[1_dokuwiki#dokuwiki_version_check|dokuwiki version check]] will help you.
+  * **DokuWiki Internal rewriting**: Combostrap does not the [[doku>rewrite#option_1web_server|URL DokuWiki Internal rewriting]] because of the [[:docs:page:url|permanent url functionality]] but supports [[https://combostrap.com/admin/nice-url-noln5keo|nice url via the web server]]
+
 ==== Go to the Extension Manager ====
 
 To install the ''Combo'' plugin:
@@ -61,11 +63,14 @@ If this is the case and that you got your installation not working anymore, the 
 And to [[:support|send us the log of your webserver]] if you want us to take a look.
 ==== Install the Combo extension ====
 
-  * Search for the term ''Combo''
-  * Click on the ''install'' button.
+Because of the [[:support:update|memory error of the update plugin]], Combo needs to be updated manually via the ''manual install'' tab.
 
-{{howto:getting_started:combo_install_via_extension_manager.png|}}
+  * In the [[doku>plugin:extension|extension manager]], click on the ''manual install'' tab
+  * Enter the Github Url: ''https://github.com/ComboStrap/combo/archive/main.zip''
+  * Check the box ''Overwrite existing files''
+  * And click the ''install'' button.
 
+{{:support:extension-manager-dokuwiki-manual-install.png|}}
 
 ===== Next Step =====
 
