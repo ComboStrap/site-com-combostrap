@@ -40,7 +40,6 @@ There is two groups of metadata:
   * [[..:page:title|Page title]] - a long name for the page
   * [[..:page:h1|H1]] - the first heading of the page
   * [[..:page:description|Description]] - a summary of the page
-  * [[docs:page:published|Date_published]]
   * [[:docs:theme:template:template|Template]] - the page layout
   * [[:docs:page:featured-image|Featured image]] - the page illustrations
   * [[:docs:page:featured-icon|Featured Icon]] - the page icon
@@ -77,6 +76,8 @@ The below properties are protected and cannot be changed:
 
 They allow internal:
 
+  * [[:docs:theme:template:template|Layout by page]]
+  * [[:howto:iterator-list|List of pages generation]]
   * [[docs:router:redirection|URL redirection processing]]
   * [[..:page:canonical_automatic|Automatic Canonical]]
   * [[docs:router:permalink|Permalink]]
