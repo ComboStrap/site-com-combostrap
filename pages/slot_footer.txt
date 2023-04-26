@@ -4,10 +4,10 @@
 <box width="50%">
 
 <text h4 ><icon name="logo.svg" spacing="mr-1" color="secondary"/>ComboStrap</text>
-<text lead>The leading web markup platform</text>
+<text lead class="text-capitalize">Transforming Your writing into your Best Asset since 2010</text>
 
 <text width="350px">
-Create web sites, publish landing pages, write articles, how-to's, documentations or build your knowledge base in simple markup language.
+Create websites, publish landing pages, write articles, how-to's, documentation or build your knowledge base in a simple markup language.
 </text>
 </box>
 

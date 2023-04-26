@@ -22,10 +22,18 @@
 
 ===== Steps =====
 
-==== DokuWiki Pre-requisites ====
-In case, you have not followed the [[howto:getting_started:1_dokuwiki|dokuwiki step]], you should install ''ComboStrap'' on the last dokuwiki version.
+==== Pre-requisites and options not supported ====
 
+
+**Last Dokuwiki Version**: \\
+In case, you have not followed the [[howto:getting_started:1_dokuwiki|dokuwiki step]], you should install ''ComboStrap'' on the last DokuWiki version. \\
 If you don't know the version of your installation, the [[1_dokuwiki#dokuwiki_version_check|dokuwiki version check]] will help you.
+
+**DokuWiki Internal rewriting**: \\
+Because of the [[:docs:page:url|permanent url functionality]], Combostrap:
+      * does not support the [[doku>rewrite#option_1web_server|URL DokuWiki Internal rewriting (option 2)]] 
+      * but supports [[https://combostrap.com/admin/nice-url-noln5keo|nice url via the web server]]
+
 ==== Go to the Extension Manager ====
 
 To install the ''Combo'' plugin:
@@ -52,24 +60,29 @@ To install the ''Combo'' plugin:
 
 This application has a large code base going from [[:docs:cache:cache|cache]] to [[docs:router:router|routing]] and [[docs:component|user interface]] management.
 
-Plugins that are too old or does not respect the DokuWiki Interfaces may not work well with ''ComboStrap''.
+Plugins that are too old or do not respect the DokuWiki Interfaces may not work well with ''ComboStrap''.
+
+==== Install the Combo extension ====
+
+Because of the [[:support:update|memory error of the update plugin]], Combo needs to be updated manually via the ''manual install'' tab.
+
+  * In the [[doku>plugin:extension|extension manager]], click on the ''manual install'' tab
+  * Enter the Github Url: ''https://github.com/ComboStrap/combo/archive/main.zip''
+  * Check the box ''Overwrite existing files''
+  * And click the ''install'' button.
+
+{{:support:extension-manager-dokuwiki-manual-install.png|}}
+
+==== Do you have a broken Installation? ====
 
 If this is the case and that you got your installation not working anymore, the fix is:
   * to rename on your server the directory ''dokuwiki/lib/plugins/combo'' to ''dokuwiki/lib/plugins/combo.old''
   * or to delete it
 
 And to [[:support|send us the log of your webserver]] if you want us to take a look.
-==== Install the Combo extension ====
-
-  * Search for the term ''Combo''
-  * Click on the ''install'' button.
-
-{{howto:getting_started:combo_install_via_extension_manager.png|}}
-
-
 ===== Next Step =====
 
-All good ? Well done, otherwise check the [[#do_you_have_any_other_plugins|other plugins section]] if you need to repair your installation.
+All good? Well done, otherwise check the [[#do_you_have_a_broken_installation|broken installation section]] if you need to recover your installation.
 
 <btn>
 [[4_plugin]]

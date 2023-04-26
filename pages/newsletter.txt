@@ -1,16 +1,21 @@
 ---json
 {
+    "description": "The newsletters of ComboStrap: receive news, tips, and tricks on how to create a professional and remarkable experience for your readers.",
+    "featured-raster-image": ":undraw_newsletter_re_wrob.png",
+    "featured-svg-image": ":undraw_newsletter_re_wrob.svg",
     "low_quality_page": "false",
-    "page_id": "pmtxf7229udd3ocfyriwf"
+    "page_id": "pmtxf7229udd3ocfyriwf",
+    "title": "Newsletter"
 }
 ---
-\\
-\\
 
+
+\\
+\\
 <box width="400px" align="center">
     <box align="text-center"> 
        <heading 1>ComboStrap Newsletters</heading>
-       <text lead>Showcase yourself and your brand</text>
+       <text lead>Learn how to showcase \\ yourself and your brand</text>
            {{:nico_gravatar.jpeg?90&class=rounded-circle|}}
     </box>
     <text>Hy,</text>
