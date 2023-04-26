@@ -1,11 +1,15 @@
 ---json
 {
+    "cache_expiration_frequency": "@daily",
     "description": "Advertise yourself, your documentation or your company with a product that makes a qualitative website design, creation and management, unique, easy and fun",
     "dynamic_quality_monitoring": "false",
+    "featured-raster-image": ":undraw_icon_design_re_9web.png",
+    "featured-svg-image": ":undraw_icon_design_re_9web.svg",
     "keywords": "bootstrap,dokuwiki,documentation,website,frontend,landing page",
-    "layout": "landing",
+    "low_quality_page": "false",
     "name": "Home",
     "page_id": "i9tisp0vsttpkjs46av1o",
+    "template": "landing",
     "title": "ComboStrap - Create your web footprint that lasts ForEver "
 }
 ---
@@ -23,7 +27,7 @@ ComboStrap supports you along the way, from information gathering to proper publ
                </box>
             </box>
             <box align="x-center y-center">
-{{ :undraw_content_creator.svg?500&nolink |}}
+{{ ::undraw_icon_design_re_9web.svg?300&nolink |}}
             </box>
 </grid>
 </bar>
