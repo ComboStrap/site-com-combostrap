@@ -27,11 +27,24 @@ This URL has technical information (ie the name of the script ''doku.php'') that
 
 https://combostrap.com/url/nice
 
-===== How to get Nice URL? =====
+===== How to get a Nice URL? =====
 
-You should select the ''htaccess'' [[doku>rewrite|rewrite Dokuwiki]] option.
 
-''htaccess'' is a misleading option name as it just means that the web server is configured to do the rewrite. We personally use Nginx.
+You should:
+  * first, [[doku>rewrite#option_1web_server|configure your web server]]
+  * then choose the following [[:docs:app:configuration|configuration]]:
+      * the ''htaccess'' [[doku>rewrite|rewrite Dokuwiki]] option.
+      * the [[doku>useslash|useSlash]] option.
+
+Example:
+
+{{:docs:admin:nice-url-parameters.jpg|}}
+
+\\
+\\
+''htaccess'' is a misleading option name 
+as it just means that the web server is configured to do the rewrite. 
+You can configure any webserver, not only Apache. We personally use Nginx.
 
 
 ===== What Combostrap can do with URL? =====
