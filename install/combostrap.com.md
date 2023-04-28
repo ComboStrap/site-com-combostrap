@@ -1,6 +1,8 @@
 # Server
 
 
+## Symlinks
+
 ```bash
 FQDN=combostrap.com
 ln -s /opt/www/git/${FQDN}/pages /opt/www/bytle/farmer-animals/${FQDN}/data/pages
@@ -9,7 +11,7 @@ mkdir -p /opt/www/bytle/farmer-animals/${FQDN}/data/combo/theme/
 ln -s /opt/www/git/${FQDN}/theme /opt/www/bytle/farmer-animals/${FQDN}/data/combo/theme/combo
 ```
 
-# Configuration
+## Configuration
 
 Installation if changed in the repo
 ```

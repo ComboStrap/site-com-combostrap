@@ -11,5 +11,5 @@
 ## For environment
 
 
-* [combo.nico.lan](nico.lan.md)
+* [combo.nico.lan](combo.nico.lan.md)
 * [combostrap.com](combostrap.com.md)
