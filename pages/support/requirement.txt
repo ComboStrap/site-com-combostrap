@@ -13,7 +13,7 @@ This articles lists the installation prerequisites of [[:combostrap|ComboStrap]]
 ===== List =====
 ==== Php ====
 
-ComboStrap supports the ''php'' version 7.4 up to php 8.0 **not included** because it's not yet supported by [[https://github.com/splitbrain/dokuwiki/issues/3399|Dokuwiki]]
+ComboStrap supports the ''php'' version 7.4 up to 8.2.
 
 
 <note warning>

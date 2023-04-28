@@ -1,0 +1,17 @@
+====== Release 1.25.1 ======
+
+
+===== About =====
+This version brings the compatibility with [[:support:requirement#php|php version 8]] above the [[release:1.25|release 1.25]].
+
+
+
+
+All 1000 tests and 3600 assertions [[https://github.com/ComboStrap/combo/actions/runs/4831287472|have run successfully]].
+
+{{:release:release_1251_success.jpg|}}
+
+===== How to upgrade? =====
+
+  * If you are not on version 1.25, check the release [[1.25|1.25 documentation]].
+  * From version, 1.25 and onwards, the update should be manually done. Check the [[:release:update|update documentation]]

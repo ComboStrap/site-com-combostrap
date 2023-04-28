@@ -30,4 +30,4 @@
   
 
 They are known as content components because they add content to your page.
-The other big category of the component are [[:docs:layout:component:start|layout component]] which lay your content out.
+The other big category of the component is [[:docs:layout:component:start|layout component]] which lay your content out.

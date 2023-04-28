@@ -14,7 +14,7 @@
 
 
 ===== About =====
-''grid'' is a component that permits to distribute the horizontal space in a responsive fashion. 
+''grid'' is a component that permits to distribute the horizontal space in a responsive fashion (ie suitable for mobile screen). 
 
 The children:
   * will go to a new line in a centered position (by default) if the previous sibling takes more than 100% space (creating a grid)
@@ -71,11 +71,11 @@ The default  [[:docs:styling:breakpoint|breakpoint]] is the ''small'' breakpoint
 A width value of ''25%'' is then equivalent to ''100%-xs 25%-sm''. It means than on mobile screen (''xs'' breakpoint) each box takes the whole available line space and are therefore stacked.
 </note>
 
-==== How to split the available space with a ratio ? ====
+==== How to split the available space with a ratio? ====
 
 You can even define the space distribution by giving a ratio on the [[:docs:styling:dimension|width]]
 
-This example splits the space in 3 via 3 children that have respectively the following space available:
+This example splits the space into 3 via 3 children that have respectively the following space available:
   * ''1:4'' (25%)
   * ''1:2'' (50%)
   * ''1:4'' (25%)
@@ -113,8 +113,30 @@ This example splits the space in 3 via 3 children that have respectively the fol
 <note>
 The default  [[:docs:styling:breakpoint|breakpoint]] is the ''small'' breakpoint 
 
-A width value of ''1:3'' is then equivalent to ''1-xs 1:3-sm''. It means than on mobile screen (''xs'' breakpoint) each cell takes the whole available line space and are therefore stacked.
+A width value of ''1:3'' is then equivalent to ''1-xs 1:3-sm''. It means that on mobile screen (''xs'' breakpoint) each cell takes the whole available line space and is therefore stacked.
 </note>
+
+==== How to center the content vertically? ====
+
+The grid component is well-suited for vertical and horizontal alignment.
+
+By default, the content is stacked to the top but if you want it to be vertically centered, you can use the [[:docs:styling:align|children values of the align attribute]].
+
+Example:
+  * The grid takes the height of the image
+  * The text is located at the center thanks to ''y-center-children''
+<webcode name="Default" frameborder="0">
+<code dw>
+<grid align="y-center-children">
+  <box align="text-end">
+     <heading d3>Headline</heading>
+     <text lead>Lead</text>
+  </box>
+  <box>{{:docs:block:stock_image_surfer_in_the_see.png?400|}}</box>
+</grid>
+</code>
+</webcode>
+
 
 
 ===== Syntax =====
