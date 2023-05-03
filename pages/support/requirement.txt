@@ -51,6 +51,8 @@ extension=gd2
 <code bash>
 # ubuntu, ...
 sudo apt-get install php-xml php-pdo-sqlite php-mbstring php-openssl php-intl php-gd2
+# unbuntu 8.1
+sudo apt-get install php8.1-xml ...
 # centos, redhat
 sudo yum install php-xml php-pdo-sqlite php-mbstring php-openssl php-intl php-gd2
 </code>
