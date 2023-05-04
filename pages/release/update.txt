@@ -27,4 +27,6 @@ Because of the [[:support:update|memory error]], the Combo plugin needs to be up
 {{:support:extension-manager-dokuwiki-manual-install.png|}}
 ==== How to refresh the index? ====
 
-To refresh the index, you should install and use the [[support:plugin#search_index_manager|Search Index Manager]].
+To refresh the index, you can do it:
+  * from a web page, with the [[support:plugin#search_index_manager|Search Index Manager]].
+  * from the terminal on the server (quicker) [[:docs:analytics:replication#cli|with the combo cli]] ''metadata-to-database'' command.
