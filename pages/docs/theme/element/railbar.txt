@@ -39,6 +39,15 @@ You can cache the ''railbar'' from anonymous users with the  ''privateRailbar'' 
 When this configuration is on, you can log in again at: https://yourdomain.com/?do=login
 
 
+
+For [[:docs:seo:seo|indexing and SEO reason]], when the ''railbar'' is private, the following actions are unavailable:
+  * the [[doku>media manager|Media Manager]] 
+  * the [[doku>diff|diff view]]
+  * the [[doku>recent_changes|recent changes]]
+
+You will not get the ''Excluded By No Index Tag'' report.
+
+{{:docs:theme:element:excluded_by_noindex_tag_google_console.jpg?400|}}
 ==== breakpointRailbar ====
 
 The ''railbar'' comes in two layout:

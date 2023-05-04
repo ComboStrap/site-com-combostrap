@@ -40,7 +40,7 @@ If you don't have the last version, we recommend to install the [[https://www.do
 If you don't have a Dokuwiki Instance, you can install it as follow:
   * [[https://download.dokuwiki.org/|Download the last Dokuwiki]], 
   * Verify that your php server has the [[support:requirement|minimum requirements]]:
-      * [[support:requirement#php|php version supported]]: ''7.4'' to ''8.2''</inote>
+      * [[support:requirement#php|php version supported]]: ''7.4'' to ''8.2''
       * and [[support:requirement#moduleextension|php extensions]]
   * Upload the zip file to your web server 
   * Unzip it to your web directory

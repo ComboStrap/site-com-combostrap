@@ -1,0 +1,27 @@
+====== Release 1.25.2 ======
+
+
+
+
+
+===== Modification =====
+  * A private [[:docs:theme:element:railbar|railbar]] disallow the media manager and the diff action to avoid the SEO indexing warning: ''Excluded By No Index Tag''.
+
+{{:docs:theme:element:excluded_by_noindex_tag_google_console.jpg?400|}}
+
+  * Permanent Redirect from the [[:docs:router:router|router]] does not get any query string anymore  to avoid the SEO indexing warning: ''Alternative page with proper canonical tag''
+
+===== Bug =====
+
+==== TaskRunner eating all  memory ====
+
+The  ''Taskrunner'' process may run multiple times concurrently eating all memory. Only the indexer has now a lock
+See [[https://forum.dokuwiki.org/d/21044-taskrunner-running-multiple-times-eating-the-memory-lock/2|taskrunner-running-multiple-times-eating-the-memory-lock]]. We have therefore added a lock to run our event system sequentially.
+
+<console>
+ Pid Cpu Mem
+2198 75 1 Running /lib/exe/taskrunner.php?id=infra%3Aansible%3Astatus&1682671302
+1179 44 8 Running /lib/exe/taskrunner.php?id=dat%3Aobiee%3Aobis%3Acast_as_date&1682686473
+2166 44 8 Running /lib/exe/taskrunner.php?id=data_mining%3Af_statistic&1682713733
+2181 25 8 Running /lib/exe/taskrunner.php?id=data%3Atype%3Acube%3Amodeling%3Amodeling&1682705762
+</console>

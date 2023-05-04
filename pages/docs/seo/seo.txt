@@ -95,6 +95,15 @@ The Combostrap page renders automatically as card in:
   * [[docs:social:google|Google]]
   * and any open graph network such as [[docs:social:telegram|telegram]], signal, ...
 
+
+==== Indexing Warnings ====
+
+To reduce indexing warnings by the search engine, we disable actions when the [[:docs:theme:element:railbar#privaterailbar|railbar is private]].
+
+
+For instance, the search engine would index the [[doku>media_manager|media manager]] and returns a bunch of ''Excluded By No Index Tag''.
+
+{{:docs:theme:element:excluded_by_noindex_tag_google_console.jpg?400|}}
 ==== Web Core Vital ====
 
 The web core vitals are the most critical SEO metrics.
