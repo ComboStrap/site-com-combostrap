@@ -11,6 +11,7 @@
 
   * Permanent Redirect from the [[:docs:router:router|router]] does not get any query string anymore  to avoid the SEO indexing warning: ''Alternative page with proper canonical tag''
 
+  * The [[:docs:analytics:syntax_count|syntax analytics]] does not show the component anymore but the tag. Why? To improve performance, we capture all [[:docs:marki|combo markup]] with one syntax, the tag was not part anymore of the component and was always ''combo_xmltag''. We show know the tag for better analytics.
 ===== Bug =====
 
 ==== TaskRunner eating all  memory ====
