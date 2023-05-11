@@ -26,3 +26,7 @@ See [[https://forum.dokuwiki.org/d/21044-taskrunner-running-multiple-times-eatin
 2166 44 8 Running /lib/exe/taskrunner.php?id=data_mining%3Af_statistic&1682713733
 2181 25 8 Running /lib/exe/taskrunner.php?id=data%3Atype%3Acube%3Amodeling%3Amodeling&1682705762
 </console>
+
+==== Boolean Values were not written ====
+
+See [[https://github.com/ComboStrap/combo/issues/61|Issue 61]]
