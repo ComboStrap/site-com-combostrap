@@ -1,5 +1,6 @@
 ---json
 {
+    "canonical": ":analytics:replication",
     "description": "The analysis and replication of a webpage are the cornerstones of the quality and performance of a page. This page explains how this is done.",
     "name": "Database Replication",
     "page_id": "670cgbvcwnweskpj0g3j5",

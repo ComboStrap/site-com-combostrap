@@ -4,17 +4,38 @@
 
 
 
-===== Modification =====
-  * A private [[:docs:theme:element:railbar|railbar]] disallow the media manager and the diff action to avoid the SEO indexing warning: ''Excluded By No Index Tag''.
+
+====== Release 1.25.2 ======
+
+
+
+===== About =====
+This page is about the details of the release 1.25.2
+
+===== Breaking modification =====
+
+The [[:docs:analytics:syntax_count|syntax analytics]] does not show the component anymore but the tag. Why? To improve performance, we capture all [[:docs:marki|combo markup]] with one syntax, the tag was not part anymore of the component and was always ''combo_xmltag''. We show know the tag for better analytics.
+
+===== Improvements =====
+
+==== Private Toolbar disallow media manager and diff action ====
+
+A private [[:docs:theme:element:railbar|railbar]] disallow the media manager and the diff action to avoid the SEO indexing warning: ''Excluded By No Index Tag''.
 
 {{:docs:theme:element:excluded_by_noindex_tag_google_console.jpg?400|}}
 
-  * Permanent Redirect from the [[:docs:router:router|router]] does not get any query string anymore  to avoid the SEO indexing warning: ''Alternative page with proper canonical tag''
+==== No query string for permanent redirection ====
 
-  * The [[:docs:analytics:syntax_count|syntax analytics]] does not show the component anymore but the tag. Why? To improve performance, we capture all [[:docs:marki|combo markup]] with one syntax, the tag was not part anymore of the component and was always ''combo_xmltag''. We show know the tag for better analytics.
-===== Bug =====
+Permanent Redirect from the [[:docs:router:router|router]] does not get any query string anymore  to avoid the SEO indexing warning: ''Alternative page with proper canonical tag''
 
-==== TaskRunner eating all  memory ====
+
+
+==== No default for the webcode toolbar button ====
+
+The [[:docs:utility:webcode|webcode toolbar]] does not have any default anymore.
+
+
+==== TaskRunner lock ====
 
 The  ''Taskrunner'' process may run multiple times concurrently eating all memory. Only the indexer has now a lock
 See [[https://forum.dokuwiki.org/d/21044-taskrunner-running-multiple-times-eating-the-memory-lock/2|taskrunner-running-multiple-times-eating-the-memory-lock]]. We have therefore added a lock to run our event system sequentially.
@@ -27,6 +48,17 @@ See [[https://forum.dokuwiki.org/d/21044-taskrunner-running-multiple-times-eatin
 2181 25 8 Running /lib/exe/taskrunner.php?id=data%3Atype%3Acube%3Amodeling%3Amodeling&1682705762
 </console>
 
+
+It was not sufficient, we have added a lock on the whole ''taskrunner'' process because it was eating all the memory. 
+
+===== Bug =====
+
+
 ==== Boolean Values were not written ====
 
 See [[https://github.com/ComboStrap/combo/issues/61|Issue 61]]
+
+==== Replication date was always empty on the metadata manager ====
+
+
+The replication date is the only metadata written to the database and not on the disk. This difference was not taken into account when sending data to the [[:docs:metadata:manager|metadata manager]].
