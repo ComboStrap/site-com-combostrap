@@ -1,9 +1,13 @@
 ---json
 {
+    "aliases": [
+        { "path": ":wiki:markup_docs:seo" }
+    ],
     "canonical": ":seo",
     "featured-raster-image": ":docs:seo:undraw_growth_chart_r99m.png",
     "featured-svg-image": ":docs:seo:undraw_growth_chart_r99m.svg",
     "lead": "Focus on your content, we focus on SEO",
+    "low_quality_page": "false",
     "page_id": "5kycre4bgxlof2wk2c8so",
     "template": "holy"
 }

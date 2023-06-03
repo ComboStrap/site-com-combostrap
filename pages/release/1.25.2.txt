@@ -49,7 +49,24 @@ See [[https://forum.dokuwiki.org/d/21044-taskrunner-running-multiple-times-eatin
 </console>
 
 
-It was not sufficient, we have added a lock on the whole ''taskrunner'' process because it was eating all the memory. 
+It was not sufficient, we added a lock on the whole ''taskrunner'' process because it was eating all the memory. 
+
+==== Locks were not deleted in case of timeout ====
+
+Because long processes may not terminate in the time given, timeout exception may occur.
+In this case, the ''taskrunner'' lock was not deleted. We have added a [[https://www.php.net/manual/en/function.register-shutdown-function.php|shutdown php hook]] to delete them.
+
+If you have a lot of timeouts, you may need to modify:
+  * the php.ini
+  * or the file ''lib/exe/taskrunner.php'' to increase it.
+
+Example:
+<code php lib/exe/taskrunner.php>
+// instead of 30 seconds
+set_time_limit(60);
+</code>
+
+
 
 ===== Bug =====
 
@@ -62,3 +79,15 @@ See [[https://github.com/ComboStrap/combo/issues/61|Issue 61]]
 
 
 The replication date is the only metadata written to the database and not on the disk. This difference was not taken into account when sending data to the [[:docs:metadata:manager|metadata manager]].
+
+==== Error when the Url was not correct ====
+
+The log file was filed with the following URL:
+<console>
+ComboStrap\ExceptionRuntimeInternal: The url in src has a bad encoding (the attribute have a amp; prefix. Infinite cache will not work.
+/opt/dokuwiki/lib/plugins/combo/ComboStrap/Web/Url.php(210)
+</console>
+
+Why? ComboStrap was throwing an error for bad URLs.
+
+Solution: We don't throw a failure anymore but a warning. This error does not come from Combostrap but from external requests. Mostly from Bots, scanning your website.
