@@ -18,6 +18,15 @@ The [[:docs:analytics:syntax_count|syntax analytics]] does not show the componen
 
 ===== Improvements =====
 
+==== Last Sqlite Plugin Support ====
+
+The [[https://www.dokuwiki.org/plugin:sqlite#changes_from_earlier_releases|last Sqlite plugin release]] has brought breaking changes.
+We support it now. See [[https://github.com/ComboStrap/combo/commit/d899a2a62926ce6e7f78d85d882eb464caef0a95|Commit]]
+
+==== Mermaid upgrade ====
+
+The [[:docs:utility:mermaid|mermaid diagram]] are now on the last version 10.2.3 that have a nicer look.
+
 ==== Private Toolbar disallow media manager and diff action ====
 
 A private [[:docs:theme:element:railbar|railbar]] disallow the media manager and the diff action to avoid the SEO indexing warning: ''Excluded By No Index Tag''.
