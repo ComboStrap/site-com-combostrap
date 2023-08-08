@@ -6,6 +6,10 @@
 ===== About =====
 When navigating to your installation, you may be hit by the following error:
 
+<console>
+ComboStrap\ExceptionSqliteNotAvailable - Unable to initialize SQLite
+</console>
+
 {{:support:exception-sqlite-not-availbale-unable-to-initialize.jpg|}}
 
 ===== Why? =====
@@ -50,3 +54,7 @@ To update the SQLite Plugin , you need to install it manually with the same step
   * Copy the URL ''https://github.com/cosmocode/sqlite/tarball/master'' into the ''Install from URL'' field
   * Select the checkbox ''overwrite existing files''
   * And click the ''Install'' button
+
+
+===== More info, need help? =====
+If you need more info and/or help, the discussion can be found [[https://github.com/ComboStrap/combo/issues/72|here]].
