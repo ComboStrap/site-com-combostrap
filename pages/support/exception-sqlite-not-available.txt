@@ -1,0 +1,52 @@
+====== How to resolve the error ExceptionSqliteNotAvailable? ======
+
+
+
+
+===== About =====
+When navigating to your installation, you may be hit by the following error:
+
+{{:support:exception-sqlite-not-availbale-unable-to-initialize.jpg|}}
+
+===== Why? =====
+
+
+The Sqlite Plugin has a [[https://github.com/cosmocode/sqlite/issues/80|bug]].
+
+
+  * Add to your website URL the query parameters ''?do=admin''. Example for combostrap: ''https://combostrap.com/?do=admin''
+  * Go to the SQLite Admin Page
+  * Select the ''combo'' database
+  * Execute the following query
+<code sql>
+select * from opts
+</code>
+  * If the value ''val'' is ''0'', you got hit by the [[https://github.com/cosmocode/sqlite/issues/80|bug]].
+
+{{:support:select-from-opts-val-0.jpg|}}
+===== How to resolve it? =====
+
+==== Update the last SQLite version ====
+
+  * Check the last Combo SQLite version of your installation in the ''lib/plugins/combo/db/combo'' folder of your Dokuwiki installation. In the below example, the last version is ''22''.
+{{:support:last-sqlite-combo-version.jpg|}}
+  * Execute the following query and replace the last version number ''22'' if it does not correspond to your installation
+<code sql>
+-- update opts set val=xxx where opt='dbversion'
+-- in our case
+update opts set val=22 where opt='dbversion'
+</code>
+
+
+==== Upgrade the SQLite Plugin ====
+
+To update the SQLite Plugin , you need to install it manually with the same steps as the combo plugin.
+
+  * Get the download URL by clicking on the arrow
+
+{{:release:dokuwiki_extension_sqlite_plugin_download_url.jpg|}}
+
+  * Go to the ''Manual Install'' tab
+  * Copy the URL ''https://github.com/cosmocode/sqlite/tarball/master'' into the ''Install from URL'' field
+  * Select the checkbox ''overwrite existing files''
+  * And click the ''Install'' button
