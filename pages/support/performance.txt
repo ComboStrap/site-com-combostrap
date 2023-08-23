@@ -3,6 +3,11 @@
 
 ===== About =====
 
+<note important>
+With the version [[:release:1.25|1.25]], this performance issue has been resolved by using a generic syntax plugin 
+that captures all components to overcome the dokuwiki parser limitations.
+</note>
+
 When installing ''combo'', people may see a degradation in performance during the initial rendering of a page.
 
 This page explains why.

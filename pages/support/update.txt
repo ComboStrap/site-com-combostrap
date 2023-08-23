@@ -1,34 +1,31 @@
 ====== How to resolve the memory error when updating? ======
 
 
-===== About =====
-When trying to update Combstrap, you may get an exhausted memory error. 
-
-This article shows you how to avoid this error.
-
-===== Steps =====
-==== The error ====
-When you try to update Combostrap, you may get this error:
+===== The problem =====
+When trying to update Combstrap or a third-party plugin, you may get an exhausted memory error. This article shows you how to avoid this error.
 
 {{:support:fatal-exception-exhausted-memory.png|}}
 
+
 <console>
 dokuwiki\Exception\FatalException: Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes)
-An unforeseen error has occured. This is most likely a bug somewhere. It might be a problem in the combo plugin.
+An unforeseen error has occurred. This is most likely a bug somewhere. It might be a problem in the combo plugin.
 
 More info has been written to the DokuWiki error log.
 </console>
 
 
 
-==== How to resolve this error? ====
+===== Why do we get this error? =====
+
+The update script of DokuWiki scans the directories and updates file by file. You even need to list the [[doku>install:unused_files|unused/deleted file]] otherwise they are not deleted.
+
+This scan runs out of memory because ComboStrap has a lot of files.
 
 
-To resolve this error, you need to update the Combo plugin manually via the ''manual install'' tab.
+===== How to resolve this error? =====
+
+
+To resolve this error, you need to update the Combo or the third party-plugin manually via the ''manual install'' tab.
 
 This step is explained in the [[:release:update|update documentation]].
-==== Why do we get this error? ====
-
-The update script of DokuWiki scan the directories and update file by file. You even need to list the [[doku>install:unused_files|unused/deleted file]] otherwise they are not deleted.
-
-This scan runs out of memory because ComboStrap has a lot of code.
