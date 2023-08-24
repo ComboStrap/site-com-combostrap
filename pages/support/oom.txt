@@ -26,6 +26,8 @@ This scan runs out of memory because ComboStrap has a lot of files.
 ===== How to resolve this error? =====
 
 
-To resolve this error, you need to update the Combo or the third party-plugin manually via the ''manual install'' tab.
-
-This step is explained in the [[:release:update|update documentation]].
+To resolve this error, you need to:
+  * For ''Combo'': update it manually via the ''manual install'' tab. This step is explained in the [[:release:update|update documentation]].
+  * For a third-party plugin
+     * Disable ''Combo'' before updating a third-party plugin
+     * or install it manually via the ''manual install'' tab
