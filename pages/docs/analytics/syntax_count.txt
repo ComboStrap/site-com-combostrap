@@ -45,6 +45,20 @@ Asking for the [[statistics|json statistics]] of a page, you would see a list of
 
 ==== SQL  analytics ====
 
+=== Syntax Summary of your website ===
+
+<code sql>
+select syntax_count.key        as key,
+       sum(syntax_count.value) as value
+from pages,
+     json_each(pages.ANALYTICS, '$.statistics.syntax_count') as syntax_count
+where json_valid(pages.ANALYTICS)
+group by key
+order by value desc;
+</code>
+
+=== All pages with a button ===
+
 This SQL is an example that shows all pages that have a [[docs:content:button|button]]
 
 <code sql>

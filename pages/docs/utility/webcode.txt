@@ -128,7 +128,7 @@ for (const [index, value] of colors.entries()) {
 ==== Webcode Syntax ====
 
 <file html>
-<webcode name="A Name" width=100% frameborder=0 height=250px>
+<webcode type name="A Name" width=100% height=250px>
 
     <!-- wiki syntax with css or html block code. -->
     All syntax are permitted between blocks

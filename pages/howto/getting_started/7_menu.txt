@@ -31,7 +31,7 @@ If you have uploaded a icon in the [[6_favicon|Favicon step]], a minimal ''heade
 
 <webcode name="Default" iframe>
 <code dw>
-<menubar breakpoint="md" align="center">
+<menubar breakpoint="md">
 <brand title="My Brand">
 <icon name="logo.svg" />
 My Brand name

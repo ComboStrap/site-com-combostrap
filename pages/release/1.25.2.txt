@@ -1,0 +1,102 @@
+====== Release 1.25.2 ======
+
+
+
+
+
+
+====== Release 1.25.2 ======
+
+
+
+===== About =====
+This page is about the details of the release 1.25.2
+
+===== Breaking modification =====
+
+The [[:docs:analytics:syntax_count|syntax analytics]] does not show the component anymore but the tag. Why? To improve performance, we capture all [[:docs:marki|combo markup]] with one syntax, the tag was not part anymore of the component and was always ''combo_xmltag''. We show know the tag for better analytics.
+
+===== Improvements =====
+
+==== Last Sqlite Plugin Support ====
+
+The [[https://www.dokuwiki.org/plugin:sqlite#changes_from_earlier_releases|last Sqlite plugin release]] has brought breaking changes.
+We support it now. See [[https://github.com/ComboStrap/combo/commit/d899a2a62926ce6e7f78d85d882eb464caef0a95|Commit]]
+
+==== Mermaid upgrade ====
+
+The [[:docs:utility:mermaid|mermaid diagram]] are now on the last version 10.2.3 that have a nicer look.
+
+==== Private Toolbar disallow media manager and diff action ====
+
+A private [[:docs:theme:element:railbar|railbar]] disallow the media manager and the diff action to avoid the SEO indexing warning: ''Excluded By No Index Tag''.
+
+{{:docs:theme:element:excluded_by_noindex_tag_google_console.jpg?400|}}
+
+==== No query string for permanent redirection ====
+
+Permanent Redirect from the [[:docs:router:router|router]] does not get any query string anymore  to avoid the SEO indexing warning: ''Alternative page with proper canonical tag''
+
+
+
+==== No default for the webcode toolbar button ====
+
+The [[:docs:utility:webcode|webcode toolbar]] does not have any default anymore.
+
+
+==== TaskRunner lock ====
+
+The  ''Taskrunner'' process may run multiple times concurrently eating all memory. Only the indexer has now a lock
+See [[https://forum.dokuwiki.org/d/21044-taskrunner-running-multiple-times-eating-the-memory-lock/2|taskrunner-running-multiple-times-eating-the-memory-lock]]. We have therefore added a lock to run our event system sequentially.
+
+<console>
+ Pid Cpu Mem
+2198 75 1 Running /lib/exe/taskrunner.php?id=infra%3Aansible%3Astatus&1682671302
+1179 44 8 Running /lib/exe/taskrunner.php?id=dat%3Aobiee%3Aobis%3Acast_as_date&1682686473
+2166 44 8 Running /lib/exe/taskrunner.php?id=data_mining%3Af_statistic&1682713733
+2181 25 8 Running /lib/exe/taskrunner.php?id=data%3Atype%3Acube%3Amodeling%3Amodeling&1682705762
+</console>
+
+
+It was not sufficient, we added a lock on the whole ''taskrunner'' process because it was eating all the memory. 
+
+==== Locks were not deleted in case of timeout ====
+
+Because long processes may not terminate in the time given, timeout exception may occur.
+In this case, the ''taskrunner'' lock was not deleted. We have added a [[https://www.php.net/manual/en/function.register-shutdown-function.php|shutdown php hook]] to delete them.
+
+If you have a lot of timeouts, you may need to modify:
+  * the php.ini
+  * or the file ''lib/exe/taskrunner.php'' to increase it.
+
+Example:
+<code php lib/exe/taskrunner.php>
+// instead of 30 seconds
+set_time_limit(60);
+</code>
+
+
+
+===== Bug =====
+
+
+==== Boolean Values were not written ====
+
+See [[https://github.com/ComboStrap/combo/issues/61|Issue 61]]
+
+==== Replication date was always empty on the metadata manager ====
+
+
+The replication date is the only metadata written to the database and not on the disk. This difference was not taken into account when sending data to the [[:docs:metadata:manager|metadata manager]].
+
+==== Error when the Url was not correct ====
+
+The log file was filed with the following URL:
+<console>
+ComboStrap\ExceptionRuntimeInternal: The url in src has a bad encoding (the attribute have a amp; prefix. Infinite cache will not work.
+/opt/dokuwiki/lib/plugins/combo/ComboStrap/Web/Url.php(210)
+</console>
+
+Why? ComboStrap was throwing an error for bad URLs.
+
+Solution: We don't throw a failure anymore but a warning. This error does not come from Combostrap but from external requests. Mostly from Bots, scanning your website.

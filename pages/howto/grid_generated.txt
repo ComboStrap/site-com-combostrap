@@ -5,7 +5,7 @@
     "page_id": "sx2v3cpr26m6epej6j158"
 }
 ---
-====== How to generate and layout a list of pages with a grid ? ======
+====== How to generate and layout a list of pages with a grid and their image? ======
 
 
 ===== About =====
@@ -54,7 +54,7 @@ When you generate content, you are looping over the same content over and over. 
 <code dw>
 <card width="250px" align="center" clickable>
    <page-image/>
-   == $title ==
+   <heading 4>$title</heading>
    ${description | head(100,"...")} [[$path| ]]
 </card>
 </code> 
@@ -78,7 +78,7 @@ The below example generate a [[:docs:layout:component:grid|grid]] that splits th
             <box>
                <card width="250px" align="center" clickable>
                    <page-image/>
-                   == $title ==
+                   <heading 4>$title</heading>
                    ${description | head(100,"...")}
                    [[$path| ]]
                </card>    
@@ -104,6 +104,7 @@ Note that in the fragment, we have wrapped the card in a box. Why ? Because:
 
 In this [[howto:howto|howto]], you learned about:
   * the [[:docs:templating:sql|page sql]]
+  * the [[:docs:content:page-image|page image]]
   * the [[:docs:templating:iterator|iterator and its fragment]]
   * the [[:docs:layout:component:grid|grid layout]]
 

@@ -7,14 +7,15 @@
 
 
 ===== About =====
-This page lists the standard steps that need to be taken in order to update your ComboStrap installation
+This page lists the standard steps that need to be taken in order to update your ComboStrap installation and third-party plugins.
 
 
+
+===== Combo Upgrade Steps =====
 For each new release, there are two steps to perform:
   * Updating the combo plugin
   * Refreshing the index
 
-===== Steps =====
 ==== How to update the combo plugin? ====
 
 Because of the [[:support:update|memory error]], the Combo plugin needs to be updated manually via the ''manual install'' tab.
@@ -27,4 +28,23 @@ Because of the [[:support:update|memory error]], the Combo plugin needs to be up
 {{:support:extension-manager-dokuwiki-manual-install.png|}}
 ==== How to refresh the index? ====
 
-To refresh the index, you should install and use the [[support:plugin#search_index_manager|Search Index Manager]].
+To refresh the index, you can do it:
+  * from a web page, with the [[support:plugin#search_index_manager|Search Index Manager]].
+  * from the terminal on the server (quicker) [[:docs:analytics:replication#cli|with the combo cli]] ''metadata-to-database'' command.
+
+
+===== How to update a third plugin such as SQLite? =====
+
+Unfortunately, the update process is not scoped to the plugin updated but to all plugins. It means that you will get a [[:support:update|memory error]] when you try to update a plugin.
+
+To update a third plugin, you need to install it manually with the same steps as the combo plugin.
+
+  * Get the download URL by clicking on the arrow
+
+{{:release:dokuwiki_extension_sqlite_plugin_download_url.jpg|}}
+
+  * Go to the ''Manual Install'' tab
+  * Copy the URL into the ''Install from URL'' field
+  * Select the checkbox ''overwrite existing files''
+  * And click the ''Install'' button
+

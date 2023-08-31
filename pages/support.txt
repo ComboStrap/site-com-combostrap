@@ -1,9 +1,9 @@
 ---json
 {
+    "canonical": ":support",
     "description": "We are here to help, don't hesitate to mail us. This page shows you also all other support channel on how to build a great website.",
-    "h1": "ComboStrap - Where To Get Help",
-    "page_id": "zqtp19gqha03gfcbc63ya",
-    "title": "How to get help with ComboStrap"
+    "low_quality_page": "false",
+    "page_id": "zqtp19gqha03gfcbc63ya"
 }
 ---
 
