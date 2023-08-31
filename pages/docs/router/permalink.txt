@@ -22,10 +22,10 @@
 
 A generated permalink is a link that uses the [[docs:page:page_id|page id]] as [[:docs:page:system:path|page path]]
 
-As the id is guaranteed to never change, it's the real/true permalink.
+As the id is guaranteed never to change, it's the real / true permalink.
 
 
-<webcode name="Default" frameborder="0">
+<webcode>
   * You can add a permalink to your page with the ''permalink'' component.
 <code dw>
 <permalink/>
