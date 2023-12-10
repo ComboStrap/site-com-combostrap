@@ -27,9 +27,9 @@ You can check the version of your installation:
 http://yourdomain/yourwiki/doku.php?do=check
 </code>
 
-You should get the following:
+You should get the latest. For instance, in 2023, on December 10th it was:
 <code>
-DokuWiki version: Release 2020-07-29 "Hogfather"
+DokuWiki version: 2023-04-04a "Jack Jackrum"
 </code>
 
 If you don't have the last version, we recommend to install the [[https://www.dokuwiki.org/plugin:upgrade|Upgrade plugin]] and to upgrade your installation.
