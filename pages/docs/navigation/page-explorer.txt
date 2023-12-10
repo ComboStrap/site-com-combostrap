@@ -76,7 +76,7 @@ Example:
 <page-explorer tree ns=":docs:layout">
     <index>[[$path|<icon name="home" color="#0000004d" width="20"/> Overview]]</index>
     <ns>${h1 | cut("-","2-") | trim()}</ns>
-    <page>[[$path|<icon name="file" color="#0000004d" width="20"/>  ${h1 | cut("-","2-") | trim()}</page>
+    <page>[[$path|<icon name="file" color="#0000004d" width="20"/>  ${h1 | cut("-","2-") | trim()}]]</page>
 </page-explorer>
 </code>
 where the ''page'' template is composed of:

@@ -149,7 +149,22 @@ dokuwiki_home/data/combo/theme/mytheme/pages/templates/custom-median.yml
 
 {{:howto:theme-creation-custom-title-result.png?600|}}
 
+==== How to apply a template for a whole namespace? ====
 
+
+The default template follows the following pattern:
+  * ''namespacename-index'' for an [[:docs:page:system:index|index page]]
+  * ''namespacename-item'' for an [[docs:page:system:item|item page]]
+
+If you want to apply the same template for the namespace '':howto'', you need to create the following templates:
+  * ''howto-index''
+  * and ''howto-item''
+
+Note that these templates will be applied by default on every namespace that has this name. For instance, they will also be applied to the namespace '':docs:howto''. 
+
+If you want to be more precise, you need to add all namespace name parts in the name of the template. In our case, you need to create the following templates:
+  * ''docs-howto-index''
+  * ''docs-howto-item''
 ==== Next ====
 
 From there, you can create any theme that suits your needs.

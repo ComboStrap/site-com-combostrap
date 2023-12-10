@@ -119,7 +119,7 @@ Click on the [[:docs:theme:slot:slot_manager|slot manager]], choose the content 
 
 From there, you should follow the default [[release:update|update procedure]]. 
 
-<inote important>Because now, Combo is too big for the update DokuWiki Script, you should not click the ''Update'' button. [[support:update|]]</inote>
+<inote important>Because now, Combo is too big for the update DokuWiki Script, you should not click the ''Update'' button. [[support:oom|]]</inote>
 
 For any problem, don't hesitate to [[:support|contact us]].
 
