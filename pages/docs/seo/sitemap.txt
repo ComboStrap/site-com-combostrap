@@ -31,6 +31,15 @@ If you want that Search Engine crawl your website quickly, you need to add your 
 For instance, in [[https://search.google.com/search-console/about|Google Search Console]].
 
 {{:docs:seo:sitemap_google_console.png?600|}}
+
+
+===== Page =====
+You can also graphically explore the sitemap on the [[?do=index|sitemap page]].
+
+If you miss some pages:
+  * the index may not be fresh. You should [[:docs:utility:search_index_manager|run the search index manager]]
+  * the [[:docs:seo:lqpp|Low Quality Page Protection]] may be enabled.
+
 ===== Configuration =====
 
 ==== Enable ====
