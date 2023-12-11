@@ -36,9 +36,13 @@ For instance, in [[https://search.google.com/search-console/about|Google Search 
 ===== Page =====
 You can also graphically explore the sitemap on the [[?do=index|sitemap page]].
 
+===== Support =====
+
+==== Missing pages ====
+
 If you miss some pages:
   * the index may not be fresh. You should [[:docs:utility:search_index_manager|run the search index manager]]
-  * the [[:docs:seo:lqpp|Low Quality Page Protection]] may be enabled.
+  * or the [[:docs:seo:lqpp|Low Quality Page Protection]] may be enabled.
 
 ===== Configuration =====
 
