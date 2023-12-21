@@ -64,7 +64,7 @@ For instance, the following handlebars expression would be replaced with the [[:
 
 The template definition files contain properties that apply to the template.
 
-For instance, if you want to use [[:docs:theme:slot:slot|slot]] in your template, you need to define them.
+For instance, if you want to use [[:docs:theme:slot:slot|slots]] in your template, you need to define them.
 
 The [[docs:theme:template:medium|median template]] for instance contains 4 slot elements.
 <code yml median.yml>
