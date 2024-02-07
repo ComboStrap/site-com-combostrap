@@ -29,7 +29,7 @@ http://yourdomain/yourwiki/doku.php?do=check
 
 You should get the following:
 <code>
-DokuWiki version: Release 2020-07-29 "Hogfather"
+DokuWiki version: Release 2024-02-06 "Kaos"
 </code>
 
 If you don't have the last version, we recommend to install the [[https://www.dokuwiki.org/plugin:upgrade|Upgrade plugin]] and to upgrade your installation.
