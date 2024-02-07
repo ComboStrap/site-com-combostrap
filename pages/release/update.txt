@@ -3,7 +3,7 @@
     "page_id": "n65c0ya5pnda99jccjfte"
 }
 ---
-====== Update ======
+====== How to update Combo or a third party-plugin? ======
 
 
 ===== About =====
@@ -18,7 +18,7 @@ For each new release, there are two steps to perform:
 
 ==== How to update the combo plugin? ====
 
-Because of the [[:support:update|memory error]], the Combo plugin needs to be updated manually via the ''manual install'' tab.
+Because of the [[support:oom|memory error]], the Combo plugin needs to be updated manually via the ''manual install'' tab.
 
   * In the [[doku>plugin:extension|extension manager]], click on the ''manual install'' tab
   * Enter the Github Url: ''https://github.com/ComboStrap/combo/archive/main.zip''
@@ -35,10 +35,14 @@ To refresh the index, you can do it:
 
 ===== How to update a third plugin such as SQLite? =====
 
-Unfortunately, the update process is not scoped to the plugin updated but to all plugins. It means that you will get a [[:support:update|memory error]] when you try to update a plugin.
+Unfortunately, the update process is not scoped to the plugin updated but to all plugins. It means that you will get a [[support:oom|memory error]] when you try to update a plugin if ''combo'' is installed and enabled.
 
-To update a third plugin, you need to install it manually with the same steps as the combo plugin.
+To update a third plugin, you have two solutions. You can:
+  * disable ''combo'' before updating a third-party plugin.
+  * install it manually with the same steps as the combo plugin.
 
+
+For instance, for SQLite, the manual install steps would be:
   * Get the download URL by clicking on the arrow
 
 {{:release:dokuwiki_extension_sqlite_plugin_download_url.jpg|}}

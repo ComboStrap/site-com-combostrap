@@ -30,3 +30,17 @@ If you don't want to create [[docs:quality:broken_link|broken links]] don't forg
   * You access it on the admin page via the ''admin'' action of the [[docs:theme:element:railbar|railbar]]
 
 {{howto:getting_started:admin_railbar.png|}}
+
+
+===== How to check if the Combostrap index was updated =====
+
+The combostrap index is a table in [[:docs:analytics:database|the SQLite database]]
+
+On the Admin page, you can:
+  * click on the ''SQLite interface''
+  * select the ''combo'' database
+  * enter the following query and execute
+<code>
+SELECT count(1) from pages;
+</code>
+  * The result will give you the number of pages indexed.

@@ -21,7 +21,7 @@ You can install any plugin the same way as [[howto:getting_started:2_combo|Combo
 
 
 
-===== Highlight =====
+===== Highlights =====
 We recommend to install the two below plugins.
 ==== Move ====
 
@@ -47,6 +47,14 @@ You should use it:
 
 
 ===== Support =====
+==== Plugin and Combostrap update ====
+
+After an installation, if you want to update a plugin or Combostrap and if you have a memory error, 
+you need to [[:release:update|update them via the manual install procedure]].
+
+
+==== Plugin support ====
+
 We support all plugins that are working with a standard dokuwiki installation.
 
 If you have any problems with a third party plugin:

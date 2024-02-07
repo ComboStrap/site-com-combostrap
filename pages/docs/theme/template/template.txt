@@ -109,4 +109,15 @@ It's possible to customize a template.
 
 The user doesn't see them but as a Web Designer, you can customize them. Check out the corresponding page: [[docs:theme:template:app|]]
 
+===== What are the default templates? =====
 
+The default templates are:
+  * for the [[:docs:page:system:home|home page]], the [[:docs:theme:template:hamburger|hamburger]]
+  * for a [[docs:page:system:index|index page]], the [[docs:theme:template:index|index]]
+  * for a [[:docs:page:system:item|item page]]:
+      * at the root, the [[:docs:theme:template:index|index medium]] (ie holy without the sidebar)
+      * otherwise, the [[:docs:theme:template:holy|holy template]]
+
+These are defaults that take into account by default the type of content:
+  * [[:docs:page:system:home|home]] and [[docs:theme:template:index|index]] pages are landing pages
+  * [[:docs:page:system:item|item]] pages are content pages

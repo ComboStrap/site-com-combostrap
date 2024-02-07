@@ -13,10 +13,11 @@ A ''hidden'' resource (page, image, file, ...) is a resource that is:
       * in the [[docs:navigation:page-explorer|page-explorer pane]]
       * in the change log feeds
       * in the internal search result
-      * in internal backlinks.
+      * in internal backlinks
+      * in the [[:docs:seo:sitemap#page|Sitemap Page]]
 
 <note>
-In short, the page is still accessible directly (with its URL) but is no more visible.
+In short, the page is still accessible directly (with its URL) but is no longer visible.
 </note>
 
 

@@ -1,9 +1,13 @@
 ---json
 {
+    "canonical": ":pageimage",
     "description": "Page-image is a component that renders the illustrative image of the page and is generally used in a fragment.",
+    "featured-raster-image": ":docs:content:surfer600.png",
+    "h1": "ComboStrap UI - Page Image Component",
     "images": [
         { "path": ":docs:content:surfer600.png" }
     ],
+    "low_quality_page": "false",
     "page_id": "q488r8aajeb36b3jz8z92",
     "title": "Page-image Component: Renders the illustrative image of your page"
 }

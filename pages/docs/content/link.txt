@@ -1,12 +1,13 @@
 ---json
 {
+    "canonical": ":link",
     "description": "The link component permits to create hyperlinks between pages.",
-    "name": "links",
-    "page_id": "0oocdu2rx6z4pyfb3un4w",
-    "title": "The link component"
+    "low_quality_page": "false",
+    "name": "Links",
+    "page_id": "0oocdu2rx6z4pyfb3un4w"
 }
 ---
-====== ComboStrap UI - Link ======
+====== The Link component ======
 
 ===== About =====
 ''link'' is  a [[docs:component|ComboStrap UI component]] that permits to create hypertext link to page or media and allows any syntax inside. You can therefore have an [[#icon|icon link]]

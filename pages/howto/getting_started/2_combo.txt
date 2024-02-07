@@ -64,7 +64,7 @@ Plugins that are too old or do not respect the DokuWiki Interfaces may not work 
 
 ==== Install the Combo extension ====
 
-Because of the [[:support:update|memory error of the update plugin]], Combo needs to be updated manually via the ''manual install'' tab.
+Because of the [[support:oom|memory error of the update plugin]], Combo needs to be updated manually via the ''manual install'' tab.
 
   * In the [[doku>plugin:extension|extension manager]], click on the ''manual install'' tab
   * Enter the Github Url: ''https://github.com/ComboStrap/combo/archive/main.zip''

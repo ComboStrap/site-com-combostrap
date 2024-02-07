@@ -35,6 +35,6 @@ Example:
   * Or as a plain button
 <webcode name="Default" frameborder="0">
 <code dw>
-<btn align="center">[[:docs:content:link|Go to the link page]]</btn>
+<btn align="center" width="fit-content">[[:docs:content:link|Go to the link page]]</btn>
 </code>
 </webcode>
