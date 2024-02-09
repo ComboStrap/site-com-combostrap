@@ -37,18 +37,17 @@ To refresh the index, you can do it:
 
 Unfortunately, the update process is not scoped to the plugin updated but to all plugins. It means that you will get a [[support:oom|memory error]] when you try to update a plugin if ''combo'' is installed and enabled.
 
-To update a third plugin, you have two solutions. You can:
-  * disable ''combo'' before updating a third-party plugin.
-  * install it manually with the same steps as the combo plugin.
+<note important>
+To update a third plugin, you need to disable ''combo'' before updating a third-party plugin.
+</note>
 
 
 For instance, for SQLite, the manual install steps would be:
-  * Get the download URL by clicking on the arrow
+  * Disable Combostrap
 
-{{:release:dokuwiki_extension_sqlite_plugin_download_url.jpg|}}
+{{:release:dokuwiki_disable_combo.jpg|}}
 
-  * Go to the ''Manual Install'' tab
-  * Copy the URL into the ''Install from URL'' field
-  * Select the checkbox ''overwrite existing files''
-  * And click the ''Install'' button
+  * Go to the SQLite 
+  * Click the ''Update'' button
+  * Enable Combostrap
 
