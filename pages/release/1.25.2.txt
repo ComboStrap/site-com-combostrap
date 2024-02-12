@@ -19,15 +19,14 @@ If you want to upgrade ''combo'', follow the steps in the [[release:update|updat
 
 ===== Dokuwiki Kaos Compatibility =====
 
-We have [[https://github.com/ComboStrap/combo/actions/runs/7817627186/job/21325978298#step:13:35|tested Combostrap]] against [[https://www.dokuwiki.org/changes#release_2024-02-06_kaos|Kaos]] and have found an incompatibility with the [[:docs:seo:lqpp|low quality page protection functionality]].
+Combostrap is fully compatible with [[https://www.dokuwiki.org/changes#release_2024-02-06a_kaos|Kaos HotFix A]].
 
-The RSS feed event [[https://www.dokuwiki.org/devel:event:feed_data_process|FEED_DATA_PROCESS]] seems to have been deleted
-and therefore the low quality page are now in the feed.
+The only backward feature is that the user can't delete [[https://github.com/dokuwiki/dokuwiki/issues/4210|its profile itself]]. See our [[https://github.com/ComboStrap/combo/actions/runs/7874574476|test serie that reports this error]].
 
-We have opened an [[https://github.com/dokuwiki/dokuwiki/issues/4191|issue]] to confirm that it's a regression bug.
 
-For now, if you don't use this feature, you can upgrade and [[release:update|update]] with confidence.
- 
+Note that the [[https://github.com/dokuwiki/dokuwiki/issues/4191|FEED_DATA_PROCESS issue]] on the original Kaos version was resolved and integrated.
+
+
 ===== Breaking modification =====
 
 The [[:docs:analytics:syntax_count|syntax analytics]] does not show the component anymore but the tag. Why? To improve performance, we capture all [[:docs:marki|combo markup]] with one syntax, the tag was not part anymore of the component and was always ''combo_xmltag''. We show know the tag for better analytics.
