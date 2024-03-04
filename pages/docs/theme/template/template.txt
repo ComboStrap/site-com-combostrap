@@ -7,6 +7,7 @@
     "canonical": ":template",
     "description": "This article talks about template and layout management and how it can be defined by page.",
     "h1": "What are the possible page layouts ?",
+    "lead": "If your content does not fit, change it",
     "page_id": "9tl87hg8coopjktg8chkh",
     "template": "holy",
     "title": "What is a template ?"
