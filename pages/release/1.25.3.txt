@@ -1,0 +1,10 @@
+====== Combo Release 1.25.3 ======
+
+
+
+
+
+
+===== Bug =====
+  * infinite loop on unknown URL parameters creating a memory error - [[https://github.com/ComboStrap/combo/issues/79|User manager breaks when combo enabled]] - The logging system was logging unknown parameters creating a loop if combo was creating the context.
+  * heading numbering at 0. Combostrap supports the flat HTML of Dokuwiki and the modern HTML section for heading. The heading counters were not reset in the good node as requested by css. [[https://github.com/ComboStrap/combo/commit/484d95f4810f08e1869bd5ad543525a3df42d868|commit]]

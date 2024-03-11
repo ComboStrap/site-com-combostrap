@@ -11,11 +11,11 @@
 
 
 ===== About =====
-The latest release is the release [[1.25.1|1.25.1]]
+The latest release is the release [[1.25.2|1.25.2]]
 
-For all news and modifications, you should go to the release page [[1.25.1]].
-
-
+For all news and modifications, you should go to the release page [[1.25.2]].
 
 
-The standard update steps can be found on this [[update|page]].
+
+
+The standard update steps can be found on the [[update|update page]].

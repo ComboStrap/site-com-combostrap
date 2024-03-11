@@ -10,7 +10,22 @@
 
 
 ===== About =====
-This page is about the details of the release 1.25.2
+This page is about the details of the release ''1.25.2''.
+
+This release is a bug/improvement/compatibility release that does not bring new core functionality.
+
+If you want to upgrade ''combo'', follow the steps in the [[release:update|update page]].
+
+
+===== Dokuwiki Kaos Compatibility =====
+
+Combostrap is fully compatible with [[https://www.dokuwiki.org/changes#release_2024-02-06a_kaos|Kaos HotFix A]].
+
+The only backward feature is that the user can't delete [[https://github.com/dokuwiki/dokuwiki/issues/4210|its profile itself]]. See our [[https://github.com/ComboStrap/combo/actions/runs/7874574476|test serie that reports this error]].
+
+
+Note that the [[https://github.com/dokuwiki/dokuwiki/issues/4191|FEED_DATA_PROCESS issue]] on the original Kaos version was resolved and integrated.
+
 
 ===== Breaking modification =====
 
