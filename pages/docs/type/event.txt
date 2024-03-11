@@ -1,9 +1,14 @@
 ---json
 {
+    "aliases": [
+        { "path": ":docs:semantic:event" },
+        { "path": ":wiki:markup_docs:semantic:event" }
+    ],
     "canonical": ":page:event",
+    "date_end": "2999-03-20T12:23:00+00:00",
+    "date_start": "2024-03-12T12:23:00+00:00",
     "description": "An event page is a page that is describing an event",
-    "page_id": "wy1qlu5qhctf3ztp7jhdw",
-    "title": "Event Page"
+    "page_id": "wy1qlu5qhctf3ztp7jhdw"
 }
 ---
 ====== ComboStrap Semantic - Event ======
