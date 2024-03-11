@@ -1,0 +1,59 @@
+---json
+{
+    "dynamic_quality_monitoring": "false",
+    "low_quality_page": "false",
+    "page_id": "fcng8y5jenj87v1h46lkd"
+}
+---
+====== How to generate a list of events? ======
+
+
+===== About =====
+This [[howto:howto|howto]] shows you how you can generate a [[:docs:lists:list|list]] of [[:docs:type:event|pages event]] with the [[:docs:templating:iterator|iterator components]].
+
+
+
+===== Steps =====
+
+<webcode>
+==== Open your tag iterator component ====
+In your document, begin by opening your tag component:
+<code dw>
+<iterator>
+</code>
+
+==== Select your pages ====
+ 
+Then add your page selection with the [[:docs:templating:sql|page sql]]. 
+
+We select the active page events:
+<code dw>
+<data>select from pages where date_end >= now order by date_start asc</data>
+</code>
+
+==== Define your fragment ====
+
+Then define your fragment as being:
+  * a [[:docs:lists:list|list element]]
+  * with the ''date_start'' and ''date_end'' [[:docs:metadata:date_format|formated date]] of a [[:docs:type:event|page event]]
+  * with a [[:docs:content:link|link]] created from:
+      * the [[:docs:page:system:path|path]] 
+      * and the [[:docs:page:title|title]] [[:docs:templating:variable|variables]]
+<code dw>
+<fragment>
+  * from ${date_start | format()} to ${date_end | format()} - [[$path|$title]]
+</fragment>
+</code>
+
+==== Close your iterator component and save ====
+
+Write the closing tag and save your page.
+<code dw>
+</iterator>
+</code>
+
+==== The result ====
+
+You obtain this result on this website.
+
+</webcode>

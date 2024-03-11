@@ -127,6 +127,22 @@ select where path like '%image%' or path like '%svg%' or path like '%raster%'
 This page sql will return the following pages for this website.
 </webcode>
 
+=== date predicate ===
+
+You can use:
+  * the ''now'' keyword
+  * the ''date'' function and the ''datetime'' function (They follow the same usage than [[https://www.sqlite.org/lang_datefunc.html|Sqlite]])
+
+Example:
+  * All [[:howto:iterator-list-event|active event pages]]
+<code sql>
+select from pages where date_end >= now order by date_start asc
+</code>
+  * All pages modified last week
+<code sql>
+select from pages where date_modified >= date('now','-7 days') order by date_modified asc
+</code>
+
 
 ==== Limit ====
 The ''limit'' clause permits to return the first rows. It's mostly used in ''Recent'' statement such as the last pages recently modified or created.

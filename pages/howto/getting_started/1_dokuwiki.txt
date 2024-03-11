@@ -29,7 +29,7 @@ http://yourdomain/yourwiki/doku.php?do=check
 
 You should get the latest. For instance, in 2023, on December 10th it was:
 <code>
-DokuWiki version: 2023-04-04a "Jack Jackrum"
+DokuWiki version: Release 2024-02-06 "Kaos"
 </code>
 
 If you don't have the last version, we recommend to install the [[https://www.dokuwiki.org/plugin:upgrade|Upgrade plugin]] and to upgrade your installation.
@@ -38,11 +38,11 @@ If you don't have the last version, we recommend to install the [[https://www.do
 ==== Dokuwiki Installation ====
 
 If you don't have a Dokuwiki Instance, you can install it as follow:
-  * [[https://download.dokuwiki.org/|Download the last Dokuwiki]], 
+  * [[https://download.dokuwiki.org/|Download the last Dokuwiki]],
   * Verify that your php server has the [[support:requirement|minimum requirements]]:
       * [[support:requirement#php|php version supported]]: ''7.4'' to ''8.2''
       * and [[support:requirement#moduleextension|php extensions]]
-  * Upload the zip file to your web server 
+  * Upload the zip file to your web server
   * Unzip it to your web directory
   * Access the installer script at ''https://yourdomain.com/install.php''
   * Answer the install form. Choose:
