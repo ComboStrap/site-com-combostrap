@@ -7,7 +7,7 @@
     "canonical": ":page:event",
     "date_end": "2999-03-20T12:23:00+00:00",
     "date_start": "2024-03-12T12:23:00+00:00",
-    "description": "An event page is a page that is describing an event",
+    "description": "An event page is a page that describes an event",
     "page_id": "wy1qlu5qhctf3ztp7jhdw"
 }
 ---
@@ -15,7 +15,7 @@
 
 
 ===== About =====
-An ''event page'' is a page that is advertising an event.
+An ''event page'' is a page that advertises an event.
 
 To tag your page has a ''event'', you need to have:
   * the [[type|type of page]] set to ''event''
@@ -25,7 +25,9 @@ To tag your page has a ''event'', you need to have:
   * [[docs:page:description|a description]] - the description of the event
 
 
+===== How to generate a list of event pages? =====
 
+From the event dates, you can generate a list of event pages. See this howto: [[:howto:iterator-list-event|iterator list event]]
 
 ===== Location =====
 We declare the page as [[https://developers.google.com/search/docs/advanced/structured-data/event|event page for google]] but to be valid, you also need to add the location in the [[docs:metadata:frontmatter|frontmatter]].
