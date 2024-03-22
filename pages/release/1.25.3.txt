@@ -11,7 +11,11 @@
 
 ===== Improvement =====
   * We have added the [[:docs:templating:sql#date predicate|date section in the Page Sql]] to show how to make a filtering.
+  * Prompt and line-numbers were overwriting each other on [[:docs:utility:prism|prism component]]. Prompt is not shown if line numbers options has been set. [[https://github.com/ComboStrap/combo/issues/82|Bug]]
 
+===== New Feature =====
+
+  * ''Line highlighting'' has been added to [[:docs:utility:prism|Prism component (code, file, ...)]] ([[https://github.com/ComboStrap/combo/issues/83|Feature request]])
 ===== New documentation =====
 
   * A howto has been created to show how you can use the start date and end date: [[:howto:iterator-list-event|]]
