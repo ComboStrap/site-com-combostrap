@@ -23,27 +23,6 @@ The following ''component'' are ''prism component'':
 
 
 
-===== Syntax =====
-
-
-Except from [[docs:block:preformatted|preformatted]] that is based on indentation, they all follows the below syntax:
-
-<file html>
-<component language [file-path] line-numbers="true" prompt="$" line-highlight="x-y, z">
-    .... your code
-</component>
-</file>
-where:
-  * ''language'' is the language of the code (''html'', ''xml'', ...). Find all [[https://prismjs.com/#supported-languages|supported languages in the Prism website]]
-  * ''file-path'' is an optional argument that gives the name of the file that will show up in the download button when hovering over the component.
-  * ''line-numbers'' will show line numbers if present
-  * ''prompt'' will add a command line prompt
-  * ''your code'' is a placeholder for your code
-  * ''line-higlight'' defines the lines to highlight. It accepts:
-    * A single number refering to the line
-    * A range of lines (two numbers separated with a hyphen)
-    * A serie of line numbers or ranges separated by commas.
-
 
 ===== Example =====
 ==== Line numbers ====
@@ -60,42 +39,47 @@ You will get this output:
 
 ==== Line Highlight ====
 
-A ''HTML'' code in a [[docs:block:code|code component]] where the lines:
-  * 1 to 3
-  * 5
+This example shows an ''HTML'' code in a [[docs:block:code|code component]] where the lines:
+  * ''1'' to ''3''
+  * and ''5''
 are highlighted
 
+Example:
 <webcode>
 ```dw
 <code html line-numbers="true" line-highlight="1-3, 5">
-<p>Line 1</p>
-<p>Line 2</p>
-<p>Line 3</p>
-<p>Line 4</p>
-<p>Line 5</p>
+    <p>Line 1</p>
+    <p>Line 2</p>
+    <p>Line 3</p>
+    <p>Line 4</p>
+    <p>Line 5</p>
 </code>
 ```
-You will get this output:
+With this markup, you will get this output:
 </webcode>
 
 
 
 ==== Prompt ====
 
-''HTML'' code in a [[docs:block:code|code component]] with the following syntax,
+This example shows a bash prompt.
+
+Example with ''HTML'' code in a [[docs:block:code|code component]]:
 <file html>
 <code bash prompt="#">
 ls -a
 </code>
 </file>
-You will get this output:
+With this markup, you will get this output:
 <code bash prompt="#">
 ls -a
 </code>
 
 ==== File Name ====
 
+This example shows you how to defined a file name.
 
+Example: A [[:docs:block:file|file block]] with the file name ''loremipsum.txt''
 <code xml>
 <file txt loremipsum.txt>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -104,7 +88,7 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
 </file>
 </code>
-You will get this output:
+With the above  markup, you will get this output:
 <file txt loremipsum.txt>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -142,6 +126,30 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco
 Duis aute irure dolor in reprehenderit in voluptate velit esse
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
 </file>
+
+
+
+
+===== Syntax =====
+
+
+Except from [[docs:block:preformatted|preformatted]] that is based on indentation, they all follows the below syntax:
+
+<file html>
+<component language [file-path] line-numbers="true" prompt="$" line-highlight="x-y, z">
+    .... your code
+</component>
+</file>
+where:
+  * ''language'' is the language of the code (''html'', ''xml'', ...). Find all [[https://prismjs.com/#supported-languages|supported languages in the Prism website]]
+  * ''file-path'' is an optional argument that gives the name of the file that will show up in the download button when hovering over the component.
+  * ''line-numbers'' will show line numbers if present
+  * ''prompt'' will add a command line prompt
+  * ''your code'' is a placeholder for your code
+  * ''line-higlight'' defines the lines to highlight. It accepts:
+    * A single number refering to the line
+    * A range of lines (two numbers separated with a hyphen)
+    * A serie of line numbers or ranges separated by commas.
 
 
 
@@ -184,6 +192,9 @@ This component integrates the following Prism plugin:
   * [[https://prismjs.com/plugins/command-line/|Command line]]
   * [[https://prismjs.com/plugins/show-language/|Show Language]]
   * [[https://prismjs.com/plugins/normalize-whitespace/|Normalize Whitespace]]
+  * [[https://prismjs.com/plugins/line-highlight/|Line Highlight]]
+
+If you want more plugin, just [[:support|ask]]
 ==== Code Annotation ====
 Prism does not support out of the box code annotation such as the [[https://docs.asciidoctor.org/asciidoc/latest/verbatim/callouts/|Asciidoctor callout]].
 
@@ -194,7 +205,7 @@ myCode # (3)
 </code>
   * or use the following prism plugin that permits code annotation but are not yet implemented
       * The [[https://prismjs.com/plugins/keep-markup/|Keep Markup (ie keep HTML)]]. With the keep markup, you can add HTML markup such as ''mark'' to highlight your code. It does not work yet because Dokuwiki escapes the whole block of code. Another component should be created for this purpose.
-      * [[https://prismjs.com/plugins/line-highlight/|Line highlight]] permits to highlight a line number.
+      * [[#Line highlight]] permits to highlight a line number.
 
 See also this prism [[https://prismjs.com/faq.html#if-pre-existing-html-is-stripped-off-how-can-i-highlight|faq entry]]
 
