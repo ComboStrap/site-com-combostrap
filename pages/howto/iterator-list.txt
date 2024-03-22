@@ -49,3 +49,12 @@ Write the closing tag and save your page.
 You obtain this result on this website.
 
 </webcode>
+
+
+==== Apply your layout ====
+
+You can use any component to layout your pages. 
+
+For instance, you can add them in a grid: 
+
+[[:howto:grid_generated]]

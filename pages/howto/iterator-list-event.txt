@@ -11,8 +11,6 @@
 ===== About =====
 This [[howto:howto|howto]] shows you how you can generate a [[:docs:lists:list|list]] of [[:docs:type:event|pages event]] with the [[:docs:templating:iterator|iterator components]].
 
-
-
 ===== Steps =====
 
 <webcode>
@@ -57,3 +55,12 @@ Write the closing tag and save your page.
 You obtain this result on this website.
 
 </webcode>
+
+
+==== Apply your layout ====
+
+You can use any component to layout your pages. 
+
+For instance, you can add them in a grid: 
+
+[[:howto:grid_generated]]

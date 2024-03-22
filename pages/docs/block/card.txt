@@ -1,11 +1,16 @@
 ---json
 {
+    "aliases": [
+        { "path": ":wiki:markup_docs:menubar:card" }
+    ],
+    "canonical": ":card",
     "description": "A card is a box composed of an image, a text and a call to action",
+    "featured-raster-image": ":docs:block:card_illustration.png",
     "images": [
         { "path": ":docs:block:card_illustration.png" }
     ],
-    "page_id": "9rhn4ii6b02f69tnwhoc6",
-    "title": "ComboStrap UI - Creating a card"
+    "low_quality_page": "false",
+    "page_id": "9rhn4ii6b02f69tnwhoc6"
 }
 ---
 

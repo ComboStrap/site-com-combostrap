@@ -1,9 +1,13 @@
 ---json
 {
+    "aliases": [
+        { "path": ":docs:semantic:event" },
+        { "path": ":wiki:markup_docs:semantic:event" }
+    ],
     "canonical": ":page:event",
-    "date_end": "2999-03-11T14:04:00+00:00",
-    "date_start": "2024-03-11T14:03:00+00:00",
-    "description": "An event page is a page that is describing an event",
+    "date_end": "2999-03-20T12:23:00+00:00",
+    "date_start": "2024-03-12T12:23:00+00:00",
+    "description": "An event page is a page that describes an event",
     "page_id": "wy1qlu5qhctf3ztp7jhdw"
 }
 ---
@@ -11,7 +15,7 @@
 
 
 ===== About =====
-An ''event page'' is a page that is advertising an event.
+An ''event page'' is a page that advertises an event.
 
 To tag your page has a ''event'', you need to have:
   * the [[type|type of page]] set to ''event''
@@ -19,7 +23,6 @@ To tag your page has a ''event'', you need to have:
   * a ''date_end'' set to the ''end'' [[docs:metadata:date_format|date]] of the event
   * [[docs:page:name|name]] - the name of the event
   * [[docs:page:description|a description]] - the description of the event
-
 
 
 ===== How to generate a list of event pages? =====
