@@ -15,7 +15,19 @@
 
 ===== New Feature =====
 
-  * ''Line highlighting'' has been added to [[:docs:utility:prism|Prism component (code, file, ...)]] ([[https://github.com/ComboStrap/combo/issues/83|Feature request]])
+  * [[:docs:utility:prism#line highlight|Line highlighting]] has been added to [[:docs:utility:prism|Prism component (code, file, ...)]] ([[https://github.com/ComboStrap/combo/issues/83|Feature request]])
+
+Example [[:docs:utility:prism#line highlight|Line highlighting]]:
+
+<code html line-numbers="true" line-highlight="1-3, 5">
+    <p>Line 1</p>
+    <p>Line 2</p>
+    <p>Line 3</p>
+    <p>Line 4</p>
+    <p>Line 5</p>
+</code>
+
+
 ===== New documentation =====
 
   * A howto has been created to show how you can use the start date and end date: [[:howto:iterator-list-event|]]
