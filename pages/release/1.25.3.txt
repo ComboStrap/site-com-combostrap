@@ -12,8 +12,10 @@
 ===== Improvement =====
   * We have added the [[:docs:templating:sql#date predicate|date section in the Page Sql]] to show how to make a filtering.
   * Prompt and line-numbers were overwriting each other on [[:docs:utility:prism|prism component]]. Prompt is not shown if line numbers options has been set. [[https://github.com/ComboStrap/combo/issues/82|Bug]]
+  * [[https://github.com/ComboStrap/combo/issues/84|External Metadata manipulation]] may lead to null value
 
 ===== New Feature =====
+  * The ''now'' keyword can now be used in the [[:docs:templating:sql|Page Sql]] [[https://github.com/ComboStrap/combo/commit/5b7a56ccb7c57144ce99d82ebd684c7eb5d4f441|commit]]
 
   * [[:docs:utility:prism#line highlight|Line highlighting]] has been added to [[:docs:utility:prism|Prism component (code, file, ...)]] ([[https://github.com/ComboStrap/combo/issues/83|Feature request]])
 
@@ -32,5 +34,5 @@ Example [[:docs:utility:prism#line highlight|Line highlighting]]:
 
   * A howto has been created to show how you can use the start date and end date: [[:howto:iterator-list-event|]]
 
-===== New feature =====
-  * The ''now'' keyword can now be used in the [[:docs:templating:sql|Page Sql]] [[https://github.com/ComboStrap/combo/commit/5b7a56ccb7c57144ce99d82ebd684c7eb5d4f441|commit]]
+
+

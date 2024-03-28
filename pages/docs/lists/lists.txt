@@ -1,5 +1,7 @@
 ---json
 {
+    "canonical": ":lists",
+    "low_quality_page": "false",
     "page_id": "za0md5d4zt7aztcgbhwts"
 }
 ---

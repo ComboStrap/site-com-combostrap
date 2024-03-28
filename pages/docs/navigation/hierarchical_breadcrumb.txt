@@ -10,6 +10,7 @@
 ===== About =====
 A ''Hierarchical Breadcrumb'' is a [[docs:navigation:breadcrumb|breadcrumb]] that shows where the page is located in the [[:docs:page:system:system|page system tree]] in hierarchical order.
 
+The label shown is the [[:docs:page:name|page name]].
 
 Combostrap offers two types of hierarchical breadcrumbs:
   * ''navigation'': the full breadcrumb that should appear once on a page

@@ -1,31 +1,36 @@
 ---json
 {
+    "canonical": ":navigation",
     "description": "How to improve the navigation of your website with the navigational components",
-    "page_id": "cp14pvfbyrwc6h4tuxfit",
-    "title": "All Navigational components"
+    "low_quality_page": "false",
+    "page_id": "cp14pvfbyrwc6h4tuxfit"
 }
 ---
 
-====== ComboStrap UI - Navigation ======
+====== What are the Navigational components in Combostrap? ======
 
 
 ===== About =====
 ''navigational components'' helps the user to navigate and discover your website.
 
 
+
+===== Label =====
+All navigation components use by default the [[:docs:page:name|page name]] as label.
+
 ===== List =====
 
-[[docs:component|ComboStrap UI]] get the following component in its library.
+[[docs:component|ComboStrap UI]] has the following navigational components in its library.
 
 ==== Block Component ====
 
 
-  * [[docs:navigation:breadcrumb]] : A list of pages shown in a [[docs:navigation:hierarchical_breadcrumb|hierarchical]] or [[docs:navigation:historical_breadcrumb|historical]]  way.
-  * [[docs:menubar:menubar]] : The top navigation bar
-  * [[docs:theme:element:toc]] : The table of content
-  * [[docs:navigation:page-explorer]] : A page navigation component that shows a list or a tree of pages
-  * [[docs:layout:component:tabs]] : A tab when activated that shows its related [[docs:layout:component:panel|panel]]
-  * [[docs:layout:component:accordion]] : A list of rows that when activated shows its related [[docs:layout:component:panel|panel]]
+  * [[docs:navigation:breadcrumb|Breadcrumb]] : A list of pages shown in a [[docs:navigation:hierarchical_breadcrumb|hierarchical]] or [[docs:navigation:historical_breadcrumb|historical]]  way.
+  * [[docs:menubar:menubar|Menubar]] : The top navigation bar
+  * [[docs:theme:element:toc|Toc]] : The table of content
+  * [[docs:navigation:page-explorer|Page explorer]] : A page navigation component that shows a list or a tree of pages
+  * [[docs:layout:component:tabs|Tabs]] : A tab when activated that shows its related [[docs:layout:component:panel|panel]]
+  * [[docs:layout:component:accordion|Accordion]] : A list of rows that when activated shows its related [[docs:layout:component:panel|panel]]
 
 ==== Text Component ====
 
