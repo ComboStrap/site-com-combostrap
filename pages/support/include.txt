@@ -11,19 +11,29 @@
 ===== About =====
 The ''include plugin'' is a [[plugin|external plugin]] that permits to compose a page with the content of another page.
 
+===== How to enable it with Combostrap? =====
+By default, the include plugin (ie section syntax) will not work with ComboStrap.
 
-===== Section Syntax =====
-The [[doku>plugin:include|include plugin]] permits to add the content of a section with the following syntax.
+You need to disable the [[docs:content:heading#headingWikiEnable|combo wiki heading component]] to enable it.
+
+**Why?**: It does not work because the ''include plugin'' uses the standard Dokuwiki heading to be able to extract the content.
+
+
+===== Example: Section Syntax =====
+The [[doku>plugin:include|include plugin]] permits adding the content of a section with the following syntax.
 
 <code>
 {{section>reference#section}}
 </code>
 
-By default, the section syntax will not work with ComboStrap, you need to disable the [[docs:content:heading#headingWikiEnable|combo wiki heading component]].
 
-<note>
-It does not work because the ''include plugin'' uses the standard dokuwiki heading to be able to extract the content.
-</note>
+===== Support =====
 
+
+==== Why an included Heading 1 does not appear? ====
+
+If your page has a [[:docs:theme:template:template|template]] with a [[:docs:theme:slot:main_header_slot|main header]], the [[:docs:content:heading|heading]] ''1'' is captured to not show the title twice.
+
+If you need to include an ''heading 1'' in a Combostrap page, see this [[https://github.com/ComboStrap/combo/issues/91#issuecomment-2041409876|comment]]
 
 
