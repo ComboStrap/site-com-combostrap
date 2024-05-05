@@ -2,6 +2,7 @@
 {
     "canonical": ":page_sql",
     "description": "This page defines the sql that can be used to retrieve data from pages",
+    "low_quality_page": "false",
     "name": "Page Sql",
     "page_id": "5fkwj0m6w4mhjmt4nqm7w",
     "title": "How to define your data set with Sql"

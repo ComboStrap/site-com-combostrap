@@ -174,7 +174,12 @@ Hovering on this link, you will see a [[?preview|preview of the actual page]]
 \\
 
 <note>
-If you enable the [[#previewLink]] configuration, the ''preview'' attribute will be added on all internal links.
+== AutoPreview ==
+
+
+If you enable the [[#previewLink]] configuration, the ''preview'' attribute will be added on all internal links. 
+
+In this case, you can disable the preview by setting the value to ''false'' (ie ''preview=false'').
 </note>
 
 ==== Highlight Words in the target page ====

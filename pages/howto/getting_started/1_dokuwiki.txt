@@ -1,7 +1,13 @@
 ---json
 {
+    "aliases": [
+        { "path": ":docs:getting_started:1_dokuwiki" },
+        { "path": ":wiki:markup_docs:getting_started:1_dokuwiki" },
+        { "path": ":wiki:markup_getting_started:1_dokuwiki" }
+    ],
     "name": "Dokuwiki Installation",
     "page_id": "52gxusbx7sb0v76bgvn9v",
+    "template": "holy",
     "title": "How to install Dokuwiki ?"
 }
 ---

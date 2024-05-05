@@ -1,9 +1,13 @@
 ---json
 {
+    "aliases": [
+        { "path": ":wiki:markup_docs:getting_started:4_plugin" }
+    ],
     "canonical": ":installation:plugins",
     "description": "This page is an optional and informative step that highlights important information that you should now about third party plugins.",
     "name": "Third Party Plugins",
     "page_id": "uf5ymxql03zbox8jzrizu",
+    "template": "holy",
     "title": "Third Plugins - ComboStrap Getting Started"
 }
 ---

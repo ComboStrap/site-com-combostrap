@@ -30,7 +30,7 @@ You can apply:
 ===== Features =====
 
 All themes support the following features:
-
+  * one [[:docs:theme:template:template|template layout]] by page.
   * [[docs:performance:cdn|Serve the Bootstrap files by default from a CDN]]
   * Support [[docs:app:tagline|tagline]]
   * [[docs:styling:scale|Size Scale configuration (font and spacing)]]
@@ -56,9 +56,21 @@ For more advanced usage, you can:
 
 
 
-===== How can you choose your theme? =====
+
+
+
+===== Configuration =====
+
+==== How can you choose your theme? ====
 
 You can choose your theme by modifying the ''theme'' value in the [[:docs:app:configuration|app configuration]].
+
+
+==== Disable ====
+
+You can disable the theme functionality with the [[:docs:app:configuration|configuration]] ''combo-conf-001'' and use the DokuWiki template engine instead.
+
+
 
 
 

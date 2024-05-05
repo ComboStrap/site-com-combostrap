@@ -7,7 +7,7 @@
     "description": "The theme system supports the creation of a slot page called header slot in order to create a menu bar at the top location of the page.\n\n\n\n\n\n\t*  Create a page called :slot_header (at the root directory of your pages)\n\t*  Enter the below menu bar example\n\nIf you have uploaded a icon in the Favicon step, a minimal header slomenu bamenu bar pagfooter sloUI ComponentRouting and redirectionSEO pagesubscribe",
     "name": "Top menubar",
     "page_id": "rtc8cfn4cafxhrojpog8m",
-    "title": "How to create a top menu bar?"
+    "template": "holy"
 }
 ---
 
@@ -31,7 +31,7 @@ If you have uploaded a icon in the [[6_favicon|Favicon step]], a minimal ''heade
 
 <webcode name="Default" iframe>
 <code dw>
-<menubar breakpoint="md">
+<menubar breakpoint="lg">
 <brand title="My Brand">
 <icon name="logo.svg" />
 My Brand name

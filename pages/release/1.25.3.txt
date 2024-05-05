@@ -14,6 +14,7 @@
   * We have added the [[:docs:templating:sql#date predicate|date section in the Page Sql]] to show how to make a filtering.
   * Prompt and line-numbers were overwriting each other on [[:docs:utility:prism|prism component]]. Prompt is not shown if line numbers options has been set. [[https://github.com/ComboStrap/combo/issues/82|Bug]]
   * [[https://github.com/ComboStrap/combo/issues/84|External Metadata manipulation]] may lead to null value
+  * [[https://github.com/ComboStrap/combo/issues/93|Access false in the link preview attribute]] - We know accept false as value in the preview attribute if the [[:docs:content:link#preview|auto preview is on]]
 
 ===== New Feature =====
   * The ''now'' keyword can now be used in the [[:docs:templating:sql|Page Sql]] [[https://github.com/ComboStrap/combo/commit/5b7a56ccb7c57144ce99d82ebd684c7eb5d4f441|commit]]

@@ -37,3 +37,16 @@ If your page has a [[:docs:theme:template:template|template]] with a [[:docs:the
 If you need to include an ''heading 1'' in a Combostrap page, see this [[https://github.com/ComboStrap/combo/issues/91#issuecomment-2041409876|comment]]
 
 
+==== Why do I see a title in the current metadata? ====
+
+It's because [[https://github.com/dokuwiki/dokuwiki/blob/master/inc/parser/metadata.php#L167|Dokuwiki store it]] when the heading is disabled.
+
+<code php>
+public function header($text, $level, $pos)
+{
+        if (!isset($this->meta['title'])) {
+            $this->meta['title'] = $text;
+        }
+        ...
+}
+</code>

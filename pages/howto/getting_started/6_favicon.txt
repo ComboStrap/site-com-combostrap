@@ -7,7 +7,7 @@
     "description": "This page is an HowTo that shows you how to choose and install a favicon and your logo image with ComboStrap.\n\n\n\n\n\n\n\n\n\nYou can design your own logo but you can also be inspired by collection of logo\n\nIn our case we have chosen an icon directly from <https:\/\/materialdesignicons.com\/>\n\n\t*  Choose an icon\n\n\n\n\t*  Download the Svg file and rename it to logo.svgrealfavicongenerator generatormedia managerfavicon.icofavicon-.pngfavicon-.pngapple-touch-icon.pngandroid-chrome-.pnmanifestlogo.svlogo pagfac\u2026",
     "name": "Favicon Installation",
     "page_id": "ii2jsjqkhkaunk58kt7bd",
-    "title": "How to configure the Favicons"
+    "template": "holy"
 }
 ---
 
