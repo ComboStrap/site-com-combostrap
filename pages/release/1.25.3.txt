@@ -1,22 +1,19 @@
 ====== Combo Release 1.25.3 ======
 
 
+===== About =====
+Thanks to [[https://github.com/listerr|Rob]], [[https://github.com/vaniwiki|Eiwind]], [[https://github.com/knieselpriem|knieselpriem]] and our customers, the Release ''1.25.3''
+  * adds:
+      * 2 new features
+      * 3 improvements
+  * resolved 3 bugs
+  * and improve the documentation
 
+Follow the [[release:update|upgrade steps]] and [[:support|contact us]] for better documentation, question or support.
 
+===== Changes =====
 
-
-===== Bug =====
-  * infinite loop on unknown URL parameters creating a memory error - [[https://github.com/ComboStrap/combo/issues/79|User manager breaks when combo enabled]] - The logging system was logging unknown parameters creating a loop if combo was creating the context.
-  * heading numbering at 0. Combostrap supports the flat HTML of Dokuwiki and the modern HTML section for heading. The heading counters were not reset in the good node as requested by css. [[https://github.com/ComboStrap/combo/commit/484d95f4810f08e1869bd5ad543525a3df42d868|commit]]
-  * [[https://github.com/ComboStrap/combo/issues/91|Bad TOC when Heading is disabled for the include plugin]] - The TOC was not built correctly when the [[:docs:content:heading|heading component]] was disabled.
-
-===== Improvement =====
-  * We have added the [[:docs:templating:sql#date predicate|date section in the Page Sql]] to show how to make a filtering.
-  * Prompt and line-numbers were overwriting each other on [[:docs:utility:prism|prism component]]. Prompt is not shown if line numbers options has been set. [[https://github.com/ComboStrap/combo/issues/82|Bug]]
-  * [[https://github.com/ComboStrap/combo/issues/84|External Metadata manipulation]] may lead to null value
-  * [[https://github.com/ComboStrap/combo/issues/93|Access false in the link preview attribute]] - We know accept false as value in the preview attribute if the [[:docs:content:link#preview|auto preview is on]]
-
-===== New Feature =====
+==== New Features ====
   * The ''now'' keyword can now be used in the [[:docs:templating:sql|Page Sql]] [[https://github.com/ComboStrap/combo/commit/5b7a56ccb7c57144ce99d82ebd684c7eb5d4f441|commit]]
 
   * [[:docs:utility:prism#line highlight|Line highlighting]] has been added to [[:docs:utility:prism|Prism component (code, file, ...)]] ([[https://github.com/ComboStrap/combo/issues/83|Feature request]])
@@ -31,10 +28,23 @@ Example [[:docs:utility:prism#line highlight|Line highlighting]]:
     <p>Line 5</p>
 </code>
 
-
-===== New documentation =====
+==== Documentation ====
 
   * A howto has been created to show how you can use the start date and end date: [[:howto:iterator-list-event|]]
+  * We have added the [[:docs:templating:sql#date predicate|date section in the Page Sql]] to show how to make a filtering.
 
 
+==== Improvements ====
+
+  * Prompt and line-numbers were overwriting each other on [[:docs:utility:prism|prism component]]. The prompt is not shown if the ''line numbers'' option has been set. [[https://github.com/ComboStrap/combo/issues/82|Bug]]
+  * [[https://github.com/ComboStrap/combo/issues/84|External Metadata manipulation]] may lead to null value
+  * [[https://github.com/ComboStrap/combo/issues/93|Access false in the link preview attribute]] - We now accept false as value in the preview attribute if the [[:docs:content:link#preview|auto preview is on]]
+
+
+
+
+===== Bugs =====
+  * infinite loop on unknown URL parameters creating a memory error - [[https://github.com/ComboStrap/combo/issues/79|User manager breaks when combo enabled]] - The logging system was logging unknown parameters creating a loop if combo was creating the context.
+  * heading numbering at 0. Combostrap supports the flat HTML of Dokuwiki and the modern HTML section for heading. The heading counters were not reset in the good node as requested by CSS. [[https://github.com/ComboStrap/combo/commit/484d95f4810f08e1869bd5ad543525a3df42d868|commit]]
+  * [[https://github.com/ComboStrap/combo/issues/91|Bad TOC when Heading is disabled for the include plugin]] - The TOC was not built correctly when the [[:docs:content:heading|heading component]] was disabled.
 
