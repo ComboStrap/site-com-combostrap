@@ -1,0 +1,16 @@
+====== Release 1.25.4 ======
+
+
+
+===== About =====
+This is a version not yet released.
+
+
+===== List =====
+
+==== Bug ====
+
+  * [[https://github.com/ComboStrap/combo/issues/106|Bug]] reported by [[https://github.com/jkiser99dev|jkiser99dev]]: ''base rewrite'' was messing up with the CDN url.
+  * [[https://github.com/ComboStrap/combo/issues/109|Bug]] - the dismiss on popover was preventing any link to work. We took over and have implemented our own dismiss with a ''mousedown'' event. The impacted elements were:
+      * [[:docs:theme:slot:slot_manager|The slot manager]]
+      * [[:docs:navigation:historical_breadcrumb|The historical breadcrumb]]

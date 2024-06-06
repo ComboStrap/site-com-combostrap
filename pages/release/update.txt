@@ -7,7 +7,7 @@
 
 
 ===== About =====
-This page lists the standard steps that need to be taken in order to update your ComboStrap installation and third-party plugins.
+This page lists the standard steps that needs to be taken in order to update your ComboStrap installation and third-party plugins.
 
 
 
