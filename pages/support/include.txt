@@ -23,8 +23,12 @@ You need to disable the [[docs:content:heading#headingWikiEnable|combo wiki head
 The [[doku>plugin:include|include plugin]] permits adding the content of a section with the following syntax.
 
 <code>
-{{section>reference#section}}
+{{section>reference#section&nodate&inline&noeditbtn}}
 </code>
+where:
+  * ''inline'' will not create a section (Mandatory to [[https://www.dokuwiki.org/plugin:include#the_include_plugin_breaks_the_wrap_and_folded_and_similar_plugins_when_used_inside_them|not messed up the layout]])
+  * ''nodate'' will not print the data
+  * ''noeditbtn'' should not create any edit button.
 
 
 ===== Support =====
@@ -50,3 +54,10 @@ public function header($text, $level, $pos)
         ...
 }
 </code>
+
+==== Why is the layout messed up? ====
+
+The include plugin does [[https://www.dokuwiki.org/plugin:include#the_include_plugin_breaks_the_wrap_and_folded_and_similar_plugins_when_used_inside_them|not always return a clean HTML]]. The browser will then make a best guess and the included parts may land in another region of the [[:docs:theme:template:template|template]].
+
+
+See [[https://github.com/ComboStrap/combo/issues/91|the issue 91]] for the whole explanation.

@@ -1,15 +1,17 @@
 ---json
 {
+    "aliases": [
+        { "path": ":docs:url:nice" }
+    ],
     "canonical": ":nice:url",
     "description": "This article shows you how to configure your installation to show nice url to your users.",
     "name": "Nice URL",
     "page_id": "oln5keoyf6cfrswut2clz",
-    "slug": ":nice-url",
-    "title": "How to configure nice URL"
+    "slug": ":nice-url"
 }
 ---
 
-====== Page - Nice URL ======
+====== How to configure nice URL? ======
 
 
 
@@ -19,20 +21,28 @@ This is an informative page about nice URL
 
 ===== What is a nice URL ? =====
 
-Dokuwiki uses as main entry the script ''doku.php'' and by default every [[..:page:url|page URL]] looks like that
+By default every [[..:page:url|page URL]] in Dokuwiki looks like that:
 
-https://combostrap.com/doku.php?id=url:nice
+  * for a page: https://combostrap.com/doku.php?id=url:nice
+  * for a media (image, ...): https://combostrap.com/lib/exe/fetch.php?media=image.png
 
-This URL has technical information (ie the name of the script ''doku.php'') that can be stripped off to let only the semantic information. A ''nice url'' would be
+These URLs have technical information: 
+  * the name of the script ''doku.php'' or ''lib/exe/fetch.php''
+  * the property key ''id'' or ''media''
 
-https://combostrap.com/url/nice
+They can be stripped off to let them be more readable for the human but also for the [[:docs:seo:seo|search bot]]
+
+The resulting ''nice urls'' would become:
+
+  * for a page: https://combostrap.com/url/nice
+  * for a media: https://combostrap.com/_media/image.jpg
 
 ===== How to get a Nice URL? =====
 
 
 You should:
-  * first, [[doku>rewrite#option_1web_server|configure your web server]]
-  * then choose the following [[:docs:app:configuration|configuration]]:
+  * first, [[doku>rewrite#option_1web_server|configure your web server]] to do the rewrite.
+  * then choose the following [[:docs:app:configuration|dokuwiki configuration]]:
       * the ''htaccess'' [[doku>rewrite|rewrite Dokuwiki]] option.
       * the [[doku>useslash|useSlash]] option.
 
@@ -44,7 +54,7 @@ Example:
 \\
 ''htaccess'' is a misleading option name 
 as it just means that the web server is configured to do the rewrite. 
-You can configure any webserver, not only Apache. We personally use Nginx.
+You can configure any webserver, not only Apache. We personally use Nginx and Caddy.
 
 
 ===== What Combostrap can do with URL? =====
