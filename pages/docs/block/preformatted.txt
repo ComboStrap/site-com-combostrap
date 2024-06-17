@@ -14,7 +14,6 @@
 
 This is also known as ''indented code block'' and is a minimal syntax to create a [[code|block of code]] with no syntax highlighting.
 
-
 <badge>[[release:archive:1.11|since 1.11]]</badge>
 
 ===== Syntax =====

@@ -29,6 +29,6 @@ This layout is mainly used:
 ===== Example =====
 
 
-[[start?template=minimal|Click on this link to see the minimal template in action]]
+[[?template=minimal|Click on this link to see the minimal template in action]]
 
 

@@ -8,6 +8,9 @@ This is a version not yet released.
 
 ===== List =====
 
+==== New ====
+  * A new utility: the [[:docs:utility:bundler|page bundler]]. It may be handy when you want to create a [[:howto:pdf|single document (pdf)]] from multiples pages.
+
 ==== Bug ====
 
   * [[https://github.com/ComboStrap/combo/issues/106|Bug]] reported by [[https://github.com/jkiser99dev|jkiser99dev]]: ''base rewrite'' was messing up with the CDN url.

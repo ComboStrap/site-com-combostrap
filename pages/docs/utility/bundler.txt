@@ -1,0 +1,30 @@
+====== Page Bundler ======
+
+
+===== About =====
+The ''page bundler'' is an utility that will create one single page from all descendant pages of an [[:docs:page:system:index|index page]].
+
+===== Example =====
+
+For instance, click on this <btn>[[:howto:getting_started:getting_started?do=combo_pagebundler|link]]</btn> to get the [[:howto:getting_started:getting_started|Getting started guide section]] into one page.
+
+
+You can then create a [[howto:pdf|pdf file]].
+===== How it works =====
+
+You need to add the following query ''?do=combo_pagebundler'' to the URL of the [[:docs:page:system:index|index page]]. It will then bundle all descendants pages into one page.
+
+
+<code uri>
+?do=combo_pagebundler
+</code>
+
+===== Limitations =====
+
+Because this is a heavy task, this task is limited to:
+  * for anonymous user:
+      * 5 pages (so no crawler will load your server)
+      * ''max execution time'' is the maximum time of the server (in php.ini, 30 second by default)
+  * for logged in user:
+      * no pages limitation
+      * ''max execution time'' is 5 minutes.

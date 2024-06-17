@@ -21,9 +21,9 @@ This is an informative page about nice URL
 
 ===== What is a nice URL ? =====
 
-By default every [[..:page:url|page URL]] in Dokuwiki looks like that:
+By default, ''URL'' in Dokuwiki looks like that:
 
-  * for a page: https://combostrap.com/doku.php?id=url:nice
+  * for a [[..:page:url|page]]: https://combostrap.com/doku.php?id=url:nice
   * for a media (image, ...): https://combostrap.com/lib/exe/fetch.php?media=image.png
 
 These URLs have technical information: 

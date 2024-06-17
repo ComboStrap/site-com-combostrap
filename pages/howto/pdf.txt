@@ -1,0 +1,23 @@
+====== How to create a PDF file? ======
+
+
+===== About =====
+This page shows you how to create a PDF file from your content.
+
+===== Steps =====
+
+==== Create an HTML file ====
+
+To create a PDF file, you create first an HTML file to you print to PDF.
+
+  * from one page, you need to add to your URL ''?template=minimal'' for a [[:docs:theme:template:minimal|minimal template]] or ''?do=export_xhtml'' for the standard dokuwiki export
+  * from one namespace, you need to add to your URL ''?do=combo_pagebundler'' to generate a [[docs:utility:bundler|bundle page (single page)]] 
+
+==== Edit and Print ====
+
+Then you can:
+  * use directly the ''Print'' function of your browser to print the results as-is in ''pdf''
+  * or copy the HTML into your preferred editor (Words, Open Office) to modify the content before printing. The editor will import the HTML content.
+
+
+
