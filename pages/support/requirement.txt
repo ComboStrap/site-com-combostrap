@@ -34,6 +34,7 @@ ComboStrap is dependent on the following php extensions
 | ''openssl'' | Yes | SSL for security reason and message digest |
 | ''intl'' | No | the [[https://www.php.net/manual/en/book.intl.php|international module]] is used to retrieve the [[docs:locale:region|country]] of the server if not set. |
 | ''gd2'' | Yes | for [[:docs:content:vignette|vignette]] creation and [[docs:content:raster|raster image]] manipulation |
+| ''xml'' | Yes | For the [[:docs:performance:svg_optimization|SVG optimization]] |
 
 They should be available on standard php installation, if this is not the case, you can install/configure them
 
@@ -46,6 +47,7 @@ extension=mbstring
 extension=openssl
 extension=intl
 extension=gd2
+# Xml seems to be included
 </code>
   * on Linux
 <code bash>

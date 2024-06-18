@@ -24,6 +24,9 @@ This page steps you through this phase of how to install Dokuwiki.
 
 
 ==== DokuWiki Version Check ====
+
+Combostrap supports only the latest two versions of Dokuwiki (ie N/N-1 support).
+
 If you have already a Dokuwiki Installation, you should have the last version. We support the previous version only a couple of month.
 
 You can check the version of your installation:

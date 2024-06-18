@@ -22,7 +22,10 @@ This is where we will create a [[docs:menubar:menubar|menu bar]].
 
 ===== Steps=====
 
-  * Create a page called '':slot_header'' (at the root directory of your pages)
+  * Create a page called '':slot_header'' at the [[:docs:page:system:home|home level]] . ie, with the following URL:
+<code>
+http://yourdomain.com/doku.php?id=slot_header
+</code>
   * Enter the below [[docs:menubar:menubar|menu bar]] example
 
 
