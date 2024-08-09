@@ -11,9 +11,16 @@ This is a version not yet released.
 ==== New ====
   * A new utility: the [[:docs:utility:bundler|page bundler]]. It may be handy when you want to create a [[:howto:pdf|single document (pdf)]] from multiples pages.
 
+
 ==== Bug ====
 
   * [[https://github.com/ComboStrap/combo/issues/106|Bug]] reported by [[https://github.com/jkiser99dev|jkiser99dev]]: ''base rewrite'' was messing up with the CDN url.
   * [[https://github.com/ComboStrap/combo/issues/109|Bug]] - the dismiss on popover was preventing any link to work. We took over and have implemented our own dismiss with a ''mousedown'' event. The impacted elements were:
       * [[:docs:theme:slot:slot_manager|The slot manager]]
       * [[:docs:navigation:historical_breadcrumb|The historical breadcrumb]]
+  * [[:docs:router:router|]]: Infinite Redirect because the ID was not cleaned when retrieving it.
+  * [[:docs:admin:nice-url|Nice URL]]: When Nice URL is on, the configuration useSlash should also be enabled otherwise the static resource returns an internal error. Dokuwiki breaks if the file path returned a file that does not exist
+  * [[:docs:analytics:replication|Database Sync]]: the database sync uses a lock that is deleted at the end by a shutdown function. In php 8.3, this function should not print any debug statement otherwise the [[doku>TaskRunner]] returns no response (ie gif) even if successfull.
+
+==== Improvement ====
+  * Deleted warnings caused by php8.3 about array and other php7 construct.
