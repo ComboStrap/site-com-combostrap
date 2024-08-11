@@ -9,6 +9,8 @@ This is a version not yet released.
 ===== List =====
 
 ==== New ====
+  * [[:docs:admin:docker|DokuWiki Docker]] - A new way to develop and publish ComboStrap WebSite with Docker
+  * [[:docs:admin:website|ComboStrap WebSite]] - A ComboStrap WebSite permits to develop and publish website collaboratively (locally or remotely)
   * A new utility: the [[:docs:utility:bundler|page bundler]]. It may be handy when you want to create a [[:howto:pdf|single document (pdf)]] from multiples pages.
 
 

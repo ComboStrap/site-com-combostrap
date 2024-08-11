@@ -3,7 +3,7 @@
 
 
 ===== About =====
-The ''page system'' is a system that organize the [[docs:theme:template:template|pages]] in a hierarchical fashion.
+The ''page system'' is a system that organize the pages in a hierarchical fashion.
 
 
 ===== Example =====
