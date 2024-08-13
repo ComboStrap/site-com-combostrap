@@ -2,9 +2,9 @@
 
 ===== About =====
 
-A ''Combostrap WebSite'' is a collection of files that:
-  * represents a [[:docs:app:app|ComboStrap WebSite App]] (pages, images, ...)
-  * can run everywhere thanks to [[docs:admin:docker|ComboStrap Docker]].
+A ''Combostrap WebSite'' 
+  * is a collection of files (pages, images, ...)
+  * that can run everywhere thanks to [[docs:admin:docker|the ComboStrap Docker image]].
 
 It permits to develop and publish website collaboratively (locally or remotely) using Git.
 ===== Example =====

@@ -1,11 +1,37 @@
-====== DokuWiki Docker ======
+====== ComboStrap DokuWiki In Docker ======
+
+
+
+===== About =====
 
 
 
 
 
+[[https://github.com/combostrap/dokuwiki-docker/|ComboStrap DokuWiki In Docker]] is a docker image that install:
+  * [[doku>|DokuWiki]]
+  * and a [[website|ComboStrap Website instance]]
 
-ComboStrap DokuWiki Docker is a docker image that install:
-  * DokuWiki
-  * And a [[website|ComboStrap Website instance]]
+===== Usage =====
 
+You can:
+  * develop a [[website|website]] locally (ie on your desktop) and publish it remotely
+  * or install a DokuWiki Instance for:
+    * team documentation collaboration
+    * knowledge base development
+
+===== Example =====
+
+To get a [[doku>start|Dokuwiki server]] with the [[https://github.com/ComboStrap/site-default|Combostrap Default Site]] available at http://localhost:8080, execute:
+```bash
+# bash
+docker run \
+  --name dokuwiki \
+  --rm \
+  -p 8080:80 \
+  -e DOKU_DOCKER_GIT_SITE='https://github.com/ComboStrap/site-default' \
+  ghcr.io/combostrap/dokuwiki:php8.3-v1
+```
+
+===== Documentation =====
+The documentation is available [[https://github.com/combostrap/dokuwiki-docker/|here]]
