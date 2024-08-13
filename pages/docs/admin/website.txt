@@ -2,7 +2,7 @@
 
 ===== About =====
 
-A Combostrap WebSite is a collection of files that:
+A ''Combostrap WebSite'' is a collection of files that:
   * represents a [[:docs:app:app|ComboStrap WebSite App]] (pages, images, ...)
   * can run everywhere thanks to [[docs:admin:docker|ComboStrap Docker]].
 
@@ -20,52 +20,58 @@ docker run \
   --name combo-site-default \
   --rm \
   -p 8081:80 \
-  -e DOKU_DOCKER_GIT=https://github.com/ComboStrap/site-default \
+  -e DOKU_DOCKER_GIT_SITE=https://github.com/ComboStrap/site-default \
   ghcr.io/combostrap/dokuwiki:php8.3-v1
 </code>
 The default ComboStrap site should be available at: http://localhost:8081
 ===== Layout =====
 
-A ComboStrap WebSite is a git repository with the following files and directory:
-  * ''.gitignore'' - defines the files of a DokuWiki Installation that should be committed in git.
+A ComboStrap WebSite is a subset of a DokuWiki Installation stored in a Git repository.
+
+By default, the following files and directory are included:
+  * ''.gitignore'' - defines the files of a DokuWiki Installation that should be added to the git repository.
   * ''data/pages/*'' - all [[:docs:page:system:system|pages]]
   * ''data/media/*'' - all media (images, files, ...) 
-  * ''data/combo/theme'' - the combo theme ([[:howto:theme-creation|theme]], ...)
-  * ''data/combo/instance'' - the [[#plugins|plugins definition]]
+  * ''data/combo/*'' with the combo theme ([[:howto:theme-creation|theme]], ...) and [[#plugins|plugins definition]]
   * ''conf/local.php'' - the [[doku>config|configuration]]
-  * ''conf/*.local.*'' - all local configuration
+  * ''conf/*.local.*'' - all local configuration files (interwiki.local.conf, ...)
+  * ''conf/tpl/*'' - the template configuration files (style.ini, ...)
   * ''lib/images/interwiki'' - the [[doku>interwiki|interwiki images]]
 
 
 ==== Plugins ====
 
-The plugins definition file is used by the [[docs:admin:docker|ComboStrap DokuWiki Docker Image]] to install the needed plugins of your app.
+The plugins definition file ''data/combo/instance/plugins.dat'' is used by the [[docs:admin:docker|ComboStrap DokuWiki Docker Image]] to install the needed plugins of your site.
 
-Example from the [[https://github.com/ComboStrap/site-default/tree/main/data/combo/plugins/plugins.txt|default ComboStrap Website]]
+Example from the [[https://github.com/ComboStrap/site-default/blob/main/data/combo/instance/plugins.dat|default ComboStrap Website]]
 
-<file data/combo/instance/plugins.txt>
-# The plugins installed by DokuWiki Docker (https://combostrap.com/admin/docker-9iq3aso8)
-sqlite       https://github.com/cosmocode/sqlite/archive/main.zip
+<file data/combo/instance/plugins.dat>
+# The plugins installed by ComboStrap DokuWiki Docker (https://combostrap.com/admin/docker-9iq3aso8)
+sqlite       https://github.com/cosmocode/sqlite/archive/master.zip
 combo        https://github.com/ComboStrap/combo/archive/main.zip
-move         https://github.com/michitux/dokuwiki-plugin-move/archive/main.zip
-searchindex  https://github.com/splitbrain/dokuwiki-plugin-searchindex/archive/main.zip
+move         https://github.com/michitux/dokuwiki-plugin-move/archive/master.zip
+searchindex  https://github.com/splitbrain/dokuwiki-plugin-searchindex/archive/master.zip
 stale        https://github.com/ComboStrap/stale/archive/main.zip
 dump         https://github.com/ComboStrap/dump/archive/main.zip
 </file>
 
 
+\\
+\\
 
-The syntax of the file is:
-<file data/combo/instance/plugins.txt>
+The file is a space-delimited file with the following fields:
+<file data/combo/instance/plugins.dat>
 pluginName  pluginArchiveUrl 
 </file>
 where:
   * ''pluginName'' is the plugin name (ie the ''base'' property defined in the [[doku>devel:plugin_info|plugin_info]] file)
-  * ''pluginArchiveUrl'' is the URL of a zip archive. Example:
-      * The last commit on the main branch: https://github.com/ComboStrap/combo/archive/main.zip
-      * The combo plugin release [[:release:1.25.3|1.25.3]] from the [[https://github.com/ComboStrap/combo/releases/tag/v1.25.3|GitHub Release]] by:
-        * its tag name: https://github.com/ComboStrap/combo/archive/refs/tags/v1.25.3.zip
-        * its commit hash: https://github.com/ComboStrap/combo/archive/ec02c60.zip
+  * ''pluginArchiveUrl'' is the URL of a zip archive.
+
+''pluginArchiveUrl'' can defined the plugin version on different ways. For example:
+  * The last commit on the main branch: https://github.com/ComboStrap/combo/archive/main.zip
+  * The combo plugin release [[:release:1.25.3|1.25.3]] from the [[https://github.com/ComboStrap/combo/releases/tag/v1.25.3|GitHub Release]] by:
+      * its tag name: https://github.com/ComboStrap/combo/archive/refs/tags/v1.25.3.zip
+      * its commit hash: https://github.com/ComboStrap/combo/archive/ec02c60.zip
 
 
 
