@@ -1,4 +1,4 @@
-# Server
+## Old VPS configuration
 
 
 ## Symlinks

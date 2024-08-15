@@ -1,0 +1,7 @@
+# The plugins installed by ComboStrap DokuWiki Docker (https://combostrap.com/admin/docker-9iq3aso8)
+sqlite       https://github.com/cosmocode/sqlite/archive/master.zip
+combo        https://github.com/ComboStrap/combo/archive/main.zip
+move         https://github.com/michitux/dokuwiki-plugin-move/archive/master.zip
+searchindex  https://github.com/splitbrain/dokuwiki-plugin-searchindex/archive/master.zip
+stale        https://github.com/ComboStrap/stale/archive/main.zip
+dump         https://github.com/ComboStrap/dump/archive/main.zip

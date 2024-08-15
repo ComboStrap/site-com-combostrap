@@ -1,12 +1,44 @@
-/attic
-/cache
-/index
-/locks
-/media_attic
-/media_meta
-/meta
-/tmp
-.env
-*.bak.php
-*.bak
-*.dist
+# Ignore All
+*
+# Don't ignore the following files
+!.gitignore
+!.gitattributes
+!README.md
+# Don't ignore the doc/docs directories
+!doc/
+!doc/**
+!docs/
+!docs/**
+## Don't ignore the conf directory
+!conf/
+## Ignore all except the local files and tpl directory
+!conf/local.php
+!conf/*.local.*
+## template style.ini - https://www.dokuwiki.org/devel:style.ini#local_styleini
+!conf/tpl/
+!conf/tpl/**
+## Don't ignore the data directory
+!data/
+!data/*
+## Ignore the whole data directory, except pages, media and combo
+data/*
+!data/pages/
+!data/pages/**
+!data/media/
+!data/media/**
+!data/combo/
+!data/combo/**
+## Interwiki
+## Don't ignore the lib directory
+!lib/
+!lib/*
+## Ignore the whole data directory, except images
+lib/*
+## Don't ignore the images directory
+!lib/images
+!lib/images/*
+## Ignore the whole lib/images data directory, except interwiki
+lib/images/*
+## Don't ignore the interwiki images directory
+!lib/images/interwiki
+!lib/images/interwiki/*
