@@ -9,9 +9,10 @@
 $conf['title'] = 'ComboStrap';
 $conf['tagline'] = 'Create your footprint that last ForEver. Advertise yourself, your documentation or your company with a product that makes website design, creation and management, unique, easy and fun';
 $conf['youarehere'] = 1;
-$conf['toptoclevel'] = '2';
-$conf['maxseclevel'] = '4';
-$conf['useheading'] = '1';
+$conf['toptoclevel'] = 2;
+$conf['tocminheads'] = 1;
+$conf['maxseclevel'] = 4;
+$conf['useheading'] = 1;
 $conf['hidepages'] = '(headerbar|footerbar|sidekickbar|combostrap|sidebar)';
 $conf['disableactions'] = 'register,resendpwd,profile,profile_delete,subscribe,unsubscribe';
 $conf['indexdelay'] = 0;
