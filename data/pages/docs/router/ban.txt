@@ -58,13 +58,14 @@ git:hooks:pre-push.sample
 git:hooks:pre-receive.sample
 </code>
 
-==== Sql Injection ====
+==== SQL Injection====
 
-Sql Injection Scanning bans all path that contains sql statement
+SQL Injection Scanning bans all path that contains `sql statements`
 
-Example:
+Examples:
 <code>
 db:oracle:long_or_1_utl_inaddr.get_host_address_chr_33_chr_126_chr_33_chr_65_chr_66_chr_67_chr_49_chr_52_chr_53_chr_90_chr_81_chr_54_chr_50_chr_68_chr_87_chr_81_chr_65_chr_70_chr_80_chr_79_chr_73_chr_89_chr_67_chr_70_chr_68_chr_33_chr_126_chr_33
+1114_or_9176_cast_chr_113_chr_98_chr_98_chr_113_chr_113_select_case_when_9176_9176_then_1_else_0_end\text_chr_113_chr_118_chr_106_chr_98_chr_113_as_numeric_--_kted
 </code>
 
 
