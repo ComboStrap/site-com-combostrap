@@ -9,9 +9,9 @@
 
 ===== About =====
 
-[[https://github.com/combostrap/dokuwiki-docker/|ComboStrap DokuWiki In Docker]] is a docker image that install:
+''ComboStrap DokuWiki In Docker'' is a docker image that install:
   * [[doku>|DokuWiki]]
-  * and a [[website|ComboStrap Website instance]]
+  * and a [[website|ComboStrap Website instance]] (by default)
 
 ===== Usage =====
 
@@ -23,16 +23,16 @@ You can:
 
 ===== Example =====
 
-To get a [[doku>start|Dokuwiki server]] with the [[https://github.com/ComboStrap/site-default|Combostrap Default Site]] available at http://localhost:8080, execute:
+To get a [[doku>start|Dokuwiki server]] with the [[https://github.com/ComboStrap/site-starter|Combostrap Starter Site]] available at http://localhost:8080, execute:
 ```bash
 # bash
 docker run \
   --name dokuwiki \
   --rm \
   -p 8080:80 \
-  -e DOKU_DOCKER_GIT_SITE='https://github.com/ComboStrap/site-default' \
+  -e DOKU_DOCKER_GIT_SITE='https://github.com/ComboStrap/site-starter' \
   ghcr.io/combostrap/dokuwiki:php8.3-v1
 ```
 
 ===== Documentation =====
-The documentation is available [[https://github.com/combostrap/dokuwiki-docker/|here]]
+The documentation and source code are available [[https://github.com/combostrap/dokuwiki-docker/|here]]

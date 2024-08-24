@@ -4,6 +4,9 @@
 !.gitignore
 !.gitattributes
 !README.md
+# Don't ignore the .github repo
+!.github
+!.github/**
 # Don't ignore the doc/docs directories
 !doc/
 !doc/**

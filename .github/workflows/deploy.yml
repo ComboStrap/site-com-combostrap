@@ -1,0 +1,44 @@
+name: Deploy on push
+
+on:
+  push:
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  check-commits:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the site repository
+        uses: actions/checkout@v3
+
+      - name: Get the last commit hash on main
+        run: echo "LAST_COMMIT=$(git rev-parse origin/main)" >> $GITHUB_ENV
+
+      - name: Check out the deploy repository
+        uses: actions/checkout@v3
+        with:
+          repository: gerardnico/kube-argocd
+          path: kube-argocd
+
+      - name: Update commit in Kubernetes deployment manifest
+        run: |
+          cd kube-argocd || echo 'Fail Cd' & exit 1
+          echo "Patch Deployment with the last commit ($LAST_COMMIT)"
+          # Patch with the last commit the app deployment
+          kubectl patch --local -f com-combostrap/com-combostrap-deployment.yml -p "{\"spec\":{\"template\":{\"spec\":{\"containers\":[{\"name\":\"com-combostrap\",\"env\":[{\"name\":\"DOKU_DOCKER_GIT_SITE_COMMIT\",\"$LAST_COMMIT\":\"new\"}]}]}}}}"
+          # Do we have changes?
+          CHANGES_COUNT=$(git diff --name-only | wc -l)
+          if [ "$CHANGES_COUNT" == '0' ]; then
+            echo "No changes should not happen on push"
+            exit 1;
+          fi
+          echo "Deployment file has changed, pushing it"
+          git config --global user.email "gerardnico@gmail.com"
+          git config --global user.name "Nico"
+          git add com-combostrap/com-combostrap-deployment.yml
+          git commit -m "Updated commit in com-combostrap-deployment.yml (GitHub Workflow)"
+          git push origin main
+          echo "Done"
