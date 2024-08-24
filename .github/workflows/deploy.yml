@@ -22,8 +22,11 @@ jobs:
         with:
           repository: gerardnico/kube-argocd
           path: kube-argocd
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Update commit in Kubernetes deployment manifest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           cd kube-argocd || echo 'Fail Cd' & exit 1
           echo "Patch Deployment with the last commit ($LAST_COMMIT)"
