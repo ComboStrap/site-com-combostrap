@@ -38,7 +38,11 @@ jobs:
           set -Eeuo pipefail
           cd kube-argocd || (echo 'Fail Cd' && exit 1)
           # Patch with the last commit the app deployment
-          kubectl patch --local -f com-combostrap/com-combostrap-deployment.yml -p "{\"spec\":{\"template\":{\"spec\":{\"containers\":[{\"name\":\"com-combostrap\",\"env\":[{\"name\":\"DOKU_DOCKER_GIT_SITE_COMMIT\",\"$LAST_COMMIT\":\"new\"}]}]}}}}"
+          kubectl patch --local -f com-combostrap/com-combostrap-deployment.yml \
+            -p "{\"spec\":{\"template\":{\"spec\":{\"containers\":[{\"name\":\"com-combostrap\",\"env\":[{\"name\":\"DOKU_DOCKER_GIT_SITE_COMMIT\",\"value\":\"$LAST_COMMIT\"}]}]}}}}" \
+            -o yaml \
+            > /tmp/com-combostrap-deployment.yml \
+            && mv -f /tmp/com-combostrap-deployment.yml com-combostrap/com-combostrap-deployment.yml
           # Do we have changes?
           CHANGES_COUNT=$(git diff --name-only | wc -l)
           if [ "$CHANGES_COUNT" == '0' ]; then
