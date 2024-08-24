@@ -1,12 +1,13 @@
+---json
+{
+    "page_id": "jwzuqtph8i0v2am7sap5k"
+}
+---
 ====== ComboStrap DokuWiki In Docker ======
 
 
 
 ===== About =====
-
-
-
-
 
 [[https://github.com/combostrap/dokuwiki-docker/|ComboStrap DokuWiki In Docker]] is a docker image that install:
   * [[doku>|DokuWiki]]
