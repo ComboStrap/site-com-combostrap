@@ -34,9 +34,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.ARGOCD_GITHUB_TOKEN }}
         run: |
-          set -Eeuo pipefail
-          cd kube-argocd || echo 'Fail Cd' & exit 1
           echo "Patch Deployment with the last commit ($LAST_COMMIT)"
+          set -Eeuo pipefail
+          cd kube-argocd || (echo 'Fail Cd' && exit 1)
           # Patch with the last commit the app deployment
           kubectl patch --local -f com-combostrap/com-combostrap-deployment.yml -p "{\"spec\":{\"template\":{\"spec\":{\"containers\":[{\"name\":\"com-combostrap\",\"env\":[{\"name\":\"DOKU_DOCKER_GIT_SITE_COMMIT\",\"$LAST_COMMIT\":\"new\"}]}]}}}}"
           # Do we have changes?
