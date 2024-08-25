@@ -23,7 +23,7 @@
 ===== About =====
 How to have a professional website up and running with [[:start|combostrap]].
 
-This ''how-to'' guide regroups a serie of article to get you started.
+This ''how-to'' guide regroups a series of article to get you started.
 
   - [[1_dokuwiki]]
   - [[6_favicon]]
@@ -33,8 +33,6 @@ This ''how-to'' guide regroups a serie of article to get you started.
 <btn>
 [[1_dokuwiki]]
 </btn>
-
-
 
 
 <note tip>
