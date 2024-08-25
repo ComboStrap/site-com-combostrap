@@ -11,59 +11,30 @@
     "title": "How to install Dokuwiki ?"
 }
 ---
-====== ComboStrap Getting Started - Dokuwiki Installation ======
+====== ComboStrap Getting Started - Dokuwiki Instance ======
 
 ===== About =====
-Because [[:combostrap|ComboStrap]] is built on top of the [[doku>|Dokuwiki Engine]], the first step is to install it.
-
-This page steps you through this phase of how to install Dokuwiki.
+Because [[:combostrap|ComboStrap]] is built on top of the [[doku>|Dokuwiki Engine]], the first step is to have a DokuWiki Installation.
 
 
-===== Steps =====
+We supports two kind of installation:
+  * [[#Docker|Docker]] - our image that comes with battery included 
+  * [[#server|Standalone Server]] - on a raw server
 
 
-
-==== DokuWiki Version Check ====
-
-Combostrap supports only the latest two versions of Dokuwiki (ie N/N-1 support).
-
-If you have already a Dokuwiki Installation, you should have the last version. We support the previous version only a couple of month.
-
-You can check the version of your installation:
-  * by logging in as an admin (superuser)
-  * and use the ''do=check'' parameter to your wiki's URL. Eg:
-<code>
-http://yourdomain/yourwiki/doku.php?do=check
-</code>
-
-You should get the latest. For instance, in 2023, on December 10th it was:
-<code>
-DokuWiki version: Release 2024-02-06 "Kaos"
-</code>
-
-If you don't have the last version, we recommend to install the [[https://www.dokuwiki.org/plugin:upgrade|Upgrade plugin]] and to upgrade your installation.
+===== Type =====
 
 
-==== Dokuwiki Installation ====
+==== Docker ====
 
-If you don't have a Dokuwiki Instance, you can install it as follow:
-  * [[https://download.dokuwiki.org/|Download the last Dokuwiki]],
-  * Verify that your php server has the [[support:requirement|minimum requirements]]:
-      * [[support:requirement#php|php version supported]]: ''7.4'' to ''8.2''
-      * and [[support:requirement#moduleextension|php extensions]]
-  * Upload the zip file to your web server
-  * Unzip it to your web directory
-  * Access the installer script at ''https://yourdomain.com/install.php''
-  * Answer the install form. Choose:
-     * at minimal the [[doku>config:useacl|ACL option]], otherwise you get no access to the admin page
-     * the `read` permission, otherwise the [[:docs:app:logo|logo]] and [[:howto:getting_started:6_favicon|favicon]] will not render
-  * Done
 
-To know more:
-  * about the installation, see [[doku>install]]
-  * about the installer script, see [[doku>installer]]
+We recommend greatly to start with [[#docker|Docker]] as:
+  * it's the easiest way to get DokuWiki up and running
+  * it contains all performance cache system (php-fpm and opcache)
+  * a Server DokuWiki installation is not easy and straightforward.
 
-===== Next Step =====
-<btn color="white">
-[[2_combo|Combo Installation]]
-</btn>
+
+==== Server ====
+
+To get DokuWiki on a server, you can follow this [[howto:server_installation:start|installation tutorial]]
+

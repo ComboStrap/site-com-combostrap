@@ -19,4 +19,12 @@ docker run \
   -v $PWD:/var/www/html \
   ghcr.io/combostrap/dokuwiki:php8.3-latest
 ```
-The ComboStrap site should be available at: http://localhost:8081 
+The ComboStrap site should be available at: http://localhost:8081
+
+
+## Wanted Page Check
+
+
+```bash
+docker exec -it site-com-combostrap php ./bin/wantedpages.php
+```

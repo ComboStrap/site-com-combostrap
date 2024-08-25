@@ -1,0 +1,64 @@
+---json
+{
+    "page_id": "i0l9m75b1t1ivqz9frgbe",
+    "template": "holy"
+}
+---
+====== How to install DokuWiki and Combostrap on a Server? ======
+
+
+===== About =====
+This series of article is intended to help you get a DokuWiki instance installed on a
+server with a Linux/Windows operating system.
+
+
+===== Support =====
+
+This part is crucial for performance reason. 
+
+It's not 1, 2, 3 as you need to have a broad knowledge of:
+  * Linux/Windows
+  * ssh, 
+  * php, 
+  * php extension, opcache
+  * and many components
+
+If you struggle, you can:
+  * try our [[:docs:admin:docker|Docker Image]] that install a whole environment in one line of code
+  * [[:support|contact us]]
+
+For more information, you can also visit the [[doku>install|DokuWiki Install page]]
+
+===== Steps =====
+
+
+==== Download DokuWiki ====
+
+[[https://download.dokuwiki.org/|Download the last Dokuwiki]],
+
+==== Server requirement ====
+Verify that your php server has the [[support:requirement|minimum requirements]]:
+      * [[support:requirement#php|php version supported]]: ''7.4'' to ''8.2''
+      * and [[support:requirement#moduleextension|php extensions]]
+
+==== Upload and unzip the DokuWiki Archive ====
+
+You should:
+  * Upload the zip file to your web server
+  * Unzip it to your web directory
+
+==== Run the installer ====
+
+You can access the [[doku>installer|installer page]] at ''https://yourdomain.com/install.php''
+
+  * Answer the install form. Choose:
+     * at minimal the [[doku>config:useacl|ACL option]], otherwise you get no access to the admin page
+     * the `read` permission, otherwise the [[:docs:app:logo|logo]] and [[:howto:getting_started:6_favicon|favicon]] will not render
+  * Done
+
+
+
+===== Next Step =====
+<btn color="white">
+[[howto:server_installation:2_combo|Combo Installation]]
+</btn>

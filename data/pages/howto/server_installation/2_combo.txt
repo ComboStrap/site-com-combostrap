@@ -32,7 +32,7 @@
 
 **Last Dokuwiki Version**: \\
 In case, you have not followed the [[howto:getting_started:1_dokuwiki|dokuwiki step]], you should install ''ComboStrap'' on the last DokuWiki version. \\
-If you don't know the version of your installation, the [[1_dokuwiki#dokuwiki_version_check|dokuwiki version check]] will help you.
+If you don't know the version of your installation, the [[..:getting_started:1_dokuwiki#dokuwiki_version_check|dokuwiki version check]] will help you.
 
 **DokuWiki Internal rewriting**: \\
 Because of the [[:docs:page:url|permanent url functionality]], Combostrap:
@@ -61,7 +61,7 @@ To install the ''Combo'' plugin:
 
 ==== Do you have any other plugins ? ====
 
-''ComboStrap'' is tested against [[howto:getting_started:4_plugin|third party plugins]] but we can't test them all.
+''ComboStrap'' is tested against [[howto:server_installation:4_plugin|third party plugins]] but we can't test them all.
 
 This application has a large code base going from [[:docs:cache:cache|cache]] to [[docs:router:router|routing]] and [[docs:component|user interface]] management.
 

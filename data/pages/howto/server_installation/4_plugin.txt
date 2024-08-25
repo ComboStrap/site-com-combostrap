@@ -6,13 +6,11 @@
     "canonical": ":installation:plugins",
     "description": "This page is an optional and informative step that highlights important information that you should now about third party plugins.",
     "name": "Third Party Plugins",
-    "page_id": "uf5ymxql03zbox8jzrizu",
-    "template": "holy",
-    "title": "Third Plugins - ComboStrap Getting Started"
+    "page_id": "uf5ymxql03zbox8jzrizu"
 }
 ---
 
-====== ComboStrap Getting Started - Third Plugins ======
+====== Third Party Plugins ======
 
 
 ===== About =====
@@ -21,7 +19,7 @@ This page is an optional and informative step that highlights important informat
 [[:combostrap|ComboStrap]] supports [[:support:plugin|third party plugins]] and you can see them all on their  [[:support:plugin|dedicated page]].
 
 
-You can install any plugin the same way as [[howto:getting_started:2_combo|Combo]] with the [[doku>plugin:extension|extension manager]].
+You can install any plugin the same way as [[howto:server_installation:2_combo|Combo]] with the [[doku>plugin:extension|extension manager]].
 
 
 
@@ -72,7 +70,11 @@ If you have any problems with a third party plugin:
 
 ===== Next Step =====
 
+That's it, you should have no a full functional server installed with DokuWiki.
+
+
+If you are getting started with Combo, you can follow or go back to the [[:howto:getting_started:1_dokuwiki|getting started guide]].
 
 <btn color="white">
-[[howto:getting_started:6_favicon|Install a favicon]]
+[[:howto:getting_started:1_dokuwiki|Getting started guide]]
 </btn>
