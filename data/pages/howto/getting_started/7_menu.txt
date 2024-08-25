@@ -53,7 +53,7 @@ My Brand name
 
 More ... see the [[docs:menubar:menubar|menu bar page]]
 
-===== Next Steps =====
+===== Next Step =====
 
 In the same way, you can also modify the [[docs:theme:element:page-footer|page footer]] with the following link: http://localhost:8080/doku.php?id=slot_footer
 

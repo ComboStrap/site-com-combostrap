@@ -28,7 +28,7 @@ This ''how-to'' guide regroups a series of article to get you started.
   - [[1_dokuwiki]]
   - [[6_favicon]]
   - [[7_menu]]
-  - [[5_git]]
+  - [[8_git]]
 
 ===== Start =====
 <btn>
