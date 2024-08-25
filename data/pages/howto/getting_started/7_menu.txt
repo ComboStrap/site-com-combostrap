@@ -22,15 +22,12 @@ This is where we will create a [[docs:menubar:menubar|menu bar]].
 
 ===== Steps=====
 
-  * Create a page called '':slot_header'' at the [[:docs:page:system:home|home level]] . ie, with the following URL:
-<code>
-http://yourdomain.com/doku.php?id=slot_header
-</code>
-  * Enter the below [[docs:menubar:menubar|menu bar]] example
+  * Go to this URL http://localhost:8080/doku.php?id=slot_header to create a page called '':slot_header'' at the [[:docs:page:system:home|home level]] 
+  * You will see the [[docs:menubar:menubar|menu bar]] of the starter site.
 
-
-
-If you have uploaded a icon in the [[6_favicon|Favicon step]], a minimal ''header slot'' with a [[docs:menubar:menubar|menu bar]] would look like:
+You can:
+  * modify it
+  * or enter a more complicated example. If you have uploaded a icon in the [[6_favicon|Favicon step]], a minimal ''header slot'' with a [[docs:menubar:menubar|menu bar]] would look like:
 
 <webcode name="Default" iframe>
 <code dw>
@@ -57,11 +54,11 @@ My Brand name
 More ... see the [[docs:menubar:menubar|menu bar page]]
 
 ===== Next Steps =====
-In the same way, you can also modify the [[docs:theme:element:page-footer|page footer]].
 
-Then you can:
-  * Check the [[docs:component|UI Components]]
-  * Learn about [[docs:router:router|Routing and redirections]]
-  * Have a look at the [[docs:seo:seo|SEO page]]
+In the same way, you can also modify the [[docs:theme:element:page-footer|page footer]] with the following link: http://localhost:8080/doku.php?id=slot_footer
 
-For more tips and tops, you can also [[:newsletter|subscribe to the newsletter]].
+In the next step, we will store your site as combo site in Git.
+
+<button color='white'>
+[[8_git|Store my WebSite in Git]]
+</button>

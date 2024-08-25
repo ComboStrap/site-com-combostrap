@@ -37,7 +37,8 @@ In our case we have chosen an icon directly from https://materialdesignicons.com
 
 ==== Upload the favicons ====
 
-  * Then upload the below icon files with the [[doku>media_manager|media manager]] to the root location (ie DOKUWIKI_HOME/data/media/)
+  * Then upload the below icon files with the [[http://localhost:8080/start?ns=&tab_files=files&do=media|Media Manager]]  (([[doku>media_manager|media manager]])) to the root location (ie DOKUWIKI_HOME/data/media/)
+  * Click on this link [[http://localhost:8080/start?ns=&tab_files=files&do=media]] and upload the following files
       * ''favicon.ico''
       * ''favicon-32x32.png''
       * ''favicon-16x16.png''
@@ -80,15 +81,24 @@ The [[docs:social:facebook|facebook page]] will tell your more about the specifi
 {{strap:favicon_verification.png|}}
 
 
-==== OpenSearch Favicon ====
 
-In the [[docs:app:search|open search]], unfortunately, the icon is the icon of the template and is [[https://github.com/dokuwiki/dokuwiki/blob/master/lib/exe/opensearch.php#L17|hardcoded]], there is nothing we can do to change it at this place.
-We still advertise it via [[:docs:type:website#internal_search_engine|sitelinks]] to search engines.
-
-If you want it also at this place, you need to put it manually on the server at ''%%$DOKUWIKI_HOME/lib/tpl/dokuwiki/images/favicon.ico%%''.
 
 ==== Next Step ====
 
 <btn color="white">
-[[7_menu|Create a menu]]
+[[7_menu|Create a top navigation menu]]
 </btn>
+
+\\
+\\
+\\
+
+===== Support =====
+
+==== OpenSearch Favicon ====
+
+In the [[docs:app:search|open search]], unfortunately, the icon is the icon of the template and is [[https://github.com/dokuwiki/dokuwiki/blob/master/lib/exe/opensearch.php#L17|hardcoded]], there is nothing we can do to change it at this place.
+
+We advertise it via [[:docs:type:website#internal_search_engine|sitelinks]] to search engines.
+
+Most of the search engine, support it this ways, if you really **really** want it, you need to put it manually  at ''%%$DOKUWIKI_HOME/lib/tpl/dokuwiki/images/favicon.ico%%''.

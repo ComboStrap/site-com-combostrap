@@ -5,36 +5,127 @@
         { "path": ":wiki:markup_docs:getting_started:1_dokuwiki" },
         { "path": ":wiki:markup_getting_started:1_dokuwiki" }
     ],
-    "name": "Dokuwiki Installation",
-    "page_id": "52gxusbx7sb0v76bgvn9v",
-    "template": "holy",
-    "title": "How to install Dokuwiki ?"
+    "name": "Dokuwiki Up and Running",
+    "page_id": "52gxusbx7sb0v76bgvn9v"
 }
 ---
-====== ComboStrap Getting Started - Dokuwiki Instance ======
+====== How to get DokuWiki Up and Running? ======
 
 ===== About =====
-Because [[:combostrap|ComboStrap]] is built on top of the [[doku>|Dokuwiki Engine]], the first step is to have a DokuWiki Installation.
+Because [[:combostrap|ComboStrap]] is built on top of the [[doku>|Dokuwiki Engine]], the first step is to have a DokuWiki app up and running.
+
+This article will show you how.
 
 
-We supports two kind of installation:
-  * [[#Docker|Docker]] - our image that comes with battery included 
-  * [[#server|Standalone Server]] - on a raw server
+===== Docker / Server =====
+
+This tutorial series uses our [[:docs:admin:docker|Docker image]] for consistency 
+but if you have a standalone server and want to install DokuWiki on it, you can also follow this [[howto:server_installation:start|tutorial series]].
 
 
-===== Type =====
 
+===== Steps =====
 
-==== Docker ====
-
-
-We recommend greatly to start with [[#docker|Docker]] as:
+We recommend greatly to use our [[:docs:admin:docker|DokuWiki in Docker image]] as:
   * it's the easiest way to get DokuWiki up and running
   * it contains all performance cache system (php-fpm and opcache)
-  * a Server DokuWiki installation is not easy and straightforward.
+  * a Server DokuWiki installation is not easy and straightforward
+  * and [[:docs:admin:docker#features|more]].
 
 
-==== Server ====
+==== Install Docker ====
 
-To get DokuWiki on a server, you can follow this [[howto:server_installation:start|installation tutorial]]
 
+Download the Docker binary or install a package as explained on this [[https://docs.docker.com/engine/install/|article]].
+
+
+==== On Windows? ====
+
+On Windows, you need to install WSL by following this [[https://learn.microsoft.com/en-us/windows/wsl/install|instructions]]. 
+Why? Because Php is still a Linux and C technology that is really slow on Windows. This is architectural as explained on [[https://github.com/docker/for-win/issues/6742|this issue]]
+
+==== Create a data directory  ====
+  * Create a directory to store the DokuWiki Data
+<code bash>
+mkdir -p ~/site-combo-starter
+</code>
+  * And go into it to change the current directory
+<code bash>
+cd site-combo-starter
+</code>
+
+==== Start DokuWiki in Docker ====
+
+Start a DokuWiki Docker Instance with the following command.
+<code bash>
+docker run \
+  --name site-combo-starter \
+  --rm \
+  -p 8080:80 \
+  --user 1000:1000 \
+  -e DOKU_DOCKER_ACL_POLICY='public' \
+  -e DOKU_DOCKER_ADMIN_NAME='admin' \
+  -e DOKU_DOCKER_ADMIN_PASSWORD='welcome' \
+  -v $PWD:/var/www/html \
+  ghcr.io/combostrap/dokuwiki:php8.3-latest
+</code>
+where:
+  * ''DOKU_DOCKER_ACL_POLICY='public''' will configure a wiki that can only be seen by the public. You need to login to modify it.
+  * ''DOKU_DOCKER_ADMIN_NAME='admin''' create a user named ''admin'' with the ''admin'' permission.
+  * ''DOKU_DOCKER_ADMIN_PASSWORD='welcome''' is the password of the admin user
+  * ''%%-v $PWD:/var/www/html%%'' mount your current directory ''PWD'' into the image at the HTML server root ''/var/www/html'' 
+  * ''--user 1000:1000'' will create file as if it were you creating them. The user ''1000'' is the UID of your Desktop user (in Windows WSL at least)
+
+
+
+
+
+
+==== Check that the instance has started ====
+
+The command above will:
+  * start php, 
+  * install DokuWiki, 
+  * install the [[https://github.com/ComboStrap/site-starter|starter site]]
+  * and is ready when you see this lines:
+<console>
+INFO success: caddy entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+INFO success: php_error_log entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+INFO success: php_fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+</console>
+  * You can then access DokuWiki at http://localhost:8080
+
+{{:howto:getting_started:site-starter-home-page-snapshot.png?600|}}
+
+
+<note>
+=== How to stop the instance ===
+
+If you want to stop the instance:
+  * you can press ''Control+C'' with your keyboard in the current terminal
+  * Or you can open another terminal and stop it with the following command
+<code bash>
+docker stop site-combo-starter
+</code>
+</note>
+
+
+==== Login ====
+
+
+Go to the [[http://localhost:8080/?do=login|login page]]: http://localhost:8080/?do=login
+
+And enter the credentials:
+  * user: ''admin''
+  * password: ''welcome''
+
+
+
+
+===== Next Step =====
+
+In the next step, you will learn to install a ''favicon''
+
+<button color='white'>
+[[:howto:getting_started:6_favicon|Configure a Favicon]]
+</button>

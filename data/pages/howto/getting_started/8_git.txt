@@ -1,0 +1,119 @@
+---json
+{
+    "aliases": [
+        { "path": ":howto:getting_started:5_git" }
+    ],
+    "name": "Git Site",
+    "page_id": "4335hckjomaayfepj2m1v"
+}
+---
+====== How to store your site in Git? ======
+
+
+===== About =====
+This page will show you how to store your site as [[:docs:admin:website|combo site]] in a remote Git repository.
+
+
+===== Steps =====
+
+==== Create a remote Git Repository ====
+We will be using [[https://github/com|GitHub]] as example but you can use any Git Repository Provider such as [[https://gogs.io/|Gogs]], [[https://gitlab.com|GitLab]] or [[https://gitea.com/|Gitea]].
+
+For GitHub, follow this [[https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository|article]] to create your new repository.
+
+
+
+
+
+
+==== Create a local Git Repository ====
+
+In the directory that was used with the [[howto:getting_started:1_dokuwiki|docker command]], initialize a Git repository
+<code bash>
+cd /tmp/site-combo-starter
+# Init (ie create ) a local repo
+git init
+</code>
+  * Rename the master branch to main
+<code bash>
+git branch -M main
+</code>
+
+==== Add the Git remote ====
+
+  * Add the URL of your repository as origin
+<code bash>
+git remote add origin https://github.com/ComboStrap/site-starter.git
+</code>
+
+==== Check the untracked files ====
+
+<code bash>
+git status
+</code>
+<console>
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+       .gitattributes
+       .gitignore
+       README.md
+       conf/
+       data/
+       docs/
+       lib/
+       robots.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+</console>
+==== Add the combo site files ====
+
+Add them all
+<code bash>
+git add .
+</code>
+
+==== Create your first commit ====
+
+  * Create a commit
+<code bash>
+git commit -m "First commit"
+</code>
+
+==== Push them to your remote repository ====
+
+  * Push
+<code bash>
+git push -u origin main
+# enter your credentials 
+# or use SSH Keys (https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
+</code>
+<console>
+Enumerating objects: 45, done.
+Counting objects: 100% (45/45), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (36/36), done.
+Writing objects: 100% (45/45), 50.71 KiB | 10.14 MiB/s, done.
+Total 45 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To github.com:ComboStrap/site-starter.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+</console>
+
+===== Next =====
+
+You can now develop, change your wiki and push your change to your Git Repository.
+
+Then you can:
+  * Check the [[docs:component|UI Components]]
+  * Learn about [[docs:router:router|Routing and redirections]]
+  * Have a look at the [[docs:seo:seo|SEO page]]
+
+For more tips and tops, you can also [[:newsletter|subscribe to the newsletter]].
+
+
+
