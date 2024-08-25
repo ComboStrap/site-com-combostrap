@@ -4,7 +4,9 @@
         { "path": ":howto:getting_started:5_git" }
     ],
     "name": "Git Site",
-    "page_id": "4335hckjomaayfepj2m1v"
+    "page_id": "4335hckjomaayfepj2m1v",
+    "template": "holy",
+    "title": "How to store your site in Git?"
 }
 ---
 ====== How to store your site in Git? ======
