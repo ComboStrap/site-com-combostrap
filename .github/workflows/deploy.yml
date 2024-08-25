@@ -3,10 +3,11 @@ name: Deploy on push
 on:
   push:
     branches:
-      - main
+      - master
     # ignore if the files committed come only from this directory
     # https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#example-excluding-paths
     paths-ignore:
+      - '.github/**'
       - 'docs/**'
 
 defaults:
