@@ -19,14 +19,9 @@ This page will show you how to store your site as [[:docs:admin:website|combo si
 ===== Steps =====
 
 ==== Create a remote Git Repository ====
-We will be using [[https://github/com|GitHub]] as example but you can use any Git Repository Provider such as [[https://gogs.io/|Gogs]], [[https://gitlab.com|GitLab]] or [[https://gitea.com/|Gitea]].
+We will be using [[https://github/com|GitHub]] as example, but you can use any Git Repository Provider such as [[https://gogs.io/|Gogs]], [[https://gitlab.com|GitLab]] or [[https://gitea.com/|Gitea]].
 
 For GitHub, follow this [[https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository|article]] to create your new repository.
-
-
-
-
-
 
 ==== Create a local Git Repository ====
 

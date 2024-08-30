@@ -1,3 +1,9 @@
+---json
+{
+    "name": "Release 1.25.2",
+    "page_id": "81e7mkf2v8shatqo930y7"
+}
+---
 ====== Release 1.25.2 ======
 
 
