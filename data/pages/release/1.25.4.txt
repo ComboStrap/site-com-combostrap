@@ -24,6 +24,7 @@ This is a version not yet released.
   * [[:docs:admin:nice-url|Nice URL]]: When Nice URL is on, the configuration useSlash should also be enabled otherwise the static resource returns an internal error. Dokuwiki breaks if the file path returned a file that does not exist
   * [[:docs:analytics:replication|Database Sync]]: the database sync uses a lock that is deleted at the end by a shutdown function. In php 8.3, this function should not print any debug statement otherwise the [[doku>TaskRunner]] returns no response (ie gif) even if successfull.
   * [[:docs:router:ban|Ban]] was not working. We checked at the very first event but as in the last DokuWiki, the Authorization is handled by a class, the new checks were not working and gave no permissions to see the home page. We make now the ban check at the [[doku>devel:event:dokuwiki_init_done|dokuwiki_init_done]] event.
+  * The [[:docs:theme:template:hamburger|hambuerger template]] was missing the title
 
 
 ==== Improvement ====
