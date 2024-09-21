@@ -10,6 +10,7 @@ cd site-com-combostrap
 docker run \
   --name site-com-combostrap \
   --rm \
+  -d \
   -p 8081:80 \
   --user 1000:1000 \
   -e DOKU_DOCKER_ENV=dev \

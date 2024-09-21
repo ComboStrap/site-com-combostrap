@@ -24,9 +24,13 @@ This is a version not yet released.
   * [[:docs:admin:nice-url|Nice URL]]: When Nice URL is on, the configuration useSlash should also be enabled otherwise the static resource returns an internal error. Dokuwiki breaks if the file path returned a file that does not exist
   * [[:docs:analytics:replication|Database Sync]]: the database sync uses a lock that is deleted at the end by a shutdown function. In php 8.3, this function should not print any debug statement otherwise the [[doku>TaskRunner]] returns no response (ie gif) even if successfull.
   * [[:docs:router:ban|Ban]] was not working. We checked at the very first event but as in the last DokuWiki, the Authorization is handled by a class, the new checks were not working and gave no permissions to see the home page. We make now the ban check at the [[doku>devel:event:dokuwiki_init_done|dokuwiki_init_done]] event.
-  * The [[:docs:theme:template:hamburger|hambuerger template]] was missing the title
-
+  * The [[:docs:theme:template:hamburger|hamburger template]] was missing the title
+  * [[:docs:admin:docker|DokuWiki Docker]] got a second image pool with better default sizing to avoid OOM error
+  * `ComboStrap\ExceptionNotFound: No database row found for the page`: An exception was not caught in the router. [[https://github.com/ComboStrap/combo/commit/b1aef5347afbf2a2acc6b03406098007d8ba91ef|Commit]]
+  * `Error: No mime found for path`: An exception was thrown when a mime could not be found. It has been set to binary by default. [[https://github.com/ComboStrap/combo/commit/39c00e7ee80f440398e043c1b028639b65574701|Commit]]
 
 ==== Improvement ====
   * Deleted warnings caused by php8.3 about array and other php7 construct.
-  * InterWiki: We put the interwiki name in lowercase (mandatory)
+  * InterWiki: We put the interwiki name in lowercase (mandatory).
+  * The logging system uses the dokuwiki logging. [[https://github.com/ComboStrap/combo/commit/39c00e7ee80f440398e043c1b028639b65574701|Commit]]
+
