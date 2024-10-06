@@ -20,7 +20,9 @@ For each new release, there are two steps to perform:
 
 Because of the [[support:oom|memory error]], the Combo plugin needs to be updated manually via the ''manual install'' tab.
 
-  * In the [[doku>plugin:extension|extension manager]], click on the ''manual install'' tab
+  * Go to the manual install:
+    * In the [[doku>plugin:extension|extension manager]], click on the ''manual install'' tab
+    * or via URL with: https://yourdomain/doku.php?do=admin&page=extension&tab=install
   * Enter the Github Url: ''https://github.com/ComboStrap/combo/archive/main.zip''
   * Check the box ''Overwrite existing files''
   * And click the ''install'' button.
