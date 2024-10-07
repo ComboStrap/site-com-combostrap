@@ -38,6 +38,7 @@ This is a version not yet released.
   * The [[:docs:page:canonical|canonical]] was by default set to wiki path and not to the default value. [[https://github.com/ComboStrap/combo/commit/2d4863144e14613de4de42a4560d2738664cbc0e|Commit]]
 
   * The router has been completely rewritten to catch ''TOO_MANY_REDIRECT'' browser error. [[https://github.com/ComboStrap/combo/commit/45a874f4355f8bee7459e5d3b79e86e68468b316|Commit]]
+  * The database row collision detection was throwing an error stopping the sync. We known report an error in the log. [[https://github.com/ComboStrap/combo/commit/c0705265c76e59176d9f02515cf7dcf68d9c4862|c0705265c76e59176d9f02515cf7dcf68d9c4862]]
 
 ==== Improvement ====
   * Deleted warnings caused by php8.3 about array and other php7 construct.
