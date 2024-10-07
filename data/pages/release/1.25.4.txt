@@ -1,3 +1,9 @@
+---json
+{
+    "name": "Release 1.25.4",
+    "page_id": "9jkmbpnay3gztvzamtzc3"
+}
+---
 ====== Release 1.25.4 ======
 
 
@@ -29,10 +35,14 @@ This is a version not yet released.
   * `ComboStrap\ExceptionNotFound: No database row found for the page`: An exception was not caught in the router. [[https://github.com/ComboStrap/combo/commit/b1aef5347afbf2a2acc6b03406098007d8ba91ef|Commit]]
   * `Error: No mime found for path`: An exception was thrown when a mime could not be found. It has been set to binary by default. [[https://github.com/ComboStrap/combo/commit/39c00e7ee80f440398e043c1b028639b65574701|Commit]]
   * Binary was not set as mime but as string, resulting to ''Error: Call to a member function toString() on string'' [[https://github.com/ComboStrap/combo/commit/997da5972fe7174e36e252b9bc916d648326c198|Commit]]
+  * The [[:docs:page:canonical|canonical]] was by default set to wiki path and not to the default value. [[https://github.com/ComboStrap/combo/commit/2d4863144e14613de4de42a4560d2738664cbc0e|Commit]]
+
+  * The router has been completely rewritten to catch ''TOO_MANY_REDIRECT'' browser error. [[https://github.com/ComboStrap/combo/commit/45a874f4355f8bee7459e5d3b79e86e68468b316|Commit]]
 
 ==== Improvement ====
   * Deleted warnings caused by php8.3 about array and other php7 construct.
   * InterWiki: We put the interwiki name in lowercase (mandatory).
   * The logging system uses the dokuwiki logging. [[https://github.com/ComboStrap/combo/commit/39c00e7ee80f440398e043c1b028639b65574701|Commit]]
   * Browser User autocomplete for the logging page. [[https://github.com/ComboStrap/combo/commit/858cf17eaf876d049c21c4b2fd66da5ea3852ff2|Commit]]
+
 
