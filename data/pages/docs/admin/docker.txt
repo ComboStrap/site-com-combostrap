@@ -31,7 +31,7 @@ docker run \
   --rm \
   -p 8080:80 \
   -e DOKU_DOCKER_GIT_SITE='https://github.com/ComboStrap/site-starter' \
-  ghcr.io/combostrap/dokuwiki:php8.3-v1
+  ghcr.io/combostrap/dokuwiki:php8.3-latest
 ```
 
 ===== Documentation =====
