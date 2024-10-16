@@ -1,5 +1,7 @@
 ---json
 {
+    "dynamic_quality_monitoring": "false",
+    "low_quality_page": "false",
     "page_id": "3u30luqc1at0pv0lf6nul"
 }
 ---
