@@ -23,7 +23,7 @@ If you want more control over your elements when printing, you can inject the [[
 
 Example made with the [[https://getbootstrap.com/docs/5.0/utilities/display/#display-in-print|d-print-none class]] .
 
-<webcode name="Default" frameborder="0">
+<webcode>
 <code dw>
 <note class="d-print-none">
 This note will not appear if you print this page
