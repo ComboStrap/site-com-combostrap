@@ -37,6 +37,7 @@ jobs:
           path: kube-argocd
           token: ${{ secrets.ARGOCD_GITHUB_TOKEN }}
 
+      # See doc: https://argo-cd.readthedocs.io/en/latest/user-guide/ci_automation/
       - name: Update commit in Kubernetes deployment manifest
         env:
           GITHUB_TOKEN: ${{ secrets.ARGOCD_GITHUB_TOKEN }}
