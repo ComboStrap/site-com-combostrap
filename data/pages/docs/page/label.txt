@@ -1,6 +1,9 @@
 ---json
 {
-    "label": "A short description"
+    "dynamic_quality_monitoring": "false",
+    "label": "A short description",
+    "low_quality_page": "false",
+    "page_id": "02mdbd1cnkg81i8tf8tbe"
 }
 ---
 ====== The label ======

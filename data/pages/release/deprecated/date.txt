@@ -1,3 +1,11 @@
+---json
+{
+    "cache_expiration_frequency": "@daily",
+    "dynamic_quality_monitoring": "false",
+    "low_quality_page": "false",
+    "page_id": "slw0cn5op8daj89yz0ip2"
+}
+---
 ====== ComboStrap - Date Component ======
 
 

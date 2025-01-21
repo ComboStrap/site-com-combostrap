@@ -1,3 +1,10 @@
+---json
+{
+    "dynamic_quality_monitoring": "false",
+    "low_quality_page": "false",
+    "page_id": "snv04f0ggwd337ll1ti91"
+}
+---
 ====== How to center a link or a button ? ======
 
 

@@ -1,1 +1,6 @@
+---json
+{
+    "page_id": "f9f270c4p3zg8cqmotw4l"
+}
+---
 <page-explorer tree></page-explorer>

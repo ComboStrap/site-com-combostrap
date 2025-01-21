@@ -1,3 +1,10 @@
+---json
+{
+    "dynamic_quality_monitoring": "false",
+    "low_quality_page": "false",
+    "page_id": "7oreerrscj2deq8ssdhu3"
+}
+---
 ====== How to split the horizontal space in two with the grid component ?  ======
 
 

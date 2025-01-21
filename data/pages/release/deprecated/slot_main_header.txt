@@ -1,3 +1,8 @@
+---json
+{
+    "page_id": "dyf82wqniz9hydrpg9m5e"
+}
+---
 <heading 1>$title</heading>
 
 <breadcrumb/>

@@ -1,3 +1,10 @@
+---json
+{
+    "dynamic_quality_monitoring": "false",
+    "low_quality_page": "false",
+    "page_id": "rhs6msqct2z2zllso01e5"
+}
+---
 ====== How to center an image ? ======
 
 

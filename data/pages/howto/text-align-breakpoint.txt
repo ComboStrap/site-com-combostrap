@@ -1,3 +1,10 @@
+---json
+{
+    "dynamic_quality_monitoring": "false",
+    "low_quality_page": "false",
+    "page_id": "ku4ek1coeyh0qkyknhbit"
+}
+---
 ====== How to align a text based on screen size ? ======
 
 

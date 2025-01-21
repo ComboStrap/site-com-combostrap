@@ -1,3 +1,10 @@
+---json
+{
+    "dynamic_quality_monitoring": "false",
+    "low_quality_page": "false",
+    "page_id": "yhxoy4swk72b6w2o3668q"
+}
+---
 ====== Page Item ======
 
 
