@@ -1,3 +1,8 @@
+---json
+{
+    "page_id": "2ejhaip8ugrz01zn5gnyy"
+}
+---
 ====== What is the Public Page Cache? ======
 
 

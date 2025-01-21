@@ -1,3 +1,8 @@
+---json
+{
+    "page_id": "y6rywpg8sm12kg9b6gzvq"
+}
+---
 ====== How to resolve a Page Collision on the page id?  ======
 
 

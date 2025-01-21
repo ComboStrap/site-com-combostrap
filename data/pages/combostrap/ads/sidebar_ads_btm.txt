@@ -1,3 +1,8 @@
+---json
+{
+    "page_id": "vcbne86n7wht4wa097pjc"
+}
+---
 <card>
 === Put your ad on this place ? ===
 

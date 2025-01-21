@@ -1,6 +1,6 @@
 ---json
 {
-    "canonical": "combostrap",
+    "canonical": ":combostrap",
     "description": "ComboStrap is a publishing platform, with markdown like based syntax and the power of Bootstrap",
     "json-ld": {
         "name": "ComboStrap",
@@ -17,9 +17,9 @@
             "priceCurrency": "USD"
         }
     },
-    "layout": "median",
-    "title": "ComboStrap - The publishing platform",
-    "type": "Product"
+    "page_id": "tdqm8v326gn1swiozfo50",
+    "template": "medium",
+    "title": "ComboStrap - The publishing platform"
 }
 ---
 

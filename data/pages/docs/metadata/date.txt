@@ -1,3 +1,11 @@
+---json
+{
+    "aliases": [
+        { "path": ":wiki:markup_docs:content:date" }
+    ],
+    "page_id": "33rr559gztr7b4u93ex6v"
+}
+---
 ====== Date ======
 
 
