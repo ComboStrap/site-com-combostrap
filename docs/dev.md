@@ -25,7 +25,7 @@ The ComboStrap site should be available at: http://localhost:8081
 
 ## Wanted Page Check
 
-
+* in a running container
 ```bash
 docker exec -it site-com-combostrap php ./bin/wantedpages.php
 ```
