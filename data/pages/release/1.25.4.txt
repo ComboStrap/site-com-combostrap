@@ -45,5 +45,5 @@ This is a version not yet released.
   * InterWiki: We put the interwiki name in lowercase (mandatory).
   * The logging system uses the dokuwiki logging. [[https://github.com/ComboStrap/combo/commit/39c00e7ee80f440398e043c1b028639b65574701|Commit]]
   * Browser User autocomplete for the logging page. [[https://github.com/ComboStrap/combo/commit/858cf17eaf876d049c21c4b2fd66da5ea3852ff2|Commit]]
-
+  * Unknown [[:docs:marki|marki tag]] are now printed escaped to the HTML doc.
 
