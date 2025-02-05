@@ -1,6 +1,9 @@
 name: Deploy on push
 
 on:
+  # Allow manual trigger when there is a bug in the script
+  workflow_dispatch:
+  # On master push
   push:
     branches:
       - master
