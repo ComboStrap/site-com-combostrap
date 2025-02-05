@@ -45,7 +45,7 @@ jobs:
           echo "Patch Deployment with the last commit ($LAST_COMMIT)"
           set -Eeuo pipefail
           cd kube-argocd
-          APP_MANIFEST_PATH=apps/com-combostrap/com-combostrap-deployment.yml
+          APP_MANIFEST_PATH=charts/com-combostrap/com-combostrap-deployment.yml
           # Patch with the last commit the app deployment
           sed -i "s/value: \".*\" # DOKU_DOCKER_GIT_SITE_COMMIT/value: \"$LAST_COMMIT\" # DOKU_DOCKER_GIT_SITE_COMMIT/" "$APP_MANIFEST_PATH"
           # Do we have changes?
