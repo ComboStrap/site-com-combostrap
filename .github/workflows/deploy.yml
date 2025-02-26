@@ -29,6 +29,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Get the last commit hash on main
+        shell: bash
         run: |
           set -Eeuo pipefail
           echo "LAST_COMMIT=$(git rev-parse HEAD)" >> $GITHUB_ENV
@@ -58,8 +59,8 @@ jobs:
             exit 1;
           fi
           echo "Deployment file has changed, pushing it"
-          git config --global user.email "gerardnico@gmail.com"
-          git config --global user.name "Nico"
+          git config user.name "$GITHUB_ACTOR"
+          git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
           git add "$APP_MANIFEST_PATH"
           git commit -m "Updated commit in $APP_MANIFEST_PATH (GitHub Workflow)"
           git push origin main
