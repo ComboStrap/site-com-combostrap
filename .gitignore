@@ -1,5 +1,7 @@
 # Ignore All
 *
+# Don't ignore Task file
+!TaskFile.yml
 # Don't ignore the following files
 !.gitignore
 !.gitattributes
