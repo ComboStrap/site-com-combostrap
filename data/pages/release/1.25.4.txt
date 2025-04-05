@@ -47,3 +47,8 @@ This is a version not yet released.
   * Browser User autocomplete for the logging page. [[https://github.com/ComboStrap/combo/commit/858cf17eaf876d049c21c4b2fd66da5ea3852ff2|Commit]]
   * Unknown [[:docs:marki|marki tag]] are now printed escaped to the HTML doc.
 
+
+
+==== Fix ====
+
+  * The metadata url to the Unicode lang database was broken leading to a [[:docs:locale:lang|broken lang direction (LTR, RTL)]]
