@@ -1,18 +1,12 @@
 ---json
 {
+    "featured-svg-image": ":combostrap:icons:bi:diagram-3.svg",
     "page_id": "ejriy9mdismnd90zpwpze"
 }
 ---
+====== Diagrams ======
 
-
-===== About =====
-''ComboStrap'' is able to create and render diagrams <icon name="bi:diagram-3"/>.
-
-
-
-Example with a [[sequence|sequence Diagram]].
-
-<mermaid width="400px">
+<mermaid width="400px" >
 <code mermaid display="none">
 sequenceDiagram
     participant Editor
@@ -23,6 +17,12 @@ sequenceDiagram
     ComboStrap-->>Editor:  <br/>Quite a lot <br/> Such as Class, Erd, Flowchart <br/> and also Railroad. <br/> Check the links above
 </code>
 </mermaid>
+
+
+
+
+===== About =====
+''ComboStrap'' is able to create and render diagrams <icon name="bi:diagram-3"/>.
 
 
 
