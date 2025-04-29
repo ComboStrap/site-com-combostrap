@@ -54,3 +54,6 @@ This is a version not yet released.
   * The metadata url to the Unicode lang database was broken leading to a [[:docs:locale:lang|broken lang direction (LTR, RTL)]]
   * The lang `dir` attribute has been added back to the template theme.
 
+==== Upgrade ====
+
+  * The [[:docs:utility:mermaid|mermaid diagram]] was updated to '11.6.0'. [[https://github.com/ComboStrap/combo/issues/131|RneeJ]]

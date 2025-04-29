@@ -71,3 +71,7 @@ stateDiagram-v2
 On a [[:security|security level]]:
   * the [[https://mermaid-js.github.io/mermaid/#/usage?id=securitylevel|level of security]] is set to ''strict'' 
   * and we does not authorize ''script'', ''style'', ''iframe'' tag and ''on'' attribute handler.
+
+
+===== Version =====
+We use actually, the version ''11.6.0''
