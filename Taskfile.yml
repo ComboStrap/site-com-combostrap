@@ -1,0 +1,38 @@
+version: '3'
+
+tasks:
+  # Create and run the container
+  run:
+    cmds:
+      - |
+        docker run \
+          --name site-com-combostrap \
+          -d \
+          -p 8082:80 \
+          --user 1000:1000 \
+          -e DOKU_DOCKER_ENV=dev \
+          -e DOKU_DOCKER_ACL_POLICY='public' \
+          -e DOKU_DOCKER_ADMIN_NAME='admin' \
+          -e DOKU_DOCKER_ADMIN_PASSWORD='welcome' \
+          -v $PWD:/var/www/html \
+          ghcr.io/combostrap/dokuwiki:php8.3-latest
+  # Stop the container
+  stop:
+    cmds:
+      - |
+        docker stop site-com-combostrap
+  # Rm the container
+  rm:
+    cmds:
+      - |
+        docker rm site-com-combostrap
+  # Start the container
+  start:
+    cmds:
+      - |
+        docker rm site-com-combostrap
+  # Broken links
+  broken:
+    cmds:
+      - |
+        docker exec -it site-com-combostrap php ./bin/wantedpages.php
