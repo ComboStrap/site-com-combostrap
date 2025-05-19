@@ -30,7 +30,7 @@ tasks:
   start:
     cmds:
       - |
-        docker rm site-com-combostrap
+        docker start site-com-combostrap
   # Broken links
   broken:
     cmds:

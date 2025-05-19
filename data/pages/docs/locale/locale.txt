@@ -29,4 +29,20 @@ The ''locale'' can not be set directly because it's a derived value from:
 
 This two values needs to be known to have a ''locale''.
 
+===== Support =====
 
+==== Locale does not exist ====
+
+Php uses the locales of your operating system. If you want a certain language and a certain specific region formatting, you need to install this locale.
+
+On Linux, you can list the installed locale with
+```bash
+locale -a
+```
+```
+C
+C.utf8
+en_US.utf8
+POSIX
+```
+In this case, the [[:docs:locale:region|region]] is `en` and the language `US`
