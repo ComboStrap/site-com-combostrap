@@ -53,7 +53,11 @@ cd $DOKUWIKI_HOME
 # optional (for farm)
 animal=animal-directory-name
 # command
-php ./bin/plugin.php combo metadata-to-frontmatter
+# php ./bin/plugin.php combo metadata-to-frontmatter dokuwikiPath
+# for all pages in the wiki, you would use the root (ie :)
+php ./bin/plugin.php combo metadata-to-frontmatter :
+# help
+php ./bin/plugin.php combo -h
 </code>
 
 
