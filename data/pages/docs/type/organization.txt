@@ -3,8 +3,7 @@
     "canonical": ":semantic:organization",
     "description": "ComboStrap Semantic creates metadata that advertise your organization to search engine and crawler. This article shows you how to create an organization page",
     "name": "Organization Page",
-    "page_id": "k0z3smwoitfh2haqd8qxk",
-    "title": "How to define a page advertising your organization"
+    "page_id": "k0z3smwoitfh2haqd8qxk"
 }
 ---
 ====== ComboStrap Metadata - Organization Page ======

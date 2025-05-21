@@ -1,7 +1,6 @@
 ---json
 {
-    "page_id": "kk4jppbr858gkbpeqxo1p",
-    "title": "How to create a badge with Combo ?"
+    "page_id": "kk4jppbr858gkbpeqxo1p"
 }
 ---
 

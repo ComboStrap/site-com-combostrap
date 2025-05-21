@@ -4,8 +4,7 @@
     "canonical": ":page:cache:deprecated",
     "description": "With the cache component, you can manage disable the cache of a page at interval",
     "name": "Page Cache",
-    "page_id": "2imprgygkyh36yf15a2do",
-    "title": "Deprecated - Set the cache expiration date of a page with the cache component"
+    "page_id": "2imprgygkyh36yf15a2do"
 }
 ---
 

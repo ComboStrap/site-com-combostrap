@@ -1,9 +1,8 @@
 ---json
 {
     "canonical": ":boostrap5",
-    "layout": "median",
     "page_id": "fk6mcn7x7aqkxihd1nd59",
-    "title": "ComboStrap - Release 1.13 - BootStrap 4 to 5 Migration Changes"
+    "template": "medium"
 }
 ---
 ====== ComboStrap - Release 1.13 - BootStrap 4 to 5 ======

@@ -2,7 +2,8 @@
 {
     "canonical": ":redirection:action",
     "h1": "ComboStrap URL Management - Redirection Actions",
-    "page_id": "1thufjcispb7qcw33tb6z"
+    "page_id": "1thufjcispb7qcw33tb6z",
+    "title": "ComboStrap Routing - Redirection Actions"
 }
 ---
 

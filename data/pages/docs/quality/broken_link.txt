@@ -22,6 +22,23 @@ You can [[dynamic_monitoring|monitor them]] and you can even [[#list|list them]]
 
 
 ===== List =====
+
+==== Cli ====
+
+You can use the [[:docs:admin:cli|cli command]] called ''broken-link'' to list them
+
+Example
+* on the server
+<code bash>
+./bin/plugin.php combo broken-links
+</code>
+* in [[:docs:admin:docker|dokuwiki docker]] with the combostrap site.
+<code bash>
+docker exec -it site-com-combostrap php ./bin/plugin.php combo broken-links
+</code>
+
+==== Sql ====
+
 You can [[docs:analytics:query|query the database]] against the [[docs:analytics:statistics|page statistics data]] with the below Analytics SQL to list the page with broken links and their count along with the [[docs:page:system:path|path of the page]]
 <code sql>
 with validPages as (select path, analytics

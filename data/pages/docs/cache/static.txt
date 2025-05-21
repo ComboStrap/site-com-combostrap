@@ -3,8 +3,7 @@
     "canonical": ":cache:static",
     "description": "With the Infinite Static Cache feature, ComboStrap will cache images, javascript and stylesheet infinitely.",
     "name": "Infinite Static Cache",
-    "page_id": "x489pmccj4099adn3hg1g",
-    "title": "Infinite Static Cache: Cache Image, Javascript and Stylesheet for an infinite amount of time"
+    "page_id": "x489pmccj4099adn3hg1g"
 }
 ---
 ====== ComboStrap - Infinite Static Cache ======

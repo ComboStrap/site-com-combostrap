@@ -2,8 +2,7 @@
 {
     "canonical": ":statistic:syntax_count",
     "description": "The syntax count statistic shows the number of occurrence of a component (syntax) on a page",
-    "page_id": "vme2d33rf0088510abd86",
-    "title": "syntax_count - Analyse the syntax of your page"
+    "page_id": "vme2d33rf0088510abd86"
 }
 ---
 ====== Page Statistic - Syntax Count (Component count) ======

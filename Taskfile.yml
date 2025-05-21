@@ -35,4 +35,11 @@ tasks:
   broken:
     cmds:
       - |
-        docker exec -it site-com-combostrap php ./bin/wantedpages.php
+        # Delete non-existing pages in the database
+        docker exec -it site-com-combostrap php ./bin/plugin.php combo sync /
+        docker exec -it site-com-combostrap php ./bin/plugin.php combo broken-links
+  # Frontmatter
+  frontmatter:
+    cmds:
+      - |
+        docker exec -it site-com-combostrap php ./bin/plugin.php combo metadata-to-frontmatter :

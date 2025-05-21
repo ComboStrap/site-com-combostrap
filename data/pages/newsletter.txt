@@ -4,8 +4,7 @@
     "featured-raster-image": ":undraw_newsletter_re_wrob.png",
     "featured-svg-image": ":undraw_newsletter_re_wrob.svg",
     "low_quality_page": "false",
-    "page_id": "pmtxf7229udd3ocfyriwf",
-    "title": "Newsletter"
+    "page_id": "pmtxf7229udd3ocfyriwf"
 }
 ---
 

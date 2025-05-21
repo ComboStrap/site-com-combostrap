@@ -2,6 +2,7 @@
 {
     "canonical": ":page:image",
     "description": "A page has one or more illustrative images.\n\n\n\n\n\n\t*  featured image: the image that is shown just above or below the title\n\t*  twitter image: the image shown in a Twitter card\n\t*  facebook \/ Open graph image: the image shown in a Facebook and any open graph social network such as Signal, ...\n\n\n\n\n\nThese images can be rendered with thepage imagmetadata manager",
+    "featured-raster-image": ":docs:block:stock_image_surfer_in_the_see.png",
     "images": [
         { "path": ":docs:block:stock_image_surfer_in_the_see.png" }
     ],

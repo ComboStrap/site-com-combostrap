@@ -1,8 +1,7 @@
 ---json
 {
     "description": "Sharing a link from a ComboStrap page will show on every twitter a card thanks to the social metadata",
-    "page_id": "oew9mriffn0e3i9fjczms",
-    "title": "Twitter card enabled"
+    "page_id": "oew9mriffn0e3i9fjczms"
 }
 ---
 ====== ComboStrap Page Metadata - Twitter Card ======

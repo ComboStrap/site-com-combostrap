@@ -1,8 +1,7 @@
 ---json
 {
     "description": "A [[https:\/\/combostrap.com\/frontmatter|frontmatter]] description shown on the Search Engine Result Pages",
-    "page_id": "c4b7cdzshxwics4dgtez7",
-    "title": "The ComboStrap 1.12 release"
+    "page_id": "c4b7cdzshxwics4dgtez7"
 }
 ---
 ====== ComboStrap - Release 1.12 ======

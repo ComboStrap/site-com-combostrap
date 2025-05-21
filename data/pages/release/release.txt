@@ -5,7 +5,6 @@
     "dynamic_quality_monitoring": "false",
     "low_quality_page": "false",
     "page_id": "g2si7zbbvfjkv2ynvlpxl",
-    "template": "index",
     "title": "A log of all changes and release"
 }
 ---

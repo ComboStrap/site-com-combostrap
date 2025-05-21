@@ -3,7 +3,8 @@
     "canonical": ":page:description",
     "description": "The page description is a summary of what your page is about. It's used heavily (search engine, page preview, social card,...). This page shows you how to modify it.",
     "h1": "ComboStrap Page Metadata - Description",
-    "page_id": "uebrgigl4mz6u2nk4yktp"
+    "page_id": "uebrgigl4mz6u2nk4yktp",
+    "title": "Page Description"
 }
 ---
 

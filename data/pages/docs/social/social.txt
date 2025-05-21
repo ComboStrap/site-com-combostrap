@@ -4,8 +4,7 @@
     "description": "This page explains all social modules of Combostrap and how they help spread the words",
     "featured-raster-image": ":docs:social:undraw_social_strategy_re_mk87.png",
     "featured-svg-image": ":docs:social:undraw_social_strategy_re_mk87.svg",
-    "page_id": "7a57f7eqr4ujxl3ycro7z",
-    "title": "ComboStrap makes your pages Social"
+    "page_id": "7a57f7eqr4ujxl3ycro7z"
 }
 ---
 

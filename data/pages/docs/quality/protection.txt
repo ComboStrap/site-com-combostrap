@@ -3,8 +3,7 @@
     "canonical": ":page:protection",
     "description": "The protection mode offers two possibilities for non-public page when the page should not be published",
     "name": "Protection Mode",
-    "page_id": "rareuouh4olq0oq3gke19",
-    "title": "The protection mode determines the access possibility of a page"
+    "page_id": "rareuouh4olq0oq3gke19"
 }
 ---
 ====== ComboStrap Quality - Protection Mode ======

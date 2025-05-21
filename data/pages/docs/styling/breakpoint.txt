@@ -1,8 +1,7 @@
 ---json
 {
     "description": "A breakpoint allows to created conditional styling \/ design",
-    "page_id": "kqvyo8zrfp1rdlqe9gokp",
-    "title": "What are breakpoints ?"
+    "page_id": "kqvyo8zrfp1rdlqe9gokp"
 }
 ---
 ====== What are breakpoints ? ======
@@ -22,7 +21,7 @@
 | Medium | md | ≥768px | Ipad Pro |
 | Large (default) | lg | ≥992px | Desktop Screen |
 | Extra large | xl | ≥1200px | Large Desktop Screen |
-| Extra extra large \\ (new with [[docs:utility:bootstrap#version|bootstrap 5]]) | xxl | ≥1400px  | Extra Large Desktop Screen |
+| Extra extra large \\ (new with [[:docs:theme:bootstrap#version|bootstrap 5]]) | xxl | ≥1400px  | Extra Large Desktop Screen |
 
 
 <note>

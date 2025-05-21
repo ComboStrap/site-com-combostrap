@@ -1,7 +1,7 @@
 ---json
 {
-    "layout": "median",
-    "page_id": "56axulcdjivoxnns79ss1"
+    "page_id": "56axulcdjivoxnns79ss1",
+    "template": "medium"
 }
 ---
 ====== ComboStrap - Platform Requirements ======

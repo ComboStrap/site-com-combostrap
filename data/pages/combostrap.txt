@@ -53,7 +53,7 @@ The website can then be versioned:
   * the [[docs:component|UI Components]]
   * the [[:docs:router:router|router]]
   * the [[docs:metadata:metadata|Web Structured Data and Social Sharing]]
-  * the [[docs:performance:frontend_optimization|frontend optimizer]]
+  * the [[:howto:frontend_optimization|frontend optimizer]]
   * the [[docs:quality:quality|quality module]]
   * the [[docs:analytics:analytics|analytics module]]
   * the [[docs:performance:performance|performance master]]

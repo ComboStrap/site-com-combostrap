@@ -3,8 +3,7 @@
     "canonical": ":permanent:redirect",
     "description": "This articles explains you what a permanent redirect is and when they are executed",
     "name": "Permanent Redirect",
-    "page_id": "az4bo3sva9nvagb9jzkdf",
-    "title": "What are permanent redirects ?"
+    "page_id": "az4bo3sva9nvagb9jzkdf"
 }
 ---
 

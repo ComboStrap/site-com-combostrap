@@ -1,8 +1,7 @@
 ---json
 {
     "description": "Ntoc component has been deprecated",
-    "page_id": "s8q2ysauofhhzic2nkaau",
-    "title": "Ntoc deprecation"
+    "page_id": "s8q2ysauofhhzic2nkaau"
 }
 ---
 ====== ComboStrap UI - Ntoc ======

@@ -1,7 +1,8 @@
 ---json
 {
     "h1": "ComboStrap Analytics - Database",
-    "page_id": "afesgbz3stzslqrz5jxxn"
+    "page_id": "afesgbz3stzslqrz5jxxn",
+    "title": "ComboStrap Analytics - Sqlite Database"
 }
 ---
 ====== ComboStrap Analytics - Sqlite Database ======

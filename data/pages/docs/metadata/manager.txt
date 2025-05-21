@@ -8,8 +8,7 @@
     "dynamic_quality_monitoring": "false",
     "low_quality_page": "false",
     "name": "Metadata Manager",
-    "page_id": "hn7rz2b1qtmeq728t40na",
-    "title": "How to set your metadata with the Metadata Manager"
+    "page_id": "hn7rz2b1qtmeq728t40na"
 }
 ---
 

@@ -1,7 +1,8 @@
 ---json
 {
     "h1": "ComboStrap Analytics - How to query the analytics database",
-    "page_id": "db5uh8pkizcn68hf8nyht"
+    "page_id": "db5uh8pkizcn68hf8nyht",
+    "title": "ComboStrap - How to query the database"
 }
 ---
 ====== ComboStrap - How to query the database ======

@@ -1,8 +1,7 @@
 ---json
 {
     "description": "A panel is a UI component that you can used in a tabs or accordion",
-    "page_id": "ce8iuum3g5tgh3yjhpz4t",
-    "title": "Panel: A component layout in tabs or accordion"
+    "page_id": "ce8iuum3g5tgh3yjhpz4t"
 }
 ---
 ====== ComboStrap UI - Panel ======

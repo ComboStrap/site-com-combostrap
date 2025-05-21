@@ -6,8 +6,7 @@
     "canonical": ":cache:slot",
     "description": "Thanks to the automatic slot cache management, the secondary slots cache is managed automatically and are re-rendered in the background",
     "name": "Auto Slot Cache",
-    "page_id": "dhw5i9epsabpddg6ycz8c",
-    "title": "Automatic Slot Cache Management"
+    "page_id": "dhw5i9epsabpddg6ycz8c"
 }
 ---
 

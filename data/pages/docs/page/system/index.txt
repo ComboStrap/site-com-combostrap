@@ -5,8 +5,7 @@
     ],
     "canonical": ":home",
     "description": "An index page is the page shown when a namespace is asked in the URL or link path.",
-    "page_id": "5ni2cs3g6pvlrl1bnjfdm",
-    "title": "What is a index page ?"
+    "page_id": "5ni2cs3g6pvlrl1bnjfdm"
 }
 ---
 

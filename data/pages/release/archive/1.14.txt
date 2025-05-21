@@ -1,7 +1,6 @@
 ---json
 {
     "date_published": "2021-06-20T00:00:00+00:00",
-    "description": "ComboStrap - Release 1.14",
     "page_id": "xtimf4zj17wp0q4kbxqb5"
 }
 ---

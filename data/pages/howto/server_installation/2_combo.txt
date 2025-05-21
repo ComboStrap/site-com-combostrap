@@ -8,8 +8,7 @@
     "description": "Combo is the bundle of components that complements the strap template.\nThis step shows you how to install it.",
     "name": "Combo Installation",
     "page_id": "zjmtimy9bvfdsnptsvvy7",
-    "template": "holy",
-    "title": "How to install Combo ?"
+    "template": "holy"
 }
 ---
 

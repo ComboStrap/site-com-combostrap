@@ -1,7 +1,8 @@
 ---json
 {
     "h1": "ComboStrap URL Management - Redirection",
-    "page_id": "cx9j7c71dxhjkbl70brm5"
+    "page_id": "cx9j7c71dxhjkbl70brm5",
+    "title": "ComboStrap Routing - Redirection"
 }
 ---
 ====== ComboStrap Routing - Redirection ======

@@ -2,8 +2,7 @@
 {
     "canonical": ":ui:title",
     "description": "A title is a semantic heading that defines the title of a component and does not add a level in the Table of content (ie outline)",
-    "page_id": "eja06wl32m335v42nu1o0",
-    "title": "The Title element in the ComboStrap UI"
+    "page_id": "eja06wl32m335v42nu1o0"
 }
 ---
 

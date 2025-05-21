@@ -18,7 +18,7 @@ This is a version not yet released.
   * [[:docs:admin:docker|DokuWiki Docker]] - A new way to develop and publish ComboStrap WebSite with Docker
   * [[:docs:admin:website|ComboStrap WebSite]] - A ComboStrap WebSite permits to develop and publish website collaboratively (locally or remotely)
   * A new utility: the [[:docs:utility:bundler|page bundler]]. It may be handy when you want to create a [[:howto:pdf|single document (pdf)]] from multiples pages.
-
+  * Added the [[:docs:quality:broken_link#cli|broken link command]] in the [[:docs:admin:cli|cli]]
 
 ==== Bug ====
 
@@ -57,3 +57,7 @@ This is a version not yet released.
 ==== Upgrade ====
 
   * The [[:docs:utility:mermaid|mermaid diagram]] was updated to '11.6.0'. [[https://github.com/ComboStrap/combo/issues/131|RneeJ]]
+
+==== Dokuwiki ====
+
+  * Upgrade to support the [[https://www.dokuwiki.org/changes#release_2025-05-14_librarian|librarian version]] (mostly the [[https://www.dokuwiki.org/plugin:extension|new extension manager]])

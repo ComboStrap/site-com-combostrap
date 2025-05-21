@@ -2,8 +2,7 @@
 {
     "canonical": ":svg:optimization",
     "description": "ComboStrap optimizes by default all SVG making them smaller without losing any quality.",
-    "page_id": "5xr4dw0aerrcc5rbfobif",
-    "title": "Svg Optimization included"
+    "page_id": "5xr4dw0aerrcc5rbfobif"
 }
 ---
 ====== ComboStrap - Svg Optimization ======

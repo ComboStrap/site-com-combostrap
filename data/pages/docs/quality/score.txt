@@ -3,8 +3,7 @@
     "canonical": ":quality:score",
     "description": "The quality score metrics permits to measure the quality of your pages",
     "name": "Quality Score",
-    "page_id": "f907nwlg5mhe4gxgs6x3e",
-    "title": "The calculated quality score"
+    "page_id": "f907nwlg5mhe4gxgs6x3e"
 }
 ---
 

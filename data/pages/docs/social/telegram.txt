@@ -1,7 +1,6 @@
 ---json
 {
-    "page_id": "s9q9mc5xvtdq3um52xi8c",
-    "title": "How your pages are looking on telegram"
+    "page_id": "s9q9mc5xvtdq3um52xi8c"
 }
 ---
 ====== Social - Telegram ======

@@ -1,7 +1,6 @@
 ---json
 {
-    "page_id": "whqn1nlf6v7gshvpqf0y8",
-    "title": "ComboStrap - Font"
+    "page_id": "whqn1nlf6v7gshvpqf0y8"
 }
 ---
 ====== ComboStrap Styling - Font ======

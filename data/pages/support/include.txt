@@ -1,8 +1,8 @@
 ---json
 {
-    "layout": "median",
     "name": "Include Plugin",
-    "page_id": "eq9uyeq70hv0wis6o8g0i"
+    "page_id": "eq9uyeq70hv0wis6o8g0i",
+    "template": "medium"
 }
 ---
 ====== Support  - Include Plugin ======

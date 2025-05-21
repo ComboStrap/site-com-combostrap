@@ -3,7 +3,8 @@
     "canonical": ":best:end:page:name",
     "h1": "ComboStrap URL Management - Best End Page Name Scoring",
     "name": "Best end page name algo",
-    "page_id": "8krn9ufhknyscs432sd72"
+    "page_id": "8krn9ufhknyscs432sd72",
+    "title": "ComboStrap Routing - Best End Page Name Algorithm"
 }
 ---
 

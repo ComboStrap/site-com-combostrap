@@ -1,8 +1,7 @@
 ---json
 {
     "description": "A breadcrumb is a navigational component that shows a list of pages.",
-    "page_id": "13dflf9w2f3x2kvx5mtqw",
-    "title": "Breadcrumbs support by Combostrap"
+    "page_id": "13dflf9w2f3x2kvx5mtqw"
 }
 ---
 

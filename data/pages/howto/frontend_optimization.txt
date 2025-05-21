@@ -1,8 +1,8 @@
 ---json
 {
     "canonical": ":frontend:optimization",
-    "layout": "median",
-    "page_id": "2gsk2rdbl9owghvrbhmz3"
+    "page_id": "2gsk2rdbl9owghvrbhmz3",
+    "template": "medium"
 }
 ---
 

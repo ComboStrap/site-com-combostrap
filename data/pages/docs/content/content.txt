@@ -3,8 +3,7 @@
     "canonical": ":ui:inline",
     "description": "Inline components are used inside a paragraph (ie in a line).",
     "featured-raster-image": ":docs:content:undraw_add_content_re_vgqa.png",
-    "page_id": "6uook5ocjqxxzfdwrvzlb",
-    "title": "ComboStrap UI Inline components "
+    "page_id": "6uook5ocjqxxzfdwrvzlb"
 }
 ---
 ====== ComboStrap UI - Content ======

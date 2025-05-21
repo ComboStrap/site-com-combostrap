@@ -5,8 +5,7 @@
     "description": "This section regroups all HowTo that show you how to do step by step",
     "featured-svg-image": ":howto:undraw_animating.svg",
     "low_quality_page": "false",
-    "page_id": "oqwozv8l2vhi5otajvukr",
-    "title": "How to use the ComboStrap platform"
+    "page_id": "oqwozv8l2vhi5otajvukr"
 }
 ---
 

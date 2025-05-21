@@ -3,8 +3,7 @@
     "cache_expiration_frequency": "@monthly",
     "canonical": ":page-cache-expiration-frequency",
     "description": "With the page cache expiration frequency, you can schedule the expiration of a page cache at interval.",
-    "page_id": "umot7hn7mn66hxmchai75",
-    "title": "How to manage the cache of a page with the cache expiration frequency"
+    "page_id": "umot7hn7mn66hxmchai75"
 }
 ---
 

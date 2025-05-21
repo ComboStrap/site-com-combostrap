@@ -2,7 +2,8 @@
 {
     "canonical": ":redirection:message",
     "h1": "ComboStrap URL Management - Redirection Message",
-    "page_id": "rmu40srlngqhj9v4slv16"
+    "page_id": "rmu40srlngqhj9v4slv16",
+    "title": "ComboStrap Routing - Redirection Message"
 }
 ---
 

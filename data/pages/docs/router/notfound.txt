@@ -3,8 +3,7 @@
     "canonical": ":not:found:redirection",
     "description": "This article shows you what a not found redirection is and when they occurs ",
     "name": "Not Found Redirect",
-    "page_id": "xsfetj1hgmvsjz9nb1u1p",
-    "title": "What is a not found redirection and when they are executed"
+    "page_id": "xsfetj1hgmvsjz9nb1u1p"
 }
 ---
 

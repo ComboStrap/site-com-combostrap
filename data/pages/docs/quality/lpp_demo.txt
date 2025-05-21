@@ -3,8 +3,7 @@
     "canonical": ":late_publication_example",
     "date_published": "2999-01-01T00:00:00+00:00",
     "name": "Late Publication Page",
-    "page_id": "tt8p64vnh3ijix2yf6qrc",
-    "title": "Late Publication Demo Page"
+    "page_id": "tt8p64vnh3ijix2yf6qrc"
 }
 ---
 ====== Late Publication Page Demo ======

@@ -6,8 +6,7 @@
     "canonical": ":side_slot",
     "description": "The sidebar is a slot that replaces the content of the sidebar.\n\n\n\n\n\n\n\n\n\nThe cache of the side slot is automatically deleted when a page in the same namespace is created, added or deleted.\nSee \n\n\n\n\n\nThe components are by default collapsed until the medium screen by setting thetoggle attributecollapsed expanded-mdside slotdokuwiki sidebaconfiguration",
     "name": "Sidebar Slot",
-    "page_id": "xhixvt6md9ryujvs1r4l7",
-    "title": "What is a side slot ? "
+    "page_id": "xhixvt6md9ryujvs1r4l7"
 }
 ---
 ====== Sidebar ======

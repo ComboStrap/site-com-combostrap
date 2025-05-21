@@ -1,8 +1,7 @@
 ---json
 {
     "description": "ComboStrap Release 1.10 - list of changes",
-    "page_id": "t9pgq7dhl6sqpf7bhedld",
-    "title": "ComboStrap Release 1.10"
+    "page_id": "t9pgq7dhl6sqpf7bhedld"
 }
 ---
 ====== ComboStrap - Release 1.10 ======

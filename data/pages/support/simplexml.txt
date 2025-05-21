@@ -1,7 +1,7 @@
 ---json
 {
-    "layout": "median",
-    "page_id": "1opeml2235tep1x1ivccw"
+    "page_id": "1opeml2235tep1x1ivccw",
+    "template": "medium"
 }
 ---
 ====== Fatal Error - Class 'SimpleXMLElement' not found ======

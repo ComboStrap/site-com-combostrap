@@ -2,8 +2,7 @@
 {
     "canonical": ":ui:layout",
     "description": "A layout component is a component that laid out other components. This page lists the layout component of ComboStrap",
-    "page_id": "zt5lzss1wvqje19ttg8tu",
-    "title": "Layout components of Combostrap"
+    "page_id": "zt5lzss1wvqje19ttg8tu"
 }
 ---
 ====== ComboStrap UI - Layout Components ======

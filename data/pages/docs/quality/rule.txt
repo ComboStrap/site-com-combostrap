@@ -3,8 +3,7 @@
     "canonical": ":quality:rule",
     "description": "Learn about how to use the quality rule feature to improve the quality of your website",
     "name": "Quality Rule",
-    "page_id": "2ggt7n0a2eqipznxn7h89",
-    "title": "The content quality rule of a page that ComboStrap applies"
+    "page_id": "2ggt7n0a2eqipznxn7h89"
 }
 ---
 

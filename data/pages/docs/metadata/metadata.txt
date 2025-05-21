@@ -4,8 +4,7 @@
     "featured-raster-image": ":docs:metadata:undraw_file_analysis_8k9b.png",
     "featured-svg-image": ":docs:metadata:undraw_file_analysis_8k9b.svg",
     "name": "Page Metadata",
-    "page_id": "g3ybk2voget4lnvle49la",
-    "title": "All the metadatas that you can set for your pages"
+    "page_id": "g3ybk2voget4lnvle49la"
 }
 ---
 ====== ComboStrap - Metadata ======

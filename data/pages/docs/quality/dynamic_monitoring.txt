@@ -2,8 +2,7 @@
 {
     "canonical": ":dynamic-quality-monitoring",
     "description": "Dynamic Page Quality Monitoring is a ComboStrap feature that encourages the writer to improve the quality score of the page. A message is shown that indicates the quality rules that can be improved and how.",
-    "page_id": "oyjb9dw2wi82m26vg1pr9",
-    "title": "Improve your page quality with dynamic quality monitoring"
+    "page_id": "oyjb9dw2wi82m26vg1pr9"
 }
 ---
 ====== ComboStrap Quality - Dynamic Page Monitoring ======

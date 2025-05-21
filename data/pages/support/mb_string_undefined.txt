@@ -2,10 +2,9 @@
 {
     "description": "What to do when you get this error: PHP Fatal error:  Uncaught Error: Call to undefined function mb_substr().",
     "dynamic_quality_monitoring": "false",
-    "layout": "median",
     "low_quality_page": "false",
     "page_id": "xbwtk7anppg8qsunl5hdx",
-    "title": "undefined function mb_substr(): what to do when you get this error ?"
+    "template": "medium"
 }
 ---
 ====== ComboStrap - undefined function mb_substr()  ======

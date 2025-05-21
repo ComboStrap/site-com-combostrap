@@ -2,10 +2,8 @@
 {
     "canonical": ":release:1.18",
     "date_published": "2021-07-22T00:00:00+00:00",
-    "description": "ComboStrap Release 1.18",
     "name": "Release 1.18",
-    "page_id": "9gld2qkkhp4qje280xu2r",
-    "title": "ComboStrap Release 1.18"
+    "page_id": "9gld2qkkhp4qje280xu2r"
 }
 ---
 ====== ComboStrap - Release 1.18 ======

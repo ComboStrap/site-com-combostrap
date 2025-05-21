@@ -1,8 +1,8 @@
 ---json
 {
     "canonical": ":app:conf",
-    "layout": "median",
-    "page_id": "ej724rlcllpz96c4ici2d"
+    "page_id": "ej724rlcllpz96c4ici2d",
+    "template": "medium"
 }
 ---
 

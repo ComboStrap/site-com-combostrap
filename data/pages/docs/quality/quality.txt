@@ -1,8 +1,7 @@
 ---json
 {
     "description": "Get insight on the quality of your pages and takes back control of your SEO",
-    "page_id": "qa26na4sbjcj3f4ht02vq",
-    "title": "Web quality module of Combostrap"
+    "page_id": "qa26na4sbjcj3f4ht02vq"
 }
 ---
 

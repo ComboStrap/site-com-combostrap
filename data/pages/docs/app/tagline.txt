@@ -1,7 +1,8 @@
 ---json
 {
     "h1": "ComboStrap App - Tagline",
-    "page_id": "3pkfwh33zqw8mff9u2w47"
+    "page_id": "3pkfwh33zqw8mff9u2w47",
+    "title": "ComboStrap App - Tagline \/ Slogan"
 }
 ---
 

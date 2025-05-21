@@ -2,7 +2,8 @@
 {
     "canonical": ":page:rules",
     "h1": "ComboStrap URL Management - Pages Rules",
-    "page_id": "wx9h8eco3avtvqozkwy4h"
+    "page_id": "wx9h8eco3avtvqozkwy4h",
+    "title": "ComboStrap Routing - Pages Rules"
 }
 ---
 

@@ -23,7 +23,6 @@
     "lead": "Growing the world GDP of publishers and creators",
     "page_id": "fsojp0ad4439gkcqtdi23",
     "template": "medium",
-    "title": "The ComboStrap Organization - About us",
     "type": "organization"
 }
 ---

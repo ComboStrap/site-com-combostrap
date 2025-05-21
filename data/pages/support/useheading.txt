@@ -1,7 +1,7 @@
 ---json
 {
-    "layout": "median",
-    "page_id": "e1fxq9icxquo2x0foy04e"
+    "page_id": "e1fxq9icxquo2x0foy04e",
+    "template": "medium"
 }
 ---
 ====== Why you should disable the useHeading Configuration ======

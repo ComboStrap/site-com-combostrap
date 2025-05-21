@@ -1,8 +1,7 @@
 ---json
 {
     "description": "The namespace of a page is the equivalent of a directory in the page system.",
-    "page_id": "yok3em4px0fugqlsjo3pg",
-    "title": "What is the namespace of a page ?"
+    "page_id": "yok3em4px0fugqlsjo3pg"
 }
 ---
 

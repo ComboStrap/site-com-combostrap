@@ -2,7 +2,8 @@
 {
     "canonical": ":uuid",
     "h1": "UUID (Universally Unique IDentifier)",
-    "page_id": "vuyrji92f5jtc8enj7v6k"
+    "page_id": "vuyrji92f5jtc8enj7v6k",
+    "title": "Page Id"
 }
 ---
 ====== Page Id ======

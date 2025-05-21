@@ -1,7 +1,8 @@
 ---json
 {
     "h1": "ComboStrap URL Management - Log redirections History",
-    "page_id": "7kdfauhb7rnhe92xkkdmh"
+    "page_id": "7kdfauhb7rnhe92xkkdmh",
+    "title": "ComboStrap Routing - Log redirections History"
 }
 ---
 ====== ComboStrap Routing - Log redirections History ======

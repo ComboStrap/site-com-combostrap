@@ -4,8 +4,7 @@
     "date_published": "2021-09-17T00:00:00+00:00",
     "description": "This page lists the changes for the combostrap release 1.20.\nTemplating has been introduced with iteration and SQL",
     "name": "Release 1.20",
-    "page_id": "qeoypmezq7bmb7u0lxwsa",
-    "title": "Release 1.20 -  Templating"
+    "page_id": "qeoypmezq7bmb7u0lxwsa"
 }
 ---
 ====== ComboStrap - Release 1.20 ======

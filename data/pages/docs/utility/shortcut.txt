@@ -2,8 +2,7 @@
 {
     "canonical": ":accesskey",
     "description": "This article lists the most common keyboard shortcuts available",
-    "page_id": "mb3kmoh8jcv0wwap9gr42",
-    "title": "ComboStrap - List of the keyboard shortcuts (access key)"
+    "page_id": "mb3kmoh8jcv0wwap9gr42"
 }
 ---
 

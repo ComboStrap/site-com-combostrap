@@ -7,8 +7,7 @@
     "description": "A slot is a location in the page where a markup file is rendered.",
     "featured-raster-image": ":docs:layout:component:undraw_website_builder_re_ii6e.png",
     "page_id": "rxvr5513sglm9cjiy6sj8",
-    "template": "holy",
-    "title": "What is the slot system ?"
+    "template": "holy"
 }
 ---
 ====== Slot System ======

@@ -4,8 +4,7 @@
     "description": "This article explains the secret sauce of the ComboStrap performance and what you should avoid in order to not degrade it.",
     "lead": "Bring your users the best experience",
     "page_id": "7eywsucy734a11mcyhuav",
-    "template": "medium",
-    "title": "What makes the ComboStrap performance so fast?"
+    "template": "medium"
 }
 ---
 ====== ComboStrap - Perfomance ======

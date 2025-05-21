@@ -5,8 +5,7 @@
     ],
     "name": "Git Site",
     "page_id": "4335hckjomaayfepj2m1v",
-    "template": "holy",
-    "title": "How to store your site in Git?"
+    "template": "holy"
 }
 ---
 ====== How to store your site in Git? ======

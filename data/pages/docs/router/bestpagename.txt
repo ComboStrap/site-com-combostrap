@@ -3,7 +3,8 @@
     "canonical": ":best:page:name",
     "h1": "ComboStrap URL Management - Best Page Name",
     "name": "Best Page Name Algo",
-    "page_id": "dpgszvs08798pxd1uudap"
+    "page_id": "dpgszvs08798pxd1uudap",
+    "title": "ComboStrap Routing - Best Page Name Algorithm"
 }
 ---
 

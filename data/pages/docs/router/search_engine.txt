@@ -1,7 +1,8 @@
 ---json
 {
     "h1": "ComboStrap URL Management - Redirection to the intern search engine",
-    "page_id": "lfyv6ubxw5dybe7fp4fqo"
+    "page_id": "lfyv6ubxw5dybe7fp4fqo",
+    "title": "ComboStrap Routing - Redirection to the intern search engine"
 }
 ---
 ====== ComboStrap Routing - Redirection to the intern search engine ======

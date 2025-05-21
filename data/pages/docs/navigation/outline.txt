@@ -1,8 +1,7 @@
 ---json
 {
     "description": "Configuration and usage of the outline in Combostrap",
-    "page_id": "2i7yk4420aens3eo7l93f",
-    "title": "Outline (Heading Hierarchy)"
+    "page_id": "2i7yk4420aens3eo7l93f"
 }
 ---
 

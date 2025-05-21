@@ -1,8 +1,7 @@
 ---json
 {
     "description": "The combostrap 1.13 release documentation ",
-    "page_id": "j26525t9qchmlahdbr86n",
-    "title": "ComboStrap - 1.13 release"
+    "page_id": "j26525t9qchmlahdbr86n"
 }
 ---
 ====== ComboStrap - Release 1.13  ======

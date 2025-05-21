@@ -1,8 +1,7 @@
 ---json
 {
     "description": "Deprecated by the bar component",
-    "page_id": "82qnz9h7tpo6n7w4sz66d",
-    "title": "The slide component has been deprecated for the bar component"
+    "page_id": "82qnz9h7tpo6n7w4sz66d"
 }
 ---
 ====== ComboStrap UI - Slide ======

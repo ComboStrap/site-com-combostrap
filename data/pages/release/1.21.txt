@@ -4,8 +4,7 @@
     "date_published": "2021-09-28T00:00:00+00:00",
     "description": "This page lists the changes of the release 1.21.",
     "name": "Release 1.21",
-    "page_id": "74id80xoiauccnjh7hhvy",
-    "title": "Release 1.21"
+    "page_id": "74id80xoiauccnjh7hhvy"
 }
 ---
 

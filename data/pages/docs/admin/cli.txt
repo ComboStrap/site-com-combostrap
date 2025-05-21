@@ -12,6 +12,7 @@ The ''cli'' is a command line client that permits to perform the following admin
   * [[docs:metadata:frontmatter|replicate the metadata to the frontmatter]]
   * delete non-existing page from the database (''sync'')
   * check if there is any [[support:plugin|plugin]] with a new version
+  * list [[:docs:quality:broken_link#cli|broken links]]
 
 ===== How to execute it =====
 
