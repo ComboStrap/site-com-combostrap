@@ -52,7 +52,8 @@ This release brings:
 
 ==== Compatibility ====
 
-  * We are now compatible with the new [[https://github.com/michitux/dokuwiki-plugin-move/commit/74ee74225777949c09b76ccc9caf218f15070b44|Move plugin]] handling (ie ''wikitext''), see ''linkmove.php''
+  * Upgrade to support the [[https://www.dokuwiki.org/changes#release_2025-05-14_librarian|librarian version]] (mostly the [[https://www.dokuwiki.org/plugin:extension|new extension manager]])
+  * We are now compatible with the new [[https://github.com/michitux/dokuwiki-plugin-move/commit/74ee74225777949c09b76ccc9caf218f15070b44|Move plugin]] handling (ie ''wikitext'') that was breaking with librarian, see combo ''linkmove.php''
 
 ==== Fix ====
 
@@ -63,6 +64,4 @@ This release brings:
 
   * The [[:docs:utility:mermaid|mermaid diagram]] was updated to '11.6.0'. [[https://github.com/ComboStrap/combo/issues/131|RneeJ]]
 
-==== Dokuwiki ====
 
-  * Upgrade to support the [[https://www.dokuwiki.org/changes#release_2025-05-14_librarian|librarian version]] (mostly the [[https://www.dokuwiki.org/plugin:extension|new extension manager]])
