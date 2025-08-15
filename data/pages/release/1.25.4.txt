@@ -9,7 +9,9 @@
 
 
 ===== About =====
-This is a version not yet released.
+This release brings:
+  * [[:docs:admin:docker|docker support]]. The ''Combostrap'' website is now fully powered by it.
+  * and bug fixes, improvement, version bump
 
 
 ===== List =====
