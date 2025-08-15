@@ -41,7 +41,7 @@ This release brings:
 
   * The router has been completely rewritten to catch ''TOO_MANY_REDIRECT'' browser error. [[https://github.com/ComboStrap/combo/commit/45a874f4355f8bee7459e5d3b79e86e68468b316|Commit]]
   * The database row collision detection was throwing an error stopping the sync. We known report an error in the log. [[https://github.com/ComboStrap/combo/commit/c0705265c76e59176d9f02515cf7dcf68d9c4862|c0705265c76e59176d9f02515cf7dcf68d9c4862]]
-
+  * An id '':page:id'' is a valid url for the [[https://www.php.net/manual/en/function.parse-url.php|parse-url]] php, leading to error in the redirection handling
 ==== Improvement ====
   * Deleted warnings caused by php8.3 about array and other php7 construct.
   * InterWiki: We put the interwiki name in lowercase (mandatory).
