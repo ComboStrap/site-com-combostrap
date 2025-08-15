@@ -32,11 +32,20 @@ This is a [[docs:utility:prism|Prism component]] and follows its [[docs:utility:
 
 See [[docs:utility:prism#syntax|prism syntax]]
 
+===== ANSI Colors =====
 
+A language called ''ansi'' can be used to transform a terminal output with [[https://en.wikipedia.org/wiki/ANSI_escape_code|ansi escaped code]]
+to render the colors.
 
-
-
-
+Example:
+<webcode>
+```dw
+<console ansi>
+This text is [31mred[0m. This one is [32mgreen[0m and this one is [34mblue[0m.
+</console>
+```
+You will get this output:
+</webcode>
 
 ===== Configuration =====
 

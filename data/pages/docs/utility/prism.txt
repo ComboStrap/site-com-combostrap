@@ -141,7 +141,9 @@ Except from [[docs:block:preformatted|preformatted]] that is based on indentatio
 </component>
 </file>
 where:
-  * ''language'' is the language of the code (''html'', ''xml'', ...). Find all [[https://prismjs.com/#supported-languages|supported languages in the Prism website]]
+  * ''language'' is the language of the code (''html'', ''xml'', ...). 
+      * Find all [[https://prismjs.com/#supported-languages|supported languages in the Prism website]]
+      * We added also the [[:docs:block:console#ansi colors|ansi language]] to color terminal output
   * ''file-path'' is an optional argument that gives the name of the file that will show up in the download button when hovering over the component.
   * ''line-numbers'' will show line numbers if present
   * ''prompt'' will add a command line prompt

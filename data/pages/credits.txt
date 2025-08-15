@@ -32,3 +32,4 @@
 | [[https://github.com/Chrriis/rrdiagram-js|RRDiagram]] | The library that drives the [[docs:diagram:railroad|railroad component]] |
 | [[https://ellisonleao.github.io/sharer.js/|Sharer]] and [[http://sharingbuttons.io|sharingbuttons]]  | The library that drives / inspired the [[docs:social:share|share buttons]] |
 | [[https://glidejs.com/|GlideJs]] | The [[docs:layout:component:carrousel|carrousel]] engine |
+| [[https://github.com/drudru/ansi_up|Ansi Up]] | The ANSI language engine for the [[:docs:block:console|console block]] to colorized output |

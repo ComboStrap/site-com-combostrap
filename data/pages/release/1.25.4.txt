@@ -19,7 +19,7 @@ This is a version not yet released.
   * [[:docs:admin:website|ComboStrap WebSite]] - A ComboStrap WebSite permits to develop and publish website collaboratively (locally or remotely)
   * A new utility: the [[:docs:utility:bundler|page bundler]]. It may be handy when you want to create a [[:howto:pdf|single document (pdf)]] from multiples pages.
   * Added the [[:docs:quality:broken_link#cli|broken link command]] in the [[:docs:admin:cli|cli]]
-
+  * New language added called [[:docs:block:console#ansi colors|ansi]] to transform terminal output with ansi escape sequence into html
 ==== Bug ====
 
   * [[https://github.com/ComboStrap/combo/issues/106|Bug]] reported by [[https://github.com/jkiser99dev|jkiser99dev]]: ''base rewrite'' was messing up with the CDN url.
