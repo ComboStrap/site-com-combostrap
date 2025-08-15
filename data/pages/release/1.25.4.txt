@@ -50,6 +50,9 @@ This release brings:
   * Unknown [[:docs:marki|marki tag]] are now printed escaped to the HTML doc.
 
 
+==== Compatibility ====
+
+  * We are now compatible with the new [[https://github.com/michitux/dokuwiki-plugin-move/commit/74ee74225777949c09b76ccc9caf218f15070b44|Move plugin]] handling (ie ''wikitext''), see ''linkmove.php''
 
 ==== Fix ====
 

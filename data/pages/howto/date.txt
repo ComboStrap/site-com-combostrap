@@ -89,7 +89,7 @@ ${"2022-05-05" | format()}
 <webcode name="Default" frameborder="0">
   * A date formatted in French with the default pattern (The markup with the [[docs:locale:locale|locale]] attribute with just the region (ie country) as value)
 <code dw>
-${now | format( "", "fr" )}
+${now | format( "", "fr_FR" )}
 </code>
 </webcode>
 
@@ -98,7 +98,7 @@ ${now | format( "", "fr" )}
 <webcode name="Default" frameborder="0">
   * Compare it with the US date
 <code dw>
-${now | format( "", "us" )}
+${now | format( "", "en_GB" )}
 </code>
 </webcode>
 
